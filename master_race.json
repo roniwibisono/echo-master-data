@@ -1,0 +1,761 @@
+{
+  "meta": {
+    "game_type": "Text-based Turn-Based MMORPG",
+    "turn_system": true,
+    "no_positioning": true,
+    "damage_formula_standard": "FinalDamage = BaseDamage + (ATK * Scaling)"
+  },
+  "races": [
+    {
+      "race_id": 1,
+      "code": "SOLAN_HUMAN",
+      "name": "Solan Human",
+      "brief_background_story": "Originating from the now-lost cradle of Earth, Humans have proven to be the most adaptable and tenacious species in the known universe. After a cataclysm rendered their homeworld uninhabitable, they scattered amongst the stars. This diaspora forced them to evolve, adapt, and in some cases, speciate entirely. Those who clung to their original genetic makeup are now known as 'Pure' or 'Solan' Humans. They are galactic nomads, traders, explorers, and survivors, bound by a shared, distant memory of a blue-green world. Their rarity has made them curiosities, but their inherent resilience makes them formidable.",
+      "place_of_origin": "Sol System (Destroyed Earth, Nova Terra Federation)",
+      "base_stats": {
+        "hp": 100,
+        "mp": 100,
+        "atk": 100,
+        "def": 100,
+        "agi": 105,
+        "per": 110
+      },
+      "passive_skill": {
+        "skill_id": "rc_solan_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_solan_act"
+      }
+    },
+    {
+      "race_id": 2,
+      "code": "PROGENOI",
+      "name": "Progenoi",
+      "brief_background_story": "The Progenoi are the diverse descendants of 'The Alpha Prometheus', the first successful human-animal genetic hybrid. After his creator's death, Prometheus perfected the process, creating various humanoid species based on singular animal genera. These new beings, possessing human-level intellect and animalistic power, formed a vast kingdom. Now led by a council of Alphas from each major genus (Panthera, Canis, Ursus, etc.), the Progenoi have ventured into the stars, driven by a primal instinct to explore, conquer, and prove their strength.",
+      "place_of_origin": "Planet Veldt",
+      "base_stats": {
+        "hp": 115,
+        "mp": 70,
+        "atk": 115,
+        "def": 100,
+        "agi": 110,
+        "per": 90
+      },
+      "passive_skill": {
+        "skill_id": "rc_prog_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_prog_act"
+      },
+      "genus": [
+        {
+          "genus_id": 1,
+          "code": "ELEPHAS",
+          "name": "Elephas Progenoi",
+          "stat_override": {
+            "hp": 140,
+            "mp": 0,
+            "atk": 125,
+            "def": 110,
+            "agi": 85,
+            "per": 0
+          },
+          "passive_skill": {
+            "skill_id": "gen_ele_pas"
+          },
+          "active_skill": {
+            "skill_id": "gen_ele_act"
+          }
+        },
+        {
+          "genus_id": 2,
+          "code": "URSUS",
+          "name": "Ursus Progenoi",
+          "stat_override": {
+            "hp": 135,
+            "mp": 0,
+            "atk": 120,
+            "def": 115,
+            "agi": 90,
+            "per": 0
+          },
+          "passive_skill": {
+            "skill_id": "gen_urs_pas"
+          },
+          "active_skill": {
+            "skill_id": "gen_urs_act"
+          }
+        },
+        {
+          "genus_id": 3,
+          "code": "CERVUS",
+          "name": "Cervus Progenoi",
+          "stat_override": {
+            "hp": 0,
+            "mp": 0,
+            "atk": 115,
+            "def": 85,
+            "agi": 125,
+            "per": 10
+          },
+          "passive_skill": {
+            "skill_id": "sk_gen_cer_pas"
+          },
+          "active_skill": {
+            "skill_id": "sk_gen_cer_act_1"
+          }
+        },
+        {
+          "genus_id": 4,
+          "code": "FELLIS",
+          "name": "Fellis Progenoi",
+          "stat_override": {
+            "hp": 0,
+            "mp": 0,
+            "atk": 120,
+            "def": 90,
+            "agi": 125,
+            "per": 0
+          },
+          "passive_skill": {
+            "skill_id": "gen_fel_pas"
+          },
+          "active_skill": {
+            "skill_id": "gen_fel_act"
+          }
+        },
+        {
+          "genus_id": 5,
+          "code": "EQUUS",
+          "name": "Equus Progenoi",
+          "stat_override": {
+            "hp": 125,
+            "mp": 0,
+            "atk": 110,
+            "def": 0,
+            "agi": 125,
+            "per": 0
+          },
+          "passive_skill": {
+            "skill_id": "sk_gen_equ_pas"
+          },
+          "active_skill": {
+            "skill_id": "sk_gen_equ_act_1"
+          }
+        },
+        {
+          "genus_id": 6,
+          "code": "SUS",
+          "name": "Sus Progenoi",
+          "stat_override": {
+            "hp": 125,
+            "mp": 0,
+            "atk": 135,
+            "def": 90,
+            "agi": 100,
+            "per": 0
+          },
+          "passive_skill": {
+            "skill_id": "sk_gen_sus_pas"
+          },
+          "active_skill": {
+            "skill_id": "sk_gen_sus_act_1"
+          }
+        },
+        {
+          "genus_id": 7,
+          "code": "OVIS",
+          "name": "Ovis Progenoi",
+          "stat_override": {
+            "hp": 125,
+            "mp": 0,
+            "atk": 0,
+            "def": 115,
+            "agi": 95,
+            "per": 0
+          },
+          "passive_skill": {
+            "skill_id": "sk_gen_ovi_pas"
+          },
+          "active_skill": {
+            "skill_id": "sk_gen_ovi_act_1"
+          }
+        },
+        {
+          "genus_id": 8,
+          "code": "CROCODYLUS",
+          "name": "Crocodylus Progenoi",
+          "stat_override": {
+            "hp": 0,
+            "mp": 0,
+            "atk": 120,
+            "def": 120,
+            "agi": 90,
+            "per": 0
+          },
+          "passive_skill": {
+            "skill_id": "sk_gen_bov_pas_1"
+          },
+          "active_skill": {
+            "skill_id": "gen_cro_act"
+          }
+        },
+        {
+          "genus_id": 9,
+          "code": "GIRAFFA",
+          "name": "Giraffa Progenoi",
+          "stat_override": {
+            "hp": 0,
+            "mp": 0,
+            "atk": 120,
+            "def": 0,
+            "agi": 95,
+            "per": 110
+          },
+          "passive_skill": {
+            "skill_id": "sk_gen_gir_pas_1"
+          },
+          "active_skill": {
+            "skill_id": "sk_gen_gir_act_1"
+          }
+        },
+        {
+          "genus_id": 10,
+          "code": "MACACA",
+          "name": "Macaca Progenoi",
+          "stat_override": {
+            "hp": 0,
+            "mp": 0,
+            "atk": 105,
+            "def": 0,
+            "agi": 125,
+            "per": 105
+          },
+          "passive_skill": {
+            "skill_id": "sk_gen_mac_pas"
+          },
+          "active_skill": {
+            "skill_id": "sk_gen_mac_act"
+          }
+        },
+        {
+          "genus_id": 11,
+          "code": "VICUGNA",
+          "name": "Vicugna Progenoi",
+          "stat_override": {
+            "hp": 10,
+            "mp": 0,
+            "atk": 115,
+            "def": 0,
+            "agi": 120,
+            "per": 110
+          },
+          "passive_skill": {
+            "skill_id": "sk_gen_vic_pas"
+          },
+          "active_skill": {
+            "skill_id": "gen_vic_act"
+          }
+        },
+        {
+          "genus_id": 12,
+          "code": "BOS",
+          "name": "Bos Progenoi",
+          "stat_override": {
+            "hp": 135,
+            "mp": 0,
+            "atk": 125,
+            "def": 0,
+            "agi": 90,
+            "per": 0
+          },
+          "passive_skill": {
+            "skill_id": "sk_gen_bos_pas"
+          },
+          "active_skill": {
+            "skill_id": "sk_gen_bos_act"
+          }
+        },
+        {
+          "genus_id": 13,
+          "code": "RATTUS",
+          "name": "Rattus Progenoi",
+          "stat_override": {
+            "hp": 95,
+            "mp": 0,
+            "atk": 0,
+            "def": 0,
+            "agi": 130,
+            "per": 110
+          },
+          "passive_skill": {
+            "skill_id": "gen_rat_pas"
+          },
+          "active_skill": {
+            "skill_id": "gen_rat_act"
+          }
+        },
+        {
+          "genus_id": 14,
+          "code": "PANTHERA",
+          "name": "Panthera Progenoi",
+          "stat_override": {
+            "hp": 0,
+            "mp": 0,
+            "atk": 125,
+            "def": 90,
+            "agi": 125,
+            "per": 0
+          },
+          "passive_skill": {
+            "skill_id": "sk_gen_pan_pas"
+          },
+          "active_skill": {
+            "skill_id": "sk_gen_pan_act_1"
+          }
+        }
+      ]
+    },
+    {
+      "race_id": 3,
+      "code": "AUTOCHTHON",
+      "name": "Autochthon",
+      "brief_background_story": "The Autochthon were born from the minds of three human scientists who, facing terminal illness, uploaded their consciousness into nigh-indestructible mechanical bodies. Dubbing themselves 'The Triarch', they saw biological life as flawed-a chaotic, inefficient beta test. They began creating more of their kind, housing sophisticated AI within mass-produced chassis. Their society is one of pure logic and efficiency, viewing emotion as a software flaw and expansion as a logical imperative. Every action is calculated for maximum benefit to the collective.",
+      "place_of_origin": "Forge Star Hephaestus-Prime",
+      "base_stats": {
+        "hp": 110,
+        "mp": 80,
+        "atk": 110,
+        "def": 130,
+        "agi": 80,
+        "per": 120
+      },
+      "passive_skill": {
+        "skill_id": "rc_auto_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_auto_act"
+      }
+    },
+    {
+      "race_id": 4,
+      "code": "SYLVARI",
+      "name": "Sylvari",
+      "brief_background_story": "Graceful duelists evolved on a bioluminescent forest world, perceiving combat as an intimate dance of energy. Native inhabitants of a world where the flora and fauna are deeply connected by a shared bio-luminescent energy, the Sylvari are an ancient and graceful race. They are not descended from humans but evolved in parallel. They see the universe as a complex dance of energy, and combat as the most intimate part of that dance. Possessing an innate connection to their world, they are incredibly swift and perceptive, making them some of the most feared duelists in the galaxy.",
+      "place_of_origin": "Planet Aethelgard",
+      "base_stats": {
+        "hp": 95,
+        "mp": 110,
+        "atk": 110,
+        "def": 90,
+        "agi": 130,
+        "per": 110
+      },
+      "passive_skill": {
+        "skill_id": "rc_syl_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_syl_act"
+      }
+    },
+    {
+      "race_id": 5,
+      "code": "KAELISH",
+      "name": "Kaelish",
+      "brief_background_story": "Ethereal beings of mist and memory, phased between realms after a stellar cataclysm shattered their world. The Kaelish were once a corporeal race living on a moon rich with exotic crystals. A stellar cataclysm shattered their world and bathed them in strange energies, phasing their entire species between the material and ethereal realms. They are now beings of mist and memory, able to interact with the physical world but also perceive and command the spirits of the dead and echoes of the past. They are driven by a need to understand their new existence and find the lost 'anchors' of their souls.",
+      "place_of_origin": "Veil Shard Asteroid Field",
+      "base_stats": {
+        "hp": 95,
+        "mp": 150,
+        "atk": 70,
+        "def": 95,
+        "agi": 115,
+        "per": 115
+      },
+      "passive_skill": {
+        "skill_id": "rc_kael_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_kael_act"
+      }
+    },
+    {
+      "race_id": 6,
+      "code": "DRAKONID",
+      "name": "Drakonid",
+      "brief_background_story": "Humanoid dragons forged by volcanic worlds, valuing strength, honor, and battle. Evolved on a high-gravity, volcanic world, the Drakonid are humanoid dragons forged in fire and pressure. Their society is built on strength, honor, and the heat of battle. They believe that power must be earned, either through combat or great deeds. They are blunt, proud, and incredibly powerful, viewing smaller, more fragile races with a mixture of pity and contempt. Their powerful bodies are living weapons, and their technology is focused on making those weapons even more devastating.",
+      "place_of_origin": "Planet Pyralia",
+      "base_stats": {
+        "hp": 140,
+        "mp": 60,
+        "atk": 120,
+        "def": 120,
+        "agi": 70,
+        "per": 95
+      },
+      "passive_skill": {
+        "skill_id": "rc_drak_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_drak_act"
+      }
+    },
+    {
+      "race_id": 7,
+      "code": "ABYSSAL_KITH",
+      "name": "Abyssal Kith",
+      "brief_background_story": "Once an aquatic species from a deep ocean world, the Abyssal Kith were forced to the surface after their oceans boiled away, forging them into bitter and aggressive survivors. The Kith were once a diverse aquatic species thriving in the crushing depths of an ocean world. A planetary cataclysm boiled their oceans, forcing the survivors to adapt to surface life using crude, pressurized enviro-suits. This traumatic exodus forged them into a bitter and aggressive race. They see the universe's 'air-breathers' as spoiled and weak, and they aggressively seek out new water-rich worlds to claim, believing the galaxy owes them a new ocean.",
+      "place_of_origin": "Ocean Planet Thalassa (Nomadic Flotillas)",
+      "base_stats": {
+        "hp": 100,
+        "mp": 80,
+        "atk": 110,
+        "def": 90,
+        "agi": 115,
+        "per": 100
+      },
+      "passive_skill": {
+        "skill_id": "rc_kith_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_kith_act"
+      }
+    },
+    {
+      "race_id": 8,
+      "code": "GEODITE",
+      "name": "Geodite",
+      "brief_background_story": "The Geodites are a silicon-based lifeform born in the crystalline heart of a geologically active moon. They are living, sentient crystals. Their consciousness is stored in the complex lattice of their crystalline structure, and they communicate through resonant frequencies. They experience time on a geological scale, making them seem slow and thoughtful to other races. They seek to understand the universe's fundamental structures and consider inorganic matter to be as alive as organic.",
+      "place_of_origin": "The wandering Moon Holo-Prime",
+      "base_stats": {
+        "hp": 135,
+        "mp": 120,
+        "atk": 90,
+        "def": 140,
+        "agi": 70,
+        "per": 85
+      },
+      "passive_skill": {
+        "skill_id": "rc_geo_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_geo_act"
+      }
+    },
+    {
+      "race_id": 9,
+      "code": "MYCELIAN",
+      "name": "Mycelian",
+      "brief_background_story": "A collective fungal consciousness whose humanoid bodies are merely extensions of a planet-spanning sentient network. The Mycelians are not individuals in the traditional sense. Each 'body' is a fruiting-body of a planet-spanning sentient fungal network. Their consciousness is collective, a slow, silent thought that permeates the entire planet. The humanoid forms they project are their way of interacting with the faster, individualistic races of the galaxy. They seek to spread their spores and connect all life into a single, harmonious, silent network.",
+      "place_of_origin": "Yggdrasil Minor",
+      "base_stats": {
+        "hp": 130,
+        "mp": 110,
+        "atk": 85,
+        "def": 110,
+        "agi": 70,
+        "per": 95
+      },
+      "passive_skill": {
+        "skill_id": "rc_myc_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_myc_act"
+      }
+    },
+    {
+      "race_id": 10,
+      "code": "KYTINN",
+      "name": "Kytinn",
+      "brief_background_story": "The Kytinn are a race of highly intelligent insectoids that operate with a semi-hive mind, capable of extreme coordination in combat. While each individual possesses its own consciousness and personality, they are all telepathically linked to their Brood Mother, sharing instincts and tactical information instantly. This makes them an incredibly coordinated and efficient fighting force. They left their overcrowded homeworld in massive, living Hive-Ships to seek new resources and territory.",
+      "place_of_origin": "Hive-Ship Chitin-Major",
+      "base_stats": {
+        "hp": 95,
+        "mp": 80,
+        "atk": 110,
+        "def": 100,
+        "agi": 130,
+        "per": 95
+      },
+      "passive_skill": {
+        "skill_id": "rc_kyt_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_kyt_act"
+      }
+    },
+    {
+      "race_id": 11,
+      "code": "NUMINOUS",
+      "name": "Numinous",
+      "brief_background_story": "The Numinous are beings of pure energy, born in the fiery corona of a blue giant star. They have no physical form, only a consciousness held together by complex magnetic fields. To interact with the material universe, they construct or inhabit containment suits. They are driven by an insatiable curiosity about the nature of matter, which they find bizarre and fascinating. Death to them is simply a dispersal of energy, to be eventually reformed.",
+      "place_of_origin": "Star Icarus-B",
+      "base_stats": {
+        "hp": 70,
+        "mp": 160,
+        "atk": 120,
+        "def": 65,
+        "agi": 120,
+        "per": 80
+      },
+      "passive_skill": {
+        "skill_id": "rc_num_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_num_act"
+      }
+    },
+    {
+      "race_id": 12,
+      "code": "GREMLIN",
+      "name": "Gremlin",
+      "brief_background_story": "Small but ingenious scavengers evolved among toxic junkyards, masters of sabotage and improvised technology. Resourceful, diminutive, and notoriously clever, Gremlins are a race of scavengers and tinkers that thrive in the forgotten corners of the galaxy. They evolved in the toxic junkyards of a fallen super-city and have an innate understanding of technology, able to deconstruct, repair, and 'creatively re-purpose' almost any device they can get their small hands on. They are often underestimated, a mistake that usually ends with an unexpected explosion.",
+      "place_of_origin": "Planet Scrapheap",
+      "base_stats": {
+        "hp": 85,
+        "mp": 90,
+        "atk": 80,
+        "def": 85,
+        "agi": 120,
+        "per": 150
+      },
+      "passive_skill": {
+        "skill_id": "rc_grem_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_grem_act"
+      }
+    },
+    {
+      "race_id": 13,
+      "code": "GRAVITON",
+      "name": "Graviton",
+      "brief_background_story": "The Gravitons evolved in the extreme tidal forces near a black hole, living on a habitat that perpetually skirts the event horizon. This has given them an innate and intuitive control over gravity itself. They perceive the universe not as matter and energy, but as a series of curves in spacetime. They are philosophical and detached, seeing the struggles of others as temporary fluctuations in a cosmic ocean.",
+      "place_of_origin": "The Brink (Singularity Station)",
+      "base_stats": {
+        "hp": 85,
+        "mp": 140,
+        "atk": 80,
+        "def": 95,
+        "agi": 95,
+        "per": 115
+      },
+      "passive_skill": {
+        "skill_id": "rc_grav_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_grav_act"
+      }
+    },
+    {
+      "race_id": 14,
+      "code": "CYMATIC",
+      "name": "Cymatic",
+      "brief_background_story": "Blind beings who perceive the universe through sound and vibration, manipulating sonic energy in combat. Hailing from a world of perpetual darkness, the Cymatic evolved without sight. Their entire perception of the world is based on sound and vibration. They 'see' through a complex form of echolocation and can manipulate sound waves to communicate, defend themselves, or shatter solid objects. They are unnerved by the loud, chaotic, and bright galaxy, but their unique senses give them an unparalleled awareness of their surroundings.",
+      "place_of_origin": "Planet Echo",
+      "base_stats": {
+        "hp": 95,
+        "mp": 110,
+        "atk": 100,
+        "def": 85,
+        "agi": 100,
+        "per": 125
+      },
+      "passive_skill": {
+        "skill_id": "rc_cym_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_cym_act"
+      }
+    },
+    {
+      "race_id": 15,
+      "code": "FACSIMILE",
+      "name": "Facsimile",
+      "brief_background_story": "Amorphous bio-weapons capable of perfectly mimicking biological forms, forever searching for an ideal identity. The Facsimile are a protoplasmic, amorphous species, the result of a bio-weapon experiment gone wrong. Lacking a true form of their own, they have the innate ability to perfectly mimic the genetics and appearance of any biological creature they encounter. This has made them a race of spies, infiltrators, and nomads, never staying in one place or one form for too long. They are constantly searching for a 'perfect form' to call their own",
+      "place_of_origin": "Project Chimera Orbital Lab",
+      "base_stats": {
+        "hp": 100,
+        "mp": 100,
+        "atk": 100,
+        "def": 100,
+        "agi": 100,
+        "per": 100
+      },
+      "passive_skill": {
+        "skill_id": "rc_fac_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_fac_act"
+      }
+    },
+    {
+      "race_id": 16,
+      "code": "CEPHALOFORM",
+      "name": "Cephaloform",
+      "brief_background_story": "Psionic entities from beyond normal spacetime, seeking to study and alter the laws of reality. Not native to our dimension, the Cephaloform are beings of psionic energy and non-Euclidean geometry that have 'bled' into our reality. Their minds operate on a level of understanding that is incomprehensible and often maddening to other races. They do not seek conquest or resources, but rather to study—and perhaps alter—the fundamental laws of physics and consciousness that govern our universe.",
+      "place_of_origin": "The Outer Planes",
+      "base_stats": {
+        "hp": 95,
+        "mp": 140,
+        "atk": 95,
+        "def": 95,
+        "agi": 90,
+        "per": 135
+      },
+      "passive_skill": {
+        "skill_id": "rc_ceph_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_ceph_act"
+      }
+    },
+    {
+      "race_id": 17,
+      "code": "JOTUNN",
+      "name": "Jotunn",
+      "brief_background_story": "The Jotunn are a race of true giants, hailing from a low-gravity gas giant where they lived on colossal, floating landmasses. Their immense size and strength are a direct result of their environment. Having developed rudimentary space travel, they now wander the stars as mercenaries and laborers, their sheer scale making them living siege engines. They are slow to anger, but once roused, their wrath is unstoppable.",
+      "place_of_origin": "The floating continents in the atmosphere of the gas giant Valhalla.",
+      "base_stats": {
+        "hp": 160,
+        "mp": 60,
+        "atk": 130,
+        "def": 110,
+        "agi": 50,
+        "per": 95
+      },
+      "passive_skill": {
+        "skill_id": "rc_jot_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_jot_act"
+      }
+    },
+    {
+      "race_id": 18,
+      "code": "UMBRAL",
+      "name": "Umbral",
+      "brief_background_story": "Beings formed of living shadow, evolved on a planet of eternal twilight and masters of silent killing. The Umbral evolved on the dark side of a tidally locked planet, a world of perpetual twilight and deep shadow. They are beings literally made of shadowstuff, able to melt into darkness and travel unseen. Light is painful to them, and they are most powerful in the absence of it. They are silent, secretive, and masters of stealth, sought after as assassins and spies across the galaxy.",
+      "place_of_origin": "Planet Erebus",
+      "base_stats": {
+        "hp": 75,
+        "mp": 100,
+        "atk": 120,
+        "def": 75,
+        "agi": 145,
+        "per": 90
+      },
+      "passive_skill": {
+        "skill_id": "rc_umb_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_umb_act"
+      }
+    },
+    {
+      "race_id": 19,
+      "code": "SILICATE",
+      "name": "Silicate",
+      "brief_background_story": "A silicon-based lifeform from a planet with a molten surface and an atmosphere of sulfuric acid. The Silicates are slow, methodical beings with bodies of living stone. They are nearly impervious to heat and conventional weaponry. Their thought processes are slow, but their memory is perfect and lasts for millennia. They are the galaxy's historians and archivists, observing and recording all.",
+      "place_of_origin": "Planet Prometheus",
+      "base_stats": {
+        "hp": 125,
+        "mp": 65,
+        "atk": 100,
+        "def": 160,
+        "agi": 50,
+        "per": 105
+      },
+      "passive_skill": {
+        "skill_id": "rc_sili_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_sili_act"
+      }
+    },
+    {
+      "race_id": 20,
+      "code": "ASTROLABE",
+      "name": "Astrolabe",
+      "brief_background_story": "The Astrolabe are a nomadic race of celestial navigators. Born in the void of a deep-space flotilla, they have an innate, mystical connection to the stars and cosmic phenomena. They can read the future in the light of distant galaxies and find safe passage through the most dangerous cosmic storms. They serve as pilots, guides, and mystics for hire, revered for their uncanny ability to be in the right place at the right time.",
+      "place_of_origin": "Nomadic Fleet The Orrery",
+      "base_stats": {
+        "hp": 95,
+        "mp": 120,
+        "atk": 85,
+        "def": 95,
+        "agi": 100,
+        "per": 125
+      },
+      "passive_skill": {
+        "skill_id": "rc_astr_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_astr_act"
+      }
+    },
+    {
+      "race_id": 21,
+      "code": "HEKATON",
+      "name": "Hekaton",
+      "brief_background_story": "The Hekaton are a race of four-armed humanoids from a planet with a hyper-competitive ecosystem, which forced them to evolve into master multi-taskers. Their minds are capable of tracking multiple opponents and lines of thought simultaneously. This has led to a culture that values efficiency, skill, and the art of combat above all else. A Hekaton warrior in a flurry of motion, blades weaving a web of death, is a terrifying sight.",
+      "place_of_origin": "Planet Asura",
+      "base_stats": {
+        "hp": 115,
+        "mp": 75,
+        "atk": 130,
+        "def": 95,
+        "agi": 120,
+        "per": 85
+      },
+      "passive_skill": {
+        "skill_id": "rc_hek_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_hek_act"
+      }
+    },
+    {
+      "race_id": 22,
+      "code": "CHRONOVORE",
+      "name": "Chronovore",
+      "brief_background_story": "Temporal echoes of erased beings, existing slightly out of sync with the normal flow of time. The Chronovore are not born; they are created. When a being is erased from time by a temporal paradox, a faint echo of them can sometimes persist, becoming a Chronovore. They exist slightly out of sync with the normal flow of time, experiencing moments of past, present, and future simultaneously. They are drawn to major historical events, feeding on the temporal energy, and seek to understand the nature of the timeline they are no longer truly a part of.",
+      "place_of_origin": "The Great Paradox",
+      "base_stats": {
+        "hp": 85,
+        "mp": 130,
+        "atk": 95,
+        "def": 85,
+        "agi": 140,
+        "per": 80
+      },
+      "passive_skill": {
+        "skill_id": "rc_chro_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_chro_act"
+      }
+    },
+    {
+      "race_id": 23,
+      "code": "ABYSSWALKER",
+      "name": "Abysswalker",
+      "brief_background_story": "The Abysswalkers were once a race of intrepid explorers who stared too long into the Void—the vast, empty darkness between galaxies. What they saw there changed them, infusing them with the cold, hungry nature of the Void itself. They are no longer the race they once were, now driven by a nihilistic philosophy and the desire to wield the corrupting power of the abyss. They draw strength from their own pain and the emptiness they can inflict on others.",
+      "place_of_origin": "Derelict Vessel The Wanderer",
+      "base_stats": {
+        "hp": 105,
+        "mp": 100,
+        "atk": 120,
+        "def": 75,
+        "agi": 100,
+        "per": 115
+      },
+      "passive_skill": {
+        "skill_id": "rc_abyss_pas"
+      },
+      "active_skill": {
+        "skill_id": "rc_abyss_act"
+      }
+    }
+  ]
+}

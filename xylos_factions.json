@@ -1,0 +1,197 @@
+{
+  "world": "Xylos",
+  "factions": [
+    {
+      "id": 1,
+      "faction_code": "CONCORDIUM",
+      "name": "The Concordium",
+      "ideology": "Progress Through Unity. Power Through Harmony.",
+      "background": "The original faction founded by the first explorers, scientists, and engineers to arrive on Xylos. They repaired the Aethel Siphon and built the capital city of Nexus. Now they are the old guard, a sprawling bureaucracy trying to uphold their founding ideals in a divided world.",
+      "goals": [
+        "Maintain planetary stability",
+        "Regulate Prima Materia distribution",
+        "Act as primary governing body",
+        "Reunite factions through diplomacy or force"
+      ],
+      "strengths": [
+        "Established infrastructure",
+        "Control of Nexus and the Aethel Cradle",
+        "Balanced and experienced military",
+        "Strong political influence"
+      ],
+      "weaknesses": [
+        "Slow bureaucratic decision making",
+        "Perceived stagnation",
+        "Eroding authority due to rival factions"
+      ],
+      "headquarters": "Nexus",
+      "currency": {
+        "name": "Aethel-Mark Credit",
+        "code": "AMC",
+        "description": "A digital and physical currency backed by regulated control over the Aethel Siphon, representing stability and order."
+      }
+    },
+    {
+      "id": 2,
+      "faction_code": "THE_ARCANUM_SEEKERS",
+      "name": "The Arcanum Seekers",
+      "ideology": "Knowledge is the only true power.",
+      "background": "A splinter group of scientific elites from the Concordium who believe knowledge must be pursued without limits.",
+      "goals": [
+        "Fully understand Aethel energy",
+        "Unlock Aethelgardian vaults",
+        "Advance sentient evolution regardless of risk"
+      ],
+      "strengths": [
+        "Experimental technological superiority",
+        "Advanced energy manipulation",
+        "Exceptional data analysis"
+      ],
+      "weaknesses": [
+        "Ethical disregard",
+        "Distrusted by other factions",
+        "Fragile specialized forces"
+      ],
+      "headquarters": "The Observatory",
+      "currency": {
+        "name": "Quanta",
+        "description": "A purely digital unit representing processed data or refined energy."
+      }
+    },
+    {
+      "id": 3,
+      "name": "The Iron Hegemony",
+      "faction_code":"IRON_HEGEMONY",
+      "ideology": "Order Through Strength. Peace Through Power.",
+      "background": "Formed from the military-industrial core of the Concordium, believing peace requires absolute control.",
+      "goals": [
+        "Total military domination",
+        "Control all Prima Materia sites",
+        "Impose planetary martial law"
+      ],
+      "strengths": [
+        "Largest disciplined military",
+        "Heavy industrial output",
+        "Overwhelming firepower"
+      ],
+      "weaknesses": [
+        "Rigid command structure",
+        "Poor adaptability",
+        "Unsustainable resource consumption"
+      ],
+      "headquarters": "Bastion",
+      "currency": {
+        "name": "Ingot",
+        "description": "Metal-based currency tied directly to industrial output."
+      }
+    },
+    {
+      "id": 4,
+      "name": "The Meridian Cartel",
+      "faction_code":"MERIDIAN_CARTEL",
+      "ideology": "Everything has a price. Influence is the true currency.",
+      "background": "Former diplomats and merchants who realized economic control outweighs military power.",
+      "goals": [
+        "Control planetary trade",
+        "Manipulate markets",
+        "Make all factions economically dependent"
+      ],
+      "strengths": [
+        "Immense wealth",
+        "Unmatched intelligence network",
+        "Economic warfare capability"
+      ],
+      "weaknesses": [
+        "Weak standing army",
+        "Reliance on fragile alliances",
+        "Dependence on secrecy"
+      ],
+      "headquarters": "Port Meridian",
+      "currency": {
+        "name": "Aurum Cipher",
+        "description": "Encrypted digital currency for untraceable high-value transactions."
+      }
+    },
+    {
+      "id": 5,
+      "name": "OmniCorp",
+      "faction_code":"OMNICORP",
+      "ideology": "Progress is profit. The future is proprietary.",
+      "background": "An off-world mega-corporation exploiting Xylos as a resource asset.",
+      "goals": [
+        "Monopolize Prima Materia export",
+        "Eliminate competitors",
+        "Control planetary supply chains"
+      ],
+      "strengths": [
+        "Off-world advanced technology",
+        "Vast financial reserves",
+        "Elite private military"
+      ],
+      "weaknesses": [
+        "No loyalty to Xylos",
+        "Limited troop numbers",
+        "Difficult alliance formation"
+      ],
+      "headquarters": "The Spire",
+      "currency": {
+        "name": "OmniCred",
+        "description": "Closed-system digital currency used exclusively within OmniCorp."
+      }
+    },
+    {
+      "id": 6,
+      "name": "The Children of the Shard",
+      "faction_code":"CHILDREN_OF_THE_SHARD",
+      "ideology": "The Shard is sacred. The Aethel is its voice.",
+      "background": "A religious cult viewing the Aethel Shard as divine and technology as heresy.",
+      "goals": [
+        "Destroy the Aethel Siphon",
+        "End technological harvesting",
+        "Perform the Great Purification"
+      ],
+      "strengths": [
+        "Fanatical devotion",
+        "Stealth and sabotage",
+        "Mystical Aethel communion"
+      ],
+      "weaknesses": [
+        "Low technology",
+        "Limited numbers",
+        "Impossible diplomacy"
+      ],
+      "headquarters": "Sanctum",
+      "currency": {
+        "name": "Aethel-Tithes",
+        "description": "Sacred offerings and consecrated Aethel fragments used in barter."
+      }
+    },
+    {
+      "id": 7,
+      "name": "The Starforged Legion",
+      "faction_code":"STARFORGED_LEGION",
+      "ideology": "A home is earned by blood and honor.",
+      "background": "A nomadic warrior culture seeking a permanent home after their system was destroyed.",
+      "goals": [
+        "Secure permanent territory",
+        "Defend their people",
+        "Form honorable alliances"
+      ],
+      "strengths": [
+        "Elite warrior society",
+        "Highly coordinated combat",
+        "Battle-hardened technology"
+      ],
+      "weaknesses": [
+        "Finite population",
+        "Infrastructure challenges",
+        "Rigid honor code"
+      ],
+      "headquarters": "Fortress Kaelen",
+      "currency": {
+        "name": "Legion Scrip",
+        "description": "Closed-loop resource-backed currency ensuring equitable distribution."
+      }
+    }
+  ]
+}

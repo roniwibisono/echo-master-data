@@ -1,0 +1,116 @@
+{
+  "raids":[
+    {
+      "raid_id":"raid_dragon_nest",
+      "name":"Ashen Dragon Nest",
+      "region":"SHATTERED_HEART",
+      "min_level":70,
+      "recommended_party_size":10,
+      "max_player":15,
+      "spawn_time_ends":9,
+      "time_limit": 360,
+      "boss_monster_id":4001,
+      "raid_type":"solo",
+      "max_entry":5,
+      "entry_requirements": [
+        "ticket_raid_special_adn"
+      ], 
+      "spawn_monster_id": [
+        5201,5201
+      ],
+      "phases":[
+        {
+          "phase":1,
+          "hp_threshold":1.0,
+          "mechanics":[
+            "fire_breath_cone",
+            "wing_knockback"
+          ]
+        },
+        {
+          "phase":2,
+          "hp_threshold":0.6,
+          "mechanics":[
+            "meteor_storm",
+            "summon_drake_minions"
+          ]
+        },
+        {
+          "phase":3,
+          "hp_threshold":0.25,
+          "mechanics":[
+            "apocalypse_flare"
+          ]
+        }
+      ],
+    "clear_rewards":{
+        "exp_reward": 2500,
+        "currency_reward": 45000,
+        "crd_reward": 200,
+        "faction_point": 150,
+        "reputation_point": 170,
+        "hunting_point": 60,
+        "loot_table":[
+        {"item_id":"drake_heart","chance":0.25},
+        {"item_id":"ancient_scale","chance":1}
+      ]
+      }
+    },
+    {
+      "raid_id":"raid_mutant_coconut",
+      "name":"Mutant Cruel",
+      "region":"SHATTERED_HEART",
+      "min_level":10,
+      "recommended_party_size":5,
+      "max_player":7,
+      "spawn_time_ends":9,
+      "time_limit": 360,
+      "boss_monster_id":5226,
+      "raid_type":"solo",
+      "max_entry":1,
+      "entry_requirements": [
+        "free"
+      ], 
+      "spawn_monster_id": [
+        5201,5201
+      ],
+      "phases":[
+        {
+          "phase":1,
+          "hp_threshold":1.0,
+          "mechanics":[
+            "fire_breath_cone",
+            "wing_knockback"
+          ]
+        },
+        {
+          "phase":2,
+          "hp_threshold":0.6,
+          "mechanics":[
+            "meteor_storm",
+            "summon_drake_minions"
+          ]
+        },
+        {
+          "phase":3,
+          "hp_threshold":0.25,
+          "mechanics":[
+            "apocalypse_flare"
+          ]
+        }
+      ],
+      "clear_rewards":{
+        "exp_reward": 27000,
+        "currency_reward": 45000,
+        "crd_reward": 200,
+        "faction_point": 150,
+        "reputation_point": 170,
+        "hunting_point": 60,
+        "loot_table":[
+        {"item_id":"void_channeler_core","chance":0.25},
+        {"item_id":"helm_hunter_hat","chance":1}
+      ]
+      }
+    }
+  ]
+}

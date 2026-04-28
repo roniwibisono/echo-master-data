@@ -1,0 +1,32 @@
+{
+  "dungeons":[
+    {
+      "dungeon_id":"crystal_depths",
+      "name":"Crystal Depths",
+      "region":"CRYSTAL_SLOPE",
+
+      "min_level":40,
+      "max_party_size":4,
+
+      "monsters":[
+        {"monster_id":6001,"count":8},
+        {"monster_id":6002,"count":5}
+      ],
+
+      "boss_monster_id":4101,
+
+      "clear_rewards":{
+        "exp_reward": 2500,
+        "currency_reward": 1500,
+        "crd_reward": 30,
+        "guild_point": 150,
+        "reputation_point": 170,
+        "hunting_point": 60,
+        "loot_table":[
+        {"item_id":"storm_core","chance":0.25},
+        {"item_id":"ancient_scale","chance":1}
+      ]
+      }
+    }
+  ]
+}

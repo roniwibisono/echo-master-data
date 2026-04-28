@@ -1,0 +1,601 @@
+[
+  {
+    "id": "base_enforcer",
+    "name": "Enforcer",
+    "tier": "Base",
+    "parent_id": null,
+    "base_stats_bonus": {
+      "atk": 5,
+      "def": 3,
+      "hp": 50
+    },
+    "learnable_skill_ids": [
+      "sk_enf_pas",
+      "sk_enf_act_1",
+      "sk_enf_act_2"
+    ]
+  },
+  {
+    "id": "adv_vanguard",
+    "name": "Vanguard",
+    "tier": "Advance",
+    "parent_id": "base_enforcer",
+    "base_stats_bonus": {
+      "hp": 100,
+      "def": 5
+    },
+    "learnable_skill_ids": [
+      "sk_van_pas",
+      "sk_van_act_1",
+      "sk_van_act_2"
+    ]
+  },
+  {
+    "id": "mst_dreadnought",
+    "name": "Dreadnought",
+    "tier": "Master",
+    "parent_id": "adv_vanguard",
+    "base_stats_bonus": {
+      "hp": 500,
+      "def": 10
+    },
+    "learnable_skill_ids": [
+      "sk_dread_pas",
+      "sk_dread_act_1",
+      "sk_dread_act_2"
+    ]
+  },
+  {
+    "id": "mst_sentinel",
+    "name": "Sentinel",
+    "tier": "Master",
+    "parent_id": "adv_vanguard",
+    "base_stats_bonus": {
+      "def": 15
+    },
+    "learnable_skill_ids": [
+      "sk_sent_pas",
+      "sk_sent_act_1",
+      "sk_sent_act_2"
+    ]
+  },
+  {
+    "id": "adv_berserker",
+    "name": "Berserker",
+    "tier": "Advance",
+    "parent_id": "base_enforcer",
+    "base_stats_bonus": {
+      "atk": 10,
+      "hp": 100,
+      "def": -5
+    },
+    "learnable_skill_ids": [
+      "sk_ber_pas",
+      "sk_ber_act_1",
+      "sk_ber_act_2"
+    ]
+  },
+  {
+    "id": "mst_warlord",
+    "name": "Warlord",
+    "tier": "Master",
+    "parent_id": "adv_berserker",
+    "base_stats_bonus": {
+      "atk": 20
+    },
+    "learnable_skill_ids": [
+      "sk_war_pas",
+      "sk_war_act_1",
+      "sk_war_act_2"
+    ]
+  },
+  {
+    "id": "mst_ravager",
+    "name": "Ravager",
+    "tier": "Master",
+    "parent_id": "adv_berserker",
+    "base_stats_bonus": {
+      "atk": 15,
+      "agility": 5
+    },
+    "learnable_skill_ids": [
+      "sk_rav_pas",
+      "sk_rav_act_1",
+      "sk_rav_act_2"
+    ]
+  },
+  {
+    "id": "adv_dragoon",
+    "name": "Dragoon",
+    "tier": "Advance",
+    "parent_id": "base_enforcer",
+    "base_stats_bonus": {
+      "atk": 5,
+      "agility": 5
+    },
+    "learnable_skill_ids": [
+      "sk_dra_pas",
+      "sk_dra_act_1",
+      "sk_dra_act_2"
+    ]
+  },
+  {
+    "id": "mst_skyreaver",
+    "name": "Skyreaver",
+    "tier": "Master",
+    "parent_id": "adv_dragoon",
+    "base_stats_bonus": {
+      "agility": 15,
+      "atk": 5
+    },
+    "learnable_skill_ids": [
+      "sk_sky_pas",
+      "sk_sky_act_1",
+      "sk_sky_act_2"
+    ]
+  },
+  {
+    "id": "mst_voidlancer",
+    "name": "Void Lancer",
+    "tier": "Master",
+    "parent_id": "adv_dragoon",
+    "base_stats_bonus": {
+      "atk": 10,
+      "perception": 8
+    },
+    "learnable_skill_ids": [
+      "sk_void_pas",
+      "sk_void_act_1",
+      "sk_void_act_2"
+    ]
+  },
+  {
+    "id": "base_strider",
+    "name": "Strider",
+    "tier": "Base",
+    "parent_id": null,
+    "base_stats_bonus": {
+      "agility": 5,
+      "perception": 3
+    },
+    "learnable_skill_ids": [
+      "sk_str_pas",
+      "sk_str_act_1",
+      "sk_str_act_2"
+    ]
+  },
+  {
+    "id": "adv_assassin",
+    "name": "Assassin",
+    "tier": "Advance",
+    "parent_id": "base_strider",
+    "base_stats_bonus": {
+      "agility": 8,
+      "atk": 2
+    },
+    "learnable_skill_ids": [
+      "sk_ass_pas",
+      "sk_ass_act_1",
+      "sk_ass_act_2"
+    ]
+  },
+  {
+    "id": "mst_shadowblade",
+    "name": "Shadowblade",
+    "tier": "Master",
+    "parent_id": "adv_assassin",
+    "base_stats_bonus": {
+      "agility": 15,
+      "perception": 5
+    },
+    "learnable_skill_ids": [
+      "sk_shad_pas",
+      "sk_shad_act_1",
+      "sk_shad_act_2"
+    ]
+  },
+  {
+    "id": "mst_phantom",
+    "name": "Phantom",
+    "tier": "Master",
+    "parent_id": "adv_assassin",
+    "base_stats_bonus": {
+      "agility": 10,
+      "perception": 10
+    },
+    "learnable_skill_ids": [
+      "sk_phantom_pas",
+      "sk_phantom_act_1",
+      "sk_phantom_act_2"
+    ]
+  },
+  {
+    "id": "adv_ranger",
+    "name": "Ranger",
+    "tier": "Advance",
+    "parent_id": "base_strider",
+    "base_stats_bonus": {
+      "perception": 8,
+      "agility": 2
+    },
+    "learnable_skill_ids": [
+      "sk_ran_pas",
+      "sk_ran_act_1",
+      "sk_ran_act_2"
+    ]
+  },
+  {
+    "id": "mst_beastmaster",
+    "name": "Beastmaster",
+    "tier": "Master",
+    "parent_id": "adv_ranger",
+    "base_stats_bonus": {
+      "hp": 50,
+      "perception": 10
+    },
+    "learnable_skill_ids": [
+      "sk_beastmaster_pas",
+      "sk_beastmaster_act_1",
+      "sk_beastmaster_act_2"
+    ]
+  },
+  {
+    "id": "mst_sniperelite",
+    "name": "Sniper Elite",
+    "tier": "Master",
+    "parent_id": "adv_ranger",
+    "base_stats_bonus": {
+      "perception": 18,
+      "agility": 2
+    },
+    "learnable_skill_ids": [
+      "sk_snp_pas",
+      "sk_snp_act_1",
+      "sk_snp_act_2"
+    ]
+  },
+  {
+    "id": "adv_gunslinger",
+    "name": "Gunslinger",
+    "tier": "Advance",
+    "parent_id": "base_strider",
+    "base_stats_bonus": {
+      "perception": 5,
+      "agility": 5
+    },
+    "learnable_skill_ids": [
+      "sk_gun_pas",
+      "sk_gun_act_1",
+      "sk_gun_act_2"
+    ]
+  },
+  {
+    "id": "mst_desperado",
+    "name": "Desperado",
+    "tier": "Master",
+    "parent_id": "adv_gunslinger",
+    "base_stats_bonus": {
+      "agility": 12,
+      "perception": 8
+    },
+    "learnable_skill_ids": [
+      "sk_desp_pas",
+      "sk_desp_act_1",
+      "sk_desp_act_2"
+    ]
+  },
+  {
+    "id": "mst_techdrifter",
+    "name": "Tech-Drifter",
+    "tier": "Master",
+    "parent_id": "adv_gunslinger",
+    "base_stats_bonus": {
+      "perception": 10,
+      "agility": 10
+    },
+    "learnable_skill_ids": [
+      "sk_techdrifter_pas",
+      "sk_techdrifter_act_1",
+      "sk_techdrifter_act_2"
+    ]
+  },
+  {
+    "id": "base_channeler",
+    "name": "Channeler",
+    "tier": "Base",
+    "parent_id": null,
+    "base_stats_bonus": {
+      "perception": 5,
+      "mp": 30
+    },
+    "learnable_skill_ids": [
+      "sk_channeler_pas",
+      "sk_channeler_act_1",
+      "sk_channeler_act_2"
+    ]
+  },
+  {
+    "id": "adv_mystic",
+    "name": "Mystic",
+    "tier": "Advance",
+    "parent_id": "base_channeler",
+    "base_stats_bonus": {
+      "perception": 10
+    },
+    "learnable_skill_ids": [
+      "sk_mys_pas",
+      "sk_mys_act_1",
+      "sk_mys_act_2"
+    ]
+  },
+  {
+    "id": "mst_archon",
+    "name": "Archon",
+    "tier": "Master",
+    "parent_id": "adv_mystic",
+    "base_stats_bonus": {
+      "perception": 20,
+      "mp": 100
+    },
+    "learnable_skill_ids": [
+      "sk_archon_pas",
+      "sk_archon_act_1",
+      "sk_archon_act_2"
+    ]
+  },
+  {
+    "id": "mst_chronomancer",
+    "name": "Chronomancer",
+    "tier": "Master",
+    "parent_id": "adv_mystic",
+    "base_stats_bonus": {
+      "perception": 10,
+      "agility": 10
+    },
+    "learnable_skill_ids": [
+      "sk_chronomancer_pas",
+      "sk_chronomancer_act_1",
+      "sk_chronomancer_act_2"
+    ]
+  },
+  {
+    "id": "adv_warpriest",
+    "name": "Warpriest",
+    "tier": "Advance",
+    "parent_id": "base_channeler",
+    "base_stats_bonus": {
+      "perception": 5,
+      "atk": 5,
+      "hp": 20
+    },
+    "learnable_skill_ids": [
+      "sk_warpriest_pas",
+      "sk_warpriest_act_1",
+      "sk_warpriest_act_2"
+    ]
+  },
+  {
+    "id": "mst_templar",
+    "name": "Templar",
+    "tier": "Master",
+    "parent_id": "adv_warpriest",
+    "base_stats_bonus": {
+      "hp": 50,
+      "perception": 10
+    },
+    "learnable_skill_ids": [
+      "sk_templar_pas",
+      "sk_templar_act_1",
+      "sk_templar_act_2"
+    ]
+  },
+  {
+    "id": "mst_arbiter",
+    "name": "Arbiter",
+    "tier": "Master",
+    "parent_id": "adv_warpriest",
+    "base_stats_bonus": {
+      "perception": 15,
+      "mp": 50
+    },
+    "learnable_skill_ids": [
+      "sk_arbiter_pas",
+      "sk_arbiter_act_1",
+      "sk_arbiter_act_2"
+    ]
+  },
+  {
+    "id": "adv_summoner",
+    "name": "Summoner",
+    "tier": "Advance",
+    "parent_id": "base_channeler",
+    "base_stats_bonus": {
+      "mp": 50,
+      "perception": 5
+    },
+    "learnable_skill_ids": [
+      "sk_summoner_pas",
+      "sk_summoner_act_1",
+      "sk_summoner_act_2"
+    ]
+  },
+  {
+    "id": "mst_voidcaller",
+    "name": "Void Caller",
+    "tier": "Master",
+    "parent_id": "adv_summoner",
+    "base_stats_bonus": {
+      "perception": 15
+    },
+    "learnable_skill_ids": [
+      "sk_voidcaller_pas",
+      "sk_voidcaller_act_1",
+      "sk_voidcaller_act_2"
+    ]
+  },
+  {
+    "id": "mst_golemancer",
+    "name": "Golemancer",
+    "tier": "Master",
+    "parent_id": "adv_summoner",
+    "base_stats_bonus": {
+      "perception": 10,
+      "def": 10
+    },
+    "learnable_skill_ids": [
+      "sk_golemancer_pas",
+      "sk_golemancer_act_1",
+      "sk_golemancer_act_2"
+    ]
+  },
+  {
+    "id": "base_machinist",
+    "name": "Machinist",
+    "tier": "Base",
+    "parent_id": null,
+    "base_stats_bonus": {
+      "perception": 5,
+      "atk": 3
+    },
+    "learnable_skill_ids": [
+      "sk_machinist_pas",
+      "sk_machinist_act_1",
+      "sk_machinist_act_2"
+    ]
+  },
+  {
+    "id": "adv_artificer",
+    "name": "Artificer",
+    "tier": "Advance",
+    "parent_id": "base_machinist",
+    "base_stats_bonus": {
+      "perception": 10
+    },
+    "learnable_skill_ids": [
+      "sk_artificer_pas",
+      "sk_artificer_act_1",
+      "sk_artificer_act_2"
+    ]
+  },
+  {
+    "id": "mst_mechapilot",
+    "name": "Mecha Pilot",
+    "tier": "Master",
+    "parent_id": "adv_artificer",
+    "base_stats_bonus": {
+      "atk": 5,
+      "hp": 50,
+      "perception": 10
+    },
+    "learnable_skill_ids": [
+      "sk_mechapilot_pas",
+      "sk_mechapilot_act_1",
+      "sk_mechapilot_act_2"
+    ]
+  },
+  {
+    "id": "mst_cyberarchitect",
+    "name": "Cyber-Architect",
+    "tier": "Master",
+    "parent_id": "adv_artificer",
+    "base_stats_bonus": {
+      "perception": 15,
+      "def": 5
+    },
+    "learnable_skill_ids": [
+      "sk_cyberarchitect_pas",
+      "sk_cyberarchitect_act_1",
+      "sk_cyberarchitect_act_2"
+    ]
+  },
+  {
+    "id": "adv_saboteur",
+    "name": "Saboteur",
+    "tier": "Advance",
+    "parent_id": "base_machinist",
+    "base_stats_bonus": {
+      "perception": 5,
+      "agility": 5
+    },
+    "learnable_skill_ids": [
+      "sk_saboteur_pas",
+      "sk_saboteur_act_1",
+      "sk_saboteur_act_2"
+    ]
+  },
+  {
+    "id": "mst_demolitionist",
+    "name": "Demolitionist",
+    "tier": "Master",
+    "parent_id": "adv_saboteur",
+    "base_stats_bonus": {
+      "perception": 12,
+      "atk": 8
+    },
+    "learnable_skill_ids": [
+      "sk_demolitionist_pas",
+      "sk_demolitionist_act_1",
+      "sk_demolitionist_act_2"
+    ]
+  },
+  {
+    "id": "mst_netrunner",
+    "name": "Netrunner",
+    "tier": "Master",
+    "parent_id": "adv_saboteur",
+    "base_stats_bonus": {
+      "perception": 15,
+      "mp": 20
+    },
+    "learnable_skill_ids": [
+      "sk_netrunner_pas",
+      "sk_netrunner_act_1",
+      "sk_netrunner_act_2"
+    ]
+  },
+  {
+    "id": "adv_alchemist",
+    "name": "Alchemist",
+    "tier": "Advance",
+    "parent_id": "base_machinist",
+    "base_stats_bonus": {
+      "perception": 5,
+      "mp": 10
+    },
+    "learnable_skill_ids": [
+      "sk_alchemist_pas",
+      "sk_alchemist_act_1",
+      "sk_alchemist_act_2"
+    ]
+  },
+  {
+    "id": "mst_bioengineer",
+    "name": "Bio-Engineer",
+    "tier": "Master",
+    "parent_id": "adv_alchemist",
+    "base_stats_bonus": {
+      "perception": 10,
+      "hp": 50
+    },
+    "learnable_skill_ids": [
+      "sk_bioengineer_pas",
+      "sk_bioengineer_act_1",
+      "sk_bioengineer_act_2"
+    ]
+  },
+  {
+    "id": "mst_plaguespreader",
+    "name": "Plague Spreader",
+    "tier": "Master",
+    "parent_id": "adv_alchemist",
+    "base_stats_bonus": {
+      "perception": 12,
+      "atk": 5
+    },
+    "learnable_skill_ids": [
+      "sk_plaguespreader_pas",
+      "sk_plaguespreader_act_1",
+      "sk_plaguespreader_act_2"
+    ]
+  }
+]

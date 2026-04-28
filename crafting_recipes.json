@@ -1,0 +1,6172 @@
+{
+  "meta": {
+     "version": "1.1",
+     "description": "Master Crafting Recipe Database for Echoes of Xylos"
+  },
+  "recipes": [
+   {
+      "recipe_id": "rcp_iron_ore_smelt",
+      "recipe_name": "Smelt Iron Ore",
+      "category": "REFINING",
+      "crafting_station": "FORGE",
+      "required_level": 1,
+      "crafting_time_seconds": 2,
+      "crafting_cost": 5,
+      "craftable_by_npcs": [
+         "ALL"
+      ],
+      "result": {
+         "item_id": "mat_iron_ore",
+         "quantity": 1
+      },
+      "ingredients": [
+         {
+            "item_id": "mat_metal",
+            "quantity": 3
+         }
+      ]
+   },
+     {
+        "recipe_id": "rcp_refine_iron",
+        "recipe_name": "Smelt Iron Ingot",
+        "category": "REFINING",
+        "crafting_station": "FORGE",
+        "required_level": 1,
+        "crafting_time_seconds": 2,
+        "crafting_cost": 5,
+        "craftable_by_npcs": [
+           "ALL"
+        ],
+        "result": {
+           "item_id": "mat_iron_ingot",
+           "quantity": 1
+        },
+        "ingredients": [
+           {
+              "item_id": "mat_iron_ore",
+              "quantity": 3
+           }
+        ]
+     },
+     {
+        "recipe_id": "rcp_steel_broadsword",
+        "recipe_name": "Forge Steel Broadsword",
+        "category": "BLACKSMITHING",
+        "crafting_station": "FORGE",
+        "required_level": 5,
+        "crafting_time_seconds": 15,
+        "crafting_cost": 100,
+        "craftable_by_npcs": [
+           "ALL"
+        ],
+        "result": {
+           "item_id": "wpn_steel_broadsword",
+           "quantity": 1
+        },
+        "ingredients": [
+           {
+              "item_id": "mat_iron_ingot",
+              "quantity": 5
+           },
+           {
+              "item_id": "mat_wolf_pelt",
+              "quantity": 1
+           }
+        ]
+     },
+     {
+        "recipe_id": "rcp_void_blade",
+        "recipe_name": "Forge Void Blade",
+        "category": "BLACKSMITHING",
+        "crafting_station": "FORGE",
+        "required_level": 40,
+        "crafting_time_seconds": 60,
+        "crafting_cost": 5000,
+        "craftable_by_npcs": [
+           "npc_master_kael",
+           "npc_abyssal_smith"
+        ],
+        "result": {
+           "item_id": "wpn_void_blade",
+           "quantity": 1
+        },
+        "ingredients": [
+           {
+              "item_id": "mat_iron_ingot",
+              "quantity": 50
+           },
+           {
+              "item_id": "mat_storm_core",
+              "quantity": 5
+           },
+           {
+              "item_id": "mat_aethel_dust",
+              "quantity": 20
+           }
+        ]
+     },
+     {
+        "recipe_id": "rcp_health_potion_small",
+        "recipe_name": "Brew Minor Health Potion",
+        "category": "ALCHEMY",
+        "crafting_station": "ALCHEMY_TABLE",
+        "required_level": 1,
+        "crafting_time_seconds": 5,
+        "crafting_cost": 10,
+        "craftable_by_npcs": [
+           "ALL"
+        ],
+        "result": {
+           "item_id": "cns_health_potion_small",
+           "quantity": 3
+        },
+        "ingredients": [
+           {
+              "item_id": "mat_aethel_dust",
+              "quantity": 1
+           },
+           {
+              "item_id": "cns_clean_water",
+              "quantity": 3
+           }
+        ]
+     },
+     {
+        "recipe_id": "rcp_accesories_dummy",
+        "recipe_name": "Dummy Silk Bracelet",
+        "category": "BLACKSMITHING",
+        "crafting_station": "FORGE",
+        "required_level": 1,
+        "crafting_time_seconds": 5,
+        "crafting_cost": 10,
+        "craftable_by_npcs": [
+           "ALL"
+        ],
+        "result": {
+           "item_id": "acc_dummy_bracelet",
+           "quantity": 1
+        },
+        "ingredients": [
+           {
+              "item_id": "vine_fiber",
+              "quantity": 1
+           }
+        ]
+     },
+     {
+        "recipe_id": "rcp_myth_ring",
+        "recipe_name": "Ring Of Destruction Call",
+        "category": "BLACKSMITHING",
+        "crafting_station": "FORGE",
+        "required_level": 1,
+        "crafting_time_seconds": 5,
+        "crafting_cost": 10,
+        "craftable_by_npcs": [
+           "ALL"
+        ],
+        "result": {
+           "item_id": "ring_of_destruct",
+           "quantity": 1
+        },
+        "ingredients": [
+           {
+              "item_id": "con_small_mp_cell",
+              "quantity": 2
+           }
+        ]
+     },
+     {
+        "recipe_id": "rcp_myth_ring_r",
+        "recipe_name": "Ring Of Destruction Replicate",
+        "category": "BLACKSMITHING",
+        "crafting_station": "FORGE",
+        "required_level": 1,
+        "crafting_time_seconds": 5,
+        "crafting_cost": 10,
+        "craftable_by_npcs": [
+           "ALL"
+        ],
+        "result": {
+           "item_id": "ring_of_destruct_r",
+           "quantity": 1
+        },
+        "ingredients": [
+           {
+              "item_id": "void_fragment",
+              "quantity": 1
+           }
+        ]
+     },
+     {
+      "recipe_id": "rcp_arm_scout_boots",
+      "recipe_name": "Scout Boots",
+      "category": "BLACKSMITHING",
+      "crafting_station": "FORGE",
+      "required_level": 1,
+      "crafting_time_seconds": 5,
+      "crafting_cost": 10,
+      "craftable_by_npcs": [
+         "ALL"
+      ],
+      "result": {
+         "item_id": "arm_scout_boots",
+         "quantity": 1
+      },
+      "ingredients": [
+         {
+            "item_id": "rat_fang",
+            "quantity": 1
+         },
+         {
+            "item_id": "metal_shard",
+            "quantity": 1
+         }
+      ]
+     },
+     {
+      "recipe_id": "rcp_echo_core",
+      "recipe_name": "Echo Core Gain",
+      "category": "BLACKSMITHING",
+      "crafting_station": "FORGE",
+      "required_level": 1,
+      "crafting_time_seconds": 5,
+      "crafting_cost": 1000,
+      "craftable_by_npcs": [
+         "ALL"
+      ],
+      "result": {
+         "item_id": "echo_core",
+         "quantity": 10
+      },
+      "ingredients": [
+         {
+            "item_id": "metal_shard",
+            "quantity": 1
+         }
+      ]
+     },
+     {
+      "recipe_id": "rcp_echo_core_high",
+      "recipe_name": "Echo Core High Grade Gain",
+      "category": "BLACKSMITHING",
+      "crafting_station": "FORGE",
+      "required_level": 1,
+      "crafting_time_seconds": 5,
+      "crafting_cost": 1000,
+      "craftable_by_npcs": [
+         "ALL"
+      ],
+      "result": {
+         "item_id": "echo_core_high_grade",
+         "quantity": 10
+      },
+      "ingredients": [
+         {
+            "item_id": "metal_shard",
+            "quantity": 1
+         }
+      ]
+     },
+     {
+      "recipe_id": "rcp_wpn_t001_weapon1",
+      "recipe_name": "Craft Rusted Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 1,
+      "crafting_time_seconds": 5,
+      "crafting_cost": 60,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_t001_weapon1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_aethel_dust",
+          "quantity": 2
+        },
+        {
+          "item_id": "ore_iron_scrap",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrapped_energy_cell",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn_t005_weapon1",
+      "recipe_name": "Craft Rusted Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 3,
+      "crafting_time_seconds": 6,
+      "crafting_cost": 100,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_t005_weapon1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "crs_resonance_crystal",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_jungle_ironwood",
+          "quantity": 2
+        },
+        {
+          "item_id": "crs_resonant_shard",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn_t010_weapon1",
+      "recipe_name": "Craft Iron Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 8,
+      "crafting_time_seconds": 7,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_t010_weapon1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_iron_ingot",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_iron_ingot",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn_t015_weapon1",
+      "recipe_name": "Craft Steel Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 13,
+      "crafting_time_seconds": 8,
+      "crafting_cost": 200,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_t015_weapon1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_coral_resin",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_glowvine_sap",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_cradle_glass",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn_t020_weapon1",
+      "recipe_name": "Craft Reinforced Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 18,
+      "crafting_time_seconds": 9,
+      "crafting_cost": 250,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_t020_weapon1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_synth_fiber",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_dune_sandstone",
+          "quantity": 3
+        },
+        {
+          "item_id": "crystal_core",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn_t025_weapon1",
+      "recipe_name": "Craft Tempered Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 23,
+      "crafting_time_seconds": 10,
+      "crafting_cost": 300,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_t025_weapon1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "calcified_bone_shard",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_iron_ore",
+          "quantity": 3
+        },
+        {
+          "item_id": "scrap_metal",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn_t030_weapon1",
+      "recipe_name": "Craft Aethel-Touched Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 28,
+      "crafting_time_seconds": 11,
+      "crafting_cost": 350,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_t030_weapon1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_forge_canyon_ember",
+          "quantity": 3
+        },
+        {
+          "item_id": "void_crystal_shard",
+          "quantity": 3
+        },
+        {
+          "item_id": "art_smuggler_cache_chip",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn_t035_weapon1",
+      "recipe_name": "Craft Crystalline Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 33,
+      "crafting_time_seconds": 12,
+      "crafting_cost": 400,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_t035_weapon1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_nexus_alloy",
+          "quantity": 3
+        },
+        {
+          "item_id": "bent_titanium_frame",
+          "quantity": 3
+        },
+        {
+          "item_id": "art_omnicorp_ai_core",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn_t040_weapon1",
+      "recipe_name": "Craft Void-Forged Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 38,
+      "crafting_time_seconds": 13,
+      "crafting_cost": 450,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_t040_weapon1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_quantum_lens",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_meridian_cipher_key",
+          "quantity": 4
+        },
+        {
+          "item_id": "art_temporal_shard",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn_t045_weapon1",
+      "recipe_name": "Craft Legion Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 43,
+      "crafting_time_seconds": 14,
+      "crafting_cost": 500,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_t045_weapon1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_hardened_steel_plate",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_omni_processor_chip",
+          "quantity": 4
+        },
+        {
+          "item_id": "art_legion_war_medal",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn_t050_weapon1",
+      "recipe_name": "Craft Arcane Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 48,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 550,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_t050_weapon1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_smuggler_alloy",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_shardroot_bark",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_aethel_dust_purified",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn_t055_weapon1",
+      "recipe_name": "Craft Omni Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 53,
+      "crafting_time_seconds": 16,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_t055_weapon1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_nano_composite",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_kaelen_titanite",
+          "quantity": 4
+        },
+        {
+          "item_id": "astral_phase_crystal_pure",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn_t060_weapon1",
+      "recipe_name": "Craft Shard-Blessed Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 58,
+      "crafting_time_seconds": 17,
+      "crafting_cost": 650,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_t060_weapon1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_shard_essence",
+          "quantity": 5
+        },
+        {
+          "item_id": "ore_aethel_infused_steel",
+          "quantity": 5
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn_t065_weapon1",
+      "recipe_name": "Craft Starforged Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 63,
+      "crafting_time_seconds": 18,
+      "crafting_cost": 700,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_t065_weapon1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_kaelen_conquest_seal",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_arcanum_codex",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_black_market_key",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn_t070_weapon1",
+      "recipe_name": "Craft Hegemony Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 68,
+      "crafting_time_seconds": 19,
+      "crafting_cost": 750,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_t070_weapon1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_aethel_core_fragment",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_hegemony_war_badge",
+          "quantity": 5
+        },
+        {
+          "item_id": "titan_neural_cortex",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn_t075_weapon1",
+      "recipe_name": "Craft Abyss Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 73,
+      "crafting_time_seconds": 20,
+      "crafting_cost": 800,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_t075_weapon1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "paradox_crystal",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_jungle_relic",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_shard_temple_fragment",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn_t080_weapon1",
+      "recipe_name": "Craft Nova Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 78,
+      "crafting_time_seconds": 21,
+      "crafting_cost": 850,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_t080_weapon1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "titan_neural_cortex",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_spire_protocol_core",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_ancient_war_module",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn_t085_weapon1",
+      "recipe_name": "Craft Phantom Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 83,
+      "crafting_time_seconds": 22,
+      "crafting_cost": 900,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_t085_weapon1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_cartel_mastercrafted",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_heartwood_core",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_aethel_heart",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn_t090_weapon1",
+      "recipe_name": "Craft Celestial Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 88,
+      "crafting_time_seconds": 23,
+      "crafting_cost": 950,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_t090_weapon1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_gravity_core",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_starforged_relic",
+          "quantity": 6
+        },
+        {
+          "item_id": "resonanted_astral_phase_crystal",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn_t095_weapon1",
+      "recipe_name": "Craft Void-Prime Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 93,
+      "crafting_time_seconds": 24,
+      "crafting_cost": 1000,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_t095_weapon1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_sanctum_blessing_stone",
+          "quantity": 6
+        },
+        {
+          "item_id": "mat_concordium_seal",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_hegemony_core",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn_t100_weapon1",
+      "recipe_name": "Craft Eternal Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 98,
+      "crafting_time_seconds": 25,
+      "crafting_cost": 1050,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_t100_weapon1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_kaelen_conquest_seal",
+          "quantity": 7
+        },
+        {
+          "item_id": "art_arcanum_codex",
+          "quantity": 7
+        },
+        {
+          "item_id": "art_black_market_key",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn2_t001_weapon2",
+      "recipe_name": "Craft Rusted Offhand Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 1,
+      "crafting_time_seconds": 5,
+      "crafting_cost": 60,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn2_t001_weapon2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "crs_resonance_crystal",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_jungle_ironwood",
+          "quantity": 2
+        },
+        {
+          "item_id": "crs_resonant_shard",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn2_t005_weapon2",
+      "recipe_name": "Craft Rusted Offhand Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 3,
+      "crafting_time_seconds": 6,
+      "crafting_cost": 100,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn2_t005_weapon2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_iron_ingot",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_iron_ingot",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn2_t010_weapon2",
+      "recipe_name": "Craft Iron Offhand Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 8,
+      "crafting_time_seconds": 7,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn2_t010_weapon2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_coral_resin",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_glowvine_sap",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_cradle_glass",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn2_t015_weapon2",
+      "recipe_name": "Craft Steel Offhand Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 13,
+      "crafting_time_seconds": 8,
+      "crafting_cost": 200,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn2_t015_weapon2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_synth_fiber",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_dune_sandstone",
+          "quantity": 2
+        },
+        {
+          "item_id": "crystal_core",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn2_t020_weapon2",
+      "recipe_name": "Craft Reinforced Offhand Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 18,
+      "crafting_time_seconds": 9,
+      "crafting_cost": 250,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn2_t020_weapon2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "calcified_bone_shard",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_iron_ore",
+          "quantity": 3
+        },
+        {
+          "item_id": "scrap_metal",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn2_t025_weapon2",
+      "recipe_name": "Craft Tempered Offhand Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 23,
+      "crafting_time_seconds": 10,
+      "crafting_cost": 300,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn2_t025_weapon2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "ore_scorched_iron",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_fractured_prism",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_wolf_pelt",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn2_t030_weapon2",
+      "recipe_name": "Craft Aethel-Touched Offhand Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 28,
+      "crafting_time_seconds": 11,
+      "crafting_cost": 350,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn2_t030_weapon2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_nexus_alloy",
+          "quantity": 3
+        },
+        {
+          "item_id": "bent_titanium_frame",
+          "quantity": 3
+        },
+        {
+          "item_id": "art_omnicorp_ai_core",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn2_t035_weapon2",
+      "recipe_name": "Craft Crystalline Offhand Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 33,
+      "crafting_time_seconds": 12,
+      "crafting_cost": 400,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn2_t035_weapon2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_quantum_lens",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_meridian_cipher_key",
+          "quantity": 3
+        },
+        {
+          "item_id": "art_temporal_shard",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn2_t040_weapon2",
+      "recipe_name": "Craft Void-Forged Offhand Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 38,
+      "crafting_time_seconds": 13,
+      "crafting_cost": 450,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn2_t040_weapon2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_hardened_steel_plate",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_omni_processor_chip",
+          "quantity": 4
+        },
+        {
+          "item_id": "art_legion_war_medal",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn2_t045_weapon2",
+      "recipe_name": "Craft Legion Offhand Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 43,
+      "crafting_time_seconds": 14,
+      "crafting_cost": 500,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn2_t045_weapon2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_smuggler_alloy",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_shardroot_bark",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_aethel_dust_purified",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn2_t050_weapon2",
+      "recipe_name": "Craft Arcane Offhand Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 48,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 550,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn2_t050_weapon2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_nano_composite",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_kaelen_titanite",
+          "quantity": 4
+        },
+        {
+          "item_id": "astral_phase_crystal_pure",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn2_t055_weapon2",
+      "recipe_name": "Craft Omni Offhand Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 53,
+      "crafting_time_seconds": 16,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn2_t055_weapon2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_shard_essence",
+          "quantity": 4
+        },
+        {
+          "item_id": "ore_aethel_infused_steel",
+          "quantity": 4
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn2_t060_weapon2",
+      "recipe_name": "Craft Shard-Blessed Offhand Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 58,
+      "crafting_time_seconds": 17,
+      "crafting_cost": 650,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn2_t060_weapon2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_forge_canyon_ember",
+          "quantity": 5
+        },
+        {
+          "item_id": "void_crystal_shard",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_smuggler_cache_chip",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn2_t065_weapon2",
+      "recipe_name": "Craft Starforged Offhand Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 63,
+      "crafting_time_seconds": 18,
+      "crafting_cost": 700,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn2_t065_weapon2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_aethel_core_fragment",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_hegemony_war_badge",
+          "quantity": 5
+        },
+        {
+          "item_id": "titan_neural_cortex",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn2_t070_weapon2",
+      "recipe_name": "Craft Hegemony Offhand Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 68,
+      "crafting_time_seconds": 19,
+      "crafting_cost": 750,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn2_t070_weapon2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "paradox_crystal",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_jungle_relic",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_shard_temple_fragment",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn2_t075_weapon2",
+      "recipe_name": "Craft Abyss Offhand Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 73,
+      "crafting_time_seconds": 20,
+      "crafting_cost": 800,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn2_t075_weapon2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "titan_neural_cortex",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_spire_protocol_core",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_ancient_war_module",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn2_t080_weapon2",
+      "recipe_name": "Craft Nova Offhand Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 78,
+      "crafting_time_seconds": 21,
+      "crafting_cost": 850,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn2_t080_weapon2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_cartel_mastercrafted",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_heartwood_core",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_aethel_heart",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn2_t085_weapon2",
+      "recipe_name": "Craft Phantom Offhand Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 83,
+      "crafting_time_seconds": 22,
+      "crafting_cost": 900,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn2_t085_weapon2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_gravity_core",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_starforged_relic",
+          "quantity": 6
+        },
+        {
+          "item_id": "resonanted_astral_phase_crystal",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn2_t090_weapon2",
+      "recipe_name": "Craft Celestial Offhand Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 88,
+      "crafting_time_seconds": 23,
+      "crafting_cost": 950,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn2_t090_weapon2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_sanctum_blessing_stone",
+          "quantity": 6
+        },
+        {
+          "item_id": "mat_concordium_seal",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_hegemony_core",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn2_t095_weapon2",
+      "recipe_name": "Craft Void-Prime Offhand Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 93,
+      "crafting_time_seconds": 24,
+      "crafting_cost": 1000,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn2_t095_weapon2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_kaelen_conquest_seal",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_arcanum_codex",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_black_market_key",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_wpn2_t100_weapon2",
+      "recipe_name": "Craft Eternal Offhand Blade",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 98,
+      "crafting_time_seconds": 25,
+      "crafting_cost": 1050,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn2_t100_weapon2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_aethel_core_fragment",
+          "quantity": 7
+        },
+        {
+          "item_id": "art_hegemony_war_badge",
+          "quantity": 7
+        },
+        {
+          "item_id": "titan_neural_cortex",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_hlm_t001_helmet",
+      "recipe_name": "Craft Rusted Helm",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 1,
+      "crafting_time_seconds": 5,
+      "crafting_cost": 60,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "hlm_t001_helmet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_iron_ingot",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_iron_ingot",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_hlm_t005_helmet",
+      "recipe_name": "Craft Rusted Helm",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 3,
+      "crafting_time_seconds": 6,
+      "crafting_cost": 100,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "hlm_t005_helmet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_coral_resin",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_glowvine_sap",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_cradle_glass",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_hlm_t010_helmet",
+      "recipe_name": "Craft Iron Helm",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 8,
+      "crafting_time_seconds": 7,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "hlm_t010_helmet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_synth_fiber",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_dune_sandstone",
+          "quantity": 2
+        },
+        {
+          "item_id": "crystal_core",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_hlm_t015_helmet",
+      "recipe_name": "Craft Steel Helm",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 13,
+      "crafting_time_seconds": 8,
+      "crafting_cost": 200,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "hlm_t015_helmet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "calcified_bone_shard",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_iron_ore",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_metal",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_hlm_t020_helmet",
+      "recipe_name": "Craft Reinforced Helm",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 18,
+      "crafting_time_seconds": 9,
+      "crafting_cost": 250,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "hlm_t020_helmet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "ore_scorched_iron",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_fractured_prism",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_wolf_pelt",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_hlm_t025_helmet",
+      "recipe_name": "Craft Tempered Helm",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 23,
+      "crafting_time_seconds": 10,
+      "crafting_cost": 300,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "hlm_t025_helmet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_aethel_dust",
+          "quantity": 3
+        },
+        {
+          "item_id": "ore_iron_scrap",
+          "quantity": 3
+        },
+        {
+          "item_id": "scrapped_energy_cell",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_hlm_t030_helmet",
+      "recipe_name": "Craft Aethel-Touched Helm",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 28,
+      "crafting_time_seconds": 11,
+      "crafting_cost": 350,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "hlm_t030_helmet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_quantum_lens",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_meridian_cipher_key",
+          "quantity": 3
+        },
+        {
+          "item_id": "art_temporal_shard",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_hlm_t035_helmet",
+      "recipe_name": "Craft Crystalline Helm",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 33,
+      "crafting_time_seconds": 12,
+      "crafting_cost": 400,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "hlm_t035_helmet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_hardened_steel_plate",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_omni_processor_chip",
+          "quantity": 3
+        },
+        {
+          "item_id": "art_legion_war_medal",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_hlm_t040_helmet",
+      "recipe_name": "Craft Void-Forged Helm",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 38,
+      "crafting_time_seconds": 13,
+      "crafting_cost": 450,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "hlm_t040_helmet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_smuggler_alloy",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_shardroot_bark",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_aethel_dust_purified",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_hlm_t045_helmet",
+      "recipe_name": "Craft Legion Helm",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 43,
+      "crafting_time_seconds": 14,
+      "crafting_cost": 500,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "hlm_t045_helmet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_nano_composite",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_kaelen_titanite",
+          "quantity": 4
+        },
+        {
+          "item_id": "astral_phase_crystal_pure",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_hlm_t050_helmet",
+      "recipe_name": "Craft Arcane Helm",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 48,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 550,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "hlm_t050_helmet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_shard_essence",
+          "quantity": 4
+        },
+        {
+          "item_id": "ore_aethel_infused_steel",
+          "quantity": 4
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_hlm_t055_helmet",
+      "recipe_name": "Craft Omni Helm",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 53,
+      "crafting_time_seconds": 16,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "hlm_t055_helmet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_forge_canyon_ember",
+          "quantity": 4
+        },
+        {
+          "item_id": "void_crystal_shard",
+          "quantity": 4
+        },
+        {
+          "item_id": "art_smuggler_cache_chip",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_hlm_t060_helmet",
+      "recipe_name": "Craft Shard-Blessed Helm",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 58,
+      "crafting_time_seconds": 17,
+      "crafting_cost": 650,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "hlm_t060_helmet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_nexus_alloy",
+          "quantity": 5
+        },
+        {
+          "item_id": "bent_titanium_frame",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_omnicorp_ai_core",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_hlm_t065_helmet",
+      "recipe_name": "Craft Starforged Helm",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 63,
+      "crafting_time_seconds": 18,
+      "crafting_cost": 700,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "hlm_t065_helmet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "paradox_crystal",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_jungle_relic",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_shard_temple_fragment",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_hlm_t070_helmet",
+      "recipe_name": "Craft Hegemony Helm",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 68,
+      "crafting_time_seconds": 19,
+      "crafting_cost": 750,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "hlm_t070_helmet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "titan_neural_cortex",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_spire_protocol_core",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_ancient_war_module",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_hlm_t075_helmet",
+      "recipe_name": "Craft Abyss Helm",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 73,
+      "crafting_time_seconds": 20,
+      "crafting_cost": 800,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "hlm_t075_helmet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_cartel_mastercrafted",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_heartwood_core",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_aethel_heart",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_hlm_t080_helmet",
+      "recipe_name": "Craft Nova Helm",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 78,
+      "crafting_time_seconds": 21,
+      "crafting_cost": 850,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "hlm_t080_helmet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_gravity_core",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_starforged_relic",
+          "quantity": 6
+        },
+        {
+          "item_id": "resonanted_astral_phase_crystal",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_hlm_t085_helmet",
+      "recipe_name": "Craft Phantom Helm",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 83,
+      "crafting_time_seconds": 22,
+      "crafting_cost": 900,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "hlm_t085_helmet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_sanctum_blessing_stone",
+          "quantity": 6
+        },
+        {
+          "item_id": "mat_concordium_seal",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_hegemony_core",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_hlm_t090_helmet",
+      "recipe_name": "Craft Celestial Helm",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 88,
+      "crafting_time_seconds": 23,
+      "crafting_cost": 950,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "hlm_t090_helmet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_kaelen_conquest_seal",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_arcanum_codex",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_black_market_key",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_hlm_t095_helmet",
+      "recipe_name": "Craft Void-Prime Helm",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 93,
+      "crafting_time_seconds": 24,
+      "crafting_cost": 1000,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "hlm_t095_helmet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_aethel_core_fragment",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_hegemony_war_badge",
+          "quantity": 6
+        },
+        {
+          "item_id": "titan_neural_cortex",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_hlm_t100_helmet",
+      "recipe_name": "Craft Eternal Helm",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 98,
+      "crafting_time_seconds": 25,
+      "crafting_cost": 1050,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "hlm_t100_helmet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "paradox_crystal",
+          "quantity": 7
+        },
+        {
+          "item_id": "art_jungle_relic",
+          "quantity": 7
+        },
+        {
+          "item_id": "art_shard_temple_fragment",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_arm_t001_armor",
+      "recipe_name": "Craft Rusted Armor",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 1,
+      "crafting_time_seconds": 5,
+      "crafting_cost": 60,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "arm_t001_armor",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_coral_resin",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_glowvine_sap",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_cradle_glass",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_arm_t005_armor",
+      "recipe_name": "Craft Rusted Armor",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 3,
+      "crafting_time_seconds": 6,
+      "crafting_cost": 100,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "arm_t005_armor",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_synth_fiber",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_dune_sandstone",
+          "quantity": 2
+        },
+        {
+          "item_id": "crystal_core",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_arm_t010_armor",
+      "recipe_name": "Craft Iron Armor",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 8,
+      "crafting_time_seconds": 7,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "arm_t010_armor",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "calcified_bone_shard",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_iron_ore",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_metal",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_arm_t015_armor",
+      "recipe_name": "Craft Steel Armor",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 13,
+      "crafting_time_seconds": 8,
+      "crafting_cost": 200,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "arm_t015_armor",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "ore_scorched_iron",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_fractured_prism",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_wolf_pelt",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_arm_t020_armor",
+      "recipe_name": "Craft Reinforced Armor",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 18,
+      "crafting_time_seconds": 9,
+      "crafting_cost": 250,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "arm_t020_armor",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_aethel_dust",
+          "quantity": 3
+        },
+        {
+          "item_id": "ore_iron_scrap",
+          "quantity": 3
+        },
+        {
+          "item_id": "scrapped_energy_cell",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_arm_t025_armor",
+      "recipe_name": "Craft Tempered Armor",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 23,
+      "crafting_time_seconds": 10,
+      "crafting_cost": 300,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "arm_t025_armor",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "crs_resonance_crystal",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_jungle_ironwood",
+          "quantity": 3
+        },
+        {
+          "item_id": "crs_resonant_shard",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_arm_t030_armor",
+      "recipe_name": "Craft Aethel-Touched Armor",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 28,
+      "crafting_time_seconds": 11,
+      "crafting_cost": 350,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "arm_t030_armor",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_hardened_steel_plate",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_omni_processor_chip",
+          "quantity": 3
+        },
+        {
+          "item_id": "art_legion_war_medal",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_arm_t035_armor",
+      "recipe_name": "Craft Crystalline Armor",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 33,
+      "crafting_time_seconds": 12,
+      "crafting_cost": 400,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "arm_t035_armor",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_smuggler_alloy",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_shardroot_bark",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_aethel_dust_purified",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_arm_t040_armor",
+      "recipe_name": "Craft Void-Forged Armor",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 38,
+      "crafting_time_seconds": 13,
+      "crafting_cost": 450,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "arm_t040_armor",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_nano_composite",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_kaelen_titanite",
+          "quantity": 4
+        },
+        {
+          "item_id": "astral_phase_crystal_pure",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_arm_t045_armor",
+      "recipe_name": "Craft Legion Armor",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 43,
+      "crafting_time_seconds": 14,
+      "crafting_cost": 500,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "arm_t045_armor",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_shard_essence",
+          "quantity": 4
+        },
+        {
+          "item_id": "ore_aethel_infused_steel",
+          "quantity": 4
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_arm_t050_armor",
+      "recipe_name": "Craft Arcane Armor",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 48,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 550,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "arm_t050_armor",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_forge_canyon_ember",
+          "quantity": 4
+        },
+        {
+          "item_id": "void_crystal_shard",
+          "quantity": 4
+        },
+        {
+          "item_id": "art_smuggler_cache_chip",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_arm_t055_armor",
+      "recipe_name": "Craft Omni Armor",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 53,
+      "crafting_time_seconds": 16,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "arm_t055_armor",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_nexus_alloy",
+          "quantity": 4
+        },
+        {
+          "item_id": "bent_titanium_frame",
+          "quantity": 4
+        },
+        {
+          "item_id": "art_omnicorp_ai_core",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_arm_t060_armor",
+      "recipe_name": "Craft Shard-Blessed Armor",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 58,
+      "crafting_time_seconds": 17,
+      "crafting_cost": 650,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "arm_t060_armor",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_quantum_lens",
+          "quantity": 5
+        },
+        {
+          "item_id": "mat_meridian_cipher_key",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_temporal_shard",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_arm_t065_armor",
+      "recipe_name": "Craft Starforged Armor",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 63,
+      "crafting_time_seconds": 18,
+      "crafting_cost": 700,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "arm_t065_armor",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "titan_neural_cortex",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_spire_protocol_core",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_ancient_war_module",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_arm_t070_armor",
+      "recipe_name": "Craft Hegemony Armor",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 68,
+      "crafting_time_seconds": 19,
+      "crafting_cost": 750,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "arm_t070_armor",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_cartel_mastercrafted",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_heartwood_core",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_aethel_heart",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_arm_t075_armor",
+      "recipe_name": "Craft Abyss Armor",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 73,
+      "crafting_time_seconds": 20,
+      "crafting_cost": 800,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "arm_t075_armor",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_gravity_core",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_starforged_relic",
+          "quantity": 5
+        },
+        {
+          "item_id": "resonanted_astral_phase_crystal",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_arm_t080_armor",
+      "recipe_name": "Craft Nova Armor",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 78,
+      "crafting_time_seconds": 21,
+      "crafting_cost": 850,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "arm_t080_armor",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_sanctum_blessing_stone",
+          "quantity": 6
+        },
+        {
+          "item_id": "mat_concordium_seal",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_hegemony_core",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_arm_t085_armor",
+      "recipe_name": "Craft Phantom Armor",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 83,
+      "crafting_time_seconds": 22,
+      "crafting_cost": 900,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "arm_t085_armor",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_kaelen_conquest_seal",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_arcanum_codex",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_black_market_key",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_arm_t090_armor",
+      "recipe_name": "Craft Celestial Armor",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 88,
+      "crafting_time_seconds": 23,
+      "crafting_cost": 950,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "arm_t090_armor",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_aethel_core_fragment",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_hegemony_war_badge",
+          "quantity": 6
+        },
+        {
+          "item_id": "titan_neural_cortex",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_arm_t095_armor",
+      "recipe_name": "Craft Void-Prime Armor",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 93,
+      "crafting_time_seconds": 24,
+      "crafting_cost": 1000,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "arm_t095_armor",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "paradox_crystal",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_jungle_relic",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_shard_temple_fragment",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_arm_t100_armor",
+      "recipe_name": "Craft Eternal Armor",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 98,
+      "crafting_time_seconds": 25,
+      "crafting_cost": 1050,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "arm_t100_armor",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "titan_neural_cortex",
+          "quantity": 7
+        },
+        {
+          "item_id": "art_spire_protocol_core",
+          "quantity": 7
+        },
+        {
+          "item_id": "art_ancient_war_module",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_glv_t001_glove",
+      "recipe_name": "Craft Rusted Gauntlets",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 1,
+      "crafting_time_seconds": 5,
+      "crafting_cost": 60,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "glv_t001_glove",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_synth_fiber",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_dune_sandstone",
+          "quantity": 2
+        },
+        {
+          "item_id": "crystal_core",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_glv_t005_glove",
+      "recipe_name": "Craft Rusted Gauntlets",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 3,
+      "crafting_time_seconds": 6,
+      "crafting_cost": 100,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "glv_t005_glove",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "calcified_bone_shard",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_iron_ore",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_metal",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_glv_t010_glove",
+      "recipe_name": "Craft Iron Gauntlets",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 8,
+      "crafting_time_seconds": 7,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "glv_t010_glove",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "ore_scorched_iron",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_fractured_prism",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_wolf_pelt",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_glv_t015_glove",
+      "recipe_name": "Craft Steel Gauntlets",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 13,
+      "crafting_time_seconds": 8,
+      "crafting_cost": 200,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "glv_t015_glove",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_aethel_dust",
+          "quantity": 2
+        },
+        {
+          "item_id": "ore_iron_scrap",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrapped_energy_cell",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_glv_t020_glove",
+      "recipe_name": "Craft Reinforced Gauntlets",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 18,
+      "crafting_time_seconds": 9,
+      "crafting_cost": 250,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "glv_t020_glove",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "crs_resonance_crystal",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_jungle_ironwood",
+          "quantity": 3
+        },
+        {
+          "item_id": "crs_resonant_shard",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_glv_t025_glove",
+      "recipe_name": "Craft Tempered Gauntlets",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 23,
+      "crafting_time_seconds": 10,
+      "crafting_cost": 300,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "glv_t025_glove",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_iron_ingot",
+          "quantity": 3
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_iron_ingot",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_glv_t030_glove",
+      "recipe_name": "Craft Aethel-Touched Gauntlets",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 28,
+      "crafting_time_seconds": 11,
+      "crafting_cost": 350,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "glv_t030_glove",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_smuggler_alloy",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_shardroot_bark",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_aethel_dust_purified",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_glv_t035_glove",
+      "recipe_name": "Craft Crystalline Gauntlets",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 33,
+      "crafting_time_seconds": 12,
+      "crafting_cost": 400,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "glv_t035_glove",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_nano_composite",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_kaelen_titanite",
+          "quantity": 3
+        },
+        {
+          "item_id": "astral_phase_crystal_pure",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_glv_t040_glove",
+      "recipe_name": "Craft Void-Forged Gauntlets",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 38,
+      "crafting_time_seconds": 13,
+      "crafting_cost": 450,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "glv_t040_glove",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_shard_essence",
+          "quantity": 4
+        },
+        {
+          "item_id": "ore_aethel_infused_steel",
+          "quantity": 4
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_glv_t045_glove",
+      "recipe_name": "Craft Legion Gauntlets",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 43,
+      "crafting_time_seconds": 14,
+      "crafting_cost": 500,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "glv_t045_glove",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_forge_canyon_ember",
+          "quantity": 4
+        },
+        {
+          "item_id": "void_crystal_shard",
+          "quantity": 4
+        },
+        {
+          "item_id": "art_smuggler_cache_chip",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_glv_t050_glove",
+      "recipe_name": "Craft Arcane Gauntlets",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 48,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 550,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "glv_t050_glove",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_nexus_alloy",
+          "quantity": 4
+        },
+        {
+          "item_id": "bent_titanium_frame",
+          "quantity": 4
+        },
+        {
+          "item_id": "art_omnicorp_ai_core",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_glv_t055_glove",
+      "recipe_name": "Craft Omni Gauntlets",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 53,
+      "crafting_time_seconds": 16,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "glv_t055_glove",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_quantum_lens",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_meridian_cipher_key",
+          "quantity": 4
+        },
+        {
+          "item_id": "art_temporal_shard",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_glv_t060_glove",
+      "recipe_name": "Craft Shard-Blessed Gauntlets",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 58,
+      "crafting_time_seconds": 17,
+      "crafting_cost": 650,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "glv_t060_glove",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_hardened_steel_plate",
+          "quantity": 5
+        },
+        {
+          "item_id": "mat_omni_processor_chip",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_legion_war_medal",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_glv_t065_glove",
+      "recipe_name": "Craft Starforged Gauntlets",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 63,
+      "crafting_time_seconds": 18,
+      "crafting_cost": 700,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "glv_t065_glove",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_cartel_mastercrafted",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_heartwood_core",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_aethel_heart",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_glv_t070_glove",
+      "recipe_name": "Craft Hegemony Gauntlets",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 68,
+      "crafting_time_seconds": 19,
+      "crafting_cost": 750,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "glv_t070_glove",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_gravity_core",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_starforged_relic",
+          "quantity": 5
+        },
+        {
+          "item_id": "resonanted_astral_phase_crystal",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_glv_t075_glove",
+      "recipe_name": "Craft Abyss Gauntlets",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 73,
+      "crafting_time_seconds": 20,
+      "crafting_cost": 800,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "glv_t075_glove",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_sanctum_blessing_stone",
+          "quantity": 5
+        },
+        {
+          "item_id": "mat_concordium_seal",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_hegemony_core",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_glv_t080_glove",
+      "recipe_name": "Craft Nova Gauntlets",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 78,
+      "crafting_time_seconds": 21,
+      "crafting_cost": 850,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "glv_t080_glove",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_kaelen_conquest_seal",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_arcanum_codex",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_black_market_key",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_glv_t085_glove",
+      "recipe_name": "Craft Phantom Gauntlets",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 83,
+      "crafting_time_seconds": 22,
+      "crafting_cost": 900,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "glv_t085_glove",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_aethel_core_fragment",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_hegemony_war_badge",
+          "quantity": 6
+        },
+        {
+          "item_id": "titan_neural_cortex",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_glv_t090_glove",
+      "recipe_name": "Craft Celestial Gauntlets",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 88,
+      "crafting_time_seconds": 23,
+      "crafting_cost": 950,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "glv_t090_glove",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "paradox_crystal",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_jungle_relic",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_shard_temple_fragment",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_glv_t095_glove",
+      "recipe_name": "Craft Void-Prime Gauntlets",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 93,
+      "crafting_time_seconds": 24,
+      "crafting_cost": 1000,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "glv_t095_glove",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "titan_neural_cortex",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_spire_protocol_core",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_ancient_war_module",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_glv_t100_glove",
+      "recipe_name": "Craft Eternal Gauntlets",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 98,
+      "crafting_time_seconds": 25,
+      "crafting_cost": 1050,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "glv_t100_glove",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_cartel_mastercrafted",
+          "quantity": 7
+        },
+        {
+          "item_id": "art_heartwood_core",
+          "quantity": 7
+        },
+        {
+          "item_id": "art_aethel_heart",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_trs_t001_trouser",
+      "recipe_name": "Craft Rusted Legguards",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 1,
+      "crafting_time_seconds": 5,
+      "crafting_cost": 60,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "trs_t001_trouser",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "calcified_bone_shard",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_iron_ore",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_metal",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_trs_t005_trouser",
+      "recipe_name": "Craft Rusted Legguards",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 3,
+      "crafting_time_seconds": 6,
+      "crafting_cost": 100,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "trs_t005_trouser",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "ore_scorched_iron",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_fractured_prism",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_wolf_pelt",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_trs_t010_trouser",
+      "recipe_name": "Craft Iron Legguards",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 8,
+      "crafting_time_seconds": 7,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "trs_t010_trouser",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_aethel_dust",
+          "quantity": 2
+        },
+        {
+          "item_id": "ore_iron_scrap",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrapped_energy_cell",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_trs_t015_trouser",
+      "recipe_name": "Craft Steel Legguards",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 13,
+      "crafting_time_seconds": 8,
+      "crafting_cost": 200,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "trs_t015_trouser",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "crs_resonance_crystal",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_jungle_ironwood",
+          "quantity": 2
+        },
+        {
+          "item_id": "crs_resonant_shard",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_trs_t020_trouser",
+      "recipe_name": "Craft Reinforced Legguards",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 18,
+      "crafting_time_seconds": 9,
+      "crafting_cost": 250,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "trs_t020_trouser",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_iron_ingot",
+          "quantity": 3
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_iron_ingot",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_trs_t025_trouser",
+      "recipe_name": "Craft Tempered Legguards",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 23,
+      "crafting_time_seconds": 10,
+      "crafting_cost": 300,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "trs_t025_trouser",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_coral_resin",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_glowvine_sap",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_cradle_glass",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_trs_t030_trouser",
+      "recipe_name": "Craft Aethel-Touched Legguards",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 28,
+      "crafting_time_seconds": 11,
+      "crafting_cost": 350,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "trs_t030_trouser",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_nano_composite",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_kaelen_titanite",
+          "quantity": 3
+        },
+        {
+          "item_id": "astral_phase_crystal_pure",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_trs_t035_trouser",
+      "recipe_name": "Craft Crystalline Legguards",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 33,
+      "crafting_time_seconds": 12,
+      "crafting_cost": 400,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "trs_t035_trouser",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_shard_essence",
+          "quantity": 3
+        },
+        {
+          "item_id": "ore_aethel_infused_steel",
+          "quantity": 3
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_trs_t040_trouser",
+      "recipe_name": "Craft Void-Forged Legguards",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 38,
+      "crafting_time_seconds": 13,
+      "crafting_cost": 450,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "trs_t040_trouser",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_forge_canyon_ember",
+          "quantity": 4
+        },
+        {
+          "item_id": "void_crystal_shard",
+          "quantity": 4
+        },
+        {
+          "item_id": "art_smuggler_cache_chip",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_trs_t045_trouser",
+      "recipe_name": "Craft Legion Legguards",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 43,
+      "crafting_time_seconds": 14,
+      "crafting_cost": 500,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "trs_t045_trouser",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_nexus_alloy",
+          "quantity": 4
+        },
+        {
+          "item_id": "bent_titanium_frame",
+          "quantity": 4
+        },
+        {
+          "item_id": "art_omnicorp_ai_core",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_trs_t050_trouser",
+      "recipe_name": "Craft Arcane Legguards",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 48,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 550,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "trs_t050_trouser",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_quantum_lens",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_meridian_cipher_key",
+          "quantity": 4
+        },
+        {
+          "item_id": "art_temporal_shard",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_trs_t055_trouser",
+      "recipe_name": "Craft Omni Legguards",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 53,
+      "crafting_time_seconds": 16,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "trs_t055_trouser",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_hardened_steel_plate",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_omni_processor_chip",
+          "quantity": 4
+        },
+        {
+          "item_id": "art_legion_war_medal",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_trs_t060_trouser",
+      "recipe_name": "Craft Shard-Blessed Legguards",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 58,
+      "crafting_time_seconds": 17,
+      "crafting_cost": 650,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "trs_t060_trouser",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_smuggler_alloy",
+          "quantity": 5
+        },
+        {
+          "item_id": "mat_shardroot_bark",
+          "quantity": 5
+        },
+        {
+          "item_id": "mat_aethel_dust_purified",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_trs_t065_trouser",
+      "recipe_name": "Craft Starforged Legguards",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 63,
+      "crafting_time_seconds": 18,
+      "crafting_cost": 700,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "trs_t065_trouser",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_gravity_core",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_starforged_relic",
+          "quantity": 5
+        },
+        {
+          "item_id": "resonanted_astral_phase_crystal",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_trs_t070_trouser",
+      "recipe_name": "Craft Hegemony Legguards",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 68,
+      "crafting_time_seconds": 19,
+      "crafting_cost": 750,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "trs_t070_trouser",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_sanctum_blessing_stone",
+          "quantity": 5
+        },
+        {
+          "item_id": "mat_concordium_seal",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_hegemony_core",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_trs_t075_trouser",
+      "recipe_name": "Craft Abyss Legguards",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 73,
+      "crafting_time_seconds": 20,
+      "crafting_cost": 800,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "trs_t075_trouser",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_kaelen_conquest_seal",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_arcanum_codex",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_black_market_key",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_trs_t080_trouser",
+      "recipe_name": "Craft Nova Legguards",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 78,
+      "crafting_time_seconds": 21,
+      "crafting_cost": 850,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "trs_t080_trouser",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_aethel_core_fragment",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_hegemony_war_badge",
+          "quantity": 6
+        },
+        {
+          "item_id": "titan_neural_cortex",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_trs_t085_trouser",
+      "recipe_name": "Craft Phantom Legguards",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 83,
+      "crafting_time_seconds": 22,
+      "crafting_cost": 900,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "trs_t085_trouser",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "paradox_crystal",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_jungle_relic",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_shard_temple_fragment",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_trs_t090_trouser",
+      "recipe_name": "Craft Celestial Legguards",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 88,
+      "crafting_time_seconds": 23,
+      "crafting_cost": 950,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "trs_t090_trouser",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "titan_neural_cortex",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_spire_protocol_core",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_ancient_war_module",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_trs_t095_trouser",
+      "recipe_name": "Craft Void-Prime Legguards",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 93,
+      "crafting_time_seconds": 24,
+      "crafting_cost": 1000,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "trs_t095_trouser",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_cartel_mastercrafted",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_heartwood_core",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_aethel_heart",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_trs_t100_trouser",
+      "recipe_name": "Craft Eternal Legguards",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 98,
+      "crafting_time_seconds": 25,
+      "crafting_cost": 1050,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "trs_t100_trouser",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_gravity_core",
+          "quantity": 7
+        },
+        {
+          "item_id": "art_starforged_relic",
+          "quantity": 7
+        },
+        {
+          "item_id": "resonanted_astral_phase_crystal",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_bts_t001_boots",
+      "recipe_name": "Craft Rusted Boots",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 1,
+      "crafting_time_seconds": 5,
+      "crafting_cost": 60,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "bts_t001_boots",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "ore_scorched_iron",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_fractured_prism",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_wolf_pelt",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_bts_t005_boots",
+      "recipe_name": "Craft Rusted Boots",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 3,
+      "crafting_time_seconds": 6,
+      "crafting_cost": 100,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "bts_t005_boots",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_aethel_dust",
+          "quantity": 2
+        },
+        {
+          "item_id": "ore_iron_scrap",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrapped_energy_cell",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_bts_t010_boots",
+      "recipe_name": "Craft Iron Boots",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 8,
+      "crafting_time_seconds": 7,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "bts_t010_boots",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "crs_resonance_crystal",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_jungle_ironwood",
+          "quantity": 2
+        },
+        {
+          "item_id": "crs_resonant_shard",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_bts_t015_boots",
+      "recipe_name": "Craft Steel Boots",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 13,
+      "crafting_time_seconds": 8,
+      "crafting_cost": 200,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "bts_t015_boots",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_iron_ingot",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_iron_ingot",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_bts_t020_boots",
+      "recipe_name": "Craft Reinforced Boots",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 18,
+      "crafting_time_seconds": 9,
+      "crafting_cost": 250,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "bts_t020_boots",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_coral_resin",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_glowvine_sap",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_cradle_glass",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_bts_t025_boots",
+      "recipe_name": "Craft Tempered Boots",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 23,
+      "crafting_time_seconds": 10,
+      "crafting_cost": 300,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "bts_t025_boots",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_synth_fiber",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_dune_sandstone",
+          "quantity": 3
+        },
+        {
+          "item_id": "crystal_core",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_bts_t030_boots",
+      "recipe_name": "Craft Aethel-Touched Boots",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 28,
+      "crafting_time_seconds": 11,
+      "crafting_cost": 350,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "bts_t030_boots",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_shard_essence",
+          "quantity": 3
+        },
+        {
+          "item_id": "ore_aethel_infused_steel",
+          "quantity": 3
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_bts_t035_boots",
+      "recipe_name": "Craft Crystalline Boots",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 33,
+      "crafting_time_seconds": 12,
+      "crafting_cost": 400,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "bts_t035_boots",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_forge_canyon_ember",
+          "quantity": 3
+        },
+        {
+          "item_id": "void_crystal_shard",
+          "quantity": 3
+        },
+        {
+          "item_id": "art_smuggler_cache_chip",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_bts_t040_boots",
+      "recipe_name": "Craft Void-Forged Boots",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 38,
+      "crafting_time_seconds": 13,
+      "crafting_cost": 450,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "bts_t040_boots",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_nexus_alloy",
+          "quantity": 4
+        },
+        {
+          "item_id": "bent_titanium_frame",
+          "quantity": 4
+        },
+        {
+          "item_id": "art_omnicorp_ai_core",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_bts_t045_boots",
+      "recipe_name": "Craft Legion Boots",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 43,
+      "crafting_time_seconds": 14,
+      "crafting_cost": 500,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "bts_t045_boots",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_quantum_lens",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_meridian_cipher_key",
+          "quantity": 4
+        },
+        {
+          "item_id": "art_temporal_shard",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_bts_t050_boots",
+      "recipe_name": "Craft Arcane Boots",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 48,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 550,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "bts_t050_boots",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_hardened_steel_plate",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_omni_processor_chip",
+          "quantity": 4
+        },
+        {
+          "item_id": "art_legion_war_medal",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_bts_t055_boots",
+      "recipe_name": "Craft Omni Boots",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 53,
+      "crafting_time_seconds": 16,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "bts_t055_boots",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_smuggler_alloy",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_shardroot_bark",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_aethel_dust_purified",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_bts_t060_boots",
+      "recipe_name": "Craft Shard-Blessed Boots",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 58,
+      "crafting_time_seconds": 17,
+      "crafting_cost": 650,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "bts_t060_boots",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_nano_composite",
+          "quantity": 5
+        },
+        {
+          "item_id": "mat_kaelen_titanite",
+          "quantity": 5
+        },
+        {
+          "item_id": "astral_phase_crystal_pure",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_bts_t065_boots",
+      "recipe_name": "Craft Starforged Boots",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 63,
+      "crafting_time_seconds": 18,
+      "crafting_cost": 700,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "bts_t065_boots",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_sanctum_blessing_stone",
+          "quantity": 5
+        },
+        {
+          "item_id": "mat_concordium_seal",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_hegemony_core",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_bts_t070_boots",
+      "recipe_name": "Craft Hegemony Boots",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 68,
+      "crafting_time_seconds": 19,
+      "crafting_cost": 750,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "bts_t070_boots",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_kaelen_conquest_seal",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_arcanum_codex",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_black_market_key",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_bts_t075_boots",
+      "recipe_name": "Craft Abyss Boots",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 73,
+      "crafting_time_seconds": 20,
+      "crafting_cost": 800,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "bts_t075_boots",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_aethel_core_fragment",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_hegemony_war_badge",
+          "quantity": 5
+        },
+        {
+          "item_id": "titan_neural_cortex",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_bts_t080_boots",
+      "recipe_name": "Craft Nova Boots",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 78,
+      "crafting_time_seconds": 21,
+      "crafting_cost": 850,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "bts_t080_boots",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "paradox_crystal",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_jungle_relic",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_shard_temple_fragment",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_bts_t085_boots",
+      "recipe_name": "Craft Phantom Boots",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 83,
+      "crafting_time_seconds": 22,
+      "crafting_cost": 900,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "bts_t085_boots",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "titan_neural_cortex",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_spire_protocol_core",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_ancient_war_module",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_bts_t090_boots",
+      "recipe_name": "Craft Celestial Boots",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 88,
+      "crafting_time_seconds": 23,
+      "crafting_cost": 950,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "bts_t090_boots",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_cartel_mastercrafted",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_heartwood_core",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_aethel_heart",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_bts_t095_boots",
+      "recipe_name": "Craft Void-Prime Boots",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 93,
+      "crafting_time_seconds": 24,
+      "crafting_cost": 1000,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "bts_t095_boots",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_gravity_core",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_starforged_relic",
+          "quantity": 6
+        },
+        {
+          "item_id": "resonanted_astral_phase_crystal",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_bts_t100_boots",
+      "recipe_name": "Craft Eternal Boots",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 98,
+      "crafting_time_seconds": 25,
+      "crafting_cost": 1050,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "bts_t100_boots",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_sanctum_blessing_stone",
+          "quantity": 7
+        },
+        {
+          "item_id": "mat_concordium_seal",
+          "quantity": 7
+        },
+        {
+          "item_id": "art_hegemony_core",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc1_t001_accessory1",
+      "recipe_name": "Craft Rusted Ring",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 1,
+      "crafting_time_seconds": 5,
+      "crafting_cost": 60,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc1_t001_accessory1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_aethel_dust",
+          "quantity": 2
+        },
+        {
+          "item_id": "ore_iron_scrap",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrapped_energy_cell",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc1_t005_accessory1",
+      "recipe_name": "Craft Rusted Ring",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 3,
+      "crafting_time_seconds": 6,
+      "crafting_cost": 100,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc1_t005_accessory1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "crs_resonance_crystal",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_jungle_ironwood",
+          "quantity": 2
+        },
+        {
+          "item_id": "crs_resonant_shard",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc1_t010_accessory1",
+      "recipe_name": "Craft Iron Ring",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 8,
+      "crafting_time_seconds": 7,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc1_t010_accessory1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_iron_ingot",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_iron_ingot",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc1_t015_accessory1",
+      "recipe_name": "Craft Steel Ring",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 13,
+      "crafting_time_seconds": 8,
+      "crafting_cost": 200,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc1_t015_accessory1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_coral_resin",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_glowvine_sap",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_cradle_glass",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc1_t020_accessory1",
+      "recipe_name": "Craft Reinforced Ring",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 18,
+      "crafting_time_seconds": 9,
+      "crafting_cost": 250,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc1_t020_accessory1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_synth_fiber",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_dune_sandstone",
+          "quantity": 3
+        },
+        {
+          "item_id": "crystal_core",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc1_t025_accessory1",
+      "recipe_name": "Craft Tempered Ring",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 23,
+      "crafting_time_seconds": 10,
+      "crafting_cost": 300,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc1_t025_accessory1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "calcified_bone_shard",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_iron_ore",
+          "quantity": 3
+        },
+        {
+          "item_id": "scrap_metal",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc1_t030_accessory1",
+      "recipe_name": "Craft Aethel-Touched Ring",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 28,
+      "crafting_time_seconds": 11,
+      "crafting_cost": 350,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc1_t030_accessory1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_forge_canyon_ember",
+          "quantity": 3
+        },
+        {
+          "item_id": "void_crystal_shard",
+          "quantity": 3
+        },
+        {
+          "item_id": "art_smuggler_cache_chip",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc1_t035_accessory1",
+      "recipe_name": "Craft Crystalline Ring",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 33,
+      "crafting_time_seconds": 12,
+      "crafting_cost": 400,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc1_t035_accessory1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_nexus_alloy",
+          "quantity": 3
+        },
+        {
+          "item_id": "bent_titanium_frame",
+          "quantity": 3
+        },
+        {
+          "item_id": "art_omnicorp_ai_core",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc1_t040_accessory1",
+      "recipe_name": "Craft Void-Forged Ring",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 38,
+      "crafting_time_seconds": 13,
+      "crafting_cost": 450,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc1_t040_accessory1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_quantum_lens",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_meridian_cipher_key",
+          "quantity": 4
+        },
+        {
+          "item_id": "art_temporal_shard",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc1_t045_accessory1",
+      "recipe_name": "Craft Legion Ring",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 43,
+      "crafting_time_seconds": 14,
+      "crafting_cost": 500,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc1_t045_accessory1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_hardened_steel_plate",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_omni_processor_chip",
+          "quantity": 4
+        },
+        {
+          "item_id": "art_legion_war_medal",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc1_t050_accessory1",
+      "recipe_name": "Craft Arcane Ring",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 48,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 550,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc1_t050_accessory1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_smuggler_alloy",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_shardroot_bark",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_aethel_dust_purified",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc1_t055_accessory1",
+      "recipe_name": "Craft Omni Ring",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 53,
+      "crafting_time_seconds": 16,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc1_t055_accessory1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_nano_composite",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_kaelen_titanite",
+          "quantity": 4
+        },
+        {
+          "item_id": "astral_phase_crystal_pure",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc1_t060_accessory1",
+      "recipe_name": "Craft Shard-Blessed Ring",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 58,
+      "crafting_time_seconds": 17,
+      "crafting_cost": 650,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc1_t060_accessory1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_shard_essence",
+          "quantity": 5
+        },
+        {
+          "item_id": "ore_aethel_infused_steel",
+          "quantity": 5
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc1_t065_accessory1",
+      "recipe_name": "Craft Starforged Ring",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 63,
+      "crafting_time_seconds": 18,
+      "crafting_cost": 700,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc1_t065_accessory1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_kaelen_conquest_seal",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_arcanum_codex",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_black_market_key",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc1_t070_accessory1",
+      "recipe_name": "Craft Hegemony Ring",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 68,
+      "crafting_time_seconds": 19,
+      "crafting_cost": 750,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc1_t070_accessory1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_aethel_core_fragment",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_hegemony_war_badge",
+          "quantity": 5
+        },
+        {
+          "item_id": "titan_neural_cortex",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc1_t075_accessory1",
+      "recipe_name": "Craft Abyss Ring",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 73,
+      "crafting_time_seconds": 20,
+      "crafting_cost": 800,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc1_t075_accessory1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "paradox_crystal",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_jungle_relic",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_shard_temple_fragment",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc1_t080_accessory1",
+      "recipe_name": "Craft Nova Ring",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 78,
+      "crafting_time_seconds": 21,
+      "crafting_cost": 850,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc1_t080_accessory1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "titan_neural_cortex",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_spire_protocol_core",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_ancient_war_module",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc1_t085_accessory1",
+      "recipe_name": "Craft Phantom Ring",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 83,
+      "crafting_time_seconds": 22,
+      "crafting_cost": 900,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc1_t085_accessory1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_cartel_mastercrafted",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_heartwood_core",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_aethel_heart",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc1_t090_accessory1",
+      "recipe_name": "Craft Celestial Ring",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 88,
+      "crafting_time_seconds": 23,
+      "crafting_cost": 950,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc1_t090_accessory1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_gravity_core",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_starforged_relic",
+          "quantity": 6
+        },
+        {
+          "item_id": "resonanted_astral_phase_crystal",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc1_t095_accessory1",
+      "recipe_name": "Craft Void-Prime Ring",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 93,
+      "crafting_time_seconds": 24,
+      "crafting_cost": 1000,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc1_t095_accessory1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_sanctum_blessing_stone",
+          "quantity": 6
+        },
+        {
+          "item_id": "mat_concordium_seal",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_hegemony_core",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc1_t100_accessory1",
+      "recipe_name": "Craft Eternal Ring",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 98,
+      "crafting_time_seconds": 25,
+      "crafting_cost": 1050,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc1_t100_accessory1",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_kaelen_conquest_seal",
+          "quantity": 7
+        },
+        {
+          "item_id": "art_arcanum_codex",
+          "quantity": 7
+        },
+        {
+          "item_id": "art_black_market_key",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc2_t001_accessory2",
+      "recipe_name": "Craft Rusted Amulet",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 1,
+      "crafting_time_seconds": 5,
+      "crafting_cost": 60,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc2_t001_accessory2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "crs_resonance_crystal",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_jungle_ironwood",
+          "quantity": 2
+        },
+        {
+          "item_id": "crs_resonant_shard",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc2_t005_accessory2",
+      "recipe_name": "Craft Rusted Amulet",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 3,
+      "crafting_time_seconds": 6,
+      "crafting_cost": 100,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc2_t005_accessory2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_iron_ingot",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_iron_ingot",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc2_t010_accessory2",
+      "recipe_name": "Craft Iron Amulet",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 8,
+      "crafting_time_seconds": 7,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc2_t010_accessory2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_coral_resin",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_glowvine_sap",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_cradle_glass",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc2_t015_accessory2",
+      "recipe_name": "Craft Steel Amulet",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 13,
+      "crafting_time_seconds": 8,
+      "crafting_cost": 200,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc2_t015_accessory2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_synth_fiber",
+          "quantity": 2
+        },
+        {
+          "item_id": "mat_dune_sandstone",
+          "quantity": 2
+        },
+        {
+          "item_id": "crystal_core",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc2_t020_accessory2",
+      "recipe_name": "Craft Reinforced Amulet",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 18,
+      "crafting_time_seconds": 9,
+      "crafting_cost": 250,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc2_t020_accessory2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "calcified_bone_shard",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_iron_ore",
+          "quantity": 3
+        },
+        {
+          "item_id": "scrap_metal",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc2_t025_accessory2",
+      "recipe_name": "Craft Tempered Amulet",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 23,
+      "crafting_time_seconds": 10,
+      "crafting_cost": 300,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc2_t025_accessory2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "ore_scorched_iron",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_fractured_prism",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_wolf_pelt",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc2_t030_accessory2",
+      "recipe_name": "Craft Aethel-Touched Amulet",
+      "category": "EQUIPMENT",
+      "crafting_station": "FORGE",
+      "required_level": 28,
+      "crafting_time_seconds": 11,
+      "crafting_cost": 350,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc2_t030_accessory2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_nexus_alloy",
+          "quantity": 3
+        },
+        {
+          "item_id": "bent_titanium_frame",
+          "quantity": 3
+        },
+        {
+          "item_id": "art_omnicorp_ai_core",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc2_t035_accessory2",
+      "recipe_name": "Craft Crystalline Amulet",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 33,
+      "crafting_time_seconds": 12,
+      "crafting_cost": 400,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc2_t035_accessory2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_quantum_lens",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_meridian_cipher_key",
+          "quantity": 3
+        },
+        {
+          "item_id": "art_temporal_shard",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc2_t040_accessory2",
+      "recipe_name": "Craft Void-Forged Amulet",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 38,
+      "crafting_time_seconds": 13,
+      "crafting_cost": 450,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc2_t040_accessory2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_hardened_steel_plate",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_omni_processor_chip",
+          "quantity": 4
+        },
+        {
+          "item_id": "art_legion_war_medal",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc2_t045_accessory2",
+      "recipe_name": "Craft Legion Amulet",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 43,
+      "crafting_time_seconds": 14,
+      "crafting_cost": 500,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc2_t045_accessory2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_smuggler_alloy",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_shardroot_bark",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_aethel_dust_purified",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc2_t050_accessory2",
+      "recipe_name": "Craft Arcane Amulet",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 48,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 550,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc2_t050_accessory2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_nano_composite",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_kaelen_titanite",
+          "quantity": 4
+        },
+        {
+          "item_id": "astral_phase_crystal_pure",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc2_t055_accessory2",
+      "recipe_name": "Craft Omni Amulet",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 53,
+      "crafting_time_seconds": 16,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc2_t055_accessory2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_shard_essence",
+          "quantity": 4
+        },
+        {
+          "item_id": "ore_aethel_infused_steel",
+          "quantity": 4
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc2_t060_accessory2",
+      "recipe_name": "Craft Shard-Blessed Amulet",
+      "category": "EQUIPMENT",
+      "crafting_station": "ADVANCED_FORGE",
+      "required_level": 58,
+      "crafting_time_seconds": 17,
+      "crafting_cost": 650,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc2_t060_accessory2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_forge_canyon_ember",
+          "quantity": 5
+        },
+        {
+          "item_id": "void_crystal_shard",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_smuggler_cache_chip",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc2_t065_accessory2",
+      "recipe_name": "Craft Starforged Amulet",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 63,
+      "crafting_time_seconds": 18,
+      "crafting_cost": 700,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc2_t065_accessory2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_aethel_core_fragment",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_hegemony_war_badge",
+          "quantity": 5
+        },
+        {
+          "item_id": "titan_neural_cortex",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc2_t070_accessory2",
+      "recipe_name": "Craft Hegemony Amulet",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 68,
+      "crafting_time_seconds": 19,
+      "crafting_cost": 750,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc2_t070_accessory2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "paradox_crystal",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_jungle_relic",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_shard_temple_fragment",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc2_t075_accessory2",
+      "recipe_name": "Craft Abyss Amulet",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 73,
+      "crafting_time_seconds": 20,
+      "crafting_cost": 800,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc2_t075_accessory2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "titan_neural_cortex",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_spire_protocol_core",
+          "quantity": 5
+        },
+        {
+          "item_id": "art_ancient_war_module",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc2_t080_accessory2",
+      "recipe_name": "Craft Nova Amulet",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 78,
+      "crafting_time_seconds": 21,
+      "crafting_cost": 850,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc2_t080_accessory2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_cartel_mastercrafted",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_heartwood_core",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_aethel_heart",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc2_t085_accessory2",
+      "recipe_name": "Craft Phantom Amulet",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 83,
+      "crafting_time_seconds": 22,
+      "crafting_cost": 900,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc2_t085_accessory2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_gravity_core",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_starforged_relic",
+          "quantity": 6
+        },
+        {
+          "item_id": "resonanted_astral_phase_crystal",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc2_t090_accessory2",
+      "recipe_name": "Craft Celestial Amulet",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 88,
+      "crafting_time_seconds": 23,
+      "crafting_cost": 950,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc2_t090_accessory2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_sanctum_blessing_stone",
+          "quantity": 6
+        },
+        {
+          "item_id": "mat_concordium_seal",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_hegemony_core",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc2_t095_accessory2",
+      "recipe_name": "Craft Void-Prime Amulet",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 93,
+      "crafting_time_seconds": 24,
+      "crafting_cost": 1000,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc2_t095_accessory2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_kaelen_conquest_seal",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_arcanum_codex",
+          "quantity": 6
+        },
+        {
+          "item_id": "art_black_market_key",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_acc2_t100_accessory2",
+      "recipe_name": "Craft Eternal Amulet",
+      "category": "EQUIPMENT",
+      "crafting_station": "MYTHIC_FORGE",
+      "required_level": 98,
+      "crafting_time_seconds": 25,
+      "crafting_cost": 1050,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc2_t100_accessory2",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "art_aethel_core_fragment",
+          "quantity": 7
+        },
+        {
+          "item_id": "art_hegemony_war_badge",
+          "quantity": 7
+        },
+        {
+          "item_id": "titan_neural_cortex",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_echo_core_1",
+      "recipe_name": "Echo Core Gain",
+      "category": "BLACKSMITHING",
+      "crafting_station": "FORGE",
+      "required_level": 1,
+      "crafting_time_seconds": 5,
+      "crafting_cost": 1000,
+      "craftable_by_npcs": [
+         "ALL"
+      ],
+      "result": {
+         "item_id": "echo_core",
+         "quantity": 10
+      },
+      "ingredients": [
+         {
+            "item_id": "con_small_mp_cell",
+            "quantity": 1
+         }
+      ]
+     },
+     {
+      "recipe_id": "rcp_echo_core_high_1",
+      "recipe_name": "Echo Core High Grade Gain",
+      "category": "BLACKSMITHING",
+      "crafting_station": "FORGE",
+      "required_level": 1,
+      "crafting_time_seconds": 5,
+      "crafting_cost": 1000,
+      "craftable_by_npcs": [
+         "ALL"
+      ],
+      "result": {
+         "item_id": "echo_core_high_grade",
+         "quantity": 10
+      },
+      "ingredients": [
+         {
+            "item_id": "potion_minor_mana",
+            "quantity": 1
+         }
+      ]
+     },
+     {
+      "recipe_id": "rcp_tort_shield",
+      "recipe_name": "Tortoise Shield Gain",
+      "category": "BLACKSMITHING",
+      "crafting_station": "FORGE",
+      "required_level": 1,
+      "crafting_time_seconds": 5,
+      "crafting_cost": 10,
+      "craftable_by_npcs": [
+         "ALL"
+      ],
+      "result": {
+         "item_id": "wpn_tortoise_shield",
+         "quantity": 1
+      },
+      "ingredients": [
+         {
+            "item_id": "potion_minor_mana",
+            "quantity": 1
+         }
+      ]
+     },
+     {
+      "recipe_id": "rec_revival_elixir",
+      "recipe_name": "Revival Elixir",
+      "description": "Basic revive formula using common materials.",
+      "category": "CONSUMABLE",
+      "required_level": 1,
+      "crafting_time_seconds": 10,
+      "crafting_cost": 50,
+      "ingredients": [
+        {
+          "item_id": "mat_aethel_dust",
+          "quantity": 2
+        },
+        {
+          "item_id": "crs_resonant_shard",
+          "quantity": 1
+        }
+      ],
+      "result": {
+        "item_id": "itm_revival_elixir",
+        "quantity": 2
+      }
+    },
+    {
+      "recipe_id": "rec_revive_shard",
+      "recipe_name": "Revival Shard",
+      "description": "A refined crystal infused with life energy.",
+      "category": "CONSUMABLE",
+      "required_level": 5,
+      "crafting_time_seconds": 30,
+      "crafting_cost": 150,
+      "ingredients": [
+        {
+          "item_id": "crs_resonant_shard",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_aethel_dust",
+          "quantity": 4
+        },
+        {
+          "item_id": "mat_nanite_fragment",
+          "quantity": 1
+        }
+      ],
+      "result": {
+        "item_id": "itm_revive_shard",
+        "quantity": 1
+      }
+    },
+    {
+      "recipe_id": "rec_phoenix_core",
+      "recipe_name": "Phoenix Core",
+      "description": "Requires rare materials from high-level encounters.",
+      "category": "CONSUMABLE",
+      "required_level": 20,
+      "crafting_time_seconds": 120,
+      "crafting_cost": 500,
+      "ingredients": [
+        {
+          "item_id": "itm_revive_shard",
+          "quantity": 3
+        },
+        {
+          "item_id": "crs_resonant_shard",
+          "quantity": 8
+        },
+        {
+          "item_id": "mat_nanite_fragment",
+          "quantity": 5
+        }
+      ],
+      "result": {
+        "item_id": "itm_phoenix_core",
+        "quantity": 1
+      }
+    },
+    {
+      "recipe_id": "rec_minor_hp_potion",
+      "recipe_name": "Minor HP Potion",
+      "description": "Basic healing brew.",
+      "category": "CONSUMABLE",
+      "required_level": 1,
+      "crafting_time_seconds": 5,
+      "crafting_cost": 20,
+      "ingredients": [
+        {
+          "item_id": "mat_aethel_dust",
+          "quantity": 1
+        }
+      ],
+      "result": {
+        "item_id": "itm_minor_hp_potion",
+        "quantity": 3
+      }
+    },
+    {
+      "recipe_id": "rec_hp_potion",
+      "recipe_name": "HP Potion",
+      "description": "Standard healing potion.",
+      "category": "CONSUMABLE",
+      "required_level": 5,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 60,
+      "ingredients": [
+        {
+          "item_id": "mat_aethel_dust",
+          "quantity": 3
+        },
+        {
+          "item_id": "crs_resonant_shard",
+          "quantity": 1
+        }
+      ],
+      "result": {
+        "item_id": "itm_hp_potion",
+        "quantity": 2
+      }
+    },
+    {
+      "recipe_id": "rec_minor_mp_potion",
+      "recipe_name": "Minor MP Potion",
+      "description": "Basic mana brew.",
+      "category": "CONSUMABLE",
+      "required_level": 1,
+      "crafting_time_seconds": 5,
+      "crafting_cost": 20,
+      "ingredients": [
+        {
+          "item_id": "mat_aethel_dust",
+          "quantity": 1
+        },
+        {
+          "item_id": "crs_resonant_shard",
+          "quantity": 1
+        }
+      ],
+      "result": {
+        "item_id": "itm_minor_mp_potion",
+        "quantity": 3
+      }
+    },
+    {
+      "recipe_id": "rec_mp_potion",
+      "recipe_name": "MP Potion",
+      "description": "Standard mana potion.",
+      "category": "CONSUMABLE",
+      "required_level": 5,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 60,
+      "ingredients": [
+        {
+          "item_id": "crs_resonant_shard",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_aethel_dust",
+          "quantity": 1
+        }
+      ],
+      "result": {
+        "item_id": "itm_mp_potion",
+        "quantity": 2
+      }
+    }
+  ]
+}

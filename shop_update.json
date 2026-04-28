@@ -1,0 +1,1202 @@
+{
+  "new_shops": [
+    {
+      "id": "shop_materials_02",
+      "name": "Smithy Dan's Field Forge",
+      "categories": [
+        {
+          "category": "metals",
+          "items": [
+            {
+              "item_id": "mat_iron_ore",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 1.1
+            },
+            {
+              "item_id": "iron_ore",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 1.1
+            },
+            {
+              "item_id": "mat_iron_ingot",
+              "stock": 30,
+              "refresh_time": 600,
+              "price_modifier": 1.15
+            },
+            {
+              "item_id": "ore_iron_scrap",
+              "stock": 40,
+              "refresh_time": 300,
+              "price_modifier": 0.95
+            },
+            {
+              "item_id": "ore_scorched_iron",
+              "stock": 25,
+              "refresh_time": 600,
+              "price_modifier": 1.2
+            },
+            {
+              "item_id": "copper_ore",
+              "stock": 40,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            }
+          ]
+        },
+        {
+          "category": "materials",
+          "items": [
+            {
+              "item_id": "scrap_metal",
+              "stock": 60,
+              "refresh_time": 300,
+              "price_modifier": 0.9
+            },
+            {
+              "item_id": "leather_strip",
+              "stock": 40,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wood_plank",
+              "stock": 40,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "machine_parts",
+              "stock": 20,
+              "refresh_time": 600,
+              "price_modifier": 1.1
+            }
+          ]
+        },
+        {
+          "category": "tools",
+          "items": [
+            {
+              "item_id": "wpn_iron_sword",
+              "stock": 5,
+              "refresh_time": 1800,
+              "price_modifier": 1.2
+            },
+            {
+              "item_id": "arm_iron_plate",
+              "stock": 3,
+              "refresh_time": 1800,
+              "price_modifier": 1.2
+            },
+            {
+              "item_id": "hlm_t015_helmet",
+              "stock": 3,
+              "refresh_time": 1800,
+              "price_modifier": 1.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_currency_concordium",
+      "name": "Concordium Currency Bureau",
+      "categories": [
+        {
+          "category": "exchange_consumables",
+          "items": [
+            {
+              "item_id": "con_aethel_stabilizer",
+              "stock": 20,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_exp_booster",
+              "stock": 10,
+              "refresh_time": 1200,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "aethel_tithe_box",
+              "stock": 5,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            }
+          ]
+        },
+        {
+          "category": "concordium_materials",
+          "items": [
+            {
+              "item_id": "mat_aethel_dust",
+              "stock": 30,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "mat_nexus_alloy",
+              "stock": 15,
+              "refresh_time": 1200,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "mat_cradle_glass",
+              "stock": 20,
+              "refresh_time": 900,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "ore_aethel_infused_steel",
+              "stock": 10,
+              "refresh_time": 1800,
+              "price_modifier": 1.0
+            }
+          ]
+        },
+        {
+          "category": "concordium_equipment",
+          "items": [
+            {
+              "item_id": "wpn_t025_weapon1",
+              "stock": 3,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "arm_t025_armor",
+              "stock": 3,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "hlm_t025_helmet",
+              "stock": 3,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_currency_arcanum",
+      "name": "Arcanum Seekers Exchange Vault",
+      "categories": [
+        {
+          "category": "arcanum_consumables",
+          "items": [
+            {
+              "item_id": "con_aethel_incense",
+              "stock": 20,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_exp_booster",
+              "stock": 8,
+              "refresh_time": 1200,
+              "price_modifier": 1.05
+            },
+            {
+              "item_id": "con_void_repellent",
+              "stock": 15,
+              "refresh_time": 900,
+              "price_modifier": 1.0
+            }
+          ]
+        },
+        {
+          "category": "arcanum_materials",
+          "items": [
+            {
+              "item_id": "crs_resonance_crystal",
+              "stock": 20,
+              "refresh_time": 900,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "mat_fractured_prism",
+              "stock": 15,
+              "refresh_time": 1200,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "mat_quantum_lens",
+              "stock": 10,
+              "refresh_time": 1800,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "aethel_core",
+              "stock": 8,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            }
+          ]
+        },
+        {
+          "category": "arcanum_equipment",
+          "items": [
+            {
+              "item_id": "wpn_t030_weapon1",
+              "stock": 2,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "acc1_t030_accessory1",
+              "stock": 3,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "acc2_t030_accessory2",
+              "stock": 3,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_currency_hegemony",
+      "name": "Iron Hegemony Treasury",
+      "categories": [
+        {
+          "category": "hegemony_consumables",
+          "items": [
+            {
+              "item_id": "con_combat_stimulant",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_defense_tonic",
+              "stock": 25,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_battle_serum",
+              "stock": 15,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_legion_iron_ration",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 0.95
+            }
+          ]
+        },
+        {
+          "category": "hegemony_materials",
+          "items": [
+            {
+              "item_id": "mat_iron_ingot",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 0.95
+            },
+            {
+              "item_id": "mat_hardened_steel_plate",
+              "stock": 15,
+              "refresh_time": 1200,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "bent_titanium_frame",
+              "stock": 10,
+              "refresh_time": 1800,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "scrap_circuit",
+              "stock": 30,
+              "refresh_time": 600,
+              "price_modifier": 0.9
+            }
+          ]
+        },
+        {
+          "category": "hegemony_equipment",
+          "items": [
+            {
+              "item_id": "wpn_t030_weapon1",
+              "stock": 3,
+              "refresh_time": 3600,
+              "price_modifier": 0.95
+            },
+            {
+              "item_id": "arm_t030_armor",
+              "stock": 3,
+              "refresh_time": 3600,
+              "price_modifier": 0.95
+            },
+            {
+              "item_id": "hlm_t030_helmet",
+              "stock": 3,
+              "refresh_time": 3600,
+              "price_modifier": 0.95
+            },
+            {
+              "item_id": "glv_t030_glove",
+              "stock": 3,
+              "refresh_time": 3600,
+              "price_modifier": 0.95
+            },
+            {
+              "item_id": "trs_t030_trouser",
+              "stock": 3,
+              "refresh_time": 3600,
+              "price_modifier": 0.95
+            },
+            {
+              "item_id": "bts_t030_boots",
+              "stock": 3,
+              "refresh_time": 3600,
+              "price_modifier": 0.95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_currency_meridian",
+      "name": "Port Meridian Exchange Floor",
+      "categories": [
+        {
+          "category": "cartel_consumables",
+          "items": [
+            {
+              "item_id": "con_scramble_grenade",
+              "stock": 20,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_antidote",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "smugglers_cache",
+              "stock": 10,
+              "refresh_time": 1800,
+              "price_modifier": 1.0
+            }
+          ]
+        },
+        {
+          "category": "cartel_materials",
+          "items": [
+            {
+              "item_id": "bio_coral_fragment",
+              "stock": 20,
+              "refresh_time": 900,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "mat_coral_resin",
+              "stock": 25,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "mat_jungle_ironwood",
+              "stock": 15,
+              "refresh_time": 1200,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "mat_smuggler_alloy",
+              "stock": 10,
+              "refresh_time": 1800,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "art_smuggler_cache_chip",
+              "stock": 5,
+              "refresh_time": 3600,
+              "price_modifier": 1.2
+            }
+          ]
+        },
+        {
+          "category": "cartel_equipment",
+          "items": [
+            {
+              "item_id": "wpn_t035_weapon1",
+              "stock": 2,
+              "refresh_time": 3600,
+              "price_modifier": 1.1
+            },
+            {
+              "item_id": "wpn2_t035_weapon2",
+              "stock": 2,
+              "refresh_time": 3600,
+              "price_modifier": 1.1
+            },
+            {
+              "item_id": "acc1_t035_accessory1",
+              "stock": 3,
+              "refresh_time": 3600,
+              "price_modifier": 1.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_currency_omnicorp",
+      "name": "OmniCorp Financial Node",
+      "categories": [
+        {
+          "category": "omnicorp_consumables",
+          "items": [
+            {
+              "item_id": "con_nano_patch",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_overclock_injector",
+              "stock": 15,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_precision_drug",
+              "stock": 10,
+              "refresh_time": 900,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_elite_recovery_pack",
+              "stock": 8,
+              "refresh_time": 1800,
+              "price_modifier": 1.0
+            }
+          ]
+        },
+        {
+          "category": "omnicorp_materials",
+          "items": [
+            {
+              "item_id": "mat_synth_fiber",
+              "stock": 40,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "mat_nano_composite",
+              "stock": 20,
+              "refresh_time": 900,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "mat_omni_processor_chip",
+              "stock": 10,
+              "refresh_time": 1800,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "scrapped_energy_cell",
+              "stock": 25,
+              "refresh_time": 600,
+              "price_modifier": 0.95
+            }
+          ]
+        },
+        {
+          "category": "omnicorp_equipment",
+          "items": [
+            {
+              "item_id": "wpn_t040_weapon1",
+              "stock": 2,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "acc2_t040_accessory2",
+              "stock": 3,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "hlm_t040_helmet",
+              "stock": 2,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "arm_t040_armor",
+              "stock": 2,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_currency_shard",
+      "name": "Sanctum Tithe Hall",
+      "categories": [
+        {
+          "category": "shard_consumables",
+          "items": [
+            {
+              "item_id": "con_blessed_oil",
+              "stock": 20,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_revive_shard",
+              "stock": 10,
+              "refresh_time": 1800,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_antidote",
+              "stock": 25,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "aethel_tithe_box",
+              "stock": 8,
+              "refresh_time": 3600,
+              "price_modifier": 0.9
+            }
+          ]
+        },
+        {
+          "category": "shard_materials",
+          "items": [
+            {
+              "item_id": "calcified_bone_shard",
+              "stock": 30,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "crs_resonant_shard",
+              "stock": 20,
+              "refresh_time": 900,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "mat_glowvine_sap",
+              "stock": 25,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "mat_shardroot_bark",
+              "stock": 20,
+              "refresh_time": 900,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "mat_shard_essence",
+              "stock": 10,
+              "refresh_time": 1800,
+              "price_modifier": 1.0
+            }
+          ]
+        },
+        {
+          "category": "shard_equipment",
+          "items": [
+            {
+              "item_id": "acc1_t035_accessory1",
+              "stock": 3,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "acc2_t035_accessory2",
+              "stock": 3,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_currency_legion",
+      "name": "Fortress Kaelen Paymaster Office",
+      "categories": [
+        {
+          "category": "legion_consumables",
+          "items": [
+            {
+              "item_id": "con_legion_iron_ration",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 0.9
+            },
+            {
+              "item_id": "con_battle_serum",
+              "stock": 20,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_agility_booster",
+              "stock": 15,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "legion_ration_pack",
+              "stock": 40,
+              "refresh_time": 300,
+              "price_modifier": 0.85
+            }
+          ]
+        },
+        {
+          "category": "legion_materials",
+          "items": [
+            {
+              "item_id": "ore_scorched_iron",
+              "stock": 40,
+              "refresh_time": 300,
+              "price_modifier": 0.9
+            },
+            {
+              "item_id": "mat_dune_sandstone",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 0.9
+            },
+            {
+              "item_id": "mat_forge_canyon_ember",
+              "stock": 20,
+              "refresh_time": 900,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "mat_kaelen_titanite",
+              "stock": 10,
+              "refresh_time": 1800,
+              "price_modifier": 1.0
+            }
+          ]
+        },
+        {
+          "category": "legion_equipment",
+          "items": [
+            {
+              "item_id": "wpn_t035_weapon1",
+              "stock": 3,
+              "refresh_time": 3600,
+              "price_modifier": 0.95
+            },
+            {
+              "item_id": "arm_t035_armor",
+              "stock": 3,
+              "refresh_time": 3600,
+              "price_modifier": 0.95
+            },
+            {
+              "item_id": "hlm_t035_helmet",
+              "stock": 3,
+              "refresh_time": 3600,
+              "price_modifier": 0.95
+            },
+            {
+              "item_id": "bts_t035_boots",
+              "stock": 3,
+              "refresh_time": 3600,
+              "price_modifier": 0.95
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_currency_custodian",
+      "name": "Custodian Exchange Bay",
+      "categories": [
+        {
+          "category": "rare_consumables",
+          "items": [
+            {
+              "item_id": "con_full_hp_cell",
+              "stock": 5,
+              "refresh_time": 7200,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_full_mp_cell",
+              "stock": 5,
+              "refresh_time": 7200,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_stat_reset_token",
+              "stock": 2,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_exp_booster",
+              "stock": 10,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_revive_shard",
+              "stock": 8,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            }
+          ]
+        },
+        {
+          "category": "high_grade_materials",
+          "items": [
+            {
+              "item_id": "art_aethel_core_fragment",
+              "stock": 5,
+              "refresh_time": 7200,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "paradox_crystal",
+              "stock": 3,
+              "refresh_time": 14400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "titan_neural_cortex",
+              "stock": 3,
+              "refresh_time": 14400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "art_prima_materia",
+              "stock": 2,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            }
+          ]
+        },
+        {
+          "category": "endgame_equipment",
+          "items": [
+            {
+              "item_id": "wpn_t060_weapon1",
+              "stock": 1,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "arm_t060_armor",
+              "stock": 1,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "acc1_t060_accessory1",
+              "stock": 1,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "acc2_t060_accessory2",
+              "stock": 1,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "shop_enrichments": {
+    "shop_general_01": {
+      "add_categories": [
+        {
+          "category": "consumables_advanced",
+          "items": [
+            {
+              "item_id": "con_medium_hp_cell",
+              "stock": 20,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_medium_mp_cell",
+              "stock": 20,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_antidote",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "bandage_field",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "healing_herb",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            }
+          ]
+        },
+        {
+          "category": "misc_materials",
+          "items": [
+            {
+              "item_id": "leather_strip",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wood_plank",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "iron_ore",
+              "stock": 30,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    "shop_blackmarket_01": {
+      "add_categories": [
+        {
+          "category": "restricted_consumables",
+          "items": [
+            {
+              "item_id": "con_scramble_grenade",
+              "stock": 10,
+              "refresh_time": 1800,
+              "price_modifier": 1.3
+            },
+            {
+              "item_id": "con_battle_serum",
+              "stock": 8,
+              "refresh_time": 1800,
+              "price_modifier": 1.2
+            }
+          ]
+        },
+        {
+          "category": "contraband_materials",
+          "items": [
+            {
+              "item_id": "art_black_market_key",
+              "stock": 3,
+              "refresh_time": 7200,
+              "price_modifier": 1.5
+            },
+            {
+              "item_id": "mat_smuggler_alloy",
+              "stock": 5,
+              "refresh_time": 3600,
+              "price_modifier": 1.3
+            }
+          ]
+        }
+      ]
+    },
+    "shop_blackmarket_02": {
+      "add_categories": [
+        {
+          "category": "black_market_gear",
+          "items": [
+            {
+              "item_id": "wpn_t025_weapon1",
+              "stock": 2,
+              "refresh_time": 7200,
+              "price_modifier": 1.4
+            },
+            {
+              "item_id": "acc1_t025_accessory1",
+              "stock": 2,
+              "refresh_time": 7200,
+              "price_modifier": 1.4
+            },
+            {
+              "item_id": "con_stat_reset_token",
+              "stock": 1,
+              "refresh_time": 86400,
+              "price_modifier": 1.5
+            }
+          ]
+        }
+      ]
+    },
+    "shop_hermit_01": {
+      "add_categories": [
+        {
+          "category": "shard_goods",
+          "items": [
+            {
+              "item_id": "con_blessed_oil",
+              "stock": 8,
+              "refresh_time": 3600,
+              "price_modifier": 1.1
+            },
+            {
+              "item_id": "mat_glowvine_sap",
+              "stock": 15,
+              "refresh_time": 900,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "mat_shardroot_bark",
+              "stock": 10,
+              "refresh_time": 1200,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "healing_herb",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 0.9
+            }
+          ]
+        }
+      ]
+    },
+    "shop_medic_01": {
+      "add_categories": [
+        {
+          "category": "medical_supplies",
+          "items": [
+            {
+              "item_id": "con_large_hp_cell",
+              "stock": 15,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_large_mp_cell",
+              "stock": 10,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_antidote",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_revive_shard",
+              "stock": 5,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_nano_patch",
+              "stock": 20,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "bandage_field",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    "shop_rare_01": {
+      "add_categories": [
+        {
+          "category": "rare_equipment",
+          "items": [
+            {
+              "item_id": "wpn_t045_weapon1",
+              "stock": 1,
+              "refresh_time": 86400,
+              "price_modifier": 1.1
+            },
+            {
+              "item_id": "arm_t045_armor",
+              "stock": 1,
+              "refresh_time": 86400,
+              "price_modifier": 1.1
+            },
+            {
+              "item_id": "acc1_t045_accessory1",
+              "stock": 1,
+              "refresh_time": 86400,
+              "price_modifier": 1.1
+            },
+            {
+              "item_id": "acc2_t045_accessory2",
+              "stock": 1,
+              "refresh_time": 86400,
+              "price_modifier": 1.1
+            }
+          ]
+        },
+        {
+          "category": "rare_consumables",
+          "items": [
+            {
+              "item_id": "con_prime_war_elixir",
+              "stock": 3,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_exp_booster",
+              "stock": 5,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_stat_reset_token",
+              "stock": 1,
+              "refresh_time": 86400,
+              "price_modifier": 1.2
+            }
+          ]
+        }
+      ]
+    },
+    "shop_orbital_exchange": {
+      "add_categories": [
+        {
+          "category": "orbital_consumables",
+          "items": [
+            {
+              "item_id": "con_full_hp_cell",
+              "stock": 3,
+              "refresh_time": 14400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_full_mp_cell",
+              "stock": 3,
+              "refresh_time": 14400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_exp_booster",
+              "stock": 5,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            }
+          ]
+        },
+        {
+          "category": "orbital_materials",
+          "items": [
+            {
+              "item_id": "art_aethel_core_fragment",
+              "stock": 3,
+              "refresh_time": 14400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "art_gravity_core",
+              "stock": 2,
+              "refresh_time": 28800,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "titan_neural_cortex",
+              "stock": 2,
+              "refresh_time": 14400,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    }
+  },
+  
+    "description": "Add these item entries to shops that sell consumables / inns / apothecaries",
+    "shop_updates": [
+      {
+        "shop_note": "Add to any Innkeeper or Apothecary shop categories",
+        "items": [
+          {
+            "item_id": "itm_revival_elixir",
+            "stock": -1,
+            "price_modifier": 1.0
+          },
+          {
+            "item_id": "itm_revive_shard",
+            "stock": 5,
+            "price_modifier": 1.0
+          },
+          {
+            "item_id": "itm_phoenix_core",
+            "stock": 2,
+            "price_modifier": 1.0
+          },
+          {
+            "item_id": "itm_minor_hp_potion",
+            "stock": -1,
+            "price_modifier": 1.0
+          },
+          {
+            "item_id": "itm_hp_potion",
+            "stock": -1,
+            "price_modifier": 1.0
+          },
+          {
+            "item_id": "itm_greater_hp_potion",
+            "stock": 10,
+            "price_modifier": 1.0
+          },
+          {
+            "item_id": "itm_full_heal_potion",
+            "stock": 3,
+            "price_modifier": 1.0
+          },
+          {
+            "item_id": "itm_minor_mp_potion",
+            "stock": -1,
+            "price_modifier": 1.0
+          },
+          {
+            "item_id": "itm_mp_potion",
+            "stock": -1,
+            "price_modifier": 1.0
+          },
+          {
+            "item_id": "itm_greater_mp_potion",
+            "stock": 10,
+            "price_modifier": 1.0
+          }
+        ]
+      }
+    ]
+  
+}

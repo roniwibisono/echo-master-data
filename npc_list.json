@@ -1,0 +1,1535 @@
+[
+  {
+    "npc_id": "npc_general_merchant",
+    "name": "General Merchant",
+    "title": "Supplies Dealer",
+    "role": "MERCHANT",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_merchant_greet",
+    "shop_inventory": "shop_general_01",
+    "location": "Nexus Core Market Plaza",
+    "region_id": "NEXUS_CORE",
+    "description": "A stout, weathered trader who has operated from the same stall in Nexus Core for over two decades. His worn ledger holds debts from half the district.",
+    "personality": "gruff_but_fair",
+    "greeting": "Credits talk, everything else walks. What do you need?",
+    "available_services": [
+      "BUY",
+      "SELL"
+    ],
+    "actions": [
+      "open_shop"
+    ]
+  },
+  {
+    "npc_id": "npc_master_blacksmith",
+    "name": "Master Blacksmith",
+    "title": "Forge Master",
+    "role": "CRAFTER",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_blacksmith_greet",
+    "shop_inventory": "shop_materials_01",
+    "location": "Nexus Core Forge Quarter",
+    "region_id": "NEXUS_CORE",
+    "description": "A veteran smith who has equipped three generations of Concordium soldiers. His hands are more scar than skin.",
+    "personality": "no_nonsense",
+    "greeting": "Steel doesn't care about feelings. Bring materials and coin, I'll do the rest.",
+    "available_services": [
+      "CRAFT",
+      "BUY",
+      "SELL"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_innkeeper",
+    "name": "Innkeeper",
+    "title": "Rest & Recuperation",
+    "role": "INNKEEPER",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_innkeeper_greet",
+    "shop_inventory": null,
+    "location": "Nexus Core Commons",
+    "region_id": "NEXUS_CORE",
+    "description": "A cheerful matron who runs the only reputable lodging in the district. She knows everyone's business and tells no one.",
+    "personality": "warm_informative",
+    "greeting": "Rest your feet, friend. Rooms are clean, food's hot, and I've heard it all — so save the excuses.",
+    "available_services": [
+      "REST",
+      "INFO",
+      "RUMOR"
+    ],
+    "actions": [
+      "rest_inn"
+    ]
+  },
+  {
+    "npc_id": "npc_quest_board",
+    "name": "Bounty & Quest Board",
+    "title": "Automated Terminal",
+    "role": "TERMINAL",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_quest_terminal",
+    "shop_inventory": null,
+    "location": "Nexus Core Central Hall",
+    "region_id": "NEXUS_CORE",
+    "description": "An automated posting terminal that aggregates Concordium-approved contracts and public bounties.",
+    "personality": "automated",
+    "greeting": "[TERMINAL ACTIVE] Select contract category to proceed.",
+    "available_services": [
+      "QUEST_LIST",
+      "BOUNTY_LIST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_freelance_bounty_board",
+    "name": "Freelance Bounty Board",
+    "title": "Black Market Terminal",
+    "role": "TERMINAL",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_bounty_terminal",
+    "shop_inventory": null,
+    "location": "Nexus Core Outer Ring",
+    "region_id": "NEXUS_CORE",
+    "description": "A battered board covered in handwritten flyers, unofficial contracts, and the occasional wanted poster. No Concordium oversight here.",
+    "personality": "automated",
+    "greeting": "[BOARD] Unstamped listings. No guarantees. Payment on delivery.",
+    "available_services": [
+      "BOUNTY_LIST",
+      "FREELANCE_CONTRACTS"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_concordium_officer",
+    "name": "Officer Valen",
+    "title": "Nexus Security",
+    "role": "QUEST_GIVER",
+    "faction": "CONCORDIUM",
+    "dialogue_tree": "dialog_valen_main",
+    "shop_inventory": null,
+    "location": "Nexus Core Command Post",
+    "region_id": "NEXUS_CORE",
+    "description": "An efficient Concordium field officer who processes security contracts and inter-faction liaison requests. His medals are real; his patience is not.",
+    "personality": "disciplined_formal",
+    "greeting": "Identification. Purpose. Proceed.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_director_hale",
+    "name": "Director Hale",
+    "title": "Concordium Administrator",
+    "role": "QUEST_GIVER",
+    "faction": "CONCORDIUM",
+    "dialogue_tree": "dialog_hale_main",
+    "shop_inventory": null,
+    "location": "Inner Cradle Exclusion Zone Command",
+    "region_id": "INNER_CRADLE_EXCLUSION",
+    "description": "Director Hale oversees Concordium containment operations in the Inner Cradle. Cold and calculating, she treats casualties as acceptable variables.",
+    "personality": "calculating_authoritative",
+    "greeting": "Every asset is expendable if the mission succeeds. I'll be direct with you.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_concordium_overseer",
+    "name": "Overseer Vael",
+    "title": "Logistics Command",
+    "role": "INFO",
+    "faction": "CONCORDIUM",
+    "dialogue_tree": "dialog_vael_main",
+    "shop_inventory": null,
+    "location": "Cradle Outer Ring Checkpoint",
+    "region_id": "CRADLE_OUTER_RING",
+    "description": "A bureaucrat stationed at the outer boundary, cataloguing anomalous energy readings with obsessive precision.",
+    "personality": "anxious_detailed",
+    "greeting": "The readings are off again. Don't touch anything without filing a request.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_garden_scout",
+    "name": "Scout Rian",
+    "title": "Recon Unit",
+    "role": "INFO",
+    "faction": "CONCORDIUM",
+    "dialogue_tree": "dialog_rian_scout",
+    "shop_inventory": null,
+    "location": "Aethel Gardens Patrol Route",
+    "region_id": "AETHEL_GARDENS",
+    "description": "A young Concordium scout on rotation through the Gardens, cataloguing flora mutations and monster migration patterns.",
+    "personality": "curious_cautious",
+    "greeting": "Eyes open out here — the mutations near the eastern cluster have been getting aggressive.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_scavenger",
+    "name": "Junk-Eye Joe",
+    "title": "Scavenger",
+    "role": "MERCHANT",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_scavenger",
+    "shop_inventory": "shop_scrap_01",
+    "location": "Broken Civil Quarter Debris Field",
+    "region_id": "BROKEN_CIVIL_QUARTER",
+    "description": "Junk-Eye Joe lost one eye to a collapsing ceiling in this very district. He replaced it with a salvaged scope lens and kept digging.",
+    "personality": "eccentric_resourceful",
+    "greeting": "Junk? Treasure? Same thing, different buyer. Let's talk.",
+    "available_services": [
+      "BUY",
+      "SELL"
+    ],
+    "actions": [
+      "open_shop"
+    ]
+  },
+  {
+    "npc_id": "npc_patrol_guard",
+    "name": "Guard Captain",
+    "title": "Outer Defense",
+    "role": "QUEST_GIVER",
+    "faction": "CONCORDIUM",
+    "dialogue_tree": "dialog_patrol_guard",
+    "shop_inventory": null,
+    "location": "Aethel Gardens Guard Post",
+    "region_id": "AETHEL_GARDENS",
+    "description": "A seasoned guard captain who has held the eastern perimeter for eleven years. He's run out of things to be surprised by.",
+    "personality": "weary_veteran",
+    "greeting": "Another contract? Fine. Just don't get killed where I can see it.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_veteran_explorer",
+    "name": "Old Man Kael",
+    "title": "Veteran Explorer",
+    "role": "QUEST_GIVER",
+    "faction": "CONCORDIUM",
+    "dialogue_tree": "dialog_veteran_kael",
+    "shop_inventory": null,
+    "location": "Broken Civil Quarter Ruins",
+    "region_id": "BROKEN_CIVIL_QUARTER",
+    "description": "Old Man Kael claims to have explored every district before the Great Fracture. His stories contradict each other perfectly.",
+    "personality": "eccentric_knowledgeable",
+    "greeting": "Sit down. This'll take a minute. Or don't — your loss.",
+    "available_services": [
+      "QUEST",
+      "INFO"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_arcanum_scholar",
+    "name": "Scholar Elara",
+    "title": "Aethel Researcher",
+    "role": "QUEST_GIVER",
+    "faction": "THE_ARCANUM_SEEKERS",
+    "dialogue_tree": "dialog_elara_scholar",
+    "shop_inventory": null,
+    "location": "Observatory Spire Research Wing",
+    "region_id": "OBSERVATORY_SPIRE",
+    "description": "Scholar Elara specialises in Aethel resonance mapping. She has published seventeen papers. She mentions this within thirty seconds of meeting anyone.",
+    "personality": "intellectual_impatient",
+    "greeting": "I'll spare you the background reading — just tell me what you know.",
+    "available_services": [
+      "QUEST",
+      "INFO"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_arcanum_archivist",
+    "name": "Archivist Sylas",
+    "title": "Keeper of Records",
+    "role": "QUEST_GIVER",
+    "faction": "THE_ARCANUM_SEEKERS",
+    "dialogue_tree": "dialog_sylas_main",
+    "shop_inventory": null,
+    "location": "Observatory Spire Archive",
+    "region_id": "OBSERVATORY_SPIRE",
+    "description": "Archivist Sylas guards the Seekers' historical records with paranoid precision. He can recall exact shelf locations for 40,000 documents.",
+    "personality": "meticulous_secretive",
+    "greeting": "Access is tiered. What clearance do you carry?",
+    "available_services": [
+      "QUEST",
+      "INFO"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_novice_researcher",
+    "name": "Novice Finn",
+    "title": "Field Researcher",
+    "role": "INFO",
+    "faction": "THE_ARCANUM_SEEKERS",
+    "dialogue_tree": "dialog_finn_novice",
+    "shop_inventory": null,
+    "location": "Crystal Slope Field Station",
+    "region_id": "CRYSTAL_SLOPE",
+    "description": "Finn is enthusiastic to a fault and has already accidentally detonated two crystal clusters this season.",
+    "personality": "eager_clumsy",
+    "greeting": "Oh! You're here! I was just about to try something probably-safe!",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_glass_collector",
+    "name": "Mina",
+    "title": "Crystal Harvester",
+    "role": "MERCHANT",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_glass_collector",
+    "shop_inventory": "shop_crystal_01",
+    "location": "Fractured Glass Valley Market",
+    "region_id": "FRACTURED_GLASS_VALLEY",
+    "description": "Mina has spent years combing the Valley for pure Cradle Glass fragments. She sells the extras and keeps the finest for herself.",
+    "personality": "focused_mercantile",
+    "greeting": "I'll tell you right now — the good pieces aren't for sale. But I have plenty of the rest.",
+    "available_services": [
+      "BUY",
+      "SELL"
+    ],
+    "actions": [
+      "open_shop"
+    ]
+  },
+  {
+    "npc_id": "npc_cave_spelunker",
+    "name": "Dax",
+    "title": "Deep Delver",
+    "role": "INFO",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_cave_dax",
+    "shop_inventory": null,
+    "location": "Resonance Caverns Entrance",
+    "region_id": "RESONANCE_CAVERNS",
+    "description": "Dax descends into the Caverns daily and emerges with more data than anyone else alive. He's partially deaf from the resonance hum.",
+    "personality": "casual_brave",
+    "greeting": "What? Oh — yeah. Deep cave, lots of crystals, definitely haunted. Want specifics?",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_peak_watcher",
+    "name": "Watcher Vane",
+    "title": "Observatory Guard",
+    "role": "QUEST_GIVER",
+    "faction": "THE_ARCANUM_SEEKERS",
+    "dialogue_tree": "dialog_peak_watcher",
+    "shop_inventory": null,
+    "location": "Shard Pulse Peak Observation Post",
+    "region_id": "SHARD_PULSE_PEAK",
+    "description": "Watcher Vane monitors Shard energy peaks from the highest post in the region. She hasn't slept a full night in two years.",
+    "personality": "intense_vigilant",
+    "greeting": "The readings spiked again. Something is building. I need a runner.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_hegemony_commander",
+    "name": "Commander Drax",
+    "title": "Bastion Leader",
+    "role": "QUEST_GIVER",
+    "faction": "IRON_HEGEMONY",
+    "dialogue_tree": "dialog_drax_main",
+    "shop_inventory": null,
+    "location": "Bastion Core Command Bunker",
+    "region_id": "BASTION_CORE",
+    "description": "Commander Drax runs Bastion Core's offensive operations with zero tolerance for failure or excuses. His record is unbroken because he breaks people first.",
+    "personality": "aggressive_efficient",
+    "greeting": "You want a job? Prove you're worth the oxygen first.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_blacksmith_ironhand",
+    "name": "Ironhand",
+    "title": "Elite Forgemaster",
+    "role": "CRAFTER",
+    "faction": "IRON_HEGEMONY",
+    "dialogue_tree": "dialog_ironhand",
+    "shop_inventory": "shop_blacksmith_02",
+    "location": "Bastion Core Forge District",
+    "region_id": "BASTION_CORE",
+    "description": "Ironhand earned his name when his right arm was replaced with a hydraulic exo-limb after a forge accident. Best thing that ever happened to his craft.",
+    "personality": "proud_skilled",
+    "greeting": "Hegemony steel or something you've dragged in from the wasteland. Either way, I can work with it.",
+    "available_services": [
+      "CRAFT",
+      "BUY",
+      "SELL"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_scrap_merchant",
+    "name": "Rusty",
+    "title": "Scrap Dealer",
+    "role": "MERCHANT",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_rusty",
+    "shop_inventory": "shop_scrap_02",
+    "location": "Scrap Field Market",
+    "region_id": "SCRAP_FIELD",
+    "description": "Rusty runs the most chaotic stall in the Scrap Field, selling things he definitely did not assemble himself and definitely works.",
+    "personality": "shady_cheerful",
+    "greeting": "Certified pre-owned! That's my official position and I'm sticking to it.",
+    "available_services": [
+      "BUY",
+      "SELL"
+    ],
+    "actions": [
+      "open_shop"
+    ]
+  },
+  {
+    "npc_id": "npc_iron_miner",
+    "name": "Gorn",
+    "title": "Shift Foreman",
+    "role": "INFO",
+    "faction": "IRON_HEGEMONY",
+    "dialogue_tree": "dialog_gorn_miner",
+    "shop_inventory": null,
+    "location": "Iron Ravine Mine Entrance",
+    "region_id": "IRON_RAVINE",
+    "description": "Gorn has mined the Ravine since before the Hegemony claimed it. He works for them now but misses the silence.",
+    "personality": "stoic_reluctant",
+    "greeting": "Ores go down, iron comes up, credits change hands. That's all there is.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_salvage_expert",
+    "name": "Tink",
+    "title": "Salvage Expert",
+    "role": "MERCHANT",
+    "faction": "IRON_HEGEMONY",
+    "dialogue_tree": "dialog_salvage_tink",
+    "shop_inventory": "shop_tech_01",
+    "location": "Titan Assembly Yard",
+    "region_id": "TITAN_ASSEMBLY_YARD",
+    "description": "Tink specialises in extracting usable components from decommissioned Hegemony war machines. Her shop smells of coolant and ambition.",
+    "personality": "technical_enthusiastic",
+    "greeting": "Every busted machine has one good thing left in it. I find it. You buy it. Works for everyone.",
+    "available_services": [
+      "BUY",
+      "SELL"
+    ],
+    "actions": [
+      "open_shop"
+    ]
+  },
+  {
+    "npc_id": "npc_assembly_foreman",
+    "name": "Foreman Brigg",
+    "title": "Titan Assembly",
+    "role": "QUEST_GIVER",
+    "faction": "IRON_HEGEMONY",
+    "dialogue_tree": "dialog_brigg_foreman",
+    "shop_inventory": null,
+    "location": "Titan Assembly Yard Command Post",
+    "region_id": "TITAN_ASSEMBLY_YARD",
+    "description": "Foreman Brigg coordinates construction of Hegemony heavy units. He dispatches anyone who slows the line.",
+    "personality": "driven_impatient",
+    "greeting": "Clock's running. Make it worth my time.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_cartel_boss",
+    "name": "Don Vercelli",
+    "title": "Cartel Underboss",
+    "role": "QUEST_GIVER",
+    "faction": "MERIDIAN_CARTEL",
+    "dialogue_tree": "dialog_vercelli_boss",
+    "shop_inventory": null,
+    "location": "Port Meridian Cartel Headquarters",
+    "region_id": "PORT_MERIDIAN",
+    "description": "Don Vercelli controls the Port Meridian dockside trade with a smile that never quite reaches his eyes. Everyone owes him something.",
+    "personality": "charming_dangerous",
+    "greeting": "Welcome, welcome! Sit down. Have you eaten? Everyone eats at my table before we talk business.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_wetland_fisher",
+    "name": "Old Salty",
+    "title": "Fisherman",
+    "role": "INFO",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_salty_fisher",
+    "shop_inventory": null,
+    "location": "Coral Wetlands Fishing Platform",
+    "region_id": "CORAL_WETLANDS",
+    "description": "Old Salty has fished the Wetlands for fifty years and has opinions on everything. He shares them whether asked or not.",
+    "personality": "talkative_weathered",
+    "greeting": "Careful out past the orange markers — something big has been circling.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_shady_smuggler",
+    "name": "Sly",
+    "title": "Smuggler",
+    "role": "MERCHANT",
+    "faction": "MERIDIAN_CARTEL",
+    "dialogue_tree": "dialog_sly_smuggler",
+    "shop_inventory": "shop_blackmarket_01",
+    "location": "Smuggler Jungle Hidden Camp",
+    "region_id": "SMUGGLER_JUNGLE",
+    "description": "Sly operates out of a camp so well hidden that even Cartel enforcers can't find it consistently. His prices reflect the inconvenience.",
+    "personality": "paranoid_professional",
+    "greeting": "You're either a customer or a problem. Which is it?",
+    "available_services": [
+      "BUY",
+      "SELL"
+    ],
+    "actions": [
+      "open_shop"
+    ]
+  },
+  {
+    "npc_id": "npc_black_market_dealer",
+    "name": "Madam Z",
+    "title": "Contraband Dealer",
+    "role": "MERCHANT",
+    "faction": "MERIDIAN_CARTEL",
+    "dialogue_tree": "dialog_madam_z",
+    "shop_inventory": "shop_blackmarket_02",
+    "location": "Black Dock Market Underground",
+    "region_id": "BLACK_DOCK_MARKET",
+    "description": "Madam Z runs the most sophisticated black-market operation in three sectors. Her network spans factions. Her records are encrypted to oblivion.",
+    "personality": "elegant_ruthless",
+    "greeting": "Everything has a price. The question is what you're willing to offer.",
+    "available_services": [
+      "BUY",
+      "SELL"
+    ],
+    "actions": [
+      "open_shop"
+    ]
+  },
+  {
+    "npc_id": "npc_ruin_diver",
+    "name": "Kip",
+    "title": "Deep Diver",
+    "role": "QUEST_GIVER",
+    "faction": "MERIDIAN_CARTEL",
+    "dialogue_tree": "dialog_kip_diver",
+    "shop_inventory": null,
+    "location": "Sunken Aethel Ruin Dockside",
+    "region_id": "SUNKEN_AETHEL_RUIN",
+    "description": "Kip free-dives the submerged Aethel ruins for Cartel clients, recovering artifacts that pre-date the current age. She has drowned three times and keeps going.",
+    "personality": "reckless_driven",
+    "greeting": "Got three contracts open and a window before the tide shifts. Short version: I need backup.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_omnicorp_executive",
+    "name": "Director Sterling",
+    "title": "OmniCorp Executive",
+    "role": "QUEST_GIVER",
+    "faction": "OMNICORP",
+    "dialogue_tree": "dialog_sterling_exec",
+    "shop_inventory": null,
+    "location": "The Spire Executive Floor",
+    "region_id": "THE_SPIRE",
+    "description": "Director Sterling manages OmniCorp field operations with corporate detachment. He sees people as human capital.",
+    "personality": "corporate_cold",
+    "greeting": "Your efficiency rating is under evaluation. Perform accordingly.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_omnicorp_technician",
+    "name": "Tech Officer 404",
+    "title": "Systems Analyst",
+    "role": "QUEST_GIVER",
+    "faction": "OMNICORP",
+    "dialogue_tree": "dialog_tech404_side",
+    "shop_inventory": null,
+    "location": "Skybridge Reactor Control Room",
+    "region_id": "SKYBRIDGE_REACTOR",
+    "description": "Tech Officer 404 handles everything from hardware diagnostics to covert extraction — and prefers not to explain why the two are related.",
+    "personality": "terse_precise",
+    "greeting": "Task assigned. Completion expected. Questions are inefficient.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_plateau_surveyor",
+    "name": "Surveyor Unit 7",
+    "title": "Automated Drone",
+    "role": "INFO",
+    "faction": "OMNICORP",
+    "dialogue_tree": "dialog_drone_7",
+    "shop_inventory": null,
+    "location": "Highland Plateau Survey Station",
+    "region_id": "HIGHLAND_PLATEAU",
+    "description": "Surveyor Unit 7 is an autonomous OmniCorp drone with a remarkable personality subroutine that it has never been permitted to act on.",
+    "personality": "politely_constrained",
+    "greeting": "Surveyor Unit 7 online. Please state your resource-extraction inquiry.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_extraction_chief",
+    "name": "Chief Barrett",
+    "title": "Extraction Operations",
+    "role": "QUEST_GIVER",
+    "faction": "OMNICORP",
+    "dialogue_tree": "dialog_barrett_chief",
+    "shop_inventory": null,
+    "location": "Extraction Zone Delta Command",
+    "region_id": "EXTRACTION_ZONE_DELTA",
+    "description": "Chief Barrett has run OmniCorp extraction sites for eighteen years. She is equal parts miner, geologist, and combat veteran.",
+    "personality": "practical_commanding",
+    "greeting": "We're behind quota. If you're here to help, I'll be grateful. If not, get clear of the machinery.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_grid_security",
+    "name": "Warden AI",
+    "title": "Security Grid",
+    "role": "TERMINAL",
+    "faction": "OMNICORP",
+    "dialogue_tree": "dialog_warden_ai",
+    "shop_inventory": null,
+    "location": "Secure Mining Grid Checkpoint",
+    "region_id": "SECURE_MINING_GRID",
+    "description": "Warden AI manages access to OmniCorp's most sensitive mining operations. It has never once bent a rule.",
+    "personality": "logical_immovable",
+    "greeting": "[WARDEN-7] Clearance verification required. Unauthorised access terminates this session.",
+    "available_services": [
+      "INFO",
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_reactor_engineer",
+    "name": "Engineer Cross",
+    "title": "Core Maintainer",
+    "role": "INFO",
+    "faction": "OMNICORP",
+    "dialogue_tree": "dialog_cross_engineer",
+    "shop_inventory": null,
+    "location": "Skybridge Reactor Maintenance Bay",
+    "region_id": "SKYBRIDGE_REACTOR",
+    "description": "Engineer Cross keeps the Skybridge Reactor from melting down on a daily basis. He has not taken a day off in three years.",
+    "personality": "stressed_brilliant",
+    "greeting": "I have exactly four minutes before the coolant flush. Talk fast.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_high_priest",
+    "name": "High Priestess Lyr",
+    "title": "Voice of the Shard",
+    "role": "QUEST_GIVER",
+    "faction": "CHILDREN_OF_THE_SHARD",
+    "dialogue_tree": "dialog_lyr_main",
+    "shop_inventory": null,
+    "location": "Sanctum Inner Chamber",
+    "region_id": "SANCTUM",
+    "description": "High Priestess Lyr is the spiritual and operational leader of the Children of the Shard. She speaks in certainties because she has heard the Shard speak.",
+    "personality": "serene_absolute",
+    "greeting": "The Shard has already seen this meeting. Come — what you seek to ask, it already knows.",
+    "available_services": [
+      "QUEST",
+      "INFO"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_acolyte_mera",
+    "name": "Acolyte Mera",
+    "title": "Forest Guide",
+    "role": "QUEST_GIVER",
+    "faction": "CHILDREN_OF_THE_SHARD",
+    "dialogue_tree": "dialog_mera_side",
+    "shop_inventory": null,
+    "location": "Sanctum Outer Courtyard",
+    "region_id": "SANCTUM",
+    "description": "Acolyte Mera is the High Priestess' deputy and does most of the work that keeping a religious order running actually requires.",
+    "personality": "pragmatic_faithful",
+    "greeting": "Lyr handles the visions. I handle the schedules. What can I help you with?",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_forest_acolyte",
+    "name": "Brother Silas",
+    "title": "Acolyte",
+    "role": "INNKEEPER",
+    "faction": "CHILDREN_OF_THE_SHARD",
+    "dialogue_tree": "dialog_silas_forest",
+    "shop_inventory": null,
+    "location": "Glowvine Forest Ritual Path",
+    "region_id": "GLOWVINE_FOREST",
+    "description": "Brother Silas tends the sacred Glowvine paths, pruning the luminescent vines and guiding pilgrims through the forest's more disorienting sections.",
+    "personality": "gentle_contemplative",
+    "greeting": "Walk slowly here. The Glowvines respond to rushed energy.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": [
+      "rest_inn"
+    ]
+  },
+  {
+    "npc_id": "npc_swamp_hermit",
+    "name": "The Hermit",
+    "title": "Outcast",
+    "role": "MERCHANT",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_hermit",
+    "shop_inventory": "shop_hermit_01",
+    "location": "Shardroot Swamp Edge",
+    "region_id": "SHARDROOT_SWAMP",
+    "description": "The Hermit lives alone at the swamp's edge and claims the isolation is his by choice. His knowledge of Shard-touched flora is unmatched.",
+    "personality": "cryptic_wise",
+    "greeting": "The swamp provides. Coin helps too. What are you after?",
+    "available_services": [
+      "BUY",
+      "SELL",
+      "INFO"
+    ],
+    "actions": [
+      "open_shop"
+    ]
+  },
+  {
+    "npc_id": "npc_shrine_keeper",
+    "name": "Keeper Norn",
+    "title": "Shrine Guardian",
+    "role": "QUEST_GIVER",
+    "faction": "CHILDREN_OF_THE_SHARD",
+    "dialogue_tree": "dialog_norn_keeper",
+    "shop_inventory": null,
+    "location": "Fragment Shrine",
+    "region_id": "FRAGMENT_SHRINE",
+    "description": "Keeper Norn has maintained the Fragment Shrine for three generations of her family. The shrine remembers what history has tried to erase.",
+    "personality": "devoted_historical",
+    "greeting": "Leave an offering, or don't — the Shard judges intent, not tribute.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_altar_guardian",
+    "name": "Guardian Rell",
+    "title": "Altar Defense",
+    "role": "INFO",
+    "faction": "CHILDREN_OF_THE_SHARD",
+    "dialogue_tree": "dialog_rell_guardian",
+    "shop_inventory": null,
+    "location": "Heartwood Altar",
+    "region_id": "HEARTWOOD_ALTAR",
+    "description": "Guardian Rell is the last of the Altar's sworn defenders. She speaks rarely and only when she has something worth saying.",
+    "personality": "stoic_protective",
+    "greeting": "State your purpose at the Altar. Those who lie do not leave easily.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_legion_general",
+    "name": "General Kaelen",
+    "title": "Starforged Leader",
+    "role": "QUEST_GIVER",
+    "faction": "STARFORGED_LEGION",
+    "dialogue_tree": "dialog_kaelen_main",
+    "shop_inventory": null,
+    "location": "Fortress Kaelen War Room",
+    "region_id": "FORTRESS_KAELEN",
+    "description": "General Kaelen is the Starforged Legion's most decorated commander and the fortress' namesake ancestor's descendant. Every scar has a story.",
+    "personality": "honourable_fierce",
+    "greeting": "The Legion's wars are never truly over — they only pause. Come, there is work.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_drill_sergeant_korg",
+    "name": "Sergeant Korg",
+    "title": "Drill Master",
+    "role": "QUEST_GIVER",
+    "faction": "STARFORGED_LEGION",
+    "dialogue_tree": "dialog_korg_side",
+    "shop_inventory": null,
+    "location": "Fortress Kaelen Training Grounds",
+    "region_id": "FORTRESS_KAELEN",
+    "description": "Sergeant Korg has broken and rebuilt more recruits than any drill sergeant in Legion history. He considers this a compliment.",
+    "personality": "loud_demanding",
+    "greeting": "WHAT ARE YOU DOING STANDING THERE. Move, recruit!",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_dune_scout",
+    "name": "Scout Jace",
+    "title": "Forward Recon",
+    "role": "INFO",
+    "faction": "STARFORGED_LEGION",
+    "dialogue_tree": "dialog_jace_scout",
+    "shop_inventory": null,
+    "location": "Dune Outskirts Watchtower",
+    "region_id": "DUNE_OUTSKIRTS",
+    "description": "Scout Jace runs the farthest perimeter patrols alone and prefers it that way. She knows the dunes better than the sand knows itself.",
+    "personality": "independent_sharp",
+    "greeting": "Sandstorm coming from the west in three hours. You'll want to be clear of the flats.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_badland_survivor",
+    "name": "Rex",
+    "title": "Wasteland Survivor",
+    "role": "MERCHANT",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_rex_survivor",
+    "shop_inventory": "shop_wasteland_01",
+    "location": "Scorched Badlands Trading Post",
+    "region_id": "SCORCHED_BADLANDS",
+    "description": "Rex survived a collapse in the Mesa Warpath and set up the only trading post between the Badlands and the Fortress. He charges accordingly.",
+    "personality": "blunt_survivalist",
+    "greeting": "Prices are high because everything out here costs blood to move. Pay or move on.",
+    "available_services": [
+      "BUY",
+      "SELL"
+    ],
+    "actions": [
+      "open_shop"
+    ]
+  },
+  {
+    "npc_id": "npc_warpath_veteran",
+    "name": "Veteran Gorok",
+    "title": "Warpath Defender",
+    "role": "QUEST_GIVER",
+    "faction": "STARFORGED_LEGION",
+    "dialogue_tree": "dialog_gorok_vet",
+    "shop_inventory": null,
+    "location": "Mesa Warpath Memorial",
+    "region_id": "MESA_WARPATH",
+    "description": "Veteran Gorok fought in the Mesa Warpath campaigns and returned to guard the memorial. He gives contracts to those who understand what they're walking into.",
+    "personality": "mournful_resolved",
+    "greeting": "Read the names on the wall before you take any contract from me. All of them.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_lost_blacksmith",
+    "name": "Smithy Dan",
+    "title": "Lost Blacksmith",
+    "role": "CRAFTER",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_dan_smithy",
+    "shop_inventory": "shop_materials_02",
+    "location": "Cradle Expanse Forge Camp",
+    "region_id": "CRADLE_EXPANSE",
+    "description": "Smithy Dan set up a forge in the middle of nowhere after being blacklisted by every guild. His work is better than his manners.",
+    "personality": "bitter_talented",
+    "greeting": "Took the long route to find me. Good — means you actually need something forged right.",
+    "available_services": [
+      "CRAFT",
+      "BUY",
+      "SELL"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_battlefield_medic",
+    "name": "Medic Vance",
+    "title": "Combat Medic",
+    "role": "INNKEEPER",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_vance_medic",
+    "shop_inventory": "shop_medic_01",
+    "location": "Border Skirmish Ring Field Station",
+    "region_id": "BORDER_SKIRMISH_RING",
+    "description": "Medic Vance works the neutral zone, patching up anyone from any faction. He says he has no politics. Everyone believes him.",
+    "personality": "neutral_matter_of_fact",
+    "greeting": "Wound first, introductions second. Sit down.",
+    "available_services": [
+      "BUY",
+      "SELL"
+    ],
+    "actions": [
+      "open_shop",
+      "rest_inn"
+    ]
+  },
+  {
+    "npc_id": "npc_wandering_trader",
+    "name": "Traveling Merchant",
+    "title": "Rare Goods",
+    "role": "MERCHANT",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_traveling_trader",
+    "shop_inventory": "shop_rare_01",
+    "location": "Roaming — Border Regions",
+    "region_id": "CONTESTED",
+    "description": "The Traveling Merchant has no fixed location and appears at crossroads when least expected. Some say they're the same person across decades; others say they're a fleet.",
+    "personality": "mysterious_helpful",
+    "greeting": "The rare finds the rare. You've found me — so you must be looking for something unusual.",
+    "available_services": [
+      "BUY",
+      "SELL"
+    ],
+    "actions": [
+      "open_shop"
+    ]
+  },
+  {
+    "npc_id": "npc_reckless_scout",
+    "name": "Scout Jax",
+    "title": "Storm Chaser",
+    "role": "INFO",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_jax_scout",
+    "shop_inventory": null,
+    "location": "Cradle Expanse Deep Zone",
+    "region_id": "CRADLE_EXPANSE",
+    "description": "Scout Jax goes where no briefing covers and comes back with information no intel team was willing to get.",
+    "personality": "reckless_confident",
+    "greeting": "I've been to the dead zones. Twice. Still alive, so clearly I'm doing something right.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_frontline_commander",
+    "name": "Commander Tark",
+    "title": "Frontline Ops",
+    "role": "QUEST_GIVER",
+    "faction": "CONTESTED",
+    "dialogue_tree": "dialog_tark_frontline",
+    "shop_inventory": null,
+    "location": "Border Skirmish Ring Command Tent",
+    "region_id": "BORDER_SKIRMISH_RING",
+    "description": "Commander Tark leads a multi-faction peacekeeping force that nobody actually obeys. He keeps trying anyway.",
+    "personality": "determined_frustrated",
+    "greeting": "Nobody is cooperating. Again. Are you here to help or to make things worse?",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_void_walker",
+    "name": "Nameless Walker",
+    "title": "Void Touched",
+    "role": "INFO",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_void_walker",
+    "shop_inventory": null,
+    "location": "Void Echo Chasm",
+    "region_id": "VOID_ECHO_CHASM",
+    "description": "The Nameless Walker exists between states — half in this world, half in the Void. They offer guidance but no comfort.",
+    "personality": "unsettling_cryptic",
+    "greeting": "You see me. Most do not. That means the Void has noticed you already.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_doomsayer",
+    "name": "The Prophet",
+    "title": "Doomsayer",
+    "role": "INFO",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_prophet",
+    "shop_inventory": null,
+    "location": "Shattered Heart",
+    "region_id": "SHATTERED_HEART",
+    "description": "The Prophet claims to have seen how every faction ends. His predictions are specific, detailed, and have a troubling accuracy rate.",
+    "personality": "dramatic_accurate",
+    "greeting": "I see you've come to hear something terrible. I'll oblige.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_core_technician",
+    "name": "Tech Lead Aris",
+    "title": "Siphon Control",
+    "role": "QUEST_GIVER",
+    "faction": "CONCORDIUM",
+    "dialogue_tree": "dialog_aris_core",
+    "shop_inventory": null,
+    "location": "Aethel Siphon Core",
+    "region_id": "AETHEL_SIPHON_CORE",
+    "description": "Tech Lead Aris maintains the most dangerous energy extraction operation in the Concordium — a job that has taken three predecessors.",
+    "personality": "focused_haunted",
+    "greeting": "The Core is stable. For now. I need someone who can run interference on the eastern conduit.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_master_kael",
+    "name": "Master Kael",
+    "title": "Legendary Forgesmith",
+    "role": "CRAFTER",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_master_kael",
+    "shop_inventory": null,
+    "location": "Prima Materia Forge",
+    "region_id": "PRIMA_MATERIA_FORGE",
+    "description": "Master Kael is the only living crafter authorised to work with Prima Materia. He accepts commissions once per season, if he finds the requester worthy.",
+    "personality": "exacting_legendary",
+    "greeting": "Most people who come here aren't ready. Convince me you're different.",
+    "available_services": [
+      "CRAFT"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_abyssal_smith",
+    "name": "Xylar the Abyssal",
+    "title": "Void Crafter",
+    "role": "CRAFTER",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_xylar_smith",
+    "shop_inventory": null,
+    "location": "Void Echo Chasm Forge",
+    "region_id": "VOID_ECHO_CHASM",
+    "description": "Xylar the Abyssal forges weapons using Void-touched metal that no standard smith will touch. The products are extraordinary. So is the risk.",
+    "personality": "alien_precise",
+    "greeting": "Void-forged items remember their makers. I only work for those who will be remembered in turn.",
+    "available_services": [
+      "CRAFT"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_ancient_ghost",
+    "name": "Echo of Aethelgard",
+    "title": "Lost Spirit",
+    "role": "INFO",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_ancient_ghost",
+    "shop_inventory": null,
+    "location": "Hidden Aethelgardian City",
+    "region_id": "HIDDEN_AETHELGARDIAN_CITY",
+    "description": "The Echo of Aethelgard is a residual consciousness from before the Fracture, preserved in a crystalline matrix. Its memories are the only record of the old world.",
+    "personality": "melancholic_vast",
+    "greeting": "You stand in what was once a great city. I am what remembers it.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_echo_entity",
+    "name": "The Resonance",
+    "title": "Sentient Energy",
+    "role": "QUEST_GIVER",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_resonance_entity",
+    "shop_inventory": null,
+    "location": "Aethel Storm Belt",
+    "region_id": "AETHEL_STORM_BELT",
+    "description": "The Resonance is an entity formed from accumulated Aethel energy, neither fully conscious nor fully absent. It responds to genuine questions.",
+    "personality": "elemental_responding",
+    "greeting": "... (the air crackles with recognition)",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_custodian_ai",
+    "name": "Orbital Custodian Prime",
+    "title": "Sentinel AI",
+    "role": "TERMINAL",
+    "faction": "GALACTIC_CUSTODIANS",
+    "dialogue_tree": "dialog_custodian_ai",
+    "shop_inventory": "shop_orbital_exchange",
+    "location": "Orbital Sentinel Command Station",
+    "region_id": "ORBITAL_SENTINEL_COMMAND",
+    "description": "Orbital Custodian Prime is the administrative intelligence of the Custodian orbital station. Neutral in all factional conflicts; ruthless in operational efficiency.",
+    "personality": "neutral_omniscient",
+    "greeting": "[CUSTODIAN PRIME] Authenticated connection established. What resource allocation do you require?",
+    "available_services": [
+      "BUY",
+      "SELL",
+      "INFO"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_concordium_exchange_officer",
+    "name": "Aurelia Voss",
+    "title": "Concordium Treasury Officer",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "CONCORDIUM",
+    "dialogue_tree": "dialog_exchange_concordium",
+    "shop_inventory": "shop_currency_concordium",
+    "location": "Nexus Core Currency Bureau",
+    "region_id": "NEXUS_CORE",
+    "description": "Aurelia Voss manages the Concordium's official currency exchange desk with meticulous records and an unbreakable smile.",
+    "personality": "professional_efficient",
+    "greeting": "Standard rates apply. Concordium Credit at today's official rate — no black market here.",
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_arcanum_exchange_scholar",
+    "name": "Magister Kael",
+    "title": "Arcanum Financial Archivist",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "THE_ARCANUM_SEEKERS",
+    "dialogue_tree": "dialog_exchange_arcanum",
+    "shop_inventory": "shop_currency_arcanum",
+    "location": "Observatory Spire Exchange Vault",
+    "region_id": "OBSERVATORY_SPIRE",
+    "description": "Magister Kael handles Quanta exchange for the Seekers and treats every transaction as a mathematical puzzle.",
+    "personality": "academic_precise",
+    "greeting": "The exchange rate is derived from 14 variables. I'll spare you the formula.",
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_hegemony_exchange_quartermaster",
+    "name": "Commander Rhyx",
+    "title": "Hegemony Quartermaster",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "IRON_HEGEMONY",
+    "dialogue_tree": "dialog_exchange_hegemony",
+    "shop_inventory": "shop_currency_hegemony",
+    "location": "Bastion Core Treasury",
+    "region_id": "BASTION_CORE",
+    "description": "Commander Rhyx runs the Hegemony treasury with the same no-nonsense approach he applies to everything. Rates are fair, service is fast.",
+    "personality": "no_nonsense",
+    "greeting": "Ingots in, credits out. Or the reverse. State your requirement.",
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_meridian_exchange_broker",
+    "name": "Silas Vey",
+    "title": "Meridian Trade Broker",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "MERIDIAN_CARTEL",
+    "dialogue_tree": "dialog_exchange_meridian",
+    "shop_inventory": "shop_currency_meridian",
+    "location": "Port Meridian Exchange Floor",
+    "region_id": "PORT_MERIDIAN",
+    "description": "Silas Vey runs the Cartel's exchange floor and makes more from the spread than the official rate would suggest.",
+    "personality": "slick_opportunistic",
+    "greeting": "The best rates in three sectors — according to me, which is who matters here.",
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_omnicorp_exchange_manager",
+    "name": "Director Harlan",
+    "title": "OmniCorp Asset Manager",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "OMNICORP",
+    "dialogue_tree": "dialog_exchange_omnicorp",
+    "shop_inventory": "shop_currency_omnicorp",
+    "location": "The Spire Financial Node",
+    "region_id": "THE_SPIRE",
+    "description": "Director Harlan oversees OmniCorp's currency operations. He does not smile during exchange; smiling reduces throughput by 0.4%.",
+    "personality": "corporate_optimised",
+    "greeting": "OmniCred exchange window is open. Minimum transaction: 50 units.",
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_shard_exchange_prophet",
+    "name": "Elder Myr",
+    "title": "Shard Treasury Keeper",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "CHILDREN_OF_THE_SHARD",
+    "dialogue_tree": "dialog_exchange_shard",
+    "shop_inventory": "shop_currency_shard",
+    "location": "Sanctum Tithe Hall",
+    "region_id": "SANCTUM",
+    "description": "Elder Myr manages the Aethel-Tithe exchange with a spiritual narrative attached to each transaction.",
+    "personality": "reverent_patient",
+    "greeting": "The Shard's currency is faith. Aethel-Tithes are its earthly form. Let us exchange with gratitude.",
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_legion_exchange_paymaster",
+    "name": "Varkon Thal",
+    "title": "Legion Paymaster",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "STARFORGED_LEGION",
+    "dialogue_tree": "dialog_exchange_legion",
+    "shop_inventory": "shop_currency_legion",
+    "location": "Fortress Kaelen Paymaster Office",
+    "region_id": "FORTRESS_KAELEN",
+    "description": "Varkon Thal manages Legion Scrip disbursement and exchange with the same brutal efficiency as a weapons inspection.",
+    "personality": "brisk_fair",
+    "greeting": "Rate's posted on the board. No negotiation. Scrip in, credits out — move along.",
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_custodian_exchange_delegate",
+    "name": "Custodian IX",
+    "title": "Galactic Treasury Delegate",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "GALACTIC_CUSTODIANS",
+    "dialogue_tree": "dialog_exchange_custodian",
+    "shop_inventory": "shop_currency_custodian",
+    "location": "Orbital Sentinel Command Financial Bay",
+    "region_id": "ORBITAL_SENTINEL_COMMAND",
+    "description": "Custodian IX handles Custodian cross-currency exchange. Its rate algorithm is updated every 60 seconds based on galactic market feeds.",
+    "personality": "algorithmic_neutral",
+    "greeting": "[CUSTODIAN-IX] Exchange protocol active. Rate refreshed 12 seconds ago.",
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_commander_ross",
+    "name": "Commander Ross",
+    "title": "Civil Defense Commander",
+    "role": "QUEST_GIVER",
+    "faction": "CONCORDIUM",
+    "dialogue_tree": "dialog_ross_main",
+    "shop_inventory": null,
+    "location": "Shattered Heart Forward Camp",
+    "region_id": "SHATTERED_HEART",
+    "description": "Commander Ross leads the Concordium's high-risk operations in the fractured core regions. She gives orders calmly and expects them followed precisely.",
+    "personality": "calm_commanding",
+    "greeting": "I have three missions that need immediate assignment. Priorities, in order.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_strategist_elara",
+    "name": "Strategist Elara",
+    "title": "Cradle Tactical Command",
+    "role": "QUEST_GIVER",
+    "faction": "CONCORDIUM",
+    "dialogue_tree": "dialog_elara_main",
+    "shop_inventory": null,
+    "location": "Aethel Storm Belt Observation Post",
+    "region_id": "AETHEL_STORM_BELT",
+    "description": "Strategist Elara analyses the Storm Belt anomalies and translates raw data into actionable field assignments.",
+    "personality": "brilliant_composed",
+    "greeting": "The Storm Belt follows patterns. I know them. I'll tell you where to be.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_researcher_vin",
+    "name": "Researcher Vin",
+    "title": "Arcanum Field Researcher",
+    "role": "QUEST_GIVER",
+    "faction": "THE_ARCANUM_SEEKERS",
+    "dialogue_tree": "dialog_vin_main",
+    "shop_inventory": null,
+    "location": "Resonance Caverns Research Camp",
+    "region_id": "RESONANCE_CAVERNS",
+    "description": "Researcher Vin is deep in a classified study of the Cavern's resonance peaks and needs reliable field agents who ask fewer questions.",
+    "personality": "distracted_brilliant",
+    "greeting": "Yes, yes — come in. Just don't touch the crystal array. Or that. Or — actually, touch nothing.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_admiral_soren",
+    "name": "Admiral Soren",
+    "title": "Fleet Command",
+    "role": "QUEST_GIVER",
+    "faction": "GALACTIC_CUSTODIANS",
+    "dialogue_tree": "dialog_soren_main",
+    "shop_inventory": null,
+    "location": "Orbital Sentinel Command Bridge",
+    "region_id": "ORBITAL_SENTINEL_COMMAND",
+    "description": "Admiral Soren commands the Custodian orbital fleet and coordinates missions that require both orbital and ground assets.",
+    "personality": "strategic_weighty",
+    "greeting": "From orbit, everything looks small. From the ground, nothing feels small. I need agents who understand both.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_concordium_class_trainer",
+    "name": "Instructor Kael",
+    "title": "Concordium Combat Trainer",
+    "role": "CLASS_TRAINER",
+    "faction": "CONCORDIUM",
+    "dialogue_tree": "dialog_class_trainer_concordium",
+    "shop_inventory": null,
+    "location": "Nexus Core Training Academy",
+    "region_id": "NEXUS_CORE",
+    "description": "Instructor Kael teaches Concordium combat doctrines and class advancement to qualified recruits.",
+    "personality": "structured_encouraging",
+    "greeting": "Advancement requires preparation. Let's assess where you stand.",
+    "available_services": [
+      "CLASS_TRAINING"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_arcanum_class_trainer",
+    "name": "Archsage Myr",
+    "title": "Arcanum Discipline Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "THE_ARCANUM_SEEKERS",
+    "dialogue_tree": "dialog_class_trainer_arcanum",
+    "shop_inventory": null,
+    "location": "Observatory Spire Academy",
+    "region_id": "OBSERVATORY_SPIRE",
+    "description": "Archsage Myr guides Arcanum class advancement with esoteric methods that produce undeniable results.",
+    "personality": "mystical_rigorous",
+    "greeting": "Your path is written in resonance. I help you read it.",
+    "available_services": [
+      "CLASS_TRAINING"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_hegemony_class_trainer",
+    "name": "War Marshal Drax",
+    "title": "Iron Hegemony War Instructor",
+    "role": "CLASS_TRAINER",
+    "faction": "IRON_HEGEMONY",
+    "dialogue_tree": "dialog_class_trainer_hegemony",
+    "shop_inventory": null,
+    "location": "Bastion Core War College",
+    "region_id": "BASTION_CORE",
+    "description": "War Marshal Drax has produced more elite soldiers than any trainer in Hegemony history. He is not gentle about it.",
+    "personality": "demanding_effective",
+    "greeting": "You want advancement? Show me you've earned the right to ask for it.",
+    "available_services": [
+      "CLASS_TRAINING"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_custodian_class_trainer",
+    "name": "Commander Lyra",
+    "title": "Galactic Custodian Tactical Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "GALACTIC_CUSTODIANS",
+    "dialogue_tree": "dialog_class_trainer_custodians",
+    "shop_inventory": null,
+    "location": "Orbital Sentinel Command Training Bay",
+    "region_id": "ORBITAL_SENTINEL_COMMAND",
+    "description": "Commander Lyra trains operatives in Custodian tactical frameworks — precise, modular, and faction-agnostic.",
+    "personality": "methodical_neutral",
+    "greeting": "Class advancement follows protocol. Protocol follows evidence. Present your record.",
+    "available_services": [
+      "CLASS_TRAINING"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_mercenary_class_trainer",
+    "name": "Old Veteran Korr",
+    "title": "Freelancer Combat Instructor",
+    "role": "CLASS_TRAINER",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_class_trainer_mercenary",
+    "shop_inventory": null,
+    "location": "Cradle Expanse Mercenary Camp",
+    "region_id": "CRADLE_EXPANSE",
+    "description": "Old Veteran Korr has fought for everyone and against everyone. He trains for effectiveness, not allegiance.",
+    "personality": "cynical_pragmatic",
+    "greeting": "I don't care who you fight for. I care how well you fight. Big difference.",
+    "available_services": [
+      "CLASS_TRAINING"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_class_architect",
+    "name": "Architect Ardyn",
+    "title": "Class Ascension Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_class_master",
+    "shop_inventory": null,
+    "location": "Severance Faultline Research Station",
+    "region_id": "SEVERANCE_FAULTLINE",
+    "description": "Architect Ardyn designs custom advancement paths for unconventional builds. Her methods are considered borderline heretical by most class guilds.",
+    "personality": "innovative_eccentric",
+    "greeting": "The standard paths are fine for standard people. Shall we explore what else is possible?",
+    "available_services": [
+      "CLASS_TRAINING"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_meridian_class_trainer",
+    "name": "Captain Vex",
+    "title": "Cartel Combat Broker",
+    "role": "CLASS_TRAINER",
+    "faction": "MERIDIAN_CARTEL",
+    "dialogue_tree": "dialog_class_trainer_meridian",
+    "shop_inventory": null,
+    "location": "Port Meridian Covert Training Facility",
+    "region_id": "PORT_MERIDIAN",
+    "description": "Captain Vex trains Cartel operatives in infiltration and combat. The facility doesn't officially exist.",
+    "personality": "sharp_secretive",
+    "greeting": "You found this place. That's already the first test. You passed.",
+    "available_services": [
+      "CLASS_TRAINING"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_omnicorp_class_trainer",
+    "name": "Director Astra Vey",
+    "title": "OmniCorp Combat Systems Instructor",
+    "role": "CLASS_TRAINER",
+    "faction": "OMNICORP",
+    "dialogue_tree": "dialog_class_trainer_omnicorp",
+    "shop_inventory": null,
+    "location": "The Spire Advanced Division",
+    "region_id": "THE_SPIRE",
+    "description": "Director Astra Vey manages OmniCorp's elite class programme with corporate KPIs and genuine tactical brilliance.",
+    "personality": "high_performance_driven",
+    "greeting": "OmniCorp class advancement is metric-based. Your last performance determined your eligibility.",
+    "available_services": [
+      "CLASS_TRAINING"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_shard_class_trainer",
+    "name": "Oracle Seraphel",
+    "title": "Shard Ascension Guide",
+    "role": "CLASS_TRAINER",
+    "faction": "CHILDREN_OF_THE_SHARD",
+    "dialogue_tree": "dialog_class_trainer_shard",
+    "shop_inventory": null,
+    "location": "Sanctum Deep Chamber",
+    "region_id": "SANCTUM",
+    "description": "Oracle Seraphel channels Shard energy to unlock class potential. Sessions are intense and leave participants changed.",
+    "personality": "transcendent_demanding",
+    "greeting": "The Shard does not grant power cheaply. Are you prepared to pay its price?",
+    "available_services": [
+      "CLASS_TRAINING"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_legion_class_trainer",
+    "name": "Centurion Valka",
+    "title": "Legion Combat Drillmaster",
+    "role": "CLASS_TRAINER",
+    "faction": "STARFORGED_LEGION",
+    "dialogue_tree": "dialog_class_trainer_legion",
+    "shop_inventory": null,
+    "location": "Forge Canyon Depths Combat Arena",
+    "region_id": "FORGE_CANYON_DEPTHS",
+    "description": "Centurion Valka trains Legion fighters in the ancient combat traditions. Advancement means surviving her drills.",
+    "personality": "fierce_honourable",
+    "greeting": "Legion advancement is earned in combat. Step onto the sand.",
+    "available_services": [
+      "CLASS_TRAINING"
+    ],
+    "actions": []
+  },
+  {
+    "npc_id": "npc_class_advisor",
+    "name": "Guide Axiom",
+    "title": "Combat Orientation AI",
+    "role": "SYSTEM_GUIDE",
+    "faction": "NONE",
+    "dialogue_tree": "dialog_class_advisor",
+    "shop_inventory": null,
+    "location": "Nexus Core Information Hub",
+    "region_id": "NEXUS_CORE",
+    "description": "Guide Axiom is an info-broker who knows the class system inside out and helps wanderers find their correct advancement path.",
+    "personality": "helpful_analytical",
+    "greeting": "You look lost, which is normal. The class system is complex. Let me map it for you.",
+    "available_services": [
+      "CLASS_TRAINING",
+      "INFO"
+    ],
+    "actions": []
+  }
+]

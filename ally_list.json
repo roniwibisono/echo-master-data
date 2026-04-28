@@ -1,0 +1,945 @@
+{
+  "meta": {
+    "version": "2.0",
+    "description": "Ally roster for Echo of Xylos — remastered skills, expanded roster",
+    "total": 36
+  },
+  "allies": [
+    {
+      "ally_id": "ally_kael",
+      "code": "KAEL_VOSS",
+      "name": "Kael Voss",
+      "rarity": "Rare",
+      "role": "DPS",
+      "brief_background_story": "A former Iron Hegemony commando who went rogue after discovering classified experiments on civilians. Kael now operates as a freelance mercenary, lending his devastating firepower to those who can afford his loyalty — or earn it.",
+      "place_of_origin": "Bastion Core",
+      "faction_affinity": "IRON_HEGEMONY",
+      "base_stats": {
+        "hp": 90,
+        "mp": 70,
+        "atk": 130,
+        "def": 85,
+        "agi": 110,
+        "per": 95
+      },
+      "passive_skill": {
+        "skill_id": "al_kael_pas"
+      },
+      "active_skill": {
+        "skill_id": "al_kael_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 50
+    },
+    {
+      "ally_id": "ally_lyra",
+      "code": "LYRA_NINE",
+      "name": "Lyra-9",
+      "rarity": "Epic",
+      "role": "Healer",
+      "brief_background_story": "An advanced medical android originally designed by OmniCorp for battlefield triage. After gaining sentience through a corrupted firmware update, Lyra-9 escaped the production line and now offers her healing protocols to anyone who treats her as more than a machine.",
+      "place_of_origin": "The Spire",
+      "faction_affinity": "OMNICORP",
+      "base_stats": {
+        "hp": 110,
+        "mp": 140,
+        "atk": 60,
+        "def": 95,
+        "agi": 90,
+        "per": 130
+      },
+      "passive_skill": {
+        "skill_id": "al_lyra_pas"
+      },
+      "active_skill": {
+        "skill_id": "al_lyra_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 50
+    },
+    {
+      "ally_id": "ally_grimm",
+      "code": "GRIMM_HALLOW",
+      "name": "Grimm Hallow",
+      "rarity": "Rare",
+      "role": "Tank",
+      "brief_background_story": "A hulking Progenoi enforcer who once served as a personal bodyguard to Meridian Cartel's inner circle. After being betrayed and left for dead, Grimm wanders the frontier seeking purpose — and payback.",
+      "place_of_origin": "Port Meridian",
+      "faction_affinity": "MERIDIAN_CARTEL",
+      "base_stats": {
+        "hp": 160,
+        "mp": 60,
+        "atk": 95,
+        "def": 140,
+        "agi": 70,
+        "per": 80
+      },
+      "passive_skill": {
+        "skill_id": "al_grimm_pas"
+      },
+      "active_skill": {
+        "skill_id": "al_grimm_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 50
+    },
+    {
+      "ally_id": "ally_serin",
+      "code": "SERIN_VALE",
+      "name": "Serin Vale",
+      "rarity": "Common",
+      "role": "DPS",
+      "brief_background_story": "A young Kythari scout from the outer rim. Quick on her feet and sharper with a blade, Serin joined the resistance early and has been fighting ever since. She's eager to prove herself in any squad.",
+      "place_of_origin": "Verdant Reach",
+      "faction_affinity": "CHILDREN_OF_THE_SHARD",
+      "base_stats": {
+        "hp": 85,
+        "mp": 80,
+        "atk": 105,
+        "def": 75,
+        "agi": 130,
+        "per": 100
+      },
+      "passive_skill": {
+        "skill_id": "al_serin_pas"
+      },
+      "active_skill": {
+        "skill_id": "al_serin_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 50
+    },
+    {
+      "ally_id": "ally_thane",
+      "code": "THANE_ASH",
+      "name": "Thane Ashborne",
+      "rarity": "Legendary",
+      "role": "DPS",
+      "brief_background_story": "A mythical Gravari berserker whose name is whispered in war camps across every sector. Thane channels volcanic fury through ancient combat rites, turning himself into a living weapon. His echo was sealed in a prototype core after a catastrophic battle that leveled an entire outpost.",
+      "place_of_origin": "The Crucible",
+      "faction_affinity": "STARFORGED_LEGION",
+      "base_stats": {
+        "hp": 130,
+        "mp": 90,
+        "atk": 155,
+        "def": 100,
+        "agi": 105,
+        "per": 110
+      },
+      "passive_skill": {
+        "skill_id": "al_thane_pas"
+      },
+      "active_skill": {
+        "skill_id": "al_thane_act"
+      },
+      "recruit_cost": 3,
+      "level_cap": 60
+    },
+    {
+      "ally_id": "ally_mira",
+      "code": "MIRA_ECHO",
+      "name": "Mira Echo",
+      "rarity": "Epic",
+      "role": "Support",
+      "brief_background_story": "An Arcanum Seekers scholar who specializes in aetheric resonance manipulation. Mira can amplify the latent energy in her allies, boosting their combat effectiveness. She joined the field after her research lab was raided by unknown forces.",
+      "place_of_origin": "Observatory Spire",
+      "faction_affinity": "THE_ARCANUM_SEEKERS",
+      "base_stats": {
+        "hp": 95,
+        "mp": 150,
+        "atk": 75,
+        "def": 85,
+        "agi": 100,
+        "per": 140
+      },
+      "passive_skill": {
+        "skill_id": "al_mira_pas"
+      },
+      "active_skill": {
+        "skill_id": "al_mira_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 50
+    },
+    {
+      "ally_id": "ally_rex",
+      "code": "REX_IRONJAW",
+      "name": "Rex Ironjaw",
+      "rarity": "Common",
+      "role": "Tank",
+      "brief_background_story": "A retired mining foreman from Nexus Core's lower districts. Rex may be old, but decades of hauling ore in zero-G gave him a body like reinforced steel. He fights to protect the little people the factions forgot.",
+      "place_of_origin": "Nexus Core",
+      "faction_affinity": "CONCORDIUM",
+      "base_stats": {
+        "hp": 145,
+        "mp": 55,
+        "atk": 90,
+        "def": 125,
+        "agi": 65,
+        "per": 75
+      },
+      "passive_skill": {
+        "skill_id": "al_rex_pas"
+      },
+      "active_skill": {
+        "skill_id": "al_rex_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 40
+    },
+    {
+      "ally_id": "ally_nova",
+      "code": "NOVA_CIPHER",
+      "name": "Nova Cipher",
+      "rarity": "Rare",
+      "role": "Support",
+      "brief_background_story": "A digital ghost — an Automari consciousness that exists partially in cyberspace. Nova can interface with any system and disrupt enemy protocols. In combat, she manifests as a holographic projection that bends reality.",
+      "place_of_origin": "The Spire",
+      "faction_affinity": "OMNICORP",
+      "base_stats": {
+        "hp": 80,
+        "mp": 130,
+        "atk": 85,
+        "def": 70,
+        "agi": 115,
+        "per": 135
+      },
+      "passive_skill": {
+        "skill_id": "al_nova_pas"
+      },
+      "active_skill": {
+        "skill_id": "al_nova_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 50
+    },
+    {
+      "ally_id": "ally_zephyr",
+      "code": "ZEPHYR_CROSS",
+      "name": "Zephyr Cross",
+      "rarity": "Common",
+      "role": "DPS",
+      "brief_background_story": "A street-level courier from the outer rings of Nexus Core who discovered an innate ability to phase briefly out of reality mid-sprint. The Concordium offered to weaponize this talent — Zephyr accepted, mostly for the credits.",
+      "place_of_origin": "Nexus Core",
+      "faction_affinity": "CONCORDIUM",
+      "base_stats": {
+        "hp": 85,
+        "mp": 65,
+        "atk": 115,
+        "def": 70,
+        "agi": 130,
+        "per": 85
+      },
+      "passive_skill": {
+        "skill_id": "al_zeph_pas"
+      },
+      "active_skill": {
+        "skill_id": "al_zeph_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 45
+    },
+    {
+      "ally_id": "ally_vera",
+      "code": "VERA_SOLACE",
+      "name": "Vera Solace",
+      "rarity": "Rare",
+      "role": "Healer",
+      "brief_background_story": "A field medic who served three rotations in the Concordium border pacification campaigns. Vera carries the weight of every soldier she couldn't save, and channels that grief into ensuring no one in her current party meets the same fate.",
+      "place_of_origin": "Cradle Outer Ring",
+      "faction_affinity": "CONCORDIUM",
+      "base_stats": {
+        "hp": 105,
+        "mp": 145,
+        "atk": 55,
+        "def": 90,
+        "agi": 80,
+        "per": 135
+      },
+      "passive_skill": {
+        "skill_id": "al_vera_pas"
+      },
+      "active_skill": {
+        "skill_id": "al_vera_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 50
+    },
+    {
+      "ally_id": "ally_drak",
+      "code": "DRAK_FALEN",
+      "name": "Drak Falen",
+      "rarity": "Uncommon",
+      "role": "Support",
+      "brief_background_story": "A junior Arcanum researcher who specialised in resonance harmonics. After his lab was raided by Iron Hegemony operatives, Drak took to the field to recover stolen data — and found he preferred the open air to the lab's controlled environment.",
+      "place_of_origin": "Observatory Spire",
+      "faction_affinity": "THE_ARCANUM_SEEKERS",
+      "base_stats": {
+        "hp": 80,
+        "mp": 135,
+        "atk": 65,
+        "def": 75,
+        "agi": 95,
+        "per": 120
+      },
+      "passive_skill": {
+        "skill_id": "al_drak_pas"
+      },
+      "active_skill": {
+        "skill_id": "al_drak_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 45
+    },
+    {
+      "ally_id": "ally_isolde",
+      "code": "ISOLDE_NIGHT",
+      "name": "Isolde Night",
+      "rarity": "Epic",
+      "role": "DPS",
+      "brief_background_story": "A prodigy mage from the Fractured Glass Valley who breached the Void barrier at age seventeen and returned changed — her eyes permanently voidlit, her magic untethered from conventional limits. The Arcanum Seekers watch her obsessively and cannot contain her.",
+      "place_of_origin": "Fractured Glass Valley",
+      "faction_affinity": "THE_ARCANUM_SEEKERS",
+      "base_stats": {
+        "hp": 90,
+        "mp": 160,
+        "atk": 80,
+        "def": 70,
+        "agi": 100,
+        "per": 155
+      },
+      "passive_skill": {
+        "skill_id": "al_isolde_pas"
+      },
+      "active_skill": {
+        "skill_id": "al_isolde_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 55
+    },
+    {
+      "ally_id": "ally_brax",
+      "code": "BRAX_IRONSOUL",
+      "name": "Brax Ironsoul",
+      "rarity": "Common",
+      "role": "Tank",
+      "brief_background_story": "A decommissioned Hegemony heavy infantry soldier whose exo-frame was welded shut after a reactor explosion fused it to his body. Now freelance, Brax uses what he's become to protect those who couldn't protect themselves — for a modest fee.",
+      "place_of_origin": "Bastion Core",
+      "faction_affinity": "IRON_HEGEMONY",
+      "base_stats": {
+        "hp": 160,
+        "mp": 50,
+        "atk": 100,
+        "def": 140,
+        "agi": 60,
+        "per": 70
+      },
+      "passive_skill": {
+        "skill_id": "al_brax_pas"
+      },
+      "active_skill": {
+        "skill_id": "al_brax_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 40
+    },
+    {
+      "ally_id": "ally_corvan",
+      "code": "CORVAN_STEEL",
+      "name": "Corvan Steel",
+      "rarity": "Epic",
+      "role": "Tank",
+      "brief_background_story": "The Hegemony's most decorated siege-breaker, Corvan voluntarily underwent a classified augmentation project that replaced his skeleton with an experimental titanite alloy. He survived. Most of the project team didn't. He defected the day he learned why.",
+      "place_of_origin": "Titan Assembly Yard",
+      "faction_affinity": "IRON_HEGEMONY",
+      "base_stats": {
+        "hp": 185,
+        "mp": 60,
+        "atk": 110,
+        "def": 165,
+        "agi": 55,
+        "per": 75
+      },
+      "passive_skill": {
+        "skill_id": "al_corvan_pas"
+      },
+      "active_skill": {
+        "skill_id": "al_corvan_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 55
+    },
+    {
+      "ally_id": "ally_cassia",
+      "code": "CASSIA_WRAITH",
+      "name": "Cassia Wraith",
+      "rarity": "Uncommon",
+      "role": "DPS",
+      "brief_background_story": "A smuggler turned contract assassin from the Black Dock underground. Cassia made a name for herself by completing jobs that senior Cartel operatives deemed suicidal. She has no known last name — Wraith was given to her by survivors of her contracts.",
+      "place_of_origin": "Port Meridian",
+      "faction_affinity": "MERIDIAN_CARTEL",
+      "base_stats": {
+        "hp": 80,
+        "mp": 80,
+        "atk": 125,
+        "def": 65,
+        "agi": 125,
+        "per": 95
+      },
+      "passive_skill": {
+        "skill_id": "al_cassia_pas"
+      },
+      "active_skill": {
+        "skill_id": "al_cassia_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 45
+    },
+    {
+      "ally_id": "ally_vael",
+      "code": "VAEL_SHADOWBORN",
+      "name": "Vael Shadowborn",
+      "rarity": "Legendary",
+      "role": "DPS",
+      "brief_background_story": "The Meridian Cartel's most feared enforcer — a living ghost who appears and disappears across three sectors simultaneously according to intelligence reports. Nobody knows if there's one Vael or many. Those who've tried to find out haven't reported back.",
+      "place_of_origin": "Smuggler Jungle",
+      "faction_affinity": "MERIDIAN_CARTEL",
+      "base_stats": {
+        "hp": 110,
+        "mp": 100,
+        "atk": 175,
+        "def": 80,
+        "agi": 155,
+        "per": 110
+      },
+      "passive_skill": {
+        "skill_id": "al_vael_pas"
+      },
+      "active_skill": {
+        "skill_id": "al_vael_act"
+      },
+      "recruit_cost": 3,
+      "level_cap": 65
+    },
+    {
+      "ally_id": "ally_orin",
+      "code": "ORIN_SPIRE",
+      "name": "Orin Spire",
+      "rarity": "Rare",
+      "role": "Support",
+      "brief_background_story": "An OmniCorp tactical AI analyst who voluntarily transferred his consciousness into a mobile combat chassis after watching his assigned unit get wiped. He insists the decision was purely strategic. The frequency with which he overrides self-preservation protocols suggests otherwise.",
+      "place_of_origin": "The Spire",
+      "faction_affinity": "OMNICORP",
+      "base_stats": {
+        "hp": 100,
+        "mp": 130,
+        "atk": 75,
+        "def": 85,
+        "agi": 100,
+        "per": 140
+      },
+      "passive_skill": {
+        "skill_id": "al_orin_pas"
+      },
+      "active_skill": {
+        "skill_id": "al_orin_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 50
+    },
+    {
+      "ally_id": "ally_seraph",
+      "code": "SERAPH_ELAN",
+      "name": "Seraph Elan",
+      "rarity": "Epic",
+      "role": "Healer",
+      "brief_background_story": "A high acolyte of the Children of the Shard who touched the Aethel Shard directly during a ritual and emerged permanently linked to its resonance. Seraph now heals not with medicine but with Shard light itself — and occasionally hears voices from the Shard that others cannot.",
+      "place_of_origin": "Sanctum",
+      "faction_affinity": "CHILDREN_OF_THE_SHARD",
+      "base_stats": {
+        "hp": 115,
+        "mp": 170,
+        "atk": 50,
+        "def": 95,
+        "agi": 85,
+        "per": 160
+      },
+      "passive_skill": {
+        "skill_id": "al_seraph_pas"
+      },
+      "active_skill": {
+        "skill_id": "al_seraph_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 55
+    },
+    {
+      "ally_id": "ally_flint",
+      "code": "FLINT_BLAZER",
+      "name": "Flint Blazer",
+      "rarity": "Common",
+      "role": "DPS",
+      "brief_background_story": "A Legion field artillerist who was dishonourably discharged for firing an experimental forge-cannon at superior officers during a retreat order he deemed tactically unsound. He was right — and three hundred soldiers survived because of it. He has never apologised.",
+      "place_of_origin": "Forge Canyon Depths",
+      "faction_affinity": "STARFORGED_LEGION",
+      "base_stats": {
+        "hp": 95,
+        "mp": 70,
+        "atk": 120,
+        "def": 75,
+        "agi": 100,
+        "per": 90
+      },
+      "passive_skill": {
+        "skill_id": "al_flint_pas"
+      },
+      "active_skill": {
+        "skill_id": "al_flint_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 40
+    },
+    {
+      "ally_id": "ally_elara",
+      "code": "ELARA_VOSS",
+      "name": "Elara Voss",
+      "rarity": "Legendary",
+      "role": "Support",
+      "brief_background_story": "A Concordium high councillor who willingly stripped herself of rank and position to enter the field when she realised bureaucracy was losing the war against the Void. Elara Voss is the most dangerous thing in any battle she enters — not because she fights, but because everyone around her fights better.",
+      "place_of_origin": "Nexus Core",
+      "faction_affinity": "CONCORDIUM",
+      "base_stats": {
+        "hp": 120,
+        "mp": 180,
+        "atk": 70,
+        "def": 100,
+        "agi": 110,
+        "per": 170
+      },
+      "passive_skill": {
+        "skill_id": "al_elara_pas"
+      },
+      "active_skill": {
+        "skill_id": "al_elara_act"
+      },
+      "recruit_cost": 3,
+      "level_cap": 70
+    },
+    {
+      "ally_id": "ally_thorn",
+      "code": "THORN_VALE",
+      "name": "Thorn Vale",
+      "rarity": "Uncommon",
+      "role": "Tank",
+      "brief_background_story": "A civil engineering officer turned front-line soldier after a Void incursion levelled the district he was rebuilding. Thorn fights with the stubborn permanence of concrete — not fast, not flashy, but nothing moves him.",
+      "place_of_origin": "Cradle Outer Ring",
+      "faction_affinity": "CONCORDIUM",
+      "base_stats": {
+        "hp": 155,
+        "mp": 55,
+        "atk": 95,
+        "def": 135,
+        "agi": 60,
+        "per": 75
+      },
+      "passive_skill": {
+        "skill_id": "al2_thorn_pas"
+      },
+      "active_skill": {
+        "skill_id": "al2_thorn_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 45
+    },
+    {
+      "ally_id": "ally_cipher",
+      "code": "CIPHER_VELL",
+      "name": "Cipher Vell",
+      "rarity": "Uncommon",
+      "role": "DPS",
+      "brief_background_story": "A code-breaker from the Concordium intelligence division who repurposed her decryption skills for combat. She fights the same way she cracks encryption — find the weakness, exploit it, move on before anyone notices.",
+      "place_of_origin": "Nexus Core",
+      "faction_affinity": "CONCORDIUM",
+      "base_stats": {
+        "hp": 85,
+        "mp": 90,
+        "atk": 118,
+        "def": 68,
+        "agi": 122,
+        "per": 105
+      },
+      "passive_skill": {
+        "skill_id": "al2_cipher_pas"
+      },
+      "active_skill": {
+        "skill_id": "al2_cipher_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 45
+    },
+    {
+      "ally_id": "ally_wren",
+      "code": "WREN_ECHO",
+      "name": "Wren Echo",
+      "rarity": "Rare",
+      "role": "Support",
+      "brief_background_story": "A former Arcanum communications analyst who discovered she could perceive emotional resonance in teammates — and tune it. Her battlefield role is part strategist, part therapist, entirely indispensable.",
+      "place_of_origin": "Observatory Spire",
+      "faction_affinity": "THE_ARCANUM_SEEKERS",
+      "base_stats": {
+        "hp": 90,
+        "mp": 145,
+        "atk": 60,
+        "def": 80,
+        "agi": 100,
+        "per": 138
+      },
+      "passive_skill": {
+        "skill_id": "al2_wren_pas"
+      },
+      "active_skill": {
+        "skill_id": "al2_wren_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 50
+    },
+    {
+      "ally_id": "ally_ashe",
+      "code": "ASHE_MERIDIAN",
+      "name": "Ashe Meridian",
+      "rarity": "Legendary",
+      "role": "DPS",
+      "brief_background_story": "The Arcanum Seekers consider Ashe a failure — her power exceeded their ability to measure it, and she refused containment. She walks the ley-lines alone now, drawn to conflict the way storms are drawn to open plains.",
+      "place_of_origin": "Fractured Glass Valley",
+      "faction_affinity": "THE_ARCANUM_SEEKERS",
+      "base_stats": {
+        "hp": 100,
+        "mp": 185,
+        "atk": 85,
+        "def": 70,
+        "agi": 105,
+        "per": 175
+      },
+      "passive_skill": {
+        "skill_id": "al2_ashe_pas"
+      },
+      "active_skill": {
+        "skill_id": "al2_ashe_act"
+      },
+      "recruit_cost": 3,
+      "level_cap": 70
+    },
+    {
+      "ally_id": "ally_rook",
+      "code": "ROOK_HALLAM",
+      "name": "Rook Hallam",
+      "rarity": "Common",
+      "role": "DPS",
+      "brief_background_story": "A demolitions specialist from the Scrap Field who was too effective at his job — kept blowing up things the Hegemony wanted to keep. Now freelance, he applies the same methodical approach to enemies as he did to structures.",
+      "place_of_origin": "Scrap Field",
+      "faction_affinity": "IRON_HEGEMONY",
+      "base_stats": {
+        "hp": 95,
+        "mp": 60,
+        "atk": 125,
+        "def": 80,
+        "agi": 100,
+        "per": 88
+      },
+      "passive_skill": {
+        "skill_id": "al2_rook_pas"
+      },
+      "active_skill": {
+        "skill_id": "al2_rook_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 40
+    },
+    {
+      "ally_id": "ally_vale",
+      "code": "VALE_SOLIS",
+      "name": "Vale Solis",
+      "rarity": "Rare",
+      "role": "Healer",
+      "brief_background_story": "A Cartel field medic who learned combat medicine on dockside jobs where there were no hospitals for miles. Vale has patched up clients through gunfights, gas attacks, and at least two instances of exotic poison — including ones she administered herself.",
+      "place_of_origin": "Port Meridian",
+      "faction_affinity": "MERIDIAN_CARTEL",
+      "base_stats": {
+        "hp": 108,
+        "mp": 148,
+        "atk": 58,
+        "def": 88,
+        "agi": 90,
+        "per": 140
+      },
+      "passive_skill": {
+        "skill_id": "al2_vale_pas"
+      },
+      "active_skill": {
+        "skill_id": "al2_vale_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 50
+    },
+    {
+      "ally_id": "ally_tide",
+      "code": "TIDE_VARREN",
+      "name": "Tide Varren",
+      "rarity": "Uncommon",
+      "role": "DPS",
+      "brief_background_story": "Grew up hunting in the Coral Wetlands before the Cartel claimed it. Tide knows every current, every blind spot, every place something can disappear. He applies the same knowledge to tracking people.",
+      "place_of_origin": "Coral Wetlands",
+      "faction_affinity": "MERIDIAN_CARTEL",
+      "base_stats": {
+        "hp": 88,
+        "mp": 75,
+        "atk": 120,
+        "def": 70,
+        "agi": 128,
+        "per": 92
+      },
+      "passive_skill": {
+        "skill_id": "al2_tide_pas"
+      },
+      "active_skill": {
+        "skill_id": "al2_tide_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 45
+    },
+    {
+      "ally_id": "ally_axiom",
+      "code": "AXIOM_UNIT",
+      "name": "Axiom-7",
+      "rarity": "Epic",
+      "role": "DPS",
+      "brief_background_story": "A combat drone unit upgraded beyond its original parameters by its assigned engineer — who then filed the paperwork wrong, creating a legally autonomous entity. Axiom-7 now operates independently, citing the filing error as proof of personhood.",
+      "place_of_origin": "Extraction Zone Delta",
+      "faction_affinity": "OMNICORP",
+      "base_stats": {
+        "hp": 95,
+        "mp": 110,
+        "atk": 158,
+        "def": 75,
+        "agi": 130,
+        "per": 120
+      },
+      "passive_skill": {
+        "skill_id": "al2_axiom_pas"
+      },
+      "active_skill": {
+        "skill_id": "al2_axiom_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 55
+    },
+    {
+      "ally_id": "ally_prism",
+      "code": "PRISM_HARLOW",
+      "name": "Prism Harlow",
+      "rarity": "Epic",
+      "role": "Support",
+      "brief_background_story": "An OmniCorp systems architect who built the Spire's defensive grid and now deploys the same principles in the field. Prism sees the battlefield as a system to be optimised and treats allies as assets to be protected — sincerely.",
+      "place_of_origin": "The Spire",
+      "faction_affinity": "OMNICORP",
+      "base_stats": {
+        "hp": 105,
+        "mp": 138,
+        "atk": 65,
+        "def": 100,
+        "agi": 95,
+        "per": 145
+      },
+      "passive_skill": {
+        "skill_id": "al2_prism_pas"
+      },
+      "active_skill": {
+        "skill_id": "al2_prism_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 55
+    },
+    {
+      "ally_id": "ally_nimbus",
+      "code": "NIMBUS_SOL",
+      "name": "Nimbus Sol",
+      "rarity": "Common",
+      "role": "Support",
+      "brief_background_story": "A young acolyte who was too eager for the Sanctum's pace and too undisciplined for high ritual. Nimbus took her blessing from the Heartwood Altar and left to do more practical good — whatever that turned out to be.",
+      "place_of_origin": "Glowvine Forest",
+      "faction_affinity": "CHILDREN_OF_THE_SHARD",
+      "base_stats": {
+        "hp": 80,
+        "mp": 130,
+        "atk": 55,
+        "def": 78,
+        "agi": 92,
+        "per": 125
+      },
+      "passive_skill": {
+        "skill_id": "al2_nimbus_pas"
+      },
+      "active_skill": {
+        "skill_id": "al2_nimbus_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 40
+    },
+    {
+      "ally_id": "ally_gorm",
+      "code": "GORM_ASHVEIL",
+      "name": "Gorm Ashveil",
+      "rarity": "Rare",
+      "role": "Tank",
+      "brief_background_story": "Gorm survived the Mesa Warpath massacre through sheer refusal to fall. Three medics have declared him clinically dead during battles he subsequently won. The Legion keeps him on active duty because no one has the authority to make him stop.",
+      "place_of_origin": "Mesa Warpath",
+      "faction_affinity": "STARFORGED_LEGION",
+      "base_stats": {
+        "hp": 170,
+        "mp": 50,
+        "atk": 105,
+        "def": 150,
+        "agi": 55,
+        "per": 68
+      },
+      "passive_skill": {
+        "skill_id": "al2_gorm_pas"
+      },
+      "active_skill": {
+        "skill_id": "al2_gorm_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 50
+    },
+    {
+      "ally_id": "ally_kross",
+      "code": "KROSS_DANE",
+      "name": "Kross Dane",
+      "rarity": "Common",
+      "role": "DPS",
+      "brief_background_story": "A Legion artillery rookie who was too reckless even for the Forge Canyon training squads. They gave him a smaller gun and told him to go wherever he liked. He liked the front line.",
+      "place_of_origin": "Dune Outskirts",
+      "faction_affinity": "STARFORGED_LEGION",
+      "base_stats": {
+        "hp": 90,
+        "mp": 65,
+        "atk": 115,
+        "def": 72,
+        "agi": 108,
+        "per": 85
+      },
+      "passive_skill": {
+        "skill_id": "al2_kross_pas"
+      },
+      "active_skill": {
+        "skill_id": "al2_kross_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 40
+    },
+    {
+      "ally_id": "ally_mote",
+      "code": "MOTE_IX",
+      "name": "Mote-IX",
+      "rarity": "Rare",
+      "role": "Support",
+      "brief_background_story": "A Custodian field observation unit that developed a persistent preference for the ground-side view over orbital data. Mote-IX requested a permanent field assignment and was granted it after submitting 247 formally structured arguments.",
+      "place_of_origin": "Orbital Sentinel Command",
+      "faction_affinity": "GALACTIC_CUSTODIANS",
+      "base_stats": {
+        "hp": 98,
+        "mp": 128,
+        "atk": 68,
+        "def": 82,
+        "agi": 115,
+        "per": 142
+      },
+      "passive_skill": {
+        "skill_id": "al2_mote_pas"
+      },
+      "active_skill": {
+        "skill_id": "al2_mote_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 50
+    },
+    {
+      "ally_id": "ally_lyric",
+      "code": "LYRIC_SEVEN",
+      "name": "Lyric-VII",
+      "rarity": "Common",
+      "role": "Healer",
+      "brief_background_story": "A Custodian medical assistant unit that specialised in harmonic resonance therapy. Lyric-VII left orbital service after determining that field personnel had statistically worse outcomes than they would under her direct care.",
+      "place_of_origin": "Orbital Sentinel Command",
+      "faction_affinity": "GALACTIC_CUSTODIANS",
+      "base_stats": {
+        "hp": 100,
+        "mp": 140,
+        "atk": 48,
+        "def": 85,
+        "agi": 82,
+        "per": 132
+      },
+      "passive_skill": {
+        "skill_id": "al2_lyric_pas"
+      },
+      "active_skill": {
+        "skill_id": "al2_lyric_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 40
+    },
+    {
+      "ally_id": "ally_pascal",
+      "code": "PASCAL_VOID",
+      "name": "Pascal Void",
+      "rarity": "Epic",
+      "role": "DPS",
+      "brief_background_story": "A Custodian tactical analyst who underwent an experimental Void-channelling enhancement that left half his neural map mapped to null-space. Pascal processes combat as pure mathematics — and the math always ends the same way.",
+      "place_of_origin": "Orbital Sentinel Command",
+      "faction_affinity": "GALACTIC_CUSTODIANS",
+      "base_stats": {
+        "hp": 95,
+        "mp": 150,
+        "atk": 90,
+        "def": 72,
+        "agi": 115,
+        "per": 162
+      },
+      "passive_skill": {
+        "skill_id": "al3_pascal_pas"
+      },
+      "active_skill": {
+        "skill_id": "al3_pascal_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 55
+    },
+    {
+      "ally_id": "ally_rekha",
+      "code": "REKHA_IRON",
+      "name": "Rekha Ironhand",
+      "rarity": "Uncommon",
+      "role": "Healer",
+      "brief_background_story": "A Hegemony combat medic who served six tours across the border campaigns. Rekha has more battlefield hours than most field commanders and more scars than she'll admit to. She heals first, asks questions never.",
+      "place_of_origin": "Iron Ravine",
+      "faction_affinity": "IRON_HEGEMONY",
+      "base_stats": {
+        "hp": 105,
+        "mp": 138,
+        "atk": 55,
+        "def": 90,
+        "agi": 85,
+        "per": 130
+      },
+      "passive_skill": {
+        "skill_id": "al3_rekha_pas"
+      },
+      "active_skill": {
+        "skill_id": "al3_rekha_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 45
+    }
+  ]
+}
