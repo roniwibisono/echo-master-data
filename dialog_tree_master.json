@@ -21,7 +21,7 @@
             {
               "text": "Accept — I'll go find a trainer.",
               "next": "accepted",
-              "action": "accept_quest"
+              "action": "accepted"
             },
             {
               "text": "Not yet.",
@@ -42,7 +42,7 @@
             {
               "text": "Accept — I'll find my trainer.",
               "next": "accepted",
-              "action": "accept_quest"
+              "action": "accepted"
             },
             {
               "text": "I need more time to think.",
