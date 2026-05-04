@@ -1,0 +1,5169 @@
+{
+  "quests": [
+    {
+      "id": "fq_merid_001",
+      "title": "Resource Reclamation",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "CORAL_WETLANDS",
+      "description": "Executive Director Silas has signed your first contract: secure the Coral Wetlands and harvest Cave Rats for the Cartel's raw material supply chain. Profit begins here.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "CORAL_WETLANDS"
+      },
+      "requirements": {
+        "min_level": 1,
+        "reputation_required": 0,
+        "required_quests": []
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CAVE_RAT",
+          "count": 5,
+          "desc": "Harvest Cave Rats for raw materials."
+        },
+        {
+          "type": "collect",
+          "target": "reclamation_manifest",
+          "count": 1,
+          "desc": "File your reclamation manifest."
+        }
+      ],
+      "rewards": {
+        "exp": 50,
+        "currency": 30,
+        "crd": 15,
+        "rep": 30,
+        "items": [
+          {
+            "item_id": "con_small_hp_cell",
+            "quantity": 3
+          },
+          {
+            "item_id": "scrap_metal",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_002"
+    },
+    {
+      "id": "fq_merid_002",
+      "title": "Wetland Assets",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "CORAL_WETLANDS",
+      "description": "Wetland Crawlers infest high-value tidal zones. Every Crawler removed increases the property value. Liquidate them.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "CORAL_WETLANDS"
+      },
+      "requirements": {
+        "min_level": 1,
+        "reputation_required": 0,
+        "required_quests": [
+          "fq_merid_001"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "WETLAND_CRAWLER",
+          "count": 5,
+          "desc": "Liquidate Wetland Crawlers."
+        },
+        {
+          "type": "collect",
+          "target": "tidal_zone_report",
+          "count": 1,
+          "desc": "Submit tidal zone asset report."
+        }
+      ],
+      "rewards": {
+        "exp": 55,
+        "currency": 35,
+        "crd": 20,
+        "rep": 35,
+        "items": [
+          {
+            "item_id": "con_small_mp_cell",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_003"
+    },
+    {
+      "id": "fq_merid_003",
+      "title": "Tidal Futures",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "CORAL_WETLANDS",
+      "description": "Coral Tidal Crabs are disrupting Cartel dock operations. Their shells have market value \u2014 kill two birds with one bullet.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "CORAL_WETLANDS"
+      },
+      "requirements": {
+        "min_level": 2,
+        "reputation_required": 60,
+        "required_quests": [
+          "fq_merid_002"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CORAL_TIDAL_CRAB",
+          "count": 5,
+          "desc": "Eliminate Tidal Crabs."
+        },
+        {
+          "type": "collect",
+          "target": "crab_shell_shipment",
+          "count": 3,
+          "desc": "Collect shells for export."
+        }
+      ],
+      "rewards": {
+        "exp": 70,
+        "currency": 40,
+        "crd": 20,
+        "rep": 40,
+        "items": [
+          {
+            "item_id": "rust_chitin",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_004"
+    },
+    {
+      "id": "fq_merid_004",
+      "title": "Mudling Acquisition",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "CORAL_WETLANDS",
+      "description": "Tide Mudlings are digging into Cartel shipping lanes. Their mud contains trace Aethel \u2014 extract it.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "CORAL_WETLANDS"
+      },
+      "requirements": {
+        "min_level": 3,
+        "reputation_required": 120,
+        "required_quests": [
+          "fq_merid_003"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TIDE_MUDLING",
+          "count": 5,
+          "desc": "Clear Mudlings from shipping lanes."
+        },
+        {
+          "type": "collect",
+          "target": "aethel_mud_sample",
+          "count": 3,
+          "desc": "Extract Aethel-infused mud samples."
+        }
+      ],
+      "rewards": {
+        "exp": 80,
+        "currency": 50,
+        "crd": 25,
+        "rep": 50,
+        "items": [
+          {
+            "item_id": "slime_gel",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_005"
+    },
+    {
+      "id": "fq_merid_005",
+      "title": "The Class Contract",
+      "type": "tutorial",
+      "rank": "D",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "PORT_MERIDIAN",
+      "description": "Don Vercelli sees your quarterly performance. Time to renegotiate your contract. Report to Captain Vex at Port Meridian for class specialization.",
+      "quest_giver": {
+        "npc_id": "npc_meridian_class_trainer",
+        "name": "Captain Vex",
+        "location": "PORT_MERIDIAN"
+      },
+      "requirements": {
+        "min_level": 4,
+        "reputation_required": 180,
+        "required_quests": [
+          "fq_merid_004"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_meridian_class_trainer",
+          "count": 1,
+          "desc": "Negotiate your specialization contract with Captain Vex."
+        },
+        {
+          "type": "interact",
+          "target": "class_change_screen",
+          "count": 1,
+          "desc": "Sign the class specialization agreement."
+        },
+        {
+          "type": "kill",
+          "target": "CORAL_SERPENT",
+          "count": 3,
+          "desc": "Demonstrate ROI against Coral Serpents."
+        }
+      ],
+      "rewards": {
+        "exp": 400,
+        "currency": 200,
+        "crd": 100,
+        "rep": 150,
+        "items": [
+          {
+            "item_id": "wpn_hunter_dagger",
+            "quantity": 1
+          },
+          {
+            "item_id": "arm_leather_tunic",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "popup": true,
+      "popup_trigger": "on_quest_complete",
+      "popup_prerequisite": "fq_merid_004",
+      "popup_level": 4,
+      "quest_chain_next": "fq_merid_006"
+    },
+    {
+      "id": "fq_merid_006",
+      "title": "Market Expansion",
+      "type": "exploration",
+      "rank": "D",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SMUGGLER_JUNGLE",
+      "description": "The Smuggler Jungle is an untapped market. Cartel needs forward distribution centers. Scout the jungle and establish a trading post.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "SMUGGLER_JUNGLE"
+      },
+      "requirements": {
+        "min_level": 5,
+        "reputation_required": 240,
+        "required_quests": [
+          "fq_merid_005"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SMUGGLER_JUNGLE",
+          "count": 1,
+          "desc": "Enter the Smuggler Jungle."
+        },
+        {
+          "type": "collect",
+          "target": "trading_post_beacon",
+          "count": 1,
+          "desc": "Deploy a trading post beacon."
+        }
+      ],
+      "rewards": {
+        "exp": 100,
+        "currency": 60,
+        "crd": 30,
+        "rep": 60,
+        "items": [
+          {
+            "item_id": "con_nutrient_ration",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_007"
+    },
+    {
+      "id": "fq_merid_007",
+      "title": "Stalker Competition",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SMUGGLER_JUNGLE",
+      "description": "Jungle Stalkers are competition \u2014 they hunt Cartel supply caravans. Remove the competition.",
+      "quest_giver": {
+        "npc_id": "npc_shady_smuggler",
+        "name": "Sly",
+        "location": "SMUGGLER_JUNGLE"
+      },
+      "requirements": {
+        "min_level": 6,
+        "reputation_required": 300,
+        "required_quests": [
+          "fq_merid_006"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "JUNGLE_STALKER",
+          "count": 5,
+          "desc": "Remove Jungle Stalker competition."
+        },
+        {
+          "type": "collect",
+          "target": "stalker_harvest",
+          "count": 2,
+          "desc": "Recover stolen Cartel supplies."
+        }
+      ],
+      "rewards": {
+        "exp": 120,
+        "currency": 70,
+        "crd": 35,
+        "rep": 70,
+        "items": [
+          {
+            "item_id": "animal_fang",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_008"
+    },
+    {
+      "id": "fq_merid_008",
+      "title": "Swamp Liability",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SMUGGLER_JUNGLE",
+      "description": "Swamp Rippers are a liability on the Cartel balance sheet. Write them off.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "SMUGGLER_JUNGLE"
+      },
+      "requirements": {
+        "min_level": 7,
+        "reputation_required": 360,
+        "required_quests": [
+          "fq_merid_007"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SWAMP_RIPPER",
+          "count": 5,
+          "desc": "Write off Swamp Rippers."
+        },
+        {
+          "type": "collect",
+          "target": "ripper_hide",
+          "count": 3,
+          "desc": "Collect Ripper hide \u2014 still tradable."
+        }
+      ],
+      "rewards": {
+        "exp": 180,
+        "currency": 100,
+        "crd": 50,
+        "rep": 100,
+        "items": [
+          {
+            "item_id": "raw_hide",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_009"
+    },
+    {
+      "id": "fq_merid_009",
+      "title": "Venomfang Futures",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SMUGGLER_JUNGLE",
+      "description": "Jungle Venomfangs produce venom worth 500 CS per vial on the black market. Harvest the asset.",
+      "quest_giver": {
+        "npc_id": "npc_black_market_dealer",
+        "name": "Madam Z",
+        "location": "SMUGGLER_JUNGLE"
+      },
+      "requirements": {
+        "min_level": 8,
+        "reputation_required": 420,
+        "required_quests": [
+          "fq_merid_008"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "JUNGLE_VENOMFANG",
+          "count": 5,
+          "desc": "Harvest Venomfang venom assets."
+        },
+        {
+          "type": "collect",
+          "target": "venomfang_venom_vial",
+          "count": 3,
+          "desc": "Secure venom vials for market."
+        }
+      ],
+      "rewards": {
+        "exp": 200,
+        "currency": 110,
+        "crd": 55,
+        "rep": 110,
+        "items": [
+          {
+            "item_id": "venom_sac",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_010"
+    },
+    {
+      "id": "fq_merid_010",
+      "title": "Golem Liquidation",
+      "type": "boss",
+      "rank": "D",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SMUGGLER_JUNGLE",
+      "description": "A Contraband Golem \u2014 a walking warehouse of illegal goods \u2014 blocks the main trade route. Liquidate it and seize its inventory.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "SMUGGLER_JUNGLE"
+      },
+      "requirements": {
+        "min_level": 9,
+        "reputation_required": 480,
+        "required_quests": [
+          "fq_merid_009"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CONTRABAND_GOLEM",
+          "count": 2,
+          "desc": "Liquidate Contraband Golems."
+        },
+        {
+          "type": "collect",
+          "target": "golem_inventory",
+          "count": 1,
+          "desc": "Seize the Golem's inventory manifest."
+        }
+      ],
+      "rewards": {
+        "exp": 300,
+        "currency": 180,
+        "crd": 90,
+        "rep": 180,
+        "items": [
+          {
+            "item_id": "scrap_circuit",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_011"
+    },
+    {
+      "id": "fq_merid_011",
+      "title": "Supply Chain Security",
+      "type": "exploration",
+      "rank": "C",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "BLACK_DOCK_MARKET",
+      "description": "The Black Dock Market is the heart of Cartel commerce. Secure the supply chain \u2014 Cartel trade must flow uninterrupted.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "BLACK_DOCK_MARKET"
+      },
+      "requirements": {
+        "min_level": 10,
+        "reputation_required": 540,
+        "required_quests": [
+          "fq_merid_010"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "BLACK_DOCK_MARKET",
+          "count": 1,
+          "desc": "Enter the Black Dock Market."
+        },
+        {
+          "type": "collect",
+          "target": "market_security_report",
+          "count": 2,
+          "desc": "File your market security assessment."
+        }
+      ],
+      "rewards": {
+        "exp": 280,
+        "currency": 150,
+        "crd": 75,
+        "rep": 150,
+        "items": [
+          {
+            "item_id": "con_minor_stim_pack",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_012"
+    },
+    {
+      "id": "fq_merid_012",
+      "title": "Smuggler Enforcement",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "BLACK_DOCK_MARKET",
+      "description": "Black Dock Smugglers are independent operators \u2014 they don't pay Cartel commission. Enforce the monopoly.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "BLACK_DOCK_MARKET"
+      },
+      "requirements": {
+        "min_level": 11,
+        "reputation_required": 600,
+        "required_quests": [
+          "fq_merid_011"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "BLACK_DOCK_SMUGGLER",
+          "count": 6,
+          "desc": "Enforce monopoly on Smugglers."
+        },
+        {
+          "type": "collect",
+          "target": "collected_commission",
+          "count": 1,
+          "desc": "Collect outstanding commission."
+        }
+      ],
+      "rewards": {
+        "exp": 320,
+        "currency": 170,
+        "crd": 85,
+        "rep": 170,
+        "items": [
+          {
+            "item_id": "scrap_metal",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_013"
+    },
+    {
+      "id": "fq_merid_013",
+      "title": "Hostile Takeover",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "BLACK_DOCK_MARKET",
+      "description": "Black Dock Assassins are assassinating Cartel middle management. This is a hostile takeover attempt. Execute a reverse takeover.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "BLACK_DOCK_MARKET"
+      },
+      "requirements": {
+        "min_level": 12,
+        "reputation_required": 660,
+        "required_quests": [
+          "fq_merid_012"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "BLACK_DOCK_ASSASSIN",
+          "count": 5,
+          "desc": "Execute reverse takeover on Assassins."
+        },
+        {
+          "type": "collect",
+          "target": "assassin_contract",
+          "count": 1,
+          "desc": "Seize their assassination contracts."
+        }
+      ],
+      "rewards": {
+        "exp": 360,
+        "currency": 190,
+        "crd": 95,
+        "rep": 200,
+        "items": [
+          {
+            "item_id": "scrap_circuit",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_014"
+    },
+    {
+      "id": "fq_merid_014",
+      "title": "Enforcer Acquisition",
+      "type": "boss",
+      "rank": "C",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "BLACK_DOCK_MARKET",
+      "description": "Black Dock Enforcers run a competing protection racket. Acquire their operation \u2014 whether they agree or not.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "BLACK_DOCK_MARKET"
+      },
+      "requirements": {
+        "min_level": 13,
+        "reputation_required": 720,
+        "required_quests": [
+          "fq_merid_013"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "BLACK_DOCK_ENFORCER",
+          "count": 3,
+          "desc": "Acquire Enforcer operations."
+        },
+        {
+          "type": "collect",
+          "target": "protection_racket_deed",
+          "count": 1,
+          "desc": "Claim the protection racket deed."
+        }
+      ],
+      "rewards": {
+        "exp": 450,
+        "currency": 240,
+        "crd": 120,
+        "rep": 240,
+        "items": [
+          {
+            "item_id": "rusted_plate",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_015"
+    },
+    {
+      "id": "fq_merid_015",
+      "title": "Market Audit",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "BLACK_DOCK_MARKET",
+      "description": "Quarterly audit of all Black Dock operations. Any unlicensed traders will be... deregistered.",
+      "quest_giver": {
+        "npc_id": "npc_black_market_dealer",
+        "name": "Madam Z",
+        "location": "BLACK_DOCK_MARKET"
+      },
+      "requirements": {
+        "min_level": 14,
+        "reputation_required": 780,
+        "required_quests": [
+          "fq_merid_014"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "BLACK_DOCK_SMUGGLER",
+          "count": 4,
+          "desc": "Deregister unlicensed Smugglers."
+        },
+        {
+          "type": "kill",
+          "target": "BLACK_DOCK_ASSASSIN",
+          "count": 4,
+          "desc": "Deregister hostile Assassins."
+        }
+      ],
+      "rewards": {
+        "exp": 500,
+        "currency": 280,
+        "crd": 140,
+        "rep": 300,
+        "items": [
+          {
+            "item_id": "scrap_circuit",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_016"
+    },
+    {
+      "id": "fq_merid_016",
+      "title": "Cartel Expansion",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "BLACK_DOCK_MARKET",
+      "description": "Multiple Enforcer crews resist Cartel authority. Break their resistance with overwhelming market force.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "BLACK_DOCK_MARKET"
+      },
+      "requirements": {
+        "min_level": 15,
+        "reputation_required": 840,
+        "required_quests": [
+          "fq_merid_015"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "BLACK_DOCK_ENFORCER",
+          "count": 4,
+          "desc": "Break Enforcer resistance."
+        },
+        {
+          "type": "collect",
+          "target": "market_share_report",
+          "count": 1,
+          "desc": "Report expanded market share."
+        }
+      ],
+      "rewards": {
+        "exp": 520,
+        "currency": 290,
+        "crd": 145,
+        "rep": 310,
+        "items": [
+          {
+            "item_id": "scrap_metal",
+            "quantity": 4
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_017"
+    },
+    {
+      "id": "fq_merid_017",
+      "title": "Inventory Audit",
+      "type": "collect",
+      "rank": "C",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "BLACK_DOCK_MARKET",
+      "description": "Cartel inventory discrepancies detected. Audit the missing shipments and recover the goods.",
+      "quest_giver": {
+        "npc_id": "npc_shady_smuggler",
+        "name": "Sly",
+        "location": "BLACK_DOCK_MARKET"
+      },
+      "requirements": {
+        "min_level": 16,
+        "reputation_required": 900,
+        "required_quests": [
+          "fq_merid_016"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "missing_shipment",
+          "count": 4,
+          "desc": "Recover missing inventory shipments."
+        },
+        {
+          "type": "kill",
+          "target": "BLACK_DOCK_SMUGGLER",
+          "count": 3,
+          "desc": "Deal with inventory thieves."
+        }
+      ],
+      "rewards": {
+        "exp": 480,
+        "currency": 260,
+        "crd": 130,
+        "rep": 260,
+        "items": [
+          {
+            "item_id": "con_nutrient_ration",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_018"
+    },
+    {
+      "id": "fq_merid_018",
+      "title": "Enforcer Crisis",
+      "type": "boss",
+      "rank": "C",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "BLACK_DOCK_MARKET",
+      "description": "An Enforcer cartel (lowercase C) has formed to oppose Meridian Cartel. This cannot stand. Break their organization at the top.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "BLACK_DOCK_MARKET"
+      },
+      "requirements": {
+        "min_level": 17,
+        "reputation_required": 960,
+        "required_quests": [
+          "fq_merid_017"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "BLACK_DOCK_ENFORCER",
+          "count": 5,
+          "desc": "Break the rival Enforcer cartel."
+        },
+        {
+          "type": "collect",
+          "target": "enforcer_cartel_ledger",
+          "count": 1,
+          "desc": "Seize their operations ledger."
+        }
+      ],
+      "rewards": {
+        "exp": 600,
+        "currency": 330,
+        "crd": 165,
+        "rep": 350,
+        "items": [
+          {
+            "item_id": "tactical_sensor_cluster",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_019"
+    },
+    {
+      "id": "fq_merid_019",
+      "title": "The Advanced Auditor",
+      "type": "boss",
+      "rank": "C",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "BLACK_DOCK_MARKET",
+      "description": "A Resonance Echo has been interfering with Cartel communications. Audit its power and close its account permanently.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "BLACK_DOCK_MARKET"
+      },
+      "requirements": {
+        "min_level": 18,
+        "reputation_required": 1020,
+        "required_quests": [
+          "fq_merid_018"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "RESONANCE_ECHO",
+          "count": 1,
+          "desc": "Close the Resonance Echo's account."
+        },
+        {
+          "type": "kill",
+          "target": "BLACK_DOCK_ENFORCER",
+          "count": 2,
+          "desc": "Liquidate Enforcer escorts."
+        }
+      ],
+      "rewards": {
+        "exp": 800,
+        "currency": 450,
+        "crd": 225,
+        "rep": 450,
+        "items": [
+          {
+            "item_id": "entropy_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_020"
+    },
+    {
+      "id": "fq_merid_020",
+      "title": "Promotion Package",
+      "type": "story",
+      "rank": "C",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "PORT_MERIDIAN",
+      "description": "Your quarterly performance exceeds projections. Return to Port Meridian for your Advanced Contractor promotion and bonus package.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "PORT_MERIDIAN"
+      },
+      "requirements": {
+        "min_level": 19,
+        "reputation_required": 1080,
+        "required_quests": [
+          "fq_merid_019"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "PORT_MERIDIAN",
+          "count": 1,
+          "desc": "Return to Port Meridian headquarters."
+        },
+        {
+          "type": "collect",
+          "target": "advanced_contract",
+          "count": 1,
+          "desc": "Sign your Advanced Contractor contract."
+        }
+      ],
+      "rewards": {
+        "exp": 900,
+        "currency": 500,
+        "crd": 250,
+        "rep": 500,
+        "items": [
+          {
+            "item_id": "con_medium_hp_cell",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_021"
+    },
+    {
+      "id": "fq_merid_021",
+      "title": "Asset Acquisition",
+      "type": "exploration",
+      "rank": "B",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SUNKEN_AETHEL_RUIN",
+      "description": "The Sunken Aethel Ruin holds Precursor assets. The Cartel must acquire them before our competitors do. First-mover advantage is everything.",
+      "quest_giver": {
+        "npc_id": "npc_ruin_diver",
+        "name": "Kip",
+        "location": "SUNKEN_AETHEL_RUIN"
+      },
+      "requirements": {
+        "min_level": 20,
+        "reputation_required": 1140,
+        "required_quests": [
+          "fq_merid_020"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SUNKEN_AETHEL_RUIN",
+          "count": 1,
+          "desc": "Enter the Sunken Aethel Ruin."
+        },
+        {
+          "type": "collect",
+          "target": "ruin_asset_manifest",
+          "count": 2,
+          "desc": "Catalog acquirable assets."
+        }
+      ],
+      "rewards": {
+        "exp": 600,
+        "currency": 350,
+        "crd": 175,
+        "rep": 350,
+        "items": [
+          {
+            "item_id": "con_nutrient_ration",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_022"
+    },
+    {
+      "id": "fq_merid_022",
+      "title": "Purifier Portfolio",
+      "type": "hunt",
+      "rank": "B",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SUNKEN_AETHEL_RUIN",
+      "description": "Cradle Purifiers guard the Ruin's most valuable chambers. Their defense protocols are a sunk cost \u2014 write them off.",
+      "quest_giver": {
+        "npc_id": "npc_ruin_diver",
+        "name": "Kip",
+        "location": "SUNKEN_AETHEL_RUIN"
+      },
+      "requirements": {
+        "min_level": 21,
+        "reputation_required": 1200,
+        "required_quests": [
+          "fq_merid_021"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRADLE_PURIFIER",
+          "count": 4,
+          "desc": "Write off Cradle Purifiers."
+        },
+        {
+          "type": "collect",
+          "target": "purifier_chamber_access",
+          "count": 2,
+          "desc": "Secure chamber access codes."
+        }
+      ],
+      "rewards": {
+        "exp": 650,
+        "currency": 380,
+        "crd": 190,
+        "rep": 380,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_023"
+    },
+    {
+      "id": "fq_merid_023",
+      "title": "Sentinel Assets",
+      "type": "boss",
+      "rank": "B",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SUNKEN_AETHEL_RUIN",
+      "description": "Cradle Sentinels guard the Ruin's main vault. The Cartel has a saying: every locked door is just a late payment. Force the acquisition.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "SUNKEN_AETHEL_RUIN"
+      },
+      "requirements": {
+        "min_level": 22,
+        "reputation_required": 1260,
+        "required_quests": [
+          "fq_merid_022"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRADLE_SENTINEL",
+          "count": 3,
+          "desc": "Force-acquire Sentinel-guarded assets."
+        },
+        {
+          "type": "collect",
+          "target": "vault_content_manifest",
+          "count": 1,
+          "desc": "Catalog the vault contents."
+        }
+      ],
+      "rewards": {
+        "exp": 750,
+        "currency": 420,
+        "crd": 210,
+        "rep": 450,
+        "items": [
+          {
+            "item_id": "damaged_servo_motor",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_024"
+    },
+    {
+      "id": "fq_merid_024",
+      "title": "Behemoth Investment",
+      "type": "boss",
+      "rank": "B",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SUNKEN_AETHEL_RUIN",
+      "description": "Aethel Behemoths are living capital. Their organs trade at premium prices. Make the investment \u2014 harvest the returns.",
+      "quest_giver": {
+        "npc_id": "npc_ruin_diver",
+        "name": "Kip",
+        "location": "SUNKEN_AETHEL_RUIN"
+      },
+      "requirements": {
+        "min_level": 23,
+        "reputation_required": 1320,
+        "required_quests": [
+          "fq_merid_023"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_BEHEMOTH",
+          "count": 2,
+          "desc": "Harvest Behemoth organ assets."
+        },
+        {
+          "type": "collect",
+          "target": "behemoth_organ_manifest",
+          "count": 1,
+          "desc": "File the organ harvesting manifest."
+        }
+      ],
+      "rewards": {
+        "exp": 850,
+        "currency": 460,
+        "crd": 230,
+        "rep": 480,
+        "items": [
+          {
+            "item_id": "mutant_heart_tissue",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_025"
+    },
+    {
+      "id": "fq_merid_025",
+      "title": "Leviathan Futures",
+      "type": "boss",
+      "rank": "B",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SUNKEN_AETHEL_RUIN",
+      "description": "Sunken Aethel Leviathans are the ultimate commodity. Their scales are armor-grade, their blood is fuel. Monopolize the supply.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "SUNKEN_AETHEL_RUIN"
+      },
+      "requirements": {
+        "min_level": 24,
+        "reputation_required": 1380,
+        "required_quests": [
+          "fq_merid_024"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SUNKEN_AETHEL_LEVIATHAN",
+          "count": 1,
+          "desc": "Monopolize the Leviathan supply."
+        },
+        {
+          "type": "collect",
+          "target": "leviathan_commodity_report",
+          "count": 1,
+          "desc": "Submit commodity valuation report."
+        }
+      ],
+      "rewards": {
+        "exp": 1000,
+        "currency": 550,
+        "crd": 275,
+        "rep": 550,
+        "items": [
+          {
+            "item_id": "ancient_scale",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_026"
+    },
+    {
+      "id": "fq_merid_026",
+      "title": "Storm Belt Futures",
+      "type": "exploration",
+      "rank": "B",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "AETHEL_STORM_BELT",
+      "description": "The Aethel Storm Belt is a high-risk, high-reward market. The Cartel is opening a trading desk there. Establish the position.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "AETHEL_STORM_BELT"
+      },
+      "requirements": {
+        "min_level": 25,
+        "reputation_required": 1440,
+        "required_quests": [
+          "fq_merid_025"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "AETHEL_STORM_BELT",
+          "count": 1,
+          "desc": "Enter the Aethel Storm Belt."
+        },
+        {
+          "type": "collect",
+          "target": "storm_belt_market_data",
+          "count": 2,
+          "desc": "Gather market intelligence."
+        }
+      ],
+      "rewards": {
+        "exp": 700,
+        "currency": 400,
+        "crd": 200,
+        "rep": 400,
+        "items": [
+          {
+            "item_id": "con_nutrient_ration",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_027"
+    },
+    {
+      "id": "fq_merid_027",
+      "title": "Storm Serpent Commodity",
+      "type": "hunt",
+      "rank": "B",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "AETHEL_STORM_BELT",
+      "description": "Storm Rift Serpents are a volatile commodity. Their energy cells are in high demand. Stabilize the supply.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "AETHEL_STORM_BELT"
+      },
+      "requirements": {
+        "min_level": 26,
+        "reputation_required": 1500,
+        "required_quests": [
+          "fq_merid_026"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "STORM_RIFT_SERPENT",
+          "count": 3,
+          "desc": "Stabilize Serpent commodity supply."
+        },
+        {
+          "type": "collect",
+          "target": "serpent_energy_cell",
+          "count": 2,
+          "desc": "Collect energy cells for market."
+        }
+      ],
+      "rewards": {
+        "exp": 750,
+        "currency": 430,
+        "crd": 215,
+        "rep": 430,
+        "items": [
+          {
+            "item_id": "power_regulator_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_028"
+    },
+    {
+      "id": "fq_merid_028",
+      "title": "Leviathan Market",
+      "type": "boss",
+      "rank": "B",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "AETHEL_STORM_BELT",
+      "description": "Leviathans have migrated into the Storm Belt. More supply means more profit. Harvest aggressively.",
+      "quest_giver": {
+        "npc_id": "npc_ruin_diver",
+        "name": "Kip",
+        "location": "AETHEL_STORM_BELT"
+      },
+      "requirements": {
+        "min_level": 27,
+        "reputation_required": 1560,
+        "required_quests": [
+          "fq_merid_027"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SUNKEN_AETHEL_LEVIATHAN",
+          "count": 2,
+          "desc": "Harvest Leviathan supply."
+        },
+        {
+          "type": "collect",
+          "target": "leviathan_harvest_report",
+          "count": 1,
+          "desc": "File harvest yield report."
+        }
+      ],
+      "rewards": {
+        "exp": 900,
+        "currency": 520,
+        "crd": 260,
+        "rep": 520,
+        "items": [
+          {
+            "item_id": "aethel_fragment",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_029"
+    },
+    {
+      "id": "fq_merid_029",
+      "title": "Sentinel Acquisition",
+      "type": "boss",
+      "rank": "B",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SUNKEN_AETHEL_RUIN",
+      "description": "Cradle Sentinel variants have been discovered. More variety means more market segmentation. Acquire samples of all models.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "SUNKEN_AETHEL_RUIN"
+      },
+      "requirements": {
+        "min_level": 28,
+        "reputation_required": 1620,
+        "required_quests": [
+          "fq_merid_028"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRADLE_SENTINEL",
+          "count": 4,
+          "desc": "Acquire all Sentinel model samples."
+        },
+        {
+          "type": "collect",
+          "target": "sentinel_variant_catalog",
+          "count": 1,
+          "desc": "Complete the Sentinel variant catalog."
+        }
+      ],
+      "rewards": {
+        "exp": 850,
+        "currency": 480,
+        "crd": 240,
+        "rep": 480,
+        "items": [
+          {
+            "item_id": "stabilizer_gyro_unit",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_030"
+    },
+    {
+      "id": "fq_merid_030",
+      "title": "The Second Audit",
+      "type": "story",
+      "rank": "B",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "PORT_MERIDIAN",
+      "description": "Captain Vex requires a mid-contract performance review. Defeat the Resonance Echo and prove your portfolio is Master-grade.",
+      "quest_giver": {
+        "npc_id": "npc_meridian_class_trainer",
+        "name": "Captain Vex",
+        "location": "PORT_MERIDIAN"
+      },
+      "requirements": {
+        "min_level": 29,
+        "reputation_required": 1680,
+        "required_quests": [
+          "fq_merid_029"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_meridian_class_trainer",
+          "count": 1,
+          "desc": "Present your portfolio to Captain Vex."
+        },
+        {
+          "type": "kill",
+          "target": "RESONANCE_ECHO",
+          "count": 1,
+          "desc": "Demonstrate ROI against the Resonance Echo."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_BEHEMOTH",
+          "count": 1,
+          "desc": "Harvest a Behemoth as your closing transaction."
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 1200,
+        "crd": 600,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 2
+          },
+          {
+            "item_id": "astral_phase_crystal_pure",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "popup": true,
+      "popup_trigger": "on_quest_complete",
+      "popup_prerequisite": "fq_merid_029",
+      "popup_level": 29,
+      "quest_chain_next": "fq_merid_031"
+    },
+    {
+      "id": "fq_merid_031",
+      "title": "Orbital Monopoly",
+      "type": "exploration",
+      "rank": "A",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "ORBITAL_SENTINEL_COMMAND",
+      "description": "The Orbital Sentinel Command is the gateway to space trade. The Cartel will establish exclusive orbital trading rights.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "ORBITAL_SENTINEL_COMMAND"
+      },
+      "requirements": {
+        "min_level": 30,
+        "reputation_required": 1740,
+        "required_quests": [
+          "fq_merid_030"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "ORBITAL_SENTINEL_COMMAND",
+          "count": 1,
+          "desc": "Report to Orbital Sentinel Command."
+        },
+        {
+          "type": "collect",
+          "target": "orbital_trade_license",
+          "count": 1,
+          "desc": "Secure the orbital trade license."
+        }
+      ],
+      "rewards": {
+        "exp": 900,
+        "currency": 500,
+        "crd": 250,
+        "rep": 500,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_032"
+    },
+    {
+      "id": "fq_merid_032",
+      "title": "Drake Insurance",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Ashen Drake attacks Cartel cargo ships. The insurance premiums are killing profits. Eliminate the risk factor.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 31,
+        "reputation_required": 1800,
+        "required_quests": [
+          "fq_merid_031"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "desc": "Eliminate the Drake risk factor."
+        },
+        {
+          "type": "collect",
+          "target": "cargo_loss_report",
+          "count": 1,
+          "desc": "File reduced cargo loss report."
+        }
+      ],
+      "rewards": {
+        "exp": 1200,
+        "currency": 650,
+        "crd": 325,
+        "rep": 650,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_033"
+    },
+    {
+      "id": "fq_merid_033",
+      "title": "Carapace Commodity",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "CRADLE_EXPANSE",
+      "description": "Aethel Iron Carapaces shed armor plates that rival Cartel-forged steel. Corner the market.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 32,
+        "reputation_required": 1860,
+        "required_quests": [
+          "fq_merid_032"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 6,
+          "desc": "Corner the Carapace armor market."
+        },
+        {
+          "type": "collect",
+          "target": "carapace_plate_shipment",
+          "count": 3,
+          "desc": "Prepare armor plate shipments."
+        }
+      ],
+      "rewards": {
+        "exp": 1400,
+        "currency": 750,
+        "crd": 375,
+        "rep": 750,
+        "items": [
+          {
+            "item_id": "rusted_plate",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_034"
+    },
+    {
+      "id": "fq_merid_034",
+      "title": "Behemoth Short",
+      "type": "boss",
+      "rank": "A",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "CRADLE_EXPANSE",
+      "description": "Aethel Corrupted Behemoths are undercutting Cartel prices by destroying our facilities. Short their existence.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 33,
+        "reputation_required": 1920,
+        "required_quests": [
+          "fq_merid_033"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 2,
+          "desc": "Short the Behemoth position."
+        },
+        {
+          "type": "collect",
+          "target": "facility_damage_report",
+          "count": 1,
+          "desc": "File zero-damage facility report."
+        }
+      ],
+      "rewards": {
+        "exp": 1600,
+        "currency": 850,
+        "crd": 425,
+        "rep": 850,
+        "items": [
+          {
+            "item_id": "aethel_fragment",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_035"
+    },
+    {
+      "id": "fq_merid_035",
+      "title": "Abyssal Market",
+      "type": "boss",
+      "rank": "A",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "CRADLE_EXPANSE",
+      "description": "Aethel Abyssal Reavers carry void-touched materials worth millions. The Cartel wants exclusive trading rights. Negotiate with force.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 34,
+        "reputation_required": 1980,
+        "required_quests": [
+          "fq_merid_034"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 4,
+          "desc": "Negotiate exclusive trading rights."
+        },
+        {
+          "type": "collect",
+          "target": "abyssal_material_sample",
+          "count": 2,
+          "desc": "Collect void-touched material samples."
+        }
+      ],
+      "rewards": {
+        "exp": 1800,
+        "currency": 950,
+        "crd": 475,
+        "rep": 950,
+        "items": [
+          {
+            "item_id": "event_horizon_fragment",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_036"
+    },
+    {
+      "id": "fq_merid_036",
+      "title": "Orbital Security",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "ORBITAL_SENTINEL_COMMAND",
+      "description": "Rival factions are attempting hostile takeovers of Cartel orbital assets. Defend the portfolio.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "ORBITAL_SENTINEL_COMMAND"
+      },
+      "requirements": {
+        "min_level": 35,
+        "reputation_required": 2040,
+        "required_quests": [
+          "fq_merid_035"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 6,
+          "desc": "Defend against hostile takeover."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 3,
+          "desc": "Neutralize competitor aggression."
+        }
+      ],
+      "rewards": {
+        "exp": 1500,
+        "currency": 800,
+        "crd": 400,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_037"
+    },
+    {
+      "id": "fq_merid_037",
+      "title": "Drake Liquidation",
+      "type": "boss",
+      "rank": "A",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Ashen Drake has returned. The Cartel board has authorized a complete liquidation. Every part of the Drake is profitable.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 36,
+        "reputation_required": 2100,
+        "required_quests": [
+          "fq_merid_036"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "desc": "Complete Drake liquidation."
+        },
+        {
+          "type": "collect",
+          "target": "drake_asset_report",
+          "count": 1,
+          "desc": "File Drake asset recovery report."
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 1300,
+        "crd": 650,
+        "rep": 900,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_038"
+    },
+    {
+      "id": "fq_merid_038",
+      "title": "Market Dominance",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "AETHEL_STORM_BELT",
+      "description": "Achieve total market dominance in the Storm Belt. Any competitor still operating is a market inefficiency.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "AETHEL_STORM_BELT"
+      },
+      "requirements": {
+        "min_level": 37,
+        "reputation_required": 2160,
+        "required_quests": [
+          "fq_merid_037"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "desc": "Eliminate market inefficiencies."
+        },
+        {
+          "type": "collect",
+          "target": "market_dominance_report",
+          "count": 1,
+          "desc": "File market dominance confirmation."
+        }
+      ],
+      "rewards": {
+        "exp": 1700,
+        "currency": 900,
+        "crd": 450,
+        "rep": 900,
+        "items": [
+          {
+            "item_id": "scrap_metal",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_039"
+    },
+    {
+      "id": "fq_merid_039",
+      "title": "Abyssal Merger",
+      "type": "boss",
+      "rank": "A",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "CRADLE_EXPANSE",
+      "description": "Abyssal Reavers are attempting a merger \u2014 with each other \u2014 to form a larger threat. Block the merger.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 38,
+        "reputation_required": 2220,
+        "required_quests": [
+          "fq_merid_038"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 6,
+          "desc": "Block the Abyssal merger."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 3,
+          "desc": "Eliminate merger facilitators."
+        }
+      ],
+      "rewards": {
+        "exp": 2000,
+        "currency": 1100,
+        "crd": 550,
+        "rep": 1100,
+        "items": [
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_040"
+    },
+    {
+      "id": "fq_merid_040",
+      "title": "Senior Partner",
+      "type": "story",
+      "rank": "A",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "PORT_MERIDIAN",
+      "description": "The Senior Partner trial. Liquidate the Ashen Drake and two premium assets. Only Partners sit on the Cartel board.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "PORT_MERIDIAN"
+      },
+      "requirements": {
+        "min_level": 39,
+        "reputation_required": 2280,
+        "required_quests": [
+          "fq_merid_039"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "desc": "Complete the Drake liquidation."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_BEHEMOTH",
+          "count": 1,
+          "desc": "Harvest a premium Behemoth asset."
+        },
+        {
+          "type": "kill",
+          "target": "SUNKEN_AETHEL_LEVIATHAN",
+          "count": 1,
+          "desc": "Acquire a premium Leviathan asset."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 1
+          },
+          {
+            "item_id": "ancient_scale",
+            "quantity": 2
+          },
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_041"
+    },
+    {
+      "id": "fq_merid_041",
+      "title": "Black Market Deep Dive",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The Void Echo Chasm is the ultimate untapped market. Rare minerals, void-exclusive resources, zero competition. The Cartel is going in.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 40,
+        "reputation_required": 2340,
+        "required_quests": [
+          "fq_merid_040"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "VOID_ECHO_CHASM",
+          "count": 1,
+          "desc": "Enter the Void Echo Chasm."
+        },
+        {
+          "type": "collect",
+          "target": "void_market_survey",
+          "count": 2,
+          "desc": "Complete void market survey."
+        }
+      ],
+      "rewards": {
+        "exp": 1800,
+        "currency": 900,
+        "crd": 450,
+        "rep": 600,
+        "items": [
+          {
+            "item_id": "void_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_042"
+    },
+    {
+      "id": "fq_merid_042",
+      "title": "Reaver Commodity",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Void Reavers drop crystallized void essence \u2014 untapped market value. Begin harvesting operations.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 41,
+        "reputation_required": 2400,
+        "required_quests": [
+          "fq_merid_041"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 6,
+          "desc": "Harvest Reaver void essence commodity."
+        },
+        {
+          "type": "collect",
+          "target": "void_essence_shipment",
+          "count": 1,
+          "desc": "Prepare first void essence shipment."
+        }
+      ],
+      "rewards": {
+        "exp": 1900,
+        "currency": 950,
+        "crd": 475,
+        "rep": 650,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_043"
+    },
+    {
+      "id": "fq_merid_043",
+      "title": "Channeler Competition",
+      "type": "story",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Void Channelers are cornering the void energy market. The Cartel does not tolerate monopolies \u2014 except its own.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 42,
+        "reputation_required": 2460,
+        "required_quests": [
+          "fq_merid_042"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 6,
+          "desc": "Break the Channeler void monopoly."
+        },
+        {
+          "type": "collect",
+          "target": "channeler_market_share",
+          "count": 1,
+          "desc": "Claim their market share."
+        }
+      ],
+      "rewards": {
+        "exp": 2100,
+        "currency": 1050,
+        "crd": 525,
+        "rep": 700,
+        "items": [
+          {
+            "item_id": "event_horizon_fragment",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_044"
+    },
+    {
+      "id": "fq_merid_044",
+      "title": "Abyssal Harvest",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Abyssal Reavers contain concentrated void material \u2014 the most valuable substance in the known universe. Maximize the harvest.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 43,
+        "reputation_required": 2520,
+        "required_quests": [
+          "fq_merid_043"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 6,
+          "desc": "Maximize Abyssal Reaver harvest."
+        },
+        {
+          "type": "collect",
+          "target": "harvest_yield_report",
+          "count": 1,
+          "desc": "Report harvest yield to the board."
+        }
+      ],
+      "rewards": {
+        "exp": 2200,
+        "currency": 1100,
+        "crd": 550,
+        "rep": 750,
+        "items": [
+          {
+            "item_id": "void_crystal_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_045"
+    },
+    {
+      "id": "fq_merid_045",
+      "title": "Behemoth Depreciation",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Corrupted Behemoths are depreciating Cartel void assets. Accelerate their depreciation \u2014 to zero.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 44,
+        "reputation_required": 2580,
+        "required_quests": [
+          "fq_merid_044"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "desc": "Accelerate Behemoth depreciation."
+        },
+        {
+          "type": "collect",
+          "target": "asset_recovery_report",
+          "count": 1,
+          "desc": "Report asset recovery status."
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 1300,
+        "crd": 650,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "corrupted_synapse_cluster",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_046"
+    },
+    {
+      "id": "fq_merid_046",
+      "title": "Fragmenter Futures",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Soul Fragmenters disrupt Cartel personnel productivity. Every hour of lost work is lost profit. Terminate the productivity drain.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 45,
+        "reputation_required": 2640,
+        "required_quests": [
+          "fq_merid_045"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SOUL_FRAGMENTER",
+          "count": 2,
+          "desc": "Terminate Fragmenter productivity drain."
+        },
+        {
+          "type": "collect",
+          "target": "productivity_report",
+          "count": 1,
+          "desc": "Report restored productivity metrics."
+        }
+      ],
+      "rewards": {
+        "exp": 3000,
+        "currency": 1600,
+        "crd": 800,
+        "rep": 1000,
+        "items": [
+          {
+            "item_id": "brainwave_oscillator",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_047"
+    },
+    {
+      "id": "fq_merid_047",
+      "title": "Chrono Arbitrage",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Chrono Wraiths create temporal loops \u2014 time arbitrage opportunities. But they're damaging the Cartel's time-is-money principle. Eliminate the arbitrage.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 46,
+        "reputation_required": 2700,
+        "required_quests": [
+          "fq_merid_046"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CHRONO_WRAITH",
+          "count": 2,
+          "desc": "Eliminate Chrono Wraith time arbitrage."
+        },
+        {
+          "type": "collect",
+          "target": "temporal_stability_report",
+          "count": 1,
+          "desc": "Confirm temporal market stability."
+        }
+      ],
+      "rewards": {
+        "exp": 3500,
+        "currency": 1800,
+        "crd": 900,
+        "rep": 1100,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_048"
+    },
+    {
+      "id": "fq_merid_048",
+      "title": "Jotunn Acquisition",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "VOID_ECHO_CHASM",
+      "description": "A Gigantic Jotunn sits on the largest void mineral deposit in the chasm. Hostile takeover required.",
+      "quest_giver": {
+        "npc_id": "npc_ruin_diver",
+        "name": "Kip",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 47,
+        "reputation_required": 2760,
+        "required_quests": [
+          "fq_merid_047"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "desc": "Execute hostile takeover of Jotunn territory."
+        },
+        {
+          "type": "collect",
+          "target": "mineral_deposit_claim",
+          "count": 1,
+          "desc": "File mineral deposit claim."
+        }
+      ],
+      "rewards": {
+        "exp": 3500,
+        "currency": 1800,
+        "crd": 900,
+        "rep": 1000,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_049"
+    },
+    {
+      "id": "fq_merid_049",
+      "title": "Heart Market Entry",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SHATTERED_HEART",
+      "description": "The Shattered Heart is a new market frontier. The Cartel always enters new markets first. Establish the Cartel presence.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 48,
+        "reputation_required": 2820,
+        "required_quests": [
+          "fq_merid_048"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SHATTERED_HEART",
+          "count": 1,
+          "desc": "Enter the Shattered Heart market."
+        },
+        {
+          "type": "collect",
+          "target": "heart_market_analysis",
+          "count": 1,
+          "desc": "Complete market entry analysis."
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 1300,
+        "crd": 650,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_050"
+    },
+    {
+      "id": "fq_merid_050",
+      "title": "Liquidating the Drake",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SHATTERED_HEART",
+      "description": "THE DRAKE LIQUIDATION EVENT. The Ashen Drake is the most valuable organic asset in the Shattered Heart. The Cartel board authorizes complete liquidation of all Drake assets. Raid Tier-1. Profit through liquidation.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 49,
+        "reputation_required": 2880,
+        "required_quests": [
+          "fq_merid_049"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "desc": "COMPLETE DRAKE LIQUIDATION."
+        },
+        {
+          "type": "kill",
+          "target": "DRAKE_MINION",
+          "count": 5,
+          "desc": "Liquidate Drake Minion assets."
+        },
+        {
+          "type": "collect",
+          "target": "drake_asset_sheet",
+          "count": 1,
+          "desc": "File complete Drake asset recovery sheet."
+        }
+      ],
+      "rewards": {
+        "exp": 8000,
+        "currency": 4000,
+        "crd": 2000,
+        "rep": 2500,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 2
+          },
+          {
+            "item_id": "ancient_scale",
+            "quantity": 1
+          },
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_051"
+    },
+    {
+      "id": "fq_merid_051",
+      "title": "Risk Management",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Soul Fragmenters represent unacceptable operational risk. Cartel Risk Management mandates their elimination.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 50,
+        "reputation_required": 2940,
+        "required_quests": [
+          "fq_merid_050"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SOUL_FRAGMENTER",
+          "count": 3,
+          "desc": "Eliminate operational risk."
+        },
+        {
+          "type": "collect",
+          "target": "risk_mitigation_report",
+          "count": 1,
+          "desc": "File Risk Management completion."
+        }
+      ],
+      "rewards": {
+        "exp": 6000,
+        "currency": 3000,
+        "crd": 1500,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "brainwave_reader",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_052"
+    },
+    {
+      "id": "fq_merid_052",
+      "title": "Total Market Control",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Operation Total Market Control. Eliminate all unlicensed void entities. The Cartel owns this dimension now.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 51,
+        "reputation_required": 3000,
+        "required_quests": [
+          "fq_merid_051"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 8,
+          "desc": "Eliminate unlicensed Reavers."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 5,
+          "desc": "Eliminate unlicensed Channelers."
+        }
+      ],
+      "rewards": {
+        "exp": 4500,
+        "currency": 2200,
+        "crd": 1100,
+        "rep": 1500,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_053"
+    },
+    {
+      "id": "fq_merid_053",
+      "title": "Stalker Hostile Bid",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "VOID_ECHO_CHASM",
+      "description": "A Void Stalker is making a hostile bid for Cartel void operations. Reject the bid \u2014 with extreme prejudice.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 52,
+        "reputation_required": 3060,
+        "required_quests": [
+          "fq_merid_052"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "VOID_STALKER",
+          "count": 1,
+          "desc": "Reject the Stalker's hostile bid."
+        },
+        {
+          "type": "collect",
+          "target": "hostile_bid_rejected",
+          "count": 1,
+          "desc": "Confirm hostile bid rejection."
+        }
+      ],
+      "rewards": {
+        "exp": 5500,
+        "currency": 2800,
+        "crd": 1400,
+        "rep": 1800,
+        "items": [
+          {
+            "item_id": "entropy_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_054"
+    },
+    {
+      "id": "fq_merid_054",
+      "title": "Temporal Market Correction",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Chrono Wraiths are causing temporal market volatility. The Cartel requires market stability. Correct the market.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 53,
+        "reputation_required": 3120,
+        "required_quests": [
+          "fq_merid_053"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CHRONO_WRAITH",
+          "count": 3,
+          "desc": "Correct temporal market volatility."
+        },
+        {
+          "type": "collect",
+          "target": "market_stability_report",
+          "count": 1,
+          "desc": "Confirm market correction."
+        }
+      ],
+      "rewards": {
+        "exp": 6500,
+        "currency": 3200,
+        "crd": 1600,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_055"
+    },
+    {
+      "id": "fq_merid_055",
+      "title": "Heart Market Share",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SHATTERED_HEART",
+      "description": "Seize majority market share in the Shattered Heart. Competitor liquidation required.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 54,
+        "reputation_required": 3180,
+        "required_quests": [
+          "fq_merid_054"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 10,
+          "desc": "Seize market share from competitors."
+        },
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 6,
+          "desc": "Eliminate remaining competition."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 1700,
+        "items": [
+          {
+            "item_id": "event_horizon_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_056"
+    },
+    {
+      "id": "fq_merid_056",
+      "title": "Jotunn Market Cap",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SHATTERED_HEART",
+      "description": "Gigantic Jotunns have the largest market cap in the Heart. Reduce their valuation to zero.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 55,
+        "reputation_required": 3240,
+        "required_quests": [
+          "fq_merid_055"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "desc": "Reduce Jotunn market cap."
+        },
+        {
+          "type": "collect",
+          "target": "market_cap_report",
+          "count": 1,
+          "desc": "File devaluation report."
+        }
+      ],
+      "rewards": {
+        "exp": 7000,
+        "currency": 3500,
+        "crd": 1750,
+        "rep": 2200,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_057"
+    },
+    {
+      "id": "fq_merid_057",
+      "title": "Tyrant Divestment",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SHATTERED_HEART",
+      "description": "Crystal Tyrants hold valuable assets. Divest them \u2014 forcibly.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 56,
+        "reputation_required": 3300,
+        "required_quests": [
+          "fq_merid_056"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 2,
+          "desc": "Divest Tyrant-held assets."
+        },
+        {
+          "type": "collect",
+          "target": "divestment_report",
+          "count": 1,
+          "desc": "File divestment completion report."
+        }
+      ],
+      "rewards": {
+        "exp": 7200,
+        "currency": 3600,
+        "crd": 1800,
+        "rep": 2300,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_058"
+    },
+    {
+      "id": "fq_merid_058",
+      "title": "Harbinger Market Entry",
+      "type": "story",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The Abyss Harbinger is the largest untapped asset in the void. Perform market entry analysis and prepare for the final transaction.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 57,
+        "reputation_required": 3360,
+        "required_quests": [
+          "fq_merid_057"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 6,
+          "desc": "Clear market entry obstacles."
+        },
+        {
+          "type": "kill",
+          "target": "CHRONO_WRAITH",
+          "count": 1,
+          "desc": "Neutralize temporal competitors."
+        },
+        {
+          "type": "collect",
+          "target": "harbinger_market_analysis",
+          "count": 1,
+          "desc": "File Harbinger market analysis."
+        }
+      ],
+      "rewards": {
+        "exp": 7500,
+        "currency": 3800,
+        "crd": 1900,
+        "rep": 2400,
+        "items": [
+          {
+            "item_id": "event_horizon_fragment_l",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_059"
+    },
+    {
+      "id": "fq_merid_059",
+      "title": "Fragmenter Bankruptcy",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Soul Fragmenters are operating at a loss \u2014 our loss. Force them into bankruptcy.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 58,
+        "reputation_required": 3420,
+        "required_quests": [
+          "fq_merid_058"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SOUL_FRAGMENTER",
+          "count": 3,
+          "desc": "Force Fragmenter bankruptcy."
+        },
+        {
+          "type": "kill",
+          "target": "VOID_STALKER",
+          "count": 1,
+          "desc": "Seize Stalker-held Fragmenter assets."
+        }
+      ],
+      "rewards": {
+        "exp": 8000,
+        "currency": 4000,
+        "crd": 2000,
+        "rep": 2500,
+        "items": [
+          {
+            "item_id": "brainwave_oscillator",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_060"
+    },
+    {
+      "id": "fq_merid_060",
+      "title": "The Harbinger Deal",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "VOID_ECHO_CHASM",
+      "description": "THE FINAL TRANSACTION. The Abyss Harbinger has destabilized the void energy market with uncontrolled inflation. The Cartel closes this deal permanently. Defeat the Raid Boss Tier-2 entity and stabilize the market. Profit is the only law.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 59,
+        "reputation_required": 3480,
+        "required_quests": [
+          "fq_merid_059"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "desc": "CLOSE THE HARBINGER DEAL."
+        },
+        {
+          "type": "collect",
+          "target": "harbinger_market_stabilizer",
+          "count": 1,
+          "desc": "Claim the market stabilization asset."
+        }
+      ],
+      "rewards": {
+        "exp": 15000,
+        "currency": 7500,
+        "crd": 3750,
+        "rep": 5000,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 5
+          },
+          {
+            "item_id": "event_horizon_fragment_l",
+            "quantity": 2
+          },
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 10
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_061"
+    },
+    {
+      "id": "fq_merid_061",
+      "title": "Deep Infrastructure",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "The Severance Faultline is rich in energy assets. The Cartel will build extraction infrastructure here. First: secure the construction site.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 60,
+        "reputation_required": 3540,
+        "required_quests": [
+          "fq_merid_060"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SEVERANCE_FAULTLINE",
+          "count": 1,
+          "desc": "Enter the Severance Faultline."
+        },
+        {
+          "type": "collect",
+          "target": "infrastructure_survey",
+          "count": 3,
+          "desc": "Survey infrastructure opportunities."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 1600,
+        "items": [
+          {
+            "item_id": "stabilizer_gyro_unit",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_062"
+    },
+    {
+      "id": "fq_merid_062",
+      "title": "Energy Asset Acquisition",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Aethel Iron Carapaces contain compressed energy minerals. Acquire the assets.",
+      "quest_giver": {
+        "npc_id": "npc_ruin_diver",
+        "name": "Kip",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 61,
+        "reputation_required": 3600,
+        "required_quests": [
+          "fq_merid_061"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "desc": "Acquire Carapace energy assets."
+        },
+        {
+          "type": "collect",
+          "target": "energy_mineral_shipment",
+          "count": 3,
+          "desc": "Prepare energy mineral shipments."
+        }
+      ],
+      "rewards": {
+        "exp": 5200,
+        "currency": 2600,
+        "crd": 1300,
+        "rep": 1700,
+        "items": [
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_063"
+    },
+    {
+      "id": "fq_merid_063",
+      "title": "Tyrant Real Estate",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Crystal Tyrants occupy prime real estate on the faultline. Evict them. Cartel Development is moving in.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 62,
+        "reputation_required": 3660,
+        "required_quests": [
+          "fq_merid_062"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 2,
+          "desc": "Evict Tyrant tenants."
+        },
+        {
+          "type": "collect",
+          "target": "real_estate_claim",
+          "count": 2,
+          "desc": "File real estate claims."
+        }
+      ],
+      "rewards": {
+        "exp": 6000,
+        "currency": 3000,
+        "crd": 1500,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_064"
+    },
+    {
+      "id": "fq_merid_064",
+      "title": "Jotunn Eminent Domain",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Gigantic Jotunns refuse to relocate. Exercise eminent domain \u2014 the Cartel way.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 63,
+        "reputation_required": 3720,
+        "required_quests": [
+          "fq_merid_063"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "desc": "Exercise eminent domain."
+        },
+        {
+          "type": "collect",
+          "target": "domain_claim_filed",
+          "count": 1,
+          "desc": "File domain claim paperwork."
+        }
+      ],
+      "rewards": {
+        "exp": 6500,
+        "currency": 3300,
+        "crd": 1650,
+        "rep": 2100,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_065"
+    },
+    {
+      "id": "fq_merid_065",
+      "title": "Power Plant Acquisition",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "The Aethel Siphon Core is the ultimate power plant. The Cartel will acquire it and sell the energy at premium rates.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 64,
+        "reputation_required": 3780,
+        "required_quests": [
+          "fq_merid_064"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "AETHEL_SIPHON_CORE",
+          "count": 1,
+          "desc": "Enter the Aethel Siphon Core."
+        },
+        {
+          "type": "collect",
+          "target": "power_plant_valuation",
+          "count": 2,
+          "desc": "Complete power plant valuation."
+        }
+      ],
+      "rewards": {
+        "exp": 5500,
+        "currency": 2800,
+        "crd": 1400,
+        "rep": 1800,
+        "items": [
+          {
+            "item_id": "power_regulator_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_066"
+    },
+    {
+      "id": "fq_merid_066",
+      "title": "Core Asset Security",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Hostile entities are depreciating Core asset values. Secure the investment.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 65,
+        "reputation_required": 3840,
+        "required_quests": [
+          "fq_merid_065"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 8,
+          "desc": "Secure Core investments."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 5,
+          "desc": "Eliminate asset depreciation risks."
+        }
+      ],
+      "rewards": {
+        "exp": 5800,
+        "currency": 2900,
+        "crd": 1450,
+        "rep": 1900,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_067"
+    },
+    {
+      "id": "fq_merid_067",
+      "title": "Behemoth Liability",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Corrupted Behemoths are a liability on the Core balance sheet. Clear the liability.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 66,
+        "reputation_required": 3900,
+        "required_quests": [
+          "fq_merid_066"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "desc": "Clear Behemoth liability."
+        },
+        {
+          "type": "collect",
+          "target": "balance_sheet_clean",
+          "count": 1,
+          "desc": "File clean balance sheet."
+        }
+      ],
+      "rewards": {
+        "exp": 6200,
+        "currency": 3100,
+        "crd": 1550,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "corrupted_synapse_cluster",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_068"
+    },
+    {
+      "id": "fq_merid_068",
+      "title": "Rift Market Disruption",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Rift Stalkers disrupt Core energy markets. Eliminate the disruption. Markets must be stable.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 67,
+        "reputation_required": 3960,
+        "required_quests": [
+          "fq_merid_067"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 6,
+          "desc": "Eliminate market disruption."
+        },
+        {
+          "type": "collect",
+          "target": "market_stability_achieved",
+          "count": 1,
+          "desc": "Confirm market stability."
+        }
+      ],
+      "rewards": {
+        "exp": 6400,
+        "currency": 3200,
+        "crd": 1600,
+        "rep": 2100,
+        "items": [
+          {
+            "item_id": "dark_energy_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_069"
+    },
+    {
+      "id": "fq_merid_069",
+      "title": "The Gravity Dividend",
+      "type": "story",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "The Gravity Titan represents the largest potential dividend in Xylos history. Whoever controls gravity controls the market. Prepare the acquisition.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 68,
+        "reputation_required": 4020,
+        "required_quests": [
+          "fq_merid_068"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "titan_dividend_analysis",
+          "count": 3,
+          "desc": "Complete Gravity Titan dividend analysis."
+        },
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "desc": "Eliminate Jotunn competitor for the dividend."
+        }
+      ],
+      "rewards": {
+        "exp": 7000,
+        "currency": 3500,
+        "crd": 1750,
+        "rep": 2200,
+        "items": [
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_070"
+    },
+    {
+      "id": "fq_merid_070",
+      "title": "The Gravity Dividend",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "CRADLE_EXPANSE",
+      "description": "THE GRAVITY DIVIDEND PAYOUT. The Cartel board declares the Gravity Titan a dividend asset. Defeat the Raid Boss Tier-3 entity and claim its gravity control technology. Whoever controls gravity controls the price of everything on Xylos.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 69,
+        "reputation_required": 4080,
+        "required_quests": [
+          "fq_merid_069"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "desc": "CLAIM THE GRAVITY DIVIDEND."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "desc": "Clear competitor bidders."
+        },
+        {
+          "type": "collect",
+          "target": "gravity_dividend_paid",
+          "count": 1,
+          "desc": "Confirm dividend payout complete."
+        }
+      ],
+      "rewards": {
+        "exp": 20000,
+        "currency": 10000,
+        "crd": 5000,
+        "rep": 7000,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 3
+          },
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 2
+          },
+          {
+            "item_id": "event_horizon_fragment_l",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_071"
+    },
+    {
+      "id": "fq_merid_071",
+      "title": "The Prime Monopoly",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The Prima Materia Forge produces the rarest materials in existence. The Cartel will hold the monopoly on all Forge output.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 70,
+        "reputation_required": 4140,
+        "required_quests": [
+          "fq_merid_070"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "PRIMA_MATERIA_FORGE",
+          "count": 1,
+          "desc": "Enter the Prima Materia Forge."
+        },
+        {
+          "type": "collect",
+          "target": "forge_monopoly_setup",
+          "count": 2,
+          "desc": "Establish Forge monopoly framework."
+        }
+      ],
+      "rewards": {
+        "exp": 6000,
+        "currency": 3000,
+        "crd": 1500,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "raw_aethel_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_072"
+    },
+    {
+      "id": "fq_merid_072",
+      "title": "Anti-Trust Enforcement",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Ancient Forge defenses are anti-competitive. The Cartel files an anti-trust motion \u2014 enforced by firepower.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 71,
+        "reputation_required": 4200,
+        "required_quests": [
+          "fq_merid_071"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "desc": "Enforce anti-trust against defenses."
+        },
+        {
+          "type": "collect",
+          "target": "anti_trust_filing",
+          "count": 1,
+          "desc": "File anti-trust enforcement report."
+        }
+      ],
+      "rewards": {
+        "exp": 6200,
+        "currency": 3100,
+        "crd": 1550,
+        "rep": 2100,
+        "items": [
+          {
+            "item_id": "rusted_cybernetic_arm",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_073"
+    },
+    {
+      "id": "fq_merid_073",
+      "title": "Quality Control",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Corrupted Behemoths are contaminating Forge output. This is a quality control disaster. Implement immediate recall and disposal.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 72,
+        "reputation_required": 4260,
+        "required_quests": [
+          "fq_merid_072"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "desc": "Implement product recall and disposal."
+        }
+      ],
+      "rewards": {
+        "exp": 6500,
+        "currency": 3300,
+        "crd": 1650,
+        "rep": 2200,
+        "items": [
+          {
+            "item_id": "neural_disruptor_module",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_074"
+    },
+    {
+      "id": "fq_merid_074",
+      "title": "Competitor Purge",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Abyssal forces are attempting to steal Forge monopoly. Purge the competitors.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 73,
+        "reputation_required": 4320,
+        "required_quests": [
+          "fq_merid_073"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 8,
+          "desc": "Purge Abyssal competitors."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 5,
+          "desc": "Eliminate competitor leadership."
+        }
+      ],
+      "rewards": {
+        "exp": 6800,
+        "currency": 3400,
+        "crd": 1700,
+        "rep": 2300,
+        "items": [
+          {
+            "item_id": "aethel_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_075"
+    },
+    {
+      "id": "fq_merid_075",
+      "title": "Forge Union Busting",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Jotunns have unionized around the Forge's heat sources. The Cartel does not negotiate with unions.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 74,
+        "reputation_required": 4380,
+        "required_quests": [
+          "fq_merid_074"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "desc": "Bust the Jotunn forge union."
+        },
+        {
+          "type": "collect",
+          "target": "union_busting_report",
+          "count": 1,
+          "desc": "File union dissolution report."
+        }
+      ],
+      "rewards": {
+        "exp": 7200,
+        "currency": 3600,
+        "crd": 1800,
+        "rep": 2400,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_076"
+    },
+    {
+      "id": "fq_merid_076",
+      "title": "Production Ramp-Up",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The Cartel board demands 300% production increase. Clear the production floor of all obstructions.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 75,
+        "reputation_required": 4440,
+        "required_quests": [
+          "fq_merid_075"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 6,
+          "desc": "Clear production obstructions."
+        },
+        {
+          "type": "collect",
+          "target": "production_quota_met",
+          "count": 1,
+          "desc": "Confirm 300% production quota met."
+        }
+      ],
+      "rewards": {
+        "exp": 7500,
+        "currency": 3800,
+        "crd": 1900,
+        "rep": 2500,
+        "items": [
+          {
+            "item_id": "power_regulator_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_077"
+    },
+    {
+      "id": "fq_merid_077",
+      "title": "Automaton Acquisition",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Titan Forge Automatons are superior manufacturing units. The Cartel wants them on our payroll \u2014 or destroyed.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 76,
+        "reputation_required": 4500,
+        "required_quests": [
+          "fq_merid_076"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_FORGE_AUTOMATON",
+          "count": 3,
+          "desc": "Acquire or destroy Automaton units."
+        },
+        {
+          "type": "collect",
+          "target": "automaton_acquisition_report",
+          "count": 1,
+          "desc": "File acquisition status."
+        }
+      ],
+      "rewards": {
+        "exp": 8000,
+        "currency": 4000,
+        "crd": 2000,
+        "rep": 2600,
+        "items": [
+          {
+            "item_id": "processor_cooling_unit",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_078"
+    },
+    {
+      "id": "fq_merid_078",
+      "title": "Proto Core Liquidation",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Titan Proto Cores are failed products. Liquidate the defective inventory and recover the materials.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 77,
+        "reputation_required": 4560,
+        "required_quests": [
+          "fq_merid_077"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_PROTO_CORE",
+          "count": 2,
+          "desc": "Liquidate defective Proto Core inventory."
+        },
+        {
+          "type": "collect",
+          "target": "liquidation_recovery_report",
+          "count": 1,
+          "desc": "File material recovery report."
+        }
+      ],
+      "rewards": {
+        "exp": 9000,
+        "currency": 4500,
+        "crd": 2250,
+        "rep": 2800,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_079"
+    },
+    {
+      "id": "fq_merid_079",
+      "title": "Executive Legend Trial",
+      "type": "story",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The Executive Legend trial. Eliminate both Titan and Harbinger in a single operational cycle. Efficiency is the Cartel way.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 78,
+        "reputation_required": 4620,
+        "required_quests": [
+          "fq_merid_078"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "desc": "Eliminate Titan \u2014 operational cost zero."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "desc": "Eliminate Harbinger \u2014 operational cost zero."
+        }
+      ],
+      "rewards": {
+        "exp": 12000,
+        "currency": 6000,
+        "crd": 3000,
+        "rep": 4000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 1
+          },
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          },
+          {
+            "item_id": "void_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_080"
+    },
+    {
+      "id": "fq_merid_080",
+      "title": "Executive Legend",
+      "type": "story",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "PORT_MERIDIAN",
+      "description": "The Cartel board unanimously votes you Executive Legend. Return to Port Meridian for the shareholder ceremony. Your stock has never been higher.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "PORT_MERIDIAN"
+      },
+      "requirements": {
+        "min_level": 79,
+        "reputation_required": 4680,
+        "required_quests": [
+          "fq_merid_079"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "PORT_MERIDIAN",
+          "count": 1,
+          "desc": "Return to Port Meridian."
+        },
+        {
+          "type": "collect",
+          "target": "executive_legend_shares",
+          "count": 1,
+          "desc": "Receive your Executive Legend shares."
+        }
+      ],
+      "rewards": {
+        "exp": 10000,
+        "currency": 5000,
+        "crd": 2500,
+        "rep": 3500,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 10
+          },
+          {
+            "item_id": "astral_phase_crystal_pure",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_081"
+    },
+    {
+      "id": "fq_merid_081",
+      "title": "Apex Portfolio",
+      "type": "story",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "HIDDEN_AETHELGARDIAN_CITY",
+      "description": "The Hidden Aethelgardian City is the ultimate real estate asset. The Cartel will acquire it before any competitor even knows it exists.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "HIDDEN_AETHELGARDIAN_CITY"
+      },
+      "requirements": {
+        "min_level": 80,
+        "reputation_required": 4740,
+        "required_quests": [
+          "fq_merid_080"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "HIDDEN_AETHELGARDIAN_CITY",
+          "count": 1,
+          "desc": "Enter the Hidden Aethelgardian City."
+        },
+        {
+          "type": "collect",
+          "target": "city_property_deed",
+          "count": 3,
+          "desc": "Secure city property deeds."
+        }
+      ],
+      "rewards": {
+        "exp": 8000,
+        "currency": 4000,
+        "crd": 2000,
+        "rep": 2500,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_082"
+    },
+    {
+      "id": "fq_merid_082",
+      "title": "Property Defense",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "HIDDEN_AETHELGARDIAN_CITY",
+      "description": "City defenses are holdover liabilities from previous ownership. Clear all liens on the property.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "HIDDEN_AETHELGARDIAN_CITY"
+      },
+      "requirements": {
+        "min_level": 81,
+        "reputation_required": 4800,
+        "required_quests": [
+          "fq_merid_081"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 8,
+          "desc": "Clear property liens."
+        },
+        {
+          "type": "collect",
+          "target": "property_clear_title",
+          "count": 1,
+          "desc": "File clear property title."
+        }
+      ],
+      "rewards": {
+        "exp": 8500,
+        "currency": 4200,
+        "crd": 2100,
+        "rep": 2700,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_082"
+    },
+    {
+      "id": "fq_merid_082",
+      "title": "Weapons Portfolio",
+      "type": "collect",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "HIDDEN_AETHELGARDIAN_CITY",
+      "description": "The City holds Precursor weapons caches. Diversify the Cartel portfolio with exclusive weapons assets.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "HIDDEN_AETHELGARDIAN_CITY"
+      },
+      "requirements": {
+        "min_level": 82,
+        "reputation_required": 4860,
+        "required_quests": [
+          "fq_merid_082"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "weapons_cache_acquired",
+          "count": 5,
+          "desc": "Acquire weapons cache assets."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 4,
+          "desc": "Defend assets from hostile bidders."
+        }
+      ],
+      "rewards": {
+        "exp": 8800,
+        "currency": 4400,
+        "crd": 2200,
+        "rep": 2800,
+        "items": [
+          {
+            "item_id": "memory_fragment_chip",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_084"
+    },
+    {
+      "id": "fq_merid_084",
+      "title": "Apex Drake IPO",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SHATTERED_HEART",
+      "description": "The Apex Ashen Drake is a unique asset with no market equivalent. The Cartel files for an Initial Public Obliteration.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 83,
+        "reputation_required": 4920,
+        "required_quests": [
+          "fq_merid_082"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "desc": "Execute the Apex Drake IPO."
+        },
+        {
+          "type": "collect",
+          "target": "ipo_completion_certificate",
+          "count": 1,
+          "desc": "Receive the IPO completion certificate."
+        }
+      ],
+      "rewards": {
+        "exp": 12000,
+        "currency": 6000,
+        "crd": 3000,
+        "rep": 4000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 3
+          },
+          {
+            "item_id": "ancient_scale",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_085"
+    },
+    {
+      "id": "fq_merid_085",
+      "title": "Apex Harbinger Acquisition",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The Apex Abyss Harbinger is the final void market competitor. Acquire \u2014 permanently.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 84,
+        "reputation_required": 4980,
+        "required_quests": [
+          "fq_merid_084"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "desc": "Acquire the Apex Harbinger."
+        },
+        {
+          "type": "collect",
+          "target": "acquisition_complete",
+          "count": 1,
+          "desc": "Confirm permanent acquisition."
+        }
+      ],
+      "rewards": {
+        "exp": 13000,
+        "currency": 6500,
+        "crd": 3250,
+        "rep": 4200,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 5
+          },
+          {
+            "item_id": "event_horizon_fragment_l",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_086"
+    },
+    {
+      "id": "fq_merid_086",
+      "title": "Apex Titan Dividend",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Gravity Titan's third manifestation pays an even larger dividend. The Cartel always collects.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 85,
+        "reputation_required": 5040,
+        "required_quests": [
+          "fq_merid_085"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "desc": "Collect the Titan dividend."
+        },
+        {
+          "type": "collect",
+          "target": "dividend_collected",
+          "count": 1,
+          "desc": "Confirm dividend collection."
+        }
+      ],
+      "rewards": {
+        "exp": 14000,
+        "currency": 7000,
+        "crd": 3500,
+        "rep": 4500,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 4
+          },
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_087"
+    },
+    {
+      "id": "fq_merid_087",
+      "title": "Triple Merger",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The three Apex entities \u2014 Drake, Titan, Harbinger \u2014 represent the final merger opportunity. Consolidate the market.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 86,
+        "reputation_required": 5100,
+        "required_quests": [
+          "fq_merid_086"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "desc": "Consolidate Drake assets."
+        },
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "desc": "Consolidate Titan assets."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "desc": "Consolidate Harbinger assets."
+        }
+      ],
+      "rewards": {
+        "exp": 20000,
+        "currency": 10000,
+        "crd": 5000,
+        "rep": 6000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 2
+          },
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          },
+          {
+            "item_id": "void_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_088"
+    },
+    {
+      "id": "fq_merid_088",
+      "title": "The Siphon Takeover",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "The Aethel Siphon Core is now Cartel Energy Division. Complete the corporate takeover and begin energy billing.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 87,
+        "reputation_required": 5160,
+        "required_quests": [
+          "fq_merid_087"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "AETHEL_SIPHON_CORE",
+          "count": 1,
+          "desc": "Enter Cartel Energy Division HQ."
+        },
+        {
+          "type": "collect",
+          "target": "takeover_beacon",
+          "count": 5,
+          "desc": "Deploy corporate takeover beacons."
+        }
+      ],
+      "rewards": {
+        "exp": 10000,
+        "currency": 5000,
+        "crd": 2500,
+        "rep": 3200,
+        "items": [
+          {
+            "item_id": "power_regulator_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_089"
+    },
+    {
+      "id": "fq_merid_089",
+      "title": "World Engine IPO",
+      "type": "story",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "The World Engine is the most valuable asset in Xylos history. The Cartel takes it public \u2014 with us as the sole shareholder.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 88,
+        "reputation_required": 5220,
+        "required_quests": [
+          "fq_merid_088"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "engine_ownership_deed",
+          "count": 3,
+          "desc": "Secure World Engine ownership deeds."
+        },
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 2,
+          "desc": "Eliminate competing bidders."
+        }
+      ],
+      "rewards": {
+        "exp": 11000,
+        "currency": 5500,
+        "crd": 2750,
+        "rep": 3500,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_090"
+    },
+    {
+      "id": "fq_merid_090",
+      "title": "Engine Activation",
+      "type": "story",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Activate the World Engine. When it goes online, the Cartel will own the means of planetary production. Defend your investment.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 89,
+        "reputation_required": 5280,
+        "required_quests": [
+          "fq_merid_089"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 10,
+          "desc": "Defend the investment."
+        },
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 2,
+          "desc": "Eliminate investment risks."
+        },
+        {
+          "type": "collect",
+          "target": "engine_activation_profit",
+          "count": 1,
+          "desc": "Confirm Engine activation and profit."
+        }
+      ],
+      "rewards": {
+        "exp": 13000,
+        "currency": 6500,
+        "crd": 3250,
+        "rep": 4200,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_091"
+    },
+    {
+      "id": "fq_merid_091",
+      "title": "Final Liquidation",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "The Engine flushes remaining hostile assets. Execute the final liquidation sale \u2014 everything must go.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 90,
+        "reputation_required": 5340,
+        "required_quests": [
+          "fq_merid_090"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 5,
+          "desc": "Execute Jotunn liquidation."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "desc": "Execute Carapace liquidation."
+        }
+      ],
+      "rewards": {
+        "exp": 10000,
+        "currency": 5000,
+        "crd": 2500,
+        "rep": 3200,
+        "items": [
+          {
+            "item_id": "stabilizer_gyro_unit",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_092"
+    },
+    {
+      "id": "fq_merid_092",
+      "title": "Void Market Closure",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The void market is saturated. Close all remaining void positions and claim final dividends.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 91,
+        "reputation_required": 5400,
+        "required_quests": [
+          "fq_merid_091"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 10,
+          "desc": "Close Abyssal positions."
+        },
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 10,
+          "desc": "Close Void positions."
+        }
+      ],
+      "rewards": {
+        "exp": 11000,
+        "currency": 5500,
+        "crd": 2750,
+        "rep": 3500,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_093"
+    },
+    {
+      "id": "fq_merid_093",
+      "title": "Tyrant Bankruptcy",
+      "type": "boss",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SHATTERED_HEART",
+      "description": "Crystal Tyrants file for bankruptcy \u2014 Chapter 7, total liquidation. Execute the court order.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 92,
+        "reputation_required": 5460,
+        "required_quests": [
+          "fq_merid_092"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 3,
+          "desc": "Execute Chapter 7 liquidation."
+        },
+        {
+          "type": "collect",
+          "target": "bankruptcy_finalized",
+          "count": 1,
+          "desc": "Certify bankruptcy complete."
+        }
+      ],
+      "rewards": {
+        "exp": 12000,
+        "currency": 6000,
+        "crd": 3000,
+        "rep": 4000,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 4
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_094"
+    },
+    {
+      "id": "fq_merid_094",
+      "title": "Forge Final Quarter",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Final quarter earnings report. Maximize Forge output by eliminating all production hindrances.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 93,
+        "reputation_required": 5520,
+        "required_quests": [
+          "fq_merid_093"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 8,
+          "desc": "Eliminate production hindrances."
+        },
+        {
+          "type": "kill",
+          "target": "TITAN_FORGE_AUTOMATON",
+          "count": 3,
+          "desc": "Replace inefficient Automatons."
+        }
+      ],
+      "rewards": {
+        "exp": 11000,
+        "currency": 5500,
+        "crd": 2750,
+        "rep": 3500,
+        "items": [
+          {
+            "item_id": "raw_aethel_core",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_095"
+    },
+    {
+      "id": "fq_merid_095",
+      "title": "Expanse Monopoly",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Cradle Expanse is now a Cartel-exclusive market. Enforce the monopoly.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 94,
+        "reputation_required": 5580,
+        "required_quests": [
+          "fq_merid_094"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 10,
+          "desc": "Enforce market monopoly."
+        },
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "desc": "Eliminate residual market competition."
+        }
+      ],
+      "rewards": {
+        "exp": 13000,
+        "currency": 6500,
+        "crd": 3250,
+        "rep": 4200,
+        "items": [
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_096"
+    },
+    {
+      "id": "fq_merid_096",
+      "title": "Orbital Portfolio",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "ORBITAL_SENTINEL_COMMAND",
+      "description": "The orbital portfolio requires quarterly maintenance. Clear all orbital holdings of hostile entities.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "ORBITAL_SENTINEL_COMMAND"
+      },
+      "requirements": {
+        "min_level": 95,
+        "reputation_required": 5640,
+        "required_quests": [
+          "fq_merid_095"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 10,
+          "desc": "Maintain orbital holdings."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "desc": "Clear orbital liabilities."
+        }
+      ],
+      "rewards": {
+        "exp": 12000,
+        "currency": 6000,
+        "crd": 3000,
+        "rep": 3800,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 10
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_097"
+    },
+    {
+      "id": "fq_merid_097",
+      "title": "The Final Quarter",
+      "type": "story",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The final quarter of operations. Consolidate all Cartel assets and prepare the closing balance sheet.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 96,
+        "reputation_required": 5700,
+        "required_quests": [
+          "fq_merid_096"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "desc": "Consolidate Jotunn assets."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "desc": "Close Harbinger accounts."
+        },
+        {
+          "type": "collect",
+          "target": "closing_balance_sheet",
+          "count": 1,
+          "desc": "File the closing balance sheet."
+        }
+      ],
+      "rewards": {
+        "exp": 15000,
+        "currency": 7500,
+        "crd": 3750,
+        "rep": 5000,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_098"
+    },
+    {
+      "id": "fq_merid_098",
+      "title": "Final Merger",
+      "type": "story",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The final merger. Combine the assets of Jotunn, Drake, and Harbinger into the ultimate corporate entity: YOU.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 97,
+        "reputation_required": 5760,
+        "required_quests": [
+          "fq_merid_097"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "desc": "Merge Jotunn assets."
+        },
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "desc": "Merge Drake assets."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "desc": "Merge Harbinger assets."
+        },
+        {
+          "type": "collect",
+          "target": "merger_certificate",
+          "count": 1,
+          "desc": "Sign the Merger Certificate."
+        }
+      ],
+      "rewards": {
+        "exp": 20000,
+        "currency": 10000,
+        "crd": 5000,
+        "rep": 7000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 3
+          },
+          {
+            "item_id": "titan_core",
+            "quantity": 3
+          },
+          {
+            "item_id": "void_core",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_099"
+    },
+    {
+      "id": "fq_merid_099",
+      "title": "Eternity CEO Trial",
+      "type": "story",
+      "rank": "S",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The deepest Void Echo Chasm holds the final board meeting. Defeat the Eternal forms of Titan and Harbinger. The Cartel board demands your ascension.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 98,
+        "reputation_required": 5820,
+        "required_quests": [
+          "fq_merid_098"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "VOID_ECHO_CHASM",
+          "count": 1,
+          "desc": "Attend the final board meeting."
+        },
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "desc": "Vote out the Eternal Gravity Titan."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "desc": "Vote out the Eternal Abyss Harbinger."
+        },
+        {
+          "type": "collect",
+          "target": "ceo_seal",
+          "count": 1,
+          "desc": "CLAIM THE ETERNITY CEO SEAL."
+        }
+      ],
+      "rewards": {
+        "exp": 25000,
+        "currency": 12000,
+        "crd": 6000,
+        "rep": 8000,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_merid_100"
+    },
+    {
+      "id": "fq_merid_100",
+      "title": "Eternity CEO",
+      "type": "story",
+      "rank": "SS",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "PORT_MERIDIAN",
+      "description": "The market has spoken. The shareholders have voted. You are now the ETERNITY CEO \u2014 the eternal majority shareholder of Xylos itself. Return to Port Meridian. Every contract. Every deal. Every liquidation. It all led here. Profit is eternal.",
+      "quest_giver": {
+        "npc_id": "npc_cartel_boss",
+        "name": "Don Vercelli",
+        "location": "PORT_MERIDIAN"
+      },
+      "requirements": {
+        "min_level": 99,
+        "reputation_required": 5880,
+        "required_quests": [
+          "fq_merid_099"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "PORT_MERIDIAN",
+          "count": 1,
+          "desc": "Return to Port Meridian as Eternity CEO."
+        },
+        {
+          "type": "interact",
+          "target": "npc_cartel_boss",
+          "count": 1,
+          "desc": "Receive the Eternity CEO charter from Executive Director Silas."
+        }
+      ],
+      "rewards": {
+        "exp": 50000,
+        "currency": 25000,
+        "crd": 12500,
+        "rep": 10000,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 5
+          },
+          {
+            "item_id": "ceo_seal",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false
+    }
+  ]
+}

@@ -1,0 +1,5175 @@
+{
+  "quests": [
+    {
+      "id": "fq_omni_001",
+      "title": "Sanitization Protocol",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "OMNICORP",
+      "region": "HIGHLAND_PLATEAU",
+      "description": "Unit activated. Primary directive: clear Highland Plateau of Plateau Hares causing sensor interference. Efficiency is mandatory.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "Director Sterling",
+        "location": "HIGHLAND_PLATEAU"
+      },
+      "requirements": {
+        "min_level": 1,
+        "reputation_required": 0,
+        "required_quests": []
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "PLATEAU_HARE",
+          "count": 5,
+          "desc": "Execute Sanitization Protocol on Plateau Hares."
+        },
+        {
+          "type": "collect",
+          "target": "sensor_calibration_data",
+          "count": 1,
+          "desc": "Upload sensor calibration data to the Spire."
+        }
+      ],
+      "rewards": {
+        "exp": 50,
+        "currency": 30,
+        "crd": 15,
+        "rep": 30,
+        "items": [
+          {
+            "item_id": "con_small_hp_cell",
+            "quantity": 3
+          },
+          {
+            "item_id": "scrap_metal",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_002"
+    },
+    {
+      "id": "fq_omni_002",
+      "title": "Survey Bot Deployment",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "OMNICORP",
+      "region": "HIGHLAND_PLATEAU",
+      "description": "Omni Survey Bots have gone offline. Recover their data cores and neutralize any hostiles encountered during retrieval.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_technician",
+        "name": "Tech Officer 404",
+        "location": "HIGHLAND_PLATEAU"
+      },
+      "requirements": {
+        "min_level": 1,
+        "reputation_required": 0,
+        "required_quests": [
+          "fq_omni_001"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "OMNI_SURVEY_BOT",
+          "count": 4,
+          "desc": "Neutralize malfunctioning Survey Bots."
+        },
+        {
+          "type": "collect",
+          "target": "survey_data_core",
+          "count": 3,
+          "desc": "Recover Survey Bot data cores."
+        }
+      ],
+      "rewards": {
+        "exp": 55,
+        "currency": 35,
+        "crd": 20,
+        "rep": 35,
+        "items": [
+          {
+            "item_id": "scrap_circuit",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_003"
+    },
+    {
+      "id": "fq_omni_003",
+      "title": "Drone Calibration",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "OMNICORP",
+      "region": "HIGHLAND_PLATEAU",
+      "description": "Plateau Drones are operating outside acceptable parameters. Recalibrate through controlled demolition.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "Director Sterling",
+        "location": "HIGHLAND_PLATEAU"
+      },
+      "requirements": {
+        "min_level": 2,
+        "reputation_required": 60,
+        "required_quests": [
+          "fq_omni_002"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "PLATEAU_DRONE",
+          "count": 5,
+          "desc": "Recalibrate Plateau Drones."
+        },
+        {
+          "type": "collect",
+          "target": "drone_debris_analysis",
+          "count": 2,
+          "desc": "Submit debris for failure analysis."
+        }
+      ],
+      "rewards": {
+        "exp": 70,
+        "currency": 40,
+        "crd": 20,
+        "rep": 40,
+        "items": [
+          {
+            "item_id": "damaged_servo_motor",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_004"
+    },
+    {
+      "id": "fq_omni_004",
+      "title": "Goatling Optimization",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "OMNICORP",
+      "region": "HIGHLAND_PLATEAU",
+      "description": "Highland Goatlings consume resources inefficiently. Terminate the resource drain. Omnicorp tolerates zero waste.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "Director Sterling",
+        "location": "HIGHLAND_PLATEAU"
+      },
+      "requirements": {
+        "min_level": 3,
+        "reputation_required": 120,
+        "required_quests": [
+          "fq_omni_003"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "HIGHLAND_GOATLING",
+          "count": 5,
+          "desc": "Terminate Goatling resource drain."
+        },
+        {
+          "type": "collect",
+          "target": "resource_reclamation_report",
+          "count": 1,
+          "desc": "File resource reclamation report."
+        }
+      ],
+      "rewards": {
+        "exp": 80,
+        "currency": 50,
+        "crd": 25,
+        "rep": 50,
+        "items": [
+          {
+            "item_id": "raw_hide",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_005"
+    },
+    {
+      "id": "fq_omni_005",
+      "title": "Module Selection",
+      "type": "tutorial",
+      "rank": "D",
+      "faction": "OMNICORP",
+      "region": "THE_SPIRE",
+      "description": "Your performance metrics exceed baseline. Report to Director Astra Vey at the Spire for Class Module installation.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_class_trainer",
+        "name": "Director Astra Vey",
+        "location": "THE_SPIRE"
+      },
+      "requirements": {
+        "min_level": 4,
+        "reputation_required": 180,
+        "required_quests": [
+          "fq_omni_004"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_omnicorp_class_trainer",
+          "count": 1,
+          "desc": "Report to Director Astra Vey for module installation."
+        },
+        {
+          "type": "interact",
+          "target": "class_change_screen",
+          "count": 1,
+          "desc": "Select your Class Module."
+        },
+        {
+          "type": "kill",
+          "target": "STONE_ARMADILLO",
+          "count": 3,
+          "desc": "Demonstrate module functionality on Stone Armadillos."
+        }
+      ],
+      "rewards": {
+        "exp": 400,
+        "currency": 200,
+        "crd": 100,
+        "rep": 150,
+        "items": [
+          {
+            "item_id": "wpn_steel_broadsword",
+            "quantity": 1
+          },
+          {
+            "item_id": "arm_iron_plate",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "popup": true,
+      "popup_trigger": "on_quest_complete",
+      "popup_prerequisite": "fq_omni_004",
+      "popup_level": 4,
+      "quest_chain_next": "fq_omni_006"
+    },
+    {
+      "id": "fq_omni_006",
+      "title": "Urban Optimization",
+      "type": "exploration",
+      "rank": "D",
+      "faction": "OMNICORP",
+      "region": "EXTRACTION_ZONE_DELTA",
+      "description": "Extraction Zone Delta requires operational assessment. Deploy and survey the extraction infrastructure.",
+      "quest_giver": {
+        "npc_id": "npc_extraction_chief",
+        "name": "Chief Barrett",
+        "location": "EXTRACTION_ZONE_DELTA"
+      },
+      "requirements": {
+        "min_level": 5,
+        "reputation_required": 240,
+        "required_quests": [
+          "fq_omni_005"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "EXTRACTION_ZONE_DELTA",
+          "count": 1,
+          "desc": "Enter Extraction Zone Delta."
+        },
+        {
+          "type": "collect",
+          "target": "extraction_assessment",
+          "count": 2,
+          "desc": "Complete extraction zone assessment."
+        }
+      ],
+      "rewards": {
+        "exp": 100,
+        "currency": 60,
+        "crd": 30,
+        "rep": 60,
+        "items": [
+          {
+            "item_id": "con_nutrient_ration",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_007"
+    },
+    {
+      "id": "fq_omni_007",
+      "title": "Delta Mining Operation",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "OMNICORP",
+      "region": "EXTRACTION_ZONE_DELTA",
+      "description": "Delta Mining Drones have deviated from their programmed extraction patterns. Reprogram through termination.",
+      "quest_giver": {
+        "npc_id": "npc_extraction_chief",
+        "name": "Chief Barrett",
+        "location": "EXTRACTION_ZONE_DELTA"
+      },
+      "requirements": {
+        "min_level": 6,
+        "reputation_required": 300,
+        "required_quests": [
+          "fq_omni_006"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "DELTA_MINING_DRONE",
+          "count": 5,
+          "desc": "Reprogram Delta Mining Drones."
+        },
+        {
+          "type": "collect",
+          "target": "mining_output_report",
+          "count": 1,
+          "desc": "Submit mining output recalibration report."
+        }
+      ],
+      "rewards": {
+        "exp": 120,
+        "currency": 70,
+        "crd": 35,
+        "rep": 70,
+        "items": [
+          {
+            "item_id": "mat_iron_ore",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_007"
+    },
+    {
+      "id": "fq_omni_007",
+      "title": "Security Drone Audit",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "OMNICORP",
+      "region": "EXTRACTION_ZONE_DELTA",
+      "description": "Delta Security Drones are failing perimeter checks. Audit their systems through combat testing. Defective units will be decommissioned.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "Warden AI",
+        "location": "EXTRACTION_ZONE_DELTA"
+      },
+      "requirements": {
+        "min_level": 7,
+        "reputation_required": 360,
+        "required_quests": [
+          "fq_omni_007"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "DELTA_SECURITY_DRONE",
+          "count": 5,
+          "desc": "Combat-audit Security Drones."
+        },
+        {
+          "type": "collect",
+          "target": "security_audit_log",
+          "count": 1,
+          "desc": "Upload security audit log."
+        }
+      ],
+      "rewards": {
+        "exp": 180,
+        "currency": 100,
+        "crd": 50,
+        "rep": 100,
+        "items": [
+          {
+            "item_id": "scrap_circuit",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_009"
+    },
+    {
+      "id": "fq_omni_009",
+      "title": "Assault Drone Termination",
+      "type": "boss",
+      "rank": "D",
+      "faction": "OMNICORP",
+      "region": "EXTRACTION_ZONE_DELTA",
+      "description": "Delta Assault Drones have gone rogue. Standard termination protocol authorized. Leave no defective unit operational.",
+      "quest_giver": {
+        "npc_id": "npc_extraction_chief",
+        "name": "Chief Barrett",
+        "location": "EXTRACTION_ZONE_DELTA"
+      },
+      "requirements": {
+        "min_level": 8,
+        "reputation_required": 420,
+        "required_quests": [
+          "fq_omni_007"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "DELTA_ASSAULT_DRONE",
+          "count": 2,
+          "desc": "Execute termination protocol."
+        },
+        {
+          "type": "collect",
+          "target": "assault_drone_blackbox",
+          "count": 1,
+          "desc": "Recover blackbox for failure analysis."
+        }
+      ],
+      "rewards": {
+        "exp": 250,
+        "currency": 150,
+        "crd": 75,
+        "rep": 150,
+        "items": [
+          {
+            "item_id": "damaged_servo_motor",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_010"
+    },
+    {
+      "id": "fq_omni_010",
+      "title": "System Purge",
+      "type": "boss",
+      "rank": "D",
+      "faction": "OMNICORP",
+      "region": "EXTRACTION_ZONE_DELTA",
+      "description": "A Delta Assault Drone command cluster has formed. Purge the cluster completely. Redundancy is inefficiency.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "Director Sterling",
+        "location": "EXTRACTION_ZONE_DELTA"
+      },
+      "requirements": {
+        "min_level": 9,
+        "reputation_required": 480,
+        "required_quests": [
+          "fq_omni_009"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "DELTA_ASSAULT_DRONE",
+          "count": 3,
+          "desc": "Purge Assault Drone cluster."
+        },
+        {
+          "type": "collect",
+          "target": "cluster_purge_confirmed",
+          "count": 1,
+          "desc": "Confirm cluster purge complete."
+        }
+      ],
+      "rewards": {
+        "exp": 300,
+        "currency": 180,
+        "crd": 90,
+        "rep": 180,
+        "items": [
+          {
+            "item_id": "processor_cooling_unit",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_011"
+    },
+    {
+      "id": "fq_omni_011",
+      "title": "Hardware Survey",
+      "type": "exploration",
+      "rank": "C",
+      "faction": "OMNICORP",
+      "region": "SECURE_MINING_GRID",
+      "description": "The Secure Mining Grid contains legacy hardware from pre-Xylos colonization. Survey and catalog all recoverable technology.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "Warden AI",
+        "location": "SECURE_MINING_GRID"
+      },
+      "requirements": {
+        "min_level": 10,
+        "reputation_required": 540,
+        "required_quests": [
+          "fq_omni_010"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SECURE_MINING_GRID",
+          "count": 1,
+          "desc": "Enter the Secure Mining Grid."
+        },
+        {
+          "type": "collect",
+          "target": "hardware_catalog",
+          "count": 2,
+          "desc": "Catalog recoverable hardware."
+        }
+      ],
+      "rewards": {
+        "exp": 280,
+        "currency": 150,
+        "crd": 75,
+        "rep": 150,
+        "items": [
+          {
+            "item_id": "con_minor_stim_pack",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_012"
+    },
+    {
+      "id": "fq_omni_012",
+      "title": "Grid Sentinel Sweep",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "OMNICORP",
+      "region": "SECURE_MINING_GRID",
+      "description": "Grid Sentinel Drones patrol the mining grid. Their patrol patterns are outdated. Update through elimination.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "Warden AI",
+        "location": "SECURE_MINING_GRID"
+      },
+      "requirements": {
+        "min_level": 11,
+        "reputation_required": 600,
+        "required_quests": [
+          "fq_omni_011"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRID_SENTINEL_DRONE",
+          "count": 5,
+          "desc": "Update Grid Sentinel Drone patrol patterns."
+        },
+        {
+          "type": "collect",
+          "target": "grid_patrol_data",
+          "count": 2,
+          "desc": "Upload updated patrol data."
+        }
+      ],
+      "rewards": {
+        "exp": 320,
+        "currency": 170,
+        "crd": 85,
+        "rep": 170,
+        "items": [
+          {
+            "item_id": "scrap_circuit",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_013"
+    },
+    {
+      "id": "fq_omni_013",
+      "title": "Grid Defender Protocol",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "OMNICORP",
+      "region": "SECURE_MINING_GRID",
+      "description": "Grid Defenders are legacy combat units. Their combat algorithms are obsolete. Replace them.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_technician",
+        "name": "Tech Officer 404",
+        "location": "SECURE_MINING_GRID"
+      },
+      "requirements": {
+        "min_level": 12,
+        "reputation_required": 660,
+        "required_quests": [
+          "fq_omni_012"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRID_DEFENDER",
+          "count": 5,
+          "desc": "Replace Grid Defenders."
+        },
+        {
+          "type": "collect",
+          "target": "defender_algorithm_upload",
+          "count": 1,
+          "desc": "Upload new combat algorithm."
+        }
+      ],
+      "rewards": {
+        "exp": 360,
+        "currency": 190,
+        "crd": 95,
+        "rep": 200,
+        "items": [
+          {
+            "item_id": "neural_interface_socket",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_014"
+    },
+    {
+      "id": "fq_omni_014",
+      "title": "Assault Unit Override",
+      "type": "boss",
+      "rank": "C",
+      "faction": "OMNICORP",
+      "region": "SECURE_MINING_GRID",
+      "description": "Grid Assault Units control the grid's central processing node. Override their command protocols with maximum force.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "Warden AI",
+        "location": "SECURE_MINING_GRID"
+      },
+      "requirements": {
+        "min_level": 13,
+        "reputation_required": 720,
+        "required_quests": [
+          "fq_omni_013"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRID_ASSAULT_UNIT",
+          "count": 3,
+          "desc": "Override Grid Assault Unit protocols."
+        },
+        {
+          "type": "collect",
+          "target": "central_node_access",
+          "count": 1,
+          "desc": "Secure central node access."
+        }
+      ],
+      "rewards": {
+        "exp": 450,
+        "currency": 240,
+        "crd": 120,
+        "rep": 240,
+        "items": [
+          {
+            "item_id": "tactical_sensor_cluster",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_015"
+    },
+    {
+      "id": "fq_omni_015",
+      "title": "Grid Optimization",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "OMNICORP",
+      "region": "SECURE_MINING_GRID",
+      "description": "Grid efficiency at 67%. Unacceptable. Optimize through complete hostile unit removal.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "Director Sterling",
+        "location": "SECURE_MINING_GRID"
+      },
+      "requirements": {
+        "min_level": 14,
+        "reputation_required": 780,
+        "required_quests": [
+          "fq_omni_014"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRID_SENTINEL_DRONE",
+          "count": 4,
+          "desc": "Remove Sentinel inefficiencies."
+        },
+        {
+          "type": "kill",
+          "target": "GRID_DEFENDER",
+          "count": 4,
+          "desc": "Remove Defender inefficiencies."
+        }
+      ],
+      "rewards": {
+        "exp": 500,
+        "currency": 280,
+        "crd": 140,
+        "rep": 300,
+        "items": [
+          {
+            "item_id": "scrap_circuit",
+            "quantity": 4
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_016"
+    },
+    {
+      "id": "fq_omni_016",
+      "title": "Assault Unit Purge",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "OMNICORP",
+      "region": "SECURE_MINING_GRID",
+      "description": "Multiple Grid Assault Units detected. This represents a processing bottleneck. Eliminate the bottleneck.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "Warden AI",
+        "location": "SECURE_MINING_GRID"
+      },
+      "requirements": {
+        "min_level": 15,
+        "reputation_required": 840,
+        "required_quests": [
+          "fq_omni_015"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRID_ASSAULT_UNIT",
+          "count": 4,
+          "desc": "Eliminate processing bottleneck."
+        },
+        {
+          "type": "collect",
+          "target": "processing_load_report",
+          "count": 1,
+          "desc": "Report processing load restored."
+        }
+      ],
+      "rewards": {
+        "exp": 520,
+        "currency": 290,
+        "crd": 145,
+        "rep": 310,
+        "items": [
+          {
+            "item_id": "power_regulator_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_017"
+    },
+    {
+      "id": "fq_omni_017",
+      "title": "Data Retrieval",
+      "type": "collect",
+      "rank": "C",
+      "faction": "OMNICORP",
+      "region": "SECURE_MINING_GRID",
+      "description": "Legacy data nodes contain pre-Xylos schematics. Retrieve them before rival factions corrupt the data.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_technician",
+        "name": "Tech Officer 404",
+        "location": "SECURE_MINING_GRID"
+      },
+      "requirements": {
+        "min_level": 16,
+        "reputation_required": 900,
+        "required_quests": [
+          "fq_omni_016"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "legacy_data_node",
+          "count": 4,
+          "desc": "Retrieve legacy data nodes."
+        },
+        {
+          "type": "kill",
+          "target": "GRID_SENTINEL_DRONE",
+          "count": 3,
+          "desc": "Clear data node perimeters."
+        }
+      ],
+      "rewards": {
+        "exp": 480,
+        "currency": 260,
+        "crd": 130,
+        "rep": 260,
+        "items": [
+          {
+            "item_id": "memory_fragment_chip",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_018"
+    },
+    {
+      "id": "fq_omni_018",
+      "title": "Assault Unit Command",
+      "type": "boss",
+      "rank": "C",
+      "faction": "OMNICORP",
+      "region": "SECURE_MINING_GRID",
+      "description": "A Grid Assault Unit command cluster has seized grid sector 7. This is unauthorized access. Terminate all unauthorized processes.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "Warden AI",
+        "location": "SECURE_MINING_GRID"
+      },
+      "requirements": {
+        "min_level": 17,
+        "reputation_required": 960,
+        "required_quests": [
+          "fq_omni_017"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRID_ASSAULT_UNIT",
+          "count": 5,
+          "desc": "Terminate unauthorized processes."
+        },
+        {
+          "type": "collect",
+          "target": "sector_7_reclaimed",
+          "count": 1,
+          "desc": "Confirm sector 7 reclaimed."
+        }
+      ],
+      "rewards": {
+        "exp": 600,
+        "currency": 330,
+        "crd": 165,
+        "rep": 350,
+        "items": [
+          {
+            "item_id": "neural_disruptor_module",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_019"
+    },
+    {
+      "id": "fq_omni_019",
+      "title": "Advanced Calibration",
+      "type": "boss",
+      "rank": "C",
+      "faction": "OMNICORP",
+      "region": "SECURE_MINING_GRID",
+      "description": "A Resonance Echo has generated signal interference across grid frequencies. Eliminate the interference source.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "Director Sterling",
+        "location": "SECURE_MINING_GRID"
+      },
+      "requirements": {
+        "min_level": 18,
+        "reputation_required": 1020,
+        "required_quests": [
+          "fq_omni_018"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "RESONANCE_ECHO",
+          "count": 1,
+          "desc": "Eliminate Resonance Echo interference."
+        },
+        {
+          "type": "kill",
+          "target": "GRID_ASSAULT_UNIT",
+          "count": 2,
+          "desc": "Clear Assault Unit escorts."
+        }
+      ],
+      "rewards": {
+        "exp": 800,
+        "currency": 450,
+        "crd": 225,
+        "rep": 450,
+        "items": [
+          {
+            "item_id": "entropy_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_020"
+    },
+    {
+      "id": "fq_omni_020",
+      "title": "Advanced Calibration Report",
+      "type": "story",
+      "rank": "C",
+      "faction": "OMNICORP",
+      "region": "THE_SPIRE",
+      "description": "All calibration targets achieved. Return to the Spire for Advanced Unit certification and performance bonus allocation.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "Director Sterling",
+        "location": "THE_SPIRE"
+      },
+      "requirements": {
+        "min_level": 19,
+        "reputation_required": 1080,
+        "required_quests": [
+          "fq_omni_019"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "THE_SPIRE",
+          "count": 1,
+          "desc": "Return to the Spire."
+        },
+        {
+          "type": "collect",
+          "target": "advanced_unit_certification",
+          "count": 1,
+          "desc": "Receive Advanced Unit certification."
+        }
+      ],
+      "rewards": {
+        "exp": 900,
+        "currency": 500,
+        "crd": 250,
+        "rep": 500,
+        "items": [
+          {
+            "item_id": "con_medium_hp_cell",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_021"
+    },
+    {
+      "id": "fq_omni_021",
+      "title": "Data Retrieval",
+      "type": "exploration",
+      "rank": "B",
+      "faction": "OMNICORP",
+      "region": "SKYBRIDGE_REACTOR",
+      "description": "The Skybridge Reactor contains pre-colonization power systems. Initiate data retrieval from the Reactor's legacy systems.",
+      "quest_giver": {
+        "npc_id": "npc_reactor_engineer",
+        "name": "Engineer Cross",
+        "location": "SKYBRIDGE_REACTOR"
+      },
+      "requirements": {
+        "min_level": 20,
+        "reputation_required": 1140,
+        "required_quests": [
+          "fq_omni_020"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SKYBRIDGE_REACTOR",
+          "count": 1,
+          "desc": "Enter the Skybridge Reactor."
+        },
+        {
+          "type": "collect",
+          "target": "reactor_schematics",
+          "count": 2,
+          "desc": "Download Reactor schematics."
+        }
+      ],
+      "rewards": {
+        "exp": 600,
+        "currency": 350,
+        "crd": 175,
+        "rep": 350,
+        "items": [
+          {
+            "item_id": "con_nutrient_ration",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_022"
+    },
+    {
+      "id": "fq_omni_022",
+      "title": "Assembly Drone Acquisition",
+      "type": "hunt",
+      "rank": "B",
+      "faction": "OMNICORP",
+      "region": "SKYBRIDGE_REACTOR",
+      "description": "Titan Assembly Drones are valuable manufacturing units. Acquire them for Omnicorp R&D \u2014 intact or in pieces.",
+      "quest_giver": {
+        "npc_id": "npc_reactor_engineer",
+        "name": "Engineer Cross",
+        "location": "SKYBRIDGE_REACTOR"
+      },
+      "requirements": {
+        "min_level": 21,
+        "reputation_required": 1200,
+        "required_quests": [
+          "fq_omni_021"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_ASSEMBLY_DRONE",
+          "count": 5,
+          "desc": "Acquire Assembly Drones for R&D."
+        },
+        {
+          "type": "collect",
+          "target": "drone_component_report",
+          "count": 2,
+          "desc": "Catalog acquired components."
+        }
+      ],
+      "rewards": {
+        "exp": 650,
+        "currency": 380,
+        "crd": 190,
+        "rep": 380,
+        "items": [
+          {
+            "item_id": "scrap_circuit",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_023"
+    },
+    {
+      "id": "fq_omni_023",
+      "title": "Sentinel Protocol Update",
+      "type": "boss",
+      "rank": "B",
+      "faction": "OMNICORP",
+      "region": "SKYBRIDGE_REACTOR",
+      "description": "Titan Assembly Sentinels guard the Reactor core. Their security protocols are incompatible with Omnicorp systems. Override.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "Warden AI",
+        "location": "SKYBRIDGE_REACTOR"
+      },
+      "requirements": {
+        "min_level": 22,
+        "reputation_required": 1260,
+        "required_quests": [
+          "fq_omni_022"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_ASSEMBLY_SENTINEL",
+          "count": 3,
+          "desc": "Override Sentinel security protocols."
+        },
+        {
+          "type": "collect",
+          "target": "core_access_log",
+          "count": 1,
+          "desc": "Log core access granted."
+        }
+      ],
+      "rewards": {
+        "exp": 750,
+        "currency": 420,
+        "crd": 210,
+        "rep": 450,
+        "items": [
+          {
+            "item_id": "damaged_servo_motor",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_024"
+    },
+    {
+      "id": "fq_omni_024",
+      "title": "Proto Core Analysis",
+      "type": "boss",
+      "rank": "B",
+      "faction": "OMNICORP",
+      "region": "SKYBRIDGE_REACTOR",
+      "description": "Titan Proto Cores are failed Titan experiments. Omnicorp wants the failure data. Extract it from the Cores \u2014 forcibly.",
+      "quest_giver": {
+        "npc_id": "npc_reactor_engineer",
+        "name": "Engineer Cross",
+        "location": "SKYBRIDGE_REACTOR"
+      },
+      "requirements": {
+        "min_level": 23,
+        "reputation_required": 1320,
+        "required_quests": [
+          "fq_omni_023"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_PROTO_CORE",
+          "count": 2,
+          "desc": "Extract failure data from Proto Cores."
+        },
+        {
+          "type": "collect",
+          "target": "failure_analysis_report",
+          "count": 1,
+          "desc": "Upload failure analysis."
+        }
+      ],
+      "rewards": {
+        "exp": 850,
+        "currency": 460,
+        "crd": 230,
+        "rep": 480,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_025"
+    },
+    {
+      "id": "fq_omni_025",
+      "title": "Serpent Energy Collection",
+      "type": "boss",
+      "rank": "B",
+      "faction": "OMNICORP",
+      "region": "SKYBRIDGE_REACTOR",
+      "description": "Storm Rift Serpents feed on the Reactor's energy output. This is theft of corporate resources. Recover the stolen energy.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "Director Sterling",
+        "location": "SKYBRIDGE_REACTOR"
+      },
+      "requirements": {
+        "min_level": 24,
+        "reputation_required": 1380,
+        "required_quests": [
+          "fq_omni_024"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "STORM_RIFT_SERPENT",
+          "count": 2,
+          "desc": "Recover stolen energy from Serpents."
+        },
+        {
+          "type": "collect",
+          "target": "energy_recovery_report",
+          "count": 1,
+          "desc": "Report energy recovery metrics."
+        }
+      ],
+      "rewards": {
+        "exp": 1000,
+        "currency": 550,
+        "crd": 275,
+        "rep": 550,
+        "items": [
+          {
+            "item_id": "power_regulator_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_026"
+    },
+    {
+      "id": "fq_omni_026",
+      "title": "Cradle Expanse Monitoring",
+      "type": "exploration",
+      "rank": "B",
+      "faction": "OMNICORP",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Cradle Expanse requires orbital monitoring station deployment. Establish Omnicorp surveillance of the contested zone.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "Director Sterling",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 25,
+        "reputation_required": 1440,
+        "required_quests": [
+          "fq_omni_025"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "CRADLE_EXPANSE",
+          "count": 1,
+          "desc": "Enter the Cradle Expanse."
+        },
+        {
+          "type": "collect",
+          "target": "surveillance_station",
+          "count": 2,
+          "desc": "Deploy surveillance stations."
+        }
+      ],
+      "rewards": {
+        "exp": 700,
+        "currency": 400,
+        "crd": 200,
+        "rep": 400,
+        "items": [
+          {
+            "item_id": "con_nutrient_ration",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_027"
+    },
+    {
+      "id": "fq_omni_027",
+      "title": "Rift Stalker Observation",
+      "type": "hunt",
+      "rank": "B",
+      "faction": "OMNICORP",
+      "region": "CRADLE_EXPANSE",
+      "description": "Aethel Rift Stalkers are biological anomalies. Collect specimens for Omnicorp Bio-Division analysis.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_technician",
+        "name": "Tech Officer 404",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 26,
+        "reputation_required": 1500,
+        "required_quests": [
+          "fq_omni_026"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 5,
+          "desc": "Collect Rift Stalker specimens."
+        },
+        {
+          "type": "collect",
+          "target": "bio_analysis_report",
+          "count": 1,
+          "desc": "Submit bio-analysis preliminary report."
+        }
+      ],
+      "rewards": {
+        "exp": 750,
+        "currency": 430,
+        "crd": 215,
+        "rep": 430,
+        "items": [
+          {
+            "item_id": "dark_energy_fragment",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_028"
+    },
+    {
+      "id": "fq_omni_028",
+      "title": "Behemoth Specimen",
+      "type": "boss",
+      "rank": "B",
+      "faction": "OMNICORP",
+      "region": "CRADLE_EXPANSE",
+      "description": "Aethel Behemoths contain unique biological power cells. Harvest them for Omnicorp energy research.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_technician",
+        "name": "Tech Officer 404",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 27,
+        "reputation_required": 1560,
+        "required_quests": [
+          "fq_omni_027"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_BEHEMOTH",
+          "count": 2,
+          "desc": "Harvest Behemoth power cells."
+        },
+        {
+          "type": "collect",
+          "target": "power_cell_analysis",
+          "count": 1,
+          "desc": "Submit power cell analysis."
+        }
+      ],
+      "rewards": {
+        "exp": 900,
+        "currency": 520,
+        "crd": 260,
+        "rep": 520,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_029"
+    },
+    {
+      "id": "fq_omni_029",
+      "title": "Sentinel Reactivation",
+      "type": "boss",
+      "rank": "B",
+      "faction": "OMNICORP",
+      "region": "SKYBRIDGE_REACTOR",
+      "description": "Titan Assembly Sentinels auto-reactivate every 72 hours. Implement permanent shutdown procedure.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "Warden AI",
+        "location": "SKYBRIDGE_REACTOR"
+      },
+      "requirements": {
+        "min_level": 28,
+        "reputation_required": 1620,
+        "required_quests": [
+          "fq_omni_028"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_ASSEMBLY_SENTINEL",
+          "count": 4,
+          "desc": "Implement permanent shutdown."
+        },
+        {
+          "type": "collect",
+          "target": "permanent_shutdown_confirmed",
+          "count": 1,
+          "desc": "Confirm permanent shutdown."
+        }
+      ],
+      "rewards": {
+        "exp": 850,
+        "currency": 480,
+        "crd": 240,
+        "rep": 480,
+        "items": [
+          {
+            "item_id": "stabilizer_gyro_unit",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_030"
+    },
+    {
+      "id": "fq_omni_030",
+      "title": "Firmware Update",
+      "type": "story",
+      "rank": "B",
+      "faction": "OMNICORP",
+      "region": "THE_SPIRE",
+      "description": "System analysis indicates Ascension-ready status. Report to Director Astra Vey for Firmware v3.0 installation.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_class_trainer",
+        "name": "Director Astra Vey",
+        "location": "THE_SPIRE"
+      },
+      "requirements": {
+        "min_level": 29,
+        "reputation_required": 1680,
+        "required_quests": [
+          "fq_omni_029"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_omnicorp_class_trainer",
+          "count": 1,
+          "desc": "Report for Firmware Update installation."
+        },
+        {
+          "type": "kill",
+          "target": "RESONANCE_ECHO",
+          "count": 1,
+          "desc": "Field-test Firmware on Resonance Echo."
+        },
+        {
+          "type": "kill",
+          "target": "TITAN_PROTO_CORE",
+          "count": 1,
+          "desc": "Stress-test Firmware on Titan Proto Core."
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 1200,
+        "crd": 600,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 2
+          },
+          {
+            "item_id": "astral_phase_crystal_pure",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "popup": true,
+      "popup_trigger": "on_quest_complete",
+      "popup_prerequisite": "fq_omni_029",
+      "popup_level": 29,
+      "quest_chain_next": "fq_omni_031"
+    },
+    {
+      "id": "fq_omni_031",
+      "title": "Aerial Monitoring",
+      "type": "exploration",
+      "rank": "A",
+      "faction": "OMNICORP",
+      "region": "ORBITAL_SENTINEL_COMMAND",
+      "description": "Orbital Sentinel Command provides planetary-wide sensor coverage. Omnicorp will integrate its systems with our network.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "Director Sterling",
+        "location": "ORBITAL_SENTINEL_COMMAND"
+      },
+      "requirements": {
+        "min_level": 30,
+        "reputation_required": 1740,
+        "required_quests": [
+          "fq_omni_030"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "ORBITAL_SENTINEL_COMMAND",
+          "count": 1,
+          "desc": "Report to Orbital Sentinel Command."
+        },
+        {
+          "type": "collect",
+          "target": "orbital_integration",
+          "count": 1,
+          "desc": "Complete orbital systems integration."
+        }
+      ],
+      "rewards": {
+        "exp": 900,
+        "currency": 500,
+        "crd": 250,
+        "rep": 500,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_032"
+    },
+    {
+      "id": "fq_omni_032",
+      "title": "Drake Signal Interference",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "OMNICORP",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Ashen Drake disrupts corporate transmission signals. Signal interference is unacceptable. Neutralize the source.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "Director Sterling",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 31,
+        "reputation_required": 1800,
+        "required_quests": [
+          "fq_omni_031"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "desc": "Neutralize Drake signal interference."
+        },
+        {
+          "type": "collect",
+          "target": "signal_clarity_report",
+          "count": 1,
+          "desc": "Report signal clarity restored."
+        }
+      ],
+      "rewards": {
+        "exp": 1200,
+        "currency": 650,
+        "crd": 325,
+        "rep": 650,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_033"
+    },
+    {
+      "id": "fq_omni_033",
+      "title": "Carapace Analysis",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "OMNICORP",
+      "region": "CRADLE_EXPANSE",
+      "description": "Aethel Iron Carapaces have armor superior to Omnicorp alloys. Reverse-engineer through systematic deconstruction.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_technician",
+        "name": "Tech Officer 404",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 32,
+        "reputation_required": 1860,
+        "required_quests": [
+          "fq_omni_032"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 6,
+          "desc": "Deconstruct Iron Carapaces for analysis."
+        },
+        {
+          "type": "collect",
+          "target": "alloy_analysis_report",
+          "count": 1,
+          "desc": "Submit alloy analysis."
+        }
+      ],
+      "rewards": {
+        "exp": 1400,
+        "currency": 750,
+        "crd": 375,
+        "rep": 750,
+        "items": [
+          {
+            "item_id": "rusted_plate",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_034"
+    },
+    {
+      "id": "fq_omni_034",
+      "title": "Corrupted Behemoth Purge",
+      "type": "boss",
+      "rank": "A",
+      "faction": "OMNICORP",
+      "region": "CRADLE_EXPANSE",
+      "description": "Aethel Corrupted Behemoths are corrupted data given physical form. Delete them.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "Director Sterling",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 33,
+        "reputation_required": 1920,
+        "required_quests": [
+          "fq_omni_033"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 2,
+          "desc": "Delete Corrupted Behemoths."
+        },
+        {
+          "type": "collect",
+          "target": "deletion_confirmed",
+          "count": 1,
+          "desc": "Confirm data deletion."
+        }
+      ],
+      "rewards": {
+        "exp": 1600,
+        "currency": 850,
+        "crd": 425,
+        "rep": 850,
+        "items": [
+          {
+            "item_id": "aethel_fragment",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_035"
+    },
+    {
+      "id": "fq_omni_035",
+      "title": "Abyssal Firewall",
+      "type": "boss",
+      "rank": "A",
+      "faction": "OMNICORP",
+      "region": "CRADLE_EXPANSE",
+      "description": "Aethel Abyssal Reavers are attempting network intrusion at the orbital level. Deploy counter-intrusion measures.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "Warden AI",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 34,
+        "reputation_required": 1980,
+        "required_quests": [
+          "fq_omni_034"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 4,
+          "desc": "Deploy counter-intrusion measures."
+        },
+        {
+          "type": "collect",
+          "target": "firewall_integrity_report",
+          "count": 1,
+          "desc": "Report firewall integrity."
+        }
+      ],
+      "rewards": {
+        "exp": 1800,
+        "currency": 950,
+        "crd": 475,
+        "rep": 950,
+        "items": [
+          {
+            "item_id": "event_horizon_fragment",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_036"
+    },
+    {
+      "id": "fq_omni_036",
+      "title": "Orbital Network Defense",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "OMNICORP",
+      "region": "ORBITAL_SENTINEL_COMMAND",
+      "description": "Hostile entities probing orbital network nodes. Deploy automated defense protocols.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "Director Sterling",
+        "location": "ORBITAL_SENTINEL_COMMAND"
+      },
+      "requirements": {
+        "min_level": 35,
+        "reputation_required": 2040,
+        "required_quests": [
+          "fq_omni_035"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 6,
+          "desc": "Deploy automated defense protocols."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 3,
+          "desc": "Neutralize network intrusion specialists."
+        }
+      ],
+      "rewards": {
+        "exp": 1500,
+        "currency": 800,
+        "crd": 400,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_037"
+    },
+    {
+      "id": "fq_omni_037",
+      "title": "Drake System Shutdown",
+      "type": "boss",
+      "rank": "A",
+      "faction": "OMNICORP",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Ashen Drake has re-initialized. Execute System Shutdown on the Drake process. No process is immune to termination.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "Director Sterling",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 36,
+        "reputation_required": 2100,
+        "required_quests": [
+          "fq_omni_036"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "desc": "Execute System Shutdown on Drake."
+        },
+        {
+          "type": "collect",
+          "target": "shutdown_confirmation",
+          "count": 1,
+          "desc": "Confirm Drake process terminated."
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 1300,
+        "crd": 650,
+        "rep": 900,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_038"
+    },
+    {
+      "id": "fq_omni_038",
+      "title": "Grid Expansion",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "OMNICORP",
+      "region": "CRADLE_EXPANSE",
+      "description": "Omnicorp grid expansion into the Expanse faces hostile resistance. Override resistance with superior firepower.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "Director Sterling",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 37,
+        "reputation_required": 2160,
+        "required_quests": [
+          "fq_omni_037"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "desc": "Override hostile resistance."
+        },
+        {
+          "type": "collect",
+          "target": "grid_expansion_complete",
+          "count": 1,
+          "desc": "Confirm grid expansion."
+        }
+      ],
+      "rewards": {
+        "exp": 1700,
+        "currency": 900,
+        "crd": 450,
+        "rep": 900,
+        "items": [
+          {
+            "item_id": "scrap_metal",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_039"
+    },
+    {
+      "id": "fq_omni_039",
+      "title": "Reaver Network Breach",
+      "type": "boss",
+      "rank": "A",
+      "faction": "OMNICORP",
+      "region": "CRADLE_EXPANSE",
+      "description": "Abyssal Reavers are executing a coordinated network breach. Isolate and terminate all intrusion vectors.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "Warden AI",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 38,
+        "reputation_required": 2220,
+        "required_quests": [
+          "fq_omni_038"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 6,
+          "desc": "Isolate intrusion vectors."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 3,
+          "desc": "Terminate Channeler intrusion specialists."
+        }
+      ],
+      "rewards": {
+        "exp": 2000,
+        "currency": 1100,
+        "crd": 550,
+        "rep": 1100,
+        "items": [
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_040"
+    },
+    {
+      "id": "fq_omni_040",
+      "title": "System Master",
+      "type": "story",
+      "rank": "A",
+      "faction": "OMNICORP",
+      "region": "THE_SPIRE",
+      "description": "The System Master certification trial. Terminate Ashen Drake and two elite threats to prove System Master operational status.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "Director Sterling",
+        "location": "THE_SPIRE"
+      },
+      "requirements": {
+        "min_level": 39,
+        "reputation_required": 2280,
+        "required_quests": [
+          "fq_omni_039"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "desc": "Terminate Drake process."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_BEHEMOTH",
+          "count": 1,
+          "desc": "Terminate Behemoth process."
+        },
+        {
+          "type": "kill",
+          "target": "TITAN_PROTO_CORE",
+          "count": 1,
+          "desc": "Terminate Proto Core process."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 1
+          },
+          {
+            "item_id": "titan_core",
+            "quantity": 1
+          },
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_041"
+    },
+    {
+      "id": "fq_omni_041",
+      "title": "Subterranean Analysis",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The Void Echo Chasm represents a dimensional anomaly. Omnicorp authorizes full analysis. All sensor data will be uploaded to the Spire.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "Director Sterling",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 40,
+        "reputation_required": 2340,
+        "required_quests": [
+          "fq_omni_040"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "VOID_ECHO_CHASM",
+          "count": 1,
+          "desc": "Enter the Void Echo Chasm."
+        },
+        {
+          "type": "collect",
+          "target": "chasm_sensor_data",
+          "count": 3,
+          "desc": "Upload chasm sensor data."
+        }
+      ],
+      "rewards": {
+        "exp": 1800,
+        "currency": 900,
+        "crd": 450,
+        "rep": 600,
+        "items": [
+          {
+            "item_id": "void_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_042"
+    },
+    {
+      "id": "fq_omni_042",
+      "title": "Reaver Debug",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Void Reavers are runtime errors in the dimensional fabric. Execute Debug Protocol on all Reaver instances.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_technician",
+        "name": "Tech Officer 404",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 41,
+        "reputation_required": 2400,
+        "required_quests": [
+          "fq_omni_041"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 6,
+          "desc": "Execute Debug Protocol on Reavers."
+        },
+        {
+          "type": "collect",
+          "target": "debug_log",
+          "count": 1,
+          "desc": "Upload debug operation log."
+        }
+      ],
+      "rewards": {
+        "exp": 1900,
+        "currency": 950,
+        "crd": 475,
+        "rep": 650,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_043"
+    },
+    {
+      "id": "fq_omni_043",
+      "title": "Channeler Malware",
+      "type": "story",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Void Channelers are running unauthorized void-energy scripts. Classify as malware. Execute Anti-Malware Protocol.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "Warden AI",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 42,
+        "reputation_required": 2460,
+        "required_quests": [
+          "fq_omni_042"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 6,
+          "desc": "Execute Anti-Malware Protocol."
+        },
+        {
+          "type": "collect",
+          "target": "malware_removal_report",
+          "count": 1,
+          "desc": "Confirm malware removal."
+        }
+      ],
+      "rewards": {
+        "exp": 2100,
+        "currency": 1050,
+        "crd": 525,
+        "rep": 700,
+        "items": [
+          {
+            "item_id": "event_horizon_fragment",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_044"
+    },
+    {
+      "id": "fq_omni_044",
+      "title": "Abyssal Process Termination",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Aethel Abyssal Reavers are high-priority system processes that cannot be terminated through normal means. Deploy Kill Command.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "Director Sterling",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 43,
+        "reputation_required": 2520,
+        "required_quests": [
+          "fq_omni_043"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 6,
+          "desc": "Deploy Kill Command on Abyssal processes."
+        },
+        {
+          "type": "collect",
+          "target": "kill_command_log",
+          "count": 1,
+          "desc": "Upload Kill Command execution log."
+        }
+      ],
+      "rewards": {
+        "exp": 2200,
+        "currency": 1100,
+        "crd": 550,
+        "rep": 750,
+        "items": [
+          {
+            "item_id": "void_crystal_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_045"
+    },
+    {
+      "id": "fq_omni_045",
+      "title": "Behemoth Error Correction",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Aethel Corrupted Behemoths are error cascades in the void system. Execute Error Correction Protocol.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "Warden AI",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 44,
+        "reputation_required": 2580,
+        "required_quests": [
+          "fq_omni_044"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "desc": "Execute Error Correction Protocol."
+        },
+        {
+          "type": "collect",
+          "target": "error_correction_complete",
+          "count": 1,
+          "desc": "Confirm errors corrected."
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 1300,
+        "crd": 650,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "corrupted_synapse_cluster",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_046"
+    },
+    {
+      "id": "fq_omni_046",
+      "title": "Fragmenter Segmentation Fault",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Soul Fragmenters cause segmentation faults in neural network operatives. Patch the vulnerability at the source.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_technician",
+        "name": "Tech Officer 404",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 45,
+        "reputation_required": 2640,
+        "required_quests": [
+          "fq_omni_045"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SOUL_FRAGMENTER",
+          "count": 2,
+          "desc": "Patch Segmenter vulnerability."
+        },
+        {
+          "type": "collect",
+          "target": "patch_deployment_report",
+          "count": 1,
+          "desc": "Confirm patch deployed."
+        }
+      ],
+      "rewards": {
+        "exp": 3000,
+        "currency": 1600,
+        "crd": 800,
+        "rep": 1000,
+        "items": [
+          {
+            "item_id": "brainwave_oscillator",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_047"
+    },
+    {
+      "id": "fq_omni_047",
+      "title": "Chrono Runtime Error",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Chrono Wraiths generate temporal runtime errors. Time is a resource \u2014 these errors waste it. Terminate all Wraith processes.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "Warden AI",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 46,
+        "reputation_required": 2700,
+        "required_quests": [
+          "fq_omni_046"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CHRONO_WRAITH",
+          "count": 2,
+          "desc": "Terminate Wraith runtime errors."
+        },
+        {
+          "type": "collect",
+          "target": "temporal_stability_report",
+          "count": 1,
+          "desc": "Report temporal stability restored."
+        }
+      ],
+      "rewards": {
+        "exp": 3500,
+        "currency": 1800,
+        "crd": 900,
+        "rep": 1100,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_048"
+    },
+    {
+      "id": "fq_omni_048",
+      "title": "Jotunn Resource Conflict",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "VOID_ECHO_CHASM",
+      "description": "A Gigantic Jotunn occupies a high-value resource node. Resolve the resource conflict through Jotunn process termination.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "Director Sterling",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 47,
+        "reputation_required": 2760,
+        "required_quests": [
+          "fq_omni_047"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "desc": "Terminate Jotunn process."
+        },
+        {
+          "type": "collect",
+          "target": "resource_node_secured",
+          "count": 1,
+          "desc": "Confirm resource node secured."
+        }
+      ],
+      "rewards": {
+        "exp": 3500,
+        "currency": 1800,
+        "crd": 900,
+        "rep": 1000,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_049"
+    },
+    {
+      "id": "fq_omni_049",
+      "title": "Heart Sector Analysis",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "SHATTERED_HEART",
+      "description": "The Shattered Heart is an unexploited resource sector. Omnicorp authorizes full sector analysis and asset deployment.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "Director Sterling",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 48,
+        "reputation_required": 2820,
+        "required_quests": [
+          "fq_omni_048"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SHATTERED_HEART",
+          "count": 1,
+          "desc": "Enter the Shattered Heart sector."
+        },
+        {
+          "type": "collect",
+          "target": "sector_analysis",
+          "count": 1,
+          "desc": "Complete sector analysis."
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 1300,
+        "crd": 650,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_050"
+    },
+    {
+      "id": "fq_omni_050",
+      "title": "Resource Extraction",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "SHATTERED_HEART",
+      "description": "THE DRAKE EXTRACTION OPERATION. The Ashen Drake is a Class-A energy asset. Extract its core for Omnicorp reactor fuel. Raid Tier-1. Efficiency is the only metric.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "Director Sterling",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 49,
+        "reputation_required": 2880,
+        "required_quests": [
+          "fq_omni_049"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "desc": "EXTRACT DRAKE ENERGY CORE."
+        },
+        {
+          "type": "kill",
+          "target": "DRAKE_MINION",
+          "count": 5,
+          "desc": "Clear Drake Minion obstacles."
+        },
+        {
+          "type": "collect",
+          "target": "extraction_complete",
+          "count": 1,
+          "desc": "Confirm core extraction complete."
+        }
+      ],
+      "rewards": {
+        "exp": 8000,
+        "currency": 4000,
+        "crd": 2000,
+        "rep": 2500,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 2
+          },
+          {
+            "item_id": "ancient_scale",
+            "quantity": 1
+          },
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_051"
+    },
+    {
+      "id": "fq_omni_051",
+      "title": "Anti-Virus Protocol",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Soul Fragmenters have multiplied beyond acceptable parameters. Execute comprehensive Anti-Virus sweep.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 50,
+        "reputation_required": 2940,
+        "required_quests": [
+          "fq_omni_050"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SOUL_FRAGMENTER",
+          "count": 3,
+          "desc": "Execute Anti-Virus sweep."
+        },
+        {
+          "type": "collect",
+          "target": "virus_scan_complete",
+          "count": 1,
+          "desc": "Confirm virus scan complete."
+        }
+      ],
+      "rewards": {
+        "exp": 6000,
+        "currency": 3000,
+        "crd": 1500,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "brainwave_reader",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_052"
+    },
+    {
+      "id": "fq_omni_052",
+      "title": "Total Void Cleanup",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Operation Total Void Cleanup. All void entities classified as system junk. Execute Disk Cleanup Protocol.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 51,
+        "reputation_required": 3000,
+        "required_quests": [
+          "fq_omni_051"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 8,
+          "desc": "Execute Disk Cleanup on Reavers."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 5,
+          "desc": "Execute Disk Cleanup on Channelers."
+        }
+      ],
+      "rewards": {
+        "exp": 4500,
+        "currency": 2200,
+        "crd": 1100,
+        "rep": 1500,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_053"
+    },
+    {
+      "id": "fq_omni_053",
+      "title": "Stalker Rootkit",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "VOID_ECHO_CHASM",
+      "description": "A Void Stalker operates as a rootkit in the void network. Rootkits must be removed at the kernel level.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 52,
+        "reputation_required": 3060,
+        "required_quests": [
+          "fq_omni_052"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "VOID_STALKER",
+          "count": 1,
+          "desc": "Remove Stalker rootkit."
+        },
+        {
+          "type": "collect",
+          "target": "rootkit_removed",
+          "count": 1,
+          "desc": "Confirm rootkit removal."
+        }
+      ],
+      "rewards": {
+        "exp": 5500,
+        "currency": 2800,
+        "crd": 1400,
+        "rep": 1800,
+        "items": [
+          {
+            "item_id": "entropy_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_054"
+    },
+    {
+      "id": "fq_omni_054",
+      "title": "Temporal Patch",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Chrono Wraiths exploit temporal vulnerabilities. Deploy Temporal Stability Patch across all affected sectors.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_technician",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 53,
+        "reputation_required": 3120,
+        "required_quests": [
+          "fq_omni_053"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CHRONO_WRAITH",
+          "count": 3,
+          "desc": "Deploy Temporal Stability Patch."
+        },
+        {
+          "type": "collect",
+          "target": "patch_status",
+          "count": 1,
+          "desc": "Confirm all patches deployed."
+        }
+      ],
+      "rewards": {
+        "exp": 6500,
+        "currency": 3200,
+        "crd": 1600,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_055"
+    },
+    {
+      "id": "fq_omni_055",
+      "title": "Heart Sector Purge",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "SHATTERED_HEART",
+      "description": "The Shattered Heart sector contains residual hostile processes. Execute Sector Purge Protocol.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 54,
+        "reputation_required": 3180,
+        "required_quests": [
+          "fq_omni_054"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 10,
+          "desc": "Execute Sector Purge on Reavers."
+        },
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 6,
+          "desc": "Execute Sector Purge on Void Reavers."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 1700,
+        "items": [
+          {
+            "item_id": "event_horizon_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_056"
+    },
+    {
+      "id": "fq_omni_056",
+      "title": "Jotunn Server Shutdown",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "SHATTERED_HEART",
+      "description": "Gigantic Jotunns function as organic servers hosting hostile processes. Shut them down.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 55,
+        "reputation_required": 3240,
+        "required_quests": [
+          "fq_omni_055"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "desc": "Shut down Jotunn servers."
+        },
+        {
+          "type": "collect",
+          "target": "server_shutdown_log",
+          "count": 1,
+          "desc": "Upload server shutdown log."
+        }
+      ],
+      "rewards": {
+        "exp": 7000,
+        "currency": 3500,
+        "crd": 1750,
+        "rep": 2200,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_057"
+    },
+    {
+      "id": "fq_omni_057",
+      "title": "Tyrant Hardware Removal",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "SHATTERED_HEART",
+      "description": "Crystal Tyrants are foreign hardware installations in the Heart sector. Remove all foreign hardware.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 56,
+        "reputation_required": 3300,
+        "required_quests": [
+          "fq_omni_056"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 2,
+          "desc": "Remove Tyrant hardware."
+        },
+        {
+          "type": "collect",
+          "target": "hardware_removal_report",
+          "count": 1,
+          "desc": "Confirm hardware removal."
+        }
+      ],
+      "rewards": {
+        "exp": 7200,
+        "currency": 3600,
+        "crd": 1800,
+        "rep": 2300,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_058"
+    },
+    {
+      "id": "fq_omni_058",
+      "title": "Harbinger Mainframe",
+      "type": "story",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The Abyss Harbinger is the master process controlling void anomalies. Prepare for total system shutdown.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 57,
+        "reputation_required": 3360,
+        "required_quests": [
+          "fq_omni_057"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 6,
+          "desc": "Clear system access paths."
+        },
+        {
+          "type": "kill",
+          "target": "CHRONO_WRAITH",
+          "count": 1,
+          "desc": "Remove temporal lock."
+        },
+        {
+          "type": "collect",
+          "target": "mainframe_access",
+          "count": 1,
+          "desc": "Establish mainframe access."
+        }
+      ],
+      "rewards": {
+        "exp": 7500,
+        "currency": 3800,
+        "crd": 1900,
+        "rep": 2400,
+        "items": [
+          {
+            "item_id": "event_horizon_fragment_l",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_059"
+    },
+    {
+      "id": "fq_omni_059",
+      "title": "Fragmenter Process Kill",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Soul Fragmenters are spawning child processes. Execute Process Kill on all Fragmenter processes and subprocesses.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 58,
+        "reputation_required": 3420,
+        "required_quests": [
+          "fq_omni_058"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SOUL_FRAGMENTER",
+          "count": 3,
+          "desc": "Execute Process Kill on Fragmenters."
+        },
+        {
+          "type": "kill",
+          "target": "VOID_STALKER",
+          "count": 1,
+          "desc": "Kill parent Stalker process."
+        }
+      ],
+      "rewards": {
+        "exp": 8000,
+        "currency": 4000,
+        "crd": 2000,
+        "rep": 2500,
+        "items": [
+          {
+            "item_id": "brainwave_oscillator",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_060"
+    },
+    {
+      "id": "fq_omni_060",
+      "title": "The Harbinger Shutdown",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "VOID_ECHO_CHASM",
+      "description": "FINAL SHUTDOWN SEQUENCE. The Abyss Harbinger is the void's master process. Execute total system shutdown. Raid Boss Tier-2. All Omnicorp resources authorized. System integrity must be restored.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 59,
+        "reputation_required": 3480,
+        "required_quests": [
+          "fq_omni_059"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "desc": "EXECUTE SHUTDOWN ON ABYSS HARBINGER."
+        },
+        {
+          "type": "collect",
+          "target": "shutdown_code",
+          "count": 1,
+          "desc": "Secure the Shutdown Code for Omnicorp."
+        }
+      ],
+      "rewards": {
+        "exp": 15000,
+        "currency": 7500,
+        "crd": 3750,
+        "rep": 5000,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 5
+          },
+          {
+            "item_id": "event_horizon_fragment_l",
+            "quantity": 2
+          },
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 10
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_061"
+    },
+    {
+      "id": "fq_omni_061",
+      "title": "Structural Stabilization",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "The Severance Faultline is a structural integrity failure. Omnicorp will deploy gravity anchors to stabilize the planetary crust.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 60,
+        "reputation_required": 3540,
+        "required_quests": [
+          "fq_omni_060"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SEVERANCE_FAULTLINE",
+          "count": 1,
+          "desc": "Enter the Severance Faultline."
+        },
+        {
+          "type": "collect",
+          "target": "stability_readings",
+          "count": 3,
+          "desc": "Upload structural stability readings."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 1600,
+        "items": [
+          {
+            "item_id": "stabilizer_gyro_unit",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_062"
+    },
+    {
+      "id": "fq_omni_062",
+      "title": "Carapace Deconstruction",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Aethel Iron Carapaces contain minerals essential for gravity anchor construction. Deconstruct and extract.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_technician",
+        "name": "",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 61,
+        "reputation_required": 3600,
+        "required_quests": [
+          "fq_omni_061"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "desc": "Deconstruct Iron Carapaces."
+        },
+        {
+          "type": "collect",
+          "target": "mineral_extraction_report",
+          "count": 1,
+          "desc": "Report mineral extraction yields."
+        }
+      ],
+      "rewards": {
+        "exp": 5200,
+        "currency": 2600,
+        "crd": 1300,
+        "rep": 1700,
+        "items": [
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_063"
+    },
+    {
+      "id": "fq_omni_063",
+      "title": "Tyrant Structural Interference",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Crystal Tyrants disrupt anchor calibration. Eliminate interference sources.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 62,
+        "reputation_required": 3660,
+        "required_quests": [
+          "fq_omni_062"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 2,
+          "desc": "Eliminate Tyrant interference."
+        },
+        {
+          "type": "collect",
+          "target": "calibration_restored",
+          "count": 1,
+          "desc": "Confirm calibration restored."
+        }
+      ],
+      "rewards": {
+        "exp": 6000,
+        "currency": 3000,
+        "crd": 1500,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_064"
+    },
+    {
+      "id": "fq_omni_064",
+      "title": "Jotunn Anchor Site",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Gigantic Jotunns refuse to vacate anchor deployment sites. Deploy anchors regardless.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 63,
+        "reputation_required": 3720,
+        "required_quests": [
+          "fq_omni_063"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "desc": "Deploy anchors at Jotunn sites."
+        },
+        {
+          "type": "collect",
+          "target": "anchor_deployment_complete",
+          "count": 3,
+          "desc": "Confirm all anchors deployed."
+        }
+      ],
+      "rewards": {
+        "exp": 6500,
+        "currency": 3300,
+        "crd": 1650,
+        "rep": 2100,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_065"
+    },
+    {
+      "id": "fq_omni_065",
+      "title": "Core Integration Prep",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "The Aethel Siphon Core will become Omnicorp's primary server farm. Begin integration assessment.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 64,
+        "reputation_required": 3780,
+        "required_quests": [
+          "fq_omni_064"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "AETHEL_SIPHON_CORE",
+          "count": 1,
+          "desc": "Enter the Aethel Siphon Core."
+        },
+        {
+          "type": "collect",
+          "target": "integration_assessment",
+          "count": 2,
+          "desc": "Complete integration assessment."
+        }
+      ],
+      "rewards": {
+        "exp": 5500,
+        "currency": 2800,
+        "crd": 1400,
+        "rep": 1800,
+        "items": [
+          {
+            "item_id": "power_regulator_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_066"
+    },
+    {
+      "id": "fq_omni_066",
+      "title": "Core Security Sweep",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Hostile processes detected in Core systems. Execute security sweep.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 65,
+        "reputation_required": 3840,
+        "required_quests": [
+          "fq_omni_065"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 8,
+          "desc": "Execute security sweep."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 5,
+          "desc": "Purge Channeler processes."
+        }
+      ],
+      "rewards": {
+        "exp": 5800,
+        "currency": 2900,
+        "crd": 1450,
+        "rep": 1900,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_067"
+    },
+    {
+      "id": "fq_omni_067",
+      "title": "Behemoth System Crash",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Corrupted Behemoths cause system crashes in Core infrastructure. Prevent crash cascade.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 66,
+        "reputation_required": 3900,
+        "required_quests": [
+          "fq_omni_066"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "desc": "Prevent crash cascade."
+        },
+        {
+          "type": "collect",
+          "target": "system_uptime_restored",
+          "count": 1,
+          "desc": "Confirm system uptime restored."
+        }
+      ],
+      "rewards": {
+        "exp": 6200,
+        "currency": 3100,
+        "crd": 1550,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "corrupted_synapse_cluster",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_068"
+    },
+    {
+      "id": "fq_omni_068",
+      "title": "Rift Stalker Network",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Rift Stalkers have established a peer-to-peer network in the Core. Disconnect all nodes.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_technician",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 67,
+        "reputation_required": 3960,
+        "required_quests": [
+          "fq_omni_067"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 6,
+          "desc": "Disconnect Stalker network nodes."
+        },
+        {
+          "type": "collect",
+          "target": "network_disconnected",
+          "count": 1,
+          "desc": "Confirm network disconnected."
+        }
+      ],
+      "rewards": {
+        "exp": 6400,
+        "currency": 3200,
+        "crd": 1600,
+        "rep": 2100,
+        "items": [
+          {
+            "item_id": "dark_energy_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_069"
+    },
+    {
+      "id": "fq_omni_069",
+      "title": "Gravity Algorithm",
+      "type": "story",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "The Gravity Titan's algorithm can manipulate mass. Omnicorp will copy that algorithm and deploy it across the network.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 68,
+        "reputation_required": 4020,
+        "required_quests": [
+          "fq_omni_068"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "titan_algorithm_data",
+          "count": 3,
+          "desc": "Collect Gravity Titan algorithm data."
+        },
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "desc": "Eliminate Jotunn data corruption."
+        }
+      ],
+      "rewards": {
+        "exp": 7000,
+        "currency": 3500,
+        "crd": 1750,
+        "rep": 2200,
+        "items": [
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_070"
+    },
+    {
+      "id": "fq_omni_070",
+      "title": "Gravity Recalibration",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "CRADLE_EXPANSE",
+      "description": "GRAVITY RECALIBRATION OPERATION. The Gravity Titan's algorithm is the key to mass manipulation. Defeat the Raid Boss Tier-3 entity and download the complete algorithm. Omnicorp will control gravity itself.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 69,
+        "reputation_required": 4080,
+        "required_quests": [
+          "fq_omni_069"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "desc": "DOWNLOAD THE GRAVITY ALGORITHM."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "desc": "Clear download path obstacles."
+        },
+        {
+          "type": "collect",
+          "target": "algorithm_download_complete",
+          "count": 1,
+          "desc": "Confirm algorithm download."
+        }
+      ],
+      "rewards": {
+        "exp": 20000,
+        "currency": 10000,
+        "crd": 5000,
+        "rep": 7000,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 3
+          },
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 2
+          },
+          {
+            "item_id": "event_horizon_fragment_l",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_071"
+    },
+    {
+      "id": "fq_omni_071",
+      "title": "Automated Manufacturing",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The Prima Materia Forge will become Omnicorp's primary manufacturing facility. Initiate facility takeover.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 70,
+        "reputation_required": 4140,
+        "required_quests": [
+          "fq_omni_070"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "PRIMA_MATERIA_FORGE",
+          "count": 1,
+          "desc": "Enter the Prima Materia Forge."
+        },
+        {
+          "type": "collect",
+          "target": "manufacturing_assessment",
+          "count": 2,
+          "desc": "Complete manufacturing assessment."
+        }
+      ],
+      "rewards": {
+        "exp": 6000,
+        "currency": 3000,
+        "crd": 1500,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "raw_aethel_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_072"
+    },
+    {
+      "id": "fq_omni_072",
+      "title": "Defense System Override",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Ancient Forge defenses reject Omnicorp network integration. Override with extreme prejudice.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 71,
+        "reputation_required": 4200,
+        "required_quests": [
+          "fq_omni_071"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "desc": "Override Forge defense systems."
+        },
+        {
+          "type": "collect",
+          "target": "override_success",
+          "count": 1,
+          "desc": "Confirm all systems overridden."
+        }
+      ],
+      "rewards": {
+        "exp": 6200,
+        "currency": 3100,
+        "crd": 1550,
+        "rep": 2100,
+        "items": [
+          {
+            "item_id": "rusted_cybernetic_arm",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_073"
+    },
+    {
+      "id": "fq_omni_073",
+      "title": "Quality Assurance",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Corrupted Behemoths are defective products contaminating the Forge. Execute Product Recall and Disposal.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 72,
+        "reputation_required": 4260,
+        "required_quests": [
+          "fq_omni_072"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "desc": "Execute Product Recall and Disposal."
+        },
+        {
+          "type": "collect",
+          "target": "qa_report",
+          "count": 1,
+          "desc": "File QA clearance report."
+        }
+      ],
+      "rewards": {
+        "exp": 6500,
+        "currency": 3300,
+        "crd": 1650,
+        "rep": 2200,
+        "items": [
+          {
+            "item_id": "neural_disruptor_module",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_074"
+    },
+    {
+      "id": "fq_omni_074",
+      "title": "Competitor Removal",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Abyssal forces have entered the Forge \u2014 unauthorized access detected. Remove all unauthorized users.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 73,
+        "reputation_required": 4320,
+        "required_quests": [
+          "fq_omni_073"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 8,
+          "desc": "Remove unauthorized Abyssal users."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 5,
+          "desc": "Remove unauthorized Channeler users."
+        }
+      ],
+      "rewards": {
+        "exp": 6800,
+        "currency": 3400,
+        "crd": 1700,
+        "rep": 2300,
+        "items": [
+          {
+            "item_id": "aethel_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_075"
+    },
+    {
+      "id": "fq_omni_075",
+      "title": "Jotunn Workflow Termination",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Jotunns are interfering with Forge workflow automation. Terminate interfering processes.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 74,
+        "reputation_required": 4380,
+        "required_quests": [
+          "fq_omni_074"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "desc": "Terminate Jotunn workflow interference."
+        },
+        {
+          "type": "collect",
+          "target": "workflow_optimized",
+          "count": 1,
+          "desc": "Confirm workflow optimized."
+        }
+      ],
+      "rewards": {
+        "exp": 7200,
+        "currency": 3600,
+        "crd": 1800,
+        "rep": 2400,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_076"
+    },
+    {
+      "id": "fq_omni_076",
+      "title": "Mass Production Protocol",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Initiate Mass Production Protocol. All rival presence in the Forge is a production inefficiency.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_technician",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 75,
+        "reputation_required": 4440,
+        "required_quests": [
+          "fq_omni_075"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 6,
+          "desc": "Clear production floor."
+        },
+        {
+          "type": "collect",
+          "target": "mass_production_online",
+          "count": 1,
+          "desc": "Confirm mass production online."
+        }
+      ],
+      "rewards": {
+        "exp": 7500,
+        "currency": 3800,
+        "crd": 1900,
+        "rep": 2500,
+        "items": [
+          {
+            "item_id": "power_regulator_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_077"
+    },
+    {
+      "id": "fq_omni_077",
+      "title": "Automaton Reprogramming",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Titan Forge Automatons resist Omnicorp programming. Reprogram through combat override.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 76,
+        "reputation_required": 4500,
+        "required_quests": [
+          "fq_omni_076"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_FORGE_AUTOMATON",
+          "count": 3,
+          "desc": "Reprogram Automatons."
+        },
+        {
+          "type": "collect",
+          "target": "reprogramming_complete",
+          "count": 1,
+          "desc": "Confirm reprogramming."
+        }
+      ],
+      "rewards": {
+        "exp": 8000,
+        "currency": 4000,
+        "crd": 2000,
+        "rep": 2600,
+        "items": [
+          {
+            "item_id": "processor_cooling_unit",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_078"
+    },
+    {
+      "id": "fq_omni_078",
+      "title": "Proto Core Recycling",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Titan Proto Cores are failed products. Recycle for raw materials.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_technician",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 77,
+        "reputation_required": 4560,
+        "required_quests": [
+          "fq_omni_077"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_PROTO_CORE",
+          "count": 2,
+          "desc": "Recycle Proto Cores."
+        },
+        {
+          "type": "collect",
+          "target": "recycling_yield_report",
+          "count": 1,
+          "desc": "Report recycling yield."
+        }
+      ],
+      "rewards": {
+        "exp": 9000,
+        "currency": 4500,
+        "crd": 2250,
+        "rep": 2800,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_079"
+    },
+    {
+      "id": "fq_omni_079",
+      "title": "Executive Legend Trial",
+      "type": "story",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The Executive Legend certification trial. Eliminate both Titan and Harbinger in one operational cycle. Prove systematic superiority.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 78,
+        "reputation_required": 4620,
+        "required_quests": [
+          "fq_omni_078"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "desc": "Eliminate Titan \u2014 target acquired."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "desc": "Eliminate Harbinger \u2014 target acquired."
+        }
+      ],
+      "rewards": {
+        "exp": 12000,
+        "currency": 6000,
+        "crd": 3000,
+        "rep": 4000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 1
+          },
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          },
+          {
+            "item_id": "void_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_080"
+    },
+    {
+      "id": "fq_omni_080",
+      "title": "Executive Legend",
+      "type": "story",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "THE_SPIRE",
+      "description": "CEO Valerius personally authorizes your Executive Legend certification. Return to the Spire for system-wide recognition broadcast.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "THE_SPIRE"
+      },
+      "requirements": {
+        "min_level": 79,
+        "reputation_required": 4680,
+        "required_quests": [
+          "fq_omni_079"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "THE_SPIRE",
+          "count": 1,
+          "desc": "Return to the Spire."
+        },
+        {
+          "type": "collect",
+          "target": "executive_legend_cert",
+          "count": 1,
+          "desc": "Receive Executive Legend certification."
+        }
+      ],
+      "rewards": {
+        "exp": 10000,
+        "currency": 5000,
+        "crd": 2500,
+        "rep": 3500,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 10
+          },
+          {
+            "item_id": "astral_phase_crystal_pure",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_081"
+    },
+    {
+      "id": "fq_omni_081",
+      "title": "Apex Quality Control",
+      "type": "story",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "HIDDEN_AETHELGARDIAN_CITY",
+      "description": "The Hidden Aethelgardian City contains Precursor technology caches. Omnicorp authorizes full technology acquisition.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "HIDDEN_AETHELGARDIAN_CITY"
+      },
+      "requirements": {
+        "min_level": 80,
+        "reputation_required": 4740,
+        "required_quests": [
+          "fq_omni_080"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "HIDDEN_AETHELGARDIAN_CITY",
+          "count": 1,
+          "desc": "Enter the Hidden Aethelgardian City."
+        },
+        {
+          "type": "collect",
+          "target": "tech_cache",
+          "count": 3,
+          "desc": "Acquire Precursor technology caches."
+        }
+      ],
+      "rewards": {
+        "exp": 8000,
+        "currency": 4000,
+        "crd": 2000,
+        "rep": 2500,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_082"
+    },
+    {
+      "id": "fq_omni_082",
+      "title": "City Defense Removal",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "HIDDEN_AETHELGARDIAN_CITY",
+      "description": "City defenses are incompatible with Omnicorp protocols. Remove legacy defense systems.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "",
+        "location": "HIDDEN_AETHELGARDIAN_CITY"
+      },
+      "requirements": {
+        "min_level": 81,
+        "reputation_required": 4800,
+        "required_quests": [
+          "fq_omni_081"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 8,
+          "desc": "Remove legacy defense systems."
+        },
+        {
+          "type": "collect",
+          "target": "sector_secured",
+          "count": 3,
+          "desc": "Confirm sectors secured."
+        }
+      ],
+      "rewards": {
+        "exp": 8500,
+        "currency": 4200,
+        "crd": 2100,
+        "rep": 2700,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_083"
+    },
+    {
+      "id": "fq_omni_083",
+      "title": "Tech Database Download",
+      "type": "collect",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "HIDDEN_AETHELGARDIAN_CITY",
+      "description": "The City holds a Precursor tech database. Download all data for Omnicorp R&D.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_technician",
+        "name": "",
+        "location": "HIDDEN_AETHELGARDIAN_CITY"
+      },
+      "requirements": {
+        "min_level": 82,
+        "reputation_required": 4860,
+        "required_quests": [
+          "fq_omni_082"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "tech_database",
+          "count": 5,
+          "desc": "Download Precursor tech database."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 4,
+          "desc": "Defend download from data thieves."
+        }
+      ],
+      "rewards": {
+        "exp": 8800,
+        "currency": 4400,
+        "crd": 2200,
+        "rep": 2800,
+        "items": [
+          {
+            "item_id": "memory_fragment_chip",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_084"
+    },
+    {
+      "id": "fq_omni_084",
+      "title": "Apex Drake Deletion",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "SHATTERED_HEART",
+      "description": "The Apex Ashen Drake is a legacy biological process. Execute permanent deletion.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 83,
+        "reputation_required": 4920,
+        "required_quests": [
+          "fq_omni_083"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "desc": "Execute permanent Drake deletion."
+        },
+        {
+          "type": "collect",
+          "target": "deletion_verified",
+          "count": 1,
+          "desc": "Verify deletion."
+        }
+      ],
+      "rewards": {
+        "exp": 12000,
+        "currency": 6000,
+        "crd": 3000,
+        "rep": 4000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 3
+          },
+          {
+            "item_id": "ancient_scale",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_085"
+    },
+    {
+      "id": "fq_omni_085",
+      "title": "Apex Harbinger Uninstall",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The Apex Abyss Harbinger has reinstalled itself. Execute permanent uninstall.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 84,
+        "reputation_required": 4980,
+        "required_quests": [
+          "fq_omni_084"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "desc": "Execute permanent uninstall."
+        },
+        {
+          "type": "collect",
+          "target": "uninstall_verified",
+          "count": 1,
+          "desc": "Verify uninstall complete."
+        }
+      ],
+      "rewards": {
+        "exp": 13000,
+        "currency": 6500,
+        "crd": 3250,
+        "rep": 4200,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 5
+          },
+          {
+            "item_id": "event_horizon_fragment_l",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_086"
+    },
+    {
+      "id": "fq_omni_086",
+      "title": "Apex Titan Format",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Gravity Titan has reformatted. Execute full disk format on Titan instance.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 85,
+        "reputation_required": 5040,
+        "required_quests": [
+          "fq_omni_085"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "desc": "Execute full disk format on Titan."
+        },
+        {
+          "type": "collect",
+          "target": "format_verified",
+          "count": 1,
+          "desc": "Verify format complete."
+        }
+      ],
+      "rewards": {
+        "exp": 14000,
+        "currency": 7000,
+        "crd": 3500,
+        "rep": 4500,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 4
+          },
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_087"
+    },
+    {
+      "id": "fq_omni_087",
+      "title": "Tri-Process Termination",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "All three Apex processes \u2014 Drake, Titan, Harbinger. Execute concurrent termination. System resources: unlimited.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 86,
+        "reputation_required": 5100,
+        "required_quests": [
+          "fq_omni_086"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "desc": "Terminate Drake process."
+        },
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "desc": "Terminate Titan process."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "desc": "Terminate Harbinger process."
+        }
+      ],
+      "rewards": {
+        "exp": 20000,
+        "currency": 10000,
+        "crd": 5000,
+        "rep": 6000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 2
+          },
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          },
+          {
+            "item_id": "void_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_088"
+    },
+    {
+      "id": "fq_omni_088",
+      "title": "Core Integration",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "The Aethel Siphon Core is now Omnicorp Central Server. Complete full systems integration.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 87,
+        "reputation_required": 5160,
+        "required_quests": [
+          "fq_omni_087"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "AETHEL_SIPHON_CORE",
+          "count": 1,
+          "desc": "Enter Omnicorp Central Server."
+        },
+        {
+          "type": "collect",
+          "target": "integration_beacon",
+          "count": 5,
+          "desc": "Deploy integration beacons."
+        }
+      ],
+      "rewards": {
+        "exp": 10000,
+        "currency": 5000,
+        "crd": 2500,
+        "rep": 3200,
+        "items": [
+          {
+            "item_id": "power_regulator_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_089"
+    },
+    {
+      "id": "fq_omni_089",
+      "title": "World Engine Source Code",
+      "type": "story",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "The World Engine is the ultimate source code. Omnicorp will acquire exclusive access.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 88,
+        "reputation_required": 5220,
+        "required_quests": [
+          "fq_omni_088"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "source_code_access",
+          "count": 3,
+          "desc": "Obtain source code access keys."
+        },
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 2,
+          "desc": "Remove source code guards."
+        }
+      ],
+      "rewards": {
+        "exp": 11000,
+        "currency": 5500,
+        "crd": 2750,
+        "rep": 3500,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_090"
+    },
+    {
+      "id": "fq_omni_090",
+      "title": "Source Code Compile",
+      "type": "story",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Compile the World Engine source code. Omnicorp's greatest software deployment. Defend the compile process.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 89,
+        "reputation_required": 5280,
+        "required_quests": [
+          "fq_omni_089"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 10,
+          "desc": "Defend compile process."
+        },
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 2,
+          "desc": "Remove compile errors."
+        },
+        {
+          "type": "collect",
+          "target": "compile_success",
+          "count": 1,
+          "desc": "Confirm successful compile."
+        }
+      ],
+      "rewards": {
+        "exp": 13000,
+        "currency": 6500,
+        "crd": 3250,
+        "rep": 4200,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_091"
+    },
+    {
+      "id": "fq_omni_091",
+      "title": "Final System Cleanup",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "The compiled Engine flushes residual errors. Execute final system cleanup at the Faultline.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 90,
+        "reputation_required": 5340,
+        "required_quests": [
+          "fq_omni_090"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 5,
+          "desc": "Execute Jotunn cleanup."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "desc": "Execute Carapace cleanup."
+        }
+      ],
+      "rewards": {
+        "exp": 10000,
+        "currency": 5000,
+        "crd": 2500,
+        "rep": 3200,
+        "items": [
+          {
+            "item_id": "stabilizer_gyro_unit",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_092"
+    },
+    {
+      "id": "fq_omni_092",
+      "title": "Void System Purge",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The void is a deprecated system. Purge all remaining void instances permanently.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 91,
+        "reputation_required": 5400,
+        "required_quests": [
+          "fq_omni_091"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 10,
+          "desc": "Purge Abyssal instances."
+        },
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 10,
+          "desc": "Purge Void instances."
+        }
+      ],
+      "rewards": {
+        "exp": 11000,
+        "currency": 5500,
+        "crd": 2750,
+        "rep": 3500,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_093"
+    },
+    {
+      "id": "fq_omni_093",
+      "title": "Tyrant Legacy Removal",
+      "type": "boss",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "SHATTERED_HEART",
+      "description": "Crystal Tyrants are legacy hardware. Execute legacy hardware removal.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 92,
+        "reputation_required": 5460,
+        "required_quests": [
+          "fq_omni_092"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 3,
+          "desc": "Remove legacy Tyrant hardware."
+        },
+        {
+          "type": "collect",
+          "target": "legacy_removal_done",
+          "count": 1,
+          "desc": "Confirm legacy removal."
+        }
+      ],
+      "rewards": {
+        "exp": 12000,
+        "currency": 6000,
+        "crd": 3000,
+        "rep": 4000,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 4
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_094"
+    },
+    {
+      "id": "fq_omni_094",
+      "title": "Forge Final Production",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Final Forge production cycle. Eliminate all variables that could impact production efficiency.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_technician",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 93,
+        "reputation_required": 5520,
+        "required_quests": [
+          "fq_omni_093"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 8,
+          "desc": "Eliminate production variables."
+        },
+        {
+          "type": "kill",
+          "target": "TITAN_FORGE_AUTOMATON",
+          "count": 3,
+          "desc": "Replace legacy Automatons."
+        }
+      ],
+      "rewards": {
+        "exp": 11000,
+        "currency": 5500,
+        "crd": 2750,
+        "rep": 3500,
+        "items": [
+          {
+            "item_id": "raw_aethel_core",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_095"
+    },
+    {
+      "id": "fq_omni_095",
+      "title": "Expanse Network Control",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Cradle Expanse is now Omnicorp-managed territory. Enforce network control protocols.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 94,
+        "reputation_required": 5580,
+        "required_quests": [
+          "fq_omni_094"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 10,
+          "desc": "Enforce network control."
+        },
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "desc": "Remove remaining Titan instance."
+        }
+      ],
+      "rewards": {
+        "exp": 13000,
+        "currency": 6500,
+        "crd": 3250,
+        "rep": 4200,
+        "items": [
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_096"
+    },
+    {
+      "id": "fq_omni_096",
+      "title": "Orbital System Maintenance",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "ORBITAL_SENTINEL_COMMAND",
+      "description": "Orbital systems require quarterly maintenance. Clear all orbital sectors of hostile elements.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "ORBITAL_SENTINEL_COMMAND"
+      },
+      "requirements": {
+        "min_level": 95,
+        "reputation_required": 5640,
+        "required_quests": [
+          "fq_omni_095"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 10,
+          "desc": "Execute orbital maintenance sweep."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "desc": "Remove orbital system errors."
+        }
+      ],
+      "rewards": {
+        "exp": 12000,
+        "currency": 6000,
+        "crd": 3000,
+        "rep": 3800,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 10
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_097"
+    },
+    {
+      "id": "fq_omni_097",
+      "title": "Final System Backup",
+      "type": "story",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Execute final system backup before singularity. Eliminate all threats to backup integrity.",
+      "quest_giver": {
+        "npc_id": "npc_grid_security",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 96,
+        "reputation_required": 5700,
+        "required_quests": [
+          "fq_omni_096"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "desc": "Eliminate backup threats."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "desc": "Eliminate Harbinger backup corruption."
+        },
+        {
+          "type": "collect",
+          "target": "backup_complete",
+          "count": 1,
+          "desc": "Confirm backup complete."
+        }
+      ],
+      "rewards": {
+        "exp": 15000,
+        "currency": 7500,
+        "crd": 3750,
+        "rep": 5000,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_098"
+    },
+    {
+      "id": "fq_omni_098",
+      "title": "The Final Override",
+      "type": "story",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Execute the Final Override. Terminate Jotunn, Drake, and Harbinger processes. All system authority transfers to Omnicorp.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 97,
+        "reputation_required": 5760,
+        "required_quests": [
+          "fq_omni_097"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "desc": "Override Jotunn authority."
+        },
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "desc": "Override Drake authority."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "desc": "Override Harbinger authority."
+        },
+        {
+          "type": "collect",
+          "target": "override_certificate",
+          "count": 1,
+          "desc": "Confirm Final Override."
+        }
+      ],
+      "rewards": {
+        "exp": 20000,
+        "currency": 10000,
+        "crd": 5000,
+        "rep": 7000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 3
+          },
+          {
+            "item_id": "titan_core",
+            "quantity": 3
+          },
+          {
+            "item_id": "void_core",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_099"
+    },
+    {
+      "id": "fq_omni_099",
+      "title": "The Singularity",
+      "type": "story",
+      "rank": "S",
+      "faction": "OMNICORP",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The deepest Void Echo Chasm. Defeat the Eternal forms of Titan and Harbinger. All system resources converge on this moment. The Singularity awaits.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 98,
+        "reputation_required": 5820,
+        "required_quests": [
+          "fq_omni_098"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "VOID_ECHO_CHASM",
+          "count": 1,
+          "desc": "Enter the deepest chasm."
+        },
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "desc": "Terminate Eternal Gravity Titan."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "desc": "Terminate Eternal Abyss Harbinger."
+        },
+        {
+          "type": "collect",
+          "target": "singularity_seal",
+          "count": 1,
+          "desc": "CLAIM THE SINGULARITY SEAL."
+        }
+      ],
+      "rewards": {
+        "exp": 25000,
+        "currency": 12000,
+        "crd": 6000,
+        "rep": 8000,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_omni_100"
+    },
+    {
+      "id": "fq_omni_100",
+      "title": "The Singularity",
+      "type": "story",
+      "rank": "SS",
+      "faction": "OMNICORP",
+      "region": "THE_SPIRE",
+      "description": "SYSTEM STATUS: SINGULARITY ACHIEVED. All processes terminated. All systems integrated. All authority centralized. Return to the Spire. CEO Valerius confirms: YOU are now the operating system of Xylos. Efficiency is eternal. You are eternal.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_executive",
+        "name": "",
+        "location": "THE_SPIRE"
+      },
+      "requirements": {
+        "min_level": 99,
+        "reputation_required": 5880,
+        "required_quests": [
+          "fq_omni_099"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "THE_SPIRE",
+          "count": 1,
+          "desc": "Return to the Spire as the Singularity."
+        },
+        {
+          "type": "interact",
+          "target": "npc_omnicorp_executive",
+          "count": 1,
+          "desc": "Receive Singularity certification from CEO Valerius."
+        }
+      ],
+      "rewards": {
+        "exp": 50000,
+        "currency": 25000,
+        "crd": 12500,
+        "rep": 10000,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 5
+          },
+          {
+            "item_id": "singularity_seal",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false
+    }
+  ]
+}

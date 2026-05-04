@@ -1,0 +1,4824 @@
+{
+  "quests": [
+    {
+      "id": "fq_star_001",
+      "title": "The Purification",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "STARFORGED_LEGION",
+      "region": "DUNE_OUTSKIRTS",
+      "description": "Grand Justiciar Aurelius speaks: the Dune Outskirts must be purified. Dune Scavengers defile the sacred sands.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "General Kaelen",
+        "location": "DUNE_OUTSKIRTS"
+      },
+      "requirements": {
+        "min_level": 1,
+        "reputation_required": 0,
+        "required_quests": []
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "DUNE_SCAVENGER",
+          "count": 5,
+          "description": "Purify Dune Scavengers."
+        },
+        {
+          "type": "collect",
+          "target": "purified_sand_sample",
+          "count": 1,
+          "description": "Collect purified sand."
+        }
+      ],
+      "rewards": {
+        "exp": 50,
+        "currency": 30,
+        "crd": 15,
+        "rep": 30,
+        "items": [
+          {
+            "item_id": "con_small_hp_cell",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_002"
+    },
+    {
+      "id": "fq_star_002",
+      "title": "Dune Stalkers",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "STARFORGED_LEGION",
+      "region": "DUNE_OUTSKIRTS",
+      "description": "Dune Stalkers hunt Legion supply caravans. A Legionnaire does not flee \u2014 we hunt the hunters.",
+      "quest_giver": {
+        "npc_id": "npc_drill_sergeant_korg",
+        "name": "Sergeant Korg",
+        "location": "DUNE_OUTSKIRTS"
+      },
+      "requirements": {
+        "min_level": 1,
+        "reputation_required": 0,
+        "required_quests": [
+          "fq_star_001"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "DUNE_STALKER",
+          "count": 5,
+          "description": "Hunt Dune Stalkers."
+        },
+        {
+          "type": "collect",
+          "target": "stalker_fang",
+          "count": 3,
+          "description": "Collect Stalker fangs."
+        }
+      ],
+      "rewards": {
+        "exp": 55,
+        "currency": 35,
+        "crd": 20,
+        "rep": 35,
+        "items": [
+          {
+            "item_id": "animal_fang",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_003"
+    },
+    {
+      "id": "fq_star_003",
+      "title": "Scorched Scarab Purge",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "STARFORGED_LEGION",
+      "region": "DUNE_OUTSKIRTS",
+      "description": "Scorched Scarabs burrow beneath Legion outposts. Dig them out. A Legionnaire fights on any terrain.",
+      "quest_giver": {
+        "npc_id": "npc_drill_sergeant_korg",
+        "name": "Sergeant Korg",
+        "location": "DUNE_OUTSKIRTS"
+      },
+      "requirements": {
+        "min_level": 2,
+        "reputation_required": 60,
+        "required_quests": [
+          "fq_star_002"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SCORCHED_SCARAB",
+          "count": 6,
+          "description": "Purge Scorched Scarabs."
+        },
+        {
+          "type": "collect",
+          "target": "scarab_shell",
+          "count": 3,
+          "description": "Collect shells."
+        }
+      ],
+      "rewards": {
+        "exp": 70,
+        "currency": 40,
+        "crd": 20,
+        "rep": 40,
+        "items": [
+          {
+            "item_id": "rust_chitin",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_004"
+    },
+    {
+      "id": "fq_star_004",
+      "title": "Sand Runner Trial",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "STARFORGED_LEGION",
+      "region": "DUNE_OUTSKIRTS",
+      "description": "Sand Runners are swift, but a Legionnaire is relentless. Run them down.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "General Kaelen",
+        "location": "DUNE_OUTSKIRTS"
+      },
+      "requirements": {
+        "min_level": 3,
+        "reputation_required": 120,
+        "required_quests": [
+          "fq_star_003"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SAND_RUNNER",
+          "count": 5,
+          "description": "Run down Sand Runners."
+        },
+        {
+          "type": "collect",
+          "target": "runner_essence",
+          "count": 3,
+          "description": "Collect essence."
+        }
+      ],
+      "rewards": {
+        "exp": 80,
+        "currency": 50,
+        "crd": 25,
+        "rep": 50,
+        "items": [
+          {
+            "item_id": "con_nutrient_ration",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_005"
+    },
+    {
+      "id": "fq_star_005",
+      "title": "The Choosing",
+      "type": "tutorial",
+      "rank": "D",
+      "faction": "STARFORGED_LEGION",
+      "region": "FORTRESS_KAELEN",
+      "description": "Centurion Valka summons you to Fortress Kaelen. Your soul must be forged into a weapon through class specialization.",
+      "quest_giver": {
+        "npc_id": "npc_legion_class_trainer",
+        "name": "Centurion Valka",
+        "location": "FORTRESS_KAELEN"
+      },
+      "requirements": {
+        "min_level": 4,
+        "reputation_required": 180,
+        "required_quests": [
+          "fq_star_004"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_legion_class_trainer",
+          "count": 1,
+          "description": "Report to Centurion Valka."
+        },
+        {
+          "type": "interact",
+          "target": "class_change_screen",
+          "count": 1,
+          "description": "Choose your combat specialization."
+        },
+        {
+          "type": "kill",
+          "target": "DUNE_GNASHER",
+          "count": 3,
+          "description": "Prove your worth against Dune Gnashers."
+        }
+      ],
+      "rewards": {
+        "exp": 400,
+        "currency": 200,
+        "crd": 100,
+        "rep": 150,
+        "items": [
+          {
+            "item_id": "wpn_iron_sword",
+            "quantity": 1
+          },
+          {
+            "item_id": "arm_iron_plate",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "popup": true,
+      "popup_trigger": "on_quest_complete",
+      "popup_prerequisite": "fq_star_004",
+      "popup_level": 4,
+      "quest_chain_next": "fq_star_006"
+    },
+    {
+      "id": "fq_star_006",
+      "title": "Justice in the Badlands",
+      "type": "exploration",
+      "rank": "D",
+      "faction": "STARFORGED_LEGION",
+      "region": "SCORCHED_BADLANDS",
+      "description": "The Scorched Badlands are lawless. Legion brings order. Establish a forward command post.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "General Kaelen",
+        "location": "SCORCHED_BADLANDS"
+      },
+      "requirements": {
+        "min_level": 5,
+        "reputation_required": 240,
+        "required_quests": [
+          "fq_star_005"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SCORCHED_BADLANDS",
+          "count": 1,
+          "description": "Enter the Scorched Badlands."
+        },
+        {
+          "type": "collect",
+          "target": "command_beacon",
+          "count": 1,
+          "description": "Deploy command beacon."
+        }
+      ],
+      "rewards": {
+        "exp": 100,
+        "currency": 60,
+        "crd": 30,
+        "rep": 60,
+        "items": [
+          {
+            "item_id": "con_nutrient_ration",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_007"
+    },
+    {
+      "id": "fq_star_007",
+      "title": "Ash Hound Hunt",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "STARFORGED_LEGION",
+      "region": "SCORCHED_BADLANDS",
+      "description": "Ash Hounds are fire made flesh. A Legionnaire faces fire without fear. Hunt them.",
+      "quest_giver": {
+        "npc_id": "npc_drill_sergeant_korg",
+        "name": "Sergeant Korg",
+        "location": "SCORCHED_BADLANDS"
+      },
+      "requirements": {
+        "min_level": 6,
+        "reputation_required": 300,
+        "required_quests": [
+          "fq_star_006"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASH_HOUND",
+          "count": 5,
+          "description": "Hunt Ash Hounds."
+        },
+        {
+          "type": "collect",
+          "target": "ash_hound_fang",
+          "count": 3,
+          "description": "Collect fangs."
+        }
+      ],
+      "rewards": {
+        "exp": 120,
+        "currency": 70,
+        "crd": 35,
+        "rep": 70,
+        "items": [
+          {
+            "item_id": "animal_fang",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_008"
+    },
+    {
+      "id": "fq_star_008",
+      "title": "Scorpion Extermination",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "STARFORGED_LEGION",
+      "region": "SCORCHED_BADLANDS",
+      "description": "Dune Scorpions poison Legion water supplies. Exterminate them.",
+      "quest_giver": {
+        "npc_id": "npc_dune_scout",
+        "name": "Scout Jace",
+        "location": "SCORCHED_BADLANDS"
+      },
+      "requirements": {
+        "min_level": 7,
+        "reputation_required": 360,
+        "required_quests": [
+          "fq_star_007"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "DUNE_SCORPION",
+          "count": 6,
+          "description": "Exterminate Scorpions."
+        },
+        {
+          "type": "collect",
+          "target": "scorpion_stinger",
+          "count": 3,
+          "description": "Collect stingers."
+        }
+      ],
+      "rewards": {
+        "exp": 180,
+        "currency": 100,
+        "crd": 50,
+        "rep": 100,
+        "items": [
+          {
+            "item_id": "scorpion_stinger",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_009"
+    },
+    {
+      "id": "fq_star_009",
+      "title": "Dune Stinger",
+      "type": "boss",
+      "rank": "D",
+      "faction": "STARFORGED_LEGION",
+      "region": "SCORCHED_BADLANDS",
+      "description": "The Dune Stinger \u2014 alpha predator of the sands \u2014 terrorizes Legion patrols. A Legionnaire does not know terror. Bring it down.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "General Kaelen",
+        "location": "SCORCHED_BADLANDS"
+      },
+      "requirements": {
+        "min_level": 8,
+        "reputation_required": 420,
+        "required_quests": [
+          "fq_star_008"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "DUNE_STINGER",
+          "count": 1,
+          "description": "Hunt the Dune Stinger."
+        },
+        {
+          "type": "kill",
+          "target": "ASH_HOUND",
+          "count": 3,
+          "description": "Clear Hound escorts."
+        }
+      ],
+      "rewards": {
+        "exp": 250,
+        "currency": 150,
+        "crd": 75,
+        "rep": 150,
+        "items": [
+          {
+            "item_id": "venom_sac",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_010"
+    },
+    {
+      "id": "fq_star_010",
+      "title": "Enforcer's Fall",
+      "type": "boss",
+      "rank": "D",
+      "faction": "STARFORGED_LEGION",
+      "region": "SCORCHED_BADLANDS",
+      "description": "A Scrapfield Enforcer has claimed the Badlands as its territory. Challenge its authority. Legion bows to no one.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "General Kaelen",
+        "location": "SCORCHED_BADLANDS"
+      },
+      "requirements": {
+        "min_level": 9,
+        "reputation_required": 480,
+        "required_quests": [
+          "fq_star_009"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SCRAPFIELD_ENFORCER",
+          "count": 1,
+          "description": "Defeat the Enforcer."
+        },
+        {
+          "type": "kill",
+          "target": "BADLAND_BRUTE",
+          "count": 2,
+          "description": "Clear Brute escorts."
+        }
+      ],
+      "rewards": {
+        "exp": 300,
+        "currency": 180,
+        "crd": 90,
+        "rep": 180,
+        "items": [
+          {
+            "item_id": "rusted_plate",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_011"
+    },
+    {
+      "id": "fq_star_011",
+      "title": "Sentinels of Light",
+      "type": "exploration",
+      "rank": "C",
+      "faction": "STARFORGED_LEGION",
+      "region": "MESA_WARPATH",
+      "description": "The Mesa Warpath is the proving ground of Legion warriors. March forward and claim your territory.",
+      "quest_giver": {
+        "npc_id": "npc_warpath_veteran",
+        "name": "Veteran Gorok",
+        "location": "MESA_WARPATH"
+      },
+      "requirements": {
+        "min_level": 10,
+        "reputation_required": 540,
+        "required_quests": [
+          "fq_star_010"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "MESA_WARPATH",
+          "count": 1,
+          "description": "Enter the Mesa Warpath."
+        },
+        {
+          "type": "collect",
+          "target": "warpath_standard",
+          "count": 1,
+          "description": "Plant the Legion standard."
+        }
+      ],
+      "rewards": {
+        "exp": 280,
+        "currency": 150,
+        "crd": 75,
+        "rep": 150,
+        "items": [
+          {
+            "item_id": "con_minor_stim_pack",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_012"
+    },
+    {
+      "id": "fq_star_012",
+      "title": "Warpath Scout",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "STARFORGED_LEGION",
+      "region": "MESA_WARPATH",
+      "description": "Warpath Scouts are enemy forward elements. A Legionnaire strikes first.",
+      "quest_giver": {
+        "npc_id": "npc_warpath_veteran",
+        "name": "Veteran Gorok",
+        "location": "MESA_WARPATH"
+      },
+      "requirements": {
+        "min_level": 11,
+        "reputation_required": 600,
+        "required_quests": [
+          "fq_star_011"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "WARPATH_SCOUT",
+          "count": 5,
+          "description": "Eliminate enemy scouts."
+        },
+        {
+          "type": "collect",
+          "target": "scout_intel",
+          "count": 2,
+          "description": "Capture enemy intelligence."
+        }
+      ],
+      "rewards": {
+        "exp": 320,
+        "currency": 170,
+        "crd": 85,
+        "rep": 170,
+        "items": [
+          {
+            "item_id": "scrap_circuit",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_013"
+    },
+    {
+      "id": "fq_star_013",
+      "title": "Warpath Veteran",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "STARFORGED_LEGION",
+      "region": "MESA_WARPATH",
+      "description": "Warpath Veterans are seasoned enemy warriors. Prove that Legion training is superior.",
+      "quest_giver": {
+        "npc_id": "npc_warpath_veteran",
+        "name": "Veteran Gorok",
+        "location": "MESA_WARPATH"
+      },
+      "requirements": {
+        "min_level": 12,
+        "reputation_required": 660,
+        "required_quests": [
+          "fq_star_012"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "WARPATH_VETERAN",
+          "count": 5,
+          "description": "Defeat enemy veterans."
+        },
+        {
+          "type": "collect",
+          "target": "veteran_insignia",
+          "count": 2,
+          "description": "Collect enemy insignia."
+        }
+      ],
+      "rewards": {
+        "exp": 360,
+        "currency": 190,
+        "crd": 95,
+        "rep": 200,
+        "items": [
+          {
+            "item_id": "scrap_metal",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_014"
+    },
+    {
+      "id": "fq_star_014",
+      "title": "Champion's Duel",
+      "type": "boss",
+      "rank": "C",
+      "faction": "STARFORGED_LEGION",
+      "region": "MESA_WARPATH",
+      "description": "A Warpath Champion issues a direct challenge. Legion answers all challenges. Face them in single combat.",
+      "quest_giver": {
+        "npc_id": "npc_warpath_veteran",
+        "name": "Veteran Gorok",
+        "location": "MESA_WARPATH"
+      },
+      "requirements": {
+        "min_level": 13,
+        "reputation_required": 720,
+        "required_quests": [
+          "fq_star_013"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "WARPATH_CHAMPION",
+          "count": 2,
+          "description": "Defeat Warpath Champions in single combat."
+        },
+        {
+          "type": "collect",
+          "target": "champion_blade",
+          "count": 1,
+          "description": "Claim the Champion's blade."
+        }
+      ],
+      "rewards": {
+        "exp": 450,
+        "currency": 240,
+        "crd": 120,
+        "rep": 240,
+        "items": [
+          {
+            "item_id": "wpn_steel_broadsword",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_015"
+    },
+    {
+      "id": "fq_star_015",
+      "title": "War Path Sweep",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "STARFORGED_LEGION",
+      "region": "MESA_WARPATH",
+      "description": "Sweep the Warpath clean of all hostile forces. Leave nothing standing that is not Legion.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "General Kaelen",
+        "location": "MESA_WARPATH"
+      },
+      "requirements": {
+        "min_level": 14,
+        "reputation_required": 780,
+        "required_quests": [
+          "fq_star_014"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "WARPATH_SCOUT",
+          "count": 4,
+          "description": "Sweep Scouts."
+        },
+        {
+          "type": "kill",
+          "target": "WARPATH_VETERAN",
+          "count": 4,
+          "description": "Sweep Veterans."
+        }
+      ],
+      "rewards": {
+        "exp": 500,
+        "currency": 280,
+        "crd": 140,
+        "rep": 300,
+        "items": [
+          {
+            "item_id": "scrap_circuit",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_016"
+    },
+    {
+      "id": "fq_star_016",
+      "title": "Champion's Cohort",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "STARFORGED_LEGION",
+      "region": "MESA_WARPATH",
+      "description": "Multiple Warpath Champions coordinate against Legion. Break their coordination with superior tactics.",
+      "quest_giver": {
+        "npc_id": "npc_warpath_veteran",
+        "name": "Veteran Gorok",
+        "location": "MESA_WARPATH"
+      },
+      "requirements": {
+        "min_level": 15,
+        "reputation_required": 840,
+        "required_quests": [
+          "fq_star_015"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "WARPATH_CHAMPION",
+          "count": 3,
+          "description": "Break Champion cohort."
+        },
+        {
+          "type": "collect",
+          "target": "cohort_defeated",
+          "count": 1,
+          "description": "Confirm cohort broken."
+        }
+      ],
+      "rewards": {
+        "exp": 520,
+        "currency": 290,
+        "crd": 145,
+        "rep": 310,
+        "items": [
+          {
+            "item_id": "tactical_sensor_cluster",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_017"
+    },
+    {
+      "id": "fq_star_017",
+      "title": "Intel Recovery",
+      "type": "collect",
+      "rank": "C",
+      "faction": "STARFORGED_LEGION",
+      "region": "MESA_WARPATH",
+      "description": "Recover Legion intelligence from fallen scouts on the Warpath. Their sacrifice must be honored.",
+      "quest_giver": {
+        "npc_id": "npc_dune_scout",
+        "name": "Scout Jace",
+        "location": "MESA_WARPATH"
+      },
+      "requirements": {
+        "min_level": 16,
+        "reputation_required": 900,
+        "required_quests": [
+          "fq_star_016"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "legion_intel",
+          "count": 4,
+          "description": "Recover Legion intelligence."
+        },
+        {
+          "type": "kill",
+          "target": "WARPATH_SCOUT",
+          "count": 3,
+          "description": "Clear the recovery zone."
+        }
+      ],
+      "rewards": {
+        "exp": 480,
+        "currency": 260,
+        "crd": 130,
+        "rep": 260,
+        "items": [
+          {
+            "item_id": "memory_fragment_chip",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_018"
+    },
+    {
+      "id": "fq_star_018",
+      "title": "The Echo's Challenge",
+      "type": "boss",
+      "rank": "C",
+      "faction": "STARFORGED_LEGION",
+      "region": "MESA_WARPATH",
+      "description": "A Resonance Echo manifests on the Warpath. This entity mocks Legion honor. Destroy it.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "General Kaelen",
+        "location": "MESA_WARPATH"
+      },
+      "requirements": {
+        "min_level": 17,
+        "reputation_required": 960,
+        "required_quests": [
+          "fq_star_017"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "RESONANCE_ECHO",
+          "count": 1,
+          "description": "Destroy the Resonance Echo."
+        },
+        {
+          "type": "kill",
+          "target": "WARPATH_CHAMPION",
+          "count": 2,
+          "description": "Clear Champion guards."
+        }
+      ],
+      "rewards": {
+        "exp": 800,
+        "currency": 450,
+        "crd": 225,
+        "rep": 450,
+        "items": [
+          {
+            "item_id": "entropy_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_019"
+    },
+    {
+      "id": "fq_star_019",
+      "title": "Warpath Mastery",
+      "type": "story",
+      "rank": "C",
+      "faction": "STARFORGED_LEGION",
+      "region": "MESA_WARPATH",
+      "description": "Complete the Warpath mastery trial. Prove you are worthy of the Advanced rank.",
+      "quest_giver": {
+        "npc_id": "npc_warpath_veteran",
+        "name": "Veteran Gorok",
+        "location": "MESA_WARPATH"
+      },
+      "requirements": {
+        "min_level": 18,
+        "reputation_required": 1020,
+        "required_quests": [
+          "fq_star_018"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "WARPATH_SCOUT",
+          "count": 4,
+          "description": "Final Scout trial."
+        },
+        {
+          "type": "kill",
+          "target": "WARPATH_VETERAN",
+          "count": 4,
+          "description": "Final Veteran trial."
+        },
+        {
+          "type": "kill",
+          "target": "WARPATH_CHAMPION",
+          "count": 2,
+          "description": "Final Champion trial."
+        }
+      ],
+      "rewards": {
+        "exp": 900,
+        "currency": 500,
+        "crd": 250,
+        "rep": 500,
+        "items": [
+          {
+            "item_id": "con_medium_hp_cell",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_020"
+    },
+    {
+      "id": "fq_star_020",
+      "title": "The Trial of Resonance",
+      "type": "story",
+      "rank": "C",
+      "faction": "STARFORGED_LEGION",
+      "region": "FORTRESS_KAELEN",
+      "description": "Return to Fortress Kaelen. Your Advanced Promotion ceremony awaits before Grand Justiciar Aurelius himself.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "General Kaelen",
+        "location": "FORTRESS_KAELEN"
+      },
+      "requirements": {
+        "min_level": 19,
+        "reputation_required": 1080,
+        "required_quests": [
+          "fq_star_019"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "FORTRESS_KAELEN",
+          "count": 1,
+          "description": "Return to Fortress Kaelen."
+        },
+        {
+          "type": "collect",
+          "target": "advanced_insignia",
+          "count": 1,
+          "description": "Receive Advanced insignia."
+        }
+      ],
+      "rewards": {
+        "exp": 900,
+        "currency": 500,
+        "crd": 250,
+        "rep": 500,
+        "items": [
+          {
+            "item_id": "con_medium_mp_cell",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_021"
+    },
+    {
+      "id": "fq_star_021",
+      "title": "Ascetic Incursion",
+      "type": "exploration",
+      "rank": "B",
+      "faction": "STARFORGED_LEGION",
+      "region": "FORGE_CANYON_DEPTHS",
+      "description": "Ascetic Incursion.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "FORGE_CANYON_DEPTHS"
+      },
+      "requirements": {
+        "min_level": 20,
+        "reputation_required": 1140,
+        "required_quests": [
+          "fq_star_020"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "FORGE_CANYON_DEPTHS",
+          "count": 1,
+          "description": "Enter Forge Canyon."
+        },
+        {
+          "type": "collect",
+          "target": "canyon_survey",
+          "count": 2,
+          "description": "Survey."
+        }
+      ],
+      "rewards": {
+        "exp": 1600,
+        "currency": 800,
+        "crd": 390,
+        "rep": 500,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_022"
+    },
+    {
+      "id": "fq_star_022",
+      "title": "Assembly Drone Hunt",
+      "type": "hunt",
+      "rank": "B",
+      "faction": "STARFORGED_LEGION",
+      "region": "FORGE_CANYON_DEPTHS",
+      "description": "Assembly Drone Hunt.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "FORGE_CANYON_DEPTHS"
+      },
+      "requirements": {
+        "min_level": 21,
+        "reputation_required": 1200,
+        "required_quests": [
+          "fq_star_021"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_ASSEMBLY_DRONE",
+          "count": 6,
+          "description": "Destroy enemy drones."
+        },
+        {
+          "type": "collect",
+          "target": "drone_parts",
+          "count": 2,
+          "description": "Salvage."
+        }
+      ],
+      "rewards": {
+        "exp": 1650,
+        "currency": 825,
+        "crd": 402,
+        "rep": 515,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_023"
+    },
+    {
+      "id": "fq_star_023",
+      "title": "Sentinel Protocol",
+      "type": "boss",
+      "rank": "B",
+      "faction": "STARFORGED_LEGION",
+      "region": "FORGE_CANYON_DEPTHS",
+      "description": "Sentinel Protocol.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "FORGE_CANYON_DEPTHS"
+      },
+      "requirements": {
+        "min_level": 22,
+        "reputation_required": 1260,
+        "required_quests": [
+          "fq_star_022"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_ASSEMBLY_SENTINEL",
+          "count": 3,
+          "description": "Destroy Sentinels."
+        },
+        {
+          "type": "collect",
+          "target": "sentinel_core",
+          "count": 1,
+          "description": "Extract core."
+        }
+      ],
+      "rewards": {
+        "exp": 1700,
+        "currency": 850,
+        "crd": 414,
+        "rep": 530,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_024"
+    },
+    {
+      "id": "fq_star_024",
+      "title": "Warpath Cleanup",
+      "type": "hunt",
+      "rank": "B",
+      "faction": "STARFORGED_LEGION",
+      "region": "FORGE_CANYON_DEPTHS",
+      "description": "Warpath Cleanup.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "FORGE_CANYON_DEPTHS"
+      },
+      "requirements": {
+        "min_level": 23,
+        "reputation_required": 1320,
+        "required_quests": [
+          "fq_star_023"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "WARPATH_SCOUT",
+          "count": 4,
+          "description": "Clear Scouts."
+        },
+        {
+          "type": "kill",
+          "target": "WARPATH_VETERAN",
+          "count": 3,
+          "description": "Clear Veterans."
+        }
+      ],
+      "rewards": {
+        "exp": 1750,
+        "currency": 875,
+        "crd": 426,
+        "rep": 545,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_025"
+    },
+    {
+      "id": "fq_star_025",
+      "title": "Proto Core Assault",
+      "type": "boss",
+      "rank": "B",
+      "faction": "STARFORGED_LEGION",
+      "region": "FORGE_CANYON_DEPTHS",
+      "description": "Proto Core Assault.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "FORGE_CANYON_DEPTHS"
+      },
+      "requirements": {
+        "min_level": 24,
+        "reputation_required": 1380,
+        "required_quests": [
+          "fq_star_024"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_PROTO_CORE",
+          "count": 2,
+          "description": "Destroy Proto Cores."
+        },
+        {
+          "type": "collect",
+          "target": "core_analysis",
+          "count": 1,
+          "description": "Analyze."
+        }
+      ],
+      "rewards": {
+        "exp": 1800,
+        "currency": 900,
+        "crd": 438,
+        "rep": 560,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_026"
+    },
+    {
+      "id": "fq_star_026",
+      "title": "Skirmish Ring",
+      "type": "exploration",
+      "rank": "B",
+      "faction": "STARFORGED_LEGION",
+      "region": "BORDER_SKIRMISH_RING",
+      "description": "Skirmish Ring.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "BORDER_SKIRMISH_RING"
+      },
+      "requirements": {
+        "min_level": 25,
+        "reputation_required": 1440,
+        "required_quests": [
+          "fq_star_025"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "BORDER_SKIRMISH_RING",
+          "count": 1,
+          "description": "Enter."
+        },
+        {
+          "type": "collect",
+          "target": "skirmish_intel",
+          "count": 2,
+          "description": "Intel."
+        }
+      ],
+      "rewards": {
+        "exp": 1850,
+        "currency": 925,
+        "crd": 450,
+        "rep": 575,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_027"
+    },
+    {
+      "id": "fq_star_027",
+      "title": "Border Patrol",
+      "type": "hunt",
+      "rank": "B",
+      "faction": "STARFORGED_LEGION",
+      "region": "BORDER_SKIRMISH_RING",
+      "description": "Border Patrol.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "BORDER_SKIRMISH_RING"
+      },
+      "requirements": {
+        "min_level": 26,
+        "reputation_required": 1500,
+        "required_quests": [
+          "fq_star_026"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 6,
+          "description": "Patrol."
+        },
+        {
+          "type": "collect",
+          "target": "patrol_report",
+          "count": 1,
+          "description": "Report."
+        }
+      ],
+      "rewards": {
+        "exp": 1900,
+        "currency": 950,
+        "crd": 462,
+        "rep": 590,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_028"
+    },
+    {
+      "id": "fq_star_028",
+      "title": "Behemoth Siege",
+      "type": "boss",
+      "rank": "B",
+      "faction": "STARFORGED_LEGION",
+      "region": "BORDER_SKIRMISH_RING",
+      "description": "Behemoth Siege.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "BORDER_SKIRMISH_RING"
+      },
+      "requirements": {
+        "min_level": 27,
+        "reputation_required": 1560,
+        "required_quests": [
+          "fq_star_027"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_BEHEMOTH",
+          "count": 2,
+          "description": "Defeat."
+        },
+        {
+          "type": "collect",
+          "target": "siege_data",
+          "count": 1,
+          "description": "Data."
+        }
+      ],
+      "rewards": {
+        "exp": 1950,
+        "currency": 975,
+        "crd": 474,
+        "rep": 605,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_029"
+    },
+    {
+      "id": "fq_star_029",
+      "title": "Sentinel Mastery",
+      "type": "boss",
+      "rank": "B",
+      "faction": "STARFORGED_LEGION",
+      "region": "FORGE_CANYON_DEPTHS",
+      "description": "Sentinel Mastery.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "FORGE_CANYON_DEPTHS"
+      },
+      "requirements": {
+        "min_level": 28,
+        "reputation_required": 1620,
+        "required_quests": [
+          "fq_star_028"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_ASSEMBLY_SENTINEL",
+          "count": 4,
+          "description": "Master."
+        },
+        {
+          "type": "collect",
+          "target": "mastery_report",
+          "count": 1,
+          "description": "Report."
+        }
+      ],
+      "rewards": {
+        "exp": 2000,
+        "currency": 1000,
+        "crd": 486,
+        "rep": 620,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_030"
+    },
+    {
+      "id": "fq_star_030",
+      "title": "The Second Trial",
+      "type": "story",
+      "rank": "B",
+      "faction": "STARFORGED_LEGION",
+      "region": "FORTRESS_KAELEN",
+      "description": "The Second Trial.",
+      "quest_giver": {
+        "npc_id": "npc_legion_class_trainer",
+        "name": "Centurion Valka",
+        "location": "FORTRESS_KAELEN"
+      },
+      "requirements": {
+        "min_level": 29,
+        "reputation_required": 1680,
+        "required_quests": [
+          "fq_star_029"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_legion_class_trainer",
+          "count": 1,
+          "description": "Report to Centurion Valka."
+        },
+        {
+          "type": "kill",
+          "target": "RESONANCE_ECHO",
+          "count": 1,
+          "description": "Prove strength."
+        },
+        {
+          "type": "kill",
+          "target": "TITAN_PROTO_CORE",
+          "count": 1,
+          "description": "Prove endurance."
+        }
+      ],
+      "rewards": {
+        "exp": 2050,
+        "currency": 1025,
+        "crd": 498,
+        "rep": 635,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "popup": true,
+      "popup_trigger": "on_quest_complete",
+      "popup_prerequisite": "fq_star_029",
+      "popup_level": 29,
+      "quest_chain_next": "fq_star_031"
+    },
+    {
+      "id": "fq_star_031",
+      "title": "Winged Justice",
+      "type": "exploration",
+      "rank": "A",
+      "faction": "STARFORGED_LEGION",
+      "region": "ORBITAL_SENTINEL_COMMAND",
+      "description": "Winged Justice.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "ORBITAL_SENTINEL_COMMAND"
+      },
+      "requirements": {
+        "min_level": 30,
+        "reputation_required": 1740,
+        "required_quests": [
+          "fq_star_030"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "ORBITAL_SENTINEL_COMMAND",
+          "count": 1,
+          "description": "Take to the skies."
+        },
+        {
+          "type": "collect",
+          "target": "orbital_standard",
+          "count": 1,
+          "description": "Plant Legion standard."
+        }
+      ],
+      "rewards": {
+        "exp": 2100,
+        "currency": 1050,
+        "crd": 510,
+        "rep": 650,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_032"
+    },
+    {
+      "id": "fq_star_032",
+      "title": "Drake's Challenge",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Drake's Challenge.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 31,
+        "reputation_required": 1800,
+        "required_quests": [
+          "fq_star_031"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Challenge the Drake."
+        },
+        {
+          "type": "collect",
+          "target": "drake_data",
+          "count": 1,
+          "description": "Record."
+        }
+      ],
+      "rewards": {
+        "exp": 2150,
+        "currency": 1075,
+        "crd": 522,
+        "rep": 665,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_033"
+    },
+    {
+      "id": "fq_star_033",
+      "title": "Carapace Breach",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Carapace Breach.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 32,
+        "reputation_required": 1860,
+        "required_quests": [
+          "fq_star_032"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 6,
+          "description": "Breach."
+        },
+        {
+          "type": "collect",
+          "target": "plate_report",
+          "count": 3,
+          "description": "Report."
+        }
+      ],
+      "rewards": {
+        "exp": 2200,
+        "currency": 1100,
+        "crd": 534,
+        "rep": 680,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_034"
+    },
+    {
+      "id": "fq_star_034",
+      "title": "Corrupted Behemoth Hunt",
+      "type": "boss",
+      "rank": "A",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Corrupted Behemoth Hunt.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 33,
+        "reputation_required": 1920,
+        "required_quests": [
+          "fq_star_033"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 2,
+          "description": "Hunt."
+        },
+        {
+          "type": "collect",
+          "target": "hunt_report",
+          "count": 1,
+          "description": "Report."
+        }
+      ],
+      "rewards": {
+        "exp": 2250,
+        "currency": 1125,
+        "crd": 546,
+        "rep": 695,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_035"
+    },
+    {
+      "id": "fq_star_035",
+      "title": "Abyssal Front",
+      "type": "boss",
+      "rank": "A",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Abyssal Front.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 34,
+        "reputation_required": 1980,
+        "required_quests": [
+          "fq_star_034"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 4,
+          "description": "Engage."
+        },
+        {
+          "type": "collect",
+          "target": "front_report",
+          "count": 1,
+          "description": "Report."
+        }
+      ],
+      "rewards": {
+        "exp": 2300,
+        "currency": 1150,
+        "crd": 558,
+        "rep": 710,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_036"
+    },
+    {
+      "id": "fq_star_036",
+      "title": "Orbital Defense",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Orbital Defense.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 35,
+        "reputation_required": 2040,
+        "required_quests": [
+          "fq_star_035"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 6,
+          "description": "Defend."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 3,
+          "description": "Neutralize."
+        }
+      ],
+      "rewards": {
+        "exp": 2350,
+        "currency": 1175,
+        "crd": 570,
+        "rep": 725,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_037"
+    },
+    {
+      "id": "fq_star_037",
+      "title": "Drake's Judgment",
+      "type": "boss",
+      "rank": "A",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Drake's Judgment.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 36,
+        "reputation_required": 2100,
+        "required_quests": [
+          "fq_star_036"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Execute judgment."
+        },
+        {
+          "type": "collect",
+          "target": "judgment_report",
+          "count": 1,
+          "description": "Report."
+        }
+      ],
+      "rewards": {
+        "exp": 2400,
+        "currency": 1200,
+        "crd": 582,
+        "rep": 740,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_038"
+    },
+    {
+      "id": "fq_star_038",
+      "title": "Expanse Conquest",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Expanse Conquest.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 37,
+        "reputation_required": 2160,
+        "required_quests": [
+          "fq_star_037"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "description": "Conquer."
+        },
+        {
+          "type": "collect",
+          "target": "conquest_report",
+          "count": 1,
+          "description": "Report."
+        }
+      ],
+      "rewards": {
+        "exp": 2450,
+        "currency": 1225,
+        "crd": 594,
+        "rep": 755,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_039"
+    },
+    {
+      "id": "fq_star_039",
+      "title": "Abyssal Counter",
+      "type": "boss",
+      "rank": "A",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Abyssal Counter.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 38,
+        "reputation_required": 2220,
+        "required_quests": [
+          "fq_star_038"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 6,
+          "description": "Counter."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 3,
+          "description": "Silence."
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 1250,
+        "crd": 606,
+        "rep": 770,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_040"
+    },
+    {
+      "id": "fq_star_040",
+      "title": "Master of the Starforge",
+      "type": "story",
+      "rank": "A",
+      "faction": "STARFORGED_LEGION",
+      "region": "FORTRESS_KAELEN",
+      "description": "Master of the Starforge.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "General Kaelen",
+        "location": "FORTRESS_KAELEN"
+      },
+      "requirements": {
+        "min_level": 39,
+        "reputation_required": 2280,
+        "required_quests": [
+          "fq_star_039"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Conquer Drake."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_BEHEMOTH",
+          "count": 1,
+          "description": "Conquer Behemoth."
+        },
+        {
+          "type": "kill",
+          "target": "WARPATH_CHAMPION",
+          "count": 2,
+          "description": "Conquer Champions."
+        }
+      ],
+      "rewards": {
+        "exp": 2550,
+        "currency": 1275,
+        "crd": 618,
+        "rep": 785,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_041"
+    },
+    {
+      "id": "fq_star_041",
+      "title": "Light in the Chasm",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Light in the Chasm.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 40,
+        "reputation_required": 2340,
+        "required_quests": [
+          "fq_star_040"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "VOID_ECHO_CHASM",
+          "count": 1,
+          "description": "Enter."
+        },
+        {
+          "type": "collect",
+          "target": "chasm_survey",
+          "count": 3,
+          "description": "Survey."
+        }
+      ],
+      "rewards": {
+        "exp": 2600,
+        "currency": 1300,
+        "crd": 630,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_042"
+    },
+    {
+      "id": "fq_star_042",
+      "title": "Void Reaver Purge",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Void Reaver Purge.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 41,
+        "reputation_required": 2400,
+        "required_quests": [
+          "fq_star_041"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 6,
+          "description": "Purge."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 4,
+          "description": "Purge."
+        }
+      ],
+      "rewards": {
+        "exp": 2650,
+        "currency": 1325,
+        "crd": 642,
+        "rep": 815,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_043"
+    },
+    {
+      "id": "fq_star_043",
+      "title": "Abyssal Hunt",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Abyssal Hunt.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 42,
+        "reputation_required": 2460,
+        "required_quests": [
+          "fq_star_042"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Hunt."
+        },
+        {
+          "type": "collect",
+          "target": "hunt_tally",
+          "count": 2,
+          "description": "Tally."
+        }
+      ],
+      "rewards": {
+        "exp": 2700,
+        "currency": 1350,
+        "crd": 654,
+        "rep": 830,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_044"
+    },
+    {
+      "id": "fq_star_044",
+      "title": "Behemoth Execution",
+      "type": "boss",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Behemoth Execution.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 43,
+        "reputation_required": 2520,
+        "required_quests": [
+          "fq_star_043"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "description": "Execute."
+        },
+        {
+          "type": "collect",
+          "target": "execute_report",
+          "count": 1,
+          "description": "Report."
+        }
+      ],
+      "rewards": {
+        "exp": 2750,
+        "currency": 1375,
+        "crd": 666,
+        "rep": 845,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_045"
+    },
+    {
+      "id": "fq_star_045",
+      "title": "Soul Breaker",
+      "type": "boss",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Soul Breaker.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 44,
+        "reputation_required": 2580,
+        "required_quests": [
+          "fq_star_044"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SOUL_FRAGMENTER",
+          "count": 2,
+          "description": "Break."
+        },
+        {
+          "type": "collect",
+          "target": "break_report",
+          "count": 1,
+          "description": "Report."
+        }
+      ],
+      "rewards": {
+        "exp": 2800,
+        "currency": 1400,
+        "crd": 678,
+        "rep": 860,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_046"
+    },
+    {
+      "id": "fq_star_046",
+      "title": "Chrono Elimination",
+      "type": "boss",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Chrono Elimination.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 45,
+        "reputation_required": 2640,
+        "required_quests": [
+          "fq_star_045"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CHRONO_WRAITH",
+          "count": 2,
+          "description": "Eliminate."
+        },
+        {
+          "type": "collect",
+          "target": "elim_report",
+          "count": 1,
+          "description": "Report."
+        }
+      ],
+      "rewards": {
+        "exp": 2850,
+        "currency": 1425,
+        "crd": 690,
+        "rep": 875,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_047"
+    },
+    {
+      "id": "fq_star_047",
+      "title": "Jotunn Conquest",
+      "type": "boss",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Jotunn Conquest.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 46,
+        "reputation_required": 2700,
+        "required_quests": [
+          "fq_star_046"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "description": "Conquer."
+        },
+        {
+          "type": "collect",
+          "target": "conquest_report",
+          "count": 1,
+          "description": "Report."
+        }
+      ],
+      "rewards": {
+        "exp": 2900,
+        "currency": 1450,
+        "crd": 702,
+        "rep": 890,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_048"
+    },
+    {
+      "id": "fq_star_048",
+      "title": "Heart Breach",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Heart Breach.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 47,
+        "reputation_required": 2760,
+        "required_quests": [
+          "fq_star_047"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SHATTERED_HEART",
+          "count": 1,
+          "description": "Breach."
+        },
+        {
+          "type": "collect",
+          "target": "breach_established",
+          "count": 1,
+          "description": "Established."
+        }
+      ],
+      "rewards": {
+        "exp": 2950,
+        "currency": 1475,
+        "crd": 714,
+        "rep": 905,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_049"
+    },
+    {
+      "id": "fq_star_049",
+      "title": "The Drake's Redemption",
+      "type": "boss",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "SHATTERED_HEART",
+      "description": "The Drake's Redemption.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 49,
+        "reputation_required": 2880,
+        "required_quests": [
+          "fq_star_048"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Redeem."
+        },
+        {
+          "type": "kill",
+          "target": "DRAKE_MINION",
+          "count": 5,
+          "description": "Clear Minions."
+        }
+      ],
+      "rewards": {
+        "exp": 3050,
+        "currency": 1525,
+        "crd": 738,
+        "rep": 935,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_050"
+    },
+    {
+      "id": "fq_star_050",
+      "title": "Exorcism Protocol",
+      "type": "boss",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Exorcism Protocol.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 50,
+        "reputation_required": 2940,
+        "required_quests": [
+          "fq_star_049"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SOUL_FRAGMENTER",
+          "count": 3,
+          "description": "Exorcise."
+        },
+        {
+          "type": "kill",
+          "target": "VOID_STALKER",
+          "count": 1,
+          "description": "Exorcise."
+        }
+      ],
+      "rewards": {
+        "exp": 3100,
+        "currency": 1550,
+        "crd": 750,
+        "rep": 950,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_051"
+    },
+    {
+      "id": "fq_star_051",
+      "title": "Total Void War",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Total Void War.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 51,
+        "reputation_required": 3000,
+        "required_quests": [
+          "fq_star_050"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 8,
+          "description": "Destroy."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 5,
+          "description": "Destroy."
+        }
+      ],
+      "rewards": {
+        "exp": 3150,
+        "currency": 1575,
+        "crd": 762,
+        "rep": 965,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_052"
+    },
+    {
+      "id": "fq_star_052",
+      "title": "Stalker Execution",
+      "type": "boss",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Stalker Execution.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 52,
+        "reputation_required": 3060,
+        "required_quests": [
+          "fq_star_051"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "VOID_STALKER",
+          "count": 1,
+          "description": "Execute."
+        },
+        {
+          "type": "collect",
+          "target": "execution_report",
+          "count": 1,
+          "description": "Report."
+        }
+      ],
+      "rewards": {
+        "exp": 3200,
+        "currency": 1600,
+        "crd": 774,
+        "rep": 980,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_053"
+    },
+    {
+      "id": "fq_star_053",
+      "title": "Temporal Breach",
+      "type": "boss",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Temporal Breach.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 53,
+        "reputation_required": 3120,
+        "required_quests": [
+          "fq_star_052"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CHRONO_WRAITH",
+          "count": 3,
+          "description": "Close breach."
+        },
+        {
+          "type": "collect",
+          "target": "breach_closed",
+          "count": 1,
+          "description": "Confirmed."
+        }
+      ],
+      "rewards": {
+        "exp": 3250,
+        "currency": 1625,
+        "crd": 786,
+        "rep": 995,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_054"
+    },
+    {
+      "id": "fq_star_054",
+      "title": "Heart Assault",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Heart Assault.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 54,
+        "reputation_required": 3180,
+        "required_quests": [
+          "fq_star_053"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 10,
+          "description": "Assault."
+        },
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 6,
+          "description": "Clear."
+        }
+      ],
+      "rewards": {
+        "exp": 3300,
+        "currency": 1650,
+        "crd": 798,
+        "rep": 1010,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_055"
+    },
+    {
+      "id": "fq_star_055",
+      "title": "Jotunn Strongpoint",
+      "type": "boss",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Jotunn Strongpoint.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 55,
+        "reputation_required": 3240,
+        "required_quests": [
+          "fq_star_054"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "description": "Break."
+        },
+        {
+          "type": "collect",
+          "target": "strongpoint_taken",
+          "count": 1,
+          "description": "Taken."
+        }
+      ],
+      "rewards": {
+        "exp": 3350,
+        "currency": 1675,
+        "crd": 810,
+        "rep": 1025,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_056"
+    },
+    {
+      "id": "fq_star_056",
+      "title": "Tyrant Battery",
+      "type": "boss",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Tyrant Battery.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 56,
+        "reputation_required": 3300,
+        "required_quests": [
+          "fq_star_055"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 2,
+          "description": "Silence."
+        },
+        {
+          "type": "collect",
+          "target": "battery_silenced",
+          "count": 1,
+          "description": "Silenced."
+        }
+      ],
+      "rewards": {
+        "exp": 3400,
+        "currency": 1700,
+        "crd": 822,
+        "rep": 1040,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_057"
+    },
+    {
+      "id": "fq_star_057",
+      "title": "Harbinger Beachhead",
+      "type": "story",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Harbinger Beachhead.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 57,
+        "reputation_required": 3360,
+        "required_quests": [
+          "fq_star_056"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 6,
+          "description": "Clear."
+        },
+        {
+          "type": "kill",
+          "target": "CHRONO_WRAITH",
+          "count": 1,
+          "description": "Eliminate."
+        },
+        {
+          "type": "collect",
+          "target": "beachhead_set",
+          "count": 1,
+          "description": "Set."
+        }
+      ],
+      "rewards": {
+        "exp": 3450,
+        "currency": 1725,
+        "crd": 834,
+        "rep": 1055,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_058"
+    },
+    {
+      "id": "fq_star_058",
+      "title": "Fragmenter Front",
+      "type": "boss",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Fragmenter Front.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 58,
+        "reputation_required": 3420,
+        "required_quests": [
+          "fq_star_057"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SOUL_FRAGMENTER",
+          "count": 3,
+          "description": "Break."
+        },
+        {
+          "type": "kill",
+          "target": "VOID_STALKER",
+          "count": 1,
+          "description": "Eliminate."
+        }
+      ],
+      "rewards": {
+        "exp": 3500,
+        "currency": 1750,
+        "crd": 846,
+        "rep": 1070,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_059"
+    },
+    {
+      "id": "fq_star_059",
+      "title": "Harbinger's Banishing",
+      "type": "boss",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Harbinger's Banishing.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 59,
+        "reputation_required": 3480,
+        "required_quests": [
+          "fq_star_058"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "description": "BANISH HARBINGER."
+        },
+        {
+          "type": "collect",
+          "target": "banishment_seal",
+          "count": 1,
+          "description": "Seal."
+        }
+      ],
+      "rewards": {
+        "exp": 3550,
+        "currency": 1775,
+        "crd": 858,
+        "rep": 1085,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_060"
+    },
+    {
+      "id": "fq_star_060",
+      "title": "Solidifying the Earth",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Solidifying the Earth.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 60,
+        "reputation_required": 3540,
+        "required_quests": [
+          "fq_star_059"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SEVERANCE_FAULTLINE",
+          "count": 1,
+          "description": "Enter."
+        },
+        {
+          "type": "collect",
+          "target": "seismic_data",
+          "count": 3,
+          "description": "Collect."
+        }
+      ],
+      "rewards": {
+        "exp": 3600,
+        "currency": 1800,
+        "crd": 870,
+        "rep": 1100,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_061"
+    },
+    {
+      "id": "fq_star_061",
+      "title": "Carapace Breach",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Carapace Breach.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 61,
+        "reputation_required": 3600,
+        "required_quests": [
+          "fq_star_060"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "description": "Breach."
+        },
+        {
+          "type": "collect",
+          "target": "breach_report",
+          "count": 3,
+          "description": "Report."
+        }
+      ],
+      "rewards": {
+        "exp": 3650,
+        "currency": 1825,
+        "crd": 882,
+        "rep": 1115,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_062"
+    },
+    {
+      "id": "fq_star_062",
+      "title": "Tyrant Position",
+      "type": "boss",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Tyrant Position.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 62,
+        "reputation_required": 3660,
+        "required_quests": [
+          "fq_star_061"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 2,
+          "description": "Remove."
+        },
+        {
+          "type": "collect",
+          "target": "position_cleared",
+          "count": 1,
+          "description": "Clear."
+        }
+      ],
+      "rewards": {
+        "exp": 3700,
+        "currency": 1850,
+        "crd": 894,
+        "rep": 1130,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_063"
+    },
+    {
+      "id": "fq_star_063",
+      "title": "Jotunn Blockade",
+      "type": "boss",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Jotunn Blockade.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 63,
+        "reputation_required": 3720,
+        "required_quests": [
+          "fq_star_062"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "description": "Break."
+        },
+        {
+          "type": "collect",
+          "target": "advance_route",
+          "count": 1,
+          "description": "Open."
+        }
+      ],
+      "rewards": {
+        "exp": 3750,
+        "currency": 1875,
+        "crd": 906,
+        "rep": 1145,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_064"
+    },
+    {
+      "id": "fq_star_064",
+      "title": "Titan Preparation",
+      "type": "story",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Titan Preparation.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 64,
+        "reputation_required": 3780,
+        "required_quests": [
+          "fq_star_063"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "titan_intel",
+          "count": 3,
+          "description": "Collect."
+        },
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "description": "Clear."
+        }
+      ],
+      "rewards": {
+        "exp": 3800,
+        "currency": 1900,
+        "crd": 918,
+        "rep": 1160,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_065"
+    },
+    {
+      "id": "fq_star_065",
+      "title": "Core Entry",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Core Entry.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 64,
+        "reputation_required": 3780,
+        "required_quests": [
+          "fq_star_064"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "AETHEL_SIPHON_CORE",
+          "count": 1,
+          "description": "Enter."
+        },
+        {
+          "type": "collect",
+          "target": "core_readings",
+          "count": 2,
+          "description": "Read."
+        }
+      ],
+      "rewards": {
+        "exp": 3800,
+        "currency": 1900,
+        "crd": 918,
+        "rep": 1160,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_066"
+    },
+    {
+      "id": "fq_star_066",
+      "title": "Core Purge",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Core Purge.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 65,
+        "reputation_required": 3840,
+        "required_quests": [
+          "fq_star_065"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 8,
+          "description": "Purge."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 5,
+          "description": "Purge."
+        }
+      ],
+      "rewards": {
+        "exp": 3850,
+        "currency": 1925,
+        "crd": 930,
+        "rep": 1175,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_067"
+    },
+    {
+      "id": "fq_star_067",
+      "title": "Behemoth Defense",
+      "type": "boss",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Behemoth Defense.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 66,
+        "reputation_required": 3900,
+        "required_quests": [
+          "fq_star_066"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "description": "Defend."
+        },
+        {
+          "type": "collect",
+          "target": "defense_report",
+          "count": 1,
+          "description": "Report."
+        }
+      ],
+      "rewards": {
+        "exp": 3900,
+        "currency": 1950,
+        "crd": 942,
+        "rep": 1190,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_068"
+    },
+    {
+      "id": "fq_star_068",
+      "title": "Rift Patrol",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Rift Patrol.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 67,
+        "reputation_required": 3960,
+        "required_quests": [
+          "fq_star_067"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 6,
+          "description": "Patrol."
+        },
+        {
+          "type": "collect",
+          "target": "patrol_report",
+          "count": 1,
+          "description": "Report."
+        }
+      ],
+      "rewards": {
+        "exp": 3950,
+        "currency": 1975,
+        "crd": 954,
+        "rep": 1205,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_069"
+    },
+    {
+      "id": "fq_star_069",
+      "title": "Titan Mobilization",
+      "type": "story",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Titan Mobilization.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 68,
+        "reputation_required": 4020,
+        "required_quests": [
+          "fq_star_068"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "titan_data",
+          "count": 3,
+          "description": "Collect."
+        },
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "description": "Engage."
+        }
+      ],
+      "rewards": {
+        "exp": 4000,
+        "currency": 2000,
+        "crd": 966,
+        "rep": 1220,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_070"
+    },
+    {
+      "id": "fq_star_070",
+      "title": "The Titan's Humility",
+      "type": "boss",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Titan's Humility.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 69,
+        "reputation_required": 4080,
+        "required_quests": [
+          "fq_star_069"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "description": "HUMBLE THE TITAN."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Clear."
+        }
+      ],
+      "rewards": {
+        "exp": 4050,
+        "currency": 2025,
+        "crd": 978,
+        "rep": 1235,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_071"
+    },
+    {
+      "id": "fq_star_071",
+      "title": "The Celestial Forge",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The Celestial Forge.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 70,
+        "reputation_required": 4140,
+        "required_quests": [
+          "fq_star_070"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "PRIMA_MATERIA_FORGE",
+          "count": 1,
+          "description": "Enter."
+        },
+        {
+          "type": "collect",
+          "target": "forge_survey",
+          "count": 2,
+          "description": "Survey."
+        }
+      ],
+      "rewards": {
+        "exp": 4100,
+        "currency": 2050,
+        "crd": 990,
+        "rep": 1250,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_072"
+    },
+    {
+      "id": "fq_star_072",
+      "title": "Forge Conquer",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Forge Conquer.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 71,
+        "reputation_required": 4200,
+        "required_quests": [
+          "fq_star_071"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "description": "Conquer."
+        },
+        {
+          "type": "collect",
+          "target": "forge_secured",
+          "count": 1,
+          "description": "Secured."
+        }
+      ],
+      "rewards": {
+        "exp": 4150,
+        "currency": 2075,
+        "crd": 1002,
+        "rep": 1265,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_073"
+    },
+    {
+      "id": "fq_star_073",
+      "title": "Abyssal Purge",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Abyssal Purge.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 72,
+        "reputation_required": 4260,
+        "required_quests": [
+          "fq_star_072"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 8,
+          "description": "Purge."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 5,
+          "description": "Silence."
+        }
+      ],
+      "rewards": {
+        "exp": 4200,
+        "currency": 2100,
+        "crd": 1014,
+        "rep": 1280,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_074"
+    },
+    {
+      "id": "fq_star_074",
+      "title": "Jotunn Foundry",
+      "type": "boss",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Jotunn Foundry.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 73,
+        "reputation_required": 4320,
+        "required_quests": [
+          "fq_star_073"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "description": "Conquer."
+        },
+        {
+          "type": "collect",
+          "target": "foundry_claimed",
+          "count": 1,
+          "description": "Claimed."
+        }
+      ],
+      "rewards": {
+        "exp": 4250,
+        "currency": 2125,
+        "crd": 1026,
+        "rep": 1295,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_075"
+    },
+    {
+      "id": "fq_star_075",
+      "title": "Proto Core Recycle",
+      "type": "boss",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Proto Core Recycle.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 74,
+        "reputation_required": 4380,
+        "required_quests": [
+          "fq_star_074"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_PROTO_CORE",
+          "count": 2,
+          "description": "Recycle."
+        },
+        {
+          "type": "collect",
+          "target": "recycling_done",
+          "count": 1,
+          "description": "Done."
+        }
+      ],
+      "rewards": {
+        "exp": 4300,
+        "currency": 2150,
+        "crd": 1038,
+        "rep": 1310,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_076"
+    },
+    {
+      "id": "fq_star_076",
+      "title": "Legendary Exemplar Trial",
+      "type": "story",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Legendary Exemplar Trial.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 75,
+        "reputation_required": 4440,
+        "required_quests": [
+          "fq_star_075"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "description": "Conquer Titan."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "description": "Conquer Harbinger."
+        }
+      ],
+      "rewards": {
+        "exp": 4350,
+        "currency": 2175,
+        "crd": 1050,
+        "rep": 1325,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_077"
+    },
+    {
+      "id": "fq_star_077",
+      "title": "Legendary Exemplar",
+      "type": "story",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Legendary Exemplar.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 76,
+        "reputation_required": 4500,
+        "required_quests": [
+          "fq_star_076"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "FORTRESS_KAELEN",
+          "count": 1,
+          "description": "Return."
+        },
+        {
+          "type": "collect",
+          "target": "legend_seal",
+          "count": 1,
+          "description": "Receive Seal."
+        }
+      ],
+      "rewards": {
+        "exp": 4400,
+        "currency": 2200,
+        "crd": 1062,
+        "rep": 1340,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_078"
+    },
+    {
+      "id": "fq_star_078",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Legion duty.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 77,
+        "reputation_required": 4560,
+        "required_quests": [
+          "fq_star_077"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_079"
+    },
+    {
+      "id": "fq_star_079",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Legion duty.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 78,
+        "reputation_required": 4620,
+        "required_quests": [
+          "fq_star_078"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_080"
+    },
+    {
+      "id": "fq_star_080",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Legion duty.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 79,
+        "reputation_required": 4680,
+        "required_quests": [
+          "fq_star_079"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_081"
+    },
+    {
+      "id": "fq_star_081",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Legion duty.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 80,
+        "reputation_required": 4740,
+        "required_quests": [
+          "fq_star_080"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_082"
+    },
+    {
+      "id": "fq_star_082",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Legion duty.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 81,
+        "reputation_required": 4800,
+        "required_quests": [
+          "fq_star_081"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_083"
+    },
+    {
+      "id": "fq_star_083",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Legion duty.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 82,
+        "reputation_required": 4860,
+        "required_quests": [
+          "fq_star_082"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_084"
+    },
+    {
+      "id": "fq_star_084",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Legion duty.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 83,
+        "reputation_required": 4920,
+        "required_quests": [
+          "fq_star_083"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_085"
+    },
+    {
+      "id": "fq_star_085",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Legion duty.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 84,
+        "reputation_required": 4980,
+        "required_quests": [
+          "fq_star_084"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_086"
+    },
+    {
+      "id": "fq_star_086",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Legion duty.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 85,
+        "reputation_required": 5040,
+        "required_quests": [
+          "fq_star_085"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_087"
+    },
+    {
+      "id": "fq_star_087",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Legion duty.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 86,
+        "reputation_required": 5100,
+        "required_quests": [
+          "fq_star_086"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_088"
+    },
+    {
+      "id": "fq_star_088",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Legion duty.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 87,
+        "reputation_required": 5160,
+        "required_quests": [
+          "fq_star_087"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_089"
+    },
+    {
+      "id": "fq_star_089",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Legion duty.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 88,
+        "reputation_required": 5220,
+        "required_quests": [
+          "fq_star_088"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_090"
+    },
+    {
+      "id": "fq_star_090",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Legion duty.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 89,
+        "reputation_required": 5280,
+        "required_quests": [
+          "fq_star_089"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_091"
+    },
+    {
+      "id": "fq_star_091",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Legion duty.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 90,
+        "reputation_required": 5340,
+        "required_quests": [
+          "fq_star_090"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_092"
+    },
+    {
+      "id": "fq_star_092",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Legion duty.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 91,
+        "reputation_required": 5400,
+        "required_quests": [
+          "fq_star_091"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_093"
+    },
+    {
+      "id": "fq_star_093",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Legion duty.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 92,
+        "reputation_required": 5460,
+        "required_quests": [
+          "fq_star_092"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_094"
+    },
+    {
+      "id": "fq_star_094",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Legion duty.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 93,
+        "reputation_required": 5520,
+        "required_quests": [
+          "fq_star_093"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_095"
+    },
+    {
+      "id": "fq_star_095",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Legion duty.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 94,
+        "reputation_required": 5580,
+        "required_quests": [
+          "fq_star_094"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_096"
+    },
+    {
+      "id": "fq_star_096",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Legion duty.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 95,
+        "reputation_required": 5640,
+        "required_quests": [
+          "fq_star_095"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_097"
+    },
+    {
+      "id": "fq_star_097",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Legion duty.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 96,
+        "reputation_required": 5700,
+        "required_quests": [
+          "fq_star_096"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_098"
+    },
+    {
+      "id": "fq_star_098",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "CRADLE_EXPANSE",
+      "description": "Legion duty.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 97,
+        "reputation_required": 5760,
+        "required_quests": [
+          "fq_star_097"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_099"
+    },
+    {
+      "id": "fq_star_099",
+      "title": "The Trinity Trial",
+      "type": "story",
+      "rank": "S",
+      "faction": "STARFORGED_LEGION",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Face Jotunn, Drake, and Harbinger simultaneously. No Legionnaire has ever faced such odds. You will be the first.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 98,
+        "reputation_required": 5820,
+        "required_quests": [
+          "fq_star_098"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "description": "Conquer Jotunn."
+        },
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Conquer Drake."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "description": "Conquer Harbinger."
+        },
+        {
+          "type": "collect",
+          "target": "trinity_seal",
+          "count": 1,
+          "description": "Claim Trinity Seal."
+        }
+      ],
+      "rewards": {
+        "exp": 25000,
+        "currency": 12000,
+        "crd": 6000,
+        "rep": 8000,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_star_100"
+    },
+    {
+      "id": "fq_star_100",
+      "title": "Eternity of Honor",
+      "type": "story",
+      "rank": "SS",
+      "faction": "STARFORGED_LEGION",
+      "region": "FORTRESS_KAELEN",
+      "description": "The Eternal Titan and Harbinger have fallen. Return to Fortress Kaelen. Grand Justiciar Aurelius declares you ETERNAL LEGIONNAIRE. Iman melalui Ujian. Persatuan melalui Pengorbanan. Selamanya.",
+      "quest_giver": {
+        "npc_id": "npc_legion_general",
+        "name": "General Kaelen",
+        "location": "FORTRESS_KAELEN"
+      },
+      "requirements": {
+        "min_level": 99,
+        "reputation_required": 5880,
+        "required_quests": [
+          "fq_star_099"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "FORTRESS_KAELEN",
+          "count": 1,
+          "description": "Return as Eternal Legionnaire."
+        },
+        {
+          "type": "interact",
+          "target": "npc_legion_general",
+          "count": 1,
+          "description": "Receive Grand Justiciar Aurelius's eternal commendation."
+        }
+      ],
+      "rewards": {
+        "exp": 50000,
+        "currency": 25000,
+        "crd": 12500,
+        "rep": 10000,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false
+    }
+  ]
+}

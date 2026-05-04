@@ -1,0 +1,4824 @@
+{
+  "quests": [
+    {
+      "id": "fq_shard_001",
+      "title": "The Gentle Harvest",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "GLOWVINE_FOREST",
+      "description": "Elder Malakor speaks: the Glowvine Sprites grow restless. Calm them. Return their energy to the soil.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "High Priestess Lyr",
+        "location": "GLOWVINE_FOREST"
+      },
+      "requirements": {
+        "min_level": 1,
+        "reputation_required": 0,
+        "required_quests": []
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GLOWVINE_SPRITE",
+          "count": 5,
+          "description": "Calm Glowvine Sprites."
+        },
+        {
+          "type": "collect",
+          "target": "glowvine_bloom",
+          "count": 2,
+          "description": "Collect Glowvine Blooms."
+        }
+      ],
+      "rewards": {
+        "exp": 50,
+        "currency": 30,
+        "crd": 15,
+        "rep": 30,
+        "items": [
+          {
+            "item_id": "con_small_hp_cell",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_002"
+    },
+    {
+      "id": "fq_shard_002",
+      "title": "Forest Awakening",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "GLOWVINE_FOREST",
+      "description": "Forest Barklings are the Shard's children. Prune with care \u2014 each cut is a prayer.",
+      "quest_giver": {
+        "npc_id": "npc_acolyte_mera",
+        "name": "Acolyte Mera",
+        "location": "GLOWVINE_FOREST"
+      },
+      "requirements": {
+        "min_level": 1,
+        "reputation_required": 0,
+        "required_quests": [
+          "fq_shard_001"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "FOREST_BARKLING",
+          "count": 5,
+          "description": "Prune Forest Barklings."
+        },
+        {
+          "type": "collect",
+          "target": "barkling_essence",
+          "count": 2,
+          "description": "Collect Barkling essence."
+        }
+      ],
+      "rewards": {
+        "exp": 55,
+        "currency": 35,
+        "crd": 20,
+        "rep": 35,
+        "items": [
+          {
+            "item_id": "vine_fiber",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_003"
+    },
+    {
+      "id": "fq_shard_003",
+      "title": "Stalker in the Glow",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "GLOWVINE_FOREST",
+      "description": "Glowvine Stalkers hunt the sacred forest. They are lost, not evil. Guide them back to the Shard.",
+      "quest_giver": {
+        "npc_id": "npc_forest_acolyte",
+        "name": "Brother Silas",
+        "location": "GLOWVINE_FOREST"
+      },
+      "requirements": {
+        "min_level": 2,
+        "reputation_required": 60,
+        "required_quests": [
+          "fq_shard_002"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GLOWVINE_STALKER",
+          "count": 5,
+          "description": "Guide Glowvine Stalkers."
+        },
+        {
+          "type": "collect",
+          "target": "stalker_essence",
+          "count": 2,
+          "description": "Collect released essence."
+        }
+      ],
+      "rewards": {
+        "exp": 70,
+        "currency": 40,
+        "crd": 20,
+        "rep": 40,
+        "items": [
+          {
+            "item_id": "dark_energy_fragment",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_004"
+    },
+    {
+      "id": "fq_shard_004",
+      "title": "Rootling Harmony",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "GLOWVINE_FOREST",
+      "description": "Feral Rootlings strangle the forest floor. Untangle their energy and return it to the cycle.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "High Priestess Lyr",
+        "location": "GLOWVINE_FOREST"
+      },
+      "requirements": {
+        "min_level": 3,
+        "reputation_required": 120,
+        "required_quests": [
+          "fq_shard_003"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "FERAL_ROOTLING",
+          "count": 5,
+          "description": "Untangle Feral Rootlings."
+        },
+        {
+          "type": "collect",
+          "target": "rootling_energy",
+          "count": 3,
+          "description": "Collect Rootling energy."
+        }
+      ],
+      "rewards": {
+        "exp": 80,
+        "currency": 50,
+        "crd": 25,
+        "rep": 50,
+        "items": [
+          {
+            "item_id": "shardroot_vine",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_005"
+    },
+    {
+      "id": "fq_shard_005",
+      "title": "The Call of the Shard",
+      "type": "tutorial",
+      "rank": "D",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "SANCTUM",
+      "description": "Oracle Seraphel summons you. Your soul-frequency must be calibrated to a specialization.",
+      "quest_giver": {
+        "npc_id": "npc_shard_class_trainer",
+        "name": "Oracle Seraphel",
+        "location": "SANCTUM"
+      },
+      "requirements": {
+        "min_level": 4,
+        "reputation_required": 180,
+        "required_quests": [
+          "fq_shard_004"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_shard_class_trainer",
+          "count": 1,
+          "description": "Receive calibration from Oracle Seraphel."
+        },
+        {
+          "type": "interact",
+          "target": "class_change_screen",
+          "count": 1,
+          "description": "Attune to your chosen path."
+        },
+        {
+          "type": "kill",
+          "target": "MEADOW_RABID_HARE",
+          "count": 3,
+          "description": "Demonstrate harmony against the restless Hare."
+        }
+      ],
+      "rewards": {
+        "exp": 400,
+        "currency": 200,
+        "crd": 100,
+        "rep": 150,
+        "items": [
+          {
+            "item_id": "wpn_apprentice_staff",
+            "quantity": 1
+          },
+          {
+            "item_id": "armor_cloth_robes",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "popup": true,
+      "popup_trigger": "on_quest_complete",
+      "popup_prerequisite": "fq_shard_004",
+      "popup_level": 4,
+      "quest_chain_next": "fq_shard_006"
+    },
+    {
+      "id": "fq_shard_006",
+      "title": "Urban Purification",
+      "type": "exploration",
+      "rank": "D",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "SHARDROOT_SWAMP",
+      "description": "The Shardroot Swamp is sick. Industrial runoff chokes its waters. Enter and begin the purification.",
+      "quest_giver": {
+        "npc_id": "npc_shrine_keeper",
+        "name": "Keeper Norn",
+        "location": "SHARDROOT_SWAMP"
+      },
+      "requirements": {
+        "min_level": 5,
+        "reputation_required": 240,
+        "required_quests": [
+          "fq_shard_005"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SHARDROOT_SWAMP",
+          "count": 1,
+          "description": "Enter the Shardroot Swamp."
+        },
+        {
+          "type": "collect",
+          "target": "swamp_water_sample",
+          "count": 3,
+          "description": "Collect swamp water for purity testing."
+        }
+      ],
+      "rewards": {
+        "exp": 100,
+        "currency": 60,
+        "crd": 30,
+        "rep": 60,
+        "items": [
+          {
+            "item_id": "con_nutrient_ration",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_007"
+    },
+    {
+      "id": "fq_shard_007",
+      "title": "Stalker Pacification",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "SHARDROOT_SWAMP",
+      "description": "Jungle Stalkers displaced by faction activity. Pacify them \u2014 they are victims, not enemies.",
+      "quest_giver": {
+        "npc_id": "npc_acolyte_mera",
+        "name": "Acolyte Mera",
+        "location": "SHARDROOT_SWAMP"
+      },
+      "requirements": {
+        "min_level": 6,
+        "reputation_required": 300,
+        "required_quests": [
+          "fq_shard_006"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "JUNGLE_STALKER",
+          "count": 5,
+          "description": "Pacify displaced Stalkers."
+        },
+        {
+          "type": "collect",
+          "target": "stalker_migration_data",
+          "count": 1,
+          "description": "Record migration data."
+        }
+      ],
+      "rewards": {
+        "exp": 120,
+        "currency": 70,
+        "crd": 35,
+        "rep": 70,
+        "items": [
+          {
+            "item_id": "animal_fang",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_008"
+    },
+    {
+      "id": "fq_shard_008",
+      "title": "Swamp Purge",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "SHARDROOT_SWAMP",
+      "description": "Swamp Rippers are corrupted Shard energy given form. Purge the corruption while respecting the host.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "High Priestess Lyr",
+        "location": "SHARDROOT_SWAMP"
+      },
+      "requirements": {
+        "min_level": 7,
+        "reputation_required": 360,
+        "required_quests": [
+          "fq_shard_007"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SWAMP_RIPPER",
+          "count": 5,
+          "description": "Purge corrupted Swamp Rippers."
+        },
+        {
+          "type": "collect",
+          "target": "purified_ripper_essence",
+          "count": 2,
+          "description": "Collect purified essence."
+        }
+      ],
+      "rewards": {
+        "exp": 180,
+        "currency": 100,
+        "crd": 50,
+        "rep": 100,
+        "items": [
+          {
+            "item_id": "slime_gel",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_009"
+    },
+    {
+      "id": "fq_shard_009",
+      "title": "Specter Cleansing",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "SHARDROOT_SWAMP",
+      "description": "Swamp Specters are souls trapped between Shard and Void. Cleanse and release them to eternal rest.",
+      "quest_giver": {
+        "npc_id": "npc_shrine_keeper",
+        "name": "Keeper Norn",
+        "location": "SHARDROOT_SWAMP"
+      },
+      "requirements": {
+        "min_level": 8,
+        "reputation_required": 420,
+        "required_quests": [
+          "fq_shard_008"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SWAMP_SPECTER",
+          "count": 5,
+          "description": "Cleanse Swamp Specters."
+        },
+        {
+          "type": "collect",
+          "target": "released_soul_essence",
+          "count": 3,
+          "description": "Collect released soul essence."
+        }
+      ],
+      "rewards": {
+        "exp": 200,
+        "currency": 110,
+        "crd": 55,
+        "rep": 110,
+        "items": [
+          {
+            "item_id": "void_fragment",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_010"
+    },
+    {
+      "id": "fq_shard_010",
+      "title": "Shardroot Titan",
+      "type": "boss",
+      "rank": "D",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "SHARDROOT_SWAMP",
+      "description": "The Shardroot Titan \u2014 the swamp's ancient guardian \u2014 has been poisoned by corruption. Purify through combat. This is mercy.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "High Priestess Lyr",
+        "location": "SHARDROOT_SWAMP"
+      },
+      "requirements": {
+        "min_level": 9,
+        "reputation_required": 480,
+        "required_quests": [
+          "fq_shard_009"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SHARDROOT_TITAN",
+          "count": 2,
+          "description": "Purify Shardroot Titans."
+        },
+        {
+          "type": "collect",
+          "target": "purified_titan_core",
+          "count": 1,
+          "description": "Extract the purified core."
+        }
+      ],
+      "rewards": {
+        "exp": 300,
+        "currency": 180,
+        "crd": 90,
+        "rep": 180,
+        "items": [
+          {
+            "item_id": "core_fragment",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_011"
+    },
+    {
+      "id": "fq_shard_011",
+      "title": "Fragment Pilgrimage",
+      "type": "exploration",
+      "rank": "C",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "FRAGMENT_SHRINE",
+      "description": "The Fragment Shrine holds pieces of the original Shard. Make your pilgrimage. The Shard's memory awaits.",
+      "quest_giver": {
+        "npc_id": "npc_shrine_keeper",
+        "name": "Keeper Norn",
+        "location": "FRAGMENT_SHRINE"
+      },
+      "requirements": {
+        "min_level": 10,
+        "reputation_required": 540,
+        "required_quests": [
+          "fq_shard_010"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "FRAGMENT_SHRINE",
+          "count": 1,
+          "description": "Make pilgrimage to the Fragment Shrine."
+        },
+        {
+          "type": "collect",
+          "target": "shrine_blessing",
+          "count": 2,
+          "description": "Receive the Shrine's blessing."
+        }
+      ],
+      "rewards": {
+        "exp": 280,
+        "currency": 150,
+        "crd": 75,
+        "rep": 150,
+        "items": [
+          {
+            "item_id": "con_minor_stim_pack",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_012"
+    },
+    {
+      "id": "fq_shard_012",
+      "title": "Shrine Warden Trial",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "FRAGMENT_SHRINE",
+      "description": "Shrine Wardens test the worthy. Face their trial \u2014 they guard sacred fragments from the unworthy.",
+      "quest_giver": {
+        "npc_id": "npc_shrine_keeper",
+        "name": "Keeper Norn",
+        "location": "FRAGMENT_SHRINE"
+      },
+      "requirements": {
+        "min_level": 11,
+        "reputation_required": 600,
+        "required_quests": [
+          "fq_shard_011"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SHRINE_WARDEN",
+          "count": 5,
+          "description": "Face the Shrine Warden trial."
+        },
+        {
+          "type": "collect",
+          "target": "warden_blessing",
+          "count": 2,
+          "description": "Receive the Warden's blessing."
+        }
+      ],
+      "rewards": {
+        "exp": 320,
+        "currency": 170,
+        "crd": 85,
+        "rep": 170,
+        "items": [
+          {
+            "item_id": "memory_fragment_chip",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_013"
+    },
+    {
+      "id": "fq_shard_013",
+      "title": "Shrine Avenger",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "FRAGMENT_SHRINE",
+      "description": "Shrine Avengers attack those who carry void corruption. Prove your purity through their trial.",
+      "quest_giver": {
+        "npc_id": "npc_shrine_keeper",
+        "name": "Keeper Norn",
+        "location": "FRAGMENT_SHRINE"
+      },
+      "requirements": {
+        "min_level": 12,
+        "reputation_required": 660,
+        "required_quests": [
+          "fq_shard_012"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SHRINE_AVENGER",
+          "count": 5,
+          "description": "Prove purity against Shrine Avengers."
+        },
+        {
+          "type": "collect",
+          "target": "purity_seal",
+          "count": 1,
+          "description": "Claim the Purity Seal."
+        }
+      ],
+      "rewards": {
+        "exp": 360,
+        "currency": 190,
+        "crd": 95,
+        "rep": 200,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_014"
+    },
+    {
+      "id": "fq_shard_014",
+      "title": "Guardian's Permission",
+      "type": "boss",
+      "rank": "C",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "FRAGMENT_SHRINE",
+      "description": "The Shrine Guardian bars the inner sanctum. Earn its permission through the Shard's oldest ritual: combat.",
+      "quest_giver": {
+        "npc_id": "npc_shrine_keeper",
+        "name": "Keeper Norn",
+        "location": "FRAGMENT_SHRINE"
+      },
+      "requirements": {
+        "min_level": 13,
+        "reputation_required": 720,
+        "required_quests": [
+          "fq_shard_013"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SHRINE_GUARDIAN",
+          "count": 2,
+          "description": "Earn the Guardian's permission."
+        },
+        {
+          "type": "collect",
+          "target": "sanctum_access",
+          "count": 1,
+          "description": "Gain inner sanctum access."
+        }
+      ],
+      "rewards": {
+        "exp": 450,
+        "currency": 240,
+        "crd": 120,
+        "rep": 240,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_015"
+    },
+    {
+      "id": "fq_shard_015",
+      "title": "Shrine Offering",
+      "type": "collect",
+      "rank": "C",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "FRAGMENT_SHRINE",
+      "description": "Offer your energy to the Fragment Shrine. The Shard remembers all who give freely of themselves.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "High Priestess Lyr",
+        "location": "FRAGMENT_SHRINE"
+      },
+      "requirements": {
+        "min_level": 14,
+        "reputation_required": 780,
+        "required_quests": [
+          "fq_shard_014"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "energy_offering",
+          "count": 4,
+          "description": "Channel energy offerings to the Shrine."
+        },
+        {
+          "type": "kill",
+          "target": "SHRINE_WARDEN",
+          "count": 4,
+          "description": "Defend the offering ritual."
+        }
+      ],
+      "rewards": {
+        "exp": 500,
+        "currency": 280,
+        "crd": 140,
+        "rep": 300,
+        "items": [
+          {
+            "item_id": "sprite_dust",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_016"
+    },
+    {
+      "id": "fq_shard_016",
+      "title": "Guardian's Challenge",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "FRAGMENT_SHRINE",
+      "description": "Multiple Shrine Guardians test the faithful. Prove the Shard's blessing flows stronger than their duty.",
+      "quest_giver": {
+        "npc_id": "npc_shrine_keeper",
+        "name": "Keeper Norn",
+        "location": "FRAGMENT_SHRINE"
+      },
+      "requirements": {
+        "min_level": 15,
+        "reputation_required": 840,
+        "required_quests": [
+          "fq_shard_015"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SHRINE_GUARDIAN",
+          "count": 3,
+          "description": "Face the Guardian challenge."
+        },
+        {
+          "type": "collect",
+          "target": "guardian_challenge_complete",
+          "count": 1,
+          "description": "Claim Guardian challenge victory."
+        }
+      ],
+      "rewards": {
+        "exp": 520,
+        "currency": 290,
+        "crd": 145,
+        "rep": 310,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_017"
+    },
+    {
+      "id": "fq_shard_017",
+      "title": "Fragment Collection",
+      "type": "collect",
+      "rank": "C",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "FRAGMENT_SHRINE",
+      "description": "Recover scattered Shard Fragments. Each fragment is a memory of Xylos waiting to be reclaimed.",
+      "quest_giver": {
+        "npc_id": "npc_acolyte_mera",
+        "name": "Acolyte Mera",
+        "location": "FRAGMENT_SHRINE"
+      },
+      "requirements": {
+        "min_level": 16,
+        "reputation_required": 900,
+        "required_quests": [
+          "fq_shard_016"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "shard_fragment",
+          "count": 4,
+          "description": "Recover Shard Fragments."
+        },
+        {
+          "type": "kill",
+          "target": "SHRINE_AVENGER",
+          "count": 3,
+          "description": "Clear Avenger patrols."
+        }
+      ],
+      "rewards": {
+        "exp": 480,
+        "currency": 260,
+        "crd": 130,
+        "rep": 260,
+        "items": [
+          {
+            "item_id": "memory_fragment_chip",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_018"
+    },
+    {
+      "id": "fq_shard_018",
+      "title": "The Echo's Cry",
+      "type": "boss",
+      "rank": "C",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "FRAGMENT_SHRINE",
+      "description": "A Resonance Echo is drawn to the Shrine's energy. Its frequency is discordant. Restore harmony through combat.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "High Priestess Lyr",
+        "location": "FRAGMENT_SHRINE"
+      },
+      "requirements": {
+        "min_level": 17,
+        "reputation_required": 960,
+        "required_quests": [
+          "fq_shard_017"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "RESONANCE_ECHO",
+          "count": 1,
+          "description": "Harmonize the Resonance Echo."
+        },
+        {
+          "type": "kill",
+          "target": "SHRINE_GUARDIAN",
+          "count": 2,
+          "description": "Clear Guardian escorts."
+        }
+      ],
+      "rewards": {
+        "exp": 800,
+        "currency": 450,
+        "crd": 225,
+        "rep": 450,
+        "items": [
+          {
+            "item_id": "entropy_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_019"
+    },
+    {
+      "id": "fq_shard_019",
+      "title": "Shrine Mastery",
+      "type": "story",
+      "rank": "C",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "FRAGMENT_SHRINE",
+      "description": "Complete the final trial \u2014 a full sweep of Shrine hostiles. Claim your place among the faithful.",
+      "quest_giver": {
+        "npc_id": "npc_shrine_keeper",
+        "name": "Keeper Norn",
+        "location": "FRAGMENT_SHRINE"
+      },
+      "requirements": {
+        "min_level": 18,
+        "reputation_required": 1020,
+        "required_quests": [
+          "fq_shard_018"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SHRINE_WARDEN",
+          "count": 4,
+          "description": "Final Warden trial."
+        },
+        {
+          "type": "kill",
+          "target": "SHRINE_AVENGER",
+          "count": 4,
+          "description": "Final Avenger trial."
+        },
+        {
+          "type": "collect",
+          "target": "shrine_master_seal",
+          "count": 1,
+          "description": "Claim the Shrine Master Seal."
+        }
+      ],
+      "rewards": {
+        "exp": 900,
+        "currency": 500,
+        "crd": 250,
+        "rep": 500,
+        "items": [
+          {
+            "item_id": "con_medium_hp_cell",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_020"
+    },
+    {
+      "id": "fq_shard_020",
+      "title": "Advanced Attunement",
+      "type": "story",
+      "rank": "C",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "SANCTUM",
+      "description": "Return to the Sanctum. Elder Malakor himself will perform your Advanced Attunement ceremony.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "High Priestess Lyr",
+        "location": "SANCTUM"
+      },
+      "requirements": {
+        "min_level": 19,
+        "reputation_required": 1080,
+        "required_quests": [
+          "fq_shard_019"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SANCTUM",
+          "count": 1,
+          "description": "Return to the Sanctum."
+        },
+        {
+          "type": "collect",
+          "target": "advanced_attunement",
+          "count": 1,
+          "description": "Receive Advanced Attunement."
+        }
+      ],
+      "rewards": {
+        "exp": 900,
+        "currency": 500,
+        "crd": 250,
+        "rep": 500,
+        "items": [
+          {
+            "item_id": "con_medium_mp_cell",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_021"
+    },
+    {
+      "id": "fq_shard_021",
+      "title": "Sacred Incursion",
+      "type": "exploration",
+      "rank": "B",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "HEARTWOOD_ALTAR",
+      "description": "Sacred Incursion.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "HEARTWOOD_ALTAR"
+      },
+      "requirements": {
+        "min_level": 21,
+        "reputation_required": 1200,
+        "required_quests": [
+          "fq_shard_020"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "HEARTWOOD_ALTAR",
+          "count": 1,
+          "description": "Enter the Heartwood Altar."
+        },
+        {
+          "type": "collect",
+          "target": "altar_energy_reading",
+          "count": 2,
+          "description": "Read the Altar's energy."
+        }
+      ],
+      "rewards": {
+        "exp": 1650,
+        "currency": 825,
+        "crd": 402,
+        "rep": 515,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_022"
+    },
+    {
+      "id": "fq_shard_022",
+      "title": "Behemoth Guardian",
+      "type": "hunt",
+      "rank": "B",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "HEARTWOOD_ALTAR",
+      "description": "Behemoth Guardian.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "HEARTWOOD_ALTAR"
+      },
+      "requirements": {
+        "min_level": 22,
+        "reputation_required": 1260,
+        "required_quests": [
+          "fq_shard_021"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_BEHEMOTH",
+          "count": 2,
+          "description": "Calm Behemoth guardians."
+        },
+        {
+          "type": "collect",
+          "target": "behemoth_essence",
+          "count": 1,
+          "description": "Collect purified essence."
+        }
+      ],
+      "rewards": {
+        "exp": 1700,
+        "currency": 850,
+        "crd": 414,
+        "rep": 530,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_023"
+    },
+    {
+      "id": "fq_shard_023",
+      "title": "Leviathan's Slumber",
+      "type": "boss",
+      "rank": "B",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "HEARTWOOD_ALTAR",
+      "description": "Leviathan's Slumber.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "HEARTWOOD_ALTAR"
+      },
+      "requirements": {
+        "min_level": 23,
+        "reputation_required": 1320,
+        "required_quests": [
+          "fq_shard_022"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SUNKEN_AETHEL_LEVIATHAN",
+          "count": 1,
+          "description": "Guide the Leviathan."
+        },
+        {
+          "type": "collect",
+          "target": "leviathan_dream",
+          "count": 2,
+          "description": "Collect dream essence."
+        }
+      ],
+      "rewards": {
+        "exp": 1750,
+        "currency": 875,
+        "crd": 426,
+        "rep": 545,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_024"
+    },
+    {
+      "id": "fq_shard_024",
+      "title": "Automa Purification",
+      "type": "hunt",
+      "rank": "B",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "HEARTWOOD_ALTAR",
+      "description": "Automa Purification.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "HEARTWOOD_ALTAR"
+      },
+      "requirements": {
+        "min_level": 24,
+        "reputation_required": 1380,
+        "required_quests": [
+          "fq_shard_023"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_FORGE_AUTOMATON",
+          "count": 2,
+          "description": "Decommission Automatons."
+        },
+        {
+          "type": "collect",
+          "target": "desecration_report",
+          "count": 1,
+          "description": "Report clear."
+        }
+      ],
+      "rewards": {
+        "exp": 1800,
+        "currency": 900,
+        "crd": 438,
+        "rep": 560,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_025"
+    },
+    {
+      "id": "fq_shard_025",
+      "title": "Shrine Warden Mastery",
+      "type": "boss",
+      "rank": "B",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "HEARTWOOD_ALTAR",
+      "description": "Shrine Warden Mastery.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "HEARTWOOD_ALTAR"
+      },
+      "requirements": {
+        "min_level": 25,
+        "reputation_required": 1440,
+        "required_quests": [
+          "fq_shard_024"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SHRINE_WARDEN",
+          "count": 4,
+          "description": "Master the Wardens."
+        },
+        {
+          "type": "kill",
+          "target": "SHRINE_AVENGER",
+          "count": 3,
+          "description": "Master the Avengers."
+        }
+      ],
+      "rewards": {
+        "exp": 1850,
+        "currency": 925,
+        "crd": 450,
+        "rep": 575,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_026"
+    },
+    {
+      "id": "fq_shard_026",
+      "title": "Storm Belt Pilgrimage",
+      "type": "exploration",
+      "rank": "B",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "AETHEL_STORM_BELT",
+      "description": "Storm Belt Pilgrimage.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "AETHEL_STORM_BELT"
+      },
+      "requirements": {
+        "min_level": 25,
+        "reputation_required": 1440,
+        "required_quests": [
+          "fq_shard_025"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "AETHEL_STORM_BELT",
+          "count": 1,
+          "description": "Enter the Storm Belt."
+        },
+        {
+          "type": "collect",
+          "target": "storm_meditation",
+          "count": 2,
+          "description": "Meditate in the storm."
+        }
+      ],
+      "rewards": {
+        "exp": 1850,
+        "currency": 925,
+        "crd": 450,
+        "rep": 575,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_027"
+    },
+    {
+      "id": "fq_shard_027",
+      "title": "Storm Serpent Communion",
+      "type": "hunt",
+      "rank": "B",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "AETHEL_STORM_BELT",
+      "description": "Storm Serpent Communion.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "AETHEL_STORM_BELT"
+      },
+      "requirements": {
+        "min_level": 26,
+        "reputation_required": 1500,
+        "required_quests": [
+          "fq_shard_026"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "STORM_RIFT_SERPENT",
+          "count": 3,
+          "description": "Commune with Serpents."
+        },
+        {
+          "type": "collect",
+          "target": "serpent_lightning",
+          "count": 2,
+          "description": "Collect essence."
+        }
+      ],
+      "rewards": {
+        "exp": 1900,
+        "currency": 950,
+        "crd": 462,
+        "rep": 590,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_028"
+    },
+    {
+      "id": "fq_shard_028",
+      "title": "Leviathan Migration",
+      "type": "boss",
+      "rank": "B",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "AETHEL_STORM_BELT",
+      "description": "Leviathan Migration.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "AETHEL_STORM_BELT"
+      },
+      "requirements": {
+        "min_level": 27,
+        "reputation_required": 1560,
+        "required_quests": [
+          "fq_shard_027"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SUNKEN_AETHEL_LEVIATHAN",
+          "count": 2,
+          "description": "Guide migrating Leviathans."
+        },
+        {
+          "type": "collect",
+          "target": "migration_path_set",
+          "count": 1,
+          "description": "Set path."
+        }
+      ],
+      "rewards": {
+        "exp": 1950,
+        "currency": 975,
+        "crd": 474,
+        "rep": 605,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_029"
+    },
+    {
+      "id": "fq_shard_029",
+      "title": "Altar Consecration",
+      "type": "boss",
+      "rank": "B",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "HEARTWOOD_ALTAR",
+      "description": "Altar Consecration.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "HEARTWOOD_ALTAR"
+      },
+      "requirements": {
+        "min_level": 28,
+        "reputation_required": 1620,
+        "required_quests": [
+          "fq_shard_028"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_BEHEMOTH",
+          "count": 3,
+          "description": "Purify Behemoths."
+        },
+        {
+          "type": "collect",
+          "target": "consecration_done",
+          "count": 1,
+          "description": "Confirm."
+        }
+      ],
+      "rewards": {
+        "exp": 2000,
+        "currency": 1000,
+        "crd": 486,
+        "rep": 620,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_030"
+    },
+    {
+      "id": "fq_shard_030",
+      "title": "The Ascension of Spirit",
+      "type": "story",
+      "rank": "B",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "SANCTUM",
+      "description": "The Ascension of Spirit.",
+      "quest_giver": {
+        "npc_id": "npc_shard_class_trainer",
+        "name": "Oracle Seraphel",
+        "location": "SANCTUM"
+      },
+      "requirements": {
+        "min_level": 29,
+        "reputation_required": 1680,
+        "required_quests": [
+          "fq_shard_029"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_shard_class_trainer",
+          "count": 1,
+          "description": "Receive Ascension."
+        },
+        {
+          "type": "kill",
+          "target": "RESONANCE_ECHO",
+          "count": 1,
+          "description": "Harmonize again."
+        },
+        {
+          "type": "kill",
+          "target": "SUNKEN_AETHEL_LEVIATHAN",
+          "count": 1,
+          "description": "Guide Leviathan trial."
+        }
+      ],
+      "rewards": {
+        "exp": 2050,
+        "currency": 1025,
+        "crd": 498,
+        "rep": 635,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "popup": true,
+      "popup_trigger": "on_quest_complete",
+      "popup_prerequisite": "fq_shard_029",
+      "popup_level": 29,
+      "quest_chain_next": "fq_shard_031"
+    },
+    {
+      "id": "fq_shard_031",
+      "title": "Sky-Root Connection",
+      "type": "exploration",
+      "rank": "A",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "ORBITAL_SENTINEL_COMMAND",
+      "description": "Sky-Root Connection.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "ORBITAL_SENTINEL_COMMAND"
+      },
+      "requirements": {
+        "min_level": 30,
+        "reputation_required": 1740,
+        "required_quests": [
+          "fq_shard_030"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "ORBITAL_SENTINEL_COMMAND",
+          "count": 1,
+          "description": "Reach Orbital Command."
+        },
+        {
+          "type": "collect",
+          "target": "sky_root_beacon",
+          "count": 1,
+          "description": "Plant beacon."
+        }
+      ],
+      "rewards": {
+        "exp": 2100,
+        "currency": 1050,
+        "crd": 510,
+        "rep": 650,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_032"
+    },
+    {
+      "id": "fq_shard_032",
+      "title": "Drake Pacification",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Drake Pacification.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 31,
+        "reputation_required": 1800,
+        "required_quests": [
+          "fq_shard_031"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Pacify."
+        },
+        {
+          "type": "collect",
+          "target": "sky_frequency_restored",
+          "count": 1,
+          "description": "Confirm."
+        }
+      ],
+      "rewards": {
+        "exp": 2150,
+        "currency": 1075,
+        "crd": 522,
+        "rep": 665,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_033"
+    },
+    {
+      "id": "fq_shard_033",
+      "title": "Carapace Purification",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Carapace Purification.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 32,
+        "reputation_required": 1860,
+        "required_quests": [
+          "fq_shard_032"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 6,
+          "description": "Purify."
+        },
+        {
+          "type": "collect",
+          "target": "essence_collected",
+          "count": 3,
+          "description": "Collect."
+        }
+      ],
+      "rewards": {
+        "exp": 2200,
+        "currency": 1100,
+        "crd": 534,
+        "rep": 680,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_034"
+    },
+    {
+      "id": "fq_shard_034",
+      "title": "Corrupted Behemoth Cleansing",
+      "type": "boss",
+      "rank": "A",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Corrupted Behemoth Cleansing.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 33,
+        "reputation_required": 1920,
+        "required_quests": [
+          "fq_shard_033"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 2,
+          "description": "Cleanse."
+        },
+        {
+          "type": "collect",
+          "target": "cleansing_done",
+          "count": 1,
+          "description": "Confirm."
+        }
+      ],
+      "rewards": {
+        "exp": 2250,
+        "currency": 1125,
+        "crd": 546,
+        "rep": 695,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_035"
+    },
+    {
+      "id": "fq_shard_035",
+      "title": "Abyssal Exorcism",
+      "type": "boss",
+      "rank": "A",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Abyssal Exorcism.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 34,
+        "reputation_required": 1980,
+        "required_quests": [
+          "fq_shard_034"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 4,
+          "description": "Exorcise."
+        },
+        {
+          "type": "collect",
+          "target": "exorcism_done",
+          "count": 1,
+          "description": "Confirm."
+        }
+      ],
+      "rewards": {
+        "exp": 2300,
+        "currency": 1150,
+        "crd": 558,
+        "rep": 710,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_036"
+    },
+    {
+      "id": "fq_shard_036",
+      "title": "Orbital Sanctification",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Orbital Sanctification.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 35,
+        "reputation_required": 2040,
+        "required_quests": [
+          "fq_shard_035"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 6,
+          "description": "Harmonize."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 3,
+          "description": "Purify taint."
+        }
+      ],
+      "rewards": {
+        "exp": 2350,
+        "currency": 1175,
+        "crd": 570,
+        "rep": 725,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_037"
+    },
+    {
+      "id": "fq_shard_037",
+      "title": "Drake's Redemption",
+      "type": "boss",
+      "rank": "A",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Drake's Redemption.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 36,
+        "reputation_required": 2100,
+        "required_quests": [
+          "fq_shard_036"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Redeem."
+        },
+        {
+          "type": "collect",
+          "target": "redemption_essence",
+          "count": 1,
+          "description": "Collect essence."
+        }
+      ],
+      "rewards": {
+        "exp": 2400,
+        "currency": 1200,
+        "crd": 582,
+        "rep": 740,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_038"
+    },
+    {
+      "id": "fq_shard_038",
+      "title": "Expanse Purification",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Expanse Purification.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 37,
+        "reputation_required": 2160,
+        "required_quests": [
+          "fq_shard_037"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "description": "Sweep."
+        },
+        {
+          "type": "collect",
+          "target": "expanse_purified",
+          "count": 1,
+          "description": "Confirm."
+        }
+      ],
+      "rewards": {
+        "exp": 2450,
+        "currency": 1225,
+        "crd": 594,
+        "rep": 755,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_039"
+    },
+    {
+      "id": "fq_shard_039",
+      "title": "Abyssal Cleansing",
+      "type": "boss",
+      "rank": "A",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Abyssal Cleansing.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 38,
+        "reputation_required": 2220,
+        "required_quests": [
+          "fq_shard_038"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 6,
+          "description": "Cleanse."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 3,
+          "description": "Silence."
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 1250,
+        "crd": 606,
+        "rep": 770,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_040"
+    },
+    {
+      "id": "fq_shard_040",
+      "title": "Master of Symbiosis",
+      "type": "story",
+      "rank": "A",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "SANCTUM",
+      "description": "Master of Symbiosis.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "High Priestess Lyr",
+        "location": "SANCTUM"
+      },
+      "requirements": {
+        "min_level": 39,
+        "reputation_required": 2280,
+        "required_quests": [
+          "fq_shard_039"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Guide Drake."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_BEHEMOTH",
+          "count": 1,
+          "description": "Guide Behemoth."
+        },
+        {
+          "type": "kill",
+          "target": "SUNKEN_AETHEL_LEVIATHAN",
+          "count": 1,
+          "description": "Guide Leviathan."
+        }
+      ],
+      "rewards": {
+        "exp": 2550,
+        "currency": 1275,
+        "crd": 618,
+        "rep": 785,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_041"
+    },
+    {
+      "id": "fq_shard_041",
+      "title": "Diving into the Wound",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Diving into the Wound.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 40,
+        "reputation_required": 2340,
+        "required_quests": [
+          "fq_shard_040"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "VOID_ECHO_CHASM",
+          "count": 1,
+          "description": "Enter the Chasm."
+        },
+        {
+          "type": "collect",
+          "target": "chasm_sensing",
+          "count": 3,
+          "description": "Sense the wound."
+        }
+      ],
+      "rewards": {
+        "exp": 2600,
+        "currency": 1300,
+        "crd": 630,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_042"
+    },
+    {
+      "id": "fq_shard_042",
+      "title": "Void Reaver Cleansing",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Void Reaver Cleansing.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 41,
+        "reputation_required": 2400,
+        "required_quests": [
+          "fq_shard_041"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 6,
+          "description": "Cleanse."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 4,
+          "description": "Purify."
+        }
+      ],
+      "rewards": {
+        "exp": 2650,
+        "currency": 1325,
+        "crd": 642,
+        "rep": 815,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_043"
+    },
+    {
+      "id": "fq_shard_043",
+      "title": "Abyssal Harvest",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Abyssal Harvest.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 42,
+        "reputation_required": 2460,
+        "required_quests": [
+          "fq_shard_042"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Harvest."
+        },
+        {
+          "type": "collect",
+          "target": "harvest_essence",
+          "count": 2,
+          "description": "Collect."
+        }
+      ],
+      "rewards": {
+        "exp": 2700,
+        "currency": 1350,
+        "crd": 654,
+        "rep": 830,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_044"
+    },
+    {
+      "id": "fq_shard_044",
+      "title": "Corrupted Behemoth Purge",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Corrupted Behemoth Purge.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 43,
+        "reputation_required": 2520,
+        "required_quests": [
+          "fq_shard_043"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "description": "Purge."
+        },
+        {
+          "type": "collect",
+          "target": "purge_done",
+          "count": 1,
+          "description": "Confirm."
+        }
+      ],
+      "rewards": {
+        "exp": 2750,
+        "currency": 1375,
+        "crd": 666,
+        "rep": 845,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_045"
+    },
+    {
+      "id": "fq_shard_045",
+      "title": "Soul Fragmenter Exorcism",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Soul Fragmenter Exorcism.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 44,
+        "reputation_required": 2580,
+        "required_quests": [
+          "fq_shard_044"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SOUL_FRAGMENTER",
+          "count": 2,
+          "description": "Exorcise."
+        },
+        {
+          "type": "collect",
+          "target": "exorcism_done",
+          "count": 1,
+          "description": "Confirm."
+        }
+      ],
+      "rewards": {
+        "exp": 2800,
+        "currency": 1400,
+        "crd": 678,
+        "rep": 860,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_046"
+    },
+    {
+      "id": "fq_shard_046",
+      "title": "Chrono Wraith Banishment",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Chrono Wraith Banishment.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 45,
+        "reputation_required": 2640,
+        "required_quests": [
+          "fq_shard_045"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CHRONO_WRAITH",
+          "count": 2,
+          "description": "Banish."
+        },
+        {
+          "type": "collect",
+          "target": "banishment_done",
+          "count": 1,
+          "description": "Confirm."
+        }
+      ],
+      "rewards": {
+        "exp": 2850,
+        "currency": 1425,
+        "crd": 690,
+        "rep": 875,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_047"
+    },
+    {
+      "id": "fq_shard_047",
+      "title": "Jotunn Pacification",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Jotunn Pacification.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 46,
+        "reputation_required": 2700,
+        "required_quests": [
+          "fq_shard_046"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "description": "Pacify."
+        },
+        {
+          "type": "collect",
+          "target": "jotunn_pacified",
+          "count": 1,
+          "description": "Confirm."
+        }
+      ],
+      "rewards": {
+        "exp": 2900,
+        "currency": 1450,
+        "crd": 702,
+        "rep": 890,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_048"
+    },
+    {
+      "id": "fq_shard_048",
+      "title": "Heart Breach",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Heart Breach.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 47,
+        "reputation_required": 2760,
+        "required_quests": [
+          "fq_shard_047"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SHATTERED_HEART",
+          "count": 1,
+          "description": "Enter."
+        },
+        {
+          "type": "collect",
+          "target": "heart_blessing",
+          "count": 1,
+          "description": "Blessing."
+        }
+      ],
+      "rewards": {
+        "exp": 2950,
+        "currency": 1475,
+        "crd": 714,
+        "rep": 905,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_049"
+    },
+    {
+      "id": "fq_shard_049",
+      "title": "The Drake's Rest",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "SHATTERED_HEART",
+      "description": "The Drake's Rest.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 49,
+        "reputation_required": 2880,
+        "required_quests": [
+          "fq_shard_048"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Guide to rest."
+        },
+        {
+          "type": "kill",
+          "target": "DRAKE_MINION",
+          "count": 5,
+          "description": "Clear Minions."
+        }
+      ],
+      "rewards": {
+        "exp": 3050,
+        "currency": 1525,
+        "crd": 738,
+        "rep": 935,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_050"
+    },
+    {
+      "id": "fq_shard_050",
+      "title": "Shadow Cleansing",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Shadow Cleansing.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 50,
+        "reputation_required": 2940,
+        "required_quests": [
+          "fq_shard_049"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SOUL_FRAGMENTER",
+          "count": 3,
+          "description": "Cleanse."
+        },
+        {
+          "type": "kill",
+          "target": "VOID_STALKER",
+          "count": 1,
+          "description": "Cleanse Stalker."
+        }
+      ],
+      "rewards": {
+        "exp": 3100,
+        "currency": 1550,
+        "crd": 750,
+        "rep": 950,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_051"
+    },
+    {
+      "id": "fq_shard_051",
+      "title": "Total Void Purification",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Total Void Purification.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 51,
+        "reputation_required": 3000,
+        "required_quests": [
+          "fq_shard_050"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 8,
+          "description": "Purify."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 5,
+          "description": "Purify."
+        }
+      ],
+      "rewards": {
+        "exp": 3150,
+        "currency": 1575,
+        "crd": 762,
+        "rep": 965,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_052"
+    },
+    {
+      "id": "fq_shard_052",
+      "title": "Void Stalker Exorcism",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Void Stalker Exorcism.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 52,
+        "reputation_required": 3060,
+        "required_quests": [
+          "fq_shard_051"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "VOID_STALKER",
+          "count": 1,
+          "description": "Exorcise."
+        },
+        {
+          "type": "collect",
+          "target": "exorcism_done",
+          "count": 1,
+          "description": "Confirm."
+        }
+      ],
+      "rewards": {
+        "exp": 3200,
+        "currency": 1600,
+        "crd": 774,
+        "rep": 980,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_053"
+    },
+    {
+      "id": "fq_shard_053",
+      "title": "Temporal Harmony",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Temporal Harmony.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 53,
+        "reputation_required": 3120,
+        "required_quests": [
+          "fq_shard_052"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CHRONO_WRAITH",
+          "count": 3,
+          "description": "Harmonize."
+        },
+        {
+          "type": "collect",
+          "target": "harmony_done",
+          "count": 1,
+          "description": "Confirm."
+        }
+      ],
+      "rewards": {
+        "exp": 3250,
+        "currency": 1625,
+        "crd": 786,
+        "rep": 995,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_054"
+    },
+    {
+      "id": "fq_shard_054",
+      "title": "Heart Purification",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Heart Purification.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 54,
+        "reputation_required": 3180,
+        "required_quests": [
+          "fq_shard_053"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 10,
+          "description": "Purify."
+        },
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 6,
+          "description": "Purify."
+        }
+      ],
+      "rewards": {
+        "exp": 3300,
+        "currency": 1650,
+        "crd": 798,
+        "rep": 1010,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_055"
+    },
+    {
+      "id": "fq_shard_055",
+      "title": "Jotunn Slumber",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Jotunn Slumber.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 55,
+        "reputation_required": 3240,
+        "required_quests": [
+          "fq_shard_054"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "description": "Guide to slumber."
+        },
+        {
+          "type": "collect",
+          "target": "slumber_done",
+          "count": 1,
+          "description": "Confirm."
+        }
+      ],
+      "rewards": {
+        "exp": 3350,
+        "currency": 1675,
+        "crd": 810,
+        "rep": 1025,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_056"
+    },
+    {
+      "id": "fq_shard_056",
+      "title": "Tyrant Harmony",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Tyrant Harmony.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 56,
+        "reputation_required": 3300,
+        "required_quests": [
+          "fq_shard_055"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 2,
+          "description": "Harmonize."
+        },
+        {
+          "type": "collect",
+          "target": "harmony_done",
+          "count": 1,
+          "description": "Confirm."
+        }
+      ],
+      "rewards": {
+        "exp": 3400,
+        "currency": 1700,
+        "crd": 822,
+        "rep": 1040,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_057"
+    },
+    {
+      "id": "fq_shard_057",
+      "title": "Harbinger Shadow",
+      "type": "story",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Harbinger Shadow.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 57,
+        "reputation_required": 3360,
+        "required_quests": [
+          "fq_shard_056"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 6,
+          "description": "Cut through."
+        },
+        {
+          "type": "kill",
+          "target": "CHRONO_WRAITH",
+          "count": 1,
+          "description": "Banish Wraith."
+        },
+        {
+          "type": "collect",
+          "target": "harbinger_ward",
+          "count": 1,
+          "description": "Forge ward."
+        }
+      ],
+      "rewards": {
+        "exp": 3450,
+        "currency": 1725,
+        "crd": 834,
+        "rep": 1055,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_058"
+    },
+    {
+      "id": "fq_shard_058",
+      "title": "Soul Harvest",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Soul Harvest.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 58,
+        "reputation_required": 3420,
+        "required_quests": [
+          "fq_shard_057"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SOUL_FRAGMENTER",
+          "count": 3,
+          "description": "Harvest."
+        },
+        {
+          "type": "kill",
+          "target": "VOID_STALKER",
+          "count": 1,
+          "description": "Cleanse Stalker."
+        }
+      ],
+      "rewards": {
+        "exp": 3500,
+        "currency": 1750,
+        "crd": 846,
+        "rep": 1070,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_059"
+    },
+    {
+      "id": "fq_shard_059",
+      "title": "Harbinger's End",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Harbinger's End.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 59,
+        "reputation_required": 3480,
+        "required_quests": [
+          "fq_shard_058"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "description": "DEFEAT HARBINGER."
+        },
+        {
+          "type": "collect",
+          "target": "harbinger_essence",
+          "count": 1,
+          "description": "Claim essence."
+        }
+      ],
+      "rewards": {
+        "exp": 3550,
+        "currency": 1775,
+        "crd": 858,
+        "rep": 1085,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_060"
+    },
+    {
+      "id": "fq_shard_060",
+      "title": "Deep Root Alignment",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Deep Root Alignment.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 60,
+        "reputation_required": 3540,
+        "required_quests": [
+          "fq_shard_059"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SEVERANCE_FAULTLINE",
+          "count": 1,
+          "description": "Enter."
+        },
+        {
+          "type": "collect",
+          "target": "seismic_data",
+          "count": 3,
+          "description": "Collect."
+        }
+      ],
+      "rewards": {
+        "exp": 3600,
+        "currency": 1800,
+        "crd": 870,
+        "rep": 1100,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_061"
+    },
+    {
+      "id": "fq_shard_061",
+      "title": "Fault Healing",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Fault Healing.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 61,
+        "reputation_required": 3600,
+        "required_quests": [
+          "fq_shard_060"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "description": "Heal."
+        },
+        {
+          "type": "collect",
+          "target": "healing_done",
+          "count": 3,
+          "description": "Collect."
+        }
+      ],
+      "rewards": {
+        "exp": 3650,
+        "currency": 1825,
+        "crd": 882,
+        "rep": 1115,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_062"
+    },
+    {
+      "id": "fq_shard_062",
+      "title": "Tyrant Grounding",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Tyrant Grounding.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 62,
+        "reputation_required": 3660,
+        "required_quests": [
+          "fq_shard_061"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 2,
+          "description": "Ground."
+        },
+        {
+          "type": "collect",
+          "target": "grounding_done",
+          "count": 1,
+          "description": "Confirm."
+        }
+      ],
+      "rewards": {
+        "exp": 3700,
+        "currency": 1850,
+        "crd": 894,
+        "rep": 1130,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_063"
+    },
+    {
+      "id": "fq_shard_063",
+      "title": "Jotunn Earthbinding",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Jotunn Earthbinding.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 63,
+        "reputation_required": 3720,
+        "required_quests": [
+          "fq_shard_062"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "description": "Bind to earth."
+        },
+        {
+          "type": "collect",
+          "target": "binding_done",
+          "count": 1,
+          "description": "Confirm."
+        }
+      ],
+      "rewards": {
+        "exp": 3750,
+        "currency": 1875,
+        "crd": 906,
+        "rep": 1145,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_064"
+    },
+    {
+      "id": "fq_shard_064",
+      "title": "Solidifying the Earth",
+      "type": "story",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Solidifying the Earth.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 64,
+        "reputation_required": 3780,
+        "required_quests": [
+          "fq_shard_063"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "planet_stability",
+          "count": 3,
+          "description": "Stabilize."
+        },
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "description": "Bind."
+        }
+      ],
+      "rewards": {
+        "exp": 3800,
+        "currency": 1900,
+        "crd": 918,
+        "rep": 1160,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_065"
+    },
+    {
+      "id": "fq_shard_065",
+      "title": "The Siphon Heart",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "The Siphon Heart.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 64,
+        "reputation_required": 3780,
+        "required_quests": [
+          "fq_shard_064"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "AETHEL_SIPHON_CORE",
+          "count": 1,
+          "description": "Enter."
+        },
+        {
+          "type": "collect",
+          "target": "core_readings",
+          "count": 2,
+          "description": "Read."
+        }
+      ],
+      "rewards": {
+        "exp": 3800,
+        "currency": 1900,
+        "crd": 918,
+        "rep": 1160,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_066"
+    },
+    {
+      "id": "fq_shard_066",
+      "title": "Core Purification",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Core Purification.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 65,
+        "reputation_required": 3840,
+        "required_quests": [
+          "fq_shard_065"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 8,
+          "description": "Purify."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 5,
+          "description": "Purify."
+        }
+      ],
+      "rewards": {
+        "exp": 3850,
+        "currency": 1925,
+        "crd": 930,
+        "rep": 1175,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_067"
+    },
+    {
+      "id": "fq_shard_067",
+      "title": "Behemoth Cleansing",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Behemoth Cleansing.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 66,
+        "reputation_required": 3900,
+        "required_quests": [
+          "fq_shard_066"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "description": "Cleanse."
+        },
+        {
+          "type": "collect",
+          "target": "cleansing_done",
+          "count": 1,
+          "description": "Confirm."
+        }
+      ],
+      "rewards": {
+        "exp": 3900,
+        "currency": 1950,
+        "crd": 942,
+        "rep": 1190,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_068"
+    },
+    {
+      "id": "fq_shard_068",
+      "title": "Rift Sealing",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Rift Sealing.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 67,
+        "reputation_required": 3960,
+        "required_quests": [
+          "fq_shard_067"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 6,
+          "description": "Seal."
+        },
+        {
+          "type": "collect",
+          "target": "sealing_done",
+          "count": 1,
+          "description": "Confirm."
+        }
+      ],
+      "rewards": {
+        "exp": 3950,
+        "currency": 1975,
+        "crd": 954,
+        "rep": 1205,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_069"
+    },
+    {
+      "id": "fq_shard_069",
+      "title": "Guardian of the Core",
+      "type": "story",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Guardian of the Core.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 68,
+        "reputation_required": 4020,
+        "required_quests": [
+          "fq_shard_068"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "titan_data",
+          "count": 3,
+          "description": "Collect."
+        },
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "description": "Guard."
+        }
+      ],
+      "rewards": {
+        "exp": 4000,
+        "currency": 2000,
+        "crd": 966,
+        "rep": 1220,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_070"
+    },
+    {
+      "id": "fq_shard_070",
+      "title": "The Titan's Tranquility",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Titan's Tranquility.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 69,
+        "reputation_required": 4080,
+        "required_quests": [
+          "fq_shard_069"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "description": "TRANQUILIZE TITAN."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Clear."
+        }
+      ],
+      "rewards": {
+        "exp": 4050,
+        "currency": 2025,
+        "crd": 978,
+        "rep": 1235,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_071"
+    },
+    {
+      "id": "fq_shard_071",
+      "title": "The Prime Synthesis",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The Prime Synthesis.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 70,
+        "reputation_required": 4140,
+        "required_quests": [
+          "fq_shard_070"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "PRIMA_MATERIA_FORGE",
+          "count": 1,
+          "description": "Enter."
+        },
+        {
+          "type": "collect",
+          "target": "forge_survey",
+          "count": 2,
+          "description": "Survey."
+        }
+      ],
+      "rewards": {
+        "exp": 4100,
+        "currency": 2050,
+        "crd": 990,
+        "rep": 1250,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_072"
+    },
+    {
+      "id": "fq_shard_072",
+      "title": "Forge Purification",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Forge Purification.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 71,
+        "reputation_required": 4200,
+        "required_quests": [
+          "fq_shard_071"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "description": "Purify."
+        },
+        {
+          "type": "collect",
+          "target": "purify_done",
+          "count": 1,
+          "description": "Confirm."
+        }
+      ],
+      "rewards": {
+        "exp": 4150,
+        "currency": 2075,
+        "crd": 1002,
+        "rep": 1265,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_073"
+    },
+    {
+      "id": "fq_shard_073",
+      "title": "Automa Cleansing",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Automa Cleansing.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 72,
+        "reputation_required": 4260,
+        "required_quests": [
+          "fq_shard_072"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 8,
+          "description": "Cleanse."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 5,
+          "description": "Purify."
+        }
+      ],
+      "rewards": {
+        "exp": 4200,
+        "currency": 2100,
+        "crd": 1014,
+        "rep": 1280,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_074"
+    },
+    {
+      "id": "fq_shard_074",
+      "title": "Jotunn Foundry",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Jotunn Foundry.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 73,
+        "reputation_required": 4320,
+        "required_quests": [
+          "fq_shard_073"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "description": "Guide."
+        },
+        {
+          "type": "collect",
+          "target": "foundry_cleared",
+          "count": 1,
+          "description": "Confirm."
+        }
+      ],
+      "rewards": {
+        "exp": 4250,
+        "currency": 2125,
+        "crd": 1026,
+        "rep": 1295,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_075"
+    },
+    {
+      "id": "fq_shard_075",
+      "title": "Proto Core Recycling",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Proto Core Recycling.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 74,
+        "reputation_required": 4380,
+        "required_quests": [
+          "fq_shard_074"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_PROTO_CORE",
+          "count": 2,
+          "description": "Recycle."
+        },
+        {
+          "type": "collect",
+          "target": "recycling_done",
+          "count": 1,
+          "description": "Confirm."
+        }
+      ],
+      "rewards": {
+        "exp": 4300,
+        "currency": 2150,
+        "crd": 1038,
+        "rep": 1310,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_076"
+    },
+    {
+      "id": "fq_shard_076",
+      "title": "Legend of the Shard Trial",
+      "type": "story",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Legend of the Shard Trial.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 75,
+        "reputation_required": 4440,
+        "required_quests": [
+          "fq_shard_075"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "description": "Guide Titan."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "description": "Guide Harbinger."
+        }
+      ],
+      "rewards": {
+        "exp": 4350,
+        "currency": 2175,
+        "crd": 1050,
+        "rep": 1325,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_077"
+    },
+    {
+      "id": "fq_shard_077",
+      "title": "Legend of the Shard",
+      "type": "story",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Legend of the Shard.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 76,
+        "reputation_required": 4500,
+        "required_quests": [
+          "fq_shard_076"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SANCTUM",
+          "count": 1,
+          "description": "Return."
+        },
+        {
+          "type": "collect",
+          "target": "legend_seal",
+          "count": 1,
+          "description": "Receive Seal."
+        }
+      ],
+      "rewards": {
+        "exp": 4400,
+        "currency": 2200,
+        "crd": 1062,
+        "rep": 1340,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_078"
+    },
+    {
+      "id": "fq_shard_078",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Sacred duty.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 77,
+        "reputation_required": 4560,
+        "required_quests": [
+          "fq_shard_077"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Sacred duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_079"
+    },
+    {
+      "id": "fq_shard_079",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Sacred duty.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 78,
+        "reputation_required": 4620,
+        "required_quests": [
+          "fq_shard_078"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Sacred duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_080"
+    },
+    {
+      "id": "fq_shard_080",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Sacred duty.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 79,
+        "reputation_required": 4680,
+        "required_quests": [
+          "fq_shard_079"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Sacred duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_081"
+    },
+    {
+      "id": "fq_shard_081",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Sacred duty.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 80,
+        "reputation_required": 4740,
+        "required_quests": [
+          "fq_shard_080"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Sacred duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_082"
+    },
+    {
+      "id": "fq_shard_082",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Sacred duty.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 81,
+        "reputation_required": 4800,
+        "required_quests": [
+          "fq_shard_081"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Sacred duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_083"
+    },
+    {
+      "id": "fq_shard_083",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Sacred duty.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 82,
+        "reputation_required": 4860,
+        "required_quests": [
+          "fq_shard_082"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Sacred duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_084"
+    },
+    {
+      "id": "fq_shard_084",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Sacred duty.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 83,
+        "reputation_required": 4920,
+        "required_quests": [
+          "fq_shard_083"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Sacred duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_085"
+    },
+    {
+      "id": "fq_shard_085",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Sacred duty.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 84,
+        "reputation_required": 4980,
+        "required_quests": [
+          "fq_shard_084"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Sacred duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_086"
+    },
+    {
+      "id": "fq_shard_086",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Sacred duty.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 85,
+        "reputation_required": 5040,
+        "required_quests": [
+          "fq_shard_085"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Sacred duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_087"
+    },
+    {
+      "id": "fq_shard_087",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Sacred duty.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 86,
+        "reputation_required": 5100,
+        "required_quests": [
+          "fq_shard_086"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Sacred duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_088"
+    },
+    {
+      "id": "fq_shard_088",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Sacred duty.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 87,
+        "reputation_required": 5160,
+        "required_quests": [
+          "fq_shard_087"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Sacred duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_089"
+    },
+    {
+      "id": "fq_shard_089",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Sacred duty.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 88,
+        "reputation_required": 5220,
+        "required_quests": [
+          "fq_shard_088"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Sacred duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_090"
+    },
+    {
+      "id": "fq_shard_090",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Sacred duty.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 89,
+        "reputation_required": 5280,
+        "required_quests": [
+          "fq_shard_089"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Sacred duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_091"
+    },
+    {
+      "id": "fq_shard_091",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Sacred duty.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 90,
+        "reputation_required": 5340,
+        "required_quests": [
+          "fq_shard_090"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Sacred duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_092"
+    },
+    {
+      "id": "fq_shard_092",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Sacred duty.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 91,
+        "reputation_required": 5400,
+        "required_quests": [
+          "fq_shard_091"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Sacred duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_093"
+    },
+    {
+      "id": "fq_shard_093",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Sacred duty.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 92,
+        "reputation_required": 5460,
+        "required_quests": [
+          "fq_shard_092"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Sacred duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_094"
+    },
+    {
+      "id": "fq_shard_094",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Sacred duty.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 93,
+        "reputation_required": 5520,
+        "required_quests": [
+          "fq_shard_093"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Sacred duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_095"
+    },
+    {
+      "id": "fq_shard_095",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Sacred duty.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 94,
+        "reputation_required": 5580,
+        "required_quests": [
+          "fq_shard_094"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Sacred duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_096"
+    },
+    {
+      "id": "fq_shard_096",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Sacred duty.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 95,
+        "reputation_required": 5640,
+        "required_quests": [
+          "fq_shard_095"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Sacred duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_097"
+    },
+    {
+      "id": "fq_shard_097",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Sacred duty.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 96,
+        "reputation_required": 5700,
+        "required_quests": [
+          "fq_shard_096"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Sacred duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_098"
+    },
+    {
+      "id": "fq_shard_098",
+      "title": "Sacred Duty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "CRADLE_EXPANSE",
+      "description": "Sacred duty.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 97,
+        "reputation_required": 5760,
+        "required_quests": [
+          "fq_shard_097"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Sacred duty."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_099"
+    },
+    {
+      "id": "fq_shard_099",
+      "title": "The Final Resonance",
+      "type": "story",
+      "rank": "S",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Face the three Apex entities in a symphony of final combat. The Shard sings through you.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 98,
+        "reputation_required": 5820,
+        "required_quests": [
+          "fq_shard_098"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "description": "Harmonize Jotunn."
+        },
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Harmonize Drake."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "description": "Harmonize Harbinger."
+        },
+        {
+          "type": "collect",
+          "target": "eternity_seal",
+          "count": 1,
+          "description": "Claim Eternity Seal."
+        }
+      ],
+      "rewards": {
+        "exp": 25000,
+        "currency": 12000,
+        "crd": 6000,
+        "rep": 8000,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_shard_100"
+    },
+    {
+      "id": "fq_shard_100",
+      "title": "Eternity with Xylos",
+      "type": "story",
+      "rank": "SS",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "SANCTUM",
+      "description": "The Eternal Titan and Harbinger have fallen. Your soul merges with Xylos. Return to the Sanctum as AVATAR ABADI. Evolusi melalui Shard. Simbiosis dengan Xylos. Selamanya.",
+      "quest_giver": {
+        "npc_id": "npc_high_priest",
+        "name": "High Priestess Lyr",
+        "location": "SANCTUM"
+      },
+      "requirements": {
+        "min_level": 99,
+        "reputation_required": 5880,
+        "required_quests": [
+          "fq_shard_099"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SANCTUM",
+          "count": 1,
+          "description": "Return as Avatar Abadi."
+        },
+        {
+          "type": "interact",
+          "target": "npc_high_priest",
+          "count": 1,
+          "description": "Receive Elder Malakor's eternal blessing."
+        }
+      ],
+      "rewards": {
+        "exp": 50000,
+        "currency": 25000,
+        "crd": 12500,
+        "rep": 10000,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false
+    }
+  ]
+}

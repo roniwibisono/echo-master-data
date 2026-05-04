@@ -1,0 +1,5175 @@
+{
+  "quests": [
+    {
+      "id": "fq_iron_001",
+      "title": "Supply Procurement",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "IRON_HEGEMONY",
+      "region": "SCRAP_FIELD",
+      "description": "You are conscripted into the Iron Hegemony. Your first mission: clear Scrap Field of Broken Scout Drones disrupting logistics. Strength through Unity.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "SCRAP_FIELD"
+      },
+      "requirements": {
+        "min_level": 1,
+        "reputation_required": 0,
+        "required_quests": []
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "BROKEN_DRONE",
+          "count": 5,
+          "desc": "Destroy Broken Scout Drones."
+        },
+        {
+          "type": "collect",
+          "target": "salvage_parts",
+          "count": 2,
+          "desc": "Collect salvage parts for the war machine."
+        }
+      ],
+      "rewards": {
+        "exp": 50,
+        "currency": 30,
+        "crd": 15,
+        "rep": 30,
+        "items": [
+          {
+            "item_id": "con_small_hp_cell",
+            "quantity": 3
+          },
+          {
+            "item_id": "scrap_metal",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_002"
+    },
+    {
+      "id": "fq_iron_002",
+      "title": "Scrap Rat Infestation",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "IRON_HEGEMONY",
+      "region": "SCRAP_FIELD",
+      "description": "Scrap Rats gnaw through supply crates. A soldier's first duty is to protect resources. Exterminate them.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "SCRAP_FIELD"
+      },
+      "requirements": {
+        "min_level": 1,
+        "reputation_required": 0,
+        "required_quests": [
+          "fq_iron_001"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SCRAP_RAT",
+          "count": 6,
+          "desc": "Exterminate Scrap Rats."
+        },
+        {
+          "type": "collect",
+          "target": "rat_tail",
+          "count": 3,
+          "desc": "Collect Rat tails for bounty proof."
+        }
+      ],
+      "rewards": {
+        "exp": 55,
+        "currency": 35,
+        "crd": 20,
+        "rep": 35,
+        "items": [
+          {
+            "item_id": "con_small_mp_cell",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_003"
+    },
+    {
+      "id": "fq_iron_003",
+      "title": "Drone Salvage",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "IRON_HEGEMONY",
+      "region": "SCRAP_FIELD",
+      "description": "Scrap Drones contain valuable parts. Disable them and recover their components for the Bastion forges.",
+      "quest_giver": {
+        "npc_id": "npc_salvage_expert",
+        "name": "Tink",
+        "location": "SCRAP_FIELD"
+      },
+      "requirements": {
+        "min_level": 2,
+        "reputation_required": 60,
+        "required_quests": [
+          "fq_iron_002"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SCRAP_DRONE",
+          "count": 5,
+          "desc": "Disable Scrap Drones."
+        },
+        {
+          "type": "collect",
+          "target": "drone_component",
+          "count": 3,
+          "desc": "Salvage drone components."
+        }
+      ],
+      "rewards": {
+        "exp": 70,
+        "currency": 40,
+        "crd": 20,
+        "rep": 40,
+        "items": [
+          {
+            "item_id": "scrap_circuit",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_004"
+    },
+    {
+      "id": "fq_iron_004",
+      "title": "Rust Mite Purge",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "IRON_HEGEMONY",
+      "region": "SCRAP_FIELD",
+      "description": "Rust Mites corrode Hegemony equipment. A soldier maintains their gear. Purge the source of corrosion.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "SCRAP_FIELD"
+      },
+      "requirements": {
+        "min_level": 3,
+        "reputation_required": 120,
+        "required_quests": [
+          "fq_iron_003"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "RUST_MITE",
+          "count": 5,
+          "desc": "Purge Rust Mites."
+        },
+        {
+          "type": "kill",
+          "target": "SCRAP_CRAWLER",
+          "count": 3,
+          "desc": "Clear Scrap Crawlers nesting nearby."
+        }
+      ],
+      "rewards": {
+        "exp": 80,
+        "currency": 50,
+        "crd": 25,
+        "rep": 50,
+        "items": [
+          {
+            "item_id": "rust_chitin",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_005"
+    },
+    {
+      "id": "fq_iron_005",
+      "title": "The Soldier's Path",
+      "type": "tutorial",
+      "rank": "D",
+      "faction": "IRON_HEGEMONY",
+      "region": "BASTION_CORE",
+      "description": "Commander Drax has noted your potential. Report to War Marshal Drax at the Bastion to choose your combat specialization.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_class_trainer",
+        "name": "War Marshal Drax",
+        "location": "BASTION_CORE"
+      },
+      "requirements": {
+        "min_level": 4,
+        "reputation_required": 180,
+        "required_quests": [
+          "fq_iron_004"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_hegemony_class_trainer",
+          "count": 1,
+          "desc": "Report to War Marshal Drax at the Bastion."
+        },
+        {
+          "type": "interact",
+          "target": "class_change_screen",
+          "count": 1,
+          "desc": "Select your combat specialization."
+        },
+        {
+          "type": "kill",
+          "target": "SCRAP_HOUND",
+          "count": 3,
+          "desc": "Demonstrate your worth against Scrap Hounds."
+        }
+      ],
+      "rewards": {
+        "exp": 400,
+        "currency": 200,
+        "crd": 100,
+        "rep": 150,
+        "items": [
+          {
+            "item_id": "wpn_iron_sword",
+            "quantity": 1
+          },
+          {
+            "item_id": "arm_iron_plate",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "popup": true,
+      "popup_trigger": "on_quest_complete",
+      "popup_prerequisite": "fq_iron_004",
+      "popup_level": 4,
+      "quest_chain_next": "fq_iron_006"
+    },
+    {
+      "id": "fq_iron_006",
+      "title": "Securing Territory",
+      "type": "exploration",
+      "rank": "D",
+      "faction": "IRON_HEGEMONY",
+      "region": "IRON_RAVINE",
+      "description": "The Iron Ravine is rich in minerals. Establish a forward base and secure it for Hegemony mining operations.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "IRON_RAVINE"
+      },
+      "requirements": {
+        "min_level": 5,
+        "reputation_required": 240,
+        "required_quests": [
+          "fq_iron_005"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "IRON_RAVINE",
+          "count": 1,
+          "desc": "Enter the Iron Ravine."
+        },
+        {
+          "type": "collect",
+          "target": "forward_base_beacon",
+          "count": 1,
+          "desc": "Deploy a forward base beacon."
+        }
+      ],
+      "rewards": {
+        "exp": 100,
+        "currency": 60,
+        "crd": 30,
+        "rep": 60,
+        "items": [
+          {
+            "item_id": "mat_iron_ore",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_007"
+    },
+    {
+      "id": "fq_iron_007",
+      "title": "Ravine Miners",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "IRON_HEGEMONY",
+      "region": "IRON_RAVINE",
+      "description": "Iron Ravine Miners refuse to yield territory. The Hegemony takes what it needs. Clear them out.",
+      "quest_giver": {
+        "npc_id": "npc_iron_miner",
+        "name": "Gorn",
+        "location": "IRON_RAVINE"
+      },
+      "requirements": {
+        "min_level": 6,
+        "reputation_required": 300,
+        "required_quests": [
+          "fq_iron_006"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "IRON_RAVINE_MINER",
+          "count": 5,
+          "desc": "Defeat Iron Ravine Miners."
+        },
+        {
+          "type": "collect",
+          "target": "ravine_ore",
+          "count": 3,
+          "desc": "Collect Ravine Ore for the forges."
+        }
+      ],
+      "rewards": {
+        "exp": 120,
+        "currency": 70,
+        "crd": 35,
+        "rep": 70,
+        "items": [
+          {
+            "item_id": "mat_iron_ore",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_008"
+    },
+    {
+      "id": "fq_iron_008",
+      "title": "Brute Force",
+      "type": "boss",
+      "rank": "D",
+      "faction": "IRON_HEGEMONY",
+      "region": "IRON_RAVINE",
+      "description": "An Iron Ravine Brute has crushed three mining crews. Show it the meaning of Hegemony discipline.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "IRON_RAVINE"
+      },
+      "requirements": {
+        "min_level": 7,
+        "reputation_required": 360,
+        "required_quests": [
+          "fq_iron_007"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "IRON_RAVINE_BRUTE",
+          "count": 2,
+          "desc": "Defeat Iron Ravine Brutes."
+        },
+        {
+          "type": "collect",
+          "target": "brute_weapon",
+          "count": 1,
+          "desc": "Claim the Brute's weapon as trophy."
+        }
+      ],
+      "rewards": {
+        "exp": 180,
+        "currency": 100,
+        "crd": 50,
+        "rep": 100,
+        "items": [
+          {
+            "item_id": "rusted_plate",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_009"
+    },
+    {
+      "id": "fq_iron_009",
+      "title": "Enforcer Elimination",
+      "type": "boss",
+      "rank": "D",
+      "faction": "IRON_HEGEMONY",
+      "region": "IRON_RAVINE",
+      "description": "A Scrapfield Enforcer has established dominance over the central ravine. Challenge its authority. Hegemony bows to no one.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "IRON_RAVINE"
+      },
+      "requirements": {
+        "min_level": 8,
+        "reputation_required": 420,
+        "required_quests": [
+          "fq_iron_008"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SCRAPFIELD_ENFORCER",
+          "count": 1,
+          "desc": "Defeat the Scrapfield Enforcer."
+        },
+        {
+          "type": "kill",
+          "target": "IRON_RAVINE_SENTINEL",
+          "count": 1,
+          "desc": "Destroy a Ravine Sentinel guarding the Enforcer."
+        }
+      ],
+      "rewards": {
+        "exp": 250,
+        "currency": 150,
+        "crd": 75,
+        "rep": 150,
+        "items": [
+          {
+            "item_id": "scrap_circuit",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_010"
+    },
+    {
+      "id": "fq_iron_010",
+      "title": "Golem Crush",
+      "type": "boss",
+      "rank": "D",
+      "faction": "IRON_HEGEMONY",
+      "region": "IRON_RAVINE",
+      "description": "Ravine Scrap Golems are mobile fortresses of salvaged metal. Break them apart and take what the Hegemony needs.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "IRON_RAVINE"
+      },
+      "requirements": {
+        "min_level": 9,
+        "reputation_required": 480,
+        "required_quests": [
+          "fq_iron_009"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "RAVINE_SCRAP_GOLEM",
+          "count": 2,
+          "desc": "Destroy Ravine Scrap Golems."
+        },
+        {
+          "type": "collect",
+          "target": "golem_core_component",
+          "count": 1,
+          "desc": "Salvage Golem core components."
+        }
+      ],
+      "rewards": {
+        "exp": 300,
+        "currency": 180,
+        "crd": 90,
+        "rep": 180,
+        "items": [
+          {
+            "item_id": "core_fragment",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_011"
+    },
+    {
+      "id": "fq_iron_011",
+      "title": "Frontline Duty",
+      "type": "exploration",
+      "rank": "C",
+      "faction": "IRON_HEGEMONY",
+      "region": "WAR_MACHINE_GRAVEYARD",
+      "description": "The War Machine Graveyard is a battlefield of ancient titans. The Hegemony will learn from the wreckage of past wars.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "WAR_MACHINE_GRAVEYARD"
+      },
+      "requirements": {
+        "min_level": 10,
+        "reputation_required": 540,
+        "required_quests": [
+          "fq_iron_010"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "WAR_MACHINE_GRAVEYARD",
+          "count": 1,
+          "desc": "Enter the War Machine Graveyard."
+        },
+        {
+          "type": "collect",
+          "target": "battlefield_intel",
+          "count": 2,
+          "desc": "Gather battlefield intelligence."
+        }
+      ],
+      "rewards": {
+        "exp": 280,
+        "currency": 150,
+        "crd": 75,
+        "rep": 150,
+        "items": [
+          {
+            "item_id": "con_minor_stim_pack",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_012"
+    },
+    {
+      "id": "fq_iron_012",
+      "title": "Wrecker Duty",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "IRON_HEGEMONY",
+      "region": "WAR_MACHINE_GRAVEYARD",
+      "description": "War Machine Wreckers scavenge the graveyard. They are competition. Eliminate them.",
+      "quest_giver": {
+        "npc_id": "npc_assembly_foreman",
+        "name": "Foreman Brigg",
+        "location": "WAR_MACHINE_GRAVEYARD"
+      },
+      "requirements": {
+        "min_level": 11,
+        "reputation_required": 600,
+        "required_quests": [
+          "fq_iron_011"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "WAR_MACHINE_WRECKER",
+          "count": 5,
+          "desc": "Destroy War Machine Wreckers."
+        },
+        {
+          "type": "collect",
+          "target": "wrecker_parts",
+          "count": 3,
+          "desc": "Collect usable parts from destroyed Wreckers."
+        }
+      ],
+      "rewards": {
+        "exp": 320,
+        "currency": 170,
+        "crd": 85,
+        "rep": 170,
+        "items": [
+          {
+            "item_id": "scrap_metal",
+            "quantity": 4
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_013"
+    },
+    {
+      "id": "fq_iron_013",
+      "title": "Scavenger Hunt",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "IRON_HEGEMONY",
+      "region": "WAR_MACHINE_GRAVEYARD",
+      "description": "War Machine Scavengers strip the graveyard of valuable tech. The Hegemony will strip them instead.",
+      "quest_giver": {
+        "npc_id": "npc_salvage_expert",
+        "name": "Tink",
+        "location": "WAR_MACHINE_GRAVEYARD"
+      },
+      "requirements": {
+        "min_level": 12,
+        "reputation_required": 660,
+        "required_quests": [
+          "fq_iron_012"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "WAR_MACHINE_SCAVENGER",
+          "count": 5,
+          "desc": "Eliminate War Machine Scavengers."
+        },
+        {
+          "type": "collect",
+          "target": "salvaged_tech",
+          "count": 3,
+          "desc": "Recover salvaged technology."
+        }
+      ],
+      "rewards": {
+        "exp": 360,
+        "currency": 190,
+        "crd": 95,
+        "rep": 200,
+        "items": [
+          {
+            "item_id": "rusted_cybernetic_arm",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_014"
+    },
+    {
+      "id": "fq_iron_014",
+      "title": "Sentinel Protocol",
+      "type": "boss",
+      "rank": "C",
+      "faction": "IRON_HEGEMONY",
+      "region": "WAR_MACHINE_GRAVEYARD",
+      "description": "War Machine Sentinels are automated war constructs. Disable them and reverse-engineer their combat protocols.",
+      "quest_giver": {
+        "npc_id": "npc_assembly_foreman",
+        "name": "Foreman Brigg",
+        "location": "WAR_MACHINE_GRAVEYARD"
+      },
+      "requirements": {
+        "min_level": 13,
+        "reputation_required": 720,
+        "required_quests": [
+          "fq_iron_013"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "WAR_MACHINE_SENTINEL",
+          "count": 3,
+          "desc": "Disable War Machine Sentinels."
+        },
+        {
+          "type": "collect",
+          "target": "sentinel_combat_data",
+          "count": 1,
+          "desc": "Extract combat protocol data."
+        }
+      ],
+      "rewards": {
+        "exp": 450,
+        "currency": 240,
+        "crd": 120,
+        "rep": 240,
+        "items": [
+          {
+            "item_id": "damaged_servo_motor",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_015"
+    },
+    {
+      "id": "fq_iron_015",
+      "title": "Graveyard Sweep",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "IRON_HEGEMONY",
+      "region": "WAR_MACHINE_GRAVEYARD",
+      "description": "Conduct a full sweep of the graveyard. Leave nothing standing that is not Hegemony.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "WAR_MACHINE_GRAVEYARD"
+      },
+      "requirements": {
+        "min_level": 14,
+        "reputation_required": 780,
+        "required_quests": [
+          "fq_iron_014"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "WAR_MACHINE_WRECKER",
+          "count": 4,
+          "desc": "Sweep remaining Wreckers."
+        },
+        {
+          "type": "kill",
+          "target": "WAR_MACHINE_SCAVENGER",
+          "count": 4,
+          "desc": "Sweep remaining Scavengers."
+        }
+      ],
+      "rewards": {
+        "exp": 500,
+        "currency": 280,
+        "crd": 140,
+        "rep": 300,
+        "items": [
+          {
+            "item_id": "scrap_circuit",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_016"
+    },
+    {
+      "id": "fq_iron_016",
+      "title": "War Machine Assault",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "IRON_HEGEMONY",
+      "region": "WAR_MACHINE_GRAVEYARD",
+      "description": "Multiple Sentinels are converging. This is not a threat \u2014 it is target practice.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "WAR_MACHINE_GRAVEYARD"
+      },
+      "requirements": {
+        "min_level": 15,
+        "reputation_required": 840,
+        "required_quests": [
+          "fq_iron_015"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "WAR_MACHINE_SENTINEL",
+          "count": 4,
+          "desc": "Destroy converging Sentinels."
+        },
+        {
+          "type": "collect",
+          "target": "sentinel_wreckage_report",
+          "count": 1,
+          "desc": "File the Sentinel wreckage report."
+        }
+      ],
+      "rewards": {
+        "exp": 520,
+        "currency": 290,
+        "crd": 145,
+        "rep": 310,
+        "items": [
+          {
+            "item_id": "processor_cooling_unit",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_017"
+    },
+    {
+      "id": "fq_iron_017",
+      "title": "Bastion Supply Run",
+      "type": "collect",
+      "rank": "C",
+      "faction": "IRON_HEGEMONY",
+      "region": "WAR_MACHINE_GRAVEYARD",
+      "description": "The Bastion requires specific components from the graveyard. A soldier follows orders. Retrieve them.",
+      "quest_giver": {
+        "npc_id": "npc_assembly_foreman",
+        "name": "Foreman Brigg",
+        "location": "WAR_MACHINE_GRAVEYARD"
+      },
+      "requirements": {
+        "min_level": 16,
+        "reputation_required": 900,
+        "required_quests": [
+          "fq_iron_016"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "spec_component",
+          "count": 4,
+          "desc": "Retrieve specified components."
+        },
+        {
+          "type": "kill",
+          "target": "WAR_MACHINE_WRECKER",
+          "count": 3,
+          "desc": "Clear the retrieval zone."
+        }
+      ],
+      "rewards": {
+        "exp": 480,
+        "currency": 260,
+        "crd": 130,
+        "rep": 260,
+        "items": [
+          {
+            "item_id": "neural_interface_socket",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_018"
+    },
+    {
+      "id": "fq_iron_018",
+      "title": "The Advance Guard",
+      "type": "boss",
+      "rank": "C",
+      "faction": "IRON_HEGEMONY",
+      "region": "WAR_MACHINE_GRAVEYARD",
+      "description": "A Sentinel Commander has activated deep in the graveyard. Destroy it and claim the graveyard for the Hegemony.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "WAR_MACHINE_GRAVEYARD"
+      },
+      "requirements": {
+        "min_level": 17,
+        "reputation_required": 960,
+        "required_quests": [
+          "fq_iron_017"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "WAR_MACHINE_SENTINEL",
+          "count": 5,
+          "desc": "Destroy the Sentinel Commander and its unit."
+        },
+        {
+          "type": "collect",
+          "target": "graveyard_claim_beacon",
+          "count": 1,
+          "desc": "Plant the Hegemony claim beacon."
+        }
+      ],
+      "rewards": {
+        "exp": 600,
+        "currency": 330,
+        "crd": 165,
+        "rep": 350,
+        "items": [
+          {
+            "item_id": "tactical_sensor_cluster",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_019"
+    },
+    {
+      "id": "fq_iron_019",
+      "title": "The Advancement",
+      "type": "boss",
+      "rank": "C",
+      "faction": "IRON_HEGEMONY",
+      "region": "WAR_MACHINE_GRAVEYARD",
+      "description": "A Resonance Echo has been detected in the graveyard's deep sector. This anomaly threatens our position. Destroy it.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "WAR_MACHINE_GRAVEYARD"
+      },
+      "requirements": {
+        "min_level": 18,
+        "reputation_required": 1020,
+        "required_quests": [
+          "fq_iron_018"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "RESONANCE_ECHO",
+          "count": 1,
+          "desc": "Defeat the Resonance Echo."
+        },
+        {
+          "type": "kill",
+          "target": "WAR_MACHINE_SENTINEL",
+          "count": 2,
+          "desc": "Clear Sentinel escorts."
+        }
+      ],
+      "rewards": {
+        "exp": 800,
+        "currency": 450,
+        "crd": 225,
+        "rep": 450,
+        "items": [
+          {
+            "item_id": "entropy_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_020"
+    },
+    {
+      "id": "fq_iron_020",
+      "title": "Promotion Review",
+      "type": "story",
+      "rank": "C",
+      "faction": "IRON_HEGEMONY",
+      "region": "BASTION_CORE",
+      "description": "You have proven yourself on the frontlines. Return to the Bastion for your Advanced Combat promotion review.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "BASTION_CORE"
+      },
+      "requirements": {
+        "min_level": 19,
+        "reputation_required": 1080,
+        "required_quests": [
+          "fq_iron_019"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "BASTION_CORE",
+          "count": 1,
+          "desc": "Return to the Bastion."
+        },
+        {
+          "type": "collect",
+          "target": "advanced_combat_badge",
+          "count": 1,
+          "desc": "Receive the Advanced Combat Badge."
+        }
+      ],
+      "rewards": {
+        "exp": 900,
+        "currency": 500,
+        "crd": 250,
+        "rep": 500,
+        "items": [
+          {
+            "item_id": "con_medium_hp_cell",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_021"
+    },
+    {
+      "id": "fq_iron_021",
+      "title": "Iron Incursion",
+      "type": "exploration",
+      "rank": "B",
+      "faction": "IRON_HEGEMONY",
+      "region": "TITAN_ASSEMBLY_YARD",
+      "description": "The Titan Assembly Yard was once where Precursor war machines were born. The Hegemony will make it our primary production facility.",
+      "quest_giver": {
+        "npc_id": "npc_assembly_foreman",
+        "name": "Foreman Brigg",
+        "location": "TITAN_ASSEMBLY_YARD"
+      },
+      "requirements": {
+        "min_level": 20,
+        "reputation_required": 1140,
+        "required_quests": [
+          "fq_iron_020"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "TITAN_ASSEMBLY_YARD",
+          "count": 1,
+          "desc": "Enter the Titan Assembly Yard."
+        },
+        {
+          "type": "collect",
+          "target": "assembly_schematics",
+          "count": 2,
+          "desc": "Recover Assembly schematics."
+        }
+      ],
+      "rewards": {
+        "exp": 600,
+        "currency": 350,
+        "crd": 175,
+        "rep": 350,
+        "items": [
+          {
+            "item_id": "con_nutrient_ration",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_022"
+    },
+    {
+      "id": "fq_iron_022",
+      "title": "Drone Sweep",
+      "type": "hunt",
+      "rank": "B",
+      "faction": "IRON_HEGEMONY",
+      "region": "TITAN_ASSEMBLY_YARD",
+      "description": "Titan Assembly Drones still function on ancient protocols. Override their programming with force.",
+      "quest_giver": {
+        "npc_id": "npc_assembly_foreman",
+        "name": "Foreman Brigg",
+        "location": "TITAN_ASSEMBLY_YARD"
+      },
+      "requirements": {
+        "min_level": 21,
+        "reputation_required": 1200,
+        "required_quests": [
+          "fq_iron_021"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_ASSEMBLY_DRONE",
+          "count": 6,
+          "desc": "Destroy Titan Assembly Drones."
+        },
+        {
+          "type": "collect",
+          "target": "drone_override_codes",
+          "count": 2,
+          "desc": "Extract override codes."
+        }
+      ],
+      "rewards": {
+        "exp": 650,
+        "currency": 380,
+        "crd": 190,
+        "rep": 380,
+        "items": [
+          {
+            "item_id": "scrap_circuit",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_023"
+    },
+    {
+      "id": "fq_iron_023",
+      "title": "Sentinel Outpost",
+      "type": "boss",
+      "rank": "B",
+      "faction": "IRON_HEGEMONY",
+      "region": "TITAN_ASSEMBLY_YARD",
+      "description": "Titan Assembly Sentinels guard the central assembly line. Breach their defenses and claim the line for Hegemony production.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "TITAN_ASSEMBLY_YARD"
+      },
+      "requirements": {
+        "min_level": 22,
+        "reputation_required": 1260,
+        "required_quests": [
+          "fq_iron_022"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_ASSEMBLY_SENTINEL",
+          "count": 3,
+          "desc": "Destroy Titan Assembly Sentinels."
+        },
+        {
+          "type": "collect",
+          "target": "assembly_line_control",
+          "count": 1,
+          "desc": "Seize the assembly line control terminal."
+        }
+      ],
+      "rewards": {
+        "exp": 750,
+        "currency": 420,
+        "crd": 210,
+        "rep": 450,
+        "items": [
+          {
+            "item_id": "damaged_servo_motor",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_024"
+    },
+    {
+      "id": "fq_iron_024",
+      "title": "Forge Automaton",
+      "type": "boss",
+      "rank": "B",
+      "faction": "IRON_HEGEMONY",
+      "region": "TITAN_ASSEMBLY_YARD",
+      "description": "Titan Forge Automatons are apex construction machines. Disable them and study their assembly protocols.",
+      "quest_giver": {
+        "npc_id": "npc_assembly_foreman",
+        "name": "Foreman Brigg",
+        "location": "TITAN_ASSEMBLY_YARD"
+      },
+      "requirements": {
+        "min_level": 23,
+        "reputation_required": 1320,
+        "required_quests": [
+          "fq_iron_023"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_FORGE_AUTOMATON",
+          "count": 2,
+          "desc": "Disable Titan Forge Automatons."
+        },
+        {
+          "type": "collect",
+          "target": "automaton_protocol",
+          "count": 1,
+          "desc": "Extract Automaton assembly protocols."
+        }
+      ],
+      "rewards": {
+        "exp": 850,
+        "currency": 460,
+        "crd": 230,
+        "rep": 480,
+        "items": [
+          {
+            "item_id": "hydraulic_piston_fragment",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_025"
+    },
+    {
+      "id": "fq_iron_025",
+      "title": "Proto Core",
+      "type": "boss",
+      "rank": "B",
+      "faction": "IRON_HEGEMONY",
+      "region": "TITAN_ASSEMBLY_YARD",
+      "description": "A Titan Proto Core \u2014 a failed Titan \u2014 has reactivated. This is a live-fire exercise. Destroy it.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "TITAN_ASSEMBLY_YARD"
+      },
+      "requirements": {
+        "min_level": 24,
+        "reputation_required": 1380,
+        "required_quests": [
+          "fq_iron_024"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_PROTO_CORE",
+          "count": 1,
+          "desc": "Destroy the Titan Proto Core."
+        },
+        {
+          "type": "collect",
+          "target": "proto_core_analysis",
+          "count": 1,
+          "desc": "Collect Proto Core battle data."
+        }
+      ],
+      "rewards": {
+        "exp": 1000,
+        "currency": 550,
+        "crd": 275,
+        "rep": 550,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_026"
+    },
+    {
+      "id": "fq_iron_026",
+      "title": "Skirmish Ring",
+      "type": "exploration",
+      "rank": "B",
+      "faction": "IRON_HEGEMONY",
+      "region": "BORDER_SKIRMISH_RING",
+      "description": "The Border Skirmish Ring is where factions test their strength. The Hegemony does not test \u2014 we dominate.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "BORDER_SKIRMISH_RING"
+      },
+      "requirements": {
+        "min_level": 25,
+        "reputation_required": 1440,
+        "required_quests": [
+          "fq_iron_025"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "BORDER_SKIRMISH_RING",
+          "count": 1,
+          "desc": "Enter the Border Skirmish Ring."
+        },
+        {
+          "type": "collect",
+          "target": "skirmish_intel",
+          "count": 2,
+          "desc": "Gather enemy movement intelligence."
+        }
+      ],
+      "rewards": {
+        "exp": 700,
+        "currency": 400,
+        "crd": 200,
+        "rep": 400,
+        "items": [
+          {
+            "item_id": "con_nutrient_ration",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_027"
+    },
+    {
+      "id": "fq_iron_027",
+      "title": "Border Patrol",
+      "type": "hunt",
+      "rank": "B",
+      "faction": "IRON_HEGEMONY",
+      "region": "BORDER_SKIRMISH_RING",
+      "description": "Patrol the skirmish ring and eliminate any non-Hegemony forces. The border is ours.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "BORDER_SKIRMISH_RING"
+      },
+      "requirements": {
+        "min_level": 26,
+        "reputation_required": 1500,
+        "required_quests": [
+          "fq_iron_026"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 6,
+          "desc": "Eliminate rival faction scouts."
+        },
+        {
+          "type": "collect",
+          "target": "patrol_badge",
+          "count": 1,
+          "desc": "Complete border patrol and claim the badge."
+        }
+      ],
+      "rewards": {
+        "exp": 750,
+        "currency": 430,
+        "crd": 215,
+        "rep": 430,
+        "items": [
+          {
+            "item_id": "scrap_circuit",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_028"
+    },
+    {
+      "id": "fq_iron_028",
+      "title": "Behemoth Assault",
+      "type": "boss",
+      "rank": "B",
+      "faction": "IRON_HEGEMONY",
+      "region": "BORDER_SKIRMISH_RING",
+      "description": "Aethel Behemoths are being used as living siege weapons by rival factions. Destroy the weapon before it reaches Hegemony lines.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "BORDER_SKIRMISH_RING"
+      },
+      "requirements": {
+        "min_level": 27,
+        "reputation_required": 1560,
+        "required_quests": [
+          "fq_iron_027"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_BEHEMOTH",
+          "count": 2,
+          "desc": "Destroy the enemy Behemoth siege units."
+        },
+        {
+          "type": "collect",
+          "target": "behemoth_siege_data",
+          "count": 1,
+          "desc": "Document the siege weapon tactics."
+        }
+      ],
+      "rewards": {
+        "exp": 900,
+        "currency": 520,
+        "crd": 260,
+        "rep": 520,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_029"
+    },
+    {
+      "id": "fq_iron_029",
+      "title": "Sentinel Assembly",
+      "type": "boss",
+      "rank": "B",
+      "faction": "IRON_HEGEMONY",
+      "region": "TITAN_ASSEMBLY_YARD",
+      "description": "The Assembly Yard has produced new Sentinel variants. Test Hegemony combat doctrine against them.",
+      "quest_giver": {
+        "npc_id": "npc_assembly_foreman",
+        "name": "Foreman Brigg",
+        "location": "TITAN_ASSEMBLY_YARD"
+      },
+      "requirements": {
+        "min_level": 28,
+        "reputation_required": 1620,
+        "required_quests": [
+          "fq_iron_028"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_ASSEMBLY_SENTINEL",
+          "count": 4,
+          "desc": "Destroy new Sentinel variants."
+        },
+        {
+          "type": "collect",
+          "target": "sentinel_variant_data",
+          "count": 1,
+          "desc": "Document Sentinel variant capabilities."
+        }
+      ],
+      "rewards": {
+        "exp": 850,
+        "currency": 480,
+        "crd": 240,
+        "rep": 480,
+        "items": [
+          {
+            "item_id": "stabilizer_gyro_unit",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_030"
+    },
+    {
+      "id": "fq_iron_030",
+      "title": "Ascension Test",
+      "type": "story",
+      "rank": "B",
+      "faction": "IRON_HEGEMONY",
+      "region": "BASTION_CORE",
+      "description": "War Marshal Drax has called for your Ascension Test. Prove your strength has surpassed the rank of common soldier.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_class_trainer",
+        "name": "War Marshal Drax",
+        "location": "BASTION_CORE"
+      },
+      "requirements": {
+        "min_level": 29,
+        "reputation_required": 1680,
+        "required_quests": [
+          "fq_iron_029"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_hegemony_class_trainer",
+          "count": 1,
+          "desc": "Report to War Marshal Drax."
+        },
+        {
+          "type": "kill",
+          "target": "RESONANCE_ECHO",
+          "count": 1,
+          "desc": "Defeat the Resonance Echo as your strength test."
+        },
+        {
+          "type": "kill",
+          "target": "TITAN_PROTO_CORE",
+          "count": 1,
+          "desc": "Destroy a Titan Proto Core as your endurance test."
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 1200,
+        "crd": 600,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 2
+          },
+          {
+            "item_id": "titan_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "popup": true,
+      "popup_trigger": "on_quest_complete",
+      "popup_prerequisite": "fq_iron_029",
+      "popup_level": 29,
+      "quest_chain_next": "fq_iron_031"
+    },
+    {
+      "id": "fq_iron_031",
+      "title": "Skies of Iron",
+      "type": "exploration",
+      "rank": "A",
+      "faction": "IRON_HEGEMONY",
+      "region": "ORBITAL_SENTINEL_COMMAND",
+      "description": "The Hegemony now controls the ground. The next frontier is the sky. Secure the Orbital Sentinel Command.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "ORBITAL_SENTINEL_COMMAND"
+      },
+      "requirements": {
+        "min_level": 30,
+        "reputation_required": 1740,
+        "required_quests": [
+          "fq_iron_030"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "ORBITAL_SENTINEL_COMMAND",
+          "count": 1,
+          "desc": "Report to Orbital Sentinel Command."
+        },
+        {
+          "type": "collect",
+          "target": "orbital_control_beacon",
+          "count": 1,
+          "desc": "Deploy the Hegemony orbital control beacon."
+        }
+      ],
+      "rewards": {
+        "exp": 900,
+        "currency": 500,
+        "crd": 250,
+        "rep": 500,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_032"
+    },
+    {
+      "id": "fq_iron_032",
+      "title": "Drake Recon",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "IRON_HEGEMONY",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Ashen Drake threatens Hegemony air superiority. Conduct reconnaissance and engage if necessary.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 31,
+        "reputation_required": 1800,
+        "required_quests": [
+          "fq_iron_031"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "desc": "Engage the Ashen Drake for reconnaissance."
+        },
+        {
+          "type": "collect",
+          "target": "drake_combat_data",
+          "count": 2,
+          "desc": "Record Drake combat data."
+        }
+      ],
+      "rewards": {
+        "exp": 1200,
+        "currency": 650,
+        "crd": 325,
+        "rep": 650,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_033"
+    },
+    {
+      "id": "fq_iron_033",
+      "title": "Iron Carapace Breach",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "IRON_HEGEMONY",
+      "region": "CRADLE_EXPANSE",
+      "description": "Aethel Iron Carapaces are armored threats. Hegemony tanks need live-fire practice. Be the gun.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 32,
+        "reputation_required": 1860,
+        "required_quests": [
+          "fq_iron_032"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 6,
+          "desc": "Destroy Aethel Iron Carapaces."
+        },
+        {
+          "type": "collect",
+          "target": "carapace_armor_plate",
+          "count": 3,
+          "desc": "Harvest armor plates for the forges."
+        }
+      ],
+      "rewards": {
+        "exp": 1400,
+        "currency": 750,
+        "crd": 375,
+        "rep": 750,
+        "items": [
+          {
+            "item_id": "rusted_plate",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_034"
+    },
+    {
+      "id": "fq_iron_034",
+      "title": "Behemoth Target",
+      "type": "boss",
+      "rank": "A",
+      "faction": "IRON_HEGEMONY",
+      "region": "CRADLE_EXPANSE",
+      "description": "Aethel Corrupted Behemoths are priority targets. Any threat to Hegemony territory receives the same response: elimination.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 33,
+        "reputation_required": 1920,
+        "required_quests": [
+          "fq_iron_033"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 2,
+          "desc": "Eliminate Corrupted Behemoths."
+        },
+        {
+          "type": "collect",
+          "target": "target_confirmation",
+          "count": 2,
+          "desc": "Confirm target elimination."
+        }
+      ],
+      "rewards": {
+        "exp": 1600,
+        "currency": 850,
+        "crd": 425,
+        "rep": 850,
+        "items": [
+          {
+            "item_id": "aethel_fragment",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_035"
+    },
+    {
+      "id": "fq_iron_035",
+      "title": "Abyssal Front",
+      "type": "boss",
+      "rank": "A",
+      "faction": "IRON_HEGEMONY",
+      "region": "CRADLE_EXPANSE",
+      "description": "Aethel Abyssal Reavers are the enemy's shock troops. Meet them with Hegemony steel.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 34,
+        "reputation_required": 1980,
+        "required_quests": [
+          "fq_iron_034"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 4,
+          "desc": "Destroy Abyssal Reaver shock troops."
+        },
+        {
+          "type": "collect",
+          "target": "abyssal_after_action",
+          "count": 1,
+          "desc": "File the after-action report."
+        }
+      ],
+      "rewards": {
+        "exp": 1800,
+        "currency": 950,
+        "crd": 475,
+        "rep": 950,
+        "items": [
+          {
+            "item_id": "event_horizon_fragment",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_036"
+    },
+    {
+      "id": "fq_iron_036",
+      "title": "Orbital Defense Grid",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "IRON_HEGEMONY",
+      "region": "ORBITAL_SENTINEL_COMMAND",
+      "description": "Rival factions probe the orbital defense grid. Remind them why Hegemony controls the skies.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "ORBITAL_SENTINEL_COMMAND"
+      },
+      "requirements": {
+        "min_level": 35,
+        "reputation_required": 2040,
+        "required_quests": [
+          "fq_iron_035"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 6,
+          "desc": "Repel enemy probes."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 3,
+          "desc": "Neutralize void threats to the grid."
+        }
+      ],
+      "rewards": {
+        "exp": 1500,
+        "currency": 800,
+        "crd": 400,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_037"
+    },
+    {
+      "id": "fq_iron_037",
+      "title": "Drake Hunt",
+      "type": "boss",
+      "rank": "A",
+      "faction": "IRON_HEGEMONY",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Ashen Drake has been sighted again. This time, Hegemony authorizes a kill order. Bring it down.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 36,
+        "reputation_required": 2100,
+        "required_quests": [
+          "fq_iron_036"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "desc": "Hunt and kill the Ashen Drake."
+        },
+        {
+          "type": "collect",
+          "target": "drake_kill_confirmation",
+          "count": 1,
+          "desc": "Confirm the Drake kill."
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 1300,
+        "crd": 650,
+        "rep": 900,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_038"
+    },
+    {
+      "id": "fq_iron_038",
+      "title": "Ground Assault",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "IRON_HEGEMONY",
+      "region": "BORDER_SKIRMISH_RING",
+      "description": "Full ground assault on enemy positions in the Skirmish Ring. Hegemony doctrine: overwhelming force.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "BORDER_SKIRMISH_RING"
+      },
+      "requirements": {
+        "min_level": 37,
+        "reputation_required": 2160,
+        "required_quests": [
+          "fq_iron_037"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "desc": "Assault enemy positions."
+        },
+        {
+          "type": "collect",
+          "target": "territory_beacon",
+          "count": 2,
+          "desc": "Claim territory with Hegemony beacons."
+        }
+      ],
+      "rewards": {
+        "exp": 1700,
+        "currency": 900,
+        "crd": 450,
+        "rep": 900,
+        "items": [
+          {
+            "item_id": "scrap_metal",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_039"
+    },
+    {
+      "id": "fq_iron_039",
+      "title": "Abyssal Counter-Offensive",
+      "type": "boss",
+      "rank": "A",
+      "faction": "IRON_HEGEMONY",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Abyss Counter-Offensive has begun. Multiple Reaver battalions advance on Hegemony positions. Break their offensive.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 38,
+        "reputation_required": 2220,
+        "required_quests": [
+          "fq_iron_038"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 6,
+          "desc": "Break the Abyssal counter-offensive."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 3,
+          "desc": "Kill the Channeler commanders."
+        }
+      ],
+      "rewards": {
+        "exp": 2000,
+        "currency": 1100,
+        "crd": 550,
+        "rep": 1100,
+        "items": [
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_040"
+    },
+    {
+      "id": "fq_iron_040",
+      "title": "Master Commander",
+      "type": "story",
+      "rank": "A",
+      "faction": "IRON_HEGEMONY",
+      "region": "BASTION_CORE",
+      "description": "The Master Commander trial. Defeat the Ashen Drake and two elite guardians. Only the strongest lead Hegemony forces into battle.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "BASTION_CORE"
+      },
+      "requirements": {
+        "min_level": 39,
+        "reputation_required": 2280,
+        "required_quests": [
+          "fq_iron_039"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "desc": "Defeat the Ashen Drake."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_BEHEMOTH",
+          "count": 1,
+          "desc": "Destroy an Aethel Behemoth."
+        },
+        {
+          "type": "kill",
+          "target": "TITAN_PROTO_CORE",
+          "count": 1,
+          "desc": "Destroy a Titan Proto Core."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 1
+          },
+          {
+            "item_id": "titan_core",
+            "quantity": 1
+          },
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_041"
+    },
+    {
+      "id": "fq_iron_041",
+      "title": "Subjugating the Chasm",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The Void Echo Chasm is the most hostile environment on Xylos. The Hegemony will establish a forward base here. Fear is not an option.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 40,
+        "reputation_required": 2340,
+        "required_quests": [
+          "fq_iron_040"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "VOID_ECHO_CHASM",
+          "count": 1,
+          "desc": "Enter the Void Echo Chasm."
+        },
+        {
+          "type": "collect",
+          "target": "chasm_survey",
+          "count": 2,
+          "desc": "Conduct chasm terrain survey."
+        }
+      ],
+      "rewards": {
+        "exp": 1800,
+        "currency": 900,
+        "crd": 450,
+        "rep": 600,
+        "items": [
+          {
+            "item_id": "void_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_042"
+    },
+    {
+      "id": "fq_iron_042",
+      "title": "Reaver Engagement",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Void Reavers are the chasm's defenders. Engage and destroy. Hegemony fears no darkness.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 41,
+        "reputation_required": 2400,
+        "required_quests": [
+          "fq_iron_041"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 6,
+          "desc": "Engage and destroy Void Reavers."
+        },
+        {
+          "type": "collect",
+          "target": "reaver_kill_tally",
+          "count": 1,
+          "desc": "Submit kill tally to command."
+        }
+      ],
+      "rewards": {
+        "exp": 1900,
+        "currency": 950,
+        "crd": 475,
+        "rep": 650,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_043"
+    },
+    {
+      "id": "fq_iron_043",
+      "title": "Channeler Purge",
+      "type": "story",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Void Channelers perform rituals that empower the Abyss. Purge them. The Hegemony leaves no enemy power source intact.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 42,
+        "reputation_required": 2460,
+        "required_quests": [
+          "fq_iron_042"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 6,
+          "desc": "Purge Void Channelers and their rituals."
+        },
+        {
+          "type": "collect",
+          "target": "ritual_disruption_report",
+          "count": 1,
+          "desc": "Report ritual disruption status."
+        }
+      ],
+      "rewards": {
+        "exp": 2100,
+        "currency": 1050,
+        "crd": 525,
+        "rep": 700,
+        "items": [
+          {
+            "item_id": "event_horizon_fragment",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_044"
+    },
+    {
+      "id": "fq_iron_044",
+      "title": "Abyssal Extermination",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Abyssal Reavers are the enemy's elite. Exterminate them. The Hegemony tolerates no elite but its own.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 43,
+        "reputation_required": 2520,
+        "required_quests": [
+          "fq_iron_043"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 6,
+          "desc": "Exterminate Abyssal Reavers."
+        },
+        {
+          "type": "collect",
+          "target": "extermination_report",
+          "count": 1,
+          "desc": "File extermination completion report."
+        }
+      ],
+      "rewards": {
+        "exp": 2200,
+        "currency": 1100,
+        "crd": 550,
+        "rep": 750,
+        "items": [
+          {
+            "item_id": "void_crystal_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_045"
+    },
+    {
+      "id": "fq_iron_045",
+      "title": "Behemoth Elimination",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Corrupted Behemoths in the chasm are juiced on void energy. Prove that Hegemony steel cuts deeper than void corruption.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 44,
+        "reputation_required": 2580,
+        "required_quests": [
+          "fq_iron_044"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "desc": "Eliminate Corrupted Behemoths."
+        },
+        {
+          "type": "collect",
+          "target": "void_resistant_armor_data",
+          "count": 1,
+          "desc": "Collect void-resistance data for armor research."
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 1300,
+        "crd": 650,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "corrupted_synapse_cluster",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_046"
+    },
+    {
+      "id": "fq_iron_046",
+      "title": "Soul Breaker",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Soul Fragmenters attempt to break the minds of Hegemony soldiers. They will fail. Destroy these psychological warfare units.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 45,
+        "reputation_required": 2640,
+        "required_quests": [
+          "fq_iron_045"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SOUL_FRAGMENTER",
+          "count": 2,
+          "desc": "Destroy Soul Fragmenters."
+        },
+        {
+          "type": "collect",
+          "target": "soldier_morale_report",
+          "count": 1,
+          "desc": "Report soldier morale status."
+        }
+      ],
+      "rewards": {
+        "exp": 3000,
+        "currency": 1600,
+        "crd": 800,
+        "rep": 1000,
+        "items": [
+          {
+            "item_id": "brainwave_oscillator",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_047"
+    },
+    {
+      "id": "fq_iron_047",
+      "title": "Chrono Elimination",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Chrono Wraiths warp time around Hegemony positions. Counter their temporal attacks with overwhelming firepower.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 46,
+        "reputation_required": 2700,
+        "required_quests": [
+          "fq_iron_046"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CHRONO_WRAITH",
+          "count": 2,
+          "desc": "Eliminate Chrono Wraiths."
+        },
+        {
+          "type": "collect",
+          "target": "temporal_countermeasure_data",
+          "count": 1,
+          "desc": "Develop temporal countermeasure data."
+        }
+      ],
+      "rewards": {
+        "exp": 3500,
+        "currency": 1800,
+        "crd": 900,
+        "rep": 1100,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_048"
+    },
+    {
+      "id": "fq_iron_048",
+      "title": "Jotunn Break",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "VOID_ECHO_CHASM",
+      "description": "A Gigantic Jotunn blocks the advance. Hegemony doctrine: destroy the obstacle and keep moving.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 47,
+        "reputation_required": 2760,
+        "required_quests": [
+          "fq_iron_047"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "desc": "Destroy the Gigantic Jotunn."
+        },
+        {
+          "type": "collect",
+          "target": "advance_beacon",
+          "count": 1,
+          "desc": "Deploy advance beacon past the Jotunn."
+        }
+      ],
+      "rewards": {
+        "exp": 3500,
+        "currency": 1800,
+        "crd": 900,
+        "rep": 1000,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_049"
+    },
+    {
+      "id": "fq_iron_049",
+      "title": "Heart Breach",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "SHATTERED_HEART",
+      "description": "The Shattered Heart is the enemy's core territory. Breach it. The Hegemony attacks \u2014 always.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 48,
+        "reputation_required": 2820,
+        "required_quests": [
+          "fq_iron_048"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SHATTERED_HEART",
+          "count": 1,
+          "desc": "Breach the Shattered Heart."
+        },
+        {
+          "type": "collect",
+          "target": "breach_head_established",
+          "count": 1,
+          "desc": "Establish the breach head."
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 1300,
+        "crd": 650,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_050"
+    },
+    {
+      "id": "fq_iron_050",
+      "title": "The Drake's Fall",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "SHATTERED_HEART",
+      "description": "THE DRAKE EXECUTION. The Ashen Drake rules the Shattered Heart. The Hegemony will execute it. Raid Tier-1: lead the assault and bring down the Drake. Victory through Conquest.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 49,
+        "reputation_required": 2880,
+        "required_quests": [
+          "fq_iron_049"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "desc": "EXECUTE THE ASHEN DRAKE."
+        },
+        {
+          "type": "kill",
+          "target": "DRAKE_MINION",
+          "count": 5,
+          "desc": "Clear Drake Minions from the lair."
+        },
+        {
+          "type": "collect",
+          "target": "drake_head_trophy",
+          "count": 1,
+          "desc": "Claim the Drake's head as trophy for the Bastion."
+        }
+      ],
+      "rewards": {
+        "exp": 8000,
+        "currency": 4000,
+        "crd": 2000,
+        "rep": 2500,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 2
+          },
+          {
+            "item_id": "ancient_scale",
+            "quantity": 1
+          },
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_051"
+    },
+    {
+      "id": "fq_iron_051",
+      "title": "Void Warfare",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The Soul Fragmenter threat has escalated. Multiple units are deploying. This is now a military campaign.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 50,
+        "reputation_required": 2940,
+        "required_quests": [
+          "fq_iron_050"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SOUL_FRAGMENTER",
+          "count": 3,
+          "desc": "Destroy the Fragmenter battalions."
+        },
+        {
+          "type": "collect",
+          "target": "campaign_status_report",
+          "count": 1,
+          "desc": "Submit campaign status to High Command."
+        }
+      ],
+      "rewards": {
+        "exp": 6000,
+        "currency": 3000,
+        "crd": 1500,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "brainwave_reader",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_052"
+    },
+    {
+      "id": "fq_iron_052",
+      "title": "Total Void Control",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Operation Total Void Control is authorized. Exterminate all void signatures in the chasm. The Hegemony does not share territory.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 51,
+        "reputation_required": 3000,
+        "required_quests": [
+          "fq_iron_051"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 8,
+          "desc": "Exterminate Void Reavers."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 5,
+          "desc": "Exterminate Void Channelers."
+        }
+      ],
+      "rewards": {
+        "exp": 4500,
+        "currency": 2200,
+        "crd": 1100,
+        "rep": 1500,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_053"
+    },
+    {
+      "id": "fq_iron_053",
+      "title": "Void Stalker Execution",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "VOID_ECHO_CHASM",
+      "description": "A Void Stalker has been hunting our soldiers. This insult to Hegemony strength will be answered with execution.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 52,
+        "reputation_required": 3060,
+        "required_quests": [
+          "fq_iron_052"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "VOID_STALKER",
+          "count": 1,
+          "desc": "Execute the Void Stalker."
+        },
+        {
+          "type": "collect",
+          "target": "stalker_dog_tags",
+          "count": 1,
+          "desc": "Recover fallen soldiers' identification."
+        }
+      ],
+      "rewards": {
+        "exp": 5500,
+        "currency": 2800,
+        "crd": 1400,
+        "rep": 1800,
+        "items": [
+          {
+            "item_id": "entropy_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_054"
+    },
+    {
+      "id": "fq_iron_054",
+      "title": "Temporal Breach",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Chrono Wraiths create temporal breaches that trap our troops. Close the breaches with extreme prejudice.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 53,
+        "reputation_required": 3120,
+        "required_quests": [
+          "fq_iron_053"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CHRONO_WRAITH",
+          "count": 3,
+          "desc": "Destroy Chrono Wraiths and close breaches."
+        },
+        {
+          "type": "collect",
+          "target": "breach_closure_report",
+          "count": 3,
+          "desc": "Confirm breach closures."
+        }
+      ],
+      "rewards": {
+        "exp": 6500,
+        "currency": 3200,
+        "crd": 1600,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_055"
+    },
+    {
+      "id": "fq_iron_055",
+      "title": "Heart Assault",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "SHATTERED_HEART",
+      "description": "Full assault on the Shattered Heart. Enemy Reaver battalions are dug in. Dig them out.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 54,
+        "reputation_required": 3180,
+        "required_quests": [
+          "fq_iron_054"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 10,
+          "desc": "Assault Reaver defensive positions."
+        },
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 6,
+          "desc": "Clear Void Reaver support units."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 1700,
+        "items": [
+          {
+            "item_id": "event_horizon_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_056"
+    },
+    {
+      "id": "fq_iron_056",
+      "title": "Jotunn Strongpoint",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "SHATTERED_HEART",
+      "description": "Gigantic Jotunns have fortified a position in the Heart. Hegemony doctrine for strongpoints: overwhelming force.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 55,
+        "reputation_required": 3240,
+        "required_quests": [
+          "fq_iron_055"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "desc": "Destroy the Jotunn strongpoint."
+        },
+        {
+          "type": "collect",
+          "target": "strongpoint_beacon",
+          "count": 1,
+          "desc": "Claim the strongpoint for Hegemony."
+        }
+      ],
+      "rewards": {
+        "exp": 7000,
+        "currency": 3500,
+        "crd": 1750,
+        "rep": 2200,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_057"
+    },
+    {
+      "id": "fq_iron_057",
+      "title": "Tyrant Battery",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "SHATTERED_HEART",
+      "description": "Crystal Tyrants form a defensive battery in the Heart. Silence their guns.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 56,
+        "reputation_required": 3300,
+        "required_quests": [
+          "fq_iron_056"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 2,
+          "desc": "Silence the Tyrant battery."
+        },
+        {
+          "type": "collect",
+          "target": "battery_destruction_report",
+          "count": 1,
+          "desc": "Report battery destruction."
+        }
+      ],
+      "rewards": {
+        "exp": 7200,
+        "currency": 3600,
+        "crd": 1800,
+        "rep": 2300,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_058"
+    },
+    {
+      "id": "fq_iron_058",
+      "title": "Harbinger Beachhead",
+      "type": "story",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The Abyss Harbinger is the enemy high command. Establish a beachhead for the final assault.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 57,
+        "reputation_required": 3360,
+        "required_quests": [
+          "fq_iron_057"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 6,
+          "desc": "Clear the beachhead zone."
+        },
+        {
+          "type": "kill",
+          "target": "CHRONO_WRAITH",
+          "count": 1,
+          "desc": "Eliminate Chrono Wraith defending the beachhead."
+        },
+        {
+          "type": "collect",
+          "target": "beachhead_established",
+          "count": 1,
+          "desc": "Confirm beachhead established."
+        }
+      ],
+      "rewards": {
+        "exp": 7500,
+        "currency": 3800,
+        "crd": 1900,
+        "rep": 2400,
+        "items": [
+          {
+            "item_id": "event_horizon_fragment_l",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_059"
+    },
+    {
+      "id": "fq_iron_059",
+      "title": "Fragmenter Front",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Soul Fragmenters form the enemy's psychological warfare front. Break their front.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 58,
+        "reputation_required": 3420,
+        "required_quests": [
+          "fq_iron_058"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SOUL_FRAGMENTER",
+          "count": 3,
+          "desc": "Break the Fragmenter front."
+        },
+        {
+          "type": "kill",
+          "target": "VOID_STALKER",
+          "count": 1,
+          "desc": "Eliminate the Stalker commanding them."
+        }
+      ],
+      "rewards": {
+        "exp": 8000,
+        "currency": 4000,
+        "crd": 2000,
+        "rep": 2500,
+        "items": [
+          {
+            "item_id": "brainwave_oscillator",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_060"
+    },
+    {
+      "id": "fq_iron_060",
+      "title": "Harbinger's Defeat",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "VOID_ECHO_CHASM",
+      "description": "FINAL ASSAULT ON THE ABYSS. The Abyss Harbinger is the enemy commander. Destroy it and claim total victory over the Void. THE HEGEMONY CONTROLS ALL.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 59,
+        "reputation_required": 3480,
+        "required_quests": [
+          "fq_iron_059"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "desc": "DEFEAT THE ABYSS HARBINGER."
+        },
+        {
+          "type": "collect",
+          "target": "harbinger_battle_standard",
+          "count": 1,
+          "desc": "Claim the Harbinger's battle standard for the Bastion."
+        }
+      ],
+      "rewards": {
+        "exp": 15000,
+        "currency": 7500,
+        "crd": 3750,
+        "rep": 5000,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 5
+          },
+          {
+            "item_id": "event_horizon_fragment_l",
+            "quantity": 2
+          },
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 10
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_061"
+    },
+    {
+      "id": "fq_iron_061",
+      "title": "Stabilizing the Front",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "The Severance Faultline threatens planetary stability. The Hegemony does not negotiate with nature \u2014 we conquer it.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 60,
+        "reputation_required": 3540,
+        "required_quests": [
+          "fq_iron_060"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SEVERANCE_FAULTLINE",
+          "count": 1,
+          "desc": "Enter the Severance Faultline."
+        },
+        {
+          "type": "collect",
+          "target": "fault_stability_data",
+          "count": 3,
+          "desc": "Collect fault stability readings."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 1600,
+        "items": [
+          {
+            "item_id": "stabilizer_gyro_unit",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_062"
+    },
+    {
+      "id": "fq_iron_062",
+      "title": "Carapace Armor",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Aethel Iron Carapaces have armor that rivals Hegemony steel. Destroy them and study their composition.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 61,
+        "reputation_required": 3600,
+        "required_quests": [
+          "fq_iron_061"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "desc": "Destroy Iron Carapaces."
+        },
+        {
+          "type": "collect",
+          "target": "carapace_armor_sample",
+          "count": 3,
+          "desc": "Collect armor samples for the forges."
+        }
+      ],
+      "rewards": {
+        "exp": 5200,
+        "currency": 2600,
+        "crd": 1300,
+        "rep": 1700,
+        "items": [
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_063"
+    },
+    {
+      "id": "fq_iron_063",
+      "title": "Tyrant Position",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Crystal Tyrants have taken positions along the fault. They are obstacles. Remove them.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 62,
+        "reputation_required": 3660,
+        "required_quests": [
+          "fq_iron_062"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 2,
+          "desc": "Remove Tyrant positions."
+        },
+        {
+          "type": "collect",
+          "target": "position_cleared_report",
+          "count": 2,
+          "desc": "Confirm positions cleared."
+        }
+      ],
+      "rewards": {
+        "exp": 6000,
+        "currency": 3000,
+        "crd": 1500,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_064"
+    },
+    {
+      "id": "fq_iron_064",
+      "title": "Jotunn Blockade",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Gigantic Jotunns blockade the main advance route. Break through. Nothing blocks the Hegemony advance.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 63,
+        "reputation_required": 3720,
+        "required_quests": [
+          "fq_iron_063"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "desc": "Break the Jotunn blockade."
+        },
+        {
+          "type": "collect",
+          "target": "advance_route_open",
+          "count": 1,
+          "desc": "Confirm advance route open."
+        }
+      ],
+      "rewards": {
+        "exp": 6500,
+        "currency": 3300,
+        "crd": 1650,
+        "rep": 2100,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_065"
+    },
+    {
+      "id": "fq_iron_065",
+      "title": "Power Core",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "The Aethel Siphon Core is the planet's power source. The Hegemony will control the power. Enter and secure.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 64,
+        "reputation_required": 3780,
+        "required_quests": [
+          "fq_iron_064"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "AETHEL_SIPHON_CORE",
+          "count": 1,
+          "desc": "Enter the Aethel Siphon Core."
+        },
+        {
+          "type": "collect",
+          "target": "core_power_reading",
+          "count": 2,
+          "desc": "Take power readings."
+        }
+      ],
+      "rewards": {
+        "exp": 5500,
+        "currency": 2800,
+        "crd": 1400,
+        "rep": 1800,
+        "items": [
+          {
+            "item_id": "power_regulator_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_066"
+    },
+    {
+      "id": "fq_iron_066",
+      "title": "Core Purge",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Hostile entities infest the Core. Purge them. The Core must be secure for Hegemony power operations.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 65,
+        "reputation_required": 3840,
+        "required_quests": [
+          "fq_iron_065"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 8,
+          "desc": "Purge hostile entities from the Core."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 5,
+          "desc": "Eliminate all Channelers."
+        }
+      ],
+      "rewards": {
+        "exp": 5800,
+        "currency": 2900,
+        "crd": 1450,
+        "rep": 1900,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_067"
+    },
+    {
+      "id": "fq_iron_067",
+      "title": "Behemoth Defense",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Corrupted Behemoths assault the Core conduits. Defend the Core. Hegemony never surrenders a position.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 66,
+        "reputation_required": 3900,
+        "required_quests": [
+          "fq_iron_066"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "desc": "Defend against Behemoth assault."
+        },
+        {
+          "type": "collect",
+          "target": "defense_success_report",
+          "count": 1,
+          "desc": "Report successful defense."
+        }
+      ],
+      "rewards": {
+        "exp": 6200,
+        "currency": 3100,
+        "crd": 1550,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "corrupted_synapse_cluster",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_068"
+    },
+    {
+      "id": "fq_iron_068",
+      "title": "Rift Patrol",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Rift Stalkers use micro-rifts for ambush tactics. Counter-ambush them. Hegemony soldiers do not get ambushed.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 67,
+        "reputation_required": 3960,
+        "required_quests": [
+          "fq_iron_067"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 6,
+          "desc": "Counter-ambush Rift Stalkers."
+        },
+        {
+          "type": "collect",
+          "target": "patrol_route_sweep",
+          "count": 1,
+          "desc": "Confirm patrol route sweep."
+        }
+      ],
+      "rewards": {
+        "exp": 6400,
+        "currency": 3200,
+        "crd": 1600,
+        "rep": 2100,
+        "items": [
+          {
+            "item_id": "dark_energy_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_069"
+    },
+    {
+      "id": "fq_iron_069",
+      "title": "Titan Mobilization",
+      "type": "story",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Intelligence confirms: the Gravity Titan is mobilizing. The Hegemony prepares for the largest military operation in our history.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 68,
+        "reputation_required": 4020,
+        "required_quests": [
+          "fq_iron_068"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "titan_mobilization_intel",
+          "count": 3,
+          "desc": "Collect Titan mobilization intelligence."
+        },
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "desc": "Defeat a Jotunn scout for the Titan."
+        }
+      ],
+      "rewards": {
+        "exp": 7000,
+        "currency": 3500,
+        "crd": 1750,
+        "rep": 2200,
+        "items": [
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_070"
+    },
+    {
+      "id": "fq_iron_070",
+      "title": "Toppling the Titan",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "CRADLE_EXPANSE",
+      "description": "MAXIMUM PRIORITY: OPERATION TITANFALL. The Gravity Titan threatens to collapse Xylos. The Iron Hegemony will topple it. This is the largest military engagement in Hegemony history. Every soldier. Every tank. Every ounce of steel. BRING IT DOWN.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 69,
+        "reputation_required": 4080,
+        "required_quests": [
+          "fq_iron_069"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "desc": "TOPPLE THE GRAVITY TITAN."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "desc": "Clear Abyssal escorts."
+        },
+        {
+          "type": "collect",
+          "target": "titan_gravity_core",
+          "count": 1,
+          "desc": "Secure the Titan Core for Hegemony weapons research."
+        }
+      ],
+      "rewards": {
+        "exp": 20000,
+        "currency": 10000,
+        "crd": 5000,
+        "rep": 7000,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 3
+          },
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 2
+          },
+          {
+            "item_id": "event_horizon_fragment_l",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_071"
+    },
+    {
+      "id": "fq_iron_071",
+      "title": "The Hegemony Forge",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The Prima Materia Forge will become the Hegemony's primary weapons factory. Secure it for mass production.",
+      "quest_giver": {
+        "npc_id": "npc_assembly_foreman",
+        "name": "Foreman Brigg",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 70,
+        "reputation_required": 4140,
+        "required_quests": [
+          "fq_iron_070"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "PRIMA_MATERIA_FORGE",
+          "count": 1,
+          "desc": "Enter the Prima Materia Forge."
+        },
+        {
+          "type": "collect",
+          "target": "forge_infrastructure_report",
+          "count": 2,
+          "desc": "Assess Forge infrastructure."
+        }
+      ],
+      "rewards": {
+        "exp": 6000,
+        "currency": 3000,
+        "crd": 1500,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "raw_aethel_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_072"
+    },
+    {
+      "id": "fq_iron_072",
+      "title": "Defense Neutralization",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Ancient Forge defenses still operate. Neutralize them. The Forge serves the Hegemony now.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 71,
+        "reputation_required": 4200,
+        "required_quests": [
+          "fq_iron_071"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "desc": "Neutralize Forge defense systems."
+        },
+        {
+          "type": "collect",
+          "target": "defense_override_confirm",
+          "count": 2,
+          "desc": "Confirm defense overrides."
+        }
+      ],
+      "rewards": {
+        "exp": 6200,
+        "currency": 3100,
+        "crd": 1550,
+        "rep": 2100,
+        "items": [
+          {
+            "item_id": "rusted_cybernetic_arm",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_073"
+    },
+    {
+      "id": "fq_iron_073",
+      "title": "Forge Purification",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Corrupted Behemoths contaminate the Forge. Purify the facility. Hegemony weapons require pure materials.",
+      "quest_giver": {
+        "npc_id": "npc_assembly_foreman",
+        "name": "Foreman Brigg",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 72,
+        "reputation_required": 4260,
+        "required_quests": [
+          "fq_iron_072"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "desc": "Purify the Forge of Behemoths."
+        },
+        {
+          "type": "collect",
+          "target": "contamination_clear",
+          "count": 1,
+          "desc": "Confirm contamination cleared."
+        }
+      ],
+      "rewards": {
+        "exp": 6500,
+        "currency": 3300,
+        "crd": 1650,
+        "rep": 2200,
+        "items": [
+          {
+            "item_id": "neural_disruptor_module",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_074"
+    },
+    {
+      "id": "fq_iron_074",
+      "title": "Abyssal Purge",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Abyssal forces attempt to claim the Forge. Purge them with maximum force.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 73,
+        "reputation_required": 4320,
+        "required_quests": [
+          "fq_iron_073"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 8,
+          "desc": "Purge Abyssal forces."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 5,
+          "desc": "Eliminate command units."
+        }
+      ],
+      "rewards": {
+        "exp": 6800,
+        "currency": 3400,
+        "crd": 1700,
+        "rep": 2300,
+        "items": [
+          {
+            "item_id": "aethel_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_075"
+    },
+    {
+      "id": "fq_iron_075",
+      "title": "Jotunn Foundry",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Jotunns use the Forge's heat as weapons. Disarm and destroy them. The Forge's fire belongs to the Hegemony.",
+      "quest_giver": {
+        "npc_id": "npc_assembly_foreman",
+        "name": "Foreman Brigg",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 74,
+        "reputation_required": 4380,
+        "required_quests": [
+          "fq_iron_074"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "desc": "Destroy Jotunn forge-holders."
+        },
+        {
+          "type": "collect",
+          "target": "forge_heat_control",
+          "count": 1,
+          "desc": "Secure forge heat control."
+        }
+      ],
+      "rewards": {
+        "exp": 7200,
+        "currency": 3600,
+        "crd": 1800,
+        "rep": 2400,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_076"
+    },
+    {
+      "id": "fq_iron_076",
+      "title": "Apex Production",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Operation Apex Production begins. The Forge will mass-produce Hegemony Apex-class weapons. Secure the production floor.",
+      "quest_giver": {
+        "npc_id": "npc_assembly_foreman",
+        "name": "Foreman Brigg",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 75,
+        "reputation_required": 4440,
+        "required_quests": [
+          "fq_iron_075"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 6,
+          "desc": "Secure the production floor."
+        },
+        {
+          "type": "collect",
+          "target": "production_line_active",
+          "count": 1,
+          "desc": "Activate the production line."
+        }
+      ],
+      "rewards": {
+        "exp": 7500,
+        "currency": 3800,
+        "crd": 1900,
+        "rep": 2500,
+        "items": [
+          {
+            "item_id": "power_regulator_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_077"
+    },
+    {
+      "id": "fq_iron_077",
+      "title": "Automaton Override",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Titan Forge Automatons resist our control. Override them \u2014 by any means necessary.",
+      "quest_giver": {
+        "npc_id": "npc_assembly_foreman",
+        "name": "Foreman Brigg",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 76,
+        "reputation_required": 4500,
+        "required_quests": [
+          "fq_iron_076"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_FORGE_AUTOMATON",
+          "count": 3,
+          "desc": "Override Titan Forge Automatons."
+        },
+        {
+          "type": "collect",
+          "target": "override_protocol_active",
+          "count": 1,
+          "desc": "Confirm override protocol active."
+        }
+      ],
+      "rewards": {
+        "exp": 8000,
+        "currency": 4000,
+        "crd": 2000,
+        "rep": 2600,
+        "items": [
+          {
+            "item_id": "processor_cooling_unit",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_078"
+    },
+    {
+      "id": "fq_iron_078",
+      "title": "Proto Core Recycling",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Titan Proto Cores are failed Titans \u2014 but their materials are valuable. Recycle them into Hegemony steel.",
+      "quest_giver": {
+        "npc_id": "npc_assembly_foreman",
+        "name": "Foreman Brigg",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 77,
+        "reputation_required": 4560,
+        "required_quests": [
+          "fq_iron_077"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_PROTO_CORE",
+          "count": 2,
+          "desc": "Recycle Titan Proto Cores."
+        },
+        {
+          "type": "collect",
+          "target": "recycled_titan_steel",
+          "count": 1,
+          "desc": "Process recycled Titan steel."
+        }
+      ],
+      "rewards": {
+        "exp": 9000,
+        "currency": 4500,
+        "crd": 2250,
+        "rep": 2800,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_079"
+    },
+    {
+      "id": "fq_iron_079",
+      "title": "Supreme General Trial",
+      "type": "story",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The final trial before Supreme General rank. Defeat both Titan and Harbinger in a single campaign. Show the galaxy what Hegemony steel can do.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 78,
+        "reputation_required": 4620,
+        "required_quests": [
+          "fq_iron_078"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "desc": "Defeat the Gravity Titan."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "desc": "Defeat the Abyss Harbinger."
+        }
+      ],
+      "rewards": {
+        "exp": 12000,
+        "currency": 6000,
+        "crd": 3000,
+        "rep": 4000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 1
+          },
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          },
+          {
+            "item_id": "void_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_080"
+    },
+    {
+      "id": "fq_iron_080",
+      "title": "Supreme General",
+      "type": "story",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "BASTION_CORE",
+      "description": "High Commander Varkas himself will pin the Supreme General insignia on your chest. Return to the Bastion. The Hegemony salutes you.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "BASTION_CORE"
+      },
+      "requirements": {
+        "min_level": 79,
+        "reputation_required": 4680,
+        "required_quests": [
+          "fq_iron_079"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "BASTION_CORE",
+          "count": 1,
+          "desc": "Return to the Bastion."
+        },
+        {
+          "type": "collect",
+          "target": "supreme_general_insignia",
+          "count": 1,
+          "desc": "Receive the Supreme General insignia."
+        }
+      ],
+      "rewards": {
+        "exp": 10000,
+        "currency": 5000,
+        "crd": 2500,
+        "rep": 3500,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 10
+          },
+          {
+            "item_id": "astral_phase_crystal_pure",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_081"
+    },
+    {
+      "id": "fq_iron_081",
+      "title": "Apex Predator",
+      "type": "story",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "HIDDEN_AETHELGARDIAN_CITY",
+      "description": "The Hidden Aethelgardian City contains Precursor weapons technology. The Hegemony will not allow any faction to claim it first.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "HIDDEN_AETHELGARDIAN_CITY"
+      },
+      "requirements": {
+        "min_level": 80,
+        "reputation_required": 4740,
+        "required_quests": [
+          "fq_iron_080"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "HIDDEN_AETHELGARDIAN_CITY",
+          "count": 1,
+          "desc": "Enter the Hidden Aethelgardian City."
+        },
+        {
+          "type": "collect",
+          "target": "precursor_weapon_data",
+          "count": 3,
+          "desc": "Recover Precursor weapons data."
+        }
+      ],
+      "rewards": {
+        "exp": 8000,
+        "currency": 4000,
+        "crd": 2000,
+        "rep": 2500,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_082"
+    },
+    {
+      "id": "fq_iron_082",
+      "title": "City Garrison",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "HIDDEN_AETHELGARDIAN_CITY",
+      "description": "The City has automated defenses. Destroy them. Hegemony takes what it wants.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "HIDDEN_AETHELGARDIAN_CITY"
+      },
+      "requirements": {
+        "min_level": 81,
+        "reputation_required": 4800,
+        "required_quests": [
+          "fq_iron_081"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 8,
+          "desc": "Destroy city defense systems."
+        },
+        {
+          "type": "collect",
+          "target": "city_sector_secured",
+          "count": 3,
+          "desc": "Confirm city sectors secured."
+        }
+      ],
+      "rewards": {
+        "exp": 8500,
+        "currency": 4200,
+        "crd": 2100,
+        "rep": 2700,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_083"
+    },
+    {
+      "id": "fq_iron_083",
+      "title": "Weapons Cache",
+      "type": "collect",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "HIDDEN_AETHELGARDIAN_CITY",
+      "description": "The City holds Precursor weapons caches. Secure them all for the Hegemony arsenal.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "HIDDEN_AETHELGARDIAN_CITY"
+      },
+      "requirements": {
+        "min_level": 82,
+        "reputation_required": 4860,
+        "required_quests": [
+          "fq_iron_082"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "precursor_weapon_cache",
+          "count": 5,
+          "desc": "Secure weapons caches."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 4,
+          "desc": "Eliminate forces drawn to the weapons."
+        }
+      ],
+      "rewards": {
+        "exp": 8800,
+        "currency": 4400,
+        "crd": 2200,
+        "rep": 2800,
+        "items": [
+          {
+            "item_id": "memory_fragment_chip",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_084"
+    },
+    {
+      "id": "fq_iron_084",
+      "title": "Apex Drake Elimination",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "SHATTERED_HEART",
+      "description": "The Ashen Drake has evolved to Apex form. Eliminate it. Hegemony tolerates no rivals \u2014 especially winged ones.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 83,
+        "reputation_required": 4920,
+        "required_quests": [
+          "fq_iron_083"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "desc": "Eliminate the Apex Ashen Drake."
+        },
+        {
+          "type": "collect",
+          "target": "apex_kill_verified",
+          "count": 1,
+          "desc": "Verify Apex elimination."
+        }
+      ],
+      "rewards": {
+        "exp": 12000,
+        "currency": 6000,
+        "crd": 3000,
+        "rep": 4000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 3
+          },
+          {
+            "item_id": "ancient_scale",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_085"
+    },
+    {
+      "id": "fq_iron_085",
+      "title": "Apex Harbinger Destruction",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The Abyss Harbinger has been reborn. Destroy it again. And again if necessary. Hegemony victory is permanent.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 84,
+        "reputation_required": 4980,
+        "required_quests": [
+          "fq_iron_084"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "desc": "Destroy the Apex Abyss Harbinger."
+        },
+        {
+          "type": "collect",
+          "target": "permanent_destruction_verified",
+          "count": 1,
+          "desc": "Verify permanent destruction."
+        }
+      ],
+      "rewards": {
+        "exp": 13000,
+        "currency": 6500,
+        "crd": 3250,
+        "rep": 4200,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 5
+          },
+          {
+            "item_id": "event_horizon_fragment_l",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_086"
+    },
+    {
+      "id": "fq_iron_086",
+      "title": "Apex Titan Fall",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Gravity Titan manifests once more. Hegemony response unchanged: destroy it. Again.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 85,
+        "reputation_required": 5040,
+        "required_quests": [
+          "fq_iron_085"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "desc": "Destroy the Apex Gravity Titan."
+        },
+        {
+          "type": "collect",
+          "target": "titan_fall_confirmed",
+          "count": 1,
+          "desc": "Confirm Titan fall."
+        }
+      ],
+      "rewards": {
+        "exp": 14000,
+        "currency": 7000,
+        "crd": 3500,
+        "rep": 4500,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 4
+          },
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_087"
+    },
+    {
+      "id": "fq_iron_087",
+      "title": "Tri-Threat Offensive",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "All three Apex entities \u2014 Drake, Titan, Harbinger. The Hegemony will destroy them all in a single campaign. Triple offensive authorized.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 86,
+        "reputation_required": 5100,
+        "required_quests": [
+          "fq_iron_086"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "desc": "Destroy the Drake."
+        },
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "desc": "Destroy the Titan."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "desc": "Destroy the Harbinger."
+        }
+      ],
+      "rewards": {
+        "exp": 20000,
+        "currency": 10000,
+        "crd": 5000,
+        "rep": 6000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 2
+          },
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          },
+          {
+            "item_id": "void_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_088"
+    },
+    {
+      "id": "fq_iron_088",
+      "title": "Core Command",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "The Aethel Siphon Core becomes Hegemony Central Command. Establish full military control of the planetary power grid.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 87,
+        "reputation_required": 5160,
+        "required_quests": [
+          "fq_iron_087"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "AETHEL_SIPHON_CORE",
+          "count": 1,
+          "desc": "Enter Core Command."
+        },
+        {
+          "type": "collect",
+          "target": "command_beacon",
+          "count": 5,
+          "desc": "Deploy command beacons."
+        }
+      ],
+      "rewards": {
+        "exp": 10000,
+        "currency": 5000,
+        "crd": 2500,
+        "rep": 3200,
+        "items": [
+          {
+            "item_id": "power_regulator_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_089"
+    },
+    {
+      "id": "fq_iron_089",
+      "title": "World Engine Subjugation",
+      "type": "story",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "The World Engine can reshape Xylos. The Hegemony will make it our ultimate weapon. Secure it absolutely.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 88,
+        "reputation_required": 5220,
+        "required_quests": [
+          "fq_iron_088"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "engine_control_codes",
+          "count": 3,
+          "desc": "Obtain Engine control codes."
+        },
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 2,
+          "desc": "Destroy Jotunn guards."
+        }
+      ],
+      "rewards": {
+        "exp": 11000,
+        "currency": 5500,
+        "crd": 2750,
+        "rep": 3500,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_090"
+    },
+    {
+      "id": "fq_iron_090",
+      "title": "Engine Activation",
+      "type": "story",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Activate the World Engine. This is the moment Hegemony dominance becomes absolute. Defend the activation at all costs.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 89,
+        "reputation_required": 5280,
+        "required_quests": [
+          "fq_iron_089"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 10,
+          "desc": "Defend Engine activation."
+        },
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 2,
+          "desc": "Destroy Tyrant saboteurs."
+        },
+        {
+          "type": "collect",
+          "target": "engine_activated",
+          "count": 1,
+          "desc": "Confirm Engine activation."
+        }
+      ],
+      "rewards": {
+        "exp": 13000,
+        "currency": 6500,
+        "crd": 3250,
+        "rep": 4200,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_091"
+    },
+    {
+      "id": "fq_iron_091",
+      "title": "Final Purge",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "With the Engine online, remaining hostiles are flushed to the surface. Execute the final purge at the Faultline.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 90,
+        "reputation_required": 5340,
+        "required_quests": [
+          "fq_iron_090"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 5,
+          "desc": "Execute Jotunns."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "desc": "Execute Carapaces."
+        }
+      ],
+      "rewards": {
+        "exp": 10000,
+        "currency": 5000,
+        "crd": 2500,
+        "rep": 3200,
+        "items": [
+          {
+            "item_id": "stabilizer_gyro_unit",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_092"
+    },
+    {
+      "id": "fq_iron_092",
+      "title": "Void Annihilation",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The Void is collapsing. Annihilate the remaining void forces. The Hegemony will erase the Abyss from history.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 91,
+        "reputation_required": 5400,
+        "required_quests": [
+          "fq_iron_091"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 10,
+          "desc": "Annihilate Abyssal forces."
+        },
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 10,
+          "desc": "Annihilate Void forces."
+        }
+      ],
+      "rewards": {
+        "exp": 11000,
+        "currency": 5500,
+        "crd": 2750,
+        "rep": 3500,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_093"
+    },
+    {
+      "id": "fq_iron_093",
+      "title": "Tyrant Extermination",
+      "type": "boss",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "SHATTERED_HEART",
+      "description": "Crystal Tyrants make their last stand. Exterminate them. The Hegemony leaves no enemy standing.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 92,
+        "reputation_required": 5460,
+        "required_quests": [
+          "fq_iron_092"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 3,
+          "desc": "Exterminate Crystal Tyrants."
+        },
+        {
+          "type": "collect",
+          "target": "extermination_complete",
+          "count": 1,
+          "desc": "Confirm extermination complete."
+        }
+      ],
+      "rewards": {
+        "exp": 12000,
+        "currency": 6000,
+        "crd": 3000,
+        "rep": 4000,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 4
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_094"
+    },
+    {
+      "id": "fq_iron_094",
+      "title": "Forge Final Production",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The Forge enters final mass production. Eliminate the last remaining threats to production.",
+      "quest_giver": {
+        "npc_id": "npc_assembly_foreman",
+        "name": "Foreman Brigg",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 93,
+        "reputation_required": 5520,
+        "required_quests": [
+          "fq_iron_093"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 8,
+          "desc": "Eliminate production threats."
+        },
+        {
+          "type": "kill",
+          "target": "TITAN_FORGE_AUTOMATON",
+          "count": 3,
+          "desc": "Override final rogue Automatons."
+        }
+      ],
+      "rewards": {
+        "exp": 11000,
+        "currency": 5500,
+        "crd": 2750,
+        "rep": 3500,
+        "items": [
+          {
+            "item_id": "raw_aethel_core",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_095"
+    },
+    {
+      "id": "fq_iron_095",
+      "title": "Expanse Conquest",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Cradle Expanse is now Hegemony sovereign territory. Enforce it.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 94,
+        "reputation_required": 5580,
+        "required_quests": [
+          "fq_iron_094"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 10,
+          "desc": "Enforce sovereignty."
+        },
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "desc": "Destroy residual Titan presence."
+        }
+      ],
+      "rewards": {
+        "exp": 13000,
+        "currency": 6500,
+        "crd": 3250,
+        "rep": 4200,
+        "items": [
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_096"
+    },
+    {
+      "id": "fq_iron_096",
+      "title": "Orbital Command",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "ORBITAL_SENTINEL_COMMAND",
+      "description": "From orbit, the Hegemony watches over our conquered world. Maintain orbital supremacy forever.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "ORBITAL_SENTINEL_COMMAND"
+      },
+      "requirements": {
+        "min_level": 95,
+        "reputation_required": 5640,
+        "required_quests": [
+          "fq_iron_095"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 10,
+          "desc": "Patrol and clear orbital sectors."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "desc": "Eliminate remaining Behemoths."
+        }
+      ],
+      "rewards": {
+        "exp": 12000,
+        "currency": 6000,
+        "crd": 3000,
+        "rep": 3800,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 10
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_097"
+    },
+    {
+      "id": "fq_iron_097",
+      "title": "The Final Campaign",
+      "type": "story",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The Hegemony launches the Final Campaign to eliminate all significant threats. Channel your command authority into the war effort.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 96,
+        "reputation_required": 5700,
+        "required_quests": [
+          "fq_iron_096"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "desc": "Destroy Jotunn command units."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "desc": "Destroy the Harbinger's last echo."
+        },
+        {
+          "type": "collect",
+          "target": "campaign_complete",
+          "count": 1,
+          "desc": "Confirm Final Campaign complete."
+        }
+      ],
+      "rewards": {
+        "exp": 15000,
+        "currency": 7500,
+        "crd": 3750,
+        "rep": 5000,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_098"
+    },
+    {
+      "id": "fq_iron_098",
+      "title": "The Final Conquest",
+      "type": "story",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Only the ultimate conquest remains. Face the three Apex entities \u2014 Jotunn, Drake, Harbinger. The Hegemony conquers all.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 97,
+        "reputation_required": 5760,
+        "required_quests": [
+          "fq_iron_097"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "desc": "Conquer the Apex Jotunn."
+        },
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "desc": "Conquer the Apex Drake."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "desc": "Conquer the Apex Harbinger."
+        },
+        {
+          "type": "collect",
+          "target": "conquest_seal",
+          "count": 1,
+          "desc": "Claim the Conquest Seal."
+        }
+      ],
+      "rewards": {
+        "exp": 20000,
+        "currency": 10000,
+        "crd": 5000,
+        "rep": 7000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 3
+          },
+          {
+            "item_id": "titan_core",
+            "quantity": 3
+          },
+          {
+            "item_id": "void_core",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_099"
+    },
+    {
+      "id": "fq_iron_099",
+      "title": "Eternal Hegemon Trial",
+      "type": "story",
+      "rank": "S",
+      "faction": "IRON_HEGEMONY",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The deepest Void Echo Chasm holds the final test. Defeat the eternal forms of Titan and Harbinger in single combat. The Hegemony demands nothing less than total victory.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 98,
+        "reputation_required": 5820,
+        "required_quests": [
+          "fq_iron_098"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "VOID_ECHO_CHASM",
+          "count": 1,
+          "desc": "Descend to the deepest chasm."
+        },
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "desc": "Defeat the Eternal Gravity Titan."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "desc": "Destroy the Eternal Abyss Harbinger."
+        },
+        {
+          "type": "collect",
+          "target": "eternal_hegemon_seal",
+          "count": 1,
+          "desc": "CLAIM THE ETERNAL HEGEMON SEAL."
+        }
+      ],
+      "rewards": {
+        "exp": 25000,
+        "currency": 12000,
+        "crd": 6000,
+        "rep": 8000,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_iron_100"
+    },
+    {
+      "id": "fq_iron_100",
+      "title": "Eternal Hegemon",
+      "type": "story",
+      "rank": "SS",
+      "faction": "IRON_HEGEMONY",
+      "region": "BASTION_CORE",
+      "description": "You have conquered everything. Titan. Harbinger. Drake. All have fallen to Hegemony steel. Return to the Bastion as the ETERNAL HEGEMON. Your name will be forged into the Bastion's walls forever. Strength through Unity. Power through Conquest. Forever.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_commander",
+        "name": "Commander Drax",
+        "location": "BASTION_CORE"
+      },
+      "requirements": {
+        "min_level": 99,
+        "reputation_required": 5880,
+        "required_quests": [
+          "fq_iron_099"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "BASTION_CORE",
+          "count": 1,
+          "desc": "Return to the Bastion as the Eternal Hegemon."
+        },
+        {
+          "type": "interact",
+          "target": "npc_hegemony_commander",
+          "count": 1,
+          "desc": "Receive the Eternal Hegemon honors from High Commander Varkas."
+        }
+      ],
+      "rewards": {
+        "exp": 50000,
+        "currency": 25000,
+        "crd": 12500,
+        "rep": 10000,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 5
+          },
+          {
+            "item_id": "eternal_hegemon_seal",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false
+    }
+  ]
+}
