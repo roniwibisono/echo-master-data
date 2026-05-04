@@ -1,0 +1,5191 @@
+{
+  "quests": [
+    {
+      "id": "fq_arc_001",
+      "title": "The Mystic Beginning",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "CRYSTAL_SLOPE",
+      "description": "High Seeker Elara has accepted you into the Arcanum Seekers. Begin your initiation by harvesting energy fragments from Wild Mushrooms on the Crystal Slope. Knowledge is Power.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "CRYSTAL_SLOPE"
+      },
+      "requirements": {
+        "min_level": 1,
+        "reputation_required": 0,
+        "required_quests": []
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "WILD_MUSHROOM",
+          "count": 4,
+          "description": "Defeat Wild Mushrooms and extract their mystic energy."
+        },
+        {
+          "type": "collect",
+          "target": "mystic_fragment",
+          "count": 2,
+          "description": "Collect Mystic Fragments from the energy-rich crystals."
+        }
+      ],
+      "rewards": {
+        "exp": 50,
+        "currency": 30,
+        "crd": 15,
+        "rep": 30,
+        "items": [
+          {
+            "item_id": "con_small_hp_cell",
+            "quantity": 3
+          },
+          {
+            "item_id": "con_small_mp_cell",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_002"
+    },
+    {
+      "id": "fq_arc_002",
+      "title": "Crystal Sentience",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "CRYSTAL_SLOPE",
+      "description": "Crystal Sproutlings possess a primitive sentience. Study them up close \u2014 through combat if necessary. The Arcanum must understand all forms of consciousness.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "CRYSTAL_SLOPE"
+      },
+      "requirements": {
+        "min_level": 1,
+        "reputation_required": 0,
+        "required_quests": [
+          "fq_arc_001"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_SPROUTLING",
+          "count": 4,
+          "description": "Neutralize Crystal Sproutlings for study."
+        },
+        {
+          "type": "collect",
+          "target": "sproutling_essence",
+          "count": 2,
+          "description": "Extract Sproutling essence samples."
+        }
+      ],
+      "rewards": {
+        "exp": 55,
+        "currency": 35,
+        "crd": 20,
+        "rep": 35,
+        "items": [
+          {
+            "item_id": "sprite_dust",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_003"
+    },
+    {
+      "id": "fq_arc_003",
+      "title": "Shardling Analysis",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "CRYSTAL_SLOPE",
+      "description": "Shardlings are fragments of a larger crystalline consciousness. Collect enough specimens for the Arcanum's living archive.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_archivist",
+        "name": "Archivist Sylas",
+        "location": "CRYSTAL_SLOPE"
+      },
+      "requirements": {
+        "min_level": 2,
+        "reputation_required": 60,
+        "required_quests": [
+          "fq_arc_002"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SHARDLING",
+          "count": 5,
+          "description": "Capture Shardling fragments for the archive."
+        },
+        {
+          "type": "collect",
+          "target": "shardling_core",
+          "count": 3,
+          "description": "Extract Shardling cores for crystallographic study."
+        }
+      ],
+      "rewards": {
+        "exp": 70,
+        "currency": 40,
+        "crd": 20,
+        "rep": 40,
+        "items": [
+          {
+            "item_id": "void_crystal_shard",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_004"
+    },
+    {
+      "id": "fq_arc_004",
+      "title": "Wisp Whispers",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "CRYSTAL_SLOPE",
+      "description": "Crystal Wisps are pure energy manifestations. Their whispers are believed to contain fragments of Precursor language. Capture their energy signature.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "CRYSTAL_SLOPE"
+      },
+      "requirements": {
+        "min_level": 3,
+        "reputation_required": 120,
+        "required_quests": [
+          "fq_arc_003"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_WISP",
+          "count": 5,
+          "description": "Contain Crystal Wisps for energy analysis."
+        },
+        {
+          "type": "collect",
+          "target": "wisp_whisper_recording",
+          "count": 1,
+          "description": "Record Wisp whisper frequencies."
+        }
+      ],
+      "rewards": {
+        "exp": 80,
+        "currency": 50,
+        "crd": 25,
+        "rep": 50,
+        "items": [
+          {
+            "item_id": "con_nutrient_ration",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_005"
+    },
+    {
+      "id": "fq_arc_005",
+      "title": "The First Awakening",
+      "type": "tutorial",
+      "rank": "D",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "OBSERVATORY_SPIRE",
+      "description": "You have shown great promise. Archsage Myr summons you to the Observatory Spire to choose your path of arcane specialization.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_class_trainer",
+        "name": "Archsage Myr",
+        "location": "OBSERVATORY_SPIRE"
+      },
+      "requirements": {
+        "min_level": 4,
+        "reputation_required": 180,
+        "required_quests": [
+          "fq_arc_004"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_arcanum_class_trainer",
+          "count": 1,
+          "description": "Speak with Archsage Myr at the Observatory Spire."
+        },
+        {
+          "type": "interact",
+          "target": "class_change_screen",
+          "count": 1,
+          "description": "Open the class selection screen."
+        },
+        {
+          "type": "kill",
+          "target": "CRYSTAL_SPRITE",
+          "count": 3,
+          "description": "Demonstrate your arcane potential against Crystal Sprites."
+        }
+      ],
+      "rewards": {
+        "exp": 400,
+        "currency": 200,
+        "crd": 100,
+        "rep": 150,
+        "items": [
+          {
+            "item_id": "wpn_apprentice_staff",
+            "quantity": 1
+          },
+          {
+            "item_id": "armor_cloth_robes",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "popup": true,
+      "popup_trigger": "on_quest_complete",
+      "popup_prerequisite": "fq_arc_004",
+      "popup_level": 4,
+      "quest_chain_next": "fq_arc_006"
+    },
+    {
+      "id": "fq_arc_006",
+      "title": "Secrets of the Quarter",
+      "type": "exploration",
+      "rank": "D",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "FRACTURED_GLASS_VALLEY",
+      "description": "The Fractured Glass Valley holds relics from a shattered Precursor research station. Arcanum Seeker scholars believe ancient data slates are buried here.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "FRACTURED_GLASS_VALLEY"
+      },
+      "requirements": {
+        "min_level": 5,
+        "reputation_required": 240,
+        "required_quests": [
+          "fq_arc_005"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "FRACTURED_GLASS_VALLEY",
+          "count": 1,
+          "description": "Enter the Fractured Glass Valley."
+        },
+        {
+          "type": "collect",
+          "target": "ancient_data_slate",
+          "count": 2,
+          "description": "Recover ancient data slates from the ruins."
+        }
+      ],
+      "rewards": {
+        "exp": 100,
+        "currency": 60,
+        "crd": 30,
+        "rep": 60,
+        "items": [
+          {
+            "item_id": "con_minor_stim_pack",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_007"
+    },
+    {
+      "id": "fq_arc_007",
+      "title": "Glass Walker",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "FRACTURED_GLASS_VALLEY",
+      "description": "Glass Crawlers navigate the valley's razor-sharp terrain with ease. Study their movement patterns \u2014 they may hold the key to safe traversal.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_archivist",
+        "name": "Archivist Sylas",
+        "location": "FRACTURED_GLASS_VALLEY"
+      },
+      "requirements": {
+        "min_level": 6,
+        "reputation_required": 300,
+        "required_quests": [
+          "fq_arc_006"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GLASS_CRAWLER",
+          "count": 5,
+          "description": "Neutralize Glass Crawlers and record movement patterns."
+        },
+        {
+          "type": "collect",
+          "target": "crawler_carapace",
+          "count": 3,
+          "description": "Collect Crawler carapace samples."
+        }
+      ],
+      "rewards": {
+        "exp": 120,
+        "currency": 70,
+        "crd": 35,
+        "rep": 70,
+        "items": [
+          {
+            "item_id": "rust_chitin",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_008"
+    },
+    {
+      "id": "fq_arc_008",
+      "title": "Alpha Rat Infestation",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "FRACTURED_GLASS_VALLEY",
+      "description": "A Giant Alpha Rat has claimed the valley's central archive chamber. Clear it out \u2014 the knowledge stored inside is priceless.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "FRACTURED_GLASS_VALLEY"
+      },
+      "requirements": {
+        "min_level": 7,
+        "reputation_required": 360,
+        "required_quests": [
+          "fq_arc_007"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIANT_ALPHA_RAT",
+          "count": 1,
+          "description": "Defeat the Giant Alpha Rat in the archive chamber."
+        },
+        {
+          "type": "collect",
+          "target": "archive_scroll",
+          "count": 3,
+          "description": "Recover archive scrolls from the chamber."
+        }
+      ],
+      "rewards": {
+        "exp": 180,
+        "currency": 100,
+        "crd": 50,
+        "rep": 100,
+        "items": [
+          {
+            "item_id": "ancient_scale",
+            "quantity": 1
+          },
+          {
+            "item_id": "con_small_hp_cell",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_009"
+    },
+    {
+      "id": "fq_arc_009",
+      "title": "Glass Wisp Extraction",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "FRACTURED_GLASS_VALLEY",
+      "description": "Glass Wisps are an evolved form of Crystal Wisps, their energy signatures far more complex. Contain them for the Arcanum's energy archive.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "FRACTURED_GLASS_VALLEY"
+      },
+      "requirements": {
+        "min_level": 8,
+        "reputation_required": 420,
+        "required_quests": [
+          "fq_arc_008"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GLASS_WISP",
+          "count": 5,
+          "description": "Contain Glass Wisp energy signatures."
+        },
+        {
+          "type": "collect",
+          "target": "glass_wisp_essence",
+          "count": 2,
+          "description": "Extract concentrated Glass Wisp essence."
+        }
+      ],
+      "rewards": {
+        "exp": 200,
+        "currency": 110,
+        "crd": 55,
+        "rep": 110,
+        "items": [
+          {
+            "item_id": "dark_energy_fragment",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_010"
+    },
+    {
+      "id": "fq_arc_010",
+      "title": "Crystal Ram Charge",
+      "type": "boss",
+      "rank": "D",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "FRACTURED_GLASS_VALLEY",
+      "description": "Crystal Rams guard the valley's deepest ravine. Their crystalline horns resonate with raw Aethel energy. Harvest them for the Arcanum.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "FRACTURED_GLASS_VALLEY"
+      },
+      "requirements": {
+        "min_level": 9,
+        "reputation_required": 480,
+        "required_quests": [
+          "fq_arc_009"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_RAM",
+          "count": 2,
+          "description": "Defeat Crystal Rams in the deep ravine."
+        },
+        {
+          "type": "collect",
+          "target": "crystal_ram_horn",
+          "count": 2,
+          "description": "Harvest Crystal Ram horns."
+        }
+      ],
+      "rewards": {
+        "exp": 300,
+        "currency": 180,
+        "crd": 90,
+        "rep": 180,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          },
+          {
+            "item_id": "con_medium_hp_cell",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_011"
+    },
+    {
+      "id": "fq_arc_011",
+      "title": "Cradle Observations",
+      "type": "exploration",
+      "rank": "C",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "RESONANCE_CAVERNS",
+      "description": "The Resonance Caverns emit frequencies matching Precursor communication protocols. Arcanum believes these caverns hold the key to ancient technology.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "RESONANCE_CAVERNS"
+      },
+      "requirements": {
+        "min_level": 10,
+        "reputation_required": 540,
+        "required_quests": [
+          "fq_arc_010"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "RESONANCE_CAVERNS",
+          "count": 1,
+          "description": "Enter the Resonance Caverns."
+        },
+        {
+          "type": "collect",
+          "target": "resonance_frequency_data",
+          "count": 2,
+          "description": "Record resonance frequencies from the caverns."
+        }
+      ],
+      "rewards": {
+        "exp": 280,
+        "currency": 150,
+        "crd": 75,
+        "rep": 150,
+        "items": [
+          {
+            "item_id": "psionic_resonator",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_012"
+    },
+    {
+      "id": "fq_arc_012",
+      "title": "Bat Frequencies",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "RESONANCE_CAVERNS",
+      "description": "Resonance Bats emit sonic pulses that disrupt arcane equipment. Nullify them and collect their frequency patterns.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "RESONANCE_CAVERNS"
+      },
+      "requirements": {
+        "min_level": 11,
+        "reputation_required": 600,
+        "required_quests": [
+          "fq_arc_011"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "RESONANCE_BAT",
+          "count": 6,
+          "description": "Defeat Resonance Bats in the caverns."
+        },
+        {
+          "type": "collect",
+          "target": "bat_frequency_pattern",
+          "count": 3,
+          "description": "Record Bat frequency patterns."
+        }
+      ],
+      "rewards": {
+        "exp": 320,
+        "currency": 170,
+        "crd": 85,
+        "rep": 170,
+        "items": [
+          {
+            "item_id": "brainwave_oscillator",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_013"
+    },
+    {
+      "id": "fq_arc_013",
+      "title": "Golem Guardians",
+      "type": "boss",
+      "rank": "C",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "RESONANCE_CAVERNS",
+      "description": "Resonance Golems are Precursor guardians powered by sound harmonics. Their construction is millennia ahead of anything the Arcanum has seen.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "RESONANCE_CAVERNS"
+      },
+      "requirements": {
+        "min_level": 12,
+        "reputation_required": 660,
+        "required_quests": [
+          "fq_arc_012"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "RESONANCE_GOLEM",
+          "count": 2,
+          "description": "Disable Resonance Golems for study."
+        },
+        {
+          "type": "collect",
+          "target": "golem_resonance_core",
+          "count": 1,
+          "description": "Extract a Golem Resonance Core."
+        }
+      ],
+      "rewards": {
+        "exp": 450,
+        "currency": 240,
+        "crd": 120,
+        "rep": 240,
+        "items": [
+          {
+            "item_id": "cognitive_relay_node",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_014"
+    },
+    {
+      "id": "fq_arc_014",
+      "title": "Echo Math",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "RESONANCE_CAVERNS",
+      "description": "The cavern walls echo with mathematical precision. Record the echo patterns \u2014 they may be a Precursor mathematical proof frozen in sound.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_archivist",
+        "name": "Archivist Sylas",
+        "location": "RESONANCE_CAVERNS"
+      },
+      "requirements": {
+        "min_level": 13,
+        "reputation_required": 720,
+        "required_quests": [
+          "fq_arc_013"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "RESONANCE_BAT",
+          "count": 5,
+          "description": "Clear Bats from the echo chambers."
+        },
+        {
+          "type": "collect",
+          "target": "echo_pattern_slate",
+          "count": 2,
+          "description": "Record echo pattern slates."
+        }
+      ],
+      "rewards": {
+        "exp": 380,
+        "currency": 200,
+        "crd": 100,
+        "rep": 200,
+        "items": [
+          {
+            "item_id": "memory_fragment_chip",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_015"
+    },
+    {
+      "id": "fq_arc_015",
+      "title": "Harmonic Interference",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "RESONANCE_CAVERNS",
+      "description": "Interference patterns in the cavern harmonics indicate hostile entities disrupting the Precursor signal. Locate and eliminate the source.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "RESONANCE_CAVERNS"
+      },
+      "requirements": {
+        "min_level": 14,
+        "reputation_required": 780,
+        "required_quests": [
+          "fq_arc_014"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "RESONANCE_GOLEM",
+          "count": 3,
+          "description": "Destroy Golems causing harmonic interference."
+        },
+        {
+          "type": "kill",
+          "target": "RESONANCE_BAT",
+          "count": 5,
+          "description": "Eliminate Bat swarms amplifying the interference."
+        }
+      ],
+      "rewards": {
+        "exp": 500,
+        "currency": 280,
+        "crd": 140,
+        "rep": 300,
+        "items": [
+          {
+            "item_id": "core_fragment",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_016"
+    },
+    {
+      "id": "fq_arc_016",
+      "title": "Cavern Cartography",
+      "type": "collect",
+      "rank": "C",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "RESONANCE_CAVERNS",
+      "description": "Map the unexplored sections of the Resonance Caverns. The Arcanum believes there are sealed chambers containing Precursor artifacts.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_archivist",
+        "name": "Archivist Sylas",
+        "location": "RESONANCE_CAVERNS"
+      },
+      "requirements": {
+        "min_level": 15,
+        "reputation_required": 840,
+        "required_quests": [
+          "fq_arc_015"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "cavern_map_fragment",
+          "count": 4,
+          "description": "Complete the cavern cartography survey."
+        },
+        {
+          "type": "kill",
+          "target": "RESONANCE_BAT",
+          "count": 4,
+          "description": "Clear hostiles from unmapped sectors."
+        }
+      ],
+      "rewards": {
+        "exp": 430,
+        "currency": 230,
+        "crd": 115,
+        "rep": 230,
+        "items": [
+          {
+            "item_id": "neural_disruptor_module",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_017"
+    },
+    {
+      "id": "fq_arc_017",
+      "title": "Sealed Chamber",
+      "type": "exploration",
+      "rank": "C",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "RESONANCE_CAVERNS",
+      "description": "The cartography reveals a sealed Precursor chamber. Breach it and document everything inside before the resonance destabilizes the entrance.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "RESONANCE_CAVERNS"
+      },
+      "requirements": {
+        "min_level": 16,
+        "reputation_required": 900,
+        "required_quests": [
+          "fq_arc_016"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "sealed_chamber_artifact",
+          "count": 2,
+          "description": "Recover artifacts from the sealed chamber."
+        },
+        {
+          "type": "kill",
+          "target": "RESONANCE_GOLEM",
+          "count": 2,
+          "description": "Defeat Golems guarding the chamber."
+        }
+      ],
+      "rewards": {
+        "exp": 480,
+        "currency": 260,
+        "crd": 130,
+        "rep": 260,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_018"
+    },
+    {
+      "id": "fq_arc_018",
+      "title": "Echoes of the Precursors",
+      "type": "story",
+      "rank": "C",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "RESONANCE_CAVERNS",
+      "description": "The artifacts contain Precursor language fragments. High Seeker Elara wants them translated immediately. Protect the translation ritual.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "RESONANCE_CAVERNS"
+      },
+      "requirements": {
+        "min_level": 17,
+        "reputation_required": 960,
+        "required_quests": [
+          "fq_arc_017"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "RESONANCE_GOLEM",
+          "count": 3,
+          "description": "Defend the translation site from Golem assault."
+        },
+        {
+          "type": "kill",
+          "target": "RESONANCE_BAT",
+          "count": 6,
+          "description": "Eliminate Bats disrupting the ritual."
+        }
+      ],
+      "rewards": {
+        "exp": 550,
+        "currency": 300,
+        "crd": 150,
+        "rep": 320,
+        "items": [
+          {
+            "item_id": "memory_fragment_chip",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_019"
+    },
+    {
+      "id": "fq_arc_019",
+      "title": "The Resonance Trial",
+      "type": "boss",
+      "rank": "C",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "RESONANCE_CAVERNS",
+      "description": "The Resonance Echo \u2014 a concentrated manifestation of Precursor data \u2014 has formed in the deepest chamber. Defeat it and secure its energy data for the Arcanum's eternal archive.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "RESONANCE_CAVERNS"
+      },
+      "requirements": {
+        "min_level": 18,
+        "reputation_required": 1020,
+        "required_quests": [
+          "fq_arc_018"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "RESONANCE_ECHO",
+          "count": 1,
+          "description": "Defeat the Resonance Echo."
+        },
+        {
+          "type": "kill",
+          "target": "RESONANCE_GOLEM",
+          "count": 2,
+          "description": "Destroy Golems shielding the Echo."
+        }
+      ],
+      "rewards": {
+        "exp": 800,
+        "currency": 450,
+        "crd": 225,
+        "rep": 450,
+        "items": [
+          {
+            "item_id": "entropy_core",
+            "quantity": 1
+          },
+          {
+            "item_id": "con_medium_hp_cell",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_020"
+    },
+    {
+      "id": "fq_arc_020",
+      "title": "Seeker's Trial",
+      "type": "story",
+      "rank": "C",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "OBSERVATORY_SPIRE",
+      "description": "You have proven your worth as a true Arcanum Seeker. Return to the Observatory Spire for your Advanced Class evaluation and access to restricted archives.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "OBSERVATORY_SPIRE"
+      },
+      "requirements": {
+        "min_level": 19,
+        "reputation_required": 1080,
+        "required_quests": [
+          "fq_arc_019"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "OBSERVATORY_SPIRE",
+          "count": 1,
+          "description": "Return to the Observatory Spire."
+        },
+        {
+          "type": "collect",
+          "target": "advanced_seeker_badge",
+          "count": 1,
+          "description": "Receive your Advanced Seeker Badge from High Seeker Elara."
+        }
+      ],
+      "rewards": {
+        "exp": 900,
+        "currency": 500,
+        "crd": 250,
+        "rep": 500,
+        "items": [
+          {
+            "item_id": "con_medium_hp_cell",
+            "quantity": 5
+          },
+          {
+            "item_id": "con_medium_mp_cell",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_021"
+    },
+    {
+      "id": "fq_arc_021",
+      "title": "Forbidden Zones",
+      "type": "exploration",
+      "rank": "B",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "SHARD_PULSE_PEAK",
+      "description": "The Shard Pulse Peak is a forbidden research zone. Ancient machines still operate there, pulsing with unknowable energy. The Arcanum has authorized your entry.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "SHARD_PULSE_PEAK"
+      },
+      "requirements": {
+        "min_level": 20,
+        "reputation_required": 1140,
+        "required_quests": [
+          "fq_arc_020"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SHARD_PULSE_PEAK",
+          "count": 1,
+          "description": "Ascend to the Shard Pulse Peak."
+        },
+        {
+          "type": "collect",
+          "target": "pulse_energy_reading",
+          "count": 2,
+          "description": "Take energy readings from the ancient machines."
+        }
+      ],
+      "rewards": {
+        "exp": 600,
+        "currency": 350,
+        "crd": 175,
+        "rep": 350,
+        "items": [
+          {
+            "item_id": "con_nutrient_ration",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_022"
+    },
+    {
+      "id": "fq_arc_022",
+      "title": "Sentinel Disruption",
+      "type": "hunt",
+      "rank": "B",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "SHARD_PULSE_PEAK",
+      "description": "Shard Pulse Sentinels patrol the peak's machine platforms. Their energy signatures suggest they are guardians of dormant technology.",
+      "quest_giver": {
+        "npc_id": "npc_peak_watcher",
+        "name": "Watcher Vane",
+        "location": "SHARD_PULSE_PEAK"
+      },
+      "requirements": {
+        "min_level": 21,
+        "reputation_required": 1200,
+        "required_quests": [
+          "fq_arc_021"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SHARD_PULSE_SENTINEL",
+          "count": 5,
+          "description": "Disable Shard Pulse Sentinels for analysis."
+        },
+        {
+          "type": "collect",
+          "target": "sentinel_data_core",
+          "count": 2,
+          "description": "Extract Sentinel data cores."
+        }
+      ],
+      "rewards": {
+        "exp": 650,
+        "currency": 380,
+        "crd": 190,
+        "rep": 380,
+        "items": [
+          {
+            "item_id": "damaged_servo_motor",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_023"
+    },
+    {
+      "id": "fq_arc_023",
+      "title": "Guardian Protocols",
+      "type": "boss",
+      "rank": "B",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "SHARD_PULSE_PEAK",
+      "description": "Shard Pulse Guardians are elite Sentinel variants. They protect the peak's central machine. Disable them and access the machine's data terminal.",
+      "quest_giver": {
+        "npc_id": "npc_peak_watcher",
+        "name": "Watcher Vane",
+        "location": "SHARD_PULSE_PEAK"
+      },
+      "requirements": {
+        "min_level": 22,
+        "reputation_required": 1260,
+        "required_quests": [
+          "fq_arc_022"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SHARD_PULSE_GUARDIAN",
+          "count": 2,
+          "description": "Defeat Shard Pulse Guardians."
+        },
+        {
+          "type": "collect",
+          "target": "guardian_access_key",
+          "count": 1,
+          "description": "Extract the Guardian access key."
+        }
+      ],
+      "rewards": {
+        "exp": 750,
+        "currency": 420,
+        "crd": 210,
+        "rep": 450,
+        "items": [
+          {
+            "item_id": "processor_cooling_unit",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_024"
+    },
+    {
+      "id": "fq_arc_024",
+      "title": "Leviathan's Depth",
+      "type": "boss",
+      "rank": "B",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "SHARD_PULSE_PEAK",
+      "description": "A Sunken Aethel Leviathan has been detected in the peak's subterranean lake. Its biology may hold secrets of Aethel conversion. Capture tissue samples.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "SHARD_PULSE_PEAK"
+      },
+      "requirements": {
+        "min_level": 23,
+        "reputation_required": 1320,
+        "required_quests": [
+          "fq_arc_023"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SUNKEN_AETHEL_LEVIATHAN",
+          "count": 1,
+          "description": "Defeat the Sunken Aethel Leviathan."
+        },
+        {
+          "type": "collect",
+          "target": "leviathan_tissue",
+          "count": 3,
+          "description": "Extract Leviathan tissue samples."
+        }
+      ],
+      "rewards": {
+        "exp": 850,
+        "currency": 460,
+        "crd": 230,
+        "rep": 480,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_025"
+    },
+    {
+      "id": "fq_arc_025",
+      "title": "Tyrant's Pulse",
+      "type": "boss",
+      "rank": "B",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "SHARD_PULSE_PEAK",
+      "description": "The Shard Pulse Tyrant is the apex guardian of the peak. Its energy signature matches Precursor command protocols. Disable it to access the master terminal.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "SHARD_PULSE_PEAK"
+      },
+      "requirements": {
+        "min_level": 24,
+        "reputation_required": 1380,
+        "required_quests": [
+          "fq_arc_024"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SHARD_PULSE_TYRANT",
+          "count": 1,
+          "description": "Defeat the Shard Pulse Tyrant."
+        },
+        {
+          "type": "kill",
+          "target": "SHARD_PULSE_GUARDIAN",
+          "count": 1,
+          "description": "Clear Guardian escorts."
+        }
+      ],
+      "rewards": {
+        "exp": 1000,
+        "currency": 550,
+        "crd": 275,
+        "rep": 550,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_026"
+    },
+    {
+      "id": "fq_arc_026",
+      "title": "Storm Serpent",
+      "type": "boss",
+      "rank": "B",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "SHARD_PULSE_PEAK",
+      "description": "A Storm Rift Serpent has been drawn to the peak's energy. These creatures ride electromagnetic currents. Harvest its scales for the Arcanum's armory.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "SHARD_PULSE_PEAK"
+      },
+      "requirements": {
+        "min_level": 25,
+        "reputation_required": 1440,
+        "required_quests": [
+          "fq_arc_025"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "STORM_RIFT_SERPENT",
+          "count": 1,
+          "description": "Defeat the Storm Rift Serpent."
+        },
+        {
+          "type": "collect",
+          "target": "serpent_scale",
+          "count": 2,
+          "description": "Harvest Serpent scales."
+        }
+      ],
+      "rewards": {
+        "exp": 900,
+        "currency": 500,
+        "crd": 250,
+        "rep": 520,
+        "items": [
+          {
+            "item_id": "ancient_scale",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_027"
+    },
+    {
+      "id": "fq_arc_027",
+      "title": "Celestial Observation",
+      "type": "exploration",
+      "rank": "B",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "AETHEL_STORM_BELT",
+      "description": "The Aethel Storm Belt is a contested zone of intense electromagnetic activity. The Arcanum seeks to establish an observation post to study celestial phenomena.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "AETHEL_STORM_BELT"
+      },
+      "requirements": {
+        "min_level": 26,
+        "reputation_required": 1500,
+        "required_quests": [
+          "fq_arc_026"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "AETHEL_STORM_BELT",
+          "count": 1,
+          "description": "Enter the Aethel Storm Belt."
+        },
+        {
+          "type": "collect",
+          "target": "celestial_readings",
+          "count": 2,
+          "description": "Collect celestial observation data."
+        }
+      ],
+      "rewards": {
+        "exp": 700,
+        "currency": 400,
+        "crd": 200,
+        "rep": 400,
+        "items": [
+          {
+            "item_id": "con_nutrient_ration",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_028"
+    },
+    {
+      "id": "fq_arc_028",
+      "title": "Storm Wranglers",
+      "type": "hunt",
+      "rank": "B",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "AETHEL_STORM_BELT",
+      "description": "Storm Rift Serpents dominate the Storm Belt. Their electromagnetic nature disrupts our instruments. Thin their population.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "AETHEL_STORM_BELT"
+      },
+      "requirements": {
+        "min_level": 27,
+        "reputation_required": 1560,
+        "required_quests": [
+          "fq_arc_027"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "STORM_RIFT_SERPENT",
+          "count": 3,
+          "description": "Defeat Storm Rift Serpents in the Belt."
+        },
+        {
+          "type": "collect",
+          "target": "storm_energy_cell",
+          "count": 2,
+          "description": "Harvest Storm Energy Cells."
+        }
+      ],
+      "rewards": {
+        "exp": 750,
+        "currency": 430,
+        "crd": 215,
+        "rep": 430,
+        "items": [
+          {
+            "item_id": "power_regulator_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_029"
+    },
+    {
+      "id": "fq_arc_029",
+      "title": "Leviathan Hunt",
+      "type": "boss",
+      "rank": "B",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "AETHEL_STORM_BELT",
+      "description": "Multiple Sunken Aethel Leviathans have migrated into the Storm Belt. Their migration pattern is unprecedented \u2014 and dangerous to the observation post.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "AETHEL_STORM_BELT"
+      },
+      "requirements": {
+        "min_level": 28,
+        "reputation_required": 1620,
+        "required_quests": [
+          "fq_arc_028"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SUNKEN_AETHEL_LEVIATHAN",
+          "count": 2,
+          "description": "Defeat Leviathans threatening the observation post."
+        },
+        {
+          "type": "kill",
+          "target": "STORM_RIFT_SERPENT",
+          "count": 2,
+          "description": "Clear Serpent escorts."
+        }
+      ],
+      "rewards": {
+        "exp": 900,
+        "currency": 520,
+        "crd": 260,
+        "rep": 520,
+        "items": [
+          {
+            "item_id": "aethel_fragment",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_030"
+    },
+    {
+      "id": "fq_arc_030",
+      "title": "The Second Ascension",
+      "type": "story",
+      "rank": "B",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "OBSERVATORY_SPIRE",
+      "description": "Archsage Myr has determined you are ready for Ascension. Return to the Observatory Spire for the arcane elevation ritual.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_class_trainer",
+        "name": "Archsage Myr",
+        "location": "OBSERVATORY_SPIRE"
+      },
+      "requirements": {
+        "min_level": 29,
+        "reputation_required": 1680,
+        "required_quests": [
+          "fq_arc_029"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_arcanum_class_trainer",
+          "count": 1,
+          "description": "Report to Archsage Myr for Ascension evaluation."
+        },
+        {
+          "type": "kill",
+          "target": "RESONANCE_ECHO",
+          "count": 1,
+          "description": "Defeat the Resonance Echo to prove your arcane growth."
+        },
+        {
+          "type": "kill",
+          "target": "SHARD_PULSE_TYRANT",
+          "count": 1,
+          "description": "Defeat a Shard Pulse Tyrant as your advanced trial."
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 1200,
+        "crd": 600,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 2
+          },
+          {
+            "item_id": "astral_phase_crystal_pure",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "popup": true,
+      "popup_trigger": "on_quest_complete",
+      "popup_prerequisite": "fq_arc_029",
+      "popup_level": 29,
+      "quest_chain_next": "fq_arc_031"
+    },
+    {
+      "id": "fq_arc_031",
+      "title": "Orbital Ambitions",
+      "type": "exploration",
+      "rank": "A",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "ORBITAL_SENTINEL_COMMAND",
+      "description": "The Arcanum Seekers require access to orbital platforms. Knowledge of the heavens is the next frontier. Establish our presence at the Orbital Sentinel Command.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "ORBITAL_SENTINEL_COMMAND"
+      },
+      "requirements": {
+        "min_level": 30,
+        "reputation_required": 1740,
+        "required_quests": [
+          "fq_arc_030"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "ORBITAL_SENTINEL_COMMAND",
+          "count": 1,
+          "description": "Report to Orbital Sentinel Command."
+        },
+        {
+          "type": "collect",
+          "target": "orbital_archive_access",
+          "count": 1,
+          "description": "Obtain orbital archive access credentials."
+        }
+      ],
+      "rewards": {
+        "exp": 900,
+        "currency": 500,
+        "crd": 250,
+        "rep": 500,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_032"
+    },
+    {
+      "id": "fq_arc_032",
+      "title": "Celestial Hunt",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Ashen Drake has been sighted from orbit. The Arcanum needs direct observation data. Track the Drake in the Cradle Expanse.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 31,
+        "reputation_required": 1800,
+        "required_quests": [
+          "fq_arc_031"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Engage and observe the Ashen Drake. Survival is sufficient."
+        },
+        {
+          "type": "collect",
+          "target": "drake_observation_data",
+          "count": 2,
+          "description": "Record Drake behavioral data."
+        }
+      ],
+      "rewards": {
+        "exp": 1200,
+        "currency": 650,
+        "crd": 325,
+        "rep": 650,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_033"
+    },
+    {
+      "id": "fq_arc_033",
+      "title": "Behemoth Study",
+      "type": "boss",
+      "rank": "A",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "CRADLE_EXPANSE",
+      "description": "Aethel Behemoths possess unusual regenerative properties. The Arcanum believes their biology can unlock new alchemical formulas.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 32,
+        "reputation_required": 1860,
+        "required_quests": [
+          "fq_arc_032"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_BEHEMOTH",
+          "count": 2,
+          "description": "Defeat Aethel Behemoths for tissue samples."
+        },
+        {
+          "type": "collect",
+          "target": "behemoth_regeneration_sample",
+          "count": 2,
+          "description": "Collect regeneration tissue samples."
+        }
+      ],
+      "rewards": {
+        "exp": 1400,
+        "currency": 750,
+        "crd": 375,
+        "rep": 750,
+        "items": [
+          {
+            "item_id": "mutagen_catalyst",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_034"
+    },
+    {
+      "id": "fq_arc_034",
+      "title": "Void Alchemy",
+      "type": "boss",
+      "rank": "A",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "CRADLE_EXPANSE",
+      "description": "Aethel Void Channelers are conducting void-alchemical rituals. Steal their research \u2014 it may contain the key to void energy transmutation.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 33,
+        "reputation_required": 1920,
+        "required_quests": [
+          "fq_arc_033"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 4,
+          "description": "Interrupt the void-alchemical rituals."
+        },
+        {
+          "type": "collect",
+          "target": "void_alchemy_notes",
+          "count": 2,
+          "description": "Seize the Channelers' research notes."
+        }
+      ],
+      "rewards": {
+        "exp": 1600,
+        "currency": 850,
+        "crd": 425,
+        "rep": 850,
+        "items": [
+          {
+            "item_id": "void_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_035"
+    },
+    {
+      "id": "fq_arc_035",
+      "title": "Abyssal Specimen",
+      "type": "boss",
+      "rank": "A",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "CRADLE_EXPANSE",
+      "description": "Aethel Abyssal Reavers are creatures of pure void energy. The Arcanum requires a live essence sample for the restricted archive.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 34,
+        "reputation_required": 1980,
+        "required_quests": [
+          "fq_arc_034"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 3,
+          "description": "Defeat Abyssal Reavers and extract essence."
+        },
+        {
+          "type": "collect",
+          "target": "abyssal_essence_vial",
+          "count": 1,
+          "description": "Contain a pure Abyssal Essence sample."
+        }
+      ],
+      "rewards": {
+        "exp": 1800,
+        "currency": 950,
+        "crd": 475,
+        "rep": 950,
+        "items": [
+          {
+            "item_id": "event_horizon_fragment",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_036"
+    },
+    {
+      "id": "fq_arc_036",
+      "title": "Archive Defense",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "ORBITAL_SENTINEL_COMMAND",
+      "description": "Rival factions are probing Arcanum orbital archives. The knowledge stored here must be protected at all costs.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_archivist",
+        "name": "Archivist Sylas",
+        "location": "ORBITAL_SENTINEL_COMMAND"
+      },
+      "requirements": {
+        "min_level": 35,
+        "reputation_required": 2040,
+        "required_quests": [
+          "fq_arc_035"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 6,
+          "description": "Repel intruders from the orbital archives."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 3,
+          "description": "Neutralize hostile Channelers."
+        }
+      ],
+      "rewards": {
+        "exp": 1500,
+        "currency": 800,
+        "crd": 400,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_037"
+    },
+    {
+      "id": "fq_arc_037",
+      "title": "Drake's Alchemy",
+      "type": "boss",
+      "rank": "A",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Ashen Drake's fire contains unique alchemical properties. The Arcanum must obtain a fresh flame sample \u2014 directly from the source if necessary.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 36,
+        "reputation_required": 2100,
+        "required_quests": [
+          "fq_arc_036"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Confront the Ashen Drake for a flame sample."
+        },
+        {
+          "type": "collect",
+          "target": "drake_flame_essence",
+          "count": 1,
+          "description": "Collect the Drake's flame essence."
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 1300,
+        "crd": 650,
+        "rep": 900,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_038"
+    },
+    {
+      "id": "fq_arc_038",
+      "title": "Corrupted Research",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "CRADLE_EXPANSE",
+      "description": "Aethel Corrupted Behemoths are the result of failed void experiments by rival factions. Clean up their mess and collect the corrupted data.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 37,
+        "reputation_required": 2160,
+        "required_quests": [
+          "fq_arc_037"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 2,
+          "description": "Destroy Corrupted Behemoths."
+        },
+        {
+          "type": "collect",
+          "target": "corrupted_research_data",
+          "count": 2,
+          "description": "Recover rival faction research data."
+        }
+      ],
+      "rewards": {
+        "exp": 1700,
+        "currency": 900,
+        "crd": 450,
+        "rep": 900,
+        "items": [
+          {
+            "item_id": "corrupted_synapse_cluster",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_039"
+    },
+    {
+      "id": "fq_arc_039",
+      "title": "Abyssal Raid",
+      "type": "boss",
+      "rank": "A",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "CRADLE_EXPANSE",
+      "description": "Multiple Abyssal Reavers threaten to overrun the orbital research stations. The Arcanum cannot afford to lose decades of orbital data.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 38,
+        "reputation_required": 2220,
+        "required_quests": [
+          "fq_arc_038"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Defeat the Abyssal Reaver assault."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 3,
+          "description": "Silence the summoning Channelers."
+        }
+      ],
+      "rewards": {
+        "exp": 2000,
+        "currency": 1100,
+        "crd": 550,
+        "rep": 1100,
+        "items": [
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_040"
+    },
+    {
+      "id": "fq_arc_040",
+      "title": "Master of the Arcane",
+      "type": "story",
+      "rank": "A",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "OBSERVATORY_SPIRE",
+      "description": "The final trial for Master rank. Defeat the Ashen Drake and two elite guardians to gain access to the Arcanum's most restricted orbital archives.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "OBSERVATORY_SPIRE"
+      },
+      "requirements": {
+        "min_level": 39,
+        "reputation_required": 2280,
+        "required_quests": [
+          "fq_arc_039"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Defeat the Ashen Drake."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_BEHEMOTH",
+          "count": 1,
+          "description": "Destroy an Aethel Behemoth."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 1,
+          "description": "Slay an Abyssal Reaver."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 1
+          },
+          {
+            "item_id": "entropy_core",
+            "quantity": 1
+          },
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_041"
+    },
+    {
+      "id": "fq_arc_041",
+      "title": "Echoes of the Past",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The Void Echo Chasm contains echoes of all knowledge ever lost. The Arcanum Seeker's greatest ambition: enter the chasm and retrieve what was forgotten.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 40,
+        "reputation_required": 2340,
+        "required_quests": [
+          "fq_arc_040"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "VOID_ECHO_CHASM",
+          "count": 1,
+          "description": "Enter the Void Echo Chasm."
+        },
+        {
+          "type": "collect",
+          "target": "lost_knowledge_echo",
+          "count": 3,
+          "description": "Extract Lost Knowledge Echoes from the chasm."
+        }
+      ],
+      "rewards": {
+        "exp": 1800,
+        "currency": 900,
+        "crd": 450,
+        "rep": 600,
+        "items": [
+          {
+            "item_id": "void_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_042"
+    },
+    {
+      "id": "fq_arc_042",
+      "title": "Void Reaver Research",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Void Reavers are the most stable void entities. Study them extensively \u2014 their nature may reveal how to safely harness void energy.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 41,
+        "reputation_required": 2400,
+        "required_quests": [
+          "fq_arc_041"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 5,
+          "description": "Defeat Void Reavers for research."
+        },
+        {
+          "type": "collect",
+          "target": "void_reaver_catalog",
+          "count": 1,
+          "description": "Complete the Void Reaver research catalog."
+        }
+      ],
+      "rewards": {
+        "exp": 1900,
+        "currency": 950,
+        "crd": 475,
+        "rep": 650,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_043"
+    },
+    {
+      "id": "fq_arc_043",
+      "title": "Forbidden Rituals",
+      "type": "story",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Ancient void rituals have been detected in the chasm depths. The energy signatures match the Abyss Harbinger myth. Investigate with extreme caution.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 42,
+        "reputation_required": 2460,
+        "required_quests": [
+          "fq_arc_042"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 6,
+          "description": "Interrupt the forbidden void rituals."
+        },
+        {
+          "type": "collect",
+          "target": "ritual_fragment",
+          "count": 3,
+          "description": "Collect ritual fragments for analysis."
+        }
+      ],
+      "rewards": {
+        "exp": 2100,
+        "currency": 1050,
+        "crd": 525,
+        "rep": 700,
+        "items": [
+          {
+            "item_id": "event_horizon_fragment",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_044"
+    },
+    {
+      "id": "fq_arc_044",
+      "title": "Abyssal Harvest",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Abyssal Reavers contain concentrated void essence \u2014 the most potent alchemical ingredient known. Harvest them for the Arcanum's grand experiment.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 43,
+        "reputation_required": 2520,
+        "required_quests": [
+          "fq_arc_043"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Harvest Abyssal Reavers for void essence."
+        },
+        {
+          "type": "collect",
+          "target": "concentrated_void_essence",
+          "count": 3,
+          "description": "Distill concentrated void essence."
+        }
+      ],
+      "rewards": {
+        "exp": 2200,
+        "currency": 1100,
+        "crd": 550,
+        "rep": 750,
+        "items": [
+          {
+            "item_id": "void_crystal_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_045"
+    },
+    {
+      "id": "fq_arc_045",
+      "title": "Behemoth Experiment",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Aethel Corrupted Behemoths in the chasm show signs of controlled mutation. The Arcanum hypothesizes they were someone's experiment. Collect tissue for comparative analysis.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 44,
+        "reputation_required": 2580,
+        "required_quests": [
+          "fq_arc_044"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "description": "Defeat Corrupted Behemoths for tissue samples."
+        },
+        {
+          "type": "collect",
+          "target": "behemoth_mutation_data",
+          "count": 1,
+          "description": "Extract mutation data from their cores."
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 1300,
+        "crd": 650,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "corrupted_synapse_cluster",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_046"
+    },
+    {
+      "id": "fq_arc_046",
+      "title": "Fragmented Souls",
+      "type": "story",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Soul Fragmenters tear apart the boundary between consciousness and void. The Arcanum believes studying them could unlock the secrets of consciousness itself.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 45,
+        "reputation_required": 2640,
+        "required_quests": [
+          "fq_arc_045"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SOUL_FRAGMENTER",
+          "count": 2,
+          "description": "Defeat Soul Fragmenters for consciousness study."
+        },
+        {
+          "type": "collect",
+          "target": "fragmented_consciousness",
+          "count": 1,
+          "description": "Contain a Fragmented Consciousness sample."
+        }
+      ],
+      "rewards": {
+        "exp": 3000,
+        "currency": 1600,
+        "crd": 800,
+        "rep": 1000,
+        "items": [
+          {
+            "item_id": "brainwave_oscillator",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_047"
+    },
+    {
+      "id": "fq_arc_047",
+      "title": "Chrono Anomaly",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Chrono Wraiths warp time around them. If the Arcanum can understand their temporal mechanics, the implications for knowledge preservation are infinite.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 46,
+        "reputation_required": 2700,
+        "required_quests": [
+          "fq_arc_046"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CHRONO_WRAITH",
+          "count": 2,
+          "description": "Defeat Chrono Wraiths for temporal research."
+        },
+        {
+          "type": "collect",
+          "target": "chrono_wraith_residue",
+          "count": 1,
+          "description": "Collect Chrono Wraith temporal residue."
+        }
+      ],
+      "rewards": {
+        "exp": 3500,
+        "currency": 1800,
+        "crd": 900,
+        "rep": 1100,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_048"
+    },
+    {
+      "id": "fq_arc_048",
+      "title": "Jotunn Biology",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Gigantic Jotunns are biological impossibilities. Their existence defies known science. The Arcanum must study one up close.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 47,
+        "reputation_required": 2760,
+        "required_quests": [
+          "fq_arc_047"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "description": "Defeat a Gigantic Jotunn for biological study."
+        },
+        {
+          "type": "collect",
+          "target": "jotunn_biological_sample",
+          "count": 1,
+          "description": "Extract biological samples from the Jotunn."
+        }
+      ],
+      "rewards": {
+        "exp": 3500,
+        "currency": 1800,
+        "crd": 900,
+        "rep": 1000,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_049"
+    },
+    {
+      "id": "fq_arc_049",
+      "title": "Heart of Knowledge",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "SHATTERED_HEART",
+      "description": "The Shattered Heart is the ultimate repository of Precursor knowledge. The Arcanum has waited centuries for this moment. Enter and claim what is ours.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 48,
+        "reputation_required": 2820,
+        "required_quests": [
+          "fq_arc_048"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SHATTERED_HEART",
+          "count": 1,
+          "description": "Enter the Shattered Heart."
+        },
+        {
+          "type": "collect",
+          "target": "precursor_knowledge_crystal",
+          "count": 2,
+          "description": "Recover Precursor Knowledge Crystals."
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 1300,
+        "crd": 650,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "memory_fragment_chip",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_050"
+    },
+    {
+      "id": "fq_arc_050",
+      "title": "Siphoning the Drake",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "SHATTERED_HEART",
+      "description": "The Ashen Drake's heart contains the secret of eternal fire \u2014 the ultimate alchemical catalyst. The Arcanum demands it. Raid Tier-1: claim the Drake's heart for the grand experiment.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 49,
+        "reputation_required": 2880,
+        "required_quests": [
+          "fq_arc_049"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Defeat the Ashen Drake in its lair."
+        },
+        {
+          "type": "kill",
+          "target": "DRAKE_MINION",
+          "count": 5,
+          "description": "Clear Drake Minions from the lair."
+        },
+        {
+          "type": "collect",
+          "target": "drake_heart_supreme",
+          "count": 1,
+          "description": "Claim the Supreme Drake Heart."
+        }
+      ],
+      "rewards": {
+        "exp": 8000,
+        "currency": 4000,
+        "crd": 2000,
+        "rep": 2500,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 2
+          },
+          {
+            "item_id": "ancient_scale",
+            "quantity": 1
+          },
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_051"
+    },
+    {
+      "id": "fq_arc_051",
+      "title": "Fragmented Reality",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Soul Fragmenters are multiplying across the chasm. Each one tears a hole in the fabric of consciousness. The Arcanum must contain them to prevent a reality cascade.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 50,
+        "reputation_required": 2940,
+        "required_quests": [
+          "fq_arc_050"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SOUL_FRAGMENTER",
+          "count": 3,
+          "description": "Defeat three Soul Fragmenters."
+        },
+        {
+          "type": "collect",
+          "target": "reality_anchor",
+          "count": 3,
+          "description": "Deploy reality anchors at the rift points."
+        }
+      ],
+      "rewards": {
+        "exp": 6000,
+        "currency": 3000,
+        "crd": 1500,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "brainwave_reader",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_052"
+    },
+    {
+      "id": "fq_arc_052",
+      "title": "Void Dominance",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The Arcanum initiates Operation Void Dominance. All void signatures must be catalogued, contained, or eliminated. Knowledge of the void must be total.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 51,
+        "reputation_required": 3000,
+        "required_quests": [
+          "fq_arc_051"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 8,
+          "description": "Catalog and eliminate Void Reavers."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 5,
+          "description": "Silence all remaining Void Channelers."
+        }
+      ],
+      "rewards": {
+        "exp": 4500,
+        "currency": 2200,
+        "crd": 1100,
+        "rep": 1500,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_053"
+    },
+    {
+      "id": "fq_arc_053",
+      "title": "Stalker of Secrets",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "VOID_ECHO_CHASM",
+      "description": "A Void Stalker has been hunting Arcanum researchers. It seems to be drawn to those who carry Precursor knowledge. Turn the hunt around.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 52,
+        "reputation_required": 3060,
+        "required_quests": [
+          "fq_arc_052"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "VOID_STALKER",
+          "count": 1,
+          "description": "Track and defeat the Void Stalker."
+        },
+        {
+          "type": "collect",
+          "target": "stalker_knowledge_cache",
+          "count": 1,
+          "description": "Recover the knowledge cache from the Stalker's victims."
+        }
+      ],
+      "rewards": {
+        "exp": 5500,
+        "currency": 2800,
+        "crd": 1400,
+        "rep": 1800,
+        "items": [
+          {
+            "item_id": "entropy_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_054"
+    },
+    {
+      "id": "fq_arc_054",
+      "title": "Temporal Paradox",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Chrono Wraiths are creating temporal loops within the chasm. Each loop traps a piece of Precursor knowledge in an endless cycle. Break the loops.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 53,
+        "reputation_required": 3120,
+        "required_quests": [
+          "fq_arc_053"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CHRONO_WRAITH",
+          "count": 2,
+          "description": "Banish Chrono Wraiths from the temporal loops."
+        },
+        {
+          "type": "collect",
+          "target": "temporal_knowledge_fragment",
+          "count": 2,
+          "description": "Recover knowledge fragments from broken loops."
+        }
+      ],
+      "rewards": {
+        "exp": 6500,
+        "currency": 3200,
+        "crd": 1600,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_055"
+    },
+    {
+      "id": "fq_arc_055",
+      "title": "Reaver Overflow",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "SHATTERED_HEART",
+      "description": "Abyssal Reavers flood from the Shattered Heart. Each one carries traces of Precursor data. The Arcanum must collect them all.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_archivist",
+        "name": "Archivist Sylas",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 54,
+        "reputation_required": 3180,
+        "required_quests": [
+          "fq_arc_054"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 10,
+          "description": "Defeat Abyssal Reavers and extract data traces."
+        },
+        {
+          "type": "collect",
+          "target": "reaver_data_compilation",
+          "count": 1,
+          "description": "Compile the collected Precursor data traces."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 1700,
+        "items": [
+          {
+            "item_id": "event_horizon_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_056"
+    },
+    {
+      "id": "fq_arc_056",
+      "title": "Jotunn Archive Guardians",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "SHATTERED_HEART",
+      "description": "Gigantic Jotunns in the Shattered Heart are not random \u2014 they guard something. The Arcanum believes a Precursor archive lies beneath their territory.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 55,
+        "reputation_required": 3240,
+        "required_quests": [
+          "fq_arc_055"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "description": "Defeat Jotunn archive guardians."
+        },
+        {
+          "type": "collect",
+          "target": "archive_location_data",
+          "count": 1,
+          "description": "Triangulate the archive location from defeated guardians."
+        }
+      ],
+      "rewards": {
+        "exp": 7000,
+        "currency": 3500,
+        "crd": 1750,
+        "rep": 2200,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_057"
+    },
+    {
+      "id": "fq_arc_057",
+      "title": "Tyrant Archive",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "SHATTERED_HEART",
+      "description": "Crystal Tyrants have claimed the Precursor archive as their territory. Their crystalline bodies have absorbed millennia of stored knowledge.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 56,
+        "reputation_required": 3300,
+        "required_quests": [
+          "fq_arc_056"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 2,
+          "description": "Defeat Crystal Tyrants at the Precursor archive."
+        },
+        {
+          "type": "collect",
+          "target": "tyrant_knowledge_crystal",
+          "count": 1,
+          "description": "Extract absorbed knowledge from a Tyrant crystal."
+        }
+      ],
+      "rewards": {
+        "exp": 7200,
+        "currency": 3600,
+        "crd": 1800,
+        "rep": 2300,
+        "items": [
+          {
+            "item_id": "cognitive_relay_node",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_058"
+    },
+    {
+      "id": "fq_arc_058",
+      "title": "The Harbinger's Formula",
+      "type": "story",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The Abyss Harbinger is not just a monster \u2014 it is a living formula. An equation of pure void given form. The Arcanum must record it before destroying it.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 57,
+        "reputation_required": 3360,
+        "required_quests": [
+          "fq_arc_057"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 6,
+          "description": "Cut through the Harbinger's vanguard."
+        },
+        {
+          "type": "kill",
+          "target": "CHRONO_WRAITH",
+          "count": 1,
+          "description": "Defeat a Chrono Wraith to access the sanctum."
+        },
+        {
+          "type": "collect",
+          "target": "harbinger_formula",
+          "count": 1,
+          "description": "Record the Harbinger Formula from the sanctum walls."
+        }
+      ],
+      "rewards": {
+        "exp": 7500,
+        "currency": 3800,
+        "crd": 1900,
+        "rep": 2400,
+        "items": [
+          {
+            "item_id": "event_horizon_fragment_l",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_059"
+    },
+    {
+      "id": "fq_arc_059",
+      "title": "Soul Harvest",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Soul Fragmenters are harvesting the souls of fallen researchers. The Arcanum cannot allow the accumulated knowledge of its members to be consumed.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 58,
+        "reputation_required": 3420,
+        "required_quests": [
+          "fq_arc_058"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SOUL_FRAGMENTER",
+          "count": 3,
+          "description": "Destroy Soul Fragmenters to free trapped souls."
+        },
+        {
+          "type": "kill",
+          "target": "VOID_STALKER",
+          "count": 1,
+          "description": "Eliminate the Void Stalker directing the Fragmenters."
+        }
+      ],
+      "rewards": {
+        "exp": 8000,
+        "currency": 4000,
+        "crd": 2000,
+        "rep": 2500,
+        "items": [
+          {
+            "item_id": "brainwave_oscillator",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_060"
+    },
+    {
+      "id": "fq_arc_060",
+      "title": "The Harbinger's Secret",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "VOID_ECHO_CHASM",
+      "description": "THE ULTIMATE KNOWLEDGE TRIAL. The Abyss Harbinger is a dimensional library \u2014 a living archive of forbidden knowledge. Defeat the Raid Boss Tier-2 entity and claim every secret it holds. Knowledge is Power. Secrets are Sovereignty.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 59,
+        "reputation_required": 3480,
+        "required_quests": [
+          "fq_arc_059"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "description": "DEFEAT THE ABYSS HARBINGER."
+        },
+        {
+          "type": "collect",
+          "target": "harbinger_knowledge_core",
+          "count": 1,
+          "description": "Claim the Harbinger Knowledge Core."
+        }
+      ],
+      "rewards": {
+        "exp": 15000,
+        "currency": 7500,
+        "crd": 3750,
+        "rep": 5000,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 5
+          },
+          {
+            "item_id": "event_horizon_fragment_l",
+            "quantity": 2
+          },
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 10
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_061"
+    },
+    {
+      "id": "fq_arc_061",
+      "title": "Seismic Research",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "The Harbinger's defeat has triggered unprecedented seismic activity. The Arcanum sees opportunity: tectonic data may reveal the planet's deepest secrets.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 60,
+        "reputation_required": 3540,
+        "required_quests": [
+          "fq_arc_060"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SEVERANCE_FAULTLINE",
+          "count": 1,
+          "description": "Enter the Severance Faultline."
+        },
+        {
+          "type": "collect",
+          "target": "deep_seismic_data",
+          "count": 3,
+          "description": "Collect deep seismic readings from the fault."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 1600,
+        "items": [
+          {
+            "item_id": "stabilizer_gyro_unit",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_062"
+    },
+    {
+      "id": "fq_arc_062",
+      "title": "Tectonic Scanning",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Aethel Iron Carapaces are drawn to the fault's energy. Their shells contain compressed geological data spanning millions of years.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 61,
+        "reputation_required": 3600,
+        "required_quests": [
+          "fq_arc_061"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "description": "Defeat Iron Carapaces for geological data."
+        },
+        {
+          "type": "collect",
+          "target": "geological_compression_sample",
+          "count": 3,
+          "description": "Extract geological compression samples."
+        }
+      ],
+      "rewards": {
+        "exp": 5200,
+        "currency": 2600,
+        "crd": 1300,
+        "rep": 1700,
+        "items": [
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_063"
+    },
+    {
+      "id": "fq_arc_063",
+      "title": "Tyrant Seismic",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Crystal Tyrants at the fault emit resonant frequencies that amplify seismic waves. The Arcanum hypothesizes they can be used as planetary-scale transmitters.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 62,
+        "reputation_required": 3660,
+        "required_quests": [
+          "fq_arc_062"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 2,
+          "description": "Defeat Crystal Tyrants for resonance study."
+        },
+        {
+          "type": "collect",
+          "target": "tyrant_resonance_frequency",
+          "count": 1,
+          "description": "Record Tyrant resonance frequencies."
+        }
+      ],
+      "rewards": {
+        "exp": 6000,
+        "currency": 3000,
+        "crd": 1500,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_064"
+    },
+    {
+      "id": "fq_arc_064",
+      "title": "Jotunn Migration",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Gigantic Jotunns are migrating through the faultline. Their movement patterns correlate with Precursor navigation charts discovered in the Harbinger's archives.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 63,
+        "reputation_required": 3720,
+        "required_quests": [
+          "fq_arc_063"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "description": "Defeat migrating Jotunns."
+        },
+        {
+          "type": "collect",
+          "target": "jotunn_migration_data",
+          "count": 1,
+          "description": "Map Jotunn migration against Precursor charts."
+        }
+      ],
+      "rewards": {
+        "exp": 6500,
+        "currency": 3300,
+        "crd": 1650,
+        "rep": 2100,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_065"
+    },
+    {
+      "id": "fq_arc_065",
+      "title": "The Siphon Laboratory",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "The Aethel Siphon Core is the ultimate Precursor laboratory. The Arcanum has theorized its existence for centuries. Now it is discovered \u2014 claim it for science.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 64,
+        "reputation_required": 3780,
+        "required_quests": [
+          "fq_arc_064"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "AETHEL_SIPHON_CORE",
+          "count": 1,
+          "description": "Enter the Aethel Siphon Core."
+        },
+        {
+          "type": "collect",
+          "target": "siphon_laboratory_data",
+          "count": 2,
+          "description": "Download laboratory data from Siphon terminals."
+        }
+      ],
+      "rewards": {
+        "exp": 5500,
+        "currency": 2800,
+        "crd": 1400,
+        "rep": 1800,
+        "items": [
+          {
+            "item_id": "power_regulator_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_066"
+    },
+    {
+      "id": "fq_arc_066",
+      "title": "Core Specimens",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Abyssal Reavers in the Core have been mutated by concentrated Aethel. These mutations are scientifically invaluable.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 65,
+        "reputation_required": 3840,
+        "required_quests": [
+          "fq_arc_065"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 8,
+          "description": "Collect mutated Reaver specimens."
+        },
+        {
+          "type": "collect",
+          "target": "mutated_reaver_catalog",
+          "count": 1,
+          "description": "Complete the mutated specimen catalog."
+        }
+      ],
+      "rewards": {
+        "exp": 5800,
+        "currency": 2900,
+        "crd": 1450,
+        "rep": 1900,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_067"
+    },
+    {
+      "id": "fq_arc_067",
+      "title": "Behemoth Siege",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Corrupted Behemoths assault the Core's primary conduits. If the Core falls, the greatest Precursor laboratory is lost forever.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 66,
+        "reputation_required": 3900,
+        "required_quests": [
+          "fq_arc_066"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "description": "Defeat Corrupted Behemoths at the conduits."
+        },
+        {
+          "type": "collect",
+          "target": "conduit_data_backup",
+          "count": 1,
+          "description": "Backup critical conduit data before destruction."
+        }
+      ],
+      "rewards": {
+        "exp": 6200,
+        "currency": 3100,
+        "crd": 1550,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "corrupted_synapse_cluster",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_068"
+    },
+    {
+      "id": "fq_arc_068",
+      "title": "Rift Research",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Aethel Rift Stalkers create micro-rifts that offer glimpses into alternate dimensions. The Arcanum must study these windows into other realities.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 67,
+        "reputation_required": 3960,
+        "required_quests": [
+          "fq_arc_067"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 6,
+          "description": "Defeat Rift Stalkers near active micro-rifts."
+        },
+        {
+          "type": "collect",
+          "target": "alternate_dimension_data",
+          "count": 1,
+          "description": "Record data from active micro-rifts."
+        }
+      ],
+      "rewards": {
+        "exp": 6400,
+        "currency": 3200,
+        "crd": 1600,
+        "rep": 2100,
+        "items": [
+          {
+            "item_id": "dark_energy_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_069"
+    },
+    {
+      "id": "fq_arc_069",
+      "title": "Titan's Formula",
+      "type": "story",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "The Gravity Titan's existence is a mathematical anomaly. The Arcanum believes understanding its formula could revolutionize gravitational science.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 68,
+        "reputation_required": 4020,
+        "required_quests": [
+          "fq_arc_068"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "titan_formula_data",
+          "count": 3,
+          "description": "Collect Titan Formula data from seismic stations."
+        },
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "description": "Defeat a Jotunn drawn by Titan resonance."
+        }
+      ],
+      "rewards": {
+        "exp": 7000,
+        "currency": 3500,
+        "crd": 1750,
+        "rep": 2200,
+        "items": [
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_070"
+    },
+    {
+      "id": "fq_arc_070",
+      "title": "The Titan's Core",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "CRADLE_EXPANSE",
+      "description": "THE GRAVITATIONAL TRIAL. The Gravity Titan has risen. Its core is the most valuable scientific specimen in Xylos history. The Arcanum demands you retrieve it \u2014 intact. Defeat the Raid Boss Tier-3 entity and claim the Titan's gravitational heart for the eternal archives.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 69,
+        "reputation_required": 4080,
+        "required_quests": [
+          "fq_arc_069"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "description": "DEFEAT THE GRAVITY TITAN."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Clear the Titan's Abyssal escorts."
+        },
+        {
+          "type": "collect",
+          "target": "titan_gravity_core_intact",
+          "count": 1,
+          "description": "Extract the intact Titan Gravity Core."
+        }
+      ],
+      "rewards": {
+        "exp": 20000,
+        "currency": 10000,
+        "crd": 5000,
+        "rep": 7000,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 3
+          },
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 2
+          },
+          {
+            "item_id": "event_horizon_fragment_l",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_071"
+    },
+    {
+      "id": "fq_arc_071",
+      "title": "The Great Forge",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The Prima Materia Forge \u2014 the Precursor facility where reality itself can be shaped. The Arcanum's ultimate ambition: master the Forge and create legendary weapons.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 70,
+        "reputation_required": 4140,
+        "required_quests": [
+          "fq_arc_070"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "PRIMA_MATERIA_FORGE",
+          "count": 1,
+          "description": "Enter the Prima Materia Forge."
+        },
+        {
+          "type": "collect",
+          "target": "forge_schematics",
+          "count": 2,
+          "description": "Download Forge schematics for the Arcanum."
+        }
+      ],
+      "rewards": {
+        "exp": 6000,
+        "currency": 3000,
+        "crd": 1500,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "raw_aethel_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_072"
+    },
+    {
+      "id": "fq_arc_072",
+      "title": "Forge Defenses",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Ancient Forge Automatons still defend the facility. Disable them and reverse-engineer their construction \u2014 the Arcanum could replicate this technology.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 71,
+        "reputation_required": 4200,
+        "required_quests": [
+          "fq_arc_071"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "description": "Disable Forge defense automatons."
+        },
+        {
+          "type": "collect",
+          "target": "automaton_schematics",
+          "count": 2,
+          "description": "Reverse-engineer Automaton schematics."
+        }
+      ],
+      "rewards": {
+        "exp": 6200,
+        "currency": 3100,
+        "crd": 1550,
+        "rep": 2100,
+        "items": [
+          {
+            "item_id": "rusted_cybernetic_arm",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_073"
+    },
+    {
+      "id": "fq_arc_073",
+      "title": "Forge Purification",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Corrupted Behemoths contaminate the Forge's raw materials. The purity of Prima Materia must be absolute for legendary crafting.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 72,
+        "reputation_required": 4260,
+        "required_quests": [
+          "fq_arc_072"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "description": "Purge Corrupted Behemoths from the Forge."
+        },
+        {
+          "type": "collect",
+          "target": "purified_materia",
+          "count": 3,
+          "description": "Collect Purified Materia from secured chambers."
+        }
+      ],
+      "rewards": {
+        "exp": 6500,
+        "currency": 3300,
+        "crd": 1650,
+        "rep": 2200,
+        "items": [
+          {
+            "item_id": "neural_disruptor_module",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_074"
+    },
+    {
+      "id": "fq_arc_074",
+      "title": "Abyssal Contamination",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Void Channelers seek to corrupt the Forge. Void-tainted Prima Materia would be catastrophic. Stop them at all costs.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 73,
+        "reputation_required": 4320,
+        "required_quests": [
+          "fq_arc_073"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 8,
+          "description": "Exterminate Abyssal Reavers."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 5,
+          "description": "Silence Void Channelers at the Forge core."
+        }
+      ],
+      "rewards": {
+        "exp": 6800,
+        "currency": 3400,
+        "crd": 1700,
+        "rep": 2300,
+        "items": [
+          {
+            "item_id": "aethel_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_075"
+    },
+    {
+      "id": "fq_arc_075",
+      "title": "Jotunn Forge-Masters",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Gigantic Jotunns have learned to use the Forge's heat as a weapon. Their mastery of the Forge's fire is concerning \u2014 and fascinating.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 74,
+        "reputation_required": 4380,
+        "required_quests": [
+          "fq_arc_074"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "description": "Defeat Jotunn Forge-Masters."
+        },
+        {
+          "type": "collect",
+          "target": "jotunn_forge_technique",
+          "count": 1,
+          "description": "Document the Jotunn Forge technique."
+        }
+      ],
+      "rewards": {
+        "exp": 7200,
+        "currency": 3600,
+        "crd": 1800,
+        "rep": 2400,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_076"
+    },
+    {
+      "id": "fq_arc_076",
+      "title": "Materia Synthesis",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The Arcanum initiates Operation Materia Synthesis. The goal: produce the first Arcanum-crafted legendary weapon using Prima Materia.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 75,
+        "reputation_required": 4440,
+        "required_quests": [
+          "fq_arc_075"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 6,
+          "description": "Clear the Forge of hostile forces."
+        },
+        {
+          "type": "collect",
+          "target": "legendary_forging_components",
+          "count": 3,
+          "description": "Gather legendary forging components."
+        }
+      ],
+      "rewards": {
+        "exp": 7500,
+        "currency": 3800,
+        "crd": 1900,
+        "rep": 2500,
+        "items": [
+          {
+            "item_id": "power_regulator_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_077"
+    },
+    {
+      "id": "fq_arc_077",
+      "title": "Automaton Mastery",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Titan Forge Automatons are the apex of Precursor engineering. The Arcanum must learn to control them rather than simply destroy them.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 76,
+        "reputation_required": 4500,
+        "required_quests": [
+          "fq_arc_076"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_FORGE_AUTOMATON",
+          "count": 2,
+          "description": "Override Titan Forge Automatons."
+        },
+        {
+          "type": "collect",
+          "target": "automaton_control_protocol",
+          "count": 1,
+          "description": "Extract the Automaton control protocol."
+        }
+      ],
+      "rewards": {
+        "exp": 8000,
+        "currency": 4000,
+        "crd": 2000,
+        "rep": 2600,
+        "items": [
+          {
+            "item_id": "processor_cooling_unit",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_078"
+    },
+    {
+      "id": "fq_arc_078",
+      "title": "Proto-Core Experiment",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "A Titan Proto Core contains a failed Titan \u2014 the ultimate experimental subject. The Arcanum must dissect it to understand Titan biology.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 77,
+        "reputation_required": 4560,
+        "required_quests": [
+          "fq_arc_077"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_PROTO_CORE",
+          "count": 1,
+          "description": "Destroy the Titan Proto Core for dissection."
+        },
+        {
+          "type": "collect",
+          "target": "proto_core_dissection_data",
+          "count": 1,
+          "description": "Complete the Proto Core dissection."
+        }
+      ],
+      "rewards": {
+        "exp": 9000,
+        "currency": 4500,
+        "crd": 2250,
+        "rep": 2800,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_079"
+    },
+    {
+      "id": "fq_arc_079",
+      "title": "The Forge Complete",
+      "type": "story",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The Forge is mastered. The legendary weapon is forged. But the final test remains: prove the weapon's worth against the two greatest threats to Xylos.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 78,
+        "reputation_required": 4620,
+        "required_quests": [
+          "fq_arc_078"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "description": "Test the legendary weapon against the Gravity Titan."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "description": "Prove the weapon's worth against the Abyss Harbinger."
+        }
+      ],
+      "rewards": {
+        "exp": 12000,
+        "currency": 6000,
+        "crd": 3000,
+        "rep": 4000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 1
+          },
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          },
+          {
+            "item_id": "void_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_080"
+    },
+    {
+      "id": "fq_arc_080",
+      "title": "Legendary Seeker",
+      "type": "story",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "OBSERVATORY_SPIRE",
+      "description": "You have defeated both Titan and Harbinger in a single campaign. The Arcanum Seekers recognize you as a Legendary Seeker. Return to the Observatory Spire.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "OBSERVATORY_SPIRE"
+      },
+      "requirements": {
+        "min_level": 79,
+        "reputation_required": 4680,
+        "required_quests": [
+          "fq_arc_079"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "OBSERVATORY_SPIRE",
+          "count": 1,
+          "description": "Return to the Observatory Spire."
+        },
+        {
+          "type": "collect",
+          "target": "legendary_seeker_medallion",
+          "count": 1,
+          "description": "Receive the Legendary Seeker Medallion from High Seeker Elara."
+        }
+      ],
+      "rewards": {
+        "exp": 10000,
+        "currency": 5000,
+        "crd": 2500,
+        "rep": 3500,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 10
+          },
+          {
+            "item_id": "astral_phase_crystal_pure",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_081"
+    },
+    {
+      "id": "fq_arc_081",
+      "title": "Apex Dominance",
+      "type": "story",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "HIDDEN_AETHELGARDIAN_CITY",
+      "description": "The Hidden Aethelgardian City \u2014 a mythical Precursor metropolis. The Arcanum has triangulated its location using data from the Titan and Harbinger. Enter and claim its knowledge.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "HIDDEN_AETHELGARDIAN_CITY"
+      },
+      "requirements": {
+        "min_level": 80,
+        "reputation_required": 4740,
+        "required_quests": [
+          "fq_arc_080"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "HIDDEN_AETHELGARDIAN_CITY",
+          "count": 1,
+          "description": "Discover the Hidden Aethelgardian City."
+        },
+        {
+          "type": "collect",
+          "target": "city_archive_access",
+          "count": 3,
+          "description": "Access the city's Precursor archives."
+        }
+      ],
+      "rewards": {
+        "exp": 8000,
+        "currency": 4000,
+        "crd": 2000,
+        "rep": 2500,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_082"
+    },
+    {
+      "id": "fq_arc_082",
+      "title": "City Defenses",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "HIDDEN_AETHELGARDIAN_CITY",
+      "description": "The city's automated defenses still function. They do not distinguish between friend and foe \u2014 only threats to Precursor knowledge.",
+      "quest_giver": {
+        "npc_id": "npc_researcher_vin",
+        "name": "Researcher Vin",
+        "location": "HIDDEN_AETHELGARDIAN_CITY"
+      },
+      "requirements": {
+        "min_level": 81,
+        "reputation_required": 4800,
+        "required_quests": [
+          "fq_arc_081"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 8,
+          "description": "Disable city defense constructs."
+        },
+        {
+          "type": "collect",
+          "target": "defense_override_code",
+          "count": 1,
+          "description": "Hack the defense network override."
+        }
+      ],
+      "rewards": {
+        "exp": 8500,
+        "currency": 4200,
+        "crd": 2100,
+        "rep": 2700,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_083"
+    },
+    {
+      "id": "fq_arc_083",
+      "title": "The Eternal Library",
+      "type": "collect",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "HIDDEN_AETHELGARDIAN_CITY",
+      "description": "The city contains the Eternal Library \u2014 a Precursor repository of all knowledge. Download its contents for the Arcanum's grand archive.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_archivist",
+        "name": "Archivist Sylas",
+        "location": "HIDDEN_AETHELGARDIAN_CITY"
+      },
+      "requirements": {
+        "min_level": 82,
+        "reputation_required": 4860,
+        "required_quests": [
+          "fq_arc_082"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "eternal_library_data",
+          "count": 5,
+          "description": "Download the Eternal Library's contents."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 4,
+          "description": "Defeat Reavers drawn to the knowledge energy."
+        }
+      ],
+      "rewards": {
+        "exp": 8800,
+        "currency": 4400,
+        "crd": 2200,
+        "rep": 2800,
+        "items": [
+          {
+            "item_id": "memory_fragment_chip",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_084"
+    },
+    {
+      "id": "fq_arc_084",
+      "title": "Apex Drake",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "SHATTERED_HEART",
+      "description": "The Ashen Drake has evolved to its Apex form \u2014 a living repository of draconic knowledge. The Arcanum must study this ultimate form.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 83,
+        "reputation_required": 4920,
+        "required_quests": [
+          "fq_arc_083"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Defeat the Apex Ashen Drake."
+        },
+        {
+          "type": "collect",
+          "target": "apex_drake_scale",
+          "count": 1,
+          "description": "Collect an Apex Drake Scale for the archive."
+        }
+      ],
+      "rewards": {
+        "exp": 12000,
+        "currency": 6000,
+        "crd": 3000,
+        "rep": 4000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 3
+          },
+          {
+            "item_id": "ancient_scale",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_085"
+    },
+    {
+      "id": "fq_arc_085",
+      "title": "Apex Harbinger",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The Abyss Harbinger's rebirth brings new void-knowledge. The Arcanum must record its new form before destroying it forever.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 84,
+        "reputation_required": 4980,
+        "required_quests": [
+          "fq_arc_084"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "description": "Defeat the Apex Abyss Harbinger."
+        },
+        {
+          "type": "collect",
+          "target": "apex_harbinger_data",
+          "count": 1,
+          "description": "Record the Apex Harbinger's new void formula."
+        }
+      ],
+      "rewards": {
+        "exp": 13000,
+        "currency": 6500,
+        "crd": 3250,
+        "rep": 4200,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 5
+          },
+          {
+            "item_id": "event_horizon_fragment_l",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_086"
+    },
+    {
+      "id": "fq_arc_086",
+      "title": "Apex Titan",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Gravity Titan's third manifestation is its most powerful. Its gravitational signature contains data from the planet's formation. The Arcanum must have it.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 85,
+        "reputation_required": 5040,
+        "required_quests": [
+          "fq_arc_085"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "description": "Defeat the Apex Gravity Titan."
+        },
+        {
+          "type": "collect",
+          "target": "apex_titan_data",
+          "count": 1,
+          "description": "Record the Titan's planetary formation data."
+        }
+      ],
+      "rewards": {
+        "exp": 14000,
+        "currency": 7000,
+        "crd": 3500,
+        "rep": 4500,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 4
+          },
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_087"
+    },
+    {
+      "id": "fq_arc_087",
+      "title": "Tri-Entity Research",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The three Apex entities \u2014 Drake, Titan, Harbinger \u2014 represent three branches of forbidden knowledge. The Arcanum authorizes their simultaneous study.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 86,
+        "reputation_required": 5100,
+        "required_quests": [
+          "fq_arc_086"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Study the Drake manifestation."
+        },
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "description": "Study the Titan manifestation."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "description": "Study the Harbinger manifestation."
+        }
+      ],
+      "rewards": {
+        "exp": 20000,
+        "currency": 10000,
+        "crd": 5000,
+        "rep": 6000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 2
+          },
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          },
+          {
+            "item_id": "void_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_088"
+    },
+    {
+      "id": "fq_arc_088",
+      "title": "The Siphon Overlord",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "The Aethel Siphon Core is now the Arcanum's primary research facility. Establish total control and begin the planetary energy calibration.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 87,
+        "reputation_required": 5160,
+        "required_quests": [
+          "fq_arc_087"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "AETHEL_SIPHON_CORE",
+          "count": 1,
+          "description": "Return to the Siphon Core as Overlord."
+        },
+        {
+          "type": "collect",
+          "target": "energy_control_beacon",
+          "count": 5,
+          "description": "Deploy Arcanum energy control beacons."
+        }
+      ],
+      "rewards": {
+        "exp": 10000,
+        "currency": 5000,
+        "crd": 2500,
+        "rep": 3200,
+        "items": [
+          {
+            "item_id": "power_regulator_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_089"
+    },
+    {
+      "id": "fq_arc_089",
+      "title": "World Engine Discovery",
+      "type": "story",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Beneath the Siphon Core lies the World Engine \u2014 the device that can reshape planetary reality. The Arcanum's greatest discovery. Secure it absolutely.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 88,
+        "reputation_required": 5220,
+        "required_quests": [
+          "fq_arc_088"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "world_engine_blueprint",
+          "count": 3,
+          "description": "Obtain the World Engine blueprints."
+        },
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 2,
+          "description": "Defeat Jotunns guarding the Engine."
+        }
+      ],
+      "rewards": {
+        "exp": 11000,
+        "currency": 5500,
+        "crd": 2750,
+        "rep": 3500,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_090"
+    },
+    {
+      "id": "fq_arc_090",
+      "title": "Knowledge Calibration",
+      "type": "story",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "The World Engine can be calibrated to broadcast knowledge across the planet. The Arcanum's ultimate dream: a world where all knowledge is shared. Protect the calibration.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 89,
+        "reputation_required": 5280,
+        "required_quests": [
+          "fq_arc_089"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 10,
+          "description": "Defend the World Engine from Abyssal assault."
+        },
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 2,
+          "description": "Defeat Tyrants disrupting the calibration."
+        },
+        {
+          "type": "collect",
+          "target": "knowledge_calibration_complete",
+          "count": 1,
+          "description": "Complete the knowledge calibration sequence."
+        }
+      ],
+      "rewards": {
+        "exp": 13000,
+        "currency": 6500,
+        "crd": 3250,
+        "rep": 4200,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_091"
+    },
+    {
+      "id": "fq_arc_091",
+      "title": "Jotunn Purge",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Residual hostile entities are being flushed by the World Engine. Begin the systematic purge at the Severance Faultline.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 90,
+        "reputation_required": 5340,
+        "required_quests": [
+          "fq_arc_090"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 5,
+          "description": "Purge Jotunns from the faultline."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "description": "Eliminate Carapace swarms."
+        }
+      ],
+      "rewards": {
+        "exp": 10000,
+        "currency": 5000,
+        "crd": 2500,
+        "rep": 3200,
+        "items": [
+          {
+            "item_id": "stabilizer_gyro_unit",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_092"
+    },
+    {
+      "id": "fq_arc_092",
+      "title": "Void Silence",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The Void is collapsing. The Arcanum must collect the final void data before it disappears forever. Every echo is precious.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 91,
+        "reputation_required": 5400,
+        "required_quests": [
+          "fq_arc_091"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 10,
+          "description": "Exterminate the final Abyssal Reavers."
+        },
+        {
+          "type": "collect",
+          "target": "final_void_data",
+          "count": 1,
+          "description": "Compile the final void data archive."
+        }
+      ],
+      "rewards": {
+        "exp": 11000,
+        "currency": 5500,
+        "crd": 2750,
+        "rep": 3500,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_093"
+    },
+    {
+      "id": "fq_arc_093",
+      "title": "Tyrant's Last Archive",
+      "type": "boss",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "SHATTERED_HEART",
+      "description": "Crystal Tyrants in the Shattered Heart have absorbed the last remaining Precursor archives. Extract the knowledge from their crystalline bodies.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 92,
+        "reputation_required": 5460,
+        "required_quests": [
+          "fq_arc_092"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 3,
+          "description": "Defeat the last Crystal Tyrants."
+        },
+        {
+          "type": "collect",
+          "target": "tyrant_archive_extraction",
+          "count": 1,
+          "description": "Extract the final archives from Tyrant crystals."
+        }
+      ],
+      "rewards": {
+        "exp": 12000,
+        "currency": 6000,
+        "crd": 3000,
+        "rep": 4000,
+        "items": [
+          {
+            "item_id": "cognitive_relay_node",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_094"
+    },
+    {
+      "id": "fq_arc_094",
+      "title": "Forge Completion",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The Forge will be the Arcanum's eternal workshop. Purify the last remaining contamination and seal the facility.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 93,
+        "reputation_required": 5520,
+        "required_quests": [
+          "fq_arc_093"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 8,
+          "description": "Silence the last Void Channelers."
+        },
+        {
+          "type": "kill",
+          "target": "TITAN_FORGE_AUTOMATON",
+          "count": 3,
+          "description": "Disable rogue Forge Automatons."
+        }
+      ],
+      "rewards": {
+        "exp": 11000,
+        "currency": 5500,
+        "crd": 2750,
+        "rep": 3500,
+        "items": [
+          {
+            "item_id": "raw_aethel_core",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_095"
+    },
+    {
+      "id": "fq_arc_095",
+      "title": "Expanse Dominion",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Cradle Expanse is now Arcanum research territory. Enforce our intellectual sovereignty with overwhelming arcane power.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 94,
+        "reputation_required": 5580,
+        "required_quests": [
+          "fq_arc_094"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 10,
+          "description": "Clear all hostiles from the Expanse."
+        },
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "description": "Destroy any residual Titan manifestations."
+        }
+      ],
+      "rewards": {
+        "exp": 13000,
+        "currency": 6500,
+        "crd": 3250,
+        "rep": 4200,
+        "items": [
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_096"
+    },
+    {
+      "id": "fq_arc_096",
+      "title": "Eternal Vigil",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "ORBITAL_SENTINEL_COMMAND",
+      "description": "From orbit, the Arcanum watches over Xylos \u2014 the planet that is now our greatest library. Maintain eternal vigilance over our domain of knowledge.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "ORBITAL_SENTINEL_COMMAND"
+      },
+      "requirements": {
+        "min_level": 95,
+        "reputation_required": 5640,
+        "required_quests": [
+          "fq_arc_095"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 10,
+          "description": "Patrol and secure orbital sectors."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "description": "Eliminate any remaining Corrupted Behemoths."
+        }
+      ],
+      "rewards": {
+        "exp": 12000,
+        "currency": 6000,
+        "crd": 3000,
+        "rep": 3800,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 10
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_097"
+    },
+    {
+      "id": "fq_arc_097",
+      "title": "The Final Formula",
+      "type": "story",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The collected knowledge from all sources forms the Final Formula \u2014 the unified theory of Xylos. Channel all accumulated Arcanum knowledge into its completion.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 96,
+        "reputation_required": 5700,
+        "required_quests": [
+          "fq_arc_096"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "description": "Defeat Jotunns resisting the Final Formula."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "description": "Destroy the Harbinger's final echo."
+        },
+        {
+          "type": "collect",
+          "target": "final_formula_component",
+          "count": 3,
+          "description": "Channel knowledge into the Final Formula."
+        }
+      ],
+      "rewards": {
+        "exp": 15000,
+        "currency": 7500,
+        "crd": 3750,
+        "rep": 5000,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_098"
+    },
+    {
+      "id": "fq_arc_098",
+      "title": "The Final Convergence",
+      "type": "story",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Only the ultimate test remains. Face the three Apex entities \u2014 Jotunn, Drake, and Harbinger \u2014 and from their essences forge the Key of Absolute Knowledge.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 97,
+        "reputation_required": 5760,
+        "required_quests": [
+          "fq_arc_097"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "description": "Defeat the Apex Jotunn."
+        },
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Defeat the Apex Drake."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "description": "Defeat the Apex Harbinger."
+        },
+        {
+          "type": "collect",
+          "target": "key_of_absolute_knowledge",
+          "count": 1,
+          "description": "Forge the Key of Absolute Knowledge."
+        }
+      ],
+      "rewards": {
+        "exp": 20000,
+        "currency": 10000,
+        "crd": 5000,
+        "rep": 7000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 3
+          },
+          {
+            "item_id": "titan_core",
+            "quantity": 3
+          },
+          {
+            "item_id": "void_core",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_099"
+    },
+    {
+      "id": "fq_arc_099",
+      "title": "Sovereign of Secrets",
+      "type": "story",
+      "rank": "S",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The deepest Void Echo Chasm holds the final secret \u2014 the truth of Xylos's creation. Descend one final time and claim the ultimate knowledge.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 98,
+        "reputation_required": 5820,
+        "required_quests": [
+          "fq_arc_098"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "VOID_ECHO_CHASM",
+          "count": 1,
+          "description": "Descend to the deepest chasm level."
+        },
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "description": "Defeat the eternal form of Gravity Titan."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "description": "Destroy the eternal form of Abyss Harbinger."
+        },
+        {
+          "type": "collect",
+          "target": "sovereign_seal",
+          "count": 1,
+          "description": "CLAIM THE SOVEREIGN SEAL OF SECRETS."
+        }
+      ],
+      "rewards": {
+        "exp": 25000,
+        "currency": 12000,
+        "crd": 6000,
+        "rep": 8000,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_arc_100"
+    },
+    {
+      "id": "fq_arc_100",
+      "title": "Eternity of Knowledge",
+      "type": "story",
+      "rank": "SS",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "OBSERVATORY_SPIRE",
+      "description": "You have done the impossible. You hold the Sovereign Seal. Return to the Observatory Spire where all of the Arcanum Seekers await. You are no longer a Seeker. You are the SOVEREIGN OF SECRETS. Knowledge is Power. Secrets are Sovereignty. Now and forever.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_scholar",
+        "name": "Scholar Elara",
+        "location": "OBSERVATORY_SPIRE"
+      },
+      "requirements": {
+        "min_level": 99,
+        "reputation_required": 5880,
+        "required_quests": [
+          "fq_arc_099"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "OBSERVATORY_SPIRE",
+          "count": 1,
+          "description": "Return to the Observatory Spire as the Sovereign of Secrets."
+        },
+        {
+          "type": "interact",
+          "target": "npc_arcanum_scholar",
+          "count": 1,
+          "description": "Receive the highest honors from High Seeker Elara."
+        }
+      ],
+      "rewards": {
+        "exp": 50000,
+        "currency": 25000,
+        "crd": 12500,
+        "rep": 10000,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 5
+          },
+          {
+            "item_id": "sovereign_seal",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false
+    }
+  ]
+}
