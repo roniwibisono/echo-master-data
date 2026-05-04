@@ -1,0 +1,5223 @@
+{
+  "quests": [
+    {
+      "id": "fq_conc_001",
+      "title": "First Assignment",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "CONCORDIUM",
+      "region": "AETHEL_GARDENS",
+      "description": "Your first assignment with The Concordium. Clear out Forest Slime disrupting supply routes through Aethel Gardens. Progress through Unity. Strength through Harmony.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "AETHEL_GARDENS"
+      },
+      "requirements": {
+        "min_level": 1,
+        "reputation_required": 0,
+        "required_quests": []
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "FOREST_SLIME",
+          "count": 5,
+          "description": "Defeat Forest Slime lurking near supply routes."
+        },
+        {
+          "type": "collect",
+          "target": "supply_token",
+          "count": 1,
+          "description": "Collect a supply token from the secured checkpoint."
+        }
+      ],
+      "rewards": {
+        "exp": 50,
+        "currency": 30,
+        "crd": 15,
+        "rep": 30,
+        "items": [
+          {
+            "item_id": "con_small_hp_cell",
+            "quantity": 3
+          },
+          {
+            "item_id": "con_small_mp_cell",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_002"
+    },
+    {
+      "id": "fq_conc_002",
+      "title": "Garden Patrol",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "CONCORDIUM",
+      "region": "AETHEL_GARDENS",
+      "description": "Patrol the perimeter of Aethel Gardens and eliminate hostile Garden Critters threatening the outpost.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "AETHEL_GARDENS"
+      },
+      "requirements": {
+        "min_level": 1,
+        "reputation_required": 0,
+        "required_quests": [
+          "fq_conc_001"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_GARDEN_CRITTER",
+          "count": 4,
+          "description": "Defeat Garden Critters along the perimeter."
+        },
+        {
+          "type": "collect",
+          "target": "patrol_report",
+          "count": 1,
+          "description": "Gather an intel report from the patrol waypoint."
+        }
+      ],
+      "rewards": {
+        "exp": 55,
+        "currency": 35,
+        "crd": 20,
+        "rep": 35,
+        "items": [
+          {
+            "item_id": "con_small_hp_cell",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_003"
+    },
+    {
+      "id": "fq_conc_003",
+      "title": "Mite Infestation",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "CONCORDIUM",
+      "region": "AETHEL_GARDENS",
+      "description": "Garden Mites have overrun the eastern grove. Eliminate them before they spread to the Nexus supply depot.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "AETHEL_GARDENS"
+      },
+      "requirements": {
+        "min_level": 2,
+        "reputation_required": 60,
+        "required_quests": [
+          "fq_conc_002"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GARDEN_MITE",
+          "count": 6,
+          "description": "Defeat Garden Mites in the eastern grove."
+        },
+        {
+          "type": "collect",
+          "target": "mite_ichor_sample",
+          "count": 3,
+          "description": "Collect Mite Ichor samples for research."
+        }
+      ],
+      "rewards": {
+        "exp": 70,
+        "currency": 40,
+        "crd": 20,
+        "rep": 40,
+        "items": [
+          {
+            "item_id": "con_repair_patch",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_004"
+    },
+    {
+      "id": "fq_conc_004",
+      "title": "Rootbound Threat",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "CONCORDIUM",
+      "region": "AETHEL_GARDENS",
+      "description": "Feral Rootlings have been strangling the aethel conduits. Cut them down and restore energy flow.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "AETHEL_GARDENS"
+      },
+      "requirements": {
+        "min_level": 3,
+        "reputation_required": 120,
+        "required_quests": [
+          "fq_conc_003"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "FERAL_ROOTLING",
+          "count": 6,
+          "description": "Defeat Feral Rootlings near the aethel conduits."
+        },
+        {
+          "type": "collect",
+          "target": "rootling_vine",
+          "count": 4,
+          "description": "Harvest Rootling Vines for the quartermaster."
+        }
+      ],
+      "rewards": {
+        "exp": 80,
+        "currency": 50,
+        "crd": 25,
+        "rep": 50,
+        "items": [
+          {
+            "item_id": "con_nutrient_ration",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_005"
+    },
+    {
+      "id": "fq_conc_005",
+      "title": "A Warrior's Identity",
+      "type": "tutorial",
+      "rank": "D",
+      "faction": "CONCORDIUM",
+      "region": "NEXUS_CORE",
+      "description": "Concordium high command has taken notice of your potential. Report to Instructor Kael at Nexus Core to choose your specialization.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_class_trainer",
+        "name": "Instructor Kael",
+        "location": "NEXUS_CORE"
+      },
+      "requirements": {
+        "min_level": 4,
+        "reputation_required": 180,
+        "required_quests": [
+          "fq_conc_004"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_concordium_class_trainer",
+          "count": 1,
+          "description": "Speak with Instructor Kael at Nexus Core."
+        },
+        {
+          "type": "interact",
+          "target": "class_change_screen",
+          "count": 1,
+          "description": "Open the class selection screen and review available classes."
+        },
+        {
+          "type": "kill",
+          "target": "MEADOW_RABID_HARE",
+          "count": 3,
+          "description": "Defeat Rabid Meadow Hares to demonstrate your training."
+        }
+      ],
+      "rewards": {
+        "exp": 400,
+        "currency": 200,
+        "crd": 100,
+        "rep": 150,
+        "items": [
+          {
+            "item_id": "wpn_iron_sword",
+            "quantity": 1
+          },
+          {
+            "item_id": "armor_guard_chainmail",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "popup": true,
+      "popup_trigger": "on_quest_complete",
+      "popup_prerequisite": "fq_conc_004",
+      "popup_level": 4,
+      "quest_chain_next": "fq_conc_006"
+    },
+    {
+      "id": "fq_conc_006",
+      "title": "Securing the Quarter",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "CONCORDIUM",
+      "region": "BROKEN_CIVIL_QUARTER",
+      "description": "Concordium expands influence into the Broken Civil Quarter. Clear Tunnel Crawlers from the main breach point.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "BROKEN_CIVIL_QUARTER"
+      },
+      "requirements": {
+        "min_level": 5,
+        "reputation_required": 240,
+        "required_quests": [
+          "fq_conc_005"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TUNNEL_CRAWLER",
+          "count": 6,
+          "description": "Defeat Tunnel Crawlers at the main breach."
+        },
+        {
+          "type": "collect",
+          "target": "faction_beacon",
+          "count": 1,
+          "description": "Plant a Concordium faction beacon at the forward post."
+        }
+      ],
+      "rewards": {
+        "exp": 100,
+        "currency": 60,
+        "crd": 30,
+        "rep": 60,
+        "items": [
+          {
+            "item_id": "mat_iron_ore",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_007"
+    },
+    {
+      "id": "fq_conc_007",
+      "title": "Scavenger Sweep",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "CONCORDIUM",
+      "region": "BROKEN_CIVIL_QUARTER",
+      "description": "Broken Quarter Scavengers loot abandoned Concordium caches. Reclaim what is ours.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "BROKEN_CIVIL_QUARTER"
+      },
+      "requirements": {
+        "min_level": 6,
+        "reputation_required": 300,
+        "required_quests": [
+          "fq_conc_006"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "BROKEN_SCAVENGER",
+          "count": 5,
+          "description": "Eliminate scavengers in the ruined sector."
+        },
+        {
+          "type": "collect",
+          "target": "salvaged_supply_crate",
+          "count": 2,
+          "description": "Recover salvaged supply crates."
+        }
+      ],
+      "rewards": {
+        "exp": 120,
+        "currency": 70,
+        "crd": 35,
+        "rep": 70,
+        "items": [
+          {
+            "item_id": "scrap_metal",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_008"
+    },
+    {
+      "id": "fq_conc_008",
+      "title": "Rat Infestation",
+      "type": "hunt",
+      "rank": "D",
+      "faction": "CONCORDIUM",
+      "region": "BROKEN_CIVIL_QUARTER",
+      "description": "The vermin have grown bold and organized. Eliminate the Civil Rat Alpha before it breeds further.",
+      "quest_giver": {
+        "npc_id": "npc_patrol_guard",
+        "name": "",
+        "location": "BROKEN_CIVIL_QUARTER"
+      },
+      "requirements": {
+        "min_level": 7,
+        "reputation_required": 360,
+        "required_quests": [
+          "fq_conc_007"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CIVIL_RAT_ALPHA",
+          "count": 1,
+          "description": "Hunt and defeat the Civil Rat Alpha."
+        },
+        {
+          "type": "kill",
+          "target": "CIVIL_SCAVENGER",
+          "count": 3,
+          "description": "Clear out nearby Civil Scavengers."
+        }
+      ],
+      "rewards": {
+        "exp": 180,
+        "currency": 100,
+        "crd": 50,
+        "rep": 100,
+        "items": [
+          {
+            "item_id": "rust_chitin",
+            "quantity": 2
+          },
+          {
+            "item_id": "con_small_hp_cell",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_009"
+    },
+    {
+      "id": "fq_conc_009",
+      "title": "Warden of Ruin",
+      "type": "boss",
+      "rank": "D",
+      "faction": "CONCORDIUM",
+      "region": "BROKEN_CIVIL_QUARTER",
+      "description": "An ancient Rusted Warden patrols the deep ruins. Disable it before it threatens the supply line.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "BROKEN_CIVIL_QUARTER"
+      },
+      "requirements": {
+        "min_level": 8,
+        "reputation_required": 420,
+        "required_quests": [
+          "fq_conc_008"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "RUSTED_WARDEN",
+          "count": 2,
+          "description": "Defeat Rusted Wardens guarding the deep ruins."
+        },
+        {
+          "type": "kill",
+          "target": "FERAL_SCAVENGER",
+          "count": 4,
+          "description": "Clear Feral Scavengers from the perimeter."
+        }
+      ],
+      "rewards": {
+        "exp": 220,
+        "currency": 120,
+        "crd": 60,
+        "rep": 120,
+        "items": [
+          {
+            "item_id": "scrap_circuit",
+            "quantity": 2
+          },
+          {
+            "item_id": "rusted_plate",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_010"
+    },
+    {
+      "id": "fq_conc_010",
+      "title": "The King Beneath",
+      "type": "boss",
+      "rank": "D",
+      "faction": "CONCORDIUM",
+      "region": "BROKEN_CIVIL_QUARTER",
+      "description": "The Slime King has emerged from the sewers beneath the Civil Quarter. End its reign before it spills into Nexus. This is your first true test.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "BROKEN_CIVIL_QUARTER"
+      },
+      "requirements": {
+        "min_level": 9,
+        "reputation_required": 480,
+        "required_quests": [
+          "fq_conc_009"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SLIME_KING",
+          "count": 1,
+          "description": "Defeat the Slime King in the underground cistern."
+        },
+        {
+          "type": "kill",
+          "target": "CIVIL_MUTANT_HOUND",
+          "count": 2,
+          "description": "Eliminate mutant hounds protecting the King."
+        }
+      ],
+      "rewards": {
+        "exp": 350,
+        "currency": 200,
+        "crd": 100,
+        "rep": 200,
+        "items": [
+          {
+            "item_id": "slime_core",
+            "quantity": 1
+          },
+          {
+            "item_id": "slime_gel",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_011"
+    },
+    {
+      "id": "fq_conc_011",
+      "title": "Cradle Reconnaissance",
+      "type": "exploration",
+      "rank": "C",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_OUTER_RING",
+      "description": "The Outer Ring of the Cradle holds ancient secrets. Scout ahead and establish a forward observation post for the Concordium.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_OUTER_RING"
+      },
+      "requirements": {
+        "min_level": 10,
+        "reputation_required": 540,
+        "required_quests": [
+          "fq_conc_010"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "CRADLE_OUTER_RING",
+          "count": 1,
+          "description": "Travel to the Cradle Outer Ring."
+        },
+        {
+          "type": "collect",
+          "target": "recon_data",
+          "count": 3,
+          "description": "Gather reconnaissance data from scanner points."
+        }
+      ],
+      "rewards": {
+        "exp": 280,
+        "currency": 150,
+        "crd": 75,
+        "rep": 150,
+        "items": [
+          {
+            "item_id": "con_minor_stim_pack",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_012"
+    },
+    {
+      "id": "fq_conc_012",
+      "title": "Anomaly Hunt",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_OUTER_RING",
+      "description": "Cradle Anomaly Wolves have been spotted near the flux rifts. Their energy signatures threaten stability.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_OUTER_RING"
+      },
+      "requirements": {
+        "min_level": 11,
+        "reputation_required": 600,
+        "required_quests": [
+          "fq_conc_011"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRADLE_ANOMALY_WOLF",
+          "count": 5,
+          "description": "Defeat Cradle Anomaly Wolves."
+        },
+        {
+          "type": "collect",
+          "target": "anomaly_essence",
+          "count": 3,
+          "description": "Collect Anomaly Essence from defeated wolves."
+        }
+      ],
+      "rewards": {
+        "exp": 320,
+        "currency": 170,
+        "crd": 85,
+        "rep": 170,
+        "items": [
+          {
+            "item_id": "dark_energy_fragment",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_013"
+    },
+    {
+      "id": "fq_conc_013",
+      "title": "Beastling Cull",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_OUTER_RING",
+      "description": "Cradle Anomaly Beastlings multiply at an alarming rate. Thin their numbers before they overrun the sector.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_OUTER_RING"
+      },
+      "requirements": {
+        "min_level": 12,
+        "reputation_required": 660,
+        "required_quests": [
+          "fq_conc_012"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRADLE_ANOMALY_BEASTLING",
+          "count": 6,
+          "description": "Defeat Cradle Anomaly Beastlings."
+        },
+        {
+          "type": "collect",
+          "target": "beastling_claw",
+          "count": 4,
+          "description": "Collect Beastling Claws for analysis."
+        }
+      ],
+      "rewards": {
+        "exp": 360,
+        "currency": 190,
+        "crd": 95,
+        "rep": 200,
+        "items": [
+          {
+            "item_id": "animal_fang",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_014"
+    },
+    {
+      "id": "fq_conc_014",
+      "title": "Fragment Beast",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_OUTER_RING",
+      "description": "Cradle Fragment Beasts possess unstable energy signatures. Destroy them and contain their cores before detonation.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_OUTER_RING"
+      },
+      "requirements": {
+        "min_level": 13,
+        "reputation_required": 720,
+        "required_quests": [
+          "fq_conc_013"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRADLE_FRAGMENT_BEAST",
+          "count": 5,
+          "description": "Defeat Cradle Fragment Beasts."
+        },
+        {
+          "type": "collect",
+          "target": "fragment_core",
+          "count": 3,
+          "description": "Secure Fragment Cores from defeated beasts."
+        }
+      ],
+      "rewards": {
+        "exp": 400,
+        "currency": 210,
+        "crd": 105,
+        "rep": 220,
+        "items": [
+          {
+            "item_id": "core_fragment",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_015"
+    },
+    {
+      "id": "fq_conc_015",
+      "title": "First Resonance",
+      "type": "boss",
+      "rank": "C",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_OUTER_RING",
+      "description": "Resonance Bats have been swarming the comm arrays. These creatures disrupt Concordium communications. Silence them.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_OUTER_RING"
+      },
+      "requirements": {
+        "min_level": 14,
+        "reputation_required": 780,
+        "required_quests": [
+          "fq_conc_014"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "RESONANCE_BAT",
+          "count": 8,
+          "description": "Defeat Resonance Bats near the comm array."
+        },
+        {
+          "type": "kill",
+          "target": "RESONANCE_GOLEM",
+          "count": 2,
+          "description": "Destroy Resonance Golems guarding the nest."
+        }
+      ],
+      "rewards": {
+        "exp": 500,
+        "currency": 280,
+        "crd": 140,
+        "rep": 300,
+        "items": [
+          {
+            "item_id": "psionic_resonator",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_016"
+    },
+    {
+      "id": "fq_conc_016",
+      "title": "Intel from the Ring",
+      "type": "collect",
+      "rank": "C",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_OUTER_RING",
+      "description": "Recover tactical data from fallen Concordium scouts in the Outer Ring. Their sacrifice must not be in vain.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_OUTER_RING"
+      },
+      "requirements": {
+        "min_level": 15,
+        "reputation_required": 840,
+        "required_quests": [
+          "fq_conc_015"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "tactical_data_slate",
+          "count": 3,
+          "description": "Recover Tactical Data Slates from fallen scouts."
+        },
+        {
+          "type": "kill",
+          "target": "CRADLE_ANOMALY_WOLF",
+          "count": 4,
+          "description": "Defeat any hostiles guarding the scout sites."
+        }
+      ],
+      "rewards": {
+        "exp": 430,
+        "currency": 230,
+        "crd": 115,
+        "rep": 230,
+        "items": [
+          {
+            "item_id": "memory_fragment_chip",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_017"
+    },
+    {
+      "id": "fq_conc_017",
+      "title": "Breach Containment",
+      "type": "hunt",
+      "rank": "C",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_OUTER_RING",
+      "description": "A void breach has been detected in the Outer Ring. Contain the surge and eliminate any spawned anomalies.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_OUTER_RING"
+      },
+      "requirements": {
+        "min_level": 16,
+        "reputation_required": 900,
+        "required_quests": [
+          "fq_conc_016"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRADLE_FRAGMENT_BEAST",
+          "count": 6,
+          "description": "Destroy Fragment Beasts near the breach."
+        },
+        {
+          "type": "collect",
+          "target": "void_breach_shard",
+          "count": 2,
+          "description": "Seal the void breach and collect residual shards."
+        }
+      ],
+      "rewards": {
+        "exp": 480,
+        "currency": 260,
+        "crd": 130,
+        "rep": 260,
+        "items": [
+          {
+            "item_id": "void_fragment",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_018"
+    },
+    {
+      "id": "fq_conc_018",
+      "title": "Echo Chamber",
+      "type": "boss",
+      "rank": "C",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_OUTER_RING",
+      "description": "Resonance Golems have established a nest in the deep Outer Ring. Destroy them to prevent permanent signal corruption.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_OUTER_RING"
+      },
+      "requirements": {
+        "min_level": 17,
+        "reputation_required": 960,
+        "required_quests": [
+          "fq_conc_017"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "RESONANCE_GOLEM",
+          "count": 3,
+          "description": "Defeat Resonance Golems in the deep chambers."
+        },
+        {
+          "type": "kill",
+          "target": "RESONANCE_BAT",
+          "count": 6,
+          "description": "Clear out the surrounding bat swarm."
+        }
+      ],
+      "rewards": {
+        "exp": 550,
+        "currency": 300,
+        "crd": 150,
+        "rep": 320,
+        "items": [
+          {
+            "item_id": "cognitive_relay_node",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_019"
+    },
+    {
+      "id": "fq_conc_019",
+      "title": "The Advance",
+      "type": "boss",
+      "rank": "C",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_OUTER_RING",
+      "description": "The Resonance Echo has materialized. This entity is the source of all signal disruption. Defeat it to prove your worth as a Concordium elite.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_OUTER_RING"
+      },
+      "requirements": {
+        "min_level": 18,
+        "reputation_required": 1020,
+        "required_quests": [
+          "fq_conc_018"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "RESONANCE_ECHO",
+          "count": 1,
+          "description": "Defeat the Resonance Echo at the resonance chamber."
+        },
+        {
+          "type": "kill",
+          "target": "CRADLE_FRAGMENT_BEAST",
+          "count": 4,
+          "description": "Clear remaining Fragment Beasts from the area."
+        }
+      ],
+      "rewards": {
+        "exp": 800,
+        "currency": 450,
+        "crd": 225,
+        "rep": 450,
+        "items": [
+          {
+            "item_id": "entropy_core",
+            "quantity": 1
+          },
+          {
+            "item_id": "con_medium_hp_cell",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_020"
+    },
+    {
+      "id": "fq_conc_020",
+      "title": "Cradle Mastery",
+      "type": "story",
+      "rank": "C",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_OUTER_RING",
+      "description": "You have proven yourself in the Outer Ring. Complete a final sweep and prepare for Advanced Class evaluation.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_OUTER_RING"
+      },
+      "requirements": {
+        "min_level": 19,
+        "reputation_required": 1080,
+        "required_quests": [
+          "fq_conc_019"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRADLE_ANOMALY_BEASTLING",
+          "count": 5,
+          "description": "Final sweep: defeat remaining Beastlings."
+        },
+        {
+          "type": "kill",
+          "target": "RESONANCE_BAT",
+          "count": 5,
+          "description": "Final sweep: eliminate remaining Resonance Bats."
+        },
+        {
+          "type": "collect",
+          "target": "advanced_class_badge",
+          "count": 1,
+          "description": "Report to the quartermaster for your evaluation badge."
+        }
+      ],
+      "rewards": {
+        "exp": 900,
+        "currency": 500,
+        "crd": 250,
+        "rep": 500,
+        "items": [
+          {
+            "item_id": "con_medium_hp_cell",
+            "quantity": 5
+          },
+          {
+            "item_id": "con_medium_mp_cell",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_021"
+    },
+    {
+      "id": "fq_conc_021",
+      "title": "Deep Incursion",
+      "type": "exploration",
+      "rank": "B",
+      "faction": "CONCORDIUM",
+      "region": "INNER_CRADLE_EXCLUSION",
+      "description": "Push deeper into the Inner Cradle Exclusion. Intel suggests powerful ancient technology lies dormant within.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "INNER_CRADLE_EXCLUSION"
+      },
+      "requirements": {
+        "min_level": 20,
+        "reputation_required": 1140,
+        "required_quests": [
+          "fq_conc_020"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "INNER_CRADLE_EXCLUSION",
+          "count": 1,
+          "description": "Enter the Inner Cradle Exclusion zone."
+        },
+        {
+          "type": "collect",
+          "target": "exclusion_intel",
+          "count": 2,
+          "description": "Gather intel from the exclusion perimeter."
+        }
+      ],
+      "rewards": {
+        "exp": 600,
+        "currency": 350,
+        "crd": 175,
+        "rep": 350,
+        "items": [
+          {
+            "item_id": "con_nutrient_ration",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_022"
+    },
+    {
+      "id": "fq_conc_022",
+      "title": "Mutant Strain",
+      "type": "hunt",
+      "rank": "B",
+      "faction": "CONCORDIUM",
+      "region": "INNER_CRADLE_EXCLUSION",
+      "description": "Inner Cradle Mutants exposed to raw aethel show extreme aggression. Eliminate the threat and take tissue samples.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "INNER_CRADLE_EXCLUSION"
+      },
+      "requirements": {
+        "min_level": 21,
+        "reputation_required": 1200,
+        "required_quests": [
+          "fq_conc_021"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "INNER_CRADLE_MUTANT",
+          "count": 6,
+          "description": "Defeat Inner Cradle Mutants."
+        },
+        {
+          "type": "collect",
+          "target": "mutant_tissue",
+          "count": 3,
+          "description": "Collect Mutant Tissue samples for the biologis."
+        }
+      ],
+      "rewards": {
+        "exp": 650,
+        "currency": 380,
+        "crd": 190,
+        "rep": 380,
+        "items": [
+          {
+            "item_id": "mutagen_catalyst",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_023"
+    },
+    {
+      "id": "fq_conc_023",
+      "title": "Behemoth Rising",
+      "type": "boss",
+      "rank": "B",
+      "faction": "CONCORDIUM",
+      "region": "INNER_CRADLE_EXCLUSION",
+      "description": "An Inner Cradle Behemoth has been spotted in the deep exclusion. This threat must be neutralized immediately.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "INNER_CRADLE_EXCLUSION"
+      },
+      "requirements": {
+        "min_level": 22,
+        "reputation_required": 1260,
+        "required_quests": [
+          "fq_conc_022"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "INNER_CRADLE_BEHEMOTH",
+          "count": 1,
+          "description": "Defeat the Inner Cradle Behemoth."
+        },
+        {
+          "type": "kill",
+          "target": "INNER_CRADLE_MUTANT",
+          "count": 4,
+          "description": "Clear out mutant escorts protecting the Behemoth."
+        }
+      ],
+      "rewards": {
+        "exp": 750,
+        "currency": 420,
+        "crd": 210,
+        "rep": 450,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_024"
+    },
+    {
+      "id": "fq_conc_024",
+      "title": "Sentinel Protocol",
+      "type": "hunt",
+      "rank": "B",
+      "faction": "CONCORDIUM",
+      "region": "INNER_CRADLE_EXCLUSION",
+      "description": "Cradle Sentinels guard the ancient Cradle gates. They must be disabled for Concordium to advance.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "INNER_CRADLE_EXCLUSION"
+      },
+      "requirements": {
+        "min_level": 23,
+        "reputation_required": 1320,
+        "required_quests": [
+          "fq_conc_023"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRADLE_SENTINEL",
+          "count": 4,
+          "description": "Disable Cradle Sentinels at the ancient gate."
+        },
+        {
+          "type": "collect",
+          "target": "sentinel_core",
+          "count": 2,
+          "description": "Salvage Sentinel Cores for the tech division."
+        }
+      ],
+      "rewards": {
+        "exp": 700,
+        "currency": 400,
+        "crd": 200,
+        "rep": 400,
+        "items": [
+          {
+            "item_id": "damaged_servo_motor",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_025"
+    },
+    {
+      "id": "fq_conc_025",
+      "title": "Void Stalker",
+      "type": "boss",
+      "rank": "B",
+      "faction": "CONCORDIUM",
+      "region": "INNER_CRADLE_EXCLUSION",
+      "description": "A Cradle Void Stalker has been hunting Concordium operatives in the Exclusion. Track it and eliminate the threat.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "INNER_CRADLE_EXCLUSION"
+      },
+      "requirements": {
+        "min_level": 24,
+        "reputation_required": 1380,
+        "required_quests": [
+          "fq_conc_024"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRADLE_VOID_STALKER",
+          "count": 2,
+          "description": "Hunt and defeat Cradle Void Stalkers."
+        },
+        {
+          "type": "collect",
+          "target": "void_stalker_essence",
+          "count": 1,
+          "description": "Extract the Stalker's essence core for study."
+        }
+      ],
+      "rewards": {
+        "exp": 780,
+        "currency": 440,
+        "crd": 220,
+        "rep": 470,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_026"
+    },
+    {
+      "id": "fq_conc_026",
+      "title": "Titanling Threat",
+      "type": "boss",
+      "rank": "B",
+      "faction": "CONCORDIUM",
+      "region": "INNER_CRADLE_EXCLUSION",
+      "description": "Cradle Void Titanlings are immature but dangerous. Stop them before they mature into true Titans.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "INNER_CRADLE_EXCLUSION"
+      },
+      "requirements": {
+        "min_level": 25,
+        "reputation_required": 1440,
+        "required_quests": [
+          "fq_conc_025"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRADLE_VOID_TITANLING",
+          "count": 3,
+          "description": "Defeat Cradle Void Titanlings."
+        },
+        {
+          "type": "kill",
+          "target": "CRADLE_SENTINEL",
+          "count": 2,
+          "description": "Clear Sentinel guards from the Titanling nest."
+        }
+      ],
+      "rewards": {
+        "exp": 850,
+        "currency": 480,
+        "crd": 240,
+        "rep": 500,
+        "items": [
+          {
+            "item_id": "void_crystal_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_027"
+    },
+    {
+      "id": "fq_conc_027",
+      "title": "Into the Expanse",
+      "type": "exploration",
+      "rank": "B",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Cradle Expanse is a contested zone between factions. Concordium needs forward positions. Move in and establish control.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 26,
+        "reputation_required": 1500,
+        "required_quests": [
+          "fq_conc_026"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "CRADLE_EXPANSE",
+          "count": 1,
+          "description": "Enter the Cradle Expanse conflict zone."
+        },
+        {
+          "type": "collect",
+          "target": "expanse_survey_data",
+          "count": 2,
+          "description": "Survey and map the Expanse territory."
+        }
+      ],
+      "rewards": {
+        "exp": 700,
+        "currency": 400,
+        "crd": 200,
+        "rep": 400,
+        "items": [
+          {
+            "item_id": "con_nutrient_ration",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_028"
+    },
+    {
+      "id": "fq_conc_028",
+      "title": "Expanse Patrol",
+      "type": "hunt",
+      "rank": "B",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_EXPANSE",
+      "description": "Aethel Rift Stalkers prowl the Expanse threatening all faction operations. Clear them out systematically.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 27,
+        "reputation_required": 1560,
+        "required_quests": [
+          "fq_conc_027"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 6,
+          "description": "Defeat Aethel Rift Stalkers in the Expanse."
+        },
+        {
+          "type": "collect",
+          "target": "rift_energy_sample",
+          "count": 2,
+          "description": "Collect rift energy samples for analysis."
+        }
+      ],
+      "rewards": {
+        "exp": 750,
+        "currency": 430,
+        "crd": 215,
+        "rep": 430,
+        "items": [
+          {
+            "item_id": "dark_energy_fragment",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_029"
+    },
+    {
+      "id": "fq_conc_029",
+      "title": "Behemoth Purge",
+      "type": "boss",
+      "rank": "B",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_EXPANSE",
+      "description": "Aethel Behemoths roam the Expanse. These elite creatures cannot be allowed to threaten Concordium supply lines.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 28,
+        "reputation_required": 1620,
+        "required_quests": [
+          "fq_conc_028"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_BEHEMOTH",
+          "count": 2,
+          "description": "Defeat Aethel Behemoths in the Expanse."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 4,
+          "description": "Clear Rift Stalkers from the hunting ground."
+        }
+      ],
+      "rewards": {
+        "exp": 900,
+        "currency": 520,
+        "crd": 260,
+        "rep": 520,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_030"
+    },
+    {
+      "id": "fq_conc_030",
+      "title": "The Ascension",
+      "type": "story",
+      "rank": "B",
+      "faction": "CONCORDIUM",
+      "region": "NEXUS_CORE",
+      "description": "You have reached the Advanced threshold. Return to Instructor Kael at Nexus Core for your Ascension trial.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_class_trainer",
+        "name": "Instructor Kael",
+        "location": "NEXUS_CORE"
+      },
+      "requirements": {
+        "min_level": 29,
+        "reputation_required": 1680,
+        "required_quests": [
+          "fq_conc_029"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_concordium_class_trainer",
+          "count": 1,
+          "description": "Report to Instructor Kael for Ascension evaluation."
+        },
+        {
+          "type": "kill",
+          "target": "RESONANCE_ECHO",
+          "count": 1,
+          "description": "Defeat the Resonance Echo to prove your growth."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_BEHEMOTH",
+          "count": 1,
+          "description": "Hunt an Aethel Behemoth as your final trial."
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 1200,
+        "crd": 600,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 2
+          },
+          {
+            "item_id": "astral_phase_crystal_pure",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "popup": true,
+      "popup_trigger": "on_quest_complete",
+      "popup_prerequisite": "fq_conc_029",
+      "popup_level": 29,
+      "quest_chain_next": "fq_conc_031"
+    },
+    {
+      "id": "fq_conc_031",
+      "title": "Orbital Sovereignty",
+      "type": "exploration",
+      "rank": "A",
+      "faction": "CONCORDIUM",
+      "region": "ORBITAL_SENTINEL_COMMAND",
+      "description": "Concordium high command summons you to the Orbital Sentinel Command. The faction wars have escalated to a new phase.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "ORBITAL_SENTINEL_COMMAND"
+      },
+      "requirements": {
+        "min_level": 30,
+        "reputation_required": 1740,
+        "required_quests": [
+          "fq_conc_030"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "ORBITAL_SENTINEL_COMMAND",
+          "count": 1,
+          "description": "Report to Orbital Sentinel Command."
+        },
+        {
+          "type": "collect",
+          "target": "orbital_briefing",
+          "count": 1,
+          "description": "Receive your orbital operations briefing."
+        }
+      ],
+      "rewards": {
+        "exp": 900,
+        "currency": 500,
+        "crd": 250,
+        "rep": 500,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_032"
+    },
+    {
+      "id": "fq_conc_032",
+      "title": "Iron Carapace",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_EXPANSE",
+      "description": "Aethel Iron Carapaces threaten orbital supply lanes. Destroy them to keep the lanes open for Concordium logistics.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 31,
+        "reputation_required": 1800,
+        "required_quests": [
+          "fq_conc_031"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 6,
+          "description": "Defeat Aethel Iron Carapaces near supply lanes."
+        },
+        {
+          "type": "collect",
+          "target": "iron_carapace_plate",
+          "count": 3,
+          "description": "Harvest Iron Carapace plates for armor forging."
+        }
+      ],
+      "rewards": {
+        "exp": 1000,
+        "currency": 550,
+        "crd": 275,
+        "rep": 550,
+        "items": [
+          {
+            "item_id": "rusted_plate",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_033"
+    },
+    {
+      "id": "fq_conc_033",
+      "title": "Corrupted Behemoth",
+      "type": "boss",
+      "rank": "A",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_EXPANSE",
+      "description": "An Aethel Corrupted Behemoth rampages near the orbital tether. End its destruction before the tether is severed.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 32,
+        "reputation_required": 1860,
+        "required_quests": [
+          "fq_conc_032"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 2,
+          "description": "Defeat Corrupted Behemoths near the orbital tether."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 3,
+          "description": "Clear Carapace escorts protecting the Behemoth."
+        }
+      ],
+      "rewards": {
+        "exp": 1200,
+        "currency": 650,
+        "crd": 325,
+        "rep": 650,
+        "items": [
+          {
+            "item_id": "aethel_fragment",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_034"
+    },
+    {
+      "id": "fq_conc_034",
+      "title": "Void Channeler",
+      "type": "boss",
+      "rank": "A",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_EXPANSE",
+      "description": "Aethel Void Channelers draw void energy into the Expanse. Shut down their rituals before a cataclysm occurs.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 33,
+        "reputation_required": 1920,
+        "required_quests": [
+          "fq_conc_033"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 4,
+          "description": "Defeat Aethel Void Channelers at the ritual sites."
+        },
+        {
+          "type": "collect",
+          "target": "void_channel_focus",
+          "count": 2,
+          "description": "Seize the Void Channel Focus crystals."
+        }
+      ],
+      "rewards": {
+        "exp": 1400,
+        "currency": 750,
+        "crd": 375,
+        "rep": 750,
+        "items": [
+          {
+            "item_id": "void_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_035"
+    },
+    {
+      "id": "fq_conc_035",
+      "title": "The Deep Hunt",
+      "type": "boss",
+      "rank": "A",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_EXPANSE",
+      "description": "Aethel Abyssal Reavers have emerged \u2014 the vanguard of something far worse. Hunt them and collect intelligence.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 34,
+        "reputation_required": 1980,
+        "required_quests": [
+          "fq_conc_034"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 3,
+          "description": "Defeat Aethel Abyssal Reavers in the Expanse."
+        },
+        {
+          "type": "collect",
+          "target": "abyssal_invocation_stone",
+          "count": 1,
+          "description": "Recover an Abyssal Invocation Stone for analysis."
+        }
+      ],
+      "rewards": {
+        "exp": 1600,
+        "currency": 850,
+        "crd": 425,
+        "rep": 850,
+        "items": [
+          {
+            "item_id": "event_horizon_fragment",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_036"
+    },
+    {
+      "id": "fq_conc_036",
+      "title": "Orbital Defense",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "CONCORDIUM",
+      "region": "ORBITAL_SENTINEL_COMMAND",
+      "description": "Rival factions are probing Concordium's orbital defenses. Repel all intruders in the command sector with extreme prejudice.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "ORBITAL_SENTINEL_COMMAND"
+      },
+      "requirements": {
+        "min_level": 35,
+        "reputation_required": 2040,
+        "required_quests": [
+          "fq_conc_035"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 6,
+          "description": "Repel intruder forces in the orbital sector."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 3,
+          "description": "Neutralize hostile Void Channelers attempting orbital breach."
+        }
+      ],
+      "rewards": {
+        "exp": 1500,
+        "currency": 800,
+        "crd": 400,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_037"
+    },
+    {
+      "id": "fq_conc_037",
+      "title": "Dragon's Shadow",
+      "type": "boss",
+      "rank": "A",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_EXPANSE",
+      "description": "Reports confirm: the legendary Ashen Drake hunts in the Expanse. It is the apex predator of this sector. Engage with extreme caution \u2014 survival is the primary objective.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 36,
+        "reputation_required": 2100,
+        "required_quests": [
+          "fq_conc_036"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Confront and survive against the Ashen Drake."
+        },
+        {
+          "type": "collect",
+          "target": "drake_scale_sample",
+          "count": 1,
+          "description": "Recover a fallen Drake scale for high command."
+        }
+      ],
+      "rewards": {
+        "exp": 3000,
+        "currency": 1500,
+        "crd": 750,
+        "rep": 1000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 1
+          },
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_038"
+    },
+    {
+      "id": "fq_conc_038",
+      "title": "Sentinel Command Purge",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "CONCORDIUM",
+      "region": "ORBITAL_SENTINEL_COMMAND",
+      "description": "Enemy infiltrators use orbital debris as cover. Sweep the entire command sector clean.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "ORBITAL_SENTINEL_COMMAND"
+      },
+      "requirements": {
+        "min_level": 37,
+        "reputation_required": 2160,
+        "required_quests": [
+          "fq_conc_037"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 5,
+          "description": "Clean out Carapace infiltrators from orbital sector."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 1,
+          "description": "Eliminate the Corrupted Behemoth leading the infiltration."
+        }
+      ],
+      "rewards": {
+        "exp": 1700,
+        "currency": 900,
+        "crd": 450,
+        "rep": 900,
+        "items": [
+          {
+            "item_id": "stabilizer_gyro_unit",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_039"
+    },
+    {
+      "id": "fq_conc_039",
+      "title": "Abyssal Tide",
+      "type": "boss",
+      "rank": "A",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_EXPANSE",
+      "description": "Multiple Abyssal Reavers converge on the Expanse in a coordinated assault. Break their formation before they reach Command.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 38,
+        "reputation_required": 2220,
+        "required_quests": [
+          "fq_conc_038"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Defeat the Abyssal Reaver assault force."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 3,
+          "description": "Silence the summoning Channelers fueling the assault."
+        }
+      ],
+      "rewards": {
+        "exp": 2000,
+        "currency": 1100,
+        "crd": 550,
+        "rep": 1100,
+        "items": [
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_040"
+    },
+    {
+      "id": "fq_conc_040",
+      "title": "The Master Ascension",
+      "type": "story",
+      "rank": "A",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_EXPANSE",
+      "description": "The final trial for Master rank. Defeat the Ashen Drake and two elite entities to unlock the full potential of your power. Concordium expects nothing less than absolute victory.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 39,
+        "reputation_required": 2280,
+        "required_quests": [
+          "fq_conc_039"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Hunt and defeat the Ashen Drake in the Expanse."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_BEHEMOTH",
+          "count": 1,
+          "description": "Defeat an Aethel Behemoth as your strength trial."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 1,
+          "description": "Slay an Aethel Abyssal Reaver as your resolve trial."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 1
+          },
+          {
+            "item_id": "void_core",
+            "quantity": 2
+          },
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_041"
+    },
+    {
+      "id": "fq_conc_041",
+      "title": "Into the Chasm",
+      "type": "exploration",
+      "rank": "A",
+      "faction": "CONCORDIUM",
+      "region": "VOID_ECHO_CHASM",
+      "description": "You descend into the Void Echo Chasm \u2014 a realm where reality frays at the edges. Concordium suspects ancient relics and a growing threat lie within.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 40,
+        "reputation_required": 2340,
+        "required_quests": [
+          "fq_conc_040"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "VOID_ECHO_CHASM",
+          "count": 1,
+          "description": "Enter the Void Echo Chasm."
+        },
+        {
+          "type": "collect",
+          "target": "ancient_relic",
+          "count": 2,
+          "description": "Retrieve ancient relics from the chasm depths."
+        }
+      ],
+      "rewards": {
+        "exp": 1800,
+        "currency": 900,
+        "crd": 450,
+        "rep": 600,
+        "items": [
+          {
+            "item_id": "void_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_042"
+    },
+    {
+      "id": "fq_conc_042",
+      "title": "Void Reaver Hunt",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "CONCORDIUM",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Void Reavers \u2014 twisted entities born from the void \u2014 infest the upper chasm. Purge them with Concordium fury.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 41,
+        "reputation_required": 2400,
+        "required_quests": [
+          "fq_conc_041"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 5,
+          "description": "Defeat Void Reavers in the upper chasm."
+        },
+        {
+          "type": "collect",
+          "target": "void_reaver_essence",
+          "count": 2,
+          "description": "Collect Void Reaver essence for containment."
+        }
+      ],
+      "rewards": {
+        "exp": 1900,
+        "currency": 950,
+        "crd": 475,
+        "rep": 650,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_043"
+    },
+    {
+      "id": "fq_conc_043",
+      "title": "Harbinger Signs",
+      "type": "story",
+      "rank": "A",
+      "faction": "CONCORDIUM",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Strange energies pulse from the deepest chasm. Investigate the source \u2014 these match ancient records of the Abyss Harbinger.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 42,
+        "reputation_required": 2460,
+        "required_quests": [
+          "fq_conc_042"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 6,
+          "description": "Defeat Void Channelers performing dark rituals."
+        },
+        {
+          "type": "collect",
+          "target": "harbinger_sigil_fragment",
+          "count": 3,
+          "description": "Collect fragments of Harbinger sigils."
+        }
+      ],
+      "rewards": {
+        "exp": 2100,
+        "currency": 1050,
+        "crd": 525,
+        "rep": 700,
+        "items": [
+          {
+            "item_id": "event_horizon_fragment",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_044"
+    },
+    {
+      "id": "fq_conc_044",
+      "title": "Abyssal Ambush",
+      "type": "hunt",
+      "rank": "A",
+      "faction": "CONCORDIUM",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Aethel Abyssal Reavers have infiltrated the chasm. They are the Harbinger's eyes. Leave none standing.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 43,
+        "reputation_required": 2520,
+        "required_quests": [
+          "fq_conc_043"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Defeat Abyssal Reavers in the chasm."
+        },
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 3,
+          "description": "Clear out Void Reaver patrols."
+        }
+      ],
+      "rewards": {
+        "exp": 2200,
+        "currency": 1100,
+        "crd": 550,
+        "rep": 750,
+        "items": [
+          {
+            "item_id": "void_crystal_shard",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_045"
+    },
+    {
+      "id": "fq_conc_045",
+      "title": "Corrupted Depths",
+      "type": "boss",
+      "rank": "A",
+      "faction": "CONCORDIUM",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Aethel Corrupted Behemoths guard the path deeper into the chasm. These creatures have been twisted beyond recognition.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 44,
+        "reputation_required": 2580,
+        "required_quests": [
+          "fq_conc_044"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "description": "Defeat Corrupted Behemoths in the chasm depths."
+        },
+        {
+          "type": "collect",
+          "target": "corrupted_core",
+          "count": 1,
+          "description": "Extract a purified Corrupted Core for study."
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 1300,
+        "crd": 650,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "corrupted_synapse_cluster",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_046"
+    },
+    {
+      "id": "fq_conc_046",
+      "title": "Echoes of the Past",
+      "type": "story",
+      "rank": "A",
+      "faction": "CONCORDIUM",
+      "region": "VOID_ECHO_CHASM",
+      "description": "You discover ancient Concordium logs deep in the chasm. Recover them \u2014 they may contain the key to stopping the Harbinger.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 45,
+        "reputation_required": 2640,
+        "required_quests": [
+          "fq_conc_045"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "ancient_concordium_log",
+          "count": 3,
+          "description": "Recover ancient Concordium data logs."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 4,
+          "description": "Defeat Channelers protecting the log sites."
+        }
+      ],
+      "rewards": {
+        "exp": 2400,
+        "currency": 1200,
+        "crd": 600,
+        "rep": 780,
+        "items": [
+          {
+            "item_id": "memory_fragment_chip",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_047"
+    },
+    {
+      "id": "fq_conc_047",
+      "title": "Jotunn's Gate",
+      "type": "boss",
+      "rank": "A",
+      "faction": "CONCORDIUM",
+      "region": "VOID_ECHO_CHASM",
+      "description": "A Gigantic Jotunn guards an ancient gate within the chasm. This creature must fall for the Concordium to proceed deeper.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 46,
+        "reputation_required": 2700,
+        "required_quests": [
+          "fq_conc_046"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "description": "Defeat the Gigantic Jotunn at the chasm gate."
+        },
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 4,
+          "description": "Clear Void Reavers from the gate area."
+        }
+      ],
+      "rewards": {
+        "exp": 3500,
+        "currency": 1800,
+        "crd": 900,
+        "rep": 1000,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 1
+          },
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_048"
+    },
+    {
+      "id": "fq_conc_048",
+      "title": "The Tyrant's Domain",
+      "type": "boss",
+      "rank": "A",
+      "faction": "CONCORDIUM",
+      "region": "VOID_ECHO_CHASM",
+      "description": "A Crystal Tyrant has claimed territory in the chasm. Its crystal shell deflects conventional weaponry. Find its weakness.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 47,
+        "reputation_required": 2760,
+        "required_quests": [
+          "fq_conc_047"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 1,
+          "description": "Defeat the Crystal Tyrant in the chasm."
+        },
+        {
+          "type": "collect",
+          "target": "tyrant_crystal_shard",
+          "count": 1,
+          "description": "Collect a Tyrant Crystal Shard for weapons research."
+        }
+      ],
+      "rewards": {
+        "exp": 3800,
+        "currency": 1900,
+        "crd": 950,
+        "rep": 1100,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_049"
+    },
+    {
+      "id": "fq_conc_049",
+      "title": "Heart of Darkness",
+      "type": "exploration",
+      "rank": "A",
+      "faction": "CONCORDIUM",
+      "region": "SHATTERED_HEART",
+      "description": "The Void Echo Chasm opens into the Shattered Heart \u2014 the epicenter of void corruption on Xylos. Establish a forward base here.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 48,
+        "reputation_required": 2820,
+        "required_quests": [
+          "fq_conc_048"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SHATTERED_HEART",
+          "count": 1,
+          "description": "Enter the Shattered Heart."
+        },
+        {
+          "type": "collect",
+          "target": "heart_survey_data",
+          "count": 2,
+          "description": "Survey the Shattered Heart for base establishment."
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 1300,
+        "crd": 650,
+        "rep": 800,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_050"
+    },
+    {
+      "id": "fq_conc_050",
+      "title": "The Drake's Domain",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "SHATTERED_HEART",
+      "description": "The Ashen Drake rules the Shattered Heart. Its draconic fire melts reality itself. This is your Raid Tier-1 trial. Victory will cement your legend.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 49,
+        "reputation_required": 2880,
+        "required_quests": [
+          "fq_conc_049"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Face the Ashen Drake in its lair."
+        },
+        {
+          "type": "kill",
+          "target": "DRAKE_MINION",
+          "count": 5,
+          "description": "Clear Drake Minions from the lair."
+        },
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "description": "Defeat the Gigantic Jotunn guardian at the lair entrance."
+        }
+      ],
+      "rewards": {
+        "exp": 8000,
+        "currency": 4000,
+        "crd": 2000,
+        "rep": 2500,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 2
+          },
+          {
+            "item_id": "ancient_scale",
+            "quantity": 1
+          },
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_051"
+    },
+    {
+      "id": "fq_conc_051",
+      "title": "Soul Fragmenter",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The Soul Fragmenter \u2014 a void entity that tears apart consciousness itself \u2014 has been detected. Engage before it can multiply.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 50,
+        "reputation_required": 2940,
+        "required_quests": [
+          "fq_conc_050"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SOUL_FRAGMENTER",
+          "count": 1,
+          "description": "Defeat the Soul Fragmenter."
+        },
+        {
+          "type": "collect",
+          "target": "fragmented_soul_essence",
+          "count": 1,
+          "description": "Contain the Fragmented Soul Essence."
+        }
+      ],
+      "rewards": {
+        "exp": 6000,
+        "currency": 3000,
+        "crd": 1500,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "memory_fragment_chip",
+            "quantity": 5
+          },
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_052"
+    },
+    {
+      "id": "fq_conc_052",
+      "title": "Void Dominance",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "VOID_ECHO_CHASM",
+      "description": "With the Soul Fragmenter destroyed, Concordium initiates Operation Void Dominance. Clear all remaining void signatures from the chasm.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 51,
+        "reputation_required": 3000,
+        "required_quests": [
+          "fq_conc_051"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 8,
+          "description": "Exterminate Void Reavers across the chasm."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 5,
+          "description": "Silence all remaining Void Channelers."
+        }
+      ],
+      "rewards": {
+        "exp": 4500,
+        "currency": 2200,
+        "crd": 1100,
+        "rep": 1500,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_053"
+    },
+    {
+      "id": "fq_conc_053",
+      "title": "Stalker in the Void",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "VOID_ECHO_CHASM",
+      "description": "A Void Stalker \u2014 the most cunning of void predators \u2014 hunts our forces. It cannot be allowed to continue. Hunt the hunter.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 52,
+        "reputation_required": 3060,
+        "required_quests": [
+          "fq_conc_052"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "VOID_STALKER",
+          "count": 1,
+          "description": "Track and defeat the Void Stalker."
+        },
+        {
+          "type": "collect",
+          "target": "void_stalker_mark",
+          "count": 1,
+          "description": "Claim the Void Stalker's mark as proof."
+        }
+      ],
+      "rewards": {
+        "exp": 5500,
+        "currency": 2800,
+        "crd": 1400,
+        "rep": 1800,
+        "items": [
+          {
+            "item_id": "entropy_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_054"
+    },
+    {
+      "id": "fq_conc_054",
+      "title": "Chrono Distortion",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Chrono Wraiths are tearing holes in the fabric of time within the chasm. Each Wraith threatens to create a permanent temporal rift.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 53,
+        "reputation_required": 3120,
+        "required_quests": [
+          "fq_conc_053"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CHRONO_WRAITH",
+          "count": 2,
+          "description": "Banish the Chrono Wraiths from the time rifts."
+        },
+        {
+          "type": "collect",
+          "target": "chrono_stabilizer",
+          "count": 1,
+          "description": "Deploy temporal stabilizers at the rift points."
+        }
+      ],
+      "rewards": {
+        "exp": 6500,
+        "currency": 3200,
+        "crd": 1600,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_055"
+    },
+    {
+      "id": "fq_conc_055",
+      "title": "Reaver Tide",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "SHATTERED_HEART",
+      "description": "Abyssal Reavers flood from the Shattered Heart in waves. Hold the line. Not a single Reaver can reach the surface.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 54,
+        "reputation_required": 3180,
+        "required_quests": [
+          "fq_conc_054"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 10,
+          "description": "Slaughter Abyssal Reavers at the breach point."
+        },
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 6,
+          "description": "Eliminate Void Reavers flanking the main assault."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 1700,
+        "items": [
+          {
+            "item_id": "event_horizon_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_056"
+    },
+    {
+      "id": "fq_conc_056",
+      "title": "Jotunn Purge",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "SHATTERED_HEART",
+      "description": "Multiple Gigantic Jotunns are converging on a critical Concordium position. These ancient giants must be stopped at all costs.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 55,
+        "reputation_required": 3240,
+        "required_quests": [
+          "fq_conc_055"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "description": "Defeat three Gigantic Jotunns at the convergence point."
+        },
+        {
+          "type": "collect",
+          "target": "jotunn_core",
+          "count": 2,
+          "description": "Extract Jotunn Cores to prevent resurrection."
+        }
+      ],
+      "rewards": {
+        "exp": 7000,
+        "currency": 3500,
+        "crd": 1750,
+        "rep": 2200,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_057"
+    },
+    {
+      "id": "fq_conc_057",
+      "title": "Tyrant's Fall",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "SHATTERED_HEART",
+      "description": "Crystal Tyrants have organized into a hunting pack in the Heart. This coordinated behavior is unprecedented \u2014 and terrifying.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 56,
+        "reputation_required": 3300,
+        "required_quests": [
+          "fq_conc_056"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 2,
+          "description": "Defeat two Crystal Tyrants in the Heart."
+        },
+        {
+          "type": "kill",
+          "target": "DRAKE_MINION",
+          "count": 4,
+          "description": "Clear Drake Minions from the Tyrant hunting grounds."
+        }
+      ],
+      "rewards": {
+        "exp": 7200,
+        "currency": 3600,
+        "crd": 1800,
+        "rep": 2300,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_058"
+    },
+    {
+      "id": "fq_conc_058",
+      "title": "The Harbinger's Shadow",
+      "type": "story",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Intelligence confirms: the Abyss Harbinger is awakening. Its shadow already corrupts the deepest chasm. Prepare for the final confrontation.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 57,
+        "reputation_required": 3360,
+        "required_quests": [
+          "fq_conc_057"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 6,
+          "description": "Cut through the Harbinger's Abyssal vanguard."
+        },
+        {
+          "type": "kill",
+          "target": "CHRONO_WRAITH",
+          "count": 1,
+          "description": "Defeat a Chrono Wraith guarding the Harbinger's sanctum."
+        },
+        {
+          "type": "collect",
+          "target": "harbinger_ward_key",
+          "count": 1,
+          "description": "Forge the Harbinger Ward Key from collected sigils."
+        }
+      ],
+      "rewards": {
+        "exp": 7500,
+        "currency": 3800,
+        "crd": 1900,
+        "rep": 2400,
+        "items": [
+          {
+            "item_id": "event_horizon_fragment_l",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_059"
+    },
+    {
+      "id": "fq_conc_059",
+      "title": "Soul Harvest",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "VOID_ECHO_CHASM",
+      "description": "Soul Fragmenters have multiplied throughout the chasm. Each one harvested strengthens the Harbinger. The harvest must end.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 58,
+        "reputation_required": 3420,
+        "required_quests": [
+          "fq_conc_058"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SOUL_FRAGMENTER",
+          "count": 3,
+          "description": "Destroy three Soul Fragmenters."
+        },
+        {
+          "type": "kill",
+          "target": "VOID_STALKER",
+          "count": 1,
+          "description": "Eliminate a Void Stalker protecting the Fragmenters."
+        }
+      ],
+      "rewards": {
+        "exp": 8000,
+        "currency": 4000,
+        "crd": 2000,
+        "rep": 2500,
+        "items": [
+          {
+            "item_id": "brainwave_oscillator",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_060"
+    },
+    {
+      "id": "fq_conc_060",
+      "title": "The Abyss Harbinger",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "VOID_ECHO_CHASM",
+      "description": "THE FINAL VOID TRIAL. The Abyss Harbinger has fully awakened. As Concordium's foremost operative, you must descend into the deepest chasm and destroy the Raid Boss Tier-2 entity. The fate of Xylos hangs in the balance. Progress through Unity. Victory through Strength.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 59,
+        "reputation_required": 3480,
+        "required_quests": [
+          "fq_conc_059"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "description": "DEFEAT THE ABYSS HARBINGER."
+        },
+        {
+          "type": "collect",
+          "target": "harbinger_essence_core",
+          "count": 1,
+          "description": "Claim the Harbinger Essence Core."
+        }
+      ],
+      "rewards": {
+        "exp": 15000,
+        "currency": 7500,
+        "crd": 3750,
+        "rep": 5000,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 5
+          },
+          {
+            "item_id": "event_horizon_fragment_l",
+            "quantity": 2
+          },
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 10
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_061"
+    },
+    {
+      "id": "fq_conc_061",
+      "title": "Severance Faultline",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "After the Harbinger's fall, seismic readings spike across Xylos. The Severance Faultline threatens to tear the planet apart. Investigate immediately.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 60,
+        "reputation_required": 3540,
+        "required_quests": [
+          "fq_conc_060"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SEVERANCE_FAULTLINE",
+          "count": 1,
+          "description": "Enter the Severance Faultline."
+        },
+        {
+          "type": "collect",
+          "target": "seismic_data",
+          "count": 3,
+          "description": "Collect seismic data from the fault points."
+        }
+      ],
+      "rewards": {
+        "exp": 5000,
+        "currency": 2500,
+        "crd": 1250,
+        "rep": 1600,
+        "items": [
+          {
+            "item_id": "stabilizer_gyro_unit",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_062"
+    },
+    {
+      "id": "fq_conc_062",
+      "title": "Fault Patrollers",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Aethel Iron Carapaces swarm the faultline, drawn by tectonic energy. Clear them before they destabilize the plate boundaries.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 61,
+        "reputation_required": 3600,
+        "required_quests": [
+          "fq_conc_061"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "description": "Defeat Aethel Iron Carapaces along the faultline."
+        },
+        {
+          "type": "collect",
+          "target": "tectonic_sample",
+          "count": 3,
+          "description": "Gather tectonic mineral samples."
+        }
+      ],
+      "rewards": {
+        "exp": 5200,
+        "currency": 2600,
+        "crd": 1300,
+        "rep": 1700,
+        "items": [
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_063"
+    },
+    {
+      "id": "fq_conc_063",
+      "title": "Tyrant Fault",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Crystal Tyrants are exploiting the unstable terrain. Their crystal resonance amplifies the seismic chaos. Break them.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 62,
+        "reputation_required": 3660,
+        "required_quests": [
+          "fq_conc_062"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 2,
+          "description": "Defeat Crystal Tyrants at the fault's epicenter."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 4,
+          "description": "Clear Abyssal Reavers drawn to the Tyrants energy."
+        }
+      ],
+      "rewards": {
+        "exp": 6000,
+        "currency": 3000,
+        "crd": 1500,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_064"
+    },
+    {
+      "id": "fq_conc_064",
+      "title": "Jotunn Migration",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "Gigantic Jotunns are migrating through the faultline zone, crushing everything in their path. Redirect or destroy them.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 63,
+        "reputation_required": 3720,
+        "required_quests": [
+          "fq_conc_063"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "description": "Defeat Jotunns migrating through the faultline."
+        },
+        {
+          "type": "collect",
+          "target": "jotunn_migration_data",
+          "count": 1,
+          "description": "Record Jotunn migration patterns for Concordium."
+        }
+      ],
+      "rewards": {
+        "exp": 6500,
+        "currency": 3300,
+        "crd": 1650,
+        "rep": 2100,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_065"
+    },
+    {
+      "id": "fq_conc_065",
+      "title": "Siphon Approach",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "The Aethel Siphon Core \u2014 a planetary stabilizer built by the Precursors \u2014 is failing. Enter the Core and assess the damage.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 64,
+        "reputation_required": 3780,
+        "required_quests": [
+          "fq_conc_064"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "AETHEL_SIPHON_CORE",
+          "count": 1,
+          "description": "Enter the Aethel Siphon Core."
+        },
+        {
+          "type": "collect",
+          "target": "siphon_diagnostic",
+          "count": 2,
+          "description": "Run diagnostics on the Siphon Core systems."
+        }
+      ],
+      "rewards": {
+        "exp": 5500,
+        "currency": 2800,
+        "crd": 1400,
+        "rep": 1800,
+        "items": [
+          {
+            "item_id": "power_regulator_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_066"
+    },
+    {
+      "id": "fq_conc_066",
+      "title": "Core Defense",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Hostile entities have infested the Siphon Core. They must be purged before repair operations can begin.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 65,
+        "reputation_required": 3840,
+        "required_quests": [
+          "fq_conc_065"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 8,
+          "description": "Purge Abyssal Reavers from the Core."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 5,
+          "description": "Eliminate Void Channelers corrupting the Core."
+        }
+      ],
+      "rewards": {
+        "exp": 5800,
+        "currency": 2900,
+        "crd": 1450,
+        "rep": 1900,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_067"
+    },
+    {
+      "id": "fq_conc_067",
+      "title": "Corrupted Behemoth Siege",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Corrupted Behemoths are assaulting the Siphon Core's primary conduits. If the conduits fall, the Core goes critical.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 66,
+        "reputation_required": 3900,
+        "required_quests": [
+          "fq_conc_066"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "description": "Defeat Corrupted Behemoths at the primary conduits."
+        },
+        {
+          "type": "collect",
+          "target": "conduit_stabilizer",
+          "count": 1,
+          "description": "Deploy emergency conduit stabilizers."
+        }
+      ],
+      "rewards": {
+        "exp": 6200,
+        "currency": 3100,
+        "crd": 1550,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "corrupted_synapse_cluster",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_068"
+    },
+    {
+      "id": "fq_conc_068",
+      "title": "Rift Closure",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Aethel Rift Stalkers are opening micro-rifts inside the Core. Close the rifts and eliminate the Stalkers before containment fails.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 67,
+        "reputation_required": 3960,
+        "required_quests": [
+          "fq_conc_067"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 6,
+          "description": "Defeat Rift Stalkers near the micro-rifts."
+        },
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 1,
+          "description": "Defeat a Crystal Tyrant guarding the main rift."
+        }
+      ],
+      "rewards": {
+        "exp": 6400,
+        "currency": 3200,
+        "crd": 1600,
+        "rep": 2100,
+        "items": [
+          {
+            "item_id": "dark_energy_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_069"
+    },
+    {
+      "id": "fq_conc_069",
+      "title": "Titan's Awakening",
+      "type": "story",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "The seismic data is clear: the Gravity Titan stirs beneath the Cradle Expanse. Its awakening is linked to the Siphon Core failure. Prepare for the worst.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 68,
+        "reputation_required": 4020,
+        "required_quests": [
+          "fq_conc_068"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "titan_resonance_data",
+          "count": 3,
+          "description": "Collect Titan Resonance Data from seismic stations."
+        },
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "description": "Defeat a Jotunn drawn by the Titan's awakening call."
+        }
+      ],
+      "rewards": {
+        "exp": 7000,
+        "currency": 3500,
+        "crd": 1750,
+        "rep": 2200,
+        "items": [
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_070"
+    },
+    {
+      "id": "fq_conc_070",
+      "title": "The Gravity Titan Rises",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_EXPANSE",
+      "description": "MAXIMUM PRIORITY ALERT. The Gravity Titan has risen from beneath the Cradle Expanse. This Raid Boss Tier-3 entity can manipulate gravity itself. If it reaches full power, Xylos's gravity field will collapse. You are the only operative capable of stopping it. THE CONCORDIUM COMMANDS YOU TO VICTORY.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 69,
+        "reputation_required": 4080,
+        "required_quests": [
+          "fq_conc_069"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "description": "DEFEAT THE GRAVITY TITAN."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 5,
+          "description": "Clear the Titan's Abyssal escorts."
+        },
+        {
+          "type": "collect",
+          "target": "titan_gravity_core",
+          "count": 1,
+          "description": "Secure the Titan Gravity Core."
+        }
+      ],
+      "rewards": {
+        "exp": 20000,
+        "currency": 10000,
+        "crd": 5000,
+        "rep": 7000,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 3
+          },
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 2
+          },
+          {
+            "item_id": "event_horizon_fragment_l",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_071"
+    },
+    {
+      "id": "fq_conc_071",
+      "title": "Prima Materia",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The Gravity Titan's defeat has revealed the entrance to the Prima Materia Forge \u2014 the Precursor facility where pure matter is shaped. Claim it for Concordium.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 70,
+        "reputation_required": 4140,
+        "required_quests": [
+          "fq_conc_070"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "PRIMA_MATERIA_FORGE",
+          "count": 1,
+          "description": "Enter the Prima Materia Forge."
+        },
+        {
+          "type": "collect",
+          "target": "prima_materia_sample",
+          "count": 2,
+          "description": "Collect Prima Materia samples for Concordium science."
+        }
+      ],
+      "rewards": {
+        "exp": 6000,
+        "currency": 3000,
+        "crd": 1500,
+        "rep": 2000,
+        "items": [
+          {
+            "item_id": "raw_aethel_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_072"
+    },
+    {
+      "id": "fq_conc_072",
+      "title": "Forge Guardians",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The Forge has ancient automated defenses. Disable them systematically \u2014 but beware rival faction scavengers.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 71,
+        "reputation_required": 4200,
+        "required_quests": [
+          "fq_conc_071"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "description": "Destroy Forge defense automatons."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 4,
+          "description": "Eliminate rival faction scavengers."
+        }
+      ],
+      "rewards": {
+        "exp": 6200,
+        "currency": 3100,
+        "crd": 1550,
+        "rep": 2100,
+        "items": [
+          {
+            "item_id": "rusted_cybernetic_arm",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_073"
+    },
+    {
+      "id": "fq_conc_073",
+      "title": "Behemoth Foundry",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Corrupted Behemoths have been drawn to the Forge's energy signature. They must be purged before they consume the Prima Materia.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 72,
+        "reputation_required": 4260,
+        "required_quests": [
+          "fq_conc_072"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "description": "Purge Corrupted Behemoths from the Forge."
+        },
+        {
+          "type": "collect",
+          "target": "forge_energy_cell",
+          "count": 2,
+          "description": "Recover Forge Energy Cells for power restoration."
+        }
+      ],
+      "rewards": {
+        "exp": 6500,
+        "currency": 3300,
+        "crd": 1650,
+        "rep": 2200,
+        "items": [
+          {
+            "item_id": "neural_disruptor_module",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_074"
+    },
+    {
+      "id": "fq_conc_074",
+      "title": "Abyssal Forge",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Abyssal Reavers are trying to corrupt the Forge's core. The Abyss must not claim the Prima Materia.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 73,
+        "reputation_required": 4320,
+        "required_quests": [
+          "fq_conc_073"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 8,
+          "description": "Exterminate Abyssal Reavers in the Forge."
+        },
+        {
+          "type": "collect",
+          "target": "purified_materia",
+          "count": 3,
+          "description": "Collect Purified Materia from secured chambers."
+        }
+      ],
+      "rewards": {
+        "exp": 6800,
+        "currency": 3400,
+        "crd": 1700,
+        "rep": 2300,
+        "items": [
+          {
+            "item_id": "aethel_fragment",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_075"
+    },
+    {
+      "id": "fq_conc_075",
+      "title": "Jotunn Forge-Masters",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Gigantic Jotunns have claimed the deepest forge chambers as their territory. These creatures wield the Forge's heat as a weapon.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 74,
+        "reputation_required": 4380,
+        "required_quests": [
+          "fq_conc_074"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "description": "Defeat Jotunn Forge-Masters."
+        },
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 1,
+          "description": "Defeat a Crystal Tyrant guarding the master forge."
+        }
+      ],
+      "rewards": {
+        "exp": 7200,
+        "currency": 3600,
+        "crd": 1800,
+        "rep": 2400,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_076"
+    },
+    {
+      "id": "fq_conc_076",
+      "title": "Materia War",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The Prima Materia War has begun. Rival factions, void entities, and ancient guardians clash for control. Concordium must dominate.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 75,
+        "reputation_required": 4440,
+        "required_quests": [
+          "fq_conc_075"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 6,
+          "description": "Defeat hostile forces in the Forge contested zones."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 6,
+          "description": "Destroy Abyssal forces attempting Forge control."
+        },
+        {
+          "type": "collect",
+          "target": "prima_materia_crate",
+          "count": 2,
+          "description": "Secure Prima Materia crates for Concordium."
+        }
+      ],
+      "rewards": {
+        "exp": 7500,
+        "currency": 3800,
+        "crd": 1900,
+        "rep": 2500,
+        "items": [
+          {
+            "item_id": "power_regulator_core",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_077"
+    },
+    {
+      "id": "fq_conc_077",
+      "title": "Titan Forge",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Residual Gravity Titan energy has spawned Titan Forge Automatons. These machines are immune to conventional damage. Find their thermal weak points.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 76,
+        "reputation_required": 4500,
+        "required_quests": [
+          "fq_conc_076"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_FORGE_AUTOMATON",
+          "count": 2,
+          "description": "Defeat Titan Forge Automatons."
+        },
+        {
+          "type": "collect",
+          "target": "automaton_schematic",
+          "count": 1,
+          "description": "Recover Automaton Schematics for the tech division."
+        }
+      ],
+      "rewards": {
+        "exp": 8000,
+        "currency": 4000,
+        "crd": 2000,
+        "rep": 2600,
+        "items": [
+          {
+            "item_id": "processor_cooling_unit",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_078"
+    },
+    {
+      "id": "fq_conc_078",
+      "title": "Proto-Core Assault",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "A Titan Proto Core \u2014 a failed Titan gestation \u2014 has been reactivated by the Forge's energy. Destroy it before it matures.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 77,
+        "reputation_required": 4560,
+        "required_quests": [
+          "fq_conc_077"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "TITAN_PROTO_CORE",
+          "count": 1,
+          "description": "Destroy the Titan Proto Core."
+        },
+        {
+          "type": "kill",
+          "target": "TITAN_FORGE_AUTOMATON",
+          "count": 3,
+          "description": "Defeat Automatons guarding the Proto Core."
+        }
+      ],
+      "rewards": {
+        "exp": 9000,
+        "currency": 4500,
+        "crd": 2250,
+        "rep": 2800,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          },
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_079"
+    },
+    {
+      "id": "fq_conc_079",
+      "title": "Sovereign Claim",
+      "type": "story",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "With the Forge secured, Concordium's position is unassailable. But one final test remains. Prove that you are worthy of the title: Legend of Concordium.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 78,
+        "reputation_required": 4620,
+        "required_quests": [
+          "fq_conc_078"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "description": "Face the Gravity Titan one final time."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "description": "Confront the Abyss Harbinger once more."
+        }
+      ],
+      "rewards": {
+        "exp": 12000,
+        "currency": 6000,
+        "crd": 3000,
+        "rep": 4000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 1
+          },
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          },
+          {
+            "item_id": "void_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_080"
+    },
+    {
+      "id": "fq_conc_080",
+      "title": "Legend of Concordium",
+      "type": "story",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "ORBITAL_SENTINEL_COMMAND",
+      "description": "You have defeated both Titan and Harbinger in a single campaign. Concordium High Command recognizes your ascension. Return to Orbital Sentinel Command for the highest commendation.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "ORBITAL_SENTINEL_COMMAND"
+      },
+      "requirements": {
+        "min_level": 79,
+        "reputation_required": 4680,
+        "required_quests": [
+          "fq_conc_079"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "ORBITAL_SENTINEL_COMMAND",
+          "count": 1,
+          "description": "Return to Orbital Sentinel Command."
+        },
+        {
+          "type": "collect",
+          "target": "legend_commendation",
+          "count": 1,
+          "description": "Receive the Concordium Legend Commendation."
+        }
+      ],
+      "rewards": {
+        "exp": 10000,
+        "currency": 5000,
+        "crd": 2500,
+        "rep": 3500,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 10
+          },
+          {
+            "item_id": "astral_phase_crystal_pure",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_081"
+    },
+    {
+      "id": "fq_conc_081",
+      "title": "Apex Eternal",
+      "type": "story",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "HIDDEN_AETHELGARDIAN_CITY",
+      "description": "Ancient records speak of the Hidden Aethelgardian City \u2014 a mythical location containing the secrets of the Precursors. Find it and claim its knowledge for Concordium.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "HIDDEN_AETHELGARDIAN_CITY"
+      },
+      "requirements": {
+        "min_level": 80,
+        "reputation_required": 4740,
+        "required_quests": [
+          "fq_conc_080"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "HIDDEN_AETHELGARDIAN_CITY",
+          "count": 1,
+          "description": "Discover the Hidden Aethelgardian City."
+        },
+        {
+          "type": "collect",
+          "target": "precursor_archive",
+          "count": 3,
+          "description": "Recover Precursor Archives from the city."
+        }
+      ],
+      "rewards": {
+        "exp": 8000,
+        "currency": 4000,
+        "crd": 2000,
+        "rep": 2500,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_082"
+    },
+    {
+      "id": "fq_conc_082",
+      "title": "City Guardians",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "HIDDEN_AETHELGARDIAN_CITY",
+      "description": "The Aethelgardian City is protected by ancient energy constructs. They recognize no faction \u2014 only threats to the Precursor legacy.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "HIDDEN_AETHELGARDIAN_CITY"
+      },
+      "requirements": {
+        "min_level": 81,
+        "reputation_required": 4800,
+        "required_quests": [
+          "fq_conc_081"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 8,
+          "description": "Defeat ancient city guardian constructs."
+        },
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 1,
+          "description": "Defeat a Crystal Tyrant gatekeeper."
+        }
+      ],
+      "rewards": {
+        "exp": 8500,
+        "currency": 4200,
+        "crd": 2100,
+        "rep": 2700,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_083"
+    },
+    {
+      "id": "fq_conc_083",
+      "title": "Precursor Secrets",
+      "type": "collect",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "HIDDEN_AETHELGARDIAN_CITY",
+      "description": "The Precursor Archives reveal the existence of the World Engine \u2014 a planetary control system beneath the Siphon Core. Gather more intelligence.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "HIDDEN_AETHELGARDIAN_CITY"
+      },
+      "requirements": {
+        "min_level": 82,
+        "reputation_required": 4860,
+        "required_quests": [
+          "fq_conc_082"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "world_engine_data",
+          "count": 4,
+          "description": "Extract World Engine data from Precursor terminals."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 4,
+          "description": "Defeat Reavers drawn to the Precursor energy."
+        }
+      ],
+      "rewards": {
+        "exp": 8800,
+        "currency": 4400,
+        "crd": 2200,
+        "rep": 2800,
+        "items": [
+          {
+            "item_id": "cognitive_relay_node",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_084"
+    },
+    {
+      "id": "fq_conc_084",
+      "title": "Eternal Drake",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "SHATTERED_HEART",
+      "description": "The Ashen Drake has absorbed residual Titan energy and evolved to its maximum threat level. This is the ultimate draconic challenge.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 83,
+        "reputation_required": 4920,
+        "required_quests": [
+          "fq_conc_083"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Defeat the Apex Ashen Drake."
+        },
+        {
+          "type": "kill",
+          "target": "DRAKE_MINION",
+          "count": 8,
+          "description": "Clear the elite Drake Minion swarm."
+        }
+      ],
+      "rewards": {
+        "exp": 12000,
+        "currency": 6000,
+        "crd": 3000,
+        "rep": 4000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 3
+          },
+          {
+            "item_id": "ancient_scale",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_085"
+    },
+    {
+      "id": "fq_conc_085",
+      "title": "Eternal Harbinger",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The Abyss Harbinger has been reborn in the deepest chasm, empowered by the chaos of the Titan War. Destroy it permanently.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 84,
+        "reputation_required": 4980,
+        "required_quests": [
+          "fq_conc_084"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "description": "Defeat the Eternal Abyss Harbinger."
+        },
+        {
+          "type": "kill",
+          "target": "SOUL_FRAGMENTER",
+          "count": 2,
+          "description": "Destroy Soul Fragmenters empowering the Harbinger."
+        }
+      ],
+      "rewards": {
+        "exp": 13000,
+        "currency": 6500,
+        "crd": 3250,
+        "rep": 4200,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 5
+          },
+          {
+            "item_id": "event_horizon_fragment_l",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_086"
+    },
+    {
+      "id": "fq_conc_086",
+      "title": "Titan Eternal",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Gravity Titan has reformed from the planet's core energy. This third manifestation is the most powerful yet. End the cycle.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 85,
+        "reputation_required": 5040,
+        "required_quests": [
+          "fq_conc_085"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "description": "Defeat the Eternal Gravity Titan."
+        },
+        {
+          "type": "kill",
+          "target": "TITAN_PROTO_CORE",
+          "count": 1,
+          "description": "Destroy the Titan Proto Core fueling its rebirth."
+        }
+      ],
+      "rewards": {
+        "exp": 14000,
+        "currency": 7000,
+        "crd": 3500,
+        "rep": 4500,
+        "items": [
+          {
+            "item_id": "titan_core",
+            "quantity": 4
+          },
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_087"
+    },
+    {
+      "id": "fq_conc_087",
+      "title": "Tri-Threat Protocol",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "All three Apex entities \u2014 Drake, Titan, and Harbinger \u2014 have been sighted simultaneously. Concordium authorizes the Tri-Threat Protocol.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 86,
+        "reputation_required": 5100,
+        "required_quests": [
+          "fq_conc_086"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Hunt the Drake manifestation."
+        },
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "description": "Confront the Titan manifestation."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "description": "Destroy the Harbinger manifestation."
+        }
+      ],
+      "rewards": {
+        "exp": 20000,
+        "currency": 10000,
+        "crd": 5000,
+        "rep": 6000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 2
+          },
+          {
+            "item_id": "titan_core",
+            "quantity": 2
+          },
+          {
+            "item_id": "void_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_088"
+    },
+    {
+      "id": "fq_conc_088",
+      "title": "Sovereign Control",
+      "type": "exploration",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "With the Apex entities suppressed, Concordium begins securing absolute sovereignty over Xylos's planetary infrastructure.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 87,
+        "reputation_required": 5160,
+        "required_quests": [
+          "fq_conc_087"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "AETHEL_SIPHON_CORE",
+          "count": 1,
+          "description": "Return to the stabilized Siphon Core."
+        },
+        {
+          "type": "collect",
+          "target": "sovereignty_beacon",
+          "count": 5,
+          "description": "Deploy Concordium Sovereignty Beacons."
+        }
+      ],
+      "rewards": {
+        "exp": 10000,
+        "currency": 5000,
+        "crd": 2500,
+        "rep": 3200,
+        "items": [
+          {
+            "item_id": "power_regulator_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_089"
+    },
+    {
+      "id": "fq_conc_089",
+      "title": "World Engine",
+      "type": "story",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "Beneath the Siphon Core lies the World Engine \u2014 the Precursor device that can reshape Xylos. Concordium must claim it before any other faction discovers it.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 88,
+        "reputation_required": 5220,
+        "required_quests": [
+          "fq_conc_088"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "world_engine_access_key",
+          "count": 3,
+          "description": "Activate World Engine access terminals."
+        },
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 2,
+          "description": "Defeat Jotunns guarding the World Engine vault."
+        }
+      ],
+      "rewards": {
+        "exp": 11000,
+        "currency": 5500,
+        "crd": 2750,
+        "rep": 3500,
+        "items": [
+          {
+            "item_id": "aethel_core_shard",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_090"
+    },
+    {
+      "id": "fq_conc_090",
+      "title": "Engine Activation",
+      "type": "story",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "The World Engine is online. Its power is beyond comprehension. Concordium must use it to bring permanent stability to Xylos. Protect the activation sequence.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 89,
+        "reputation_required": 5280,
+        "required_quests": [
+          "fq_conc_089"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 10,
+          "description": "Defend the World Engine from Abyssal assault."
+        },
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 2,
+          "description": "Defeat Tyrants attempting to disrupt the activation."
+        },
+        {
+          "type": "collect",
+          "target": "engine_activation_sequence",
+          "count": 1,
+          "description": "Complete the World Engine activation sequence."
+        }
+      ],
+      "rewards": {
+        "exp": 13000,
+        "currency": 6500,
+        "crd": 3250,
+        "rep": 4200,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_091"
+    },
+    {
+      "id": "fq_conc_091",
+      "title": "The Jotunn Purge",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "SEVERANCE_FAULTLINE",
+      "description": "With the World Engine stabilizing Xylos, remaining hostile entities are being flushed to the surface. Begin the final purge at the Severance Faultline.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "SEVERANCE_FAULTLINE"
+      },
+      "requirements": {
+        "min_level": 90,
+        "reputation_required": 5340,
+        "required_quests": [
+          "fq_conc_090"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 5,
+          "description": "Purge Jotunns from the faultline."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 8,
+          "description": "Eliminate Carapace swarms."
+        }
+      ],
+      "rewards": {
+        "exp": 10000,
+        "currency": 5000,
+        "crd": 2500,
+        "rep": 3200,
+        "items": [
+          {
+            "item_id": "stabilizer_gyro_unit",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_092"
+    },
+    {
+      "id": "fq_conc_092",
+      "title": "Abyssal End",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The Abyss is collapsing. Its remaining forces are pouring out in desperation. Seal the Void Echo Chasm forever.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 91,
+        "reputation_required": 5400,
+        "required_quests": [
+          "fq_conc_091"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_ABYSSAL_REAVER",
+          "count": 10,
+          "description": "Exterminate the final Abyssal Reavers."
+        },
+        {
+          "type": "kill",
+          "target": "VOID_REAVER",
+          "count": 10,
+          "description": "Annihilate all remaining Void Reavers."
+        }
+      ],
+      "rewards": {
+        "exp": 11000,
+        "currency": 5500,
+        "crd": 2750,
+        "rep": 3500,
+        "items": [
+          {
+            "item_id": "void_core",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_093"
+    },
+    {
+      "id": "fq_conc_093",
+      "title": "Tyrant's Last Stand",
+      "type": "boss",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "SHATTERED_HEART",
+      "description": "Crystal Tyrants have made their final stand in the Shattered Heart. Break their crystalline empire once and for all.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "SHATTERED_HEART"
+      },
+      "requirements": {
+        "min_level": 92,
+        "reputation_required": 5460,
+        "required_quests": [
+          "fq_conc_092"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "CRYSTAL_TYRANT",
+          "count": 3,
+          "description": "Defeat the last Crystal Tyrants."
+        },
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Slay the Drake guarding their retreat."
+        }
+      ],
+      "rewards": {
+        "exp": 12000,
+        "currency": 6000,
+        "crd": 3000,
+        "rep": 4000,
+        "items": [
+          {
+            "item_id": "quantum_distortion_stone",
+            "quantity": 4
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_094"
+    },
+    {
+      "id": "fq_conc_094",
+      "title": "Forge Purification",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "The Prima Materia Forge must be completely purified of all void corruption. This is Concordium's final territorial claim.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 93,
+        "reputation_required": 5520,
+        "required_quests": [
+          "fq_conc_093"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_VOID_CHANNELER",
+          "count": 8,
+          "description": "Silence the last Void Channelers."
+        },
+        {
+          "type": "kill",
+          "target": "TITAN_FORGE_AUTOMATON",
+          "count": 3,
+          "description": "Disable rogue Forge Automatons."
+        }
+      ],
+      "rewards": {
+        "exp": 11000,
+        "currency": 5500,
+        "crd": 2750,
+        "rep": 3500,
+        "items": [
+          {
+            "item_id": "raw_aethel_core",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_095"
+    },
+    {
+      "id": "fq_conc_095",
+      "title": "Expanse Sovereignty",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_EXPANSE",
+      "description": "The Cradle Expanse is now officially Concordium sovereign territory. Enforce it with overwhelming force.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "CRADLE_EXPANSE"
+      },
+      "requirements": {
+        "min_level": 94,
+        "reputation_required": 5580,
+        "required_quests": [
+          "fq_conc_094"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_RIFT_STALKER",
+          "count": 10,
+          "description": "Clear all hostiles from the Expanse."
+        },
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "description": "Destroy any residual Titan manifestations."
+        }
+      ],
+      "rewards": {
+        "exp": 13000,
+        "currency": 6500,
+        "crd": 3250,
+        "rep": 4200,
+        "items": [
+          {
+            "item_id": "gravity_well_core",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_096"
+    },
+    {
+      "id": "fq_conc_096",
+      "title": "Eternal Vigil",
+      "type": "hunt",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "ORBITAL_SENTINEL_COMMAND",
+      "description": "Concordium now watches over Xylos from orbit. Maintain eternal vigilance over the planet you have helped to save and rule.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "ORBITAL_SENTINEL_COMMAND"
+      },
+      "requirements": {
+        "min_level": 95,
+        "reputation_required": 5640,
+        "required_quests": [
+          "fq_conc_095"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "AETHEL_IRON_CARAPACE",
+          "count": 10,
+          "description": "Patrol and clear orbital sectors."
+        },
+        {
+          "type": "kill",
+          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "count": 3,
+          "description": "Eliminate any remaining Corrupted Behemoths."
+        }
+      ],
+      "rewards": {
+        "exp": 12000,
+        "currency": 6000,
+        "crd": 3000,
+        "rep": 3800,
+        "items": [
+          {
+            "item_id": "con_elite_recovery_pack",
+            "quantity": 10
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_097"
+    },
+    {
+      "id": "fq_conc_097",
+      "title": "The Final Seal",
+      "type": "story",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "AETHEL_SIPHON_CORE",
+      "description": "The World Engine requires one final calibration. Channel your accumulated power into the Engine to permanently seal the void and stabilize Xylos.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "AETHEL_SIPHON_CORE"
+      },
+      "requirements": {
+        "min_level": 96,
+        "reputation_required": 5700,
+        "required_quests": [
+          "fq_conc_096"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 3,
+          "description": "Defeat Jotunns resisting the final seal."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "description": "Destroy the Harbinger's final echo."
+        },
+        {
+          "type": "collect",
+          "target": "eternity_seal_fragment",
+          "count": 3,
+          "description": "Channel your power into the Eternity Seal."
+        }
+      ],
+      "rewards": {
+        "exp": 15000,
+        "currency": 7500,
+        "crd": 3750,
+        "rep": 5000,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 2
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_098"
+    },
+    {
+      "id": "fq_conc_098",
+      "title": "One Step from Eternity",
+      "type": "story",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "PRIMA_MATERIA_FORGE",
+      "description": "Only one step remains before absolute transcendence. Face the three Apex entities \u2014 Jotunn, Drake, and Harbinger \u2014 to earn the Eternity Seal.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "PRIMA_MATERIA_FORGE"
+      },
+      "requirements": {
+        "min_level": 97,
+        "reputation_required": 5760,
+        "required_quests": [
+          "fq_conc_097"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "GIGANTIC_JOTUNN",
+          "count": 1,
+          "description": "Defeat the Apex Jotunn."
+        },
+        {
+          "type": "kill",
+          "target": "ASHEN_DRAKE",
+          "count": 1,
+          "description": "Defeat the Apex Drake."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "description": "Defeat the Apex Harbinger."
+        },
+        {
+          "type": "collect",
+          "target": "eternity_seal",
+          "count": 1,
+          "description": "Forge the Eternity Seal from their essences."
+        }
+      ],
+      "rewards": {
+        "exp": 20000,
+        "currency": 10000,
+        "crd": 5000,
+        "rep": 7000,
+        "items": [
+          {
+            "item_id": "drake_heart",
+            "quantity": 3
+          },
+          {
+            "item_id": "titan_core",
+            "quantity": 3
+          },
+          {
+            "item_id": "void_core",
+            "quantity": 5
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_099"
+    },
+    {
+      "id": "fq_conc_099",
+      "title": "The Eternal Crown",
+      "type": "story",
+      "rank": "S",
+      "faction": "CONCORDIUM",
+      "region": "VOID_ECHO_CHASM",
+      "description": "The deepest level of Void Echo Chasm holds the Eternal Crown \u2014 the symbol of absolute mastery over Xylos. Descend one final time and claim it.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "VOID_ECHO_CHASM"
+      },
+      "requirements": {
+        "min_level": 98,
+        "reputation_required": 5820,
+        "required_quests": [
+          "fq_conc_098"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "VOID_ECHO_CHASM",
+          "count": 1,
+          "description": "Descend to the deepest chasm level."
+        },
+        {
+          "type": "kill",
+          "target": "GRAVITY_TITAN",
+          "count": 1,
+          "description": "Defeat the eternal form of Gravity Titan."
+        },
+        {
+          "type": "kill",
+          "target": "ABYSS_HARBINGER",
+          "count": 1,
+          "description": "Destroy the eternal form of Abyss Harbinger."
+        },
+        {
+          "type": "collect",
+          "target": "eternal_crown",
+          "count": 1,
+          "description": "CLAIM THE ETERNAL CROWN."
+        }
+      ],
+      "rewards": {
+        "exp": 25000,
+        "currency": 12000,
+        "crd": 6000,
+        "rep": 8000,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 3
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "fq_conc_100"
+    },
+    {
+      "id": "fq_conc_100",
+      "title": "Eternity",
+      "type": "story",
+      "rank": "SS",
+      "faction": "CONCORDIUM",
+      "region": "NEXUS_CORE",
+      "description": "You have done the impossible. You have claimed the Eternal Crown. Return to Nexus Core where all of Concordium awaits. You are no longer an operative. You are the ETERNAL LEGEND OF CONCORDIUM. Progress through Unity. Strength through Harmony. Now and forever.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_officer",
+        "name": "",
+        "location": "NEXUS_CORE"
+      },
+      "requirements": {
+        "min_level": 99,
+        "reputation_required": 5880,
+        "required_quests": [
+          "fq_conc_099"
+        ]
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "NEXUS_CORE",
+          "count": 1,
+          "description": "Return to Nexus Core as the Eternal Legend."
+        },
+        {
+          "type": "interact",
+          "target": "npc_concordium_officer",
+          "count": 1,
+          "description": "Receive the highest honors from Concordium High Command."
+        }
+      ],
+      "rewards": {
+        "exp": 50000,
+        "currency": 25000,
+        "crd": 12500,
+        "rep": 10000,
+        "items": [
+          {
+            "item_id": "resonanted_astral_phase_crystal",
+            "quantity": 5
+          },
+          {
+            "item_id": "eternal_crown",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false
+    }
+  ]
+}
