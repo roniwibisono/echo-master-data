@@ -109,7 +109,7 @@
       "rank": "D",
       "faction": "MERIDIAN_CARTEL",
       "region": "CORAL_WETLANDS",
-      "description": "Coral Tidal Crabs are disrupting Cartel dock operations. Their shells have market value \u2014 kill two birds with one bullet.",
+      "description": "Coral Tidal Crabs are disrupting Cartel dock operations. Their shells have market value — kill two birds with one bullet.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -159,7 +159,7 @@
       "rank": "D",
       "faction": "MERIDIAN_CARTEL",
       "region": "CORAL_WETLANDS",
-      "description": "Tide Mudlings are digging into Cartel shipping lanes. Their mud contains trace Aethel \u2014 extract it.",
+      "description": "Tide Mudlings are digging into Cartel shipping lanes. Their mud contains trace Aethel — extract it.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -217,7 +217,7 @@
       },
       "requirements": {
         "min_level": 4,
-        "reputation_required": 180,
+        "reputation_required": 150,
         "required_quests": [
           "fq_merid_004"
         ]
@@ -327,7 +327,7 @@
       "rank": "D",
       "faction": "MERIDIAN_CARTEL",
       "region": "SMUGGLER_JUNGLE",
-      "description": "Jungle Stalkers are competition \u2014 they hunt Cartel supply caravans. Remove the competition.",
+      "description": "Jungle Stalkers are competition — they hunt Cartel supply caravans. Remove the competition.",
       "quest_giver": {
         "npc_id": "npc_shady_smuggler",
         "name": "Sly",
@@ -401,7 +401,7 @@
           "type": "collect",
           "target": "ripper_hide",
           "count": 3,
-          "desc": "Collect Ripper hide \u2014 still tradable."
+          "desc": "Collect Ripper hide — still tradable."
         }
       ],
       "rewards": {
@@ -477,7 +477,7 @@
       "rank": "D",
       "faction": "MERIDIAN_CARTEL",
       "region": "SMUGGLER_JUNGLE",
-      "description": "A Contraband Golem \u2014 a walking warehouse of illegal goods \u2014 blocks the main trade route. Liquidate it and seize its inventory.",
+      "description": "A Contraband Golem — a walking warehouse of illegal goods — blocks the main trade route. Liquidate it and seize its inventory.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -527,7 +527,7 @@
       "rank": "C",
       "faction": "MERIDIAN_CARTEL",
       "region": "BLACK_DOCK_MARKET",
-      "description": "The Black Dock Market is the heart of Cartel commerce. Secure the supply chain \u2014 Cartel trade must flow uninterrupted.",
+      "description": "The Black Dock Market is the heart of Cartel commerce. Secure the supply chain — Cartel trade must flow uninterrupted.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -577,7 +577,7 @@
       "rank": "C",
       "faction": "MERIDIAN_CARTEL",
       "region": "BLACK_DOCK_MARKET",
-      "description": "Black Dock Smugglers are independent operators \u2014 they don't pay Cartel commission. Enforce the monopoly.",
+      "description": "Black Dock Smugglers are independent operators — they don't pay Cartel commission. Enforce the monopoly.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -677,7 +677,7 @@
       "rank": "C",
       "faction": "MERIDIAN_CARTEL",
       "region": "BLACK_DOCK_MARKET",
-      "description": "Black Dock Enforcers run a competing protection racket. Acquire their operation \u2014 whether they agree or not.",
+      "description": "Black Dock Enforcers run a competing protection racket. Acquire their operation — whether they agree or not.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -1077,7 +1077,7 @@
       "rank": "B",
       "faction": "MERIDIAN_CARTEL",
       "region": "SUNKEN_AETHEL_RUIN",
-      "description": "Cradle Purifiers guard the Ruin's most valuable chambers. Their defense protocols are a sunk cost \u2014 write them off.",
+      "description": "Cradle Purifiers guard the Ruin's most valuable chambers. Their defense protocols are a sunk cost — write them off.",
       "quest_giver": {
         "npc_id": "npc_ruin_diver",
         "name": "Kip",
@@ -1177,7 +1177,7 @@
       "rank": "B",
       "faction": "MERIDIAN_CARTEL",
       "region": "SUNKEN_AETHEL_RUIN",
-      "description": "Aethel Behemoths are living capital. Their organs trade at premium prices. Make the investment \u2014 harvest the returns.",
+      "description": "Aethel Behemoths are living capital. Their organs trade at premium prices. Make the investment — harvest the returns.",
       "quest_giver": {
         "npc_id": "npc_ruin_diver",
         "name": "Kip",
@@ -1941,7 +1941,7 @@
       "rank": "A",
       "faction": "MERIDIAN_CARTEL",
       "region": "CRADLE_EXPANSE",
-      "description": "Abyssal Reavers are attempting a merger \u2014 with each other \u2014 to form a larger threat. Block the merger.",
+      "description": "Abyssal Reavers are attempting a merger — with each other — to form a larger threat. Block the merger.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2105,7 +2105,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "Void Reavers drop crystallized void essence \u2014 untapped market value. Begin harvesting operations.",
+      "description": "Void Reavers drop crystallized void essence — untapped market value. Begin harvesting operations.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2155,7 +2155,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "Void Channelers are cornering the void energy market. The Cartel does not tolerate monopolies \u2014 except its own.",
+      "description": "Void Channelers are cornering the void energy market. The Cartel does not tolerate monopolies — except its own.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2205,7 +2205,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "Abyssal Reavers contain concentrated void material \u2014 the most valuable substance in the known universe. Maximize the harvest.",
+      "description": "Abyssal Reavers contain concentrated void material — the most valuable substance in the known universe. Maximize the harvest.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2255,7 +2255,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "Corrupted Behemoths are depreciating Cartel void assets. Accelerate their depreciation \u2014 to zero.",
+      "description": "Corrupted Behemoths are depreciating Cartel void assets. Accelerate their depreciation — to zero.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2355,7 +2355,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "Chrono Wraiths create temporal loops \u2014 time arbitrage opportunities. But they're damaging the Cartel's time-is-money principle. Eliminate the arbitrage.",
+      "description": "Chrono Wraiths create temporal loops — time arbitrage opportunities. But they're damaging the Cartel's time-is-money principle. Eliminate the arbitrage.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2669,7 +2669,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "A Void Stalker is making a hostile bid for Cartel void operations. Reject the bid \u2014 with extreme prejudice.",
+      "description": "A Void Stalker is making a hostile bid for Cartel void operations. Reject the bid — with extreme prejudice.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2869,7 +2869,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "SHATTERED_HEART",
-      "description": "Crystal Tyrants hold valuable assets. Divest them \u2014 forcibly.",
+      "description": "Crystal Tyrants hold valuable assets. Divest them — forcibly.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2975,7 +2975,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "Soul Fragmenters are operating at a loss \u2014 our loss. Force them into bankruptcy.",
+      "description": "Soul Fragmenters are operating at a loss — our loss. Force them into bankruptcy.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -3233,7 +3233,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Gigantic Jotunns refuse to relocate. Exercise eminent domain \u2014 the Cartel way.",
+      "description": "Gigantic Jotunns refuse to relocate. Exercise eminent domain — the Cartel way.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -3647,7 +3647,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Ancient Forge defenses are anti-competitive. The Cartel files an anti-trust motion \u2014 enforced by firepower.",
+      "description": "Ancient Forge defenses are anti-competitive. The Cartel files an anti-trust motion — enforced by firepower.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -3891,7 +3891,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Titan Forge Automatons are superior manufacturing units. The Cartel wants them on our payroll \u2014 or destroyed.",
+      "description": "Titan Forge Automatons are superior manufacturing units. The Cartel wants them on our payroll — or destroyed.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4009,13 +4009,13 @@
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "desc": "Eliminate Titan \u2014 operational cost zero."
+          "desc": "Eliminate Titan — operational cost zero."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "desc": "Eliminate Harbinger \u2014 operational cost zero."
+          "desc": "Eliminate Harbinger — operational cost zero."
         }
       ],
       "rewards": {
@@ -4257,7 +4257,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Apex Abyss Harbinger is the final void market competitor. Acquire \u2014 permanently.",
+      "description": "The Apex Abyss Harbinger is the final void market competitor. Acquire — permanently.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4365,7 +4365,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The three Apex entities \u2014 Drake, Titan, Harbinger \u2014 represent the final merger opportunity. Consolidate the market.",
+      "description": "The three Apex entities — Drake, Titan, Harbinger — represent the final merger opportunity. Consolidate the market.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4479,7 +4479,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The World Engine is the most valuable asset in Xylos history. The Cartel takes it public \u2014 with us as the sole shareholder.",
+      "description": "The World Engine is the most valuable asset in Xylos history. The Cartel takes it public — with us as the sole shareholder.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4585,7 +4585,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "The Engine flushes remaining hostile assets. Execute the final liquidation sale \u2014 everything must go.",
+      "description": "The Engine flushes remaining hostile assets. Execute the final liquidation sale — everything must go.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4685,7 +4685,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "SHATTERED_HEART",
-      "description": "Crystal Tyrants file for bankruptcy \u2014 Chapter 7, total liquidation. Execute the court order.",
+      "description": "Crystal Tyrants file for bankruptcy — Chapter 7, total liquidation. Execute the court order.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -5073,7 +5073,7 @@
       "rank": "SS",
       "faction": "MERIDIAN_CARTEL",
       "region": "PORT_MERIDIAN",
-      "description": "The market has spoken. The shareholders have voted. You are now the ETERNITY CEO \u2014 the eternal majority shareholder of Xylos itself. Return to Port Meridian. Every contract. Every deal. Every liquidation. It all led here. Profit is eternal.",
+      "description": "The market has spoken. The shareholders have voted. You are now the ETERNITY CEO — the eternal majority shareholder of Xylos itself. Return to Port Meridian. Every contract. Every deal. Every liquidation. It all led here. Profit is eternal.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
