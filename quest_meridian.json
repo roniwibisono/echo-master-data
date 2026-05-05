@@ -4193,56 +4193,6 @@
       "quest_chain_next": "fq_merid_082"
     },
     {
-      "id": "fq_merid_082",
-      "title": "Weapons Portfolio",
-      "type": "collect",
-      "rank": "S",
-      "faction": "MERIDIAN_CARTEL",
-      "region": "HIDDEN_AETHELGARDIAN_CITY",
-      "description": "The City holds Precursor weapons caches. Diversify the Cartel portfolio with exclusive weapons assets.",
-      "quest_giver": {
-        "npc_id": "npc_cartel_boss",
-        "name": "Don Vercelli",
-        "location": "HIDDEN_AETHELGARDIAN_CITY"
-      },
-      "requirements": {
-        "min_level": 82,
-        "reputation_required": 4860,
-        "required_quests": [
-          "fq_merid_082"
-        ]
-      },
-      "objectives": [
-        {
-          "type": "collect",
-          "target": "weapons_cache_acquired",
-          "count": 5,
-          "desc": "Acquire weapons cache assets."
-        },
-        {
-          "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
-          "count": 4,
-          "desc": "Defend assets from hostile bidders."
-        }
-      ],
-      "rewards": {
-        "exp": 8800,
-        "currency": 4400,
-        "crd": 2200,
-        "rep": 2800,
-        "items": [
-          {
-            "item_id": "memory_fragment_chip",
-            "quantity": 3
-          }
-        ]
-      },
-      "repeatable": false,
-      "daily": false,
-      "quest_chain_next": "fq_merid_084"
-    },
-    {
       "id": "fq_merid_084",
       "title": "Apex Drake IPO",
       "type": "boss",

@@ -367,56 +367,6 @@
       "quest_chain_next": "fq_omni_007"
     },
     {
-      "id": "fq_omni_007",
-      "title": "Security Drone Audit",
-      "type": "hunt",
-      "rank": "D",
-      "faction": "OMNICORP",
-      "region": "EXTRACTION_ZONE_DELTA",
-      "description": "Delta Security Drones are failing perimeter checks. Audit their systems through combat testing. Defective units will be decommissioned.",
-      "quest_giver": {
-        "npc_id": "npc_grid_security",
-        "name": "Warden AI",
-        "location": "EXTRACTION_ZONE_DELTA"
-      },
-      "requirements": {
-        "min_level": 7,
-        "reputation_required": 360,
-        "required_quests": [
-          "fq_omni_007"
-        ]
-      },
-      "objectives": [
-        {
-          "type": "kill",
-          "target": "DELTA_SECURITY_DRONE",
-          "count": 5,
-          "desc": "Combat-audit Security Drones."
-        },
-        {
-          "type": "collect",
-          "target": "security_audit_log",
-          "count": 1,
-          "desc": "Upload security audit log."
-        }
-      ],
-      "rewards": {
-        "exp": 180,
-        "currency": 100,
-        "crd": 50,
-        "rep": 100,
-        "items": [
-          {
-            "item_id": "scrap_circuit",
-            "quantity": 2
-          }
-        ]
-      },
-      "repeatable": false,
-      "daily": false,
-      "quest_chain_next": "fq_omni_009"
-    },
-    {
       "id": "fq_omni_009",
       "title": "Assault Drone Termination",
       "type": "boss",
