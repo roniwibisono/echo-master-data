@@ -237,7 +237,7 @@
         },
         {
           "type": "kill",
-          "target": "STONE_ARMADILLO",
+          "target": "PLATEAU_DRONE",
           "count": 3,
           "desc": "Demonstrate module functionality on Stone Armadillos."
         }
@@ -1027,7 +1027,7 @@
       "rank": "B",
       "faction": "OMNICORP",
       "region": "SKYBRIDGE_REACTOR",
-      "description": "Titan Assembly Drones are valuable manufacturing units. Acquire them for Omnicorp R&D — intact or in pieces.",
+      "description": "Titan Assembly Drones are valuable manufacturing units. Acquire them for Omnicorp R&D \u2014 intact or in pieces.",
       "quest_giver": {
         "npc_id": "npc_reactor_engineer",
         "name": "Engineer Cross",
@@ -1127,7 +1127,7 @@
       "rank": "B",
       "faction": "OMNICORP",
       "region": "SKYBRIDGE_REACTOR",
-      "description": "Titan Proto Cores are failed Titan experiments. Omnicorp wants the failure data. Extract it from the Cores — forcibly.",
+      "description": "Titan Proto Cores are failed Titan experiments. Omnicorp wants the failure data. Extract it from the Cores \u2014 forcibly.",
       "quest_giver": {
         "npc_id": "npc_reactor_engineer",
         "name": "Engineer Cross",
@@ -2305,7 +2305,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "VOID_ECHO_CHASM",
-      "description": "Chrono Wraiths generate temporal runtime errors. Time is a resource — these errors waste it. Terminate all Wraith processes.",
+      "description": "Chrono Wraiths generate temporal runtime errors. Time is a resource \u2014 these errors waste it. Terminate all Wraith processes.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "Warden AI",
@@ -3697,7 +3697,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Abyssal forces have entered the Forge — unauthorized access detected. Remove all unauthorized users.",
+      "description": "Abyssal forces have entered the Forge \u2014 unauthorized access detected. Remove all unauthorized users.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "",
@@ -3965,13 +3965,13 @@
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "desc": "Eliminate Titan — target acquired."
+          "desc": "Eliminate Titan \u2014 target acquired."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "desc": "Eliminate Harbinger — target acquired."
+          "desc": "Eliminate Harbinger \u2014 target acquired."
         }
       ],
       "rewards": {
@@ -4371,7 +4371,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "All three Apex processes — Drake, Titan, Harbinger. Execute concurrent termination. System resources: unlimited.",
+      "description": "All three Apex processes \u2014 Drake, Titan, Harbinger. Execute concurrent termination. System resources: unlimited.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",

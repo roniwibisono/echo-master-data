@@ -55,7 +55,7 @@
       "rank": "D",
       "faction": "STARFORGED_LEGION",
       "region": "DUNE_OUTSKIRTS",
-      "description": "Dune Stalkers hunt Legion supply caravans. A Legionnaire does not flee — we hunt the hunters.",
+      "description": "Dune Stalkers hunt Legion supply caravans. A Legionnaire does not flee \u2014 we hunt the hunters.",
       "quest_giver": {
         "npc_id": "npc_drill_sergeant_korg",
         "name": "Sergeant Korg",
@@ -233,7 +233,7 @@
         },
         {
           "type": "kill",
-          "target": "DUNE_GNASHER",
+          "target": "DUNE_SCAVENGER",
           "count": 3,
           "description": "Prove your worth against Dune Gnashers."
         }
@@ -423,7 +423,7 @@
       "rank": "D",
       "faction": "STARFORGED_LEGION",
       "region": "SCORCHED_BADLANDS",
-      "description": "The Dune Stinger — alpha predator of the sands — terrorizes Legion patrols. A Legionnaire does not know terror. Bring it down.",
+      "description": "The Dune Stinger \u2014 alpha predator of the sands \u2014 terrorizes Legion patrols. A Legionnaire does not know terror. Bring it down.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "General Kaelen",
