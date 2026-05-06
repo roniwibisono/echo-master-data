@@ -32,7 +32,7 @@
       "id": "wpn_tortoise_shield",
       "name": "Tortois Shield of Bikko",
       "description": "A standard issue iron sword. Reliable but dull.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "LEGENDARY",
       "level_requirement": 5,
       "equipment_slots": [
@@ -224,7 +224,7 @@
       "rarity": "COMMON",
       "level_requirement": 5,
       "equipment_slots": [
-        "BOOTS"
+        "FEET"
       ],
       "stats_bonus": {
         "hp": 5,
@@ -1102,7 +1102,7 @@
       "rarity": "COMMON",
       "level_requirement": 1,
       "equipment_slots": [
-        "HELMET"
+        "HEAD"
       ],
       "stats_bonus": {
         "hp": 5,
@@ -1126,7 +1126,7 @@
       "rarity": "COMMON",
       "level_requirement": 4,
       "equipment_slots": [
-        "HELMET"
+        "HEAD"
       ],
       "stats_bonus": {
         "hp": 8,
@@ -1146,7 +1146,7 @@
       "id": "boots_traveler_boots",
       "name": "Traveler Boots",
       "description": "Comfortable boots made for long journeys.",
-      "type": "ARMOR",
+      "type": "BOOTS",
       "rarity": "COMMON",
       "level_requirement": 2,
       "equipment_slots": [
@@ -1170,7 +1170,7 @@
       "id": "boots_scout_boots",
       "name": "Scout Boots",
       "description": "Light boots improving mobility.",
-      "type": "ARMOR",
+      "type": "BOOTS",
       "rarity": "COMMON",
       "level_requirement": 6,
       "equipment_slots": [
@@ -1222,7 +1222,7 @@
       "rarity": "COMMON",
       "level_requirement": 4,
       "equipment_slots": [
-        "RING"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "hp": 0,
@@ -1246,7 +1246,7 @@
       "rarity": "COMMON",
       "level_requirement": 6,
       "equipment_slots": [
-        "RING"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "hp": 6,
@@ -1270,7 +1270,7 @@
       "rarity": "UNCOMMON",
       "level_requirement": 8,
       "equipment_slots": [
-        "AMULET"
+        "ACCESSORY_2"
       ],
       "stats_bonus": {
         "hp": 15,
@@ -1290,11 +1290,11 @@
       "id": "belt_adventurer_belt",
       "name": "Adventurer Belt",
       "description": "A sturdy belt favored by beginners.",
-      "type": "ARMOR",
+      "type": "ACCESSORY",
       "rarity": "COMMON",
       "level_requirement": 3,
       "equipment_slots": [
-        "WAIST"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "hp": 12,
@@ -1314,7 +1314,7 @@
       "id": "gloves_leather_grip",
       "name": "Leather Grip Gloves",
       "description": "Gloves that improve weapon handling.",
-      "type": "ARMOR",
+      "type": "GLOVE",
       "rarity": "COMMON",
       "level_requirement": 5,
       "equipment_slots": [
@@ -9122,7 +9122,7 @@
       "id": "wpn2_t001_weapon2",
       "name": "Rusted Offhand Blade",
       "description": "A common offhand blade crafted for Lv.1 combatants. Rusted-tier quality.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "COMMON",
       "level_requirement": 1,
       "equipment_slots": [
@@ -9146,7 +9146,7 @@
       "id": "wpn2_t005_weapon2",
       "name": "Rusted Offhand Blade",
       "description": "A common offhand blade crafted for Lv.5 combatants. Rusted-tier quality.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "COMMON",
       "level_requirement": 5,
       "equipment_slots": [
@@ -9170,7 +9170,7 @@
       "id": "wpn2_t010_weapon2",
       "name": "Iron Offhand Blade",
       "description": "A common offhand blade crafted for Lv.10 combatants. Iron-tier quality.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "COMMON",
       "level_requirement": 10,
       "equipment_slots": [
@@ -9194,7 +9194,7 @@
       "id": "wpn2_t015_weapon2",
       "name": "Steel Offhand Blade",
       "description": "A common offhand blade crafted for Lv.15 combatants. Steel-tier quality.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "COMMON",
       "level_requirement": 15,
       "equipment_slots": [
@@ -9218,7 +9218,7 @@
       "id": "wpn2_t020_weapon2",
       "name": "Reinforced Offhand Blade",
       "description": "A uncommon offhand blade crafted for Lv.20 combatants. Reinforced-tier quality.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "UNCOMMON",
       "level_requirement": 20,
       "equipment_slots": [
@@ -9242,7 +9242,7 @@
       "id": "wpn2_t025_weapon2",
       "name": "Tempered Offhand Blade",
       "description": "A uncommon offhand blade crafted for Lv.25 combatants. Tempered-tier quality.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "UNCOMMON",
       "level_requirement": 25,
       "equipment_slots": [
@@ -9266,7 +9266,7 @@
       "id": "wpn2_t030_weapon2",
       "name": "Aethel-Touched Offhand Blade",
       "description": "A uncommon offhand blade crafted for Lv.30 combatants. Aethel-Touched-tier quality.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "UNCOMMON",
       "level_requirement": 30,
       "equipment_slots": [
@@ -9290,7 +9290,7 @@
       "id": "wpn2_t035_weapon2",
       "name": "Crystalline Offhand Blade",
       "description": "A rare offhand blade crafted for Lv.35 combatants. Crystalline-tier quality.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "RARE",
       "level_requirement": 35,
       "equipment_slots": [
@@ -9314,7 +9314,7 @@
       "id": "wpn2_t040_weapon2",
       "name": "Void-Forged Offhand Blade",
       "description": "A rare offhand blade crafted for Lv.40 combatants. Void-Forged-tier quality.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "RARE",
       "level_requirement": 40,
       "equipment_slots": [
@@ -9338,7 +9338,7 @@
       "id": "wpn2_t045_weapon2",
       "name": "Legion Offhand Blade",
       "description": "A rare offhand blade crafted for Lv.45 combatants. Legion-tier quality.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "RARE",
       "level_requirement": 45,
       "equipment_slots": [
@@ -9362,7 +9362,7 @@
       "id": "wpn2_t050_weapon2",
       "name": "Arcane Offhand Blade",
       "description": "A rare offhand blade crafted for Lv.50 combatants. Arcane-tier quality.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "RARE",
       "level_requirement": 50,
       "equipment_slots": [
@@ -9386,7 +9386,7 @@
       "id": "wpn2_t055_weapon2",
       "name": "Omni Offhand Blade",
       "description": "A rare offhand blade crafted for Lv.55 combatants. Omni-tier quality.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "RARE",
       "level_requirement": 55,
       "equipment_slots": [
@@ -9410,7 +9410,7 @@
       "id": "wpn2_t060_weapon2",
       "name": "Shard-Blessed Offhand Blade",
       "description": "A epic offhand blade crafted for Lv.60 combatants. Shard-Blessed-tier quality.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "EPIC",
       "level_requirement": 60,
       "equipment_slots": [
@@ -9434,7 +9434,7 @@
       "id": "wpn2_t065_weapon2",
       "name": "Starforged Offhand Blade",
       "description": "A epic offhand blade crafted for Lv.65 combatants. Starforged-tier quality.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "EPIC",
       "level_requirement": 65,
       "equipment_slots": [
@@ -9458,7 +9458,7 @@
       "id": "wpn2_t070_weapon2",
       "name": "Hegemony Offhand Blade",
       "description": "A epic offhand blade crafted for Lv.70 combatants. Hegemony-tier quality.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "EPIC",
       "level_requirement": 70,
       "equipment_slots": [
@@ -9482,7 +9482,7 @@
       "id": "wpn2_t075_weapon2",
       "name": "Abyss Offhand Blade",
       "description": "A epic offhand blade crafted for Lv.75 combatants. Abyss-tier quality.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "EPIC",
       "level_requirement": 75,
       "equipment_slots": [
@@ -9506,7 +9506,7 @@
       "id": "wpn2_t080_weapon2",
       "name": "Nova Offhand Blade",
       "description": "A epic offhand blade crafted for Lv.80 combatants. Nova-tier quality.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "EPIC",
       "level_requirement": 80,
       "equipment_slots": [
@@ -9530,7 +9530,7 @@
       "id": "wpn2_t085_weapon2",
       "name": "Phantom Offhand Blade",
       "description": "A legendary offhand blade crafted for Lv.85 combatants. Phantom-tier quality.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "LEGENDARY",
       "level_requirement": 85,
       "equipment_slots": [
@@ -9554,7 +9554,7 @@
       "id": "wpn2_t090_weapon2",
       "name": "Celestial Offhand Blade",
       "description": "A legendary offhand blade crafted for Lv.90 combatants. Celestial-tier quality.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "LEGENDARY",
       "level_requirement": 90,
       "equipment_slots": [
@@ -9578,7 +9578,7 @@
       "id": "wpn2_t095_weapon2",
       "name": "Void-Prime Offhand Blade",
       "description": "A legendary offhand blade crafted for Lv.95 combatants. Void-Prime-tier quality.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "LEGENDARY",
       "level_requirement": 95,
       "equipment_slots": [
@@ -9602,7 +9602,7 @@
       "id": "wpn2_t100_weapon2",
       "name": "Eternal Offhand Blade",
       "description": "A legendary offhand blade crafted for Lv.100 combatants. Eternal-tier quality.",
-      "type": "WEAPON",
+      "type": "OFFHAND",
       "rarity": "LEGENDARY",
       "level_requirement": 100,
       "equipment_slots": [
@@ -12150,7 +12150,7 @@
       "rarity": "COMMON",
       "level_requirement": 1,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12174,7 +12174,7 @@
       "rarity": "COMMON",
       "level_requirement": 5,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12198,7 +12198,7 @@
       "rarity": "COMMON",
       "level_requirement": 10,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12222,7 +12222,7 @@
       "rarity": "COMMON",
       "level_requirement": 15,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12246,7 +12246,7 @@
       "rarity": "UNCOMMON",
       "level_requirement": 20,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12270,7 +12270,7 @@
       "rarity": "UNCOMMON",
       "level_requirement": 25,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12294,7 +12294,7 @@
       "rarity": "UNCOMMON",
       "level_requirement": 30,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12318,7 +12318,7 @@
       "rarity": "RARE",
       "level_requirement": 35,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12342,7 +12342,7 @@
       "rarity": "RARE",
       "level_requirement": 40,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12366,7 +12366,7 @@
       "rarity": "RARE",
       "level_requirement": 45,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12390,7 +12390,7 @@
       "rarity": "RARE",
       "level_requirement": 50,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12414,7 +12414,7 @@
       "rarity": "RARE",
       "level_requirement": 55,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12438,7 +12438,7 @@
       "rarity": "EPIC",
       "level_requirement": 60,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12462,7 +12462,7 @@
       "rarity": "EPIC",
       "level_requirement": 65,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12486,7 +12486,7 @@
       "rarity": "EPIC",
       "level_requirement": 70,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12510,7 +12510,7 @@
       "rarity": "EPIC",
       "level_requirement": 75,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12534,7 +12534,7 @@
       "rarity": "EPIC",
       "level_requirement": 80,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12558,7 +12558,7 @@
       "rarity": "LEGENDARY",
       "level_requirement": 85,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12582,7 +12582,7 @@
       "rarity": "LEGENDARY",
       "level_requirement": 90,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12606,7 +12606,7 @@
       "rarity": "LEGENDARY",
       "level_requirement": 95,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12630,7 +12630,7 @@
       "rarity": "LEGENDARY",
       "level_requirement": 100,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12654,7 +12654,7 @@
       "rarity": "COMMON",
       "level_requirement": 1,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12678,7 +12678,7 @@
       "rarity": "COMMON",
       "level_requirement": 5,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12702,7 +12702,7 @@
       "rarity": "COMMON",
       "level_requirement": 10,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12726,7 +12726,7 @@
       "rarity": "COMMON",
       "level_requirement": 15,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12750,7 +12750,7 @@
       "rarity": "UNCOMMON",
       "level_requirement": 20,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12774,7 +12774,7 @@
       "rarity": "UNCOMMON",
       "level_requirement": 25,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12798,7 +12798,7 @@
       "rarity": "UNCOMMON",
       "level_requirement": 30,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12822,7 +12822,7 @@
       "rarity": "RARE",
       "level_requirement": 35,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12846,7 +12846,7 @@
       "rarity": "RARE",
       "level_requirement": 40,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12870,7 +12870,7 @@
       "rarity": "RARE",
       "level_requirement": 45,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12894,7 +12894,7 @@
       "rarity": "RARE",
       "level_requirement": 50,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12918,7 +12918,7 @@
       "rarity": "RARE",
       "level_requirement": 55,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12942,7 +12942,7 @@
       "rarity": "EPIC",
       "level_requirement": 60,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12966,7 +12966,7 @@
       "rarity": "EPIC",
       "level_requirement": 65,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -12990,7 +12990,7 @@
       "rarity": "EPIC",
       "level_requirement": 70,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -13014,7 +13014,7 @@
       "rarity": "EPIC",
       "level_requirement": 75,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -13038,7 +13038,7 @@
       "rarity": "EPIC",
       "level_requirement": 80,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -13062,7 +13062,7 @@
       "rarity": "LEGENDARY",
       "level_requirement": 85,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -13086,7 +13086,7 @@
       "rarity": "LEGENDARY",
       "level_requirement": 90,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -13110,7 +13110,7 @@
       "rarity": "LEGENDARY",
       "level_requirement": 95,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -13134,7 +13134,7 @@
       "rarity": "LEGENDARY",
       "level_requirement": 100,
       "equipment_slots": [
-        "ACCESSORY"
+        "ACCESSORY_1"
       ],
       "stats_bonus": {
         "atk": 0,
@@ -24892,6 +24892,124 @@
       "sell_price": 0,
       "max_stack": 99,
       "icon_image": ""
+    },
+    {
+      "id": "drake_scale_fragment",
+      "name": "Drake Scale Fragment",
+      "description": "A fragment chipped from the Ashen Drake's scales. Radiates heat.",
+      "type": "MATERIAL",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 200,
+      "max_stack": 99,
+      "icon_image": ""
+    },
+    {
+      "id": "blessing_ring",
+      "name": "Blessing Ring",
+      "description": "A ring blessed by the Aethel Spirits. Greatly enhances experience gained.",
+      "type": "ACCESSORY",
+      "rarity": "UNIQUE",
+      "level_requirement": 5,
+      "equipment_slots": [
+        "ACCESSORY_1",
+        "ACCESSORY_2"
+      ],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 500,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "effect_id": "exp_all_multiplier",
+          "desc": "All EXP +500%",
+          "value": 5.0,
+          "duration_in_minute": 999,
+          "target": "self"
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 1000,
+      "max_stack": 1,
+      "icon_image": "icons/items/weapons/blessing_ring.png"
+    },
+    {
+      "id": "blessing_bracelet",
+      "name": "Blessing Bracelet",
+      "description": "A bracelet blessed by the Aethel Spirits. Enhances combat power and experience.",
+      "type": "ACCESSORY",
+      "rarity": "UNIQUE",
+      "level_requirement": 5,
+      "equipment_slots": [
+        "ACCESSORY_1",
+        "ACCESSORY_2"
+      ],
+      "stats_bonus": {
+        "atk": 100,
+        "def": 100,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "effect_id": "exp_all_multiplier",
+          "desc": "All EXP +100%",
+          "value": 1.0,
+          "duration_in_minute": 999,
+          "target": "self"
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 1000,
+      "max_stack": 1,
+      "icon_image": "icons/items/weapons/blessing_bracelet.png"
+    },
+    {
+      "id": "cosmic_capsule",
+      "name": "Cosmic Capsule",
+      "description": "A cosmic energy capsule that greatly accelerates growth for your entire account.",
+      "type": "CONSUMABLE",
+      "rarity": "UNIQUE",
+      "level_requirement": 5,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 100,
+        "def": 100,
+        "hp": 100,
+        "mp": 100,
+        "agi": 100,
+        "per": 100
+      },
+      "special_effects": [
+        {
+          "effect_id": "exp_all_multiplier",
+          "desc": "All EXP +100% (Account-wide)",
+          "value": 1.0,
+          "duration_in_minute": 43800,
+          "target": "account"
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 1000,
+      "max_stack": 1,
+      "icon_image": "icons/items/consumables/cosmic_capsule.png"
     }
   ]
 }
