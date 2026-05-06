@@ -27,9 +27,9 @@
         },
         {
           "type": "collect",
-          "target": "glowvine_bloom",
+          "target": "glowvine_seed",
           "count": 2,
-          "description": "Collect Glowvine Blooms."
+          "description": "Collect glowvine seed (x2)."
         }
       ],
       "rewards": {
@@ -77,9 +77,9 @@
         },
         {
           "type": "collect",
-          "target": "barkling_essence",
+          "target": "bark_fragment",
           "count": 2,
-          "description": "Collect Barkling essence."
+          "description": "Collect bark fragment (x2)."
         }
       ],
       "rewards": {
@@ -127,9 +127,9 @@
         },
         {
           "type": "collect",
-          "target": "stalker_essence",
+          "target": "glowvine_seed",
           "count": 2,
-          "description": "Collect released essence."
+          "description": "Collect glowvine seed (x2)."
         }
       ],
       "rewards": {
@@ -177,9 +177,9 @@
         },
         {
           "type": "collect",
-          "target": "rootling_energy",
+          "target": "living_root",
           "count": 3,
-          "description": "Collect Rootling energy."
+          "description": "Collect living root (x3)."
         }
       ],
       "rewards": {
@@ -299,9 +299,9 @@
         },
         {
           "type": "collect",
-          "target": "swamp_water_sample",
+          "target": "ancient_root_core",
           "count": 3,
-          "description": "Collect swamp water for purity testing."
+          "description": "Collect ancient root core (x3)."
         }
       ],
       "rewards": {
@@ -349,9 +349,9 @@
         },
         {
           "type": "collect",
-          "target": "stalker_migration_data",
+          "target": "stalker_fang",
           "count": 1,
-          "description": "Record migration data."
+          "description": "Collect stalker fang (x1)."
         }
       ],
       "rewards": {
@@ -399,9 +399,9 @@
         },
         {
           "type": "collect",
-          "target": "purified_ripper_essence",
+          "target": "swamp_scale",
           "count": 2,
-          "description": "Collect purified essence."
+          "description": "Collect swamp scale (x2)."
         }
       ],
       "rewards": {
@@ -449,9 +449,9 @@
         },
         {
           "type": "collect",
-          "target": "released_soul_essence",
+          "target": "specter_essence",
           "count": 3,
-          "description": "Collect released soul essence."
+          "description": "Collect specter essence (x3)."
         }
       ],
       "rewards": {
@@ -499,9 +499,9 @@
         },
         {
           "type": "collect",
-          "target": "purified_titan_core",
+          "target": "ancient_root_core",
           "count": 1,
-          "description": "Extract the purified core."
+          "description": "Collect ancient root core (x1)."
         }
       ],
       "rewards": {
@@ -549,9 +549,9 @@
         },
         {
           "type": "collect",
-          "target": "shrine_blessing",
+          "target": "specter_essence",
           "count": 2,
-          "description": "Receive the Shrine's blessing."
+          "description": "Collect specter essence (x2)."
         }
       ],
       "rewards": {
@@ -599,9 +599,9 @@
         },
         {
           "type": "collect",
-          "target": "warden_blessing",
+          "target": "aethel_fragment",
           "count": 2,
-          "description": "Receive the Warden's blessing."
+          "description": "Collect aethel fragment (x2)."
         }
       ],
       "rewards": {
@@ -649,9 +649,9 @@
         },
         {
           "type": "collect",
-          "target": "purity_seal",
+          "target": "specter_essence",
           "count": 1,
-          "description": "Claim the Purity Seal."
+          "description": "Collect specter essence (x1)."
         }
       ],
       "rewards": {
@@ -699,9 +699,9 @@
         },
         {
           "type": "collect",
-          "target": "sanctum_access",
+          "target": "aethel_core_shard",
           "count": 1,
-          "description": "Gain inner sanctum access."
+          "description": "Collect aethel core shard (x1)."
         }
       ],
       "rewards": {
@@ -743,9 +743,9 @@
       "objectives": [
         {
           "type": "collect",
-          "target": "energy_offering",
+          "target": "mystic_spore",
           "count": 4,
-          "description": "Channel energy offerings to the Shrine."
+          "description": "Collect mystic spore (x4)."
         },
         {
           "type": "kill",
@@ -799,9 +799,9 @@
         },
         {
           "type": "collect",
-          "target": "guardian_challenge_complete",
+          "target": "aethel_core_shard",
           "count": 1,
-          "description": "Claim Guardian challenge victory."
+          "description": "Collect aethel core shard (x1)."
         }
       ],
       "rewards": {
@@ -843,9 +843,9 @@
       "objectives": [
         {
           "type": "collect",
-          "target": "shard_fragment",
+          "target": "specter_essence",
           "count": 4,
-          "description": "Recover Shard Fragments."
+          "description": "Collect specter essence (x4)."
         },
         {
           "type": "kill",
@@ -955,9 +955,9 @@
         },
         {
           "type": "collect",
-          "target": "shrine_master_seal",
+          "target": "aethel_fragment",
           "count": 1,
-          "description": "Claim the Shrine Master Seal."
+          "description": "Collect aethel fragment (x1)."
         }
       ],
       "rewards": {
@@ -1005,9 +1005,9 @@
         },
         {
           "type": "collect",
-          "target": "advanced_attunement",
+          "target": "core_fragment",
           "count": 1,
-          "description": "Receive Advanced Attunement."
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -1055,9 +1055,9 @@
         },
         {
           "type": "collect",
-          "target": "altar_energy_reading",
+          "target": "monster_material",
           "count": 2,
-          "description": "Read the Altar's energy."
+          "description": "Collect monster material (x2)."
         }
       ],
       "rewards": {
@@ -1105,9 +1105,9 @@
         },
         {
           "type": "collect",
-          "target": "behemoth_essence",
+          "target": "raw_aethel_core",
           "count": 1,
-          "description": "Collect purified essence."
+          "description": "Collect raw aethel core (x1)."
         }
       ],
       "rewards": {
@@ -1155,9 +1155,9 @@
         },
         {
           "type": "collect",
-          "target": "leviathan_dream",
+          "target": "leviathan_scale",
           "count": 2,
-          "description": "Collect dream essence."
+          "description": "Collect leviathan scale (x2)."
         }
       ],
       "rewards": {
@@ -1205,9 +1205,9 @@
         },
         {
           "type": "collect",
-          "target": "desecration_report",
+          "target": "titan_core",
           "count": 1,
-          "description": "Report clear."
+          "description": "Collect titan core (x1)."
         }
       ],
       "rewards": {
@@ -1305,9 +1305,9 @@
         },
         {
           "type": "collect",
-          "target": "storm_meditation",
+          "target": "monster_material",
           "count": 2,
-          "description": "Meditate in the storm."
+          "description": "Collect monster material (x2)."
         }
       ],
       "rewards": {
@@ -1355,9 +1355,9 @@
         },
         {
           "type": "collect",
-          "target": "serpent_lightning",
+          "target": "storm_core",
           "count": 2,
-          "description": "Collect essence."
+          "description": "Collect storm core (x2)."
         }
       ],
       "rewards": {
@@ -1405,9 +1405,9 @@
         },
         {
           "type": "collect",
-          "target": "migration_path_set",
+          "target": "monster_material",
           "count": 1,
-          "description": "Set path."
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -1455,9 +1455,9 @@
         },
         {
           "type": "collect",
-          "target": "consecration_done",
+          "target": "raw_aethel_core",
           "count": 1,
-          "description": "Confirm."
+          "description": "Collect raw aethel core (x1)."
         }
       ],
       "rewards": {
@@ -1565,9 +1565,9 @@
         },
         {
           "type": "collect",
-          "target": "sky_root_beacon",
+          "target": "monster_material",
           "count": 1,
-          "description": "Plant beacon."
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -1615,9 +1615,9 @@
         },
         {
           "type": "collect",
-          "target": "sky_frequency_restored",
+          "target": "drake_heart",
           "count": 1,
-          "description": "Confirm."
+          "description": "Collect drake heart (x1)."
         }
       ],
       "rewards": {
@@ -1665,9 +1665,9 @@
         },
         {
           "type": "collect",
-          "target": "essence_collected",
+          "target": "crystal_core",
           "count": 3,
-          "description": "Collect."
+          "description": "Collect crystal core (x3)."
         }
       ],
       "rewards": {
@@ -1715,9 +1715,9 @@
         },
         {
           "type": "collect",
-          "target": "cleansing_done",
+          "target": "raw_aethel_fragment",
           "count": 1,
-          "description": "Confirm."
+          "description": "Collect raw aethel fragment (x1)."
         }
       ],
       "rewards": {
@@ -1765,9 +1765,9 @@
         },
         {
           "type": "collect",
-          "target": "exorcism_done",
+          "target": "void_channeler_core",
           "count": 1,
-          "description": "Confirm."
+          "description": "Collect void channeler core (x1)."
         }
       ],
       "rewards": {
@@ -1865,9 +1865,9 @@
         },
         {
           "type": "collect",
-          "target": "redemption_essence",
+          "target": "drake_heart",
           "count": 1,
-          "description": "Collect essence."
+          "description": "Collect drake heart (x1)."
         }
       ],
       "rewards": {
@@ -1915,9 +1915,9 @@
         },
         {
           "type": "collect",
-          "target": "expanse_purified",
+          "target": "crystal_core",
           "count": 1,
-          "description": "Confirm."
+          "description": "Collect crystal core (x1)."
         }
       ],
       "rewards": {
@@ -2071,9 +2071,9 @@
         },
         {
           "type": "collect",
-          "target": "chasm_sensing",
+          "target": "core_fragment",
           "count": 3,
-          "description": "Sense the wound."
+          "description": "Collect core fragment (x3)."
         }
       ],
       "rewards": {
@@ -2171,9 +2171,9 @@
         },
         {
           "type": "collect",
-          "target": "harvest_essence",
+          "target": "raw_aethel_fragment",
           "count": 2,
-          "description": "Collect."
+          "description": "Collect raw aethel fragment (x2)."
         }
       ],
       "rewards": {
@@ -2221,9 +2221,9 @@
         },
         {
           "type": "collect",
-          "target": "purge_done",
+          "target": "raw_aethel_fragment",
           "count": 1,
-          "description": "Confirm."
+          "description": "Collect raw aethel fragment (x1)."
         }
       ],
       "rewards": {
@@ -2271,9 +2271,9 @@
         },
         {
           "type": "collect",
-          "target": "exorcism_done",
+          "target": "monster_material",
           "count": 1,
-          "description": "Confirm."
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -2321,9 +2321,9 @@
         },
         {
           "type": "collect",
-          "target": "banishment_done",
+          "target": "core_fragment",
           "count": 1,
-          "description": "Confirm."
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -2371,9 +2371,9 @@
         },
         {
           "type": "collect",
-          "target": "jotunn_pacified",
+          "target": "monster_material",
           "count": 1,
-          "description": "Confirm."
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -2421,9 +2421,9 @@
         },
         {
           "type": "collect",
-          "target": "heart_blessing",
+          "target": "core_fragment",
           "count": 1,
-          "description": "Blessing."
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -2621,9 +2621,9 @@
         },
         {
           "type": "collect",
-          "target": "exorcism_done",
+          "target": "monster_material",
           "count": 1,
-          "description": "Confirm."
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -2671,9 +2671,9 @@
         },
         {
           "type": "collect",
-          "target": "harmony_done",
+          "target": "core_fragment",
           "count": 1,
-          "description": "Confirm."
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -2771,9 +2771,9 @@
         },
         {
           "type": "collect",
-          "target": "slumber_done",
+          "target": "monster_material",
           "count": 1,
-          "description": "Confirm."
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -2821,9 +2821,9 @@
         },
         {
           "type": "collect",
-          "target": "harmony_done",
+          "target": "core_fragment",
           "count": 1,
-          "description": "Confirm."
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -2877,9 +2877,9 @@
         },
         {
           "type": "collect",
-          "target": "harbinger_ward",
+          "target": "abyssal_reaver_claw",
           "count": 1,
-          "description": "Forge ward."
+          "description": "Collect abyssal reaver claw (x1)."
         }
       ],
       "rewards": {
@@ -2977,9 +2977,9 @@
         },
         {
           "type": "collect",
-          "target": "harbinger_essence",
+          "target": "void_core",
           "count": 1,
-          "description": "Claim essence."
+          "description": "Collect void core (x1)."
         }
       ],
       "rewards": {
@@ -3027,9 +3027,9 @@
         },
         {
           "type": "collect",
-          "target": "seismic_data",
+          "target": "thick_gel",
           "count": 3,
-          "description": "Collect."
+          "description": "Collect thick gel (x3)."
         }
       ],
       "rewards": {
@@ -3077,9 +3077,9 @@
         },
         {
           "type": "collect",
-          "target": "healing_done",
+          "target": "carapace_fragment",
           "count": 3,
-          "description": "Collect."
+          "description": "Collect carapace fragment (x3)."
         }
       ],
       "rewards": {
@@ -3127,9 +3127,9 @@
         },
         {
           "type": "collect",
-          "target": "grounding_done",
+          "target": "monster_material",
           "count": 1,
-          "description": "Confirm."
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -3177,9 +3177,9 @@
         },
         {
           "type": "collect",
-          "target": "binding_done",
+          "target": "core_fragment",
           "count": 1,
-          "description": "Confirm."
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -3221,9 +3221,9 @@
       "objectives": [
         {
           "type": "collect",
-          "target": "planet_stability",
+          "target": "monster_material",
           "count": 3,
-          "description": "Stabilize."
+          "description": "Collect monster material (x3)."
         },
         {
           "type": "kill",
@@ -3277,9 +3277,9 @@
         },
         {
           "type": "collect",
-          "target": "core_readings",
+          "target": "stinger_core",
           "count": 2,
-          "description": "Read."
+          "description": "Collect stinger core (x2)."
         }
       ],
       "rewards": {
@@ -3377,9 +3377,9 @@
         },
         {
           "type": "collect",
-          "target": "cleansing_done",
+          "target": "crystal_core",
           "count": 1,
-          "description": "Confirm."
+          "description": "Collect crystal core (x1)."
         }
       ],
       "rewards": {
@@ -3427,9 +3427,9 @@
         },
         {
           "type": "collect",
-          "target": "sealing_done",
+          "target": "rift_claw_fragment",
           "count": 1,
-          "description": "Confirm."
+          "description": "Collect rift claw fragment (x1)."
         }
       ],
       "rewards": {
@@ -3471,9 +3471,9 @@
       "objectives": [
         {
           "type": "collect",
-          "target": "titan_data",
+          "target": "monster_material",
           "count": 3,
-          "description": "Collect."
+          "description": "Collect monster material (x3)."
         },
         {
           "type": "kill",
@@ -3577,9 +3577,9 @@
         },
         {
           "type": "collect",
-          "target": "forge_survey",
+          "target": "crystal_tyrant_core",
           "count": 2,
-          "description": "Survey."
+          "description": "Collect crystal tyrant core (x2)."
         }
       ],
       "rewards": {
@@ -3627,9 +3627,9 @@
         },
         {
           "type": "collect",
-          "target": "purify_done",
+          "target": "crystal_core",
           "count": 1,
-          "description": "Confirm."
+          "description": "Collect crystal core (x1)."
         }
       ],
       "rewards": {
@@ -3727,9 +3727,9 @@
         },
         {
           "type": "collect",
-          "target": "foundry_cleared",
+          "target": "core_fragment",
           "count": 1,
-          "description": "Confirm."
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -3777,9 +3777,9 @@
         },
         {
           "type": "collect",
-          "target": "recycling_done",
+          "target": "titan_core",
           "count": 1,
-          "description": "Confirm."
+          "description": "Collect titan core (x1)."
         }
       ],
       "rewards": {
@@ -3877,9 +3877,9 @@
         },
         {
           "type": "collect",
-          "target": "legend_seal",
+          "target": "raw_aethel_fragment",
           "count": 1,
-          "description": "Receive Seal."
+          "description": "Collect raw aethel fragment (x1)."
         }
       ],
       "rewards": {
@@ -4758,9 +4758,9 @@
         },
         {
           "type": "collect",
-          "target": "eternity_seal",
+          "target": "abyss_fragment",
           "count": 1,
-          "description": "Claim Eternity Seal."
+          "description": "Collect abyss fragment (x1)."
         }
       ],
       "rewards": {

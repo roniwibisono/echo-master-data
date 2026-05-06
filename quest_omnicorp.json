@@ -27,9 +27,10 @@
         },
         {
           "type": "collect",
-          "target": "sensor_calibration_data",
+          "target": "hare_hide",
           "count": 1,
-          "desc": "Upload sensor calibration data to the Spire."
+          "desc": "Upload sensor calibration data to the Spire.",
+          "description": "Collect hare hide (x1)."
         }
       ],
       "rewards": {
@@ -81,9 +82,10 @@
         },
         {
           "type": "collect",
-          "target": "survey_data_core",
+          "target": "sensor_chip",
           "count": 3,
-          "desc": "Recover Survey Bot data cores."
+          "desc": "Recover Survey Bot data cores.",
+          "description": "Collect sensor chip (x3)."
         }
       ],
       "rewards": {
@@ -131,9 +133,10 @@
         },
         {
           "type": "collect",
-          "target": "drone_debris_analysis",
+          "target": "circuit_fragment",
           "count": 2,
-          "desc": "Submit debris for failure analysis."
+          "desc": "Submit debris for failure analysis.",
+          "description": "Collect circuit fragment (x2)."
         }
       ],
       "rewards": {
@@ -181,9 +184,10 @@
         },
         {
           "type": "collect",
-          "target": "resource_reclamation_report",
+          "target": "goat_horn",
           "count": 1,
-          "desc": "File resource reclamation report."
+          "desc": "File resource reclamation report.",
+          "description": "Collect goat horn (x1)."
         }
       ],
       "rewards": {
@@ -303,9 +307,10 @@
         },
         {
           "type": "collect",
-          "target": "extraction_assessment",
+          "target": "core_fragment",
           "count": 2,
-          "desc": "Complete extraction zone assessment."
+          "desc": "Complete extraction zone assessment.",
+          "description": "Collect core fragment (x2)."
         }
       ],
       "rewards": {
@@ -353,9 +358,10 @@
         },
         {
           "type": "collect",
-          "target": "mining_output_report",
+          "target": "circuit_fragment",
           "count": 1,
-          "desc": "Submit mining output recalibration report."
+          "desc": "Submit mining output recalibration report.",
+          "description": "Collect circuit fragment (x1)."
         }
       ],
       "rewards": {
@@ -403,9 +409,10 @@
         },
         {
           "type": "collect",
-          "target": "assault_drone_blackbox",
+          "target": "scrap_core",
           "count": 1,
-          "desc": "Recover blackbox for failure analysis."
+          "desc": "Recover blackbox for failure analysis.",
+          "description": "Collect scrap core (x1)."
         }
       ],
       "rewards": {
@@ -453,9 +460,10 @@
         },
         {
           "type": "collect",
-          "target": "cluster_purge_confirmed",
+          "target": "sensor_chip",
           "count": 1,
-          "desc": "Confirm cluster purge complete."
+          "desc": "Confirm cluster purge complete.",
+          "description": "Collect sensor chip (x1)."
         }
       ],
       "rewards": {
@@ -503,9 +511,10 @@
         },
         {
           "type": "collect",
-          "target": "hardware_catalog",
+          "target": "ancient_scale",
           "count": 2,
-          "desc": "Catalog recoverable hardware."
+          "desc": "Catalog recoverable hardware.",
+          "description": "Collect ancient scale (x2)."
         }
       ],
       "rewards": {
@@ -553,9 +562,10 @@
         },
         {
           "type": "collect",
-          "target": "grid_patrol_data",
+          "target": "circuit_fragment",
           "count": 2,
-          "desc": "Upload updated patrol data."
+          "desc": "Upload updated patrol data.",
+          "description": "Collect circuit fragment (x2)."
         }
       ],
       "rewards": {
@@ -603,9 +613,10 @@
         },
         {
           "type": "collect",
-          "target": "defender_algorithm_upload",
+          "target": "refined_scrap",
           "count": 1,
-          "desc": "Upload new combat algorithm."
+          "desc": "Upload new combat algorithm.",
+          "description": "Collect refined scrap (x1)."
         }
       ],
       "rewards": {
@@ -653,9 +664,10 @@
         },
         {
           "type": "collect",
-          "target": "central_node_access",
+          "target": "sensor_chip",
           "count": 1,
-          "desc": "Secure central node access."
+          "desc": "Secure central node access.",
+          "description": "Collect sensor chip (x1)."
         }
       ],
       "rewards": {
@@ -753,9 +765,10 @@
         },
         {
           "type": "collect",
-          "target": "processing_load_report",
+          "target": "scrap_core",
           "count": 1,
-          "desc": "Report processing load restored."
+          "desc": "Report processing load restored.",
+          "description": "Collect scrap core (x1)."
         }
       ],
       "rewards": {
@@ -797,9 +810,10 @@
       "objectives": [
         {
           "type": "collect",
-          "target": "legacy_data_node",
+          "target": "circuit_fragment",
           "count": 4,
-          "desc": "Retrieve legacy data nodes."
+          "desc": "Retrieve legacy data nodes.",
+          "description": "Collect circuit fragment (x4)."
         },
         {
           "type": "kill",
@@ -853,9 +867,10 @@
         },
         {
           "type": "collect",
-          "target": "sector_7_reclaimed",
+          "target": "scrap_core",
           "count": 1,
-          "desc": "Confirm sector 7 reclaimed."
+          "desc": "Confirm sector 7 reclaimed.",
+          "description": "Collect scrap core (x1)."
         }
       ],
       "rewards": {
@@ -953,9 +968,10 @@
         },
         {
           "type": "collect",
-          "target": "advanced_unit_certification",
+          "target": "thick_gel",
           "count": 1,
-          "desc": "Receive Advanced Unit certification."
+          "desc": "Receive Advanced Unit certification.",
+          "description": "Collect thick gel (x1)."
         }
       ],
       "rewards": {
@@ -1003,9 +1019,10 @@
         },
         {
           "type": "collect",
-          "target": "reactor_schematics",
+          "target": "monster_material",
           "count": 2,
-          "desc": "Download Reactor schematics."
+          "desc": "Download Reactor schematics.",
+          "description": "Collect monster material (x2)."
         }
       ],
       "rewards": {
@@ -1053,9 +1070,10 @@
         },
         {
           "type": "collect",
-          "target": "drone_component_report",
+          "target": "circuit_fragment",
           "count": 2,
-          "desc": "Catalog acquired components."
+          "desc": "Catalog acquired components.",
+          "description": "Collect circuit fragment (x2)."
         }
       ],
       "rewards": {
@@ -1103,9 +1121,10 @@
         },
         {
           "type": "collect",
-          "target": "core_access_log",
+          "target": "sensor_chip",
           "count": 1,
-          "desc": "Log core access granted."
+          "desc": "Log core access granted.",
+          "description": "Collect sensor chip (x1)."
         }
       ],
       "rewards": {
@@ -1153,9 +1172,10 @@
         },
         {
           "type": "collect",
-          "target": "failure_analysis_report",
+          "target": "titan_core",
           "count": 1,
-          "desc": "Upload failure analysis."
+          "desc": "Upload failure analysis.",
+          "description": "Collect titan core (x1)."
         }
       ],
       "rewards": {
@@ -1203,9 +1223,10 @@
         },
         {
           "type": "collect",
-          "target": "energy_recovery_report",
+          "target": "storm_core",
           "count": 1,
-          "desc": "Report energy recovery metrics."
+          "desc": "Report energy recovery metrics.",
+          "description": "Collect storm core (x1)."
         }
       ],
       "rewards": {
@@ -1253,9 +1274,10 @@
         },
         {
           "type": "collect",
-          "target": "surveillance_station",
+          "target": "raw_aethel_core",
           "count": 2,
-          "desc": "Deploy surveillance stations."
+          "desc": "Deploy surveillance stations.",
+          "description": "Collect raw aethel core (x2)."
         }
       ],
       "rewards": {
@@ -1303,9 +1325,10 @@
         },
         {
           "type": "collect",
-          "target": "bio_analysis_report",
+          "target": "rift_claw_fragment",
           "count": 1,
-          "desc": "Submit bio-analysis preliminary report."
+          "desc": "Submit bio-analysis preliminary report.",
+          "description": "Collect rift claw fragment (x1)."
         }
       ],
       "rewards": {
@@ -1353,9 +1376,10 @@
         },
         {
           "type": "collect",
-          "target": "power_cell_analysis",
+          "target": "raw_aethel_core",
           "count": 1,
-          "desc": "Submit power cell analysis."
+          "desc": "Submit power cell analysis.",
+          "description": "Collect raw aethel core (x1)."
         }
       ],
       "rewards": {
@@ -1403,9 +1427,10 @@
         },
         {
           "type": "collect",
-          "target": "permanent_shutdown_confirmed",
+          "target": "sensor_chip",
           "count": 1,
-          "desc": "Confirm permanent shutdown."
+          "desc": "Confirm permanent shutdown.",
+          "description": "Collect sensor chip (x1)."
         }
       ],
       "rewards": {
@@ -1517,9 +1542,10 @@
         },
         {
           "type": "collect",
-          "target": "orbital_integration",
+          "target": "titan_core",
           "count": 1,
-          "desc": "Complete orbital systems integration."
+          "desc": "Complete orbital systems integration.",
+          "description": "Collect titan core (x1)."
         }
       ],
       "rewards": {
@@ -1567,9 +1593,10 @@
         },
         {
           "type": "collect",
-          "target": "signal_clarity_report",
+          "target": "drake_heart",
           "count": 1,
-          "desc": "Report signal clarity restored."
+          "desc": "Report signal clarity restored.",
+          "description": "Collect drake heart (x1)."
         }
       ],
       "rewards": {
@@ -1617,9 +1644,10 @@
         },
         {
           "type": "collect",
-          "target": "alloy_analysis_report",
+          "target": "crystal_core",
           "count": 1,
-          "desc": "Submit alloy analysis."
+          "desc": "Submit alloy analysis.",
+          "description": "Collect crystal core (x1)."
         }
       ],
       "rewards": {
@@ -1667,9 +1695,10 @@
         },
         {
           "type": "collect",
-          "target": "deletion_confirmed",
+          "target": "raw_aethel_fragment",
           "count": 1,
-          "desc": "Confirm data deletion."
+          "desc": "Confirm data deletion.",
+          "description": "Collect raw aethel fragment (x1)."
         }
       ],
       "rewards": {
@@ -1717,9 +1746,10 @@
         },
         {
           "type": "collect",
-          "target": "firewall_integrity_report",
+          "target": "raw_aethel_fragment",
           "count": 1,
-          "desc": "Report firewall integrity."
+          "desc": "Report firewall integrity.",
+          "description": "Collect raw aethel fragment (x1)."
         }
       ],
       "rewards": {
@@ -1817,9 +1847,10 @@
         },
         {
           "type": "collect",
-          "target": "shutdown_confirmation",
+          "target": "drake_heart",
           "count": 1,
-          "desc": "Confirm Drake process terminated."
+          "desc": "Confirm Drake process terminated.",
+          "description": "Collect drake heart (x1)."
         }
       ],
       "rewards": {
@@ -1867,9 +1898,10 @@
         },
         {
           "type": "collect",
-          "target": "grid_expansion_complete",
+          "target": "crystal_core",
           "count": 1,
-          "desc": "Confirm grid expansion."
+          "desc": "Confirm grid expansion.",
+          "description": "Collect crystal core (x1)."
         }
       ],
       "rewards": {
@@ -2031,9 +2063,10 @@
         },
         {
           "type": "collect",
-          "target": "chasm_sensor_data",
+          "target": "alpha_fang",
           "count": 3,
-          "desc": "Upload chasm sensor data."
+          "desc": "Upload chasm sensor data.",
+          "description": "Collect alpha fang (x3)."
         }
       ],
       "rewards": {
@@ -2081,9 +2114,10 @@
         },
         {
           "type": "collect",
-          "target": "debug_log",
+          "target": "void_fragment",
           "count": 1,
-          "desc": "Upload debug operation log."
+          "desc": "Upload debug operation log.",
+          "description": "Collect void fragment (x1)."
         }
       ],
       "rewards": {
@@ -2131,9 +2165,10 @@
         },
         {
           "type": "collect",
-          "target": "malware_removal_report",
+          "target": "void_channeler_core",
           "count": 1,
-          "desc": "Confirm malware removal."
+          "desc": "Confirm malware removal.",
+          "description": "Collect void channeler core (x1)."
         }
       ],
       "rewards": {
@@ -2181,9 +2216,10 @@
         },
         {
           "type": "collect",
-          "target": "kill_command_log",
+          "target": "raw_aethel_fragment",
           "count": 1,
-          "desc": "Upload Kill Command execution log."
+          "desc": "Upload Kill Command execution log.",
+          "description": "Collect raw aethel fragment (x1)."
         }
       ],
       "rewards": {
@@ -2231,9 +2267,10 @@
         },
         {
           "type": "collect",
-          "target": "error_correction_complete",
+          "target": "raw_aethel_fragment",
           "count": 1,
-          "desc": "Confirm errors corrected."
+          "desc": "Confirm errors corrected.",
+          "description": "Collect raw aethel fragment (x1)."
         }
       ],
       "rewards": {
@@ -2281,9 +2318,10 @@
         },
         {
           "type": "collect",
-          "target": "patch_deployment_report",
+          "target": "monster_material",
           "count": 1,
-          "desc": "Confirm patch deployed."
+          "desc": "Confirm patch deployed.",
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -2331,9 +2369,10 @@
         },
         {
           "type": "collect",
-          "target": "temporal_stability_report",
+          "target": "core_fragment",
           "count": 1,
-          "desc": "Report temporal stability restored."
+          "desc": "Report temporal stability restored.",
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -2381,9 +2420,10 @@
         },
         {
           "type": "collect",
-          "target": "resource_node_secured",
+          "target": "monster_material",
           "count": 1,
-          "desc": "Confirm resource node secured."
+          "desc": "Confirm resource node secured.",
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -2431,9 +2471,10 @@
         },
         {
           "type": "collect",
-          "target": "sector_analysis",
+          "target": "core_fragment",
           "count": 1,
-          "desc": "Complete sector analysis."
+          "desc": "Complete sector analysis.",
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -2487,9 +2528,10 @@
         },
         {
           "type": "collect",
-          "target": "extraction_complete",
+          "target": "drake_scale_fragment",
           "count": 1,
-          "desc": "Confirm core extraction complete."
+          "desc": "Confirm core extraction complete.",
+          "description": "Collect drake scale fragment (x1)."
         }
       ],
       "rewards": {
@@ -2545,9 +2587,10 @@
         },
         {
           "type": "collect",
-          "target": "virus_scan_complete",
+          "target": "core_fragment",
           "count": 1,
-          "desc": "Confirm virus scan complete."
+          "desc": "Confirm virus scan complete.",
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -2645,9 +2688,10 @@
         },
         {
           "type": "collect",
-          "target": "rootkit_removed",
+          "target": "monster_material",
           "count": 1,
-          "desc": "Confirm rootkit removal."
+          "desc": "Confirm rootkit removal.",
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -2695,9 +2739,10 @@
         },
         {
           "type": "collect",
-          "target": "patch_status",
+          "target": "core_fragment",
           "count": 1,
-          "desc": "Confirm all patches deployed."
+          "desc": "Confirm all patches deployed.",
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -2795,9 +2840,10 @@
         },
         {
           "type": "collect",
-          "target": "server_shutdown_log",
+          "target": "monster_material",
           "count": 1,
-          "desc": "Upload server shutdown log."
+          "desc": "Upload server shutdown log.",
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -2845,9 +2891,10 @@
         },
         {
           "type": "collect",
-          "target": "hardware_removal_report",
+          "target": "core_fragment",
           "count": 1,
-          "desc": "Confirm hardware removal."
+          "desc": "Confirm hardware removal.",
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -2901,9 +2948,10 @@
         },
         {
           "type": "collect",
-          "target": "mainframe_access",
+          "target": "monster_material",
           "count": 1,
-          "desc": "Establish mainframe access."
+          "desc": "Establish mainframe access.",
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -3001,9 +3049,10 @@
         },
         {
           "type": "collect",
-          "target": "shutdown_code",
+          "target": "void_core",
           "count": 1,
-          "desc": "Secure the Shutdown Code for Omnicorp."
+          "desc": "Secure the Shutdown Code for Omnicorp.",
+          "description": "Collect void core (x1)."
         }
       ],
       "rewards": {
@@ -3059,9 +3108,10 @@
         },
         {
           "type": "collect",
-          "target": "stability_readings",
+          "target": "titan_core",
           "count": 3,
-          "desc": "Upload structural stability readings."
+          "desc": "Upload structural stability readings.",
+          "description": "Collect titan core (x3)."
         }
       ],
       "rewards": {
@@ -3109,9 +3159,10 @@
         },
         {
           "type": "collect",
-          "target": "mineral_extraction_report",
+          "target": "carapace_fragment",
           "count": 1,
-          "desc": "Report mineral extraction yields."
+          "desc": "Report mineral extraction yields.",
+          "description": "Collect carapace fragment (x1)."
         }
       ],
       "rewards": {
@@ -3159,9 +3210,10 @@
         },
         {
           "type": "collect",
-          "target": "calibration_restored",
+          "target": "monster_material",
           "count": 1,
-          "desc": "Confirm calibration restored."
+          "desc": "Confirm calibration restored.",
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -3209,9 +3261,10 @@
         },
         {
           "type": "collect",
-          "target": "anchor_deployment_complete",
+          "target": "core_fragment",
           "count": 3,
-          "desc": "Confirm all anchors deployed."
+          "desc": "Confirm all anchors deployed.",
+          "description": "Collect core fragment (x3)."
         }
       ],
       "rewards": {
@@ -3259,9 +3312,10 @@
         },
         {
           "type": "collect",
-          "target": "integration_assessment",
+          "target": "void_channeler_core",
           "count": 2,
-          "desc": "Complete integration assessment."
+          "desc": "Complete integration assessment.",
+          "description": "Collect void channeler core (x2)."
         }
       ],
       "rewards": {
@@ -3359,9 +3413,10 @@
         },
         {
           "type": "collect",
-          "target": "system_uptime_restored",
+          "target": "raw_aethel_fragment",
           "count": 1,
-          "desc": "Confirm system uptime restored."
+          "desc": "Confirm system uptime restored.",
+          "description": "Collect raw aethel fragment (x1)."
         }
       ],
       "rewards": {
@@ -3409,9 +3464,10 @@
         },
         {
           "type": "collect",
-          "target": "network_disconnected",
+          "target": "raw_aethel_fragment",
           "count": 1,
-          "desc": "Confirm network disconnected."
+          "desc": "Confirm network disconnected.",
+          "description": "Collect raw aethel fragment (x1)."
         }
       ],
       "rewards": {
@@ -3453,9 +3509,10 @@
       "objectives": [
         {
           "type": "collect",
-          "target": "titan_algorithm_data",
+          "target": "core_fragment",
           "count": 3,
-          "desc": "Collect Gravity Titan algorithm data."
+          "desc": "Collect Gravity Titan algorithm data.",
+          "description": "Collect core fragment (x3)."
         },
         {
           "type": "kill",
@@ -3515,9 +3572,10 @@
         },
         {
           "type": "collect",
-          "target": "algorithm_download_complete",
+          "target": "monster_material",
           "count": 1,
-          "desc": "Confirm algorithm download."
+          "desc": "Confirm algorithm download.",
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -3573,9 +3631,10 @@
         },
         {
           "type": "collect",
-          "target": "manufacturing_assessment",
+          "target": "crystal_core",
           "count": 2,
-          "desc": "Complete manufacturing assessment."
+          "desc": "Complete manufacturing assessment.",
+          "description": "Collect crystal core (x2)."
         }
       ],
       "rewards": {
@@ -3623,9 +3682,10 @@
         },
         {
           "type": "collect",
-          "target": "override_success",
+          "target": "crystal_core",
           "count": 1,
-          "desc": "Confirm all systems overridden."
+          "desc": "Confirm all systems overridden.",
+          "description": "Collect crystal core (x1)."
         }
       ],
       "rewards": {
@@ -3673,9 +3733,10 @@
         },
         {
           "type": "collect",
-          "target": "qa_report",
+          "target": "raw_aethel_fragment",
           "count": 1,
-          "desc": "File QA clearance report."
+          "desc": "File QA clearance report.",
+          "description": "Collect raw aethel fragment (x1)."
         }
       ],
       "rewards": {
@@ -3773,9 +3834,10 @@
         },
         {
           "type": "collect",
-          "target": "workflow_optimized",
+          "target": "monster_material",
           "count": 1,
-          "desc": "Confirm workflow optimized."
+          "desc": "Confirm workflow optimized.",
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -3823,9 +3885,10 @@
         },
         {
           "type": "collect",
-          "target": "mass_production_online",
+          "target": "void_channeler_core",
           "count": 1,
-          "desc": "Confirm mass production online."
+          "desc": "Confirm mass production online.",
+          "description": "Collect void channeler core (x1)."
         }
       ],
       "rewards": {
@@ -3873,9 +3936,10 @@
         },
         {
           "type": "collect",
-          "target": "reprogramming_complete",
+          "target": "core_fragment",
           "count": 1,
-          "desc": "Confirm reprogramming."
+          "desc": "Confirm reprogramming.",
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -3923,9 +3987,10 @@
         },
         {
           "type": "collect",
-          "target": "recycling_yield_report",
+          "target": "titan_core",
           "count": 1,
-          "desc": "Report recycling yield."
+          "desc": "Report recycling yield.",
+          "description": "Collect titan core (x1)."
         }
       ],
       "rewards": {
@@ -4031,9 +4096,10 @@
         },
         {
           "type": "collect",
-          "target": "executive_legend_cert",
+          "target": "monster_material",
           "count": 1,
-          "desc": "Receive Executive Legend certification."
+          "desc": "Receive Executive Legend certification.",
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -4085,9 +4151,10 @@
         },
         {
           "type": "collect",
-          "target": "tech_cache",
+          "target": "monster_material",
           "count": 3,
-          "desc": "Acquire Precursor technology caches."
+          "desc": "Acquire Precursor technology caches.",
+          "description": "Collect monster material (x3)."
         }
       ],
       "rewards": {
@@ -4135,9 +4202,10 @@
         },
         {
           "type": "collect",
-          "target": "sector_secured",
+          "target": "raw_aethel_fragment",
           "count": 3,
-          "desc": "Confirm sectors secured."
+          "desc": "Confirm sectors secured.",
+          "description": "Collect raw aethel fragment (x3)."
         }
       ],
       "rewards": {
@@ -4179,9 +4247,10 @@
       "objectives": [
         {
           "type": "collect",
-          "target": "tech_database",
+          "target": "raw_aethel_fragment",
           "count": 5,
-          "desc": "Download Precursor tech database."
+          "desc": "Download Precursor tech database.",
+          "description": "Collect raw aethel fragment (x5)."
         },
         {
           "type": "kill",
@@ -4235,9 +4304,10 @@
         },
         {
           "type": "collect",
-          "target": "deletion_verified",
+          "target": "ancient_scale",
           "count": 1,
-          "desc": "Verify deletion."
+          "desc": "Verify deletion.",
+          "description": "Collect ancient scale (x1)."
         }
       ],
       "rewards": {
@@ -4289,9 +4359,10 @@
         },
         {
           "type": "collect",
-          "target": "uninstall_verified",
+          "target": "void_core",
           "count": 1,
-          "desc": "Verify uninstall complete."
+          "desc": "Verify uninstall complete.",
+          "description": "Collect void core (x1)."
         }
       ],
       "rewards": {
@@ -4343,9 +4414,10 @@
         },
         {
           "type": "collect",
-          "target": "format_verified",
+          "target": "monster_material",
           "count": 1,
-          "desc": "Verify format complete."
+          "desc": "Verify format complete.",
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -4461,9 +4533,10 @@
         },
         {
           "type": "collect",
-          "target": "integration_beacon",
+          "target": "monster_material",
           "count": 5,
-          "desc": "Deploy integration beacons."
+          "desc": "Deploy integration beacons.",
+          "description": "Collect monster material (x5)."
         }
       ],
       "rewards": {
@@ -4505,9 +4578,10 @@
       "objectives": [
         {
           "type": "collect",
-          "target": "source_code_access",
+          "target": "monster_material",
           "count": 3,
-          "desc": "Obtain source code access keys."
+          "desc": "Obtain source code access keys.",
+          "description": "Collect monster material (x3)."
         },
         {
           "type": "kill",
@@ -4567,9 +4641,10 @@
         },
         {
           "type": "collect",
-          "target": "compile_success",
+          "target": "void_channeler_core",
           "count": 1,
-          "desc": "Confirm successful compile."
+          "desc": "Confirm successful compile.",
+          "description": "Collect void channeler core (x1)."
         }
       ],
       "rewards": {
@@ -4717,9 +4792,10 @@
         },
         {
           "type": "collect",
-          "target": "legacy_removal_done",
+          "target": "monster_material",
           "count": 1,
-          "desc": "Confirm legacy removal."
+          "desc": "Confirm legacy removal.",
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -4923,9 +4999,10 @@
         },
         {
           "type": "collect",
-          "target": "backup_complete",
+          "target": "core_fragment",
           "count": 1,
-          "desc": "Confirm backup complete."
+          "desc": "Confirm backup complete.",
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -4985,9 +5062,10 @@
         },
         {
           "type": "collect",
-          "target": "override_certificate",
+          "target": "monster_material",
           "count": 1,
-          "desc": "Confirm Final Override."
+          "desc": "Confirm Final Override.",
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -5055,9 +5133,10 @@
         },
         {
           "type": "collect",
-          "target": "singularity_seal",
+          "target": "void_core",
           "count": 1,
-          "desc": "CLAIM THE SINGULARITY SEAL."
+          "desc": "CLAIM THE SINGULARITY SEAL.",
+          "description": "Collect void core (x1)."
         }
       ],
       "rewards": {

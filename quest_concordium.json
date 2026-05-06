@@ -27,9 +27,9 @@
         },
         {
           "type": "collect",
-          "target": "supply_token",
+          "target": "slime_gel",
           "count": 1,
-          "description": "Collect a supply token from the secured checkpoint."
+          "description": "Collect slime gel (x1)."
         }
       ],
       "rewards": {
@@ -81,9 +81,9 @@
         },
         {
           "type": "collect",
-          "target": "patrol_report",
+          "target": "minor_essence",
           "count": 1,
-          "description": "Gather an intel report from the patrol waypoint."
+          "description": "Collect minor essence (x1)."
         }
       ],
       "rewards": {
@@ -131,9 +131,9 @@
         },
         {
           "type": "collect",
-          "target": "mite_ichor_sample",
+          "target": "mite_chitin",
           "count": 3,
-          "description": "Collect Mite Ichor samples for research."
+          "description": "Collect mite chitin (x3)."
         }
       ],
       "rewards": {
@@ -181,9 +181,9 @@
         },
         {
           "type": "collect",
-          "target": "rootling_vine",
+          "target": "living_root",
           "count": 4,
-          "description": "Harvest Rootling Vines for the quartermaster."
+          "description": "Collect living root (x4)."
         }
       ],
       "rewards": {
@@ -303,9 +303,9 @@
         },
         {
           "type": "collect",
-          "target": "faction_beacon",
+          "target": "crawler_chitin",
           "count": 1,
-          "description": "Plant a Concordium faction beacon at the forward post."
+          "description": "Collect crawler chitin (x1)."
         }
       ],
       "rewards": {
@@ -353,9 +353,9 @@
         },
         {
           "type": "collect",
-          "target": "salvaged_supply_crate",
+          "target": "rusted_scrap",
           "count": 2,
-          "description": "Recover salvaged supply crates."
+          "description": "Collect rusted scrap (x2)."
         }
       ],
       "rewards": {
@@ -565,9 +565,9 @@
         },
         {
           "type": "collect",
-          "target": "recon_data",
+          "target": "void_fragment",
           "count": 3,
-          "description": "Gather reconnaissance data from scanner points."
+          "description": "Collect void fragment (x3)."
         }
       ],
       "rewards": {
@@ -615,9 +615,9 @@
         },
         {
           "type": "collect",
-          "target": "anomaly_essence",
+          "target": "wild_hide",
           "count": 3,
-          "description": "Collect Anomaly Essence from defeated wolves."
+          "description": "Collect wild hide (x3)."
         }
       ],
       "rewards": {
@@ -665,9 +665,9 @@
         },
         {
           "type": "collect",
-          "target": "beastling_claw",
+          "target": "void_fragment",
           "count": 4,
-          "description": "Collect Beastling Claws for analysis."
+          "description": "Collect void fragment (x4)."
         }
       ],
       "rewards": {
@@ -715,9 +715,9 @@
         },
         {
           "type": "collect",
-          "target": "fragment_core",
+          "target": "aethel_fragment",
           "count": 3,
-          "description": "Secure Fragment Cores from defeated beasts."
+          "description": "Collect aethel fragment (x3)."
         }
       ],
       "rewards": {
@@ -809,9 +809,9 @@
       "objectives": [
         {
           "type": "collect",
-          "target": "tactical_data_slate",
+          "target": "void_fragment",
           "count": 3,
-          "description": "Recover Tactical Data Slates from fallen scouts."
+          "description": "Collect void fragment (x3)."
         },
         {
           "type": "kill",
@@ -865,9 +865,9 @@
         },
         {
           "type": "collect",
-          "target": "void_breach_shard",
+          "target": "aethel_fragment",
           "count": 2,
-          "description": "Seal the void breach and collect residual shards."
+          "description": "Collect aethel fragment (x2)."
         }
       ],
       "rewards": {
@@ -1025,9 +1025,9 @@
         },
         {
           "type": "collect",
-          "target": "advanced_class_badge",
+          "target": "void_fragment",
           "count": 1,
-          "description": "Report to the quartermaster for your evaluation badge."
+          "description": "Collect void fragment (x1)."
         }
       ],
       "rewards": {
@@ -1079,9 +1079,9 @@
         },
         {
           "type": "collect",
-          "target": "exclusion_intel",
+          "target": "monster_material",
           "count": 2,
-          "description": "Gather intel from the exclusion perimeter."
+          "description": "Collect monster material (x2)."
         }
       ],
       "rewards": {
@@ -1129,9 +1129,9 @@
         },
         {
           "type": "collect",
-          "target": "mutant_tissue",
+          "target": "mutant_claw",
           "count": 3,
-          "description": "Collect Mutant Tissue samples for the biologis."
+          "description": "Collect mutant claw (x3)."
         }
       ],
       "rewards": {
@@ -1229,9 +1229,9 @@
         },
         {
           "type": "collect",
-          "target": "sentinel_core",
+          "target": "aethel_core_shard",
           "count": 2,
-          "description": "Salvage Sentinel Cores for the tech division."
+          "description": "Collect aethel core shard (x2)."
         }
       ],
       "rewards": {
@@ -1279,9 +1279,9 @@
         },
         {
           "type": "collect",
-          "target": "void_stalker_essence",
+          "target": "core_fragment",
           "count": 1,
-          "description": "Extract the Stalker's essence core for study."
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -1379,9 +1379,9 @@
         },
         {
           "type": "collect",
-          "target": "expanse_survey_data",
+          "target": "core_fragment",
           "count": 2,
-          "description": "Survey and map the Expanse territory."
+          "description": "Collect core fragment (x2)."
         }
       ],
       "rewards": {
@@ -1429,9 +1429,9 @@
         },
         {
           "type": "collect",
-          "target": "rift_energy_sample",
+          "target": "rift_claw_fragment",
           "count": 2,
-          "description": "Collect rift energy samples for analysis."
+          "description": "Collect rift claw fragment (x2)."
         }
       ],
       "rewards": {
@@ -1593,9 +1593,9 @@
         },
         {
           "type": "collect",
-          "target": "orbital_briefing",
+          "target": "monster_material",
           "count": 1,
-          "description": "Receive your orbital operations briefing."
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -1643,9 +1643,9 @@
         },
         {
           "type": "collect",
-          "target": "iron_carapace_plate",
+          "target": "carapace_fragment",
           "count": 3,
-          "description": "Harvest Iron Carapace plates for armor forging."
+          "description": "Collect carapace fragment (x3)."
         }
       ],
       "rewards": {
@@ -1743,9 +1743,9 @@
         },
         {
           "type": "collect",
-          "target": "void_channel_focus",
+          "target": "raw_aethel_fragment",
           "count": 2,
-          "description": "Seize the Void Channel Focus crystals."
+          "description": "Collect raw aethel fragment (x2)."
         }
       ],
       "rewards": {
@@ -1793,9 +1793,9 @@
         },
         {
           "type": "collect",
-          "target": "abyssal_invocation_stone",
+          "target": "void_channeler_core",
           "count": 1,
-          "description": "Recover an Abyssal Invocation Stone for analysis."
+          "description": "Collect void channeler core (x1)."
         }
       ],
       "rewards": {
@@ -1893,9 +1893,9 @@
         },
         {
           "type": "collect",
-          "target": "drake_scale_sample",
+          "target": "ancient_scale",
           "count": 1,
-          "description": "Recover a fallen Drake scale for high command."
+          "description": "Collect ancient scale (x1)."
         }
       ],
       "rewards": {
@@ -2111,9 +2111,9 @@
         },
         {
           "type": "collect",
-          "target": "ancient_relic",
+          "target": "core_fragment",
           "count": 2,
-          "description": "Retrieve ancient relics from the chasm depths."
+          "description": "Collect core fragment (x2)."
         }
       ],
       "rewards": {
@@ -2161,9 +2161,9 @@
         },
         {
           "type": "collect",
-          "target": "void_reaver_essence",
+          "target": "void_fragment",
           "count": 2,
-          "description": "Collect Void Reaver essence for containment."
+          "description": "Collect void fragment (x2)."
         }
       ],
       "rewards": {
@@ -2211,9 +2211,9 @@
         },
         {
           "type": "collect",
-          "target": "harbinger_sigil_fragment",
+          "target": "void_channeler_core",
           "count": 3,
-          "description": "Collect fragments of Harbinger sigils."
+          "description": "Collect void channeler core (x3)."
         }
       ],
       "rewards": {
@@ -2311,9 +2311,9 @@
         },
         {
           "type": "collect",
-          "target": "corrupted_core",
+          "target": "crystal_core",
           "count": 1,
-          "description": "Extract a purified Corrupted Core for study."
+          "description": "Collect crystal core (x1)."
         }
       ],
       "rewards": {
@@ -2355,9 +2355,9 @@
       "objectives": [
         {
           "type": "collect",
-          "target": "ancient_concordium_log",
+          "target": "void_channeler_core",
           "count": 3,
-          "description": "Recover ancient Concordium data logs."
+          "description": "Collect void channeler core (x3)."
         },
         {
           "type": "kill",
@@ -2465,9 +2465,9 @@
         },
         {
           "type": "collect",
-          "target": "tyrant_crystal_shard",
+          "target": "monster_material",
           "count": 1,
-          "description": "Collect a Tyrant Crystal Shard for weapons research."
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -2515,9 +2515,9 @@
         },
         {
           "type": "collect",
-          "target": "heart_survey_data",
+          "target": "thick_gel",
           "count": 2,
-          "description": "Survey the Shattered Heart for base establishment."
+          "description": "Collect thick gel (x2)."
         }
       ],
       "rewards": {
@@ -2629,9 +2629,9 @@
         },
         {
           "type": "collect",
-          "target": "fragmented_soul_essence",
+          "target": "monster_material",
           "count": 1,
-          "description": "Contain the Fragmented Soul Essence."
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -2733,9 +2733,9 @@
         },
         {
           "type": "collect",
-          "target": "void_stalker_mark",
+          "target": "core_fragment",
           "count": 1,
-          "description": "Claim the Void Stalker's mark as proof."
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -2783,9 +2783,9 @@
         },
         {
           "type": "collect",
-          "target": "chrono_stabilizer",
+          "target": "monster_material",
           "count": 1,
-          "description": "Deploy temporal stabilizers at the rift points."
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -2883,9 +2883,9 @@
         },
         {
           "type": "collect",
-          "target": "jotunn_core",
+          "target": "core_fragment",
           "count": 2,
-          "description": "Extract Jotunn Cores to prevent resurrection."
+          "description": "Collect core fragment (x2)."
         }
       ],
       "rewards": {
@@ -2989,9 +2989,9 @@
         },
         {
           "type": "collect",
-          "target": "harbinger_ward_key",
+          "target": "core_fragment",
           "count": 1,
-          "description": "Forge the Harbinger Ward Key from collected sigils."
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -3089,9 +3089,9 @@
         },
         {
           "type": "collect",
-          "target": "harbinger_essence_core",
+          "target": "void_core",
           "count": 1,
-          "description": "Claim the Harbinger Essence Core."
+          "description": "Collect void core (x1)."
         }
       ],
       "rewards": {
@@ -3147,9 +3147,9 @@
         },
         {
           "type": "collect",
-          "target": "seismic_data",
+          "target": "stinger_core",
           "count": 3,
-          "description": "Collect seismic data from the fault points."
+          "description": "Collect stinger core (x3)."
         }
       ],
       "rewards": {
@@ -3197,9 +3197,9 @@
         },
         {
           "type": "collect",
-          "target": "tectonic_sample",
+          "target": "carapace_fragment",
           "count": 3,
-          "description": "Gather tectonic mineral samples."
+          "description": "Collect carapace fragment (x3)."
         }
       ],
       "rewards": {
@@ -3297,9 +3297,9 @@
         },
         {
           "type": "collect",
-          "target": "jotunn_migration_data",
+          "target": "monster_material",
           "count": 1,
-          "description": "Record Jotunn migration patterns for Concordium."
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -3347,9 +3347,9 @@
         },
         {
           "type": "collect",
-          "target": "siphon_diagnostic",
+          "target": "thick_hide",
           "count": 2,
-          "description": "Run diagnostics on the Siphon Core systems."
+          "description": "Collect thick hide (x2)."
         }
       ],
       "rewards": {
@@ -3447,9 +3447,9 @@
         },
         {
           "type": "collect",
-          "target": "conduit_stabilizer",
+          "target": "crystal_core",
           "count": 1,
-          "description": "Deploy emergency conduit stabilizers."
+          "description": "Collect crystal core (x1)."
         }
       ],
       "rewards": {
@@ -3541,9 +3541,9 @@
       "objectives": [
         {
           "type": "collect",
-          "target": "titan_resonance_data",
+          "target": "core_fragment",
           "count": 3,
-          "description": "Collect Titan Resonance Data from seismic stations."
+          "description": "Collect core fragment (x3)."
         },
         {
           "type": "kill",
@@ -3603,9 +3603,9 @@
         },
         {
           "type": "collect",
-          "target": "titan_gravity_core",
+          "target": "void_channeler_core",
           "count": 1,
-          "description": "Secure the Titan Gravity Core."
+          "description": "Collect void channeler core (x1)."
         }
       ],
       "rewards": {
@@ -3661,9 +3661,9 @@
         },
         {
           "type": "collect",
-          "target": "prima_materia_sample",
+          "target": "void_channeler_core",
           "count": 2,
-          "description": "Collect Prima Materia samples for Concordium science."
+          "description": "Collect void channeler core (x2)."
         }
       ],
       "rewards": {
@@ -3761,9 +3761,9 @@
         },
         {
           "type": "collect",
-          "target": "forge_energy_cell",
+          "target": "crystal_core",
           "count": 2,
-          "description": "Recover Forge Energy Cells for power restoration."
+          "description": "Collect crystal core (x2)."
         }
       ],
       "rewards": {
@@ -3811,9 +3811,9 @@
         },
         {
           "type": "collect",
-          "target": "purified_materia",
+          "target": "void_channeler_core",
           "count": 3,
-          "description": "Collect Purified Materia from secured chambers."
+          "description": "Collect void channeler core (x3)."
         }
       ],
       "rewards": {
@@ -3917,9 +3917,9 @@
         },
         {
           "type": "collect",
-          "target": "prima_materia_crate",
+          "target": "raw_aethel_fragment",
           "count": 2,
-          "description": "Secure Prima Materia crates for Concordium."
+          "description": "Collect raw aethel fragment (x2)."
         }
       ],
       "rewards": {
@@ -3967,9 +3967,9 @@
         },
         {
           "type": "collect",
-          "target": "automaton_schematic",
+          "target": "core_fragment",
           "count": 1,
-          "description": "Recover Automaton Schematics for the tech division."
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -4129,9 +4129,9 @@
         },
         {
           "type": "collect",
-          "target": "legend_commendation",
+          "target": "monster_material",
           "count": 1,
-          "description": "Receive the Concordium Legend Commendation."
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -4183,9 +4183,9 @@
         },
         {
           "type": "collect",
-          "target": "precursor_archive",
+          "target": "void_channeler_core",
           "count": 3,
-          "description": "Recover Precursor Archives from the city."
+          "description": "Collect void channeler core (x3)."
         }
       ],
       "rewards": {
@@ -4277,9 +4277,9 @@
       "objectives": [
         {
           "type": "collect",
-          "target": "world_engine_data",
+          "target": "abyssal_reaver_claw",
           "count": 4,
-          "description": "Extract World Engine data from Precursor terminals."
+          "description": "Collect abyssal reaver claw (x4)."
         },
         {
           "type": "kill",
@@ -4559,9 +4559,9 @@
         },
         {
           "type": "collect",
-          "target": "sovereignty_beacon",
+          "target": "raw_aethel_fragment",
           "count": 5,
-          "description": "Deploy Concordium Sovereignty Beacons."
+          "description": "Collect raw aethel fragment (x5)."
         }
       ],
       "rewards": {
@@ -4603,9 +4603,9 @@
       "objectives": [
         {
           "type": "collect",
-          "target": "world_engine_access_key",
+          "target": "monster_material",
           "count": 3,
-          "description": "Activate World Engine access terminals."
+          "description": "Collect monster material (x3)."
         },
         {
           "type": "kill",
@@ -4665,9 +4665,9 @@
         },
         {
           "type": "collect",
-          "target": "engine_activation_sequence",
+          "target": "raw_aethel_fragment",
           "count": 1,
-          "description": "Complete the World Engine activation sequence."
+          "description": "Collect raw aethel fragment (x1)."
         }
       ],
       "rewards": {
@@ -5021,9 +5021,9 @@
         },
         {
           "type": "collect",
-          "target": "eternity_seal_fragment",
+          "target": "monster_material",
           "count": 3,
-          "description": "Channel your power into the Eternity Seal."
+          "description": "Collect monster material (x3)."
         }
       ],
       "rewards": {
@@ -5083,9 +5083,9 @@
         },
         {
           "type": "collect",
-          "target": "eternity_seal",
+          "target": "drake_heart",
           "count": 1,
-          "description": "Forge the Eternity Seal from their essences."
+          "description": "Collect drake heart (x1)."
         }
       ],
       "rewards": {
@@ -5153,9 +5153,9 @@
         },
         {
           "type": "collect",
-          "target": "eternal_crown",
+          "target": "abyss_fragment",
           "count": 1,
-          "description": "CLAIM THE ETERNAL CROWN."
+          "description": "Collect abyss fragment (x1)."
         }
       ],
       "rewards": {

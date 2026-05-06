@@ -27,9 +27,10 @@
         },
         {
           "type": "collect",
-          "target": "reclamation_manifest",
+          "target": "rat_tail",
           "count": 1,
-          "desc": "File your reclamation manifest."
+          "desc": "File your reclamation manifest.",
+          "description": "Collect rat tail (x1)."
         }
       ],
       "rewards": {
@@ -81,9 +82,10 @@
         },
         {
           "type": "collect",
-          "target": "tidal_zone_report",
+          "target": "crab_shell",
           "count": 1,
-          "desc": "Submit tidal zone asset report."
+          "desc": "Submit tidal zone asset report.",
+          "description": "Collect crab shell (x1)."
         }
       ],
       "rewards": {
@@ -131,9 +133,10 @@
         },
         {
           "type": "collect",
-          "target": "crab_shell_shipment",
+          "target": "crab_shell",
           "count": 3,
-          "desc": "Collect shells for export."
+          "desc": "Collect shells for export.",
+          "description": "Collect crab shell (x3)."
         }
       ],
       "rewards": {
@@ -181,9 +184,10 @@
         },
         {
           "type": "collect",
-          "target": "aethel_mud_sample",
+          "target": "mud_core",
           "count": 3,
-          "desc": "Extract Aethel-infused mud samples."
+          "desc": "Extract Aethel-infused mud samples.",
+          "description": "Collect mud core (x3)."
         }
       ],
       "rewards": {
@@ -303,9 +307,10 @@
         },
         {
           "type": "collect",
-          "target": "trading_post_beacon",
+          "target": "drake_heart",
           "count": 1,
-          "desc": "Deploy a trading post beacon."
+          "desc": "Deploy a trading post beacon.",
+          "description": "Collect drake heart (x1)."
         }
       ],
       "rewards": {
@@ -353,9 +358,10 @@
         },
         {
           "type": "collect",
-          "target": "stalker_harvest",
+          "target": "stalker_fang",
           "count": 2,
-          "desc": "Recover stolen Cartel supplies."
+          "desc": "Recover stolen Cartel supplies.",
+          "description": "Collect stalker fang (x2)."
         }
       ],
       "rewards": {
@@ -403,9 +409,10 @@
         },
         {
           "type": "collect",
-          "target": "ripper_hide",
+          "target": "swamp_scale",
           "count": 3,
-          "desc": "Collect Ripper hide \u2014 still tradable."
+          "desc": "Collect Ripper hide \u2014 still tradable.",
+          "description": "Collect swamp scale (x3)."
         }
       ],
       "rewards": {
@@ -453,9 +460,10 @@
         },
         {
           "type": "collect",
-          "target": "venomfang_venom_vial",
+          "target": "venom_sac",
           "count": 3,
-          "desc": "Secure venom vials for market."
+          "desc": "Secure venom vials for market.",
+          "description": "Collect venom sac (x3)."
         }
       ],
       "rewards": {
@@ -503,9 +511,10 @@
         },
         {
           "type": "collect",
-          "target": "golem_inventory",
+          "target": "contraband_core",
           "count": 1,
-          "desc": "Seize the Golem's inventory manifest."
+          "desc": "Seize the Golem's inventory manifest.",
+          "description": "Collect contraband core (x1)."
         }
       ],
       "rewards": {
@@ -553,9 +562,10 @@
         },
         {
           "type": "collect",
-          "target": "market_security_report",
+          "target": "thick_hide",
           "count": 2,
-          "desc": "File your market security assessment."
+          "desc": "File your market security assessment.",
+          "description": "Collect thick hide (x2)."
         }
       ],
       "rewards": {
@@ -603,9 +613,10 @@
         },
         {
           "type": "collect",
-          "target": "collected_commission",
+          "target": "contraband_core",
           "count": 1,
-          "desc": "Collect outstanding commission."
+          "desc": "Collect outstanding commission.",
+          "description": "Collect contraband core (x1)."
         }
       ],
       "rewards": {
@@ -653,9 +664,10 @@
         },
         {
           "type": "collect",
-          "target": "assassin_contract",
+          "target": "mutant_claw",
           "count": 1,
-          "desc": "Seize their assassination contracts."
+          "desc": "Seize their assassination contracts.",
+          "description": "Collect mutant claw (x1)."
         }
       ],
       "rewards": {
@@ -703,9 +715,10 @@
         },
         {
           "type": "collect",
-          "target": "protection_racket_deed",
+          "target": "rare_emblem",
           "count": 1,
-          "desc": "Claim the protection racket deed."
+          "desc": "Claim the protection racket deed.",
+          "description": "Collect rare emblem (x1)."
         }
       ],
       "rewards": {
@@ -803,9 +816,10 @@
         },
         {
           "type": "collect",
-          "target": "market_share_report",
+          "target": "contraband_core",
           "count": 1,
-          "desc": "Report expanded market share."
+          "desc": "Report expanded market share.",
+          "description": "Collect contraband core (x1)."
         }
       ],
       "rewards": {
@@ -847,9 +861,10 @@
       "objectives": [
         {
           "type": "collect",
-          "target": "missing_shipment",
+          "target": "contraband_core",
           "count": 4,
-          "desc": "Recover missing inventory shipments."
+          "desc": "Recover missing inventory shipments.",
+          "description": "Collect contraband core (x4)."
         },
         {
           "type": "kill",
@@ -903,9 +918,10 @@
         },
         {
           "type": "collect",
-          "target": "enforcer_cartel_ledger",
+          "target": "contraband_core",
           "count": 1,
-          "desc": "Seize their operations ledger."
+          "desc": "Seize their operations ledger.",
+          "description": "Collect contraband core (x1)."
         }
       ],
       "rewards": {
@@ -1003,9 +1019,10 @@
         },
         {
           "type": "collect",
-          "target": "advanced_contract",
+          "target": "core_fragment",
           "count": 1,
-          "desc": "Sign your Advanced Contractor contract."
+          "desc": "Sign your Advanced Contractor contract.",
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -1053,9 +1070,10 @@
         },
         {
           "type": "collect",
-          "target": "ruin_asset_manifest",
+          "target": "monster_material",
           "count": 2,
-          "desc": "Catalog acquirable assets."
+          "desc": "Catalog acquirable assets.",
+          "description": "Collect monster material (x2)."
         }
       ],
       "rewards": {
@@ -1103,9 +1121,10 @@
         },
         {
           "type": "collect",
-          "target": "purifier_chamber_access",
+          "target": "aethel_crystal_core",
           "count": 2,
-          "desc": "Secure chamber access codes."
+          "desc": "Secure chamber access codes.",
+          "description": "Collect aethel crystal core (x2)."
         }
       ],
       "rewards": {
@@ -1153,9 +1172,10 @@
         },
         {
           "type": "collect",
-          "target": "vault_content_manifest",
+          "target": "aethel_core_shard",
           "count": 1,
-          "desc": "Catalog the vault contents."
+          "desc": "Catalog the vault contents.",
+          "description": "Collect aethel core shard (x1)."
         }
       ],
       "rewards": {
@@ -1203,9 +1223,10 @@
         },
         {
           "type": "collect",
-          "target": "behemoth_organ_manifest",
+          "target": "raw_aethel_core",
           "count": 1,
-          "desc": "File the organ harvesting manifest."
+          "desc": "File the organ harvesting manifest.",
+          "description": "Collect raw aethel core (x1)."
         }
       ],
       "rewards": {
@@ -1253,9 +1274,10 @@
         },
         {
           "type": "collect",
-          "target": "leviathan_commodity_report",
+          "target": "leviathan_scale",
           "count": 1,
-          "desc": "Submit commodity valuation report."
+          "desc": "Submit commodity valuation report.",
+          "description": "Collect leviathan scale (x1)."
         }
       ],
       "rewards": {
@@ -1303,9 +1325,10 @@
         },
         {
           "type": "collect",
-          "target": "storm_belt_market_data",
+          "target": "core_fragment",
           "count": 2,
-          "desc": "Gather market intelligence."
+          "desc": "Gather market intelligence.",
+          "description": "Collect core fragment (x2)."
         }
       ],
       "rewards": {
@@ -1353,9 +1376,10 @@
         },
         {
           "type": "collect",
-          "target": "serpent_energy_cell",
+          "target": "storm_core",
           "count": 2,
-          "desc": "Collect energy cells for market."
+          "desc": "Collect energy cells for market.",
+          "description": "Collect storm core (x2)."
         }
       ],
       "rewards": {
@@ -1403,9 +1427,10 @@
         },
         {
           "type": "collect",
-          "target": "leviathan_harvest_report",
+          "target": "slime_core",
           "count": 1,
-          "desc": "File harvest yield report."
+          "desc": "File harvest yield report.",
+          "description": "Collect slime core (x1)."
         }
       ],
       "rewards": {
@@ -1453,9 +1478,10 @@
         },
         {
           "type": "collect",
-          "target": "sentinel_variant_catalog",
+          "target": "aethel_core_shard",
           "count": 1,
-          "desc": "Complete the Sentinel variant catalog."
+          "desc": "Complete the Sentinel variant catalog.",
+          "description": "Collect aethel core shard (x1)."
         }
       ],
       "rewards": {
@@ -1567,9 +1593,10 @@
         },
         {
           "type": "collect",
-          "target": "orbital_trade_license",
+          "target": "core_fragment",
           "count": 1,
-          "desc": "Secure the orbital trade license."
+          "desc": "Secure the orbital trade license.",
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -1617,9 +1644,10 @@
         },
         {
           "type": "collect",
-          "target": "cargo_loss_report",
+          "target": "ancient_scale",
           "count": 1,
-          "desc": "File reduced cargo loss report."
+          "desc": "File reduced cargo loss report.",
+          "description": "Collect ancient scale (x1)."
         }
       ],
       "rewards": {
@@ -1667,9 +1695,10 @@
         },
         {
           "type": "collect",
-          "target": "carapace_plate_shipment",
+          "target": "carapace_fragment",
           "count": 3,
-          "desc": "Prepare armor plate shipments."
+          "desc": "Prepare armor plate shipments.",
+          "description": "Collect carapace fragment (x3)."
         }
       ],
       "rewards": {
@@ -1717,9 +1746,10 @@
         },
         {
           "type": "collect",
-          "target": "facility_damage_report",
+          "target": "crystal_core",
           "count": 1,
-          "desc": "File zero-damage facility report."
+          "desc": "File zero-damage facility report.",
+          "description": "Collect crystal core (x1)."
         }
       ],
       "rewards": {
@@ -1767,9 +1797,10 @@
         },
         {
           "type": "collect",
-          "target": "abyssal_material_sample",
+          "target": "abyssal_reaver_claw",
           "count": 2,
-          "desc": "Collect void-touched material samples."
+          "desc": "Collect void-touched material samples.",
+          "description": "Collect abyssal reaver claw (x2)."
         }
       ],
       "rewards": {
@@ -1867,9 +1898,10 @@
         },
         {
           "type": "collect",
-          "target": "drake_asset_report",
+          "target": "ancient_scale",
           "count": 1,
-          "desc": "File Drake asset recovery report."
+          "desc": "File Drake asset recovery report.",
+          "description": "Collect ancient scale (x1)."
         }
       ],
       "rewards": {
@@ -1917,9 +1949,10 @@
         },
         {
           "type": "collect",
-          "target": "market_dominance_report",
+          "target": "alpha_fang",
           "count": 1,
-          "desc": "File market dominance confirmation."
+          "desc": "File market dominance confirmation.",
+          "description": "Collect alpha fang (x1)."
         }
       ],
       "rewards": {
@@ -2081,9 +2114,10 @@
         },
         {
           "type": "collect",
-          "target": "void_market_survey",
+          "target": "thick_hide",
           "count": 2,
-          "desc": "Complete void market survey."
+          "desc": "Complete void market survey.",
+          "description": "Collect thick hide (x2)."
         }
       ],
       "rewards": {
@@ -2131,9 +2165,10 @@
         },
         {
           "type": "collect",
-          "target": "void_essence_shipment",
+          "target": "void_fragment",
           "count": 1,
-          "desc": "Prepare first void essence shipment."
+          "desc": "Prepare first void essence shipment.",
+          "description": "Collect void fragment (x1)."
         }
       ],
       "rewards": {
@@ -2181,9 +2216,10 @@
         },
         {
           "type": "collect",
-          "target": "channeler_market_share",
+          "target": "raw_aethel_fragment",
           "count": 1,
-          "desc": "Claim their market share."
+          "desc": "Claim their market share.",
+          "description": "Collect raw aethel fragment (x1)."
         }
       ],
       "rewards": {
@@ -2231,9 +2267,10 @@
         },
         {
           "type": "collect",
-          "target": "harvest_yield_report",
+          "target": "abyssal_reaver_claw",
           "count": 1,
-          "desc": "Report harvest yield to the board."
+          "desc": "Report harvest yield to the board.",
+          "description": "Collect abyssal reaver claw (x1)."
         }
       ],
       "rewards": {
@@ -2281,9 +2318,10 @@
         },
         {
           "type": "collect",
-          "target": "asset_recovery_report",
+          "target": "crystal_core",
           "count": 1,
-          "desc": "Report asset recovery status."
+          "desc": "Report asset recovery status.",
+          "description": "Collect crystal core (x1)."
         }
       ],
       "rewards": {
@@ -2331,9 +2369,10 @@
         },
         {
           "type": "collect",
-          "target": "productivity_report",
+          "target": "core_fragment",
           "count": 1,
-          "desc": "Report restored productivity metrics."
+          "desc": "Report restored productivity metrics.",
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -2381,9 +2420,10 @@
         },
         {
           "type": "collect",
-          "target": "temporal_stability_report",
+          "target": "monster_material",
           "count": 1,
-          "desc": "Confirm temporal market stability."
+          "desc": "Confirm temporal market stability.",
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -2431,9 +2471,10 @@
         },
         {
           "type": "collect",
-          "target": "mineral_deposit_claim",
+          "target": "core_fragment",
           "count": 1,
-          "desc": "File mineral deposit claim."
+          "desc": "File mineral deposit claim.",
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -2481,9 +2522,10 @@
         },
         {
           "type": "collect",
-          "target": "heart_market_analysis",
+          "target": "ancient_scale",
           "count": 1,
-          "desc": "Complete market entry analysis."
+          "desc": "Complete market entry analysis.",
+          "description": "Collect ancient scale (x1)."
         }
       ],
       "rewards": {
@@ -2537,9 +2579,10 @@
         },
         {
           "type": "collect",
-          "target": "drake_asset_sheet",
+          "target": "drake_heart",
           "count": 1,
-          "desc": "File complete Drake asset recovery sheet."
+          "desc": "File complete Drake asset recovery sheet.",
+          "description": "Collect drake heart (x1)."
         }
       ],
       "rewards": {
@@ -2595,9 +2638,10 @@
         },
         {
           "type": "collect",
-          "target": "risk_mitigation_report",
+          "target": "monster_material",
           "count": 1,
-          "desc": "File Risk Management completion."
+          "desc": "File Risk Management completion.",
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -2695,9 +2739,10 @@
         },
         {
           "type": "collect",
-          "target": "hostile_bid_rejected",
+          "target": "core_fragment",
           "count": 1,
-          "desc": "Confirm hostile bid rejection."
+          "desc": "Confirm hostile bid rejection.",
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -2745,9 +2790,10 @@
         },
         {
           "type": "collect",
-          "target": "market_stability_report",
+          "target": "monster_material",
           "count": 1,
-          "desc": "Confirm market correction."
+          "desc": "Confirm market correction.",
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -2845,9 +2891,10 @@
         },
         {
           "type": "collect",
-          "target": "market_cap_report",
+          "target": "core_fragment",
           "count": 1,
-          "desc": "File devaluation report."
+          "desc": "File devaluation report.",
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -2895,9 +2942,10 @@
         },
         {
           "type": "collect",
-          "target": "divestment_report",
+          "target": "monster_material",
           "count": 1,
-          "desc": "File divestment completion report."
+          "desc": "File divestment completion report.",
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -2951,9 +2999,10 @@
         },
         {
           "type": "collect",
-          "target": "harbinger_market_analysis",
+          "target": "raw_aethel_fragment",
           "count": 1,
-          "desc": "File Harbinger market analysis."
+          "desc": "File Harbinger market analysis.",
+          "description": "Collect raw aethel fragment (x1)."
         }
       ],
       "rewards": {
@@ -3051,9 +3100,10 @@
         },
         {
           "type": "collect",
-          "target": "harbinger_market_stabilizer",
+          "target": "abyss_fragment",
           "count": 1,
-          "desc": "Claim the market stabilization asset."
+          "desc": "Claim the market stabilization asset.",
+          "description": "Collect abyss fragment (x1)."
         }
       ],
       "rewards": {
@@ -3109,9 +3159,10 @@
         },
         {
           "type": "collect",
-          "target": "infrastructure_survey",
+          "target": "monster_material",
           "count": 3,
-          "desc": "Survey infrastructure opportunities."
+          "desc": "Survey infrastructure opportunities.",
+          "description": "Collect monster material (x3)."
         }
       ],
       "rewards": {
@@ -3159,9 +3210,10 @@
         },
         {
           "type": "collect",
-          "target": "energy_mineral_shipment",
+          "target": "crystal_core",
           "count": 3,
-          "desc": "Prepare energy mineral shipments."
+          "desc": "Prepare energy mineral shipments.",
+          "description": "Collect crystal core (x3)."
         }
       ],
       "rewards": {
@@ -3209,9 +3261,10 @@
         },
         {
           "type": "collect",
-          "target": "real_estate_claim",
+          "target": "core_fragment",
           "count": 2,
-          "desc": "File real estate claims."
+          "desc": "File real estate claims.",
+          "description": "Collect core fragment (x2)."
         }
       ],
       "rewards": {
@@ -3259,9 +3312,10 @@
         },
         {
           "type": "collect",
-          "target": "domain_claim_filed",
+          "target": "monster_material",
           "count": 1,
-          "desc": "File domain claim paperwork."
+          "desc": "File domain claim paperwork.",
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -3309,9 +3363,10 @@
         },
         {
           "type": "collect",
-          "target": "power_plant_valuation",
+          "target": "raw_aethel_fragment",
           "count": 2,
-          "desc": "Complete power plant valuation."
+          "desc": "Complete power plant valuation.",
+          "description": "Collect raw aethel fragment (x2)."
         }
       ],
       "rewards": {
@@ -3409,9 +3464,10 @@
         },
         {
           "type": "collect",
-          "target": "balance_sheet_clean",
+          "target": "crystal_core",
           "count": 1,
-          "desc": "File clean balance sheet."
+          "desc": "File clean balance sheet.",
+          "description": "Collect crystal core (x1)."
         }
       ],
       "rewards": {
@@ -3459,9 +3515,10 @@
         },
         {
           "type": "collect",
-          "target": "market_stability_achieved",
+          "target": "rift_claw_fragment",
           "count": 1,
-          "desc": "Confirm market stability."
+          "desc": "Confirm market stability.",
+          "description": "Collect rift claw fragment (x1)."
         }
       ],
       "rewards": {
@@ -3503,9 +3560,10 @@
       "objectives": [
         {
           "type": "collect",
-          "target": "titan_dividend_analysis",
+          "target": "monster_material",
           "count": 3,
-          "desc": "Complete Gravity Titan dividend analysis."
+          "desc": "Complete Gravity Titan dividend analysis.",
+          "description": "Collect monster material (x3)."
         },
         {
           "type": "kill",
@@ -3565,9 +3623,10 @@
         },
         {
           "type": "collect",
-          "target": "gravity_dividend_paid",
+          "target": "raw_aethel_fragment",
           "count": 1,
-          "desc": "Confirm dividend payout complete."
+          "desc": "Confirm dividend payout complete.",
+          "description": "Collect raw aethel fragment (x1)."
         }
       ],
       "rewards": {
@@ -3623,9 +3682,10 @@
         },
         {
           "type": "collect",
-          "target": "forge_monopoly_setup",
+          "target": "void_core",
           "count": 2,
-          "desc": "Establish Forge monopoly framework."
+          "desc": "Establish Forge monopoly framework.",
+          "description": "Collect void core (x2)."
         }
       ],
       "rewards": {
@@ -3673,9 +3733,10 @@
         },
         {
           "type": "collect",
-          "target": "anti_trust_filing",
+          "target": "carapace_fragment",
           "count": 1,
-          "desc": "File anti-trust enforcement report."
+          "desc": "File anti-trust enforcement report.",
+          "description": "Collect carapace fragment (x1)."
         }
       ],
       "rewards": {
@@ -3817,9 +3878,10 @@
         },
         {
           "type": "collect",
-          "target": "union_busting_report",
+          "target": "monster_material",
           "count": 1,
-          "desc": "File union dissolution report."
+          "desc": "File union dissolution report.",
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -3867,9 +3929,10 @@
         },
         {
           "type": "collect",
-          "target": "production_quota_met",
+          "target": "void_channeler_core",
           "count": 1,
-          "desc": "Confirm 300% production quota met."
+          "desc": "Confirm 300% production quota met.",
+          "description": "Collect void channeler core (x1)."
         }
       ],
       "rewards": {
@@ -3917,9 +3980,10 @@
         },
         {
           "type": "collect",
-          "target": "automaton_acquisition_report",
+          "target": "core_fragment",
           "count": 1,
-          "desc": "File acquisition status."
+          "desc": "File acquisition status.",
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -3967,9 +4031,10 @@
         },
         {
           "type": "collect",
-          "target": "liquidation_recovery_report",
+          "target": "titan_core",
           "count": 1,
-          "desc": "File material recovery report."
+          "desc": "File material recovery report.",
+          "description": "Collect titan core (x1)."
         }
       ],
       "rewards": {
@@ -4075,9 +4140,10 @@
         },
         {
           "type": "collect",
-          "target": "executive_legend_shares",
+          "target": "refined_scrap",
           "count": 1,
-          "desc": "Receive your Executive Legend shares."
+          "desc": "Receive your Executive Legend shares.",
+          "description": "Collect refined scrap (x1)."
         }
       ],
       "rewards": {
@@ -4129,9 +4195,10 @@
         },
         {
           "type": "collect",
-          "target": "city_property_deed",
+          "target": "monster_material",
           "count": 3,
-          "desc": "Secure city property deeds."
+          "desc": "Secure city property deeds.",
+          "description": "Collect monster material (x3)."
         }
       ],
       "rewards": {
@@ -4179,9 +4246,10 @@
         },
         {
           "type": "collect",
-          "target": "property_clear_title",
+          "target": "raw_aethel_fragment",
           "count": 1,
-          "desc": "File clear property title."
+          "desc": "File clear property title.",
+          "description": "Collect raw aethel fragment (x1)."
         }
       ],
       "rewards": {
@@ -4229,9 +4297,10 @@
         },
         {
           "type": "collect",
-          "target": "ipo_completion_certificate",
+          "target": "drake_heart",
           "count": 1,
-          "desc": "Receive the IPO completion certificate."
+          "desc": "Receive the IPO completion certificate.",
+          "description": "Collect drake heart (x1)."
         }
       ],
       "rewards": {
@@ -4283,9 +4352,10 @@
         },
         {
           "type": "collect",
-          "target": "acquisition_complete",
+          "target": "abyss_fragment",
           "count": 1,
-          "desc": "Confirm permanent acquisition."
+          "desc": "Confirm permanent acquisition.",
+          "description": "Collect abyss fragment (x1)."
         }
       ],
       "rewards": {
@@ -4337,9 +4407,10 @@
         },
         {
           "type": "collect",
-          "target": "dividend_collected",
+          "target": "core_fragment",
           "count": 1,
-          "desc": "Confirm dividend collection."
+          "desc": "Confirm dividend collection.",
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -4455,9 +4526,10 @@
         },
         {
           "type": "collect",
-          "target": "takeover_beacon",
+          "target": "core_fragment",
           "count": 5,
-          "desc": "Deploy corporate takeover beacons."
+          "desc": "Deploy corporate takeover beacons.",
+          "description": "Collect core fragment (x5)."
         }
       ],
       "rewards": {
@@ -4499,9 +4571,10 @@
       "objectives": [
         {
           "type": "collect",
-          "target": "engine_ownership_deed",
+          "target": "core_fragment",
           "count": 3,
-          "desc": "Secure World Engine ownership deeds."
+          "desc": "Secure World Engine ownership deeds.",
+          "description": "Collect core fragment (x3)."
         },
         {
           "type": "kill",
@@ -4561,9 +4634,10 @@
         },
         {
           "type": "collect",
-          "target": "engine_activation_profit",
+          "target": "raw_aethel_fragment",
           "count": 1,
-          "desc": "Confirm Engine activation and profit."
+          "desc": "Confirm Engine activation and profit.",
+          "description": "Collect raw aethel fragment (x1)."
         }
       ],
       "rewards": {
@@ -4711,9 +4785,10 @@
         },
         {
           "type": "collect",
-          "target": "bankruptcy_finalized",
+          "target": "core_fragment",
           "count": 1,
-          "desc": "Certify bankruptcy complete."
+          "desc": "Certify bankruptcy complete.",
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -4917,9 +4992,10 @@
         },
         {
           "type": "collect",
-          "target": "closing_balance_sheet",
+          "target": "monster_material",
           "count": 1,
-          "desc": "File the closing balance sheet."
+          "desc": "File the closing balance sheet.",
+          "description": "Collect monster material (x1)."
         }
       ],
       "rewards": {
@@ -4979,9 +5055,10 @@
         },
         {
           "type": "collect",
-          "target": "merger_certificate",
+          "target": "core_fragment",
           "count": 1,
-          "desc": "Sign the Merger Certificate."
+          "desc": "Sign the Merger Certificate.",
+          "description": "Collect core fragment (x1)."
         }
       ],
       "rewards": {
@@ -5049,9 +5126,10 @@
         },
         {
           "type": "collect",
-          "target": "ceo_seal",
+          "target": "abyss_fragment",
           "count": 1,
-          "desc": "CLAIM THE ETERNITY CEO SEAL."
+          "desc": "CLAIM THE ETERNITY CEO SEAL.",
+          "description": "Collect abyss fragment (x1)."
         }
       ],
       "rewards": {
