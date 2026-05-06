@@ -25010,6 +25010,28 @@
       "sell_price": 1000,
       "max_stack": 1,
       "icon_image": "icons/items/consumables/cosmic_capsule.png"
+    },
+    {
+      "id": "free",
+      "name": "Free Entry Pass",
+      "description": "Allows free entry to the Training Ground.",
+      "type": "QUEST",
+      "rarity": "COMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 99,
+      "icon_image": ""
     }
   ]
 }

@@ -15916,5 +15916,18 @@
     "periodic_effects": "",
     "control_effects": "",
     "skill_description": "Active: The immortal guardian of the World Engine who has witnessed every age."
+  },
+  {
+    "id": "dummy_protocol",
+    "name": "Dummy Protocol",
+    "type": "Passive",
+    "source_type": "Monster",
+    "mp_cost": 0,
+    "damage_formula": "",
+    "effect": "",
+    "stat_modifiers": "",
+    "periodic_effects": "{\"turn_10_self_destruct\": {\"set_hp\": 1}}",
+    "control_effects": "",
+    "skill_description": "At turn 10, all HP is released. HP becomes 1."
   }
 ]
