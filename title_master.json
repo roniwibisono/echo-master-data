@@ -1,0 +1,205 @@
+{
+  "titles": [
+    {
+      "id": "the_initiate",
+      "name": "The Initiate",
+      "description": "Chosen a base class and begun the journey through Xylos.",
+      "rarity": "COMMON",
+      "tier": 1,
+      "unlock": {
+        "type": "has_chosen_class",
+        "value": true
+      },
+      "stat_bonus": { "hp": 15, "mp": 5 }
+    },
+    {
+      "id": "slime_slayer",
+      "name": "Slime Slayer",
+      "description": "Defeated the Slime King and cleansed the sewers.",
+      "rarity": "COMMON",
+      "tier": 1,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "fq_conc_010"
+      },
+      "stat_bonus": { "atk": 5 }
+    },
+    {
+      "id": "the_veteran",
+      "name": "The Veteran",
+      "description": "Reached Level 20 and advanced your class specialization.",
+      "rarity": "UNCOMMON",
+      "tier": 2,
+      "unlock": {
+        "type": "level",
+        "value": 20
+      },
+      "requirements": {
+        "class_tier": "advance"
+      },
+      "stat_bonus": { "hp": 30, "atk": 8, "def": 5 }
+    },
+    {
+      "id": "echo_breaker",
+      "name": "Echo Breaker",
+      "description": "Defeated the Resonance Echo and mastered the Outer Ring.",
+      "rarity": "UNCOMMON",
+      "tier": 2,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "fq_conc_020"
+      },
+      "stat_bonus": { "mp": 20, "per": 5 }
+    },
+    {
+      "id": "the_master",
+      "name": "The Master",
+      "description": "Reached Level 40 and achieved Master class status.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "level",
+        "value": 40
+      },
+      "requirements": {
+        "class_tier": "master"
+      },
+      "stat_bonus": { "hp": 50, "mp": 30, "atk": 12, "def": 10 }
+    },
+    {
+      "id": "drake_hunter",
+      "name": "Drake Hunter",
+      "description": "Survived battle against the legendary Ashen Drake.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "fq_conc_050"
+      },
+      "stat_bonus": { "atk": 20, "def": 15, "hp": 40 }
+    },
+    {
+      "id": "harbinger_slayer",
+      "name": "Harbinger Slayer",
+      "description": "Defeated the Abyss Harbinger and sealed the void.",
+      "rarity": "EPIC",
+      "tier": 4,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "fq_conc_060"
+      },
+      "stat_bonus": { "atk": 30, "mp": 50, "def": 20, "per": 10 }
+    },
+    {
+      "id": "titan_feller",
+      "name": "Titan Feller",
+      "description": "Felled the Gravity Titan and stabilized Xylos.",
+      "rarity": "EPIC",
+      "tier": 4,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "fq_conc_070"
+      },
+      "stat_bonus": { "hp": 100, "def": 30, "atk": 25 }
+    },
+    {
+      "id": "the_legend",
+      "name": "The Legend",
+      "description": "Reached Level 80 with over 5000 power rating.",
+      "rarity": "LEGENDARY",
+      "tier": 5,
+      "unlock": {
+        "type": "level",
+        "value": 80
+      },
+      "requirements": {
+        "power_rating": 5000
+      },
+      "stat_bonus": { "hp": 150, "mp": 80, "atk": 35, "def": 30, "agi": 15, "per": 15 }
+    },
+    {
+      "id": "the_eternal",
+      "name": "The Eternal",
+      "description": "Reached Level 100. A living legend of Xylos, forever remembered.",
+      "rarity": "LEGENDARY",
+      "tier": 5,
+      "unlock": {
+        "type": "level",
+        "value": 100
+      },
+      "stat_bonus": { "hp": 300, "mp": 150, "atk": 50, "def": 50, "agi": 25, "per": 25 }
+    },
+    {
+      "id": "iron_banker",
+      "name": "The Iron Banker",
+      "description": "Accumulated 500,000 credits through trade and conquest.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "credits",
+        "value": 500000
+      },
+      "stat_bonus": { "hp": 50, "def": 20 }
+    },
+    {
+      "id": "warmonger",
+      "name": "The Warmonger",
+      "description": "Power rating exceeded 8000. Feared across all factions.",
+      "rarity": "EPIC",
+      "tier": 4,
+      "unlock": {
+        "type": "power_rating",
+        "value": 8000
+      },
+      "stat_bonus": { "atk": 40, "hp": 80 }
+    },
+    {
+      "id": "the_explorer",
+      "name": "The Explorer",
+      "description": "Explored 100+ times across the vast world of Xylos.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "explore_count",
+        "value": 100
+      },
+      "stat_bonus": { "agi": 15, "per": 10 }
+    },
+    {
+      "id": "the_renowned",
+      "name": "The Renowned",
+      "description": "Earned 50,000+ reputation points across all factions.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "reputation",
+        "value": 50000
+      },
+      "stat_bonus": { "hp": 40, "mp": 30, "per": 10 }
+    },
+    {
+      "id": "the_collector",
+      "name": "The Collector",
+      "description": "Filled inventory with 100+ unique items.",
+      "rarity": "UNCOMMON",
+      "tier": 2,
+      "unlock": {
+        "type": "inventory_size",
+        "value": 100
+      },
+      "stat_bonus": { "hp": 25, "def": 10 }
+    },
+    {
+      "id": "merchant_prince",
+      "name": "Merchant Prince",
+      "description": "Completed 20+ successful trades.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "trades_completed",
+        "value": 20
+      },
+      "stat_bonus": { "per": 20, "agi": 10 }
+    }
+  ]
+}
