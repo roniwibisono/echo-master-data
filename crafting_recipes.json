@@ -1,10 +1,6 @@
 {
-  "meta": {
-     "version": "1.1",
-     "description": "Master Crafting Recipe Database for Echoes of Xylos"
-  },
   "recipes": [
-   {
+    {
       "recipe_id": "rcp_iron_ore_smelt",
       "recipe_name": "Smelt Iron Ore",
       "category": "REFINING",
@@ -13,191 +9,191 @@
       "crafting_time_seconds": 2,
       "crafting_cost": 5,
       "craftable_by_npcs": [
-         "ALL"
+        "ALL"
       ],
       "result": {
-         "item_id": "mat_iron_ore",
-         "quantity": 1
+        "item_id": "mat_iron_ore",
+        "quantity": 1
       },
       "ingredients": [
-         {
-            "item_id": "mat_metal",
-            "quantity": 3
-         }
+        {
+          "item_id": "mat_metal",
+          "quantity": 3
+        }
       ]
-   },
-     {
-        "recipe_id": "rcp_refine_iron",
-        "recipe_name": "Smelt Iron Ingot",
-        "category": "REFINING",
-        "crafting_station": "FORGE",
-        "required_level": 1,
-        "crafting_time_seconds": 2,
-        "crafting_cost": 5,
-        "craftable_by_npcs": [
-           "ALL"
-        ],
-        "result": {
-           "item_id": "mat_iron_ingot",
-           "quantity": 1
+    },
+    {
+      "recipe_id": "rcp_refine_iron",
+      "recipe_name": "Smelt Iron Ingot",
+      "category": "REFINING",
+      "crafting_station": "FORGE",
+      "required_level": 1,
+      "crafting_time_seconds": 2,
+      "crafting_cost": 5,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "mat_iron_ingot",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_iron_ore",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_steel_broadsword",
+      "recipe_name": "Forge Steel Broadsword",
+      "category": "BLACKSMITHING",
+      "crafting_station": "FORGE",
+      "required_level": 5,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 100,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "wpn_steel_broadsword",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_iron_ingot",
+          "quantity": 5
         },
-        "ingredients": [
-           {
-              "item_id": "mat_iron_ore",
-              "quantity": 3
-           }
-        ]
-     },
-     {
-        "recipe_id": "rcp_steel_broadsword",
-        "recipe_name": "Forge Steel Broadsword",
-        "category": "BLACKSMITHING",
-        "crafting_station": "FORGE",
-        "required_level": 5,
-        "crafting_time_seconds": 15,
-        "crafting_cost": 100,
-        "craftable_by_npcs": [
-           "ALL"
-        ],
-        "result": {
-           "item_id": "wpn_steel_broadsword",
-           "quantity": 1
+        {
+          "item_id": "mat_wolf_pelt",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_void_blade",
+      "recipe_name": "Forge Void Blade",
+      "category": "BLACKSMITHING",
+      "crafting_station": "FORGE",
+      "required_level": 40,
+      "crafting_time_seconds": 60,
+      "crafting_cost": 5000,
+      "craftable_by_npcs": [
+        "npc_master_kael",
+        "npc_abyssal_smith"
+      ],
+      "result": {
+        "item_id": "wpn_void_blade",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_iron_ingot",
+          "quantity": 50
         },
-        "ingredients": [
-           {
-              "item_id": "mat_iron_ingot",
-              "quantity": 5
-           },
-           {
-              "item_id": "mat_wolf_pelt",
-              "quantity": 1
-           }
-        ]
-     },
-     {
-        "recipe_id": "rcp_void_blade",
-        "recipe_name": "Forge Void Blade",
-        "category": "BLACKSMITHING",
-        "crafting_station": "FORGE",
-        "required_level": 40,
-        "crafting_time_seconds": 60,
-        "crafting_cost": 5000,
-        "craftable_by_npcs": [
-           "npc_master_kael",
-           "npc_abyssal_smith"
-        ],
-        "result": {
-           "item_id": "wpn_void_blade",
-           "quantity": 1
+        {
+          "item_id": "mat_storm_core",
+          "quantity": 5
         },
-        "ingredients": [
-           {
-              "item_id": "mat_iron_ingot",
-              "quantity": 50
-           },
-           {
-              "item_id": "mat_storm_core",
-              "quantity": 5
-           },
-           {
-              "item_id": "mat_aethel_dust",
-              "quantity": 20
-           }
-        ]
-     },
-     {
-        "recipe_id": "rcp_health_potion_small",
-        "recipe_name": "Brew Minor Health Potion",
-        "category": "ALCHEMY",
-        "crafting_station": "ALCHEMY_TABLE",
-        "required_level": 1,
-        "crafting_time_seconds": 5,
-        "crafting_cost": 10,
-        "craftable_by_npcs": [
-           "ALL"
-        ],
-        "result": {
-           "item_id": "cns_health_potion_small",
-           "quantity": 3
+        {
+          "item_id": "mat_aethel_dust",
+          "quantity": 20
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_health_potion_small",
+      "recipe_name": "Brew Minor Health Potion",
+      "category": "ALCHEMY",
+      "crafting_station": "ALCHEMY_TABLE",
+      "required_level": 1,
+      "crafting_time_seconds": 5,
+      "crafting_cost": 10,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "cns_health_potion_small",
+        "quantity": 3
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_aethel_dust",
+          "quantity": 1
         },
-        "ingredients": [
-           {
-              "item_id": "mat_aethel_dust",
-              "quantity": 1
-           },
-           {
-              "item_id": "cns_clean_water",
-              "quantity": 3
-           }
-        ]
-     },
-     {
-        "recipe_id": "rcp_accesories_dummy",
-        "recipe_name": "Dummy Silk Bracelet",
-        "category": "BLACKSMITHING",
-        "crafting_station": "FORGE",
-        "required_level": 1,
-        "crafting_time_seconds": 5,
-        "crafting_cost": 10,
-        "craftable_by_npcs": [
-           "ALL"
-        ],
-        "result": {
-           "item_id": "acc_dummy_bracelet",
-           "quantity": 1
-        },
-        "ingredients": [
-           {
-              "item_id": "vine_fiber",
-              "quantity": 1
-           }
-        ]
-     },
-     {
-        "recipe_id": "rcp_myth_ring",
-        "recipe_name": "Ring Of Destruction Call",
-        "category": "BLACKSMITHING",
-        "crafting_station": "FORGE",
-        "required_level": 1,
-        "crafting_time_seconds": 5,
-        "crafting_cost": 10,
-        "craftable_by_npcs": [
-           "ALL"
-        ],
-        "result": {
-           "item_id": "ring_of_destruct",
-           "quantity": 1
-        },
-        "ingredients": [
-           {
-              "item_id": "con_small_mp_cell",
-              "quantity": 2
-           }
-        ]
-     },
-     {
-        "recipe_id": "rcp_myth_ring_r",
-        "recipe_name": "Ring Of Destruction Replicate",
-        "category": "BLACKSMITHING",
-        "crafting_station": "FORGE",
-        "required_level": 1,
-        "crafting_time_seconds": 5,
-        "crafting_cost": 10,
-        "craftable_by_npcs": [
-           "ALL"
-        ],
-        "result": {
-           "item_id": "ring_of_destruct_r",
-           "quantity": 1
-        },
-        "ingredients": [
-           {
-              "item_id": "void_fragment",
-              "quantity": 1
-           }
-        ]
-     },
-     {
+        {
+          "item_id": "cns_clean_water",
+          "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_accesories_dummy",
+      "recipe_name": "Dummy Silk Bracelet",
+      "category": "BLACKSMITHING",
+      "crafting_station": "FORGE",
+      "required_level": 1,
+      "crafting_time_seconds": 5,
+      "crafting_cost": 10,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "acc_dummy_bracelet",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "vine_fiber",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_myth_ring",
+      "recipe_name": "Ring Of Destruction Call",
+      "category": "BLACKSMITHING",
+      "crafting_station": "FORGE",
+      "required_level": 1,
+      "crafting_time_seconds": 5,
+      "crafting_cost": 10,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "ring_of_destruct",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "con_small_mp_cell",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_myth_ring_r",
+      "recipe_name": "Ring Of Destruction Replicate",
+      "category": "BLACKSMITHING",
+      "crafting_station": "FORGE",
+      "required_level": 1,
+      "crafting_time_seconds": 5,
+      "crafting_cost": 10,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "ring_of_destruct_r",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "void_fragment",
+          "quantity": 1
+        }
+      ]
+    },
+    {
       "recipe_id": "rcp_arm_scout_boots",
       "recipe_name": "Scout Boots",
       "category": "BLACKSMITHING",
@@ -206,24 +202,24 @@
       "crafting_time_seconds": 5,
       "crafting_cost": 10,
       "craftable_by_npcs": [
-         "ALL"
+        "ALL"
       ],
       "result": {
-         "item_id": "arm_scout_boots",
-         "quantity": 1
+        "item_id": "arm_scout_boots",
+        "quantity": 1
       },
       "ingredients": [
-         {
-            "item_id": "rat_fang",
-            "quantity": 1
-         },
-         {
-            "item_id": "metal_shard",
-            "quantity": 1
-         }
+        {
+          "item_id": "rat_fang",
+          "quantity": 1
+        },
+        {
+          "item_id": "metal_shard",
+          "quantity": 1
+        }
       ]
-     },
-     {
+    },
+    {
       "recipe_id": "rcp_echo_core",
       "recipe_name": "Echo Core Gain",
       "category": "BLACKSMITHING",
@@ -232,20 +228,20 @@
       "crafting_time_seconds": 5,
       "crafting_cost": 1000,
       "craftable_by_npcs": [
-         "ALL"
+        "ALL"
       ],
       "result": {
-         "item_id": "echo_core",
-         "quantity": 10
+        "item_id": "echo_core",
+        "quantity": 10
       },
       "ingredients": [
-         {
-            "item_id": "metal_shard",
-            "quantity": 1
-         }
+        {
+          "item_id": "metal_shard",
+          "quantity": 1
+        }
       ]
-     },
-     {
+    },
+    {
       "recipe_id": "rcp_echo_core_high",
       "recipe_name": "Echo Core High Grade Gain",
       "category": "BLACKSMITHING",
@@ -254,20 +250,20 @@
       "crafting_time_seconds": 5,
       "crafting_cost": 1000,
       "craftable_by_npcs": [
-         "ALL"
+        "ALL"
       ],
       "result": {
-         "item_id": "echo_core_high_grade",
-         "quantity": 10
+        "item_id": "echo_core_high_grade",
+        "quantity": 10
       },
       "ingredients": [
-         {
-            "item_id": "metal_shard",
-            "quantity": 1
-         }
+        {
+          "item_id": "metal_shard",
+          "quantity": 1
+        }
       ]
-     },
-     {
+    },
+    {
       "recipe_id": "rcp_wpn_t001_weapon1",
       "recipe_name": "Craft Rusted Blade",
       "category": "EQUIPMENT",
@@ -5946,20 +5942,20 @@
       "crafting_time_seconds": 5,
       "crafting_cost": 1000,
       "craftable_by_npcs": [
-         "ALL"
+        "ALL"
       ],
       "result": {
-         "item_id": "echo_core",
-         "quantity": 10
+        "item_id": "echo_core",
+        "quantity": 10
       },
       "ingredients": [
-         {
-            "item_id": "con_small_mp_cell",
-            "quantity": 1
-         }
+        {
+          "item_id": "con_small_mp_cell",
+          "quantity": 1
+        }
       ]
-     },
-     {
+    },
+    {
       "recipe_id": "rcp_echo_core_high_1",
       "recipe_name": "Echo Core High Grade Gain",
       "category": "BLACKSMITHING",
@@ -5968,20 +5964,20 @@
       "crafting_time_seconds": 5,
       "crafting_cost": 1000,
       "craftable_by_npcs": [
-         "ALL"
+        "ALL"
       ],
       "result": {
-         "item_id": "echo_core_high_grade",
-         "quantity": 10
+        "item_id": "echo_core_high_grade",
+        "quantity": 10
       },
       "ingredients": [
-         {
-            "item_id": "potion_minor_mana",
-            "quantity": 1
-         }
+        {
+          "item_id": "potion_minor_mana",
+          "quantity": 1
+        }
       ]
-     },
-     {
+    },
+    {
       "recipe_id": "rcp_tort_shield",
       "recipe_name": "Tortoise Shield Gain",
       "category": "BLACKSMITHING",
@@ -5990,20 +5986,20 @@
       "crafting_time_seconds": 5,
       "crafting_cost": 10,
       "craftable_by_npcs": [
-         "ALL"
+        "ALL"
       ],
       "result": {
-         "item_id": "wpn_tortoise_shield",
-         "quantity": 1
+        "item_id": "wpn_tortoise_shield",
+        "quantity": 1
       },
       "ingredients": [
-         {
-            "item_id": "potion_minor_mana",
-            "quantity": 1
-         }
+        {
+          "item_id": "potion_minor_mana",
+          "quantity": 1
+        }
       ]
-     },
-     {
+    },
+    {
       "recipe_id": "rec_revival_elixir",
       "recipe_name": "Revival Elixir",
       "description": "Basic revive formula using common materials.",
@@ -6167,6 +6163,168 @@
         "item_id": "itm_mp_potion",
         "quantity": 2
       }
+    },
+    {
+      "recipe_id": "echo_core_low_craft",
+      "recipe_name": "Craft: Echo Memory Core (Low)",
+      "category": "REFINING",
+      "crafting_station": "FORGE",
+      "required_level": 1,
+      "crafting_time_seconds": 60,
+      "crafting_cost": 100,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "echo_memory_core_low",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "mat_iron_ore",
+          "quantity": 5
+        },
+        {
+          "item_id": "slime_gel",
+          "quantity": 3
+        },
+        {
+          "item_id": "scrap_metal",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "echo_core_mid_craft",
+      "recipe_name": "Craft: Echo Memory Core (Mid)",
+      "category": "REFINING",
+      "crafting_station": "FORGE",
+      "required_level": 5,
+      "crafting_time_seconds": 120,
+      "crafting_cost": 300,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "echo_memory_core_mid",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "echo_memory_core_low",
+          "quantity": 2
+        },
+        {
+          "item_id": "aethel_core_shard",
+          "quantity": 3
+        },
+        {
+          "item_id": "rust_chitin",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "echo_core_high_craft",
+      "recipe_name": "Craft: Echo Memory Core (High)",
+      "category": "REFINING",
+      "crafting_station": "ALCHEMY_TABLE",
+      "required_level": 15,
+      "crafting_time_seconds": 300,
+      "crafting_cost": 800,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "echo_memory_core_high",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "echo_memory_core_mid",
+          "quantity": 2
+        },
+        {
+          "item_id": "core_fragment",
+          "quantity": 3
+        },
+        {
+          "item_id": "dark_energy_fragment",
+          "quantity": 4
+        },
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "recipe_id": "echo_core_elite_craft",
+      "recipe_name": "Craft: Echo Memory Core (Elite)",
+      "category": "ALCHEMY",
+      "crafting_station": "ALCHEMY_TABLE",
+      "required_level": 30,
+      "crafting_time_seconds": 600,
+      "crafting_cost": 2000,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "echo_memory_core_elite",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "echo_memory_core_high",
+          "quantity": 2
+        },
+        {
+          "item_id": "void_fragment",
+          "quantity": 5
+        },
+        {
+          "item_id": "entropy_core",
+          "quantity": 2
+        },
+        {
+          "item_id": "event_horizon_fragment",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "recipe_id": "echo_core_legend_craft",
+      "recipe_name": "Craft: Echo Memory Core (Legendary)",
+      "category": "ALCHEMY",
+      "crafting_station": "ALCHEMY_TABLE",
+      "required_level": 50,
+      "crafting_time_seconds": 1200,
+      "crafting_cost": 5000,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "echo_memory_core_legend",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "echo_memory_core_elite",
+          "quantity": 2
+        },
+        {
+          "item_id": "drake_heart",
+          "quantity": 1
+        },
+        {
+          "item_id": "titan_core",
+          "quantity": 2
+        },
+        {
+          "item_id": "void_core",
+          "quantity": 2
+        }
+      ]
     }
   ]
 }

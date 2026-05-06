@@ -24782,6 +24782,116 @@
       "sell_price": 0,
       "max_stack": 99,
       "icon_image": ""
+    },
+    {
+      "id": "echo_memory_core_low",
+      "name": "Echo Memory Core (Low Tier)",
+      "description": "A fragment of resonant memory. Unlocks a Common-tier ally through Selection Echo Protocol.",
+      "type": "MATERIAL",
+      "rarity": "COMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 99,
+      "icon_image": ""
+    },
+    {
+      "id": "echo_memory_core_mid",
+      "name": "Echo Memory Core (Mid Tier)",
+      "description": "A coherent memory imprint. Unlocks an Uncommon-tier ally through Selection Echo Protocol.",
+      "type": "MATERIAL",
+      "rarity": "UNCOMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 99,
+      "icon_image": ""
+    },
+    {
+      "id": "echo_memory_core_high",
+      "name": "Echo Memory Core (High Tier)",
+      "description": "A vivid memory resonance. Unlocks a Rare-tier ally through Selection Echo Protocol.",
+      "type": "MATERIAL",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 99,
+      "icon_image": ""
+    },
+    {
+      "id": "echo_memory_core_elite",
+      "name": "Echo Memory Core (Elite Tier)",
+      "description": "A powerful echo of legendary deeds. Unlocks an Epic-tier ally through Selection Echo Protocol.",
+      "type": "MATERIAL",
+      "rarity": "EPIC",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 99,
+      "icon_image": ""
+    },
+    {
+      "id": "echo_memory_core_legend",
+      "name": "Echo Memory Core (Legendary Tier)",
+      "description": "The crystallized soul-echo of a fallen hero. Unlocks a Legendary-tier ally through Selection Echo Protocol.",
+      "type": "MATERIAL",
+      "rarity": "LEGENDARY",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 99,
+      "icon_image": ""
     }
   ]
 }
