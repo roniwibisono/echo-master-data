@@ -23,7 +23,8 @@
           "type": "kill",
           "target": "CAVE_RAT",
           "count": 5,
-          "desc": "Harvest Cave Rats for raw materials."
+          "desc": "Harvest Cave Rats for raw materials.",
+          "description": "Defeat CAVE_RAT (x5)."
         },
         {
           "type": "collect",
@@ -78,7 +79,8 @@
           "type": "kill",
           "target": "WETLAND_CRAWLER",
           "count": 5,
-          "desc": "Liquidate Wetland Crawlers."
+          "desc": "Liquidate Wetland Crawlers.",
+          "description": "Defeat WETLAND_CRAWLER (x5)."
         },
         {
           "type": "collect",
@@ -129,7 +131,8 @@
           "type": "kill",
           "target": "CORAL_TIDAL_CRAB",
           "count": 5,
-          "desc": "Eliminate Tidal Crabs."
+          "desc": "Eliminate Tidal Crabs.",
+          "description": "Defeat CORAL_TIDAL_CRAB (x5)."
         },
         {
           "type": "collect",
@@ -180,7 +183,8 @@
           "type": "kill",
           "target": "TIDE_MUDLING",
           "count": 5,
-          "desc": "Clear Mudlings from shipping lanes."
+          "desc": "Clear Mudlings from shipping lanes.",
+          "description": "Defeat TIDE_MUDLING (x5)."
         },
         {
           "type": "collect",
@@ -231,19 +235,22 @@
           "type": "interact",
           "target": "npc_meridian_class_trainer",
           "count": 1,
-          "desc": "Negotiate your specialization contract with Captain Vex."
+          "desc": "Negotiate your specialization contract with Captain Vex.",
+          "description": "Speak with npc meridian class trainer."
         },
         {
           "type": "interact",
           "target": "class_change_screen",
           "count": 1,
-          "desc": "Sign the class specialization agreement."
+          "desc": "Sign the class specialization agreement.",
+          "description": "Speak with class change screen."
         },
         {
           "type": "kill",
           "target": "CAVE_RAT",
           "count": 3,
-          "desc": "Demonstrate ROI against Coral Serpents."
+          "desc": "Demonstrate ROI against Coral Serpents.",
+          "description": "Defeat CAVE_RAT (x3)."
         }
       ],
       "rewards": {
@@ -303,7 +310,8 @@
           "type": "travel",
           "target": "SMUGGLER_JUNGLE",
           "count": 1,
-          "desc": "Enter the Smuggler Jungle."
+          "desc": "Enter the Smuggler Jungle.",
+          "description": "Travel to SMUGGLER JUNGLE."
         },
         {
           "type": "collect",
@@ -354,7 +362,8 @@
           "type": "kill",
           "target": "JUNGLE_STALKER",
           "count": 5,
-          "desc": "Remove Jungle Stalker competition."
+          "desc": "Remove Jungle Stalker competition.",
+          "description": "Defeat JUNGLE_STALKER (x5)."
         },
         {
           "type": "collect",
@@ -405,7 +414,8 @@
           "type": "kill",
           "target": "SWAMP_RIPPER",
           "count": 5,
-          "desc": "Write off Swamp Rippers."
+          "desc": "Write off Swamp Rippers.",
+          "description": "Defeat SWAMP_RIPPER (x5)."
         },
         {
           "type": "collect",
@@ -456,7 +466,8 @@
           "type": "kill",
           "target": "JUNGLE_VENOMFANG",
           "count": 5,
-          "desc": "Harvest Venomfang venom assets."
+          "desc": "Harvest Venomfang venom assets.",
+          "description": "Defeat JUNGLE_VENOMFANG (x5)."
         },
         {
           "type": "collect",
@@ -507,7 +518,8 @@
           "type": "kill",
           "target": "CONTRABAND_GOLEM",
           "count": 2,
-          "desc": "Liquidate Contraband Golems."
+          "desc": "Liquidate Contraband Golems.",
+          "description": "Defeat CONTRABAND_GOLEM (x2)."
         },
         {
           "type": "collect",
@@ -558,7 +570,8 @@
           "type": "travel",
           "target": "BLACK_DOCK_MARKET",
           "count": 1,
-          "desc": "Enter the Black Dock Market."
+          "desc": "Enter the Black Dock Market.",
+          "description": "Travel to BLACK DOCK MARKET."
         },
         {
           "type": "collect",
@@ -609,7 +622,8 @@
           "type": "kill",
           "target": "BLACK_DOCK_SMUGGLER",
           "count": 6,
-          "desc": "Enforce monopoly on Smugglers."
+          "desc": "Enforce monopoly on Smugglers.",
+          "description": "Defeat BLACK_DOCK_SMUGGLER (x6)."
         },
         {
           "type": "collect",
@@ -660,7 +674,8 @@
           "type": "kill",
           "target": "BLACK_DOCK_ASSASSIN",
           "count": 5,
-          "desc": "Execute reverse takeover on Assassins."
+          "desc": "Execute reverse takeover on Assassins.",
+          "description": "Defeat BLACK_DOCK_ASSASSIN (x5)."
         },
         {
           "type": "collect",
@@ -711,7 +726,8 @@
           "type": "kill",
           "target": "BLACK_DOCK_ENFORCER",
           "count": 3,
-          "desc": "Acquire Enforcer operations."
+          "desc": "Acquire Enforcer operations.",
+          "description": "Defeat BLACK_DOCK_ENFORCER (x3)."
         },
         {
           "type": "collect",
@@ -762,13 +778,15 @@
           "type": "kill",
           "target": "BLACK_DOCK_SMUGGLER",
           "count": 4,
-          "desc": "Deregister unlicensed Smugglers."
+          "desc": "Deregister unlicensed Smugglers.",
+          "description": "Defeat BLACK_DOCK_SMUGGLER (x4)."
         },
         {
           "type": "kill",
           "target": "BLACK_DOCK_ASSASSIN",
           "count": 4,
-          "desc": "Deregister hostile Assassins."
+          "desc": "Deregister hostile Assassins.",
+          "description": "Defeat BLACK_DOCK_ASSASSIN (x4)."
         }
       ],
       "rewards": {
@@ -812,7 +830,8 @@
           "type": "kill",
           "target": "BLACK_DOCK_ENFORCER",
           "count": 4,
-          "desc": "Break Enforcer resistance."
+          "desc": "Break Enforcer resistance.",
+          "description": "Defeat BLACK_DOCK_ENFORCER (x4)."
         },
         {
           "type": "collect",
@@ -870,7 +889,8 @@
           "type": "kill",
           "target": "BLACK_DOCK_SMUGGLER",
           "count": 3,
-          "desc": "Deal with inventory thieves."
+          "desc": "Deal with inventory thieves.",
+          "description": "Defeat BLACK_DOCK_SMUGGLER (x3)."
         }
       ],
       "rewards": {
@@ -914,7 +934,8 @@
           "type": "kill",
           "target": "BLACK_DOCK_ENFORCER",
           "count": 5,
-          "desc": "Break the rival Enforcer cartel."
+          "desc": "Break the rival Enforcer cartel.",
+          "description": "Defeat BLACK_DOCK_ENFORCER (x5)."
         },
         {
           "type": "collect",
@@ -965,13 +986,15 @@
           "type": "kill",
           "target": "RESONANCE_ECHO",
           "count": 1,
-          "desc": "Close the Resonance Echo's account."
+          "desc": "Close the Resonance Echo's account.",
+          "description": "Defeat RESONANCE_ECHO (x1)."
         },
         {
           "type": "kill",
           "target": "BLACK_DOCK_ENFORCER",
           "count": 2,
-          "desc": "Liquidate Enforcer escorts."
+          "desc": "Liquidate Enforcer escorts.",
+          "description": "Defeat BLACK_DOCK_ENFORCER (x2)."
         }
       ],
       "rewards": {
@@ -1015,7 +1038,8 @@
           "type": "travel",
           "target": "PORT_MERIDIAN",
           "count": 1,
-          "desc": "Return to Port Meridian headquarters."
+          "desc": "Return to Port Meridian headquarters.",
+          "description": "Travel to PORT MERIDIAN."
         },
         {
           "type": "collect",
@@ -1066,7 +1090,8 @@
           "type": "travel",
           "target": "SUNKEN_AETHEL_RUIN",
           "count": 1,
-          "desc": "Enter the Sunken Aethel Ruin."
+          "desc": "Enter the Sunken Aethel Ruin.",
+          "description": "Travel to SUNKEN AETHEL RUIN."
         },
         {
           "type": "collect",
@@ -1117,7 +1142,8 @@
           "type": "kill",
           "target": "CRADLE_PURIFIER",
           "count": 4,
-          "desc": "Write off Cradle Purifiers."
+          "desc": "Write off Cradle Purifiers.",
+          "description": "Defeat CRADLE_PURIFIER (x4)."
         },
         {
           "type": "collect",
@@ -1168,7 +1194,8 @@
           "type": "kill",
           "target": "CRADLE_SENTINEL",
           "count": 3,
-          "desc": "Force-acquire Sentinel-guarded assets."
+          "desc": "Force-acquire Sentinel-guarded assets.",
+          "description": "Defeat CRADLE_SENTINEL (x3)."
         },
         {
           "type": "collect",
@@ -1219,7 +1246,8 @@
           "type": "kill",
           "target": "AETHEL_BEHEMOTH",
           "count": 2,
-          "desc": "Harvest Behemoth organ assets."
+          "desc": "Harvest Behemoth organ assets.",
+          "description": "Defeat AETHEL_BEHEMOTH (x2)."
         },
         {
           "type": "collect",
@@ -1270,7 +1298,8 @@
           "type": "kill",
           "target": "SUNKEN_AETHEL_LEVIATHAN",
           "count": 1,
-          "desc": "Monopolize the Leviathan supply."
+          "desc": "Monopolize the Leviathan supply.",
+          "description": "Defeat SUNKEN_AETHEL_LEVIATHAN (x1)."
         },
         {
           "type": "collect",
@@ -1321,7 +1350,8 @@
           "type": "travel",
           "target": "AETHEL_STORM_BELT",
           "count": 1,
-          "desc": "Enter the Aethel Storm Belt."
+          "desc": "Enter the Aethel Storm Belt.",
+          "description": "Travel to AETHEL STORM BELT."
         },
         {
           "type": "collect",
@@ -1372,7 +1402,8 @@
           "type": "kill",
           "target": "STORM_RIFT_SERPENT",
           "count": 3,
-          "desc": "Stabilize Serpent commodity supply."
+          "desc": "Stabilize Serpent commodity supply.",
+          "description": "Defeat STORM_RIFT_SERPENT (x3)."
         },
         {
           "type": "collect",
@@ -1423,7 +1454,8 @@
           "type": "kill",
           "target": "SUNKEN_AETHEL_LEVIATHAN",
           "count": 2,
-          "desc": "Harvest Leviathan supply."
+          "desc": "Harvest Leviathan supply.",
+          "description": "Defeat SUNKEN_AETHEL_LEVIATHAN (x2)."
         },
         {
           "type": "collect",
@@ -1474,7 +1506,8 @@
           "type": "kill",
           "target": "CRADLE_SENTINEL",
           "count": 4,
-          "desc": "Acquire all Sentinel model samples."
+          "desc": "Acquire all Sentinel model samples.",
+          "description": "Defeat CRADLE_SENTINEL (x4)."
         },
         {
           "type": "collect",
@@ -1525,19 +1558,22 @@
           "type": "interact",
           "target": "npc_meridian_class_trainer",
           "count": 1,
-          "desc": "Present your portfolio to Captain Vex."
+          "desc": "Present your portfolio to Captain Vex.",
+          "description": "Speak with npc meridian class trainer."
         },
         {
           "type": "kill",
           "target": "RESONANCE_ECHO",
           "count": 1,
-          "desc": "Demonstrate ROI against the Resonance Echo."
+          "desc": "Demonstrate ROI against the Resonance Echo.",
+          "description": "Defeat RESONANCE_ECHO (x1)."
         },
         {
           "type": "kill",
           "target": "AETHEL_BEHEMOTH",
           "count": 1,
-          "desc": "Harvest a Behemoth as your closing transaction."
+          "desc": "Harvest a Behemoth as your closing transaction.",
+          "description": "Defeat AETHEL_BEHEMOTH (x1)."
         }
       ],
       "rewards": {
@@ -1589,7 +1625,8 @@
           "type": "travel",
           "target": "ORBITAL_SENTINEL_COMMAND",
           "count": 1,
-          "desc": "Report to Orbital Sentinel Command."
+          "desc": "Report to Orbital Sentinel Command.",
+          "description": "Travel to ORBITAL SENTINEL COMMAND."
         },
         {
           "type": "collect",
@@ -1640,7 +1677,8 @@
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "desc": "Eliminate the Drake risk factor."
+          "desc": "Eliminate the Drake risk factor.",
+          "description": "Defeat ASHEN_DRAKE (x1)."
         },
         {
           "type": "collect",
@@ -1691,7 +1729,8 @@
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 6,
-          "desc": "Corner the Carapace armor market."
+          "desc": "Corner the Carapace armor market.",
+          "description": "Defeat AETHEL_IRON_CARAPACE (x6)."
         },
         {
           "type": "collect",
@@ -1742,7 +1781,8 @@
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 2,
-          "desc": "Short the Behemoth position."
+          "desc": "Short the Behemoth position.",
+          "description": "Defeat AETHEL_CORRUPTED_BEHEMOTH (x2)."
         },
         {
           "type": "collect",
@@ -1793,7 +1833,8 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 4,
-          "desc": "Negotiate exclusive trading rights."
+          "desc": "Negotiate exclusive trading rights.",
+          "description": "Defeat AETHEL_ABYSSAL_REAVER (x4)."
         },
         {
           "type": "collect",
@@ -1844,13 +1885,15 @@
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 6,
-          "desc": "Defend against hostile takeover."
+          "desc": "Defend against hostile takeover.",
+          "description": "Defeat AETHEL_RIFT_STALKER (x6)."
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 3,
-          "desc": "Neutralize competitor aggression."
+          "desc": "Neutralize competitor aggression.",
+          "description": "Defeat AETHEL_VOID_CHANNELER (x3)."
         }
       ],
       "rewards": {
@@ -1894,7 +1937,8 @@
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "desc": "Complete Drake liquidation."
+          "desc": "Complete Drake liquidation.",
+          "description": "Defeat ASHEN_DRAKE (x1)."
         },
         {
           "type": "collect",
@@ -1945,7 +1989,8 @@
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
-          "desc": "Eliminate market inefficiencies."
+          "desc": "Eliminate market inefficiencies.",
+          "description": "Defeat AETHEL_IRON_CARAPACE (x8)."
         },
         {
           "type": "collect",
@@ -1996,13 +2041,15 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 6,
-          "desc": "Block the Abyssal merger."
+          "desc": "Block the Abyssal merger.",
+          "description": "Defeat AETHEL_ABYSSAL_REAVER (x6)."
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 3,
-          "desc": "Eliminate merger facilitators."
+          "desc": "Eliminate merger facilitators.",
+          "description": "Defeat AETHEL_VOID_CHANNELER (x3)."
         }
       ],
       "rewards": {
@@ -2046,19 +2093,22 @@
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "desc": "Complete the Drake liquidation."
+          "desc": "Complete the Drake liquidation.",
+          "description": "Defeat ASHEN_DRAKE (x1)."
         },
         {
           "type": "kill",
           "target": "AETHEL_BEHEMOTH",
           "count": 1,
-          "desc": "Harvest a premium Behemoth asset."
+          "desc": "Harvest a premium Behemoth asset.",
+          "description": "Defeat AETHEL_BEHEMOTH (x1)."
         },
         {
           "type": "kill",
           "target": "SUNKEN_AETHEL_LEVIATHAN",
           "count": 1,
-          "desc": "Acquire a premium Leviathan asset."
+          "desc": "Acquire a premium Leviathan asset.",
+          "description": "Defeat SUNKEN_AETHEL_LEVIATHAN (x1)."
         }
       ],
       "rewards": {
@@ -2110,7 +2160,8 @@
           "type": "travel",
           "target": "VOID_ECHO_CHASM",
           "count": 1,
-          "desc": "Enter the Void Echo Chasm."
+          "desc": "Enter the Void Echo Chasm.",
+          "description": "Travel to VOID ECHO CHASM."
         },
         {
           "type": "collect",
@@ -2161,7 +2212,8 @@
           "type": "kill",
           "target": "VOID_REAVER",
           "count": 6,
-          "desc": "Harvest Reaver void essence commodity."
+          "desc": "Harvest Reaver void essence commodity.",
+          "description": "Defeat VOID_REAVER (x6)."
         },
         {
           "type": "collect",
@@ -2212,7 +2264,8 @@
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 6,
-          "desc": "Break the Channeler void monopoly."
+          "desc": "Break the Channeler void monopoly.",
+          "description": "Defeat AETHEL_VOID_CHANNELER (x6)."
         },
         {
           "type": "collect",
@@ -2263,7 +2316,8 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 6,
-          "desc": "Maximize Abyssal Reaver harvest."
+          "desc": "Maximize Abyssal Reaver harvest.",
+          "description": "Defeat AETHEL_ABYSSAL_REAVER (x6)."
         },
         {
           "type": "collect",
@@ -2314,7 +2368,8 @@
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
-          "desc": "Accelerate Behemoth depreciation."
+          "desc": "Accelerate Behemoth depreciation.",
+          "description": "Defeat AETHEL_CORRUPTED_BEHEMOTH (x3)."
         },
         {
           "type": "collect",
@@ -2365,7 +2420,8 @@
           "type": "kill",
           "target": "SOUL_FRAGMENTER",
           "count": 2,
-          "desc": "Terminate Fragmenter productivity drain."
+          "desc": "Terminate Fragmenter productivity drain.",
+          "description": "Defeat SOUL_FRAGMENTER (x2)."
         },
         {
           "type": "collect",
@@ -2416,7 +2472,8 @@
           "type": "kill",
           "target": "CHRONO_WRAITH",
           "count": 2,
-          "desc": "Eliminate Chrono Wraith time arbitrage."
+          "desc": "Eliminate Chrono Wraith time arbitrage.",
+          "description": "Defeat CHRONO_WRAITH (x2)."
         },
         {
           "type": "collect",
@@ -2467,7 +2524,8 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 1,
-          "desc": "Execute hostile takeover of Jotunn territory."
+          "desc": "Execute hostile takeover of Jotunn territory.",
+          "description": "Defeat GIGANTIC_JOTUNN (x1)."
         },
         {
           "type": "collect",
@@ -2518,7 +2576,8 @@
           "type": "travel",
           "target": "SHATTERED_HEART",
           "count": 1,
-          "desc": "Enter the Shattered Heart market."
+          "desc": "Enter the Shattered Heart market.",
+          "description": "Travel to SHATTERED HEART."
         },
         {
           "type": "collect",
@@ -2569,13 +2628,15 @@
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "desc": "COMPLETE DRAKE LIQUIDATION."
+          "desc": "COMPLETE DRAKE LIQUIDATION.",
+          "description": "Defeat ASHEN_DRAKE (x1)."
         },
         {
           "type": "kill",
           "target": "DRAKE_MINION",
           "count": 5,
-          "desc": "Liquidate Drake Minion assets."
+          "desc": "Liquidate Drake Minion assets.",
+          "description": "Defeat DRAKE_MINION (x5)."
         },
         {
           "type": "collect",
@@ -2634,7 +2695,8 @@
           "type": "kill",
           "target": "SOUL_FRAGMENTER",
           "count": 3,
-          "desc": "Eliminate operational risk."
+          "desc": "Eliminate operational risk.",
+          "description": "Defeat SOUL_FRAGMENTER (x3)."
         },
         {
           "type": "collect",
@@ -2685,13 +2747,15 @@
           "type": "kill",
           "target": "VOID_REAVER",
           "count": 8,
-          "desc": "Eliminate unlicensed Reavers."
+          "desc": "Eliminate unlicensed Reavers.",
+          "description": "Defeat VOID_REAVER (x8)."
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 5,
-          "desc": "Eliminate unlicensed Channelers."
+          "desc": "Eliminate unlicensed Channelers.",
+          "description": "Defeat AETHEL_VOID_CHANNELER (x5)."
         }
       ],
       "rewards": {
@@ -2735,7 +2799,8 @@
           "type": "kill",
           "target": "VOID_STALKER",
           "count": 1,
-          "desc": "Reject the Stalker's hostile bid."
+          "desc": "Reject the Stalker's hostile bid.",
+          "description": "Defeat VOID_STALKER (x1)."
         },
         {
           "type": "collect",
@@ -2786,7 +2851,8 @@
           "type": "kill",
           "target": "CHRONO_WRAITH",
           "count": 3,
-          "desc": "Correct temporal market volatility."
+          "desc": "Correct temporal market volatility.",
+          "description": "Defeat CHRONO_WRAITH (x3)."
         },
         {
           "type": "collect",
@@ -2837,13 +2903,15 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 10,
-          "desc": "Seize market share from competitors."
+          "desc": "Seize market share from competitors.",
+          "description": "Defeat AETHEL_ABYSSAL_REAVER (x10)."
         },
         {
           "type": "kill",
           "target": "VOID_REAVER",
           "count": 6,
-          "desc": "Eliminate remaining competition."
+          "desc": "Eliminate remaining competition.",
+          "description": "Defeat VOID_REAVER (x6)."
         }
       ],
       "rewards": {
@@ -2887,7 +2955,8 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
-          "desc": "Reduce Jotunn market cap."
+          "desc": "Reduce Jotunn market cap.",
+          "description": "Defeat GIGANTIC_JOTUNN (x3)."
         },
         {
           "type": "collect",
@@ -2938,7 +3007,8 @@
           "type": "kill",
           "target": "CRYSTAL_TYRANT",
           "count": 2,
-          "desc": "Divest Tyrant-held assets."
+          "desc": "Divest Tyrant-held assets.",
+          "description": "Defeat CRYSTAL_TYRANT (x2)."
         },
         {
           "type": "collect",
@@ -2989,13 +3059,15 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 6,
-          "desc": "Clear market entry obstacles."
+          "desc": "Clear market entry obstacles.",
+          "description": "Defeat AETHEL_ABYSSAL_REAVER (x6)."
         },
         {
           "type": "kill",
           "target": "CHRONO_WRAITH",
           "count": 1,
-          "desc": "Neutralize temporal competitors."
+          "desc": "Neutralize temporal competitors.",
+          "description": "Defeat CHRONO_WRAITH (x1)."
         },
         {
           "type": "collect",
@@ -3046,13 +3118,15 @@
           "type": "kill",
           "target": "SOUL_FRAGMENTER",
           "count": 3,
-          "desc": "Force Fragmenter bankruptcy."
+          "desc": "Force Fragmenter bankruptcy.",
+          "description": "Defeat SOUL_FRAGMENTER (x3)."
         },
         {
           "type": "kill",
           "target": "VOID_STALKER",
           "count": 1,
-          "desc": "Seize Stalker-held Fragmenter assets."
+          "desc": "Seize Stalker-held Fragmenter assets.",
+          "description": "Defeat VOID_STALKER (x1)."
         }
       ],
       "rewards": {
@@ -3096,7 +3170,8 @@
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "desc": "CLOSE THE HARBINGER DEAL."
+          "desc": "CLOSE THE HARBINGER DEAL.",
+          "description": "Defeat ABYSS_HARBINGER (x1)."
         },
         {
           "type": "collect",
@@ -3155,7 +3230,8 @@
           "type": "travel",
           "target": "SEVERANCE_FAULTLINE",
           "count": 1,
-          "desc": "Enter the Severance Faultline."
+          "desc": "Enter the Severance Faultline.",
+          "description": "Travel to SEVERANCE FAULTLINE."
         },
         {
           "type": "collect",
@@ -3206,7 +3282,8 @@
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
-          "desc": "Acquire Carapace energy assets."
+          "desc": "Acquire Carapace energy assets.",
+          "description": "Defeat AETHEL_IRON_CARAPACE (x8)."
         },
         {
           "type": "collect",
@@ -3257,7 +3334,8 @@
           "type": "kill",
           "target": "CRYSTAL_TYRANT",
           "count": 2,
-          "desc": "Evict Tyrant tenants."
+          "desc": "Evict Tyrant tenants.",
+          "description": "Defeat CRYSTAL_TYRANT (x2)."
         },
         {
           "type": "collect",
@@ -3308,7 +3386,8 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
-          "desc": "Exercise eminent domain."
+          "desc": "Exercise eminent domain.",
+          "description": "Defeat GIGANTIC_JOTUNN (x3)."
         },
         {
           "type": "collect",
@@ -3359,7 +3438,8 @@
           "type": "travel",
           "target": "AETHEL_SIPHON_CORE",
           "count": 1,
-          "desc": "Enter the Aethel Siphon Core."
+          "desc": "Enter the Aethel Siphon Core.",
+          "description": "Travel to AETHEL SIPHON CORE."
         },
         {
           "type": "collect",
@@ -3410,13 +3490,15 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 8,
-          "desc": "Secure Core investments."
+          "desc": "Secure Core investments.",
+          "description": "Defeat AETHEL_ABYSSAL_REAVER (x8)."
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 5,
-          "desc": "Eliminate asset depreciation risks."
+          "desc": "Eliminate asset depreciation risks.",
+          "description": "Defeat AETHEL_VOID_CHANNELER (x5)."
         }
       ],
       "rewards": {
@@ -3460,7 +3542,8 @@
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
-          "desc": "Clear Behemoth liability."
+          "desc": "Clear Behemoth liability.",
+          "description": "Defeat AETHEL_CORRUPTED_BEHEMOTH (x3)."
         },
         {
           "type": "collect",
@@ -3511,7 +3594,8 @@
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 6,
-          "desc": "Eliminate market disruption."
+          "desc": "Eliminate market disruption.",
+          "description": "Defeat AETHEL_RIFT_STALKER (x6)."
         },
         {
           "type": "collect",
@@ -3569,7 +3653,8 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 1,
-          "desc": "Eliminate Jotunn competitor for the dividend."
+          "desc": "Eliminate Jotunn competitor for the dividend.",
+          "description": "Defeat GIGANTIC_JOTUNN (x1)."
         }
       ],
       "rewards": {
@@ -3613,13 +3698,15 @@
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "desc": "CLAIM THE GRAVITY DIVIDEND."
+          "desc": "CLAIM THE GRAVITY DIVIDEND.",
+          "description": "Defeat GRAVITY_TITAN (x1)."
         },
         {
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "desc": "Clear competitor bidders."
+          "desc": "Clear competitor bidders.",
+          "description": "Defeat AETHEL_ABYSSAL_REAVER (x5)."
         },
         {
           "type": "collect",
@@ -3678,7 +3765,8 @@
           "type": "travel",
           "target": "PRIMA_MATERIA_FORGE",
           "count": 1,
-          "desc": "Enter the Prima Materia Forge."
+          "desc": "Enter the Prima Materia Forge.",
+          "description": "Travel to PRIMA MATERIA FORGE."
         },
         {
           "type": "collect",
@@ -3729,7 +3817,8 @@
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
-          "desc": "Enforce anti-trust against defenses."
+          "desc": "Enforce anti-trust against defenses.",
+          "description": "Defeat AETHEL_IRON_CARAPACE (x8)."
         },
         {
           "type": "collect",
@@ -3780,7 +3869,8 @@
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
-          "desc": "Implement product recall and disposal."
+          "desc": "Implement product recall and disposal.",
+          "description": "Defeat AETHEL_CORRUPTED_BEHEMOTH (x3)."
         }
       ],
       "rewards": {
@@ -3824,13 +3914,15 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 8,
-          "desc": "Purge Abyssal competitors."
+          "desc": "Purge Abyssal competitors.",
+          "description": "Defeat AETHEL_ABYSSAL_REAVER (x8)."
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 5,
-          "desc": "Eliminate competitor leadership."
+          "desc": "Eliminate competitor leadership.",
+          "description": "Defeat AETHEL_VOID_CHANNELER (x5)."
         }
       ],
       "rewards": {
@@ -3874,7 +3966,8 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
-          "desc": "Bust the Jotunn forge union."
+          "desc": "Bust the Jotunn forge union.",
+          "description": "Defeat GIGANTIC_JOTUNN (x3)."
         },
         {
           "type": "collect",
@@ -3925,7 +4018,8 @@
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 6,
-          "desc": "Clear production obstructions."
+          "desc": "Clear production obstructions.",
+          "description": "Defeat AETHEL_VOID_CHANNELER (x6)."
         },
         {
           "type": "collect",
@@ -3976,7 +4070,8 @@
           "type": "kill",
           "target": "TITAN_FORGE_AUTOMATON",
           "count": 3,
-          "desc": "Acquire or destroy Automaton units."
+          "desc": "Acquire or destroy Automaton units.",
+          "description": "Defeat TITAN_FORGE_AUTOMATON (x3)."
         },
         {
           "type": "collect",
@@ -4027,7 +4122,8 @@
           "type": "kill",
           "target": "TITAN_PROTO_CORE",
           "count": 2,
-          "desc": "Liquidate defective Proto Core inventory."
+          "desc": "Liquidate defective Proto Core inventory.",
+          "description": "Defeat TITAN_PROTO_CORE (x2)."
         },
         {
           "type": "collect",
@@ -4078,13 +4174,15 @@
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "desc": "Eliminate Titan \u2014 operational cost zero."
+          "desc": "Eliminate Titan \u2014 operational cost zero.",
+          "description": "Defeat GRAVITY_TITAN (x1)."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "desc": "Eliminate Harbinger \u2014 operational cost zero."
+          "desc": "Eliminate Harbinger \u2014 operational cost zero.",
+          "description": "Defeat ABYSS_HARBINGER (x1)."
         }
       ],
       "rewards": {
@@ -4136,7 +4234,8 @@
           "type": "travel",
           "target": "PORT_MERIDIAN",
           "count": 1,
-          "desc": "Return to Port Meridian."
+          "desc": "Return to Port Meridian.",
+          "description": "Travel to PORT MERIDIAN."
         },
         {
           "type": "collect",
@@ -4191,7 +4290,8 @@
           "type": "travel",
           "target": "HIDDEN_AETHELGARDIAN_CITY",
           "count": 1,
-          "desc": "Enter the Hidden Aethelgardian City."
+          "desc": "Enter the Hidden Aethelgardian City.",
+          "description": "Travel to HIDDEN AETHELGARDIAN CITY."
         },
         {
           "type": "collect",
@@ -4242,7 +4342,8 @@
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 8,
-          "desc": "Clear property liens."
+          "desc": "Clear property liens.",
+          "description": "Defeat AETHEL_RIFT_STALKER (x8)."
         },
         {
           "type": "collect",
@@ -4293,7 +4394,8 @@
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "desc": "Execute the Apex Drake IPO."
+          "desc": "Execute the Apex Drake IPO.",
+          "description": "Defeat ASHEN_DRAKE (x1)."
         },
         {
           "type": "collect",
@@ -4348,7 +4450,8 @@
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "desc": "Acquire the Apex Harbinger."
+          "desc": "Acquire the Apex Harbinger.",
+          "description": "Defeat ABYSS_HARBINGER (x1)."
         },
         {
           "type": "collect",
@@ -4403,7 +4506,8 @@
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "desc": "Collect the Titan dividend."
+          "desc": "Collect the Titan dividend.",
+          "description": "Defeat GRAVITY_TITAN (x1)."
         },
         {
           "type": "collect",
@@ -4458,19 +4562,22 @@
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "desc": "Consolidate Drake assets."
+          "desc": "Consolidate Drake assets.",
+          "description": "Defeat ASHEN_DRAKE (x1)."
         },
         {
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "desc": "Consolidate Titan assets."
+          "desc": "Consolidate Titan assets.",
+          "description": "Defeat GRAVITY_TITAN (x1)."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "desc": "Consolidate Harbinger assets."
+          "desc": "Consolidate Harbinger assets.",
+          "description": "Defeat ABYSS_HARBINGER (x1)."
         }
       ],
       "rewards": {
@@ -4522,7 +4629,8 @@
           "type": "travel",
           "target": "AETHEL_SIPHON_CORE",
           "count": 1,
-          "desc": "Enter Cartel Energy Division HQ."
+          "desc": "Enter Cartel Energy Division HQ.",
+          "description": "Travel to AETHEL SIPHON CORE."
         },
         {
           "type": "collect",
@@ -4580,7 +4688,8 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 2,
-          "desc": "Eliminate competing bidders."
+          "desc": "Eliminate competing bidders.",
+          "description": "Defeat GIGANTIC_JOTUNN (x2)."
         }
       ],
       "rewards": {
@@ -4624,13 +4733,15 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 10,
-          "desc": "Defend the investment."
+          "desc": "Defend the investment.",
+          "description": "Defeat AETHEL_ABYSSAL_REAVER (x10)."
         },
         {
           "type": "kill",
           "target": "CRYSTAL_TYRANT",
           "count": 2,
-          "desc": "Eliminate investment risks."
+          "desc": "Eliminate investment risks.",
+          "description": "Defeat CRYSTAL_TYRANT (x2)."
         },
         {
           "type": "collect",
@@ -4681,13 +4792,15 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 5,
-          "desc": "Execute Jotunn liquidation."
+          "desc": "Execute Jotunn liquidation.",
+          "description": "Defeat GIGANTIC_JOTUNN (x5)."
         },
         {
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
-          "desc": "Execute Carapace liquidation."
+          "desc": "Execute Carapace liquidation.",
+          "description": "Defeat AETHEL_IRON_CARAPACE (x8)."
         }
       ],
       "rewards": {
@@ -4731,13 +4844,15 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 10,
-          "desc": "Close Abyssal positions."
+          "desc": "Close Abyssal positions.",
+          "description": "Defeat AETHEL_ABYSSAL_REAVER (x10)."
         },
         {
           "type": "kill",
           "target": "VOID_REAVER",
           "count": 10,
-          "desc": "Close Void positions."
+          "desc": "Close Void positions.",
+          "description": "Defeat VOID_REAVER (x10)."
         }
       ],
       "rewards": {
@@ -4781,7 +4896,8 @@
           "type": "kill",
           "target": "CRYSTAL_TYRANT",
           "count": 3,
-          "desc": "Execute Chapter 7 liquidation."
+          "desc": "Execute Chapter 7 liquidation.",
+          "description": "Defeat CRYSTAL_TYRANT (x3)."
         },
         {
           "type": "collect",
@@ -4832,13 +4948,15 @@
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 8,
-          "desc": "Eliminate production hindrances."
+          "desc": "Eliminate production hindrances.",
+          "description": "Defeat AETHEL_VOID_CHANNELER (x8)."
         },
         {
           "type": "kill",
           "target": "TITAN_FORGE_AUTOMATON",
           "count": 3,
-          "desc": "Replace inefficient Automatons."
+          "desc": "Replace inefficient Automatons.",
+          "description": "Defeat TITAN_FORGE_AUTOMATON (x3)."
         }
       ],
       "rewards": {
@@ -4882,13 +5000,15 @@
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 10,
-          "desc": "Enforce market monopoly."
+          "desc": "Enforce market monopoly.",
+          "description": "Defeat AETHEL_RIFT_STALKER (x10)."
         },
         {
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "desc": "Eliminate residual market competition."
+          "desc": "Eliminate residual market competition.",
+          "description": "Defeat GRAVITY_TITAN (x1)."
         }
       ],
       "rewards": {
@@ -4932,13 +5052,15 @@
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 10,
-          "desc": "Maintain orbital holdings."
+          "desc": "Maintain orbital holdings.",
+          "description": "Defeat AETHEL_IRON_CARAPACE (x10)."
         },
         {
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
-          "desc": "Clear orbital liabilities."
+          "desc": "Clear orbital liabilities.",
+          "description": "Defeat AETHEL_CORRUPTED_BEHEMOTH (x3)."
         }
       ],
       "rewards": {
@@ -4982,13 +5104,15 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
-          "desc": "Consolidate Jotunn assets."
+          "desc": "Consolidate Jotunn assets.",
+          "description": "Defeat GIGANTIC_JOTUNN (x3)."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "desc": "Close Harbinger accounts."
+          "desc": "Close Harbinger accounts.",
+          "description": "Defeat ABYSS_HARBINGER (x1)."
         },
         {
           "type": "collect",
@@ -5039,19 +5163,22 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 1,
-          "desc": "Merge Jotunn assets."
+          "desc": "Merge Jotunn assets.",
+          "description": "Defeat GIGANTIC_JOTUNN (x1)."
         },
         {
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "desc": "Merge Drake assets."
+          "desc": "Merge Drake assets.",
+          "description": "Defeat ASHEN_DRAKE (x1)."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "desc": "Merge Harbinger assets."
+          "desc": "Merge Harbinger assets.",
+          "description": "Defeat ABYSS_HARBINGER (x1)."
         },
         {
           "type": "collect",
@@ -5110,19 +5237,22 @@
           "type": "travel",
           "target": "VOID_ECHO_CHASM",
           "count": 1,
-          "desc": "Attend the final board meeting."
+          "desc": "Attend the final board meeting.",
+          "description": "Travel to VOID ECHO CHASM."
         },
         {
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "desc": "Vote out the Eternal Gravity Titan."
+          "desc": "Vote out the Eternal Gravity Titan.",
+          "description": "Defeat GRAVITY_TITAN (x1)."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "desc": "Vote out the Eternal Abyss Harbinger."
+          "desc": "Vote out the Eternal Abyss Harbinger.",
+          "description": "Defeat ABYSS_HARBINGER (x1)."
         },
         {
           "type": "collect",
@@ -5173,13 +5303,15 @@
           "type": "travel",
           "target": "PORT_MERIDIAN",
           "count": 1,
-          "desc": "Return to Port Meridian as Eternity CEO."
+          "desc": "Return to Port Meridian as Eternity CEO.",
+          "description": "Travel to PORT MERIDIAN."
         },
         {
           "type": "interact",
           "target": "npc_cartel_boss",
           "count": 1,
-          "desc": "Receive the Eternity CEO charter from Executive Director Silas."
+          "desc": "Receive the Eternity CEO charter from Executive Director Silas.",
+          "description": "Speak with npc cartel boss."
         }
       ],
       "rewards": {

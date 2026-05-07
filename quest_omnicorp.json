@@ -23,7 +23,8 @@
           "type": "kill",
           "target": "PLATEAU_HARE",
           "count": 5,
-          "desc": "Execute Sanitization Protocol on Plateau Hares."
+          "desc": "Execute Sanitization Protocol on Plateau Hares.",
+          "description": "Defeat PLATEAU_HARE (x5)."
         },
         {
           "type": "collect",
@@ -78,7 +79,8 @@
           "type": "kill",
           "target": "OMNI_SURVEY_BOT",
           "count": 4,
-          "desc": "Neutralize malfunctioning Survey Bots."
+          "desc": "Neutralize malfunctioning Survey Bots.",
+          "description": "Defeat OMNI_SURVEY_BOT (x4)."
         },
         {
           "type": "collect",
@@ -129,7 +131,8 @@
           "type": "kill",
           "target": "PLATEAU_DRONE",
           "count": 5,
-          "desc": "Recalibrate Plateau Drones."
+          "desc": "Recalibrate Plateau Drones.",
+          "description": "Defeat PLATEAU_DRONE (x5)."
         },
         {
           "type": "collect",
@@ -180,7 +183,8 @@
           "type": "kill",
           "target": "HIGHLAND_GOATLING",
           "count": 5,
-          "desc": "Terminate Goatling resource drain."
+          "desc": "Terminate Goatling resource drain.",
+          "description": "Defeat HIGHLAND_GOATLING (x5)."
         },
         {
           "type": "collect",
@@ -231,19 +235,22 @@
           "type": "interact",
           "target": "npc_omnicorp_class_trainer",
           "count": 1,
-          "desc": "Report to Director Astra Vey for module installation."
+          "desc": "Report to Director Astra Vey for module installation.",
+          "description": "Speak with npc omnicorp class trainer."
         },
         {
           "type": "interact",
           "target": "class_change_screen",
           "count": 1,
-          "desc": "Select your Class Module."
+          "desc": "Select your Class Module.",
+          "description": "Speak with class change screen."
         },
         {
           "type": "kill",
           "target": "PLATEAU_DRONE",
           "count": 3,
-          "desc": "Demonstrate module functionality on Stone Armadillos."
+          "desc": "Demonstrate module functionality on Stone Armadillos.",
+          "description": "Defeat PLATEAU_DRONE (x3)."
         }
       ],
       "rewards": {
@@ -303,7 +310,8 @@
           "type": "travel",
           "target": "EXTRACTION_ZONE_DELTA",
           "count": 1,
-          "desc": "Enter Extraction Zone Delta."
+          "desc": "Enter Extraction Zone Delta.",
+          "description": "Travel to EXTRACTION ZONE DELTA."
         },
         {
           "type": "collect",
@@ -354,7 +362,8 @@
           "type": "kill",
           "target": "DELTA_MINING_DRONE",
           "count": 5,
-          "desc": "Reprogram Delta Mining Drones."
+          "desc": "Reprogram Delta Mining Drones.",
+          "description": "Defeat DELTA_MINING_DRONE (x5)."
         },
         {
           "type": "collect",
@@ -405,7 +414,8 @@
           "type": "kill",
           "target": "DELTA_ASSAULT_DRONE",
           "count": 2,
-          "desc": "Execute termination protocol."
+          "desc": "Execute termination protocol.",
+          "description": "Defeat DELTA_ASSAULT_DRONE (x2)."
         },
         {
           "type": "collect",
@@ -456,7 +466,8 @@
           "type": "kill",
           "target": "DELTA_ASSAULT_DRONE",
           "count": 3,
-          "desc": "Purge Assault Drone cluster."
+          "desc": "Purge Assault Drone cluster.",
+          "description": "Defeat DELTA_ASSAULT_DRONE (x3)."
         },
         {
           "type": "collect",
@@ -507,7 +518,8 @@
           "type": "travel",
           "target": "SECURE_MINING_GRID",
           "count": 1,
-          "desc": "Enter the Secure Mining Grid."
+          "desc": "Enter the Secure Mining Grid.",
+          "description": "Travel to SECURE MINING GRID."
         },
         {
           "type": "collect",
@@ -558,7 +570,8 @@
           "type": "kill",
           "target": "GRID_SENTINEL_DRONE",
           "count": 5,
-          "desc": "Update Grid Sentinel Drone patrol patterns."
+          "desc": "Update Grid Sentinel Drone patrol patterns.",
+          "description": "Defeat GRID_SENTINEL_DRONE (x5)."
         },
         {
           "type": "collect",
@@ -609,7 +622,8 @@
           "type": "kill",
           "target": "GRID_DEFENDER",
           "count": 5,
-          "desc": "Replace Grid Defenders."
+          "desc": "Replace Grid Defenders.",
+          "description": "Defeat GRID_DEFENDER (x5)."
         },
         {
           "type": "collect",
@@ -660,7 +674,8 @@
           "type": "kill",
           "target": "GRID_ASSAULT_UNIT",
           "count": 3,
-          "desc": "Override Grid Assault Unit protocols."
+          "desc": "Override Grid Assault Unit protocols.",
+          "description": "Defeat GRID_ASSAULT_UNIT (x3)."
         },
         {
           "type": "collect",
@@ -711,13 +726,15 @@
           "type": "kill",
           "target": "GRID_SENTINEL_DRONE",
           "count": 4,
-          "desc": "Remove Sentinel inefficiencies."
+          "desc": "Remove Sentinel inefficiencies.",
+          "description": "Defeat GRID_SENTINEL_DRONE (x4)."
         },
         {
           "type": "kill",
           "target": "GRID_DEFENDER",
           "count": 4,
-          "desc": "Remove Defender inefficiencies."
+          "desc": "Remove Defender inefficiencies.",
+          "description": "Defeat GRID_DEFENDER (x4)."
         }
       ],
       "rewards": {
@@ -761,7 +778,8 @@
           "type": "kill",
           "target": "GRID_ASSAULT_UNIT",
           "count": 4,
-          "desc": "Eliminate processing bottleneck."
+          "desc": "Eliminate processing bottleneck.",
+          "description": "Defeat GRID_ASSAULT_UNIT (x4)."
         },
         {
           "type": "collect",
@@ -819,7 +837,8 @@
           "type": "kill",
           "target": "GRID_SENTINEL_DRONE",
           "count": 3,
-          "desc": "Clear data node perimeters."
+          "desc": "Clear data node perimeters.",
+          "description": "Defeat GRID_SENTINEL_DRONE (x3)."
         }
       ],
       "rewards": {
@@ -863,7 +882,8 @@
           "type": "kill",
           "target": "GRID_ASSAULT_UNIT",
           "count": 5,
-          "desc": "Terminate unauthorized processes."
+          "desc": "Terminate unauthorized processes.",
+          "description": "Defeat GRID_ASSAULT_UNIT (x5)."
         },
         {
           "type": "collect",
@@ -914,13 +934,15 @@
           "type": "kill",
           "target": "RESONANCE_ECHO",
           "count": 1,
-          "desc": "Eliminate Resonance Echo interference."
+          "desc": "Eliminate Resonance Echo interference.",
+          "description": "Defeat RESONANCE_ECHO (x1)."
         },
         {
           "type": "kill",
           "target": "GRID_ASSAULT_UNIT",
           "count": 2,
-          "desc": "Clear Assault Unit escorts."
+          "desc": "Clear Assault Unit escorts.",
+          "description": "Defeat GRID_ASSAULT_UNIT (x2)."
         }
       ],
       "rewards": {
@@ -964,7 +986,8 @@
           "type": "travel",
           "target": "THE_SPIRE",
           "count": 1,
-          "desc": "Return to the Spire."
+          "desc": "Return to the Spire.",
+          "description": "Travel to THE SPIRE."
         },
         {
           "type": "collect",
@@ -1015,7 +1038,8 @@
           "type": "travel",
           "target": "SKYBRIDGE_REACTOR",
           "count": 1,
-          "desc": "Enter the Skybridge Reactor."
+          "desc": "Enter the Skybridge Reactor.",
+          "description": "Travel to SKYBRIDGE REACTOR."
         },
         {
           "type": "collect",
@@ -1066,7 +1090,8 @@
           "type": "kill",
           "target": "TITAN_ASSEMBLY_DRONE",
           "count": 5,
-          "desc": "Acquire Assembly Drones for R&D."
+          "desc": "Acquire Assembly Drones for R&D.",
+          "description": "Defeat TITAN_ASSEMBLY_DRONE (x5)."
         },
         {
           "type": "collect",
@@ -1117,7 +1142,8 @@
           "type": "kill",
           "target": "TITAN_ASSEMBLY_SENTINEL",
           "count": 3,
-          "desc": "Override Sentinel security protocols."
+          "desc": "Override Sentinel security protocols.",
+          "description": "Defeat TITAN_ASSEMBLY_SENTINEL (x3)."
         },
         {
           "type": "collect",
@@ -1168,7 +1194,8 @@
           "type": "kill",
           "target": "TITAN_PROTO_CORE",
           "count": 2,
-          "desc": "Extract failure data from Proto Cores."
+          "desc": "Extract failure data from Proto Cores.",
+          "description": "Defeat TITAN_PROTO_CORE (x2)."
         },
         {
           "type": "collect",
@@ -1219,7 +1246,8 @@
           "type": "kill",
           "target": "STORM_RIFT_SERPENT",
           "count": 2,
-          "desc": "Recover stolen energy from Serpents."
+          "desc": "Recover stolen energy from Serpents.",
+          "description": "Defeat STORM_RIFT_SERPENT (x2)."
         },
         {
           "type": "collect",
@@ -1270,7 +1298,8 @@
           "type": "travel",
           "target": "CRADLE_EXPANSE",
           "count": 1,
-          "desc": "Enter the Cradle Expanse."
+          "desc": "Enter the Cradle Expanse.",
+          "description": "Travel to CRADLE EXPANSE."
         },
         {
           "type": "collect",
@@ -1321,7 +1350,8 @@
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 5,
-          "desc": "Collect Rift Stalker specimens."
+          "desc": "Collect Rift Stalker specimens.",
+          "description": "Defeat AETHEL_RIFT_STALKER (x5)."
         },
         {
           "type": "collect",
@@ -1372,7 +1402,8 @@
           "type": "kill",
           "target": "AETHEL_BEHEMOTH",
           "count": 2,
-          "desc": "Harvest Behemoth power cells."
+          "desc": "Harvest Behemoth power cells.",
+          "description": "Defeat AETHEL_BEHEMOTH (x2)."
         },
         {
           "type": "collect",
@@ -1423,7 +1454,8 @@
           "type": "kill",
           "target": "TITAN_ASSEMBLY_SENTINEL",
           "count": 4,
-          "desc": "Implement permanent shutdown."
+          "desc": "Implement permanent shutdown.",
+          "description": "Defeat TITAN_ASSEMBLY_SENTINEL (x4)."
         },
         {
           "type": "collect",
@@ -1474,19 +1506,22 @@
           "type": "interact",
           "target": "npc_omnicorp_class_trainer",
           "count": 1,
-          "desc": "Report for Firmware Update installation."
+          "desc": "Report for Firmware Update installation.",
+          "description": "Speak with npc omnicorp class trainer."
         },
         {
           "type": "kill",
           "target": "RESONANCE_ECHO",
           "count": 1,
-          "desc": "Field-test Firmware on Resonance Echo."
+          "desc": "Field-test Firmware on Resonance Echo.",
+          "description": "Defeat RESONANCE_ECHO (x1)."
         },
         {
           "type": "kill",
           "target": "TITAN_PROTO_CORE",
           "count": 1,
-          "desc": "Stress-test Firmware on Titan Proto Core."
+          "desc": "Stress-test Firmware on Titan Proto Core.",
+          "description": "Defeat TITAN_PROTO_CORE (x1)."
         }
       ],
       "rewards": {
@@ -1538,7 +1573,8 @@
           "type": "travel",
           "target": "ORBITAL_SENTINEL_COMMAND",
           "count": 1,
-          "desc": "Report to Orbital Sentinel Command."
+          "desc": "Report to Orbital Sentinel Command.",
+          "description": "Travel to ORBITAL SENTINEL COMMAND."
         },
         {
           "type": "collect",
@@ -1589,7 +1625,8 @@
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "desc": "Neutralize Drake signal interference."
+          "desc": "Neutralize Drake signal interference.",
+          "description": "Defeat ASHEN_DRAKE (x1)."
         },
         {
           "type": "collect",
@@ -1640,7 +1677,8 @@
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 6,
-          "desc": "Deconstruct Iron Carapaces for analysis."
+          "desc": "Deconstruct Iron Carapaces for analysis.",
+          "description": "Defeat AETHEL_IRON_CARAPACE (x6)."
         },
         {
           "type": "collect",
@@ -1691,7 +1729,8 @@
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 2,
-          "desc": "Delete Corrupted Behemoths."
+          "desc": "Delete Corrupted Behemoths.",
+          "description": "Defeat AETHEL_CORRUPTED_BEHEMOTH (x2)."
         },
         {
           "type": "collect",
@@ -1742,7 +1781,8 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 4,
-          "desc": "Deploy counter-intrusion measures."
+          "desc": "Deploy counter-intrusion measures.",
+          "description": "Defeat AETHEL_ABYSSAL_REAVER (x4)."
         },
         {
           "type": "collect",
@@ -1793,13 +1833,15 @@
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 6,
-          "desc": "Deploy automated defense protocols."
+          "desc": "Deploy automated defense protocols.",
+          "description": "Defeat AETHEL_RIFT_STALKER (x6)."
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 3,
-          "desc": "Neutralize network intrusion specialists."
+          "desc": "Neutralize network intrusion specialists.",
+          "description": "Defeat AETHEL_VOID_CHANNELER (x3)."
         }
       ],
       "rewards": {
@@ -1843,7 +1885,8 @@
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "desc": "Execute System Shutdown on Drake."
+          "desc": "Execute System Shutdown on Drake.",
+          "description": "Defeat ASHEN_DRAKE (x1)."
         },
         {
           "type": "collect",
@@ -1894,7 +1937,8 @@
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
-          "desc": "Override hostile resistance."
+          "desc": "Override hostile resistance.",
+          "description": "Defeat AETHEL_IRON_CARAPACE (x8)."
         },
         {
           "type": "collect",
@@ -1945,13 +1989,15 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 6,
-          "desc": "Isolate intrusion vectors."
+          "desc": "Isolate intrusion vectors.",
+          "description": "Defeat AETHEL_ABYSSAL_REAVER (x6)."
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 3,
-          "desc": "Terminate Channeler intrusion specialists."
+          "desc": "Terminate Channeler intrusion specialists.",
+          "description": "Defeat AETHEL_VOID_CHANNELER (x3)."
         }
       ],
       "rewards": {
@@ -1995,19 +2041,22 @@
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "desc": "Terminate Drake process."
+          "desc": "Terminate Drake process.",
+          "description": "Defeat ASHEN_DRAKE (x1)."
         },
         {
           "type": "kill",
           "target": "AETHEL_BEHEMOTH",
           "count": 1,
-          "desc": "Terminate Behemoth process."
+          "desc": "Terminate Behemoth process.",
+          "description": "Defeat AETHEL_BEHEMOTH (x1)."
         },
         {
           "type": "kill",
           "target": "TITAN_PROTO_CORE",
           "count": 1,
-          "desc": "Terminate Proto Core process."
+          "desc": "Terminate Proto Core process.",
+          "description": "Defeat TITAN_PROTO_CORE (x1)."
         }
       ],
       "rewards": {
@@ -2059,7 +2108,8 @@
           "type": "travel",
           "target": "VOID_ECHO_CHASM",
           "count": 1,
-          "desc": "Enter the Void Echo Chasm."
+          "desc": "Enter the Void Echo Chasm.",
+          "description": "Travel to VOID ECHO CHASM."
         },
         {
           "type": "collect",
@@ -2110,7 +2160,8 @@
           "type": "kill",
           "target": "VOID_REAVER",
           "count": 6,
-          "desc": "Execute Debug Protocol on Reavers."
+          "desc": "Execute Debug Protocol on Reavers.",
+          "description": "Defeat VOID_REAVER (x6)."
         },
         {
           "type": "collect",
@@ -2161,7 +2212,8 @@
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 6,
-          "desc": "Execute Anti-Malware Protocol."
+          "desc": "Execute Anti-Malware Protocol.",
+          "description": "Defeat AETHEL_VOID_CHANNELER (x6)."
         },
         {
           "type": "collect",
@@ -2212,7 +2264,8 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 6,
-          "desc": "Deploy Kill Command on Abyssal processes."
+          "desc": "Deploy Kill Command on Abyssal processes.",
+          "description": "Defeat AETHEL_ABYSSAL_REAVER (x6)."
         },
         {
           "type": "collect",
@@ -2263,7 +2316,8 @@
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
-          "desc": "Execute Error Correction Protocol."
+          "desc": "Execute Error Correction Protocol.",
+          "description": "Defeat AETHEL_CORRUPTED_BEHEMOTH (x3)."
         },
         {
           "type": "collect",
@@ -2314,7 +2368,8 @@
           "type": "kill",
           "target": "SOUL_FRAGMENTER",
           "count": 2,
-          "desc": "Patch Segmenter vulnerability."
+          "desc": "Patch Segmenter vulnerability.",
+          "description": "Defeat SOUL_FRAGMENTER (x2)."
         },
         {
           "type": "collect",
@@ -2365,7 +2420,8 @@
           "type": "kill",
           "target": "CHRONO_WRAITH",
           "count": 2,
-          "desc": "Terminate Wraith runtime errors."
+          "desc": "Terminate Wraith runtime errors.",
+          "description": "Defeat CHRONO_WRAITH (x2)."
         },
         {
           "type": "collect",
@@ -2416,7 +2472,8 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 1,
-          "desc": "Terminate Jotunn process."
+          "desc": "Terminate Jotunn process.",
+          "description": "Defeat GIGANTIC_JOTUNN (x1)."
         },
         {
           "type": "collect",
@@ -2467,7 +2524,8 @@
           "type": "travel",
           "target": "SHATTERED_HEART",
           "count": 1,
-          "desc": "Enter the Shattered Heart sector."
+          "desc": "Enter the Shattered Heart sector.",
+          "description": "Travel to SHATTERED HEART."
         },
         {
           "type": "collect",
@@ -2518,13 +2576,15 @@
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "desc": "EXTRACT DRAKE ENERGY CORE."
+          "desc": "EXTRACT DRAKE ENERGY CORE.",
+          "description": "Defeat ASHEN_DRAKE (x1)."
         },
         {
           "type": "kill",
           "target": "DRAKE_MINION",
           "count": 5,
-          "desc": "Clear Drake Minion obstacles."
+          "desc": "Clear Drake Minion obstacles.",
+          "description": "Defeat DRAKE_MINION (x5)."
         },
         {
           "type": "collect",
@@ -2583,7 +2643,8 @@
           "type": "kill",
           "target": "SOUL_FRAGMENTER",
           "count": 3,
-          "desc": "Execute Anti-Virus sweep."
+          "desc": "Execute Anti-Virus sweep.",
+          "description": "Defeat SOUL_FRAGMENTER (x3)."
         },
         {
           "type": "collect",
@@ -2634,13 +2695,15 @@
           "type": "kill",
           "target": "VOID_REAVER",
           "count": 8,
-          "desc": "Execute Disk Cleanup on Reavers."
+          "desc": "Execute Disk Cleanup on Reavers.",
+          "description": "Defeat VOID_REAVER (x8)."
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 5,
-          "desc": "Execute Disk Cleanup on Channelers."
+          "desc": "Execute Disk Cleanup on Channelers.",
+          "description": "Defeat AETHEL_VOID_CHANNELER (x5)."
         }
       ],
       "rewards": {
@@ -2684,7 +2747,8 @@
           "type": "kill",
           "target": "VOID_STALKER",
           "count": 1,
-          "desc": "Remove Stalker rootkit."
+          "desc": "Remove Stalker rootkit.",
+          "description": "Defeat VOID_STALKER (x1)."
         },
         {
           "type": "collect",
@@ -2735,7 +2799,8 @@
           "type": "kill",
           "target": "CHRONO_WRAITH",
           "count": 3,
-          "desc": "Deploy Temporal Stability Patch."
+          "desc": "Deploy Temporal Stability Patch.",
+          "description": "Defeat CHRONO_WRAITH (x3)."
         },
         {
           "type": "collect",
@@ -2786,13 +2851,15 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 10,
-          "desc": "Execute Sector Purge on Reavers."
+          "desc": "Execute Sector Purge on Reavers.",
+          "description": "Defeat AETHEL_ABYSSAL_REAVER (x10)."
         },
         {
           "type": "kill",
           "target": "VOID_REAVER",
           "count": 6,
-          "desc": "Execute Sector Purge on Void Reavers."
+          "desc": "Execute Sector Purge on Void Reavers.",
+          "description": "Defeat VOID_REAVER (x6)."
         }
       ],
       "rewards": {
@@ -2836,7 +2903,8 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
-          "desc": "Shut down Jotunn servers."
+          "desc": "Shut down Jotunn servers.",
+          "description": "Defeat GIGANTIC_JOTUNN (x3)."
         },
         {
           "type": "collect",
@@ -2887,7 +2955,8 @@
           "type": "kill",
           "target": "CRYSTAL_TYRANT",
           "count": 2,
-          "desc": "Remove Tyrant hardware."
+          "desc": "Remove Tyrant hardware.",
+          "description": "Defeat CRYSTAL_TYRANT (x2)."
         },
         {
           "type": "collect",
@@ -2938,13 +3007,15 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 6,
-          "desc": "Clear system access paths."
+          "desc": "Clear system access paths.",
+          "description": "Defeat AETHEL_ABYSSAL_REAVER (x6)."
         },
         {
           "type": "kill",
           "target": "CHRONO_WRAITH",
           "count": 1,
-          "desc": "Remove temporal lock."
+          "desc": "Remove temporal lock.",
+          "description": "Defeat CHRONO_WRAITH (x1)."
         },
         {
           "type": "collect",
@@ -2995,13 +3066,15 @@
           "type": "kill",
           "target": "SOUL_FRAGMENTER",
           "count": 3,
-          "desc": "Execute Process Kill on Fragmenters."
+          "desc": "Execute Process Kill on Fragmenters.",
+          "description": "Defeat SOUL_FRAGMENTER (x3)."
         },
         {
           "type": "kill",
           "target": "VOID_STALKER",
           "count": 1,
-          "desc": "Kill parent Stalker process."
+          "desc": "Kill parent Stalker process.",
+          "description": "Defeat VOID_STALKER (x1)."
         }
       ],
       "rewards": {
@@ -3045,7 +3118,8 @@
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "desc": "EXECUTE SHUTDOWN ON ABYSS HARBINGER."
+          "desc": "EXECUTE SHUTDOWN ON ABYSS HARBINGER.",
+          "description": "Defeat ABYSS_HARBINGER (x1)."
         },
         {
           "type": "collect",
@@ -3104,7 +3178,8 @@
           "type": "travel",
           "target": "SEVERANCE_FAULTLINE",
           "count": 1,
-          "desc": "Enter the Severance Faultline."
+          "desc": "Enter the Severance Faultline.",
+          "description": "Travel to SEVERANCE FAULTLINE."
         },
         {
           "type": "collect",
@@ -3155,7 +3230,8 @@
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
-          "desc": "Deconstruct Iron Carapaces."
+          "desc": "Deconstruct Iron Carapaces.",
+          "description": "Defeat AETHEL_IRON_CARAPACE (x8)."
         },
         {
           "type": "collect",
@@ -3206,7 +3282,8 @@
           "type": "kill",
           "target": "CRYSTAL_TYRANT",
           "count": 2,
-          "desc": "Eliminate Tyrant interference."
+          "desc": "Eliminate Tyrant interference.",
+          "description": "Defeat CRYSTAL_TYRANT (x2)."
         },
         {
           "type": "collect",
@@ -3257,7 +3334,8 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
-          "desc": "Deploy anchors at Jotunn sites."
+          "desc": "Deploy anchors at Jotunn sites.",
+          "description": "Defeat GIGANTIC_JOTUNN (x3)."
         },
         {
           "type": "collect",
@@ -3308,7 +3386,8 @@
           "type": "travel",
           "target": "AETHEL_SIPHON_CORE",
           "count": 1,
-          "desc": "Enter the Aethel Siphon Core."
+          "desc": "Enter the Aethel Siphon Core.",
+          "description": "Travel to AETHEL SIPHON CORE."
         },
         {
           "type": "collect",
@@ -3359,13 +3438,15 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 8,
-          "desc": "Execute security sweep."
+          "desc": "Execute security sweep.",
+          "description": "Defeat AETHEL_ABYSSAL_REAVER (x8)."
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 5,
-          "desc": "Purge Channeler processes."
+          "desc": "Purge Channeler processes.",
+          "description": "Defeat AETHEL_VOID_CHANNELER (x5)."
         }
       ],
       "rewards": {
@@ -3409,7 +3490,8 @@
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
-          "desc": "Prevent crash cascade."
+          "desc": "Prevent crash cascade.",
+          "description": "Defeat AETHEL_CORRUPTED_BEHEMOTH (x3)."
         },
         {
           "type": "collect",
@@ -3460,7 +3542,8 @@
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 6,
-          "desc": "Disconnect Stalker network nodes."
+          "desc": "Disconnect Stalker network nodes.",
+          "description": "Defeat AETHEL_RIFT_STALKER (x6)."
         },
         {
           "type": "collect",
@@ -3518,7 +3601,8 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 1,
-          "desc": "Eliminate Jotunn data corruption."
+          "desc": "Eliminate Jotunn data corruption.",
+          "description": "Defeat GIGANTIC_JOTUNN (x1)."
         }
       ],
       "rewards": {
@@ -3562,13 +3646,15 @@
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "desc": "DOWNLOAD THE GRAVITY ALGORITHM."
+          "desc": "DOWNLOAD THE GRAVITY ALGORITHM.",
+          "description": "Defeat GRAVITY_TITAN (x1)."
         },
         {
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "desc": "Clear download path obstacles."
+          "desc": "Clear download path obstacles.",
+          "description": "Defeat AETHEL_ABYSSAL_REAVER (x5)."
         },
         {
           "type": "collect",
@@ -3627,7 +3713,8 @@
           "type": "travel",
           "target": "PRIMA_MATERIA_FORGE",
           "count": 1,
-          "desc": "Enter the Prima Materia Forge."
+          "desc": "Enter the Prima Materia Forge.",
+          "description": "Travel to PRIMA MATERIA FORGE."
         },
         {
           "type": "collect",
@@ -3678,7 +3765,8 @@
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
-          "desc": "Override Forge defense systems."
+          "desc": "Override Forge defense systems.",
+          "description": "Defeat AETHEL_IRON_CARAPACE (x8)."
         },
         {
           "type": "collect",
@@ -3729,7 +3817,8 @@
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
-          "desc": "Execute Product Recall and Disposal."
+          "desc": "Execute Product Recall and Disposal.",
+          "description": "Defeat AETHEL_CORRUPTED_BEHEMOTH (x3)."
         },
         {
           "type": "collect",
@@ -3780,13 +3869,15 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 8,
-          "desc": "Remove unauthorized Abyssal users."
+          "desc": "Remove unauthorized Abyssal users.",
+          "description": "Defeat AETHEL_ABYSSAL_REAVER (x8)."
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 5,
-          "desc": "Remove unauthorized Channeler users."
+          "desc": "Remove unauthorized Channeler users.",
+          "description": "Defeat AETHEL_VOID_CHANNELER (x5)."
         }
       ],
       "rewards": {
@@ -3830,7 +3921,8 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
-          "desc": "Terminate Jotunn workflow interference."
+          "desc": "Terminate Jotunn workflow interference.",
+          "description": "Defeat GIGANTIC_JOTUNN (x3)."
         },
         {
           "type": "collect",
@@ -3881,7 +3973,8 @@
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 6,
-          "desc": "Clear production floor."
+          "desc": "Clear production floor.",
+          "description": "Defeat AETHEL_VOID_CHANNELER (x6)."
         },
         {
           "type": "collect",
@@ -3932,7 +4025,8 @@
           "type": "kill",
           "target": "TITAN_FORGE_AUTOMATON",
           "count": 3,
-          "desc": "Reprogram Automatons."
+          "desc": "Reprogram Automatons.",
+          "description": "Defeat TITAN_FORGE_AUTOMATON (x3)."
         },
         {
           "type": "collect",
@@ -3983,7 +4077,8 @@
           "type": "kill",
           "target": "TITAN_PROTO_CORE",
           "count": 2,
-          "desc": "Recycle Proto Cores."
+          "desc": "Recycle Proto Cores.",
+          "description": "Defeat TITAN_PROTO_CORE (x2)."
         },
         {
           "type": "collect",
@@ -4034,13 +4129,15 @@
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "desc": "Eliminate Titan \u2014 target acquired."
+          "desc": "Eliminate Titan \u2014 target acquired.",
+          "description": "Defeat GRAVITY_TITAN (x1)."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "desc": "Eliminate Harbinger \u2014 target acquired."
+          "desc": "Eliminate Harbinger \u2014 target acquired.",
+          "description": "Defeat ABYSS_HARBINGER (x1)."
         }
       ],
       "rewards": {
@@ -4092,7 +4189,8 @@
           "type": "travel",
           "target": "THE_SPIRE",
           "count": 1,
-          "desc": "Return to the Spire."
+          "desc": "Return to the Spire.",
+          "description": "Travel to THE SPIRE."
         },
         {
           "type": "collect",
@@ -4147,7 +4245,8 @@
           "type": "travel",
           "target": "HIDDEN_AETHELGARDIAN_CITY",
           "count": 1,
-          "desc": "Enter the Hidden Aethelgardian City."
+          "desc": "Enter the Hidden Aethelgardian City.",
+          "description": "Travel to HIDDEN AETHELGARDIAN CITY."
         },
         {
           "type": "collect",
@@ -4198,7 +4297,8 @@
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 8,
-          "desc": "Remove legacy defense systems."
+          "desc": "Remove legacy defense systems.",
+          "description": "Defeat AETHEL_RIFT_STALKER (x8)."
         },
         {
           "type": "collect",
@@ -4256,7 +4356,8 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 4,
-          "desc": "Defend download from data thieves."
+          "desc": "Defend download from data thieves.",
+          "description": "Defeat AETHEL_ABYSSAL_REAVER (x4)."
         }
       ],
       "rewards": {
@@ -4300,7 +4401,8 @@
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "desc": "Execute permanent Drake deletion."
+          "desc": "Execute permanent Drake deletion.",
+          "description": "Defeat ASHEN_DRAKE (x1)."
         },
         {
           "type": "collect",
@@ -4355,7 +4457,8 @@
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "desc": "Execute permanent uninstall."
+          "desc": "Execute permanent uninstall.",
+          "description": "Defeat ABYSS_HARBINGER (x1)."
         },
         {
           "type": "collect",
@@ -4410,7 +4513,8 @@
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "desc": "Execute full disk format on Titan."
+          "desc": "Execute full disk format on Titan.",
+          "description": "Defeat GRAVITY_TITAN (x1)."
         },
         {
           "type": "collect",
@@ -4465,19 +4569,22 @@
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "desc": "Terminate Drake process."
+          "desc": "Terminate Drake process.",
+          "description": "Defeat ASHEN_DRAKE (x1)."
         },
         {
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "desc": "Terminate Titan process."
+          "desc": "Terminate Titan process.",
+          "description": "Defeat GRAVITY_TITAN (x1)."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "desc": "Terminate Harbinger process."
+          "desc": "Terminate Harbinger process.",
+          "description": "Defeat ABYSS_HARBINGER (x1)."
         }
       ],
       "rewards": {
@@ -4529,7 +4636,8 @@
           "type": "travel",
           "target": "AETHEL_SIPHON_CORE",
           "count": 1,
-          "desc": "Enter Omnicorp Central Server."
+          "desc": "Enter Omnicorp Central Server.",
+          "description": "Travel to AETHEL SIPHON CORE."
         },
         {
           "type": "collect",
@@ -4587,7 +4695,8 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 2,
-          "desc": "Remove source code guards."
+          "desc": "Remove source code guards.",
+          "description": "Defeat GIGANTIC_JOTUNN (x2)."
         }
       ],
       "rewards": {
@@ -4631,13 +4740,15 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 10,
-          "desc": "Defend compile process."
+          "desc": "Defend compile process.",
+          "description": "Defeat AETHEL_ABYSSAL_REAVER (x10)."
         },
         {
           "type": "kill",
           "target": "CRYSTAL_TYRANT",
           "count": 2,
-          "desc": "Remove compile errors."
+          "desc": "Remove compile errors.",
+          "description": "Defeat CRYSTAL_TYRANT (x2)."
         },
         {
           "type": "collect",
@@ -4688,13 +4799,15 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 5,
-          "desc": "Execute Jotunn cleanup."
+          "desc": "Execute Jotunn cleanup.",
+          "description": "Defeat GIGANTIC_JOTUNN (x5)."
         },
         {
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
-          "desc": "Execute Carapace cleanup."
+          "desc": "Execute Carapace cleanup.",
+          "description": "Defeat AETHEL_IRON_CARAPACE (x8)."
         }
       ],
       "rewards": {
@@ -4738,13 +4851,15 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 10,
-          "desc": "Purge Abyssal instances."
+          "desc": "Purge Abyssal instances.",
+          "description": "Defeat AETHEL_ABYSSAL_REAVER (x10)."
         },
         {
           "type": "kill",
           "target": "VOID_REAVER",
           "count": 10,
-          "desc": "Purge Void instances."
+          "desc": "Purge Void instances.",
+          "description": "Defeat VOID_REAVER (x10)."
         }
       ],
       "rewards": {
@@ -4788,7 +4903,8 @@
           "type": "kill",
           "target": "CRYSTAL_TYRANT",
           "count": 3,
-          "desc": "Remove legacy Tyrant hardware."
+          "desc": "Remove legacy Tyrant hardware.",
+          "description": "Defeat CRYSTAL_TYRANT (x3)."
         },
         {
           "type": "collect",
@@ -4839,13 +4955,15 @@
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 8,
-          "desc": "Eliminate production variables."
+          "desc": "Eliminate production variables.",
+          "description": "Defeat AETHEL_VOID_CHANNELER (x8)."
         },
         {
           "type": "kill",
           "target": "TITAN_FORGE_AUTOMATON",
           "count": 3,
-          "desc": "Replace legacy Automatons."
+          "desc": "Replace legacy Automatons.",
+          "description": "Defeat TITAN_FORGE_AUTOMATON (x3)."
         }
       ],
       "rewards": {
@@ -4889,13 +5007,15 @@
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 10,
-          "desc": "Enforce network control."
+          "desc": "Enforce network control.",
+          "description": "Defeat AETHEL_RIFT_STALKER (x10)."
         },
         {
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "desc": "Remove remaining Titan instance."
+          "desc": "Remove remaining Titan instance.",
+          "description": "Defeat GRAVITY_TITAN (x1)."
         }
       ],
       "rewards": {
@@ -4939,13 +5059,15 @@
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 10,
-          "desc": "Execute orbital maintenance sweep."
+          "desc": "Execute orbital maintenance sweep.",
+          "description": "Defeat AETHEL_IRON_CARAPACE (x10)."
         },
         {
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
-          "desc": "Remove orbital system errors."
+          "desc": "Remove orbital system errors.",
+          "description": "Defeat AETHEL_CORRUPTED_BEHEMOTH (x3)."
         }
       ],
       "rewards": {
@@ -4989,13 +5111,15 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
-          "desc": "Eliminate backup threats."
+          "desc": "Eliminate backup threats.",
+          "description": "Defeat GIGANTIC_JOTUNN (x3)."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "desc": "Eliminate Harbinger backup corruption."
+          "desc": "Eliminate Harbinger backup corruption.",
+          "description": "Defeat ABYSS_HARBINGER (x1)."
         },
         {
           "type": "collect",
@@ -5046,19 +5170,22 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 1,
-          "desc": "Override Jotunn authority."
+          "desc": "Override Jotunn authority.",
+          "description": "Defeat GIGANTIC_JOTUNN (x1)."
         },
         {
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "desc": "Override Drake authority."
+          "desc": "Override Drake authority.",
+          "description": "Defeat ASHEN_DRAKE (x1)."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "desc": "Override Harbinger authority."
+          "desc": "Override Harbinger authority.",
+          "description": "Defeat ABYSS_HARBINGER (x1)."
         },
         {
           "type": "collect",
@@ -5117,19 +5244,22 @@
           "type": "travel",
           "target": "VOID_ECHO_CHASM",
           "count": 1,
-          "desc": "Enter the deepest chasm."
+          "desc": "Enter the deepest chasm.",
+          "description": "Travel to VOID ECHO CHASM."
         },
         {
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "desc": "Terminate Eternal Gravity Titan."
+          "desc": "Terminate Eternal Gravity Titan.",
+          "description": "Defeat GRAVITY_TITAN (x1)."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "desc": "Terminate Eternal Abyss Harbinger."
+          "desc": "Terminate Eternal Abyss Harbinger.",
+          "description": "Defeat ABYSS_HARBINGER (x1)."
         },
         {
           "type": "collect",
@@ -5180,13 +5310,15 @@
           "type": "travel",
           "target": "THE_SPIRE",
           "count": 1,
-          "desc": "Return to the Spire as the Singularity."
+          "desc": "Return to the Spire as the Singularity.",
+          "description": "Travel to THE SPIRE."
         },
         {
           "type": "interact",
           "target": "npc_omnicorp_executive",
           "count": 1,
-          "desc": "Receive Singularity certification from CEO Valerius."
+          "desc": "Receive Singularity certification from CEO Valerius.",
+          "description": "Speak with npc omnicorp executive."
         }
       ],
       "rewards": {
