@@ -52,7 +52,7 @@
     "region_id": "NEXUS_CORE",
     "description": "A cheerful matron who runs the only reputable lodging in the district. She knows everyone's business and tells no one.",
     "personality": "warm_informative",
-    "greeting": "Rest your feet, friend. Rooms are clean, food's hot, and I've heard it all — so save the excuses.",
+    "greeting": "Rest your feet, friend. Rooms are clean, food's hot, and I've heard it all \u2014 so save the excuses.",
     "available_services": [
       "REST",
       "INFO",
@@ -166,7 +166,7 @@
     "region_id": "AETHEL_GARDENS",
     "description": "A young Concordium scout on rotation through the Gardens, cataloguing flora mutations and monster migration patterns.",
     "personality": "curious_cautious",
-    "greeting": "Eyes open out here — the mutations near the eastern cluster have been getting aggressive.",
+    "greeting": "Eyes open out here \u2014 the mutations near the eastern cluster have been getting aggressive.",
     "available_services": [
       "INFO"
     ],
@@ -223,7 +223,7 @@
     "region_id": "BROKEN_CIVIL_QUARTER",
     "description": "Old Man Kael claims to have explored every district before the Great Fracture. His stories contradict each other perfectly.",
     "personality": "eccentric_knowledgeable",
-    "greeting": "Sit down. This'll take a minute. Or don't — your loss.",
+    "greeting": "Sit down. This'll take a minute. Or don't \u2014 your loss.",
     "available_services": [
       "QUEST",
       "INFO"
@@ -242,7 +242,7 @@
     "region_id": "OBSERVATORY_SPIRE",
     "description": "Scholar Elara specialises in Aethel resonance mapping. She has published seventeen papers. She mentions this within thirty seconds of meeting anyone.",
     "personality": "intellectual_impatient",
-    "greeting": "I'll spare you the background reading — just tell me what you know.",
+    "greeting": "I'll spare you the background reading \u2014 just tell me what you know.",
     "available_services": [
       "QUEST",
       "INFO"
@@ -298,7 +298,7 @@
     "region_id": "FRACTURED_GLASS_VALLEY",
     "description": "Mina has spent years combing the Valley for pure Cradle Glass fragments. She sells the extras and keeps the finest for herself.",
     "personality": "focused_mercantile",
-    "greeting": "I'll tell you right now — the good pieces aren't for sale. But I have plenty of the rest.",
+    "greeting": "I'll tell you right now \u2014 the good pieces aren't for sale. But I have plenty of the rest.",
     "available_services": [
       "BUY",
       "SELL"
@@ -319,7 +319,7 @@
     "region_id": "RESONANCE_CAVERNS",
     "description": "Dax descends into the Caverns daily and emerges with more data than anyone else alive. He's partially deaf from the resonance hum.",
     "personality": "casual_brave",
-    "greeting": "What? Oh — yeah. Deep cave, lots of crystals, definitely haunted. Want specifics?",
+    "greeting": "What? Oh \u2014 yeah. Deep cave, lots of crystals, definitely haunted. Want specifics?",
     "available_services": [
       "INFO"
     ],
@@ -489,7 +489,7 @@
     "region_id": "CORAL_WETLANDS",
     "description": "Old Salty has fished the Wetlands for fifty years and has opinions on everything. He shares them whether asked or not.",
     "personality": "talkative_weathered",
-    "greeting": "Careful out past the orange markers — something big has been circling.",
+    "greeting": "Careful out past the orange markers \u2014 something big has been circling.",
     "available_services": [
       "INFO"
     ],
@@ -583,7 +583,7 @@
     "shop_inventory": null,
     "location": "Skybridge Reactor Control Room",
     "region_id": "SKYBRIDGE_REACTOR",
-    "description": "Tech Officer 404 handles everything from hardware diagnostics to covert extraction — and prefers not to explain why the two are related.",
+    "description": "Tech Officer 404 handles everything from hardware diagnostics to covert extraction \u2014 and prefers not to explain why the two are related.",
     "personality": "terse_precise",
     "greeting": "Task assigned. Completion expected. Questions are inefficient.",
     "available_services": [
@@ -676,7 +676,7 @@
     "region_id": "SANCTUM",
     "description": "High Priestess Lyr is the spiritual and operational leader of the Children of the Shard. She speaks in certainties because she has heard the Shard speak.",
     "personality": "serene_absolute",
-    "greeting": "The Shard has already seen this meeting. Come — what you seek to ask, it already knows.",
+    "greeting": "The Shard has already seen this meeting. Come \u2014 what you seek to ask, it already knows.",
     "available_services": [
       "QUEST",
       "INFO"
@@ -755,7 +755,7 @@
     "region_id": "FRAGMENT_SHRINE",
     "description": "Keeper Norn has maintained the Fragment Shrine for three generations of her family. The shrine remembers what history has tried to erase.",
     "personality": "devoted_historical",
-    "greeting": "Leave an offering, or don't — the Shard judges intent, not tribute.",
+    "greeting": "Leave an offering, or don't \u2014 the Shard judges intent, not tribute.",
     "available_services": [
       "QUEST"
     ],
@@ -791,7 +791,7 @@
     "region_id": "FORTRESS_KAELEN",
     "description": "General Kaelen is the Starforged Legion's most decorated commander and the fortress' namesake ancestor's descendant. Every scar has a story.",
     "personality": "honourable_fierce",
-    "greeting": "The Legion's wars are never truly over — they only pause. Come, there is work.",
+    "greeting": "The Legion's wars are never truly over \u2014 they only pause. Come, there is work.",
     "available_services": [
       "QUEST"
     ],
@@ -884,7 +884,7 @@
     "region_id": "CRADLE_EXPANSE",
     "description": "Smithy Dan set up a forge in the middle of nowhere after being blacklisted by every guild. His work is better than his manners.",
     "personality": "bitter_talented",
-    "greeting": "Took the long route to find me. Good — means you actually need something forged right.",
+    "greeting": "Took the long route to find me. Good \u2014 means you actually need something forged right.",
     "available_services": [
       "CRAFT",
       "BUY",
@@ -922,11 +922,11 @@
     "faction": "NONE",
     "dialogue_tree": "dialog_traveling_trader",
     "shop_inventory": "shop_rare_01",
-    "location": "Roaming — Border Regions",
+    "location": "Roaming \u2014 Border Regions",
     "region_id": "CONTESTED",
     "description": "The Traveling Merchant has no fixed location and appears at crossroads when least expected. Some say they're the same person across decades; others say they're a fleet.",
     "personality": "mysterious_helpful",
-    "greeting": "The rare finds the rare. You've found me — so you must be looking for something unusual.",
+    "greeting": "The rare finds the rare. You've found me \u2014 so you must be looking for something unusual.",
     "available_services": [
       "BUY",
       "SELL"
@@ -981,7 +981,7 @@
     "shop_inventory": null,
     "location": "Void Echo Chasm",
     "region_id": "VOID_ECHO_CHASM",
-    "description": "The Nameless Walker exists between states — half in this world, half in the Void. They offer guidance but no comfort.",
+    "description": "The Nameless Walker exists between states \u2014 half in this world, half in the Void. They offer guidance but no comfort.",
     "personality": "unsettling_cryptic",
     "greeting": "You see me. Most do not. That means the Void has noticed you already.",
     "available_services": [
@@ -1017,7 +1017,7 @@
     "shop_inventory": null,
     "location": "Aethel Siphon Core",
     "region_id": "AETHEL_SIPHON_CORE",
-    "description": "Tech Lead Aris maintains the most dangerous energy extraction operation in the Concordium — a job that has taken three predecessors.",
+    "description": "Tech Lead Aris maintains the most dangerous energy extraction operation in the Concordium \u2014 a job that has taken three predecessors.",
     "personality": "focused_haunted",
     "greeting": "The Core is stable. For now. I need someone who can run interference on the eastern conduit.",
     "available_services": [
@@ -1129,7 +1129,7 @@
     "region_id": "NEXUS_CORE",
     "description": "Aurelia Voss manages the Concordium's official currency exchange desk with meticulous records and an unbreakable smile.",
     "personality": "professional_efficient",
-    "greeting": "Standard rates apply. Concordium Credit at today's official rate — no black market here.",
+    "greeting": "Standard rates apply. Concordium Credit at today's official rate \u2014 no black market here.",
     "available_services": [
       "CURRENCY_EXCHANGE"
     ],
@@ -1183,7 +1183,7 @@
     "region_id": "PORT_MERIDIAN",
     "description": "Silas Vey runs the Cartel's exchange floor and makes more from the spread than the official rate would suggest.",
     "personality": "slick_opportunistic",
-    "greeting": "The best rates in three sectors — according to me, which is who matters here.",
+    "greeting": "The best rates in three sectors \u2014 according to me, which is who matters here.",
     "available_services": [
       "CURRENCY_EXCHANGE"
     ],
@@ -1237,7 +1237,7 @@
     "region_id": "FORTRESS_KAELEN",
     "description": "Varkon Thal manages Legion Scrip disbursement and exchange with the same brutal efficiency as a weapons inspection.",
     "personality": "brisk_fair",
-    "greeting": "Rate's posted on the board. No negotiation. Scrip in, credits out — move along.",
+    "greeting": "Rate's posted on the board. No negotiation. Scrip in, credits out \u2014 move along.",
     "available_services": [
       "CURRENCY_EXCHANGE"
     ],
@@ -1309,7 +1309,7 @@
     "region_id": "RESONANCE_CAVERNS",
     "description": "Researcher Vin is deep in a classified study of the Cavern's resonance peaks and needs reliable field agents who ask fewer questions.",
     "personality": "distracted_brilliant",
-    "greeting": "Yes, yes — come in. Just don't touch the crystal array. Or that. Or — actually, touch nothing.",
+    "greeting": "Yes, yes \u2014 come in. Just don't touch the crystal array. Or that. Or \u2014 actually, touch nothing.",
     "available_services": [
       "QUEST"
     ],
@@ -1397,7 +1397,7 @@
     "shop_inventory": null,
     "location": "Orbital Sentinel Command Training Bay",
     "region_id": "ORBITAL_SENTINEL_COMMAND",
-    "description": "Commander Lyra trains operatives in Custodian tactical frameworks — precise, modular, and faction-agnostic.",
+    "description": "Commander Lyra trains operatives in Custodian tactical frameworks \u2014 precise, modular, and faction-agnostic.",
     "personality": "methodical_neutral",
     "greeting": "Class advancement follows protocol. Protocol follows evidence. Present your record.",
     "available_services": [
@@ -1531,5 +1531,380 @@
       "INFO"
     ],
     "actions": []
+  },
+  {
+    "npc_id": "npc_crossroad_merchant",
+    "name": "Arwick Voss",
+    "title": "Crossroad Merchant",
+    "role": "MERCHANT",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_merchant_greet",
+    "shop_inventory": "shop_crossroad_basic",
+    "location": "Nexus Crossroads",
+    "region_id": "NEXUS_CROSSROADS",
+    "description": "A wandering trader from the Bastion who settled at the Crossroads. Sells basic supplies.",
+    "actions": [],
+    "available_services": [
+      "BUY",
+      "SELL"
+    ],
+    "greeting": "Welcome to the Crossroads, traveler! Need supplies for the road ahead?"
+  },
+  {
+    "npc_id": "npc_crossroad_inn",
+    "name": "Mira Solace",
+    "title": "Crossroad Innkeeper",
+    "role": "INNKEEPER",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_innkeeper_greet",
+    "location": "Nexus Crossroads",
+    "region_id": "NEXUS_CROSSROADS",
+    "description": "A former Concordium medic who opened an inn at the Crossroads.",
+    "actions": [],
+    "available_services": [
+      "REST"
+    ],
+    "greeting": "Rough journey? Rest here. All factions welcome under this roof."
+  },
+  {
+    "npc_id": "npc_crossroad_blacksmith",
+    "name": "Dhurn Ironhand",
+    "title": "Crossroad Blacksmith",
+    "role": "CRAFTER",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_blacksmith_greet",
+    "location": "Nexus Crossroads",
+    "region_id": "NEXUS_CROSSROADS",
+    "description": "An Iron Hegemony-trained smith who left the Bastion for neutral ground.",
+    "actions": [],
+    "available_services": [
+      "CRAFT"
+    ],
+    "greeting": "Need something forged? My hammer cares not for faction allegiance \u2014 only quality."
+  },
+  {
+    "npc_id": "npc_crossroad_quest_board",
+    "name": "Crossroad Bounty Board",
+    "title": "Neutral Quest Terminal",
+    "role": "TERMINAL",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_bounty_terminal",
+    "location": "Nexus Crossroads",
+    "region_id": "NEXUS_CROSSROADS",
+    "description": "A holographic terminal displaying bounties and contracts from all factions.",
+    "actions": [],
+    "available_services": [
+      "QUEST_LIST",
+      "BOUNTY_LIST"
+    ],
+    "greeting": "BOUNTY TERMINAL v3.2 \u2014 Select contract..."
+  },
+  {
+    "npc_id": "npc_crossroad_exchange",
+    "name": "Magister Venn",
+    "title": "AMA Exchange Officer",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_exchange_crossroad",
+    "location": "Nexus Crossroads",
+    "region_id": "NEXUS_CROSSROADS",
+    "description": "An Aegis Monetary Authority representative facilitating faction currency exchange to CRD.",
+    "actions": [],
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "greeting": "The Credent is universal. Exchange your faction currency here \u2014 equal rates for all."
+  },
+  {
+    "npc_id": "npc_crossroad_envoy",
+    "name": "Envoy Kalen",
+    "title": "Custodian Envoy",
+    "role": "INFO",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_envoy_greet",
+    "location": "Nexus Crossroads",
+    "region_id": "NEXUS_CROSSROADS",
+    "description": "A Galactic Custodian envoy station. Provides lore, news, and direction to travelers.",
+    "actions": [],
+    "available_services": [
+      "INFO"
+    ],
+    "greeting": "Greetings, wanderer. I am Envoy Kalen, servant of the Custodians. How may the galaxy assist you today?"
+  },
+  {
+    "npc_id": "npc_bazaar_merchant",
+    "name": "Director Hallen",
+    "title": "Bazaar Merchant Lord",
+    "role": "MERCHANT",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_merchant_greet",
+    "shop_inventory": "shop_bazaar_advanced",
+    "location": "Central Spire Bazaar",
+    "region_id": "CENTRAL_SPIRE_BAZAAR",
+    "description": "A former OmniCorp executive running the Central Spire's premier trading post.",
+    "actions": [],
+    "available_services": [
+      "BUY",
+      "SELL"
+    ],
+    "greeting": "Welcome to the Central Spire Bazaar! The finest goods from every corner of Xylos."
+  },
+  {
+    "npc_id": "npc_bazaar_inn",
+    "name": "Keeper Sora",
+    "title": "Spire Innkeeper",
+    "role": "INNKEEPER",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_innkeeper_greet",
+    "location": "Central Spire Bazaar",
+    "region_id": "CENTRAL_SPIRE_BAZAAR",
+    "description": "A Children of the Shard acolyte who runs a sanctuary for weary travelers.",
+    "actions": [],
+    "available_services": [
+      "REST"
+    ],
+    "greeting": "The Spire welcomes all. Rest, heal, and continue your journey with renewed spirit."
+  },
+  {
+    "npc_id": "npc_bazaar_blacksmith",
+    "name": "Forge-Master Tarn",
+    "title": "Spire Blacksmith",
+    "role": "CRAFTER",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_blacksmith_greet",
+    "location": "Central Spire Bazaar",
+    "region_id": "CENTRAL_SPIRE_BAZAAR",
+    "description": "A master smith who studied under every faction's forging traditions.",
+    "actions": [],
+    "available_services": [
+      "CRAFT"
+    ],
+    "greeting": "Every faction's forging secrets, combined in one forge. What shall we create?"
+  },
+  {
+    "npc_id": "npc_bazaar_exchange",
+    "name": "Auditor Corvan",
+    "title": "AMA Senior Auditor",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_exchange_bazaar",
+    "location": "Central Spire Bazaar",
+    "region_id": "CENTRAL_SPIRE_BAZAAR",
+    "description": "A senior AMA auditor overseeing large-volume currency exchange operations.",
+    "actions": [],
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "greeting": "Large volume exchange? I handle the accounts that shape planetary economies."
+  },
+  {
+    "npc_id": "npc_bazaar_envoy",
+    "name": "Envoy Seris",
+    "title": "Custodian Envoy",
+    "role": "INFO",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_envoy_greet",
+    "location": "Central Spire Bazaar",
+    "region_id": "CENTRAL_SPIRE_BAZAAR",
+    "description": "A Custodian envoy monitoring faction dynamics from the Spire.",
+    "actions": [],
+    "available_services": [
+      "INFO"
+    ],
+    "greeting": "The Custodians watch over Xylos. I am here to guide, inform, and \u2014 when necessary \u2014 protect."
+  },
+  {
+    "npc_id": "npc_orbital_merchant",
+    "name": "Grand Merchant Aria",
+    "title": "Orbital Trade Director",
+    "role": "MERCHANT",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_merchant_greet",
+    "shop_inventory": "shop_orbital_elite",
+    "location": "Orbital Neutral Hub",
+    "region_id": "ORBITAL_NEUTRAL_HUB",
+    "description": "The director of the Orbital Hub's trade network. Deals in legendary-grade equipment.",
+    "actions": [],
+    "available_services": [
+      "BUY",
+      "SELL"
+    ],
+    "greeting": "Welcome to Xylos orbit. Here, the rarest treasures change hands. What do you seek?"
+  },
+  {
+    "npc_id": "npc_orbital_inn",
+    "name": "Sanctuary AI 'Lyra7'",
+    "title": "Orbital Sanctuary",
+    "role": "INNKEEPER",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_innkeeper_greet",
+    "location": "Orbital Neutral Hub",
+    "region_id": "ORBITAL_NEUTRAL_HUB",
+    "description": "An AI-operated sanctuary pod providing full restoration services.",
+    "actions": [],
+    "available_services": [
+      "REST"
+    ],
+    "greeting": "Sanctuary Protocol Active. Please enter pod for full bio-restoration. Estimated time: 0.5 cycles."
+  },
+  {
+    "npc_id": "npc_orbital_blacksmith",
+    "name": "Master Smith Orion",
+    "title": "Orbital Forge Master",
+    "role": "CRAFTER",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_blacksmith_greet",
+    "location": "Orbital Neutral Hub",
+    "region_id": "ORBITAL_NEUTRAL_HUB",
+    "description": "The legendary forge master who crafts weapons for faction leaders.",
+    "actions": [],
+    "available_services": [
+      "CRAFT"
+    ],
+    "greeting": "I've forged for generals and legends. Let's see if you're worthy of my best work."
+  },
+  {
+    "npc_id": "npc_orbital_exchange",
+    "name": "Chancellor Arden Vey",
+    "title": "AMA Chancellor",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_exchange_orbital",
+    "location": "Orbital Neutral Hub",
+    "region_id": "ORBITAL_NEUTRAL_HUB",
+    "description": "The AMA Chancellor overseeing all Xylos currency operations from orbit.",
+    "actions": [],
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "greeting": "The Credent is the pulse of galactic economy. Exchange wisely \u2014 fortunes rise and fall in moments."
+  },
+  {
+    "npc_id": "npc_orbital_envoy",
+    "name": "Lord Envoy Thalos",
+    "title": "Senior Custodian Envoy",
+    "role": "INFO",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_envoy_greet",
+    "location": "Orbital Neutral Hub",
+    "region_id": "ORBITAL_NEUTRAL_HUB",
+    "description": "A senior Custodian envoy with authority to negotiate on behalf of the Conclave.",
+    "actions": [],
+    "available_services": [
+      "INFO"
+    ],
+    "greeting": "I speak for the Conclave of Voices. The Custodians have watched Xylos for millennia. What would you know?"
+  },
+  {
+    "npc_id": "npc_concordium_banker",
+    "name": "Magister Corrin",
+    "title": "AMA Concordium Branch",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "CONCORDIUM",
+    "dialogue_tree": "dialog_exchange_concordium",
+    "location": "Nexus Core",
+    "region_id": "NEXUS_CORE",
+    "description": "AMA branch officer for Concordium territory.",
+    "actions": [],
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "greeting": "AMA Concordium Branch. Exchange your AMC for Credent at the current rate."
+  },
+  {
+    "npc_id": "npc_arcanum_banker",
+    "name": "Scholar Tel",
+    "title": "AMA Arcanum Branch",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "THE_ARCANUM_SEEKERS",
+    "dialogue_tree": "dialog_exchange_arcanum",
+    "location": "Observatory Spire",
+    "region_id": "OBSERVATORY_SPIRE",
+    "description": "AMA branch officer for Arcanum territory.",
+    "actions": [],
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "greeting": "AMA Arcanum Branch. Exchange your Quanta for Credent at the current rate."
+  },
+  {
+    "npc_id": "npc_hegemony_banker",
+    "name": "Quartermaster Tor",
+    "title": "AMA Hegemony Branch",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "IRON_HEGEMONY",
+    "dialogue_tree": "dialog_exchange_hegemony",
+    "location": "Bastion Core",
+    "region_id": "BASTION_CORE",
+    "description": "AMA branch officer for Iron Hegemony territory.",
+    "actions": [],
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "greeting": "AMA Hegemony Branch. Exchange your Ingots for Credent at the current rate."
+  },
+  {
+    "npc_id": "npc_meridian_banker",
+    "name": "Broker Quinn",
+    "title": "AMA Meridian Branch",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "MERIDIAN_CARTEL",
+    "dialogue_tree": "dialog_exchange_meridian",
+    "location": "Port Meridian",
+    "region_id": "PORT_MERIDIAN",
+    "description": "AMA branch officer for Meridian Cartel territory.",
+    "actions": [],
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "greeting": "AMA Meridian Branch. Exchange your Aurum Cipher for Credent at the current rate."
+  },
+  {
+    "npc_id": "npc_omni_banker",
+    "name": "Director Haas",
+    "title": "AMA OmniCorp Branch",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "OMNICORP",
+    "dialogue_tree": "dialog_exchange_omnicorp",
+    "location": "The Spire",
+    "region_id": "THE_SPIRE",
+    "description": "AMA branch officer for OmniCorp territory.",
+    "actions": [],
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "greeting": "AMA OmniCorp Branch. Exchange your OmniCred for Credent at the current rate."
+  },
+  {
+    "npc_id": "npc_shard_banker",
+    "name": "Elder Nym",
+    "title": "AMA Shard Branch",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "CHILDREN_OF_THE_SHARD",
+    "dialogue_tree": "dialog_exchange_shard",
+    "location": "Sanctum",
+    "region_id": "SANCTUM",
+    "description": "AMA branch officer for Children of the Shard territory.",
+    "actions": [],
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "greeting": "AMA Shard Branch. Exchange your Aethel-Tithes for Credent at the current rate."
+  },
+  {
+    "npc_id": "npc_legion_banker",
+    "name": "Paymaster Zara",
+    "title": "AMA Legion Branch",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "STARFORGED_LEGION",
+    "dialogue_tree": "dialog_exchange_legion",
+    "location": "Fortress Kaelen",
+    "region_id": "FORTRESS_KAELEN",
+    "description": "AMA branch officer for Starforged Legion territory.",
+    "actions": [],
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "greeting": "AMA Legion Branch. Exchange your Legion Scrip for Credent at the current rate."
   }
 ]

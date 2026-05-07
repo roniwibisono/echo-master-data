@@ -70,7 +70,9 @@
         "npc_quest_board",
         "npc_concordium_officer",
         "npc_concordium_class_trainer"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "AETHEL_GARDENS",
@@ -136,7 +138,9 @@
       "world_events": [],
       "npc_list": [
         "npc_garden_scout"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "BROKEN_CIVIL_QUARTER",
@@ -217,7 +221,9 @@
       "world_events": [],
       "npc_list": [
         "npc_scavenger"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "CRADLE_OUTER_RING",
@@ -290,7 +296,9 @@
       "world_events": [],
       "npc_list": [
         "npc_patrol_guard"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "INNER_CRADLE_EXCLUSION",
@@ -366,7 +374,9 @@
       "world_events": [],
       "npc_list": [
         "npc_veteran_explorer"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "OBSERVATORY_SPIRE",
@@ -403,7 +413,9 @@
         "npc_quest_board",
         "npc_arcanum_scholar",
         "npc_arcanum_class_trainer"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "CRYSTAL_SLOPE",
@@ -479,7 +491,9 @@
       "world_events": [],
       "npc_list": [
         "npc_novice_researcher"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "FRACTURED_GLASS_VALLEY",
@@ -543,7 +557,9 @@
       "world_events": [],
       "npc_list": [
         "npc_glass_collector"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "RESONANCE_CAVERNS",
@@ -607,7 +623,9 @@
       "world_events": [],
       "npc_list": [
         "npc_cave_spelunker"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "SHARD_PULSE_PEAK",
@@ -683,7 +701,9 @@
       "world_events": [],
       "npc_list": [
         "npc_peak_watcher"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "BASTION_CORE",
@@ -720,7 +740,9 @@
         "npc_quest_board",
         "npc_hegemony_commander",
         "npc_hegemony_class_trainer"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "SCRAP_FIELD",
@@ -800,7 +822,9 @@
       "world_events": [],
       "npc_list": [
         "npc_scrap_merchant"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "IRON_RAVINE",
@@ -868,7 +892,9 @@
       "world_events": [],
       "npc_list": [
         "npc_iron_miner"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "WAR_MACHINE_GRAVEYARD",
@@ -932,7 +958,9 @@
       "world_events": [],
       "npc_list": [
         "npc_salvage_expert"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "TITAN_ASSEMBLY_YARD",
@@ -996,7 +1024,9 @@
       "world_events": [],
       "npc_list": [
         "npc_assembly_foreman"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "PORT_MERIDIAN",
@@ -1033,7 +1063,9 @@
         "npc_quest_board",
         "npc_cartel_boss",
         "npc_meridian_class_trainer"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "CORAL_WETLANDS",
@@ -1109,7 +1141,9 @@
       "world_events": [],
       "npc_list": [
         "npc_wetland_fisher"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "SMUGGLER_JUNGLE",
@@ -1177,7 +1211,9 @@
       "world_events": [],
       "npc_list": [
         "npc_shady_smuggler"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "BLACK_DOCK_MARKET",
@@ -1242,7 +1278,9 @@
       "world_events": [],
       "npc_list": [
         "npc_black_market_dealer"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "SUNKEN_AETHEL_RUIN",
@@ -1306,7 +1344,9 @@
       "world_events": [],
       "npc_list": [
         "npc_ruin_diver"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "THE_SPIRE",
@@ -1343,7 +1383,9 @@
         "npc_quest_board",
         "npc_omnicorp_executive",
         "npc_omnicorp_class_trainer"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "HIGHLAND_PLATEAU",
@@ -1407,7 +1449,9 @@
       "world_events": [],
       "npc_list": [
         "npc_plateau_surveyor"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "EXTRACTION_ZONE_DELTA",
@@ -1471,7 +1515,9 @@
       "world_events": [],
       "npc_list": [
         "npc_extraction_chief"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "SECURE_MINING_GRID",
@@ -1535,7 +1581,9 @@
       "world_events": [],
       "npc_list": [
         "npc_grid_security"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "SKYBRIDGE_REACTOR",
@@ -1603,7 +1651,9 @@
       "world_events": [],
       "npc_list": [
         "npc_reactor_engineer"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "SANCTUM",
@@ -1640,7 +1690,9 @@
         "npc_quest_board",
         "npc_high_priest",
         "npc_shard_class_trainer"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "GLOWVINE_FOREST",
@@ -1704,7 +1756,9 @@
       "world_events": [],
       "npc_list": [
         "npc_forest_acolyte"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "SHARDROOT_SWAMP",
@@ -1780,7 +1834,9 @@
       "world_events": [],
       "npc_list": [
         "npc_swamp_hermit"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "FRAGMENT_SHRINE",
@@ -1844,7 +1900,9 @@
       "world_events": [],
       "npc_list": [
         "npc_shrine_keeper"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "HEARTWOOD_ALTAR",
@@ -1912,7 +1970,9 @@
       "world_events": [],
       "npc_list": [
         "npc_altar_guardian"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "FORTRESS_KAELEN",
@@ -1949,7 +2009,9 @@
         "npc_quest_board",
         "npc_legion_general",
         "npc_legion_class_trainer"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "DUNE_OUTSKIRTS",
@@ -2025,7 +2087,9 @@
       "world_events": [],
       "npc_list": [
         "npc_dune_scout"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "SCORCHED_BADLANDS",
@@ -2101,7 +2165,9 @@
       "world_events": [],
       "npc_list": [
         "npc_badland_survivor"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "MESA_WARPATH",
@@ -2165,7 +2231,9 @@
       "world_events": [],
       "npc_list": [
         "npc_warpath_veteran"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "FORGE_CANYON_DEPTHS",
@@ -2233,7 +2301,9 @@
       "world_events": [],
       "npc_list": [
         "npc_lost_blacksmith"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "CRADLE_EXPANSE",
@@ -2312,7 +2382,9 @@
       "npc_list": [
         "npc_battlefield_medic",
         "npc_wandering_trader"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "AETHEL_STORM_BELT",
@@ -2385,7 +2457,9 @@
       ],
       "npc_list": [
         "npc_reckless_scout"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "BORDER_SKIRMISH_RING",
@@ -2454,7 +2528,9 @@
       "world_events": [],
       "npc_list": [
         "npc_frontline_commander"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "SHATTERED_HEART",
@@ -2526,7 +2602,9 @@
       "world_events": [],
       "npc_list": [
         "npc_void_walker"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "SEVERANCE_FAULTLINE",
@@ -2598,7 +2676,9 @@
       "world_events": [],
       "npc_list": [
         "npc_doomsayer"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "AETHEL_SIPHON_CORE",
@@ -2670,7 +2750,9 @@
       ],
       "npc_list": [
         "npc_core_technician"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "PRIMA_MATERIA_FORGE",
@@ -2743,7 +2825,9 @@
       "npc_list": [
         "npc_master_kael",
         "npc_abyssal_smith"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "HIDDEN_AETHELGARDIAN_CITY",
@@ -2811,7 +2895,9 @@
       "world_events": [],
       "npc_list": [
         "npc_ancient_ghost"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "VOID_ECHO_CHASM",
@@ -2879,7 +2965,9 @@
       "world_events": [],
       "npc_list": [
         "npc_echo_entity"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
     },
     {
       "id": "ORBITAL_SENTINEL_COMMAND",
@@ -2925,7 +3013,306 @@
       "world_events": [],
       "npc_list": [
         "npc_custodian_ai"
-      ]
+      ],
+      "can_be_occupied": false,
+      "current_tax": 0.0
+    },
+    {
+      "id": "BLOOD_IRON_BASIN",
+      "name": "Blood Iron Basin",
+      "type": "conflict",
+      "faction_owner": "NONE",
+      "level_range": [
+        30,
+        45
+      ],
+      "is_safe_zone": false,
+      "is_pvp_enabled": true,
+      "can_be_occupied": true,
+      "current_tax": 0.0,
+      "connected_regions": [
+        "CRADLE_EXPANSE",
+        "SHATTERED_HEART"
+      ],
+      "available_actions": [
+        "EXPLORE",
+        "SCAN",
+        "HUNT"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5204,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 5208,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 5209,
+          "spawn_weight": 20
+        },
+        {
+          "monster_id": 5224,
+          "spawn_weight": 30
+        }
+      ],
+      "resource_nodes": [],
+      "world_events": []
+    },
+    {
+      "id": "VOID_RIFT_CROSSROADS",
+      "name": "Void Rift Crossroads",
+      "type": "conflict",
+      "faction_owner": "NONE",
+      "level_range": [
+        40,
+        55
+      ],
+      "is_safe_zone": false,
+      "is_pvp_enabled": true,
+      "can_be_occupied": true,
+      "current_tax": 0.0,
+      "connected_regions": [
+        "VOID_ECHO_CHASM",
+        "BORDER_SKIRMISH_RING"
+      ],
+      "available_actions": [
+        "EXPLORE",
+        "SCAN",
+        "HUNT",
+        "MINE"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5301,
+          "spawn_weight": 30
+        },
+        {
+          "monster_id": 5225,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 5226,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 4017,
+          "spawn_weight": 20
+        }
+      ],
+      "resource_nodes": [],
+      "world_events": []
+    },
+    {
+      "id": "AETHEL_STORM_RIDGE",
+      "name": "Aethel Storm Ridge",
+      "type": "conflict",
+      "faction_owner": "NONE",
+      "level_range": [
+        50,
+        65
+      ],
+      "is_safe_zone": false,
+      "is_pvp_enabled": true,
+      "can_be_occupied": true,
+      "current_tax": 0.0,
+      "connected_regions": [
+        "AETHEL_STORM_BELT",
+        "PRIMA_MATERIA_FORGE"
+      ],
+      "available_actions": [
+        "EXPLORE",
+        "SCAN",
+        "HUNT",
+        "MINE"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5206,
+          "spawn_weight": 30
+        },
+        {
+          "monster_id": 4019,
+          "spawn_weight": 20
+        },
+        {
+          "monster_id": 4018,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 4004,
+          "spawn_weight": 25
+        }
+      ],
+      "resource_nodes": [],
+      "world_events": []
+    },
+    {
+      "id": "TITAN_GRAVEYARD",
+      "name": "Titan Graveyard",
+      "type": "conflict",
+      "faction_owner": "NONE",
+      "level_range": [
+        60,
+        80
+      ],
+      "is_safe_zone": false,
+      "is_pvp_enabled": true,
+      "can_be_occupied": true,
+      "current_tax": 0.0,
+      "connected_regions": [
+        "SEVERANCE_FAULTLINE",
+        "CRADLE_EXPANSE"
+      ],
+      "available_actions": [
+        "EXPLORE",
+        "SCAN",
+        "HUNT",
+        "MINE",
+        "RAID"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5200,
+          "spawn_weight": 30
+        },
+        {
+          "monster_id": 5222,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 5205,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 4020,
+          "spawn_weight": 20
+        }
+      ],
+      "resource_nodes": [],
+      "world_events": []
+    },
+    {
+      "id": "ETERNAL_GATE",
+      "name": "Eternal Gate",
+      "type": "conflict",
+      "faction_owner": "NONE",
+      "level_range": [
+        75,
+        100
+      ],
+      "is_safe_zone": false,
+      "is_pvp_enabled": true,
+      "can_be_occupied": true,
+      "current_tax": 0.0,
+      "connected_regions": [
+        "PRIMA_MATERIA_FORGE",
+        "HIDDEN_AETHELGARDIAN_CITY"
+      ],
+      "available_actions": [
+        "EXPLORE",
+        "SCAN",
+        "HUNT",
+        "MINE",
+        "RAID"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 4001,
+          "spawn_weight": 15
+        },
+        {
+          "monster_id": 4002,
+          "spawn_weight": 15
+        },
+        {
+          "monster_id": 4003,
+          "spawn_weight": 15
+        },
+        {
+          "monster_id": 4017,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 4020,
+          "spawn_weight": 30
+        }
+      ],
+      "resource_nodes": [],
+      "world_events": []
+    },
+    {
+      "id": "NEXUS_CROSSROADS",
+      "name": "Nexus Crossroads",
+      "type": "neutral",
+      "faction_owner": "NEUTRAL",
+      "level_range": [
+        10,
+        30
+      ],
+      "is_safe_zone": true,
+      "is_pvp_enabled": false,
+      "can_be_occupied": false,
+      "current_tax": 0.0,
+      "available_actions": [
+        "EXPLORE",
+        "SCAN",
+        "SHOP",
+        "REST",
+        "CRAFT"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [],
+      "world_events": []
+    },
+    {
+      "id": "CENTRAL_SPIRE_BAZAAR",
+      "name": "Central Spire Bazaar",
+      "type": "neutral",
+      "faction_owner": "NEUTRAL",
+      "level_range": [
+        30,
+        60
+      ],
+      "is_safe_zone": true,
+      "is_pvp_enabled": false,
+      "can_be_occupied": false,
+      "current_tax": 0.0,
+      "available_actions": [
+        "EXPLORE",
+        "SCAN",
+        "SHOP",
+        "REST",
+        "CRAFT"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [],
+      "world_events": []
+    },
+    {
+      "id": "ORBITAL_NEUTRAL_HUB",
+      "name": "Orbital Neutral Hub",
+      "type": "neutral",
+      "faction_owner": "NEUTRAL",
+      "level_range": [
+        60,
+        100
+      ],
+      "is_safe_zone": true,
+      "is_pvp_enabled": false,
+      "can_be_occupied": false,
+      "current_tax": 0.0,
+      "available_actions": [
+        "EXPLORE",
+        "SCAN",
+        "SHOP",
+        "REST",
+        "CRAFT"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [],
+      "world_events": []
     }
   ],
   "nodes": [
@@ -2941,6 +3328,21 @@
           "to": "ORBITAL_SENTINEL_COMMAND",
           "type": "normal",
           "min_level": 1
+        },
+        {
+          "to": "NEXUS_CROSSROADS",
+          "type": "normal",
+          "min_level": 10
+        },
+        {
+          "to": "CENTRAL_SPIRE_BAZAAR",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "ORBITAL_NEUTRAL_HUB",
+          "type": "normal",
+          "min_level": 60
         }
       ]
     },
@@ -3011,6 +3413,21 @@
           "to": "CRYSTAL_SLOPE",
           "type": "normal",
           "min_level": 1
+        },
+        {
+          "to": "NEXUS_CROSSROADS",
+          "type": "normal",
+          "min_level": 10
+        },
+        {
+          "to": "CENTRAL_SPIRE_BAZAAR",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "ORBITAL_NEUTRAL_HUB",
+          "type": "normal",
+          "min_level": 60
         }
       ]
     },
@@ -3086,6 +3503,21 @@
           "to": "SCRAP_FIELD",
           "type": "normal",
           "min_level": 1
+        },
+        {
+          "to": "NEXUS_CROSSROADS",
+          "type": "normal",
+          "min_level": 10
+        },
+        {
+          "to": "CENTRAL_SPIRE_BAZAAR",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "ORBITAL_NEUTRAL_HUB",
+          "type": "normal",
+          "min_level": 60
         }
       ]
     },
@@ -3161,6 +3593,21 @@
           "to": "CORAL_WETLANDS",
           "type": "normal",
           "min_level": 1
+        },
+        {
+          "to": "NEXUS_CROSSROADS",
+          "type": "normal",
+          "min_level": 10
+        },
+        {
+          "to": "CENTRAL_SPIRE_BAZAAR",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "ORBITAL_NEUTRAL_HUB",
+          "type": "normal",
+          "min_level": 60
         }
       ]
     },
@@ -3236,6 +3683,21 @@
           "to": "HIGHLAND_PLATEAU",
           "type": "normal",
           "min_level": 1
+        },
+        {
+          "to": "NEXUS_CROSSROADS",
+          "type": "normal",
+          "min_level": 10
+        },
+        {
+          "to": "CENTRAL_SPIRE_BAZAAR",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "ORBITAL_NEUTRAL_HUB",
+          "type": "normal",
+          "min_level": 60
         }
       ]
     },
@@ -3311,6 +3773,21 @@
           "to": "GLOWVINE_FOREST",
           "type": "normal",
           "min_level": 1
+        },
+        {
+          "to": "NEXUS_CROSSROADS",
+          "type": "normal",
+          "min_level": 10
+        },
+        {
+          "to": "CENTRAL_SPIRE_BAZAAR",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "ORBITAL_NEUTRAL_HUB",
+          "type": "normal",
+          "min_level": 60
         }
       ]
     },
@@ -3386,6 +3863,21 @@
           "to": "DUNE_OUTSKIRTS",
           "type": "normal",
           "min_level": 1
+        },
+        {
+          "to": "NEXUS_CROSSROADS",
+          "type": "normal",
+          "min_level": 10
+        },
+        {
+          "to": "CENTRAL_SPIRE_BAZAAR",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "ORBITAL_NEUTRAL_HUB",
+          "type": "normal",
+          "min_level": 60
         }
       ]
     },
@@ -3631,6 +4123,201 @@
           "to": "NEXUS_CORE",
           "type": "normal",
           "min_level": 1
+        }
+      ]
+    },
+    {
+      "id": "BLOOD_IRON_BASIN",
+      "connections": [
+        {
+          "to": "CRADLE_EXPANSE",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "SHATTERED_HEART",
+          "type": "normal",
+          "min_level": 55
+        }
+      ]
+    },
+    {
+      "id": "VOID_RIFT_CROSSROADS",
+      "connections": [
+        {
+          "to": "VOID_ECHO_CHASM",
+          "type": "normal",
+          "min_level": 40
+        },
+        {
+          "to": "BORDER_SKIRMISH_RING",
+          "type": "normal",
+          "min_level": 30
+        }
+      ]
+    },
+    {
+      "id": "AETHEL_STORM_RIDGE",
+      "connections": [
+        {
+          "to": "AETHEL_STORM_BELT",
+          "type": "normal",
+          "min_level": 50
+        },
+        {
+          "to": "PRIMA_MATERIA_FORGE",
+          "type": "normal",
+          "min_level": 70
+        }
+      ]
+    },
+    {
+      "id": "TITAN_GRAVEYARD",
+      "connections": [
+        {
+          "to": "SEVERANCE_FAULTLINE",
+          "type": "normal",
+          "min_level": 60
+        },
+        {
+          "to": "CRADLE_EXPANSE",
+          "type": "normal",
+          "min_level": 20
+        }
+      ]
+    },
+    {
+      "id": "ETERNAL_GATE",
+      "connections": [
+        {
+          "to": "PRIMA_MATERIA_FORGE",
+          "type": "normal",
+          "min_level": 75
+        },
+        {
+          "to": "HIDDEN_AETHELGARDIAN_CITY",
+          "type": "normal",
+          "min_level": 55
+        }
+      ]
+    },
+    {
+      "id": "NEXUS_CROSSROADS",
+      "connections": [
+        {
+          "to": "NEXUS_CORE",
+          "type": "normal",
+          "min_level": 10
+        },
+        {
+          "to": "OBSERVATORY_SPIRE",
+          "type": "normal",
+          "min_level": 10
+        },
+        {
+          "to": "BASTION_CORE",
+          "type": "normal",
+          "min_level": 10
+        },
+        {
+          "to": "PORT_MERIDIAN",
+          "type": "normal",
+          "min_level": 10
+        },
+        {
+          "to": "THE_SPIRE",
+          "type": "normal",
+          "min_level": 10
+        },
+        {
+          "to": "SANCTUM",
+          "type": "normal",
+          "min_level": 10
+        },
+        {
+          "to": "FORTRESS_KAELEN",
+          "type": "normal",
+          "min_level": 10
+        }
+      ]
+    },
+    {
+      "id": "CENTRAL_SPIRE_BAZAAR",
+      "connections": [
+        {
+          "to": "NEXUS_CORE",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "OBSERVATORY_SPIRE",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "BASTION_CORE",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "PORT_MERIDIAN",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "THE_SPIRE",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "SANCTUM",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "FORTRESS_KAELEN",
+          "type": "normal",
+          "min_level": 30
+        }
+      ]
+    },
+    {
+      "id": "ORBITAL_NEUTRAL_HUB",
+      "connections": [
+        {
+          "to": "NEXUS_CORE",
+          "type": "normal",
+          "min_level": 60
+        },
+        {
+          "to": "OBSERVATORY_SPIRE",
+          "type": "normal",
+          "min_level": 60
+        },
+        {
+          "to": "BASTION_CORE",
+          "type": "normal",
+          "min_level": 60
+        },
+        {
+          "to": "PORT_MERIDIAN",
+          "type": "normal",
+          "min_level": 60
+        },
+        {
+          "to": "THE_SPIRE",
+          "type": "normal",
+          "min_level": 60
+        },
+        {
+          "to": "SANCTUM",
+          "type": "normal",
+          "min_level": 60
+        },
+        {
+          "to": "FORTRESS_KAELEN",
+          "type": "normal",
+          "min_level": 60
         }
       ]
     }
