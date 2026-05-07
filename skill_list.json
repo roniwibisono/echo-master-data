@@ -2857,39 +2857,6 @@
     "skill_description": ""
   },
   {
-    "id": "sk_voidcaller_pas",
-    "name": "Eldritch Whispers",
-    "type": "Passive",
-    "source_type": "Class_Tree",
-    "mp_cost": 0,
-    "damage_formula": "0",
-    "effect": "Enemies suffer reduced Accuracy due to eldritch fear.",
-    "stat_modifiers": [
-      {
-        "stat": "accuracy",
-        "value": -15,
-        "type": "percent",
-        "duration_turns": 99,
-        "target": "enemy",
-        "condition": "-"
-      }
-    ],
-    "periodic_effects": [],
-    "control_effects": [],
-    "special_effects": [],
-    "usage_requirements": {
-      "allowed_classes": [
-        "mst_voidcaller"
-      ],
-      "min_level": 1,
-      "allowed_weapons": [],
-      "allowed_races": []
-    },
-    "target_attack": "none",
-    "target_effect": "enemy",
-    "skill_description": ""
-  },
-  {
     "id": "sk_voidcaller_act_1",
     "name": "Open Portal",
     "type": "Active",
@@ -7648,39 +7615,6 @@
     "skill_description": ""
   },
   {
-    "id": "metal_shell",
-    "name": "Metal Shell",
-    "type": "Passive",
-    "source_type": "Monster",
-    "mp_cost": 0,
-    "damage_formula": "0",
-    "effect": "Metal body reduces physical damage.",
-    "stat_modifiers": [
-      {
-        "stat": "def",
-        "value": 12,
-        "type": "percent",
-        "duration_turns": 0,
-        "target": "self",
-        "condition": "-"
-      }
-    ],
-    "periodic_effects": [],
-    "control_effects": [],
-    "special_effects": [],
-    "usage_requirements": {
-      "allowed_classes": [],
-      "min_level": 1,
-      "allowed_weapons": [],
-      "allowed_races": [
-        "MACHINE"
-      ]
-    },
-    "target_attack": "none",
-    "target_effect": "self",
-    "skill_description": ""
-  },
-  {
     "id": "stone_body",
     "name": "Stone Body",
     "type": "Passive",
@@ -7818,37 +7752,6 @@
         "target": "enemy"
       }
     ],
-    "control_effects": [],
-    "special_effects": [],
-    "usage_requirements": {
-      "allowed_classes": [],
-      "min_level": 1,
-      "allowed_weapons": [],
-      "allowed_races": []
-    },
-    "target_attack": "enemy",
-    "target_effect": "enemy",
-    "skill_description": ""
-  },
-  {
-    "id": "vine_whip",
-    "name": "Vine Whip",
-    "type": "Active",
-    "source_type": "Monster",
-    "mp_cost": 6,
-    "damage_formula": "ATK * 1.2",
-    "effect": "Whips enemy with thorn vines.",
-    "stat_modifiers": [
-      {
-        "stat": "def",
-        "value": -8,
-        "type": "percent",
-        "duration_turns": 2,
-        "target": "enemy",
-        "condition": "-"
-      }
-    ],
-    "periodic_effects": [],
     "control_effects": [],
     "special_effects": [],
     "usage_requirements": {
@@ -8109,37 +8012,6 @@
     "skill_description": ""
   },
   {
-    "id": "rift_claw",
-    "name": "Rift Claw",
-    "type": "Active",
-    "source_type": "Monster",
-    "mp_cost": 60,
-    "damage_formula": "1.7 * ATK",
-    "effect": "Slashes the enemy with void-infused claws.",
-    "stat_modifiers": [],
-    "periodic_effects": [
-      {
-        "effect": "bleed",
-        "value": 6,
-        "type": "percent_atk",
-        "duration_turns": 3,
-        "interval_turns": 1,
-        "target": "enemy"
-      }
-    ],
-    "control_effects": [],
-    "special_effects": [],
-    "usage_requirements": {
-      "allowed_classes": [],
-      "min_level": 30,
-      "allowed_weapons": [],
-      "allowed_races": []
-    },
-    "target_attack": "single_enemy",
-    "target_effect": "enemy",
-    "skill_description": ""
-  },
-  {
     "id": "molten_strike",
     "name": "Molten Strike",
     "type": "Active",
@@ -8316,35 +8188,6 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy",
-    "skill_description": ""
-  },
-  {
-    "id": "shadow_bind",
-    "name": "Shadow Bind",
-    "type": "Active",
-    "source_type": "Monster",
-    "mp_cost": 70,
-    "damage_formula": "1.2 * ATK",
-    "effect": "Dark tendrils immobilize the enemy.",
-    "stat_modifiers": [],
-    "periodic_effects": [],
-    "control_effects": [
-      {
-        "effect": "root",
-        "chance": 0.4,
-        "duration_turns": 2,
-        "target": "enemy"
-      }
-    ],
-    "special_effects": [],
-    "usage_requirements": {
-      "allowed_classes": [],
-      "min_level": 25,
-      "allowed_weapons": [],
-      "allowed_races": []
-    },
-    "target_attack": "single_enemy",
     "target_effect": "enemy",
     "skill_description": ""
   },
@@ -10556,34 +10399,6 @@
     "skill_description": ""
   },
   {
-    "id": "void_slash",
-    "name": "Void Slash",
-    "type": "Active",
-    "source_type": "Monster",
-    "mp_cost": 40,
-    "damage_formula": "ATK * 1.8",
-    "effect": "Deals heavy void damage.",
-    "stat_modifiers": [],
-    "periodic_effects": [],
-    "control_effects": [
-      {
-        "type": "fear",
-        "chance": 15,
-        "duration_turns": 1
-      }
-    ],
-    "special_effects": [],
-    "usage_requirements": {
-      "allowed_classes": [],
-      "min_level": 1,
-      "allowed_weapons": [],
-      "allowed_races": []
-    },
-    "target_attack": "enemy",
-    "target_effect": "enemy",
-    "skill_description": ""
-  },
-  {
     "id": "glow_spore",
     "name": "Glow Spore",
     "type": "Active",
@@ -10972,37 +10787,6 @@
         "duration_turns": 0,
         "target": "self",
         "condition": "-"
-      }
-    ],
-    "periodic_effects": [],
-    "control_effects": [],
-    "special_effects": [],
-    "usage_requirements": {
-      "allowed_classes": [],
-      "min_level": 1,
-      "allowed_weapons": [],
-      "allowed_races": []
-    },
-    "target_attack": "none",
-    "target_effect": "self",
-    "skill_description": ""
-  },
-  {
-    "id": "metal_frame",
-    "name": "Metal Frame",
-    "type": "Passive",
-    "source_type": "Monster",
-    "mp_cost": 0,
-    "damage_formula": "0",
-    "effect": "Metal plating increases defense.",
-    "stat_modifiers": [
-      {
-        "stat": "def",
-        "value": 15,
-        "type": "percent",
-        "duration_turns": 0,
-        "target": "self",
-        "condition": "always"
       }
     ],
     "periodic_effects": [],
@@ -12251,33 +12035,6 @@
     "skill_description": ""
   },
   {
-    "id": "laser_burst",
-    "name": "Laser Burst",
-    "type": "Active",
-    "source_type": "Monster",
-    "mp_cost": 12,
-    "damage_formula": "ATK * 1.6",
-    "effect": "Fires a burst of laser energy.",
-    "stat_modifiers": [],
-    "periodic_effects": [],
-    "control_effects": [],
-    "special_effects": [
-      {
-        "type": "armor_pierce",
-        "value": 10
-      }
-    ],
-    "usage_requirements": {
-      "allowed_classes": [],
-      "min_level": 1,
-      "allowed_weapons": [],
-      "allowed_races": []
-    },
-    "target_attack": "enemy",
-    "target_effect": "enemy",
-    "skill_description": ""
-  },
-  {
     "id": "servo_dash",
     "name": "Servo Dash",
     "type": "Active",
@@ -13055,109 +12812,6 @@
     },
     "target_attack": "enemy_aoe",
     "target_effect": "enemy",
-    "skill_description": ""
-  },
-  {
-    "id": "rc_solan_pas",
-    "name": "Human Adaptability",
-    "type": "Passive",
-    "mp_cost": 0,
-    "damage_formula": "0",
-    "stat_modifiers": [
-      {
-        "stat": "agi",
-        "value": 5,
-        "type": "percent",
-        "duration_turns": 0,
-        "target": "self",
-        "condition": "-"
-      }
-    ],
-    "periodic_effects": [],
-    "control_effects": [],
-    "special_effects": [],
-    "usage_requirements": {
-      "allowed_races": [
-        "SOLAN_HUMAN"
-      ],
-      "min_level": 1
-    },
-    "effect": "",
-    "skill_description": ""
-  },
-  {
-    "id": "rc_solan_act",
-    "name": "Survivor Instinct",
-    "type": "Active",
-    "mp_cost": 10,
-    "damage_formula": "0",
-    "stat_modifiers": [
-      {
-        "stat": "def",
-        "value": 10,
-        "type": "percent",
-        "duration_turns": 2,
-        "target": "self",
-        "condition": "hp_below_50"
-      }
-    ],
-    "periodic_effects": [],
-    "control_effects": [],
-    "special_effects": [],
-    "usage_requirements": {
-      "allowed_races": [
-        "SOLAN_HUMAN"
-      ],
-      "min_level": 5
-    },
-    "effect": "",
-    "skill_description": ""
-  },
-  {
-    "id": "rc_prog_pas",
-    "name": "Primal Instinct",
-    "type": "Passive",
-    "mp_cost": 0,
-    "damage_formula": "0",
-    "stat_modifiers": [
-      {
-        "stat": "atk",
-        "value": 5,
-        "type": "percent",
-        "duration_turns": 0,
-        "target": "self",
-        "condition": "-"
-      }
-    ],
-    "periodic_effects": [],
-    "control_effects": [],
-    "special_effects": [],
-    "usage_requirements": {
-      "allowed_races": [
-        "PROGENOI"
-      ],
-      "min_level": 1
-    },
-    "effect": "",
-    "skill_description": ""
-  },
-  {
-    "id": "rc_prog_act",
-    "name": "Predator Strike",
-    "type": "Active",
-    "mp_cost": 10,
-    "damage_formula": "atk * 1.6",
-    "stat_modifiers": [],
-    "periodic_effects": [],
-    "control_effects": [],
-    "special_effects": [],
-    "usage_requirements": {
-      "allowed_races": [
-        "PROGENOI"
-      ],
-      "min_level": 5
-    },
-    "effect": "",
     "skill_description": ""
   },
   {
