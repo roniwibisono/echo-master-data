@@ -29,7 +29,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_enf_act_2",
@@ -66,7 +67,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "both"
+    "target_effect": "both",
+    "skill_description": ""
   },
   {
     "id": "sk_enf_act_1",
@@ -89,7 +91,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_van_pas",
@@ -121,7 +124,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_van_act_1",
@@ -152,7 +156,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_van_act_2",
@@ -184,7 +189,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "All Ally"
+    "target_effect": "All Ally",
+    "skill_description": ""
   },
   {
     "id": "sk_dread_pas",
@@ -207,7 +213,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_dread_act_1",
@@ -247,7 +254,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_dread_act_3",
@@ -279,7 +287,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_dread_ult",
@@ -317,7 +326,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_sent_pas",
@@ -340,7 +350,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_sent_act_1",
@@ -369,7 +380,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "Ally"
+    "target_effect": "Ally",
+    "skill_description": ""
   },
   {
     "id": "sk_sent_act_2",
@@ -392,7 +404,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_ber_pas",
@@ -421,7 +434,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_ber_act_1",
@@ -450,7 +464,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_ber_act_2",
@@ -490,7 +505,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "All Ally"
+    "target_effect": "All Ally",
+    "skill_description": ""
   },
   {
     "id": "sk_war_pas",
@@ -522,7 +538,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_war_act_1",
@@ -552,7 +569,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_warlord_act_2",
@@ -592,7 +610,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_warlord_act_3",
@@ -624,7 +643,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_warlord_ult",
@@ -664,7 +684,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_rav_pas_1",
@@ -693,7 +714,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_rav_act_1",
@@ -730,7 +752,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_rav_act_2",
@@ -753,7 +776,8 @@
       "allowed_races": []
     },
     "target_attack": "All Enemy",
-    "target_effect": "All Enemy"
+    "target_effect": "All Enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_dra_pas",
@@ -785,7 +809,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_dra_act_1",
@@ -814,7 +839,8 @@
       "allowed_races": []
     },
     "target_attack": "All Enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_dra_act_2",
@@ -846,7 +872,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_sky_pas",
@@ -875,7 +902,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_sky_act_1",
@@ -898,7 +926,8 @@
       "allowed_races": []
     },
     "target_attack": "All Enemy",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_sky_act_2",
@@ -937,7 +966,8 @@
       "allowed_races": []
     },
     "target_attack": "random",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_void_pas",
@@ -966,7 +996,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_void_act_1",
@@ -989,7 +1020,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_void_act_2",
@@ -1023,7 +1055,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_str_pas",
@@ -1055,7 +1088,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_str_act_1",
@@ -1078,7 +1112,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_str_act_2",
@@ -1110,7 +1145,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_ass_pas",
@@ -1142,7 +1178,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_ass_act_1",
@@ -1171,7 +1208,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_ass_act_2",
@@ -1205,7 +1243,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_shad_pas",
@@ -1251,7 +1290,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_shad_act_1",
@@ -1290,7 +1330,8 @@
       "allowed_races": []
     },
     "target_attack": "random",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_shad_act_2",
@@ -1320,7 +1361,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_phantom_pas",
@@ -1352,7 +1394,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_phantom_act_1",
@@ -1381,7 +1424,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "Ally"
+    "target_effect": "Ally",
+    "skill_description": ""
   },
   {
     "id": "sk_phantom_act_2",
@@ -1410,7 +1454,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_ran_pas",
@@ -1442,7 +1487,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_ran_act_1",
@@ -1474,7 +1520,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_ran_act_2",
@@ -1509,7 +1556,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_beastmaster_pas",
@@ -1538,7 +1586,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_beastmaster_act_1",
@@ -1592,7 +1641,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_beastmaster_act_2",
@@ -1621,7 +1671,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_snp_pas",
@@ -1653,7 +1704,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_snp_act_1",
@@ -1685,7 +1737,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_snp_act_2",
@@ -1719,7 +1772,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_gun_pas",
@@ -1748,7 +1802,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_gun_act_1",
@@ -1782,7 +1837,8 @@
       "allowed_races": []
     },
     "target_attack": "random",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_gun_act_2",
@@ -1814,7 +1870,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_desp_pas",
@@ -1843,7 +1900,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_desp_act_1",
@@ -1872,7 +1930,8 @@
       "allowed_races": []
     },
     "target_attack": "All Enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_desp_act_2",
@@ -1901,7 +1960,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_techdrifter_pas",
@@ -1931,7 +1991,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_techdrifter_act_1",
@@ -1961,7 +2022,8 @@
       "allowed_races": []
     },
     "target_attack": "All Enemy",
-    "target_effect": "All Enemy"
+    "target_effect": "All Enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_techdrifter_act_2",
@@ -1990,7 +2052,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_channeler_pas",
@@ -2027,7 +2090,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_channeler_act_1",
@@ -2050,7 +2114,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_channeler_act_2",
@@ -2079,7 +2144,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "ally"
+    "target_effect": "ally",
+    "skill_description": ""
   },
   {
     "id": "sk_mys_pas",
@@ -2108,7 +2174,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_mys_act_1",
@@ -2150,7 +2217,8 @@
       "allowed_races": []
     },
     "target_attack": "All Enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mys_act_2",
@@ -2186,7 +2254,8 @@
       "allowed_races": []
     },
     "target_attack": "All Enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_archon_pas",
@@ -2215,7 +2284,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_archon_act_1",
@@ -2238,7 +2308,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_archon_act_2",
@@ -2272,7 +2343,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_chronomancer_pas",
@@ -2301,7 +2373,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_chronomancer_act_1",
@@ -2341,7 +2414,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "ally_or_enemy"
+    "target_effect": "ally_or_enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_chronomancer_act_2",
@@ -2370,7 +2444,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "All Ally"
+    "target_effect": "All Ally",
+    "skill_description": ""
   },
   {
     "id": "sk_warpriest_pas",
@@ -2400,7 +2475,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_warpriest_act_1",
@@ -2423,7 +2499,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_warpriest_act_2",
@@ -2454,7 +2531,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "All Ally"
+    "target_effect": "All Ally",
+    "skill_description": ""
   },
   {
     "id": "sk_templar_pas",
@@ -2486,7 +2564,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_templar_act_1",
@@ -2515,7 +2594,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "ally"
+    "target_effect": "ally",
+    "skill_description": ""
   },
   {
     "id": "sk_templar_act_2",
@@ -2544,7 +2624,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_arbiter_pas",
@@ -2578,7 +2659,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_arbiter_act_1",
@@ -2612,7 +2694,8 @@
       "allowed_races": []
     },
     "target_attack": "All Enemy",
-    "target_effect": "All Ally"
+    "target_effect": "All Ally",
+    "skill_description": ""
   },
   {
     "id": "sk_arbiter_act_2",
@@ -2642,7 +2725,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "both"
+    "target_effect": "both",
+    "skill_description": ""
   },
   {
     "id": "sk_summoner_pas",
@@ -2671,7 +2755,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_summoner_act_1",
@@ -2700,7 +2785,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_summoner_act_2",
@@ -2734,7 +2820,8 @@
       "allowed_races": []
     },
     "target_attack": "All Enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_voidcaller_pas",
@@ -2766,7 +2853,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_voidcaller_pas",
@@ -2798,7 +2886,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_voidcaller_act_1",
@@ -2827,7 +2916,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "ally"
+    "target_effect": "ally",
+    "skill_description": ""
   },
   {
     "id": "sk_voidcaller_act_2",
@@ -2857,7 +2947,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_golemancer_pas",
@@ -2886,7 +2977,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_golemancer_act_1",
@@ -2915,7 +3007,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "ally"
+    "target_effect": "ally",
+    "skill_description": ""
   },
   {
     "id": "sk_golemancer_act_2",
@@ -2944,7 +3037,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "ally"
+    "target_effect": "ally",
+    "skill_description": ""
   },
   {
     "id": "sk_machinist_pas",
@@ -2973,7 +3067,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_machinist_act_1",
@@ -3007,7 +3102,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "Ally"
+    "target_effect": "Ally",
+    "skill_description": ""
   },
   {
     "id": "sk_machinist_act_2",
@@ -3036,7 +3132,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_artificer_pas",
@@ -3065,7 +3162,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_artificer_act_1",
@@ -3099,7 +3197,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "Ally"
+    "target_effect": "Ally",
+    "skill_description": ""
   },
   {
     "id": "sk_artificer_act_2",
@@ -3128,7 +3227,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "All Ally"
+    "target_effect": "All Ally",
+    "skill_description": ""
   },
   {
     "id": "sk_mechapilot_pas",
@@ -3200,7 +3300,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_mechapilot_act_1",
@@ -3229,7 +3330,8 @@
       "allowed_races": []
     },
     "target_attack": "All Enemy",
-    "target_effect": "All Enemy"
+    "target_effect": "All Enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mechapilot_act_2",
@@ -3258,7 +3360,8 @@
       "allowed_races": []
     },
     "target_attack": "All Enemy",
-    "target_effect": "All Enemy"
+    "target_effect": "All Enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_cyberarchitect_pas",
@@ -3287,7 +3390,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_cyberarchitect_act_1",
@@ -3316,7 +3420,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_cyberarchitect_act_2",
@@ -3353,7 +3458,8 @@
       "allowed_races": []
     },
     "target_attack": "All Enemy",
-    "target_effect": "All Enemy"
+    "target_effect": "All Enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_saboteur_pas",
@@ -3383,7 +3489,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_saboteur_act_1",
@@ -3417,7 +3524,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_saboteur_act_2",
@@ -3463,7 +3571,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_demolitionist_pas",
@@ -3492,7 +3601,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_demolitionist_act_1",
@@ -3521,7 +3631,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_demolitionist_act_2",
@@ -3550,7 +3661,8 @@
       "allowed_races": []
     },
     "target_attack": "all_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_netrunner_pas",
@@ -3579,7 +3691,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_netrunner_act_1",
@@ -3608,7 +3721,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_netrunner_act_2",
@@ -3638,7 +3752,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_alchemist_pas",
@@ -3667,7 +3782,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_alchemist_act_1",
@@ -3699,7 +3815,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_alchemist_act_2",
@@ -3745,7 +3862,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "Ally"
+    "target_effect": "Ally",
+    "skill_description": ""
   },
   {
     "id": "sk_bioengineer_pas",
@@ -3779,7 +3897,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_bioengineer_act_1",
@@ -3817,7 +3936,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "Ally"
+    "target_effect": "Ally",
+    "skill_description": ""
   },
   {
     "id": "sk_bioengineer_act_2",
@@ -3848,7 +3968,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "All Ally"
+    "target_effect": "All Ally",
+    "skill_description": ""
   },
   {
     "id": "sk_plaguespreader_pas",
@@ -3877,7 +3998,8 @@
       "allowed_races": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_plaguespreader_act_1",
@@ -3914,7 +4036,8 @@
       "allowed_races": []
     },
     "target_attack": "All Enemy",
-    "target_effect": "All Enemy"
+    "target_effect": "All Enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_plaguespreader_act_2",
@@ -3946,7 +4069,8 @@
       "allowed_races": []
     },
     "target_attack": "All Enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_solan_pas",
@@ -3975,7 +4099,8 @@
       ]
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_solan_act",
@@ -4031,7 +4156,8 @@
       ]
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_prog_pas",
@@ -4061,7 +4187,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_prog_act",
@@ -4093,7 +4220,8 @@
       "allowed_weapons": []
     },
     "target_attack": "All Enemy",
-    "target_effect": "All Enemy"
+    "target_effect": "All Enemy",
+    "skill_description": ""
   },
   {
     "id": "gen_ele_pas",
@@ -4125,7 +4253,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "gen_ele_act",
@@ -4160,7 +4289,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "gen_urs_pas",
@@ -4195,7 +4325,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "gen_urs_act",
@@ -4227,7 +4358,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "gen_fel_pas",
@@ -4262,7 +4394,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_gen_cer_pas",
@@ -4297,7 +4430,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_gen_equ_pas",
@@ -4334,7 +4468,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_gen_sus_pas",
@@ -4371,7 +4506,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_gen_ovi_pas",
@@ -4404,7 +4540,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_gen_pan_pas",
@@ -4439,7 +4576,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_gen_mac_pas",
@@ -4485,7 +4623,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_gen_mac_act",
@@ -4528,7 +4667,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_gen_cer_act_1",
@@ -4561,7 +4701,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_gen_equ_act_1",
@@ -4596,7 +4737,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_gen_ovi_act_1",
@@ -4629,7 +4771,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_gen_sus_act_1",
@@ -4661,7 +4804,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_gen_pan_act_1",
@@ -4694,7 +4838,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "gen_fel_act",
@@ -4735,7 +4880,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "gen_rat_pas",
@@ -4768,7 +4914,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "gen_rat_act",
@@ -4809,7 +4956,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "gen_vic_act",
@@ -4850,7 +4998,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_gen_bos_pas",
@@ -4887,7 +5036,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_gen_bos_act",
@@ -4919,7 +5069,8 @@
       "allowed_weapons": []
     },
     "target_attack": "All Enemy",
-    "target_effect": "All Enemy"
+    "target_effect": "All Enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_gen_gir_pas_1",
@@ -4960,7 +5111,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_gen_gir_act_1",
@@ -5001,7 +5153,8 @@
       "allowed_weapons": []
     },
     "target_attack": "All Enemy",
-    "target_effect": "All Enemy"
+    "target_effect": "All Enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_gen_bov_pas_1",
@@ -5044,7 +5197,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "gen_cro_act",
@@ -5085,7 +5239,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_auto_pas",
@@ -5118,7 +5273,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_auto_act",
@@ -5160,7 +5316,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_syl_pas",
@@ -5193,7 +5350,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_syl_act",
@@ -5223,7 +5381,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_kael_pas",
@@ -5256,7 +5415,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_kael_act",
@@ -5291,7 +5451,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_drak_pas",
@@ -5324,7 +5485,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_drak_act",
@@ -5363,7 +5525,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_kith_pas",
@@ -5399,7 +5562,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_kith_act",
@@ -5438,7 +5602,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_geo_pas",
@@ -5471,7 +5636,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_geo_act",
@@ -5501,7 +5667,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_myc_pas",
@@ -5534,7 +5701,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_myc_act",
@@ -5567,7 +5735,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_kyt_pas",
@@ -5598,7 +5767,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_kyt_act",
@@ -5628,7 +5798,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_num_pas",
@@ -5667,7 +5838,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_num_act",
@@ -5697,7 +5869,8 @@
       "allowed_weapons": []
     },
     "target_attack": "All Enemy",
-    "target_effect": "All Enemy"
+    "target_effect": "All Enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_grem_pas",
@@ -5728,7 +5901,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_grem_act",
@@ -5762,7 +5936,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_grav_pas",
@@ -5793,7 +5968,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_grav_act",
@@ -5826,7 +6002,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_cym_pas",
@@ -5861,7 +6038,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_cym_act",
@@ -5902,7 +6080,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_fac_pas",
@@ -5933,7 +6112,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_fac_act",
@@ -5963,7 +6143,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_ceph_pas",
@@ -5993,7 +6174,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_ceph_act",
@@ -6028,7 +6210,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_jot_pas",
@@ -6061,7 +6244,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_jot_act",
@@ -6100,7 +6284,8 @@
       "allowed_weapons": []
     },
     "target_attack": "All Enemy",
-    "target_effect": "All Enemy"
+    "target_effect": "All Enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_umb_pas",
@@ -6131,7 +6316,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_umb_act",
@@ -6162,7 +6348,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_sili_pas",
@@ -6192,7 +6379,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_sili_act",
@@ -6231,7 +6419,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_astr_pas",
@@ -6267,7 +6456,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_astr_act",
@@ -6313,7 +6503,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "All Ally"
+    "target_effect": "All Ally",
+    "skill_description": ""
   },
   {
     "id": "rc_hek_pas",
@@ -6343,7 +6534,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_hek_act",
@@ -6376,7 +6568,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_chro_pas",
@@ -6407,7 +6600,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_abyss_pas",
@@ -6438,7 +6632,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rc_abyss_act",
@@ -6477,7 +6672,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "ext_basic_attack_01",
@@ -6505,7 +6701,8 @@
       "min_level": 1
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "ext_wep_01",
@@ -6549,7 +6746,8 @@
       "min_level": 50
     },
     "target_attack": "All Enemy",
-    "target_effect": "All Enemy"
+    "target_effect": "All Enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_chro_act",
@@ -6582,7 +6780,8 @@
       "min_level": 0
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_chrono_act_2",
@@ -6623,7 +6822,8 @@
       "min_level": 50
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_chrono_act_3",
@@ -6654,7 +6854,8 @@
       "min_level": 50
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_chrono_ult",
@@ -6700,7 +6901,8 @@
       "min_level": 60
     },
     "target_attack": "All Enemy",
-    "target_effect": "All Enemy"
+    "target_effect": "All Enemy",
+    "skill_description": ""
   },
   {
     "id": "ext_item_01",
@@ -6733,7 +6935,8 @@
       "min_level": 1
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "flame_regeneration",
@@ -6764,7 +6967,8 @@
       ]
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "ext_race_01",
@@ -6802,7 +7006,8 @@
       "min_level": 10
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "dragon_skin",
@@ -6834,7 +7039,8 @@
       ]
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "gel_body",
@@ -6867,7 +7073,8 @@
       ]
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "metal_frame",
@@ -6897,7 +7104,8 @@
       ]
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "inferno_breath",
@@ -6928,7 +7136,8 @@
       ]
     },
     "target_attack": "aoe",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "slime_wave",
@@ -6951,7 +7160,8 @@
       ]
     },
     "target_attack": "aoe",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "feral_bite",
@@ -6982,7 +7192,8 @@
       ]
     },
     "target_attack": "single",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "shock_blast",
@@ -7012,7 +7223,8 @@
       ]
     },
     "target_attack": "single",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "wing_cyclone",
@@ -7044,7 +7256,8 @@
       ]
     },
     "target_attack": "aoe",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "meteor_dive",
@@ -7067,7 +7280,8 @@
       "allowed_weapons": []
     },
     "target_attack": "single",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "apocalypse_flare",
@@ -7098,7 +7312,8 @@
       "allowed_weapons": []
     },
     "target_attack": "aoe",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "aura_of_terror",
@@ -7130,7 +7345,8 @@
       "allowed_weapons": []
     },
     "target_attack": "none",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "void_lance",
@@ -7159,7 +7375,8 @@
       "allowed_weapons": []
     },
     "target_attack": "single",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "shadow_bind",
@@ -7188,7 +7405,8 @@
       "allowed_weapons": []
     },
     "target_attack": "single",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "abyssal_wave",
@@ -7211,7 +7429,8 @@
       "allowed_weapons": []
     },
     "target_attack": "aoe",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "black_hole_collapse",
@@ -7240,7 +7459,8 @@
       "allowed_weapons": []
     },
     "target_attack": "aoe",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "gel_smash",
@@ -7263,7 +7483,8 @@
       "allowed_weapons": []
     },
     "target_attack": "single",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "mini_slime_spawn",
@@ -7291,7 +7512,8 @@
       "allowed_weapons": []
     },
     "target_attack": "none",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "tail_whip",
@@ -7323,7 +7545,8 @@
       "allowed_weapons": []
     },
     "target_attack": "single",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "berserk_rush",
@@ -7355,7 +7578,8 @@
       "allowed_weapons": []
     },
     "target_attack": "single",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sap_regeneration",
@@ -7387,7 +7611,8 @@
       ]
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "bark_skin",
@@ -7419,7 +7644,8 @@
       ]
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "metal_shell",
@@ -7451,7 +7677,8 @@
       ]
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "stone_body",
@@ -7483,7 +7710,8 @@
       ]
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "spectral_shift",
@@ -7515,7 +7743,8 @@
       ]
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "thorn_poke",
@@ -7536,7 +7765,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "root_slam",
@@ -7566,7 +7796,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "arcane_bolt",
@@ -7596,7 +7827,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "vine_whip",
@@ -7626,7 +7858,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "ground_smash",
@@ -7654,7 +7887,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "void_bolt",
@@ -7684,7 +7918,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "aethel_barrier",
@@ -7714,7 +7949,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "void_adaptation",
@@ -7744,7 +7980,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "reinforced_frame",
@@ -7779,7 +8016,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "tidal_regeneration",
@@ -7809,7 +8047,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "storm_aura",
@@ -7837,7 +8076,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "purge_beam",
@@ -7865,7 +8105,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rift_claw",
@@ -7895,7 +8136,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "molten_strike",
@@ -7925,7 +8167,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "tidal_crush",
@@ -7953,7 +8196,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "storm_bite",
@@ -7981,7 +8225,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "void_slash",
@@ -8011,7 +8256,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "crystal_spike",
@@ -8039,7 +8285,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "acid_spray",
@@ -8069,7 +8316,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "shadow_bind",
@@ -8097,7 +8345,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "toxic_spores",
@@ -8127,7 +8376,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sand_whirl",
@@ -8155,7 +8405,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "arcane_barrage",
@@ -8181,7 +8432,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "earth_shatter",
@@ -8209,7 +8461,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "blood_frenzy",
@@ -8239,7 +8492,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "bone_crush",
@@ -8269,7 +8523,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "storm_burst",
@@ -8297,7 +8552,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "frost_lance",
@@ -8325,7 +8581,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "venom_bite",
@@ -8355,7 +8612,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "shockwave_roar",
@@ -8383,7 +8641,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "shadow_step",
@@ -8417,7 +8676,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "corruption_wave",
@@ -8447,7 +8707,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "life_drain",
@@ -8473,7 +8734,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "meteor_fragment",
@@ -8503,7 +8765,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "arcane_pulse",
@@ -8531,7 +8794,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rage_smash",
@@ -8559,7 +8823,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_void_slash",
@@ -8589,7 +8854,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_crystal_spike",
@@ -8617,7 +8883,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_acid_spray",
@@ -8647,7 +8914,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_shadow_bind",
@@ -8675,7 +8943,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_toxic_spores",
@@ -8705,7 +8974,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_frost_lance",
@@ -8733,7 +9003,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_storm_burst",
@@ -8761,7 +9032,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_earth_shatter",
@@ -8789,7 +9061,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_blood_frenzy",
@@ -8819,7 +9092,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_life_drain",
@@ -8845,7 +9119,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_shadow_step",
@@ -8879,7 +9154,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_corruption_wave",
@@ -8909,7 +9185,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_meteor_fragment",
@@ -8939,7 +9216,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_arcane_pulse",
@@ -8967,7 +9245,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_rage_smash",
@@ -8995,7 +9274,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_001",
@@ -9025,7 +9305,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_002",
@@ -9053,7 +9334,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_003",
@@ -9083,7 +9365,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_004",
@@ -9113,7 +9396,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_005",
@@ -9141,7 +9425,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_006",
@@ -9171,7 +9456,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_007",
@@ -9203,7 +9489,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_008",
@@ -9233,7 +9520,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_009",
@@ -9263,7 +9551,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_010",
@@ -9291,7 +9580,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_011",
@@ -9319,7 +9609,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_012",
@@ -9347,7 +9638,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_013",
@@ -9373,7 +9665,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_014",
@@ -9403,7 +9696,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_015",
@@ -9433,7 +9727,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_016",
@@ -9458,7 +9753,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_017",
@@ -9495,7 +9791,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_018",
@@ -9523,7 +9820,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_pas_thick_hide",
@@ -9553,7 +9851,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_pas_predator_instinct",
@@ -9583,7 +9882,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_pas_regeneration",
@@ -9613,7 +9913,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_pas_spiked_body",
@@ -9639,7 +9940,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_pas_arcane_skin",
@@ -9669,7 +9971,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_pas_fury",
@@ -9699,7 +10002,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_pas_pack_hunter",
@@ -9729,7 +10033,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_pas_venom_blood",
@@ -9757,7 +10062,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_pas_shadow_body",
@@ -9787,7 +10093,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_pas_elemental_core",
@@ -9817,7 +10124,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_pas_storm_skin",
@@ -9845,7 +10153,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_pas_berserk_core",
@@ -9875,7 +10184,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_boss_001",
@@ -9907,7 +10217,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_boss_002",
@@ -9941,7 +10252,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_boss_003",
@@ -9967,7 +10279,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "environment"
+    "target_effect": "environment",
+    "skill_description": ""
   },
   {
     "id": "sk_boss_004",
@@ -10001,7 +10314,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "sk_boss_005",
@@ -10035,7 +10349,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_boss_006",
@@ -10076,7 +10391,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_boss_007",
@@ -10108,7 +10424,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_boss_008",
@@ -10145,7 +10462,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_boss_009",
@@ -10179,7 +10497,8 @@
       "allowed_races": []
     },
     "target_attack": "aoe_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_boss_010",
@@ -10213,7 +10532,8 @@
       "allowed_races": []
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sk_mon_arcane_slash",
@@ -10232,7 +10552,8 @@
       "min_level": 1
     },
     "target_attack": "single_enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "void_slash",
@@ -10259,7 +10580,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "glow_spore",
@@ -10286,7 +10608,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "vine_whip",
@@ -10313,7 +10636,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "burrow_strike",
@@ -10340,7 +10664,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "arcane_shard",
@@ -10361,7 +10686,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "ember_claw",
@@ -10388,7 +10714,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "spore_regeneration",
@@ -10418,7 +10745,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "chitin_hide",
@@ -10448,7 +10776,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "arcane_resonance",
@@ -10478,7 +10807,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "aethel_pulse",
@@ -10505,7 +10835,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "shock_burst",
@@ -10532,7 +10863,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "shard_spike",
@@ -10559,7 +10891,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "maul_attack",
@@ -10592,7 +10925,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "spore_burst",
@@ -10619,7 +10953,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "nature_heal",
@@ -10649,7 +10984,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "metal_frame",
@@ -10679,7 +11015,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "feral_instinct",
@@ -10709,7 +11046,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "quick_bite",
@@ -10730,7 +11068,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rusty_slash",
@@ -10760,7 +11099,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "antler_charge",
@@ -10787,7 +11127,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "crystal_puncture",
@@ -10814,7 +11155,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "sting_strike",
@@ -10841,7 +11183,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "vine_crush",
@@ -10868,7 +11211,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "root_snare",
@@ -10895,7 +11239,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "ancient_bark",
@@ -10925,7 +11270,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "forest_drift",
@@ -10955,7 +11301,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "spark_thorn",
@@ -10982,7 +11329,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "forest_camouflage",
@@ -11012,7 +11360,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "thorn_pounce",
@@ -11040,7 +11389,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "bleed_claw",
@@ -11075,7 +11425,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "pack_instinct",
@@ -11105,7 +11456,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "claw_swipe",
@@ -11126,7 +11478,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "alpha_presence",
@@ -11156,7 +11509,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "ally"
+    "target_effect": "ally",
+    "skill_description": ""
   },
   {
     "id": "ravage_bite",
@@ -11177,7 +11531,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "pack_call",
@@ -11207,7 +11562,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "All Ally"
+    "target_effect": "All Ally",
+    "skill_description": ""
   },
   {
     "id": "metal_shell",
@@ -11237,7 +11593,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "laser_burst",
@@ -11258,7 +11615,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "overcharge_strike",
@@ -11286,7 +11644,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "mutated_regeneration",
@@ -11314,7 +11673,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "mutagen_bite",
@@ -11342,7 +11702,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "parasite_rage",
@@ -11372,7 +11733,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "spore_cloud",
@@ -11406,7 +11768,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "synapse_drain",
@@ -11439,7 +11802,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "mind_bite",
@@ -11466,7 +11830,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "venom_strike",
@@ -11494,7 +11859,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "hemophage_drain",
@@ -11520,7 +11886,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "organ_harvest",
@@ -11554,7 +11921,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "hive_instinct",
@@ -11592,7 +11960,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "aberrant_smash",
@@ -11620,7 +11989,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "corrupting_presence",
@@ -11648,7 +12018,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "targeting_algorithm",
@@ -11678,7 +12049,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "reinforced_plating",
@@ -11708,7 +12080,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "target_lock",
@@ -11738,7 +12111,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "machine_reanimation",
@@ -11772,7 +12146,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rusted_armor",
@@ -11802,7 +12177,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "enhanced_tracking",
@@ -11840,7 +12216,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "defense_protocol",
@@ -11870,7 +12247,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "laser_burst",
@@ -11896,7 +12274,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "servo_dash",
@@ -11926,7 +12305,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "steel_slash",
@@ -11953,7 +12333,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "shock_slash",
@@ -11986,7 +12367,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "energy_discharge",
@@ -12013,7 +12395,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "crush_slam",
@@ -12041,7 +12424,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "shield_pulse",
@@ -12071,7 +12455,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "tyrant_crush",
@@ -12104,7 +12489,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "cyber_bite",
@@ -12139,7 +12525,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "aethel_corruption_skin",
@@ -12178,7 +12565,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "corrupted_slam",
@@ -12206,7 +12594,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy_aoe",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "aethel_shockwave",
@@ -12237,7 +12626,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy_aoe",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rift_hunter_instinct",
@@ -12276,7 +12666,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "rift_claw",
@@ -12298,7 +12689,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "void_dash",
@@ -12335,7 +12727,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "aethel_carapace",
@@ -12374,7 +12767,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "crushing_slam",
@@ -12402,7 +12796,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy_aoe",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "shard_guard",
@@ -12433,7 +12828,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "aethel_channeling",
@@ -12472,7 +12868,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "void_burst",
@@ -12494,7 +12891,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy_aoe",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "aethel_decay_field",
@@ -12533,7 +12931,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy_aoe",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "abyssal_predator_aura",
@@ -12564,7 +12963,8 @@
       "allowed_weapons": []
     },
     "target_attack": "self",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "reaver_slash",
@@ -12586,7 +12986,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "void_rend",
@@ -12615,7 +13016,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy_aoe",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "abyssal_roar",
@@ -12652,7 +13054,8 @@
       "allowed_weapons": []
     },
     "target_attack": "enemy_aoe",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "rc_solan_pas",
@@ -12678,7 +13081,9 @@
         "SOLAN_HUMAN"
       ],
       "min_level": 1
-    }
+    },
+    "effect": "",
+    "skill_description": ""
   },
   {
     "id": "rc_solan_act",
@@ -12704,7 +13109,9 @@
         "SOLAN_HUMAN"
       ],
       "min_level": 5
-    }
+    },
+    "effect": "",
+    "skill_description": ""
   },
   {
     "id": "rc_prog_pas",
@@ -12730,7 +13137,9 @@
         "PROGENOI"
       ],
       "min_level": 1
-    }
+    },
+    "effect": "",
+    "skill_description": ""
   },
   {
     "id": "rc_prog_act",
@@ -12747,7 +13156,9 @@
         "PROGENOI"
       ],
       "min_level": 5
-    }
+    },
+    "effect": "",
+    "skill_description": ""
   },
   {
     "id": "claw_slash",
@@ -12768,7 +13179,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "ember_bite",
@@ -12796,7 +13208,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "turret_shot",
@@ -12823,7 +13236,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "al_zeph_pas",
@@ -12850,7 +13264,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al_zeph_act",
@@ -12880,7 +13295,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "al_vera_pas",
@@ -12910,7 +13326,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "ally"
+    "target_effect": "ally",
+    "skill_description": ""
   },
   {
     "id": "al_vera_act",
@@ -12942,7 +13359,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "all_allies"
+    "target_effect": "all_allies",
+    "skill_description": ""
   },
   {
     "id": "al_drak_pas",
@@ -12972,7 +13390,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "all_allies"
+    "target_effect": "all_allies",
+    "skill_description": ""
   },
   {
     "id": "al_drak_act",
@@ -13000,7 +13419,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "al_cassia_pas",
@@ -13027,7 +13447,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al_cassia_act",
@@ -13064,7 +13485,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "al_brax_pas",
@@ -13101,7 +13523,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al_brax_act",
@@ -13131,7 +13554,8 @@
       "allowed_races": []
     },
     "target_attack": "all_enemies",
-    "target_effect": "all_enemies"
+    "target_effect": "all_enemies",
+    "skill_description": ""
   },
   {
     "id": "al_orin_pas",
@@ -13167,7 +13591,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "all_allies"
+    "target_effect": "all_allies",
+    "skill_description": ""
   },
   {
     "id": "al_orin_act",
@@ -13205,7 +13630,8 @@
       "allowed_races": []
     },
     "target_attack": "all_enemies",
-    "target_effect": "all_enemies"
+    "target_effect": "all_enemies",
+    "skill_description": ""
   },
   {
     "id": "al_seraph_pas",
@@ -13238,7 +13664,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al_seraph_act",
@@ -13282,7 +13709,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "all_allies"
+    "target_effect": "all_allies",
+    "skill_description": ""
   },
   {
     "id": "al_flint_pas",
@@ -13314,7 +13742,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al_flint_act",
@@ -13351,7 +13780,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "al_isolde_pas",
@@ -13383,7 +13813,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al_isolde_act",
@@ -13413,7 +13844,8 @@
       "allowed_races": []
     },
     "target_attack": "all_enemies",
-    "target_effect": "all_enemies"
+    "target_effect": "all_enemies",
+    "skill_description": ""
   },
   {
     "id": "al_corvan_pas",
@@ -13449,7 +13881,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "all_allies"
+    "target_effect": "all_allies",
+    "skill_description": ""
   },
   {
     "id": "al_corvan_act",
@@ -13477,7 +13910,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "all_allies"
+    "target_effect": "all_allies",
+    "skill_description": ""
   },
   {
     "id": "al_elara_pas",
@@ -13516,7 +13950,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "all_allies"
+    "target_effect": "all_allies",
+    "skill_description": ""
   },
   {
     "id": "al_elara_act",
@@ -13552,7 +13987,8 @@
       "allowed_races": []
     },
     "target_attack": "all_enemies",
-    "target_effect": "both"
+    "target_effect": "both",
+    "skill_description": ""
   },
   {
     "id": "al_vael_pas",
@@ -13585,7 +14021,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al_vael_act",
@@ -13621,7 +14058,8 @@
       "allowed_races": []
     },
     "target_attack": "all_enemies",
-    "target_effect": "all_enemies"
+    "target_effect": "all_enemies",
+    "skill_description": ""
   },
   {
     "id": "al2_thorn_pas",
@@ -13658,7 +14096,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al2_thorn_act",
@@ -13685,7 +14124,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "al2_wren_pas",
@@ -13721,7 +14161,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "all_allies"
+    "target_effect": "all_allies",
+    "skill_description": ""
   },
   {
     "id": "al2_wren_act",
@@ -13748,7 +14189,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "all_allies"
+    "target_effect": "all_allies",
+    "skill_description": ""
   },
   {
     "id": "al2_rook_pas",
@@ -13781,7 +14223,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al2_rook_act",
@@ -13811,7 +14254,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "al2_vale_pas",
@@ -13848,7 +14292,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al2_vale_act",
@@ -13885,7 +14330,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "ally"
+    "target_effect": "ally",
+    "skill_description": ""
   },
   {
     "id": "al2_axiom_pas",
@@ -13918,7 +14364,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al2_axiom_act",
@@ -13950,7 +14397,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "al2_nimbus_pas",
@@ -13989,7 +14437,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al2_nimbus_act",
@@ -14025,7 +14474,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "all_allies"
+    "target_effect": "all_allies",
+    "skill_description": ""
   },
   {
     "id": "al2_gorm_pas",
@@ -14061,7 +14511,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al2_gorm_act",
@@ -14088,7 +14539,8 @@
       "allowed_races": []
     },
     "target_attack": "all_enemies",
-    "target_effect": "all_enemies"
+    "target_effect": "all_enemies",
+    "skill_description": ""
   },
   {
     "id": "al2_cipher_pas",
@@ -14120,7 +14572,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al2_cipher_act",
@@ -14148,7 +14601,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "al2_mote_pas",
@@ -14192,7 +14646,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "all_allies"
+    "target_effect": "all_allies",
+    "skill_description": ""
   },
   {
     "id": "al2_mote_act",
@@ -14228,7 +14683,8 @@
       "allowed_races": []
     },
     "target_attack": "all_enemies",
-    "target_effect": "all_enemies"
+    "target_effect": "all_enemies",
+    "skill_description": ""
   },
   {
     "id": "al2_ashe_pas",
@@ -14261,7 +14717,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al2_ashe_act",
@@ -14289,7 +14746,8 @@
       "allowed_races": []
     },
     "target_attack": "all_enemies",
-    "target_effect": "all_enemies"
+    "target_effect": "all_enemies",
+    "skill_description": ""
   },
   {
     "id": "al2_tide_pas",
@@ -14321,7 +14779,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al2_tide_act",
@@ -14357,7 +14816,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "al2_prism_pas",
@@ -14385,7 +14845,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "all_allies"
+    "target_effect": "all_allies",
+    "skill_description": ""
   },
   {
     "id": "al2_prism_act",
@@ -14421,7 +14882,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "all_allies"
+    "target_effect": "all_allies",
+    "skill_description": ""
   },
   {
     "id": "al2_kross_pas",
@@ -14453,7 +14915,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al2_kross_act",
@@ -14489,7 +14952,8 @@
       "allowed_races": []
     },
     "target_attack": "all_enemies",
-    "target_effect": "all_enemies"
+    "target_effect": "all_enemies",
+    "skill_description": ""
   },
   {
     "id": "al2_lyric_pas",
@@ -14525,7 +14989,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "ally"
+    "target_effect": "ally",
+    "skill_description": ""
   },
   {
     "id": "al2_lyric_act",
@@ -14557,7 +15022,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "all_allies"
+    "target_effect": "all_allies",
+    "skill_description": ""
   },
   {
     "id": "al_kael_pas",
@@ -14590,7 +15056,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al_kael_act",
@@ -14618,7 +15085,8 @@
       "allowed_races": []
     },
     "target_attack": "all_enemies",
-    "target_effect": "all_enemies"
+    "target_effect": "all_enemies",
+    "skill_description": ""
   },
   {
     "id": "al_lyra_pas",
@@ -14654,7 +15122,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "ally"
+    "target_effect": "ally",
+    "skill_description": ""
   },
   {
     "id": "al_lyra_act",
@@ -14690,7 +15159,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "all_allies"
+    "target_effect": "all_allies",
+    "skill_description": ""
   },
   {
     "id": "al_grimm_pas",
@@ -14727,7 +15197,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al_grimm_act",
@@ -14763,7 +15234,8 @@
       "allowed_races": []
     },
     "target_attack": "all_enemies",
-    "target_effect": "all_enemies"
+    "target_effect": "all_enemies",
+    "skill_description": ""
   },
   {
     "id": "al_serin_pas",
@@ -14796,7 +15268,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al_serin_act",
@@ -14832,7 +15305,8 @@
       "allowed_races": []
     },
     "target_attack": "random_enemies",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "al_thane_pas",
@@ -14869,7 +15343,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al_thane_act",
@@ -14910,7 +15385,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "al_mira_pas",
@@ -14942,7 +15418,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al_mira_act",
@@ -14986,7 +15463,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "all_allies"
+    "target_effect": "all_allies",
+    "skill_description": ""
   },
   {
     "id": "al_rex_pas",
@@ -15018,7 +15496,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al_rex_act",
@@ -15048,7 +15527,8 @@
       "allowed_races": []
     },
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "skill_description": ""
   },
   {
     "id": "al_nova_pas",
@@ -15080,7 +15560,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al_nova_act",
@@ -15116,7 +15597,8 @@
       "allowed_races": []
     },
     "target_attack": "all_enemies",
-    "target_effect": "all_enemies"
+    "target_effect": "all_enemies",
+    "skill_description": ""
   },
   {
     "id": "al3_pascal_pas",
@@ -15144,7 +15626,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al3_pascal_act",
@@ -15182,7 +15665,8 @@
       "allowed_races": []
     },
     "target_attack": "all_enemies",
-    "target_effect": "all_enemies"
+    "target_effect": "all_enemies",
+    "skill_description": ""
   },
   {
     "id": "al3_rekha_pas",
@@ -15228,7 +15712,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "skill_description": ""
   },
   {
     "id": "al3_rekha_act",
@@ -15265,7 +15750,8 @@
       "allowed_races": []
     },
     "target_attack": "none",
-    "target_effect": "ally"
+    "target_effect": "ally",
+    "skill_description": ""
   },
   {
     "id": "al4_37_pas",
@@ -15275,9 +15761,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 12, \"agi_boost\": 8}",
-    "stat_modifiers": "{\"atk\": 10, \"agi\": 5}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: A quick-footed scavenger from the Scrap Fields."
   },
   {
@@ -15288,9 +15774,9 @@
     "mp_cost": 25,
     "damage_formula": "ATK * 2.0",
     "effect": "{\"bleed\": 3}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: A quick-footed scavenger from the Scrap Fields."
   },
   {
@@ -15301,9 +15787,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"def_boost\": 12}",
-    "stat_modifiers": "{\"def\": 10, \"hp\": 20}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: A former gate guard of the Bastion."
   },
   {
@@ -15314,9 +15800,9 @@
     "mp_cost": 25,
     "damage_formula": "ATK * 1.6",
     "effect": "{\"taunt\": 1}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: A former gate guard of the Bastion."
   },
   {
@@ -15327,9 +15813,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"party_atk_boost\": 5}",
-    "stat_modifiers": "{\"per\": 10}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: A geomancer who reads the crystal slopes."
   },
   {
@@ -15340,9 +15826,9 @@
     "mp_cost": 25,
     "damage_formula": "PER * 2.0",
     "effect": "{\"party_atk_buff\": 10}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: A geomancer who reads the crystal slopes."
   },
   {
@@ -15353,9 +15839,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"heal_boost\": 12}",
-    "stat_modifiers": "{\"mp\": 15}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: A battlefield medic from the Scorched Badlands."
   },
   {
@@ -15366,9 +15852,9 @@
     "mp_cost": 25,
     "damage_formula": "PER * 2.5",
     "effect": "{\"heal_ally\": \"lowest_hp\"}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: A battlefield medic from the Scorched Badlands."
   },
   {
@@ -15379,9 +15865,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 12, \"agi_boost\": 8}",
-    "stat_modifiers": "{\"atk\": 10, \"agi\": 5}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: A glowing mote from Glowvine Forest."
   },
   {
@@ -15392,9 +15878,9 @@
     "mp_cost": 25,
     "damage_formula": "ATK * 2.0",
     "effect": "{\"bleed\": 3}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: A glowing mote from Glowvine Forest."
   },
   {
@@ -15405,9 +15891,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"def_boost\": 12}",
-    "stat_modifiers": "{\"def\": 10, \"hp\": 20}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: A coral-armored fighter from the Wetlands."
   },
   {
@@ -15418,9 +15904,9 @@
     "mp_cost": 25,
     "damage_formula": "ATK * 1.6",
     "effect": "{\"taunt\": 1}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: A coral-armored fighter from the Wetlands."
   },
   {
@@ -15431,9 +15917,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"party_atk_boost\": 5}",
-    "stat_modifiers": "{\"per\": 10}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: A tech drone from the Highland Plateau."
   },
   {
@@ -15444,9 +15930,9 @@
     "mp_cost": 25,
     "damage_formula": "PER * 2.0",
     "effect": "{\"party_atk_buff\": 10}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: A tech drone from the Highland Plateau."
   },
   {
@@ -15457,9 +15943,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"heal_boost\": 12}",
-    "stat_modifiers": "{\"mp\": 15}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: A herbalist from Aethel Gardens."
   },
   {
@@ -15470,9 +15956,9 @@
     "mp_cost": 25,
     "damage_formula": "PER * 2.5",
     "effect": "{\"heal_ally\": \"lowest_hp\"}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: A herbalist from Aethel Gardens."
   },
   {
@@ -15483,9 +15969,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 12, \"agi_boost\": 8}",
-    "stat_modifiers": "{\"atk\": 10, \"agi\": 5}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: A shadowy hunter from Dune Outskirts."
   },
   {
@@ -15496,9 +15982,9 @@
     "mp_cost": 25,
     "damage_formula": "ATK * 2.0",
     "effect": "{\"bleed\": 3}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: A shadowy hunter from Dune Outskirts."
   },
   {
@@ -15509,9 +15995,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 12, \"agi_boost\": 8}",
-    "stat_modifiers": "{\"atk\": 10, \"agi\": 5}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: A void-touched wanderer from the Expanse."
   },
   {
@@ -15522,9 +16008,9 @@
     "mp_cost": 25,
     "damage_formula": "ATK * 2.0",
     "effect": "{\"bleed\": 3}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: A void-touched wanderer from the Expanse."
   },
   {
@@ -15535,9 +16021,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 12, \"agi_boost\": 8}",
-    "stat_modifiers": "{\"atk\": 10, \"agi\": 5}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: A fire-wielder from the Forge Canyons."
   },
   {
@@ -15548,9 +16034,9 @@
     "mp_cost": 25,
     "damage_formula": "ATK * 2.0",
     "effect": "{\"bleed\": 3}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: A fire-wielder from the Forge Canyons."
   },
   {
@@ -15561,9 +16047,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"party_atk_boost\": 5}",
-    "stat_modifiers": "{\"per\": 10}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: A merchant-lord who traded his wealth for combat prowess."
   },
   {
@@ -15574,9 +16060,9 @@
     "mp_cost": 25,
     "damage_formula": "PER * 2.0",
     "effect": "{\"party_atk_buff\": 10}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: A merchant-lord who traded his wealth for combat prowess."
   },
   {
@@ -15587,9 +16073,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"heal_boost\": 12}",
-    "stat_modifiers": "{\"mp\": 15}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: A Shard-blessed healer from the Sanctum."
   },
   {
@@ -15600,9 +16086,9 @@
     "mp_cost": 25,
     "damage_formula": "PER * 2.5",
     "effect": "{\"heal_ally\": \"lowest_hp\"}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: A Shard-blessed healer from the Sanctum."
   },
   {
@@ -15613,9 +16099,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"def_boost\": 12}",
-    "stat_modifiers": "{\"def\": 10, \"hp\": 20}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: An iron-jawed enforcer from the Iron Ravine."
   },
   {
@@ -15626,9 +16112,9 @@
     "mp_cost": 25,
     "damage_formula": "ATK * 1.6",
     "effect": "{\"taunt\": 1}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: An iron-jawed enforcer from the Iron Ravine."
   },
   {
@@ -15639,9 +16125,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 12, \"agi_boost\": 8}",
-    "stat_modifiers": "{\"atk\": 10, \"agi\": 5}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: A rune-carved mystic from Resonance Caverns."
   },
   {
@@ -15652,9 +16138,9 @@
     "mp_cost": 25,
     "damage_formula": "ATK * 2.0",
     "effect": "{\"bleed\": 3}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: A rune-carved mystic from Resonance Caverns."
   },
   {
@@ -15665,9 +16151,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"party_atk_boost\": 5}",
-    "stat_modifiers": "{\"per\": 10}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: A combat-strategist AI from the Spire."
   },
   {
@@ -15678,9 +16164,9 @@
     "mp_cost": 25,
     "damage_formula": "PER * 2.0",
     "effect": "{\"party_atk_buff\": 10}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: A combat-strategist AI from the Spire."
   },
   {
@@ -15691,9 +16177,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"heal_boost\": 12}",
-    "stat_modifiers": "{\"mp\": 15}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: A wandering physician from Nexus Core."
   },
   {
@@ -15704,9 +16190,9 @@
     "mp_cost": 25,
     "damage_formula": "PER * 2.5",
     "effect": "{\"heal_ally\": \"lowest_hp\"}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: A wandering physician from Nexus Core."
   },
   {
@@ -15717,9 +16203,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 18, \"crit_rate_boost\": 10}",
-    "stat_modifiers": "{\"atk\": 15}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: A shadow-forged assassin from the Void Echo Chasm."
   },
   {
@@ -15730,9 +16216,9 @@
     "mp_cost": 40,
     "damage_formula": "ATK * 2.5",
     "effect": "{\"stun\": 0.4}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: A shadow-forged assassin from the Void Echo Chasm."
   },
   {
@@ -15743,9 +16229,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"party_atk_boost\": 8, \"party_def_boost\": 8}",
-    "stat_modifiers": "{\"per\": 15}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: A light-bringer from the Orbital Sentinel Command."
   },
   {
@@ -15756,9 +16242,9 @@
     "mp_cost": 40,
     "damage_formula": "PER * 2.0",
     "effect": "{\"party_atk_buff\": 15, \"party_agi_buff\": 10}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: A light-bringer from the Orbital Sentinel Command."
   },
   {
@@ -15769,9 +16255,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"def_boost\": 15, \"hp_boost\": 10}",
-    "stat_modifiers": "{\"def\": 15, \"hp\": 30}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: A titan-blooded warrior from the Shattered Heart."
   },
   {
@@ -15782,9 +16268,9 @@
     "mp_cost": 40,
     "damage_formula": "ATK * 1.6",
     "effect": "{\"taunt\": 1, \"shield_self\": 0.15}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: A titan-blooded warrior from the Shattered Heart."
   },
   {
@@ -15795,9 +16281,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"heal_boost\": 20, \"mp_regen\": 8}",
-    "stat_modifiers": "{\"mp\": 20}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: A soul-healer from the Hidden Aethelgardian City."
   },
   {
@@ -15808,9 +16294,9 @@
     "mp_cost": 40,
     "damage_formula": "PER * 2.5",
     "effect": "{\"heal_ally\": \"lowest_hp\", \"heal_amount\": \"PER * 1.5\"}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: A soul-healer from the Hidden Aethelgardian City."
   },
   {
@@ -15821,9 +16307,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 18, \"crit_rate_boost\": 10}",
-    "stat_modifiers": "{\"atk\": 15}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: A forge-born warrior from Prima Materia Forge."
   },
   {
@@ -15834,9 +16320,9 @@
     "mp_cost": 40,
     "damage_formula": "ATK * 2.5",
     "effect": "{\"stun\": 0.4}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: A forge-born warrior from Prima Materia Forge."
   },
   {
@@ -15847,9 +16333,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"party_atk_boost\": 8, \"party_def_boost\": 8}",
-    "stat_modifiers": "{\"per\": 15}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: The awakened consciousness of the Aethel Siphon Core itself."
   },
   {
@@ -15860,9 +16346,9 @@
     "mp_cost": 40,
     "damage_formula": "PER * 2.5",
     "effect": "{\"party_atk_buff\": 15, \"party_agi_buff\": 10}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: The awakened consciousness of the Aethel Siphon Core itself."
   },
   {
@@ -15873,9 +16359,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 25, \"crit_rate_boost\": 15}",
-    "stat_modifiers": "{\"atk\": 20}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: The last surviving Void Knight who turned against the Abyss."
   },
   {
@@ -15886,9 +16372,9 @@
     "mp_cost": 40,
     "damage_formula": "ATK * 3.0",
     "effect": "{\"stun\": 0.4}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: The last surviving Void Knight who turned against the Abyss."
   },
   {
@@ -15899,9 +16385,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"def_boost\": 15, \"hp_boost\": 10}",
-    "stat_modifiers": "{\"def\": 15, \"hp\": 30}",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Passive: The immortal guardian of the World Engine who has witnessed every age."
   },
   {
@@ -15912,9 +16398,9 @@
     "mp_cost": 40,
     "damage_formula": "ATK * 2.0",
     "effect": "{\"taunt\": 1, \"shield_self\": 0.15}",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "Active: The immortal guardian of the World Engine who has witnessed every age."
   },
   {
@@ -15925,9 +16411,9 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "{\"turn_10_self_destruct\": {\"set_hp\": 1}}",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "At turn 10, all HP is released. HP becomes 1."
   },
   {
@@ -15938,9 +16424,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Acid Bite\" \u2014 a basic monster ability."
   },
   {
@@ -15951,9 +16437,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Aethel Glow\" \u2014 a basic monster ability."
   },
   {
@@ -15964,9 +16450,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Aethel Overflow\" \u2014 a basic monster ability."
   },
   {
@@ -15977,9 +16463,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Aethel Resonance\" \u2014 a basic monster ability."
   },
   {
@@ -15990,9 +16476,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Arcane Slam\" \u2014 a basic monster ability."
   },
   {
@@ -16003,9 +16489,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Bark Fortress\" \u2014 a basic monster ability."
   },
   {
@@ -16016,9 +16502,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Battle Instinct\" \u2014 a basic monster ability."
   },
   {
@@ -16029,9 +16515,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Bio Spasm\" \u2014 a basic monster ability."
   },
   {
@@ -16042,9 +16528,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Bite\" \u2014 a basic monster ability."
   },
   {
@@ -16055,9 +16541,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Blood Claw\" \u2014 a basic monster ability."
   },
   {
@@ -16068,9 +16554,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Blood Siphon\" \u2014 a basic monster ability."
   },
   {
@@ -16081,9 +16567,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Branch Slam\" \u2014 a basic monster ability."
   },
   {
@@ -16094,9 +16580,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Cataclysm Slam\" \u2014 a basic monster ability."
   },
   {
@@ -16107,9 +16593,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Chitin Shell\" \u2014 a basic monster ability."
   },
   {
@@ -16120,9 +16606,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Claw Snap\" \u2014 a basic monster ability."
   },
   {
@@ -16133,9 +16619,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Crush Claw\" \u2014 a basic monster ability."
   },
   {
@@ -16146,9 +16632,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Crystal Armor\" \u2014 a basic monster ability."
   },
   {
@@ -16159,9 +16645,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Crystal Carapace\" \u2014 a basic monster ability."
   },
   {
@@ -16172,9 +16658,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Crystal Charge\" \u2014 a basic monster ability."
   },
   {
@@ -16185,9 +16671,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Crystal Hide\" \u2014 a basic monster ability."
   },
   {
@@ -16198,9 +16684,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Crystal Skin\" \u2014 a basic monster ability."
   },
   {
@@ -16211,9 +16697,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Crystal Slam\" \u2014 a basic monster ability."
   },
   {
@@ -16224,9 +16710,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Crystal Spike Field\" \u2014 a basic monster ability."
   },
   {
@@ -16237,9 +16723,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Decay Bite\" \u2014 a basic monster ability."
   },
   {
@@ -16250,9 +16736,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Decay Skin\" \u2014 a basic monster ability."
   },
   {
@@ -16263,9 +16749,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Devour Bite\" \u2014 a basic monster ability."
   },
   {
@@ -16276,9 +16762,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Electric Surge\" \u2014 a basic monster ability."
   },
   {
@@ -16289,9 +16775,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Ember Skin\" \u2014 a basic monster ability."
   },
   {
@@ -16302,9 +16788,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Energy Core Minor\" \u2014 a basic monster ability."
   },
   {
@@ -16315,9 +16801,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Flesh Erupt\" \u2014 a basic monster ability."
   },
   {
@@ -16328,9 +16814,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Flesh Rip\" \u2014 a basic monster ability."
   },
   {
@@ -16341,9 +16827,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Flesh Slash\" \u2014 a basic monster ability."
   },
   {
@@ -16354,9 +16840,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Fortified Frame\" \u2014 a basic monster ability."
   },
   {
@@ -16367,9 +16853,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Fragment Slash\" \u2014 a basic monster ability."
   },
   {
@@ -16380,9 +16866,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Gnaw Bite\" \u2014 a basic monster ability."
   },
   {
@@ -16393,9 +16879,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Hard Shell\" \u2014 a basic monster ability."
   },
   {
@@ -16406,9 +16892,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Hemophage Bite\" \u2014 a basic monster ability."
   },
   {
@@ -16419,9 +16905,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Horn Charge\" \u2014 a basic monster ability."
   },
   {
@@ -16432,9 +16918,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Horned Guard\" \u2014 a basic monster ability."
   },
   {
@@ -16445,9 +16931,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Light Drift\" \u2014 a basic monster ability."
   },
   {
@@ -16458,9 +16944,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Luminous Bolt\" \u2014 a basic monster ability."
   },
   {
@@ -16471,9 +16957,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Mana Echo\" \u2014 a basic monster ability."
   },
   {
@@ -16484,9 +16970,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Minor Regeneration\" \u2014 a basic monster ability."
   },
   {
@@ -16497,9 +16983,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Mud Body\" \u2014 a basic monster ability."
   },
   {
@@ -16510,9 +16996,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Mud Snap\" \u2014 a basic monster ability."
   },
   {
@@ -16523,9 +17009,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Mud Throw\" \u2014 a basic monster ability."
   },
   {
@@ -16536,9 +17022,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Mutagen Absorption\" \u2014 a basic monster ability."
   },
   {
@@ -16549,9 +17035,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Mutagen Burst\" \u2014 a basic monster ability."
   },
   {
@@ -16562,9 +17048,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Mutant Regeneration\" \u2014 a basic monster ability."
   },
   {
@@ -16575,9 +17061,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Neural Absorption\" \u2014 a basic monster ability."
   },
   {
@@ -16588,9 +17074,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Nimble Feet\" \u2014 a basic monster ability."
   },
   {
@@ -16601,9 +17087,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Overcharge\" \u2014 a basic monster ability."
   },
   {
@@ -16614,9 +17100,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Overhead Crush\" \u2014 a basic monster ability."
   },
   {
@@ -16627,9 +17113,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Pack Leader\" \u2014 a basic monster ability."
   },
   {
@@ -16640,9 +17126,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Pain Conversion\" \u2014 a basic monster ability."
   },
   {
@@ -16653,9 +17139,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Parasite Shell\" \u2014 a basic monster ability."
   },
   {
@@ -16666,9 +17152,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Parasite Spit\" \u2014 a basic monster ability."
   },
   {
@@ -16679,9 +17165,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Pounce Strike\" \u2014 a basic monster ability."
   },
   {
@@ -16692,9 +17178,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Power Slash\" \u2014 a basic monster ability."
   },
   {
@@ -16705,9 +17191,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Pulse Shot\" \u2014 a basic monster ability."
   },
   {
@@ -16718,9 +17204,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Resonance Burst\" \u2014 a basic monster ability."
   },
   {
@@ -16731,9 +17217,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Rift Step\" \u2014 a basic monster ability."
   },
   {
@@ -16744,9 +17230,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Root Quake\" \u2014 a basic monster ability."
   },
   {
@@ -16757,9 +17243,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Root Regeneration\" \u2014 a basic monster ability."
   },
   {
@@ -16770,9 +17256,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Rot Aura\" \u2014 a basic monster ability."
   },
   {
@@ -16783,9 +17269,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Rotor Slash\" \u2014 a basic monster ability."
   },
   {
@@ -16796,9 +17282,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Rotting Bite\" \u2014 a basic monster ability."
   },
   {
@@ -16809,9 +17295,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Rust Armor\" \u2014 a basic monster ability."
   },
   {
@@ -16822,9 +17308,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Sand Dash\" \u2014 a basic monster ability."
   },
   {
@@ -16835,9 +17321,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Sand Slash\" \u2014 a basic monster ability."
   },
   {
@@ -16848,9 +17334,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Scarab Charge\" \u2014 a basic monster ability."
   },
   {
@@ -16861,9 +17347,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Scavenger Greed\" \u2014 a basic monster ability."
   },
   {
@@ -16874,9 +17360,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Scrap Crush\" \u2014 a basic monster ability."
   },
   {
@@ -16887,9 +17373,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Scratch\" \u2014 a basic monster ability."
   },
   {
@@ -16900,9 +17386,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Sensor Matrix\" \u2014 a basic monster ability."
   },
   {
@@ -16913,9 +17399,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Shamanic Growth\" \u2014 a basic monster ability."
   },
   {
@@ -16926,9 +17412,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Shard Barrage\" \u2014 a basic monster ability."
   },
   {
@@ -16939,9 +17425,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Shard Bolt\" \u2014 a basic monster ability."
   },
   {
@@ -16952,9 +17438,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Shard Throw\" \u2014 a basic monster ability."
   },
   {
@@ -16965,9 +17451,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Shield Bash\" \u2014 a basic monster ability."
   },
   {
@@ -16978,9 +17464,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Slam Crush\" \u2014 a basic monster ability."
   },
   {
@@ -16991,9 +17477,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Slime Bounce\" \u2014 a basic monster ability."
   },
   {
@@ -17004,9 +17490,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Spark Shot\" \u2014 a basic monster ability."
   },
   {
@@ -17017,9 +17503,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Spore Aura\" \u2014 a basic monster ability."
   },
   {
@@ -17030,9 +17516,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Sting Thrust\" \u2014 a basic monster ability."
   },
   {
@@ -17043,9 +17529,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Strike\" \u2014 a basic monster ability."
   },
   {
@@ -17056,9 +17542,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Tail Cleave\" \u2014 a basic monster ability."
   },
   {
@@ -17069,9 +17555,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Toxic Burst\" \u2014 a basic monster ability."
   },
   {
@@ -17082,9 +17568,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Toxic Slam\" \u2014 a basic monster ability."
   },
   {
@@ -17095,9 +17581,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Toxic Spit\" \u2014 a basic monster ability."
   },
   {
@@ -17108,9 +17594,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Toxic Spore\" \u2014 a basic monster ability."
   },
   {
@@ -17121,9 +17607,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Tumor Regeneration\" \u2014 a basic monster ability."
   },
   {
@@ -17134,9 +17620,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Tyrant Crystal Cataclysm\" \u2014 a basic monster ability."
   },
   {
@@ -17147,9 +17633,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Ultimate Burst\" \u2014 a basic monster ability."
   },
   {
@@ -17160,9 +17646,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Venom Burst\" \u2014 a basic monster ability."
   },
   {
@@ -17173,9 +17659,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Venom Claw\" \u2014 a basic monster ability."
   },
   {
@@ -17186,9 +17672,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Venom Glands\" \u2014 a basic monster ability."
   },
   {
@@ -17199,9 +17685,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Venom Sac\" \u2014 a basic monster ability."
   },
   {
@@ -17212,9 +17698,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Venom Skin\" \u2014 a basic monster ability."
   },
   {
@@ -17225,9 +17711,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Void Resonance\" \u2014 a basic monster ability."
   },
   {
@@ -17238,9 +17724,9 @@
     "mp_cost": 0,
     "damage_formula": "ATK * 1.5",
     "effect": "",
-    "stat_modifiers": "",
-    "periodic_effects": "",
-    "control_effects": "",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
     "skill_description": "\"Void Skin\" \u2014 a basic monster ability."
   }
 ]
