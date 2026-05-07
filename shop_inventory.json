@@ -2106,6 +2106,165 @@
           ]
         }
       ]
+    },
+    {
+      "id": "shop_crossroad_basic",
+      "name": "Nexus Crossroads Supplies",
+      "categories": [
+        {
+          "category": "general",
+          "items": [
+            {
+              "item_id": "potion_minor_healing",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "potion_minor_mana",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_small_hp_cell",
+              "stock": 40,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_small_mp_cell",
+              "stock": 40,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_nutrient_ration",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "scrap_metal",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_bazaar_advanced",
+      "name": "Central Spire Bazaar",
+      "categories": [
+        {
+          "category": "general",
+          "items": [
+            {
+              "item_id": "con_medium_hp_cell",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_medium_mp_cell",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_repair_patch",
+              "stock": 25,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_minor_stim_pack",
+              "stock": 25,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_iron_sword",
+              "stock": 10,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "arm_iron_plate",
+              "stock": 10,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "core_fragment",
+              "stock": 15,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_orbital_elite",
+      "name": "Orbital Neutral Hub Exchange",
+      "categories": [
+        {
+          "category": "general",
+          "items": [
+            {
+              "item_id": "con_elite_recovery_pack",
+              "stock": 20,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_medium_hp_cell",
+              "stock": 40,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_medium_mp_cell",
+              "stock": 40,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_steel_broadsword",
+              "stock": 10,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "arm_iron_plate",
+              "stock": 15,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "drake_heart",
+              "stock": 5,
+              "refresh_time": 1200,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "void_fragment",
+              "stock": 10,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "titan_core",
+              "stock": 5,
+              "refresh_time": 1200,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
     }
   ]
 }

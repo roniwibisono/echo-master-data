@@ -1543,7 +1543,9 @@
     "location": "Nexus Crossroads",
     "region_id": "NEXUS_CROSSROADS",
     "description": "A wandering trader from the Bastion who settled at the Crossroads. Sells basic supplies.",
-    "actions": [],
+    "actions": [
+      "open_shop"
+    ],
     "available_services": [
       "BUY",
       "SELL"
@@ -1642,7 +1644,9 @@
     "location": "Central Spire Bazaar",
     "region_id": "CENTRAL_SPIRE_BAZAAR",
     "description": "A former OmniCorp executive running the Central Spire's premier trading post.",
-    "actions": [],
+    "actions": [
+      "open_shop"
+    ],
     "available_services": [
       "BUY",
       "SELL"
@@ -1724,7 +1728,9 @@
     "location": "Orbital Neutral Hub",
     "region_id": "ORBITAL_NEUTRAL_HUB",
     "description": "The director of the Orbital Hub's trade network. Deals in legendary-grade equipment.",
-    "actions": [],
+    "actions": [
+      "open_shop"
+    ],
     "available_services": [
       "BUY",
       "SELL"
@@ -1918,7 +1924,9 @@
     "location": "Nexus Core",
     "region_id": "NEXUS_CORE",
     "description": "Official merchant of Concordium. Sells faction-approved equipment and supplies.",
-    "actions": [],
+    "actions": [
+      "open_shop"
+    ],
     "available_services": [
       "BUY",
       "SELL"
@@ -1932,11 +1940,13 @@
     "role": "MERCHANT",
     "faction": "THE_ARCANUM_SEEKERS",
     "dialogue_tree": "dialog_merchant_greet",
-    "shop_inventory": "shop_the_arcanum_seekers_capital",
+    "shop_inventory": "shop_arcanum_capital",
     "location": "Observatory Spire",
     "region_id": "OBSERVATORY_SPIRE",
     "description": "Official merchant of The Arcanum Seekers. Sells faction-approved equipment and supplies.",
-    "actions": [],
+    "actions": [
+      "open_shop"
+    ],
     "available_services": [
       "BUY",
       "SELL"
@@ -1950,11 +1960,13 @@
     "role": "MERCHANT",
     "faction": "IRON_HEGEMONY",
     "dialogue_tree": "dialog_merchant_greet",
-    "shop_inventory": "shop_iron_hegemony_capital",
+    "shop_inventory": "shop_hegemony_capital",
     "location": "Bastion Core",
     "region_id": "BASTION_CORE",
     "description": "Official merchant of Iron Hegemony. Sells faction-approved equipment and supplies.",
-    "actions": [],
+    "actions": [
+      "open_shop"
+    ],
     "available_services": [
       "BUY",
       "SELL"
@@ -1968,11 +1980,13 @@
     "role": "MERCHANT",
     "faction": "MERIDIAN_CARTEL",
     "dialogue_tree": "dialog_merchant_greet",
-    "shop_inventory": "shop_meridian_cartel_capital",
+    "shop_inventory": "shop_meridian_capital",
     "location": "Port Meridian",
     "region_id": "PORT_MERIDIAN",
     "description": "Official merchant of Meridian Cartel. Sells faction-approved equipment and supplies.",
-    "actions": [],
+    "actions": [
+      "open_shop"
+    ],
     "available_services": [
       "BUY",
       "SELL"
@@ -1990,7 +2004,9 @@
     "location": "The Spire",
     "region_id": "THE_SPIRE",
     "description": "Official merchant of Omnicorp. Sells faction-approved equipment and supplies.",
-    "actions": [],
+    "actions": [
+      "open_shop"
+    ],
     "available_services": [
       "BUY",
       "SELL"
@@ -2004,11 +2020,13 @@
     "role": "MERCHANT",
     "faction": "CHILDREN_OF_THE_SHARD",
     "dialogue_tree": "dialog_merchant_greet",
-    "shop_inventory": "shop_children_of_the_shard_capital",
+    "shop_inventory": "shop_shard_capital",
     "location": "Sanctum",
     "region_id": "SANCTUM",
     "description": "Official merchant of Children Of The Shard. Sells faction-approved equipment and supplies.",
-    "actions": [],
+    "actions": [
+      "open_shop"
+    ],
     "available_services": [
       "BUY",
       "SELL"
@@ -2022,11 +2040,13 @@
     "role": "MERCHANT",
     "faction": "STARFORGED_LEGION",
     "dialogue_tree": "dialog_merchant_greet",
-    "shop_inventory": "shop_starforged_legion_capital",
+    "shop_inventory": "shop_legion_capital",
     "location": "Fortress Kaelen",
     "region_id": "FORTRESS_KAELEN",
     "description": "Official merchant of Starforged Legion. Sells faction-approved equipment and supplies.",
-    "actions": [],
+    "actions": [
+      "open_shop"
+    ],
     "available_services": [
       "BUY",
       "SELL"
