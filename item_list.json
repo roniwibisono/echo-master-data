@@ -25032,6 +25032,34 @@
       "sell_price": 0,
       "max_stack": 99,
       "icon_image": ""
+    },
+    {
+      "id": "universe_knowledge_capsule",
+      "name": "Universe Knowledge Capsule",
+      "description": "A capsule containing compressed universal knowledge. Grants 100,000,000 EXP upon use. Alpha test item.",
+      "type": "CONSUMABLE",
+      "rarity": "LEGENDARY",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "effect_id": "exp_flat_grant",
+          "desc": "Grants 100,000,000 EXP",
+          "value": 100000000
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 99,
+      "icon_image": "icons/items/consumables/universe_knowledge_capsule.png"
     }
   ]
 }

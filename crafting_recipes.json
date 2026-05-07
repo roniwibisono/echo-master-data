@@ -6325,6 +6325,28 @@
           "quantity": 2
         }
       ]
+    },
+    {
+      "recipe_id": "universe_capsule_craft",
+      "recipe_name": "Craft: Universe Knowledge Capsule",
+      "category": "ALCHEMY",
+      "crafting_station": "ALCHEMY_TABLE",
+      "required_level": 1,
+      "crafting_time_seconds": 10,
+      "crafting_cost": 0,
+      "craftable_by_npcs": [
+        "ALL"
+      ],
+      "result": {
+        "item_id": "universe_knowledge_capsule",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "potion_minor_healing",
+          "quantity": 10
+        }
+      ]
     }
   ]
 }
