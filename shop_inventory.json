@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "2.0",
-    "description": "Shop Inventory Database for Echo of Xylos — merged & enriched"
+    "description": "Shop Inventory Database for Echo of Xylos \u2014 merged & enriched"
   },
   "shops": [
     {
@@ -1766,6 +1766,341 @@
               "item_id": "acc2_t060_accessory2",
               "stock": 1,
               "refresh_time": 86400,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_concordium_capital",
+      "name": "Concordium Supply Depot",
+      "categories": [
+        {
+          "category": "general",
+          "items": [
+            {
+              "item_id": "potion_minor_healing",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "potion_minor_mana",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_small_hp_cell",
+              "stock": 40,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_small_mp_cell",
+              "stock": 40,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_nutrient_ration",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_iron_sword",
+              "stock": 10,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "arm_iron_plate",
+              "stock": 10,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_arcanum_capital",
+      "name": "Arcanum Archives Shop",
+      "categories": [
+        {
+          "category": "general",
+          "items": [
+            {
+              "item_id": "potion_minor_healing",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "potion_minor_mana",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_small_mp_cell",
+              "stock": 45,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_minor_stim_pack",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_apprentice_staff",
+              "stock": 10,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "armor_cloth_robes",
+              "stock": 10,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_hegemony_capital",
+      "name": "Hegemony Armory",
+      "categories": [
+        {
+          "category": "general",
+          "items": [
+            {
+              "item_id": "potion_minor_healing",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_small_hp_cell",
+              "stock": 45,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_repair_patch",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_iron_sword",
+              "stock": 15,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "arm_iron_plate",
+              "stock": 15,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "mat_iron_ore",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_meridian_capital",
+      "name": "Cartel Trading Post",
+      "categories": [
+        {
+          "category": "general",
+          "items": [
+            {
+              "item_id": "potion_minor_healing",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_nutrient_ration",
+              "stock": 40,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_minor_stim_pack",
+              "stock": 35,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_hunter_dagger",
+              "stock": 10,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "arm_leather_tunic",
+              "stock": 10,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "scrap_metal",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_omnicorp_capital",
+      "name": "OmniCorp Supply Division",
+      "categories": [
+        {
+          "category": "general",
+          "items": [
+            {
+              "item_id": "potion_minor_healing",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "potion_minor_mana",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_small_mp_cell",
+              "stock": 40,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_minor_stim_pack",
+              "stock": 35,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_steel_broadsword",
+              "stock": 10,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "arm_iron_plate",
+              "stock": 10,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_shard_capital",
+      "name": "Shard Sanctum Supplies",
+      "categories": [
+        {
+          "category": "general",
+          "items": [
+            {
+              "item_id": "potion_minor_healing",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_small_hp_cell",
+              "stock": 40,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_nutrient_ration",
+              "stock": 35,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_apprentice_staff",
+              "stock": 10,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "armor_cloth_robes",
+              "stock": 10,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "shardroot_vine",
+              "stock": 20,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_legion_capital",
+      "name": "Legion Quartermaster Depot",
+      "categories": [
+        {
+          "category": "general",
+          "items": [
+            {
+              "item_id": "potion_minor_healing",
+              "stock": 50,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_small_hp_cell",
+              "stock": 45,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_repair_patch",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_iron_sword",
+              "stock": 15,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "arm_iron_plate",
+              "stock": 15,
+              "refresh_time": 600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "scrap_metal",
+              "stock": 25,
+              "refresh_time": 300,
               "price_modifier": 1.0
             }
           ]

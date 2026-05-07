@@ -1906,5 +1906,131 @@
       "CURRENCY_EXCHANGE"
     ],
     "greeting": "AMA Legion Branch. Exchange your Legion Scrip for Credent at the current rate."
+  },
+  {
+    "npc_id": "npc_concordium_merchant",
+    "name": "Quartermaster Voss",
+    "title": "Concordium Quartermaster",
+    "role": "MERCHANT",
+    "faction": "CONCORDIUM",
+    "dialogue_tree": "dialog_merchant_greet",
+    "shop_inventory": "shop_concordium_capital",
+    "location": "Nexus Core",
+    "region_id": "NEXUS_CORE",
+    "description": "Official merchant of Concordium. Sells faction-approved equipment and supplies.",
+    "actions": [],
+    "available_services": [
+      "BUY",
+      "SELL"
+    ],
+    "greeting": "Welcome to the Concordium supply depot. What do you need, operative?"
+  },
+  {
+    "npc_id": "npc_arcanum_merchant",
+    "name": "Archivist Thel",
+    "title": "Arcanum Archivist Merchant",
+    "role": "MERCHANT",
+    "faction": "THE_ARCANUM_SEEKERS",
+    "dialogue_tree": "dialog_merchant_greet",
+    "shop_inventory": "shop_the_arcanum_seekers_capital",
+    "location": "Observatory Spire",
+    "region_id": "OBSERVATORY_SPIRE",
+    "description": "Official merchant of The Arcanum Seekers. Sells faction-approved equipment and supplies.",
+    "actions": [],
+    "available_services": [
+      "BUY",
+      "SELL"
+    ],
+    "greeting": "Welcome to the The Arcanum Seekers supply depot. What do you need, operative?"
+  },
+  {
+    "npc_id": "npc_hegemony_merchant",
+    "name": "Armorer Drax",
+    "title": "Hegemony Armorer",
+    "role": "MERCHANT",
+    "faction": "IRON_HEGEMONY",
+    "dialogue_tree": "dialog_merchant_greet",
+    "shop_inventory": "shop_iron_hegemony_capital",
+    "location": "Bastion Core",
+    "region_id": "BASTION_CORE",
+    "description": "Official merchant of Iron Hegemony. Sells faction-approved equipment and supplies.",
+    "actions": [],
+    "available_services": [
+      "BUY",
+      "SELL"
+    ],
+    "greeting": "Welcome to the Iron Hegemony supply depot. What do you need, operative?"
+  },
+  {
+    "npc_id": "npc_meridian_merchant",
+    "name": "Broker Quinn",
+    "title": "Cartel Broker",
+    "role": "MERCHANT",
+    "faction": "MERIDIAN_CARTEL",
+    "dialogue_tree": "dialog_merchant_greet",
+    "shop_inventory": "shop_meridian_cartel_capital",
+    "location": "Port Meridian",
+    "region_id": "PORT_MERIDIAN",
+    "description": "Official merchant of Meridian Cartel. Sells faction-approved equipment and supplies.",
+    "actions": [],
+    "available_services": [
+      "BUY",
+      "SELL"
+    ],
+    "greeting": "Welcome to the Meridian Cartel supply depot. What do you need, operative?"
+  },
+  {
+    "npc_id": "npc_omnicorp_merchant",
+    "name": "Supply Director Haas",
+    "title": "OmniCorp Supply Director",
+    "role": "MERCHANT",
+    "faction": "OMNICORP",
+    "dialogue_tree": "dialog_merchant_greet",
+    "shop_inventory": "shop_omnicorp_capital",
+    "location": "The Spire",
+    "region_id": "THE_SPIRE",
+    "description": "Official merchant of Omnicorp. Sells faction-approved equipment and supplies.",
+    "actions": [],
+    "available_services": [
+      "BUY",
+      "SELL"
+    ],
+    "greeting": "Welcome to the Omnicorp supply depot. What do you need, operative?"
+  },
+  {
+    "npc_id": "npc_shard_merchant",
+    "name": "Keeper Nym",
+    "title": "Shard Keeper Merchant",
+    "role": "MERCHANT",
+    "faction": "CHILDREN_OF_THE_SHARD",
+    "dialogue_tree": "dialog_merchant_greet",
+    "shop_inventory": "shop_children_of_the_shard_capital",
+    "location": "Sanctum",
+    "region_id": "SANCTUM",
+    "description": "Official merchant of Children Of The Shard. Sells faction-approved equipment and supplies.",
+    "actions": [],
+    "available_services": [
+      "BUY",
+      "SELL"
+    ],
+    "greeting": "Welcome to the Children Of The Shard supply depot. What do you need, operative?"
+  },
+  {
+    "npc_id": "npc_legion_merchant",
+    "name": "Quartermaster Zara",
+    "title": "Legion Quartermaster",
+    "role": "MERCHANT",
+    "faction": "STARFORGED_LEGION",
+    "dialogue_tree": "dialog_merchant_greet",
+    "shop_inventory": "shop_starforged_legion_capital",
+    "location": "Fortress Kaelen",
+    "region_id": "FORTRESS_KAELEN",
+    "description": "Official merchant of Starforged Legion. Sells faction-approved equipment and supplies.",
+    "actions": [],
+    "available_services": [
+      "BUY",
+      "SELL"
+    ],
+    "greeting": "Welcome to the Starforged Legion supply depot. What do you need, operative?"
   }
 ]
