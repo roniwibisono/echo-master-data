@@ -1231,5 +1231,212 @@
         ]
       }
     ]
+  },
+  {
+    "dialogues": [
+      {
+        "dialog_id": "dlg_concordium_ama_main",
+        "npc_id": "NPC_CONCORDIUM_EXCHANGE",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "AMA Branch Office — Concordium. I can facilitate exchanges between your faction currency (AMC) and the universal Credent (CRD). Current rates fluctuate based on twelve economic factors. State your intent.",
+            "options": [
+              { "text": "I want to exchange currency.", "next": "confirm_exchange", "action": "currency_exchange" },
+              { "text": "How do exchange rates work?", "next": "explain_rates" },
+              { "text": "Nothing for now.", "next": "exit", "action": "exit" }
+            ]
+          },
+          {
+            "id": "explain_rates",
+            "text": "Exchange rates are computed dynamically by the AMA. Factors include territory control, treasury health, inflation, trade volume, and more. A sliding fee of 1–5% applies per transaction based on volume. The rate is always live — it reflects the current state of the economy.",
+            "options": [
+              { "text": "I want to exchange now.", "next": "confirm_exchange", "action": "currency_exchange" },
+              { "text": "I'll come back later.", "next": "exit", "action": "exit" }
+            ]
+          },
+          {
+            "id": "confirm_exchange",
+            "text": "Processing your exchange request. The AMA Ledger records all transactions.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dlg_arcanum_ama_main",
+        "npc_id": "NPC_ARCANUM_EXCHANGE",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Fascinating to have a client! I handle QNT-to-CRD and CRD-to-QNT exchanges here. The volatility of Arcanum currency is actually a mathematical marvel — it responds to knowledge sector output and energy research cycles. But I digress. How can I assist?",
+            "options": [
+              { "text": "I want to exchange currency.", "next": "confirm_exchange", "action": "currency_exchange" },
+              { "text": "Tell me more about the rates.", "next": "explain_rates" },
+              { "text": "I'll think about it.", "next": "exit", "action": "exit" }
+            ]
+          },
+          {
+            "id": "explain_rates",
+            "text": "QNT value is heavily influenced by Arcanum's research output and territorial control. When the Seekers control high-value knowledge sites, QNT strengthens considerably. Fee is 1–5% sliding scale by volume. I've written four papers on this if you'd like—",
+            "options": [
+              { "text": "Just the exchange, please.", "next": "confirm_exchange", "action": "currency_exchange" },
+              { "text": "Maybe later.", "next": "exit", "action": "exit" }
+            ]
+          },
+          {
+            "id": "confirm_exchange",
+            "text": "Splendid! Initiating exchange protocol. The AMA Ledger awaits your input.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dlg_iron_ama_main",
+        "npc_id": "NPC_IRON_EXCHANGE",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "TERMINAL IH-3 ACTIVE. SERVICES: IGT-CRD EXCHANGE. CURRENT RATE: LIVE. FEE: 1-5%. SELECT OPTION.",
+            "options": [
+              { "text": "Begin exchange.", "next": "confirm_exchange", "action": "currency_exchange" },
+              { "text": "Display rate information.", "next": "explain_rates" },
+              { "text": "Abort.", "next": "exit", "action": "exit" }
+            ]
+          },
+          {
+            "id": "explain_rates",
+            "text": "IGT RATE FACTORS: MILITARY OUTPUT, INDUSTRIAL PRODUCTION, TERRITORY, TREASURY HEALTH, TWELVE VARIABLES TOTAL. RATE RANGE: 0.25-3.00 CRD PER IGT. FEE DEDUCTED FROM OUTPUT. NO FURTHER INFORMATION AVAILABLE.",
+            "options": [
+              { "text": "Begin exchange.", "next": "confirm_exchange", "action": "currency_exchange" },
+              { "text": "Abort.", "next": "exit", "action": "exit" }
+            ]
+          },
+          {
+            "id": "confirm_exchange",
+            "text": "TRANSACTION INITIATED. AWAITING INPUT.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dlg_meridian_ama_main",
+        "npc_id": "NPC_MERIDIAN_EXCHANGE",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Welcome to the busiest AMA desk in Xylos! We handle AUC-to-CRD and back with the smoothest process you'll find anywhere. Between us — when trade volume is high here, you might find the rates particularly favourable. Shall we?",
+            "options": [
+              { "text": "Let's exchange currency.", "next": "confirm_exchange", "action": "currency_exchange" },
+              { "text": "Tell me about the rates.", "next": "explain_rates" },
+              { "text": "Not right now.", "next": "exit", "action": "exit" }
+            ]
+          },
+          {
+            "id": "explain_rates",
+            "text": "AUC is tied to trade dominance. The Cartel's grip on commerce directly strengthens the Aurum Cipher. High-volume transactions attract a lower fee — 1% for large trades, 5% for small ones. My advice? Don't exchange in small increments.",
+            "options": [
+              { "text": "Good tip. Let's exchange.", "next": "confirm_exchange", "action": "currency_exchange" },
+              { "text": "I'll keep that in mind.", "next": "exit", "action": "exit" }
+            ]
+          },
+          {
+            "id": "confirm_exchange",
+            "text": "Excellent choice. Opening the exchange interface now.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dlg_omnicorp_ama_main",
+        "npc_id": "NPC_OMNICORP_EXCHANGE",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "OmniCorp AMA Integration Node online. Services available: OMC-to-CRD exchange, CRD-to-OMC exchange. OmniCorp is not responsible for rate fluctuations. The AMA guarantees ledger integrity. Terms and conditions apply. How may I process your transaction?",
+            "options": [
+              { "text": "Open exchange interface.", "next": "confirm_exchange", "action": "currency_exchange" },
+              { "text": "Rate information.", "next": "explain_rates" },
+              { "text": "Disconnect.", "next": "exit", "action": "exit" }
+            ]
+          },
+          {
+            "id": "explain_rates",
+            "text": "OmniCred value is indexed to OmniCorp's patent portfolio valuation, off-world trade agreements, R&D throughput, and resource export volumes. Rate range: 0.25 to 3.00 CRD per OMC. Fee: 1% to 5% sliding by volume. Processing time: immediate. Disclaimer: past rate performance is not indicative of future results.",
+            "options": [
+              { "text": "Proceed with exchange.", "next": "confirm_exchange", "action": "currency_exchange" },
+              { "text": "End session.", "next": "exit", "action": "exit" }
+            ]
+          },
+          {
+            "id": "confirm_exchange",
+            "text": "Initiating exchange module. CoreNet™ connection secure.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dlg_shard_ama_main",
+        "npc_id": "NPC_SHARD_EXCHANGE",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "...The Shard breathes. And in its breath, all things flow — including currency. I am Mirya. I can exchange your Aethel-Tithes (ATH) for Credent, or the reverse. The AMA requires I do this. The Shard permits it. What do you seek?",
+            "options": [
+              { "text": "I seek currency exchange.", "next": "confirm_exchange", "action": "currency_exchange" },
+              { "text": "Tell me about the exchange.", "next": "explain_rates" },
+              { "text": "I will return another time.", "next": "exit", "action": "exit" }
+            ]
+          },
+          {
+            "id": "explain_rates",
+            "text": "ATH is sacred in nature, and thus unpredictable by worldly measures. Its value rises when the Shard controls the pulse-points of Xylos, and falls when the sacred sites are held by those without faith. The AMA has learned to accept this. A fee is taken — 1 to 5 of every 100 — as offering to the system.",
+            "options": [
+              { "text": "I am ready to exchange.", "next": "confirm_exchange", "action": "currency_exchange" },
+              { "text": "I will meditate on it.", "next": "exit", "action": "exit" }
+            ]
+          },
+          {
+            "id": "confirm_exchange",
+            "text": "May the exchange be balanced. The interface opens before you.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dlg_legion_ama_main",
+        "npc_id": "NPC_LEGION_EXCHANGE",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Rex Valdur, AMA Forward Station. We handle Legion Scrip (LSC) and CRD, both directions. I run a tight operation here — fast processing, fair rates, no nonsense. The Legion appreciates efficiency. So do I. What are we moving?",
+            "options": [
+              { "text": "Exchange currency.", "next": "confirm_exchange", "action": "currency_exchange" },
+              { "text": "What are the current rates?", "next": "explain_rates" },
+              { "text": "Stand down for now.", "next": "exit", "action": "exit" }
+            ]
+          },
+          {
+            "id": "explain_rates",
+            "text": "LSC tracks Legion military readiness and territorial control. Strong Legion presence in contested zones pushes the Scrip up. Fee is 1–5% depending on volume — high-volume traders get the better deal. I've seen this station process 50,000 LSC in a single session. Don't be shy.",
+            "options": [
+              { "text": "Let's go.", "next": "confirm_exchange", "action": "currency_exchange" },
+              { "text": "Not today.", "next": "exit", "action": "exit" }
+            ]
+          },
+          {
+            "id": "confirm_exchange",
+            "text": "Exchange interface open. Make it count.",
+            "options": []
+          }
+        ]
+      }
+    ]
   }
 ]

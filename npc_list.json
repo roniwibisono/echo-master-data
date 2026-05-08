@@ -2052,5 +2052,124 @@
       "SELL"
     ],
     "greeting": "Welcome to the Starforged Legion supply depot. What do you need, operative?"
+  },
+
+  {
+    "npc_id": "NPC_CONCORDIUM_EXCHANGE",
+    "name": "AMA Officer Petra Calloway",
+    "title": "Aegis Monetary Authority — Concordium Branch",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "CONCORDIUM",
+    "dialogue_tree": "dlg_concordium_ama_main",
+    "shop_inventory": null,
+    "location": "Nexus Core — AMA Branch Office",
+    "region_id": "NEXUS_CORE",
+    "description": "Petra is a sharp-eyed AMA officer stationed at the Concordium capital. She maintains strict neutrality despite being surrounded by military culture. Known for her no-nonsense approach to exchange transactions and her habit of auditing the local treasury records 'just to keep everyone honest.'",
+    "personality": "stern",
+    "greeting": "AMA Branch Office — Concordium. Present your credentials and state the volume of your exchange. I process transactions, not small talk.",
+    "available_services": ["EXCHANGE"],
+    "actions": ["currency_exchange"]
+  },
+
+  {
+    "npc_id": "NPC_ARCANUM_EXCHANGE",
+    "name": "AMA Scholar Drex Nul",
+    "title": "Aegis Monetary Authority — Arcanum Branch",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "THE_ARCANUM_SEEKERS",
+    "dialogue_tree": "dlg_arcanum_ama_main",
+    "shop_inventory": null,
+    "location": "Observatory Spire — AMA Sanctioned Study",
+    "region_id": "OBSERVATORY_SPIRE",
+    "description": "Drex is a former Arcanum Seekers student who became more interested in economic theory than arcane knowledge. He writes papers on 'The Thermodynamics of Galactic Currency Flows' in his spare time.",
+    "personality": "intellectual",
+    "greeting": "Ah, a transaction seeker! The economic relationship between Arcane currency and the Credent is fascinating — particularly when you examine the volatility coefficients. But yes, I can exchange your currency. Let me pull up the current rates.",
+    "available_services": ["EXCHANGE"],
+    "actions": ["currency_exchange"]
+  },
+
+  {
+    "npc_id": "NPC_IRON_EXCHANGE",
+    "name": "AMA Terminal IH-3",
+    "title": "Aegis Monetary Authority — Iron Hegemony Automated Terminal",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "IRON_HEGEMONY",
+    "dialogue_tree": "dlg_iron_ama_main",
+    "shop_inventory": null,
+    "location": "Bastion Core — AMA Processing Center",
+    "region_id": "BASTION_CORE",
+    "description": "The Iron Hegemony preferred efficiency over personality, so they lobbied for an automated AMA terminal. IH-3 processes transactions with industrial efficiency and has no patience for errors.",
+    "personality": "mechanical",
+    "greeting": "TERMINAL IH-3 ACTIVE. INSERT CURRENCY VOLUME. EXCHANGE RATE DISPLAYED. CONFIRM OR ABORT. PROCESSING FEE APPLIES.",
+    "available_services": ["EXCHANGE"],
+    "actions": ["currency_exchange"]
+  },
+
+  {
+    "npc_id": "NPC_MERIDIAN_EXCHANGE",
+    "name": "AMA Broker Sable Thorn",
+    "title": "Aegis Monetary Authority — Meridian Branch",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "MERIDIAN_CARTEL",
+    "dialogue_tree": "dlg_meridian_ama_main",
+    "shop_inventory": null,
+    "location": "Port Meridian — AMA Trade Desk",
+    "region_id": "PORT_MERIDIAN",
+    "description": "Sable Thorn navigated from Cartel trader to AMA broker with calculated grace. The Meridian branch is the busiest in Xylos by transaction volume. She occasionally tips clients about exchange rate trends.",
+    "personality": "charming",
+    "greeting": "Welcome, welcome! You've come to the right desk — the Meridian AMA branch handles more volume than all other branches combined. What are we converting today?",
+    "available_services": ["EXCHANGE"],
+    "actions": ["currency_exchange"]
+  },
+
+  {
+    "npc_id": "NPC_OMNICORP_EXCHANGE",
+    "name": "AMA Node OM-7",
+    "title": "Aegis Monetary Authority — OmniCorp Integration",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "OMNICORP",
+    "dialogue_tree": "dlg_omnicorp_ama_main",
+    "shop_inventory": null,
+    "location": "The Spire — AMA Digital Hub",
+    "region_id": "THE_SPIRE",
+    "description": "OmniCorp integrated the AMA terminal directly into their corporate network infrastructure. OM-7 is technically an AMA node but runs on OmniCorp servers. The AMA audits this arrangement quarterly.",
+    "personality": "corporate",
+    "greeting": "OmniCorp AMA Integration Node — powered by OmniCorp CoreNet™. Your exchange request has been submitted to the AMA Ledger. Processing. Terms and conditions apply.",
+    "available_services": ["EXCHANGE"],
+    "actions": ["currency_exchange"]
+  },
+
+  {
+    "npc_id": "NPC_SHARD_EXCHANGE",
+    "name": "AMA Keeper Mirya of the Still Pool",
+    "title": "Aegis Monetary Authority — Shard Branch",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "CHILDREN_OF_THE_SHARD",
+    "dialogue_tree": "dlg_shard_ama_main",
+    "shop_inventory": null,
+    "location": "Sanctum — AMA Sanctuary Desk",
+    "region_id": "SANCTUM",
+    "description": "Mirya bridges spiritual and financial worlds: a genuine Shard practitioner who also holds AMA certification. She meditates between transactions and occasionally warns clients about 'spiritually inauspicious exchange moments.'",
+    "personality": "serene",
+    "greeting": "Breathe... the Shard sees all flows, including those of currency. I am Mirya. Let us proceed mindfully.",
+    "available_services": ["EXCHANGE"],
+    "actions": ["currency_exchange"]
+  },
+
+  {
+    "npc_id": "NPC_LEGION_EXCHANGE",
+    "name": "AMA Agent Rex Valdur",
+    "title": "Aegis Monetary Authority — Starforged Legion Post",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "STARFORGED_LEGION",
+    "dialogue_tree": "dlg_legion_ama_main",
+    "shop_inventory": null,
+    "location": "Fortress Kaelen — AMA Forward Station",
+    "region_id": "FORTRESS_KAELEN",
+    "description": "Rex is an AMA field agent who thrives in volatile frontier environments. He's processed exchanges under fire, during bombardments, and once mid-warp. He respects the Legion's boldness while maintaining AMA neutrality.",
+    "personality": "resilient",
+    "greeting": "AMA Forward Station, Legion Post. Rex Valdur, at your service. Quick processing, fair rates — no extra charge for the excitement. What are we moving today?",
+    "available_services": ["EXCHANGE"],
+    "actions": ["currency_exchange"]
   }
 ]
