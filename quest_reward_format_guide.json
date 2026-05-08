@@ -1,0 +1,197 @@
+{
+  "_meta": {
+    "description": "Panduan format reward untuk seluruh quest dan dungeon di Echo of Xylos. BUKAN file CDN — ini adalah referensi untuk update quest JSON yang ada.",
+    "key_rules": [
+      "currency = faction currency player (ACC, ARC, IRN, MER, OMT, SHD, SFT)",
+      "crd = Credent (CRD) universal",
+      "ruby = mata uang premium (tidak digunakan sebagai reward, hanya untuk mall)",
+      "Quest faction normal: currency > 0, crd = 0",
+      "Quest faction special/endgame: currency > 0, crd > 0 (keduanya)",
+      "Quest neutral/Custodian: currency = 0, crd > 0",
+      "Dungeon reward: fleksibel — bisa crd saja, faction saja, atau keduanya",
+      "Jual item ke NPC: selalu dibayar faction currency player (terlepas dari NPC factionnya)",
+      "Beli dari NPC neutral zone: selalu pakai CRD"
+    ]
+  },
+
+  "quest_reward_patterns": {
+
+    "pattern_1_faction_normal": {
+      "name": "Standard Faction Quest",
+      "description": "Quest dari NPC faction biasa (daily, side, faction). Reward hanya mata uang faction.",
+      "template": {
+        "rewards": {
+          "exp": 500,
+          "currency": 1000,
+          "crd": 0,
+          "reputation": 30,
+          "items": []
+        }
+      },
+      "applies_to": [
+        "quest_concordium.json — semua quest rank B dan A biasa",
+        "quest_arcanum.json — semua quest rank B dan A biasa",
+        "quest_iron.json — semua quest rank B dan A biasa",
+        "quest_meridian.json — semua quest rank B dan A biasa",
+        "quest_omnicorp.json — semua quest rank B dan A biasa",
+        "quest_shard.json — semua quest rank B dan A biasa",
+        "quest_legion.json — semua quest rank B dan A biasa",
+        "quest_list.json — daily quest umum"
+      ],
+      "currency_scaling_guide": {
+        "rank_B": { "min": 300, "max": 800, "typical": 500 },
+        "rank_A": { "min": 800, "max": 2000, "typical": 1200 },
+        "rank_S": { "min": 2000, "max": 6000, "typical": 3500 }
+      }
+    },
+
+    "pattern_2_faction_special": {
+      "name": "Special / Endgame Faction Quest",
+      "description": "Quest dari NPC faction untuk story quest chain, atau quest yang melibatkan kerjasama lintas faction. Reward KEDUANYA: faction currency + CRD.",
+      "template": {
+        "rewards": {
+          "exp": 3000,
+          "currency": 1500,
+          "crd": 500,
+          "reputation": 100,
+          "items": [
+            { "item_id": "FACTION_UNIQUE_ITEM", "quantity": 1 }
+          ]
+        }
+      },
+      "applies_to": [
+        "Quest story chain rank S dan S+",
+        "Quest yang diselesaikan di wilayah faction lain (cross-territory)",
+        "Quest khusus yang membuka area rahasia"
+      ],
+      "crd_reward_scaling": {
+        "rank_S": { "min": 300, "max": 800 },
+        "rank_S+": { "min": 800, "max": 2500 }
+      }
+    },
+
+    "pattern_3_neutral_crd_only": {
+      "name": "Neutral / Custodian Quest",
+      "description": "Quest dari NPC di Pax Nexus atau Custodian NPC manapun. Reward HANYA CRD, tidak ada faction currency.",
+      "template": {
+        "rewards": {
+          "exp": 1000,
+          "currency": 0,
+          "crd": 400,
+          "reputation": 40,
+          "items": []
+        }
+      },
+      "applies_to": [
+        "quest_neutral.json — semua quest",
+        "Quest dari NPC_NEXUS_QUESTGIVER_*",
+        "Quest dari NPC_*_EXCHANGE jika ada quest bawaan"
+      ],
+      "crd_scaling_guide": {
+        "daily": { "min": 80, "max": 200 },
+        "side_B": { "min": 150, "max": 400 },
+        "side_A": { "min": 400, "max": 900 },
+        "story_S": { "min": 1500, "max": 5000 },
+        "story_S+": { "min": 4000, "max": 10000 }
+      }
+    },
+
+    "pattern_4_dungeon_crd_dominant": {
+      "name": "Standard Dungeon Reward",
+      "description": "Dungeon completion reward. Dungeon adalah aktivitas universal (bukan faction-specific), sehingga utamanya CRD. Bisa ada tambahan faction currency kecil.",
+      "template_in_dungeon_db": {
+        "completion_rewards": {
+          "exp": 5000,
+          "crd": 2000,
+          "currency": 0,
+          "faction_bonus_note": "currency = 0 untuk dungeon netral. Untuk dungeon di wilayah faction, tambahkan currency kecil."
+        },
+        "monster_reward_note": "Monster di dalam dungeon menggunakan 'currency_reward' (faction) dan 'crd_reward' dari monster_master.json. Dungeon boss biasanya: currency_reward=200, crd_reward=500"
+      },
+      "dungeon_type_guide": {
+        "neutral_dungeon": { "crd": 1500, "currency": 0 },
+        "faction_dungeon_tier1": { "crd": 800, "currency": 500 },
+        "faction_dungeon_tier2": { "crd": 1500, "currency": 1000 },
+        "faction_dungeon_tier3": { "crd": 3000, "currency": 2000 },
+        "raid_dungeon": { "crd": 8000, "currency": 3000 }
+      }
+    },
+
+    "pattern_5_dungeon_faction_heavy": {
+      "name": "Faction Territory Dungeon",
+      "description": "Dungeon yang berada di deep dalam wilayah faction tertentu. Reward condong ke faction currency karena dungeon melibatkan lore/economy faction tersebut.",
+      "template_in_dungeon_db": {
+        "completion_rewards": {
+          "exp": 4000,
+          "crd": 500,
+          "currency": 2000,
+          "faction_note": "currency dibayar dalam mata uang faction yang memiliki wilayah dungeon tersebut"
+        }
+      }
+    }
+  },
+
+  "npc_sell_rules": {
+    "_title": "Aturan Transaksi SELL ke NPC",
+    "rule_1": "Player hanya bisa SELL ke NPC yang ada di: (a) region faction sendiri, (b) Pax Nexus",
+    "rule_2": "Saat player SELL ke NPC manapun (termasuk Pax Nexus), pembayaran selalu dalam faction currency player (bukan CRD)",
+    "rule_3": "Exception: NPC_NEXUS_TRADER_SABLE (Ghost) — menerima SELL dan membayar CRD langsung, tapi rate lebih rendah (80% nilai normal)",
+    "rule_4": "Player TIDAK BISA sell ke NPC faction lain di capital faction lain",
+    "implementation_note": "Logic ini perlu diimplementasikan di shop_page atau npc_action_router: cek player.factionId vs npc.faction. Block transaksi SELL jika beda faction dan bukan di NEXUS_CORE."
+  },
+
+  "buy_rules_neutral": {
+    "_title": "Aturan Transaksi BUY di Pax Nexus",
+    "rule_1": "Semua NPC di Pax Nexus (NEXUS_CORE): BUY menggunakan CRD",
+    "rule_2": "Harga item di neutral region menggunakan currency_code='CRD' di shop inventory",
+    "rule_3": "Rest di Tessara / Mira (Inn/Healer): dibayar CRD",
+    "rule_4": "Class change di AXIS: dibayar CRD",
+    "implementation_note": "Cek region_id NPC. Jika NPC.region_id == 'NEXUS_CORE', gunakan CRD untuk semua BUY. Shop inventory di NEXUS_CORE region harus menggunakan field 'price_crd' bukan 'price_currency'."
+  },
+
+  "faction_quest_files_update_checklist": {
+    "_description": "Checklist untuk update setiap quest file agar format reward sesuai rules di atas",
+    "files": [
+      {
+        "file": "quest_concordium.json",
+        "action": "Pastikan semua quest rank B-A: currency > 0, crd = 0. Story chain S/S+: tambahkan crd kecil.",
+        "faction_currency": "ACC"
+      },
+      {
+        "file": "quest_arcanum.json",
+        "action": "Pastikan semua quest rank B-A: currency > 0, crd = 0. Story chain S/S+: tambahkan crd kecil.",
+        "faction_currency": "ARC"
+      },
+      {
+        "file": "quest_iron.json",
+        "action": "Pastikan semua quest rank B-A: currency > 0, crd = 0. Story chain S/S+: tambahkan crd kecil.",
+        "faction_currency": "IRN"
+      },
+      {
+        "file": "quest_meridian.json",
+        "action": "Pastikan semua quest rank B-A: currency > 0, crd = 0. Story chain S/S+: tambahkan crd kecil.",
+        "faction_currency": "MER"
+      },
+      {
+        "file": "quest_omnicorp.json",
+        "action": "Pastikan semua quest rank B-A: currency > 0, crd = 0. Story chain S/S+: tambahkan crd kecil.",
+        "faction_currency": "OMT"
+      },
+      {
+        "file": "quest_shard.json",
+        "action": "Pastikan semua quest rank B-A: currency > 0, crd = 0. Story chain S/S+: tambahkan crd kecil.",
+        "faction_currency": "SHD"
+      },
+      {
+        "file": "quest_legion.json",
+        "action": "Pastikan semua quest rank B-A: currency > 0, crd = 0. Story chain S/S+: tambahkan crd kecil.",
+        "faction_currency": "SFT"
+      },
+      {
+        "file": "quest_events.json",
+        "action": "Event quest: bisa CRD saja atau keduanya tergantung event type (faction event = currency, galactic event = CRD).",
+        "faction_currency": "varies"
+      }
+    ]
+  }
+}

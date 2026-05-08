@@ -1,0 +1,725 @@
+{
+  "_meta": {
+    "description": "Quest file untuk region netral Pax Nexus. File baru — tambahkan ke CDN sebagai 'quest_neutral.json'.",
+    "instructions": [
+      "1. Upload file ini ke repo echo-master-data sebagai quest_neutral.json",
+      "2. Tambahkan 'quest_neutral.json' ke cdnUrls di data_sync_service.dart",
+      "3. Tambahkan 'assets/data/quest_neutral.json' ke _questFiles di quest_repository.dart"
+    ],
+    "reward_rule": "Semua quest Pax Nexus menggunakan CRD sebagai reward (bukan faction currency), karena ini zona netral. Khusus quest dari Ghost (shadow_contracts) bisa ada kombinasi CRD + item."
+  },
+  "quests": [
+
+    {
+      "_section": "=== STORY QUESTS — THE CUSTODIANS ==="
+    },
+
+    {
+      "id": "QUEST_NEUTRAL_STORY_001",
+      "title": "The Weight of Peace",
+      "type": "story",
+      "rank": "B",
+      "faction": "GALACTIC_CUSTODIANS",
+      "region": "NEXUS_CORE",
+      "description": "Arbiter Lorn Kael has received intelligence of illegal weapon stockpiling near the border between two faction territories. A third party is believed to be arming both sides to provoke conflict. Investigate the weapons cache and report your findings to the Arbiter before a spark ignites a war.",
+      "quest_giver": {
+        "npc_id": "NPC_NEXUS_QUESTGIVER_ARBITER",
+        "name": "Arbiter Lorn Kael",
+        "location": "Pax Nexus — The Conclave Hall"
+      },
+      "requirements": {
+        "min_level": 10,
+        "reputation_required": 0,
+        "required_quests": [],
+        "party_required": false,
+        "raid_size": 1
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "NEXUS_CORE",
+          "count": 1,
+          "description": "Visit Arbiter Lorn Kael in the Conclave Hall to receive mission briefing"
+        },
+        {
+          "type": "kill",
+          "target": "ROGUE_ARMS_DEALER",
+          "count": 5,
+          "description": "Neutralize {count} rogue arms dealers near the contested border"
+        },
+        {
+          "type": "collect",
+          "target": "ILLEGAL_WEAPON_CACHE",
+          "count": 3,
+          "description": "Recover {count} illegal weapon caches"
+        },
+        {
+          "type": "interact",
+          "target": "NPC_NEXUS_QUESTGIVER_ARBITER",
+          "count": 1,
+          "description": "Return evidence to Arbiter Lorn Kael"
+        }
+      ],
+      "rewards": {
+        "exp": 800,
+        "currency": 0,
+        "crd": 350,
+        "reputation": 30,
+        "items": [
+          { "item_id": "CUSTODIAN_BADGE_BRONZE", "quantity": 1 }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "QUEST_NEUTRAL_STORY_002"
+    },
+
+    {
+      "id": "QUEST_NEUTRAL_STORY_002",
+      "title": "Strings Above the Stars",
+      "type": "story",
+      "rank": "A",
+      "faction": "GALACTIC_CUSTODIANS",
+      "region": "NEXUS_CORE",
+      "description": "The weapons cache investigation pointed to a shadow organization manipulating multiple factions simultaneously. Commander Sera Holt requests a deep infiltration mission into a known smuggling hub. Gather intelligence on the organization's structure before they go underground.",
+      "quest_giver": {
+        "npc_id": "NPC_NEXUS_QUESTGIVER_COMMANDER",
+        "name": "Commander Sera Holt",
+        "location": "Pax Nexus — The Sentinel Outpost"
+      },
+      "requirements": {
+        "min_level": 20,
+        "reputation_required": 0,
+        "required_quests": ["QUEST_NEUTRAL_STORY_001"],
+        "party_required": false,
+        "raid_size": 1
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "CONFLICT_ZONE_HUB",
+          "count": 1,
+          "description": "Infiltrate the suspected smuggling hub in the conflict zone"
+        },
+        {
+          "type": "stealth",
+          "target": "SHADOW_ORG_INTEL",
+          "count": 4,
+          "description": "Gather {count} intelligence fragments without alerting guards"
+        },
+        {
+          "type": "kill",
+          "target": "SHADOW_ENFORCER",
+          "count": 8,
+          "description": "Eliminate {count} shadow enforcers who spot you during extraction"
+        },
+        {
+          "type": "interact",
+          "target": "NPC_NEXUS_QUESTGIVER_COMMANDER",
+          "count": 1,
+          "description": "Deliver intelligence to Commander Holt"
+        }
+      ],
+      "rewards": {
+        "exp": 2000,
+        "currency": 0,
+        "crd": 800,
+        "reputation": 60,
+        "items": [
+          { "item_id": "CUSTODIAN_BADGE_SILVER", "quantity": 1 },
+          { "item_id": "SENTINEL_COMM_DEVICE", "quantity": 1 }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "QUEST_NEUTRAL_STORY_003"
+    },
+
+    {
+      "id": "QUEST_NEUTRAL_STORY_003",
+      "title": "The Conclave's Verdict",
+      "type": "story",
+      "rank": "S",
+      "faction": "GALACTIC_CUSTODIANS",
+      "region": "NEXUS_CORE",
+      "description": "The intelligence gathered reveals an existential threat: a rogue Custodian officer is orchestrating the shadow organization, using faction conflict as cover for acquiring planet-killer weapon components. Ambassador Vael must be briefed, and the threat neutralized before the next Conclave session. This is a multi-stage raid-level operation.",
+      "quest_giver": {
+        "npc_id": "NPC_NEXUS_DIPLOMAT_VAEL",
+        "name": "Ambassador Vael Drosian",
+        "location": "Pax Nexus — The Diplomat's Quarter"
+      },
+      "requirements": {
+        "min_level": 40,
+        "reputation_required": 200,
+        "required_quests": ["QUEST_NEUTRAL_STORY_002"],
+        "party_required": true,
+        "raid_size": 4
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "ROGUE_CUSTODIAN_FORTRESS",
+          "count": 1,
+          "description": "Breach the rogue Custodian's hidden fortress"
+        },
+        {
+          "type": "destroy",
+          "target": "WEAPON_COMPONENT_STORAGE",
+          "count": 6,
+          "description": "Destroy {count} planet-killer weapon component storage pods"
+        },
+        {
+          "type": "kill",
+          "target": "ROGUE_CUSTODIAN_COMMANDER",
+          "count": 1,
+          "description": "Defeat the rogue Custodian Commander — a former Guardian-class Dreadnought captain"
+        },
+        {
+          "type": "interact",
+          "target": "NPC_NEXUS_DIPLOMAT_VAEL",
+          "count": 1,
+          "description": "Return to Ambassador Vael with proof of neutralization"
+        }
+      ],
+      "rewards": {
+        "exp": 8000,
+        "currency": 0,
+        "crd": 3500,
+        "reputation": 200,
+        "items": [
+          { "item_id": "CUSTODIAN_BADGE_GOLD", "quantity": 1 },
+          { "item_id": "PACT_KEEPER_INSIGNIA", "quantity": 1 },
+          { "item_id": "SENTINEL_ELITE_ARMOR_CHEST", "quantity": 1 }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+
+    {
+      "_section": "=== SIDE QUESTS — PAX NEXUS LOCALS ==="
+    },
+
+    {
+      "id": "QUEST_NEUTRAL_SIDE_001",
+      "title": "A Merchant's Dilemma",
+      "type": "side",
+      "rank": "B",
+      "faction": "NEUTRAL",
+      "region": "NEXUS_CORE",
+      "description": "Elara Voss needs a shipment of medical supplies that was intercepted by faction skirmishes near a mid-tier zone. Retrieve the cargo before the supplies expire or are looted.",
+      "quest_giver": {
+        "npc_id": "NPC_NEXUS_MERCHANT_ELARA",
+        "name": "Elara Voss",
+        "location": "Pax Nexus — The Common Market"
+      },
+      "requirements": {
+        "min_level": 8,
+        "reputation_required": 0,
+        "required_quests": [],
+        "party_required": false,
+        "raid_size": 1
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "MID_ZONE_SKIRMISH_AREA",
+          "count": 1,
+          "description": "Travel to the skirmish zone where the supply convoy was ambushed"
+        },
+        {
+          "type": "collect",
+          "target": "SUPPLY_CRATE_MEDICAL",
+          "count": 5,
+          "description": "Recover {count} medical supply crates from the ambush site"
+        },
+        {
+          "type": "kill",
+          "target": "OPPORTUNIST_LOOTER",
+          "count": 10,
+          "description": "Eliminate {count} opportunist looters protecting the site"
+        },
+        {
+          "type": "interact",
+          "target": "NPC_NEXUS_MERCHANT_ELARA",
+          "count": 1,
+          "description": "Return the supplies to Elara Voss"
+        }
+      ],
+      "rewards": {
+        "exp": 500,
+        "currency": 0,
+        "crd": 200,
+        "reputation": 15,
+        "items": [
+          { "item_id": "HEALING_POTION_LARGE", "quantity": 5 }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+
+    {
+      "id": "QUEST_NEUTRAL_SIDE_002",
+      "title": "The Chronicler's Lost Page",
+      "type": "side",
+      "rank": "A",
+      "faction": "NEUTRAL",
+      "region": "NEXUS_CORE",
+      "description": "The Chronicler has detected a missing fragment of the Galactic Archive — a page describing an ancient faction conflict that was deliberately erased. Someone doesn't want this history known. Recover it from a deep-tier region before it's destroyed.",
+      "quest_giver": {
+        "npc_id": "NPC_NEXUS_INFO_CHRONICLER",
+        "name": "The Chronicler",
+        "location": "Pax Nexus — The Archive Spire"
+      },
+      "requirements": {
+        "min_level": 25,
+        "reputation_required": 50,
+        "required_quests": [],
+        "party_required": false,
+        "raid_size": 1
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "SECRET_VAULT_REGION",
+          "count": 1,
+          "description": "Reach the hidden archive vault in the deep-tier region"
+        },
+        {
+          "type": "scan",
+          "target": "ARCHIVE_FRAGMENT_READER",
+          "count": 3,
+          "description": "Scan {count} archive fragment readers to locate the lost page"
+        },
+        {
+          "type": "kill",
+          "target": "ARCHIVE_GUARDIAN_AUTOMATON",
+          "count": 4,
+          "description": "Defeat {count} automatons guarding the vault"
+        },
+        {
+          "type": "collect",
+          "target": "LOST_ARCHIVE_PAGE",
+          "count": 1,
+          "description": "Retrieve the lost archive page"
+        },
+        {
+          "type": "interact",
+          "target": "NPC_NEXUS_INFO_CHRONICLER",
+          "count": 1,
+          "description": "Return the page to The Chronicler"
+        }
+      ],
+      "rewards": {
+        "exp": 1800,
+        "currency": 0,
+        "crd": 700,
+        "reputation": 50,
+        "items": [
+          { "item_id": "CHRONICLE_LENS", "quantity": 1 },
+          { "item_id": "RARE_LORE_TOME", "quantity": 1 }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+
+    {
+      "id": "QUEST_NEUTRAL_SIDE_003",
+      "title": "Vulkan's Special Order",
+      "type": "side",
+      "rank": "B",
+      "faction": "NEUTRAL",
+      "region": "NEXUS_CORE",
+      "description": "Master Vulkan has been commissioned to forge a legendary weapon, but requires materials that can only be found in high-danger regions controlled by specific factions. Gather the materials — from any source.",
+      "quest_giver": {
+        "npc_id": "NPC_NEXUS_BLACKSMITH_VULKAN",
+        "name": "Vulkan Dross",
+        "location": "Pax Nexus — The Crucible"
+      },
+      "requirements": {
+        "min_level": 30,
+        "reputation_required": 0,
+        "required_quests": [],
+        "party_required": false,
+        "raid_size": 1
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "IRON_HEGEMON_ALLOY_SHARD",
+          "count": 10,
+          "description": "Collect {count} Iron Hegemon Alloy Shards (from Iron Hegemony regions)"
+        },
+        {
+          "type": "collect",
+          "target": "ARCANE_CRYSTAL_CORE",
+          "count": 5,
+          "description": "Collect {count} Arcane Crystal Cores (from Arcanum Seeker regions)"
+        },
+        {
+          "type": "collect",
+          "target": "STARFORGED_STELLAR_ORE",
+          "count": 8,
+          "description": "Collect {count} Starforged Stellar Ore (from Starforged Legion regions)"
+        },
+        {
+          "type": "interact",
+          "target": "NPC_NEXUS_BLACKSMITH_VULKAN",
+          "count": 1,
+          "description": "Deliver materials to Vulkan Dross"
+        }
+      ],
+      "rewards": {
+        "exp": 1200,
+        "currency": 0,
+        "crd": 500,
+        "reputation": 25,
+        "items": [
+          { "item_id": "CROSS_FACTION_ALLOY_INGOT", "quantity": 3 }
+        ]
+      },
+      "repeatable": true,
+      "daily": false,
+      "quest_chain_next": null
+    },
+
+    {
+      "_section": "=== DAILY QUESTS — PAX NEXUS ==="
+    },
+
+    {
+      "id": "QUEST_NEUTRAL_DAILY_001",
+      "title": "Border Patrol",
+      "type": "daily",
+      "rank": "B",
+      "faction": "GALACTIC_CUSTODIANS",
+      "region": "NEXUS_CORE",
+      "description": "The Custodians need independent operatives to patrol the border zones near Pax Nexus and report any unusual activity. This is routine work but crucial for maintaining the peace.",
+      "quest_giver": {
+        "npc_id": "NPC_NEXUS_QUESTGIVER_ARBITER",
+        "name": "Arbiter Lorn Kael",
+        "location": "Pax Nexus — The Conclave Hall"
+      },
+      "requirements": {
+        "min_level": 5,
+        "reputation_required": 0,
+        "required_quests": [],
+        "party_required": false,
+        "raid_size": 1
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "BORDER_RAIDER",
+          "count": 15,
+          "description": "Eliminate {count} border raiders threatening the neutral zone"
+        },
+        {
+          "type": "travel",
+          "target": "NEXUS_CORE",
+          "count": 1,
+          "description": "Return to report to Arbiter Lorn Kael"
+        }
+      ],
+      "rewards": {
+        "exp": 300,
+        "currency": 0,
+        "crd": 120,
+        "reputation": 10,
+        "items": []
+      },
+      "repeatable": true,
+      "daily": true,
+      "quest_chain_next": null
+    },
+
+    {
+      "id": "QUEST_NEUTRAL_DAILY_002",
+      "title": "Market Stabilization",
+      "type": "daily",
+      "rank": "B",
+      "faction": "NEUTRAL",
+      "region": "NEXUS_CORE",
+      "description": "The AMA needs item material samples from various regions to calculate accurate resource production indices for exchange rate computation. Gather materials from different zone tiers.",
+      "quest_giver": {
+        "npc_id": "NPC_NEXUS_BANKER_AMA7",
+        "name": "NEXON AMA-7",
+        "location": "Pax Nexus — The AMA Exchange Hub"
+      },
+      "requirements": {
+        "min_level": 10,
+        "reputation_required": 0,
+        "required_quests": [],
+        "party_required": false,
+        "raid_size": 1
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "RESOURCE_SAMPLE_ANY",
+          "count": 20,
+          "description": "Collect {count} material resource samples from any region (any item material counts)"
+        }
+      ],
+      "rewards": {
+        "exp": 400,
+        "currency": 0,
+        "crd": 150,
+        "reputation": 12,
+        "items": []
+      },
+      "repeatable": true,
+      "daily": true,
+      "quest_chain_next": null
+    },
+
+    {
+      "id": "QUEST_NEUTRAL_DAILY_003",
+      "title": "The Ghost's Errand",
+      "type": "daily",
+      "rank": "A",
+      "faction": "NEUTRAL",
+      "region": "NEXUS_CORE",
+      "description": "Ghost needs a package delivered to a contact in a high-danger region. He assures you the contents are legal. He always says that. The contact will pay upon delivery — which means you'll need to handle anything that tries to stop you.",
+      "quest_giver": {
+        "npc_id": "NPC_NEXUS_QUESTGIVER_SMUGGLER",
+        "name": "Revan 'Ghost' Mox",
+        "location": "Pax Nexus — The Shadow Bazaar"
+      },
+      "requirements": {
+        "min_level": 20,
+        "reputation_required": 0,
+        "required_quests": [],
+        "party_required": false,
+        "raid_size": 1
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "HIGH_ZONE_DELIVERY_POINT",
+          "count": 1,
+          "description": "Reach the delivery point in the high-danger region"
+        },
+        {
+          "type": "kill",
+          "target": "INTERCEPTOR_SQUAD",
+          "count": 6,
+          "description": "Eliminate {count} interceptors who ambush you during delivery"
+        },
+        {
+          "type": "interact",
+          "target": "GHOST_CONTACT_NPC",
+          "count": 1,
+          "description": "Complete the delivery with Ghost's contact"
+        }
+      ],
+      "rewards": {
+        "exp": 600,
+        "currency": 0,
+        "crd": 280,
+        "reputation": 0,
+        "items": [
+          { "item_id": "GHOST_SUPPLY_CRATE_RANDOM", "quantity": 1 }
+        ]
+      },
+      "repeatable": true,
+      "daily": true,
+      "quest_chain_next": null
+    },
+
+    {
+      "_section": "=== AMA ECONOMIC SPECIAL QUESTS ==="
+    },
+
+    {
+      "id": "QUEST_NEUTRAL_AMA_001",
+      "title": "Currency Smuggling Investigation",
+      "type": "faction",
+      "rank": "A",
+      "faction": "GALACTIC_CUSTODIANS",
+      "region": "NEXUS_CORE",
+      "description": "The AMA has detected counterfeit CRD circulating in faction markets — a direct attack on the Credent's integrity. NEXON AMA-7 has pinpointed the likely source: a underground forging operation in the conflict zone. Destroy the counterfeit operation and recover samples for AMA forensic analysis.",
+      "quest_giver": {
+        "npc_id": "NPC_NEXUS_BANKER_AMA7",
+        "name": "NEXON AMA-7",
+        "location": "Pax Nexus — The AMA Exchange Hub"
+      },
+      "requirements": {
+        "min_level": 35,
+        "reputation_required": 100,
+        "required_quests": [],
+        "party_required": false,
+        "raid_size": 1
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "COUNTERFEIT_FORGE_LOCATION",
+          "count": 1,
+          "description": "Locate the underground counterfeit forge in the conflict zone"
+        },
+        {
+          "type": "destroy",
+          "target": "COUNTERFEIT_PRESS_MACHINE",
+          "count": 3,
+          "description": "Destroy {count} counterfeit CRD press machines"
+        },
+        {
+          "type": "kill",
+          "target": "FORGE_GUARD_ELITE",
+          "count": 10,
+          "description": "Eliminate {count} forge guards protecting the operation"
+        },
+        {
+          "type": "collect",
+          "target": "COUNTERFEIT_CRD_SAMPLE",
+          "count": 5,
+          "description": "Recover {count} counterfeit CRD samples for forensic analysis"
+        },
+        {
+          "type": "interact",
+          "target": "NPC_NEXUS_BANKER_AMA7",
+          "count": 1,
+          "description": "Submit samples to NEXON AMA-7 for analysis"
+        }
+      ],
+      "rewards": {
+        "exp": 3000,
+        "currency": 0,
+        "crd": 1500,
+        "reputation": 100,
+        "items": [
+          { "item_id": "AMA_CERTIFICATION_TOKEN", "quantity": 1 }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+
+    {
+      "id": "QUEST_NEUTRAL_AMA_002",
+      "title": "Stabilize the Market",
+      "type": "faction",
+      "rank": "S+",
+      "faction": "GALACTIC_CUSTODIANS",
+      "region": "NEXUS_CORE",
+      "description": "An economic crisis is brewing: one faction's currency has collapsed to dangerous lows, threatening galactic trade routes. The AMA is deploying an emergency stabilization package, but needs ground operatives to secure the delivery route and fend off speculators trying to exploit the collapse. This is a party mission.",
+      "quest_giver": {
+        "npc_id": "NPC_NEXUS_BANKER_AMA7",
+        "name": "NEXON AMA-7",
+        "location": "Pax Nexus — The AMA Exchange Hub"
+      },
+      "requirements": {
+        "min_level": 50,
+        "reputation_required": 300,
+        "required_quests": ["QUEST_NEUTRAL_AMA_001"],
+        "party_required": true,
+        "raid_size": 4
+      },
+      "objectives": [
+        {
+          "type": "travel",
+          "target": "CRISIS_FACTION_CAPITAL",
+          "count": 1,
+          "description": "Escort the AMA stabilization convoy to the crisis faction capital"
+        },
+        {
+          "type": "kill",
+          "target": "ECONOMIC_SPECULATOR_SQUAD",
+          "count": 20,
+          "description": "Eliminate {count} speculator squads attacking the convoy"
+        },
+        {
+          "type": "interact",
+          "target": "AMA_DELIVERY_TERMINAL",
+          "count": 1,
+          "description": "Deliver the stabilization package to the AMA terminal at the capital"
+        }
+      ],
+      "rewards": {
+        "exp": 15000,
+        "currency": 0,
+        "crd": 6000,
+        "reputation": 400,
+        "items": [
+          { "item_id": "AMA_MASTER_SEAL", "quantity": 1 },
+          { "item_id": "CUSTODIAN_LEGENDARY_WEAPON_BOX", "quantity": 1 }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+
+    {
+      "_section": "=== FACTION + CRD DUAL REWARD EXAMPLES (Special Quests) ==="
+    },
+
+    {
+      "id": "QUEST_NEUTRAL_SPECIAL_001",
+      "title": "Cross-Faction Trade Summit",
+      "type": "faction",
+      "rank": "A",
+      "faction": "GALACTIC_CUSTODIANS",
+      "region": "NEXUS_CORE",
+      "description": "Ambassador Vael is organizing a trade summit between warring factions. Your job: secure the venue, escort delegates, and prevent assassination attempts. Success means a peace treaty — which the Custodians will reward generously. Your faction will also reward your diplomatic service.",
+      "quest_giver": {
+        "npc_id": "NPC_NEXUS_DIPLOMAT_VAEL",
+        "name": "Ambassador Vael Drosian",
+        "location": "Pax Nexus — The Diplomat's Quarter"
+      },
+      "requirements": {
+        "min_level": 30,
+        "reputation_required": 150,
+        "required_quests": [],
+        "party_required": false,
+        "raid_size": 1
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": "SUMMIT_DISRUPTOR",
+          "count": 12,
+          "description": "Neutralize {count} summit disruptors before the delegates arrive"
+        },
+        {
+          "type": "interact",
+          "target": "SUMMIT_DELEGATE_A",
+          "count": 1,
+          "description": "Escort Delegate A safely to the summit hall"
+        },
+        {
+          "type": "interact",
+          "target": "SUMMIT_DELEGATE_B",
+          "count": 1,
+          "description": "Escort Delegate B safely to the summit hall"
+        },
+        {
+          "type": "kill",
+          "target": "ASSASSIN_ELITE",
+          "count": 3,
+          "description": "Defeat {count} elite assassins sent to disrupt the summit"
+        }
+      ],
+      "rewards": {
+        "exp": 2500,
+        "currency": 400,
+        "crd": 600,
+        "reputation": 120,
+        "items": [
+          { "item_id": "DIPLOMAT_SIGNET_RING", "quantity": 1 }
+        ],
+        "_reward_note": "currency=400 dibayar dalam mata uang faction player. crd=600 dari Custodian. Dual reward."
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "_meta": {
+    "description": "Konfigurasi sistem dynamic exchange rate untuk pertukaran faction currency <-> CRD.",
+    "version": "1.0.0",
+    "update_frequency_hours": 6,
+    "instructions": [
+      "1. Upload sebagai currency_exchange_config.json ke repo echo-master-data",
+      "2. Buat CurrencyExchangeService (lihat currency_exchange_service.dart)",
+      "3. Tambahkan 'currency_exchange_config.json' ke cdnUrls di data_sync_service.dart"
+    ]
+  },
+
+  "system_config": {
+    "rate_update_interval_hours": 6,
+    "rate_floor": 0.25,
+    "rate_ceiling": 3.00,
+    "ama_public_rate_display": true,
+    "volatility_alert_threshold": 0.30,
+    "emergency_freeze_threshold": 0.10,
+    "_note": "Jika rate turun <10% dari floor dalam 1 siklus, AMA membekukan exchange sementara (Emergency Freeze)"
+  },
+
+  "sliding_fee_structure": {
+    "_description": "Fee AMA yang dikenakan per transaksi exchange (bukan untuk sell ke NPC). Berlaku untuk KEDUA arah: faction->CRD maupun CRD->faction.",
+    "tiers": [
+      {
+        "tier_name": "Micro",
+        "volume_max": 499,
+        "fee_percent": 5.0,
+        "description": "Transaksi kecil < 500 unit. Fee tertinggi."
+      },
+      {
+        "tier_name": "Standard",
+        "volume_min": 500,
+        "volume_max": 4999,
+        "fee_percent": 3.0,
+        "description": "Transaksi standar 500-4999 unit."
+      },
+      {
+        "tier_name": "Bulk",
+        "volume_min": 5000,
+        "volume_max": 49999,
+        "fee_percent": 2.0,
+        "description": "Transaksi bulk 5000-49999 unit."
+      },
+      {
+        "tier_name": "Institutional",
+        "volume_min": 50000,
+        "fee_percent": 1.0,
+        "description": "Transaksi besar 50000+ unit. Volume discount tertinggi."
+      }
+    ]
+  },
+
+  "faction_currencies": [
+    {
+      "faction_code": "CONCORDIUM",
+      "faction_id": 1,
+      "currency_name": "Accord Credit",
+      "currency_code": "ACC",
+      "currency_symbol": "₳",
+      "base_rate_crd": 0.75,
+      "_base_note": "0.75 CRD per 1 ACC. Military stability, moderate economy."
+    },
+    {
+      "faction_code": "THE_ARCANUM_SEEKERS",
+      "faction_id": 2,
+      "currency_name": "Arcane Shard",
+      "currency_code": "ARC",
+      "currency_symbol": "◈",
+      "base_rate_crd": 0.65,
+      "_base_note": "0.65 CRD per 1 ARC. Knowledge-focused, low material wealth base."
+    },
+    {
+      "faction_code": "IRON_HEGEMONY",
+      "faction_id": 3,
+      "currency_name": "Iron Mark",
+      "currency_code": "IRN",
+      "currency_symbol": "⚙",
+      "base_rate_crd": 0.80,
+      "_base_note": "0.80 CRD per 1 IRN. Industrial powerhouse, resource-rich base."
+    },
+    {
+      "faction_code": "MERIDIAN_CARTEL",
+      "faction_id": 4,
+      "currency_name": "Meridian Ducat",
+      "currency_code": "MER",
+      "currency_symbol": "◆",
+      "base_rate_crd": 0.90,
+      "_base_note": "0.90 CRD per 1 MER. Trade-dominant, highest base rate historically."
+    },
+    {
+      "faction_code": "OMNICORP",
+      "faction_id": 5,
+      "currency_name": "OmniToken",
+      "currency_code": "OMT",
+      "currency_symbol": "Ω",
+      "base_rate_crd": 0.95,
+      "_base_note": "0.95 CRD per 1 OMT. Corporate/tech, highest base rate — but volatile."
+    },
+    {
+      "faction_code": "CHILDREN_OF_THE_SHARD",
+      "faction_id": 6,
+      "currency_name": "Shard Crystal",
+      "currency_code": "SHD",
+      "currency_symbol": "✦",
+      "base_rate_crd": 0.55,
+      "_base_note": "0.55 CRD per 1 SHD. Spiritual focus, weakest economic base — but strongest territory swing."
+    },
+    {
+      "faction_code": "STARFORGED_LEGION",
+      "faction_id": 7,
+      "currency_name": "Star Token",
+      "currency_code": "SFT",
+      "currency_symbol": "★",
+      "base_rate_crd": 0.70,
+      "_base_note": "0.70 CRD per 1 SFT. Military/exploration, moderate but stable."
+    }
+  ],
+
+  "exchange_rate_factors": {
+    "_overview": "12 faktor dinamis yang mempengaruhi nilai tukar faction currency terhadap CRD. Setiap faktor menghasilkan modifier (+/-) yang ditambahkan ke base_rate.",
+
+    "factor_1_territories": {
+      "name": "Territory Control Index",
+      "weight": 0.30,
+      "description": "Jumlah region yang dikuasai faction dibandingkan total region di dunia. Lebih banyak wilayah = ekonomi lebih kuat = currency menguat.",
+      "formula": "modifier = (faction_territory_pct - equal_share_pct) * 1.50",
+      "equal_share_note": "equal_share = 1/7 ≈ 0.143 (jika 7 faction). Jika faction kontrol 30%: (0.30-0.143)*1.5 = +0.236",
+      "modifier_range": [-0.30, 0.75],
+      "data_source": "firestore: factions/{id}/territory_count / total_world_regions"
+    },
+
+    "factor_2_active_wars": {
+      "name": "War Instability Penalty",
+      "weight": 0.15,
+      "description": "Setiap perang aktif menguras sumber daya, menciptakan ketidakpastian pasar. Investor galaksi menarik aset dari ekonomi yang sedang berperang.",
+      "formula": "modifier = active_war_count * -0.06",
+      "modifier_range": [-0.30, 0.0],
+      "cap_wars": 5,
+      "data_source": "firestore: factions/{id}/wars (status=active)"
+    },
+
+    "factor_3_treasury_balance": {
+      "name": "Treasury Backing Strength",
+      "weight": 0.20,
+      "description": "Saldo treasury faction sebagai backing ekonomi. Treasury besar = kepercayaan tinggi bahwa faction bisa membiayai operasional = currency menguat.",
+      "formula": "modifier = (treasury_balance / benchmark_10000 - 1.0) * 0.20",
+      "benchmark_treasury": 10000,
+      "modifier_range": [-0.20, 0.40],
+      "data_source": "firestore: factions/{id}/treasury_balance"
+    },
+
+    "factor_4_member_activity": {
+      "name": "Economic Activity Index",
+      "weight": 0.15,
+      "description": "Rasio member yang aktif (online dalam 24 jam terakhir) vs total member. Member aktif = production output tinggi = GDP faction meningkat = currency naik.",
+      "formula": "modifier = (active_ratio - 0.50) * 0.25",
+      "modifier_range": [-0.12, 0.12],
+      "data_source": "firestore: factions/{id}/member_stats (active_24h / total_members)"
+    },
+
+    "factor_5_trade_volume": {
+      "name": "Market Trade Volume",
+      "weight": 0.10,
+      "description": "Volume transaksi jual item material ke NPC dalam 24 jam terakhir, dibandingkan rata-rata semua faction. High volume = permintaan tinggi terhadap mata uang = currency menguat.",
+      "formula": "modifier = (faction_daily_trades / avg_all_faction_trades - 1.0) * 0.12",
+      "modifier_range": [-0.12, 0.24],
+      "data_source": "firestore: economy_stats/daily_trades/{faction_id}"
+    },
+
+    "factor_6_peace_duration": {
+      "name": "Peace Dividend",
+      "weight": 0.10,
+      "description": "Bonus stabilitas untuk setiap 7 hari berturut-turut tanpa perang aktif. Stabilitas jangka panjang = economic growth, investment confidence naik.",
+      "formula": "modifier = min(days_without_war / 7.0, 4) * 0.05",
+      "modifier_range": [0.0, 0.20],
+      "max_bonus_weeks": 4,
+      "data_source": "firestore: factions/{id}/last_war_ended_at"
+    },
+
+    "factor_7_war_record": {
+      "name": "Military Performance Sentiment",
+      "weight": 0.10,
+      "description": "Rasio kemenangan perang dalam 30 hari terakhir. Streak menang menaikkan confidence investor galaksi. Streak kalah menciptakan ketakutan bahwa faction akan kehilangan wilayah.",
+      "formula": "modifier = (wars_won_30d - wars_lost_30d) / max(total_wars_30d, 1) * 0.15",
+      "modifier_range": [-0.15, 0.15],
+      "data_source": "firestore: factions/{id}/war_history (last 30 days)"
+    },
+
+    "factor_8_tax_rate": {
+      "name": "Fiscal Policy Signal",
+      "weight": 0.05,
+      "description": "Tax rate yang ditetapkan leader. Tax tinggi = treasury income kuat = backing lebih kuat. Tapi terlalu tinggi menciptakan resistensi member. Sweet spot di 10-12%.",
+      "formula": "modifier = (current_tax_pct - 10.0) * 0.005",
+      "modifier_range": [-0.05, 0.05],
+      "optimal_tax_pct": 10.0,
+      "data_source": "firestore: factions/{id}/current_tax_rate"
+    },
+
+    "factor_9_inflation": {
+      "name": "Currency Inflation Rate",
+      "weight": 0.10,
+      "description": "Jika faction menghasilkan terlalu banyak faction currency (dari quest/monster) tanpa spending, terjadi inflasi — supply berlebih = nilai turun. Mirip dengan quantitative easing berlebihan.",
+      "formula": "modifier = (benchmark_issued - recent_currency_issued) / benchmark_issued * 0.15",
+      "benchmark_issued": 50000,
+      "modifier_range": [-0.30, 0.15],
+      "_implementation_note": "Lacak total currency reward yang diberikan ke member faction dalam 24 jam. Bandingkan dengan benchmark.",
+      "data_source": "firestore: economy_stats/currency_issued_24h/{faction_id}"
+    },
+
+    "factor_10_resource_production": {
+      "name": "Resource Production Index",
+      "weight": 0.05,
+      "description": "Jumlah resource node di wilayah yang dikuasai faction dibandingkan rata-rata. Lebih banyak resource node = produktivitas lebih tinggi = GDP riil meningkat.",
+      "formula": "modifier = (faction_resource_nodes / avg_resource_nodes - 1.0) * 0.10",
+      "modifier_range": [-0.10, 0.20],
+      "data_source": "Derived dari world_map.json: count resource_nodes untuk setiap region milik faction"
+    },
+
+    "factor_11_trade_balance": {
+      "name": "Galactic Trade Balance",
+      "weight": 0.05,
+      "description": "Rasio export (sell ke NPC neutral region) vs import (buy dari NPC neutral region) dalam CRD. Trade surplus = demand untuk mata uang faction naik. Trade deficit = demand turun.",
+      "formula": "modifier = (neutral_sell_volume - neutral_buy_volume) / max(neutral_total_volume, 1) * 0.10",
+      "modifier_range": [-0.10, 0.10],
+      "data_source": "firestore: economy_stats/neutral_trade/{faction_id}"
+    },
+
+    "factor_12_ama_sanctions": {
+      "name": "AMA Sanctions Status",
+      "weight": 0.10,
+      "description": "Jika AMA/Custodians menjatuhkan sanksi ekonomi terhadap faction (karena pelanggaran berat), currency faction tersebut dibekukan sementara atau nilainya dipotong paksa.",
+      "formula": "modifier = is_sanctioned ? -0.50 : 0.0",
+      "modifier_range": [-0.50, 0.0],
+      "sanction_duration_days": 7,
+      "_note": "Sanksi hanya bisa dijatuhkan melalui event khusus / Custodian quest chain. Bukan mekanisme otomatis biasa.",
+      "data_source": "firestore: factions/{id}/sanction_status"
+    }
+  },
+
+  "final_rate_formula": {
+    "_description": "Formula lengkap untuk menghitung exchange rate akhir",
+    "formula": "raw_rate = base_rate + f1_territories + f2_wars + f3_treasury + f4_activity + f5_trade_vol + f6_peace + f7_war_record + f8_tax + f9_inflation + f10_resources + f11_trade_balance + f12_sanctions",
+    "final_rate": "final_rate = clamp(raw_rate, rate_floor, rate_ceiling)",
+    "rate_floor": 0.25,
+    "rate_ceiling": 3.00,
+    "display_precision": 4
+  },
+
+  "rate_display_config": {
+    "show_factor_breakdown": true,
+    "show_trend_arrow": true,
+    "trend_window_hours": 6,
+    "historical_rate_retention_days": 30,
+    "volatility_indicator": {
+      "low": "< 5% change per update",
+      "medium": "5-15% change per update",
+      "high": "> 15% change per update"
+    }
+  },
+
+  "example_rate_calculation": {
+    "_comment": "Contoh perhitungan untuk MERIDIAN_CARTEL dalam kondisi dominan",
+    "faction": "MERIDIAN_CARTEL",
+    "base_rate": 0.90,
+    "factors": {
+      "f1_territories": { "faction_pct": 0.28, "modifier": "+0.207" },
+      "f2_wars": { "active_wars": 0, "modifier": "0.000" },
+      "f3_treasury": { "balance": 18000, "modifier": "+0.160" },
+      "f4_activity": { "ratio": 0.72, "modifier": "+0.055" },
+      "f5_trade_volume": { "ratio": 1.40, "modifier": "+0.048" },
+      "f6_peace": { "weeks_without_war": 3, "modifier": "+0.150" },
+      "f7_war_record": { "wins": 2, "losses": 0, "modifier": "+0.150" },
+      "f8_tax": { "tax_pct": 12, "modifier": "+0.010" },
+      "f9_inflation": { "issued_24h": 30000, "modifier": "+0.075" },
+      "f10_resources": { "ratio": 1.20, "modifier": "+0.020" },
+      "f11_trade_balance": { "ratio": 0.30, "modifier": "+0.030" },
+      "f12_sanctions": { "sanctioned": false, "modifier": "0.000" }
+    },
+    "raw_rate": 1.805,
+    "final_rate": 1.805,
+    "meaning": "Player Meridian faction dapat menukar 100 MER menjadi 180.5 CRD (sebelum fee)"
+  }
+}

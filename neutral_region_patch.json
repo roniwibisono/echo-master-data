@@ -1,0 +1,86 @@
+{
+  "_meta": {
+    "description": "Patch data untuk world_map.json — tambahkan NEXUS_CORE ke array 'regions' dan 'nodes'",
+    "instructions": [
+      "1. Buka world_map.json di repo echo-master-data",
+      "2. Tambahkan object di 'region_entry' ke dalam array 'regions'",
+      "3. Tambahkan object di 'node_entry' ke dalam array 'nodes'",
+      "4. PENTING: Ganti semua placeholder '??_CAPITAL' dengan ID region capital yang sebenarnya dari world_map.json",
+      "5. Tambahkan 'NEXUS_CORE' ke connected_regions setiap capital yang dihubungkan"
+    ],
+    "important_note": "Cek region IDs di world_map.json kamu, lalu ganti placeholder di bawah ini"
+  },
+
+  "region_entry": {
+    "id": "NEXUS_CORE",
+    "name": "Pax Nexus",
+    "description": "The beating heart of galactic civilization. A neutral sanctuary established by the Galactic Custodians where all factions coexist under the Pax Galactica. The Aegis Monetary Authority maintains its primary exchange hub here, and the Conclave of Voices holds open sessions within the Grand Atrium. Neither war nor faction law applies within its walls — only the Charter of the Custodians.",
+    "type": "capital",
+    "faction_owner": "NEUTRAL",
+    "level_range": [1, 100],
+    "is_safe_zone": true,
+    "is_pvp_enabled": false,
+    "connected_regions": [
+      "??CONCORDIUM_CAPITAL??",
+      "??ARCANUM_CAPITAL??",
+      "??IRON_CAPITAL??",
+      "??MERIDIAN_CAPITAL??",
+      "??OMNICORP_CAPITAL??",
+      "??SHARD_CAPITAL??",
+      "??LEGION_CAPITAL??"
+    ],
+    "available_actions": [
+      "rest",
+      "shop",
+      "craft",
+      "quest",
+      "exchange",
+      "info"
+    ],
+    "monster_spawns": [],
+    "resource_nodes": [],
+    "npc_list": [
+      "NPC_NEXUS_MERCHANT_ELARA",
+      "NPC_NEXUS_MERCHANT_GRATH",
+      "NPC_NEXUS_INNKEEPER_TESSARA",
+      "NPC_NEXUS_BLACKSMITH_VULKAN",
+      "NPC_NEXUS_QUESTGIVER_ARBITER",
+      "NPC_NEXUS_QUESTGIVER_COMMANDER",
+      "NPC_NEXUS_BANKER_AMA7",
+      "NPC_NEXUS_GUIDE_ECHO01",
+      "NPC_NEXUS_INFO_CHRONICLER",
+      "NPC_NEXUS_DIPLOMAT_VAEL",
+      "NPC_NEXUS_TRADER_SABLE",
+      "NPC_NEXUS_HEALER_MIRA",
+      "NPC_NEXUS_QUESTGIVER_SMUGGLER",
+      "NPC_NEXUS_TRAINER_AXIS"
+    ],
+    "shop_currency": "CRD",
+    "sell_currency": "faction",
+    "_note": "shop_currency=CRD berarti BUY selalu pakai CRD. sell_currency=faction berarti SELL dibayar mata uang faction player."
+  },
+
+  "node_entry": {
+    "_instructions": "Tambahkan ke array 'nodes' di world_map.json. Ganti ?? placeholder dengan ID region yang benar.",
+    "id": "NEXUS_CORE",
+    "connections": [
+      { "to": "??CONCORDIUM_CAPITAL??", "type": "normal", "min_level": 1 },
+      { "to": "??ARCANUM_CAPITAL??",    "type": "normal", "min_level": 1 },
+      { "to": "??IRON_CAPITAL??",       "type": "normal", "min_level": 1 },
+      { "to": "??MERIDIAN_CAPITAL??",   "type": "normal", "min_level": 1 },
+      { "to": "??OMNICORP_CAPITAL??",   "type": "normal", "min_level": 1 },
+      { "to": "??SHARD_CAPITAL??",      "type": "normal", "min_level": 1 },
+      { "to": "??LEGION_CAPITAL??",     "type": "normal", "min_level": 1 }
+    ]
+  },
+
+  "capital_back_connections": {
+    "_instructions": "Untuk setiap capital faction, tambahkan 'NEXUS_CORE' ke array connected_regions mereka, dan tambahkan entry berikut ke array 'nodes' mereka (di dalam object node capital yang sudah ada)",
+    "connection_to_add": { "to": "NEXUS_CORE", "type": "normal", "min_level": 1 }
+  },
+
+  "layout_hint": {
+    "_note": "Layout engine sudah menggunakan NEXUS_CORE sebagai rootId (center anchor). Posisi otomatis ditempatkan di tengah (0.5, 0.40). Node ini akan menjadi titik pusat peta dunia secara otomatis.",
+    "expected_position": { "x": 0.50, "y": 0.40 }
+  }
+}
