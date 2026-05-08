@@ -4098,6 +4098,16 @@
           "to": "CENTRAL_SPIRE_BAZAAR",
           "type": "normal",
           "min_level": 15
+        },
+        {
+          "to": "BLOOD_IRON_BASIN",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "TITAN_GRAVEYARD",
+          "type": "normal",
+          "min_level": 20
         }
       ]
     },
@@ -4128,6 +4138,11 @@
           "to": "CENTRAL_SPIRE_BAZAAR",
           "type": "normal",
           "min_level": 30
+        },
+        {
+          "to": "AETHEL_STORM_RIDGE",
+          "type": "normal",
+          "min_level": 50
         }
       ]
     },
@@ -4158,6 +4173,11 @@
           "to": "CENTRAL_SPIRE_BAZAAR",
           "type": "normal",
           "min_level": 30
+        },
+        {
+          "to": "VOID_RIFT_CROSSROADS",
+          "type": "normal",
+          "min_level": 30
         }
       ]
     },
@@ -4178,6 +4198,11 @@
           "to": "ORBITAL_NEUTRAL_HUB",
           "type": "normal",
           "min_level": 50
+        },
+        {
+          "to": "BLOOD_IRON_BASIN",
+          "type": "normal",
+          "min_level": 55
         }
       ]
     },
@@ -4198,6 +4223,16 @@
           "to": "ORBITAL_NEUTRAL_HUB",
           "type": "normal",
           "min_level": 60
+        },
+        {
+          "to": "HIDDEN_AETHELGARDIAN_CITY",
+          "type": "secret",
+          "min_level": 70
+        },
+        {
+          "to": "TITAN_GRAVEYARD",
+          "type": "normal",
+          "min_level": 60
         }
       ]
     },
@@ -4213,6 +4248,11 @@
           "to": "PRIMA_MATERIA_FORGE",
           "type": "normal",
           "min_level": 70
+        },
+        {
+          "to": "VOID_ECHO_CHASM",
+          "type": "secret",
+          "min_level": 75
         }
       ]
     },
@@ -4228,6 +4268,16 @@
           "to": "ORBITAL_NEUTRAL_HUB",
           "type": "normal",
           "min_level": 70
+        },
+        {
+          "to": "AETHEL_STORM_RIDGE",
+          "type": "normal",
+          "min_level": 70
+        },
+        {
+          "to": "ETERNAL_GATE",
+          "type": "normal",
+          "min_level": 75
         }
       ]
     },
@@ -4238,6 +4288,11 @@
           "to": "SEVERANCE_FAULTLINE",
           "type": "secret",
           "min_level": 70
+        },
+        {
+          "to": "ETERNAL_GATE",
+          "type": "normal",
+          "min_level": 55
         }
       ]
     },
@@ -4248,6 +4303,11 @@
           "to": "AETHEL_SIPHON_CORE",
           "type": "secret",
           "min_level": 75
+        },
+        {
+          "to": "VOID_RIFT_CROSSROADS",
+          "type": "normal",
+          "min_level": 40
         }
       ]
     },
@@ -4463,6 +4523,41 @@
           "to": "AETHEL_STORM_BELT",
           "type": "normal",
           "min_level": 30
+        },
+        {
+          "to": "NEXUS_CORE",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "OBSERVATORY_SPIRE",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "BASTION_CORE",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "PORT_MERIDIAN",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "THE_SPIRE",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "SANCTUM",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "FORTRESS_KAELEN",
+          "type": "normal",
+          "min_level": 30
         }
       ]
     },
@@ -4516,6 +4611,41 @@
         },
         {
           "to": "PRIMA_MATERIA_FORGE",
+          "type": "normal",
+          "min_level": 60
+        },
+        {
+          "to": "NEXUS_CORE",
+          "type": "normal",
+          "min_level": 60
+        },
+        {
+          "to": "OBSERVATORY_SPIRE",
+          "type": "normal",
+          "min_level": 60
+        },
+        {
+          "to": "BASTION_CORE",
+          "type": "normal",
+          "min_level": 60
+        },
+        {
+          "to": "PORT_MERIDIAN",
+          "type": "normal",
+          "min_level": 60
+        },
+        {
+          "to": "THE_SPIRE",
+          "type": "normal",
+          "min_level": 60
+        },
+        {
+          "to": "SANCTUM",
+          "type": "normal",
+          "min_level": 60
+        },
+        {
+          "to": "FORTRESS_KAELEN",
           "type": "normal",
           "min_level": 60
         }
