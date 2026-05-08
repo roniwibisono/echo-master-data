@@ -2053,123 +2053,263 @@
     ],
     "greeting": "Welcome to the Starforged Legion supply depot. What do you need, operative?"
   },
-
   {
     "npc_id": "NPC_CONCORDIUM_EXCHANGE",
     "name": "AMA Officer Petra Calloway",
-    "title": "Aegis Monetary Authority — Concordium Branch",
+    "title": "Aegis Monetary Authority \u2014 Concordium Branch",
     "role": "CURRENCY_EXCHANGE",
     "faction": "CONCORDIUM",
     "dialogue_tree": "dlg_concordium_ama_main",
     "shop_inventory": null,
-    "location": "Nexus Core — AMA Branch Office",
+    "location": "Nexus Core \u2014 AMA Branch Office",
     "region_id": "NEXUS_CORE",
     "description": "Petra is a sharp-eyed AMA officer stationed at the Concordium capital. She maintains strict neutrality despite being surrounded by military culture. Known for her no-nonsense approach to exchange transactions and her habit of auditing the local treasury records 'just to keep everyone honest.'",
     "personality": "stern",
-    "greeting": "AMA Branch Office — Concordium. Present your credentials and state the volume of your exchange. I process transactions, not small talk.",
-    "available_services": ["EXCHANGE"],
-    "actions": ["currency_exchange"]
+    "greeting": "AMA Branch Office \u2014 Concordium. Present your credentials and state the volume of your exchange. I process transactions, not small talk.",
+    "available_services": [
+      "EXCHANGE"
+    ],
+    "actions": [
+      "currency_exchange"
+    ]
   },
-
   {
     "npc_id": "NPC_ARCANUM_EXCHANGE",
     "name": "AMA Scholar Drex Nul",
-    "title": "Aegis Monetary Authority — Arcanum Branch",
+    "title": "Aegis Monetary Authority \u2014 Arcanum Branch",
     "role": "CURRENCY_EXCHANGE",
     "faction": "THE_ARCANUM_SEEKERS",
     "dialogue_tree": "dlg_arcanum_ama_main",
     "shop_inventory": null,
-    "location": "Observatory Spire — AMA Sanctioned Study",
+    "location": "Observatory Spire \u2014 AMA Sanctioned Study",
     "region_id": "OBSERVATORY_SPIRE",
     "description": "Drex is a former Arcanum Seekers student who became more interested in economic theory than arcane knowledge. He writes papers on 'The Thermodynamics of Galactic Currency Flows' in his spare time.",
     "personality": "intellectual",
-    "greeting": "Ah, a transaction seeker! The economic relationship between Arcane currency and the Credent is fascinating — particularly when you examine the volatility coefficients. But yes, I can exchange your currency. Let me pull up the current rates.",
-    "available_services": ["EXCHANGE"],
-    "actions": ["currency_exchange"]
+    "greeting": "Ah, a transaction seeker! The economic relationship between Arcane currency and the Credent is fascinating \u2014 particularly when you examine the volatility coefficients. But yes, I can exchange your currency. Let me pull up the current rates.",
+    "available_services": [
+      "EXCHANGE"
+    ],
+    "actions": [
+      "currency_exchange"
+    ]
   },
-
   {
     "npc_id": "NPC_IRON_EXCHANGE",
     "name": "AMA Terminal IH-3",
-    "title": "Aegis Monetary Authority — Iron Hegemony Automated Terminal",
+    "title": "Aegis Monetary Authority \u2014 Iron Hegemony Automated Terminal",
     "role": "CURRENCY_EXCHANGE",
     "faction": "IRON_HEGEMONY",
     "dialogue_tree": "dlg_iron_ama_main",
     "shop_inventory": null,
-    "location": "Bastion Core — AMA Processing Center",
+    "location": "Bastion Core \u2014 AMA Processing Center",
     "region_id": "BASTION_CORE",
     "description": "The Iron Hegemony preferred efficiency over personality, so they lobbied for an automated AMA terminal. IH-3 processes transactions with industrial efficiency and has no patience for errors.",
     "personality": "mechanical",
     "greeting": "TERMINAL IH-3 ACTIVE. INSERT CURRENCY VOLUME. EXCHANGE RATE DISPLAYED. CONFIRM OR ABORT. PROCESSING FEE APPLIES.",
-    "available_services": ["EXCHANGE"],
-    "actions": ["currency_exchange"]
+    "available_services": [
+      "EXCHANGE"
+    ],
+    "actions": [
+      "currency_exchange"
+    ]
   },
-
   {
     "npc_id": "NPC_MERIDIAN_EXCHANGE",
     "name": "AMA Broker Sable Thorn",
-    "title": "Aegis Monetary Authority — Meridian Branch",
+    "title": "Aegis Monetary Authority \u2014 Meridian Branch",
     "role": "CURRENCY_EXCHANGE",
     "faction": "MERIDIAN_CARTEL",
     "dialogue_tree": "dlg_meridian_ama_main",
     "shop_inventory": null,
-    "location": "Port Meridian — AMA Trade Desk",
+    "location": "Port Meridian \u2014 AMA Trade Desk",
     "region_id": "PORT_MERIDIAN",
     "description": "Sable Thorn navigated from Cartel trader to AMA broker with calculated grace. The Meridian branch is the busiest in Xylos by transaction volume. She occasionally tips clients about exchange rate trends.",
     "personality": "charming",
-    "greeting": "Welcome, welcome! You've come to the right desk — the Meridian AMA branch handles more volume than all other branches combined. What are we converting today?",
-    "available_services": ["EXCHANGE"],
-    "actions": ["currency_exchange"]
+    "greeting": "Welcome, welcome! You've come to the right desk \u2014 the Meridian AMA branch handles more volume than all other branches combined. What are we converting today?",
+    "available_services": [
+      "EXCHANGE"
+    ],
+    "actions": [
+      "currency_exchange"
+    ]
   },
-
   {
     "npc_id": "NPC_OMNICORP_EXCHANGE",
     "name": "AMA Node OM-7",
-    "title": "Aegis Monetary Authority — OmniCorp Integration",
+    "title": "Aegis Monetary Authority \u2014 OmniCorp Integration",
     "role": "CURRENCY_EXCHANGE",
     "faction": "OMNICORP",
     "dialogue_tree": "dlg_omnicorp_ama_main",
     "shop_inventory": null,
-    "location": "The Spire — AMA Digital Hub",
+    "location": "The Spire \u2014 AMA Digital Hub",
     "region_id": "THE_SPIRE",
     "description": "OmniCorp integrated the AMA terminal directly into their corporate network infrastructure. OM-7 is technically an AMA node but runs on OmniCorp servers. The AMA audits this arrangement quarterly.",
     "personality": "corporate",
-    "greeting": "OmniCorp AMA Integration Node — powered by OmniCorp CoreNet™. Your exchange request has been submitted to the AMA Ledger. Processing. Terms and conditions apply.",
-    "available_services": ["EXCHANGE"],
-    "actions": ["currency_exchange"]
+    "greeting": "OmniCorp AMA Integration Node \u2014 powered by OmniCorp CoreNet\u2122. Your exchange request has been submitted to the AMA Ledger. Processing. Terms and conditions apply.",
+    "available_services": [
+      "EXCHANGE"
+    ],
+    "actions": [
+      "currency_exchange"
+    ]
   },
-
   {
     "npc_id": "NPC_SHARD_EXCHANGE",
     "name": "AMA Keeper Mirya of the Still Pool",
-    "title": "Aegis Monetary Authority — Shard Branch",
+    "title": "Aegis Monetary Authority \u2014 Shard Branch",
     "role": "CURRENCY_EXCHANGE",
     "faction": "CHILDREN_OF_THE_SHARD",
     "dialogue_tree": "dlg_shard_ama_main",
     "shop_inventory": null,
-    "location": "Sanctum — AMA Sanctuary Desk",
+    "location": "Sanctum \u2014 AMA Sanctuary Desk",
     "region_id": "SANCTUM",
     "description": "Mirya bridges spiritual and financial worlds: a genuine Shard practitioner who also holds AMA certification. She meditates between transactions and occasionally warns clients about 'spiritually inauspicious exchange moments.'",
     "personality": "serene",
     "greeting": "Breathe... the Shard sees all flows, including those of currency. I am Mirya. Let us proceed mindfully.",
-    "available_services": ["EXCHANGE"],
-    "actions": ["currency_exchange"]
+    "available_services": [
+      "EXCHANGE"
+    ],
+    "actions": [
+      "currency_exchange"
+    ]
   },
-
   {
     "npc_id": "NPC_LEGION_EXCHANGE",
     "name": "AMA Agent Rex Valdur",
-    "title": "Aegis Monetary Authority — Starforged Legion Post",
+    "title": "Aegis Monetary Authority \u2014 Starforged Legion Post",
     "role": "CURRENCY_EXCHANGE",
     "faction": "STARFORGED_LEGION",
     "dialogue_tree": "dlg_legion_ama_main",
     "shop_inventory": null,
-    "location": "Fortress Kaelen — AMA Forward Station",
+    "location": "Fortress Kaelen \u2014 AMA Forward Station",
     "region_id": "FORTRESS_KAELEN",
     "description": "Rex is an AMA field agent who thrives in volatile frontier environments. He's processed exchanges under fire, during bombardments, and once mid-warp. He respects the Legion's boldness while maintaining AMA neutrality.",
     "personality": "resilient",
-    "greeting": "AMA Forward Station, Legion Post. Rex Valdur, at your service. Quick processing, fair rates — no extra charge for the excitement. What are we moving today?",
-    "available_services": ["EXCHANGE"],
-    "actions": ["currency_exchange"]
+    "greeting": "AMA Forward Station, Legion Post. Rex Valdur, at your service. Quick processing, fair rates \u2014 no extra charge for the excitement. What are we moving today?",
+    "available_services": [
+      "EXCHANGE"
+    ],
+    "actions": [
+      "currency_exchange"
+    ]
+  },
+  {
+    "npc_id": "npc_concordium_exchange",
+    "name": "Magister Kael",
+    "title": "AMA Concordium Exchange",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "CONCORDIUM",
+    "dialogue_tree": "dialog_exchange_concordium",
+    "shop_inventory": "",
+    "location": "Nexus Core",
+    "region_id": "NEXUS_CORE",
+    "description": "AMA exchange officer for Concordium. Exchange CRD to/from faction currency at live rates.",
+    "actions": [],
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "greeting": "AMA Concordium Branch. Exchange CRD and CONCORDIUM currency at live market rates. How can I assist you?"
+  },
+  {
+    "npc_id": "npc_arcanum_exchange",
+    "name": "Magister Kael",
+    "title": "AMA Arcanum Exchange",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "THE_ARCANUM_SEEKERS",
+    "dialogue_tree": "dialog_exchange_arcanum",
+    "shop_inventory": "",
+    "location": "Observatory Spire",
+    "region_id": "OBSERVATORY_SPIRE",
+    "description": "AMA exchange officer for The Arcanum Seekers. Exchange CRD to/from faction currency at live rates.",
+    "actions": [],
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "greeting": "AMA The Arcanum Seekers Branch. Exchange CRD and THE_ARCANUM_SEEKERS currency at live market rates. How can I assist you?"
+  },
+  {
+    "npc_id": "npc_hegemony_exchange",
+    "name": "Commander Rhyx",
+    "title": "AMA Hegemony Exchange",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "IRON_HEGEMONY",
+    "dialogue_tree": "dialog_exchange_hegemony",
+    "shop_inventory": "",
+    "location": "Bastion Core",
+    "region_id": "BASTION_CORE",
+    "description": "AMA exchange officer for Iron Hegemony. Exchange CRD to/from faction currency at live rates.",
+    "actions": [],
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "greeting": "AMA Iron Hegemony Branch. Exchange CRD and IRON_HEGEMONY currency at live market rates. How can I assist you?"
+  },
+  {
+    "npc_id": "npc_meridian_exchange",
+    "name": "Silas Vey",
+    "title": "AMA Meridian Exchange",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "MERIDIAN_CARTEL",
+    "dialogue_tree": "dialog_exchange_meridian",
+    "shop_inventory": "",
+    "location": "Port Meridian",
+    "region_id": "PORT_MERIDIAN",
+    "description": "AMA exchange officer for Meridian Cartel. Exchange CRD to/from faction currency at live rates.",
+    "actions": [],
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "greeting": "AMA Meridian Cartel Branch. Exchange CRD and MERIDIAN_CARTEL currency at live market rates. How can I assist you?"
+  },
+  {
+    "npc_id": "npc_omnicorp_exchange",
+    "name": "Director Harlan",
+    "title": "AMA OmniCorp Exchange",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "OMNICORP",
+    "dialogue_tree": "dialog_exchange_omnicorp",
+    "shop_inventory": "",
+    "location": "The Spire",
+    "region_id": "THE_SPIRE",
+    "description": "AMA exchange officer for Omnicorp. Exchange CRD to/from faction currency at live rates.",
+    "actions": [],
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "greeting": "AMA Omnicorp Branch. Exchange CRD and OMNICORP currency at live market rates. How can I assist you?"
+  },
+  {
+    "npc_id": "npc_shard_exchange",
+    "name": "Elder Myr",
+    "title": "AMA Shard Exchange",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "CHILDREN_OF_THE_SHARD",
+    "dialogue_tree": "dialog_exchange_shard",
+    "shop_inventory": "",
+    "location": "Sanctum",
+    "region_id": "SANCTUM",
+    "description": "AMA exchange officer for Children Of The Shard. Exchange CRD to/from faction currency at live rates.",
+    "actions": [],
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "greeting": "AMA Children Of The Shard Branch. Exchange CRD and CHILDREN_OF_THE_SHARD currency at live market rates. How can I assist you?"
+  },
+  {
+    "npc_id": "npc_legion_exchange",
+    "name": "Varkon Thal",
+    "title": "AMA Legion Exchange",
+    "role": "CURRENCY_EXCHANGE",
+    "faction": "STARFORGED_LEGION",
+    "dialogue_tree": "dialog_exchange_legion",
+    "shop_inventory": "",
+    "location": "Fortress Kaelen",
+    "region_id": "FORTRESS_KAELEN",
+    "description": "AMA exchange officer for Starforged Legion. Exchange CRD to/from faction currency at live rates.",
+    "actions": [],
+    "available_services": [
+      "CURRENCY_EXCHANGE"
+    ],
+    "greeting": "AMA Starforged Legion Branch. Exchange CRD and STARFORGED_LEGION currency at live market rates. How can I assist you?"
   }
 ]
