@@ -19,7 +19,7 @@
   "region_schema": {
     "id": "string",
     "name": "string",
-    "type": "capital | starter | mid | high | conflict | endgame | secret | orbital",
+    "type": "capital | starter | mid | high | conflict | endgame | secret | orbital | neutral",
     "faction_owner": "string | CONTESTED | NONE",
     "level_range": [
       0,
@@ -45,7 +45,15 @@
       ],
       "is_safe_zone": true,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "AETHEL_GARDENS",
+        "BASTION_CORE",
+        "CRADLE_OUTER_RING",
+        "OBSERVATORY_SPIRE",
+        "PORT_MERIDIAN",
+        "SENTINEL_ENCLAVE",
+        "THE_SPIRE"
+      ],
       "available_actions": [
         "travel",
         "trade",
@@ -85,7 +93,11 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "NEXUS_CORE",
+        "BROKEN_CIVIL_QUARTER",
+        "GLOWVINE_FOREST"
+      ],
       "available_actions": [
         "hunt",
         "gather",
@@ -153,7 +165,11 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "AETHEL_GARDENS",
+        "CRADLE_OUTER_RING",
+        "SCRAP_FIELD"
+      ],
       "available_actions": [
         "hunt",
         "travel"
@@ -236,7 +252,14 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "BLACK_DOCK_MARKET",
+        "BROKEN_CIVIL_QUARTER",
+        "CRADLE_EXPANSE",
+        "FRACTURED_GLASS_VALLEY",
+        "INNER_CRADLE_EXCLUSION",
+        "NEXUS_CORE"
+      ],
       "available_actions": [
         "hunt",
         "travel"
@@ -311,7 +334,12 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "CRADLE_OUTER_RING",
+        "CRADLE_EXPANSE",
+        "AETHEL_STORM_BELT",
+        "SHATTERED_HEART"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -389,7 +417,12 @@
       ],
       "is_safe_zone": true,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "CRYSTAL_SLOPE",
+        "NEXUS_CORE",
+        "SENTINEL_ENCLAVE",
+        "THE_SPIRE"
+      ],
       "available_actions": [
         "travel",
         "research"
@@ -428,7 +461,11 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "OBSERVATORY_SPIRE",
+        "FRACTURED_GLASS_VALLEY",
+        "HIGHLAND_PLATEAU"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -506,7 +543,11 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "CRYSTAL_SLOPE",
+        "RESONANCE_CAVERNS",
+        "CRADLE_OUTER_RING"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -572,7 +613,12 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "FRACTURED_GLASS_VALLEY",
+        "SHARD_PULSE_PEAK",
+        "FRAGMENT_SHRINE",
+        "CRADLE_EXPANSE"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -638,7 +684,11 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "RESONANCE_CAVERNS",
+        "AETHEL_STORM_BELT",
+        "SKYBRIDGE_REACTOR"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -716,7 +766,11 @@
       ],
       "is_safe_zone": true,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "SCRAP_FIELD",
+        "FORTRESS_KAELEN",
+        "NEXUS_CORE"
+      ],
       "available_actions": [
         "travel",
         "forge"
@@ -755,7 +809,11 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "BASTION_CORE",
+        "IRON_RAVINE",
+        "BROKEN_CIVIL_QUARTER"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -837,7 +895,12 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "EXTRACTION_ZONE_DELTA",
+        "SCORCHED_BADLANDS",
+        "SCRAP_FIELD",
+        "WAR_MACHINE_GRAVEYARD"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -907,7 +970,12 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "IRON_RAVINE",
+        "TITAN_ASSEMBLY_YARD",
+        "BORDER_SKIRMISH_RING",
+        "MESA_WARPATH"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -973,7 +1041,11 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "WAR_MACHINE_GRAVEYARD",
+        "AETHEL_STORM_BELT",
+        "FORGE_CANYON_DEPTHS"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -1039,7 +1111,12 @@
       ],
       "is_safe_zone": true,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "CORAL_WETLANDS",
+        "NEXUS_CORE",
+        "SANCTUM",
+        "THE_SPIRE"
+      ],
       "available_actions": [
         "travel",
         "trade"
@@ -1078,7 +1155,11 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "PORT_MERIDIAN",
+        "SMUGGLER_JUNGLE",
+        "GLOWVINE_FOREST"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -1156,7 +1237,11 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "CORAL_WETLANDS",
+        "BLACK_DOCK_MARKET",
+        "SHARDROOT_SWAMP"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -1226,7 +1311,12 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": true,
-      "connected_regions": [],
+      "connected_regions": [
+        "SMUGGLER_JUNGLE",
+        "CRADLE_OUTER_RING",
+        "BORDER_SKIRMISH_RING",
+        "SUNKEN_AETHEL_RUIN"
+      ],
       "available_actions": [
         "hunt",
         "pvp"
@@ -1293,7 +1383,11 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "BLACK_DOCK_MARKET",
+        "AETHEL_STORM_BELT",
+        "SHATTERED_HEART"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -1359,7 +1453,13 @@
       ],
       "is_safe_zone": true,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "HIGHLAND_PLATEAU",
+        "NEXUS_CORE",
+        "OBSERVATORY_SPIRE",
+        "PORT_MERIDIAN",
+        "SENTINEL_ENCLAVE"
+      ],
       "available_actions": [
         "travel",
         "trade"
@@ -1398,7 +1498,11 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "THE_SPIRE",
+        "EXTRACTION_ZONE_DELTA",
+        "CRYSTAL_SLOPE"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -1464,7 +1568,11 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "HIGHLAND_PLATEAU",
+        "SECURE_MINING_GRID",
+        "IRON_RAVINE"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -1530,7 +1638,11 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "EXTRACTION_ZONE_DELTA",
+        "SKYBRIDGE_REACTOR",
+        "BORDER_SKIRMISH_RING"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -1596,7 +1708,11 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "SECURE_MINING_GRID",
+        "SHARD_PULSE_PEAK",
+        "AETHEL_STORM_BELT"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -1666,7 +1782,10 @@
       ],
       "is_safe_zone": true,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "GLOWVINE_FOREST",
+        "PORT_MERIDIAN"
+      ],
       "available_actions": [
         "travel",
         "ritual"
@@ -1705,7 +1824,12 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "SANCTUM",
+        "SHARDROOT_SWAMP",
+        "AETHEL_GARDENS",
+        "CORAL_WETLANDS"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -1771,7 +1895,11 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "GLOWVINE_FOREST",
+        "FRAGMENT_SHRINE",
+        "SMUGGLER_JUNGLE"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -1849,7 +1977,12 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "SHARDROOT_SWAMP",
+        "HEARTWOOD_ALTAR",
+        "RESONANCE_CAVERNS",
+        "CRADLE_EXPANSE"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -1915,7 +2048,11 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "FRAGMENT_SHRINE",
+        "AETHEL_STORM_BELT",
+        "SHATTERED_HEART"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -1985,7 +2122,10 @@
       ],
       "is_safe_zone": true,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "DUNE_OUTSKIRTS",
+        "BASTION_CORE"
+      ],
       "available_actions": [
         "travel",
         "train"
@@ -2024,7 +2164,10 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "FORTRESS_KAELEN",
+        "SCORCHED_BADLANDS"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -2102,7 +2245,11 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "DUNE_OUTSKIRTS",
+        "MESA_WARPATH",
+        "IRON_RAVINE"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -2180,7 +2327,12 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "SCORCHED_BADLANDS",
+        "FORGE_CANYON_DEPTHS",
+        "WAR_MACHINE_GRAVEYARD",
+        "BORDER_SKIRMISH_RING"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -2246,7 +2398,11 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "MESA_WARPATH",
+        "TITAN_ASSEMBLY_YARD",
+        "AETHEL_STORM_BELT"
+      ],
       "available_actions": [
         "hunt"
       ],
@@ -2316,7 +2472,18 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": true,
-      "connected_regions": [],
+      "connected_regions": [
+        "AETHEL_STORM_BELT",
+        "BLOOD_IRON_BASIN",
+        "BORDER_SKIRMISH_RING",
+        "CRADLE_OUTER_RING",
+        "FRAGMENT_SHRINE",
+        "HIDDEN_AETHELGARDIAN_CITY",
+        "INNER_CRADLE_EXCLUSION",
+        "RESONANCE_CAVERNS",
+        "SHATTERED_HEART",
+        "TITAN_GRAVEYARD"
+      ],
       "available_actions": [
         "hunt",
         "pvp",
@@ -2397,7 +2564,19 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": true,
-      "connected_regions": [],
+      "connected_regions": [
+        "AETHEL_STORM_RIDGE",
+        "CRADLE_EXPANSE",
+        "FORGE_CANYON_DEPTHS",
+        "HEARTWOOD_ALTAR",
+        "HIDDEN_AETHELGARDIAN_CITY",
+        "INNER_CRADLE_EXCLUSION",
+        "SHARD_PULSE_PEAK",
+        "SHATTERED_HEART",
+        "SKYBRIDGE_REACTOR",
+        "SUNKEN_AETHEL_RUIN",
+        "TITAN_ASSEMBLY_YARD"
+      ],
       "available_actions": [
         "hunt",
         "pvp"
@@ -2472,7 +2651,14 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": true,
-      "connected_regions": [],
+      "connected_regions": [
+        "BLACK_DOCK_MARKET",
+        "CRADLE_EXPANSE",
+        "MESA_WARPATH",
+        "SECURE_MINING_GRID",
+        "VOID_RIFT_CROSSROADS",
+        "WAR_MACHINE_GRAVEYARD"
+      ],
       "available_actions": [
         "hunt",
         "pvp"
@@ -2543,7 +2729,17 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "AETHEL_STORM_BELT",
+        "BLOOD_IRON_BASIN",
+        "CRADLE_EXPANSE",
+        "HEARTWOOD_ALTAR",
+        "HIDDEN_AETHELGARDIAN_CITY",
+        "INNER_CRADLE_EXCLUSION",
+        "SEVERANCE_FAULTLINE",
+        "SUNKEN_AETHEL_RUIN",
+        "VOID_ECHO_CHASM"
+      ],
       "available_actions": [
         "raid"
       ],
@@ -2617,7 +2813,11 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "AETHEL_SIPHON_CORE",
+        "SHATTERED_HEART",
+        "TITAN_GRAVEYARD"
+      ],
       "available_actions": [
         "raid"
       ],
@@ -2691,7 +2891,10 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "SEVERANCE_FAULTLINE",
+        "PRIMA_MATERIA_FORGE"
+      ],
       "available_actions": [
         "raid"
       ],
@@ -2765,7 +2968,11 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "AETHEL_SIPHON_CORE",
+        "AETHEL_STORM_RIDGE",
+        "ETERNAL_GATE"
+      ],
       "available_actions": [
         "raid"
       ],
@@ -2830,6 +3037,35 @@
       "current_tax": 0.0
     },
     {
+      "id": "SENTINEL_ENCLAVE",
+      "name": "Sentinel Enclave",
+      "type": "orbital",
+      "faction_owner": "GALACTIC_CUSTODIANS",
+      "level_range": [
+        1,
+        99
+      ],
+      "is_safe_zone": true,
+      "is_pvp_enabled": false,
+      "can_be_occupied": false,
+      "current_tax": 0.0,
+      "connected_regions": [
+        "NEXUS_CORE",
+        "THE_SPIRE",
+        "OBSERVATORY_SPIRE",
+        "PORT_MERIDIAN"
+      ],
+      "available_actions": [
+        "travel",
+        "trade",
+        "sanction",
+        "currency_exchange"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [],
+      "world_events": []
+    },
+    {
       "id": "HIDDEN_AETHELGARDIAN_CITY",
       "name": "Hidden Aethelgardian City",
       "type": "secret",
@@ -2840,7 +3076,12 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "AETHEL_STORM_BELT",
+        "CRADLE_EXPANSE",
+        "ETERNAL_GATE",
+        "SHATTERED_HEART"
+      ],
       "available_actions": [
         "explore"
       ],
@@ -2910,7 +3151,10 @@
       ],
       "is_safe_zone": false,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "VOID_RIFT_CROSSROADS",
+        "SHATTERED_HEART"
+      ],
       "available_actions": [
         "explore"
       ],
@@ -2980,7 +3224,11 @@
       ],
       "is_safe_zone": true,
       "is_pvp_enabled": false,
-      "connected_regions": [],
+      "connected_regions": [
+        "SENTINEL_ENCLAVE",
+        "NEXUS_CORE",
+        "THE_SPIRE"
+      ],
       "available_actions": [
         "travel",
         "trade",
@@ -3262,6 +3510,22 @@
         "REST",
         "CRAFT"
       ],
+      "connected_regions": [
+        "AETHEL_GARDENS",
+        "CRYSTAL_SLOPE",
+        "SCRAP_FIELD",
+        "CORAL_WETLANDS",
+        "HIGHLAND_PLATEAU",
+        "GLOWVINE_FOREST",
+        "DUNE_OUTSKIRTS",
+        "NEXUS_CORE",
+        "OBSERVATORY_SPIRE",
+        "BASTION_CORE",
+        "PORT_MERIDIAN",
+        "THE_SPIRE",
+        "SANCTUM",
+        "FORTRESS_KAELEN"
+      ],
       "monster_spawns": [],
       "resource_nodes": [],
       "world_events": []
@@ -3285,6 +3549,25 @@
         "SHOP",
         "REST",
         "CRAFT"
+      ],
+      "connected_regions": [
+        "BROKEN_CIVIL_QUARTER",
+        "FRACTURED_GLASS_VALLEY",
+        "IRON_RAVINE",
+        "SMUGGLER_JUNGLE",
+        "EXTRACTION_ZONE_DELTA",
+        "SHARDROOT_SWAMP",
+        "SCORCHED_BADLANDS",
+        "CRADLE_EXPANSE",
+        "BORDER_SKIRMISH_RING",
+        "AETHEL_STORM_BELT",
+        "NEXUS_CORE",
+        "OBSERVATORY_SPIRE",
+        "BASTION_CORE",
+        "PORT_MERIDIAN",
+        "THE_SPIRE",
+        "SANCTUM",
+        "FORTRESS_KAELEN"
       ],
       "monster_spawns": [],
       "resource_nodes": [],
@@ -3310,6 +3593,25 @@
         "REST",
         "CRAFT"
       ],
+      "connected_regions": [
+        "CRADLE_OUTER_RING",
+        "RESONANCE_CAVERNS",
+        "WAR_MACHINE_GRAVEYARD",
+        "BLACK_DOCK_MARKET",
+        "SECURE_MINING_GRID",
+        "FRAGMENT_SHRINE",
+        "MESA_WARPATH",
+        "SHATTERED_HEART",
+        "SEVERANCE_FAULTLINE",
+        "PRIMA_MATERIA_FORGE",
+        "NEXUS_CORE",
+        "OBSERVATORY_SPIRE",
+        "BASTION_CORE",
+        "PORT_MERIDIAN",
+        "THE_SPIRE",
+        "SANCTUM",
+        "FORTRESS_KAELEN"
+      ],
       "monster_spawns": [],
       "resource_nodes": [],
       "world_events": []
@@ -3325,24 +3627,34 @@
           "min_level": 1
         },
         {
-          "to": "ORBITAL_SENTINEL_COMMAND",
+          "to": "BASTION_CORE",
           "type": "normal",
           "min_level": 1
         },
         {
-          "to": "NEXUS_CROSSROADS",
+          "to": "CRADLE_OUTER_RING",
           "type": "normal",
-          "min_level": 10
+          "min_level": 11
         },
         {
-          "to": "CENTRAL_SPIRE_BAZAAR",
+          "to": "OBSERVATORY_SPIRE",
           "type": "normal",
-          "min_level": 30
+          "min_level": 1
         },
         {
-          "to": "ORBITAL_NEUTRAL_HUB",
+          "to": "PORT_MERIDIAN",
           "type": "normal",
-          "min_level": 60
+          "min_level": 1
+        },
+        {
+          "to": "SENTINEL_ENCLAVE",
+          "type": "normal",
+          "min_level": 1
+        },
+        {
+          "to": "THE_SPIRE",
+          "type": "normal",
+          "min_level": 1
         }
       ]
     },
@@ -3357,10 +3669,10 @@
         {
           "to": "BROKEN_CIVIL_QUARTER",
           "type": "normal",
-          "min_level": 5
+          "min_level": 6
         },
         {
-          "to": "NEXUS_CROSSROADS",
+          "to": "GLOWVINE_FOREST",
           "type": "normal",
           "min_level": 1
         }
@@ -3372,17 +3684,17 @@
         {
           "to": "AETHEL_GARDENS",
           "type": "normal",
-          "min_level": 5
+          "min_level": 1
         },
         {
           "to": "CRADLE_OUTER_RING",
           "type": "normal",
-          "min_level": 8
+          "min_level": 11
         },
         {
-          "to": "CENTRAL_SPIRE_BAZAAR",
+          "to": "SCRAP_FIELD",
           "type": "normal",
-          "min_level": 5
+          "min_level": 1
         }
       ]
     },
@@ -3390,24 +3702,34 @@
       "id": "CRADLE_OUTER_RING",
       "connections": [
         {
-          "to": "BROKEN_CIVIL_QUARTER",
-          "type": "normal",
-          "min_level": 8
-        },
-        {
-          "to": "INNER_CRADLE_EXCLUSION",
-          "type": "restricted",
-          "min_level": 20
-        },
-        {
-          "to": "CRADLE_EXPANSE",
+          "to": "BLACK_DOCK_MARKET",
           "type": "normal",
           "min_level": 15
         },
         {
-          "to": "ORBITAL_NEUTRAL_HUB",
+          "to": "BROKEN_CIVIL_QUARTER",
           "type": "normal",
-          "min_level": 8
+          "min_level": 6
+        },
+        {
+          "to": "CRADLE_EXPANSE",
+          "type": "normal",
+          "min_level": 20
+        },
+        {
+          "to": "FRACTURED_GLASS_VALLEY",
+          "type": "normal",
+          "min_level": 6
+        },
+        {
+          "to": "INNER_CRADLE_EXCLUSION",
+          "type": "normal",
+          "min_level": 25
+        },
+        {
+          "to": "NEXUS_CORE",
+          "type": "normal",
+          "min_level": 1
         }
       ]
     },
@@ -3416,8 +3738,23 @@
       "connections": [
         {
           "to": "CRADLE_OUTER_RING",
-          "type": "restricted",
+          "type": "normal",
+          "min_level": 11
+        },
+        {
+          "to": "CRADLE_EXPANSE",
+          "type": "normal",
           "min_level": 20
+        },
+        {
+          "to": "AETHEL_STORM_BELT",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "SHATTERED_HEART",
+          "type": "normal",
+          "min_level": 60
         }
       ]
     },
@@ -3430,19 +3767,19 @@
           "min_level": 1
         },
         {
-          "to": "NEXUS_CROSSROADS",
+          "to": "NEXUS_CORE",
           "type": "normal",
-          "min_level": 10
+          "min_level": 1
         },
         {
-          "to": "CENTRAL_SPIRE_BAZAAR",
+          "to": "SENTINEL_ENCLAVE",
           "type": "normal",
-          "min_level": 30
+          "min_level": 1
         },
         {
-          "to": "ORBITAL_NEUTRAL_HUB",
+          "to": "THE_SPIRE",
           "type": "normal",
-          "min_level": 60
+          "min_level": 1
         }
       ]
     },
@@ -3457,10 +3794,10 @@
         {
           "to": "FRACTURED_GLASS_VALLEY",
           "type": "normal",
-          "min_level": 5
+          "min_level": 6
         },
         {
-          "to": "NEXUS_CROSSROADS",
+          "to": "HIGHLAND_PLATEAU",
           "type": "normal",
           "min_level": 1
         }
@@ -3472,17 +3809,17 @@
         {
           "to": "CRYSTAL_SLOPE",
           "type": "normal",
-          "min_level": 5
+          "min_level": 1
         },
         {
           "to": "RESONANCE_CAVERNS",
           "type": "normal",
-          "min_level": 10
+          "min_level": 13
         },
         {
-          "to": "CENTRAL_SPIRE_BAZAAR",
+          "to": "CRADLE_OUTER_RING",
           "type": "normal",
-          "min_level": 5
+          "min_level": 11
         }
       ]
     },
@@ -3492,22 +3829,22 @@
         {
           "to": "FRACTURED_GLASS_VALLEY",
           "type": "normal",
-          "min_level": 10
+          "min_level": 6
         },
         {
           "to": "SHARD_PULSE_PEAK",
-          "type": "restricted",
-          "min_level": 20
+          "type": "normal",
+          "min_level": 25
         },
         {
-          "to": "CRADLE_EXPANSE",
+          "to": "FRAGMENT_SHRINE",
           "type": "normal",
           "min_level": 15
         },
         {
-          "to": "ORBITAL_NEUTRAL_HUB",
+          "to": "CRADLE_EXPANSE",
           "type": "normal",
-          "min_level": 10
+          "min_level": 20
         }
       ]
     },
@@ -3516,13 +3853,18 @@
       "connections": [
         {
           "to": "RESONANCE_CAVERNS",
-          "type": "restricted",
-          "min_level": 20
+          "type": "normal",
+          "min_level": 13
         },
         {
           "to": "AETHEL_STORM_BELT",
           "type": "normal",
           "min_level": 30
+        },
+        {
+          "to": "SKYBRIDGE_REACTOR",
+          "type": "normal",
+          "min_level": 35
         }
       ]
     },
@@ -3535,19 +3877,14 @@
           "min_level": 1
         },
         {
-          "to": "NEXUS_CROSSROADS",
+          "to": "FORTRESS_KAELEN",
           "type": "normal",
-          "min_level": 10
+          "min_level": 1
         },
         {
-          "to": "CENTRAL_SPIRE_BAZAAR",
+          "to": "NEXUS_CORE",
           "type": "normal",
-          "min_level": 30
-        },
-        {
-          "to": "ORBITAL_NEUTRAL_HUB",
-          "type": "normal",
-          "min_level": 60
+          "min_level": 1
         }
       ]
     },
@@ -3562,12 +3899,12 @@
         {
           "to": "IRON_RAVINE",
           "type": "normal",
-          "min_level": 5
+          "min_level": 6
         },
         {
-          "to": "NEXUS_CROSSROADS",
+          "to": "BROKEN_CIVIL_QUARTER",
           "type": "normal",
-          "min_level": 1
+          "min_level": 6
         }
       ]
     },
@@ -3575,19 +3912,24 @@
       "id": "IRON_RAVINE",
       "connections": [
         {
+          "to": "EXTRACTION_ZONE_DELTA",
+          "type": "normal",
+          "min_level": 6
+        },
+        {
+          "to": "SCORCHED_BADLANDS",
+          "type": "normal",
+          "min_level": 6
+        },
+        {
           "to": "SCRAP_FIELD",
           "type": "normal",
-          "min_level": 5
+          "min_level": 1
         },
         {
           "to": "WAR_MACHINE_GRAVEYARD",
           "type": "normal",
-          "min_level": 10
-        },
-        {
-          "to": "CENTRAL_SPIRE_BAZAAR",
-          "type": "normal",
-          "min_level": 5
+          "min_level": 13
         }
       ]
     },
@@ -3597,22 +3939,22 @@
         {
           "to": "IRON_RAVINE",
           "type": "normal",
-          "min_level": 10
+          "min_level": 6
         },
         {
           "to": "TITAN_ASSEMBLY_YARD",
-          "type": "restricted",
-          "min_level": 22
+          "type": "normal",
+          "min_level": 30
         },
         {
-          "to": "CRADLE_EXPANSE",
+          "to": "BORDER_SKIRMISH_RING",
           "type": "normal",
-          "min_level": 15
+          "min_level": 25
         },
         {
-          "to": "ORBITAL_NEUTRAL_HUB",
+          "to": "MESA_WARPATH",
           "type": "normal",
-          "min_level": 10
+          "min_level": 16
         }
       ]
     },
@@ -3621,11 +3963,16 @@
       "connections": [
         {
           "to": "WAR_MACHINE_GRAVEYARD",
-          "type": "restricted",
-          "min_level": 22
+          "type": "normal",
+          "min_level": 13
         },
         {
-          "to": "BORDER_SKIRMISH_RING",
+          "to": "AETHEL_STORM_BELT",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "FORGE_CANYON_DEPTHS",
           "type": "normal",
           "min_level": 30
         }
@@ -3640,19 +3987,19 @@
           "min_level": 1
         },
         {
-          "to": "NEXUS_CROSSROADS",
+          "to": "NEXUS_CORE",
           "type": "normal",
-          "min_level": 10
+          "min_level": 1
         },
         {
-          "to": "CENTRAL_SPIRE_BAZAAR",
+          "to": "SANCTUM",
           "type": "normal",
-          "min_level": 30
+          "min_level": 1
         },
         {
-          "to": "ORBITAL_NEUTRAL_HUB",
+          "to": "THE_SPIRE",
           "type": "normal",
-          "min_level": 60
+          "min_level": 1
         }
       ]
     },
@@ -3667,10 +4014,10 @@
         {
           "to": "SMUGGLER_JUNGLE",
           "type": "normal",
-          "min_level": 5
+          "min_level": 6
         },
         {
-          "to": "NEXUS_CROSSROADS",
+          "to": "GLOWVINE_FOREST",
           "type": "normal",
           "min_level": 1
         }
@@ -3682,17 +4029,17 @@
         {
           "to": "CORAL_WETLANDS",
           "type": "normal",
-          "min_level": 5
+          "min_level": 1
         },
         {
           "to": "BLACK_DOCK_MARKET",
           "type": "normal",
-          "min_level": 12
+          "min_level": 15
         },
         {
-          "to": "CENTRAL_SPIRE_BAZAAR",
+          "to": "SHARDROOT_SWAMP",
           "type": "normal",
-          "min_level": 5
+          "min_level": 6
         }
       ]
     },
@@ -3702,22 +4049,22 @@
         {
           "to": "SMUGGLER_JUNGLE",
           "type": "normal",
-          "min_level": 12
+          "min_level": 6
+        },
+        {
+          "to": "CRADLE_OUTER_RING",
+          "type": "normal",
+          "min_level": 11
+        },
+        {
+          "to": "BORDER_SKIRMISH_RING",
+          "type": "normal",
+          "min_level": 25
         },
         {
           "to": "SUNKEN_AETHEL_RUIN",
-          "type": "restricted",
-          "min_level": 20
-        },
-        {
-          "to": "CRADLE_EXPANSE",
           "type": "normal",
-          "min_level": 15
-        },
-        {
-          "to": "ORBITAL_NEUTRAL_HUB",
-          "type": "normal",
-          "min_level": 12
+          "min_level": 30
         }
       ]
     },
@@ -3726,13 +4073,18 @@
       "connections": [
         {
           "to": "BLACK_DOCK_MARKET",
-          "type": "restricted",
-          "min_level": 20
+          "type": "normal",
+          "min_level": 15
         },
         {
           "to": "AETHEL_STORM_BELT",
           "type": "normal",
           "min_level": 30
+        },
+        {
+          "to": "SHATTERED_HEART",
+          "type": "normal",
+          "min_level": 60
         }
       ]
     },
@@ -3745,19 +4097,24 @@
           "min_level": 1
         },
         {
-          "to": "NEXUS_CROSSROADS",
+          "to": "NEXUS_CORE",
           "type": "normal",
-          "min_level": 10
+          "min_level": 1
         },
         {
-          "to": "CENTRAL_SPIRE_BAZAAR",
+          "to": "OBSERVATORY_SPIRE",
           "type": "normal",
-          "min_level": 30
+          "min_level": 1
         },
         {
-          "to": "ORBITAL_NEUTRAL_HUB",
+          "to": "PORT_MERIDIAN",
           "type": "normal",
-          "min_level": 60
+          "min_level": 1
+        },
+        {
+          "to": "SENTINEL_ENCLAVE",
+          "type": "normal",
+          "min_level": 1
         }
       ]
     },
@@ -3772,10 +4129,10 @@
         {
           "to": "EXTRACTION_ZONE_DELTA",
           "type": "normal",
-          "min_level": 5
+          "min_level": 6
         },
         {
-          "to": "NEXUS_CROSSROADS",
+          "to": "CRYSTAL_SLOPE",
           "type": "normal",
           "min_level": 1
         }
@@ -3787,17 +4144,17 @@
         {
           "to": "HIGHLAND_PLATEAU",
           "type": "normal",
-          "min_level": 5
+          "min_level": 1
         },
         {
           "to": "SECURE_MINING_GRID",
           "type": "normal",
-          "min_level": 12
+          "min_level": 16
         },
         {
-          "to": "CENTRAL_SPIRE_BAZAAR",
+          "to": "IRON_RAVINE",
           "type": "normal",
-          "min_level": 5
+          "min_level": 6
         }
       ]
     },
@@ -3807,22 +4164,17 @@
         {
           "to": "EXTRACTION_ZONE_DELTA",
           "type": "normal",
-          "min_level": 12
+          "min_level": 6
         },
         {
           "to": "SKYBRIDGE_REACTOR",
-          "type": "restricted",
-          "min_level": 20
+          "type": "normal",
+          "min_level": 35
         },
         {
-          "to": "CRADLE_EXPANSE",
+          "to": "BORDER_SKIRMISH_RING",
           "type": "normal",
-          "min_level": 15
-        },
-        {
-          "to": "ORBITAL_NEUTRAL_HUB",
-          "type": "normal",
-          "min_level": 12
+          "min_level": 25
         }
       ]
     },
@@ -3831,11 +4183,16 @@
       "connections": [
         {
           "to": "SECURE_MINING_GRID",
-          "type": "restricted",
-          "min_level": 20
+          "type": "normal",
+          "min_level": 16
         },
         {
-          "to": "BORDER_SKIRMISH_RING",
+          "to": "SHARD_PULSE_PEAK",
+          "type": "normal",
+          "min_level": 25
+        },
+        {
+          "to": "AETHEL_STORM_BELT",
           "type": "normal",
           "min_level": 30
         }
@@ -3850,19 +4207,9 @@
           "min_level": 1
         },
         {
-          "to": "NEXUS_CROSSROADS",
+          "to": "PORT_MERIDIAN",
           "type": "normal",
-          "min_level": 10
-        },
-        {
-          "to": "CENTRAL_SPIRE_BAZAAR",
-          "type": "normal",
-          "min_level": 30
-        },
-        {
-          "to": "ORBITAL_NEUTRAL_HUB",
-          "type": "normal",
-          "min_level": 60
+          "min_level": 1
         }
       ]
     },
@@ -3877,10 +4224,15 @@
         {
           "to": "SHARDROOT_SWAMP",
           "type": "normal",
-          "min_level": 5
+          "min_level": 6
         },
         {
-          "to": "NEXUS_CROSSROADS",
+          "to": "AETHEL_GARDENS",
+          "type": "normal",
+          "min_level": 1
+        },
+        {
+          "to": "CORAL_WETLANDS",
           "type": "normal",
           "min_level": 1
         }
@@ -3892,17 +4244,17 @@
         {
           "to": "GLOWVINE_FOREST",
           "type": "normal",
-          "min_level": 5
+          "min_level": 1
         },
         {
           "to": "FRAGMENT_SHRINE",
           "type": "normal",
-          "min_level": 12
+          "min_level": 15
         },
         {
-          "to": "CENTRAL_SPIRE_BAZAAR",
+          "to": "SMUGGLER_JUNGLE",
           "type": "normal",
-          "min_level": 5
+          "min_level": 6
         }
       ]
     },
@@ -3912,22 +4264,22 @@
         {
           "to": "SHARDROOT_SWAMP",
           "type": "normal",
-          "min_level": 12
+          "min_level": 6
         },
         {
           "to": "HEARTWOOD_ALTAR",
-          "type": "restricted",
-          "min_level": 20
+          "type": "normal",
+          "min_level": 28
+        },
+        {
+          "to": "RESONANCE_CAVERNS",
+          "type": "normal",
+          "min_level": 13
         },
         {
           "to": "CRADLE_EXPANSE",
           "type": "normal",
-          "min_level": 15
-        },
-        {
-          "to": "ORBITAL_NEUTRAL_HUB",
-          "type": "normal",
-          "min_level": 12
+          "min_level": 20
         }
       ]
     },
@@ -3936,13 +4288,18 @@
       "connections": [
         {
           "to": "FRAGMENT_SHRINE",
-          "type": "restricted",
-          "min_level": 20
+          "type": "normal",
+          "min_level": 15
         },
         {
           "to": "AETHEL_STORM_BELT",
           "type": "normal",
           "min_level": 30
+        },
+        {
+          "to": "SHATTERED_HEART",
+          "type": "normal",
+          "min_level": 60
         }
       ]
     },
@@ -3955,19 +4312,9 @@
           "min_level": 1
         },
         {
-          "to": "NEXUS_CROSSROADS",
+          "to": "BASTION_CORE",
           "type": "normal",
-          "min_level": 10
-        },
-        {
-          "to": "CENTRAL_SPIRE_BAZAAR",
-          "type": "normal",
-          "min_level": 30
-        },
-        {
-          "to": "ORBITAL_NEUTRAL_HUB",
-          "type": "normal",
-          "min_level": 60
+          "min_level": 1
         }
       ]
     },
@@ -3982,12 +4329,7 @@
         {
           "to": "SCORCHED_BADLANDS",
           "type": "normal",
-          "min_level": 5
-        },
-        {
-          "to": "NEXUS_CROSSROADS",
-          "type": "normal",
-          "min_level": 1
+          "min_level": 6
         }
       ]
     },
@@ -3997,17 +4339,17 @@
         {
           "to": "DUNE_OUTSKIRTS",
           "type": "normal",
-          "min_level": 5
+          "min_level": 1
         },
         {
           "to": "MESA_WARPATH",
           "type": "normal",
-          "min_level": 12
+          "min_level": 16
         },
         {
-          "to": "CENTRAL_SPIRE_BAZAAR",
+          "to": "IRON_RAVINE",
           "type": "normal",
-          "min_level": 5
+          "min_level": 6
         }
       ]
     },
@@ -4017,22 +4359,22 @@
         {
           "to": "SCORCHED_BADLANDS",
           "type": "normal",
-          "min_level": 12
+          "min_level": 6
         },
         {
           "to": "FORGE_CANYON_DEPTHS",
-          "type": "restricted",
-          "min_level": 20
+          "type": "normal",
+          "min_level": 30
         },
         {
-          "to": "CRADLE_EXPANSE",
+          "to": "WAR_MACHINE_GRAVEYARD",
           "type": "normal",
-          "min_level": 15
+          "min_level": 13
         },
         {
-          "to": "ORBITAL_NEUTRAL_HUB",
+          "to": "BORDER_SKIRMISH_RING",
           "type": "normal",
-          "min_level": 12
+          "min_level": 25
         }
       ]
     },
@@ -4041,11 +4383,16 @@
       "connections": [
         {
           "to": "MESA_WARPATH",
-          "type": "restricted",
-          "min_level": 20
+          "type": "normal",
+          "min_level": 16
         },
         {
-          "to": "BORDER_SKIRMISH_RING",
+          "to": "TITAN_ASSEMBLY_YARD",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "AETHEL_STORM_BELT",
           "type": "normal",
           "min_level": 30
         }
@@ -4055,29 +4402,24 @@
       "id": "CRADLE_EXPANSE",
       "connections": [
         {
+          "to": "AETHEL_STORM_BELT",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "BLOOD_IRON_BASIN",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "BORDER_SKIRMISH_RING",
+          "type": "normal",
+          "min_level": 25
+        },
+        {
           "to": "CRADLE_OUTER_RING",
           "type": "normal",
-          "min_level": 15
-        },
-        {
-          "to": "RESONANCE_CAVERNS",
-          "type": "normal",
-          "min_level": 15
-        },
-        {
-          "to": "WAR_MACHINE_GRAVEYARD",
-          "type": "normal",
-          "min_level": 15
-        },
-        {
-          "to": "BLACK_DOCK_MARKET",
-          "type": "normal",
-          "min_level": 15
-        },
-        {
-          "to": "SECURE_MINING_GRID",
-          "type": "normal",
-          "min_level": 15
+          "min_level": 11
         },
         {
           "to": "FRAGMENT_SHRINE",
@@ -4085,29 +4427,29 @@
           "min_level": 15
         },
         {
-          "to": "MESA_WARPATH",
+          "to": "HIDDEN_AETHELGARDIAN_CITY",
           "type": "normal",
-          "min_level": 15
-        },
-        {
-          "to": "SHATTERED_HEART",
-          "type": "restricted",
           "min_level": 50
         },
         {
-          "to": "CENTRAL_SPIRE_BAZAAR",
+          "to": "INNER_CRADLE_EXCLUSION",
           "type": "normal",
-          "min_level": 15
+          "min_level": 25
         },
         {
-          "to": "BLOOD_IRON_BASIN",
+          "to": "RESONANCE_CAVERNS",
           "type": "normal",
-          "min_level": 30
+          "min_level": 13
+        },
+        {
+          "to": "SHATTERED_HEART",
+          "type": "normal",
+          "min_level": 60
         },
         {
           "to": "TITAN_GRAVEYARD",
           "type": "normal",
-          "min_level": 20
+          "min_level": 60
         }
       ]
     },
@@ -4115,49 +4457,14 @@
       "id": "AETHEL_STORM_BELT",
       "connections": [
         {
-          "to": "SHARD_PULSE_PEAK",
-          "type": "normal",
-          "min_level": 30
-        },
-        {
-          "to": "SUNKEN_AETHEL_RUIN",
-          "type": "normal",
-          "min_level": 30
-        },
-        {
-          "to": "HEARTWOOD_ALTAR",
-          "type": "normal",
-          "min_level": 30
-        },
-        {
-          "to": "BORDER_SKIRMISH_RING",
-          "type": "normal",
-          "min_level": 35
-        },
-        {
-          "to": "CENTRAL_SPIRE_BAZAAR",
-          "type": "normal",
-          "min_level": 30
-        },
-        {
           "to": "AETHEL_STORM_RIDGE",
           "type": "normal",
           "min_level": 50
-        }
-      ]
-    },
-    {
-      "id": "BORDER_SKIRMISH_RING",
-      "connections": [
-        {
-          "to": "TITAN_ASSEMBLY_YARD",
-          "type": "normal",
-          "min_level": 30
         },
         {
-          "to": "SKYBRIDGE_REACTOR",
+          "to": "CRADLE_EXPANSE",
           "type": "normal",
-          "min_level": 30
+          "min_level": 20
         },
         {
           "to": "FORGE_CANYON_DEPTHS",
@@ -4165,19 +4472,79 @@
           "min_level": 30
         },
         {
-          "to": "AETHEL_STORM_BELT",
+          "to": "HEARTWOOD_ALTAR",
+          "type": "normal",
+          "min_level": 28
+        },
+        {
+          "to": "HIDDEN_AETHELGARDIAN_CITY",
+          "type": "normal",
+          "min_level": 50
+        },
+        {
+          "to": "INNER_CRADLE_EXCLUSION",
+          "type": "normal",
+          "min_level": 25
+        },
+        {
+          "to": "SHARD_PULSE_PEAK",
+          "type": "normal",
+          "min_level": 25
+        },
+        {
+          "to": "SHATTERED_HEART",
+          "type": "normal",
+          "min_level": 60
+        },
+        {
+          "to": "SKYBRIDGE_REACTOR",
           "type": "normal",
           "min_level": 35
         },
         {
-          "to": "CENTRAL_SPIRE_BAZAAR",
+          "to": "SUNKEN_AETHEL_RUIN",
           "type": "normal",
           "min_level": 30
         },
         {
-          "to": "VOID_RIFT_CROSSROADS",
+          "to": "TITAN_ASSEMBLY_YARD",
           "type": "normal",
           "min_level": 30
+        }
+      ]
+    },
+    {
+      "id": "BORDER_SKIRMISH_RING",
+      "connections": [
+        {
+          "to": "BLACK_DOCK_MARKET",
+          "type": "normal",
+          "min_level": 15
+        },
+        {
+          "to": "CRADLE_EXPANSE",
+          "type": "normal",
+          "min_level": 20
+        },
+        {
+          "to": "MESA_WARPATH",
+          "type": "normal",
+          "min_level": 16
+        },
+        {
+          "to": "SECURE_MINING_GRID",
+          "type": "normal",
+          "min_level": 16
+        },
+        {
+          "to": "VOID_RIFT_CROSSROADS",
+          "type": "normal",
+          "min_level": 40
+        },
+        {
+          "to": "WAR_MACHINE_GRAVEYARD",
+          "type": "normal",
+          "min_level": 13
         }
       ]
     },
@@ -4185,22 +4552,47 @@
       "id": "SHATTERED_HEART",
       "connections": [
         {
+          "to": "AETHEL_STORM_BELT",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "BLOOD_IRON_BASIN",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
           "to": "CRADLE_EXPANSE",
-          "type": "restricted",
+          "type": "normal",
+          "min_level": 20
+        },
+        {
+          "to": "HEARTWOOD_ALTAR",
+          "type": "normal",
+          "min_level": 28
+        },
+        {
+          "to": "HIDDEN_AETHELGARDIAN_CITY",
+          "type": "normal",
           "min_level": 50
+        },
+        {
+          "to": "INNER_CRADLE_EXCLUSION",
+          "type": "normal",
+          "min_level": 25
         },
         {
           "to": "SEVERANCE_FAULTLINE",
           "type": "normal",
-          "min_level": 60
+          "min_level": 65
         },
         {
-          "to": "ORBITAL_NEUTRAL_HUB",
+          "to": "SUNKEN_AETHEL_RUIN",
           "type": "normal",
-          "min_level": 50
+          "min_level": 30
         },
         {
-          "to": "BLOOD_IRON_BASIN",
+          "to": "VOID_ECHO_CHASM",
           "type": "normal",
           "min_level": 55
         }
@@ -4210,24 +4602,14 @@
       "id": "SEVERANCE_FAULTLINE",
       "connections": [
         {
+          "to": "AETHEL_SIPHON_CORE",
+          "type": "normal",
+          "min_level": 70
+        },
+        {
           "to": "SHATTERED_HEART",
           "type": "normal",
           "min_level": 60
-        },
-        {
-          "to": "AETHEL_SIPHON_CORE",
-          "type": "normal",
-          "min_level": 65
-        },
-        {
-          "to": "ORBITAL_NEUTRAL_HUB",
-          "type": "normal",
-          "min_level": 60
-        },
-        {
-          "to": "HIDDEN_AETHELGARDIAN_CITY",
-          "type": "secret",
-          "min_level": 70
         },
         {
           "to": "TITAN_GRAVEYARD",
@@ -4247,11 +4629,6 @@
         {
           "to": "PRIMA_MATERIA_FORGE",
           "type": "normal",
-          "min_level": 70
-        },
-        {
-          "to": "VOID_ECHO_CHASM",
-          "type": "secret",
           "min_level": 75
         }
       ]
@@ -4265,19 +4642,39 @@
           "min_level": 70
         },
         {
-          "to": "ORBITAL_NEUTRAL_HUB",
-          "type": "normal",
-          "min_level": 70
-        },
-        {
           "to": "AETHEL_STORM_RIDGE",
           "type": "normal",
-          "min_level": 70
+          "min_level": 50
         },
         {
           "to": "ETERNAL_GATE",
           "type": "normal",
           "min_level": 75
+        }
+      ]
+    },
+    {
+      "id": "SENTINEL_ENCLAVE",
+      "connections": [
+        {
+          "to": "NEXUS_CORE",
+          "type": "normal",
+          "min_level": 1
+        },
+        {
+          "to": "THE_SPIRE",
+          "type": "normal",
+          "min_level": 1
+        },
+        {
+          "to": "OBSERVATORY_SPIRE",
+          "type": "normal",
+          "min_level": 1
+        },
+        {
+          "to": "PORT_MERIDIAN",
+          "type": "normal",
+          "min_level": 1
         }
       ]
     },
@@ -4285,14 +4682,24 @@
       "id": "HIDDEN_AETHELGARDIAN_CITY",
       "connections": [
         {
-          "to": "SEVERANCE_FAULTLINE",
-          "type": "secret",
-          "min_level": 70
+          "to": "AETHEL_STORM_BELT",
+          "type": "normal",
+          "min_level": 30
+        },
+        {
+          "to": "CRADLE_EXPANSE",
+          "type": "normal",
+          "min_level": 20
         },
         {
           "to": "ETERNAL_GATE",
           "type": "normal",
-          "min_level": 55
+          "min_level": 75
+        },
+        {
+          "to": "SHATTERED_HEART",
+          "type": "normal",
+          "min_level": 60
         }
       ]
     },
@@ -4300,14 +4707,14 @@
       "id": "VOID_ECHO_CHASM",
       "connections": [
         {
-          "to": "AETHEL_SIPHON_CORE",
-          "type": "secret",
-          "min_level": 75
-        },
-        {
           "to": "VOID_RIFT_CROSSROADS",
           "type": "normal",
           "min_level": 40
+        },
+        {
+          "to": "SHATTERED_HEART",
+          "type": "normal",
+          "min_level": 60
         }
       ]
     },
@@ -4315,7 +4722,17 @@
       "id": "ORBITAL_SENTINEL_COMMAND",
       "connections": [
         {
+          "to": "SENTINEL_ENCLAVE",
+          "type": "normal",
+          "min_level": 1
+        },
+        {
           "to": "NEXUS_CORE",
+          "type": "normal",
+          "min_level": 1
+        },
+        {
+          "to": "THE_SPIRE",
           "type": "normal",
           "min_level": 1
         }
@@ -4327,12 +4744,12 @@
         {
           "to": "CRADLE_EXPANSE",
           "type": "normal",
-          "min_level": 30
+          "min_level": 20
         },
         {
           "to": "SHATTERED_HEART",
           "type": "normal",
-          "min_level": 55
+          "min_level": 60
         }
       ]
     },
@@ -4342,12 +4759,12 @@
         {
           "to": "VOID_ECHO_CHASM",
           "type": "normal",
-          "min_level": 40
+          "min_level": 55
         },
         {
           "to": "BORDER_SKIRMISH_RING",
           "type": "normal",
-          "min_level": 30
+          "min_level": 25
         }
       ]
     },
@@ -4357,12 +4774,12 @@
         {
           "to": "AETHEL_STORM_BELT",
           "type": "normal",
-          "min_level": 50
+          "min_level": 30
         },
         {
           "to": "PRIMA_MATERIA_FORGE",
           "type": "normal",
-          "min_level": 70
+          "min_level": 75
         }
       ]
     },
@@ -4372,7 +4789,7 @@
         {
           "to": "SEVERANCE_FAULTLINE",
           "type": "normal",
-          "min_level": 60
+          "min_level": 65
         },
         {
           "to": "CRADLE_EXPANSE",
@@ -4392,7 +4809,7 @@
         {
           "to": "HIDDEN_AETHELGARDIAN_CITY",
           "type": "normal",
-          "min_level": 55
+          "min_level": 50
         }
       ]
     },
@@ -4402,72 +4819,72 @@
         {
           "to": "AETHEL_GARDENS",
           "type": "normal",
-          "min_level": 10
+          "min_level": 1
         },
         {
           "to": "CRYSTAL_SLOPE",
           "type": "normal",
-          "min_level": 10
+          "min_level": 1
         },
         {
           "to": "SCRAP_FIELD",
           "type": "normal",
-          "min_level": 10
+          "min_level": 1
         },
         {
           "to": "CORAL_WETLANDS",
           "type": "normal",
-          "min_level": 10
+          "min_level": 1
         },
         {
           "to": "HIGHLAND_PLATEAU",
           "type": "normal",
-          "min_level": 10
+          "min_level": 1
         },
         {
           "to": "GLOWVINE_FOREST",
           "type": "normal",
-          "min_level": 10
+          "min_level": 1
         },
         {
           "to": "DUNE_OUTSKIRTS",
           "type": "normal",
-          "min_level": 10
+          "min_level": 1
         },
         {
           "to": "NEXUS_CORE",
           "type": "normal",
-          "min_level": 10
+          "min_level": 1
         },
         {
           "to": "OBSERVATORY_SPIRE",
           "type": "normal",
-          "min_level": 10
+          "min_level": 1
         },
         {
           "to": "BASTION_CORE",
           "type": "normal",
-          "min_level": 10
+          "min_level": 1
         },
         {
           "to": "PORT_MERIDIAN",
           "type": "normal",
-          "min_level": 10
+          "min_level": 1
         },
         {
           "to": "THE_SPIRE",
           "type": "normal",
-          "min_level": 10
+          "min_level": 1
         },
         {
           "to": "SANCTUM",
           "type": "normal",
-          "min_level": 10
+          "min_level": 1
         },
         {
           "to": "FORTRESS_KAELEN",
           "type": "normal",
-          "min_level": 10
+          "min_level": 1
         }
       ]
     },
@@ -4477,87 +4894,87 @@
         {
           "to": "BROKEN_CIVIL_QUARTER",
           "type": "normal",
-          "min_level": 30
+          "min_level": 6
         },
         {
           "to": "FRACTURED_GLASS_VALLEY",
           "type": "normal",
-          "min_level": 30
+          "min_level": 6
         },
         {
           "to": "IRON_RAVINE",
           "type": "normal",
-          "min_level": 30
+          "min_level": 6
         },
         {
           "to": "SMUGGLER_JUNGLE",
           "type": "normal",
-          "min_level": 30
+          "min_level": 6
         },
         {
           "to": "EXTRACTION_ZONE_DELTA",
           "type": "normal",
-          "min_level": 30
+          "min_level": 6
         },
         {
           "to": "SHARDROOT_SWAMP",
           "type": "normal",
-          "min_level": 30
+          "min_level": 6
         },
         {
           "to": "SCORCHED_BADLANDS",
           "type": "normal",
-          "min_level": 30
+          "min_level": 6
         },
         {
           "to": "CRADLE_EXPANSE",
           "type": "normal",
-          "min_level": 30
+          "min_level": 10
         },
         {
           "to": "BORDER_SKIRMISH_RING",
           "type": "normal",
-          "min_level": 30
+          "min_level": 10
         },
         {
           "to": "AETHEL_STORM_BELT",
           "type": "normal",
-          "min_level": 30
+          "min_level": 10
         },
         {
           "to": "NEXUS_CORE",
           "type": "normal",
-          "min_level": 30
+          "min_level": 1
         },
         {
           "to": "OBSERVATORY_SPIRE",
           "type": "normal",
-          "min_level": 30
+          "min_level": 1
         },
         {
           "to": "BASTION_CORE",
           "type": "normal",
-          "min_level": 30
+          "min_level": 1
         },
         {
           "to": "PORT_MERIDIAN",
           "type": "normal",
-          "min_level": 30
+          "min_level": 1
         },
         {
           "to": "THE_SPIRE",
           "type": "normal",
-          "min_level": 30
+          "min_level": 1
         },
         {
           "to": "SANCTUM",
           "type": "normal",
-          "min_level": 30
+          "min_level": 1
         },
         {
           "to": "FORTRESS_KAELEN",
           "type": "normal",
-          "min_level": 30
+          "min_level": 1
         }
       ]
     },
@@ -4567,87 +4984,87 @@
         {
           "to": "CRADLE_OUTER_RING",
           "type": "normal",
-          "min_level": 60
+          "min_level": 10
         },
         {
           "to": "RESONANCE_CAVERNS",
           "type": "normal",
-          "min_level": 60
+          "min_level": 10
         },
         {
           "to": "WAR_MACHINE_GRAVEYARD",
           "type": "normal",
-          "min_level": 60
+          "min_level": 10
         },
         {
           "to": "BLACK_DOCK_MARKET",
           "type": "normal",
-          "min_level": 60
+          "min_level": 10
         },
         {
           "to": "SECURE_MINING_GRID",
           "type": "normal",
-          "min_level": 60
+          "min_level": 10
         },
         {
           "to": "FRAGMENT_SHRINE",
           "type": "normal",
-          "min_level": 60
+          "min_level": 10
         },
         {
           "to": "MESA_WARPATH",
           "type": "normal",
-          "min_level": 60
+          "min_level": 10
         },
         {
           "to": "SHATTERED_HEART",
           "type": "normal",
-          "min_level": 60
+          "min_level": 10
         },
         {
           "to": "SEVERANCE_FAULTLINE",
           "type": "normal",
-          "min_level": 60
+          "min_level": 10
         },
         {
           "to": "PRIMA_MATERIA_FORGE",
           "type": "normal",
-          "min_level": 60
+          "min_level": 10
         },
         {
           "to": "NEXUS_CORE",
           "type": "normal",
-          "min_level": 60
+          "min_level": 1
         },
         {
           "to": "OBSERVATORY_SPIRE",
           "type": "normal",
-          "min_level": 60
+          "min_level": 1
         },
         {
           "to": "BASTION_CORE",
           "type": "normal",
-          "min_level": 60
+          "min_level": 1
         },
         {
           "to": "PORT_MERIDIAN",
           "type": "normal",
-          "min_level": 60
+          "min_level": 1
         },
         {
           "to": "THE_SPIRE",
           "type": "normal",
-          "min_level": 60
+          "min_level": 1
         },
         {
           "to": "SANCTUM",
           "type": "normal",
-          "min_level": 60
+          "min_level": 1
         },
         {
           "to": "FORTRESS_KAELEN",
           "type": "normal",
-          "min_level": 60
+          "min_level": 1
         }
       ]
     }
