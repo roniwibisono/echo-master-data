@@ -1,0 +1,528 @@
+{
+  "version": "1.0.0",
+  "biomes": [
+    {
+      "id": "ancient_city",
+      "name": "Ancient City",
+      "climate": "temperate",
+      "description": "Ruins of the Aethelgardian civilization",
+      "color": "#8B9DC3",
+      "primary_resources": [
+        "aethel_shard",
+        "ancient_relic",
+        "data_fragment"
+      ],
+      "monster_themes": [
+        "sentinel",
+        "scavenger",
+        "slime"
+      ]
+    },
+    {
+      "id": "sacred_garden",
+      "name": "Sacred Garden",
+      "climate": "temperate",
+      "description": "Overgrown gardens with ancient flora",
+      "color": "#4A9E5E",
+      "primary_resources": [
+        "glowvine",
+        "sacred_herb",
+        "crystal_petal"
+      ],
+      "monster_themes": [
+        "forest",
+        "vine",
+        "sprite"
+      ]
+    },
+    {
+      "id": "urban_ruins",
+      "name": "Urban Ruins",
+      "climate": "temperate",
+      "description": "Decayed city sectors from the old wars",
+      "color": "#7B6B5A",
+      "primary_resources": [
+        "scrap_metal",
+        "salvaged_circuit",
+        "old_tech"
+      ],
+      "monster_themes": [
+        "scrap",
+        "scavenger",
+        "wraith"
+      ]
+    },
+    {
+      "id": "ancient_ring_road",
+      "name": "Ancient Ring Road",
+      "climate": "temperate",
+      "description": "The great road circling the Aethel Cradle",
+      "color": "#9E8B7D",
+      "primary_resources": [
+        "ring_road_stone",
+        "aethel_fragment",
+        "ancient_coin"
+      ],
+      "monster_themes": [
+        "ruin_guard",
+        "echo",
+        "scavenger"
+      ]
+    },
+    {
+      "id": "crystal_mountains",
+      "name": "Crystal Mountains",
+      "climate": "cold",
+      "description": "Towering crystal formations resonating with aethel energy",
+      "color": "#9B7EC4",
+      "primary_resources": [
+        "resonance_crystal",
+        "arcanite",
+        "shard_fragment"
+      ],
+      "monster_themes": [
+        "crystal",
+        "arcane",
+        "sprite"
+      ]
+    },
+    {
+      "id": "crystal_hills",
+      "name": "Crystal Hills",
+      "climate": "cold",
+      "description": "Rolling hills covered in crystal outcroppings",
+      "color": "#B09ED4",
+      "primary_resources": [
+        "crystal_shard",
+        "glass_fragment",
+        "arcane_dust"
+      ],
+      "monster_themes": [
+        "crystal",
+        "sprite",
+        "glass"
+      ]
+    },
+    {
+      "id": "crystal_cave",
+      "name": "Crystal Cave Network",
+      "climate": "cold",
+      "description": "Underground chambers of resonant crystal",
+      "color": "#7B6EA4",
+      "primary_resources": [
+        "deep_crystal",
+        "resonance_essence",
+        "cave_pearl"
+      ],
+      "monster_themes": [
+        "cave",
+        "crystal",
+        "echo"
+      ]
+    },
+    {
+      "id": "crystal_pass",
+      "name": "Crystal Pass",
+      "climate": "cold",
+      "description": "Mountain pass through crystal peaks",
+      "color": "#8B7EC4",
+      "primary_resources": [
+        "ridge_crystal",
+        "mountain_herb",
+        "wind_essence"
+      ],
+      "monster_themes": [
+        "mountain",
+        "crystal",
+        "wind"
+      ]
+    },
+    {
+      "id": "iron_fortress",
+      "name": "Iron Fortress",
+      "climate": "arid",
+      "description": "Impenetrable bastion of iron and steel",
+      "color": "#C0392B",
+      "primary_resources": [
+        "reinforced_iron",
+        "bastion_steel",
+        "forge_coal"
+      ],
+      "monster_themes": [
+        "iron",
+        "golem",
+        "guard"
+      ]
+    },
+    {
+      "id": "scrap_desert",
+      "name": "Scrap Desert",
+      "climate": "arid",
+      "description": "Endless dunes of scrap metal and debris",
+      "color": "#D4A04A",
+      "primary_resources": [
+        "salvaged_metal",
+        "scrap_copper",
+        "buried_tech"
+      ],
+      "monster_themes": [
+        "scrap",
+        "hound",
+        "worm"
+      ]
+    },
+    {
+      "id": "mining_canyon",
+      "name": "Mining Canyon",
+      "climate": "arid",
+      "description": "Deep canyons rich with mineral veins",
+      "color": "#A0522D",
+      "primary_resources": [
+        "iron_ore",
+        "titanium_vein",
+        "mineral_dust"
+      ],
+      "monster_themes": [
+        "rock",
+        "golem",
+        "drone"
+      ]
+    },
+    {
+      "id": "battlefield_junkyard",
+      "name": "Battlefield Junkyard",
+      "climate": "arid",
+      "description": "Abandoned war machines litter the landscape",
+      "color": "#8B4513",
+      "primary_resources": [
+        "war_machine_part",
+        "military_scrap",
+        "plasma_cell"
+      ],
+      "monster_themes": [
+        "war_machine",
+        "scrap",
+        "golem"
+      ]
+    },
+    {
+      "id": "tropical_port",
+      "name": "Tropical Port City",
+      "climate": "tropical",
+      "description": "Bustling harbor at the edge of the jungle sea",
+      "color": "#F1C40F",
+      "primary_resources": [
+        "exotic_spice",
+        "coral_gem",
+        "trade_goods"
+      ],
+      "monster_themes": [
+        "coral",
+        "serpent",
+        "tide"
+      ]
+    },
+    {
+      "id": "coastal_swamp",
+      "name": "Coastal Swamp",
+      "climate": "tropical",
+      "description": "Mangrove swamps where land meets sea",
+      "color": "#8FBC8F",
+      "primary_resources": [
+        "swamp_root",
+        "coral_fragment",
+        "brackish_pearl"
+      ],
+      "monster_themes": [
+        "swamp",
+        "serpent",
+        "lurker"
+      ]
+    },
+    {
+      "id": "tropical_jungle",
+      "name": "Tropical Jungle",
+      "climate": "tropical",
+      "description": "Dense jungle with smuggler hideouts",
+      "color": "#228B22",
+      "primary_resources": [
+        "jungle_vine",
+        "exotic_flower",
+        "rare_wood"
+      ],
+      "monster_themes": [
+        "jungle",
+        "stalker",
+        "predator"
+      ]
+    },
+    {
+      "id": "alpine_plateau",
+      "name": "Alpine Plateau",
+      "climate": "cold",
+      "description": "High-altitude plains under corporate control",
+      "color": "#87CEEB",
+      "primary_resources": [
+        "alpine_ore",
+        "wind_turbine_part",
+        "pure_water"
+      ],
+      "monster_themes": [
+        "alpine",
+        "wisp",
+        "mecha"
+      ]
+    },
+    {
+      "id": "arcology",
+      "name": "Arcology Megacity",
+      "climate": "cold",
+      "description": "Towering self-contained corporate city",
+      "color": "#00E5FF",
+      "primary_resources": [
+        "tech_component",
+        "data_drive",
+        "energy_cell"
+      ],
+      "monster_themes": [
+        "drone",
+        "mecha",
+        "plasma"
+      ]
+    },
+    {
+      "id": "industrial_mine",
+      "name": "Industrial Mine",
+      "climate": "cold",
+      "description": "Massive strip-mining operations",
+      "color": "#708090",
+      "primary_resources": [
+        "raw_ore",
+        "industrial_lubricant",
+        "mining_dynamite"
+      ],
+      "monster_themes": [
+        "mine",
+        "drone",
+        "rock"
+      ]
+    },
+    {
+      "id": "automated_mine",
+      "name": "Automated Mine",
+      "climate": "cold",
+      "description": "Fully automated mining grid network",
+      "color": "#696969",
+      "primary_resources": [
+        "refined_ore",
+        "automation_core",
+        "grid_power"
+      ],
+      "monster_themes": [
+        "automaton",
+        "drone",
+        "laser"
+      ]
+    },
+    {
+      "id": "sacred_temple",
+      "name": "Sacred Temple",
+      "climate": "temperate",
+      "description": "Ancient temple complex in the forest",
+      "color": "#7DFF9A",
+      "primary_resources": [
+        "temple_relic",
+        "sacred_water",
+        "shard_offering"
+      ],
+      "monster_themes": [
+        "temple",
+        "guardian",
+        "spirit"
+      ]
+    },
+    {
+      "id": "bioluminescent_forest",
+      "name": "Bioluminescent Forest",
+      "climate": "temperate",
+      "description": "Forest glowing with ethereal light",
+      "color": "#3CB371",
+      "primary_resources": [
+        "glowvine",
+        "luminous_mushroom",
+        "fairy_dust"
+      ],
+      "monster_themes": [
+        "forest",
+        "fairy",
+        "glow"
+      ]
+    },
+    {
+      "id": "toxic_swamp",
+      "name": "Toxic Swamp",
+      "climate": "temperate",
+      "description": "Poisonous bog fed by shardroot toxins",
+      "color": "#556B2F",
+      "primary_resources": [
+        "toxin_sac",
+        "mutated_spore",
+        "swamp_gas"
+      ],
+      "monster_themes": [
+        "swamp",
+        "toxic",
+        "mutant"
+      ]
+    },
+    {
+      "id": "mesa_fortress",
+      "name": "Mesa Fortress",
+      "climate": "arid",
+      "description": "Fortress carved into red mesa cliffs",
+      "color": "#FF7A18",
+      "primary_resources": [
+        "mesa_stone",
+        "fortress_supply",
+        "legion_banner"
+      ],
+      "monster_themes": [
+        "mesa",
+        "legion",
+        "warrior"
+      ]
+    },
+    {
+      "id": "desert_edge",
+      "name": "Desert Edge",
+      "climate": "arid",
+      "description": "Border between mesa and deep desert",
+      "color": "#DEB887",
+      "primary_resources": [
+        "desert_herb",
+        "sandstone",
+        "dune_crystal"
+      ],
+      "monster_themes": [
+        "desert",
+        "dune",
+        "scorpion"
+      ]
+    },
+    {
+      "id": "volcanic_badlands",
+      "name": "Volcanic Badlands",
+      "climate": "arid",
+      "description": "Scorched earth with active lava flows",
+      "color": "#CD5C5C",
+      "primary_resources": [
+        "volcanic_glass",
+        "obsidian",
+        "lava_core"
+      ],
+      "monster_themes": [
+        "volcano",
+        "fire",
+        "drake"
+      ]
+    },
+    {
+      "id": "rocky_mesa",
+      "name": "Rocky Mesa",
+      "climate": "arid",
+      "description": "Flat-topped mountains with steep cliffs",
+      "color": "#D2691E",
+      "primary_resources": [
+        "mesa_iron",
+        "ancient_fossil",
+        "wind_eroded_stone"
+      ],
+      "monster_themes": [
+        "mesa",
+        "pterosaur",
+        "rock"
+      ]
+    },
+    {
+      "id": "aethel_wasteland",
+      "name": "Aethel Wasteland",
+      "climate": "wasteland",
+      "description": "Contested no-man's-land saturated with aethel radiation",
+      "color": "#6C3483",
+      "primary_resources": [
+        "corrupted_shard",
+        "wasteland_scrap",
+        "aethel_isotope"
+      ],
+      "monster_themes": [
+        "corrupted",
+        "void",
+        "rift"
+      ]
+    },
+    {
+      "id": "storm_wasteland",
+      "name": "Storm Wasteland",
+      "climate": "storm",
+      "description": "Perpetual aethel storms ravage this region",
+      "color": "#2C3E50",
+      "primary_resources": [
+        "storm_core",
+        "lightning_crystal",
+        "charged_dust"
+      ],
+      "monster_themes": [
+        "storm",
+        "lightning",
+        "elemental"
+      ]
+    },
+    {
+      "id": "endgame_abyss",
+      "name": "Endgame Abyss",
+      "climate": "void",
+      "description": "Deepest reaches of shattered reality",
+      "color": "#1A1A2E",
+      "primary_resources": [
+        "void_essence",
+        "dark_matter",
+        "primordial_core"
+      ],
+      "monster_themes": [
+        "abyss",
+        "void",
+        "primordial"
+      ]
+    },
+    {
+      "id": "orbital",
+      "name": "Orbital Installation",
+      "climate": "orbital",
+      "description": "Space station in geosynchronous orbit",
+      "color": "#4A5568",
+      "primary_resources": [
+        "orbital_alloy",
+        "satellite_part",
+        "star_chart"
+      ],
+      "monster_themes": [
+        "orbital",
+        "sentinel",
+        "defense"
+      ]
+    },
+    {
+      "id": "neutral",
+      "name": "Neutral Territory",
+      "climate": "temperate",
+      "description": "Safe neutral trade and rest zones",
+      "color": "#A0AEC0",
+      "primary_resources": [
+        "trade_goods",
+        "travel_pass",
+        "refreshment"
+      ],
+      "monster_themes": []
+    }
+  ]
+}

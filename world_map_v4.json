@@ -1,0 +1,6108 @@
+{
+  "world": {
+    "id": "PLANET_XYLOS",
+    "name": "Planet Xylos",
+    "version": "4.0.0",
+    "system": "Aethelgard System"
+  },
+  "factions": [
+    {
+      "id": "CONCORDIUM",
+      "name": "Concordium",
+      "capital": "NEXUS_CORE",
+      "region": "CONCORDIUM_CORE",
+      "color": "#5FB3FF"
+    },
+    {
+      "id": "THE_ARCANUM_SEEKERS",
+      "name": "The Arcanum Seekers",
+      "capital": "OBSERVATORY_SPIRE",
+      "region": "ARCANUM_SEEKERS",
+      "color": "#B084FF"
+    },
+    {
+      "id": "IRON_HEGEMONY",
+      "name": "Iron Hegemony",
+      "capital": "BASTION_CORE",
+      "region": "IRON_HEGEMONY",
+      "color": "#C0392B"
+    },
+    {
+      "id": "MERIDIAN_CARTEL",
+      "name": "Meridian Cartel",
+      "capital": "PORT_MERIDIAN",
+      "region": "MERIDIAN_CARTEL",
+      "color": "#F1C40F"
+    },
+    {
+      "id": "OMNICORP",
+      "name": "OmniCorp",
+      "capital": "THE_SPIRE",
+      "region": "OMNICORP",
+      "color": "#00E5FF"
+    },
+    {
+      "id": "CHILDREN_OF_THE_SHARD",
+      "name": "Children of the Shard",
+      "capital": "SANCTUM",
+      "region": "CHILDREN_OF_THE_SHARD",
+      "color": "#7DFF9A"
+    },
+    {
+      "id": "STARFORGED_LEGION",
+      "name": "Starforged Legion",
+      "capital": "FORTRESS_KAELEN",
+      "region": "STARFORGED_LEGION",
+      "color": "#FF7A18"
+    },
+    {
+      "id": "GALACTIC_CUSTODIANS",
+      "name": "Galactic Custodians",
+      "capital": "SENTINEL_ENCLAVE",
+      "region": "ORBITAL_ZONES",
+      "color": "#8B9DC3"
+    }
+  ],
+  "regions": [
+    {
+      "id": "CONCORDIUM_CORE",
+      "name": "Nexus & Aethel Cradle",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "biome": {
+        "primary": "ancient_city",
+        "secondary": "aethel_ruins",
+        "climate": "temperate"
+      },
+      "type": "central"
+    },
+    {
+      "id": "ARCANUM_SEEKERS",
+      "name": "Arcanum Seekers Territory",
+      "position": {
+        "x": 2,
+        "y": -1
+      },
+      "biome": {
+        "primary": "crystal_mountains",
+        "secondary": "arcane_citadel",
+        "climate": "cold"
+      },
+      "type": "faction"
+    },
+    {
+      "id": "IRON_HEGEMONY",
+      "name": "Iron Hegemony Territory",
+      "position": {
+        "x": -2,
+        "y": -1
+      },
+      "biome": {
+        "primary": "iron_fortress",
+        "secondary": "scrap_desert",
+        "climate": "arid"
+      },
+      "type": "faction"
+    },
+    {
+      "id": "MERIDIAN_CARTEL",
+      "name": "Meridian Cartel Territory",
+      "position": {
+        "x": 2,
+        "y": 1
+      },
+      "biome": {
+        "primary": "tropical_port",
+        "secondary": "coastal_swamp",
+        "climate": "tropical"
+      },
+      "type": "faction"
+    },
+    {
+      "id": "OMNICORP",
+      "name": "OmniCorp Territory",
+      "position": {
+        "x": 0,
+        "y": -2
+      },
+      "biome": {
+        "primary": "arcology",
+        "secondary": "alpine_plateau",
+        "climate": "cold"
+      },
+      "type": "faction"
+    },
+    {
+      "id": "CHILDREN_OF_THE_SHARD",
+      "name": "Children of the Shard Territory",
+      "position": {
+        "x": -2,
+        "y": 2
+      },
+      "biome": {
+        "primary": "sacred_temple",
+        "secondary": "bioluminescent_forest",
+        "climate": "temperate"
+      },
+      "type": "faction"
+    },
+    {
+      "id": "STARFORGED_LEGION",
+      "name": "Starforged Legion Territory",
+      "position": {
+        "x": 0,
+        "y": 3
+      },
+      "biome": {
+        "primary": "mesa_fortress",
+        "secondary": "volcanic_badlands",
+        "climate": "arid"
+      },
+      "type": "faction"
+    },
+    {
+      "id": "PvP_CORE",
+      "name": "Cradle Expanse \u2014 PvP Core",
+      "position": {
+        "x": 0,
+        "y": 2
+      },
+      "biome": {
+        "primary": "aethel_wasteland",
+        "secondary": "pvp",
+        "climate": "wasteland"
+      },
+      "type": "conflict"
+    },
+    {
+      "id": "PvP_ZONES",
+      "name": "Outer Conflict Zones",
+      "position": {
+        "x": 0,
+        "y": 3
+      },
+      "biome": {
+        "primary": "wasteland",
+        "secondary": "pvp",
+        "climate": "wasteland"
+      },
+      "type": "conflict"
+    },
+    {
+      "id": "SHATTERED_HEART",
+      "name": "Shattered Heart \u2014 Endgame",
+      "position": {
+        "x": 0,
+        "y": 5
+      },
+      "biome": {
+        "primary": "endgame_abyss",
+        "secondary": "aethel_core",
+        "climate": "void"
+      },
+      "type": "endgame"
+    },
+    {
+      "id": "SECRET_ZONES",
+      "name": "Secret Zones",
+      "position": {
+        "x": 3,
+        "y": 2
+      },
+      "biome": {
+        "primary": "hidden",
+        "secondary": "secret",
+        "climate": "temperate"
+      },
+      "type": "secret"
+    },
+    {
+      "id": "ORBITAL_ZONES",
+      "name": "Orbital Installations",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "biome": {
+        "primary": "orbital",
+        "secondary": "space_station",
+        "climate": "orbital"
+      },
+      "type": "orbital"
+    },
+    {
+      "id": "NEUTRAL_ZONES",
+      "name": "Neutral Trade Hubs",
+      "position": {
+        "x": 0,
+        "y": 1
+      },
+      "biome": {
+        "primary": "neutral",
+        "secondary": "trade_hub",
+        "climate": "temperate"
+      },
+      "type": "neutral"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "NEXUS_CORE",
+      "name": "Nexus Core",
+      "region": "CONCORDIUM_CORE",
+      "node_type": "capital",
+      "world_position": {
+        "x": 0,
+        "y": 0
+      },
+      "map_position": {
+        "region_x": 0,
+        "region_y": 0,
+        "local_x": 50,
+        "local_y": 50
+      },
+      "relative_layout": {
+        "north": "HIGH_RIDGE_PASS",
+        "south": "SENTINEL_ENCLAVE",
+        "west": "AETHEL_GARDENS",
+        "east": "BROKEN_CIVIL_QUARTER"
+      },
+      "biome": {
+        "primary": "ancient_city",
+        "secondary": "aethel_ruins",
+        "climate": "temperate"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "CONCORDIUM",
+      "is_safe_zone": true,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "travel",
+        "trade",
+        "craft"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [
+        {
+          "node_id": "mat_iron_ore",
+          "chance": 0.3
+        },
+        {
+          "node_id": "mat_aethel_dust",
+          "chance": 0.25
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_concordium_merchant",
+        "npc_master_blacksmith",
+        "npc_innkeeper",
+        "npc_quest_board",
+        "npc_concordium_officer",
+        "npc_concordium_class_trainer"
+      ]
+    },
+    {
+      "id": "AETHEL_GARDENS",
+      "name": "Aethel Gardens",
+      "region": "CONCORDIUM_CORE",
+      "node_type": "starter",
+      "world_position": {
+        "x": -1,
+        "y": 0
+      },
+      "map_position": {
+        "region_x": -1,
+        "region_y": 0,
+        "local_x": 20,
+        "local_y": 50
+      },
+      "relative_layout": {
+        "east": "NEXUS_CORE",
+        "south": "CRADLE_OUTER_RING",
+        "south_west": "GLOWVINE_FOREST"
+      },
+      "biome": {
+        "primary": "sacred_garden",
+        "secondary": "ancient_forest",
+        "climate": "temperate"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "CONCORDIUM",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt",
+        "gather",
+        "travel"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5001,
+          "spawn_weight": 30
+        },
+        {
+          "monster_id": 5006,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 5007,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 5041,
+          "spawn_weight": 12
+        },
+        {
+          "monster_id": 5043,
+          "spawn_weight": 8
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "mat_aethel_dust",
+          "chance": 0.65
+        },
+        {
+          "node_id": "crs_resonant_shard",
+          "chance": 0.55
+        },
+        {
+          "node_id": "mat_iron_ore",
+          "chance": 0.5
+        },
+        {
+          "node_id": "crs_aether_crystal",
+          "chance": 0.35
+        },
+        {
+          "node_id": "rat_fang",
+          "chance": 0.4
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_garden_scout"
+      ]
+    },
+    {
+      "id": "BROKEN_CIVIL_QUARTER",
+      "name": "Broken Civil Quarter",
+      "region": "CONCORDIUM_CORE",
+      "node_type": "mid",
+      "world_position": {
+        "x": 1,
+        "y": 0
+      },
+      "map_position": {
+        "region_x": 1,
+        "region_y": 0,
+        "local_x": 80,
+        "local_y": 50
+      },
+      "relative_layout": {
+        "west": "NEXUS_CORE",
+        "south": "CRADLE_OUTER_RING",
+        "north_east": "CRYSTAL_RIDGE"
+      },
+      "biome": {
+        "primary": "urban_ruins",
+        "secondary": "urban_decay",
+        "climate": "temperate"
+      },
+      "level_range": [
+        6,
+        10
+      ],
+      "faction_owner": "CONCORDIUM",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt",
+        "travel"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5023,
+          "spawn_weight": 30
+        },
+        {
+          "monster_id": 5042,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 5101,
+          "spawn_weight": 20
+        },
+        {
+          "monster_id": 5105,
+          "spawn_weight": 15
+        },
+        {
+          "monster_id": 5032,
+          "spawn_weight": 7
+        },
+        {
+          "monster_id": 5106,
+          "spawn_weight": 3
+        },
+        {
+          "monster_id": 50033,
+          "spawn_weight": 18
+        },
+        {
+          "monster_id": 50037,
+          "spawn_weight": 14
+        },
+        {
+          "monster_id": 50038,
+          "spawn_weight": 10
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "refined_scrap",
+          "chance": 0.55
+        },
+        {
+          "node_id": "mat_nanite_fragment",
+          "chance": 0.5
+        },
+        {
+          "node_id": "sensor_chip",
+          "chance": 0.4
+        },
+        {
+          "node_id": "power_regulator_core",
+          "chance": 0.3
+        },
+        {
+          "node_id": "crystal_core",
+          "chance": 0.25
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_scavenger"
+      ]
+    },
+    {
+      "id": "CRADLE_OUTER_RING",
+      "name": "Cradle Outer Ring",
+      "region": "CONCORDIUM_CORE",
+      "node_type": "high",
+      "world_position": {
+        "x": 0,
+        "y": 1
+      },
+      "map_position": {
+        "region_x": 0,
+        "region_y": 1,
+        "local_x": 50,
+        "local_y": 80
+      },
+      "relative_layout": {
+        "north": "NEXUS_CORE",
+        "north_west": "AETHEL_GARDENS",
+        "north_east": "BROKEN_CIVIL_QUARTER",
+        "south": "CRADLE_EXPANSE"
+      },
+      "biome": {
+        "primary": "ancient_ring_road",
+        "secondary": "ruins",
+        "climate": "temperate"
+      },
+      "level_range": [
+        11,
+        20
+      ],
+      "faction_owner": "CONCORDIUM",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt",
+        "travel"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5115,
+          "spawn_weight": 35
+        },
+        {
+          "monster_id": 5116,
+          "spawn_weight": 30
+        },
+        {
+          "monster_id": 5117,
+          "spawn_weight": 20
+        },
+        {
+          "monster_id": 5118,
+          "spawn_weight": 10
+        },
+        {
+          "monster_id": 5115,
+          "spawn_weight": 5
+        },
+        {
+          "monster_id": 50041,
+          "spawn_weight": 20
+        },
+        {
+          "monster_id": 50042,
+          "spawn_weight": 16
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "crystal_core",
+          "chance": 0.45
+        },
+        {
+          "node_id": "void_crystal_shard",
+          "chance": 0.25
+        },
+        {
+          "node_id": "black_matter_residue",
+          "chance": 0.22
+        },
+        {
+          "node_id": "mat_nanite_fragment",
+          "chance": 0.55
+        },
+        {
+          "node_id": "adaptive_nanite_gel",
+          "chance": 0.18
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_patrol_guard"
+      ]
+    },
+    {
+      "id": "INNER_CRADLE_EXCLUSION",
+      "name": "Inner Cradle Exclusion",
+      "region": "CONCORDIUM_CORE",
+      "node_type": "high",
+      "world_position": {
+        "x": 1,
+        "y": 2
+      },
+      "map_position": {
+        "region_x": 1,
+        "region_y": 2,
+        "local_x": 85,
+        "local_y": 75
+      },
+      "relative_layout": {
+        "north": "CRADLE_OUTER_RING",
+        "south": "CRADLE_EXPANSE",
+        "west": "AETHEL_STORM_BELT",
+        "east": "SHATTERED_HEART"
+      },
+      "biome": {
+        "primary": "ancient_ring_road",
+        "secondary": "aethel_ruins",
+        "climate": "temperate"
+      },
+      "level_range": [
+        25,
+        35
+      ],
+      "faction_owner": "CONCORDIUM",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5201,
+          "spawn_weight": 35
+        },
+        {
+          "monster_id": 5202,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 5203,
+          "spawn_weight": 20
+        },
+        {
+          "monster_id": 5201,
+          "spawn_weight": 10
+        },
+        {
+          "monster_id": 5202,
+          "spawn_weight": 7
+        },
+        {
+          "monster_id": 50050,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 50051,
+          "spawn_weight": 14
+        },
+        {
+          "monster_id": 50052,
+          "spawn_weight": 8
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "void_crystal_shard",
+          "chance": 0.3
+        },
+        {
+          "node_id": "dark_energy_fragment",
+          "chance": 0.25
+        },
+        {
+          "node_id": "entropy_core",
+          "chance": 0.2
+        },
+        {
+          "node_id": "adaptive_nanite_gel",
+          "chance": 0.22
+        },
+        {
+          "node_id": "black_matter_residue",
+          "chance": 0.28
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_veteran_explorer"
+      ]
+    },
+    {
+      "id": "SENTINEL_ENCLAVE",
+      "name": "Sentinel Enclave",
+      "region": "ORBITAL_ZONES",
+      "node_type": "orbital",
+      "world_position": {
+        "x": 0,
+        "y": 1
+      },
+      "map_position": {
+        "region_x": 0,
+        "region_y": 1,
+        "local_x": 50,
+        "local_y": 58
+      },
+      "relative_layout": {
+        "north": "NEXUS_CORE"
+      },
+      "biome": {
+        "primary": "neutral_fortress",
+        "secondary": "orbital_station",
+        "climate": "orbital"
+      },
+      "level_range": [
+        1,
+        99
+      ],
+      "faction_owner": "GALACTIC_CUSTODIANS",
+      "is_safe_zone": true,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "travel",
+        "trade",
+        "sanction",
+        "currency_exchange"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": []
+    },
+    {
+      "id": "OBSERVATORY_SPIRE",
+      "name": "Observatory Spire",
+      "region": "ARCANUM_SEEKERS",
+      "node_type": "capital",
+      "world_position": {
+        "x": 2,
+        "y": -1
+      },
+      "map_position": {
+        "region_x": 2,
+        "region_y": -1,
+        "local_x": 80,
+        "local_y": 15
+      },
+      "relative_layout": {
+        "south": "CRYSTAL_SLOPE",
+        "south_west": "CRYSTAL_RIDGE"
+      },
+      "biome": {
+        "primary": "crystal_mountains",
+        "secondary": "arcane_citadel",
+        "climate": "cold"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "THE_ARCANUM_SEEKERS",
+      "is_safe_zone": true,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "travel",
+        "research"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [
+        {
+          "node_id": "crs_resonant_shard",
+          "chance": 0.3
+        },
+        {
+          "node_id": "mat_aethel_dust",
+          "chance": 0.25
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_arcanum_merchant",
+        "npc_master_blacksmith",
+        "npc_innkeeper",
+        "npc_quest_board",
+        "npc_arcanum_scholar",
+        "npc_arcanum_class_trainer"
+      ]
+    },
+    {
+      "id": "CRYSTAL_SLOPE",
+      "name": "Crystal Slope",
+      "region": "ARCANUM_SEEKERS",
+      "node_type": "starter",
+      "world_position": {
+        "x": 2,
+        "y": 0
+      },
+      "map_position": {
+        "region_x": 2,
+        "region_y": 0,
+        "local_x": 75,
+        "local_y": 35
+      },
+      "relative_layout": {
+        "north": "OBSERVATORY_SPIRE",
+        "west": "CRYSTAL_RIDGE",
+        "south_west": "DATA_VAULT_RUINS",
+        "south_east": "RESONANCE_CAVERNS"
+      },
+      "biome": {
+        "primary": "crystal_hills",
+        "secondary": "shard_fields",
+        "climate": "cold"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "THE_ARCANUM_SEEKERS",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5004,
+          "spawn_weight": 32
+        },
+        {
+          "monster_id": 5008,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 5009,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 5024,
+          "spawn_weight": 10
+        },
+        {
+          "monster_id": 5044,
+          "spawn_weight": 5
+        },
+        {
+          "monster_id": 50018,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 50022,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 50023,
+          "spawn_weight": 15
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "crs_resonant_shard",
+          "chance": 0.7
+        },
+        {
+          "node_id": "crs_aether_crystal",
+          "chance": 0.55
+        },
+        {
+          "node_id": "mat_aethel_dust",
+          "chance": 0.45
+        },
+        {
+          "node_id": "crystal_core",
+          "chance": 0.25
+        },
+        {
+          "node_id": "mite_chitin",
+          "chance": 0.4
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_novice_researcher"
+      ]
+    },
+    {
+      "id": "FRACTURED_GLASS_VALLEY",
+      "name": "Fractured Glass Valley",
+      "region": "ARCANUM_SEEKERS",
+      "node_type": "mid",
+      "world_position": {
+        "x": 1,
+        "y": 0
+      },
+      "map_position": {
+        "region_x": 1,
+        "region_y": 0,
+        "local_x": 65,
+        "local_y": 55
+      },
+      "relative_layout": {
+        "north": "CRYSTAL_SLOPE",
+        "south": "RESONANCE_CAVERNS",
+        "east": "CRADLE_OUTER_RING"
+      },
+      "biome": {
+        "primary": "crystal_hills",
+        "secondary": "glass_fields",
+        "climate": "cold"
+      },
+      "level_range": [
+        6,
+        12
+      ],
+      "faction_owner": "THE_ARCANUM_SEEKERS",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5102,
+          "spawn_weight": 35
+        },
+        {
+          "monster_id": 5117,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 5118,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 5117,
+          "spawn_weight": 10
+        },
+        {
+          "monster_id": 5118,
+          "spawn_weight": 5
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "crystal_core",
+          "chance": 0.55
+        },
+        {
+          "node_id": "crs_resonant_shard",
+          "chance": 0.5
+        },
+        {
+          "node_id": "black_matter_residue",
+          "chance": 0.2
+        },
+        {
+          "node_id": "void_crystal_shard",
+          "chance": 0.15
+        },
+        {
+          "node_id": "mat_nanite_fragment",
+          "chance": 0.45
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_glass_collector"
+      ]
+    },
+    {
+      "id": "RESONANCE_CAVERNS",
+      "name": "Resonance Caverns",
+      "region": "ARCANUM_SEEKERS",
+      "node_type": "high",
+      "world_position": {
+        "x": 2,
+        "y": 1
+      },
+      "map_position": {
+        "region_x": 2,
+        "region_y": 1,
+        "local_x": 80,
+        "local_y": 65
+      },
+      "relative_layout": {
+        "north": "FRACTURED_GLASS_VALLEY",
+        "west": "DATA_VAULT_RUINS",
+        "south_west": "CRADLE_EXPANSE",
+        "east": "SHARD_PULSE_PEAK"
+      },
+      "biome": {
+        "primary": "crystal_cave",
+        "secondary": "resonance_chamber",
+        "climate": "cold"
+      },
+      "level_range": [
+        13,
+        20
+      ],
+      "faction_owner": "THE_ARCANUM_SEEKERS",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5125,
+          "spawn_weight": 38
+        },
+        {
+          "monster_id": 5126,
+          "spawn_weight": 30
+        },
+        {
+          "monster_id": 4013,
+          "spawn_weight": 18
+        },
+        {
+          "monster_id": 4019,
+          "spawn_weight": 10
+        },
+        {
+          "monster_id": 5126,
+          "spawn_weight": 4
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "crs_resonant_shard",
+          "chance": 0.6
+        },
+        {
+          "node_id": "crystal_core",
+          "chance": 0.45
+        },
+        {
+          "node_id": "void_crystal_shard",
+          "chance": 0.28
+        },
+        {
+          "node_id": "black_matter_residue",
+          "chance": 0.22
+        },
+        {
+          "node_id": "entropy_core",
+          "chance": 0.18
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_cave_spelunker"
+      ]
+    },
+    {
+      "id": "SHARD_PULSE_PEAK",
+      "name": "Shard Pulse Peak",
+      "region": "ARCANUM_SEEKERS",
+      "node_type": "high",
+      "world_position": {
+        "x": 3,
+        "y": 1
+      },
+      "map_position": {
+        "region_x": 3,
+        "region_y": 1,
+        "local_x": 95,
+        "local_y": 70
+      },
+      "relative_layout": {
+        "west": "RESONANCE_CAVERNS",
+        "south": "AETHEL_STORM_BELT",
+        "north": "SKYBRIDGE_REACTOR"
+      },
+      "biome": {
+        "primary": "crystal_mountains",
+        "secondary": "shard_pulse",
+        "climate": "cold"
+      },
+      "level_range": [
+        25,
+        40
+      ],
+      "faction_owner": "THE_ARCANUM_SEEKERS",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5204,
+          "spawn_weight": 38
+        },
+        {
+          "monster_id": 5205,
+          "spawn_weight": 30
+        },
+        {
+          "monster_id": 5206,
+          "spawn_weight": 20
+        },
+        {
+          "monster_id": 5206,
+          "spawn_weight": 8
+        },
+        {
+          "monster_id": 5205,
+          "spawn_weight": 4
+        },
+        {
+          "monster_id": 50053,
+          "spawn_weight": 30
+        },
+        {
+          "monster_id": 50054,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 50055,
+          "spawn_weight": 12
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "void_crystal_shard",
+          "chance": 0.35
+        },
+        {
+          "node_id": "dark_energy_fragment",
+          "chance": 0.28
+        },
+        {
+          "node_id": "entropy_core",
+          "chance": 0.22
+        },
+        {
+          "node_id": "adaptive_nanite_gel",
+          "chance": 0.2
+        },
+        {
+          "node_id": "gravity_well_core",
+          "chance": 0.12
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_peak_watcher"
+      ]
+    },
+    {
+      "id": "DATA_VAULT_RUINS",
+      "name": "DATA_VAULT_RUINS",
+      "region": "ARCANUM_SEEKERS",
+      "node_type": "mid",
+      "world_position": {
+        "x": 1,
+        "y": 0
+      },
+      "map_position": {
+        "region_x": 1,
+        "region_y": 0,
+        "local_x": 55,
+        "local_y": 45
+      },
+      "relative_layout": {
+        "north": "CRYSTAL_SLOPE",
+        "east": "RESONANCE_CAVERNS",
+        "west": "CRYSTAL_RIDGE"
+      },
+      "biome": {
+        "primary": "ancient_tech_ruins",
+        "secondary": "data_vault",
+        "climate": "cold"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "travel"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": []
+    },
+    {
+      "id": "CRYSTAL_RIDGE",
+      "name": "CRYSTAL_RIDGE",
+      "region": "ARCANUM_SEEKERS",
+      "node_type": "mid",
+      "world_position": {
+        "x": 1,
+        "y": -1
+      },
+      "map_position": {
+        "region_x": 1,
+        "region_y": -1,
+        "local_x": 40,
+        "local_y": 30
+      },
+      "relative_layout": {
+        "north_east": "OBSERVATORY_SPIRE",
+        "east": "DATA_VAULT_RUINS",
+        "west": "BROKEN_CIVIL_QUARTER"
+      },
+      "biome": {
+        "primary": "crystal_pass",
+        "secondary": "ridge_path",
+        "climate": "cold"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "travel"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": []
+    },
+    {
+      "id": "BASTION_CORE",
+      "name": "Bastion Core",
+      "region": "IRON_HEGEMONY",
+      "node_type": "capital",
+      "world_position": {
+        "x": -2,
+        "y": -1
+      },
+      "map_position": {
+        "region_x": -2,
+        "region_y": -1,
+        "local_x": 15,
+        "local_y": 20
+      },
+      "relative_layout": {
+        "south": "SCRAP_FIELD"
+      },
+      "biome": {
+        "primary": "iron_fortress",
+        "secondary": "fortress_interior",
+        "climate": "arid"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "IRON_HEGEMONY",
+      "is_safe_zone": true,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "travel",
+        "forge"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [
+        {
+          "node_id": "refined_scrap",
+          "chance": 0.3
+        },
+        {
+          "node_id": "metal_shard",
+          "chance": 0.3
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_hegemony_merchant",
+        "npc_master_blacksmith",
+        "npc_innkeeper",
+        "npc_quest_board",
+        "npc_hegemony_commander",
+        "npc_hegemony_class_trainer"
+      ]
+    },
+    {
+      "id": "SCRAP_FIELD",
+      "name": "Scrap Field",
+      "region": "IRON_HEGEMONY",
+      "node_type": "starter",
+      "world_position": {
+        "x": -2,
+        "y": 0
+      },
+      "map_position": {
+        "region_x": -2,
+        "region_y": 0,
+        "local_x": 12,
+        "local_y": 40
+      },
+      "relative_layout": {
+        "north": "BASTION_CORE",
+        "south": "IRON_RAVINE",
+        "east": "BROKEN_CIVIL_QUARTER"
+      },
+      "biome": {
+        "primary": "scrap_desert",
+        "secondary": "battlefield_remnants",
+        "climate": "arid"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "IRON_HEGEMONY",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5003,
+          "spawn_weight": 33
+        },
+        {
+          "monster_id": 5010,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 5032,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 5003,
+          "spawn_weight": 12
+        },
+        {
+          "monster_id": 5042,
+          "spawn_weight": 5
+        },
+        {
+          "monster_id": 5011,
+          "spawn_weight": 20
+        },
+        {
+          "monster_id": 5034,
+          "spawn_weight": 15
+        },
+        {
+          "monster_id": 50012,
+          "spawn_weight": 18
+        },
+        {
+          "monster_id": 50024,
+          "spawn_weight": 12
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "mat_iron_ore",
+          "chance": 0.7
+        },
+        {
+          "node_id": "refined_scrap",
+          "chance": 0.6
+        },
+        {
+          "node_id": "sensor_chip",
+          "chance": 0.35
+        },
+        {
+          "node_id": "mat_nanite_fragment",
+          "chance": 0.3
+        },
+        {
+          "node_id": "metal_shard",
+          "chance": 0.65
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_scrap_merchant"
+      ]
+    },
+    {
+      "id": "IRON_RAVINE",
+      "name": "Iron Ravine",
+      "region": "IRON_HEGEMONY",
+      "node_type": "mid",
+      "world_position": {
+        "x": -2,
+        "y": 1
+      },
+      "map_position": {
+        "region_x": -2,
+        "region_y": 1,
+        "local_x": 10,
+        "local_y": 60
+      },
+      "relative_layout": {
+        "north": "SCRAP_FIELD",
+        "south": "WAR_MACHINE_GRAVEYARD",
+        "east": "CANYON_CORRIDOR"
+      },
+      "biome": {
+        "primary": "mining_canyon",
+        "secondary": "iron_vein",
+        "climate": "arid"
+      },
+      "level_range": [
+        6,
+        12
+      ],
+      "faction_owner": "IRON_HEGEMONY",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5103,
+          "spawn_weight": 35
+        },
+        {
+          "monster_id": 5135,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 5136,
+          "spawn_weight": 20
+        },
+        {
+          "monster_id": 5123,
+          "spawn_weight": 12
+        },
+        {
+          "monster_id": 5136,
+          "spawn_weight": 5
+        },
+        {
+          "monster_id": 50035,
+          "spawn_weight": 18
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "mat_iron_ore",
+          "chance": 0.7
+        },
+        {
+          "node_id": "refined_scrap",
+          "chance": 0.6
+        },
+        {
+          "node_id": "mat_nanite_fragment",
+          "chance": 0.45
+        },
+        {
+          "node_id": "sensor_chip",
+          "chance": 0.35
+        },
+        {
+          "node_id": "power_regulator_core",
+          "chance": 0.25
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_iron_miner"
+      ]
+    },
+    {
+      "id": "WAR_MACHINE_GRAVEYARD",
+      "name": "War Machine Graveyard",
+      "region": "IRON_HEGEMONY",
+      "node_type": "high",
+      "world_position": {
+        "x": -2,
+        "y": 2
+      },
+      "map_position": {
+        "region_x": -2,
+        "region_y": 2,
+        "local_x": 8,
+        "local_y": 78
+      },
+      "relative_layout": {
+        "north": "IRON_RAVINE",
+        "south_east": "BORDER_SKIRMISH_RING",
+        "east": "TITAN_ASSEMBLY_YARD"
+      },
+      "biome": {
+        "primary": "battlefield_junkyard",
+        "secondary": "war_machine_wreckage",
+        "climate": "arid"
+      },
+      "level_range": [
+        13,
+        22
+      ],
+      "faction_owner": "IRON_HEGEMONY",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5140,
+          "spawn_weight": 36
+        },
+        {
+          "monster_id": 5141,
+          "spawn_weight": 30
+        },
+        {
+          "monster_id": 5142,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 5141,
+          "spawn_weight": 8
+        },
+        {
+          "monster_id": 5142,
+          "spawn_weight": 4
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "refined_scrap",
+          "chance": 0.65
+        },
+        {
+          "node_id": "sensor_chip",
+          "chance": 0.5
+        },
+        {
+          "node_id": "mat_nanite_fragment",
+          "chance": 0.55
+        },
+        {
+          "node_id": "power_regulator_core",
+          "chance": 0.35
+        },
+        {
+          "node_id": "black_matter_residue",
+          "chance": 0.2
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_salvage_expert"
+      ]
+    },
+    {
+      "id": "TITAN_ASSEMBLY_YARD",
+      "name": "Titan Assembly Yard",
+      "region": "IRON_HEGEMONY",
+      "node_type": "high",
+      "world_position": {
+        "x": -1,
+        "y": 2
+      },
+      "map_position": {
+        "region_x": -1,
+        "region_y": 2,
+        "local_x": 30,
+        "local_y": 80
+      },
+      "relative_layout": {
+        "west": "WAR_MACHINE_GRAVEYARD",
+        "south": "AETHEL_STORM_BELT",
+        "east": "FORGE_CANYON_DEPTHS"
+      },
+      "biome": {
+        "primary": "industrial_assembly",
+        "secondary": "titan_factory",
+        "climate": "arid"
+      },
+      "level_range": [
+        30,
+        45
+      ],
+      "faction_owner": "IRON_HEGEMONY",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5207,
+          "spawn_weight": 36
+        },
+        {
+          "monster_id": 5208,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 5204,
+          "spawn_weight": 20
+        },
+        {
+          "monster_id": 5209,
+          "spawn_weight": 10
+        },
+        {
+          "monster_id": 5208,
+          "spawn_weight": 6
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "mat_nanite_fragment",
+          "chance": 0.55
+        },
+        {
+          "node_id": "power_regulator_core",
+          "chance": 0.45
+        },
+        {
+          "node_id": "dark_energy_fragment",
+          "chance": 0.25
+        },
+        {
+          "node_id": "entropy_core",
+          "chance": 0.2
+        },
+        {
+          "node_id": "adaptive_nanite_gel",
+          "chance": 0.22
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_assembly_foreman"
+      ]
+    },
+    {
+      "id": "CANYON_CORRIDOR",
+      "name": "CANYON_CORRIDOR",
+      "region": "IRON_HEGEMONY",
+      "node_type": "mid",
+      "world_position": {
+        "x": -1,
+        "y": 0
+      },
+      "map_position": {
+        "region_x": -1,
+        "region_y": 0,
+        "local_x": 35,
+        "local_y": 55
+      },
+      "relative_layout": {
+        "west": "IRON_RAVINE",
+        "east": "NEXUS_CORE"
+      },
+      "biome": {
+        "primary": "mountain_pass",
+        "secondary": "canyon_path",
+        "climate": "arid"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "travel"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": []
+    },
+    {
+      "id": "PORT_MERIDIAN",
+      "name": "Port Meridian",
+      "region": "MERIDIAN_CARTEL",
+      "node_type": "capital",
+      "world_position": {
+        "x": 2,
+        "y": 1
+      },
+      "map_position": {
+        "region_x": 2,
+        "region_y": 1,
+        "local_x": 85,
+        "local_y": 55
+      },
+      "relative_layout": {
+        "south_west": "CORAL_WETLANDS",
+        "south_east": "SMUGGLER_JUNGLE"
+      },
+      "biome": {
+        "primary": "tropical_port",
+        "secondary": "trade_hub",
+        "climate": "tropical"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "MERIDIAN_CARTEL",
+      "is_safe_zone": true,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "travel",
+        "trade"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [
+        {
+          "node_id": "mat_aethel_dust",
+          "chance": 0.3
+        },
+        {
+          "node_id": "core_fragment",
+          "chance": 0.25
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_meridian_merchant",
+        "npc_master_blacksmith",
+        "npc_innkeeper",
+        "npc_quest_board",
+        "npc_cartel_boss",
+        "npc_meridian_class_trainer"
+      ]
+    },
+    {
+      "id": "CORAL_WETLANDS",
+      "name": "Coral Wetlands",
+      "region": "MERIDIAN_CARTEL",
+      "node_type": "starter",
+      "world_position": {
+        "x": 1,
+        "y": 2
+      },
+      "map_position": {
+        "region_x": 1,
+        "region_y": 2,
+        "local_x": 72,
+        "local_y": 72
+      },
+      "relative_layout": {
+        "north_east": "PORT_MERIDIAN",
+        "south": "BLACK_DOCK_MARKET",
+        "east": "SMUGGLER_JUNGLE"
+      },
+      "biome": {
+        "primary": "coastal_swamp",
+        "secondary": "coral_shoals",
+        "climate": "tropical"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "MERIDIAN_CARTEL",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5002,
+          "spawn_weight": 32
+        },
+        {
+          "monster_id": 5012,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 5013,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 5012,
+          "spawn_weight": 10
+        },
+        {
+          "monster_id": 5013,
+          "spawn_weight": 5
+        },
+        {
+          "monster_id": 50016,
+          "spawn_weight": 20
+        },
+        {
+          "monster_id": 50025,
+          "spawn_weight": 16
+        },
+        {
+          "monster_id": 50026,
+          "spawn_weight": 10
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "mat_aethel_dust",
+          "chance": 0.55
+        },
+        {
+          "node_id": "rat_fang",
+          "chance": 0.5
+        },
+        {
+          "node_id": "mite_chitin",
+          "chance": 0.45
+        },
+        {
+          "node_id": "core_fragment",
+          "chance": 0.35
+        },
+        {
+          "node_id": "mat_iron_ore",
+          "chance": 0.4
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_wetland_fisher"
+      ]
+    },
+    {
+      "id": "SMUGGLER_JUNGLE",
+      "name": "Smuggler Jungle",
+      "region": "MERIDIAN_CARTEL",
+      "node_type": "mid",
+      "world_position": {
+        "x": 2,
+        "y": 2
+      },
+      "map_position": {
+        "region_x": 2,
+        "region_y": 2,
+        "local_x": 88,
+        "local_y": 78
+      },
+      "relative_layout": {
+        "north_west": "PORT_MERIDIAN",
+        "west": "CORAL_WETLANDS",
+        "south": "BLACK_DOCK_MARKET"
+      },
+      "biome": {
+        "primary": "tropical_jungle",
+        "secondary": "smuggler_camp",
+        "climate": "tropical"
+      },
+      "level_range": [
+        6,
+        14
+      ],
+      "faction_owner": "MERIDIAN_CARTEL",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5110,
+          "spawn_weight": 33
+        },
+        {
+          "monster_id": 5111,
+          "spawn_weight": 27
+        },
+        {
+          "monster_id": 5112,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 5110,
+          "spawn_weight": 12
+        },
+        {
+          "monster_id": 5111,
+          "spawn_weight": 6
+        },
+        {
+          "monster_id": 5124,
+          "spawn_weight": 15
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "mat_aethel_dust",
+          "chance": 0.6
+        },
+        {
+          "node_id": "toxic_spore_gland",
+          "chance": 0.45
+        },
+        {
+          "node_id": "bioelectric_nerve_bundle",
+          "chance": 0.35
+        },
+        {
+          "node_id": "rat_fang",
+          "chance": 0.5
+        },
+        {
+          "node_id": "core_fragment",
+          "chance": 0.4
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_shady_smuggler"
+      ]
+    },
+    {
+      "id": "BLACK_DOCK_MARKET",
+      "name": "Black Dock Market",
+      "region": "MERIDIAN_CARTEL",
+      "node_type": "high",
+      "world_position": {
+        "x": 1,
+        "y": 2
+      },
+      "map_position": {
+        "region_x": 1,
+        "region_y": 2,
+        "local_x": 75,
+        "local_y": 88
+      },
+      "relative_layout": {
+        "north": "CORAL_WETLANDS",
+        "north_east": "SMUGGLER_JUNGLE",
+        "west": "CRADLE_EXPANSE"
+      },
+      "biome": {
+        "primary": "smuggler_harbor",
+        "secondary": "black_market",
+        "climate": "tropical"
+      },
+      "level_range": [
+        15,
+        25
+      ],
+      "faction_owner": "MERIDIAN_CARTEL",
+      "is_safe_zone": false,
+      "is_pvp_enabled": true,
+      "available_actions": [
+        "hunt",
+        "pvp"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5150,
+          "spawn_weight": 35
+        },
+        {
+          "monster_id": 5151,
+          "spawn_weight": 30
+        },
+        {
+          "monster_id": 5152,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 5151,
+          "spawn_weight": 9
+        },
+        {
+          "monster_id": 5152,
+          "spawn_weight": 4
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "refined_scrap",
+          "chance": 0.55
+        },
+        {
+          "node_id": "mat_nanite_fragment",
+          "chance": 0.5
+        },
+        {
+          "node_id": "black_matter_residue",
+          "chance": 0.22
+        },
+        {
+          "node_id": "void_crystal_shard",
+          "chance": 0.2
+        },
+        {
+          "node_id": "sensor_chip",
+          "chance": 0.45
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_black_market_dealer"
+      ]
+    },
+    {
+      "id": "SUNKEN_AETHEL_RUIN",
+      "name": "Sunken Aethel Ruin",
+      "region": "MERIDIAN_CARTEL",
+      "node_type": "high",
+      "world_position": {
+        "x": 2,
+        "y": 3
+      },
+      "map_position": {
+        "region_x": 2,
+        "region_y": 3,
+        "local_x": 90,
+        "local_y": 90
+      },
+      "relative_layout": {
+        "north": "BLACK_DOCK_MARKET",
+        "west": "AETHEL_STORM_BELT",
+        "north_east": "SHATTERED_HEART"
+      },
+      "biome": {
+        "primary": "sunken_ruins",
+        "secondary": "aethel_flood",
+        "climate": "tropical"
+      },
+      "level_range": [
+        30,
+        45
+      ],
+      "faction_owner": "MERIDIAN_CARTEL",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5205,
+          "spawn_weight": 30
+        },
+        {
+          "monster_id": 5200,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 5201,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 5202,
+          "spawn_weight": 14
+        },
+        {
+          "monster_id": 5205,
+          "spawn_weight": 6
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "mat_aethel_dust",
+          "chance": 0.6
+        },
+        {
+          "node_id": "crs_resonant_shard",
+          "chance": 0.5
+        },
+        {
+          "node_id": "dark_energy_fragment",
+          "chance": 0.25
+        },
+        {
+          "node_id": "entropy_core",
+          "chance": 0.2
+        },
+        {
+          "node_id": "adaptive_nanite_gel",
+          "chance": 0.18
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_ruin_diver"
+      ]
+    },
+    {
+      "id": "THE_SPIRE",
+      "name": "The Spire",
+      "region": "OMNICORP",
+      "node_type": "capital",
+      "world_position": {
+        "x": 0,
+        "y": -2
+      },
+      "map_position": {
+        "region_x": 0,
+        "region_y": -2,
+        "local_x": 50,
+        "local_y": 5
+      },
+      "relative_layout": {
+        "south": "HIGHLAND_PLATEAU",
+        "south_west": "EXTRACTION_ZONE_DELTA",
+        "south_east": "SECURE_MINING_GRID"
+      },
+      "biome": {
+        "primary": "arcology",
+        "secondary": "megacity",
+        "climate": "cold"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "OMNICORP",
+      "is_safe_zone": true,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "travel",
+        "trade"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [
+        {
+          "node_id": "crs_resonant_shard",
+          "chance": 0.3
+        },
+        {
+          "node_id": "crystal_core",
+          "chance": 0.2
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_omnicorp_merchant",
+        "npc_master_blacksmith",
+        "npc_innkeeper",
+        "npc_quest_board",
+        "npc_omnicorp_executive",
+        "npc_omnicorp_class_trainer"
+      ]
+    },
+    {
+      "id": "HIGHLAND_PLATEAU",
+      "name": "Highland Plateau",
+      "region": "OMNICORP",
+      "node_type": "starter",
+      "world_position": {
+        "x": 0,
+        "y": -1
+      },
+      "map_position": {
+        "region_x": 0,
+        "region_y": -1,
+        "local_x": 48,
+        "local_y": 25
+      },
+      "relative_layout": {
+        "north": "THE_SPIRE",
+        "south": "HIGH_RIDGE_PASS",
+        "west": "EXTRACTION_ZONE_DELTA",
+        "east": "SECURE_MINING_GRID"
+      },
+      "biome": {
+        "primary": "alpine_plateau",
+        "secondary": "highland_fields",
+        "climate": "cold"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "OMNICORP",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5014,
+          "spawn_weight": 33
+        },
+        {
+          "monster_id": 5015,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 5016,
+          "spawn_weight": 24
+        },
+        {
+          "monster_id": 50028,
+          "spawn_weight": 30
+        },
+        {
+          "monster_id": 50029,
+          "spawn_weight": 25
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "mat_iron_ore",
+          "chance": 0.65
+        },
+        {
+          "node_id": "mat_aethel_dust",
+          "chance": 0.5
+        },
+        {
+          "node_id": "crs_resonant_shard",
+          "chance": 0.4
+        },
+        {
+          "node_id": "metal_shard",
+          "chance": 0.55
+        },
+        {
+          "node_id": "core_fragment",
+          "chance": 0.3
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_plateau_surveyor"
+      ]
+    },
+    {
+      "id": "EXTRACTION_ZONE_DELTA",
+      "name": "Extraction Zone Delta",
+      "region": "OMNICORP",
+      "node_type": "mid",
+      "world_position": {
+        "x": -1,
+        "y": -1
+      },
+      "map_position": {
+        "region_x": -1,
+        "region_y": -1,
+        "local_x": 25,
+        "local_y": 25
+      },
+      "relative_layout": {
+        "east": "HIGHLAND_PLATEAU",
+        "south_west": "IRON_RAVINE"
+      },
+      "biome": {
+        "primary": "industrial_mine",
+        "secondary": "extraction_pit",
+        "climate": "cold"
+      },
+      "level_range": [
+        6,
+        15
+      ],
+      "faction_owner": "OMNICORP",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5160,
+          "spawn_weight": 36
+        },
+        {
+          "monster_id": 5161,
+          "spawn_weight": 30
+        },
+        {
+          "monster_id": 5162,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 5161,
+          "spawn_weight": 8
+        },
+        {
+          "monster_id": 5162,
+          "spawn_weight": 4
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "mat_iron_ore",
+          "chance": 0.65
+        },
+        {
+          "node_id": "refined_scrap",
+          "chance": 0.55
+        },
+        {
+          "node_id": "mat_nanite_fragment",
+          "chance": 0.5
+        },
+        {
+          "node_id": "sensor_chip",
+          "chance": 0.4
+        },
+        {
+          "node_id": "power_regulator_core",
+          "chance": 0.3
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_extraction_chief"
+      ]
+    },
+    {
+      "id": "SECURE_MINING_GRID",
+      "name": "Secure Mining Grid",
+      "region": "OMNICORP",
+      "node_type": "high",
+      "world_position": {
+        "x": 1,
+        "y": -1
+      },
+      "map_position": {
+        "region_x": 1,
+        "region_y": -1,
+        "local_x": 72,
+        "local_y": 22
+      },
+      "relative_layout": {
+        "west": "HIGHLAND_PLATEAU",
+        "south_east": "BORDER_SKIRMISH_RING"
+      },
+      "biome": {
+        "primary": "automated_mine",
+        "secondary": "mining_grid",
+        "climate": "cold"
+      },
+      "level_range": [
+        16,
+        25
+      ],
+      "faction_owner": "OMNICORP",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5165,
+          "spawn_weight": 36
+        },
+        {
+          "monster_id": 5166,
+          "spawn_weight": 29
+        },
+        {
+          "monster_id": 5167,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 5166,
+          "spawn_weight": 9
+        },
+        {
+          "monster_id": 5167,
+          "spawn_weight": 4
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "mat_iron_ore",
+          "chance": 0.7
+        },
+        {
+          "node_id": "refined_scrap",
+          "chance": 0.6
+        },
+        {
+          "node_id": "power_regulator_core",
+          "chance": 0.45
+        },
+        {
+          "node_id": "dark_energy_fragment",
+          "chance": 0.22
+        },
+        {
+          "node_id": "entropy_core",
+          "chance": 0.18
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_grid_security"
+      ]
+    },
+    {
+      "id": "SKYBRIDGE_REACTOR",
+      "name": "Skybridge Reactor",
+      "region": "OMNICORP",
+      "node_type": "high",
+      "world_position": {
+        "x": 2,
+        "y": 0
+      },
+      "map_position": {
+        "region_x": 2,
+        "region_y": 0,
+        "local_x": 88,
+        "local_y": 30
+      },
+      "relative_layout": {
+        "west": "SECURE_MINING_GRID",
+        "south": "SHARD_PULSE_PEAK"
+      },
+      "biome": {
+        "primary": "skybridge",
+        "secondary": "reactor_core",
+        "climate": "cold"
+      },
+      "level_range": [
+        35,
+        50
+      ],
+      "faction_owner": "OMNICORP",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5207,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 5208,
+          "spawn_weight": 26
+        },
+        {
+          "monster_id": 5209,
+          "spawn_weight": 20
+        },
+        {
+          "monster_id": 5209,
+          "spawn_weight": 15
+        },
+        {
+          "monster_id": 5206,
+          "spawn_weight": 7
+        },
+        {
+          "monster_id": 4018,
+          "spawn_weight": 4
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "power_regulator_core",
+          "chance": 0.5
+        },
+        {
+          "node_id": "dark_energy_fragment",
+          "chance": 0.3
+        },
+        {
+          "node_id": "entropy_core",
+          "chance": 0.25
+        },
+        {
+          "node_id": "adaptive_nanite_gel",
+          "chance": 0.22
+        },
+        {
+          "node_id": "gravity_well_core",
+          "chance": 0.15
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_reactor_engineer"
+      ]
+    },
+    {
+      "id": "HIGH_RIDGE_PASS",
+      "name": "HIGH_RIDGE_PASS",
+      "region": "OMNICORP",
+      "node_type": "mid",
+      "world_position": {
+        "x": 0,
+        "y": 0
+      },
+      "map_position": {
+        "region_x": 0,
+        "region_y": 0,
+        "local_x": 50,
+        "local_y": 40
+      },
+      "relative_layout": {
+        "north": "HIGHLAND_PLATEAU",
+        "south": "NEXUS_CORE"
+      },
+      "biome": {
+        "primary": "mountain_pass",
+        "secondary": "ridge_trail",
+        "climate": "cold"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "travel"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": []
+    },
+    {
+      "id": "SANCTUM",
+      "name": "Sanctum",
+      "region": "CHILDREN_OF_THE_SHARD",
+      "node_type": "capital",
+      "world_position": {
+        "x": -2,
+        "y": 1
+      },
+      "map_position": {
+        "region_x": -2,
+        "region_y": 1,
+        "local_x": 5,
+        "local_y": 65
+      },
+      "relative_layout": {
+        "south": "GLOWVINE_FOREST"
+      },
+      "biome": {
+        "primary": "sacred_temple",
+        "secondary": "shard_sanctuary",
+        "climate": "temperate"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "CHILDREN_OF_THE_SHARD",
+      "is_safe_zone": true,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "travel",
+        "ritual"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [
+        {
+          "node_id": "mat_aethel_dust",
+          "chance": 0.35
+        },
+        {
+          "node_id": "crs_resonant_shard",
+          "chance": 0.28
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_shard_merchant",
+        "npc_master_blacksmith",
+        "npc_innkeeper",
+        "npc_quest_board",
+        "npc_high_priest",
+        "npc_shard_class_trainer"
+      ]
+    },
+    {
+      "id": "GLOWVINE_FOREST",
+      "name": "Glowvine Forest",
+      "region": "CHILDREN_OF_THE_SHARD",
+      "node_type": "starter",
+      "world_position": {
+        "x": -2,
+        "y": 2
+      },
+      "map_position": {
+        "region_x": -2,
+        "region_y": 2,
+        "local_x": 3,
+        "local_y": 80
+      },
+      "relative_layout": {
+        "north": "SANCTUM",
+        "west": "SHARDROOT_SWAMP",
+        "east": "FRAGMENT_SHRINE",
+        "north_east": "AETHEL_GARDENS"
+      },
+      "biome": {
+        "primary": "bioluminescent_forest",
+        "secondary": "glowvine_grove",
+        "climate": "temperate"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "CHILDREN_OF_THE_SHARD",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5017,
+          "spawn_weight": 33
+        },
+        {
+          "monster_id": 5018,
+          "spawn_weight": 26
+        },
+        {
+          "monster_id": 50030,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 5007,
+          "spawn_weight": 13
+        },
+        {
+          "monster_id": 5041,
+          "spawn_weight": 6
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "mat_aethel_dust",
+          "chance": 0.6
+        },
+        {
+          "node_id": "rat_fang",
+          "chance": 0.5
+        },
+        {
+          "node_id": "crs_resonant_shard",
+          "chance": 0.45
+        },
+        {
+          "node_id": "core_fragment",
+          "chance": 0.35
+        },
+        {
+          "node_id": "mite_chitin",
+          "chance": 0.4
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_forest_acolyte"
+      ]
+    },
+    {
+      "id": "SHARDROOT_SWAMP",
+      "name": "Shardroot Swamp",
+      "region": "CHILDREN_OF_THE_SHARD",
+      "node_type": "mid",
+      "world_position": {
+        "x": -3,
+        "y": 2
+      },
+      "map_position": {
+        "region_x": -3,
+        "region_y": 2,
+        "local_x": 0,
+        "local_y": 82
+      },
+      "relative_layout": {
+        "east": "GLOWVINE_FOREST"
+      },
+      "biome": {
+        "primary": "toxic_swamp",
+        "secondary": "shardroot_deep",
+        "climate": "temperate"
+      },
+      "level_range": [
+        6,
+        14
+      ],
+      "faction_owner": "CHILDREN_OF_THE_SHARD",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5110,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 5111,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 5112,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 5125,
+          "spawn_weight": 16
+        },
+        {
+          "monster_id": 5126,
+          "spawn_weight": 7
+        },
+        {
+          "monster_id": 5111,
+          "spawn_weight": 2
+        },
+        {
+          "monster_id": 5121,
+          "spawn_weight": 18
+        },
+        {
+          "monster_id": 5122,
+          "spawn_weight": 8
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "toxic_spore_gland",
+          "chance": 0.55
+        },
+        {
+          "node_id": "bioelectric_nerve_bundle",
+          "chance": 0.45
+        },
+        {
+          "node_id": "mat_aethel_dust",
+          "chance": 0.5
+        },
+        {
+          "node_id": "mite_chitin",
+          "chance": 0.55
+        },
+        {
+          "node_id": "crystal_core",
+          "chance": 0.3
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_swamp_hermit"
+      ]
+    },
+    {
+      "id": "FRAGMENT_SHRINE",
+      "name": "Fragment Shrine",
+      "region": "CHILDREN_OF_THE_SHARD",
+      "node_type": "high",
+      "world_position": {
+        "x": -1,
+        "y": 2
+      },
+      "map_position": {
+        "region_x": -1,
+        "region_y": 2,
+        "local_x": 20,
+        "local_y": 82
+      },
+      "relative_layout": {
+        "west": "GLOWVINE_FOREST",
+        "south": "CANYON_PASSAGE",
+        "north_east": "CRADLE_EXPANSE"
+      },
+      "biome": {
+        "primary": "ancient_shrine",
+        "secondary": "fragment_altar",
+        "climate": "temperate"
+      },
+      "level_range": [
+        15,
+        22
+      ],
+      "faction_owner": "CHILDREN_OF_THE_SHARD",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5170,
+          "spawn_weight": 36
+        },
+        {
+          "monster_id": 5171,
+          "spawn_weight": 30
+        },
+        {
+          "monster_id": 5172,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 5171,
+          "spawn_weight": 8
+        },
+        {
+          "monster_id": 5172,
+          "spawn_weight": 4
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "crs_resonant_shard",
+          "chance": 0.6
+        },
+        {
+          "node_id": "crystal_core",
+          "chance": 0.45
+        },
+        {
+          "node_id": "mat_aethel_dust",
+          "chance": 0.55
+        },
+        {
+          "node_id": "void_crystal_shard",
+          "chance": 0.25
+        },
+        {
+          "node_id": "dark_energy_fragment",
+          "chance": 0.2
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_shrine_keeper"
+      ]
+    },
+    {
+      "id": "HEARTWOOD_ALTAR",
+      "name": "Heartwood Altar",
+      "region": "CHILDREN_OF_THE_SHARD",
+      "node_type": "high",
+      "world_position": {
+        "x": -1,
+        "y": 3
+      },
+      "map_position": {
+        "region_x": -1,
+        "region_y": 3,
+        "local_x": 18,
+        "local_y": 92
+      },
+      "relative_layout": {
+        "north": "FRAGMENT_SHRINE",
+        "east": "AETHEL_STORM_BELT"
+      },
+      "biome": {
+        "primary": "ancient_shrine",
+        "secondary": "heartwood_grove",
+        "climate": "temperate"
+      },
+      "level_range": [
+        28,
+        40
+      ],
+      "faction_owner": "CHILDREN_OF_THE_SHARD",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5204,
+          "spawn_weight": 30
+        },
+        {
+          "monster_id": 5170,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 5171,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 5200,
+          "spawn_weight": 14
+        },
+        {
+          "monster_id": 5172,
+          "spawn_weight": 6
+        },
+        {
+          "monster_id": 5205,
+          "spawn_weight": 3
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "mat_aethel_dust",
+          "chance": 0.55
+        },
+        {
+          "node_id": "toxic_spore_gland",
+          "chance": 0.45
+        },
+        {
+          "node_id": "bioelectric_nerve_bundle",
+          "chance": 0.4
+        },
+        {
+          "node_id": "dark_energy_fragment",
+          "chance": 0.22
+        },
+        {
+          "node_id": "entropy_core",
+          "chance": 0.18
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_altar_guardian"
+      ]
+    },
+    {
+      "id": "CANYON_PASSAGE",
+      "name": "CANYON_PASSAGE",
+      "region": "CHILDREN_OF_THE_SHARD",
+      "node_type": "mid",
+      "world_position": {
+        "x": 0,
+        "y": 2
+      },
+      "map_position": {
+        "region_x": 0,
+        "region_y": 2,
+        "local_x": 40,
+        "local_y": 80
+      },
+      "relative_layout": {
+        "north": "FRAGMENT_SHRINE",
+        "south_east": "BORDER_SKIRMISH_RING"
+      },
+      "biome": {
+        "primary": "mountain_pass",
+        "secondary": "hidden_valley",
+        "climate": "temperate"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "travel"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": []
+    },
+    {
+      "id": "FORTRESS_KAELEN",
+      "name": "Fortress Kaelen",
+      "region": "STARFORGED_LEGION",
+      "node_type": "capital",
+      "world_position": {
+        "x": 0,
+        "y": 3
+      },
+      "map_position": {
+        "region_x": 0,
+        "region_y": 3,
+        "local_x": 50,
+        "local_y": 85
+      },
+      "relative_layout": {
+        "south": "SCORCHED_BADLANDS",
+        "west": "DUNE_OUTSKIRTS",
+        "north": "SOUTHERN_PASS"
+      },
+      "biome": {
+        "primary": "mesa_fortress",
+        "secondary": "kaelen_citadel",
+        "climate": "arid"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "STARFORGED_LEGION",
+      "is_safe_zone": true,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "travel",
+        "train"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [
+        {
+          "node_id": "mat_iron_ore",
+          "chance": 0.3
+        },
+        {
+          "node_id": "refined_scrap",
+          "chance": 0.25
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_legion_merchant",
+        "npc_master_blacksmith",
+        "npc_innkeeper",
+        "npc_quest_board",
+        "npc_legion_general",
+        "npc_legion_class_trainer"
+      ]
+    },
+    {
+      "id": "DUNE_OUTSKIRTS",
+      "name": "Dune Outskirts",
+      "region": "STARFORGED_LEGION",
+      "node_type": "starter",
+      "world_position": {
+        "x": -1,
+        "y": 3
+      },
+      "map_position": {
+        "region_x": -1,
+        "region_y": 3,
+        "local_x": 25,
+        "local_y": 85
+      },
+      "relative_layout": {
+        "east": "FORTRESS_KAELEN"
+      },
+      "biome": {
+        "primary": "desert_edge",
+        "secondary": "dune_fields",
+        "climate": "arid"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "STARFORGED_LEGION",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5005,
+          "spawn_weight": 32
+        },
+        {
+          "monster_id": 5019,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 5020,
+          "spawn_weight": 24
+        },
+        {
+          "monster_id": 5025,
+          "spawn_weight": 11
+        },
+        {
+          "monster_id": 5045,
+          "spawn_weight": 5
+        },
+        {
+          "monster_id": 50019,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 50031,
+          "spawn_weight": 18
+        },
+        {
+          "monster_id": 50032,
+          "spawn_weight": 12
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "mat_iron_ore",
+          "chance": 0.6
+        },
+        {
+          "node_id": "metal_shard",
+          "chance": 0.55
+        },
+        {
+          "node_id": "mat_aethel_dust",
+          "chance": 0.4
+        },
+        {
+          "node_id": "sensor_chip",
+          "chance": 0.25
+        },
+        {
+          "node_id": "refined_scrap",
+          "chance": 0.35
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_dune_scout"
+      ]
+    },
+    {
+      "id": "SCORCHED_BADLANDS",
+      "name": "Scorched Badlands",
+      "region": "STARFORGED_LEGION",
+      "node_type": "mid",
+      "world_position": {
+        "x": 0,
+        "y": 4
+      },
+      "map_position": {
+        "region_x": 0,
+        "region_y": 4,
+        "local_x": 50,
+        "local_y": 92
+      },
+      "relative_layout": {
+        "north": "FORTRESS_KAELEN",
+        "east": "MESA_WARPATH"
+      },
+      "biome": {
+        "primary": "volcanic_badlands",
+        "secondary": "scorched_earth",
+        "climate": "arid"
+      },
+      "level_range": [
+        6,
+        15
+      ],
+      "faction_owner": "STARFORGED_LEGION",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5103,
+          "spawn_weight": 30
+        },
+        {
+          "monster_id": 5180,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 5019,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 5045,
+          "spawn_weight": 13
+        },
+        {
+          "monster_id": 5020,
+          "spawn_weight": 7
+        },
+        {
+          "monster_id": 5130,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 5104,
+          "spawn_weight": 20
+        },
+        {
+          "monster_id": 5131,
+          "spawn_weight": 12
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "metal_shard",
+          "chance": 0.65
+        },
+        {
+          "node_id": "refined_scrap",
+          "chance": 0.55
+        },
+        {
+          "node_id": "sensor_chip",
+          "chance": 0.4
+        },
+        {
+          "node_id": "mat_nanite_fragment",
+          "chance": 0.45
+        },
+        {
+          "node_id": "power_regulator_core",
+          "chance": 0.3
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_badland_survivor"
+      ]
+    },
+    {
+      "id": "MESA_WARPATH",
+      "name": "Mesa Warpath",
+      "region": "STARFORGED_LEGION",
+      "node_type": "high",
+      "world_position": {
+        "x": 1,
+        "y": 4
+      },
+      "map_position": {
+        "region_x": 1,
+        "region_y": 4,
+        "local_x": 75,
+        "local_y": 90
+      },
+      "relative_layout": {
+        "west": "SCORCHED_BADLANDS",
+        "north_west": "BORDER_SKIRMISH_RING"
+      },
+      "biome": {
+        "primary": "rocky_mesa",
+        "secondary": "warpath_trail",
+        "climate": "arid"
+      },
+      "level_range": [
+        16,
+        25
+      ],
+      "faction_owner": "STARFORGED_LEGION",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5180,
+          "spawn_weight": 35
+        },
+        {
+          "monster_id": 5181,
+          "spawn_weight": 30
+        },
+        {
+          "monster_id": 5182,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 5181,
+          "spawn_weight": 9
+        },
+        {
+          "monster_id": 5182,
+          "spawn_weight": 4
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "metal_shard",
+          "chance": 0.65
+        },
+        {
+          "node_id": "refined_scrap",
+          "chance": 0.55
+        },
+        {
+          "node_id": "power_regulator_core",
+          "chance": 0.4
+        },
+        {
+          "node_id": "dark_energy_fragment",
+          "chance": 0.22
+        },
+        {
+          "node_id": "entropy_core",
+          "chance": 0.18
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_warpath_veteran"
+      ]
+    },
+    {
+      "id": "FORGE_CANYON_DEPTHS",
+      "name": "Forge Canyon Depths",
+      "region": "STARFORGED_LEGION",
+      "node_type": "high",
+      "world_position": {
+        "x": 0,
+        "y": 3
+      },
+      "map_position": {
+        "region_x": 0,
+        "region_y": 3,
+        "local_x": 65,
+        "local_y": 78
+      },
+      "relative_layout": {
+        "south": "MESA_WARPATH",
+        "north_west": "TITAN_ASSEMBLY_YARD",
+        "north_east": "AETHEL_STORM_BELT"
+      },
+      "biome": {
+        "primary": "volcanic_badlands",
+        "secondary": "forge_canyon",
+        "climate": "arid"
+      },
+      "level_range": [
+        30,
+        45
+      ],
+      "faction_owner": "STARFORGED_LEGION",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5207,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 5208,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 5180,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 5181,
+          "spawn_weight": 15
+        },
+        {
+          "monster_id": 5182,
+          "spawn_weight": 7
+        },
+        {
+          "monster_id": 5209,
+          "spawn_weight": 3
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "mat_iron_ore",
+          "chance": 0.65
+        },
+        {
+          "node_id": "metal_shard",
+          "chance": 0.6
+        },
+        {
+          "node_id": "power_regulator_core",
+          "chance": 0.45
+        },
+        {
+          "node_id": "entropy_core",
+          "chance": 0.22
+        },
+        {
+          "node_id": "adaptive_nanite_gel",
+          "chance": 0.2
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_lost_blacksmith"
+      ]
+    },
+    {
+      "id": "SOUTHERN_PASS",
+      "name": "SOUTHERN_PASS",
+      "region": "STARFORGED_LEGION",
+      "node_type": "mid",
+      "world_position": {
+        "x": 0,
+        "y": 3
+      },
+      "map_position": {
+        "region_x": 0,
+        "region_y": 3,
+        "local_x": 50,
+        "local_y": 78
+      },
+      "relative_layout": {
+        "south": "FORTRESS_KAELEN",
+        "north": "BORDER_SKIRMISH_RING"
+      },
+      "biome": {
+        "primary": "mountain_pass",
+        "secondary": "southern_gate",
+        "climate": "arid"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "travel"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": []
+    },
+    {
+      "id": "CRADLE_EXPANSE",
+      "name": "Cradle Expanse",
+      "region": "PvP_CORE",
+      "node_type": "conflict",
+      "world_position": {
+        "x": 0,
+        "y": 2
+      },
+      "map_position": {
+        "region_x": 0,
+        "region_y": 2,
+        "local_x": 50,
+        "local_y": 70
+      },
+      "relative_layout": {
+        "north": "CRADLE_OUTER_RING",
+        "west": "AETHEL_STORM_BELT",
+        "east": "PRIMA_MATERIA_REFINING_FIELDS",
+        "south": "BORDER_SKIRMISH_RING"
+      },
+      "biome": {
+        "primary": "aethel_wasteland",
+        "secondary": "pvp_core",
+        "climate": "wasteland"
+      },
+      "level_range": [
+        20,
+        50
+      ],
+      "faction_owner": "CONTESTED",
+      "is_safe_zone": false,
+      "is_pvp_enabled": true,
+      "available_actions": [
+        "hunt",
+        "pvp",
+        "gather"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5200,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 5223,
+          "spawn_weight": 24
+        },
+        {
+          "monster_id": 5224,
+          "spawn_weight": 20
+        },
+        {
+          "monster_id": 5225,
+          "spawn_weight": 16
+        },
+        {
+          "monster_id": 5222,
+          "spawn_weight": 8
+        },
+        {
+          "monster_id": 5226,
+          "spawn_weight": 4
+        },
+        {
+          "monster_id": 50049,
+          "spawn_weight": 20
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "dark_energy_fragment",
+          "chance": 0.3
+        },
+        {
+          "node_id": "entropy_core",
+          "chance": 0.25
+        },
+        {
+          "node_id": "adaptive_nanite_gel",
+          "chance": 0.22
+        },
+        {
+          "node_id": "stabilized_singularity_dust",
+          "chance": 0.18
+        },
+        {
+          "node_id": "astral_phase_crystal_pure",
+          "chance": 0.15
+        }
+      ],
+      "world_events": [
+        {
+          "event_id": "AETHEL_SURGE_STORM"
+        }
+      ],
+      "npc_ids": [
+        "npc_battlefield_medic",
+        "npc_wandering_trader"
+      ]
+    },
+    {
+      "id": "AETHEL_STORM_BELT",
+      "name": "Aethel Storm Belt",
+      "region": "PvP_CORE",
+      "node_type": "conflict",
+      "world_position": {
+        "x": -1,
+        "y": 2
+      },
+      "map_position": {
+        "region_x": -1,
+        "region_y": 2,
+        "local_x": 30,
+        "local_y": 68
+      },
+      "relative_layout": {
+        "east": "CRADLE_EXPANSE",
+        "north": "INNER_CRADLE_EXCLUSION",
+        "west": "TITAN_ASSEMBLY_YARD"
+      },
+      "biome": {
+        "primary": "storm_wasteland",
+        "secondary": "aethel_storm",
+        "climate": "storm"
+      },
+      "level_range": [
+        30,
+        55
+      ],
+      "faction_owner": "CONTESTED",
+      "is_safe_zone": false,
+      "is_pvp_enabled": true,
+      "available_actions": [
+        "hunt",
+        "pvp"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5206,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 5223,
+          "spawn_weight": 24
+        },
+        {
+          "monster_id": 5225,
+          "spawn_weight": 20
+        },
+        {
+          "monster_id": 5226,
+          "spawn_weight": 15
+        },
+        {
+          "monster_id": 5226,
+          "spawn_weight": 9
+        },
+        {
+          "monster_id": 4017,
+          "spawn_weight": 4
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "adaptive_nanite_gel",
+          "chance": 0.28
+        },
+        {
+          "node_id": "stabilized_singularity_dust",
+          "chance": 0.22
+        },
+        {
+          "node_id": "astral_phase_crystal_pure",
+          "chance": 0.18
+        },
+        {
+          "node_id": "raw_warp_residue_cluster",
+          "chance": 0.12
+        },
+        {
+          "node_id": "quantum_distortion_stone",
+          "chance": 0.1
+        }
+      ],
+      "world_events": [
+        {
+          "event_id": "STORM_INTENSITY_SPIKE"
+        }
+      ],
+      "npc_ids": [
+        "npc_reckless_scout"
+      ]
+    },
+    {
+      "id": "BORDER_SKIRMISH_RING",
+      "name": "Border Skirmish Ring",
+      "region": "PvP_CORE",
+      "node_type": "conflict",
+      "world_position": {
+        "x": 0,
+        "y": 3
+      },
+      "map_position": {
+        "region_x": 0,
+        "region_y": 3,
+        "local_x": 50,
+        "local_y": 85
+      },
+      "relative_layout": {
+        "north": "CRADLE_EXPANSE",
+        "south": "SOUTHERN_PASS",
+        "west": "CANYON_PASSAGE",
+        "east": "PRIMA_MATERIA_REFINING_FIELDS"
+      },
+      "biome": {
+        "primary": "frontline_battlefield",
+        "secondary": "skirmish_zone",
+        "climate": "wasteland"
+      },
+      "level_range": [
+        25,
+        45
+      ],
+      "faction_owner": "CONTESTED",
+      "is_safe_zone": false,
+      "is_pvp_enabled": true,
+      "available_actions": [
+        "hunt",
+        "pvp"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5180,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 5182,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 5150,
+          "spawn_weight": 20
+        },
+        {
+          "monster_id": 5200,
+          "spawn_weight": 18
+        },
+        {
+          "monster_id": 5208,
+          "spawn_weight": 10
+        },
+        {
+          "monster_id": 5209,
+          "spawn_weight": 5
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "entropy_core",
+          "chance": 0.3
+        },
+        {
+          "node_id": "adaptive_nanite_gel",
+          "chance": 0.25
+        },
+        {
+          "node_id": "stabilized_singularity_dust",
+          "chance": 0.2
+        },
+        {
+          "node_id": "astral_phase_crystal_pure",
+          "chance": 0.16
+        },
+        {
+          "node_id": "gravity_well_core",
+          "chance": 0.12
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_frontline_commander"
+      ]
+    },
+    {
+      "id": "PRIMA_MATERIA_REFINING_FIELDS",
+      "name": "PRIMA_MATERIA_REFINING_FIELDS",
+      "region": "PvP_CORE",
+      "node_type": "mid",
+      "world_position": {
+        "x": 1,
+        "y": 2
+      },
+      "map_position": {
+        "region_x": 1,
+        "region_y": 2,
+        "local_x": 68,
+        "local_y": 70
+      },
+      "relative_layout": {
+        "west": "CRADLE_EXPANSE",
+        "south_west": "BORDER_SKIRMISH_RING"
+      },
+      "biome": {
+        "primary": "refinery_zone",
+        "secondary": "prima_materia_field",
+        "climate": "wasteland"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "travel"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": []
+    },
+    {
+      "id": "BLOOD_IRON_BASIN",
+      "name": "Blood Iron Basin",
+      "region": "PvP_ZONES",
+      "node_type": "conflict",
+      "world_position": {
+        "x": -1,
+        "y": 3
+      },
+      "map_position": {
+        "region_x": -1,
+        "region_y": 3,
+        "local_x": 22,
+        "local_y": 82
+      },
+      "relative_layout": {
+        "north": "CRADLE_EXPANSE",
+        "south": "SHATTERED_HEART"
+      },
+      "biome": {
+        "primary": "blood_iron_field",
+        "secondary": "basin_depths",
+        "climate": "wasteland"
+      },
+      "level_range": [
+        30,
+        45
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": true,
+      "available_actions": [
+        "EXPLORE",
+        "SCAN",
+        "HUNT"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5204,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 5208,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 5209,
+          "spawn_weight": 20
+        },
+        {
+          "monster_id": 5224,
+          "spawn_weight": 30
+        }
+      ],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": []
+    },
+    {
+      "id": "VOID_RIFT_CROSSROADS",
+      "name": "Void Rift Crossroads",
+      "region": "PvP_ZONES",
+      "node_type": "conflict",
+      "world_position": {
+        "x": 1,
+        "y": 3
+      },
+      "map_position": {
+        "region_x": 1,
+        "region_y": 3,
+        "local_x": 78,
+        "local_y": 82
+      },
+      "relative_layout": {
+        "north": "BORDER_SKIRMISH_RING",
+        "east": "VOID_ECHO_CHASM"
+      },
+      "biome": {
+        "primary": "void_rift",
+        "secondary": "crossroads",
+        "climate": "wasteland"
+      },
+      "level_range": [
+        40,
+        55
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": true,
+      "available_actions": [
+        "EXPLORE",
+        "SCAN",
+        "HUNT",
+        "MINE"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5301,
+          "spawn_weight": 30
+        },
+        {
+          "monster_id": 5225,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 5226,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 4017,
+          "spawn_weight": 20
+        }
+      ],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": []
+    },
+    {
+      "id": "AETHEL_STORM_RIDGE",
+      "name": "Aethel Storm Ridge",
+      "region": "PvP_ZONES",
+      "node_type": "conflict",
+      "world_position": {
+        "x": -2,
+        "y": 3
+      },
+      "map_position": {
+        "region_x": -2,
+        "region_y": 3,
+        "local_x": 5,
+        "local_y": 82
+      },
+      "relative_layout": {
+        "east": "AETHEL_STORM_BELT",
+        "south": "PRIMA_MATERIA_FORGE"
+      },
+      "biome": {
+        "primary": "storm_wasteland",
+        "secondary": "storm_ridge",
+        "climate": "storm"
+      },
+      "level_range": [
+        50,
+        65
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": true,
+      "available_actions": [
+        "EXPLORE",
+        "SCAN",
+        "HUNT",
+        "MINE"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5206,
+          "spawn_weight": 30
+        },
+        {
+          "monster_id": 4019,
+          "spawn_weight": 20
+        },
+        {
+          "monster_id": 4018,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 4004,
+          "spawn_weight": 25
+        }
+      ],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": []
+    },
+    {
+      "id": "TITAN_GRAVEYARD",
+      "name": "Titan Graveyard",
+      "region": "PvP_ZONES",
+      "node_type": "conflict",
+      "world_position": {
+        "x": -2,
+        "y": 3
+      },
+      "map_position": {
+        "region_x": -2,
+        "region_y": 3,
+        "local_x": 10,
+        "local_y": 88
+      },
+      "relative_layout": {
+        "north": "CRADLE_EXPANSE",
+        "east": "SEVERANCE_FAULTLINE"
+      },
+      "biome": {
+        "primary": "titan_graveyard",
+        "secondary": "ancient_bones",
+        "climate": "wasteland"
+      },
+      "level_range": [
+        60,
+        80
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": true,
+      "available_actions": [
+        "EXPLORE",
+        "SCAN",
+        "HUNT",
+        "MINE",
+        "RAID"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5200,
+          "spawn_weight": 30
+        },
+        {
+          "monster_id": 5222,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 5205,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 4020,
+          "spawn_weight": 20
+        }
+      ],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": []
+    },
+    {
+      "id": "ETERNAL_GATE",
+      "name": "Eternal Gate",
+      "region": "PvP_ZONES",
+      "node_type": "conflict",
+      "world_position": {
+        "x": 3,
+        "y": 3
+      },
+      "map_position": {
+        "region_x": 3,
+        "region_y": 3,
+        "local_x": 88,
+        "local_y": 88
+      },
+      "relative_layout": {
+        "west": "PRIMA_MATERIA_FORGE",
+        "north_west": "HIDDEN_AETHELGARDIAN_CITY"
+      },
+      "biome": {
+        "primary": "eternal_gate",
+        "secondary": "void_portal",
+        "climate": "void"
+      },
+      "level_range": [
+        75,
+        100
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": true,
+      "available_actions": [
+        "EXPLORE",
+        "SCAN",
+        "HUNT",
+        "MINE",
+        "RAID"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 4001,
+          "spawn_weight": 15
+        },
+        {
+          "monster_id": 4002,
+          "spawn_weight": 15
+        },
+        {
+          "monster_id": 4003,
+          "spawn_weight": 15
+        },
+        {
+          "monster_id": 4017,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 4020,
+          "spawn_weight": 30
+        }
+      ],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": []
+    },
+    {
+      "id": "SHATTERED_HEART",
+      "name": "Shattered Heart",
+      "region": "SHATTERED_HEART",
+      "node_type": "endgame",
+      "world_position": {
+        "x": 0,
+        "y": 4
+      },
+      "map_position": {
+        "region_x": 0,
+        "region_y": 4,
+        "local_x": 50,
+        "local_y": 95
+      },
+      "relative_layout": {
+        "north": "CRADLE_EXPANSE",
+        "south": "SEVERANCE_FAULTLINE"
+      },
+      "biome": {
+        "primary": "endgame_abyss",
+        "secondary": "shattered_core",
+        "climate": "void"
+      },
+      "level_range": [
+        60,
+        90
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "raid"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5201,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 5222,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 5226,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 4017,
+          "spawn_weight": 14
+        },
+        {
+          "monster_id": 4020,
+          "spawn_weight": 7
+        },
+        {
+          "monster_id": 4001,
+          "spawn_weight": 4
+        },
+        {
+          "monster_id": 50056,
+          "spawn_weight": 25
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "drake_heart",
+          "chance": 0.15
+        },
+        {
+          "node_id": "void_core",
+          "chance": 0.12
+        },
+        {
+          "node_id": "mat_stellar_ember",
+          "chance": 0.08
+        },
+        {
+          "node_id": "raw_warp_residue_cluster",
+          "chance": 0.18
+        },
+        {
+          "node_id": "quantum_distortion_stone",
+          "chance": 0.14
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_void_walker"
+      ]
+    },
+    {
+      "id": "SEVERANCE_FAULTLINE",
+      "name": "Severance Faultline",
+      "region": "SHATTERED_HEART",
+      "node_type": "endgame",
+      "world_position": {
+        "x": 0,
+        "y": 5
+      },
+      "map_position": {
+        "region_x": 0,
+        "region_y": 5,
+        "local_x": 50,
+        "local_y": 98
+      },
+      "relative_layout": {
+        "north": "SHATTERED_HEART",
+        "south_west": "AETHEL_SIPHON_CORE",
+        "south_east": "PRIMA_MATERIA_FORGE_RUINS",
+        "south": "ECHO_OF_THE_FIRST_KING"
+      },
+      "biome": {
+        "primary": "endgame_abyss",
+        "secondary": "faultline_rift",
+        "climate": "void"
+      },
+      "level_range": [
+        65,
+        90
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "raid"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5224,
+          "spawn_weight": 27
+        },
+        {
+          "monster_id": 5225,
+          "spawn_weight": 24
+        },
+        {
+          "monster_id": 5226,
+          "spawn_weight": 20
+        },
+        {
+          "monster_id": 4017,
+          "spawn_weight": 16
+        },
+        {
+          "monster_id": 4020,
+          "spawn_weight": 9
+        },
+        {
+          "monster_id": 5222,
+          "spawn_weight": 4
+        },
+        {
+          "monster_id": 4002,
+          "spawn_weight": 20
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "void_core",
+          "chance": 0.14
+        },
+        {
+          "node_id": "mat_stellar_ember",
+          "chance": 0.1
+        },
+        {
+          "node_id": "ore_aethel_infused_steel",
+          "chance": 0.06
+        },
+        {
+          "node_id": "quantum_distortion_stone",
+          "chance": 0.16
+        },
+        {
+          "node_id": "gravity_well_core",
+          "chance": 0.12
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_doomsayer"
+      ]
+    },
+    {
+      "id": "AETHEL_SIPHON_CORE",
+      "name": "Aethel Siphon Core",
+      "region": "SHATTERED_HEART",
+      "node_type": "endgame",
+      "world_position": {
+        "x": -1,
+        "y": 5
+      },
+      "map_position": {
+        "region_x": -1,
+        "region_y": 5,
+        "local_x": 35,
+        "local_y": 98
+      },
+      "relative_layout": {
+        "north_east": "SEVERANCE_FAULTLINE",
+        "east": "PRIMA_MATERIA_FORGE_RUINS"
+      },
+      "biome": {
+        "primary": "endgame_abyss",
+        "secondary": "siphon_core",
+        "climate": "void"
+      },
+      "level_range": [
+        70,
+        90
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "raid"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5225,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 5226,
+          "spawn_weight": 24
+        },
+        {
+          "monster_id": 4017,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 4020,
+          "spawn_weight": 16
+        },
+        {
+          "monster_id": 5222,
+          "spawn_weight": 7
+        },
+        {
+          "monster_id": 5223,
+          "spawn_weight": 3
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "void_core",
+          "chance": 0.16
+        },
+        {
+          "node_id": "mat_stellar_ember",
+          "chance": 0.12
+        },
+        {
+          "node_id": "ore_aethel_infused_steel",
+          "chance": 0.08
+        },
+        {
+          "node_id": "eternal_reactor_seed",
+          "chance": 0.05
+        },
+        {
+          "node_id": "raw_warp_residue_cluster",
+          "chance": 0.2
+        }
+      ],
+      "world_events": [
+        {
+          "event_id": "SIPHON_OVERLOAD"
+        }
+      ],
+      "npc_ids": [
+        "npc_core_technician"
+      ]
+    },
+    {
+      "id": "PRIMA_MATERIA_FORGE",
+      "name": "Prima Materia Forge",
+      "region": "SHATTERED_HEART",
+      "node_type": "endgame",
+      "world_position": {
+        "x": 2,
+        "y": 4
+      },
+      "map_position": {
+        "region_x": 2,
+        "region_y": 4,
+        "local_x": 75,
+        "local_y": 95
+      },
+      "relative_layout": {
+        "west": "AETHEL_SIPHON_CORE",
+        "north_east": "ETERNAL_GATE",
+        "north": "AETHEL_STORM_RIDGE"
+      },
+      "biome": {
+        "primary": "prima_forge",
+        "secondary": "forge_ruins",
+        "climate": "void"
+      },
+      "level_range": [
+        75,
+        95
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "raid"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5226,
+          "spawn_weight": 26
+        },
+        {
+          "monster_id": 4017,
+          "spawn_weight": 24
+        },
+        {
+          "monster_id": 4020,
+          "spawn_weight": 22
+        },
+        {
+          "monster_id": 5222,
+          "spawn_weight": 16
+        },
+        {
+          "monster_id": 5224,
+          "spawn_weight": 8
+        },
+        {
+          "monster_id": 5225,
+          "spawn_weight": 4
+        },
+        {
+          "monster_id": 4003,
+          "spawn_weight": 20
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "mat_stellar_ember",
+          "chance": 0.14
+        },
+        {
+          "node_id": "ore_aethel_infused_steel",
+          "chance": 0.1
+        },
+        {
+          "node_id": "eternal_reactor_seed",
+          "chance": 0.06
+        },
+        {
+          "node_id": "drake_heart",
+          "chance": 0.16
+        },
+        {
+          "node_id": "void_core",
+          "chance": 0.12
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_master_kael",
+        "npc_abyssal_smith"
+      ]
+    },
+    {
+      "id": "CRYSTALLINE_ABYSS",
+      "name": "CRYSTALLINE_ABYSS",
+      "region": "SHATTERED_HEART",
+      "node_type": "mid",
+      "world_position": {
+        "x": 1,
+        "y": 4
+      },
+      "map_position": {
+        "region_x": 1,
+        "region_y": 4,
+        "local_x": 62,
+        "local_y": 95
+      },
+      "relative_layout": {
+        "south": "SEVERANCE_FAULTLINE",
+        "west": "SHATTERED_HEART"
+      },
+      "biome": {
+        "primary": "crystal_abyss",
+        "secondary": "crystalline_depths",
+        "climate": "void"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "travel"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": []
+    },
+    {
+      "id": "PRIMA_MATERIA_FORGE_RUINS",
+      "name": "PRIMA_MATERIA_FORGE_RUINS",
+      "region": "SHATTERED_HEART",
+      "node_type": "mid",
+      "world_position": {
+        "x": 1,
+        "y": 5
+      },
+      "map_position": {
+        "region_x": 1,
+        "region_y": 5,
+        "local_x": 62,
+        "local_y": 98
+      },
+      "relative_layout": {
+        "north_west": "SEVERANCE_FAULTLINE",
+        "west": "AETHEL_SIPHON_CORE",
+        "east": "ECHO_OF_THE_FIRST_KING"
+      },
+      "biome": {
+        "primary": "prima_forge",
+        "secondary": "forge_ruins_exterior",
+        "climate": "void"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "travel"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": []
+    },
+    {
+      "id": "ECHO_OF_THE_FIRST_KING",
+      "name": "ECHO_OF_THE_FIRST_KING",
+      "region": "SHATTERED_HEART",
+      "node_type": "mid",
+      "world_position": {
+        "x": 1,
+        "y": 5
+      },
+      "map_position": {
+        "region_x": 1,
+        "region_y": 5,
+        "local_x": 72,
+        "local_y": 98
+      },
+      "relative_layout": {
+        "west": "PRIMA_MATERIA_FORGE_RUINS",
+        "north_west": "SEVERANCE_FAULTLINE"
+      },
+      "biome": {
+        "primary": "final_raid",
+        "secondary": "first_king_throne",
+        "climate": "void"
+      },
+      "level_range": [
+        1,
+        5
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "travel"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": []
+    },
+    {
+      "id": "HIDDEN_AETHELGARDIAN_CITY",
+      "name": "Hidden Aethelgardian City",
+      "region": "SECRET_ZONES",
+      "node_type": "secret",
+      "world_position": {
+        "x": 3,
+        "y": 2
+      },
+      "map_position": {
+        "region_x": 3,
+        "region_y": 2,
+        "local_x": 90,
+        "local_y": 65
+      },
+      "relative_layout": {},
+      "biome": {
+        "primary": "hidden_city",
+        "secondary": "aethelgardian_ruins",
+        "climate": "temperate"
+      },
+      "level_range": [
+        50,
+        80
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "explore"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5223,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 5224,
+          "spawn_weight": 25
+        },
+        {
+          "monster_id": 5225,
+          "spawn_weight": 20
+        },
+        {
+          "monster_id": 5226,
+          "spawn_weight": 16
+        },
+        {
+          "monster_id": 5226,
+          "spawn_weight": 8
+        },
+        {
+          "monster_id": 4017,
+          "spawn_weight": 3
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "paradox_crystal",
+          "chance": 0.05
+        },
+        {
+          "node_id": "mat_stellar_ember",
+          "chance": 0.1
+        },
+        {
+          "node_id": "eternal_reactor_seed",
+          "chance": 0.06
+        },
+        {
+          "node_id": "void_core",
+          "chance": 0.12
+        },
+        {
+          "node_id": "adaptive_nanite_gel",
+          "chance": 0.22
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_ancient_ghost"
+      ]
+    },
+    {
+      "id": "VOID_ECHO_CHASM",
+      "name": "Void Echo Chasm",
+      "region": "SECRET_ZONES",
+      "node_type": "secret",
+      "world_position": {
+        "x": 2,
+        "y": 3
+      },
+      "map_position": {
+        "region_x": 2,
+        "region_y": 3,
+        "local_x": 88,
+        "local_y": 78
+      },
+      "relative_layout": {},
+      "biome": {
+        "primary": "void_chasm",
+        "secondary": "echo_depths",
+        "climate": "void"
+      },
+      "level_range": [
+        55,
+        85
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "explore"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 5301,
+          "spawn_weight": 28
+        },
+        {
+          "monster_id": 5225,
+          "spawn_weight": 24
+        },
+        {
+          "monster_id": 5226,
+          "spawn_weight": 20
+        },
+        {
+          "monster_id": 4017,
+          "spawn_weight": 16
+        },
+        {
+          "monster_id": 4020,
+          "spawn_weight": 8
+        },
+        {
+          "monster_id": 5222,
+          "spawn_weight": 4
+        }
+      ],
+      "resource_nodes": [
+        {
+          "node_id": "paradox_crystal",
+          "chance": 0.04
+        },
+        {
+          "node_id": "void_core",
+          "chance": 0.14
+        },
+        {
+          "node_id": "mat_stellar_ember",
+          "chance": 0.1
+        },
+        {
+          "node_id": "raw_warp_residue_cluster",
+          "chance": 0.16
+        },
+        {
+          "node_id": "quantum_distortion_stone",
+          "chance": 0.12
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_echo_entity"
+      ]
+    },
+    {
+      "id": "ORBITAL_SENTINEL_COMMAND",
+      "name": "Orbital Sentinel Command",
+      "region": "ORBITAL_ZONES",
+      "node_type": "orbital",
+      "world_position": {
+        "x": 0,
+        "y": -1
+      },
+      "map_position": {
+        "region_x": 0,
+        "region_y": -1,
+        "local_x": 50,
+        "local_y": 10
+      },
+      "relative_layout": {},
+      "biome": {
+        "primary": "orbital_command",
+        "secondary": "sentinel_hq",
+        "climate": "orbital"
+      },
+      "level_range": [
+        60,
+        100
+      ],
+      "faction_owner": "CONCORDIUM",
+      "is_safe_zone": true,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "travel",
+        "trade",
+        "exchange",
+        "info"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [
+        {
+          "node_id": "cosmic_engine_shard",
+          "chance": 0.05
+        },
+        {
+          "node_id": "mat_stellar_ember",
+          "chance": 0.1
+        },
+        {
+          "node_id": "ore_aethel_infused_steel",
+          "chance": 0.08
+        },
+        {
+          "node_id": "eternal_reactor_seed",
+          "chance": 0.06
+        },
+        {
+          "node_id": "void_core",
+          "chance": 0.12
+        }
+      ],
+      "world_events": [],
+      "npc_ids": [
+        "npc_custodian_ai"
+      ]
+    },
+    {
+      "id": "NEXUS_CROSSROADS",
+      "name": "Nexus Crossroads",
+      "region": "NEUTRAL_ZONES",
+      "node_type": "neutral",
+      "world_position": {
+        "x": -1,
+        "y": 1
+      },
+      "map_position": {
+        "region_x": -1,
+        "region_y": 1,
+        "local_x": 30,
+        "local_y": 55
+      },
+      "relative_layout": {},
+      "biome": {
+        "primary": "neutral_crossroads",
+        "secondary": "trade_post",
+        "climate": "temperate"
+      },
+      "level_range": [
+        10,
+        30
+      ],
+      "faction_owner": "NEUTRAL",
+      "is_safe_zone": true,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "EXPLORE",
+        "SCAN",
+        "SHOP",
+        "REST",
+        "CRAFT"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": []
+    },
+    {
+      "id": "CENTRAL_SPIRE_BAZAAR",
+      "name": "Central Spire Bazaar",
+      "region": "NEUTRAL_ZONES",
+      "node_type": "neutral",
+      "world_position": {
+        "x": 1,
+        "y": 1
+      },
+      "map_position": {
+        "region_x": 1,
+        "region_y": 1,
+        "local_x": 68,
+        "local_y": 55
+      },
+      "relative_layout": {},
+      "biome": {
+        "primary": "neutral_bazaar",
+        "secondary": "spire_market",
+        "climate": "temperate"
+      },
+      "level_range": [
+        30,
+        60
+      ],
+      "faction_owner": "NEUTRAL",
+      "is_safe_zone": true,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "EXPLORE",
+        "SCAN",
+        "SHOP",
+        "REST",
+        "CRAFT"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": []
+    },
+    {
+      "id": "ORBITAL_NEUTRAL_HUB",
+      "name": "Orbital Neutral Hub",
+      "region": "NEUTRAL_ZONES",
+      "node_type": "neutral",
+      "world_position": {
+        "x": 2,
+        "y": 0
+      },
+      "map_position": {
+        "region_x": 2,
+        "region_y": 0,
+        "local_x": 78,
+        "local_y": 38
+      },
+      "relative_layout": {},
+      "biome": {
+        "primary": "orbital_hub",
+        "secondary": "neutral_station",
+        "climate": "orbital"
+      },
+      "level_range": [
+        60,
+        100
+      ],
+      "faction_owner": "NEUTRAL",
+      "is_safe_zone": true,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "EXPLORE",
+        "SCAN",
+        "SHOP",
+        "REST",
+        "CRAFT"
+      ],
+      "monster_spawns": [],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": []
+    }
+  ],
+  "routes": [
+    {
+      "from": "NEXUS_CORE",
+      "to": "AETHEL_GARDENS",
+      "route_type": "primary",
+      "min_level": 1,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "NEXUS_CORE",
+      "to": "BASTION_CORE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "NEXUS_CORE",
+      "to": "CRADLE_OUTER_RING",
+      "route_type": "primary",
+      "min_level": 11,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "NEXUS_CORE",
+      "to": "OBSERVATORY_SPIRE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "NEXUS_CORE",
+      "to": "PORT_MERIDIAN",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "NEXUS_CORE",
+      "to": "SENTINEL_ENCLAVE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "NEXUS_CORE",
+      "to": "THE_SPIRE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "AETHEL_GARDENS",
+      "to": "BROKEN_CIVIL_QUARTER",
+      "route_type": "primary",
+      "min_level": 6,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "AETHEL_GARDENS",
+      "to": "GLOWVINE_FOREST",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "BROKEN_CIVIL_QUARTER",
+      "to": "CRADLE_OUTER_RING",
+      "route_type": "primary",
+      "min_level": 11,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "BROKEN_CIVIL_QUARTER",
+      "to": "SCRAP_FIELD",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CRADLE_OUTER_RING",
+      "to": "BLACK_DOCK_MARKET",
+      "route_type": "secondary",
+      "min_level": 15,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CRADLE_OUTER_RING",
+      "to": "CRADLE_EXPANSE",
+      "route_type": "border",
+      "min_level": 20,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "CRADLE_OUTER_RING",
+      "to": "FRACTURED_GLASS_VALLEY",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CRADLE_OUTER_RING",
+      "to": "INNER_CRADLE_EXCLUSION",
+      "route_type": "primary",
+      "min_level": 25,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "INNER_CRADLE_EXCLUSION",
+      "to": "CRADLE_EXPANSE",
+      "route_type": "border",
+      "min_level": 20,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "INNER_CRADLE_EXCLUSION",
+      "to": "AETHEL_STORM_BELT",
+      "route_type": "border",
+      "min_level": 30,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "INNER_CRADLE_EXCLUSION",
+      "to": "SHATTERED_HEART",
+      "route_type": "secondary",
+      "min_level": 60,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SENTINEL_ENCLAVE",
+      "to": "THE_SPIRE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SENTINEL_ENCLAVE",
+      "to": "OBSERVATORY_SPIRE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SENTINEL_ENCLAVE",
+      "to": "PORT_MERIDIAN",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "OBSERVATORY_SPIRE",
+      "to": "CRYSTAL_SLOPE",
+      "route_type": "primary",
+      "min_level": 1,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "OBSERVATORY_SPIRE",
+      "to": "THE_SPIRE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CRYSTAL_SLOPE",
+      "to": "FRACTURED_GLASS_VALLEY",
+      "route_type": "primary",
+      "min_level": 6,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "CRYSTAL_SLOPE",
+      "to": "HIGHLAND_PLATEAU",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "FRACTURED_GLASS_VALLEY",
+      "to": "RESONANCE_CAVERNS",
+      "route_type": "primary",
+      "min_level": 13,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "RESONANCE_CAVERNS",
+      "to": "SHARD_PULSE_PEAK",
+      "route_type": "primary",
+      "min_level": 25,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "RESONANCE_CAVERNS",
+      "to": "FRAGMENT_SHRINE",
+      "route_type": "secondary",
+      "min_level": 15,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "RESONANCE_CAVERNS",
+      "to": "CRADLE_EXPANSE",
+      "route_type": "border",
+      "min_level": 20,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "SHARD_PULSE_PEAK",
+      "to": "AETHEL_STORM_BELT",
+      "route_type": "border",
+      "min_level": 30,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "SHARD_PULSE_PEAK",
+      "to": "SKYBRIDGE_REACTOR",
+      "route_type": "secondary",
+      "min_level": 35,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "BASTION_CORE",
+      "to": "SCRAP_FIELD",
+      "route_type": "primary",
+      "min_level": 1,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "BASTION_CORE",
+      "to": "FORTRESS_KAELEN",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SCRAP_FIELD",
+      "to": "IRON_RAVINE",
+      "route_type": "primary",
+      "min_level": 6,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "IRON_RAVINE",
+      "to": "EXTRACTION_ZONE_DELTA",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "IRON_RAVINE",
+      "to": "SCORCHED_BADLANDS",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "IRON_RAVINE",
+      "to": "WAR_MACHINE_GRAVEYARD",
+      "route_type": "primary",
+      "min_level": 13,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "WAR_MACHINE_GRAVEYARD",
+      "to": "TITAN_ASSEMBLY_YARD",
+      "route_type": "primary",
+      "min_level": 30,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "WAR_MACHINE_GRAVEYARD",
+      "to": "BORDER_SKIRMISH_RING",
+      "route_type": "border",
+      "min_level": 25,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "WAR_MACHINE_GRAVEYARD",
+      "to": "MESA_WARPATH",
+      "route_type": "secondary",
+      "min_level": 16,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "TITAN_ASSEMBLY_YARD",
+      "to": "AETHEL_STORM_BELT",
+      "route_type": "border",
+      "min_level": 30,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "TITAN_ASSEMBLY_YARD",
+      "to": "FORGE_CANYON_DEPTHS",
+      "route_type": "secondary",
+      "min_level": 30,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "PORT_MERIDIAN",
+      "to": "CORAL_WETLANDS",
+      "route_type": "primary",
+      "min_level": 1,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "PORT_MERIDIAN",
+      "to": "SANCTUM",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "PORT_MERIDIAN",
+      "to": "THE_SPIRE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CORAL_WETLANDS",
+      "to": "SMUGGLER_JUNGLE",
+      "route_type": "primary",
+      "min_level": 6,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "CORAL_WETLANDS",
+      "to": "GLOWVINE_FOREST",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SMUGGLER_JUNGLE",
+      "to": "BLACK_DOCK_MARKET",
+      "route_type": "primary",
+      "min_level": 15,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "SMUGGLER_JUNGLE",
+      "to": "SHARDROOT_SWAMP",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "BLACK_DOCK_MARKET",
+      "to": "BORDER_SKIRMISH_RING",
+      "route_type": "border",
+      "min_level": 25,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "BLACK_DOCK_MARKET",
+      "to": "SUNKEN_AETHEL_RUIN",
+      "route_type": "primary",
+      "min_level": 30,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "SUNKEN_AETHEL_RUIN",
+      "to": "AETHEL_STORM_BELT",
+      "route_type": "border",
+      "min_level": 30,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "SUNKEN_AETHEL_RUIN",
+      "to": "SHATTERED_HEART",
+      "route_type": "secondary",
+      "min_level": 60,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "THE_SPIRE",
+      "to": "HIGHLAND_PLATEAU",
+      "route_type": "primary",
+      "min_level": 1,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "HIGHLAND_PLATEAU",
+      "to": "EXTRACTION_ZONE_DELTA",
+      "route_type": "primary",
+      "min_level": 6,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "EXTRACTION_ZONE_DELTA",
+      "to": "SECURE_MINING_GRID",
+      "route_type": "primary",
+      "min_level": 16,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "SECURE_MINING_GRID",
+      "to": "SKYBRIDGE_REACTOR",
+      "route_type": "primary",
+      "min_level": 35,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "SECURE_MINING_GRID",
+      "to": "BORDER_SKIRMISH_RING",
+      "route_type": "border",
+      "min_level": 25,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "SKYBRIDGE_REACTOR",
+      "to": "AETHEL_STORM_BELT",
+      "route_type": "border",
+      "min_level": 30,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "SANCTUM",
+      "to": "GLOWVINE_FOREST",
+      "route_type": "primary",
+      "min_level": 1,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "GLOWVINE_FOREST",
+      "to": "SHARDROOT_SWAMP",
+      "route_type": "primary",
+      "min_level": 6,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "SHARDROOT_SWAMP",
+      "to": "FRAGMENT_SHRINE",
+      "route_type": "primary",
+      "min_level": 15,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "FRAGMENT_SHRINE",
+      "to": "HEARTWOOD_ALTAR",
+      "route_type": "primary",
+      "min_level": 28,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "FRAGMENT_SHRINE",
+      "to": "CRADLE_EXPANSE",
+      "route_type": "border",
+      "min_level": 20,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "HEARTWOOD_ALTAR",
+      "to": "AETHEL_STORM_BELT",
+      "route_type": "border",
+      "min_level": 30,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "HEARTWOOD_ALTAR",
+      "to": "SHATTERED_HEART",
+      "route_type": "secondary",
+      "min_level": 60,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "FORTRESS_KAELEN",
+      "to": "DUNE_OUTSKIRTS",
+      "route_type": "primary",
+      "min_level": 1,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "DUNE_OUTSKIRTS",
+      "to": "SCORCHED_BADLANDS",
+      "route_type": "primary",
+      "min_level": 6,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "SCORCHED_BADLANDS",
+      "to": "MESA_WARPATH",
+      "route_type": "primary",
+      "min_level": 16,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "MESA_WARPATH",
+      "to": "FORGE_CANYON_DEPTHS",
+      "route_type": "primary",
+      "min_level": 30,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "MESA_WARPATH",
+      "to": "BORDER_SKIRMISH_RING",
+      "route_type": "border",
+      "min_level": 25,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "FORGE_CANYON_DEPTHS",
+      "to": "AETHEL_STORM_BELT",
+      "route_type": "border",
+      "min_level": 30,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "CRADLE_EXPANSE",
+      "to": "AETHEL_STORM_BELT",
+      "route_type": "primary",
+      "min_level": 30,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "CRADLE_EXPANSE",
+      "to": "BLOOD_IRON_BASIN",
+      "route_type": "border",
+      "min_level": 30,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "CRADLE_EXPANSE",
+      "to": "BORDER_SKIRMISH_RING",
+      "route_type": "primary",
+      "min_level": 25,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "CRADLE_EXPANSE",
+      "to": "HIDDEN_AETHELGARDIAN_CITY",
+      "route_type": "border",
+      "min_level": 50,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "CRADLE_EXPANSE",
+      "to": "SHATTERED_HEART",
+      "route_type": "border",
+      "min_level": 60,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "CRADLE_EXPANSE",
+      "to": "TITAN_GRAVEYARD",
+      "route_type": "border",
+      "min_level": 60,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "AETHEL_STORM_BELT",
+      "to": "AETHEL_STORM_RIDGE",
+      "route_type": "border",
+      "min_level": 50,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "AETHEL_STORM_BELT",
+      "to": "HIDDEN_AETHELGARDIAN_CITY",
+      "route_type": "border",
+      "min_level": 50,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "AETHEL_STORM_BELT",
+      "to": "SHATTERED_HEART",
+      "route_type": "border",
+      "min_level": 60,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "BORDER_SKIRMISH_RING",
+      "to": "VOID_RIFT_CROSSROADS",
+      "route_type": "border",
+      "min_level": 40,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "BLOOD_IRON_BASIN",
+      "to": "SHATTERED_HEART",
+      "route_type": "border",
+      "min_level": 60,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "VOID_RIFT_CROSSROADS",
+      "to": "VOID_ECHO_CHASM",
+      "route_type": "border",
+      "min_level": 55,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "AETHEL_STORM_RIDGE",
+      "to": "PRIMA_MATERIA_FORGE",
+      "route_type": "border",
+      "min_level": 75,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "TITAN_GRAVEYARD",
+      "to": "SEVERANCE_FAULTLINE",
+      "route_type": "border",
+      "min_level": 65,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "ETERNAL_GATE",
+      "to": "PRIMA_MATERIA_FORGE",
+      "route_type": "border",
+      "min_level": 75,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "ETERNAL_GATE",
+      "to": "HIDDEN_AETHELGARDIAN_CITY",
+      "route_type": "border",
+      "min_level": 50,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "SHATTERED_HEART",
+      "to": "HIDDEN_AETHELGARDIAN_CITY",
+      "route_type": "secondary",
+      "min_level": 50,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SHATTERED_HEART",
+      "to": "SEVERANCE_FAULTLINE",
+      "route_type": "primary",
+      "min_level": 65,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "SHATTERED_HEART",
+      "to": "VOID_ECHO_CHASM",
+      "route_type": "secondary",
+      "min_level": 55,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SEVERANCE_FAULTLINE",
+      "to": "AETHEL_SIPHON_CORE",
+      "route_type": "primary",
+      "min_level": 70,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "AETHEL_SIPHON_CORE",
+      "to": "PRIMA_MATERIA_FORGE",
+      "route_type": "primary",
+      "min_level": 75,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "ORBITAL_SENTINEL_COMMAND",
+      "to": "SENTINEL_ENCLAVE",
+      "route_type": "primary",
+      "min_level": 1,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "ORBITAL_SENTINEL_COMMAND",
+      "to": "NEXUS_CORE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "ORBITAL_SENTINEL_COMMAND",
+      "to": "THE_SPIRE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "NEXUS_CROSSROADS",
+      "to": "AETHEL_GARDENS",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "NEXUS_CROSSROADS",
+      "to": "CRYSTAL_SLOPE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "NEXUS_CROSSROADS",
+      "to": "SCRAP_FIELD",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "NEXUS_CROSSROADS",
+      "to": "CORAL_WETLANDS",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "NEXUS_CROSSROADS",
+      "to": "HIGHLAND_PLATEAU",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "NEXUS_CROSSROADS",
+      "to": "GLOWVINE_FOREST",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "NEXUS_CROSSROADS",
+      "to": "DUNE_OUTSKIRTS",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "NEXUS_CROSSROADS",
+      "to": "NEXUS_CORE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "NEXUS_CROSSROADS",
+      "to": "OBSERVATORY_SPIRE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "NEXUS_CROSSROADS",
+      "to": "BASTION_CORE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "NEXUS_CROSSROADS",
+      "to": "PORT_MERIDIAN",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "NEXUS_CROSSROADS",
+      "to": "THE_SPIRE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "NEXUS_CROSSROADS",
+      "to": "SANCTUM",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "NEXUS_CROSSROADS",
+      "to": "FORTRESS_KAELEN",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CENTRAL_SPIRE_BAZAAR",
+      "to": "BROKEN_CIVIL_QUARTER",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CENTRAL_SPIRE_BAZAAR",
+      "to": "FRACTURED_GLASS_VALLEY",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CENTRAL_SPIRE_BAZAAR",
+      "to": "IRON_RAVINE",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CENTRAL_SPIRE_BAZAAR",
+      "to": "SMUGGLER_JUNGLE",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CENTRAL_SPIRE_BAZAAR",
+      "to": "EXTRACTION_ZONE_DELTA",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CENTRAL_SPIRE_BAZAAR",
+      "to": "SHARDROOT_SWAMP",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CENTRAL_SPIRE_BAZAAR",
+      "to": "SCORCHED_BADLANDS",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CENTRAL_SPIRE_BAZAAR",
+      "to": "CRADLE_EXPANSE",
+      "route_type": "border",
+      "min_level": 10,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "CENTRAL_SPIRE_BAZAAR",
+      "to": "BORDER_SKIRMISH_RING",
+      "route_type": "border",
+      "min_level": 10,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "CENTRAL_SPIRE_BAZAAR",
+      "to": "AETHEL_STORM_BELT",
+      "route_type": "border",
+      "min_level": 10,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "CENTRAL_SPIRE_BAZAAR",
+      "to": "NEXUS_CORE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CENTRAL_SPIRE_BAZAAR",
+      "to": "OBSERVATORY_SPIRE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CENTRAL_SPIRE_BAZAAR",
+      "to": "BASTION_CORE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CENTRAL_SPIRE_BAZAAR",
+      "to": "PORT_MERIDIAN",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CENTRAL_SPIRE_BAZAAR",
+      "to": "THE_SPIRE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CENTRAL_SPIRE_BAZAAR",
+      "to": "SANCTUM",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CENTRAL_SPIRE_BAZAAR",
+      "to": "FORTRESS_KAELEN",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "ORBITAL_NEUTRAL_HUB",
+      "to": "CRADLE_OUTER_RING",
+      "route_type": "secondary",
+      "min_level": 10,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "ORBITAL_NEUTRAL_HUB",
+      "to": "RESONANCE_CAVERNS",
+      "route_type": "secondary",
+      "min_level": 10,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "ORBITAL_NEUTRAL_HUB",
+      "to": "WAR_MACHINE_GRAVEYARD",
+      "route_type": "secondary",
+      "min_level": 10,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "ORBITAL_NEUTRAL_HUB",
+      "to": "BLACK_DOCK_MARKET",
+      "route_type": "secondary",
+      "min_level": 10,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "ORBITAL_NEUTRAL_HUB",
+      "to": "SECURE_MINING_GRID",
+      "route_type": "secondary",
+      "min_level": 10,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "ORBITAL_NEUTRAL_HUB",
+      "to": "FRAGMENT_SHRINE",
+      "route_type": "secondary",
+      "min_level": 10,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "ORBITAL_NEUTRAL_HUB",
+      "to": "MESA_WARPATH",
+      "route_type": "secondary",
+      "min_level": 10,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "ORBITAL_NEUTRAL_HUB",
+      "to": "SHATTERED_HEART",
+      "route_type": "secondary",
+      "min_level": 10,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "ORBITAL_NEUTRAL_HUB",
+      "to": "SEVERANCE_FAULTLINE",
+      "route_type": "secondary",
+      "min_level": 10,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "ORBITAL_NEUTRAL_HUB",
+      "to": "PRIMA_MATERIA_FORGE",
+      "route_type": "secondary",
+      "min_level": 10,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "ORBITAL_NEUTRAL_HUB",
+      "to": "NEXUS_CORE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "ORBITAL_NEUTRAL_HUB",
+      "to": "OBSERVATORY_SPIRE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "ORBITAL_NEUTRAL_HUB",
+      "to": "BASTION_CORE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "ORBITAL_NEUTRAL_HUB",
+      "to": "PORT_MERIDIAN",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "ORBITAL_NEUTRAL_HUB",
+      "to": "THE_SPIRE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "ORBITAL_NEUTRAL_HUB",
+      "to": "SANCTUM",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "ORBITAL_NEUTRAL_HUB",
+      "to": "FORTRESS_KAELEN",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    }
+  ],
+  "special_zones": [
+    {
+      "id": "SHATTERED_HEART",
+      "name": "Shattered Heart \u2014 Endgame Complex",
+      "zone_type": "endgame",
+      "world_position": {
+        "x": 0,
+        "y": 5
+      },
+      "nodes": [
+        "SHATTERED_HEART",
+        "SEVERANCE_FAULTLINE",
+        "AETHEL_SIPHON_CORE",
+        "PRIMA_MATERIA_FORGE",
+        "PRIMA_MATERIA_FORGE_RUINS",
+        "CRYSTALLINE_ABYSS",
+        "ECHO_OF_THE_FIRST_KING"
+      ]
+    },
+    {
+      "id": "CRADLE_EXPANSE",
+      "name": "Cradle Expanse \u2014 PvP Core",
+      "zone_type": "pvp",
+      "world_position": {
+        "x": 0,
+        "y": 2
+      },
+      "nodes": [
+        "CRADLE_EXPANSE",
+        "AETHEL_STORM_BELT",
+        "BORDER_SKIRMISH_RING",
+        "PRIMA_MATERIA_REFINING_FIELDS"
+      ]
+    },
+    {
+      "id": "SECRET_ZONES",
+      "name": "Hidden Locations",
+      "zone_type": "secret",
+      "world_position": {
+        "x": 2,
+        "y": 2
+      },
+      "nodes": [
+        "HIDDEN_AETHELGARDIAN_CITY",
+        "VOID_ECHO_CHASM"
+      ]
+    },
+    {
+      "id": "ORBITAL_ZONES",
+      "name": "Orbital Installations",
+      "zone_type": "orbital",
+      "world_position": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        "SENTINEL_ENCLAVE",
+        "ORBITAL_SENTINEL_COMMAND"
+      ]
+    },
+    {
+      "id": "NEUTRAL_ZONES",
+      "name": "Neutral Trade Hubs",
+      "zone_type": "neutral",
+      "world_position": {
+        "x": 0,
+        "y": 1
+      },
+      "nodes": [
+        "NEXUS_CROSSROADS",
+        "CENTRAL_SPIRE_BAZAAR",
+        "ORBITAL_NEUTRAL_HUB"
+      ]
+    }
+  ]
+}

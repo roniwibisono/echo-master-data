@@ -1,0 +1,455 @@
+{
+  "version": "1.0.0",
+  "mappings": [
+    {
+      "biome_primary": "ancient_city",
+      "resource_items": [
+        "aethel_shard",
+        "ancient_relic",
+        "data_fragment",
+        "minor_essence"
+      ],
+      "drop_weights": {
+        "aethel_shard": 0.25,
+        "ancient_relic": 0.25,
+        "data_fragment": 0.25,
+        "minor_essence": 0.25
+      }
+    },
+    {
+      "biome_primary": "sacred_garden",
+      "resource_items": [
+        "glowvine",
+        "sacred_herb",
+        "crystal_petal",
+        "healing_root"
+      ],
+      "drop_weights": {
+        "glowvine": 0.25,
+        "sacred_herb": 0.25,
+        "crystal_petal": 0.25,
+        "healing_root": 0.25
+      }
+    },
+    {
+      "biome_primary": "urban_ruins",
+      "resource_items": [
+        "scrap_metal",
+        "salvaged_circuit",
+        "old_tech",
+        "rusty_gear"
+      ],
+      "drop_weights": {
+        "scrap_metal": 0.25,
+        "salvaged_circuit": 0.25,
+        "old_tech": 0.25,
+        "rusty_gear": 0.25
+      }
+    },
+    {
+      "biome_primary": "ancient_ring_road",
+      "resource_items": [
+        "ring_road_stone",
+        "aethel_fragment",
+        "ancient_coin",
+        "travel_rune"
+      ],
+      "drop_weights": {
+        "ring_road_stone": 0.25,
+        "aethel_fragment": 0.25,
+        "ancient_coin": 0.25,
+        "travel_rune": 0.25
+      }
+    },
+    {
+      "biome_primary": "crystal_mountains",
+      "resource_items": [
+        "resonance_crystal",
+        "arcanite",
+        "shard_fragment",
+        "crystal_dust"
+      ],
+      "drop_weights": {
+        "resonance_crystal": 0.25,
+        "arcanite": 0.25,
+        "shard_fragment": 0.25,
+        "crystal_dust": 0.25
+      }
+    },
+    {
+      "biome_primary": "crystal_hills",
+      "resource_items": [
+        "crystal_shard",
+        "glass_fragment",
+        "arcane_dust",
+        "quartz"
+      ],
+      "drop_weights": {
+        "crystal_shard": 0.25,
+        "glass_fragment": 0.25,
+        "arcane_dust": 0.25,
+        "quartz": 0.25
+      }
+    },
+    {
+      "biome_primary": "crystal_cave",
+      "resource_items": [
+        "deep_crystal",
+        "resonance_essence",
+        "cave_pearl",
+        "dark_crystal"
+      ],
+      "drop_weights": {
+        "deep_crystal": 0.25,
+        "resonance_essence": 0.25,
+        "cave_pearl": 0.25,
+        "dark_crystal": 0.25
+      }
+    },
+    {
+      "biome_primary": "crystal_pass",
+      "resource_items": [
+        "ridge_crystal",
+        "mountain_herb",
+        "wind_essence",
+        "storm_core"
+      ],
+      "drop_weights": {
+        "ridge_crystal": 0.25,
+        "mountain_herb": 0.25,
+        "wind_essence": 0.25,
+        "storm_core": 0.25
+      }
+    },
+    {
+      "biome_primary": "iron_fortress",
+      "resource_items": [
+        "reinforced_iron",
+        "bastion_steel",
+        "forge_coal",
+        "steel_ingot"
+      ],
+      "drop_weights": {
+        "reinforced_iron": 0.25,
+        "bastion_steel": 0.25,
+        "forge_coal": 0.25,
+        "steel_ingot": 0.25
+      }
+    },
+    {
+      "biome_primary": "scrap_desert",
+      "resource_items": [
+        "salvaged_metal",
+        "scrap_copper",
+        "buried_tech",
+        "rusty_gear"
+      ],
+      "drop_weights": {
+        "salvaged_metal": 0.25,
+        "scrap_copper": 0.25,
+        "buried_tech": 0.25,
+        "rusty_gear": 0.25
+      }
+    },
+    {
+      "biome_primary": "mining_canyon",
+      "resource_items": [
+        "iron_ore",
+        "titanium_vein",
+        "mineral_dust",
+        "coal"
+      ],
+      "drop_weights": {
+        "iron_ore": 0.25,
+        "titanium_vein": 0.25,
+        "mineral_dust": 0.25,
+        "coal": 0.25
+      }
+    },
+    {
+      "biome_primary": "battlefield_junkyard",
+      "resource_items": [
+        "war_machine_part",
+        "military_scrap",
+        "plasma_cell",
+        "explosive_remnant"
+      ],
+      "drop_weights": {
+        "war_machine_part": 0.25,
+        "military_scrap": 0.25,
+        "plasma_cell": 0.25,
+        "explosive_remnant": 0.25
+      }
+    },
+    {
+      "biome_primary": "tropical_port",
+      "resource_items": [
+        "exotic_spice",
+        "coral_gem",
+        "trade_goods",
+        "silk"
+      ],
+      "drop_weights": {
+        "exotic_spice": 0.25,
+        "coral_gem": 0.25,
+        "trade_goods": 0.25,
+        "silk": 0.25
+      }
+    },
+    {
+      "biome_primary": "coastal_swamp",
+      "resource_items": [
+        "swamp_root",
+        "coral_fragment",
+        "brackish_pearl",
+        "mangrove_wood"
+      ],
+      "drop_weights": {
+        "swamp_root": 0.25,
+        "coral_fragment": 0.25,
+        "brackish_pearl": 0.25,
+        "mangrove_wood": 0.25
+      }
+    },
+    {
+      "biome_primary": "tropical_jungle",
+      "resource_items": [
+        "jungle_vine",
+        "exotic_flower",
+        "rare_wood",
+        "poison_fang"
+      ],
+      "drop_weights": {
+        "jungle_vine": 0.25,
+        "exotic_flower": 0.25,
+        "rare_wood": 0.25,
+        "poison_fang": 0.25
+      }
+    },
+    {
+      "biome_primary": "alpine_plateau",
+      "resource_items": [
+        "alpine_ore",
+        "wind_turbine_part",
+        "pure_water",
+        "mountain_herb"
+      ],
+      "drop_weights": {
+        "alpine_ore": 0.25,
+        "wind_turbine_part": 0.25,
+        "pure_water": 0.25,
+        "mountain_herb": 0.25
+      }
+    },
+    {
+      "biome_primary": "arcology",
+      "resource_items": [
+        "tech_component",
+        "data_drive",
+        "energy_cell",
+        "circuit_board"
+      ],
+      "drop_weights": {
+        "tech_component": 0.25,
+        "data_drive": 0.25,
+        "energy_cell": 0.25,
+        "circuit_board": 0.25
+      }
+    },
+    {
+      "biome_primary": "industrial_mine",
+      "resource_items": [
+        "raw_ore",
+        "industrial_lubricant",
+        "mining_dynamite",
+        "heavy_metal"
+      ],
+      "drop_weights": {
+        "raw_ore": 0.25,
+        "industrial_lubricant": 0.25,
+        "mining_dynamite": 0.25,
+        "heavy_metal": 0.25
+      }
+    },
+    {
+      "biome_primary": "automated_mine",
+      "resource_items": [
+        "refined_ore",
+        "automation_core",
+        "grid_power",
+        "ai_chip"
+      ],
+      "drop_weights": {
+        "refined_ore": 0.25,
+        "automation_core": 0.25,
+        "grid_power": 0.25,
+        "ai_chip": 0.25
+      }
+    },
+    {
+      "biome_primary": "sacred_temple",
+      "resource_items": [
+        "temple_relic",
+        "sacred_water",
+        "shard_offering",
+        "prayer_bead"
+      ],
+      "drop_weights": {
+        "temple_relic": 0.25,
+        "sacred_water": 0.25,
+        "shard_offering": 0.25,
+        "prayer_bead": 0.25
+      }
+    },
+    {
+      "biome_primary": "bioluminescent_forest",
+      "resource_items": [
+        "glowvine",
+        "luminous_mushroom",
+        "fairy_dust",
+        "pollen"
+      ],
+      "drop_weights": {
+        "glowvine": 0.25,
+        "luminous_mushroom": 0.25,
+        "fairy_dust": 0.25,
+        "pollen": 0.25
+      }
+    },
+    {
+      "biome_primary": "toxic_swamp",
+      "resource_items": [
+        "toxin_sac",
+        "mutated_spore",
+        "swamp_gas",
+        "antidote_herb"
+      ],
+      "drop_weights": {
+        "toxin_sac": 0.25,
+        "mutated_spore": 0.25,
+        "swamp_gas": 0.25,
+        "antidote_herb": 0.25
+      }
+    },
+    {
+      "biome_primary": "mesa_fortress",
+      "resource_items": [
+        "mesa_stone",
+        "fortress_supply",
+        "legion_banner",
+        "war_paint"
+      ],
+      "drop_weights": {
+        "mesa_stone": 0.25,
+        "fortress_supply": 0.25,
+        "legion_banner": 0.25,
+        "war_paint": 0.25
+      }
+    },
+    {
+      "biome_primary": "desert_edge",
+      "resource_items": [
+        "desert_herb",
+        "sandstone",
+        "dune_crystal",
+        "scorpion_venom"
+      ],
+      "drop_weights": {
+        "desert_herb": 0.25,
+        "sandstone": 0.25,
+        "dune_crystal": 0.25,
+        "scorpion_venom": 0.25
+      }
+    },
+    {
+      "biome_primary": "volcanic_badlands",
+      "resource_items": [
+        "volcanic_glass",
+        "obsidian",
+        "lava_core",
+        "fire_essence"
+      ],
+      "drop_weights": {
+        "volcanic_glass": 0.25,
+        "obsidian": 0.25,
+        "lava_core": 0.25,
+        "fire_essence": 0.25
+      }
+    },
+    {
+      "biome_primary": "rocky_mesa",
+      "resource_items": [
+        "mesa_iron",
+        "ancient_fossil",
+        "wind_eroded_stone",
+        "pterosaur_feather"
+      ],
+      "drop_weights": {
+        "mesa_iron": 0.25,
+        "ancient_fossil": 0.25,
+        "wind_eroded_stone": 0.25,
+        "pterosaur_feather": 0.25
+      }
+    },
+    {
+      "biome_primary": "aethel_wasteland",
+      "resource_items": [
+        "corrupted_shard",
+        "wasteland_scrap",
+        "aethel_isotope",
+        "mutated_essence"
+      ],
+      "drop_weights": {
+        "corrupted_shard": 0.25,
+        "wasteland_scrap": 0.25,
+        "aethel_isotope": 0.25,
+        "mutated_essence": 0.25
+      }
+    },
+    {
+      "biome_primary": "storm_wasteland",
+      "resource_items": [
+        "storm_core",
+        "lightning_crystal",
+        "charged_dust",
+        "thunder_essence"
+      ],
+      "drop_weights": {
+        "storm_core": 0.25,
+        "lightning_crystal": 0.25,
+        "charged_dust": 0.25,
+        "thunder_essence": 0.25
+      }
+    },
+    {
+      "biome_primary": "endgame_abyss",
+      "resource_items": [
+        "void_essence",
+        "dark_matter",
+        "primordial_core",
+        "reality_fragment"
+      ],
+      "drop_weights": {
+        "void_essence": 0.25,
+        "dark_matter": 0.25,
+        "primordial_core": 0.25,
+        "reality_fragment": 0.25
+      }
+    },
+    {
+      "biome_primary": "orbital",
+      "resource_items": [
+        "orbital_alloy",
+        "satellite_part",
+        "star_chart",
+        "fuel_cell"
+      ],
+      "drop_weights": {
+        "orbital_alloy": 0.25,
+        "satellite_part": 0.25,
+        "star_chart": 0.25,
+        "fuel_cell": 0.25
+      }
+    }
+  ]
+}

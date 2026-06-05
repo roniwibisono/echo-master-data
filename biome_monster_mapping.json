@@ -1,0 +1,400 @@
+{
+  "version": "1.0.0",
+  "mappings": [
+    {
+      "biome_primary": "ancient_city",
+      "monster_ids": [
+        5001,
+        5002,
+        5008
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "sacred_garden",
+      "monster_ids": [
+        5001,
+        5003,
+        5007
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "urban_ruins",
+      "monster_ids": [
+        5004,
+        5002,
+        5009
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "ancient_ring_road",
+      "monster_ids": [
+        5008,
+        5003,
+        5005
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "crystal_mountains",
+      "monster_ids": [
+        5007,
+        5006,
+        5101
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "crystal_hills",
+      "monster_ids": [
+        5007,
+        5102,
+        5103
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "crystal_cave",
+      "monster_ids": [
+        5101,
+        5104,
+        5105
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "crystal_pass",
+      "monster_ids": [
+        5007,
+        5106,
+        5107
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "iron_fortress",
+      "monster_ids": [
+        5004,
+        5108,
+        5109
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "scrap_desert",
+      "monster_ids": [
+        5004,
+        5009,
+        5110
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "mining_canyon",
+      "monster_ids": [
+        5111,
+        5108,
+        5112
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "battlefield_junkyard",
+      "monster_ids": [
+        5113,
+        5114,
+        5115
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "tropical_port",
+      "monster_ids": [
+        5116,
+        5117,
+        5118
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "coastal_swamp",
+      "monster_ids": [
+        5117,
+        5119,
+        5120
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "tropical_jungle",
+      "monster_ids": [
+        5121,
+        5122,
+        5117
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "alpine_plateau",
+      "monster_ids": [
+        5123,
+        5124,
+        5125
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "arcology",
+      "monster_ids": [
+        5002,
+        5126,
+        5127
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "industrial_mine",
+      "monster_ids": [
+        5112,
+        5128,
+        5129
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "automated_mine",
+      "monster_ids": [
+        5126,
+        5130,
+        5127
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "sacred_temple",
+      "monster_ids": [
+        5003,
+        5131,
+        5132
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "bioluminescent_forest",
+      "monster_ids": [
+        5003,
+        5133,
+        5007
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "toxic_swamp",
+      "monster_ids": [
+        5134,
+        5135,
+        5136
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "mesa_fortress",
+      "monster_ids": [
+        5137,
+        5138,
+        5139
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "desert_edge",
+      "monster_ids": [
+        5110,
+        5140,
+        5141
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "volcanic_badlands",
+      "monster_ids": [
+        5138,
+        5142,
+        5143
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "rocky_mesa",
+      "monster_ids": [
+        5111,
+        5144,
+        5137
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "aethel_wasteland",
+      "monster_ids": [
+        5150,
+        5151,
+        5152
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "storm_wasteland",
+      "monster_ids": [
+        5153,
+        5154,
+        5155
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "endgame_abyss",
+      "monster_ids": [
+        4004,
+        4001,
+        4002
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "orbital",
+      "monster_ids": [
+        5002,
+        5126,
+        5156
+      ],
+      "spawn_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    {
+      "biome_primary": "neutral",
+      "monster_ids": [],
+      "spawn_weights": []
+    }
+  ]
+}

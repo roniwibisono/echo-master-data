@@ -2,7 +2,7 @@
   "meta": {
     "planet": "Xylos",
     "system": "Aethelgard System",
-    "version": "3.0.0",
+    "version": "3.1.0",
     "total_regions": 45,
     "pvp_core_regions": [
       "CRADLE_EXPANSE",
@@ -80,7 +80,22 @@
         "npc_concordium_class_trainer"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "biome": {
+        "primary": "ancient_city",
+        "secondary": "aethel_ruins",
+        "climate": "temperate"
+      },
+      "relative_layout": {
+        "north": "HIGH_RIDGE_PASS",
+        "south": "SENTINEL_ENCLAVE",
+        "west": "AETHEL_GARDENS",
+        "east": "BROKEN_CIVIL_QUARTER"
+      }
     },
     {
       "id": "AETHEL_GARDENS",
@@ -152,7 +167,21 @@
         "npc_garden_scout"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": -1,
+        "y": 0
+      },
+      "biome": {
+        "primary": "sacred_garden",
+        "secondary": "ancient_forest",
+        "climate": "temperate"
+      },
+      "relative_layout": {
+        "east": "NEXUS_CORE",
+        "south": "CRADLE_OUTER_RING",
+        "south_west": "GLOWVINE_FOREST"
+      }
     },
     {
       "id": "BROKEN_CIVIL_QUARTER",
@@ -239,7 +268,21 @@
         "npc_scavenger"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "biome": {
+        "primary": "urban_ruins",
+        "secondary": "urban_decay",
+        "climate": "temperate"
+      },
+      "relative_layout": {
+        "west": "NEXUS_CORE",
+        "south": "CRADLE_OUTER_RING",
+        "north_east": "CRYSTAL_RIDGE"
+      }
     },
     {
       "id": "CRADLE_OUTER_RING",
@@ -321,7 +364,22 @@
         "npc_patrol_guard"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 0,
+        "y": 1
+      },
+      "biome": {
+        "primary": "ancient_ring_road",
+        "secondary": "ruins",
+        "climate": "temperate"
+      },
+      "relative_layout": {
+        "north": "NEXUS_CORE",
+        "north_west": "AETHEL_GARDENS",
+        "north_east": "BROKEN_CIVIL_QUARTER",
+        "south": "CRADLE_EXPANSE"
+      }
     },
     {
       "id": "INNER_CRADLE_EXCLUSION",
@@ -404,7 +462,22 @@
         "npc_veteran_explorer"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 1,
+        "y": 2
+      },
+      "biome": {
+        "primary": "ancient_ring_road",
+        "secondary": "aethel_ruins",
+        "climate": "temperate"
+      },
+      "relative_layout": {
+        "north": "CRADLE_OUTER_RING",
+        "south": "CRADLE_EXPANSE",
+        "west": "AETHEL_STORM_BELT",
+        "east": "SHATTERED_HEART"
+      }
     },
     {
       "id": "OBSERVATORY_SPIRE",
@@ -448,7 +521,20 @@
         "npc_arcanum_class_trainer"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 2,
+        "y": -1
+      },
+      "biome": {
+        "primary": "crystal_mountains",
+        "secondary": "arcane_citadel",
+        "climate": "cold"
+      },
+      "relative_layout": {
+        "south": "CRYSTAL_SLOPE",
+        "south_west": "CRYSTAL_RIDGE"
+      }
     },
     {
       "id": "CRYSTAL_SLOPE",
@@ -530,7 +616,22 @@
         "npc_novice_researcher"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "biome": {
+        "primary": "crystal_hills",
+        "secondary": "shard_fields",
+        "climate": "cold"
+      },
+      "relative_layout": {
+        "north": "OBSERVATORY_SPIRE",
+        "west": "CRYSTAL_RIDGE",
+        "south_west": "DATA_VAULT_RUINS",
+        "south_east": "RESONANCE_CAVERNS"
+      }
     },
     {
       "id": "FRACTURED_GLASS_VALLEY",
@@ -600,7 +701,21 @@
         "npc_glass_collector"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "biome": {
+        "primary": "crystal_hills",
+        "secondary": "glass_fields",
+        "climate": "cold"
+      },
+      "relative_layout": {
+        "north": "CRYSTAL_SLOPE",
+        "south": "RESONANCE_CAVERNS",
+        "east": "CRADLE_OUTER_RING"
+      }
     },
     {
       "id": "RESONANCE_CAVERNS",
@@ -671,7 +786,22 @@
         "npc_cave_spelunker"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 2,
+        "y": 1
+      },
+      "biome": {
+        "primary": "crystal_cave",
+        "secondary": "resonance_chamber",
+        "climate": "cold"
+      },
+      "relative_layout": {
+        "north": "FRACTURED_GLASS_VALLEY",
+        "west": "DATA_VAULT_RUINS",
+        "south_west": "CRADLE_EXPANSE",
+        "east": "SHARD_PULSE_PEAK"
+      }
     },
     {
       "id": "SHARD_PULSE_PEAK",
@@ -753,7 +883,21 @@
         "npc_peak_watcher"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 3,
+        "y": 1
+      },
+      "biome": {
+        "primary": "crystal_mountains",
+        "secondary": "shard_pulse",
+        "climate": "cold"
+      },
+      "relative_layout": {
+        "west": "RESONANCE_CAVERNS",
+        "south": "AETHEL_STORM_BELT",
+        "north": "SKYBRIDGE_REACTOR"
+      }
     },
     {
       "id": "BASTION_CORE",
@@ -796,7 +940,19 @@
         "npc_hegemony_class_trainer"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": -2,
+        "y": -1
+      },
+      "biome": {
+        "primary": "iron_fortress",
+        "secondary": "fortress_interior",
+        "climate": "arid"
+      },
+      "relative_layout": {
+        "south": "SCRAP_FIELD"
+      }
     },
     {
       "id": "SCRAP_FIELD",
@@ -882,7 +1038,21 @@
         "npc_scrap_merchant"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": -2,
+        "y": 0
+      },
+      "biome": {
+        "primary": "scrap_desert",
+        "secondary": "battlefield_remnants",
+        "climate": "arid"
+      },
+      "relative_layout": {
+        "north": "BASTION_CORE",
+        "south": "IRON_RAVINE",
+        "east": "BROKEN_CIVIL_QUARTER"
+      }
     },
     {
       "id": "IRON_RAVINE",
@@ -957,7 +1127,21 @@
         "npc_iron_miner"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": -2,
+        "y": 1
+      },
+      "biome": {
+        "primary": "mining_canyon",
+        "secondary": "iron_vein",
+        "climate": "arid"
+      },
+      "relative_layout": {
+        "north": "SCRAP_FIELD",
+        "south": "WAR_MACHINE_GRAVEYARD",
+        "east": "CANYON_CORRIDOR"
+      }
     },
     {
       "id": "WAR_MACHINE_GRAVEYARD",
@@ -1028,7 +1212,21 @@
         "npc_salvage_expert"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": -2,
+        "y": 2
+      },
+      "biome": {
+        "primary": "battlefield_junkyard",
+        "secondary": "war_machine_wreckage",
+        "climate": "arid"
+      },
+      "relative_layout": {
+        "north": "IRON_RAVINE",
+        "south_east": "BORDER_SKIRMISH_RING",
+        "east": "TITAN_ASSEMBLY_YARD"
+      }
     },
     {
       "id": "TITAN_ASSEMBLY_YARD",
@@ -1098,7 +1296,21 @@
         "npc_assembly_foreman"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": -1,
+        "y": 2
+      },
+      "biome": {
+        "primary": "industrial_assembly",
+        "secondary": "titan_factory",
+        "climate": "arid"
+      },
+      "relative_layout": {
+        "west": "WAR_MACHINE_GRAVEYARD",
+        "south": "AETHEL_STORM_BELT",
+        "east": "FORGE_CANYON_DEPTHS"
+      }
     },
     {
       "id": "PORT_MERIDIAN",
@@ -1142,7 +1354,20 @@
         "npc_meridian_class_trainer"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 2,
+        "y": 1
+      },
+      "biome": {
+        "primary": "tropical_port",
+        "secondary": "trade_hub",
+        "climate": "tropical"
+      },
+      "relative_layout": {
+        "south_west": "CORAL_WETLANDS",
+        "south_east": "SMUGGLER_JUNGLE"
+      }
     },
     {
       "id": "CORAL_WETLANDS",
@@ -1224,7 +1449,21 @@
         "npc_wetland_fisher"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 1,
+        "y": 2
+      },
+      "biome": {
+        "primary": "coastal_swamp",
+        "secondary": "coral_shoals",
+        "climate": "tropical"
+      },
+      "relative_layout": {
+        "north_east": "PORT_MERIDIAN",
+        "south": "BLACK_DOCK_MARKET",
+        "east": "SMUGGLER_JUNGLE"
+      }
     },
     {
       "id": "SMUGGLER_JUNGLE",
@@ -1298,7 +1537,21 @@
         "npc_shady_smuggler"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 2,
+        "y": 2
+      },
+      "biome": {
+        "primary": "tropical_jungle",
+        "secondary": "smuggler_camp",
+        "climate": "tropical"
+      },
+      "relative_layout": {
+        "north_west": "PORT_MERIDIAN",
+        "west": "CORAL_WETLANDS",
+        "south": "BLACK_DOCK_MARKET"
+      }
     },
     {
       "id": "BLACK_DOCK_MARKET",
@@ -1370,7 +1623,21 @@
         "npc_black_market_dealer"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 1,
+        "y": 2
+      },
+      "biome": {
+        "primary": "smuggler_harbor",
+        "secondary": "black_market",
+        "climate": "tropical"
+      },
+      "relative_layout": {
+        "north": "CORAL_WETLANDS",
+        "north_east": "SMUGGLER_JUNGLE",
+        "west": "CRADLE_EXPANSE"
+      }
     },
     {
       "id": "SUNKEN_AETHEL_RUIN",
@@ -1440,7 +1707,21 @@
         "npc_ruin_diver"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 2,
+        "y": 3
+      },
+      "biome": {
+        "primary": "sunken_ruins",
+        "secondary": "aethel_flood",
+        "climate": "tropical"
+      },
+      "relative_layout": {
+        "north": "BLACK_DOCK_MARKET",
+        "west": "AETHEL_STORM_BELT",
+        "north_east": "SHATTERED_HEART"
+      }
     },
     {
       "id": "THE_SPIRE",
@@ -1485,7 +1766,21 @@
         "npc_omnicorp_class_trainer"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 0,
+        "y": -2
+      },
+      "biome": {
+        "primary": "arcology",
+        "secondary": "megacity",
+        "climate": "cold"
+      },
+      "relative_layout": {
+        "south": "HIGHLAND_PLATEAU",
+        "south_west": "EXTRACTION_ZONE_DELTA",
+        "south_east": "SECURE_MINING_GRID"
+      }
     },
     {
       "id": "HIGHLAND_PLATEAU",
@@ -1555,7 +1850,22 @@
         "npc_plateau_surveyor"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 0,
+        "y": -1
+      },
+      "biome": {
+        "primary": "alpine_plateau",
+        "secondary": "highland_fields",
+        "climate": "cold"
+      },
+      "relative_layout": {
+        "north": "THE_SPIRE",
+        "south": "HIGH_RIDGE_PASS",
+        "west": "EXTRACTION_ZONE_DELTA",
+        "east": "SECURE_MINING_GRID"
+      }
     },
     {
       "id": "EXTRACTION_ZONE_DELTA",
@@ -1625,7 +1935,20 @@
         "npc_extraction_chief"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": -1,
+        "y": -1
+      },
+      "biome": {
+        "primary": "industrial_mine",
+        "secondary": "extraction_pit",
+        "climate": "cold"
+      },
+      "relative_layout": {
+        "east": "HIGHLAND_PLATEAU",
+        "south_west": "IRON_RAVINE"
+      }
     },
     {
       "id": "SECURE_MINING_GRID",
@@ -1695,7 +2018,20 @@
         "npc_grid_security"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 1,
+        "y": -1
+      },
+      "biome": {
+        "primary": "automated_mine",
+        "secondary": "mining_grid",
+        "climate": "cold"
+      },
+      "relative_layout": {
+        "west": "HIGHLAND_PLATEAU",
+        "south_east": "BORDER_SKIRMISH_RING"
+      }
     },
     {
       "id": "SKYBRIDGE_REACTOR",
@@ -1769,7 +2105,20 @@
         "npc_reactor_engineer"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "biome": {
+        "primary": "skybridge",
+        "secondary": "reactor_core",
+        "climate": "cold"
+      },
+      "relative_layout": {
+        "west": "SECURE_MINING_GRID",
+        "south": "SHARD_PULSE_PEAK"
+      }
     },
     {
       "id": "SANCTUM",
@@ -1811,7 +2160,19 @@
         "npc_shard_class_trainer"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": -2,
+        "y": 1
+      },
+      "biome": {
+        "primary": "sacred_temple",
+        "secondary": "shard_sanctuary",
+        "climate": "temperate"
+      },
+      "relative_layout": {
+        "south": "GLOWVINE_FOREST"
+      }
     },
     {
       "id": "GLOWVINE_FOREST",
@@ -1882,7 +2243,22 @@
         "npc_forest_acolyte"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": -2,
+        "y": 2
+      },
+      "biome": {
+        "primary": "bioluminescent_forest",
+        "secondary": "glowvine_grove",
+        "climate": "temperate"
+      },
+      "relative_layout": {
+        "north": "SANCTUM",
+        "west": "SHARDROOT_SWAMP",
+        "east": "FRAGMENT_SHRINE",
+        "north_east": "AETHEL_GARDENS"
+      }
     },
     {
       "id": "SHARDROOT_SWAMP",
@@ -1964,7 +2340,19 @@
         "npc_swamp_hermit"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": -3,
+        "y": 2
+      },
+      "biome": {
+        "primary": "toxic_swamp",
+        "secondary": "shardroot_deep",
+        "climate": "temperate"
+      },
+      "relative_layout": {
+        "east": "GLOWVINE_FOREST"
+      }
     },
     {
       "id": "FRAGMENT_SHRINE",
@@ -2035,7 +2423,21 @@
         "npc_shrine_keeper"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": -1,
+        "y": 2
+      },
+      "biome": {
+        "primary": "ancient_shrine",
+        "secondary": "fragment_altar",
+        "climate": "temperate"
+      },
+      "relative_layout": {
+        "west": "GLOWVINE_FOREST",
+        "south": "CANYON_PASSAGE",
+        "north_east": "CRADLE_EXPANSE"
+      }
     },
     {
       "id": "HEARTWOOD_ALTAR",
@@ -2109,7 +2511,20 @@
         "npc_altar_guardian"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": -1,
+        "y": 3
+      },
+      "biome": {
+        "primary": "ancient_shrine",
+        "secondary": "heartwood_grove",
+        "climate": "temperate"
+      },
+      "relative_layout": {
+        "north": "FRAGMENT_SHRINE",
+        "east": "AETHEL_STORM_BELT"
+      }
     },
     {
       "id": "FORTRESS_KAELEN",
@@ -2151,7 +2566,21 @@
         "npc_legion_class_trainer"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 0,
+        "y": 3
+      },
+      "biome": {
+        "primary": "mesa_fortress",
+        "secondary": "kaelen_citadel",
+        "climate": "arid"
+      },
+      "relative_layout": {
+        "south": "SCORCHED_BADLANDS",
+        "west": "DUNE_OUTSKIRTS",
+        "north": "SOUTHERN_PASS"
+      }
     },
     {
       "id": "DUNE_OUTSKIRTS",
@@ -2232,7 +2661,19 @@
         "npc_dune_scout"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": -1,
+        "y": 3
+      },
+      "biome": {
+        "primary": "desert_edge",
+        "secondary": "dune_fields",
+        "climate": "arid"
+      },
+      "relative_layout": {
+        "east": "FORTRESS_KAELEN"
+      }
     },
     {
       "id": "SCORCHED_BADLANDS",
@@ -2314,7 +2755,20 @@
         "npc_badland_survivor"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 0,
+        "y": 4
+      },
+      "biome": {
+        "primary": "volcanic_badlands",
+        "secondary": "scorched_earth",
+        "climate": "arid"
+      },
+      "relative_layout": {
+        "north": "FORTRESS_KAELEN",
+        "east": "MESA_WARPATH"
+      }
     },
     {
       "id": "MESA_WARPATH",
@@ -2385,7 +2839,20 @@
         "npc_warpath_veteran"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 1,
+        "y": 4
+      },
+      "biome": {
+        "primary": "rocky_mesa",
+        "secondary": "warpath_trail",
+        "climate": "arid"
+      },
+      "relative_layout": {
+        "west": "SCORCHED_BADLANDS",
+        "north_west": "BORDER_SKIRMISH_RING"
+      }
     },
     {
       "id": "FORGE_CANYON_DEPTHS",
@@ -2459,7 +2926,21 @@
         "npc_lost_blacksmith"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 0,
+        "y": 3
+      },
+      "biome": {
+        "primary": "volcanic_badlands",
+        "secondary": "forge_canyon",
+        "climate": "arid"
+      },
+      "relative_layout": {
+        "south": "MESA_WARPATH",
+        "north_west": "TITAN_ASSEMBLY_YARD",
+        "north_east": "AETHEL_STORM_BELT"
+      }
     },
     {
       "id": "CRADLE_EXPANSE",
@@ -2551,7 +3032,22 @@
         "npc_wandering_trader"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 0,
+        "y": 2
+      },
+      "biome": {
+        "primary": "aethel_wasteland",
+        "secondary": "pvp_core",
+        "climate": "wasteland"
+      },
+      "relative_layout": {
+        "north": "CRADLE_OUTER_RING",
+        "west": "AETHEL_STORM_BELT",
+        "east": "PRIMA_MATERIA_REFINING_FIELDS",
+        "south": "BORDER_SKIRMISH_RING"
+      }
     },
     {
       "id": "AETHEL_STORM_BELT",
@@ -2638,7 +3134,21 @@
         "npc_reckless_scout"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": -1,
+        "y": 2
+      },
+      "biome": {
+        "primary": "storm_wasteland",
+        "secondary": "aethel_storm",
+        "climate": "storm"
+      },
+      "relative_layout": {
+        "east": "CRADLE_EXPANSE",
+        "north": "INNER_CRADLE_EXCLUSION",
+        "west": "TITAN_ASSEMBLY_YARD"
+      }
     },
     {
       "id": "BORDER_SKIRMISH_RING",
@@ -2716,7 +3226,22 @@
         "npc_frontline_commander"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 0,
+        "y": 3
+      },
+      "biome": {
+        "primary": "frontline_battlefield",
+        "secondary": "skirmish_zone",
+        "climate": "wasteland"
+      },
+      "relative_layout": {
+        "north": "CRADLE_EXPANSE",
+        "south": "SOUTHERN_PASS",
+        "west": "CANYON_PASSAGE",
+        "east": "PRIMA_MATERIA_REFINING_FIELDS"
+      }
     },
     {
       "id": "SHATTERED_HEART",
@@ -2800,7 +3325,20 @@
         "npc_void_walker"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 0,
+        "y": 4
+      },
+      "biome": {
+        "primary": "endgame_abyss",
+        "secondary": "shattered_core",
+        "climate": "void"
+      },
+      "relative_layout": {
+        "north": "CRADLE_EXPANSE",
+        "south": "SEVERANCE_FAULTLINE"
+      }
     },
     {
       "id": "SEVERANCE_FAULTLINE",
@@ -2878,7 +3416,22 @@
         "npc_doomsayer"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 0,
+        "y": 5
+      },
+      "biome": {
+        "primary": "endgame_abyss",
+        "secondary": "faultline_rift",
+        "climate": "void"
+      },
+      "relative_layout": {
+        "north": "SHATTERED_HEART",
+        "south_west": "AETHEL_SIPHON_CORE",
+        "south_east": "PRIMA_MATERIA_FORGE_RUINS",
+        "south": "ECHO_OF_THE_FIRST_KING"
+      }
     },
     {
       "id": "AETHEL_SIPHON_CORE",
@@ -2955,7 +3508,20 @@
         "npc_core_technician"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": -1,
+        "y": 5
+      },
+      "biome": {
+        "primary": "endgame_abyss",
+        "secondary": "siphon_core",
+        "climate": "void"
+      },
+      "relative_layout": {
+        "north_east": "SEVERANCE_FAULTLINE",
+        "east": "PRIMA_MATERIA_FORGE_RUINS"
+      }
     },
     {
       "id": "PRIMA_MATERIA_FORGE",
@@ -3034,7 +3600,21 @@
         "npc_abyssal_smith"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 2,
+        "y": 4
+      },
+      "biome": {
+        "primary": "prima_forge",
+        "secondary": "forge_ruins",
+        "climate": "void"
+      },
+      "relative_layout": {
+        "west": "AETHEL_SIPHON_CORE",
+        "north_east": "ETERNAL_GATE",
+        "north": "AETHEL_STORM_RIDGE"
+      }
     },
     {
       "id": "SENTINEL_ENCLAVE",
@@ -3063,7 +3643,19 @@
       ],
       "monster_spawns": [],
       "resource_nodes": [],
-      "world_events": []
+      "world_events": [],
+      "position": {
+        "x": 0,
+        "y": 1
+      },
+      "biome": {
+        "primary": "neutral_fortress",
+        "secondary": "orbital_station",
+        "climate": "orbital"
+      },
+      "relative_layout": {
+        "north": "NEXUS_CORE"
+      }
     },
     {
       "id": "HIDDEN_AETHELGARDIAN_CITY",
@@ -3138,7 +3730,17 @@
         "npc_ancient_ghost"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 3,
+        "y": 2
+      },
+      "biome": {
+        "primary": "hidden_city",
+        "secondary": "aethelgardian_ruins",
+        "climate": "temperate"
+      },
+      "relative_layout": {}
     },
     {
       "id": "VOID_ECHO_CHASM",
@@ -3211,7 +3813,17 @@
         "npc_echo_entity"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 2,
+        "y": 3
+      },
+      "biome": {
+        "primary": "void_chasm",
+        "secondary": "echo_depths",
+        "climate": "void"
+      },
+      "relative_layout": {}
     },
     {
       "id": "ORBITAL_SENTINEL_COMMAND",
@@ -3263,7 +3875,17 @@
         "npc_custodian_ai"
       ],
       "can_be_occupied": false,
-      "current_tax": 0.0
+      "current_tax": 0.0,
+      "position": {
+        "x": 0,
+        "y": -1
+      },
+      "biome": {
+        "primary": "orbital_command",
+        "secondary": "sentinel_hq",
+        "climate": "orbital"
+      },
+      "relative_layout": {}
     },
     {
       "id": "BLOOD_IRON_BASIN",
@@ -3306,7 +3928,20 @@
         }
       ],
       "resource_nodes": [],
-      "world_events": []
+      "world_events": [],
+      "position": {
+        "x": -1,
+        "y": 3
+      },
+      "biome": {
+        "primary": "blood_iron_field",
+        "secondary": "basin_depths",
+        "climate": "wasteland"
+      },
+      "relative_layout": {
+        "north": "CRADLE_EXPANSE",
+        "south": "SHATTERED_HEART"
+      }
     },
     {
       "id": "VOID_RIFT_CROSSROADS",
@@ -3350,7 +3985,20 @@
         }
       ],
       "resource_nodes": [],
-      "world_events": []
+      "world_events": [],
+      "position": {
+        "x": 1,
+        "y": 3
+      },
+      "biome": {
+        "primary": "void_rift",
+        "secondary": "crossroads",
+        "climate": "wasteland"
+      },
+      "relative_layout": {
+        "north": "BORDER_SKIRMISH_RING",
+        "east": "VOID_ECHO_CHASM"
+      }
     },
     {
       "id": "AETHEL_STORM_RIDGE",
@@ -3394,7 +4042,20 @@
         }
       ],
       "resource_nodes": [],
-      "world_events": []
+      "world_events": [],
+      "position": {
+        "x": -2,
+        "y": 3
+      },
+      "biome": {
+        "primary": "storm_wasteland",
+        "secondary": "storm_ridge",
+        "climate": "storm"
+      },
+      "relative_layout": {
+        "east": "AETHEL_STORM_BELT",
+        "south": "PRIMA_MATERIA_FORGE"
+      }
     },
     {
       "id": "TITAN_GRAVEYARD",
@@ -3439,7 +4100,20 @@
         }
       ],
       "resource_nodes": [],
-      "world_events": []
+      "world_events": [],
+      "position": {
+        "x": -2,
+        "y": 3
+      },
+      "biome": {
+        "primary": "titan_graveyard",
+        "secondary": "ancient_bones",
+        "climate": "wasteland"
+      },
+      "relative_layout": {
+        "north": "CRADLE_EXPANSE",
+        "east": "SEVERANCE_FAULTLINE"
+      }
     },
     {
       "id": "ETERNAL_GATE",
@@ -3488,7 +4162,20 @@
         }
       ],
       "resource_nodes": [],
-      "world_events": []
+      "world_events": [],
+      "position": {
+        "x": 3,
+        "y": 3
+      },
+      "biome": {
+        "primary": "eternal_gate",
+        "secondary": "void_portal",
+        "climate": "void"
+      },
+      "relative_layout": {
+        "west": "PRIMA_MATERIA_FORGE",
+        "north_west": "HIDDEN_AETHELGARDIAN_CITY"
+      }
     },
     {
       "id": "NEXUS_CROSSROADS",
@@ -3528,7 +4215,17 @@
       ],
       "monster_spawns": [],
       "resource_nodes": [],
-      "world_events": []
+      "world_events": [],
+      "position": {
+        "x": -1,
+        "y": 1
+      },
+      "biome": {
+        "primary": "neutral_crossroads",
+        "secondary": "trade_post",
+        "climate": "temperate"
+      },
+      "relative_layout": {}
     },
     {
       "id": "CENTRAL_SPIRE_BAZAAR",
@@ -3571,7 +4268,17 @@
       ],
       "monster_spawns": [],
       "resource_nodes": [],
-      "world_events": []
+      "world_events": [],
+      "position": {
+        "x": 1,
+        "y": 1
+      },
+      "biome": {
+        "primary": "neutral_bazaar",
+        "secondary": "spire_market",
+        "climate": "temperate"
+      },
+      "relative_layout": {}
     },
     {
       "id": "ORBITAL_NEUTRAL_HUB",
@@ -3614,7 +4321,17 @@
       ],
       "monster_spawns": [],
       "resource_nodes": [],
-      "world_events": []
+      "world_events": [],
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "biome": {
+        "primary": "orbital_hub",
+        "secondary": "neutral_station",
+        "climate": "orbital"
+      },
+      "relative_layout": {}
     }
   ],
   "nodes": [
@@ -3656,7 +4373,22 @@
           "type": "normal",
           "min_level": 1
         }
-      ]
+      ],
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "biome": {
+        "primary": "ancient_city",
+        "secondary": "aethel_ruins",
+        "climate": "temperate"
+      },
+      "relative_layout": {
+        "north": "HIGH_RIDGE_PASS",
+        "south": "SENTINEL_ENCLAVE",
+        "west": "AETHEL_GARDENS",
+        "east": "BROKEN_CIVIL_QUARTER"
+      }
     },
     {
       "id": "AETHEL_GARDENS",
@@ -3676,7 +4408,21 @@
           "type": "normal",
           "min_level": 1
         }
-      ]
+      ],
+      "position": {
+        "x": -1,
+        "y": 0
+      },
+      "biome": {
+        "primary": "sacred_garden",
+        "secondary": "ancient_forest",
+        "climate": "temperate"
+      },
+      "relative_layout": {
+        "east": "NEXUS_CORE",
+        "south": "CRADLE_OUTER_RING",
+        "south_west": "GLOWVINE_FOREST"
+      }
     },
     {
       "id": "BROKEN_CIVIL_QUARTER",
@@ -3696,7 +4442,21 @@
           "type": "normal",
           "min_level": 1
         }
-      ]
+      ],
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "biome": {
+        "primary": "urban_ruins",
+        "secondary": "urban_decay",
+        "climate": "temperate"
+      },
+      "relative_layout": {
+        "west": "NEXUS_CORE",
+        "south": "CRADLE_OUTER_RING",
+        "north_east": "CRYSTAL_RIDGE"
+      }
     },
     {
       "id": "CRADLE_OUTER_RING",
@@ -3731,7 +4491,22 @@
           "type": "normal",
           "min_level": 1
         }
-      ]
+      ],
+      "position": {
+        "x": 0,
+        "y": 1
+      },
+      "biome": {
+        "primary": "ancient_ring_road",
+        "secondary": "ruins",
+        "climate": "temperate"
+      },
+      "relative_layout": {
+        "north": "NEXUS_CORE",
+        "north_west": "AETHEL_GARDENS",
+        "north_east": "BROKEN_CIVIL_QUARTER",
+        "south": "CRADLE_EXPANSE"
+      }
     },
     {
       "id": "INNER_CRADLE_EXCLUSION",
@@ -3756,7 +4531,22 @@
           "type": "normal",
           "min_level": 60
         }
-      ]
+      ],
+      "position": {
+        "x": 1,
+        "y": 2
+      },
+      "biome": {
+        "primary": "ancient_ring_road",
+        "secondary": "aethel_ruins",
+        "climate": "temperate"
+      },
+      "relative_layout": {
+        "north": "CRADLE_OUTER_RING",
+        "south": "CRADLE_EXPANSE",
+        "west": "AETHEL_STORM_BELT",
+        "east": "SHATTERED_HEART"
+      }
     },
     {
       "id": "OBSERVATORY_SPIRE",
@@ -3781,7 +4571,20 @@
           "type": "normal",
           "min_level": 1
         }
-      ]
+      ],
+      "position": {
+        "x": 2,
+        "y": -1
+      },
+      "biome": {
+        "primary": "crystal_mountains",
+        "secondary": "arcane_citadel",
+        "climate": "cold"
+      },
+      "relative_layout": {
+        "south": "CRYSTAL_SLOPE",
+        "south_west": "CRYSTAL_RIDGE"
+      }
     },
     {
       "id": "CRYSTAL_SLOPE",
@@ -3801,7 +4604,22 @@
           "type": "normal",
           "min_level": 1
         }
-      ]
+      ],
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "biome": {
+        "primary": "crystal_hills",
+        "secondary": "shard_fields",
+        "climate": "cold"
+      },
+      "relative_layout": {
+        "north": "OBSERVATORY_SPIRE",
+        "west": "CRYSTAL_RIDGE",
+        "south_west": "DATA_VAULT_RUINS",
+        "south_east": "RESONANCE_CAVERNS"
+      }
     },
     {
       "id": "FRACTURED_GLASS_VALLEY",
@@ -3821,7 +4639,21 @@
           "type": "normal",
           "min_level": 11
         }
-      ]
+      ],
+      "position": {
+        "x": 1,
+        "y": 0
+      },
+      "biome": {
+        "primary": "crystal_hills",
+        "secondary": "glass_fields",
+        "climate": "cold"
+      },
+      "relative_layout": {
+        "north": "CRYSTAL_SLOPE",
+        "south": "RESONANCE_CAVERNS",
+        "east": "CRADLE_OUTER_RING"
+      }
     },
     {
       "id": "RESONANCE_CAVERNS",
@@ -3846,7 +4678,22 @@
           "type": "normal",
           "min_level": 20
         }
-      ]
+      ],
+      "position": {
+        "x": 2,
+        "y": 1
+      },
+      "biome": {
+        "primary": "crystal_cave",
+        "secondary": "resonance_chamber",
+        "climate": "cold"
+      },
+      "relative_layout": {
+        "north": "FRACTURED_GLASS_VALLEY",
+        "west": "DATA_VAULT_RUINS",
+        "south_west": "CRADLE_EXPANSE",
+        "east": "SHARD_PULSE_PEAK"
+      }
     },
     {
       "id": "SHARD_PULSE_PEAK",
@@ -3866,7 +4713,21 @@
           "type": "normal",
           "min_level": 35
         }
-      ]
+      ],
+      "position": {
+        "x": 3,
+        "y": 1
+      },
+      "biome": {
+        "primary": "crystal_mountains",
+        "secondary": "shard_pulse",
+        "climate": "cold"
+      },
+      "relative_layout": {
+        "west": "RESONANCE_CAVERNS",
+        "south": "AETHEL_STORM_BELT",
+        "north": "SKYBRIDGE_REACTOR"
+      }
     },
     {
       "id": "BASTION_CORE",
@@ -3886,7 +4747,19 @@
           "type": "normal",
           "min_level": 1
         }
-      ]
+      ],
+      "position": {
+        "x": -2,
+        "y": -1
+      },
+      "biome": {
+        "primary": "iron_fortress",
+        "secondary": "fortress_interior",
+        "climate": "arid"
+      },
+      "relative_layout": {
+        "south": "SCRAP_FIELD"
+      }
     },
     {
       "id": "SCRAP_FIELD",
@@ -3906,7 +4779,21 @@
           "type": "normal",
           "min_level": 6
         }
-      ]
+      ],
+      "position": {
+        "x": -2,
+        "y": 0
+      },
+      "biome": {
+        "primary": "scrap_desert",
+        "secondary": "battlefield_remnants",
+        "climate": "arid"
+      },
+      "relative_layout": {
+        "north": "BASTION_CORE",
+        "south": "IRON_RAVINE",
+        "east": "BROKEN_CIVIL_QUARTER"
+      }
     },
     {
       "id": "IRON_RAVINE",
@@ -3931,7 +4818,21 @@
           "type": "normal",
           "min_level": 13
         }
-      ]
+      ],
+      "position": {
+        "x": -2,
+        "y": 1
+      },
+      "biome": {
+        "primary": "mining_canyon",
+        "secondary": "iron_vein",
+        "climate": "arid"
+      },
+      "relative_layout": {
+        "north": "SCRAP_FIELD",
+        "south": "WAR_MACHINE_GRAVEYARD",
+        "east": "CANYON_CORRIDOR"
+      }
     },
     {
       "id": "WAR_MACHINE_GRAVEYARD",
@@ -3956,7 +4857,21 @@
           "type": "normal",
           "min_level": 16
         }
-      ]
+      ],
+      "position": {
+        "x": -2,
+        "y": 2
+      },
+      "biome": {
+        "primary": "battlefield_junkyard",
+        "secondary": "war_machine_wreckage",
+        "climate": "arid"
+      },
+      "relative_layout": {
+        "north": "IRON_RAVINE",
+        "south_east": "BORDER_SKIRMISH_RING",
+        "east": "TITAN_ASSEMBLY_YARD"
+      }
     },
     {
       "id": "TITAN_ASSEMBLY_YARD",
@@ -3976,7 +4891,21 @@
           "type": "normal",
           "min_level": 30
         }
-      ]
+      ],
+      "position": {
+        "x": -1,
+        "y": 2
+      },
+      "biome": {
+        "primary": "industrial_assembly",
+        "secondary": "titan_factory",
+        "climate": "arid"
+      },
+      "relative_layout": {
+        "west": "WAR_MACHINE_GRAVEYARD",
+        "south": "AETHEL_STORM_BELT",
+        "east": "FORGE_CANYON_DEPTHS"
+      }
     },
     {
       "id": "PORT_MERIDIAN",
@@ -4001,7 +4930,20 @@
           "type": "normal",
           "min_level": 1
         }
-      ]
+      ],
+      "position": {
+        "x": 2,
+        "y": 1
+      },
+      "biome": {
+        "primary": "tropical_port",
+        "secondary": "trade_hub",
+        "climate": "tropical"
+      },
+      "relative_layout": {
+        "south_west": "CORAL_WETLANDS",
+        "south_east": "SMUGGLER_JUNGLE"
+      }
     },
     {
       "id": "CORAL_WETLANDS",
@@ -4021,7 +4963,21 @@
           "type": "normal",
           "min_level": 1
         }
-      ]
+      ],
+      "position": {
+        "x": 1,
+        "y": 2
+      },
+      "biome": {
+        "primary": "coastal_swamp",
+        "secondary": "coral_shoals",
+        "climate": "tropical"
+      },
+      "relative_layout": {
+        "north_east": "PORT_MERIDIAN",
+        "south": "BLACK_DOCK_MARKET",
+        "east": "SMUGGLER_JUNGLE"
+      }
     },
     {
       "id": "SMUGGLER_JUNGLE",
@@ -4041,7 +4997,21 @@
           "type": "normal",
           "min_level": 6
         }
-      ]
+      ],
+      "position": {
+        "x": 2,
+        "y": 2
+      },
+      "biome": {
+        "primary": "tropical_jungle",
+        "secondary": "smuggler_camp",
+        "climate": "tropical"
+      },
+      "relative_layout": {
+        "north_west": "PORT_MERIDIAN",
+        "west": "CORAL_WETLANDS",
+        "south": "BLACK_DOCK_MARKET"
+      }
     },
     {
       "id": "BLACK_DOCK_MARKET",
@@ -4066,7 +5036,21 @@
           "type": "normal",
           "min_level": 30
         }
-      ]
+      ],
+      "position": {
+        "x": 1,
+        "y": 2
+      },
+      "biome": {
+        "primary": "smuggler_harbor",
+        "secondary": "black_market",
+        "climate": "tropical"
+      },
+      "relative_layout": {
+        "north": "CORAL_WETLANDS",
+        "north_east": "SMUGGLER_JUNGLE",
+        "west": "CRADLE_EXPANSE"
+      }
     },
     {
       "id": "SUNKEN_AETHEL_RUIN",
@@ -4086,7 +5070,21 @@
           "type": "normal",
           "min_level": 60
         }
-      ]
+      ],
+      "position": {
+        "x": 2,
+        "y": 3
+      },
+      "biome": {
+        "primary": "sunken_ruins",
+        "secondary": "aethel_flood",
+        "climate": "tropical"
+      },
+      "relative_layout": {
+        "north": "BLACK_DOCK_MARKET",
+        "west": "AETHEL_STORM_BELT",
+        "north_east": "SHATTERED_HEART"
+      }
     },
     {
       "id": "THE_SPIRE",
@@ -4116,7 +5114,21 @@
           "type": "normal",
           "min_level": 1
         }
-      ]
+      ],
+      "position": {
+        "x": 0,
+        "y": -2
+      },
+      "biome": {
+        "primary": "arcology",
+        "secondary": "megacity",
+        "climate": "cold"
+      },
+      "relative_layout": {
+        "south": "HIGHLAND_PLATEAU",
+        "south_west": "EXTRACTION_ZONE_DELTA",
+        "south_east": "SECURE_MINING_GRID"
+      }
     },
     {
       "id": "HIGHLAND_PLATEAU",
@@ -4136,7 +5148,22 @@
           "type": "normal",
           "min_level": 1
         }
-      ]
+      ],
+      "position": {
+        "x": 0,
+        "y": -1
+      },
+      "biome": {
+        "primary": "alpine_plateau",
+        "secondary": "highland_fields",
+        "climate": "cold"
+      },
+      "relative_layout": {
+        "north": "THE_SPIRE",
+        "south": "HIGH_RIDGE_PASS",
+        "west": "EXTRACTION_ZONE_DELTA",
+        "east": "SECURE_MINING_GRID"
+      }
     },
     {
       "id": "EXTRACTION_ZONE_DELTA",
@@ -4156,7 +5183,20 @@
           "type": "normal",
           "min_level": 6
         }
-      ]
+      ],
+      "position": {
+        "x": -1,
+        "y": -1
+      },
+      "biome": {
+        "primary": "industrial_mine",
+        "secondary": "extraction_pit",
+        "climate": "cold"
+      },
+      "relative_layout": {
+        "east": "HIGHLAND_PLATEAU",
+        "south_west": "IRON_RAVINE"
+      }
     },
     {
       "id": "SECURE_MINING_GRID",
@@ -4176,7 +5216,20 @@
           "type": "normal",
           "min_level": 25
         }
-      ]
+      ],
+      "position": {
+        "x": 1,
+        "y": -1
+      },
+      "biome": {
+        "primary": "automated_mine",
+        "secondary": "mining_grid",
+        "climate": "cold"
+      },
+      "relative_layout": {
+        "west": "HIGHLAND_PLATEAU",
+        "south_east": "BORDER_SKIRMISH_RING"
+      }
     },
     {
       "id": "SKYBRIDGE_REACTOR",
@@ -4196,7 +5249,20 @@
           "type": "normal",
           "min_level": 30
         }
-      ]
+      ],
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "biome": {
+        "primary": "skybridge",
+        "secondary": "reactor_core",
+        "climate": "cold"
+      },
+      "relative_layout": {
+        "west": "SECURE_MINING_GRID",
+        "south": "SHARD_PULSE_PEAK"
+      }
     },
     {
       "id": "SANCTUM",
@@ -4211,7 +5277,19 @@
           "type": "normal",
           "min_level": 1
         }
-      ]
+      ],
+      "position": {
+        "x": -2,
+        "y": 1
+      },
+      "biome": {
+        "primary": "sacred_temple",
+        "secondary": "shard_sanctuary",
+        "climate": "temperate"
+      },
+      "relative_layout": {
+        "south": "GLOWVINE_FOREST"
+      }
     },
     {
       "id": "GLOWVINE_FOREST",
@@ -4236,7 +5314,22 @@
           "type": "normal",
           "min_level": 1
         }
-      ]
+      ],
+      "position": {
+        "x": -2,
+        "y": 2
+      },
+      "biome": {
+        "primary": "bioluminescent_forest",
+        "secondary": "glowvine_grove",
+        "climate": "temperate"
+      },
+      "relative_layout": {
+        "north": "SANCTUM",
+        "west": "SHARDROOT_SWAMP",
+        "east": "FRAGMENT_SHRINE",
+        "north_east": "AETHEL_GARDENS"
+      }
     },
     {
       "id": "SHARDROOT_SWAMP",
@@ -4256,7 +5349,19 @@
           "type": "normal",
           "min_level": 6
         }
-      ]
+      ],
+      "position": {
+        "x": -3,
+        "y": 2
+      },
+      "biome": {
+        "primary": "toxic_swamp",
+        "secondary": "shardroot_deep",
+        "climate": "temperate"
+      },
+      "relative_layout": {
+        "east": "GLOWVINE_FOREST"
+      }
     },
     {
       "id": "FRAGMENT_SHRINE",
@@ -4281,7 +5386,21 @@
           "type": "normal",
           "min_level": 20
         }
-      ]
+      ],
+      "position": {
+        "x": -1,
+        "y": 2
+      },
+      "biome": {
+        "primary": "ancient_shrine",
+        "secondary": "fragment_altar",
+        "climate": "temperate"
+      },
+      "relative_layout": {
+        "west": "GLOWVINE_FOREST",
+        "south": "CANYON_PASSAGE",
+        "north_east": "CRADLE_EXPANSE"
+      }
     },
     {
       "id": "HEARTWOOD_ALTAR",
@@ -4301,7 +5420,20 @@
           "type": "normal",
           "min_level": 60
         }
-      ]
+      ],
+      "position": {
+        "x": -1,
+        "y": 3
+      },
+      "biome": {
+        "primary": "ancient_shrine",
+        "secondary": "heartwood_grove",
+        "climate": "temperate"
+      },
+      "relative_layout": {
+        "north": "FRAGMENT_SHRINE",
+        "east": "AETHEL_STORM_BELT"
+      }
     },
     {
       "id": "FORTRESS_KAELEN",
@@ -4316,7 +5448,21 @@
           "type": "normal",
           "min_level": 1
         }
-      ]
+      ],
+      "position": {
+        "x": 0,
+        "y": 3
+      },
+      "biome": {
+        "primary": "mesa_fortress",
+        "secondary": "kaelen_citadel",
+        "climate": "arid"
+      },
+      "relative_layout": {
+        "south": "SCORCHED_BADLANDS",
+        "west": "DUNE_OUTSKIRTS",
+        "north": "SOUTHERN_PASS"
+      }
     },
     {
       "id": "DUNE_OUTSKIRTS",
@@ -4331,7 +5477,19 @@
           "type": "normal",
           "min_level": 6
         }
-      ]
+      ],
+      "position": {
+        "x": -1,
+        "y": 3
+      },
+      "biome": {
+        "primary": "desert_edge",
+        "secondary": "dune_fields",
+        "climate": "arid"
+      },
+      "relative_layout": {
+        "east": "FORTRESS_KAELEN"
+      }
     },
     {
       "id": "SCORCHED_BADLANDS",
@@ -4351,7 +5509,20 @@
           "type": "normal",
           "min_level": 6
         }
-      ]
+      ],
+      "position": {
+        "x": 0,
+        "y": 4
+      },
+      "biome": {
+        "primary": "volcanic_badlands",
+        "secondary": "scorched_earth",
+        "climate": "arid"
+      },
+      "relative_layout": {
+        "north": "FORTRESS_KAELEN",
+        "east": "MESA_WARPATH"
+      }
     },
     {
       "id": "MESA_WARPATH",
@@ -4376,7 +5547,20 @@
           "type": "normal",
           "min_level": 25
         }
-      ]
+      ],
+      "position": {
+        "x": 1,
+        "y": 4
+      },
+      "biome": {
+        "primary": "rocky_mesa",
+        "secondary": "warpath_trail",
+        "climate": "arid"
+      },
+      "relative_layout": {
+        "west": "SCORCHED_BADLANDS",
+        "north_west": "BORDER_SKIRMISH_RING"
+      }
     },
     {
       "id": "FORGE_CANYON_DEPTHS",
@@ -4396,7 +5580,21 @@
           "type": "normal",
           "min_level": 30
         }
-      ]
+      ],
+      "position": {
+        "x": 0,
+        "y": 3
+      },
+      "biome": {
+        "primary": "volcanic_badlands",
+        "secondary": "forge_canyon",
+        "climate": "arid"
+      },
+      "relative_layout": {
+        "south": "MESA_WARPATH",
+        "north_west": "TITAN_ASSEMBLY_YARD",
+        "north_east": "AETHEL_STORM_BELT"
+      }
     },
     {
       "id": "CRADLE_EXPANSE",
@@ -4451,7 +5649,22 @@
           "type": "normal",
           "min_level": 60
         }
-      ]
+      ],
+      "position": {
+        "x": 0,
+        "y": 2
+      },
+      "biome": {
+        "primary": "aethel_wasteland",
+        "secondary": "pvp_core",
+        "climate": "wasteland"
+      },
+      "relative_layout": {
+        "north": "CRADLE_OUTER_RING",
+        "west": "AETHEL_STORM_BELT",
+        "east": "PRIMA_MATERIA_REFINING_FIELDS",
+        "south": "BORDER_SKIRMISH_RING"
+      }
     },
     {
       "id": "AETHEL_STORM_BELT",
@@ -4511,7 +5724,21 @@
           "type": "normal",
           "min_level": 30
         }
-      ]
+      ],
+      "position": {
+        "x": -1,
+        "y": 2
+      },
+      "biome": {
+        "primary": "storm_wasteland",
+        "secondary": "aethel_storm",
+        "climate": "storm"
+      },
+      "relative_layout": {
+        "east": "CRADLE_EXPANSE",
+        "north": "INNER_CRADLE_EXCLUSION",
+        "west": "TITAN_ASSEMBLY_YARD"
+      }
     },
     {
       "id": "BORDER_SKIRMISH_RING",
@@ -4546,7 +5773,22 @@
           "type": "normal",
           "min_level": 13
         }
-      ]
+      ],
+      "position": {
+        "x": 0,
+        "y": 3
+      },
+      "biome": {
+        "primary": "frontline_battlefield",
+        "secondary": "skirmish_zone",
+        "climate": "wasteland"
+      },
+      "relative_layout": {
+        "north": "CRADLE_EXPANSE",
+        "south": "SOUTHERN_PASS",
+        "west": "CANYON_PASSAGE",
+        "east": "PRIMA_MATERIA_REFINING_FIELDS"
+      }
     },
     {
       "id": "SHATTERED_HEART",
@@ -4596,7 +5838,20 @@
           "type": "normal",
           "min_level": 55
         }
-      ]
+      ],
+      "position": {
+        "x": 0,
+        "y": 4
+      },
+      "biome": {
+        "primary": "endgame_abyss",
+        "secondary": "shattered_core",
+        "climate": "void"
+      },
+      "relative_layout": {
+        "north": "CRADLE_EXPANSE",
+        "south": "SEVERANCE_FAULTLINE"
+      }
     },
     {
       "id": "SEVERANCE_FAULTLINE",
@@ -4616,7 +5871,22 @@
           "type": "normal",
           "min_level": 60
         }
-      ]
+      ],
+      "position": {
+        "x": 0,
+        "y": 5
+      },
+      "biome": {
+        "primary": "endgame_abyss",
+        "secondary": "faultline_rift",
+        "climate": "void"
+      },
+      "relative_layout": {
+        "north": "SHATTERED_HEART",
+        "south_west": "AETHEL_SIPHON_CORE",
+        "south_east": "PRIMA_MATERIA_FORGE_RUINS",
+        "south": "ECHO_OF_THE_FIRST_KING"
+      }
     },
     {
       "id": "AETHEL_SIPHON_CORE",
@@ -4631,7 +5901,20 @@
           "type": "normal",
           "min_level": 75
         }
-      ]
+      ],
+      "position": {
+        "x": -1,
+        "y": 5
+      },
+      "biome": {
+        "primary": "endgame_abyss",
+        "secondary": "siphon_core",
+        "climate": "void"
+      },
+      "relative_layout": {
+        "north_east": "SEVERANCE_FAULTLINE",
+        "east": "PRIMA_MATERIA_FORGE_RUINS"
+      }
     },
     {
       "id": "PRIMA_MATERIA_FORGE",
@@ -4651,7 +5934,21 @@
           "type": "normal",
           "min_level": 75
         }
-      ]
+      ],
+      "position": {
+        "x": 2,
+        "y": 4
+      },
+      "biome": {
+        "primary": "prima_forge",
+        "secondary": "forge_ruins",
+        "climate": "void"
+      },
+      "relative_layout": {
+        "west": "AETHEL_SIPHON_CORE",
+        "north_east": "ETERNAL_GATE",
+        "north": "AETHEL_STORM_RIDGE"
+      }
     },
     {
       "id": "SENTINEL_ENCLAVE",
@@ -4676,7 +5973,19 @@
           "type": "normal",
           "min_level": 1
         }
-      ]
+      ],
+      "position": {
+        "x": 0,
+        "y": 1
+      },
+      "biome": {
+        "primary": "neutral_fortress",
+        "secondary": "orbital_station",
+        "climate": "orbital"
+      },
+      "relative_layout": {
+        "north": "NEXUS_CORE"
+      }
     },
     {
       "id": "HIDDEN_AETHELGARDIAN_CITY",
@@ -4701,7 +6010,17 @@
           "type": "normal",
           "min_level": 60
         }
-      ]
+      ],
+      "position": {
+        "x": 3,
+        "y": 2
+      },
+      "biome": {
+        "primary": "hidden_city",
+        "secondary": "aethelgardian_ruins",
+        "climate": "temperate"
+      },
+      "relative_layout": {}
     },
     {
       "id": "VOID_ECHO_CHASM",
@@ -4716,7 +6035,17 @@
           "type": "normal",
           "min_level": 60
         }
-      ]
+      ],
+      "position": {
+        "x": 2,
+        "y": 3
+      },
+      "biome": {
+        "primary": "void_chasm",
+        "secondary": "echo_depths",
+        "climate": "void"
+      },
+      "relative_layout": {}
     },
     {
       "id": "ORBITAL_SENTINEL_COMMAND",
@@ -4736,7 +6065,17 @@
           "type": "normal",
           "min_level": 1
         }
-      ]
+      ],
+      "position": {
+        "x": 0,
+        "y": -1
+      },
+      "biome": {
+        "primary": "orbital_command",
+        "secondary": "sentinel_hq",
+        "climate": "orbital"
+      },
+      "relative_layout": {}
     },
     {
       "id": "BLOOD_IRON_BASIN",
@@ -4751,7 +6090,20 @@
           "type": "normal",
           "min_level": 60
         }
-      ]
+      ],
+      "position": {
+        "x": -1,
+        "y": 3
+      },
+      "biome": {
+        "primary": "blood_iron_field",
+        "secondary": "basin_depths",
+        "climate": "wasteland"
+      },
+      "relative_layout": {
+        "north": "CRADLE_EXPANSE",
+        "south": "SHATTERED_HEART"
+      }
     },
     {
       "id": "VOID_RIFT_CROSSROADS",
@@ -4766,7 +6118,20 @@
           "type": "normal",
           "min_level": 25
         }
-      ]
+      ],
+      "position": {
+        "x": 1,
+        "y": 3
+      },
+      "biome": {
+        "primary": "void_rift",
+        "secondary": "crossroads",
+        "climate": "wasteland"
+      },
+      "relative_layout": {
+        "north": "BORDER_SKIRMISH_RING",
+        "east": "VOID_ECHO_CHASM"
+      }
     },
     {
       "id": "AETHEL_STORM_RIDGE",
@@ -4781,7 +6146,20 @@
           "type": "normal",
           "min_level": 75
         }
-      ]
+      ],
+      "position": {
+        "x": -2,
+        "y": 3
+      },
+      "biome": {
+        "primary": "storm_wasteland",
+        "secondary": "storm_ridge",
+        "climate": "storm"
+      },
+      "relative_layout": {
+        "east": "AETHEL_STORM_BELT",
+        "south": "PRIMA_MATERIA_FORGE"
+      }
     },
     {
       "id": "TITAN_GRAVEYARD",
@@ -4796,7 +6174,20 @@
           "type": "normal",
           "min_level": 20
         }
-      ]
+      ],
+      "position": {
+        "x": -2,
+        "y": 3
+      },
+      "biome": {
+        "primary": "titan_graveyard",
+        "secondary": "ancient_bones",
+        "climate": "wasteland"
+      },
+      "relative_layout": {
+        "north": "CRADLE_EXPANSE",
+        "east": "SEVERANCE_FAULTLINE"
+      }
     },
     {
       "id": "ETERNAL_GATE",
@@ -4811,7 +6202,20 @@
           "type": "normal",
           "min_level": 50
         }
-      ]
+      ],
+      "position": {
+        "x": 3,
+        "y": 3
+      },
+      "biome": {
+        "primary": "eternal_gate",
+        "secondary": "void_portal",
+        "climate": "void"
+      },
+      "relative_layout": {
+        "west": "PRIMA_MATERIA_FORGE",
+        "north_west": "HIDDEN_AETHELGARDIAN_CITY"
+      }
     },
     {
       "id": "NEXUS_CROSSROADS",
@@ -4886,7 +6290,17 @@
           "type": "normal",
           "min_level": 1
         }
-      ]
+      ],
+      "position": {
+        "x": -1,
+        "y": 1
+      },
+      "biome": {
+        "primary": "neutral_crossroads",
+        "secondary": "trade_post",
+        "climate": "temperate"
+      },
+      "relative_layout": {}
     },
     {
       "id": "CENTRAL_SPIRE_BAZAAR",
@@ -4976,7 +6390,17 @@
           "type": "normal",
           "min_level": 1
         }
-      ]
+      ],
+      "position": {
+        "x": 1,
+        "y": 1
+      },
+      "biome": {
+        "primary": "neutral_bazaar",
+        "secondary": "spire_market",
+        "climate": "temperate"
+      },
+      "relative_layout": {}
     },
     {
       "id": "ORBITAL_NEUTRAL_HUB",
@@ -5066,7 +6490,17 @@
           "type": "normal",
           "min_level": 1
         }
-      ]
+      ],
+      "position": {
+        "x": 2,
+        "y": 0
+      },
+      "biome": {
+        "primary": "orbital_hub",
+        "secondary": "neutral_station",
+        "climate": "orbital"
+      },
+      "relative_layout": {}
     }
   ]
 }
