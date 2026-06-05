@@ -1,0 +1,203 @@
+{
+  "version": "1.0.0",
+  "description": "Item upgrade recipes +1 to +10. Materials differ by item category: WEAPON, GEAR (armor/helmet/boots/gloves/offhand), ACCESSORY.",
+  "materials_legend": {
+    "WEAPON_COMMON": "mat_aethel_core_scrap",
+    "WEAPON_RARE":   "mat_refined_aethel_core",
+    "GEAR_COMMON":   "mat_poly_plating_scrap",
+    "GEAR_RARE":     "mat_reinforced_carbon_composite",
+    "ACC_COMMON":    "mat_quanta_residue",
+    "ACC_RARE":      "mat_focused_shard_crystal",
+    "ENDGAME":       "mat_prima_materia"
+  },
+  "stat_formula": {
+    "gamma": 0.05,
+    "delta": 0.8,
+    "description": "bonus = base_stat * gamma * level + delta * level^1.5"
+  },
+  "upgrade_levels": [
+    {
+      "target_level": 1,
+      "success_rate": 1.0,
+      "phase": "safe",
+      "crd_cost": 200,
+      "materials": {
+        "WEAPON":    [{ "item_id": "mat_aethel_core_scrap", "quantity": 2 }],
+        "GEAR":      [{ "item_id": "mat_poly_plating_scrap", "quantity": 2 }],
+        "ACCESSORY": [{ "item_id": "mat_quanta_residue",     "quantity": 2 }]
+      },
+      "on_failure": { "action": "NONE", "fallback_level": 0 }
+    },
+    {
+      "target_level": 2,
+      "success_rate": 1.0,
+      "phase": "safe",
+      "crd_cost": 300,
+      "materials": {
+        "WEAPON":    [{ "item_id": "mat_aethel_core_scrap", "quantity": 4 }],
+        "GEAR":      [{ "item_id": "mat_poly_plating_scrap", "quantity": 4 }],
+        "ACCESSORY": [{ "item_id": "mat_quanta_residue",     "quantity": 4 }]
+      },
+      "on_failure": { "action": "NONE", "fallback_level": 0 }
+    },
+    {
+      "target_level": 3,
+      "success_rate": 1.0,
+      "phase": "safe",
+      "crd_cost": 500,
+      "materials": {
+        "WEAPON":    [{ "item_id": "mat_aethel_core_scrap", "quantity": 6 }],
+        "GEAR":      [{ "item_id": "mat_poly_plating_scrap", "quantity": 6 }],
+        "ACCESSORY": [{ "item_id": "mat_quanta_residue",     "quantity": 6 }]
+      },
+      "on_failure": { "action": "NONE", "fallback_level": 0 }
+    },
+    {
+      "target_level": 4,
+      "success_rate": 0.85,
+      "phase": "risky",
+      "crd_cost": 800,
+      "materials": {
+        "WEAPON": [
+          { "item_id": "mat_aethel_core_scrap",  "quantity": 8 },
+          { "item_id": "mat_refined_aethel_core", "quantity": 1 }
+        ],
+        "GEAR": [
+          { "item_id": "mat_poly_plating_scrap",           "quantity": 8 },
+          { "item_id": "mat_reinforced_carbon_composite",  "quantity": 1 }
+        ],
+        "ACCESSORY": [
+          { "item_id": "mat_quanta_residue",      "quantity": 8 },
+          { "item_id": "mat_focused_shard_crystal","quantity": 1 }
+        ]
+      },
+      "on_failure": { "action": "BURN_MATERIALS", "fallback_level": 3 }
+    },
+    {
+      "target_level": 5,
+      "success_rate": 0.70,
+      "phase": "risky",
+      "crd_cost": 1200,
+      "materials": {
+        "WEAPON": [
+          { "item_id": "mat_aethel_core_scrap",  "quantity": 12 },
+          { "item_id": "mat_refined_aethel_core", "quantity": 2 }
+        ],
+        "GEAR": [
+          { "item_id": "mat_poly_plating_scrap",           "quantity": 12 },
+          { "item_id": "mat_reinforced_carbon_composite",  "quantity": 2 }
+        ],
+        "ACCESSORY": [
+          { "item_id": "mat_quanta_residue",      "quantity": 12 },
+          { "item_id": "mat_focused_shard_crystal","quantity": 2 }
+        ]
+      },
+      "on_failure": { "action": "BURN_MATERIALS", "fallback_level": 4 }
+    },
+    {
+      "target_level": 6,
+      "success_rate": 0.55,
+      "phase": "risky",
+      "crd_cost": 2000,
+      "materials": {
+        "WEAPON": [
+          { "item_id": "mat_aethel_core_scrap",  "quantity": 16 },
+          { "item_id": "mat_refined_aethel_core", "quantity": 3 }
+        ],
+        "GEAR": [
+          { "item_id": "mat_poly_plating_scrap",           "quantity": 16 },
+          { "item_id": "mat_reinforced_carbon_composite",  "quantity": 3 }
+        ],
+        "ACCESSORY": [
+          { "item_id": "mat_quanta_residue",      "quantity": 16 },
+          { "item_id": "mat_focused_shard_crystal","quantity": 3 }
+        ]
+      },
+      "on_failure": { "action": "BURN_MATERIALS", "fallback_level": 5 }
+    },
+    {
+      "target_level": 7,
+      "success_rate": 0.40,
+      "phase": "risky",
+      "crd_cost": 3000,
+      "materials": {
+        "WEAPON": [
+          { "item_id": "mat_aethel_core_scrap",  "quantity": 20 },
+          { "item_id": "mat_refined_aethel_core", "quantity": 4 }
+        ],
+        "GEAR": [
+          { "item_id": "mat_poly_plating_scrap",           "quantity": 20 },
+          { "item_id": "mat_reinforced_carbon_composite",  "quantity": 4 }
+        ],
+        "ACCESSORY": [
+          { "item_id": "mat_quanta_residue",      "quantity": 20 },
+          { "item_id": "mat_focused_shard_crystal","quantity": 4 }
+        ]
+      },
+      "on_failure": { "action": "BURN_MATERIALS", "fallback_level": 6 }
+    },
+    {
+      "target_level": 8,
+      "success_rate": 0.25,
+      "phase": "hardcore",
+      "crd_cost": 5000,
+      "materials": {
+        "WEAPON": [
+          { "item_id": "mat_aethel_core_scrap",  "quantity": 25 },
+          { "item_id": "mat_prima_materia",       "quantity": 1 }
+        ],
+        "GEAR": [
+          { "item_id": "mat_poly_plating_scrap",  "quantity": 25 },
+          { "item_id": "mat_prima_materia",        "quantity": 1 }
+        ],
+        "ACCESSORY": [
+          { "item_id": "mat_quanta_residue",       "quantity": 25 },
+          { "item_id": "mat_prima_materia",         "quantity": 1 }
+        ]
+      },
+      "on_failure": { "action": "DEGRADE", "fallback_level": 7 }
+    },
+    {
+      "target_level": 9,
+      "success_rate": 0.15,
+      "phase": "hardcore",
+      "crd_cost": 8000,
+      "materials": {
+        "WEAPON": [
+          { "item_id": "mat_aethel_core_scrap",  "quantity": 30 },
+          { "item_id": "mat_prima_materia",       "quantity": 2 }
+        ],
+        "GEAR": [
+          { "item_id": "mat_poly_plating_scrap",  "quantity": 30 },
+          { "item_id": "mat_prima_materia",        "quantity": 2 }
+        ],
+        "ACCESSORY": [
+          { "item_id": "mat_quanta_residue",       "quantity": 30 },
+          { "item_id": "mat_prima_materia",         "quantity": 2 }
+        ]
+      },
+      "on_failure": { "action": "DEGRADE", "fallback_level": 8 }
+    },
+    {
+      "target_level": 10,
+      "success_rate": 0.07,
+      "phase": "hardcore",
+      "crd_cost": 15000,
+      "materials": {
+        "WEAPON": [
+          { "item_id": "mat_aethel_core_scrap",  "quantity": 40 },
+          { "item_id": "mat_prima_materia",       "quantity": 4 }
+        ],
+        "GEAR": [
+          { "item_id": "mat_poly_plating_scrap",  "quantity": 40 },
+          { "item_id": "mat_prima_materia",        "quantity": 4 }
+        ],
+        "ACCESSORY": [
+          { "item_id": "mat_quanta_residue",       "quantity": 40 },
+          { "item_id": "mat_prima_materia",         "quantity": 4 }
+        ]
+      },
+      "on_failure": { "action": "DEGRADE", "fallback_level": 7 }
+    }
+  ]
+}

@@ -5373,7 +5373,7 @@
     {
       "id": "art_prima_materia",
       "name": "Prima Materia",
-      "description": "Refined essence of Aethel energy \u2014 the legendary substance that powered the ancient Aethelgardian civilization.",
+      "description": "Refined essence of Aethel energy — the legendary substance that powered the ancient Aethelgardian civilization.",
       "type": "MATERIAL",
       "rarity": "RARE",
       "level_requirement": 45,
@@ -13750,7 +13750,7 @@
     {
       "id": "con_full_hp_cell",
       "name": "Full HP Cell",
-      "description": "Fully restores HP. For emergencies only \u2014 the cost reflects it.",
+      "description": "Fully restores HP. For emergencies only — the cost reflects it.",
       "type": "CONSUMABLE",
       "rarity": "EPIC",
       "level_requirement": 40,
@@ -14139,7 +14139,7 @@
     {
       "id": "con_full_hp_cell",
       "name": "Full HP Cell",
-      "description": "Fully restores HP. For emergencies only \u2014 the cost reflects it.",
+      "description": "Fully restores HP. For emergencies only — the cost reflects it.",
       "type": "CONSUMABLE",
       "rarity": "EPIC",
       "level_requirement": 40,
@@ -25060,6 +25060,69 @@
       "sell_price": 0,
       "max_stack": 99,
       "icon_image": "icons/items/consumables/universe_knowledge_capsule.png"
+    },
+    {
+      "id": "mat_aethel_core_scrap",
+      "name": "Aethel Core Scrap",
+      "type": "MATERIAL",
+      "rarity": "COMMON",
+      "description": "Residue crystallized from Aethel fragments. Used to temper and fortify weapons.",
+      "sell_value": 10,
+      "icon_image": "icons/items/materials/aethel_core_fragment.png"
+    },
+    {
+      "id": "mat_refined_aethel_core",
+      "name": "Refined Aethel Core",
+      "type": "MATERIAL",
+      "rarity": "RARE",
+      "description": "A purified Aethel fragment, compressed under intense heat. Essential for higher-tier weapon upgrades.",
+      "sell_value": 150,
+      "icon_image": "icons/items/materials/aethel_core.png"
+    },
+    {
+      "id": "mat_poly_plating_scrap",
+      "name": "Poly-Plating Scrap",
+      "type": "MATERIAL",
+      "rarity": "COMMON",
+      "description": "Salvaged armor plating from discarded gear. Used to reinforce armor and equipment.",
+      "sell_value": 10,
+      "icon_image": "icons/items/materials/rusted_plate.png"
+    },
+    {
+      "id": "mat_reinforced_carbon_composite",
+      "name": "Reinforced Carbon Composite",
+      "type": "MATERIAL",
+      "rarity": "RARE",
+      "description": "Carbon fiber woven with Aethel strands. Dramatically improves defensive gear at high upgrade tiers.",
+      "sell_value": 180,
+      "icon_image": "icons/items/materials/ancient_scale.png"
+    },
+    {
+      "id": "mat_quanta_residue",
+      "name": "Quanta Residue",
+      "type": "MATERIAL",
+      "rarity": "COMMON",
+      "description": "Quantum-resonant dust shed from Shard fragments. Attuned to accessories and focus items.",
+      "sell_value": 12,
+      "icon_image": "icons/items/materials/aethel_dust_purified.png"
+    },
+    {
+      "id": "mat_focused_shard_crystal",
+      "name": "Focused Shard Crystal",
+      "type": "MATERIAL",
+      "rarity": "RARE",
+      "description": "A Shard fragment shaped into a focusing lens. Unlocks deep resonance improvements in accessories.",
+      "sell_value": 200,
+      "icon_image": "icons/items/materials/aethel_core_shard.png"
+    },
+    {
+      "id": "mat_prima_materia",
+      "name": "Prima Materia",
+      "type": "MATERIAL",
+      "rarity": "MYTHIC",
+      "description": "The rarest substance on Xylos — refined directly from the Aethel Siphon. Required to push equipment beyond mortal limits. Obtained from Shardfall Sieges and Raids.",
+      "sell_value": 5000,
+      "icon_image": "icons/items/materials/prima_materia.png"
     }
   ]
 }

@@ -5,7 +5,7 @@
   {
     "meta": {
       "version": "1.0",
-      "description": "Dialogue Tree Master for Echoes of Xylos \u2014 includes NPC + Quest dialogs",
+      "description": "Dialogue Tree Master for Echoes of Xylos — includes NPC + Quest dialogs",
       "quest_dialog_count": 254,
       "total_count": 279
     },
@@ -64,10 +64,15 @@
         "nodes": [
           {
             "id": "greet",
-            "text": "If it's steel you need, you've come to the right forge.",
+            "text": "The forge never sleeps, and neither do I. What do you need — fresh gear, materials, or do you want to push your existing equipment to its limits?",
             "options": [
               {
-                "text": "Craft equipment.",
+                "text": "Upgrade my equipment.",
+                "next": "upgrade",
+                "action": "open_upgrade"
+              },
+              {
+                "text": "Craft new equipment.",
                 "next": "craft",
                 "action": "open_crafting"
               },
@@ -91,6 +96,11 @@
           {
             "id": "shop",
             "text": "These materials should serve you well.",
+            "options": []
+          },
+          {
+            "id": "upgrade",
+            "text": "Enhancement Workshop — bring your gear to its true potential. Safe up to +3, but higher levels carry real risk. Prima Materia for +8 and beyond.",
             "options": []
           }
         ]
@@ -216,7 +226,7 @@
           },
           {
             "id": "rates",
-            "text": "Faction currencies convert into CRD \u2014 the universal trade credit recognized across Xylos.",
+            "text": "Faction currencies convert into CRD — the universal trade credit recognized across Xylos.",
             "options": [
               {
                 "text": "Proceed with exchange.",
@@ -443,7 +453,7 @@
           },
           {
             "id": "class",
-            "text": "Choose your combat specialization carefully, soldier. The Concordium demands commitment \u2014 once you walk a path, there is no turning back.",
+            "text": "Choose your combat specialization carefully, soldier. The Concordium demands commitment — once you walk a path, there is no turning back.",
             "options": [
               {
                 "text": "Show me the available specializations.",
@@ -525,7 +535,7 @@
           },
           {
             "id": "class",
-            "text": "Peer into the void and choose your path. The arcane arts demand absolute dedication \u2014 once chosen, your path is sealed by the Prima Materia itself.",
+            "text": "Peer into the void and choose your path. The arcane arts demand absolute dedication — once chosen, your path is sealed by the Prima Materia itself.",
             "options": [
               {
                 "text": "Let me study the available paths.",
@@ -541,7 +551,7 @@
           },
           {
             "id": "take_quest",
-            "text": "Advancement among the Seekers is not given \u2014 it is discovered. There is an anomaly in the field that requires investigation. Collect samples, neutralize any corrupted entities you encounter, and document your findings. Your performance will determine whether you are worthy of deeper knowledge.",
+            "text": "Advancement among the Seekers is not given — it is discovered. There is an anomaly in the field that requires investigation. Collect samples, neutralize any corrupted entities you encounter, and document your findings. Your performance will determine whether you are worthy of deeper knowledge.",
             "options": [
               {
                 "text": "I need more time to prepare.",
@@ -689,7 +699,7 @@
           },
           {
             "id": "class",
-            "text": "Your specialization will define your role in maintaining the balance. Choose wisely \u2014 this decision is permanent and irreversible.",
+            "text": "Your specialization will define your role in maintaining the balance. Choose wisely — this decision is permanent and irreversible.",
             "options": [
               {
                 "text": "Show me the available roles.",
@@ -756,7 +766,7 @@
           },
           {
             "id": "lore",
-            "text": "Rule one kid \u2014 never trust a quiet battlefield. Rule two \u2014 always keep your weapon ready.",
+            "text": "Rule one kid — never trust a quiet battlefield. Rule two — always keep your weapon ready.",
             "options": [
               {
                 "text": "Good advice.",
@@ -787,7 +797,7 @@
           },
           {
             "id": "take_quest",
-            "text": "Heh, eager one. Alright, I've got a contract that nobody else wants to touch \u2014 too dangerous, too dirty. Clear out the target zone, grab whatever intel you can find, and make it back in one piece. Pull that off and I'll bump you up. Fail, and... well, don't fail.",
+            "text": "Heh, eager one. Alright, I've got a contract that nobody else wants to touch — too dangerous, too dirty. Clear out the target zone, grab whatever intel you can find, and make it back in one piece. Pull that off and I'll bump you up. Fail, and... well, don't fail.",
             "options": [
               {
                 "text": "Let me think about it.",
@@ -853,7 +863,7 @@
           },
           {
             "id": "class",
-            "text": "Every specialist has a niche. Pick yours and own it \u2014 the Cartel doesn't pay for second chances. Choose once, profit forever.",
+            "text": "Every specialist has a niche. Pick yours and own it — the Cartel doesn't pay for second chances. Choose once, profit forever.",
             "options": [
               {
                 "text": "Let me see the specializations.",
@@ -869,7 +879,7 @@
           },
           {
             "id": "take_quest",
-            "text": "Advancement in the Cartel means proving you can deliver results. There's a shipment route that's been compromised \u2014 hostiles are raiding our supply lines. Eliminate the threat, secure the cargo, and bring back proof. Do this cleanly and your specialization upgrade is guaranteed. Mess it up and you owe me for the lost merchandise.",
+            "text": "Advancement in the Cartel means proving you can deliver results. There's a shipment route that's been compromised — hostiles are raiding our supply lines. Eliminate the threat, secure the cargo, and bring back proof. Do this cleanly and your specialization upgrade is guaranteed. Mess it up and you owe me for the lost merchandise.",
             "options": [
               {
                 "text": "I'll pass for now.",
@@ -1033,7 +1043,7 @@
           },
           {
             "id": "take_quest",
-            "text": "The Aethel tests all who seek its deeper gifts. A corruption festers in the wilds \u2014 an affront to the Shard's sacred energy. Purge the tainted creatures, cleanse the desecrated ground, and offer the remains to the Shard. Return purified, and the Aethel will open a new path for your soul.",
+            "text": "The Aethel tests all who seek its deeper gifts. A corruption festers in the wilds — an affront to the Shard's sacred energy. Purge the tainted creatures, cleanse the desecrated ground, and offer the remains to the Shard. Return purified, and the Aethel will open a new path for your soul.",
             "options": [
               {
                 "text": "I must meditate on this.",
@@ -1099,7 +1109,7 @@
           },
           {
             "id": "class",
-            "text": "A warrior chooses their blade once and carries it to the grave. No excuses, no regrets. Declare your role, soldier \u2014 this is permanent.",
+            "text": "A warrior chooses their blade once and carries it to the grave. No excuses, no regrets. Declare your role, soldier — this is permanent.",
             "options": [
               {
                 "text": "Show me the battlefield roles.",
@@ -1115,7 +1125,7 @@
           },
           {
             "id": "take_quest",
-            "text": "Every rank in the Legion is forged in battle. There is a warzone that needs a soldier with guts. March into hostile territory, hold the line against incoming waves, and eliminate the commanding officer. Return with their insignia as proof. Do this with honor, and your advancement is earned \u2014 not given.",
+            "text": "Every rank in the Legion is forged in battle. There is a warzone that needs a soldier with guts. March into hostile territory, hold the line against incoming waves, and eliminate the commanding officer. Return with their insignia as proof. Do this with honor, and your advancement is earned — not given.",
             "options": [
               {
                 "text": "I need to gear up first.",
@@ -1243,17 +1253,36 @@
             "id": "greet",
             "text": "AMA Branch Office — Concordium. I can facilitate exchanges between your faction currency (AMC) and the universal Credent (CRD). Current rates fluctuate based on twelve economic factors. State your intent.",
             "options": [
-              { "text": "I want to exchange currency.", "next": "confirm_exchange", "action": "currency_exchange" },
-              { "text": "How do exchange rates work?", "next": "explain_rates" },
-              { "text": "Nothing for now.", "next": "exit", "action": "exit" }
+              {
+                "text": "I want to exchange currency.",
+                "next": "confirm_exchange",
+                "action": "currency_exchange"
+              },
+              {
+                "text": "How do exchange rates work?",
+                "next": "explain_rates"
+              },
+              {
+                "text": "Nothing for now.",
+                "next": "exit",
+                "action": "exit"
+              }
             ]
           },
           {
             "id": "explain_rates",
             "text": "Exchange rates are computed dynamically by the AMA. Factors include territory control, treasury health, inflation, trade volume, and more. A sliding fee of 1–5% applies per transaction based on volume. The rate is always live — it reflects the current state of the economy.",
             "options": [
-              { "text": "I want to exchange now.", "next": "confirm_exchange", "action": "currency_exchange" },
-              { "text": "I'll come back later.", "next": "exit", "action": "exit" }
+              {
+                "text": "I want to exchange now.",
+                "next": "confirm_exchange",
+                "action": "currency_exchange"
+              },
+              {
+                "text": "I'll come back later.",
+                "next": "exit",
+                "action": "exit"
+              }
             ]
           },
           {
@@ -1272,17 +1301,36 @@
             "id": "greet",
             "text": "Fascinating to have a client! I handle QNT-to-CRD and CRD-to-QNT exchanges here. The volatility of Arcanum currency is actually a mathematical marvel — it responds to knowledge sector output and energy research cycles. But I digress. How can I assist?",
             "options": [
-              { "text": "I want to exchange currency.", "next": "confirm_exchange", "action": "currency_exchange" },
-              { "text": "Tell me more about the rates.", "next": "explain_rates" },
-              { "text": "I'll think about it.", "next": "exit", "action": "exit" }
+              {
+                "text": "I want to exchange currency.",
+                "next": "confirm_exchange",
+                "action": "currency_exchange"
+              },
+              {
+                "text": "Tell me more about the rates.",
+                "next": "explain_rates"
+              },
+              {
+                "text": "I'll think about it.",
+                "next": "exit",
+                "action": "exit"
+              }
             ]
           },
           {
             "id": "explain_rates",
             "text": "QNT value is heavily influenced by Arcanum's research output and territorial control. When the Seekers control high-value knowledge sites, QNT strengthens considerably. Fee is 1–5% sliding scale by volume. I've written four papers on this if you'd like—",
             "options": [
-              { "text": "Just the exchange, please.", "next": "confirm_exchange", "action": "currency_exchange" },
-              { "text": "Maybe later.", "next": "exit", "action": "exit" }
+              {
+                "text": "Just the exchange, please.",
+                "next": "confirm_exchange",
+                "action": "currency_exchange"
+              },
+              {
+                "text": "Maybe later.",
+                "next": "exit",
+                "action": "exit"
+              }
             ]
           },
           {
@@ -1301,17 +1349,36 @@
             "id": "greet",
             "text": "TERMINAL IH-3 ACTIVE. SERVICES: IGT-CRD EXCHANGE. CURRENT RATE: LIVE. FEE: 1-5%. SELECT OPTION.",
             "options": [
-              { "text": "Begin exchange.", "next": "confirm_exchange", "action": "currency_exchange" },
-              { "text": "Display rate information.", "next": "explain_rates" },
-              { "text": "Abort.", "next": "exit", "action": "exit" }
+              {
+                "text": "Begin exchange.",
+                "next": "confirm_exchange",
+                "action": "currency_exchange"
+              },
+              {
+                "text": "Display rate information.",
+                "next": "explain_rates"
+              },
+              {
+                "text": "Abort.",
+                "next": "exit",
+                "action": "exit"
+              }
             ]
           },
           {
             "id": "explain_rates",
             "text": "IGT RATE FACTORS: MILITARY OUTPUT, INDUSTRIAL PRODUCTION, TERRITORY, TREASURY HEALTH, TWELVE VARIABLES TOTAL. RATE RANGE: 0.25-3.00 CRD PER IGT. FEE DEDUCTED FROM OUTPUT. NO FURTHER INFORMATION AVAILABLE.",
             "options": [
-              { "text": "Begin exchange.", "next": "confirm_exchange", "action": "currency_exchange" },
-              { "text": "Abort.", "next": "exit", "action": "exit" }
+              {
+                "text": "Begin exchange.",
+                "next": "confirm_exchange",
+                "action": "currency_exchange"
+              },
+              {
+                "text": "Abort.",
+                "next": "exit",
+                "action": "exit"
+              }
             ]
           },
           {
@@ -1330,17 +1397,36 @@
             "id": "greet",
             "text": "Welcome to the busiest AMA desk in Xylos! We handle AUC-to-CRD and back with the smoothest process you'll find anywhere. Between us — when trade volume is high here, you might find the rates particularly favourable. Shall we?",
             "options": [
-              { "text": "Let's exchange currency.", "next": "confirm_exchange", "action": "currency_exchange" },
-              { "text": "Tell me about the rates.", "next": "explain_rates" },
-              { "text": "Not right now.", "next": "exit", "action": "exit" }
+              {
+                "text": "Let's exchange currency.",
+                "next": "confirm_exchange",
+                "action": "currency_exchange"
+              },
+              {
+                "text": "Tell me about the rates.",
+                "next": "explain_rates"
+              },
+              {
+                "text": "Not right now.",
+                "next": "exit",
+                "action": "exit"
+              }
             ]
           },
           {
             "id": "explain_rates",
             "text": "AUC is tied to trade dominance. The Cartel's grip on commerce directly strengthens the Aurum Cipher. High-volume transactions attract a lower fee — 1% for large trades, 5% for small ones. My advice? Don't exchange in small increments.",
             "options": [
-              { "text": "Good tip. Let's exchange.", "next": "confirm_exchange", "action": "currency_exchange" },
-              { "text": "I'll keep that in mind.", "next": "exit", "action": "exit" }
+              {
+                "text": "Good tip. Let's exchange.",
+                "next": "confirm_exchange",
+                "action": "currency_exchange"
+              },
+              {
+                "text": "I'll keep that in mind.",
+                "next": "exit",
+                "action": "exit"
+              }
             ]
           },
           {
@@ -1359,17 +1445,36 @@
             "id": "greet",
             "text": "OmniCorp AMA Integration Node online. Services available: OMC-to-CRD exchange, CRD-to-OMC exchange. OmniCorp is not responsible for rate fluctuations. The AMA guarantees ledger integrity. Terms and conditions apply. How may I process your transaction?",
             "options": [
-              { "text": "Open exchange interface.", "next": "confirm_exchange", "action": "currency_exchange" },
-              { "text": "Rate information.", "next": "explain_rates" },
-              { "text": "Disconnect.", "next": "exit", "action": "exit" }
+              {
+                "text": "Open exchange interface.",
+                "next": "confirm_exchange",
+                "action": "currency_exchange"
+              },
+              {
+                "text": "Rate information.",
+                "next": "explain_rates"
+              },
+              {
+                "text": "Disconnect.",
+                "next": "exit",
+                "action": "exit"
+              }
             ]
           },
           {
             "id": "explain_rates",
             "text": "OmniCred value is indexed to OmniCorp's patent portfolio valuation, off-world trade agreements, R&D throughput, and resource export volumes. Rate range: 0.25 to 3.00 CRD per OMC. Fee: 1% to 5% sliding by volume. Processing time: immediate. Disclaimer: past rate performance is not indicative of future results.",
             "options": [
-              { "text": "Proceed with exchange.", "next": "confirm_exchange", "action": "currency_exchange" },
-              { "text": "End session.", "next": "exit", "action": "exit" }
+              {
+                "text": "Proceed with exchange.",
+                "next": "confirm_exchange",
+                "action": "currency_exchange"
+              },
+              {
+                "text": "End session.",
+                "next": "exit",
+                "action": "exit"
+              }
             ]
           },
           {
@@ -1388,17 +1493,36 @@
             "id": "greet",
             "text": "...The Shard breathes. And in its breath, all things flow — including currency. I am Mirya. I can exchange your Aethel-Tithes (ATH) for Credent, or the reverse. The AMA requires I do this. The Shard permits it. What do you seek?",
             "options": [
-              { "text": "I seek currency exchange.", "next": "confirm_exchange", "action": "currency_exchange" },
-              { "text": "Tell me about the exchange.", "next": "explain_rates" },
-              { "text": "I will return another time.", "next": "exit", "action": "exit" }
+              {
+                "text": "I seek currency exchange.",
+                "next": "confirm_exchange",
+                "action": "currency_exchange"
+              },
+              {
+                "text": "Tell me about the exchange.",
+                "next": "explain_rates"
+              },
+              {
+                "text": "I will return another time.",
+                "next": "exit",
+                "action": "exit"
+              }
             ]
           },
           {
             "id": "explain_rates",
             "text": "ATH is sacred in nature, and thus unpredictable by worldly measures. Its value rises when the Shard controls the pulse-points of Xylos, and falls when the sacred sites are held by those without faith. The AMA has learned to accept this. A fee is taken — 1 to 5 of every 100 — as offering to the system.",
             "options": [
-              { "text": "I am ready to exchange.", "next": "confirm_exchange", "action": "currency_exchange" },
-              { "text": "I will meditate on it.", "next": "exit", "action": "exit" }
+              {
+                "text": "I am ready to exchange.",
+                "next": "confirm_exchange",
+                "action": "currency_exchange"
+              },
+              {
+                "text": "I will meditate on it.",
+                "next": "exit",
+                "action": "exit"
+              }
             ]
           },
           {
@@ -1417,17 +1541,36 @@
             "id": "greet",
             "text": "Rex Valdur, AMA Forward Station. We handle Legion Scrip (LSC) and CRD, both directions. I run a tight operation here — fast processing, fair rates, no nonsense. The Legion appreciates efficiency. So do I. What are we moving?",
             "options": [
-              { "text": "Exchange currency.", "next": "confirm_exchange", "action": "currency_exchange" },
-              { "text": "What are the current rates?", "next": "explain_rates" },
-              { "text": "Stand down for now.", "next": "exit", "action": "exit" }
+              {
+                "text": "Exchange currency.",
+                "next": "confirm_exchange",
+                "action": "currency_exchange"
+              },
+              {
+                "text": "What are the current rates?",
+                "next": "explain_rates"
+              },
+              {
+                "text": "Stand down for now.",
+                "next": "exit",
+                "action": "exit"
+              }
             ]
           },
           {
             "id": "explain_rates",
             "text": "LSC tracks Legion military readiness and territorial control. Strong Legion presence in contested zones pushes the Scrip up. Fee is 1–5% depending on volume — high-volume traders get the better deal. I've seen this station process 50,000 LSC in a single session. Don't be shy.",
             "options": [
-              { "text": "Let's go.", "next": "confirm_exchange", "action": "currency_exchange" },
-              { "text": "Not today.", "next": "exit", "action": "exit" }
+              {
+                "text": "Let's go.",
+                "next": "confirm_exchange",
+                "action": "currency_exchange"
+              },
+              {
+                "text": "Not today.",
+                "next": "exit",
+                "action": "exit"
+              }
             ]
           },
           {
