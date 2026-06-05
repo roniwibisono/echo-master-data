@@ -7,7 +7,7 @@
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "SCRAP_FIELD",
-      "description": "The Iron Hegemony does not recruit — it conscripts, shapes, and deploys. Warlord Harkon Steele built the Hegemony from the Concordium's security division after the Great Schism, because he understood something the diplomats didn't: Prima Materia cannot be negotiated with. It can only be controlled by force. The Scrap Field is your proving ground — Broken Scout Drones are jamming logistics, and in the Hegemony, a soldier who can't clear the field is not a soldier at all.",
+      "description": "The Iron Hegemony does not recruit \u2014 it conscripts, shapes, and deploys. Warlord Harkon Steele built the Hegemony from the Concordium's security division after the Great Schism, because he understood something the diplomats didn't: Prima Materia cannot be negotiated with. It can only be controlled by force. The Scrap Field is your proving ground \u2014 Broken Scout Drones are jamming logistics, and in the Hegemony, a soldier who can't clear the field is not a soldier at all.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -24,7 +24,7 @@
           "target": "BROKEN_DRONE",
           "count": 5,
           "desc": "Destroy Broken Scout Drones.",
-          "description": "Defeat BROKEN_DRONE (x5)."
+          "description": "Defeat Broken Scout Drone (x5)."
         },
         {
           "type": "collect",
@@ -62,7 +62,7 @@
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "SCRAP_FIELD",
-      "description": "Scrap Rats have been gnawing through the supply crates the Hegemony uses to move components between the Scrap Field and Bastion Core. In any other organization, this would be a maintenance problem. In the Iron Hegemony, it is a tactical failure — every gap in the supply line is a gap in the war machine's armor. Warlord Steele has a saying: 'The rat that eats your rations today is the enemy that kills your unit tomorrow.' Exterminate them.",
+      "description": "Scrap Rats have been gnawing through the supply crates the Hegemony uses to move components between the Scrap Field and Bastion Core. In any other organization, this would be a maintenance problem. In the Iron Hegemony, it is a tactical failure \u2014 every gap in the supply line is a gap in the war machine's armor. Warlord Steele has a saying: 'The rat that eats your rations today is the enemy that kills your unit tomorrow.' Exterminate them.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -81,7 +81,7 @@
           "target": "SCRAP_RAT",
           "count": 6,
           "desc": "Exterminate Scrap Rats.",
-          "description": "Defeat SCRAP_RAT (x6)."
+          "description": "Defeat Scrap Rat (x6)."
         },
         {
           "type": "collect",
@@ -115,7 +115,7 @@
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "SCRAP_FIELD",
-      "description": "Tink — the Hegemony's salvage engineer, a person who hasn't slept a full night in six years because the Bastion forges never sleep either — needs Scrap Drone components to keep the war machine running. The Hegemony's strength is not just in soldiers; it is in the relentless industrial capacity that turns scrap into weapons. Every drone you disable is another batch of components that becomes a new piece of armor, a new weapon, another tool of control.",
+      "description": "Tink \u2014 the Hegemony's salvage engineer, a person who hasn't slept a full night in six years because the Bastion forges never sleep either \u2014 needs Scrap Drone components to keep the war machine running. The Hegemony's strength is not just in soldiers; it is in the relentless industrial capacity that turns scrap into weapons. Every drone you disable is another batch of components that becomes a new piece of armor, a new weapon, another tool of control.",
       "quest_giver": {
         "npc_id": "npc_salvage_expert",
         "name": "Warlord Harkon Steele",
@@ -134,7 +134,7 @@
           "target": "SCRAP_DRONE",
           "count": 5,
           "desc": "Disable Scrap Drones.",
-          "description": "Defeat SCRAP_DRONE (x5)."
+          "description": "Defeat Scrap Drone (x5)."
         },
         {
           "type": "collect",
@@ -168,7 +168,7 @@
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "SCRAP_FIELD",
-      "description": "Rust Mites have colonized the Hegemony's equipment depot at the Scrap Field perimeter — eating through iron plating that Bastion engineers spent weeks fabricating. In the Hegemony's ideology, corrosion is not just a material problem; it is a symbol of the weakness that allowed the Great Schism to happen. Warlord Steele demands that the Scrap Field be maintained in fighting condition at all times. A soldier who lets their equipment rot is a soldier who does not believe in the mission.",
+      "description": "Rust Mites have colonized the Hegemony's equipment depot at the Scrap Field perimeter \u2014 eating through iron plating that Bastion engineers spent weeks fabricating. In the Hegemony's ideology, corrosion is not just a material problem; it is a symbol of the weakness that allowed the Great Schism to happen. Warlord Steele demands that the Scrap Field be maintained in fighting condition at all times. A soldier who lets their equipment rot is a soldier who does not believe in the mission.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -187,14 +187,14 @@
           "target": "RUST_MITE",
           "count": 5,
           "desc": "Purge Rust Mites.",
-          "description": "Defeat RUST_MITE (x5)."
+          "description": "Defeat Rust Mite (x5)."
         },
         {
           "type": "kill",
           "target": "SCRAP_CRAWLER",
           "count": 3,
           "desc": "Clear Scrap Crawlers nesting nearby.",
-          "description": "Defeat SCRAP_CRAWLER (x3)."
+          "description": "Defeat Scrap Crawler (x3)."
         }
       ],
       "rewards": {
@@ -221,7 +221,7 @@
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "BASTION_CORE",
-      "description": "Warlord Harkon Steele reviews every conscript personally — or so the rumor goes. What is true is that a summons to Bastion Core means someone has noticed you are more than standard material. The Hegemony does not believe in generalist soldiers; every weapon has a function, and a soldier who has not found theirs is a weapon without an edge. At Bastion Core's war hall, you will choose the form your lethality takes. Choose it correctly. There are no second specializations.",
+      "description": "Warlord Harkon Steele reviews every conscript personally \u2014 or so the rumor goes. What is true is that a summons to Bastion Core means someone has noticed you are more than standard material. The Hegemony does not believe in generalist soldiers; every weapon has a function, and a soldier who has not found theirs is a weapon without an edge. At Bastion Core's war hall, you will choose the form your lethality takes. Choose it correctly. There are no second specializations.",
       "quest_giver": {
         "npc_id": "npc_hegemony_class_trainer",
         "name": "War Marshal Drax",
@@ -254,7 +254,7 @@
           "target": "BROKEN_DRONE",
           "count": 3,
           "desc": "Demonstrate your worth against Scrap Hounds.",
-          "description": "Defeat BROKEN_DRONE (x3)."
+          "description": "Defeat Broken Scout Drone (x3)."
         }
       ],
       "rewards": {
@@ -297,7 +297,7 @@
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "IRON_RAVINE",
-      "description": "The Iron Ravine sits on mineral deposits that could supply the Bastion's forges for a generation — deposits the Concordium surveyed and filed away while debating policy, and that the Meridian Cartel is already sending surveyors to assess. Warlord Steele does not debate. He sends soldiers. The Iron Hegemony's doctrine is simple: the one who controls the mineral controls the war machine, and the one who controls the war machine controls everything else. Establish the forward base.",
+      "description": "The Iron Ravine sits on mineral deposits that could supply the Bastion's forges for a generation \u2014 deposits the Concordium surveyed and filed away while debating policy, and that the Meridian Cartel is already sending surveyors to assess. Warlord Steele does not debate. He sends soldiers. The Iron Hegemony's doctrine is simple: the one who controls the mineral controls the war machine, and the one who controls the war machine controls everything else. Establish the forward base.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -350,7 +350,7 @@
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "IRON_RAVINE",
-      "description": "Iron Ravine Miners — independent operators who have worked these veins for years, who have no Hegemony contracts and no Hegemony protection — are blocking access to the central mineral shaft. In the Concordium, this would be a dispute. In the Meridian Cartel, this would be a negotiation. In the Iron Hegemony, Warlord Steele has a single word for independent operators who stand between his soldiers and a strategic resource: obstacles.",
+      "description": "Iron Ravine Miners \u2014 independent operators who have worked these veins for years, who have no Hegemony contracts and no Hegemony protection \u2014 are blocking access to the central mineral shaft. In the Concordium, this would be a dispute. In the Meridian Cartel, this would be a negotiation. In the Iron Hegemony, Warlord Steele has a single word for independent operators who stand between his soldiers and a strategic resource: obstacles.",
       "quest_giver": {
         "npc_id": "npc_iron_miner",
         "name": "Warlord Harkon Steele",
@@ -369,7 +369,7 @@
           "target": "IRON_RAVINE_MINER",
           "count": 5,
           "desc": "Defeat Iron Ravine Miners.",
-          "description": "Defeat IRON_RAVINE_MINER (x5)."
+          "description": "Defeat Iron Ravine Miner (x5)."
         },
         {
           "type": "collect",
@@ -403,7 +403,7 @@
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "IRON_RAVINE",
-      "description": "An Iron Ravine Brute has claimed the central shaft as its territory and crushed three of the Hegemony's initial mining crews — not out of intelligence but pure animal dominance. Warlord Steele has a complicated respect for dominant animals; they understand, on instinct, what the Concordium's diplomats will never accept. But respect does not mean tolerance. The Ravine belongs to the Hegemony. Show the Brute what superior force looks like from the losing side.",
+      "description": "An Iron Ravine Brute has claimed the central shaft as its territory and crushed three of the Hegemony's initial mining crews \u2014 not out of intelligence but pure animal dominance. Warlord Steele has a complicated respect for dominant animals; they understand, on instinct, what the Concordium's diplomats will never accept. But respect does not mean tolerance. The Ravine belongs to the Hegemony. Show the Brute what superior force looks like from the losing side.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -422,7 +422,7 @@
           "target": "IRON_RAVINE_BRUTE",
           "count": 2,
           "desc": "Defeat Iron Ravine Brutes.",
-          "description": "Defeat IRON_RAVINE_BRUTE (x2)."
+          "description": "Defeat Iron Ravine Brute (x2)."
         },
         {
           "type": "collect",
@@ -456,7 +456,7 @@
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "IRON_RAVINE",
-      "description": "A Scrapfield Enforcer — a rogue combat machine that predates the Hegemony's own war-mech program — has been claiming the central ravine as its patrol zone and attacking Hegemony survey teams on sight. Its combat protocols may actually be superior to some Hegemony-built machines, which Tink finds professionally embarrassing and Warlord Steele finds unacceptable. The Iron Hegemony is the only authority in the Iron Ravine. Enforce that fact.",
+      "description": "A Scrapfield Enforcer \u2014 a rogue combat machine that predates the Hegemony's own war-mech program \u2014 has been claiming the central ravine as its patrol zone and attacking Hegemony survey teams on sight. Its combat protocols may actually be superior to some Hegemony-built machines, which Tink finds professionally embarrassing and Warlord Steele finds unacceptable. The Iron Hegemony is the only authority in the Iron Ravine. Enforce that fact.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -475,14 +475,14 @@
           "target": "SCRAPFIELD_ENFORCER",
           "count": 1,
           "desc": "Defeat the Scrapfield Enforcer.",
-          "description": "Defeat SCRAPFIELD_ENFORCER (x1)."
+          "description": "Defeat Scrapfield Enforcer (x1)."
         },
         {
           "type": "kill",
           "target": "IRON_RAVINE_SENTINEL",
           "count": 1,
           "desc": "Destroy a Ravine Sentinel guarding the Enforcer.",
-          "description": "Defeat IRON_RAVINE_SENTINEL (x1)."
+          "description": "Defeat Iron Ravine Sentinel (x1)."
         }
       ],
       "rewards": {
@@ -509,7 +509,7 @@
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "IRON_RAVINE",
-      "description": "Ravine Scrap Golems are what happens when the Severance's corrupted energy animates salvaged machinery without anyone controlling the result — walking fortresses of mismatched metal and raw aethel charge that will attack anything within range. Warlord Steele does not waste time theorizing about what they are. He looks at them and sees two things: a threat to neutralize, and a salvage yield that Tink has already calculated down to the last circuit. Break them. Take what the Hegemony needs.",
+      "description": "Ravine Scrap Golems are what happens when the Severance's corrupted energy animates salvaged machinery without anyone controlling the result \u2014 walking fortresses of mismatched metal and raw aethel charge that will attack anything within range. Warlord Steele does not waste time theorizing about what they are. He looks at them and sees two things: a threat to neutralize, and a salvage yield that Tink has already calculated down to the last circuit. Break them. Take what the Hegemony needs.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -528,7 +528,7 @@
           "target": "RAVINE_SCRAP_GOLEM",
           "count": 2,
           "desc": "Destroy Ravine Scrap Golems.",
-          "description": "Defeat RAVINE_SCRAP_GOLEM (x2)."
+          "description": "Defeat Ravine Scrap Golem (x2)."
         },
         {
           "type": "collect",
@@ -562,7 +562,7 @@
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "The War Machine Graveyard is a cemetery of titans — pre-Severance war constructs that fought wars whose names have been forgotten, left to rust in a field that no other faction wants to enter. Warlord Steele walks it differently. He sees it as a library, every destroyed machine a lesson about what failed and why. The Iron Hegemony's doctrine forbids forgetting the last war. Enter the Graveyard. See what losing looks like, so you understand what winning requires.",
+      "description": "The War Machine Graveyard is a cemetery of titans \u2014 pre-Severance war constructs that fought wars whose names have been forgotten, left to rust in a field that no other faction wants to enter. Warlord Steele walks it differently. He sees it as a library, every destroyed machine a lesson about what failed and why. The Iron Hegemony's doctrine forbids forgetting the last war. Enter the Graveyard. See what losing looks like, so you understand what winning requires.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -615,7 +615,7 @@
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "War Machine Wreckers — scavengers who strip the Graveyard's titan remains for parts to sell to the Meridian Cartel and OmniCorp — have been operating here for years without Hegemony authorization. Foreman Brigg's inventory assessments show they've already taken components that the Hegemony's Titan Assembly Yard needed. The Graveyard's lessons belong to the Iron Hegemony. Its parts belong to the Iron Hegemony. Its scavengers belong on the ground.",
+      "description": "War Machine Wreckers \u2014 scavengers who strip the Graveyard's titan remains for parts to sell to the Meridian Cartel and OmniCorp \u2014 have been operating here for years without Hegemony authorization. Foreman Brigg's inventory assessments show they've already taken components that the Hegemony's Titan Assembly Yard needed. The Graveyard's lessons belong to the Iron Hegemony. Its parts belong to the Iron Hegemony. Its scavengers belong on the ground.",
       "quest_giver": {
         "npc_id": "npc_assembly_foreman",
         "name": "Warlord Harkon Steele",
@@ -634,7 +634,7 @@
           "target": "WAR_MACHINE_WRECKER",
           "count": 5,
           "desc": "Destroy War Machine Wreckers.",
-          "description": "Defeat WAR_MACHINE_WRECKER (x5)."
+          "description": "Defeat War Machine Wrecker (x5)."
         },
         {
           "type": "collect",
@@ -668,7 +668,7 @@
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "Tink — whose actual feelings about the War Machine Graveyard are somewhere between reverence and obsession — has produced a precise inventory of components the Hegemony needs and the War Machine Scavengers are taking. The Scavengers are not random looters; they are organized, they have buyers, and their operation is directly funded by OmniCorp. Every scrap core they remove is a weapon the Hegemony does not build. Tink says 'please.' Warlord Steele says 'eliminate them.'",
+      "description": "Tink \u2014 whose actual feelings about the War Machine Graveyard are somewhere between reverence and obsession \u2014 has produced a precise inventory of components the Hegemony needs and the War Machine Scavengers are taking. The Scavengers are not random looters; they are organized, they have buyers, and their operation is directly funded by OmniCorp. Every scrap core they remove is a weapon the Hegemony does not build. Tink says 'please.' Warlord Steele says 'eliminate them.'",
       "quest_giver": {
         "npc_id": "npc_salvage_expert",
         "name": "Warlord Harkon Steele",
@@ -687,7 +687,7 @@
           "target": "WAR_MACHINE_SCAVENGER",
           "count": 5,
           "desc": "Eliminate War Machine Scavengers.",
-          "description": "Defeat WAR_MACHINE_SCAVENGER (x5)."
+          "description": "Defeat War Machine Scavenger (x5)."
         },
         {
           "type": "collect",
@@ -721,7 +721,7 @@
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "War Machine Sentinels — automated guardian constructs still running on battle-programming written before the Severance — continue patrolling the Graveyard as if the war they were built for is still ongoing. Tink has analyzed their combat protocols and found techniques the Hegemony's current Titan Assembly Yard has not re-discovered. Disable them carefully. Every Sentinel destroyed is a lesson extracted from the past to make the Hegemony's future war machines more lethal.",
+      "description": "War Machine Sentinels \u2014 automated guardian constructs still running on battle-programming written before the Severance \u2014 continue patrolling the Graveyard as if the war they were built for is still ongoing. Tink has analyzed their combat protocols and found techniques the Hegemony's current Titan Assembly Yard has not re-discovered. Disable them carefully. Every Sentinel destroyed is a lesson extracted from the past to make the Hegemony's future war machines more lethal.",
       "quest_giver": {
         "npc_id": "npc_assembly_foreman",
         "name": "Warlord Harkon Steele",
@@ -740,7 +740,7 @@
           "target": "WAR_MACHINE_SENTINEL",
           "count": 3,
           "desc": "Disable War Machine Sentinels.",
-          "description": "Defeat WAR_MACHINE_SENTINEL (x3)."
+          "description": "Defeat War Machine Sentinel (x3)."
         },
         {
           "type": "collect",
@@ -774,7 +774,7 @@
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "Warlord Steele does not believe in partial victories. A contested zone is a weak zone — every Wrecker and Scavenger still active in the Graveyard represents a hole in the Hegemony's tactical control. The full sweep order is simple and absolute: everything in the Graveyard that is not Iron Hegemony is either neutralized or tagged for disposal. By the end of this operation, the War Machine Graveyard will be an Iron Hegemony asset with no asterisks.",
+      "description": "Warlord Steele does not believe in partial victories. A contested zone is a weak zone \u2014 every Wrecker and Scavenger still active in the Graveyard represents a hole in the Hegemony's tactical control. The full sweep order is simple and absolute: everything in the Graveyard that is not Iron Hegemony is either neutralized or tagged for disposal. By the end of this operation, the War Machine Graveyard will be an Iron Hegemony asset with no asterisks.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -793,14 +793,14 @@
           "target": "WAR_MACHINE_WRECKER",
           "count": 4,
           "desc": "Sweep remaining Wreckers.",
-          "description": "Defeat WAR_MACHINE_WRECKER (x4)."
+          "description": "Defeat War Machine Wrecker (x4)."
         },
         {
           "type": "kill",
           "target": "WAR_MACHINE_SCAVENGER",
           "count": 4,
           "desc": "Sweep remaining Scavengers.",
-          "description": "Defeat WAR_MACHINE_SCAVENGER (x4)."
+          "description": "Defeat War Machine Scavenger (x4)."
         }
       ],
       "rewards": {
@@ -846,7 +846,7 @@
           "target": "WAR_MACHINE_SENTINEL",
           "count": 4,
           "desc": "Destroy converging Sentinels.",
-          "description": "Defeat WAR_MACHINE_SENTINEL (x4)."
+          "description": "Defeat War Machine Sentinel (x4)."
         },
         {
           "type": "collect",
@@ -880,7 +880,7 @@
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "Foreman Brigg has a requisition list from the Bastion's Titan Assembly program — specific components from specific models in the Graveyard that cannot be manufactured any other way. The program is behind schedule. Three rival factions are ahead of the Hegemony in their own advanced weapons programs, and Warlord Steele does not tolerate being behind. The Graveyard Wreckers are in the retrieval zones again. Remove them. Retrieve what the Bastion needs. Bring the Hegemony back ahead.",
+      "description": "Foreman Brigg has a requisition list from the Bastion's Titan Assembly program \u2014 specific components from specific models in the Graveyard that cannot be manufactured any other way. The program is behind schedule. Three rival factions are ahead of the Hegemony in their own advanced weapons programs, and Warlord Steele does not tolerate being behind. The Graveyard Wreckers are in the retrieval zones again. Remove them. Retrieve what the Bastion needs. Bring the Hegemony back ahead.",
       "quest_giver": {
         "npc_id": "npc_assembly_foreman",
         "name": "Warlord Harkon Steele",
@@ -906,7 +906,7 @@
           "target": "WAR_MACHINE_WRECKER",
           "count": 3,
           "desc": "Clear the retrieval zone.",
-          "description": "Defeat WAR_MACHINE_WRECKER (x3)."
+          "description": "Defeat War Machine Wrecker (x3)."
         }
       ],
       "rewards": {
@@ -933,7 +933,7 @@
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "Deep in the War Machine Graveyard's protected core zone, a Sentinel Commander — a war construct with hierarchical battle protocols that can coordinate the scattered Sentinels into a unified tactical force — has activated. Tink believes it has been dormant for centuries, triggered by the Hegemony's salvage operations. Warlord Steele believes this is irrelevant. The Graveyard belongs to the Iron Hegemony. Destroy the Commander. Plant the claim beacon. End this.",
+      "description": "Deep in the War Machine Graveyard's protected core zone, a Sentinel Commander \u2014 a war construct with hierarchical battle protocols that can coordinate the scattered Sentinels into a unified tactical force \u2014 has activated. Tink believes it has been dormant for centuries, triggered by the Hegemony's salvage operations. Warlord Steele believes this is irrelevant. The Graveyard belongs to the Iron Hegemony. Destroy the Commander. Plant the claim beacon. End this.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -952,7 +952,7 @@
           "target": "WAR_MACHINE_SENTINEL",
           "count": 5,
           "desc": "Destroy the Sentinel Commander and its unit.",
-          "description": "Defeat WAR_MACHINE_SENTINEL (x5)."
+          "description": "Defeat War Machine Sentinel (x5)."
         },
         {
           "type": "collect",
@@ -986,7 +986,7 @@
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "A Resonance Echo — the kind of energy entity the Arcanum Seekers would write excited papers about — has formed in the Graveyard's deep sector, drawn by the resonance from the now-active Sentinel Commander. It is disrupting every piece of Hegemony electronic equipment within range and coordinating erratic behavior in the surviving Sentinels. The Iron Hegemony does not tolerate anomalies in controlled territory. This is controlled territory now. Destroy it.",
+      "description": "A Resonance Echo \u2014 the kind of energy entity the Arcanum Seekers would write excited papers about \u2014 has formed in the Graveyard's deep sector, drawn by the resonance from the now-active Sentinel Commander. It is disrupting every piece of Hegemony electronic equipment within range and coordinating erratic behavior in the surviving Sentinels. The Iron Hegemony does not tolerate anomalies in controlled territory. This is controlled territory now. Destroy it.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -1005,14 +1005,14 @@
           "target": "RESONANCE_ECHO",
           "count": 1,
           "desc": "Defeat the Resonance Echo.",
-          "description": "Defeat RESONANCE_ECHO (x1)."
+          "description": "Defeat Resonance Echo (x1)."
         },
         {
           "type": "kill",
           "target": "WAR_MACHINE_SENTINEL",
           "count": 2,
           "desc": "Clear Sentinel escorts.",
-          "description": "Defeat WAR_MACHINE_SENTINEL (x2)."
+          "description": "Defeat War Machine Sentinel (x2)."
         }
       ],
       "rewards": {
@@ -1039,7 +1039,7 @@
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "BASTION_CORE",
-      "description": "The War Machine Graveyard is secured. The Titan Assembly program has its components. Warlord Harkon Steele does not give compliments — he gives promotions, which mean exactly the same thing in the Iron Hegemony. Return to Bastion Core for your Advanced Combat elevation. The Titan Assembly Yard awaits, and what is built there will change the balance of power on Xylos. You are going to help build it.",
+      "description": "The War Machine Graveyard is secured. The Titan Assembly program has its components. Warlord Harkon Steele does not give compliments \u2014 he gives promotions, which mean exactly the same thing in the Iron Hegemony. Return to Bastion Core for your Advanced Combat elevation. The Titan Assembly Yard awaits, and what is built there will change the balance of power on Xylos. You are going to help build it.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -1164,7 +1164,7 @@
           "target": "TITAN_ASSEMBLY_DRONE",
           "count": 6,
           "desc": "Destroy Titan Assembly Drones.",
-          "description": "Defeat TITAN_ASSEMBLY_DRONE (x6)."
+          "description": "Defeat Titan Assembly Drone (x6)."
         },
         {
           "type": "collect",
@@ -1217,7 +1217,7 @@
           "target": "TITAN_ASSEMBLY_SENTINEL",
           "count": 3,
           "desc": "Destroy Titan Assembly Sentinels.",
-          "description": "Defeat TITAN_ASSEMBLY_SENTINEL (x3)."
+          "description": "Defeat Titan Assembly Sentinel (x3)."
         },
         {
           "type": "collect",
@@ -1270,7 +1270,7 @@
           "target": "TITAN_FORGE_AUTOMATON",
           "count": 2,
           "desc": "Disable Titan Forge Automatons.",
-          "description": "Defeat TITAN_FORGE_AUTOMATON (x2)."
+          "description": "Defeat Titan Forge Automaton (x2)."
         },
         {
           "type": "collect",
@@ -1323,7 +1323,7 @@
           "target": "TITAN_PROTO_CORE",
           "count": 1,
           "desc": "Destroy the Titan Proto Core.",
-          "description": "Defeat TITAN_PROTO_CORE (x1)."
+          "description": "Defeat Titan Proto Core (x1)."
         },
         {
           "type": "collect",
@@ -1429,7 +1429,7 @@
           "target": "AETHEL_RIFT_STALKER",
           "count": 6,
           "desc": "Eliminate rival faction scouts.",
-          "description": "Defeat AETHEL_RIFT_STALKER (x6)."
+          "description": "Defeat Aethel Rift Stalker (x6)."
         },
         {
           "type": "collect",
@@ -1482,7 +1482,7 @@
           "target": "AETHEL_BEHEMOTH",
           "count": 2,
           "desc": "Destroy the enemy Behemoth siege units.",
-          "description": "Defeat AETHEL_BEHEMOTH (x2)."
+          "description": "Defeat Aethel Behemoth (x2)."
         },
         {
           "type": "collect",
@@ -1535,7 +1535,7 @@
           "target": "TITAN_ASSEMBLY_SENTINEL",
           "count": 4,
           "desc": "Destroy new Sentinel variants.",
-          "description": "Defeat TITAN_ASSEMBLY_SENTINEL (x4)."
+          "description": "Defeat Titan Assembly Sentinel (x4)."
         },
         {
           "type": "collect",
@@ -1595,14 +1595,14 @@
           "target": "RESONANCE_ECHO",
           "count": 1,
           "desc": "Defeat the Resonance Echo as your strength test.",
-          "description": "Defeat RESONANCE_ECHO (x1)."
+          "description": "Defeat Resonance Echo (x1)."
         },
         {
           "type": "kill",
           "target": "TITAN_PROTO_CORE",
           "count": 1,
           "desc": "Destroy a Titan Proto Core as your endurance test.",
-          "description": "Defeat TITAN_PROTO_CORE (x1)."
+          "description": "Defeat Titan Proto Core (x1)."
         }
       ],
       "rewards": {
@@ -1709,7 +1709,7 @@
           "target": "ASHEN_DRAKE",
           "count": 1,
           "desc": "Engage the Ashen Drake for reconnaissance.",
-          "description": "Defeat ASHEN_DRAKE (x1)."
+          "description": "Defeat Ashen Drake (x1)."
         },
         {
           "type": "collect",
@@ -1762,7 +1762,7 @@
           "target": "AETHEL_IRON_CARAPACE",
           "count": 6,
           "desc": "Destroy Aethel Iron Carapaces.",
-          "description": "Defeat AETHEL_IRON_CARAPACE (x6)."
+          "description": "Defeat Aethel Iron Carapace (x6)."
         },
         {
           "type": "collect",
@@ -1815,7 +1815,7 @@
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 2,
           "desc": "Eliminate Corrupted Behemoths.",
-          "description": "Defeat AETHEL_CORRUPTED_BEHEMOTH (x2)."
+          "description": "Defeat Aethel Corrupted Behemoth (x2)."
         },
         {
           "type": "collect",
@@ -1868,7 +1868,7 @@
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 4,
           "desc": "Destroy Abyssal Reaver shock troops.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x4)."
+          "description": "Defeat Aethel Abyssal Reaver (x4)."
         },
         {
           "type": "collect",
@@ -1921,14 +1921,14 @@
           "target": "AETHEL_RIFT_STALKER",
           "count": 6,
           "desc": "Repel enemy probes.",
-          "description": "Defeat AETHEL_RIFT_STALKER (x6)."
+          "description": "Defeat Aethel Rift Stalker (x6)."
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 3,
           "desc": "Neutralize void threats to the grid.",
-          "description": "Defeat AETHEL_VOID_CHANNELER (x3)."
+          "description": "Defeat Aethel Void Channeler (x3)."
         }
       ],
       "rewards": {
@@ -1974,7 +1974,7 @@
           "target": "ASHEN_DRAKE",
           "count": 1,
           "desc": "Hunt and kill the Ashen Drake.",
-          "description": "Defeat ASHEN_DRAKE (x1)."
+          "description": "Defeat Ashen Drake (x1)."
         },
         {
           "type": "collect",
@@ -2027,7 +2027,7 @@
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
           "desc": "Assault enemy positions.",
-          "description": "Defeat AETHEL_IRON_CARAPACE (x8)."
+          "description": "Defeat Aethel Iron Carapace (x8)."
         },
         {
           "type": "collect",
@@ -2080,14 +2080,14 @@
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 6,
           "desc": "Break the Abyssal counter-offensive.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x6)."
+          "description": "Defeat Aethel Abyssal Reaver (x6)."
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 3,
           "desc": "Kill the Channeler commanders.",
-          "description": "Defeat AETHEL_VOID_CHANNELER (x3)."
+          "description": "Defeat Aethel Void Channeler (x3)."
         }
       ],
       "rewards": {
@@ -2133,21 +2133,21 @@
           "target": "ASHEN_DRAKE",
           "count": 1,
           "desc": "Defeat the Ashen Drake.",
-          "description": "Defeat ASHEN_DRAKE (x1)."
+          "description": "Defeat Ashen Drake (x1)."
         },
         {
           "type": "kill",
           "target": "AETHEL_BEHEMOTH",
           "count": 1,
           "desc": "Destroy an Aethel Behemoth.",
-          "description": "Defeat AETHEL_BEHEMOTH (x1)."
+          "description": "Defeat Aethel Behemoth (x1)."
         },
         {
           "type": "kill",
           "target": "TITAN_PROTO_CORE",
           "count": 1,
           "desc": "Destroy a Titan Proto Core.",
-          "description": "Defeat TITAN_PROTO_CORE (x1)."
+          "description": "Defeat Titan Proto Core (x1)."
         }
       ],
       "rewards": {
@@ -2254,7 +2254,7 @@
           "target": "VOID_REAVER",
           "count": 6,
           "desc": "Engage and destroy Void Reavers.",
-          "description": "Defeat VOID_REAVER (x6)."
+          "description": "Defeat Void Reaver (x6)."
         },
         {
           "type": "collect",
@@ -2307,7 +2307,7 @@
           "target": "AETHEL_VOID_CHANNELER",
           "count": 6,
           "desc": "Purge Void Channelers and their rituals.",
-          "description": "Defeat AETHEL_VOID_CHANNELER (x6)."
+          "description": "Defeat Aethel Void Channeler (x6)."
         },
         {
           "type": "collect",
@@ -2360,7 +2360,7 @@
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 6,
           "desc": "Exterminate Abyssal Reavers.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x6)."
+          "description": "Defeat Aethel Abyssal Reaver (x6)."
         },
         {
           "type": "collect",
@@ -2413,7 +2413,7 @@
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
           "desc": "Eliminate Corrupted Behemoths.",
-          "description": "Defeat AETHEL_CORRUPTED_BEHEMOTH (x3)."
+          "description": "Defeat Aethel Corrupted Behemoth (x3)."
         },
         {
           "type": "collect",
@@ -2466,7 +2466,7 @@
           "target": "SOUL_FRAGMENTER",
           "count": 2,
           "desc": "Destroy Soul Fragmenters.",
-          "description": "Defeat SOUL_FRAGMENTER (x2)."
+          "description": "Defeat Soul Fragmenter (x2)."
         },
         {
           "type": "collect",
@@ -2519,7 +2519,7 @@
           "target": "CHRONO_WRAITH",
           "count": 2,
           "desc": "Eliminate Chrono Wraiths.",
-          "description": "Defeat CHRONO_WRAITH (x2)."
+          "description": "Defeat Chrono Wraith (x2)."
         },
         {
           "type": "collect",
@@ -2572,7 +2572,7 @@
           "target": "GIGANTIC_JOTUNN",
           "count": 1,
           "desc": "Destroy the Gigantic Jotunn.",
-          "description": "Defeat GIGANTIC_JOTUNN (x1)."
+          "description": "Defeat Gigantic Jotunn (x1)."
         },
         {
           "type": "collect",
@@ -2678,14 +2678,14 @@
           "target": "ASHEN_DRAKE",
           "count": 1,
           "desc": "EXECUTE THE ASHEN DRAKE.",
-          "description": "Defeat ASHEN_DRAKE (x1)."
+          "description": "Defeat Ashen Drake (x1)."
         },
         {
           "type": "kill",
           "target": "DRAKE_MINION",
           "count": 5,
           "desc": "Clear Drake Minions from the lair.",
-          "description": "Defeat DRAKE_MINION (x5)."
+          "description": "Defeat Drake Minion (x5)."
         },
         {
           "type": "collect",
@@ -2746,7 +2746,7 @@
           "target": "SOUL_FRAGMENTER",
           "count": 3,
           "desc": "Destroy the Fragmenter battalions.",
-          "description": "Defeat SOUL_FRAGMENTER (x3)."
+          "description": "Defeat Soul Fragmenter (x3)."
         },
         {
           "type": "collect",
@@ -2799,14 +2799,14 @@
           "target": "VOID_REAVER",
           "count": 8,
           "desc": "Exterminate Void Reavers.",
-          "description": "Defeat VOID_REAVER (x8)."
+          "description": "Defeat Void Reaver (x8)."
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 5,
           "desc": "Exterminate Void Channelers.",
-          "description": "Defeat AETHEL_VOID_CHANNELER (x5)."
+          "description": "Defeat Aethel Void Channeler (x5)."
         }
       ],
       "rewards": {
@@ -2852,7 +2852,7 @@
           "target": "VOID_STALKER",
           "count": 1,
           "desc": "Execute the Void Stalker.",
-          "description": "Defeat VOID_STALKER (x1)."
+          "description": "Defeat Void Stalker (x1)."
         },
         {
           "type": "collect",
@@ -2905,7 +2905,7 @@
           "target": "CHRONO_WRAITH",
           "count": 3,
           "desc": "Destroy Chrono Wraiths and close breaches.",
-          "description": "Defeat CHRONO_WRAITH (x3)."
+          "description": "Defeat Chrono Wraith (x3)."
         },
         {
           "type": "collect",
@@ -2958,14 +2958,14 @@
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 10,
           "desc": "Assault Reaver defensive positions.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x10)."
+          "description": "Defeat Aethel Abyssal Reaver (x10)."
         },
         {
           "type": "kill",
           "target": "VOID_REAVER",
           "count": 6,
           "desc": "Clear Void Reaver support units.",
-          "description": "Defeat VOID_REAVER (x6)."
+          "description": "Defeat Void Reaver (x6)."
         }
       ],
       "rewards": {
@@ -3011,7 +3011,7 @@
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
           "desc": "Destroy the Jotunn strongpoint.",
-          "description": "Defeat GIGANTIC_JOTUNN (x3)."
+          "description": "Defeat Gigantic Jotunn (x3)."
         },
         {
           "type": "collect",
@@ -3064,7 +3064,7 @@
           "target": "CRYSTAL_TYRANT",
           "count": 2,
           "desc": "Silence the Tyrant battery.",
-          "description": "Defeat CRYSTAL_TYRANT (x2)."
+          "description": "Defeat Crystal Tyrant (x2)."
         },
         {
           "type": "collect",
@@ -3117,14 +3117,14 @@
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 6,
           "desc": "Clear the beachhead zone.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x6)."
+          "description": "Defeat Aethel Abyssal Reaver (x6)."
         },
         {
           "type": "kill",
           "target": "CHRONO_WRAITH",
           "count": 1,
           "desc": "Eliminate Chrono Wraith defending the beachhead.",
-          "description": "Defeat CHRONO_WRAITH (x1)."
+          "description": "Defeat Chrono Wraith (x1)."
         },
         {
           "type": "collect",
@@ -3177,14 +3177,14 @@
           "target": "SOUL_FRAGMENTER",
           "count": 3,
           "desc": "Break the Fragmenter front.",
-          "description": "Defeat SOUL_FRAGMENTER (x3)."
+          "description": "Defeat Soul Fragmenter (x3)."
         },
         {
           "type": "kill",
           "target": "VOID_STALKER",
           "count": 1,
           "desc": "Eliminate the Stalker commanding them.",
-          "description": "Defeat VOID_STALKER (x1)."
+          "description": "Defeat Void Stalker (x1)."
         }
       ],
       "rewards": {
@@ -3230,7 +3230,7 @@
           "target": "ABYSS_HARBINGER",
           "count": 1,
           "desc": "DEFEAT THE ABYSS HARBINGER.",
-          "description": "Defeat ABYSS_HARBINGER (x1)."
+          "description": "Defeat Abyss Harbinger (x1)."
         },
         {
           "type": "collect",
@@ -3344,7 +3344,7 @@
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
           "desc": "Destroy Iron Carapaces.",
-          "description": "Defeat AETHEL_IRON_CARAPACE (x8)."
+          "description": "Defeat Aethel Iron Carapace (x8)."
         },
         {
           "type": "collect",
@@ -3397,7 +3397,7 @@
           "target": "CRYSTAL_TYRANT",
           "count": 2,
           "desc": "Remove Tyrant positions.",
-          "description": "Defeat CRYSTAL_TYRANT (x2)."
+          "description": "Defeat Crystal Tyrant (x2)."
         },
         {
           "type": "collect",
@@ -3450,7 +3450,7 @@
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
           "desc": "Break the Jotunn blockade.",
-          "description": "Defeat GIGANTIC_JOTUNN (x3)."
+          "description": "Defeat Gigantic Jotunn (x3)."
         },
         {
           "type": "collect",
@@ -3556,14 +3556,14 @@
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 8,
           "desc": "Purge hostile entities from the Core.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x8)."
+          "description": "Defeat Aethel Abyssal Reaver (x8)."
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 5,
           "desc": "Eliminate all Channelers.",
-          "description": "Defeat AETHEL_VOID_CHANNELER (x5)."
+          "description": "Defeat Aethel Void Channeler (x5)."
         }
       ],
       "rewards": {
@@ -3609,7 +3609,7 @@
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
           "desc": "Defend against Behemoth assault.",
-          "description": "Defeat AETHEL_CORRUPTED_BEHEMOTH (x3)."
+          "description": "Defeat Aethel Corrupted Behemoth (x3)."
         },
         {
           "type": "collect",
@@ -3662,7 +3662,7 @@
           "target": "AETHEL_RIFT_STALKER",
           "count": 6,
           "desc": "Counter-ambush Rift Stalkers.",
-          "description": "Defeat AETHEL_RIFT_STALKER (x6)."
+          "description": "Defeat Aethel Rift Stalker (x6)."
         },
         {
           "type": "collect",
@@ -3722,7 +3722,7 @@
           "target": "GIGANTIC_JOTUNN",
           "count": 1,
           "desc": "Defeat a Jotunn scout for the Titan.",
-          "description": "Defeat GIGANTIC_JOTUNN (x1)."
+          "description": "Defeat Gigantic Jotunn (x1)."
         }
       ],
       "rewards": {
@@ -3768,14 +3768,14 @@
           "target": "GRAVITY_TITAN",
           "count": 1,
           "desc": "TOPPLE THE GRAVITY TITAN.",
-          "description": "Defeat GRAVITY_TITAN (x1)."
+          "description": "Defeat Gravity Titan (x1)."
         },
         {
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
           "desc": "Clear Abyssal escorts.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x5)."
+          "description": "Defeat Aethel Abyssal Reaver (x5)."
         },
         {
           "type": "collect",
@@ -3889,7 +3889,7 @@
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
           "desc": "Neutralize Forge defense systems.",
-          "description": "Defeat AETHEL_IRON_CARAPACE (x8)."
+          "description": "Defeat Aethel Iron Carapace (x8)."
         },
         {
           "type": "collect",
@@ -3942,7 +3942,7 @@
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
           "desc": "Purify the Forge of Behemoths.",
-          "description": "Defeat AETHEL_CORRUPTED_BEHEMOTH (x3)."
+          "description": "Defeat Aethel Corrupted Behemoth (x3)."
         },
         {
           "type": "collect",
@@ -3995,14 +3995,14 @@
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 8,
           "desc": "Purge Abyssal forces.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x8)."
+          "description": "Defeat Aethel Abyssal Reaver (x8)."
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 5,
           "desc": "Eliminate command units.",
-          "description": "Defeat AETHEL_VOID_CHANNELER (x5)."
+          "description": "Defeat Aethel Void Channeler (x5)."
         }
       ],
       "rewards": {
@@ -4048,7 +4048,7 @@
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
           "desc": "Destroy Jotunn forge-holders.",
-          "description": "Defeat GIGANTIC_JOTUNN (x3)."
+          "description": "Defeat Gigantic Jotunn (x3)."
         },
         {
           "type": "collect",
@@ -4101,7 +4101,7 @@
           "target": "AETHEL_VOID_CHANNELER",
           "count": 6,
           "desc": "Secure the production floor.",
-          "description": "Defeat AETHEL_VOID_CHANNELER (x6)."
+          "description": "Defeat Aethel Void Channeler (x6)."
         },
         {
           "type": "collect",
@@ -4154,7 +4154,7 @@
           "target": "TITAN_FORGE_AUTOMATON",
           "count": 3,
           "desc": "Override Titan Forge Automatons.",
-          "description": "Defeat TITAN_FORGE_AUTOMATON (x3)."
+          "description": "Defeat Titan Forge Automaton (x3)."
         },
         {
           "type": "collect",
@@ -4207,7 +4207,7 @@
           "target": "TITAN_PROTO_CORE",
           "count": 2,
           "desc": "Recycle Titan Proto Cores.",
-          "description": "Defeat TITAN_PROTO_CORE (x2)."
+          "description": "Defeat Titan Proto Core (x2)."
         },
         {
           "type": "collect",
@@ -4260,14 +4260,14 @@
           "target": "GRAVITY_TITAN",
           "count": 1,
           "desc": "Defeat the Gravity Titan.",
-          "description": "Defeat GRAVITY_TITAN (x1)."
+          "description": "Defeat Gravity Titan (x1)."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
           "desc": "Defeat the Abyss Harbinger.",
-          "description": "Defeat ABYSS_HARBINGER (x1)."
+          "description": "Defeat Abyss Harbinger (x1)."
         }
       ],
       "rewards": {
@@ -4431,7 +4431,7 @@
           "target": "AETHEL_RIFT_STALKER",
           "count": 8,
           "desc": "Destroy city defense systems.",
-          "description": "Defeat AETHEL_RIFT_STALKER (x8)."
+          "description": "Defeat Aethel Rift Stalker (x8)."
         },
         {
           "type": "collect",
@@ -4491,7 +4491,7 @@
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 4,
           "desc": "Eliminate forces drawn to the weapons.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x4)."
+          "description": "Defeat Aethel Abyssal Reaver (x4)."
         }
       ],
       "rewards": {
@@ -4537,7 +4537,7 @@
           "target": "ASHEN_DRAKE",
           "count": 1,
           "desc": "Eliminate the Apex Ashen Drake.",
-          "description": "Defeat ASHEN_DRAKE (x1)."
+          "description": "Defeat Ashen Drake (x1)."
         },
         {
           "type": "collect",
@@ -4594,7 +4594,7 @@
           "target": "ABYSS_HARBINGER",
           "count": 1,
           "desc": "Destroy the Apex Abyss Harbinger.",
-          "description": "Defeat ABYSS_HARBINGER (x1)."
+          "description": "Defeat Abyss Harbinger (x1)."
         },
         {
           "type": "collect",
@@ -4651,7 +4651,7 @@
           "target": "GRAVITY_TITAN",
           "count": 1,
           "desc": "Destroy the Apex Gravity Titan.",
-          "description": "Defeat GRAVITY_TITAN (x1)."
+          "description": "Defeat Gravity Titan (x1)."
         },
         {
           "type": "collect",
@@ -4708,21 +4708,21 @@
           "target": "ASHEN_DRAKE",
           "count": 1,
           "desc": "Destroy the Drake.",
-          "description": "Defeat ASHEN_DRAKE (x1)."
+          "description": "Defeat Ashen Drake (x1)."
         },
         {
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
           "desc": "Destroy the Titan.",
-          "description": "Defeat GRAVITY_TITAN (x1)."
+          "description": "Defeat Gravity Titan (x1)."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
           "desc": "Destroy the Harbinger.",
-          "description": "Defeat ABYSS_HARBINGER (x1)."
+          "description": "Defeat Abyss Harbinger (x1)."
         }
       ],
       "rewards": {
@@ -4836,7 +4836,7 @@
           "target": "GIGANTIC_JOTUNN",
           "count": 2,
           "desc": "Destroy Jotunn guards.",
-          "description": "Defeat GIGANTIC_JOTUNN (x2)."
+          "description": "Defeat Gigantic Jotunn (x2)."
         }
       ],
       "rewards": {
@@ -4882,14 +4882,14 @@
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 10,
           "desc": "Defend Engine activation.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x10)."
+          "description": "Defeat Aethel Abyssal Reaver (x10)."
         },
         {
           "type": "kill",
           "target": "CRYSTAL_TYRANT",
           "count": 2,
           "desc": "Destroy Tyrant saboteurs.",
-          "description": "Defeat CRYSTAL_TYRANT (x2)."
+          "description": "Defeat Crystal Tyrant (x2)."
         },
         {
           "type": "collect",
@@ -4942,14 +4942,14 @@
           "target": "GIGANTIC_JOTUNN",
           "count": 5,
           "desc": "Execute Jotunns.",
-          "description": "Defeat GIGANTIC_JOTUNN (x5)."
+          "description": "Defeat Gigantic Jotunn (x5)."
         },
         {
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
           "desc": "Execute Carapaces.",
-          "description": "Defeat AETHEL_IRON_CARAPACE (x8)."
+          "description": "Defeat Aethel Iron Carapace (x8)."
         }
       ],
       "rewards": {
@@ -4995,14 +4995,14 @@
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 10,
           "desc": "Annihilate Abyssal forces.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x10)."
+          "description": "Defeat Aethel Abyssal Reaver (x10)."
         },
         {
           "type": "kill",
           "target": "VOID_REAVER",
           "count": 10,
           "desc": "Annihilate Void forces.",
-          "description": "Defeat VOID_REAVER (x10)."
+          "description": "Defeat Void Reaver (x10)."
         }
       ],
       "rewards": {
@@ -5048,7 +5048,7 @@
           "target": "CRYSTAL_TYRANT",
           "count": 3,
           "desc": "Exterminate Crystal Tyrants.",
-          "description": "Defeat CRYSTAL_TYRANT (x3)."
+          "description": "Defeat Crystal Tyrant (x3)."
         },
         {
           "type": "collect",
@@ -5101,14 +5101,14 @@
           "target": "AETHEL_VOID_CHANNELER",
           "count": 8,
           "desc": "Eliminate production threats.",
-          "description": "Defeat AETHEL_VOID_CHANNELER (x8)."
+          "description": "Defeat Aethel Void Channeler (x8)."
         },
         {
           "type": "kill",
           "target": "TITAN_FORGE_AUTOMATON",
           "count": 3,
           "desc": "Override final rogue Automatons.",
-          "description": "Defeat TITAN_FORGE_AUTOMATON (x3)."
+          "description": "Defeat Titan Forge Automaton (x3)."
         }
       ],
       "rewards": {
@@ -5154,14 +5154,14 @@
           "target": "AETHEL_RIFT_STALKER",
           "count": 10,
           "desc": "Enforce sovereignty.",
-          "description": "Defeat AETHEL_RIFT_STALKER (x10)."
+          "description": "Defeat Aethel Rift Stalker (x10)."
         },
         {
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
           "desc": "Destroy residual Titan presence.",
-          "description": "Defeat GRAVITY_TITAN (x1)."
+          "description": "Defeat Gravity Titan (x1)."
         }
       ],
       "rewards": {
@@ -5207,14 +5207,14 @@
           "target": "AETHEL_IRON_CARAPACE",
           "count": 10,
           "desc": "Patrol and clear orbital sectors.",
-          "description": "Defeat AETHEL_IRON_CARAPACE (x10)."
+          "description": "Defeat Aethel Iron Carapace (x10)."
         },
         {
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
           "desc": "Eliminate remaining Behemoths.",
-          "description": "Defeat AETHEL_CORRUPTED_BEHEMOTH (x3)."
+          "description": "Defeat Aethel Corrupted Behemoth (x3)."
         }
       ],
       "rewards": {
@@ -5260,14 +5260,14 @@
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
           "desc": "Destroy Jotunn command units.",
-          "description": "Defeat GIGANTIC_JOTUNN (x3)."
+          "description": "Defeat Gigantic Jotunn (x3)."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
           "desc": "Destroy the Harbinger's last echo.",
-          "description": "Defeat ABYSS_HARBINGER (x1)."
+          "description": "Defeat Abyss Harbinger (x1)."
         },
         {
           "type": "collect",
@@ -5320,21 +5320,21 @@
           "target": "GIGANTIC_JOTUNN",
           "count": 1,
           "desc": "Conquer the Apex Jotunn.",
-          "description": "Defeat GIGANTIC_JOTUNN (x1)."
+          "description": "Defeat Gigantic Jotunn (x1)."
         },
         {
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
           "desc": "Conquer the Apex Drake.",
-          "description": "Defeat ASHEN_DRAKE (x1)."
+          "description": "Defeat Ashen Drake (x1)."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
           "desc": "Conquer the Apex Harbinger.",
-          "description": "Defeat ABYSS_HARBINGER (x1)."
+          "description": "Defeat Abyss Harbinger (x1)."
         },
         {
           "type": "collect",
@@ -5402,14 +5402,14 @@
           "target": "GRAVITY_TITAN",
           "count": 1,
           "desc": "Defeat the Eternal Gravity Titan.",
-          "description": "Defeat GRAVITY_TITAN (x1)."
+          "description": "Defeat Gravity Titan (x1)."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
           "desc": "Destroy the Eternal Abyss Harbinger.",
-          "description": "Defeat ABYSS_HARBINGER (x1)."
+          "description": "Defeat Abyss Harbinger (x1)."
         },
         {
           "type": "collect",

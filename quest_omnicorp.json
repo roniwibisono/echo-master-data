@@ -7,7 +7,7 @@
       "rank": "D",
       "faction": "OMNICORP",
       "region": "HIGHLAND_PLATEAU",
-      "description": "Director Astra Vey of OmniCorp does not introduce herself the way other faction leaders do. The briefing arrives as a data packet: your activation code, your initial tasking, and a performance metric you are expected to meet. OmniCorp is a galaxy-spanning corporation that treats Xylos as a line item in a much larger balance sheet — and the Highland Plateau is the first asset to be optimized. Plateau Hares are causing sensor interference. Sanitize the zone. Efficiency is not requested. It is the baseline.",
+      "description": "Director Astra Vey of OmniCorp does not introduce herself the way other faction leaders do. The briefing arrives as a data packet: your activation code, your initial tasking, and a performance metric you are expected to meet. OmniCorp is a galaxy-spanning corporation that treats Xylos as a line item in a much larger balance sheet \u2014 and the Highland Plateau is the first asset to be optimized. Plateau Hares are causing sensor interference. Sanitize the zone. Efficiency is not requested. It is the baseline.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Astra Vey",
@@ -24,7 +24,7 @@
           "target": "PLATEAU_HARE",
           "count": 5,
           "desc": "Execute Sanitization Protocol on Plateau Hares.",
-          "description": "Defeat PLATEAU_HARE (x5)."
+          "description": "Defeat Plateau Hare (x5)."
         },
         {
           "type": "collect",
@@ -62,7 +62,7 @@
       "rank": "D",
       "faction": "OMNICORP",
       "region": "HIGHLAND_PLATEAU",
-      "description": "OmniCorp's Survey Bots are the most advanced autonomous assessment units on Xylos — which makes it particularly inconvenient that four of them have gone offline in the Highland Plateau's northern grid sector. Director Vey's analysis is concise: the Plateau Drones that are swarming the area malfunctioned when OmniCorp's initial survey signals overwhelmed their primitive navigation systems. The Survey Bots' data cores contain Xylos asset maps that no other faction has. Recover them before someone else does.",
+      "description": "OmniCorp's Survey Bots are the most advanced autonomous assessment units on Xylos \u2014 which makes it particularly inconvenient that four of them have gone offline in the Highland Plateau's northern grid sector. Director Vey's analysis is concise: the Plateau Drones that are swarming the area malfunctioned when OmniCorp's initial survey signals overwhelmed their primitive navigation systems. The Survey Bots' data cores contain Xylos asset maps that no other faction has. Recover them before someone else does.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_technician",
         "name": "Director Astra Vey",
@@ -81,7 +81,7 @@
           "target": "OMNI_SURVEY_BOT",
           "count": 4,
           "desc": "Neutralize malfunctioning Survey Bots.",
-          "description": "Defeat OMNI_SURVEY_BOT (x4)."
+          "description": "Defeat Omni Survey Bot (x4)."
         },
         {
           "type": "collect",
@@ -115,7 +115,7 @@
       "rank": "D",
       "faction": "OMNICORP",
       "region": "HIGHLAND_PLATEAU",
-      "description": "The Plateau Drones were OmniCorp's own early-model survey units, deployed on the Highland Plateau in a previous assessment cycle and never retrieved — now operating outside their original parameters due to Xylos's aethel-charged atmosphere corrupting their navigation firmware. Director Astra Vey considers them a known liability. Their salvage value is marginal. Their interference with current operations is not. OmniCorp's standard approach to hardware that costs more to fix than to replace: controlled demolition.",
+      "description": "The Plateau Drones were OmniCorp's own early-model survey units, deployed on the Highland Plateau in a previous assessment cycle and never retrieved \u2014 now operating outside their original parameters due to Xylos's aethel-charged atmosphere corrupting their navigation firmware. Director Astra Vey considers them a known liability. Their salvage value is marginal. Their interference with current operations is not. OmniCorp's standard approach to hardware that costs more to fix than to replace: controlled demolition.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Astra Vey",
@@ -134,7 +134,7 @@
           "target": "PLATEAU_DRONE",
           "count": 5,
           "desc": "Recalibrate Plateau Drones.",
-          "description": "Defeat PLATEAU_DRONE (x5)."
+          "description": "Defeat Plateau Drone (x5)."
         },
         {
           "type": "collect",
@@ -168,7 +168,7 @@
       "rank": "D",
       "faction": "OMNICORP",
       "region": "HIGHLAND_PLATEAU",
-      "description": "OmniCorp's resource optimization assessment of the Highland Plateau flagged Highland Goatlings as a drain on the plateau's nutrient substrate — a substrate OmniCorp intends to use for hydroponic mineral extraction. Director Vey's briefing contains a single metric: removal cost versus projected extraction gain over three fiscal years. The math is unambiguous. The Goatlings are not a problem with a solution; they are a resource allocation decision that has already been made. Execute it.",
+      "description": "OmniCorp's resource optimization assessment of the Highland Plateau flagged Highland Goatlings as a drain on the plateau's nutrient substrate \u2014 a substrate OmniCorp intends to use for hydroponic mineral extraction. Director Vey's briefing contains a single metric: removal cost versus projected extraction gain over three fiscal years. The math is unambiguous. The Goatlings are not a problem with a solution; they are a resource allocation decision that has already been made. Execute it.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Astra Vey",
@@ -187,7 +187,7 @@
           "target": "HIGHLAND_GOATLING",
           "count": 5,
           "desc": "Terminate Goatling resource drain.",
-          "description": "Defeat HIGHLAND_GOATLING (x5)."
+          "description": "Defeat Highland Goatling (x5)."
         },
         {
           "type": "collect",
@@ -221,7 +221,7 @@
       "rank": "D",
       "faction": "OMNICORP",
       "region": "THE_SPIRE",
-      "description": "Your performance metrics have exceeded OmniCorp's baseline projections. Director Astra Vey's note in your personnel file is brief and specific: 'Asset efficiency: 134%. Recommend module upgrade.' The Spire — OmniCorp's arcology headquarters, a needle of glass and processed aethel that dominates the Xylos skyline — houses the Class Module installation suite on its seventh floor. Your function is about to be optimized. What you become here will determine OmniCorp's investment in your continued operation.",
+      "description": "Your performance metrics have exceeded OmniCorp's baseline projections. Director Astra Vey's note in your personnel file is brief and specific: 'Asset efficiency: 134%. Recommend module upgrade.' The Spire \u2014 OmniCorp's arcology headquarters, a needle of glass and processed aethel that dominates the Xylos skyline \u2014 houses the Class Module installation suite on its seventh floor. Your function is about to be optimized. What you become here will determine OmniCorp's investment in your continued operation.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_class_trainer",
         "name": "Director Astra Vey",
@@ -254,7 +254,7 @@
           "target": "PLATEAU_DRONE",
           "count": 3,
           "desc": "Demonstrate module functionality on Stone Armadillos.",
-          "description": "Defeat PLATEAU_DRONE (x3)."
+          "description": "Defeat Plateau Drone (x3)."
         }
       ],
       "rewards": {
@@ -297,7 +297,7 @@
       "rank": "D",
       "faction": "OMNICORP",
       "region": "EXTRACTION_ZONE_DELTA",
-      "description": "Extraction Zone Delta is OmniCorp's primary resource harvesting site on Xylos — a zone of automated drilling platforms, mineral processors, and survey grids that represents the company's most significant capital investment on the planet. Chief Barrett runs it with the intensity of someone who understands that if Zone Delta underperforms, the Xylos investment mandate gets reviewed at OmniCorp's galactic board level. Director Vey is watching the extraction metrics. So is everyone above her. Conduct the assessment.",
+      "description": "Extraction Zone Delta is OmniCorp's primary resource harvesting site on Xylos \u2014 a zone of automated drilling platforms, mineral processors, and survey grids that represents the company's most significant capital investment on the planet. Chief Barrett runs it with the intensity of someone who understands that if Zone Delta underperforms, the Xylos investment mandate gets reviewed at OmniCorp's galactic board level. Director Vey is watching the extraction metrics. So is everyone above her. Conduct the assessment.",
       "quest_giver": {
         "npc_id": "npc_extraction_chief",
         "name": "Director Astra Vey",
@@ -350,7 +350,7 @@
       "rank": "D",
       "faction": "OMNICORP",
       "region": "EXTRACTION_ZONE_DELTA",
-      "description": "OmniCorp's Delta Mining Drones are the company's flagship extraction hardware — designed to operate in precise coordinated patterns for maximum resource yield. The aethel-charged mineral veins in Zone Delta have been disrupting their programming, causing erratic extraction behavior that is damaging the vein structures OmniCorp spent six months mapping. Director Vey's engineering note is characteristically cold: 'Hardware performing outside design parameters is hardware requiring replacement.' Terminate the deviant units.",
+      "description": "OmniCorp's Delta Mining Drones are the company's flagship extraction hardware \u2014 designed to operate in precise coordinated patterns for maximum resource yield. The aethel-charged mineral veins in Zone Delta have been disrupting their programming, causing erratic extraction behavior that is damaging the vein structures OmniCorp spent six months mapping. Director Vey's engineering note is characteristically cold: 'Hardware performing outside design parameters is hardware requiring replacement.' Terminate the deviant units.",
       "quest_giver": {
         "npc_id": "npc_extraction_chief",
         "name": "Director Astra Vey",
@@ -369,7 +369,7 @@
           "target": "DELTA_MINING_DRONE",
           "count": 5,
           "desc": "Reprogram Delta Mining Drones.",
-          "description": "Defeat DELTA_MINING_DRONE (x5)."
+          "description": "Defeat Delta Mining Drone (x5)."
         },
         {
           "type": "collect",
@@ -403,7 +403,7 @@
       "rank": "D",
       "faction": "OMNICORP",
       "region": "EXTRACTION_ZONE_DELTA",
-      "description": "OmniCorp's Delta Assault Drones were security hardware — deployed to protect the extraction infrastructure from rival faction intrusion. The aethel contamination in Zone Delta has corrupted their target identification systems and they are now attacking OmniCorp personnel. Director Astra Vey reviewed the incident report and flagged it with a single notation: 'Standard termination protocol. Hardware liability exceeds replacement cost. Asset destruction approved.' She is already ordering the next generation of Assault Drones from the galactic supply chain.",
+      "description": "OmniCorp's Delta Assault Drones were security hardware \u2014 deployed to protect the extraction infrastructure from rival faction intrusion. The aethel contamination in Zone Delta has corrupted their target identification systems and they are now attacking OmniCorp personnel. Director Astra Vey reviewed the incident report and flagged it with a single notation: 'Standard termination protocol. Hardware liability exceeds replacement cost. Asset destruction approved.' She is already ordering the next generation of Assault Drones from the galactic supply chain.",
       "quest_giver": {
         "npc_id": "npc_extraction_chief",
         "name": "Director Astra Vey",
@@ -422,7 +422,7 @@
           "target": "DELTA_ASSAULT_DRONE",
           "count": 2,
           "desc": "Execute termination protocol.",
-          "description": "Defeat DELTA_ASSAULT_DRONE (x2)."
+          "description": "Defeat Delta Assault Drone (x2)."
         },
         {
           "type": "collect",
@@ -456,7 +456,7 @@
       "rank": "D",
       "faction": "OMNICORP",
       "region": "EXTRACTION_ZONE_DELTA",
-      "description": "The rogue Delta Assault Drones have networked into a command cluster — a self-organizing behavior their original programming was not supposed to allow, which suggests the aethel contamination has done something to their hardware that OmniCorp's engineers find deeply uncomfortable to discuss. Director Vey's assessment skips the engineering concern entirely: the cluster represents a processing bottleneck in Zone Delta's operational throughput. Purge it completely. Redundancy is inefficiency. No defective unit leaves the zone operational.",
+      "description": "The rogue Delta Assault Drones have networked into a command cluster \u2014 a self-organizing behavior their original programming was not supposed to allow, which suggests the aethel contamination has done something to their hardware that OmniCorp's engineers find deeply uncomfortable to discuss. Director Vey's assessment skips the engineering concern entirely: the cluster represents a processing bottleneck in Zone Delta's operational throughput. Purge it completely. Redundancy is inefficiency. No defective unit leaves the zone operational.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Astra Vey",
@@ -475,7 +475,7 @@
           "target": "DELTA_ASSAULT_DRONE",
           "count": 3,
           "desc": "Purge Assault Drone cluster.",
-          "description": "Defeat DELTA_ASSAULT_DRONE (x3)."
+          "description": "Defeat Delta Assault Drone (x3)."
         },
         {
           "type": "collect",
@@ -509,7 +509,7 @@
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "The Secure Mining Grid predates OmniCorp's formal Xylos colonization — it was built by an earlier survey operation whose records OmniCorp's legal team absorbed through a corporate acquisition eighteen years ago. The hardware inside has been running continuously since before any of the current factions existed on Xylos. Director Vey's interest is strategic: what technology did the previous operators have that OmniCorp does not? The answer could be worth considerably more than the Grid's mineral output.",
+      "description": "The Secure Mining Grid predates OmniCorp's formal Xylos colonization \u2014 it was built by an earlier survey operation whose records OmniCorp's legal team absorbed through a corporate acquisition eighteen years ago. The hardware inside has been running continuously since before any of the current factions existed on Xylos. Director Vey's interest is strategic: what technology did the previous operators have that OmniCorp does not? The answer could be worth considerably more than the Grid's mineral output.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "Director Astra Vey",
@@ -562,7 +562,7 @@
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "The Grid Sentinel Drones are running on patrol protocols written for a different era — their zones of engagement were mapped before OmniCorp's survey teams arrived, which means they are treating OmniCorp personnel as hostiles in their own asset. The Warden AI — an automated management system that has been running the Grid since before OmniCorp took ownership — acknowledges the problem but cannot update the Sentinel firmware without physical access to the patrol units. Achieve physical access. Forcefully.",
+      "description": "The Grid Sentinel Drones are running on patrol protocols written for a different era \u2014 their zones of engagement were mapped before OmniCorp's survey teams arrived, which means they are treating OmniCorp personnel as hostiles in their own asset. The Warden AI \u2014 an automated management system that has been running the Grid since before OmniCorp took ownership \u2014 acknowledges the problem but cannot update the Sentinel firmware without physical access to the patrol units. Achieve physical access. Forcefully.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "Director Astra Vey",
@@ -581,7 +581,7 @@
           "target": "GRID_SENTINEL_DRONE",
           "count": 5,
           "desc": "Update Grid Sentinel Drone patrol patterns.",
-          "description": "Defeat GRID_SENTINEL_DRONE (x5)."
+          "description": "Defeat Grid Sentinel Drone (x5)."
         },
         {
           "type": "collect",
@@ -615,7 +615,7 @@
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "The Grid Defenders were the previous operators' frontline combat units — built to a standard that was impressive for its era and is now, by OmniCorp's metrics, 340% below current combat hardware benchmarks. Tech Officer 404 has completed the obsolescence analysis. Director Vey has reviewed it. The conclusion is standard OmniCorp doctrine: hardware that cannot be upgraded to current specifications is hardware that needs to be cleared from the asset inventory. Begin the replacement cycle.",
+      "description": "The Grid Defenders were the previous operators' frontline combat units \u2014 built to a standard that was impressive for its era and is now, by OmniCorp's metrics, 340% below current combat hardware benchmarks. Tech Officer 404 has completed the obsolescence analysis. Director Vey has reviewed it. The conclusion is standard OmniCorp doctrine: hardware that cannot be upgraded to current specifications is hardware that needs to be cleared from the asset inventory. Begin the replacement cycle.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_technician",
         "name": "Director Astra Vey",
@@ -634,7 +634,7 @@
           "target": "GRID_DEFENDER",
           "count": 5,
           "desc": "Replace Grid Defenders.",
-          "description": "Defeat GRID_DEFENDER (x5)."
+          "description": "Defeat Grid Defender (x5)."
         },
         {
           "type": "collect",
@@ -668,7 +668,7 @@
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "The Grid Assault Units are the previous operators' most sophisticated hardware — and they control the central processing node that manages the entire Secure Mining Grid's operation. OmniCorp cannot take full operational control of the Grid until the Assault Units are cleared and OmniCorp's own management protocols are installed. Director Vey frames this as a critical path item on the Xylos acquisition timeline. The Warden AI will handle the installation. You handle the override. Maximum force authorized.",
+      "description": "The Grid Assault Units are the previous operators' most sophisticated hardware \u2014 and they control the central processing node that manages the entire Secure Mining Grid's operation. OmniCorp cannot take full operational control of the Grid until the Assault Units are cleared and OmniCorp's own management protocols are installed. Director Vey frames this as a critical path item on the Xylos acquisition timeline. The Warden AI will handle the installation. You handle the override. Maximum force authorized.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "Director Astra Vey",
@@ -687,7 +687,7 @@
           "target": "GRID_ASSAULT_UNIT",
           "count": 3,
           "desc": "Override Grid Assault Unit protocols.",
-          "description": "Defeat GRID_ASSAULT_UNIT (x3)."
+          "description": "Defeat Grid Assault Unit (x3)."
         },
         {
           "type": "collect",
@@ -740,14 +740,14 @@
           "target": "GRID_SENTINEL_DRONE",
           "count": 4,
           "desc": "Remove Sentinel inefficiencies.",
-          "description": "Defeat GRID_SENTINEL_DRONE (x4)."
+          "description": "Defeat Grid Sentinel Drone (x4)."
         },
         {
           "type": "kill",
           "target": "GRID_DEFENDER",
           "count": 4,
           "desc": "Remove Defender inefficiencies.",
-          "description": "Defeat GRID_DEFENDER (x4)."
+          "description": "Defeat Grid Defender (x4)."
         }
       ],
       "rewards": {
@@ -774,7 +774,7 @@
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "The Grid Assault Units remaining in the Grid's deep sectors are not simply holdovers — the Warden AI has flagged an anomalous behavior pattern: they are actively routing around OmniCorp's new management protocols, creating processing dead zones that are costing the Grid 12% of its theoretical throughput. Director Vey finds this more interesting than concerning. Something in the previous operators' programming is resisting OmniCorp's override. She wants it studied — after it is eliminated.",
+      "description": "The Grid Assault Units remaining in the Grid's deep sectors are not simply holdovers \u2014 the Warden AI has flagged an anomalous behavior pattern: they are actively routing around OmniCorp's new management protocols, creating processing dead zones that are costing the Grid 12% of its theoretical throughput. Director Vey finds this more interesting than concerning. Something in the previous operators' programming is resisting OmniCorp's override. She wants it studied \u2014 after it is eliminated.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "Director Astra Vey",
@@ -793,7 +793,7 @@
           "target": "GRID_ASSAULT_UNIT",
           "count": 4,
           "desc": "Eliminate processing bottleneck.",
-          "description": "Defeat GRID_ASSAULT_UNIT (x4)."
+          "description": "Defeat Grid Assault Unit (x4)."
         },
         {
           "type": "collect",
@@ -827,7 +827,7 @@
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "The Warden AI has located four legacy data nodes in the Grid's restricted sectors — nodes that contain pre-Xylos colonization schematics for technology that OmniCorp's R&D division has flagged as potentially revolutionary. Tech Officer 404 believes the schematics predate the Great Severance, which would make them the oldest technological records on the planet. Director Vey's assessment: 'Competitive intelligence asset. Priority retrieval before rival faction access. Sentinel escorts are a secondary concern.' They are not a secondary concern.",
+      "description": "The Warden AI has located four legacy data nodes in the Grid's restricted sectors \u2014 nodes that contain pre-Xylos colonization schematics for technology that OmniCorp's R&D division has flagged as potentially revolutionary. Tech Officer 404 believes the schematics predate the Great Severance, which would make them the oldest technological records on the planet. Director Vey's assessment: 'Competitive intelligence asset. Priority retrieval before rival faction access. Sentinel escorts are a secondary concern.' They are not a secondary concern.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_technician",
         "name": "Director Astra Vey",
@@ -853,7 +853,7 @@
           "target": "GRID_SENTINEL_DRONE",
           "count": 3,
           "desc": "Clear data node perimeters.",
-          "description": "Defeat GRID_SENTINEL_DRONE (x3)."
+          "description": "Defeat Grid Sentinel Drone (x3)."
         }
       ],
       "rewards": {
@@ -899,7 +899,7 @@
           "target": "GRID_ASSAULT_UNIT",
           "count": 5,
           "desc": "Terminate unauthorized processes.",
-          "description": "Defeat GRID_ASSAULT_UNIT (x5)."
+          "description": "Defeat Grid Assault Unit (x5)."
         },
         {
           "type": "collect",
@@ -933,7 +933,7 @@
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "The Resonance Echo that formed in Grid Sector 7 during the cluster's autonomous operations has created a signal interference pattern across all grid frequencies — which is why the Warden AI's communications have been degraded and why OmniCorp's management protocols have been running at 40% bandwidth for the past six hours. Director Vey has reviewed the interference signature against OmniCorp's signal library. She finds it 'consistent with known Aethelgardian communication formats.' This information goes nowhere outside OmniCorp. Eliminate the source.",
+      "description": "The Resonance Echo that formed in Grid Sector 7 during the cluster's autonomous operations has created a signal interference pattern across all grid frequencies \u2014 which is why the Warden AI's communications have been degraded and why OmniCorp's management protocols have been running at 40% bandwidth for the past six hours. Director Vey has reviewed the interference signature against OmniCorp's signal library. She finds it 'consistent with known Aethelgardian communication formats.' This information goes nowhere outside OmniCorp. Eliminate the source.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Astra Vey",
@@ -952,14 +952,14 @@
           "target": "RESONANCE_ECHO",
           "count": 1,
           "desc": "Eliminate Resonance Echo interference.",
-          "description": "Defeat RESONANCE_ECHO (x1)."
+          "description": "Defeat Resonance Echo (x1)."
         },
         {
           "type": "kill",
           "target": "GRID_ASSAULT_UNIT",
           "count": 2,
           "desc": "Clear Assault Unit escorts.",
-          "description": "Defeat GRID_ASSAULT_UNIT (x2)."
+          "description": "Defeat Grid Assault Unit (x2)."
         }
       ],
       "rewards": {
@@ -986,7 +986,7 @@
       "rank": "C",
       "faction": "OMNICORP",
       "region": "THE_SPIRE",
-      "description": "The Secure Mining Grid is at 94% operational efficiency — one point below OmniCorp standard, which Director Vey has flagged as 'within acceptable margin.' This represents an extraordinary improvement in a compressed timeline, and OmniCorp does not leave extraordinary performance unacknowledged when the performance metrics are this clean. Return to the Spire. The Advanced Unit certification comes with expanded access credentials and a briefing on the Skybridge Reactor project — the next phase of OmniCorp's Xylos acquisition plan.",
+      "description": "The Secure Mining Grid is at 94% operational efficiency \u2014 one point below OmniCorp standard, which Director Vey has flagged as 'within acceptable margin.' This represents an extraordinary improvement in a compressed timeline, and OmniCorp does not leave extraordinary performance unacknowledged when the performance metrics are this clean. Return to the Spire. The Advanced Unit certification comes with expanded access credentials and a briefing on the Skybridge Reactor project \u2014 the next phase of OmniCorp's Xylos acquisition plan.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Astra Vey",
@@ -1111,7 +1111,7 @@
           "target": "TITAN_ASSEMBLY_DRONE",
           "count": 5,
           "desc": "Acquire Assembly Drones for R&D.",
-          "description": "Defeat TITAN_ASSEMBLY_DRONE (x5)."
+          "description": "Defeat Titan Assembly Drone (x5)."
         },
         {
           "type": "collect",
@@ -1164,7 +1164,7 @@
           "target": "TITAN_ASSEMBLY_SENTINEL",
           "count": 3,
           "desc": "Override Sentinel security protocols.",
-          "description": "Defeat TITAN_ASSEMBLY_SENTINEL (x3)."
+          "description": "Defeat Titan Assembly Sentinel (x3)."
         },
         {
           "type": "collect",
@@ -1217,7 +1217,7 @@
           "target": "TITAN_PROTO_CORE",
           "count": 2,
           "desc": "Extract failure data from Proto Cores.",
-          "description": "Defeat TITAN_PROTO_CORE (x2)."
+          "description": "Defeat Titan Proto Core (x2)."
         },
         {
           "type": "collect",
@@ -1270,7 +1270,7 @@
           "target": "STORM_RIFT_SERPENT",
           "count": 2,
           "desc": "Recover stolen energy from Serpents.",
-          "description": "Defeat STORM_RIFT_SERPENT (x2)."
+          "description": "Defeat Storm Rift Serpent (x2)."
         },
         {
           "type": "collect",
@@ -1376,7 +1376,7 @@
           "target": "AETHEL_RIFT_STALKER",
           "count": 5,
           "desc": "Collect Rift Stalker specimens.",
-          "description": "Defeat AETHEL_RIFT_STALKER (x5)."
+          "description": "Defeat Aethel Rift Stalker (x5)."
         },
         {
           "type": "collect",
@@ -1429,7 +1429,7 @@
           "target": "AETHEL_BEHEMOTH",
           "count": 2,
           "desc": "Harvest Behemoth power cells.",
-          "description": "Defeat AETHEL_BEHEMOTH (x2)."
+          "description": "Defeat Aethel Behemoth (x2)."
         },
         {
           "type": "collect",
@@ -1482,7 +1482,7 @@
           "target": "TITAN_ASSEMBLY_SENTINEL",
           "count": 4,
           "desc": "Implement permanent shutdown.",
-          "description": "Defeat TITAN_ASSEMBLY_SENTINEL (x4)."
+          "description": "Defeat Titan Assembly Sentinel (x4)."
         },
         {
           "type": "collect",
@@ -1542,14 +1542,14 @@
           "target": "RESONANCE_ECHO",
           "count": 1,
           "desc": "Field-test Firmware on Resonance Echo.",
-          "description": "Defeat RESONANCE_ECHO (x1)."
+          "description": "Defeat Resonance Echo (x1)."
         },
         {
           "type": "kill",
           "target": "TITAN_PROTO_CORE",
           "count": 1,
           "desc": "Stress-test Firmware on Titan Proto Core.",
-          "description": "Defeat TITAN_PROTO_CORE (x1)."
+          "description": "Defeat Titan Proto Core (x1)."
         }
       ],
       "rewards": {
@@ -1656,7 +1656,7 @@
           "target": "ASHEN_DRAKE",
           "count": 1,
           "desc": "Neutralize Drake signal interference.",
-          "description": "Defeat ASHEN_DRAKE (x1)."
+          "description": "Defeat Ashen Drake (x1)."
         },
         {
           "type": "collect",
@@ -1709,7 +1709,7 @@
           "target": "AETHEL_IRON_CARAPACE",
           "count": 6,
           "desc": "Deconstruct Iron Carapaces for analysis.",
-          "description": "Defeat AETHEL_IRON_CARAPACE (x6)."
+          "description": "Defeat Aethel Iron Carapace (x6)."
         },
         {
           "type": "collect",
@@ -1762,7 +1762,7 @@
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 2,
           "desc": "Delete Corrupted Behemoths.",
-          "description": "Defeat AETHEL_CORRUPTED_BEHEMOTH (x2)."
+          "description": "Defeat Aethel Corrupted Behemoth (x2)."
         },
         {
           "type": "collect",
@@ -1815,7 +1815,7 @@
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 4,
           "desc": "Deploy counter-intrusion measures.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x4)."
+          "description": "Defeat Aethel Abyssal Reaver (x4)."
         },
         {
           "type": "collect",
@@ -1868,14 +1868,14 @@
           "target": "AETHEL_RIFT_STALKER",
           "count": 6,
           "desc": "Deploy automated defense protocols.",
-          "description": "Defeat AETHEL_RIFT_STALKER (x6)."
+          "description": "Defeat Aethel Rift Stalker (x6)."
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 3,
           "desc": "Neutralize network intrusion specialists.",
-          "description": "Defeat AETHEL_VOID_CHANNELER (x3)."
+          "description": "Defeat Aethel Void Channeler (x3)."
         }
       ],
       "rewards": {
@@ -1921,7 +1921,7 @@
           "target": "ASHEN_DRAKE",
           "count": 1,
           "desc": "Execute System Shutdown on Drake.",
-          "description": "Defeat ASHEN_DRAKE (x1)."
+          "description": "Defeat Ashen Drake (x1)."
         },
         {
           "type": "collect",
@@ -1974,7 +1974,7 @@
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
           "desc": "Override hostile resistance.",
-          "description": "Defeat AETHEL_IRON_CARAPACE (x8)."
+          "description": "Defeat Aethel Iron Carapace (x8)."
         },
         {
           "type": "collect",
@@ -2027,14 +2027,14 @@
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 6,
           "desc": "Isolate intrusion vectors.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x6)."
+          "description": "Defeat Aethel Abyssal Reaver (x6)."
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 3,
           "desc": "Terminate Channeler intrusion specialists.",
-          "description": "Defeat AETHEL_VOID_CHANNELER (x3)."
+          "description": "Defeat Aethel Void Channeler (x3)."
         }
       ],
       "rewards": {
@@ -2080,21 +2080,21 @@
           "target": "ASHEN_DRAKE",
           "count": 1,
           "desc": "Terminate Drake process.",
-          "description": "Defeat ASHEN_DRAKE (x1)."
+          "description": "Defeat Ashen Drake (x1)."
         },
         {
           "type": "kill",
           "target": "AETHEL_BEHEMOTH",
           "count": 1,
           "desc": "Terminate Behemoth process.",
-          "description": "Defeat AETHEL_BEHEMOTH (x1)."
+          "description": "Defeat Aethel Behemoth (x1)."
         },
         {
           "type": "kill",
           "target": "TITAN_PROTO_CORE",
           "count": 1,
           "desc": "Terminate Proto Core process.",
-          "description": "Defeat TITAN_PROTO_CORE (x1)."
+          "description": "Defeat Titan Proto Core (x1)."
         }
       ],
       "rewards": {
@@ -2201,7 +2201,7 @@
           "target": "VOID_REAVER",
           "count": 6,
           "desc": "Execute Debug Protocol on Reavers.",
-          "description": "Defeat VOID_REAVER (x6)."
+          "description": "Defeat Void Reaver (x6)."
         },
         {
           "type": "collect",
@@ -2254,7 +2254,7 @@
           "target": "AETHEL_VOID_CHANNELER",
           "count": 6,
           "desc": "Execute Anti-Malware Protocol.",
-          "description": "Defeat AETHEL_VOID_CHANNELER (x6)."
+          "description": "Defeat Aethel Void Channeler (x6)."
         },
         {
           "type": "collect",
@@ -2307,7 +2307,7 @@
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 6,
           "desc": "Deploy Kill Command on Abyssal processes.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x6)."
+          "description": "Defeat Aethel Abyssal Reaver (x6)."
         },
         {
           "type": "collect",
@@ -2360,7 +2360,7 @@
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
           "desc": "Execute Error Correction Protocol.",
-          "description": "Defeat AETHEL_CORRUPTED_BEHEMOTH (x3)."
+          "description": "Defeat Aethel Corrupted Behemoth (x3)."
         },
         {
           "type": "collect",
@@ -2413,7 +2413,7 @@
           "target": "SOUL_FRAGMENTER",
           "count": 2,
           "desc": "Patch Segmenter vulnerability.",
-          "description": "Defeat SOUL_FRAGMENTER (x2)."
+          "description": "Defeat Soul Fragmenter (x2)."
         },
         {
           "type": "collect",
@@ -2466,7 +2466,7 @@
           "target": "CHRONO_WRAITH",
           "count": 2,
           "desc": "Terminate Wraith runtime errors.",
-          "description": "Defeat CHRONO_WRAITH (x2)."
+          "description": "Defeat Chrono Wraith (x2)."
         },
         {
           "type": "collect",
@@ -2519,7 +2519,7 @@
           "target": "GIGANTIC_JOTUNN",
           "count": 1,
           "desc": "Terminate Jotunn process.",
-          "description": "Defeat GIGANTIC_JOTUNN (x1)."
+          "description": "Defeat Gigantic Jotunn (x1)."
         },
         {
           "type": "collect",
@@ -2625,14 +2625,14 @@
           "target": "ASHEN_DRAKE",
           "count": 1,
           "desc": "EXTRACT DRAKE ENERGY CORE.",
-          "description": "Defeat ASHEN_DRAKE (x1)."
+          "description": "Defeat Ashen Drake (x1)."
         },
         {
           "type": "kill",
           "target": "DRAKE_MINION",
           "count": 5,
           "desc": "Clear Drake Minion obstacles.",
-          "description": "Defeat DRAKE_MINION (x5)."
+          "description": "Defeat Drake Minion (x5)."
         },
         {
           "type": "collect",
@@ -2693,7 +2693,7 @@
           "target": "SOUL_FRAGMENTER",
           "count": 3,
           "desc": "Execute Anti-Virus sweep.",
-          "description": "Defeat SOUL_FRAGMENTER (x3)."
+          "description": "Defeat Soul Fragmenter (x3)."
         },
         {
           "type": "collect",
@@ -2746,14 +2746,14 @@
           "target": "VOID_REAVER",
           "count": 8,
           "desc": "Execute Disk Cleanup on Reavers.",
-          "description": "Defeat VOID_REAVER (x8)."
+          "description": "Defeat Void Reaver (x8)."
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 5,
           "desc": "Execute Disk Cleanup on Channelers.",
-          "description": "Defeat AETHEL_VOID_CHANNELER (x5)."
+          "description": "Defeat Aethel Void Channeler (x5)."
         }
       ],
       "rewards": {
@@ -2799,7 +2799,7 @@
           "target": "VOID_STALKER",
           "count": 1,
           "desc": "Remove Stalker rootkit.",
-          "description": "Defeat VOID_STALKER (x1)."
+          "description": "Defeat Void Stalker (x1)."
         },
         {
           "type": "collect",
@@ -2852,7 +2852,7 @@
           "target": "CHRONO_WRAITH",
           "count": 3,
           "desc": "Deploy Temporal Stability Patch.",
-          "description": "Defeat CHRONO_WRAITH (x3)."
+          "description": "Defeat Chrono Wraith (x3)."
         },
         {
           "type": "collect",
@@ -2905,14 +2905,14 @@
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 10,
           "desc": "Execute Sector Purge on Reavers.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x10)."
+          "description": "Defeat Aethel Abyssal Reaver (x10)."
         },
         {
           "type": "kill",
           "target": "VOID_REAVER",
           "count": 6,
           "desc": "Execute Sector Purge on Void Reavers.",
-          "description": "Defeat VOID_REAVER (x6)."
+          "description": "Defeat Void Reaver (x6)."
         }
       ],
       "rewards": {
@@ -2958,7 +2958,7 @@
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
           "desc": "Shut down Jotunn servers.",
-          "description": "Defeat GIGANTIC_JOTUNN (x3)."
+          "description": "Defeat Gigantic Jotunn (x3)."
         },
         {
           "type": "collect",
@@ -3011,7 +3011,7 @@
           "target": "CRYSTAL_TYRANT",
           "count": 2,
           "desc": "Remove Tyrant hardware.",
-          "description": "Defeat CRYSTAL_TYRANT (x2)."
+          "description": "Defeat Crystal Tyrant (x2)."
         },
         {
           "type": "collect",
@@ -3064,14 +3064,14 @@
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 6,
           "desc": "Clear system access paths.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x6)."
+          "description": "Defeat Aethel Abyssal Reaver (x6)."
         },
         {
           "type": "kill",
           "target": "CHRONO_WRAITH",
           "count": 1,
           "desc": "Remove temporal lock.",
-          "description": "Defeat CHRONO_WRAITH (x1)."
+          "description": "Defeat Chrono Wraith (x1)."
         },
         {
           "type": "collect",
@@ -3124,14 +3124,14 @@
           "target": "SOUL_FRAGMENTER",
           "count": 3,
           "desc": "Execute Process Kill on Fragmenters.",
-          "description": "Defeat SOUL_FRAGMENTER (x3)."
+          "description": "Defeat Soul Fragmenter (x3)."
         },
         {
           "type": "kill",
           "target": "VOID_STALKER",
           "count": 1,
           "desc": "Kill parent Stalker process.",
-          "description": "Defeat VOID_STALKER (x1)."
+          "description": "Defeat Void Stalker (x1)."
         }
       ],
       "rewards": {
@@ -3177,7 +3177,7 @@
           "target": "ABYSS_HARBINGER",
           "count": 1,
           "desc": "EXECUTE SHUTDOWN ON ABYSS HARBINGER.",
-          "description": "Defeat ABYSS_HARBINGER (x1)."
+          "description": "Defeat Abyss Harbinger (x1)."
         },
         {
           "type": "collect",
@@ -3291,7 +3291,7 @@
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
           "desc": "Deconstruct Iron Carapaces.",
-          "description": "Defeat AETHEL_IRON_CARAPACE (x8)."
+          "description": "Defeat Aethel Iron Carapace (x8)."
         },
         {
           "type": "collect",
@@ -3344,7 +3344,7 @@
           "target": "CRYSTAL_TYRANT",
           "count": 2,
           "desc": "Eliminate Tyrant interference.",
-          "description": "Defeat CRYSTAL_TYRANT (x2)."
+          "description": "Defeat Crystal Tyrant (x2)."
         },
         {
           "type": "collect",
@@ -3397,7 +3397,7 @@
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
           "desc": "Deploy anchors at Jotunn sites.",
-          "description": "Defeat GIGANTIC_JOTUNN (x3)."
+          "description": "Defeat Gigantic Jotunn (x3)."
         },
         {
           "type": "collect",
@@ -3503,14 +3503,14 @@
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 8,
           "desc": "Execute security sweep.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x8)."
+          "description": "Defeat Aethel Abyssal Reaver (x8)."
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 5,
           "desc": "Purge Channeler processes.",
-          "description": "Defeat AETHEL_VOID_CHANNELER (x5)."
+          "description": "Defeat Aethel Void Channeler (x5)."
         }
       ],
       "rewards": {
@@ -3556,7 +3556,7 @@
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
           "desc": "Prevent crash cascade.",
-          "description": "Defeat AETHEL_CORRUPTED_BEHEMOTH (x3)."
+          "description": "Defeat Aethel Corrupted Behemoth (x3)."
         },
         {
           "type": "collect",
@@ -3609,7 +3609,7 @@
           "target": "AETHEL_RIFT_STALKER",
           "count": 6,
           "desc": "Disconnect Stalker network nodes.",
-          "description": "Defeat AETHEL_RIFT_STALKER (x6)."
+          "description": "Defeat Aethel Rift Stalker (x6)."
         },
         {
           "type": "collect",
@@ -3669,7 +3669,7 @@
           "target": "GIGANTIC_JOTUNN",
           "count": 1,
           "desc": "Eliminate Jotunn data corruption.",
-          "description": "Defeat GIGANTIC_JOTUNN (x1)."
+          "description": "Defeat Gigantic Jotunn (x1)."
         }
       ],
       "rewards": {
@@ -3715,14 +3715,14 @@
           "target": "GRAVITY_TITAN",
           "count": 1,
           "desc": "DOWNLOAD THE GRAVITY ALGORITHM.",
-          "description": "Defeat GRAVITY_TITAN (x1)."
+          "description": "Defeat Gravity Titan (x1)."
         },
         {
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
           "desc": "Clear download path obstacles.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x5)."
+          "description": "Defeat Aethel Abyssal Reaver (x5)."
         },
         {
           "type": "collect",
@@ -3836,7 +3836,7 @@
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
           "desc": "Override Forge defense systems.",
-          "description": "Defeat AETHEL_IRON_CARAPACE (x8)."
+          "description": "Defeat Aethel Iron Carapace (x8)."
         },
         {
           "type": "collect",
@@ -3889,7 +3889,7 @@
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
           "desc": "Execute Product Recall and Disposal.",
-          "description": "Defeat AETHEL_CORRUPTED_BEHEMOTH (x3)."
+          "description": "Defeat Aethel Corrupted Behemoth (x3)."
         },
         {
           "type": "collect",
@@ -3942,14 +3942,14 @@
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 8,
           "desc": "Remove unauthorized Abyssal users.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x8)."
+          "description": "Defeat Aethel Abyssal Reaver (x8)."
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 5,
           "desc": "Remove unauthorized Channeler users.",
-          "description": "Defeat AETHEL_VOID_CHANNELER (x5)."
+          "description": "Defeat Aethel Void Channeler (x5)."
         }
       ],
       "rewards": {
@@ -3995,7 +3995,7 @@
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
           "desc": "Terminate Jotunn workflow interference.",
-          "description": "Defeat GIGANTIC_JOTUNN (x3)."
+          "description": "Defeat Gigantic Jotunn (x3)."
         },
         {
           "type": "collect",
@@ -4048,7 +4048,7 @@
           "target": "AETHEL_VOID_CHANNELER",
           "count": 6,
           "desc": "Clear production floor.",
-          "description": "Defeat AETHEL_VOID_CHANNELER (x6)."
+          "description": "Defeat Aethel Void Channeler (x6)."
         },
         {
           "type": "collect",
@@ -4101,7 +4101,7 @@
           "target": "TITAN_FORGE_AUTOMATON",
           "count": 3,
           "desc": "Reprogram Automatons.",
-          "description": "Defeat TITAN_FORGE_AUTOMATON (x3)."
+          "description": "Defeat Titan Forge Automaton (x3)."
         },
         {
           "type": "collect",
@@ -4154,7 +4154,7 @@
           "target": "TITAN_PROTO_CORE",
           "count": 2,
           "desc": "Recycle Proto Cores.",
-          "description": "Defeat TITAN_PROTO_CORE (x2)."
+          "description": "Defeat Titan Proto Core (x2)."
         },
         {
           "type": "collect",
@@ -4207,14 +4207,14 @@
           "target": "GRAVITY_TITAN",
           "count": 1,
           "desc": "Eliminate Titan \u2014 target acquired.",
-          "description": "Defeat GRAVITY_TITAN (x1)."
+          "description": "Defeat Gravity Titan (x1)."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
           "desc": "Eliminate Harbinger \u2014 target acquired.",
-          "description": "Defeat ABYSS_HARBINGER (x1)."
+          "description": "Defeat Abyss Harbinger (x1)."
         }
       ],
       "rewards": {
@@ -4378,7 +4378,7 @@
           "target": "AETHEL_RIFT_STALKER",
           "count": 8,
           "desc": "Remove legacy defense systems.",
-          "description": "Defeat AETHEL_RIFT_STALKER (x8)."
+          "description": "Defeat Aethel Rift Stalker (x8)."
         },
         {
           "type": "collect",
@@ -4438,7 +4438,7 @@
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 4,
           "desc": "Defend download from data thieves.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x4)."
+          "description": "Defeat Aethel Abyssal Reaver (x4)."
         }
       ],
       "rewards": {
@@ -4484,7 +4484,7 @@
           "target": "ASHEN_DRAKE",
           "count": 1,
           "desc": "Execute permanent Drake deletion.",
-          "description": "Defeat ASHEN_DRAKE (x1)."
+          "description": "Defeat Ashen Drake (x1)."
         },
         {
           "type": "collect",
@@ -4541,7 +4541,7 @@
           "target": "ABYSS_HARBINGER",
           "count": 1,
           "desc": "Execute permanent uninstall.",
-          "description": "Defeat ABYSS_HARBINGER (x1)."
+          "description": "Defeat Abyss Harbinger (x1)."
         },
         {
           "type": "collect",
@@ -4598,7 +4598,7 @@
           "target": "GRAVITY_TITAN",
           "count": 1,
           "desc": "Execute full disk format on Titan.",
-          "description": "Defeat GRAVITY_TITAN (x1)."
+          "description": "Defeat Gravity Titan (x1)."
         },
         {
           "type": "collect",
@@ -4655,21 +4655,21 @@
           "target": "ASHEN_DRAKE",
           "count": 1,
           "desc": "Terminate Drake process.",
-          "description": "Defeat ASHEN_DRAKE (x1)."
+          "description": "Defeat Ashen Drake (x1)."
         },
         {
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
           "desc": "Terminate Titan process.",
-          "description": "Defeat GRAVITY_TITAN (x1)."
+          "description": "Defeat Gravity Titan (x1)."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
           "desc": "Terminate Harbinger process.",
-          "description": "Defeat ABYSS_HARBINGER (x1)."
+          "description": "Defeat Abyss Harbinger (x1)."
         }
       ],
       "rewards": {
@@ -4783,7 +4783,7 @@
           "target": "GIGANTIC_JOTUNN",
           "count": 2,
           "desc": "Remove source code guards.",
-          "description": "Defeat GIGANTIC_JOTUNN (x2)."
+          "description": "Defeat Gigantic Jotunn (x2)."
         }
       ],
       "rewards": {
@@ -4829,14 +4829,14 @@
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 10,
           "desc": "Defend compile process.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x10)."
+          "description": "Defeat Aethel Abyssal Reaver (x10)."
         },
         {
           "type": "kill",
           "target": "CRYSTAL_TYRANT",
           "count": 2,
           "desc": "Remove compile errors.",
-          "description": "Defeat CRYSTAL_TYRANT (x2)."
+          "description": "Defeat Crystal Tyrant (x2)."
         },
         {
           "type": "collect",
@@ -4889,14 +4889,14 @@
           "target": "GIGANTIC_JOTUNN",
           "count": 5,
           "desc": "Execute Jotunn cleanup.",
-          "description": "Defeat GIGANTIC_JOTUNN (x5)."
+          "description": "Defeat Gigantic Jotunn (x5)."
         },
         {
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
           "desc": "Execute Carapace cleanup.",
-          "description": "Defeat AETHEL_IRON_CARAPACE (x8)."
+          "description": "Defeat Aethel Iron Carapace (x8)."
         }
       ],
       "rewards": {
@@ -4942,14 +4942,14 @@
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 10,
           "desc": "Purge Abyssal instances.",
-          "description": "Defeat AETHEL_ABYSSAL_REAVER (x10)."
+          "description": "Defeat Aethel Abyssal Reaver (x10)."
         },
         {
           "type": "kill",
           "target": "VOID_REAVER",
           "count": 10,
           "desc": "Purge Void instances.",
-          "description": "Defeat VOID_REAVER (x10)."
+          "description": "Defeat Void Reaver (x10)."
         }
       ],
       "rewards": {
@@ -4995,7 +4995,7 @@
           "target": "CRYSTAL_TYRANT",
           "count": 3,
           "desc": "Remove legacy Tyrant hardware.",
-          "description": "Defeat CRYSTAL_TYRANT (x3)."
+          "description": "Defeat Crystal Tyrant (x3)."
         },
         {
           "type": "collect",
@@ -5048,14 +5048,14 @@
           "target": "AETHEL_VOID_CHANNELER",
           "count": 8,
           "desc": "Eliminate production variables.",
-          "description": "Defeat AETHEL_VOID_CHANNELER (x8)."
+          "description": "Defeat Aethel Void Channeler (x8)."
         },
         {
           "type": "kill",
           "target": "TITAN_FORGE_AUTOMATON",
           "count": 3,
           "desc": "Replace legacy Automatons.",
-          "description": "Defeat TITAN_FORGE_AUTOMATON (x3)."
+          "description": "Defeat Titan Forge Automaton (x3)."
         }
       ],
       "rewards": {
@@ -5101,14 +5101,14 @@
           "target": "AETHEL_RIFT_STALKER",
           "count": 10,
           "desc": "Enforce network control.",
-          "description": "Defeat AETHEL_RIFT_STALKER (x10)."
+          "description": "Defeat Aethel Rift Stalker (x10)."
         },
         {
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
           "desc": "Remove remaining Titan instance.",
-          "description": "Defeat GRAVITY_TITAN (x1)."
+          "description": "Defeat Gravity Titan (x1)."
         }
       ],
       "rewards": {
@@ -5154,14 +5154,14 @@
           "target": "AETHEL_IRON_CARAPACE",
           "count": 10,
           "desc": "Execute orbital maintenance sweep.",
-          "description": "Defeat AETHEL_IRON_CARAPACE (x10)."
+          "description": "Defeat Aethel Iron Carapace (x10)."
         },
         {
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
           "desc": "Remove orbital system errors.",
-          "description": "Defeat AETHEL_CORRUPTED_BEHEMOTH (x3)."
+          "description": "Defeat Aethel Corrupted Behemoth (x3)."
         }
       ],
       "rewards": {
@@ -5207,14 +5207,14 @@
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
           "desc": "Eliminate backup threats.",
-          "description": "Defeat GIGANTIC_JOTUNN (x3)."
+          "description": "Defeat Gigantic Jotunn (x3)."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
           "desc": "Eliminate Harbinger backup corruption.",
-          "description": "Defeat ABYSS_HARBINGER (x1)."
+          "description": "Defeat Abyss Harbinger (x1)."
         },
         {
           "type": "collect",
@@ -5267,21 +5267,21 @@
           "target": "GIGANTIC_JOTUNN",
           "count": 1,
           "desc": "Override Jotunn authority.",
-          "description": "Defeat GIGANTIC_JOTUNN (x1)."
+          "description": "Defeat Gigantic Jotunn (x1)."
         },
         {
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
           "desc": "Override Drake authority.",
-          "description": "Defeat ASHEN_DRAKE (x1)."
+          "description": "Defeat Ashen Drake (x1)."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
           "desc": "Override Harbinger authority.",
-          "description": "Defeat ABYSS_HARBINGER (x1)."
+          "description": "Defeat Abyss Harbinger (x1)."
         },
         {
           "type": "collect",
@@ -5349,14 +5349,14 @@
           "target": "GRAVITY_TITAN",
           "count": 1,
           "desc": "Terminate Eternal Gravity Titan.",
-          "description": "Defeat GRAVITY_TITAN (x1)."
+          "description": "Defeat Gravity Titan (x1)."
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
           "desc": "Terminate Eternal Abyss Harbinger.",
-          "description": "Defeat ABYSS_HARBINGER (x1)."
+          "description": "Defeat Abyss Harbinger (x1)."
         },
         {
           "type": "collect",
