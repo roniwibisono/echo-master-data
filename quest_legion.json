@@ -2,15 +2,15 @@
   "quests": [
     {
       "id": "fq_star_001",
-      "title": "The Purification",
-      "type": "hunt",
+      "title": "The Purification Begins",
+      "type": "story",
       "rank": "D",
       "faction": "STARFORGED_LEGION",
       "region": "DUNE_OUTSKIRTS",
-      "description": "Grand Justiciar Aurelius speaks: the Dune Outskirts must be purified. Dune Scavengers defile the sacred sands.",
+      "description": "Grand Justiciar Aurelius speaks with the gravity of a man who has watched his people lose everything and chosen to build something harder in place of what was taken. The Starforged Legion arrived on Xylos as exiles — their home system shattered, their fleet battle-scarred, their code of honor the only thing that survived the journey intact. The Dune Outskirts are the first ground the Legion has claimed, and the Dune Scavengers defiling the sacred sands are the first test of whether Xylos will accept the Legion's authority. Purify it. The Legion claims ground by right of strength.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "General Kaelen",
+        "name": "Grand Justiciar Aurelius",
         "location": "DUNE_OUTSKIRTS"
       },
       "requirements": {
@@ -51,15 +51,15 @@
     },
     {
       "id": "fq_star_002",
-      "title": "Dune Stalkers",
-      "type": "hunt",
+      "title": "We Hunt the Hunters",
+      "type": "story",
       "rank": "D",
       "faction": "STARFORGED_LEGION",
       "region": "DUNE_OUTSKIRTS",
-      "description": "Dune Stalkers hunt Legion supply caravans. A Legionnaire does not flee \u2014 we hunt the hunters.",
+      "description": "Sergeant Korg's briefing is blunt in the way that experienced soldiers are blunt when they respect the troops they are briefing: the Dune Stalkers hunt Legion caravans because no one has made hunting Legion caravans painful enough to stop. The Legion's code of honor has a specific clause for this: when an enemy hunts you, you hunt them in return, with greater force and complete commitment. A Legionnaire does not become prey. The Dune Stalkers learn this today.",
       "quest_giver": {
         "npc_id": "npc_drill_sergeant_korg",
-        "name": "Sergeant Korg",
+        "name": "Grand Justiciar Aurelius",
         "location": "DUNE_OUTSKIRTS"
       },
       "requirements": {
@@ -102,15 +102,15 @@
     },
     {
       "id": "fq_star_003",
-      "title": "Scorched Scarab Purge",
-      "type": "hunt",
+      "title": "Fight on Any Terrain",
+      "type": "story",
       "rank": "D",
       "faction": "STARFORGED_LEGION",
       "region": "DUNE_OUTSKIRTS",
-      "description": "Scorched Scarabs burrow beneath Legion outposts. Dig them out. A Legionnaire fights on any terrain.",
+      "description": "Centurion Valka's first lesson to every new Legion recruit, delivered with the flat certainty of someone who has never been comfortable anywhere and has made that into a weapon: 'A Legionnaire fights on any terrain, against any enemy, in any condition.' The Scorched Scarabs burrowing beneath Legion outposts represent terrain that fights back. Good. That is the kind of terrain the Legion makes into an advantage. Dig them out. Fight them in their own element. The lesson is not about Scarabs.",
       "quest_giver": {
         "npc_id": "npc_drill_sergeant_korg",
-        "name": "Sergeant Korg",
+        "name": "Centurion Valka",
         "location": "DUNE_OUTSKIRTS"
       },
       "requirements": {
@@ -153,15 +153,15 @@
     },
     {
       "id": "fq_star_004",
-      "title": "Sand Runner Trial",
-      "type": "hunt",
+      "title": "Relentless Is the Legionnaire's Nature",
+      "type": "story",
       "rank": "D",
       "faction": "STARFORGED_LEGION",
       "region": "DUNE_OUTSKIRTS",
-      "description": "Sand Runners are swift, but a Legionnaire is relentless. Run them down.",
+      "description": "Sand Runners are fast creatures of the desert — built by evolution to be faster than anything that chases them. Grand Justiciar Aurelius chose this quarry deliberately for the fourth trial: the Legion is not trained to be the fastest thing in any environment. The Legion is trained to be the most relentless. Swift prey outlasts the burst-speed predator. It does not outlast the predator that never stops. Run them down. This is not speed training. This is will training.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "General Kaelen",
+        "name": "Grand Justiciar Aurelius",
         "location": "DUNE_OUTSKIRTS"
       },
       "requirements": {
@@ -204,12 +204,12 @@
     },
     {
       "id": "fq_star_005",
-      "title": "The Choosing",
-      "type": "tutorial",
+      "title": "The Forge That Shapes a Weapon",
+      "type": "story",
       "rank": "D",
       "faction": "STARFORGED_LEGION",
       "region": "FORTRESS_KAELEN",
-      "description": "Centurion Valka summons you to Fortress Kaelen. Your soul must be forged into a weapon through class specialization.",
+      "description": "Centurion Valka summons you to Fortress Kaelen for the specialization rite with the tone of someone delivering a verdict rather than an offer: 'Fortress Kaelen has evaluated your performance. You are material worth forging.' In the Starforged Legion, a class specialization is not a choice about what you want to be — it is the Legion's determination of what you are already becoming, given form and sharpened. The forge shapes the weapon. The weapon does not shape the forge. Choose within what the Legion has seen in you.",
       "quest_giver": {
         "npc_id": "npc_legion_class_trainer",
         "name": "Centurion Valka",
@@ -277,15 +277,15 @@
     },
     {
       "id": "fq_star_006",
-      "title": "Justice in the Badlands",
-      "type": "exploration",
+      "title": "The Badlands Are Lawless Until We Arrive",
+      "type": "story",
       "rank": "D",
       "faction": "STARFORGED_LEGION",
       "region": "SCORCHED_BADLANDS",
-      "description": "The Scorched Badlands are lawless. Legion brings order. Establish a forward command post.",
+      "description": "The Scorched Badlands are everything the Legion was warned about Xylos: harsh, contested, filled with creatures that have evolved aggression as a survival trait in a world saturated with corrupted aethel. Grand Justiciar Aurelius does not send the Legion into such terrain reluctantly. The badlands are exactly the environment Legion soldiers were hardened for. Establish the forward command post. The badlands are lawless until the Legion arrives. After the Legion arrives, they are not.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "General Kaelen",
+        "name": "Grand Justiciar Aurelius",
         "location": "SCORCHED_BADLANDS"
       },
       "requirements": {
@@ -328,15 +328,15 @@
     },
     {
       "id": "fq_star_007",
-      "title": "Ash Hound Hunt",
-      "type": "hunt",
+      "title": "Fire Against Fire",
+      "type": "story",
       "rank": "D",
       "faction": "STARFORGED_LEGION",
       "region": "SCORCHED_BADLANDS",
-      "description": "Ash Hounds are fire made flesh. A Legionnaire faces fire without fear. Hunt them.",
+      "description": "Ash Hounds are fire given form and instinct — creatures that emerged from the Scorched Badlands' aethel-charged volcanic substrate, running on combustion and predatory rage. Sergeant Korg — whose burn scars on his left arm are a record of his first Ash Hound encounter — explains the Legion's approach to fire-creatures: 'You do not fear fire. You use fire. Your weapons are fire. Your will is fire. The Hound does not get to be the only thing burning.' Hunt them.",
       "quest_giver": {
         "npc_id": "npc_drill_sergeant_korg",
-        "name": "Sergeant Korg",
+        "name": "Centurion Valka",
         "location": "SCORCHED_BADLANDS"
       },
       "requirements": {
@@ -379,15 +379,15 @@
     },
     {
       "id": "fq_star_008",
-      "title": "Scorpion Extermination",
-      "type": "hunt",
+      "title": "Poison the Poisoners",
+      "type": "story",
       "rank": "D",
       "faction": "STARFORGED_LEGION",
       "region": "SCORCHED_BADLANDS",
-      "description": "Dune Scorpions poison Legion water supplies. Exterminate them.",
+      "description": "Dune Scorpions have poisoned three Legion water reservoirs, killing a supply crew and triggering an emergency ration restriction across the Scorched Badlands forward camp. Scout Jace's assessment is terse and accurate: these are not random attacks. The Scorpions are territorial and the Legion has established its camp in the center of their territorial zone. The Legion's response to territorial disputes is historically simple. Exterminate the competition. Recover the stingers for antivenom production. Waste nothing.",
       "quest_giver": {
         "npc_id": "npc_dune_scout",
-        "name": "Scout Jace",
+        "name": "Centurion Valka",
         "location": "SCORCHED_BADLANDS"
       },
       "requirements": {
@@ -430,15 +430,15 @@
     },
     {
       "id": "fq_star_009",
-      "title": "Dune Stinger",
-      "type": "boss",
+      "title": "The Alpha Predator Meets the Apex Legion",
+      "type": "story",
       "rank": "D",
       "faction": "STARFORGED_LEGION",
       "region": "SCORCHED_BADLANDS",
-      "description": "The Dune Stinger \u2014 alpha predator of the sands \u2014 terrorizes Legion patrols. A Legionnaire does not know terror. Bring it down.",
+      "description": "The Dune Stinger is the apex predator of the Scorched Badlands — the creature that everything else in this harsh landscape fears. Grand Justiciar Aurelius says the Legion's arrival has changed the ecosystem's top position. A Legionnaire does not exist at the bottom of any food chain. Bring the Dune Stinger down. The Ash Hounds that escort it will learn what apex means in the Legion's presence. Leave the Stinger's venom sac intact — it has battlefield applications.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "General Kaelen",
+        "name": "Grand Justiciar Aurelius",
         "location": "SCORCHED_BADLANDS"
       },
       "requirements": {
@@ -481,15 +481,15 @@
     },
     {
       "id": "fq_star_010",
-      "title": "Enforcer's Fall",
-      "type": "boss",
+      "title": "There Is No Territory We Cannot Take",
+      "type": "story",
       "rank": "D",
       "faction": "STARFORGED_LEGION",
       "region": "SCORCHED_BADLANDS",
-      "description": "A Scrapfield Enforcer has claimed the Badlands as its territory. Challenge its authority. Legion bows to no one.",
+      "description": "A Scrapfield Enforcer has occupied the Badlands' central canyon, disrupting Legion patrol routes and attacking any soldier who enters its claimed zone. Grand Justiciar Aurelius reviews the reconnaissance report and issues a single order: 'Challenge it.' The Legion does not route around territorial claims. The Legion does not negotiate access to ground it has decided belongs to the Legion. Challenge the Enforcer's authority with the Brute escorts cleared first. Claim the canyon. There is no territory the Legion cannot take.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "General Kaelen",
+        "name": "Grand Justiciar Aurelius",
         "location": "SCORCHED_BADLANDS"
       },
       "requirements": {
@@ -532,15 +532,15 @@
     },
     {
       "id": "fq_star_011",
-      "title": "Sentinels of Light",
-      "type": "exploration",
+      "title": "Walking Through History",
+      "type": "story",
       "rank": "C",
       "faction": "STARFORGED_LEGION",
       "region": "MESA_WARPATH",
-      "description": "The Mesa Warpath is the proving ground of Legion warriors. March forward and claim your territory.",
+      "description": "The Mesa Warpath is where the Legion earns its next advancement — a canyon battlefield that has hosted wars since before Xylos had factions, where the walls still bear impact scars from weapons the Legion's own historians cannot identify. Veteran Gorok, who has walked this path three times in the course of his Legion service, offers the same briefing each time: 'Walk it slowly. Look at everything. War leaves lessons in the walls.' The Legion learns from every battlefield it encounters. The Warpath is its next classroom.",
       "quest_giver": {
         "npc_id": "npc_warpath_veteran",
-        "name": "Veteran Gorok",
+        "name": "Grand Justiciar Aurelius",
         "location": "MESA_WARPATH"
       },
       "requirements": {
@@ -583,15 +583,15 @@
     },
     {
       "id": "fq_star_012",
-      "title": "Warpath Scout",
-      "type": "hunt",
+      "title": "Strike the Forward Elements First",
+      "type": "story",
       "rank": "C",
       "faction": "STARFORGED_LEGION",
       "region": "MESA_WARPATH",
-      "description": "Warpath Scouts are enemy forward elements. A Legionnaire strikes first.",
+      "description": "Warpath Scouts are the enemy's eyes — forward elements whose function is to find, identify, and report on Legion positions before heavier forces engage. Veteran Gorok's tactical briefing is concise: 'Blind the enemy before it can see you.' The Warpath Scouts in the Mesa Warpath's eastern corridor have been monitoring Legion supply movements for three days. Their intelligence has already reached their commanders. Remove the intelligence-gathering capability before it causes more damage than it already has.",
       "quest_giver": {
         "npc_id": "npc_warpath_veteran",
-        "name": "Veteran Gorok",
+        "name": "Grand Justiciar Aurelius",
         "location": "MESA_WARPATH"
       },
       "requirements": {
@@ -634,15 +634,15 @@
     },
     {
       "id": "fq_star_013",
-      "title": "Warpath Veteran",
-      "type": "hunt",
+      "title": "Veterans Die the Same as Recruits",
+      "type": "story",
       "rank": "C",
       "faction": "STARFORGED_LEGION",
       "region": "MESA_WARPATH",
-      "description": "Warpath Veterans are seasoned enemy warriors. Prove that Legion training is superior.",
+      "description": "Warpath Veterans are experienced enemy combatants — soldiers who have survived enough battles to develop the adaptive tactical thinking that makes them genuinely dangerous. Veteran Gorok says this without disrespect for the dead: 'Veterans die the same as recruits when the tactics are right.' The Legion's training is superior. The Legion's weapons are superior. The Legion's commitment is absolute. Prove all three against the Veterans in the Warpath's central approach zone. Collect their insignia as documentation of the engagement.",
       "quest_giver": {
         "npc_id": "npc_warpath_veteran",
-        "name": "Veteran Gorok",
+        "name": "Centurion Valka",
         "location": "MESA_WARPATH"
       },
       "requirements": {
@@ -685,15 +685,15 @@
     },
     {
       "id": "fq_star_014",
-      "title": "Champion's Duel",
-      "type": "boss",
+      "title": "A Champion's Challenge Is a Legion Invitation",
+      "type": "story",
       "rank": "C",
       "faction": "STARFORGED_LEGION",
       "region": "MESA_WARPATH",
-      "description": "A Warpath Champion issues a direct challenge. Legion answers all challenges. Face them in single combat.",
+      "description": "A Warpath Champion — an enemy warrior who has distinguished themselves enough to earn a direct challenge from other worthy combatants — has issued a formal engagement notice to the Legion's forward units. In Starforged Legion doctrine, a challenge from a worthy opponent is not just accepted; it is honored. Veteran Gorok will observe the engagement from the ridge. Grand Justiciar Aurelius says: 'Show the Warpath what a Legionnaire looks like in direct combat. Make the Champion's fall worthy of both of you.'",
       "quest_giver": {
         "npc_id": "npc_warpath_veteran",
-        "name": "Veteran Gorok",
+        "name": "Grand Justiciar Aurelius",
         "location": "MESA_WARPATH"
       },
       "requirements": {
@@ -736,15 +736,15 @@
     },
     {
       "id": "fq_star_015",
-      "title": "War Path Sweep",
-      "type": "hunt",
+      "title": "The Warpath Is Cleared; The Legion Advances",
+      "type": "story",
       "rank": "C",
       "faction": "STARFORGED_LEGION",
       "region": "MESA_WARPATH",
-      "description": "Sweep the Warpath clean of all hostile forces. Leave nothing standing that is not Legion.",
+      "description": "General Kaelen's sweep order for the Mesa Warpath is absolute: every hostile force in the Warpath's full operational zone must be neutralized before the Legion establishes its permanent forward position. A partial sweep is a strategic liability — any remaining Scouts or Veterans represent a future threat that compounds when you least need complications. Centurion Valka supervises the final clearance personally, which means the standard for completeness is higher than it normally is. Four Scouts, four Veterans, zero exceptions.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "General Kaelen",
+        "name": "Centurion Valka",
         "location": "MESA_WARPATH"
       },
       "requirements": {
@@ -787,15 +787,15 @@
     },
     {
       "id": "fq_star_016",
-      "title": "Champion's Cohort",
-      "type": "hunt",
+      "title": "Superior Tactics Against Superior Numbers",
+      "type": "story",
       "rank": "C",
       "faction": "STARFORGED_LEGION",
       "region": "MESA_WARPATH",
-      "description": "Multiple Warpath Champions coordinate against Legion. Break their coordination with superior tactics.",
+      "description": "Multiple Warpath Champions are coordinating in the Mesa Warpath's command canyon — sharing tactical information, covering each other's flanks, and neutralizing the individual advantage that Legion soldiers normally hold over single opponents. Veteran Gorok says this is the most tactically interesting problem the Warpath has presented: 'They are trying to be a Legion.' The answer to a coordinated enemy, Legion doctrine states, is never matching their coordination. It is disrupting it, surgically and completely, until coordination becomes liability.",
       "quest_giver": {
         "npc_id": "npc_warpath_veteran",
-        "name": "Veteran Gorok",
+        "name": "Centurion Valka",
         "location": "MESA_WARPATH"
       },
       "requirements": {
@@ -838,15 +838,15 @@
     },
     {
       "id": "fq_star_017",
-      "title": "Intel Recovery",
-      "type": "collect",
+      "title": "The Warpath's Payroll",
+      "type": "story",
       "rank": "C",
       "faction": "STARFORGED_LEGION",
       "region": "MESA_WARPATH",
-      "description": "Recover Legion intelligence from fallen scouts on the Warpath. Their sacrifice must be honored.",
+      "description": "General Kaelen's requisition from the Warpath's strategic materials cache requires specific components that the Legion's forward engineering team needs for fortification construction. The Warpath Wreckers that have been stripping the battlefield's decommissioned equipment are interfering with the recovery operation. The Legion's forward logistics are not a negotiable resource — every hour of construction delay is a fortification gap that a Champion or Scout will eventually find. Clear the Wreckers. Retrieve the components. Deliver them by nightfall.",
       "quest_giver": {
         "npc_id": "npc_dune_scout",
-        "name": "Scout Jace",
+        "name": "Grand Justiciar Aurelius",
         "location": "MESA_WARPATH"
       },
       "requirements": {
@@ -889,15 +889,15 @@
     },
     {
       "id": "fq_star_018",
-      "title": "The Echo's Challenge",
-      "type": "boss",
+      "title": "The Warpath's Commander Must Fall",
+      "type": "story",
       "rank": "C",
       "faction": "STARFORGED_LEGION",
       "region": "MESA_WARPATH",
-      "description": "A Resonance Echo manifests on the Warpath. This entity mocks Legion honor. Destroy it.",
+      "description": "A War Machine Sentinel Commander has activated deep in the Warpath's archaeological layer — a pre-Severance automated command unit that has been running battle protocols for centuries against enemies that no longer exist. It is now running those protocols against the Legion, and its targeting is advanced enough to make it a genuine threat rather than an obstacle. Grand Justiciar Aurelius studies the Sentinel's battle patterns with professional respect before issuing the order: 'Destroy it. Learn from its tactics first. Then destroy it.'",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "General Kaelen",
+        "name": "Grand Justiciar Aurelius",
         "location": "MESA_WARPATH"
       },
       "requirements": {
@@ -940,15 +940,15 @@
     },
     {
       "id": "fq_star_019",
-      "title": "Warpath Mastery",
+      "title": "The Resonance Does Not Belong Here",
       "type": "story",
       "rank": "C",
       "faction": "STARFORGED_LEGION",
       "region": "MESA_WARPATH",
-      "description": "Complete the Warpath mastery trial. Prove you are worthy of the Advanced rank.",
+      "description": "A Resonance Echo has formed in the Warpath's deep canyon, drawn by the electromagnetic activity from the Sentinel Commander's activation and now disrupting Legion communication systems. Grand Justiciar Aurelius is notably less interested in the theological implications than the Children of the Shard would be, or the scientific implications the Arcanum Seekers would catalog. His interest is operational: the Echo is interfering with Legion tactical coordination. Eliminate it. A Legionnaire does not permit their communications to be compromised by any entity.",
       "quest_giver": {
         "npc_id": "npc_warpath_veteran",
-        "name": "Veteran Gorok",
+        "name": "Grand Justiciar Aurelius",
         "location": "MESA_WARPATH"
       },
       "requirements": {
@@ -997,15 +997,15 @@
     },
     {
       "id": "fq_star_020",
-      "title": "The Trial of Resonance",
+      "title": "Promotion Is the Legion's Highest Gift",
       "type": "story",
       "rank": "C",
       "faction": "STARFORGED_LEGION",
       "region": "FORTRESS_KAELEN",
-      "description": "Return to Fortress Kaelen. Your Advanced Promotion ceremony awaits before Grand Justiciar Aurelius himself.",
+      "description": "Grand Justiciar Aurelius stands at Fortress Kaelen's ceremony platform — not a common occurrence, as the Justiciar's presence at individual promotions is reserved for those the Legion considers strategically significant. Your Advanced Combat elevation is, apparently, one of those. Centurion Valka is already preparing the Forge Canyon assignment briefing. The Forge Canyon Depths represent a new phase of the Legion's Xylos campaign, and those who operate there are expected to perform at a level commensurate with their rank. Advance. The Legion is watching.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "General Kaelen",
+        "name": "Grand Justiciar Aurelius",
         "location": "FORTRESS_KAELEN"
       },
       "requirements": {
@@ -1048,15 +1048,15 @@
     },
     {
       "id": "fq_star_021",
-      "title": "Ascetic Incursion",
-      "type": "exploration",
+      "title": "Into the Forge Canyon Depths",
+      "type": "story",
       "rank": "B",
       "faction": "STARFORGED_LEGION",
       "region": "FORGE_CANYON_DEPTHS",
-      "description": "Ascetic Incursion.",
+      "description": "The Forge Canyon Depths are where the Starforged Legion draws its name from — a canyon complex of such geological intensity and electromagnetic activity that Legion historians believe the original Starforged weapons were created here by the Aethelgardians, using the canyon's natural forge-temperatures to work metals that no other location on Xylos could process. The Legion does not consider this heritage an accident. They consider it a sign that Xylos's most powerful forge was waiting for the most powerful warriors. Enter and take what belongs to the Legion's history.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "FORGE_CANYON_DEPTHS"
       },
       "requirements": {
@@ -1099,15 +1099,15 @@
     },
     {
       "id": "fq_star_022",
-      "title": "Assembly Drone Hunt",
-      "type": "hunt",
+      "title": "Drones of an Empire That Failed",
+      "type": "story",
       "rank": "B",
       "faction": "STARFORGED_LEGION",
       "region": "FORGE_CANYON_DEPTHS",
-      "description": "Assembly Drone Hunt.",
+      "description": "Titan Assembly Drones — construction machines left in the Forge Canyon Depths by Iron Hegemony engineers who began a Titan-construction project here and abandoned it when the canyon's electromagnetic interference proved too extreme for their equipment — have been operating autonomously since the Hegemony's withdrawal, attacking anything that enters the construction zone. Centurion Valka examines their wreckage with professional interest: 'Iron Hegemony construction is good. Not Legion good. But good.' Destroy the Drones. Salvage the circuits for the Legion's own construction program.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Centurion Valka",
         "location": "FORGE_CANYON_DEPTHS"
       },
       "requirements": {
@@ -1150,15 +1150,15 @@
     },
     {
       "id": "fq_star_023",
-      "title": "Sentinel Protocol",
-      "type": "boss",
+      "title": "Titan Sentinels Must Stand Down",
+      "type": "story",
       "rank": "B",
       "faction": "STARFORGED_LEGION",
       "region": "FORGE_CANYON_DEPTHS",
-      "description": "Sentinel Protocol.",
+      "description": "The Titan Assembly Sentinels that the Iron Hegemony left in the Forge Canyon Depths as the final security layer are the most dangerous hardware the Hegemony built before their withdrawal — combat-optimized giants that have been running battle protocols in the canyon for months without maintenance or oversight. Grand Justiciar Aurelius reviews the specification data with the appreciation of someone who respects capable engineering regardless of who built it. Then he orders them destroyed. The Forge Canyon belongs to the Legion now.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Centurion Valka",
         "location": "FORGE_CANYON_DEPTHS"
       },
       "requirements": {
@@ -1201,15 +1201,15 @@
     },
     {
       "id": "fq_star_024",
-      "title": "Warpath Cleanup",
-      "type": "hunt",
+      "title": "Enemy Scouts in the Legion's Forge",
+      "type": "story",
       "rank": "B",
       "faction": "STARFORGED_LEGION",
       "region": "FORGE_CANYON_DEPTHS",
-      "description": "Warpath Cleanup.",
+      "description": "Warpath Scouts have infiltrated the Forge Canyon Depths — enemy forward elements from the Mesa Warpath command, tracking the Legion's movement into the canyon zone and reporting back with information that will eventually result in a coordinated response the Legion would prefer to avoid. Grand Justiciar Aurelius's instruction is tactical and final: 'We do not operate in territory while enemy intelligence assets observe us. Clear the scouts. All of them.'",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "FORGE_CANYON_DEPTHS"
       },
       "requirements": {
@@ -1252,15 +1252,15 @@
     },
     {
       "id": "fq_star_025",
-      "title": "Proto Core Assault",
-      "type": "boss",
+      "title": "What the Canyon Holds Cannot Be Taken",
+      "type": "story",
       "rank": "B",
       "faction": "STARFORGED_LEGION",
       "region": "FORGE_CANYON_DEPTHS",
-      "description": "Proto Core Assault.",
+      "description": "The Titan Proto-Cores deep in the Forge Canyon Depths are the most concentrated examples of Aethelgardian manufacturing technology remaining on Xylos — forged from Prima Materia in the canyon's natural furnaces before the Severance. The Iron Hegemony wanted them. The Concordium's engineers have theoretical interest in them. The Starforged Legion has a simpler claim: they are in the Legion's canyon, and the Legion takes what is in its territory. Assault the Proto-Core positions. Take what belongs to the strongest.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Centurion Valka",
         "location": "FORGE_CANYON_DEPTHS"
       },
       "requirements": {
@@ -1303,15 +1303,15 @@
     },
     {
       "id": "fq_star_026",
-      "title": "Skirmish Ring",
-      "type": "exploration",
+      "title": "The Legion Expands Its Territory",
+      "type": "story",
       "rank": "B",
       "faction": "STARFORGED_LEGION",
       "region": "BORDER_SKIRMISH_RING",
-      "description": "Skirmish Ring.",
+      "description": "The Border Skirmish Ring is where the Legion's territorial expansion meets the resistance of every other faction that has been operating in the neutral zones. Grand Justiciar Aurelius's assessment of the Ring is strategic and direct: 'Every meter we hold here is a meter the others do not.' The Legion's doctrine of territorial expansion does not wait for other factions to yield ground willingly — it presents them with a situation in which yielding is the most rational choice. Enter the Ring. Begin that presentation.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "BORDER_SKIRMISH_RING"
       },
       "requirements": {
@@ -1354,15 +1354,15 @@
     },
     {
       "id": "fq_star_027",
-      "title": "Border Patrol",
-      "type": "hunt",
+      "title": "Rift Stalkers in Legion Territory",
+      "type": "story",
       "rank": "B",
       "faction": "STARFORGED_LEGION",
       "region": "BORDER_SKIRMISH_RING",
-      "description": "Border Patrol.",
+      "description": "Aethel Rift Stalkers have established a presence in the Border Skirmish Ring sectors the Legion has claimed — void-touched predators that recognize no territorial boundary the Legion has planted. Grand Justiciar Aurelius does not distinguish between hostile factions and hostile creatures in his operational doctrine: anything in Legion territory that has not been authorized to be there is a target. Clear the Rift Stalkers from the claimed sectors. Show the border zone what Legion territorial enforcement looks like.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "BORDER_SKIRMISH_RING"
       },
       "requirements": {
@@ -1405,15 +1405,15 @@
     },
     {
       "id": "fq_star_028",
-      "title": "Behemoth Siege",
-      "type": "boss",
+      "title": "The Behemoth That Doesn't Know the Ring Changed Hands",
+      "type": "story",
       "rank": "B",
       "faction": "STARFORGED_LEGION",
       "region": "BORDER_SKIRMISH_RING",
-      "description": "Behemoth Siege.",
+      "description": "An Aethel Behemoth has been using the Border Skirmish Ring as its seasonal territory for what the Legion's ecological assessors estimate is decades — long before any faction claimed this zone. Centurion Valka frames the mission with characteristic directness: 'The Behemoth does not know the Ring changed hands. Inform it.' The Aethel Rift Stalkers that run with the Behemoth are its escort, not its protectors. Clear the escorts first. The Behemoth will understand the message when there is nothing left to misunderstand.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Centurion Valka",
         "location": "BORDER_SKIRMISH_RING"
       },
       "requirements": {
@@ -1456,15 +1456,15 @@
     },
     {
       "id": "fq_star_029",
-      "title": "Sentinel Mastery",
-      "type": "boss",
+      "title": "The Forge Canyon Yields to No One Else",
+      "type": "story",
       "rank": "B",
       "faction": "STARFORGED_LEGION",
       "region": "FORGE_CANYON_DEPTHS",
-      "description": "Sentinel Mastery.",
+      "description": "The final Titan Assembly Sentinels in the Forge Canyon Depths represent the Iron Hegemony's last operational presence in territory the Legion has claimed. Grand Justiciar Aurelius does not permit competing operational presences in Legion-claimed territory. These Sentinels have been running Hegemony battle protocols since the Hegemony's withdrawal and they will continue to do so until someone destroys them. The Legion is that someone. Mastery of the Forge Canyon requires removing every piece of the previous tenant.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Centurion Valka",
         "location": "FORGE_CANYON_DEPTHS"
       },
       "requirements": {
@@ -1507,12 +1507,12 @@
     },
     {
       "id": "fq_star_030",
-      "title": "The Second Trial",
+      "title": "The Second Trial of the Starforged",
       "type": "story",
       "rank": "B",
       "faction": "STARFORGED_LEGION",
       "region": "FORTRESS_KAELEN",
-      "description": "The Second Trial.",
+      "description": "Centurion Valka speaks the words that the Legion's code reserves for soldiers who have proven themselves in the hardest terrain on Xylos: 'You have earned the Second Trial.' The Resonance Echo from the Warpath must be confronted again — it has grown stronger, drawn by the canyon's electromagnetic activity. The Shard Pulse Tyrant of the Hegemony's Forge represents the hardest combat challenge the Forge Canyon offers. These are the Second Trial's two tests. Pass both. Grand Justiciar Aurelius will conduct the Ascension ceremony personally.",
       "quest_giver": {
         "npc_id": "npc_legion_class_trainer",
         "name": "Centurion Valka",
@@ -1568,15 +1568,15 @@
     },
     {
       "id": "fq_star_031",
-      "title": "Winged Justice",
-      "type": "exploration",
+      "title": "The Legion's Reach Extends to the Stars",
+      "type": "story",
       "rank": "A",
       "faction": "STARFORGED_LEGION",
       "region": "ORBITAL_SENTINEL_COMMAND",
-      "description": "Winged Justice.",
+      "description": "Grand Justiciar Aurelius stands at the Orbital Sentinel Command's threshold and makes the announcement that no previous Legion commander has been able to make: 'The Legion reaches the stars.' Not metaphorically — the Orbital Sentinel Command represents the Legion's first foothold above Xylos's atmosphere, a position that allows the Legion to observe every other faction's movements from a height that confers absolute tactical advantage. Report to Orbital Command. The Legion's campaign on Xylos has entered its orbital phase.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "ORBITAL_SENTINEL_COMMAND"
       },
       "requirements": {
@@ -1619,15 +1619,15 @@
     },
     {
       "id": "fq_star_032",
-      "title": "Drake's Challenge",
-      "type": "hunt",
+      "title": "The Drake Is the Test of the Expanse",
+      "type": "story",
       "rank": "A",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Drake's Challenge.",
+      "description": "The Ashen Drake in the Cradle Expanse is the apex creature of the most contested zone on Xylos — a living measure of whether the Legion's soldiers are genuinely prepared for what the Expanse requires. Grand Justiciar Aurelius frames the Drake engagement as a test, not just a tactical objective: 'The Drake does not fear anything in the Expanse. That changes today.' Observe the Drake's behavior. The observation data alone has strategic value. Then challenge it. The Drake's defeat is the Legion's declaration that the Expanse answers to the Legion now.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "CRADLE_EXPANSE"
       },
       "requirements": {
@@ -1670,15 +1670,15 @@
     },
     {
       "id": "fq_star_033",
-      "title": "Carapace Breach",
-      "type": "hunt",
+      "title": "The Expanse Is Being Armored Against Us",
+      "type": "story",
       "rank": "A",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Carapace Breach.",
+      "description": "The Aethel Iron Carapace creatures spreading through the Cradle Expanse are a direct strategic threat to the Legion's supply lanes — their shells deflect standard Legion weapons and their territorial clustering in the Expanse's mineral zones blocks access to resources the Legion needs for the Forge Canyon construction program. Centurion Valka has already run the breach calculations. Six Carapace must be cleared from the primary supply corridor. Three crystal cores recovered for the armor-penetration research program. This is the Legion's resource war.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "CRADLE_EXPANSE"
       },
       "requirements": {
@@ -1721,15 +1721,15 @@
     },
     {
       "id": "fq_star_034",
-      "title": "Corrupted Behemoth Hunt",
-      "type": "boss",
+      "title": "The Expanse Does Not Host Corruption",
+      "type": "story",
       "rank": "A",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Corrupted Behemoth Hunt.",
+      "description": "Corrupted Behemoths — once the great natural guardians of the Cradle Expanse, twisted beyond recognition by the Concordium's extraction operations — now threaten the Legion's operational positions in the Expanse with the particular danger of creatures whose strength was never meant to be turned hostile. Grand Justiciar Aurelius hunts them with the grim pragmatism of someone who understands the tragedy without letting it stop the mission: 'They cannot be saved. They can be ended. End them cleanly.'",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Centurion Valka",
         "location": "CRADLE_EXPANSE"
       },
       "requirements": {
@@ -1772,15 +1772,15 @@
     },
     {
       "id": "fq_star_035",
-      "title": "Abyssal Front",
-      "type": "boss",
+      "title": "The Void's Advance Guard in the Expanse",
+      "type": "story",
       "rank": "A",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Abyssal Front.",
+      "description": "Aethel Abyssal Reavers have penetrated the Cradle Expanse's Legion-controlled sectors — the void's forward elements, testing the Legion's defensive perimeter with the methodical patience of something that does not feel urgency. The Legion's code of honor does not extend to void entities; there is no worthy combat with the void, only elimination. Four Reavers, cleared from the Legion's operational zone, is today's answer to the void's advance. Tomorrow's answer will be the same.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "CRADLE_EXPANSE"
       },
       "requirements": {
@@ -1823,15 +1823,15 @@
     },
     {
       "id": "fq_star_036",
-      "title": "Orbital Defense",
-      "type": "hunt",
+      "title": "Nothing Flies in the Expanse Without Permission",
+      "type": "story",
       "rank": "A",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Orbital Defense.",
+      "description": "Aethel Rift Stalkers are using the Cradle Expanse's electromagnetic currents as patrol routes above the Legion's operational zones — maintaining aerial superiority over terrain the Legion has claimed on the ground. Grand Justiciar Aurelius's operational doctrine covers this explicitly: the Legion claims all dimensions of the territory it occupies, not just the ground layer. Clear the Rift Stalkers from the Expanse airspace. Neutralize the Void Channelers that are directing their movement patterns. Legion territory is Legion territory at all altitudes.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "CRADLE_EXPANSE"
       },
       "requirements": {
@@ -1874,15 +1874,15 @@
     },
     {
       "id": "fq_star_037",
-      "title": "Drake's Judgment",
-      "type": "boss",
+      "title": "The Drake Learns What Judgment Means",
+      "type": "story",
       "rank": "A",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Drake's Judgment.",
+      "description": "The Ashen Drake has returned to the Cradle Expanse following its earlier encounter with the Legion. Grand Justiciar Aurelius reviews the intelligence with what might be approval: 'It came back. That is either courage or stupidity.' In the Legion's code, courage deserves respect. The Drake's return, regardless of the reason, is an opportunity to prove that the Legion's first engagement was not anomalous. Defeat the Drake a second time. Collect the heart. The Legion's judgment of the Expanse's apex creature is final and consistent.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "CRADLE_EXPANSE"
       },
       "requirements": {
@@ -1925,15 +1925,15 @@
     },
     {
       "id": "fq_star_038",
-      "title": "Expanse Conquest",
-      "type": "hunt",
+      "title": "The Expanse Belongs to the Strongest",
+      "type": "story",
       "rank": "A",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Expanse Conquest.",
+      "description": "The Aethel Iron Carapace creatures have regrouped in the Expanse's northern sectors — there are eight of them now, a larger concentration than the first engagement. Centurion Valka is not concerned. The Legion does not operate on the principle that a larger number of the same threat constitutes a different kind of problem. Eight Carapace are eight individual targets with the same solution. Clear them. Recover the crystal cores. The Expanse belongs to whoever is strong enough to keep it. The Legion is that whoever.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Centurion Valka",
         "location": "CRADLE_EXPANSE"
       },
       "requirements": {
@@ -1976,15 +1976,15 @@
     },
     {
       "id": "fq_star_039",
-      "title": "Abyssal Counter",
-      "type": "boss",
+      "title": "The Void's Counter-Offensive Must Fail",
+      "type": "story",
       "rank": "A",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Abyssal Counter.",
+      "description": "The Aethel Abyssal Reavers and Void Channelers have mounted a coordinated incursion into the Expanse — five Reavers supported by three Channelers, moving with the tactical discipline that indicates external coordination. Grand Justiciar Aurelius's battle briefing contains a note that his soldiers rarely hear: 'This is organized.' The void's counter-offensive against the Legion's Expanse positions is the most sophisticated threat the Reavers have presented. Break it surgically. Void Channelers first — remove the coordination. Then the Reavers. Leave no element of this counter-offensive operational.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "CRADLE_EXPANSE"
       },
       "requirements": {
@@ -2027,15 +2027,15 @@
     },
     {
       "id": "fq_star_040",
-      "title": "Master of the Starforge",
+      "title": "Master of the Starforged Legion",
       "type": "story",
       "rank": "A",
       "faction": "STARFORGED_LEGION",
       "region": "FORTRESS_KAELEN",
-      "description": "Master of the Starforge.",
+      "description": "Grand Justiciar Aurelius stands at the ceremony platform in Fortress Kaelen's inner sanctum — the chamber that has witnessed every major elevation in the Legion's history on Xylos — and the ceremony is brief and absolute, as all Legion ceremonies are. The Master of the Starforged elevation requires the final trial: the Drake defeated a third time, a Behemoth engaged at full strength, a Leviathan from the deep guided to rest. These are the three creatures that measure the limits of what a Legionnaire can face. Pass all three. The Legion's highest recognition awaits.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "General Kaelen",
+        "name": "Grand Justiciar Aurelius",
         "location": "FORTRESS_KAELEN"
       },
       "requirements": {
@@ -2084,15 +2084,15 @@
     },
     {
       "id": "fq_star_041",
-      "title": "Light in the Chasm",
-      "type": "exploration",
+      "title": "The Legion Descends Into the Darkness",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Light in the Chasm.",
+      "description": "Grand Justiciar Aurelius describes the Void Echo Chasm to new arrivals with the candor that experienced warriors use when they want their soldiers to survive: 'Everything in the Chasm will try to kill you. Some of it will succeed if you let your guard down. Do not let your guard down.' The Legion does not romanticize the darkness the way the Children of the Shard do, or study it the way the Arcanum Seekers would. The Legion enters it because the Legion enters every territory that needs to be controlled. Light in the Chasm: establish the Legion's presence.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "VOID_ECHO_CHASM"
       },
       "requirements": {
@@ -2135,15 +2135,15 @@
     },
     {
       "id": "fq_star_042",
-      "title": "Void Reaver Purge",
-      "type": "hunt",
+      "title": "Void Reavers Die the Same as Everything Else",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Void Reaver Purge.",
+      "description": "Void Reavers — entities born from the Chasm's accumulated void energy — present a unique tactical challenge in that standard engagement doctrines do not fully apply to creatures with no physical mass in the conventional sense. Centurion Valka's tactical brief covers this with characteristic efficiency: 'They die the same as everything else when you hit them hard enough. Find the hard enough. Document it. Apply it six times.' The Legion builds operational doctrine from every engagement. Void Reavers are today's data set.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Centurion Valka",
         "location": "VOID_ECHO_CHASM"
       },
       "requirements": {
@@ -2186,15 +2186,15 @@
     },
     {
       "id": "fq_star_043",
-      "title": "Abyssal Hunt",
-      "type": "hunt",
+      "title": "The Abyssal Is Another Problem With the Same Solution",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Abyssal Hunt.",
+      "description": "Aethel Abyssal Reavers — the void's most developed entities in the Chasm's mid-levels — are more organized than the basic Void Reavers above, capable of coordinating ambushes in the Chasm's narrow access passages. Grand Justiciar Aurelius reviewed the ambush tactics the Reavers have been using against other factions' incursion teams and made a single note: 'Predictable after the second encounter.' The Legion's tactical advantage over the void is that the void's patterns are learnable. Learn them. Then break them. Then eliminate the ambush force.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Centurion Valka",
         "location": "VOID_ECHO_CHASM"
       },
       "requirements": {
@@ -2237,15 +2237,15 @@
     },
     {
       "id": "fq_star_044",
-      "title": "Behemoth Execution",
-      "type": "boss",
+      "title": "Execute With Precision, Not Ceremony",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Behemoth Execution.",
+      "description": "Corrupted Behemoths in the Chasm's lower levels are the most dangerous physical threats the Legion has encountered in the Void Echo Chasm — creatures that were once among the most powerful living entities on Xylos, now driven by pure corrupted aggression without the natural territorial caution that made them manageable before. Grand Justiciar Aurelius's battle brief is three words: 'Execute with precision.' No ceremony, no theological consideration, no hesitation. These creatures are threats. The Legion eliminates threats.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "VOID_ECHO_CHASM"
       },
       "requirements": {
@@ -2288,15 +2288,15 @@
     },
     {
       "id": "fq_star_045",
-      "title": "Soul Breaker",
-      "type": "boss",
+      "title": "What Fragments Souls Faces the Legion",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Soul Breaker.",
+      "description": "Soul Fragmenters — entities that devour the soul-echoes trapped in the Chasm since the Great Severance — are, in the Legion's operational assessment, primarily a threat-elimination target. Centurion Valka does not engage with the theological implications of what Soul Fragmenters are doing to the Severance's trapped souls. The Legion's code does not require theological engagement — it requires tactical effectiveness. Two Soul Fragmenters are in the Chasm's designated elimination zone. The solution is the same as it always is in the Legion's code: strength, application, completion.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Centurion Valka",
         "location": "VOID_ECHO_CHASM"
       },
       "requirements": {
@@ -2339,15 +2339,15 @@
     },
     {
       "id": "fq_star_046",
-      "title": "Chrono Elimination",
-      "type": "boss",
+      "title": "The Wraith That Loops Time Is a Target",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Chrono Elimination.",
+      "description": "Chrono Wraiths operate in temporal fractures that the Chasm's structure creates — points where the Great Severance's temporal damage has created loops that feed the Wraith indefinitely. Grand Justiciar Aurelius's tactical brief acknowledges the unusual nature of the target without elaborating on it: 'It exists in a time loop. Break the loop by destroying the anchor. The anchor is the Wraith. This is not philosophically complicated.' Two Chrono Wraiths, two temporal loops dissolved. The Legion clears time the same way it clears terrain.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "VOID_ECHO_CHASM"
       },
       "requirements": {
@@ -2390,15 +2390,15 @@
     },
     {
       "id": "fq_star_047",
-      "title": "Jotunn Conquest",
-      "type": "boss",
+      "title": "Mountains Move When the Legion Commands",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Jotunn Conquest.",
+      "description": "A Gigantic Jotunn occupies the Chasm passage that the Legion's advance requires. Grand Justiciar Aurelius's battle brief is one of the shortest on record: 'The mountain is in our way. Move it.' The Jotunn's geological nature and ancient claim to the deep stone is not a factor in Legion operational planning. What is a factor: it is in Legion territory, it is blocking a Legion advance, and it will be removed by Legion force or by understanding that the Legion does not stop. The Jotunn will understand one of these things.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "VOID_ECHO_CHASM"
       },
       "requirements": {
@@ -2441,15 +2441,15 @@
     },
     {
       "id": "fq_star_048",
-      "title": "Heart Breach",
-      "type": "exploration",
+      "title": "The Shattered Heart Is Legion Territory Now",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Heart Breach.",
+      "description": "The Shattered Heart — where Xylos's aethel core cracked under the Great Severance — is the kind of zone that other factions approach with caution or reverence. The Legion approaches it with a column of soldiers, a logistics train, and a deployment plan. Grand Justiciar Aurelius briefs the Shattered Heart entry with the directness of someone who considers geological drama irrelevant to tactical planning: 'It is terrain. Difficult terrain, but terrain. Establish Legion presence. All other considerations are secondary.'",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "VOID_ECHO_CHASM"
       },
       "requirements": {
@@ -2492,15 +2492,15 @@
     },
     {
       "id": "fq_star_049",
-      "title": "The Drake's Redemption",
-      "type": "boss",
+      "title": "The Drake's Last Stand, Against the Legion's First Entry",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "SHATTERED_HEART",
-      "description": "The Drake's Redemption.",
+      "description": "In the Shattered Heart, an Ashen Drake has maintained its territory since before any faction's arrival on Xylos — an ancient creature whose fire has been burning in the planet's aethel-rich geological core for centuries. Centurion Valka acknowledges its age without sentimentality: 'Old does not mean superior. Old means experienced.' The Drake's experience is considerable. The Legion's training is absolute. Guide it to rest by superior force and discipline. The Shattered Heart is the Legion's now.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Centurion Valka",
         "location": "SHATTERED_HEART"
       },
       "requirements": {
@@ -2543,15 +2543,15 @@
     },
     {
       "id": "fq_star_050",
-      "title": "Exorcism Protocol",
-      "type": "boss",
+      "title": "Execute the Exorcism Protocol",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Exorcism Protocol.",
+      "description": "Soul Fragmenters and a Void Stalker have established a combined operation in the Chasm's shadow zone — the Stalker coordinating the Fragmenters' harvest with tactical precision that Grand Justiciar Aurelius finds operationally interesting and strategically intolerable. 'They are running a coordinated operation inside Legion-designated territory,' he says, with the tone of someone who considers this personally offensive. Execute the Exorcism Protocol: the Stalker eliminated first, the Fragmenters cleared, the operation disbanded completely.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "VOID_ECHO_CHASM"
       },
       "requirements": {
@@ -2594,15 +2594,15 @@
     },
     {
       "id": "fq_star_051",
-      "title": "Total Void War",
-      "type": "hunt",
+      "title": "Total Void War in the Chasm",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Total Void War.",
+      "description": "The Legion's total void war doctrine — developed by Grand Justiciar Aurelius following three months of Chasm engagement analysis — requires the systematic elimination of void presence from Legion-designated operational zones without partial clearance or negotiated withdrawal. Eight Void Reavers, five Void Channelers, all zones. Centurion Valka makes the briefing simpler than the doctrine: 'All of them. Every zone. No survivors.' This is not a proportional response. This is Legion standard operating procedure.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Centurion Valka",
         "location": "VOID_ECHO_CHASM"
       },
       "requirements": {
@@ -2645,15 +2645,15 @@
     },
     {
       "id": "fq_star_052",
-      "title": "Stalker Execution",
-      "type": "boss",
+      "title": "The Stalker That Hides in the Shard's Blind Spot",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Stalker Execution.",
+      "description": "A Void Stalker has taken up residence in the Chasm's electromagnetic blind spot — the zone where the Shard's electromagnetic field bends around a void singularity, creating a region that standard detection cannot reach. Grand Justiciar Aurelius is not deterred by detection limitations. The Legion's scouts found it through physical reconnaissance rather than electronic detection. 'It hides from instruments. It cannot hide from soldiers.' Enter the blind spot. Execute the Stalker. The Chasm has no zones the Legion cannot reach.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "VOID_ECHO_CHASM"
       },
       "requirements": {
@@ -2696,15 +2696,15 @@
     },
     {
       "id": "fq_star_053",
-      "title": "Temporal Breach",
-      "type": "boss",
+      "title": "Time Loops Are Terrain Features to Be Cleared",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Temporal Breach.",
+      "description": "Three Chrono Wraiths in the Chasm's deep zone have created overlapping temporal fractures that are functionally preventing the Legion from establishing a stable forward position in the area — every time the position is established, the temporal loops reset the zone's state. Centurion Valka's engineering assessment translates this into Legion operational language: 'The terrain resets because the Wraiths reset it. Eliminate the Wraiths. The terrain will stop resetting.' Banish all three. Establish the position.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Centurion Valka",
         "location": "VOID_ECHO_CHASM"
       },
       "requirements": {
@@ -2747,15 +2747,15 @@
     },
     {
       "id": "fq_star_054",
-      "title": "Heart Assault",
-      "type": "hunt",
+      "title": "The Purification at the Deepest Level",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Heart Assault.",
+      "description": "The deepest accessible level of the Void Echo Chasm contains the highest concentration of Abyssal Reavers and Void Reavers that the Legion has encountered in any single engagement. Grand Justiciar Aurelius's battle brief is longer than usual, because the tactical complexity is higher than usual: multiple target types, coordinated void behavior, narrow engagement corridors. The brief ends with the standard conclusion: 'Eliminate all. Document the engagement. Apply the lessons forward.' Ten Reavers, six Void Reavers. This is the Legion's deepest engagement yet.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "VOID_ECHO_CHASM"
       },
       "requirements": {
@@ -2798,15 +2798,15 @@
     },
     {
       "id": "fq_star_055",
-      "title": "Jotunn Strongpoint",
-      "type": "boss",
+      "title": "The Last Geological Obstacle",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Jotunn Strongpoint.",
+      "description": "Three Gigantic Jotunns have settled in the Chasm's lower levels, creating seismic interference that is disrupting the Legion's tunnel engineering for the deep zone forward post. The Legion's engineering team has been waiting three days for clearance. Grand Justiciar Aurelius does not believe in waiting: 'Geological obstacles are obstacles. Obstacles are cleared.' All three Jotunns must be guided from the interference zone. The engineering team has a four-hour window once the zone is clear. Do not waste the window.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "VOID_ECHO_CHASM"
       },
       "requirements": {
@@ -2849,15 +2849,15 @@
     },
     {
       "id": "fq_star_056",
-      "title": "Tyrant Battery",
-      "type": "boss",
+      "title": "The Tyrant Battery Must Be Silenced",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Tyrant Battery.",
+      "description": "Crystal Tyrants — crystal entities that have claimed control of the Chasm's concentrated aethel nodes — are using the nodes' energy output as a weapon system, projecting energy attacks that have been taking significant casualties from Legion forward patrols. Centurion Valka calls this 'a tyrant battery' and treats it as an artillery problem: identify the battery positions, eliminate the firing units, suppress the remaining fire, advance. Two Crystal Tyrants, two positions eliminated. The Chasm's artillery belongs to the Legion now.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Centurion Valka",
         "location": "VOID_ECHO_CHASM"
       },
       "requirements": {
@@ -2900,15 +2900,15 @@
     },
     {
       "id": "fq_star_057",
-      "title": "Harbinger Beachhead",
+      "title": "Harbinger's Vanguard Cannot Hold the Chasm",
       "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Harbinger Beachhead.",
+      "description": "The Harbinger is sending its vanguard force into the Chasm — Abyssal Reavers acting as its advance elements, with a Chrono Wraith maintaining a temporal anchor that will hold the passage open for the Harbinger itself when it arrives. Grand Justiciar Aurelius reads this deployment with the assessment of an experienced general facing an organized enemy: 'It is preparing a beachhead. Deny the beachhead.' Destroy the vanguard. Destroy the temporal anchor. When the Harbinger arrives, it will arrive into Legion-controlled territory with no advance preparation intact.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "VOID_ECHO_CHASM"
       },
       "requirements": {
@@ -2957,15 +2957,15 @@
     },
     {
       "id": "fq_star_058",
-      "title": "Fragmenter Front",
-      "type": "boss",
+      "title": "The Fragmenter Line Must Break",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Fragmenter Front.",
+      "description": "Soul Fragmenters and a Void Stalker are conducting a coordinated operation along the Chasm's approach to the Harbinger's entry point — the same pre-positioning the Harbinger's other void forces have been executing throughout the Chasm. Grand Justiciar Aurelius's intelligence analysis is complete: the Harbinger is using the Fragmenters to clear the Chasm's trapped soul-echoes before its arrival, removing the one resonance frequency that could interfere with its void signature. Break the Fragmenter line. Preserve the interference. Make the Harbinger's arrival harder.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "VOID_ECHO_CHASM"
       },
       "requirements": {
@@ -3008,15 +3008,15 @@
     },
     {
       "id": "fq_star_059",
-      "title": "Harbinger's Banishing",
-      "type": "boss",
+      "title": "The Legion Banishes the Harbinger",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Harbinger's Banishing.",
+      "description": "The Abyss Harbinger has entered the Void Echo Chasm. Grand Justiciar Aurelius's battle briefing, for the first time in the Legion's Xylos campaign, takes more than five minutes to deliver — because the Harbinger is unlike any previous target, operating at a scale that required the Legion to revise its standard combat doctrine for this single engagement. The briefing ends: 'The Harbinger believes the Chasm belongs to the void. The Legion disagrees. Demonstrate that disagreement with full force. For the homeworld. For the code. For every soldier who did not survive to reach this moment.'",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "VOID_ECHO_CHASM"
       },
       "requirements": {
@@ -3060,14 +3060,14 @@
     {
       "id": "fq_star_060",
       "title": "Solidifying the Earth",
-      "type": "exploration",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Solidifying the Earth.",
+      "description": "The Severance Faultline is the scar that divides Xylos's geological substrate along the line of the Great Severance's shockwave. Grand Justiciar Aurelius approaches the Faultline as a military commander approaches a river crossing: identify the viable ford points, establish bridgehead control, advance through. The other factions approach the Faultline with ideology. The Legion approaches it with maps. Enter the Faultline zone. Establish the first bridgehead.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "SEVERANCE_FAULTLINE"
       },
       "requirements": {
@@ -3111,14 +3111,14 @@
     {
       "id": "fq_star_061",
       "title": "Carapace Breach",
-      "type": "hunt",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Carapace Breach.",
+      "description": "The Aethel Iron Carapace creatures along the Faultline are feeding on the exposed aethel substrate — the same substrate that, according to the Concordium's geological surveys, represents some of Xylos's most concentrated raw aethel deposits. The Legion's claim to these deposits is straightforward: whoever controls the terrain controls the resources the terrain contains. Clear the Carapace. Secure the substrate. The Faultline's resources belong to the Legion.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "SEVERANCE_FAULTLINE"
       },
       "requirements": {
@@ -3162,14 +3162,14 @@
     {
       "id": "fq_star_062",
       "title": "Tyrant Position",
-      "type": "boss",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Tyrant Position.",
+      "description": "Crystal Tyrants along the Severance Faultline have positioned themselves at the highest-concentration aethel nodes in the zone — nodes that the Legion's geological assessors have flagged as critical infrastructure for the Legion's own energy supply program. Centurion Valka does not respect the Tyrants' prior claim to these nodes. The Legion arrived. The Legion is stronger. The Tyrants are obstacles. Ground them with the efficiency the Legion code demands.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Centurion Valka",
         "location": "SEVERANCE_FAULTLINE"
       },
       "requirements": {
@@ -3213,14 +3213,14 @@
     {
       "id": "fq_star_063",
       "title": "Jotunn Blockade",
-      "type": "boss",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Jotunn Blockade.",
+      "description": "Gigantic Jotunns in the Severance Faultline's deep access corridors are blocking the Legion's geological infrastructure teams from reaching the primary aethel substrate. Grand Justiciar Aurelius's position on geological entities blocking Legion operations has not changed throughout the Xylos campaign: 'Ancient is not exempt. Move them.' Three Jotunns, three corridors cleared, three days of geological survey work that the Legion's engineers have been waiting to conduct. The deep stone yields to the Legion.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "SEVERANCE_FAULTLINE"
       },
       "requirements": {
@@ -3268,10 +3268,10 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Titan Preparation.",
+      "description": "The Faultline's eastern approach corridor is the last geological obstruction before the Legion's infrastructure teams can reach the deepest accessible Faultline deposits. One more Jotunn, one more clearance, one more advance. Grand Justiciar Aurelius briefs this with the same directness he brings to every geological obstacle: 'Move it.' The materials gathered from the cleared zone will provide the geological interface data the Legion needs for the Aethel Siphon Core approach. Finish this phase.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "SEVERANCE_FAULTLINE"
       },
       "requirements": {
@@ -3314,15 +3314,15 @@
     },
     {
       "id": "fq_star_065",
-      "title": "Core Entry",
-      "type": "exploration",
+      "title": "The Siphon's Core: The Legion Arrives",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Core Entry.",
+      "description": "The Aethel Siphon Core — where the Concordium built their entire civilization and from which every faction on Xylos draws their strategic planning — is where the Legion's Xylos campaign reaches its highest strategic objective. Grand Justiciar Aurelius's address to the Legion column before entry is the longest speech anyone has heard him give: it ends with, 'The Siphon is the prize. We enter as conquerors.' The Children of the Shard built a religion around it. The Legion intends to build a kingdom.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "AETHEL_SIPHON_CORE"
       },
       "requirements": {
@@ -3365,15 +3365,15 @@
     },
     {
       "id": "fq_star_066",
-      "title": "Core Purge",
-      "type": "hunt",
+      "title": "Clearing the Siphon's Approaches",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Core Purge.",
+      "description": "Abyssal Reavers have colonized the Aethel Siphon Core's approach corridors — drawn by the Core's power output and now constituting the primary obstacle to Legion entry. Centurion Valka's approach to this obstacle is standard Legion doctrine applied to non-standard terrain: identify all hostiles in the objective zone, establish elimination sequence based on threat level, execute systematically. Twelve Abyssal Reavers, plus Void Channelers. The Siphon's approaches will be clear before the Legion's main column enters.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Centurion Valka",
         "location": "AETHEL_SIPHON_CORE"
       },
       "requirements": {
@@ -3416,15 +3416,15 @@
     },
     {
       "id": "fq_star_067",
-      "title": "Behemoth Defense",
-      "type": "boss",
+      "title": "The Siphon's Ancient Guardians Fall to the Legion",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Behemoth Defense.",
+      "description": "Corrupted Behemoths in the Aethel Siphon Core's inner zones are the most powerful physical obstacles the Legion has faced in the entire Xylos campaign. Grand Justiciar Aurelius does not downplay this: 'They are stronger than anything we have fought here. That is why this test matters.' The Legion's code states that the measure of a force's true capability is what it defeats when the enemy is at its strongest. Face the Behemoths in the Core's inner sanctum. The Legion's strength must be demonstrated at the Siphon's heart.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "AETHEL_SIPHON_CORE"
       },
       "requirements": {
@@ -3467,15 +3467,15 @@
     },
     {
       "id": "fq_star_068",
-      "title": "Rift Patrol",
-      "type": "hunt",
+      "title": "Sealing the Rifts That Drain the Core's Power",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Rift Patrol.",
+      "description": "Aethel Rift Stalkers have found the Siphon Core's micro-fractures — exposure points where the Core's energy bleeds outward — and have been enlarging these fractures through their feeding behavior. The result: the Core's output has dropped measurably since the Stalkers' arrival. The Legion's engineers need stable Core output for their own energy infrastructure. Clear the Stalkers. Seal the fractures they have widened. The Siphon Core's power belongs to whatever force controls it, and the Legion controls it now.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Centurion Valka",
         "location": "AETHEL_SIPHON_CORE"
       },
       "requirements": {
@@ -3518,15 +3518,15 @@
     },
     {
       "id": "fq_star_069",
-      "title": "Titan Mobilization",
+      "title": "The Core's Guardian Names the Legion Worthy",
       "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Titan Mobilization.",
+      "description": "Deep in the Aethel Siphon Core, the entity that all other factions' intelligence has failed to identify correctly — what the Concordium calls an 'anomaly,' what the Arcanum calls a 'phenomenon,' what the Children call a 'sacred manifestation' — waits for the Legion's advance team. Grand Justiciar Aurelius has reviewed every faction's engagement record with this entity. None of them passed its trial. 'We will be different,' he says, without inflection. 'Because we are different.' Gather what the Core's approach zones offer. Present the Legion to whatever guards the deepest chamber.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "AETHEL_SIPHON_CORE"
       },
       "requirements": {
@@ -3569,15 +3569,15 @@
     },
     {
       "id": "fq_star_070",
-      "title": "The Titan's Humility",
-      "type": "boss",
+      "title": "The Titan That Rules the Expanse Is Now the Legion's Target",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "The Titan's Humility.",
+      "description": "A Gravity Titan in the Cradle Expanse has been disrupting the Legion's supply lanes with its gravitational field effect — pulling Legion transport vehicles off course and creating navigation hazards that have cost the Legion two weeks of logistical efficiency. Grand Justiciar Aurelius's assessment is brief: 'Gravity is a terrain feature. This one needs to be removed.' The Gravity Titan may be the most massive creature on Xylos. The Legion's soldiers are the most trained on Xylos. The math resolves in the Legion's favor.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "CRADLE_EXPANSE"
       },
       "requirements": {
@@ -3620,15 +3620,15 @@
     },
     {
       "id": "fq_star_071",
-      "title": "The Celestial Forge",
-      "type": "exploration",
+      "title": "The Forge of Legend: The Legion Claims Prima Materia",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The Celestial Forge.",
+      "description": "The Prima Materia Forge is where the highest-value material on Xylos is processed — a zone that every faction has tried and failed to hold because the Prima Materia itself resists extraction by those who approach it incorrectly. Grand Justiciar Aurelius's tactical note on this failure: 'They approached it as a resource. We approach it as a conquest.' The Legion does not extract Prima Materia. The Legion claims the Forge. Whatever the Forge produces, the Legion owns.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "PRIMA_MATERIA_FORGE"
       },
       "requirements": {
@@ -3671,15 +3671,15 @@
     },
     {
       "id": "fq_star_072",
-      "title": "Forge Conquer",
-      "type": "hunt",
+      "title": "Clearing the Forge's Approaches",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Forge Conquer.",
+      "description": "Aethel Iron Carapace creatures have armored the Prima Materia Forge's outer processing ring against entry — layers of carapace-shell forming organic barricades that the Legion's standard approach techniques cannot breach without clearing the creatures themselves. Centurion Valka's engineering assessment is direct: 'The barricades are alive. Eliminate the alive parts. The barricades become rubble.' Clear the Carapace. The Forge's approach corridor must be open before the Legion's main engineering team can advance.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Centurion Valka",
         "location": "PRIMA_MATERIA_FORGE"
       },
       "requirements": {
@@ -3722,15 +3722,15 @@
     },
     {
       "id": "fq_star_073",
-      "title": "Abyssal Purge",
-      "type": "hunt",
+      "title": "The Void Cannot Have the Forge",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Abyssal Purge.",
+      "description": "Aethel Abyssal Reavers and a Gravity Titan have combined their presence in the Prima Materia Forge's inner processing zone — the Reavers feeding on the Forge's ambient Prima Materia output while the Titan's gravity well creates conditions that enhance their void feeding efficiency. Grand Justiciar Aurelius calls this 'an improvised supply chain for the void.' The Legion's response to the void establishing supply chains inside Legion-claimed territory is not complicated: destroy the supply chain, eliminate both elements, and deny the void the resource advantage it was building.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "PRIMA_MATERIA_FORGE"
       },
       "requirements": {
@@ -3773,15 +3773,15 @@
     },
     {
       "id": "fq_star_074",
-      "title": "Jotunn Foundry",
-      "type": "boss",
+      "title": "Jotunns at the Forge Must Be Moved",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Jotunn Foundry.",
+      "description": "Gigantic Jotunns drawn by the Forge's geological activity have entered the primary processing zone and are creating seismic interference that has halted the Legion's Prima Materia extraction operations for forty-eight hours. The Legion's extraction quota is being missed. Grand Justiciar Aurelius does not miss quotas. Three Jotunns, three operational corridors, forty-eight hours of backlogged production waiting to resume. The Forge runs on Legion schedule. Move the Jotunns to the deep stone where they belong.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Centurion Valka",
         "location": "PRIMA_MATERIA_FORGE"
       },
       "requirements": {
@@ -3824,15 +3824,15 @@
     },
     {
       "id": "fq_star_075",
-      "title": "Proto Core Recycle",
-      "type": "boss",
+      "title": "The Legion Takes What the Forge Produced",
+      "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Proto Core Recycle.",
+      "description": "Titan Proto-Cores — the Forge's primary output, concentrations of Prima Materia forged into the construction substrate for the Legion's most advanced weapons program — have been accumulating in the Forge's deep storage zone. The Iron Hegemony's ghost operations are still trying to recover them through remote automated extraction, using the abandoned Hegemony systems the Legion has not yet fully decommissioned. The Proto-Cores belong to the Legion. Clear the automated extraction interference. Take what the Forge has produced under Legion authority.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "PRIMA_MATERIA_FORGE"
       },
       "requirements": {
@@ -3875,15 +3875,15 @@
     },
     {
       "id": "fq_star_076",
-      "title": "Legendary Exemplar Trial",
+      "title": "The Trial of Legend in the Prima Materia Forge",
       "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Legendary Exemplar Trial.",
+      "description": "The Gravity Titan that guards the Prima Materia Forge's ultimate processing chamber is the apex challenge of the Legion's Xylos campaign — a creature of such mass and gravitational influence that it represents, in Grand Justiciar Aurelius's own words, 'the hardest thing we have faced on this planet.' The Trial of Legend is not just about winning. It is about winning at the highest level the Legion can be tested at, against an opponent that gives the test full gravity. The pun is not acknowledged by Grand Justiciar Aurelius. The mission is.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "PRIMA_MATERIA_FORGE"
       },
       "requirements": {
@@ -3926,15 +3926,15 @@
     },
     {
       "id": "fq_star_077",
-      "title": "Legendary Exemplar",
+      "title": "The Legend Returns to the Legion",
       "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Legendary Exemplar.",
+      "description": "Grand Justiciar Aurelius stands at Fortress Kaelen's ceremony hall for the final time this campaign cycle, and what he says is the shortest possible completion of the Legion's highest ceremony: 'You carried the code. The code carried the Legion. Return.' The Prima Materia Forge is secured. The Void Echo Chasm has been cleared. The Severance Faultline has been crossed. The Aethel Siphon Core is under Legion control. The Cradle Expanse answers to the Legion's authority. Return to Fortress Kaelen. The legend is complete.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "PRIMA_MATERIA_FORGE"
       },
       "requirements": {
@@ -4817,15 +4817,15 @@
     },
     {
       "id": "fq_star_099",
-      "title": "The Trinity Trial",
+      "title": "One Last Battle Before the Eternal Gate",
       "type": "story",
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Face Jotunn, Drake, and Harbinger simultaneously. No Legionnaire has ever faced such odds. You will be the first.",
+      "description": "Grand Justiciar Aurelius stands at the approach to the Eternal Gate — the threshold that Legion scripture describes as the final test a Legionnaire must pass before their deeds are recorded in the Legion's permanent record. One last Gravity Titan holds the pass. It is not a coincidence that the Legion's history placed this creature here as the final obstacle; the universe arranges such things for those who carry the code correctly. Defeat the Titan. The Gate is open to those who have earned it.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "",
+        "name": "Grand Justiciar Aurelius",
         "location": "VOID_ECHO_CHASM"
       },
       "requirements": {
@@ -4880,15 +4880,15 @@
     },
     {
       "id": "fq_star_100",
-      "title": "Eternity of Honor",
+      "title": "The Eternal Gate Recognizes the Legion",
       "type": "story",
       "rank": "SS",
       "faction": "STARFORGED_LEGION",
       "region": "FORTRESS_KAELEN",
-      "description": "The Eternal Titan and Harbinger have fallen. Return to Fortress Kaelen. Grand Justiciar Aurelius declares you ETERNAL LEGIONNAIRE. Iman melalui Ujian. Persatuan melalui Pengorbanan. Selamanya.",
+      "description": "Grand Justiciar Aurelius speaks at the Eternal Gate with the economy of language that he has always used for moments of genuine weight: 'The Legion has found its home on Xylos. The code holds. The homeworld was not the last word — it was the first word of this sentence. Xylos is the next.' Return to Fortress Kaelen. The Eternal Gate has opened for the Starforged Legion. What was taken from them across the stars has been rebuilt here, with stronger walls, stronger soldiers, and a code that survived everything the void could throw at it.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
-        "name": "General Kaelen",
+        "name": "Grand Justiciar Aurelius",
         "location": "FORTRESS_KAELEN"
       },
       "requirements": {

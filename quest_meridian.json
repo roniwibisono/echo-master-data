@@ -2,15 +2,15 @@
   "quests": [
     {
       "id": "fq_merid_001",
-      "title": "Resource Reclamation",
-      "type": "hunt",
+      "title": "Your First Contract",
+      "type": "story",
       "rank": "D",
       "faction": "MERIDIAN_CARTEL",
       "region": "CORAL_WETLANDS",
-      "description": "Executive Director Silas has signed your first contract: secure the Coral Wetlands and harvest Cave Rats for the Cartel's raw material supply chain. Profit begins here.",
+      "description": "Don Vercelli Mox — the Meridian Cartel's most feared and best-dressed power broker — does not waste pleasantries. Every relationship in the Cartel is a transaction, and yours begins here: the Coral Wetlands are prime Cartel real estate, and Cave Rats have been eating into the raw material supply chain's profit margins. The contract is simple. The message it sends is simpler: in the Cartel, you earn your place or you don't have one.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
-        "name": "Don Vercelli",
+        "name": "Don Vercelli Mox",
         "location": "CORAL_WETLANDS"
       },
       "requirements": {
@@ -57,15 +57,15 @@
     },
     {
       "id": "fq_merid_002",
-      "title": "Wetland Assets",
-      "type": "hunt",
+      "title": "Property Value",
+      "type": "story",
       "rank": "D",
       "faction": "MERIDIAN_CARTEL",
       "region": "CORAL_WETLANDS",
-      "description": "Wetland Crawlers infest high-value tidal zones. Every Crawler removed increases the property value. Liquidate them.",
+      "description": "Don Vercelli Mox explains the Coral Wetlands' situation with the dispassion of a property assessor: the tidal zones are worth six times their current value if they can be developed for Cartel shipping docks. Wetland Crawlers infesting the shoreline have depressed that value and delayed two dock permits already. In the Cartel's world, every creature that costs more alive than it does dead is already a liquidation order. These Crawlers cost considerably more alive.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
-        "name": "Don Vercelli",
+        "name": "Don Vercelli Mox",
         "location": "CORAL_WETLANDS"
       },
       "requirements": {
@@ -110,15 +110,15 @@
     },
     {
       "id": "fq_merid_003",
-      "title": "Tidal Futures",
-      "type": "hunt",
+      "title": "Two Margins in One Shot",
+      "type": "story",
       "rank": "D",
       "faction": "MERIDIAN_CARTEL",
       "region": "CORAL_WETLANDS",
-      "description": "Coral Tidal Crabs are disrupting Cartel dock operations. Their shells have market value \u2014 kill two birds with one bullet.",
+      "description": "The Cartel's efficiency doctrine: every operation should have at least two revenue streams. Coral Tidal Crabs are blocking the dock access lanes \u2014 that's the cost column. Their shells, however, are worth twelve Aurum Cipher each on the Xylosian artisan market \u2014 that's the profit column. Don Vercelli Mox frames this mission with quiet appreciation: 'The crabs are paying for their own removal.' This is why the Cartel thinks faster than everyone else.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
-        "name": "Don Vercelli",
+        "name": "Don Vercelli Mox",
         "location": "CORAL_WETLANDS"
       },
       "requirements": {
@@ -163,15 +163,15 @@
     },
     {
       "id": "fq_merid_004",
-      "title": "Mudling Acquisition",
-      "type": "hunt",
+      "title": "The Aethel in the Mud",
+      "type": "story",
       "rank": "D",
       "faction": "MERIDIAN_CARTEL",
       "region": "CORAL_WETLANDS",
-      "description": "Tide Mudlings are digging into Cartel shipping lanes. Their mud contains trace Aethel \u2014 extract it.",
+      "description": "Tide Mudlings have been tunneling through the Cartel's shipping lane foundations \u2014 a nuisance until Don Vercelli Mox's geological assessors discovered that their mud contains trace aethel deposits from the Severance's contamination of the tidal substrate. Suddenly the Mudlings are both a problem and a supply source. The Arcanum Seekers would pay handsomely for processed trace aethel. The Cartel's shipping lanes need clearing. The math, as Vercelli says, 'works out beautifully.'",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
-        "name": "Don Vercelli",
+        "name": "Don Vercelli Mox",
         "location": "CORAL_WETLANDS"
       },
       "requirements": {
@@ -216,12 +216,12 @@
     },
     {
       "id": "fq_merid_005",
-      "title": "The Class Contract",
+      "title": "Renegotiating Your Terms",
       "type": "tutorial",
       "rank": "D",
       "faction": "MERIDIAN_CARTEL",
       "region": "PORT_MERIDIAN",
-      "description": "Don Vercelli sees your quarterly performance. Time to renegotiate your contract. Report to Captain Vex at Port Meridian for class specialization.",
+      "description": "Don Vercelli Mox reviews quarterly performance with the same dispassion he applies to everything. The verdict is implicit in the summons to Port Meridian: you have earned a renegotiation. In the Cartel, specialization is not a gift — it is a clause in a revised contract that defines your market value for every mission that follows. Captain Vex handles contract upgrades and tactical specialization. Choose the clause that makes you worth the most. In the Cartel, this is the only relevant question.",
       "quest_giver": {
         "npc_id": "npc_meridian_class_trainer",
         "name": "Captain Vex",
@@ -292,15 +292,15 @@
     },
     {
       "id": "fq_merid_006",
-      "title": "Market Expansion",
-      "type": "exploration",
+      "title": "Untapped Territory",
+      "type": "story",
       "rank": "D",
       "faction": "MERIDIAN_CARTEL",
       "region": "SMUGGLER_JUNGLE",
-      "description": "The Smuggler Jungle is an untapped market. Cartel needs forward distribution centers. Scout the jungle and establish a trading post.",
+      "description": "The Smuggler Jungle is the one zone on Xylos where goods move without oversight — which is exactly why the Meridian Cartel has not yet made it theirs. Don Vercelli Mox describes this as 'a market running at 30% efficiency without Cartel management.' The other factions avoid it because it's lawless. The Cartel sees it differently: lawless means the contracts have not been written yet. Be the first one in. Establish a trading post. Write the first contract.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
-        "name": "Don Vercelli",
+        "name": "Don Vercelli Mox",
         "location": "SMUGGLER_JUNGLE"
       },
       "requirements": {
@@ -345,15 +345,15 @@
     },
     {
       "id": "fq_merid_007",
-      "title": "Stalker Competition",
-      "type": "hunt",
+      "title": "The Competition Clause",
+      "type": "story",
       "rank": "D",
       "faction": "MERIDIAN_CARTEL",
       "region": "SMUGGLER_JUNGLE",
-      "description": "Jungle Stalkers are competition \u2014 they hunt Cartel supply caravans. Remove the competition.",
+      "description": "Jungle Stalkers have been hunting Cartel supply caravans moving through the new trading post's access routes \u2014 eating into delivery margins and discouraging the independent operators whose business Don Vercelli Mox is counting on. Sly, the Cartel's jungle-network fixer, puts it simply: 'Every caravan the Stalkers take is a contract the Cartel doesn't get paid on.' In the Cartel's standard commercial agreement, predators that eat revenue are competitors. Remove them.",
       "quest_giver": {
         "npc_id": "npc_shady_smuggler",
-        "name": "Sly",
+        "name": "Don Vercelli Mox",
         "location": "SMUGGLER_JUNGLE"
       },
       "requirements": {
@@ -398,15 +398,15 @@
     },
     {
       "id": "fq_merid_008",
-      "title": "Swamp Liability",
-      "type": "hunt",
+      "title": "Written Off",
+      "type": "story",
       "rank": "D",
       "faction": "MERIDIAN_CARTEL",
       "region": "SMUGGLER_JUNGLE",
-      "description": "Swamp Rippers are a liability on the Cartel balance sheet. Write them off.",
+      "description": "Swamp Rippers — aggressive territorial predators that have been displaced by the jungle's shrinking clean-water zones, a consequence of the Severance's long-term pollution — have begun attacking Cartel workers clearing the new trade route. Don Vercelli Mox has reviewed the incident reports, calculated the injury costs, the lost labor hours, and the equipment damage, and arrived at a figure. 'They're a liability,' he says. 'Write them off.' He means it in every sense.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
-        "name": "Don Vercelli",
+        "name": "Don Vercelli Mox",
         "location": "SMUGGLER_JUNGLE"
       },
       "requirements": {
@@ -451,15 +451,15 @@
     },
     {
       "id": "fq_merid_009",
-      "title": "Venomfang Futures",
-      "type": "hunt",
+      "title": "Poison as Currency",
+      "type": "story",
       "rank": "D",
       "faction": "MERIDIAN_CARTEL",
       "region": "SMUGGLER_JUNGLE",
-      "description": "Jungle Venomfangs produce venom worth 500 CS per vial on the black market. Harvest the asset.",
+      "description": "Madam Z — the Cartel's black market liaison, a woman who has never been on any official Cartel payroll but whose network Don Vercelli Mox relies on completely — has identified a premium buyer for Jungle Venomfang venom: an alchemical research house operating under Arcanum Seeker patronage. Current market rate: four hundred Aurum Cipher per sealed vial. The Venomfangs also happen to be harassing the new trade route. In the Cartel, the best problems solve two things at once.",
       "quest_giver": {
         "npc_id": "npc_black_market_dealer",
-        "name": "Madam Z",
+        "name": "Don Vercelli Mox",
         "location": "SMUGGLER_JUNGLE"
       },
       "requirements": {
@@ -504,15 +504,15 @@
     },
     {
       "id": "fq_merid_010",
-      "title": "Golem Liquidation",
-      "type": "boss",
+      "title": "Hostile Inventory",
+      "type": "story",
       "rank": "D",
       "faction": "MERIDIAN_CARTEL",
       "region": "SMUGGLER_JUNGLE",
-      "description": "A Contraband Golem \u2014 a walking warehouse of illegal goods \u2014 blocks the main trade route. Liquidate it and seize its inventory.",
+      "description": "A Contraband Golem \u2014 a war construct that a previous black-market operation used as a walking vault, stuffed with illegal goods before the operation was shut down by whoever they were dealing with \u2014 now blocks the main Cartel trade route, attacking anyone who approaches. Don Vercelli Mox does not ask what is inside it. He already knows, because the original operator owed the Cartel a very large sum. 'Consider this a repossession,' he says, adjusting his cufflinks.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
-        "name": "Don Vercelli",
+        "name": "Don Vercelli Mox",
         "location": "SMUGGLER_JUNGLE"
       },
       "requirements": {
@@ -557,15 +557,15 @@
     },
     {
       "id": "fq_merid_011",
-      "title": "Supply Chain Security",
-      "type": "exploration",
+      "title": "The Heart of the Deal",
+      "type": "story",
       "rank": "C",
       "faction": "MERIDIAN_CARTEL",
       "region": "BLACK_DOCK_MARKET",
-      "description": "The Black Dock Market is the heart of Cartel commerce. Secure the supply chain \u2014 Cartel trade must flow uninterrupted.",
+      "description": "The Black Dock Market is the Cartel's crown jewel \u2014 an underground trading hub where every faction, every faction-adjacent operator, and every independent on Xylos eventually comes to do business. Don Vercelli Mox built it from a single smuggler's berth twenty years ago, deal by deal. Now the supply chain feeding it is under pressure from multiple competitors. Before you operate at this level of Cartel business, you need to understand what is at stake. Enter the Black Dock. See what the Cartel protects.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
-        "name": "Don Vercelli",
+        "name": "Don Vercelli Mox",
         "location": "BLACK_DOCK_MARKET"
       },
       "requirements": {
@@ -610,15 +610,15 @@
     },
     {
       "id": "fq_merid_012",
-      "title": "Smuggler Enforcement",
-      "type": "hunt",
+      "title": "Commission or Closure",
+      "type": "story",
       "rank": "C",
       "faction": "MERIDIAN_CARTEL",
       "region": "BLACK_DOCK_MARKET",
-      "description": "Black Dock Smugglers are independent operators \u2014 they don't pay Cartel commission. Enforce the monopoly.",
+      "description": "The Black Dock Smugglers operating without Cartel commission are not just a revenue problem \u2014 they are a structural threat. If independent operators can trade in Cartel territory without paying tribute, the message to every other trader in the network is that the Cartel's authority is negotiable. Don Vercelli Mox's authority is not negotiable. The commission rate is set. The enforcement policy is simple: pay or stop operating. Most choose wrong.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
-        "name": "Don Vercelli",
+        "name": "Don Vercelli Mox",
         "location": "BLACK_DOCK_MARKET"
       },
       "requirements": {
@@ -663,15 +663,15 @@
     },
     {
       "id": "fq_merid_013",
-      "title": "Hostile Takeover",
-      "type": "hunt",
+      "title": "Counterproposal",
+      "type": "story",
       "rank": "C",
       "faction": "MERIDIAN_CARTEL",
       "region": "BLACK_DOCK_MARKET",
-      "description": "Black Dock Assassins are assassinating Cartel middle management. This is a hostile takeover attempt. Execute a reverse takeover.",
+      "description": "Three Cartel middle managers are dead in two days. The Black Dock Assassins behind it are working for a rival network — rumored to be OmniCorp-funded — attempting a hostile restructuring of Cartel operations at the Dock. Don Vercelli Mox reads the intelligence report with the precise calm of someone who has survived six previous hostile takeover attempts. 'Our counterproposal,' he says, 'is that they stop existing.' The boardroom just looks different in the Cartel.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
-        "name": "Don Vercelli",
+        "name": "Don Vercelli Mox",
         "location": "BLACK_DOCK_MARKET"
       },
       "requirements": {
@@ -716,15 +716,15 @@
     },
     {
       "id": "fq_merid_014",
-      "title": "Enforcer Acquisition",
-      "type": "boss",
+      "title": "Terms Not Open for Discussion",
+      "type": "story",
       "rank": "C",
       "faction": "MERIDIAN_CARTEL",
       "region": "BLACK_DOCK_MARKET",
-      "description": "Black Dock Enforcers run a competing protection racket. Acquire their operation \u2014 whether they agree or not.",
+      "description": "Black Dock Enforcers run a protection racket across the market's eastern berths \u2014 a racket that operates without Cartel permission, without Cartel oversight, and without Cartel revenue sharing. Don Vercelli Mox sent an acquisition offer. They sent the courier back without a reply. This is, in the Cartel's legal framework, a breach of commercial terms. The Cartel's standard breach remedy is immediate and non-negotiable. Acquire the operation. The terms are not open for discussion.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
-        "name": "Don Vercelli",
+        "name": "Don Vercelli Mox",
         "location": "BLACK_DOCK_MARKET"
       },
       "requirements": {
@@ -769,15 +769,15 @@
     },
     {
       "id": "fq_merid_015",
-      "title": "Market Audit",
-      "type": "hunt",
+      "title": "Quarterly Deregistration",
+      "type": "story",
       "rank": "C",
       "faction": "MERIDIAN_CARTEL",
       "region": "BLACK_DOCK_MARKET",
-      "description": "Quarterly audit of all Black Dock operations. Any unlicensed traders will be... deregistered.",
+      "description": "Madam Z conducts the Black Dock's quarterly audit with the thoroughness of someone who has found, in twenty years of operation, that unlicensed traders always underestimate the Cartel's record-keeping. The audit is complete. The deregistration list is comprehensive. Smugglers operating without current permits, Assassins contracted outside Cartel channels — they have all been identified. Their continued existence is a footnote on an otherwise clean ledger. Close the footnotes.",
       "quest_giver": {
         "npc_id": "npc_black_market_dealer",
-        "name": "Madam Z",
+        "name": "Don Vercelli Mox",
         "location": "BLACK_DOCK_MARKET"
       },
       "requirements": {
@@ -822,15 +822,15 @@
     },
     {
       "id": "fq_merid_016",
-      "title": "Cartel Expansion",
-      "type": "hunt",
+      "title": "Market Share, By Force",
+      "type": "story",
       "rank": "C",
       "faction": "MERIDIAN_CARTEL",
       "region": "BLACK_DOCK_MARKET",
-      "description": "Multiple Enforcer crews resist Cartel authority. Break their resistance with overwhelming market force.",
+      "description": "The remaining Enforcer crews in the Black Dock's western sector are coordinating their resistance — sharing intelligence, covering each other's operations, and actively steering clients away from Cartel-licensed services. Don Vercelli Mox calls this 'a price war conducted with weapons.' He finds it almost impressive. Almost. The Cartel's market share in the Black Dock will be total, or these Enforcer crews will serve as a case study in what happens when you compete with the Cartel.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
-        "name": "Don Vercelli",
+        "name": "Don Vercelli Mox",
         "location": "BLACK_DOCK_MARKET"
       },
       "requirements": {
@@ -875,15 +875,15 @@
     },
     {
       "id": "fq_merid_017",
-      "title": "Inventory Audit",
-      "type": "collect",
+      "title": "The Missing Line Items",
+      "type": "story",
       "rank": "C",
       "faction": "MERIDIAN_CARTEL",
       "region": "BLACK_DOCK_MARKET",
-      "description": "Cartel inventory discrepancies detected. Audit the missing shipments and recover the goods.",
+      "description": "Sly's ledger has discrepancies — four shipments of Cartel-controlled goods that were logged entering the Black Dock but never logged arriving at their designated berths. Someone in the distribution chain is skimming, and in the Cartel's contract framework, inventory theft carries a very specific clause. Find the missing goods. Find the people who took them. The goods come back to the Cartel. The people do not.",
       "quest_giver": {
         "npc_id": "npc_shady_smuggler",
-        "name": "Sly",
+        "name": "Don Vercelli Mox",
         "location": "BLACK_DOCK_MARKET"
       },
       "requirements": {
@@ -928,15 +928,15 @@
     },
     {
       "id": "fq_merid_018",
-      "title": "Enforcer Crisis",
-      "type": "boss",
+      "title": "There Is Only One Cartel",
+      "type": "story",
       "rank": "C",
       "faction": "MERIDIAN_CARTEL",
       "region": "BLACK_DOCK_MARKET",
-      "description": "An Enforcer cartel (lowercase C) has formed to oppose Meridian Cartel. This cannot stand. Break their organization at the top.",
+      "description": "A coordinated Enforcer syndicate — eight cells, unified leadership, financed from outside the Cartel network — has positioned itself as a 'competitive alternative' to Meridian operations in the Black Dock. Don Vercelli Mox reads the intelligence with the expression of someone who has been mildly inconvenienced. 'There is only one Cartel,' he says. 'Everything else is a temporary arrangement.' Break the syndicate at its leadership. The alternative to the Cartel does not get to exist.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
-        "name": "Don Vercelli",
+        "name": "Don Vercelli Mox",
         "location": "BLACK_DOCK_MARKET"
       },
       "requirements": {
@@ -981,15 +981,15 @@
     },
     {
       "id": "fq_merid_019",
-      "title": "The Advanced Auditor",
-      "type": "boss",
+      "title": "Closing a Disruptive Account",
+      "type": "story",
       "rank": "C",
       "faction": "MERIDIAN_CARTEL",
       "region": "BLACK_DOCK_MARKET",
-      "description": "A Resonance Echo has been interfering with Cartel communications. Audit its power and close its account permanently.",
+      "description": "A Resonance Echo has formed in the Black Dock's deep storage sector — drawn by the high concentration of aethel goods the Cartel has been routing through here. Its harmonic interference is scrambling encrypted Cartel communications, which means every deal in progress is potentially compromised. Don Vercelli Mox describes this in precise financial terms: an entity generating unlimited liability with zero revenue contribution. In the Cartel's accounting framework, such accounts are closed permanently.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
-        "name": "Don Vercelli",
+        "name": "Don Vercelli Mox",
         "location": "BLACK_DOCK_MARKET"
       },
       "requirements": {
@@ -1034,15 +1034,15 @@
     },
     {
       "id": "fq_merid_020",
-      "title": "Promotion Package",
+      "title": "Your Q1 Performance Review",
       "type": "story",
       "rank": "C",
       "faction": "MERIDIAN_CARTEL",
       "region": "PORT_MERIDIAN",
-      "description": "Your quarterly performance exceeds projections. Return to Port Meridian for your Advanced Contractor promotion and bonus package.",
+      "description": "Don Vercelli Mox conducts performance reviews the way he conducts everything: with complete information, no unnecessary sentiment, and a clear sense of what the numbers mean. Your numbers exceed projection. The Cartel's Advanced Contractor tier comes with enhanced access to the Sunken Aethel Ruin operations, expanded commission authority, and the quiet knowledge that you are now, in the Cartel's internal taxonomy, someone worth keeping. Return to Port Meridian. Sign the new contract.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
-        "name": "Don Vercelli",
+        "name": "Don Vercelli Mox",
         "location": "PORT_MERIDIAN"
       },
       "requirements": {

@@ -2,15 +2,15 @@
   "quests": [
     {
       "id": "fq_arc_001",
-      "title": "The Mystic Beginning",
-      "type": "hunt",
+      "title": "First Specimen, First Sin",
+      "type": "story",
       "rank": "D",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRYSTAL_SLOPE",
-      "description": "High Seeker Elara has accepted you into the Arcanum Seekers. Begin your initiation by harvesting energy fragments from Wild Mushrooms on the Crystal Slope. Knowledge is Power.",
+      "description": "High Seeker Elara Voss has inducted you into the Arcanum Seekers — the faction the Concordium calls reckless and the Iron Hegemony calls dangerous, and who call themselves the only people on Xylos who are asking the right questions. The Crystal Slope's Wild Mushrooms absorb raw aethel from the Shard fragment impact site nearby, storing energy signatures that predate the Great Severance. The Arcanum needs those signatures. Knowledge has a price, and it begins here.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
-        "name": "Scholar Elara",
+        "name": "High Seeker Elara Voss",
         "location": "CRYSTAL_SLOPE"
       },
       "requirements": {
@@ -55,15 +55,15 @@
     },
     {
       "id": "fq_arc_002",
-      "title": "Crystal Sentience",
-      "type": "hunt",
+      "title": "Does the Crystal Dream",
+      "type": "story",
       "rank": "D",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRYSTAL_SLOPE",
-      "description": "Crystal Sproutlings possess a primitive sentience. Study them up close \u2014 through combat if necessary. The Arcanum must understand all forms of consciousness.",
+      "description": "Crystal Sproutlings grow from Shard fragment deposits \u2014 they are, technically, living extensions of the same material that was shattered during the Great Severance. High Seeker Elara Voss believes they possess a rudimentary Aethelgardian-coded consciousness, a biological memory of the world before the Siphon overloaded. The Arcanum does not apologize for how it learns. Engage them. Collect what remains.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
-        "name": "Scholar Elara",
+        "name": "High Seeker Elara Voss",
         "location": "CRYSTAL_SLOPE"
       },
       "requirements": {
@@ -106,12 +106,12 @@
     },
     {
       "id": "fq_arc_003",
-      "title": "Shardling Analysis",
-      "type": "hunt",
+      "title": "The Living Archive",
+      "type": "story",
       "rank": "D",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRYSTAL_SLOPE",
-      "description": "Shardlings are fragments of a larger crystalline consciousness. Collect enough specimens for the Arcanum's living archive.",
+      "description": "Archivist Sylas — the Arcanum's keeper of specimens and secrets — has a theory: Shardlings are not random creatures but fractal echoes of the original Aethel Shard, each one containing a tiny portion of the Shard's encoded memory. The Concordium wants to regulate the Shard. The Arcanum wants to read it. Bring Sylas enough Shardlings and he will begin to translate what the Shard is trying to say.",
       "quest_giver": {
         "npc_id": "npc_arcanum_archivist",
         "name": "Archivist Sylas",
@@ -157,15 +157,15 @@
     },
     {
       "id": "fq_arc_004",
-      "title": "Wisp Whispers",
-      "type": "hunt",
+      "title": "Ghosts of the Aethelgardians",
+      "type": "story",
       "rank": "D",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRYSTAL_SLOPE",
-      "description": "Crystal Wisps are pure energy manifestations. Their whispers are believed to contain fragments of Precursor language. Capture their energy signature.",
+      "description": "An Aethelgardian text recovered from the Resonance Caverns — one of the Arcanum's most prized possessions — describes the Crystal Wisps as 'light-formed messengers, carrying the speech of those who built the Siphon.' High Seeker Elara Voss believes every Wisp that flickers out is a word from before the Severance, lost forever. She wants their energy signatures captured before that language is gone entirely. The methodology is unfortunate but necessary.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
-        "name": "Scholar Elara",
+        "name": "High Seeker Elara Voss",
         "location": "CRYSTAL_SLOPE"
       },
       "requirements": {
@@ -208,12 +208,12 @@
     },
     {
       "id": "fq_arc_005",
-      "title": "The First Awakening",
+      "title": "The Spire Calls to You",
       "type": "tutorial",
       "rank": "D",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "OBSERVATORY_SPIRE",
-      "description": "You have shown great promise. Archsage Myr summons you to the Observatory Spire to choose your path of arcane specialization.",
+      "description": "The Observatory Spire is the Arcanum's crown jewel — a tower built to watch the stars and read the aethel currents that flow between them. Archsage Myr has reviewed your field reports and called you to the Spire in person. In the Arcanum, knowledge specialization is not a promotion; it is a philosophical declaration of what questions you will spend your life pursuing. Choose carefully. The wrong answer will not be punished — but it will define you.",
       "quest_giver": {
         "npc_id": "npc_arcanum_class_trainer",
         "name": "Archsage Myr",
@@ -281,15 +281,15 @@
     },
     {
       "id": "fq_arc_006",
-      "title": "Secrets of the Quarter",
-      "type": "exploration",
+      "title": "The Shattered Laboratory",
+      "type": "story",
       "rank": "D",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "FRACTURED_GLASS_VALLEY",
-      "description": "The Fractured Glass Valley holds relics from a shattered Precursor research station. Arcanum Seeker scholars believe ancient data slates are buried here.",
+      "description": "The Fractured Glass Valley was an Aethelgardian research station before the Severance shattered it — and the terrain along with it. High Seeker Elara Voss has been trying to get a team in here for years, but the Concordium kept classifying it restricted. Now, post-Schism, in the chaos of competing factions, the Arcanum moves. The data slates buried in the glass are worth more than the annual budget of most research divisions. Get in before anyone else does.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
-        "name": "Scholar Elara",
+        "name": "High Seeker Elara Voss",
         "location": "FRACTURED_GLASS_VALLEY"
       },
       "requirements": {
@@ -332,12 +332,12 @@
     },
     {
       "id": "fq_arc_007",
-      "title": "Glass Walker",
-      "type": "hunt",
+      "title": "How the Glass Learns to Walk",
+      "type": "story",
       "rank": "D",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "FRACTURED_GLASS_VALLEY",
-      "description": "Glass Crawlers navigate the valley's razor-sharp terrain with ease. Study their movement patterns \u2014 they may hold the key to safe traversal.",
+      "description": "Glass Crawlers evolved in the Fractured Glass Valley over generations, developing reinforced chitin that lets them move through razor-edged terrain that cuts through standard armor plating in minutes. Archivist Sylas believes their locomotion pattern is derived from Aethelgardian nano-structure principles \u2014 essentially, the creatures stumbled into a solution the ancient engineers spent centuries developing. Their movement data could redefine Arcanum field equipment design. Collect specimens carefully.",
       "quest_giver": {
         "npc_id": "npc_arcanum_archivist",
         "name": "Archivist Sylas",
@@ -383,15 +383,15 @@
     },
     {
       "id": "fq_arc_008",
-      "title": "Alpha Rat Infestation",
-      "type": "hunt",
+      "title": "The Rat in the Archive",
+      "type": "story",
       "rank": "D",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "FRACTURED_GLASS_VALLEY",
-      "description": "A Giant Alpha Rat has claimed the valley's central archive chamber. Clear it out \u2014 the knowledge stored inside is priceless.",
+      "description": "A Giant Alpha Rat has made the valley's sealed archive chamber its nest \u2014 the chamber that Arcanum scouts confirmed contains pre-Severance data cylinders still intact after centuries. High Seeker Elara Voss's voice is tight when she explains this. The Concordium had this chamber on their survey maps for decades and left it sealed. The Arcanum broke through last season. A rat will not reclaim what human curiosity has finally unlocked.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
-        "name": "Scholar Elara",
+        "name": "High Seeker Elara Voss",
         "location": "FRACTURED_GLASS_VALLEY"
       },
       "requirements": {
@@ -438,12 +438,12 @@
     },
     {
       "id": "fq_arc_009",
-      "title": "Glass Wisp Extraction",
-      "type": "hunt",
+      "title": "Complexity in the Shards",
+      "type": "story",
       "rank": "D",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "FRACTURED_GLASS_VALLEY",
-      "description": "Glass Wisps are an evolved form of Crystal Wisps, their energy signatures far more complex. Contain them for the Arcanum's energy archive.",
+      "description": "Glass Wisps are what Crystal Wisps become after generations of exposure to the valley's compressed aethel radiation — their energy signatures have grown so complex that Researcher Vin's field equipment can barely parse them. This is exactly why the Arcanum exists. Every other faction on Xylos sees these creatures as obstacles. The Arcanum sees them as data points in the longest experiment in history: what does the Severance eventually become?",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -489,15 +489,15 @@
     },
     {
       "id": "fq_arc_010",
-      "title": "Crystal Ram Charge",
-      "type": "boss",
+      "title": "Horns of the Old Current",
+      "type": "story",
       "rank": "D",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "FRACTURED_GLASS_VALLEY",
-      "description": "Crystal Rams guard the valley's deepest ravine. Their crystalline horns resonate with raw Aethel energy. Harvest them for the Arcanum.",
+      "description": "Crystal Rams grow their horns by absorbing the deep aethel currents that flow through the valley's crystalline substrate — the same currents that once powered Aethelgardian technology. Their horns are essentially biological aethel conduits, grown over decades into shapes that mirror the original Siphon's internal architecture. High Seeker Elara Voss wants two of them for a reconstruction project she has never shared with the Concordium and never will.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
-        "name": "Scholar Elara",
+        "name": "High Seeker Elara Voss",
         "location": "FRACTURED_GLASS_VALLEY"
       },
       "requirements": {
@@ -544,15 +544,15 @@
     },
     {
       "id": "fq_arc_011",
-      "title": "Cradle Observations",
-      "type": "exploration",
+      "title": "The Caverns That Speak",
+      "type": "story",
       "rank": "C",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "RESONANCE_CAVERNS",
-      "description": "The Resonance Caverns emit frequencies matching Precursor communication protocols. Arcanum believes these caverns hold the key to ancient technology.",
+      "description": "The Resonance Caverns were discovered by an Arcanum expedition three years ago — and immediately classified by the Concordium, who found the frequency emissions 'destabilizing to infrastructure.' What that really means, High Seeker Elara Voss explains, is that the Concordium is afraid of what the caverns are saying. The frequencies match Aethelgardian communication protocols last recorded three hundred years before the Severance. The Arcanum is listening now.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
-        "name": "Scholar Elara",
+        "name": "High Seeker Elara Voss",
         "location": "RESONANCE_CAVERNS"
       },
       "requirements": {
@@ -595,12 +595,12 @@
     },
     {
       "id": "fq_arc_012",
-      "title": "Bat Frequencies",
-      "type": "hunt",
+      "title": "Interference Pattern",
+      "type": "story",
       "rank": "C",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "RESONANCE_CAVERNS",
-      "description": "Resonance Bats emit sonic pulses that disrupt arcane equipment. Nullify them and collect their frequency patterns.",
+      "description": "Resonance Bats have adapted to use the caverns' Aethelgardian frequency emissions as their primary navigation signal — which means when they pulse their own echolocation, it creates harmonic interference that drowns out the original signal the Arcanum is trying to record. Researcher Vin is philosophical about it: 'They evolved into the frequency stream like we evolved into language.' He still needs them neutralized before the interference destroys another month of data collection.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -646,15 +646,15 @@
     },
     {
       "id": "fq_arc_013",
-      "title": "Golem Guardians",
-      "type": "boss",
+      "title": "Guardians of a Forgotten Archive",
+      "type": "story",
       "rank": "C",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "RESONANCE_CAVERNS",
-      "description": "Resonance Golems are Precursor guardians powered by sound harmonics. Their construction is millennia ahead of anything the Arcanum has seen.",
+      "description": "Resonance Golems were not born — they were built, by Aethelgardian architects who understood acoustics as a force as real as gravity. They still guard the cavern's deeper chambers, still following protocols written before Xylos had a recorded history. High Seeker Elara Voss reads the technical specifications in their construction with open hunger: 'They solved in stone what we have not solved in silicon.' She needs them disabled — and every component catalogued.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
-        "name": "Scholar Elara",
+        "name": "High Seeker Elara Voss",
         "location": "RESONANCE_CAVERNS"
       },
       "requirements": {
@@ -697,12 +697,12 @@
     },
     {
       "id": "fq_arc_014",
-      "title": "Echo Math",
-      "type": "hunt",
+      "title": "The Proof in the Stone",
+      "type": "story",
       "rank": "C",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "RESONANCE_CAVERNS",
-      "description": "The cavern walls echo with mathematical precision. Record the echo patterns \u2014 they may be a Precursor mathematical proof frozen in sound.",
+      "description": "Archivist Sylas has mapped the echo patterns in the deepest cavern chambers and believes they form a recursive mathematical structure \u2014 a proof, encoded in reflected sound, that describes the fundamental resonance equation underlying aethel energy transfer. If he is right, this single proof is worth more than the entire Concordium's engineering database. The Bats that keep disrupting his recordings have earned a very specific kind of contempt from a very quiet man.",
       "quest_giver": {
         "npc_id": "npc_arcanum_archivist",
         "name": "Archivist Sylas",
@@ -748,15 +748,15 @@
     },
     {
       "id": "fq_arc_015",
-      "title": "Harmonic Interference",
-      "type": "hunt",
+      "title": "What the Signal Hides",
+      "type": "story",
       "rank": "C",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "RESONANCE_CAVERNS",
-      "description": "Interference patterns in the cavern harmonics indicate hostile entities disrupting the Precursor signal. Locate and eliminate the source.",
+      "description": "Something is actively corrupting the Aethelgardian signal in the Resonance Caverns — not random interference, but a structured counter-harmonic that High Seeker Elara Voss describes as deliberate suppression. Something in the deep chambers does not want the signal heard. The Golems are amplifying the suppression, and the Bats are spreading it. Elara's eyes are bright with exactly the kind of dangerous curiosity that made the Concordium classify her research six times.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
-        "name": "Scholar Elara",
+        "name": "High Seeker Elara Voss",
         "location": "RESONANCE_CAVERNS"
       },
       "requirements": {
@@ -799,12 +799,12 @@
     },
     {
       "id": "fq_arc_016",
-      "title": "Cavern Cartography",
-      "type": "collect",
+      "title": "The Unmapped Chambers",
+      "type": "story",
       "rank": "C",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "RESONANCE_CAVERNS",
-      "description": "Map the unexplored sections of the Resonance Caverns. The Arcanum believes there are sealed chambers containing Precursor artifacts.",
+      "description": "Archivist Sylas's cartography of the Resonance Caverns has revealed sections that do not appear on any map — not Concordium survey maps, not Iron Hegemony mineral charts, not even the speculative Arcanum projections. Sealed chambers, acoustically isolated, with energy signatures that spike and then vanish whenever a detection instrument approaches. Whatever is in there chose to be unfindable. The Arcanum has chosen to find it anyway.",
       "quest_giver": {
         "npc_id": "npc_arcanum_archivist",
         "name": "Archivist Sylas",
@@ -850,15 +850,15 @@
     },
     {
       "id": "fq_arc_017",
-      "title": "Sealed Chamber",
-      "type": "exploration",
+      "title": "What Was Meant to Stay Sealed",
+      "type": "story",
       "rank": "C",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "RESONANCE_CAVERNS",
-      "description": "The cartography reveals a sealed Precursor chamber. Breach it and document everything inside before the resonance destabilizes the entrance.",
+      "description": "The sealed chamber Archivist Sylas found is not just locked — it was engineered to resist entry, with Golem guardians reactivating every time a breach is attempted. The Aethelgardians sealed something here deliberately, which means they knew it needed to be contained. High Seeker Elara Voss's response to this is characteristic: 'Everything that was sealed was sealed by someone who was also afraid of knowing. We are not afraid.' Breach the chamber. Document everything.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
-        "name": "Scholar Elara",
+        "name": "High Seeker Elara Voss",
         "location": "RESONANCE_CAVERNS"
       },
       "requirements": {
@@ -901,15 +901,15 @@
     },
     {
       "id": "fq_arc_018",
-      "title": "Echoes of the Precursors",
+      "title": "The Voice of the Aethelgardians",
       "type": "story",
       "rank": "C",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "RESONANCE_CAVERNS",
-      "description": "The artifacts contain Precursor language fragments. High Seeker Elara wants them translated immediately. Protect the translation ritual.",
+      "description": "The artifacts from the sealed chamber contain Aethelgardian language fragments in a dialect that Archivist Sylas has never seen — older than the Siphon's construction era, possibly older than anything in the Arcanum's database. High Seeker Elara Voss has begun a real-time translation and she cannot be interrupted. The Golems are fighting back. The Bats are swarming. Someone — or something — does not want those words spoken aloud again.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
-        "name": "Scholar Elara",
+        "name": "High Seeker Elara Voss",
         "location": "RESONANCE_CAVERNS"
       },
       "requirements": {
@@ -952,15 +952,15 @@
     },
     {
       "id": "fq_arc_019",
-      "title": "The Resonance Trial",
-      "type": "boss",
+      "title": "The Sum of Lost Knowledge",
+      "type": "story",
       "rank": "C",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "RESONANCE_CAVERNS",
-      "description": "The Resonance Echo \u2014 a concentrated manifestation of Precursor data \u2014 has formed in the deepest chamber. Defeat it and secure its energy data for the Arcanum's eternal archive.",
+      "description": "The Resonance Echo that formed in the deepest chamber is not a creature in any biological sense \u2014 it is the caverns' accumulated Aethelgardian data coalesced into a coherent energy entity, the same phenomenon the ancient texts called 'a dreaming archive.' The Arcanum has theorized about this. High Seeker Elara Voss has written three papers about the theoretical possibility. She is almost incapable of hiding her awe as she orders you to defeat it and extract its data core.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
-        "name": "Scholar Elara",
+        "name": "High Seeker Elara Voss",
         "location": "RESONANCE_CAVERNS"
       },
       "requirements": {
@@ -1007,15 +1007,15 @@
     },
     {
       "id": "fq_arc_020",
-      "title": "Seeker's Trial",
+      "title": "The Spire Opens Its Deeper Doors",
       "type": "story",
       "rank": "C",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "OBSERVATORY_SPIRE",
-      "description": "You have proven your worth as a true Arcanum Seeker. Return to the Observatory Spire for your Advanced Class evaluation and access to restricted archives.",
+      "description": "The Resonance Echo's data core is being analyzed in the Observatory Spire's highest laboratory. High Seeker Elara Voss has called you back — not with orders, but with something closer to an invitation. The Arcanum's restricted archives, the ones the Concordium tried to confiscate twice, are being opened for your Advanced evaluation. What you learned in the Caverns was just the beginning. The Spire's deeper doors require a key that can only be earned, not given.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
-        "name": "Scholar Elara",
+        "name": "High Seeker Elara Voss",
         "location": "OBSERVATORY_SPIRE"
       },
       "requirements": {

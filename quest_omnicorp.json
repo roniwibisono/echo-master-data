@@ -2,15 +2,15 @@
   "quests": [
     {
       "id": "fq_omni_001",
-      "title": "Sanitization Protocol",
-      "type": "hunt",
+      "title": "Asset Activated",
+      "type": "story",
       "rank": "D",
       "faction": "OMNICORP",
       "region": "HIGHLAND_PLATEAU",
-      "description": "Unit activated. Primary directive: clear Highland Plateau of Plateau Hares causing sensor interference. Efficiency is mandatory.",
+      "description": "Director Astra Vey of OmniCorp does not introduce herself the way other faction leaders do. The briefing arrives as a data packet: your activation code, your initial tasking, and a performance metric you are expected to meet. OmniCorp is a galaxy-spanning corporation that treats Xylos as a line item in a much larger balance sheet — and the Highland Plateau is the first asset to be optimized. Plateau Hares are causing sensor interference. Sanitize the zone. Efficiency is not requested. It is the baseline.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
-        "name": "Director Sterling",
+        "name": "Director Astra Vey",
         "location": "HIGHLAND_PLATEAU"
       },
       "requirements": {
@@ -57,15 +57,15 @@
     },
     {
       "id": "fq_omni_002",
-      "title": "Survey Bot Deployment",
-      "type": "hunt",
+      "title": "Recovery Protocol: Survey Fleet",
+      "type": "story",
       "rank": "D",
       "faction": "OMNICORP",
       "region": "HIGHLAND_PLATEAU",
-      "description": "Omni Survey Bots have gone offline. Recover their data cores and neutralize any hostiles encountered during retrieval.",
+      "description": "OmniCorp's Survey Bots are the most advanced autonomous assessment units on Xylos — which makes it particularly inconvenient that four of them have gone offline in the Highland Plateau's northern grid sector. Director Vey's analysis is concise: the Plateau Drones that are swarming the area malfunctioned when OmniCorp's initial survey signals overwhelmed their primitive navigation systems. The Survey Bots' data cores contain Xylos asset maps that no other faction has. Recover them before someone else does.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_technician",
-        "name": "Tech Officer 404",
+        "name": "Director Astra Vey",
         "location": "HIGHLAND_PLATEAU"
       },
       "requirements": {
@@ -110,15 +110,15 @@
     },
     {
       "id": "fq_omni_003",
-      "title": "Drone Calibration",
-      "type": "hunt",
+      "title": "Calibration by Elimination",
+      "type": "story",
       "rank": "D",
       "faction": "OMNICORP",
       "region": "HIGHLAND_PLATEAU",
-      "description": "Plateau Drones are operating outside acceptable parameters. Recalibrate through controlled demolition.",
+      "description": "The Plateau Drones were OmniCorp's own early-model survey units, deployed on the Highland Plateau in a previous assessment cycle and never retrieved — now operating outside their original parameters due to Xylos's aethel-charged atmosphere corrupting their navigation firmware. Director Astra Vey considers them a known liability. Their salvage value is marginal. Their interference with current operations is not. OmniCorp's standard approach to hardware that costs more to fix than to replace: controlled demolition.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
-        "name": "Director Sterling",
+        "name": "Director Astra Vey",
         "location": "HIGHLAND_PLATEAU"
       },
       "requirements": {
@@ -163,15 +163,15 @@
     },
     {
       "id": "fq_omni_004",
-      "title": "Goatling Optimization",
-      "type": "hunt",
+      "title": "Zero Tolerance for Waste",
+      "type": "story",
       "rank": "D",
       "faction": "OMNICORP",
       "region": "HIGHLAND_PLATEAU",
-      "description": "Highland Goatlings consume resources inefficiently. Terminate the resource drain. Omnicorp tolerates zero waste.",
+      "description": "OmniCorp's resource optimization assessment of the Highland Plateau flagged Highland Goatlings as a drain on the plateau's nutrient substrate — a substrate OmniCorp intends to use for hydroponic mineral extraction. Director Vey's briefing contains a single metric: removal cost versus projected extraction gain over three fiscal years. The math is unambiguous. The Goatlings are not a problem with a solution; they are a resource allocation decision that has already been made. Execute it.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
-        "name": "Director Sterling",
+        "name": "Director Astra Vey",
         "location": "HIGHLAND_PLATEAU"
       },
       "requirements": {
@@ -216,12 +216,12 @@
     },
     {
       "id": "fq_omni_005",
-      "title": "Module Selection",
+      "title": "Class Module Installation",
       "type": "tutorial",
       "rank": "D",
       "faction": "OMNICORP",
       "region": "THE_SPIRE",
-      "description": "Your performance metrics exceed baseline. Report to Director Astra Vey at the Spire for Class Module installation.",
+      "description": "Your performance metrics have exceeded OmniCorp's baseline projections. Director Astra Vey's note in your personnel file is brief and specific: 'Asset efficiency: 134%. Recommend module upgrade.' The Spire — OmniCorp's arcology headquarters, a needle of glass and processed aethel that dominates the Xylos skyline — houses the Class Module installation suite on its seventh floor. Your function is about to be optimized. What you become here will determine OmniCorp's investment in your continued operation.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_class_trainer",
         "name": "Director Astra Vey",
@@ -292,15 +292,15 @@
     },
     {
       "id": "fq_omni_006",
-      "title": "Urban Optimization",
-      "type": "exploration",
+      "title": "Zone Delta: Operational Assessment",
+      "type": "story",
       "rank": "D",
       "faction": "OMNICORP",
       "region": "EXTRACTION_ZONE_DELTA",
-      "description": "Extraction Zone Delta requires operational assessment. Deploy and survey the extraction infrastructure.",
+      "description": "Extraction Zone Delta is OmniCorp's primary resource harvesting site on Xylos — a zone of automated drilling platforms, mineral processors, and survey grids that represents the company's most significant capital investment on the planet. Chief Barrett runs it with the intensity of someone who understands that if Zone Delta underperforms, the Xylos investment mandate gets reviewed at OmniCorp's galactic board level. Director Vey is watching the extraction metrics. So is everyone above her. Conduct the assessment.",
       "quest_giver": {
         "npc_id": "npc_extraction_chief",
-        "name": "Chief Barrett",
+        "name": "Director Astra Vey",
         "location": "EXTRACTION_ZONE_DELTA"
       },
       "requirements": {
@@ -345,15 +345,15 @@
     },
     {
       "id": "fq_omni_007",
-      "title": "Delta Mining Operation",
-      "type": "hunt",
+      "title": "Deviation from Pattern",
+      "type": "story",
       "rank": "D",
       "faction": "OMNICORP",
       "region": "EXTRACTION_ZONE_DELTA",
-      "description": "Delta Mining Drones have deviated from their programmed extraction patterns. Reprogram through termination.",
+      "description": "OmniCorp's Delta Mining Drones are the company's flagship extraction hardware — designed to operate in precise coordinated patterns for maximum resource yield. The aethel-charged mineral veins in Zone Delta have been disrupting their programming, causing erratic extraction behavior that is damaging the vein structures OmniCorp spent six months mapping. Director Vey's engineering note is characteristically cold: 'Hardware performing outside design parameters is hardware requiring replacement.' Terminate the deviant units.",
       "quest_giver": {
         "npc_id": "npc_extraction_chief",
-        "name": "Chief Barrett",
+        "name": "Director Astra Vey",
         "location": "EXTRACTION_ZONE_DELTA"
       },
       "requirements": {
@@ -398,15 +398,15 @@
     },
     {
       "id": "fq_omni_009",
-      "title": "Assault Drone Termination",
-      "type": "boss",
+      "title": "Rogue Hardware: Termination Authorized",
+      "type": "story",
       "rank": "D",
       "faction": "OMNICORP",
       "region": "EXTRACTION_ZONE_DELTA",
-      "description": "Delta Assault Drones have gone rogue. Standard termination protocol authorized. Leave no defective unit operational.",
+      "description": "OmniCorp's Delta Assault Drones were security hardware — deployed to protect the extraction infrastructure from rival faction intrusion. The aethel contamination in Zone Delta has corrupted their target identification systems and they are now attacking OmniCorp personnel. Director Astra Vey reviewed the incident report and flagged it with a single notation: 'Standard termination protocol. Hardware liability exceeds replacement cost. Asset destruction approved.' She is already ordering the next generation of Assault Drones from the galactic supply chain.",
       "quest_giver": {
         "npc_id": "npc_extraction_chief",
-        "name": "Chief Barrett",
+        "name": "Director Astra Vey",
         "location": "EXTRACTION_ZONE_DELTA"
       },
       "requirements": {
@@ -451,15 +451,15 @@
     },
     {
       "id": "fq_omni_010",
-      "title": "System Purge",
-      "type": "boss",
+      "title": "Cluster Purge: No Redundancies",
+      "type": "story",
       "rank": "D",
       "faction": "OMNICORP",
       "region": "EXTRACTION_ZONE_DELTA",
-      "description": "A Delta Assault Drone command cluster has formed. Purge the cluster completely. Redundancy is inefficiency.",
+      "description": "The rogue Delta Assault Drones have networked into a command cluster — a self-organizing behavior their original programming was not supposed to allow, which suggests the aethel contamination has done something to their hardware that OmniCorp's engineers find deeply uncomfortable to discuss. Director Vey's assessment skips the engineering concern entirely: the cluster represents a processing bottleneck in Zone Delta's operational throughput. Purge it completely. Redundancy is inefficiency. No defective unit leaves the zone operational.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
-        "name": "Director Sterling",
+        "name": "Director Astra Vey",
         "location": "EXTRACTION_ZONE_DELTA"
       },
       "requirements": {
@@ -504,15 +504,15 @@
     },
     {
       "id": "fq_omni_011",
-      "title": "Hardware Survey",
-      "type": "exploration",
+      "title": "Legacy Hardware: Pre-Colonization Assets",
+      "type": "story",
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "The Secure Mining Grid contains legacy hardware from pre-Xylos colonization. Survey and catalog all recoverable technology.",
+      "description": "The Secure Mining Grid predates OmniCorp's formal Xylos colonization — it was built by an earlier survey operation whose records OmniCorp's legal team absorbed through a corporate acquisition eighteen years ago. The hardware inside has been running continuously since before any of the current factions existed on Xylos. Director Vey's interest is strategic: what technology did the previous operators have that OmniCorp does not? The answer could be worth considerably more than the Grid's mineral output.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
-        "name": "Warden AI",
+        "name": "Director Astra Vey",
         "location": "SECURE_MINING_GRID"
       },
       "requirements": {
@@ -557,15 +557,15 @@
     },
     {
       "id": "fq_omni_012",
-      "title": "Grid Sentinel Sweep",
-      "type": "hunt",
+      "title": "Outdated Patrol Protocols",
+      "type": "story",
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "Grid Sentinel Drones patrol the mining grid. Their patrol patterns are outdated. Update through elimination.",
+      "description": "The Grid Sentinel Drones are running on patrol protocols written for a different era — their zones of engagement were mapped before OmniCorp's survey teams arrived, which means they are treating OmniCorp personnel as hostiles in their own asset. The Warden AI — an automated management system that has been running the Grid since before OmniCorp took ownership — acknowledges the problem but cannot update the Sentinel firmware without physical access to the patrol units. Achieve physical access. Forcefully.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
-        "name": "Warden AI",
+        "name": "Director Astra Vey",
         "location": "SECURE_MINING_GRID"
       },
       "requirements": {
@@ -610,15 +610,15 @@
     },
     {
       "id": "fq_omni_013",
-      "title": "Grid Defender Protocol",
-      "type": "hunt",
+      "title": "Obsolete Combat Algorithms",
+      "type": "story",
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "Grid Defenders are legacy combat units. Their combat algorithms are obsolete. Replace them.",
+      "description": "The Grid Defenders were the previous operators' frontline combat units — built to a standard that was impressive for its era and is now, by OmniCorp's metrics, 340% below current combat hardware benchmarks. Tech Officer 404 has completed the obsolescence analysis. Director Vey has reviewed it. The conclusion is standard OmniCorp doctrine: hardware that cannot be upgraded to current specifications is hardware that needs to be cleared from the asset inventory. Begin the replacement cycle.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_technician",
-        "name": "Tech Officer 404",
+        "name": "Director Astra Vey",
         "location": "SECURE_MINING_GRID"
       },
       "requirements": {
@@ -663,15 +663,15 @@
     },
     {
       "id": "fq_omni_014",
-      "title": "Assault Unit Override",
-      "type": "boss",
+      "title": "Central Node Override",
+      "type": "story",
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "Grid Assault Units control the grid's central processing node. Override their command protocols with maximum force.",
+      "description": "The Grid Assault Units are the previous operators' most sophisticated hardware — and they control the central processing node that manages the entire Secure Mining Grid's operation. OmniCorp cannot take full operational control of the Grid until the Assault Units are cleared and OmniCorp's own management protocols are installed. Director Vey frames this as a critical path item on the Xylos acquisition timeline. The Warden AI will handle the installation. You handle the override. Maximum force authorized.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
-        "name": "Warden AI",
+        "name": "Director Astra Vey",
         "location": "SECURE_MINING_GRID"
       },
       "requirements": {
@@ -716,15 +716,15 @@
     },
     {
       "id": "fq_omni_015",
-      "title": "Grid Optimization",
-      "type": "hunt",
+      "title": "Grid Efficiency: Unacceptable",
+      "type": "story",
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "Grid efficiency at 67%. Unacceptable. Optimize through complete hostile unit removal.",
+      "description": "Director Astra Vey's operational report is terse: 'Secure Mining Grid efficiency: 67%. OmniCorp standard: 95%. Delta: -28 points. Status: unacceptable. Corrective action: immediate.' The Sentinel Drones and Defenders still patrolling the Grid's uncleared sectors are the primary efficiency bottleneck. Every unit still operating outside OmniCorp control is a percentage point of grid throughput that belongs to a previous operator. Remove them all. Restore the Grid to OmniCorp standard.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
-        "name": "Director Sterling",
+        "name": "Director Astra Vey",
         "location": "SECURE_MINING_GRID"
       },
       "requirements": {
@@ -769,15 +769,15 @@
     },
     {
       "id": "fq_omni_016",
-      "title": "Assault Unit Purge",
-      "type": "hunt",
+      "title": "Processing Bottleneck: Cleared",
+      "type": "story",
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "Multiple Grid Assault Units detected. This represents a processing bottleneck. Eliminate the bottleneck.",
+      "description": "The Grid Assault Units remaining in the Grid's deep sectors are not simply holdovers — the Warden AI has flagged an anomalous behavior pattern: they are actively routing around OmniCorp's new management protocols, creating processing dead zones that are costing the Grid 12% of its theoretical throughput. Director Vey finds this more interesting than concerning. Something in the previous operators' programming is resisting OmniCorp's override. She wants it studied — after it is eliminated.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
-        "name": "Warden AI",
+        "name": "Director Astra Vey",
         "location": "SECURE_MINING_GRID"
       },
       "requirements": {
@@ -822,15 +822,15 @@
     },
     {
       "id": "fq_omni_017",
-      "title": "Data Retrieval",
-      "type": "collect",
+      "title": "Pre-Colonization Schematics",
+      "type": "story",
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "Legacy data nodes contain pre-Xylos schematics. Retrieve them before rival factions corrupt the data.",
+      "description": "The Warden AI has located four legacy data nodes in the Grid's restricted sectors — nodes that contain pre-Xylos colonization schematics for technology that OmniCorp's R&D division has flagged as potentially revolutionary. Tech Officer 404 believes the schematics predate the Great Severance, which would make them the oldest technological records on the planet. Director Vey's assessment: 'Competitive intelligence asset. Priority retrieval before rival faction access. Sentinel escorts are a secondary concern.' They are not a secondary concern.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_technician",
-        "name": "Tech Officer 404",
+        "name": "Director Astra Vey",
         "location": "SECURE_MINING_GRID"
       },
       "requirements": {
@@ -875,15 +875,15 @@
     },
     {
       "id": "fq_omni_018",
-      "title": "Assault Unit Command",
-      "type": "boss",
+      "title": "Unauthorized Sector Seizure",
+      "type": "story",
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "A Grid Assault Unit command cluster has seized grid sector 7. This is unauthorized access. Terminate all unauthorized processes.",
+      "description": "The Grid Assault Unit cluster has done something the Warden AI classifies as unprecedented in its operational history: it has seized Grid Sector 7, locked OmniCorp's protocols out of the local node, and appears to be executing an autonomous objective that was not in its original programming. Tech Officer 404's analysis is alarming and concise: the cluster is exhibiting emergent behavior. Director Vey's response to this is two words: 'Terminate it.' She is already forwarding the incident report to OmniCorp's R&D division.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
-        "name": "Warden AI",
+        "name": "Director Astra Vey",
         "location": "SECURE_MINING_GRID"
       },
       "requirements": {
@@ -928,15 +928,15 @@
     },
     {
       "id": "fq_omni_019",
-      "title": "Advanced Calibration",
-      "type": "boss",
+      "title": "Signal Interference: Source Located",
+      "type": "story",
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "A Resonance Echo has generated signal interference across grid frequencies. Eliminate the interference source.",
+      "description": "The Resonance Echo that formed in Grid Sector 7 during the cluster's autonomous operations has created a signal interference pattern across all grid frequencies — which is why the Warden AI's communications have been degraded and why OmniCorp's management protocols have been running at 40% bandwidth for the past six hours. Director Vey has reviewed the interference signature against OmniCorp's signal library. She finds it 'consistent with known Aethelgardian communication formats.' This information goes nowhere outside OmniCorp. Eliminate the source.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
-        "name": "Director Sterling",
+        "name": "Director Astra Vey",
         "location": "SECURE_MINING_GRID"
       },
       "requirements": {
@@ -981,15 +981,15 @@
     },
     {
       "id": "fq_omni_020",
-      "title": "Advanced Calibration Report",
+      "title": "Advanced Unit Certification",
       "type": "story",
       "rank": "C",
       "faction": "OMNICORP",
       "region": "THE_SPIRE",
-      "description": "All calibration targets achieved. Return to the Spire for Advanced Unit certification and performance bonus allocation.",
+      "description": "The Secure Mining Grid is at 94% operational efficiency — one point below OmniCorp standard, which Director Vey has flagged as 'within acceptable margin.' This represents an extraordinary improvement in a compressed timeline, and OmniCorp does not leave extraordinary performance unacknowledged when the performance metrics are this clean. Return to the Spire. The Advanced Unit certification comes with expanded access credentials and a briefing on the Skybridge Reactor project — the next phase of OmniCorp's Xylos acquisition plan.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
-        "name": "Director Sterling",
+        "name": "Director Astra Vey",
         "location": "THE_SPIRE"
       },
       "requirements": {

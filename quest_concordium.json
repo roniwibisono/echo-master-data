@@ -2,15 +2,15 @@
   "quests": [
     {
       "id": "fq_conc_001",
-      "title": "First Assignment",
-      "type": "hunt",
+      "title": "Blood in the Gardens",
+      "type": "story",
       "rank": "D",
       "faction": "CONCORDIUM",
       "region": "AETHEL_GARDENS",
-      "description": "Your first assignment with The Concordium. Clear out Forest Slime disrupting supply routes through Aethel Gardens. Progress through Unity. Strength through Harmony.",
+      "description": "The Aethel Gardens were once Xylos's crown jewel — terraced bioluminescent groves fed by the Cradle's overflow. Now they fester with Forest Slimes, born from the Severance's corruption soaking into the soil. Commander Lirien Vale needs these supply routes clear before another convoy is lost to the ooze. This is your first step toward understanding what the Concordium is trying to rebuild.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
-        "name": "",
+        "name": "Commander Lirien Vale",
         "location": "AETHEL_GARDENS"
       },
       "requirements": {
@@ -55,15 +55,15 @@
     },
     {
       "id": "fq_conc_002",
-      "title": "Garden Patrol",
-      "type": "hunt",
+      "title": "Critters at the Gate",
+      "type": "story",
       "rank": "D",
       "faction": "CONCORDIUM",
       "region": "AETHEL_GARDENS",
-      "description": "Patrol the perimeter of Aethel Gardens and eliminate hostile Garden Critters threatening the outpost.",
+      "description": "The Concordium's forward outpost in the Gardens is surrounded on three sides by Aethel Sproutlings — corrupted seedlings that haven't known sunlight in decades. Commander Vale is stretched thin after the Schism fractured half her garrison to the Iron Hegemony defectors. The perimeter must hold; the Gardens are the only uncontested supply corridor into Nexus Core.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
-        "name": "",
+        "name": "Commander Lirien Vale",
         "location": "AETHEL_GARDENS"
       },
       "requirements": {
@@ -106,15 +106,15 @@
     },
     {
       "id": "fq_conc_003",
-      "title": "Mite Infestation",
-      "type": "hunt",
+      "title": "The Mite and the Depot",
+      "type": "story",
       "rank": "D",
       "faction": "CONCORDIUM",
       "region": "AETHEL_GARDENS",
-      "description": "Garden Mites have overrun the eastern grove. Eliminate them before they spread to the Nexus supply depot.",
+      "description": "Garden Mites feed on the bio-conductive wiring that channels aethel energy from the Gardens to Nexus Core — the same wiring the Concordium spent fifteen years laying after the Schism. If the eastern grove falls to this infestation, it won't be slimes that broke the Concordium's dream. It'll be insects. Commander Vale needs this stopped before she has to write that report.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
-        "name": "",
+        "name": "Commander Lirien Vale",
         "location": "AETHEL_GARDENS"
       },
       "requirements": {
@@ -157,15 +157,15 @@
     },
     {
       "id": "fq_conc_004",
-      "title": "Rootbound Threat",
-      "type": "hunt",
+      "title": "What Grows in the Dark",
+      "type": "story",
       "rank": "D",
       "faction": "CONCORDIUM",
       "region": "AETHEL_GARDENS",
-      "description": "Feral Rootlings have been strangling the aethel conduits. Cut them down and restore energy flow.",
+      "description": "The aethel conduits threading through the Gardens were carved by the Concordium's founders — some say they can still hear those engineers' voices in the hum. Feral Rootlings have grown through the conduit walls, drinking raw aethel energy and warping into something that was never in any pre-Severance bestiary. Cut them out before the conduit lines fail and Nexus Core goes dark.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
-        "name": "",
+        "name": "Commander Lirien Vale",
         "location": "AETHEL_GARDENS"
       },
       "requirements": {
@@ -208,12 +208,12 @@
     },
     {
       "id": "fq_conc_005",
-      "title": "A Warrior's Identity",
+      "title": "The Shape of a Soldier",
       "type": "tutorial",
       "rank": "D",
       "faction": "CONCORDIUM",
       "region": "NEXUS_CORE",
-      "description": "Concordium high command has taken notice of your potential. Report to Instructor Kael at Nexus Core to choose your specialization.",
+      "description": "Commander Vale's field report reached Nexus Core faster than you expected. Instructor Kael — the Concordium's master trainer, a veteran who fought in the earliest post-Schism skirmishes — has summoned you personally. Before the Concordium trusts you with the Cradle's defense, you must choose your path. The Aethel Cradle wasn't rebuilt by generalists.",
       "quest_giver": {
         "npc_id": "npc_concordium_class_trainer",
         "name": "Instructor Kael",
@@ -281,15 +281,15 @@
     },
     {
       "id": "fq_conc_006",
-      "title": "Securing the Quarter",
-      "type": "hunt",
+      "title": "What the Schism Left Behind",
+      "type": "story",
       "rank": "D",
       "faction": "CONCORDIUM",
       "region": "BROKEN_CIVIL_QUARTER",
-      "description": "Concordium expands influence into the Broken Civil Quarter. Clear Tunnel Crawlers from the main breach point.",
+      "description": "The Broken Civil Quarter was once the beating heart of unified Nexus — before the Great Schism tore the Concordium into three factions and left these streets to rot. Concordium engineers have located a viable breach point to reclaim the district, but Tunnel Crawlers have nested in the main access corridor. Commander Vale's orders are direct: clear it, stake the Concordium flag, and remind Xylos that unity is still possible.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
-        "name": "",
+        "name": "Commander Lirien Vale",
         "location": "BROKEN_CIVIL_QUARTER"
       },
       "requirements": {
@@ -332,15 +332,15 @@
     },
     {
       "id": "fq_conc_007",
-      "title": "Scavenger Sweep",
-      "type": "hunt",
+      "title": "Scavengers of the Schism",
+      "type": "story",
       "rank": "D",
       "faction": "CONCORDIUM",
       "region": "BROKEN_CIVIL_QUARTER",
-      "description": "Broken Quarter Scavengers loot abandoned Concordium caches. Reclaim what is ours.",
+      "description": "The Broken Civil Quarter caches contain medical supplies, engineering manuals, and communication arrays — resources the original Concordium buried here against the day the Schism might be reversed. Scavengers have been looting them for years, selling them to the highest bidder. Commander Vale's voice has an edge when she says it: some of those manuals were written by her mother.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
-        "name": "",
+        "name": "Commander Lirien Vale",
         "location": "BROKEN_CIVIL_QUARTER"
       },
       "requirements": {
@@ -383,15 +383,15 @@
     },
     {
       "id": "fq_conc_008",
-      "title": "Rat Infestation",
-      "type": "hunt",
+      "title": "The Alpha and the Archive",
+      "type": "story",
       "rank": "D",
       "faction": "CONCORDIUM",
       "region": "BROKEN_CIVIL_QUARTER",
-      "description": "The vermin have grown bold and organized. Eliminate the Civil Rat Alpha before it breeds further.",
+      "description": "A Civil Rat Alpha has claimed an old Concordium archive building, breeding a colony large enough to collapse the reclaimed sector's food supply. The irony is not lost on Commander Vale — the Concordium survived the Severance, the Schism, and three rival factions, and now a rat threatens the advance. She wants that Alpha dead, and she wants a record kept of its nesting site. Everything is data.",
       "quest_giver": {
         "npc_id": "npc_patrol_guard",
-        "name": "",
+        "name": "Commander Lirien Vale",
         "location": "BROKEN_CIVIL_QUARTER"
       },
       "requirements": {
@@ -438,15 +438,15 @@
     },
     {
       "id": "fq_conc_009",
-      "title": "Warden of Ruin",
-      "type": "boss",
+      "title": "The Last Sentinel",
+      "type": "story",
       "rank": "D",
       "faction": "CONCORDIUM",
       "region": "BROKEN_CIVIL_QUARTER",
-      "description": "An ancient Rusted Warden patrols the deep ruins. Disable it before it threatens the supply line.",
+      "description": "A Rusted Warden — automated guardian tech from before the Schism — still patrols the ruins as if it has orders. It doesn't recognize the Concordium's current insignia. It doesn't recognize anything except the threat-assessment protocols written into it a century ago. Vale wonders, quietly, whether the original Concordium ever planned for the machines to outlast the people who built them.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
-        "name": "",
+        "name": "Commander Lirien Vale",
         "location": "BROKEN_CIVIL_QUARTER"
       },
       "requirements": {
@@ -493,15 +493,15 @@
     },
     {
       "id": "fq_conc_010",
-      "title": "The King Beneath",
-      "type": "boss",
+      "title": "King of a Broken City",
+      "type": "story",
       "rank": "D",
       "faction": "CONCORDIUM",
       "region": "BROKEN_CIVIL_QUARTER",
-      "description": "The Slime King has emerged from the sewers beneath the Civil Quarter. End its reign before it spills into Nexus. This is your first true test.",
+      "description": "The sewers beneath the Civil Quarter were engineered by the Concordium's founders as emergency water routing — now they're the throne room of a Slime King, a massive Severance-spawn that has been growing in the dark for years. It is the embodiment of everything the Concordium is fighting against: the Severance's corruption, enthroned in the ruins of what Xylos once was. Commander Vale's message is simple: end its reign.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
-        "name": "",
+        "name": "Commander Lirien Vale",
         "location": "BROKEN_CIVIL_QUARTER"
       },
       "requirements": {
@@ -548,15 +548,15 @@
     },
     {
       "id": "fq_conc_011",
-      "title": "Cradle Reconnaissance",
-      "type": "exploration",
+      "title": "The Heart's Outer Wall",
+      "type": "story",
       "rank": "C",
       "faction": "CONCORDIUM",
       "region": "CRADLE_OUTER_RING",
-      "description": "The Outer Ring of the Cradle holds ancient secrets. Scout ahead and establish a forward observation post for the Concordium.",
+      "description": "You've earned the right to see it — the Aethel Cradle's Outer Ring, the great machine the Concordium built around the planet's most powerful energy source. It hums with a sound older than recorded history, and Commander Vale says the original engineers wept when they first activated it. Now the Outer Ring is contested ground, and every faction wants what it contains. Your mission: scout it and make sure the Concordium holds the advantage.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
-        "name": "",
+        "name": "Commander Lirien Vale",
         "location": "CRADLE_OUTER_RING"
       },
       "requirements": {
@@ -599,15 +599,15 @@
     },
     {
       "id": "fq_conc_012",
-      "title": "Anomaly Hunt",
-      "type": "hunt",
+      "title": "Wolves at the Cradle",
+      "type": "story",
       "rank": "C",
       "faction": "CONCORDIUM",
       "region": "CRADLE_OUTER_RING",
-      "description": "Cradle Anomaly Wolves have been spotted near the flux rifts. Their energy signatures threaten stability.",
+      "description": "Cradle Anomaly Wolves — creatures warped by proximity to the flux rifts surrounding the Aethel Cradle — are drawn to the Outer Ring's energy surges. Their howls disrupt the harmonic resonators the Concordium uses to calibrate the Cradle's output. Without stable calibration, the whole system risks cascade failure. The Concordium nearly lost the Cradle once. Commander Vale refuses to let it happen on her watch.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
-        "name": "",
+        "name": "Commander Lirien Vale",
         "location": "CRADLE_OUTER_RING"
       },
       "requirements": {
@@ -650,15 +650,15 @@
     },
     {
       "id": "fq_conc_013",
-      "title": "Beastling Cull",
-      "type": "hunt",
+      "title": "Breeding in the Shadow of the Cradle",
+      "type": "story",
       "rank": "C",
       "faction": "CONCORDIUM",
       "region": "CRADLE_OUTER_RING",
-      "description": "Cradle Anomaly Beastlings multiply at an alarming rate. Thin their numbers before they overrun the sector.",
+      "description": "Cradle Anomaly Beastlings are what happens when aethel radiation meets the Severance's corrupted biosphere — creatures that should not exist, multiplying faster than the Concordium's census teams can count. They've begun nesting in the maintenance shafts of the Outer Ring's stabilizer array. If the array goes offline, the Arcanum Seekers will be on the doorstep before the dust settles.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
-        "name": "",
+        "name": "Commander Lirien Vale",
         "location": "CRADLE_OUTER_RING"
       },
       "requirements": {
@@ -701,15 +701,15 @@
     },
     {
       "id": "fq_conc_014",
-      "title": "Fragment Beast",
-      "type": "hunt",
+      "title": "Cores on the Verge",
+      "type": "story",
       "rank": "C",
       "faction": "CONCORDIUM",
       "region": "CRADLE_OUTER_RING",
-      "description": "Cradle Fragment Beasts possess unstable energy signatures. Destroy them and contain their cores before detonation.",
+      "description": "Cradle Fragment Beasts carry unstable aethel cores inside their bodies — shards of the original Shard, still radiating energy, embedded in living hosts. The Arcanum Seekers would want them captured; the Children of the Shard would want them worshipped. The Concordium wants them contained before they detonate and damage the Outer Ring's flux regulators. Ideology is secondary to operational integrity.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
-        "name": "",
+        "name": "Commander Lirien Vale",
         "location": "CRADLE_OUTER_RING"
       },
       "requirements": {
@@ -752,15 +752,15 @@
     },
     {
       "id": "fq_conc_015",
-      "title": "First Resonance",
-      "type": "boss",
+      "title": "Static Over the Cradle",
+      "type": "story",
       "rank": "C",
       "faction": "CONCORDIUM",
       "region": "CRADLE_OUTER_RING",
-      "description": "Resonance Bats have been swarming the comm arrays. These creatures disrupt Concordium communications. Silence them.",
+      "description": "Resonance Bats — creatures that evolved using the Cradle's own harmonic emissions as echolocation — have been jamming the communication arrays that coordinate Concordium's Outer Ring defenses. The last three hours have been radio silence from Sector Seven. Commander Vale doesn't say the word \"scared\" but she checks the comms every thirty seconds. Clear the bats and bring back contact.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
-        "name": "",
+        "name": "Commander Lirien Vale",
         "location": "CRADLE_OUTER_RING"
       },
       "requirements": {
@@ -803,15 +803,15 @@
     },
     {
       "id": "fq_conc_016",
-      "title": "Intel from the Ring",
-      "type": "collect",
+      "title": "The Price of the Ring",
+      "type": "story",
       "rank": "C",
       "faction": "CONCORDIUM",
       "region": "CRADLE_OUTER_RING",
-      "description": "Recover tactical data from fallen Concordium scouts in the Outer Ring. Their sacrifice must not be in vain.",
+      "description": "Three Concordium scouts went dark in the Outer Ring's eastern sector. Commander Vale reports this the way soldiers report casualties — precisely, without emotion, until the mission debrief when she says their names. The data they were carrying could reveal Iron Hegemony troop movements near the Cradle's loading docks. Recover it. And if you find the scouts, record what you find.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
-        "name": "",
+        "name": "Commander Lirien Vale",
         "location": "CRADLE_OUTER_RING"
       },
       "requirements": {
@@ -854,15 +854,15 @@
     },
     {
       "id": "fq_conc_017",
-      "title": "Breach Containment",
-      "type": "hunt",
+      "title": "A Crack in the Foundation",
+      "type": "story",
       "rank": "C",
       "faction": "CONCORDIUM",
       "region": "CRADLE_OUTER_RING",
-      "description": "A void breach has been detected in the Outer Ring. Contain the surge and eliminate any spawned anomalies.",
+      "description": "A void breach has opened in the Outer Ring's north platform — a point where the boundary between normal space and whatever dark geometry feeds the Void Channelers has grown thin. The Fragment Beasts that pour through it are getting stronger with each surge. Concordium engineers believe the breach appeared the same week the Iron Hegemony began unauthorized excavation near the Cradle's base. That may be coincidence. It may not.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
-        "name": "",
+        "name": "Commander Lirien Vale",
         "location": "CRADLE_OUTER_RING"
       },
       "requirements": {
@@ -905,15 +905,15 @@
     },
     {
       "id": "fq_conc_018",
-      "title": "Echo Chamber",
-      "type": "boss",
+      "title": "The Golems Remember",
+      "type": "story",
       "rank": "C",
       "faction": "CONCORDIUM",
       "region": "CRADLE_OUTER_RING",
-      "description": "Resonance Golems have established a nest in the deep Outer Ring. Destroy them to prevent permanent signal corruption.",
+      "description": "Resonance Golems are not random creatures — Concordium historians believe they are the Aethel Cradle's original defense constructs, built by the same Aethelgardian engineers who first activated the Siphon. They have been nesting in the deep Outer Ring and their harmonic pulses are rewriting the Concordium's own signal protocols with something older and stranger. Commander Vale wants them destroyed, but she orders you to document their emissions first. The Concordium does not discard knowledge.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
-        "name": "",
+        "name": "Commander Lirien Vale",
         "location": "CRADLE_OUTER_RING"
       },
       "requirements": {
@@ -956,15 +956,15 @@
     },
     {
       "id": "fq_conc_019",
-      "title": "The Advance",
-      "type": "boss",
+      "title": "Voice of the Old Machine",
+      "type": "story",
       "rank": "C",
       "faction": "CONCORDIUM",
       "region": "CRADLE_OUTER_RING",
-      "description": "The Resonance Echo has materialized. This entity is the source of all signal disruption. Defeat it to prove your worth as a Concordium elite.",
+      "description": "The Resonance Echo is not just a creature — it is a concentrated echo of the Cradle's original harmonic signature, coalesced into something almost conscious. The Arcanum Seekers would call it a miracle. The Children of the Shard would call it a god-fragment. Commander Vale calls it a threat to Concordium communication infrastructure, and she is right on all fronts. Defeat it. Whatever it is, it cannot be allowed to rewrite the Cradle on its own terms.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
-        "name": "",
+        "name": "Commander Lirien Vale",
         "location": "CRADLE_OUTER_RING"
       },
       "requirements": {
@@ -1011,15 +1011,15 @@
     },
     {
       "id": "fq_conc_020",
-      "title": "Cradle Mastery",
+      "title": "The Outer Ring is Ours",
       "type": "story",
       "rank": "C",
       "faction": "CONCORDIUM",
       "region": "CRADLE_OUTER_RING",
-      "description": "You have proven yourself in the Outer Ring. Complete a final sweep and prepare for Advanced Class evaluation.",
+      "description": "The Outer Ring is not fully secured — it never will be, not while three factions and something older than any of them push against the Concordium's borders. But the Concordium holds more of it today than it did a season ago, and that is because of what you've done here. Commander Vale's final sweep order is also a test: the Concordium is preparing to evaluate you for Advanced assignment. The Cradle's inner platforms await.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
-        "name": "",
+        "name": "Commander Lirien Vale",
         "location": "CRADLE_OUTER_RING"
       },
       "requirements": {

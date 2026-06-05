@@ -2,15 +2,15 @@
   "quests": [
     {
       "id": "fq_iron_001",
-      "title": "Supply Procurement",
-      "type": "hunt",
+      "title": "Welcome to the Machine",
+      "type": "story",
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "SCRAP_FIELD",
-      "description": "You are conscripted into the Iron Hegemony. Your first mission: clear Scrap Field of Broken Scout Drones disrupting logistics. Strength through Unity.",
+      "description": "The Iron Hegemony does not recruit — it conscripts, shapes, and deploys. Warlord Harkon Steele built the Hegemony from the Concordium's security division after the Great Schism, because he understood something the diplomats didn't: Prima Materia cannot be negotiated with. It can only be controlled by force. The Scrap Field is your proving ground — Broken Scout Drones are jamming logistics, and in the Hegemony, a soldier who can't clear the field is not a soldier at all.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
-        "name": "Commander Drax",
+        "name": "Warlord Harkon Steele",
         "location": "SCRAP_FIELD"
       },
       "requirements": {
@@ -57,15 +57,15 @@
     },
     {
       "id": "fq_iron_002",
-      "title": "Scrap Rat Infestation",
-      "type": "hunt",
+      "title": "No Weakness in the Supply Line",
+      "type": "story",
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "SCRAP_FIELD",
-      "description": "Scrap Rats gnaw through supply crates. A soldier's first duty is to protect resources. Exterminate them.",
+      "description": "Scrap Rats have been gnawing through the supply crates the Hegemony uses to move components between the Scrap Field and Bastion Core. In any other organization, this would be a maintenance problem. In the Iron Hegemony, it is a tactical failure — every gap in the supply line is a gap in the war machine's armor. Warlord Steele has a saying: 'The rat that eats your rations today is the enemy that kills your unit tomorrow.' Exterminate them.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
-        "name": "Commander Drax",
+        "name": "Warlord Harkon Steele",
         "location": "SCRAP_FIELD"
       },
       "requirements": {
@@ -110,15 +110,15 @@
     },
     {
       "id": "fq_iron_003",
-      "title": "Drone Salvage",
-      "type": "hunt",
+      "title": "The Forge Must Be Fed",
+      "type": "story",
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "SCRAP_FIELD",
-      "description": "Scrap Drones contain valuable parts. Disable them and recover their components for the Bastion forges.",
+      "description": "Tink — the Hegemony's salvage engineer, a person who hasn't slept a full night in six years because the Bastion forges never sleep either — needs Scrap Drone components to keep the war machine running. The Hegemony's strength is not just in soldiers; it is in the relentless industrial capacity that turns scrap into weapons. Every drone you disable is another batch of components that becomes a new piece of armor, a new weapon, another tool of control.",
       "quest_giver": {
         "npc_id": "npc_salvage_expert",
-        "name": "Tink",
+        "name": "Warlord Harkon Steele",
         "location": "SCRAP_FIELD"
       },
       "requirements": {
@@ -163,15 +163,15 @@
     },
     {
       "id": "fq_iron_004",
-      "title": "Rust Mite Purge",
-      "type": "hunt",
+      "title": "Iron Does Not Rust",
+      "type": "story",
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "SCRAP_FIELD",
-      "description": "Rust Mites corrode Hegemony equipment. A soldier maintains their gear. Purge the source of corrosion.",
+      "description": "Rust Mites have colonized the Hegemony's equipment depot at the Scrap Field perimeter — eating through iron plating that Bastion engineers spent weeks fabricating. In the Hegemony's ideology, corrosion is not just a material problem; it is a symbol of the weakness that allowed the Great Schism to happen. Warlord Steele demands that the Scrap Field be maintained in fighting condition at all times. A soldier who lets their equipment rot is a soldier who does not believe in the mission.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
-        "name": "Commander Drax",
+        "name": "Warlord Harkon Steele",
         "location": "SCRAP_FIELD"
       },
       "requirements": {
@@ -216,12 +216,12 @@
     },
     {
       "id": "fq_iron_005",
-      "title": "The Soldier's Path",
+      "title": "Forged in Bastion Steel",
       "type": "tutorial",
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "BASTION_CORE",
-      "description": "Commander Drax has noted your potential. Report to War Marshal Drax at the Bastion to choose your combat specialization.",
+      "description": "Warlord Harkon Steele reviews every conscript personally — or so the rumor goes. What is true is that a summons to Bastion Core means someone has noticed you are more than standard material. The Hegemony does not believe in generalist soldiers; every weapon has a function, and a soldier who has not found theirs is a weapon without an edge. At Bastion Core's war hall, you will choose the form your lethality takes. Choose it correctly. There are no second specializations.",
       "quest_giver": {
         "npc_id": "npc_hegemony_class_trainer",
         "name": "War Marshal Drax",
@@ -292,15 +292,15 @@
     },
     {
       "id": "fq_iron_006",
-      "title": "Securing Territory",
-      "type": "exploration",
+      "title": "The Ravine Is Ours Now",
+      "type": "story",
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "IRON_RAVINE",
-      "description": "The Iron Ravine is rich in minerals. Establish a forward base and secure it for Hegemony mining operations.",
+      "description": "The Iron Ravine sits on mineral deposits that could supply the Bastion's forges for a generation — deposits the Concordium surveyed and filed away while debating policy, and that the Meridian Cartel is already sending surveyors to assess. Warlord Steele does not debate. He sends soldiers. The Iron Hegemony's doctrine is simple: the one who controls the mineral controls the war machine, and the one who controls the war machine controls everything else. Establish the forward base.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
-        "name": "Commander Drax",
+        "name": "Warlord Harkon Steele",
         "location": "IRON_RAVINE"
       },
       "requirements": {
@@ -345,15 +345,15 @@
     },
     {
       "id": "fq_iron_007",
-      "title": "Ravine Miners",
-      "type": "hunt",
+      "title": "Competing Claims Are Not Claims",
+      "type": "story",
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "IRON_RAVINE",
-      "description": "Iron Ravine Miners refuse to yield territory. The Hegemony takes what it needs. Clear them out.",
+      "description": "Iron Ravine Miners — independent operators who have worked these veins for years, who have no Hegemony contracts and no Hegemony protection — are blocking access to the central mineral shaft. In the Concordium, this would be a dispute. In the Meridian Cartel, this would be a negotiation. In the Iron Hegemony, Warlord Steele has a single word for independent operators who stand between his soldiers and a strategic resource: obstacles.",
       "quest_giver": {
         "npc_id": "npc_iron_miner",
-        "name": "Gorn",
+        "name": "Warlord Harkon Steele",
         "location": "IRON_RAVINE"
       },
       "requirements": {
@@ -398,15 +398,15 @@
     },
     {
       "id": "fq_iron_008",
-      "title": "Brute Force",
-      "type": "boss",
+      "title": "A Lesson in Superior Force",
+      "type": "story",
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "IRON_RAVINE",
-      "description": "An Iron Ravine Brute has crushed three mining crews. Show it the meaning of Hegemony discipline.",
+      "description": "An Iron Ravine Brute has claimed the central shaft as its territory and crushed three of the Hegemony's initial mining crews — not out of intelligence but pure animal dominance. Warlord Steele has a complicated respect for dominant animals; they understand, on instinct, what the Concordium's diplomats will never accept. But respect does not mean tolerance. The Ravine belongs to the Hegemony. Show the Brute what superior force looks like from the losing side.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
-        "name": "Commander Drax",
+        "name": "Warlord Harkon Steele",
         "location": "IRON_RAVINE"
       },
       "requirements": {
@@ -451,15 +451,15 @@
     },
     {
       "id": "fq_iron_009",
-      "title": "Enforcer Elimination",
-      "type": "boss",
+      "title": "There Is Only One Authority Here",
+      "type": "story",
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "IRON_RAVINE",
-      "description": "A Scrapfield Enforcer has established dominance over the central ravine. Challenge its authority. Hegemony bows to no one.",
+      "description": "A Scrapfield Enforcer — a rogue combat machine that predates the Hegemony's own war-mech program — has been claiming the central ravine as its patrol zone and attacking Hegemony survey teams on sight. Its combat protocols may actually be superior to some Hegemony-built machines, which Tink finds professionally embarrassing and Warlord Steele finds unacceptable. The Iron Hegemony is the only authority in the Iron Ravine. Enforce that fact.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
-        "name": "Commander Drax",
+        "name": "Warlord Harkon Steele",
         "location": "IRON_RAVINE"
       },
       "requirements": {
@@ -504,15 +504,15 @@
     },
     {
       "id": "fq_iron_010",
-      "title": "Golem Crush",
-      "type": "boss",
+      "title": "Strip Them to the Core",
+      "type": "story",
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "IRON_RAVINE",
-      "description": "Ravine Scrap Golems are mobile fortresses of salvaged metal. Break them apart and take what the Hegemony needs.",
+      "description": "Ravine Scrap Golems are what happens when the Severance's corrupted energy animates salvaged machinery without anyone controlling the result — walking fortresses of mismatched metal and raw aethel charge that will attack anything within range. Warlord Steele does not waste time theorizing about what they are. He looks at them and sees two things: a threat to neutralize, and a salvage yield that Tink has already calculated down to the last circuit. Break them. Take what the Hegemony needs.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
-        "name": "Commander Drax",
+        "name": "Warlord Harkon Steele",
         "location": "IRON_RAVINE"
       },
       "requirements": {
@@ -557,15 +557,15 @@
     },
     {
       "id": "fq_iron_011",
-      "title": "Frontline Duty",
-      "type": "exploration",
+      "title": "What Wars Leave Behind",
+      "type": "story",
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "The War Machine Graveyard is a battlefield of ancient titans. The Hegemony will learn from the wreckage of past wars.",
+      "description": "The War Machine Graveyard is a cemetery of titans — pre-Severance war constructs that fought wars whose names have been forgotten, left to rust in a field that no other faction wants to enter. Warlord Steele walks it differently. He sees it as a library, every destroyed machine a lesson about what failed and why. The Iron Hegemony's doctrine forbids forgetting the last war. Enter the Graveyard. See what losing looks like, so you understand what winning requires.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
-        "name": "Commander Drax",
+        "name": "Warlord Harkon Steele",
         "location": "WAR_MACHINE_GRAVEYARD"
       },
       "requirements": {
@@ -610,15 +610,15 @@
     },
     {
       "id": "fq_iron_012",
-      "title": "Wrecker Duty",
-      "type": "hunt",
+      "title": "The Graveyard Has One Owner",
+      "type": "story",
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "War Machine Wreckers scavenge the graveyard. They are competition. Eliminate them.",
+      "description": "War Machine Wreckers — scavengers who strip the Graveyard's titan remains for parts to sell to the Meridian Cartel and OmniCorp — have been operating here for years without Hegemony authorization. Foreman Brigg's inventory assessments show they've already taken components that the Hegemony's Titan Assembly Yard needed. The Graveyard's lessons belong to the Iron Hegemony. Its parts belong to the Iron Hegemony. Its scavengers belong on the ground.",
       "quest_giver": {
         "npc_id": "npc_assembly_foreman",
-        "name": "Foreman Brigg",
+        "name": "Warlord Harkon Steele",
         "location": "WAR_MACHINE_GRAVEYARD"
       },
       "requirements": {
@@ -663,15 +663,15 @@
     },
     {
       "id": "fq_iron_013",
-      "title": "Scavenger Hunt",
-      "type": "hunt",
+      "title": "Tink's Inventory List",
+      "type": "story",
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "War Machine Scavengers strip the graveyard of valuable tech. The Hegemony will strip them instead.",
+      "description": "Tink — whose actual feelings about the War Machine Graveyard are somewhere between reverence and obsession — has produced a precise inventory of components the Hegemony needs and the War Machine Scavengers are taking. The Scavengers are not random looters; they are organized, they have buyers, and their operation is directly funded by OmniCorp. Every scrap core they remove is a weapon the Hegemony does not build. Tink says 'please.' Warlord Steele says 'eliminate them.'",
       "quest_giver": {
         "npc_id": "npc_salvage_expert",
-        "name": "Tink",
+        "name": "Warlord Harkon Steele",
         "location": "WAR_MACHINE_GRAVEYARD"
       },
       "requirements": {
@@ -716,15 +716,15 @@
     },
     {
       "id": "fq_iron_014",
-      "title": "Sentinel Protocol",
-      "type": "boss",
+      "title": "Reverse-Engineer the Past",
+      "type": "story",
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "War Machine Sentinels are automated war constructs. Disable them and reverse-engineer their combat protocols.",
+      "description": "War Machine Sentinels — automated guardian constructs still running on battle-programming written before the Severance — continue patrolling the Graveyard as if the war they were built for is still ongoing. Tink has analyzed their combat protocols and found techniques the Hegemony's current Titan Assembly Yard has not re-discovered. Disable them carefully. Every Sentinel destroyed is a lesson extracted from the past to make the Hegemony's future war machines more lethal.",
       "quest_giver": {
         "npc_id": "npc_assembly_foreman",
-        "name": "Foreman Brigg",
+        "name": "Warlord Harkon Steele",
         "location": "WAR_MACHINE_GRAVEYARD"
       },
       "requirements": {
@@ -769,15 +769,15 @@
     },
     {
       "id": "fq_iron_015",
-      "title": "Graveyard Sweep",
-      "type": "hunt",
+      "title": "Full Tactical Suppression",
+      "type": "story",
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "Conduct a full sweep of the graveyard. Leave nothing standing that is not Hegemony.",
+      "description": "Warlord Steele does not believe in partial victories. A contested zone is a weak zone — every Wrecker and Scavenger still active in the Graveyard represents a hole in the Hegemony's tactical control. The full sweep order is simple and absolute: everything in the Graveyard that is not Iron Hegemony is either neutralized or tagged for disposal. By the end of this operation, the War Machine Graveyard will be an Iron Hegemony asset with no asterisks.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
-        "name": "Commander Drax",
+        "name": "Warlord Harkon Steele",
         "location": "WAR_MACHINE_GRAVEYARD"
       },
       "requirements": {
@@ -822,15 +822,15 @@
     },
     {
       "id": "fq_iron_016",
-      "title": "War Machine Assault",
-      "type": "hunt",
+      "title": "Target Practice",
+      "type": "story",
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "Multiple Sentinels are converging. This is not a threat \u2014 it is target practice.",
+      "description": "Multiple War Machine Sentinels are converging on the Hegemony's salvage teams \u2014 an automated counter-response to the Hegemony's presence in their patrol zones. Warlord Steele's briefing is characteristically brief: 'Multiple Sentinels converging. This is not a threat. This is target practice.' The Hegemony's soldiers are not told to be careful. They are told to be efficient. Efficiency is the highest virtue in the Iron Hegemony's doctrine of war.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
-        "name": "Commander Drax",
+        "name": "Warlord Harkon Steele",
         "location": "WAR_MACHINE_GRAVEYARD"
       },
       "requirements": {
@@ -875,15 +875,15 @@
     },
     {
       "id": "fq_iron_017",
-      "title": "Bastion Supply Run",
-      "type": "collect",
+      "title": "The Bastion Needs Feeding",
+      "type": "story",
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "The Bastion requires specific components from the graveyard. A soldier follows orders. Retrieve them.",
+      "description": "Foreman Brigg has a requisition list from the Bastion's Titan Assembly program — specific components from specific models in the Graveyard that cannot be manufactured any other way. The program is behind schedule. Three rival factions are ahead of the Hegemony in their own advanced weapons programs, and Warlord Steele does not tolerate being behind. The Graveyard Wreckers are in the retrieval zones again. Remove them. Retrieve what the Bastion needs. Bring the Hegemony back ahead.",
       "quest_giver": {
         "npc_id": "npc_assembly_foreman",
-        "name": "Foreman Brigg",
+        "name": "Warlord Harkon Steele",
         "location": "WAR_MACHINE_GRAVEYARD"
       },
       "requirements": {
@@ -928,15 +928,15 @@
     },
     {
       "id": "fq_iron_018",
-      "title": "The Advance Guard",
-      "type": "boss",
+      "title": "The Graveyard Has a Commander",
+      "type": "story",
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "A Sentinel Commander has activated deep in the graveyard. Destroy it and claim the graveyard for the Hegemony.",
+      "description": "Deep in the War Machine Graveyard's protected core zone, a Sentinel Commander — a war construct with hierarchical battle protocols that can coordinate the scattered Sentinels into a unified tactical force — has activated. Tink believes it has been dormant for centuries, triggered by the Hegemony's salvage operations. Warlord Steele believes this is irrelevant. The Graveyard belongs to the Iron Hegemony. Destroy the Commander. Plant the claim beacon. End this.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
-        "name": "Commander Drax",
+        "name": "Warlord Harkon Steele",
         "location": "WAR_MACHINE_GRAVEYARD"
       },
       "requirements": {
@@ -981,15 +981,15 @@
     },
     {
       "id": "fq_iron_019",
-      "title": "The Advancement",
-      "type": "boss",
+      "title": "No Anomalies in Our Territory",
+      "type": "story",
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "A Resonance Echo has been detected in the graveyard's deep sector. This anomaly threatens our position. Destroy it.",
+      "description": "A Resonance Echo — the kind of energy entity the Arcanum Seekers would write excited papers about — has formed in the Graveyard's deep sector, drawn by the resonance from the now-active Sentinel Commander. It is disrupting every piece of Hegemony electronic equipment within range and coordinating erratic behavior in the surviving Sentinels. The Iron Hegemony does not tolerate anomalies in controlled territory. This is controlled territory now. Destroy it.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
-        "name": "Commander Drax",
+        "name": "Warlord Harkon Steele",
         "location": "WAR_MACHINE_GRAVEYARD"
       },
       "requirements": {
@@ -1034,15 +1034,15 @@
     },
     {
       "id": "fq_iron_020",
-      "title": "Promotion Review",
+      "title": "The Bastion Recognizes You",
       "type": "story",
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "BASTION_CORE",
-      "description": "You have proven yourself on the frontlines. Return to the Bastion for your Advanced Combat promotion review.",
+      "description": "The War Machine Graveyard is secured. The Titan Assembly program has its components. Warlord Harkon Steele does not give compliments — he gives promotions, which mean exactly the same thing in the Iron Hegemony. Return to Bastion Core for your Advanced Combat elevation. The Titan Assembly Yard awaits, and what is built there will change the balance of power on Xylos. You are going to help build it.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
-        "name": "Commander Drax",
+        "name": "Warlord Harkon Steele",
         "location": "BASTION_CORE"
       },
       "requirements": {
