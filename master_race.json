@@ -13,11 +13,11 @@
       "brief_background_story": "Originating from the now-lost cradle of Earth, Humans have proven to be the most adaptable and tenacious species in the known universe. After a cataclysm rendered their homeworld uninhabitable, they scattered amongst the stars. This diaspora forced them to evolve, adapt, and in some cases, speciate entirely. Those who clung to their original genetic makeup are now known as 'Pure' or 'Solan' Humans. They are galactic nomads, traders, explorers, and survivors, bound by a shared, distant memory of a blue-green world. Their rarity has made them curiosities, but their inherent resilience makes them formidable.",
       "place_of_origin": "Sol System (Destroyed Earth, Nova Terra Federation)",
       "base_stats": {
-        "hp": 100,
+        "hp": 110,
         "mp": 100,
-        "atk": 100,
+        "atk": 110,
         "def": 100,
-        "agi": 105,
+        "agi": 110,
         "per": 110
       },
       "passive_skill": {
@@ -96,7 +96,7 @@
             "atk": 115,
             "def": 85,
             "agi": 125,
-            "per": 10
+            "per": 0
           },
           "passive_skill": {
             "skill_id": "sk_gen_cer_pas"
@@ -243,7 +243,7 @@
           "code": "VICUGNA",
           "name": "Vicugna Progenoi",
           "stat_override": {
-            "hp": 10,
+            "hp": 110,
             "mp": 0,
             "atk": 115,
             "def": 0,
@@ -389,7 +389,7 @@
         "hp": 140,
         "mp": 60,
         "atk": 120,
-        "def": 120,
+        "def": 110,
         "agi": 70,
         "per": 95
       },
@@ -451,7 +451,7 @@
       "base_stats": {
         "hp": 130,
         "mp": 110,
-        "atk": 85,
+        "atk": 95,
         "def": 110,
         "agi": 70,
         "per": 95
@@ -514,10 +514,10 @@
       "base_stats": {
         "hp": 85,
         "mp": 90,
-        "atk": 80,
+        "atk": 100,
         "def": 85,
         "agi": 120,
-        "per": 150
+        "per": 130
       },
       "passive_skill": {
         "skill_id": "rc_grem_pas"
@@ -533,9 +533,9 @@
       "brief_background_story": "The Gravitons evolved in the extreme tidal forces near a black hole, living on a habitat that perpetually skirts the event horizon. This has given them an innate and intuitive control over gravity itself. They perceive the universe not as matter and energy, but as a series of curves in spacetime. They are philosophical and detached, seeing the struggles of others as temporary fluctuations in a cosmic ocean.",
       "place_of_origin": "The Brink (Singularity Station)",
       "base_stats": {
-        "hp": 85,
+        "hp": 100,
         "mp": 140,
-        "atk": 80,
+        "atk": 100,
         "def": 95,
         "agi": 95,
         "per": 115
@@ -642,7 +642,7 @@
         "mp": 100,
         "atk": 120,
         "def": 75,
-        "agi": 145,
+        "agi": 125,
         "per": 90
       },
       "passive_skill": {
@@ -661,8 +661,8 @@
       "base_stats": {
         "hp": 125,
         "mp": 65,
-        "atk": 100,
-        "def": 160,
+        "atk": 120,
+        "def": 150,
         "agi": 50,
         "per": 105
       },
@@ -683,9 +683,9 @@
         "hp": 95,
         "mp": 120,
         "atk": 85,
-        "def": 95,
+        "def": 90,
         "agi": 100,
-        "per": 125
+        "per": 140
       },
       "passive_skill": {
         "skill_id": "rc_astr_pas"

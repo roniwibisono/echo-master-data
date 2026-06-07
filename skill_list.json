@@ -86,7 +86,7 @@
     "type": "Active",
     "source_type": "Class_Tree",
     "mp_cost": 5,
-    "damage_formula": "ATK * 1.5",
+    "damage_formula": "ATK * 1.2",
     "effect": "Basic heavy physical attack.",
     "stat_modifiers": [],
     "periodic_effects": [],
@@ -153,8 +153,8 @@
     "type": "Active",
     "source_type": "Class_Tree",
     "mp_cost": 15,
-    "damage_formula": "atk + (def * 1.5)",
-    "effect": "Stuns target for 1 turn. Uses Defense as damage source.",
+    "damage_formula": "(atk * 0.5) + (def * 0.7)",
+    "effect": "Stuns target for 1 turn. Uses Defense as bonus damage.",
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [
@@ -512,8 +512,8 @@
     "name": "Reckless Swing",
     "type": "Active",
     "source_type": "Class_Tree",
-    "mp_cost": 10,
-    "damage_formula": "atk * 2.5",
+    "mp_cost": 15,
+    "damage_formula": "atk * 1.8",
     "effect": "User takes recoil damage (10% max HP).",
     "stat_modifiers": [],
     "periodic_effects": [],
@@ -943,8 +943,8 @@
     "type": "Active",
     "source_type": "Class_Tree",
     "mp_cost": 15,
-    "damage_formula": "atk * 2.0",
-    "effect": "User becomes untargetable for 1 turn, then lands dealing AoE damage.",
+    "damage_formula": "atk * 1.7",
+    "effect": "User becomes untargetable for 1 turn, then lands with a powerful strike.",
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [
@@ -970,7 +970,7 @@
     "range": 3.0,
     "aoe_radius": 2.5,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.5
+    "cooldown_seconds": 2.0
   },
   {
     "id": "sk_dra_act_2",
@@ -1189,7 +1189,7 @@
     "type": "Active",
     "source_type": "Class_Tree",
     "mp_cost": 30,
-    "damage_formula": "atk * 1.2",
+    "damage_formula": "atk * 1.5",
     "effect": "Prevents the enemy from acting or fleeing.",
     "stat_modifiers": [],
     "periodic_effects": [],
@@ -1267,7 +1267,7 @@
     "type": "Active",
     "source_type": "Class_Tree",
     "mp_cost": 10,
-    "damage_formula": "atk * 0.8 * 2",
+    "damage_formula": "atk * 0.6 * 2",
     "effect": "Strikes the target twice.",
     "stat_modifiers": [],
     "periodic_effects": [],
@@ -1973,8 +1973,8 @@
     "type": "Active",
     "source_type": "Class_Tree",
     "mp_cost": 50,
-    "damage_formula": "per * 4.5",
-    "effect": "Extremely high damage. Low accuracy unless target is Stunned or Rooted.",
+    "damage_formula": "per * 3.0",
+    "effect": "Extremely high damage. Low accuracy unless targeting a stunned or slowed target.",
     "stat_modifiers": [
       {
         "stat": "accuracy",
@@ -2198,8 +2198,8 @@
     "name": "Bullet Storm",
     "type": "Active",
     "source_type": "Class_Tree",
-    "mp_cost": 60,
-    "damage_formula": "per * 0.5",
+    "mp_cost": 45,
+    "damage_formula": "per * 2.5",
     "effect": "Attacks every enemy once.",
     "stat_modifiers": [],
     "periodic_effects": [],
@@ -2566,7 +2566,7 @@
     "type": "Active",
     "source_type": "Class_Tree",
     "mp_cost": 25,
-    "damage_formula": "per * 1.5",
+    "damage_formula": "per * 1.8",
     "effect": "Deals AoE ice damage and freezes enemies.",
     "stat_modifiers": [],
     "periodic_effects": [],
@@ -2643,7 +2643,7 @@
     "type": "Active",
     "source_type": "Class_Tree",
     "mp_cost": 80,
-    "damage_formula": "per * 5",
+    "damage_formula": "per * 4.0",
     "effect": "Deals massive damage.",
     "stat_modifiers": [],
     "periodic_effects": [],
@@ -2893,7 +2893,7 @@
     "type": "Active",
     "source_type": "Class_Tree",
     "mp_cost": 30,
-    "damage_formula": "per * 0.5",
+    "damage_formula": "per * 0.8",
     "effect": "Heals all allies over time for 3 turns.",
     "stat_modifiers": [],
     "periodic_effects": [
@@ -3553,7 +3553,7 @@
     "type": "Active",
     "source_type": "Class_Tree",
     "mp_cost": 5,
-    "damage_formula": "atk + (per * 0.5)",
+    "damage_formula": "(atk * 0.7) + (per * 0.3)",
     "effect": "Melee attack that also repairs allied Mechanical units.",
     "stat_modifiers": [],
     "periodic_effects": [],
@@ -3623,7 +3623,7 @@
     "type": "Active",
     "source_type": "Class_Tree",
     "mp_cost": 25,
-    "damage_formula": "per * 0.5",
+    "damage_formula": "per * 0.8",
     "effect": "Summons a drone that heals the most injured ally each turn.",
     "stat_modifiers": [],
     "periodic_effects": [],
@@ -4157,7 +4157,7 @@
     "type": "Active",
     "source_type": "Class_Tree",
     "mp_cost": 45,
-    "damage_formula": "perception * 1.5",
+    "damage_formula": "perception * 2.5",
     "effect": "Triggers a massive area-of-effect explosion.",
     "stat_modifiers": [],
     "periodic_effects": [],
@@ -4333,8 +4333,8 @@
     "type": "Active",
     "source_type": "Class_Tree",
     "mp_cost": 15,
-    "damage_formula": "perception * 1.0",
-    "effect": "Sprays corrosive acid that reduces enemy Defense by 20%.",
+    "damage_formula": "perception * 1.5",
+    "effect": "Sprays corrosive acid that reduces enemy Defense.",
     "stat_modifiers": [
       {
         "stat": "def",
@@ -4622,7 +4622,7 @@
     "type": "Active",
     "source_type": "Class_Tree",
     "mp_cost": 30,
-    "damage_formula": "perception * 0.5",
+    "damage_formula": "perception * 1.0",
     "effect": "Deals AoE damage and permanently reduces enemy Defense.",
     "stat_modifiers": [
       {
@@ -4694,9 +4694,9 @@
     "name": "Adrenaline Focus",
     "type": "Active",
     "source_type": "Race",
-    "mp_cost": 20,
-    "damage_formula": "0",
-    "effect": "+15% all stats for 2 turns.",
+    "mp_cost": 15,
+    "damage_formula": "80 + (ATK * 0.6)",
+    "effect": "Strikes target and gains +15% ATK, DEF, AGI, PER for 2 turns.",
     "stat_modifiers": [
       {
         "stat": "atk",
@@ -4742,14 +4742,14 @@
         "Solan Human"
       ]
     },
-    "target_attack": "self",
+    "target_attack": "enemy",
     "target_effect": "self",
     "skill_description": "",
-    "skill_shape": "self_buff",
-    "range": 0.0,
+    "skill_shape": "single_projectile",
+    "range": 5.0,
     "aoe_radius": 0.0,
-    "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "projectile_speed": 8.0,
+    "cooldown_seconds": 2.0
   },
   {
     "id": "rc_prog_pas",
@@ -4793,7 +4793,7 @@
     "type": "Active",
     "source_type": "Race",
     "mp_cost": 15,
-    "damage_formula": "60 + (ATK * 0.5)",
+    "damage_formula": "90 + (ATK * 0.6)",
     "effect": "All enemies DEF -15% for 2 turns.",
     "stat_modifiers": [
       {
@@ -4832,14 +4832,14 @@
     "source_type": "Race_Genus",
     "mp_cost": 0,
     "damage_formula": "0",
-    "effect": "Damage per hit capped at 30% Max HP.",
+    "effect": "Damage per hit capped at 25% Max HP.",
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
     "special_effects": [
       {
         "type": "incoming_damage_cap_percent_max_hp",
-        "value": 30,
+        "value": 25,
         "duration_turns": 99
       }
     ],
@@ -4869,7 +4869,7 @@
     "type": "Active",
     "source_type": "Race_Genus",
     "mp_cost": 25,
-    "damage_formula": "100 + (ATK * 0.8)",
+    "damage_formula": "70 + (ATK * 0.65)",
     "effect": "Self DEF +10% for 1 turn.",
     "stat_modifiers": [
       {
@@ -5289,7 +5289,7 @@
     "type": "Active",
     "source_type": "Race_Genus",
     "mp_cost": 20,
-    "damage_formula": "atk * 0.5",
+    "damage_formula": "40 + (ATK * 0.65)",
     "effect": "Interferes with enemy weapon handling, reducing Attack and Accuracy.",
     "stat_modifiers": [
       {
@@ -5377,7 +5377,7 @@
     "type": "Active",
     "source_type": "Race_Genus",
     "mp_cost": 20,
-    "damage_formula": "atk * 0.6",
+    "damage_formula": "30 + (ATK * 0.7)",
     "effect": "Reduces enemy Attack by 10% for 1 turn.",
     "stat_modifiers": [
       {
@@ -5662,6 +5662,47 @@
     "cooldown_seconds": 1.0
   },
   {
+    "id": "sk_gen_vic_pas",
+    "name": "Dustcloud Reflex",
+    "type": "Passive",
+    "source_type": "Race_Genus",
+    "mp_cost": 0,
+    "damage_formula": "0",
+    "effect": "Heightened agility increases evasion rate by 10%.",
+    "stat_modifiers": [
+      {
+        "stat": "evasion",
+        "value": 10,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
+    "periodic_effects": [],
+    "control_effects": [],
+    "special_effects": [],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "allowed_races": [
+        "Progenoi"
+      ],
+      "allowed_genus": [
+        "VICUGNA"
+      ],
+      "min_level": 0,
+      "allowed_weapons": []
+    },
+    "target_attack": "self",
+    "target_effect": "self",
+    "skill_description": "",
+    "skill_shape": "passive",
+    "range": 0.0,
+    "aoe_radius": 0.0,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 0.0
+  },
+  {
     "id": "gen_vic_act",
     "name": "Caustic Spit",
     "type": "Active",
@@ -5787,7 +5828,7 @@
     "range": 4.0,
     "aoe_radius": 2.5,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 4.5
+    "cooldown_seconds": 3.0
   },
   {
     "id": "sk_gen_gir_pas_1",
@@ -5891,7 +5932,7 @@
     "source_type": "Race_Genus",
     "mp_cost": 0,
     "damage_formula": "0",
-    "effect": "Thick hide reduces incoming physical damage and increases Defense.",
+    "effect": "Thick hide increases Defense by 20%.",
     "stat_modifiers": [
       {
         "stat": "def",
@@ -5900,14 +5941,6 @@
         "duration_turns": 99,
         "target": "self",
         "condition": "-"
-      },
-      {
-        "stat": "damage_taken",
-        "value": -15,
-        "type": "percent",
-        "duration_turns": 99,
-        "target": "self",
-        "condition": "physical_damage"
       }
     ],
     "periodic_effects": [],
@@ -6024,29 +6057,20 @@
     "name": "Overclock",
     "type": "Active",
     "source_type": "Race",
-    "mp_cost": 30,
-    "damage_formula": "0",
-    "effect": "ATK +25% for 2 turns. Self-damage 5% HP per turn.",
+    "mp_cost": 25,
+    "damage_formula": "80 + (ATK * 0.6)",
+    "effect": "Strikes target with overloaded power and gains ATK +20% for 2 turns.",
     "stat_modifiers": [
       {
         "stat": "atk",
-        "value": 25,
+        "value": 20,
         "type": "percent",
         "duration_turns": 2,
         "target": "self",
         "condition": "-"
       }
     ],
-    "periodic_effects": [
-      {
-        "type": "damage_over_time",
-        "value": 5,
-        "scale": 0,
-        "duration_turns": 2,
-        "target": "self",
-        "condition": "max_hp_percent"
-      }
-    ],
+    "periodic_effects": [],
     "control_effects": [],
     "special_effects": [],
     "usage_requirements": {
@@ -6058,14 +6082,14 @@
       "min_level": 0,
       "allowed_weapons": []
     },
-    "target_attack": "self",
+    "target_attack": "enemy",
     "target_effect": "self",
     "skill_description": "",
-    "skill_shape": "self_buff",
-    "range": 0.0,
+    "skill_shape": "single_projectile",
+    "range": 5.0,
     "aoe_radius": 0.0,
-    "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "projectile_speed": 8.0,
+    "cooldown_seconds": 2.0
   },
   {
     "id": "rc_syl_pas",
@@ -6074,11 +6098,11 @@
     "source_type": "Race",
     "mp_cost": 0,
     "damage_formula": "0",
-    "effect": "15% chance to evade attacks.",
+    "effect": "10% chance to evade attacks.",
     "stat_modifiers": [
       {
         "stat": "evasion_rate",
-        "value": 15,
+        "value": 10,
         "type": "percent",
         "duration_turns": 99,
         "target": "self",
@@ -6111,7 +6135,7 @@
     "name": "Starlight Arrow",
     "type": "Active",
     "source_type": "Race",
-    "mp_cost": 10,
+    "mp_cost": 18,
     "damage_formula": "90 + (ATK * 0.8)",
     "effect": "Cannot miss.",
     "stat_modifiers": [],
@@ -6140,7 +6164,7 @@
     "range": 5.0,
     "aoe_radius": 0.0,
     "projectile_speed": 8.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 2.0
   },
   {
     "id": "rc_kael_pas",
@@ -6186,24 +6210,13 @@
     "name": "Spirit Lash",
     "type": "Active",
     "source_type": "Race",
-    "mp_cost": 0,
-    "damage_formula": "(mp_used * 4) + (mp * 0.4)",
-    "effect": "Ignores DEF.",
+    "mp_cost": 25,
+    "damage_formula": "100 + (ATK * 0.7)",
+    "effect": "Deals spirit damage. Evasion still applies.",
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
-    "special_effects": [
-      {
-        "type": "variable_mp_cost",
-        "value": 30,
-        "duration_turns": 0
-      },
-      {
-        "type": "ignore_defense",
-        "value": 100,
-        "duration_turns": 0
-      }
-    ],
+    "special_effects": [],
     "usage_requirements": {
       "allowed_classes": [],
       "allowed_races": [
@@ -6220,7 +6233,7 @@
     "range": 5.0,
     "aoe_radius": 0.0,
     "projectile_speed": 8.0,
-    "cooldown_seconds": 0.5
+    "cooldown_seconds": 2.0
   },
   {
     "id": "rc_drak_pas",
@@ -6229,11 +6242,11 @@
     "source_type": "Race",
     "mp_cost": 0,
     "damage_formula": "0",
-    "effect": "Damage taken reduced by 20%.",
+    "effect": "Damage taken reduced by 10%.",
     "stat_modifiers": [
       {
         "stat": "damage_taken",
-        "value": -20,
+        "value": -10,
         "type": "percent",
         "duration_turns": 99,
         "target": "self",
@@ -6354,13 +6367,13 @@
     "type": "Active",
     "source_type": "Race",
     "mp_cost": 15,
-    "damage_formula": "50 + (ATK * 0.4)",
-    "effect": "Applies Poison dealing 6% Max HP per turn for 3 turns.",
+    "damage_formula": "70 + (ATK * 0.55)",
+    "effect": "Applies Poison dealing 4% Max HP per turn for 3 turns.",
     "stat_modifiers": [],
     "periodic_effects": [
       {
         "type": "damage_over_time",
-        "value": 6,
+        "value": 4,
         "scale": 0,
         "duration_turns": 3,
         "target": "enemy",
@@ -6475,12 +6488,12 @@
     "source_type": "Race",
     "mp_cost": 0,
     "damage_formula": "0",
-    "effect": "Regenerate 3% Max HP at the end of each turn.",
+    "effect": "Regenerate 4% Max HP at the end of each turn.",
     "stat_modifiers": [],
     "periodic_effects": [
       {
         "type": "heal_over_time",
-        "value": 3,
+        "value": 4,
         "scale": 0,
         "duration_turns": 99,
         "target": "self",
@@ -6589,7 +6602,7 @@
     "type": "Active",
     "source_type": "Race",
     "mp_cost": 25,
-    "damage_formula": "45 + (ATK * 0.4)",
+    "damage_formula": "70 + (ATK * 0.6)",
     "effect": "Hits up to 3 enemies with reduced damage.",
     "stat_modifiers": [],
     "periodic_effects": [],
@@ -6743,7 +6756,7 @@
     "type": "Active",
     "source_type": "Race",
     "mp_cost": 15,
-    "damage_formula": "40 + (ATK * 0.3)",
+    "damage_formula": "80 + (ATK * 0.6)",
     "effect": "Reduces target ATK or DEF by 20% for 2 turns.",
     "stat_modifiers": [],
     "periodic_effects": [],
@@ -6820,7 +6833,7 @@
     "type": "Active",
     "source_type": "Race",
     "mp_cost": 20,
-    "damage_formula": "50 + (ATK * 0.4)",
+    "damage_formula": "80 + (ATK * 0.7)",
     "effect": "Target AGI -25% for 2 turns.",
     "stat_modifiers": [
       {
@@ -7021,14 +7034,14 @@
     "source_type": "Race",
     "mp_cost": 0,
     "damage_formula": "0",
-    "effect": "Enemy skills cost +5 MP.",
+    "effect": "Enemy skills cost +10 MP.",
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
     "special_effects": [
       {
         "type": "enemy_mp_cost_increase",
-        "value": 5,
+        "value": 10,
         "duration_turns": 99
       }
     ],
@@ -7056,7 +7069,7 @@
     "type": "Active",
     "source_type": "Race",
     "mp_cost": 20,
-    "damage_formula": "80 + (ATK * 0.6)",
+    "damage_formula": "95 + (ATK * 0.75)",
     "effect": "Applies a random stat debuff (15%) for 2 turns.",
     "stat_modifiers": [],
     "periodic_effects": [],
@@ -7098,11 +7111,11 @@
     "source_type": "Race",
     "mp_cost": 0,
     "damage_formula": "0",
-    "effect": "Max HP increased by 10%.",
+    "effect": "Max HP increased by 7%.",
     "stat_modifiers": [
       {
         "stat": "hp",
-        "value": 10,
+        "value": 7,
         "type": "percent",
         "duration_turns": 99,
         "target": "self",
@@ -7217,8 +7230,8 @@
     "name": "Umbral Execution",
     "type": "Active",
     "source_type": "Race",
-    "mp_cost": 30,
-    "damage_formula": "110 + (ATK * 0.9)",
+    "mp_cost": 25,
+    "damage_formula": "90 + (ATK * 0.7)",
     "effect": "Deals 25% more damage to targets below 40% HP.",
     "stat_modifiers": [],
     "periodic_effects": [],
@@ -7291,12 +7304,12 @@
     "type": "Active",
     "source_type": "Race",
     "mp_cost": 20,
-    "damage_formula": "0",
-    "effect": "Reduces all damage taken by 50% for 1 turn. Cannot attack.",
+    "damage_formula": "70 + (ATK * 0.6)",
+    "effect": "Strikes target with crystalline force and reduces damage taken by 25% for 1 turn.",
     "stat_modifiers": [
       {
         "stat": "damage_taken",
-        "value": -50,
+        "value": -25,
         "type": "percent",
         "duration_turns": 1,
         "target": "self",
@@ -7304,13 +7317,7 @@
       }
     ],
     "periodic_effects": [],
-    "control_effects": [
-      {
-        "type": "self_disable_attack",
-        "duration_turns": 1,
-        "target": "self"
-      }
-    ],
+    "control_effects": [],
     "special_effects": [],
     "usage_requirements": {
       "allowed_classes": [],
@@ -7321,14 +7328,14 @@
       "min_level": 0,
       "allowed_weapons": []
     },
-    "target_attack": "self",
+    "target_attack": "enemy",
     "target_effect": "self",
     "skill_description": "",
-    "skill_shape": "self_buff",
-    "range": 0.0,
+    "skill_shape": "single_projectile",
+    "range": 5.0,
     "aoe_radius": 0.0,
-    "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "projectile_speed": 8.0,
+    "cooldown_seconds": 2.0
   },
   {
     "id": "rc_astr_pas",
@@ -7377,9 +7384,9 @@
     "name": "Constellation Shift",
     "type": "Active",
     "source_type": "Race",
-    "mp_cost": 25,
-    "damage_formula": "0",
-    "effect": "Party buff for 2 turns: ATK +10% or DEF +10% or MP Regen +5.",
+    "mp_cost": 20,
+    "damage_formula": "80 + (PER * 0.7)",
+    "effect": "Fires a stellar bolt and grants self or party a random buff for 2 turns: ATK +10%, DEF +10%, or MP Regen +5.",
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
@@ -7415,14 +7422,14 @@
       "min_level": 0,
       "allowed_weapons": []
     },
-    "target_attack": "self",
+    "target_attack": "enemy",
     "target_effect": "All Ally",
     "skill_description": "",
-    "skill_shape": "self_buff",
-    "range": 0.0,
+    "skill_shape": "single_projectile",
+    "range": 5.0,
     "aoe_radius": 0.0,
-    "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "projectile_speed": 8.0,
+    "cooldown_seconds": 2.0
   },
   {
     "id": "rc_hek_pas",
@@ -7467,9 +7474,9 @@
     "source_type": "Race",
     "mp_cost": 30,
     "damage_formula": [
-      "60 + (ATK * 0.4)",
       "50 + (ATK * 0.3)",
-      "40 + (ATK * 0.2)"
+      "40 + (ATK * 0.2)",
+      "30 + (ATK * 0.15)"
     ],
     "effect": "Strikes the same target three times with diminishing damage.",
     "stat_modifiers": [],
@@ -7578,9 +7585,9 @@
     "name": "Void Lash",
     "type": "Active",
     "source_type": "Race",
-    "mp_cost": 30,
+    "mp_cost": 25,
     "damage_formula": "110 + (ATK * 0.8)",
-    "effect": "Lose 10% Max HP. Target healing received reduced by 20% for 2 turns.",
+    "effect": "Lose 5% Max HP. Target healing received reduced by 20% for 2 turns.",
     "stat_modifiers": [
       {
         "stat": "healing_received",
@@ -7596,7 +7603,7 @@
     "special_effects": [
       {
         "type": "self_hp_loss_percent",
-        "value": 10,
+        "value": 5,
         "duration_turns": 0
       }
     ],
@@ -7708,7 +7715,7 @@
     "type": "Active",
     "source_type": "Race",
     "mp_cost": 25,
-    "damage_formula": "80 + (per * 1.2)",
+    "damage_formula": "80 + (per * 0.8)",
     "effect": "Reduces target Agility by 20% for 1 turn.",
     "stat_modifiers": [
       {
