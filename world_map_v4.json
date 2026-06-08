@@ -164,7 +164,7 @@
     },
     {
       "id": "PvP_CORE",
-      "name": "Cradle Expanse \u2014 PvP Core",
+      "name": "Cradle Expanse — PvP Core",
       "position": {
         "x": 0,
         "y": 2
@@ -192,7 +192,7 @@
     },
     {
       "id": "SHATTERED_HEART",
-      "name": "Shattered Heart \u2014 Endgame",
+      "name": "Shattered Heart — Endgame",
       "position": {
         "x": 0,
         "y": 5
@@ -6028,12 +6028,1164 @@
       "min_level": 1,
       "travel_time": 60,
       "danger_level": 1
+    },
+    {
+      "from": "AETHEL_GARDENS",
+      "to": "NEXUS_CORE",
+      "route_type": "primary",
+      "min_level": 1,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "BASTION_CORE",
+      "to": "NEXUS_CORE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CRADLE_OUTER_RING",
+      "to": "NEXUS_CORE",
+      "route_type": "primary",
+      "min_level": 11,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "OBSERVATORY_SPIRE",
+      "to": "NEXUS_CORE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "PORT_MERIDIAN",
+      "to": "NEXUS_CORE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SENTINEL_ENCLAVE",
+      "to": "NEXUS_CORE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "THE_SPIRE",
+      "to": "NEXUS_CORE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "BROKEN_CIVIL_QUARTER",
+      "to": "AETHEL_GARDENS",
+      "route_type": "primary",
+      "min_level": 6,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "GLOWVINE_FOREST",
+      "to": "AETHEL_GARDENS",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CRADLE_OUTER_RING",
+      "to": "BROKEN_CIVIL_QUARTER",
+      "route_type": "primary",
+      "min_level": 11,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "SCRAP_FIELD",
+      "to": "BROKEN_CIVIL_QUARTER",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "BLACK_DOCK_MARKET",
+      "to": "CRADLE_OUTER_RING",
+      "route_type": "secondary",
+      "min_level": 15,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CRADLE_EXPANSE",
+      "to": "CRADLE_OUTER_RING",
+      "route_type": "border",
+      "min_level": 20,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "FRACTURED_GLASS_VALLEY",
+      "to": "CRADLE_OUTER_RING",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "INNER_CRADLE_EXCLUSION",
+      "to": "CRADLE_OUTER_RING",
+      "route_type": "primary",
+      "min_level": 25,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "CRADLE_EXPANSE",
+      "to": "INNER_CRADLE_EXCLUSION",
+      "route_type": "border",
+      "min_level": 20,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "AETHEL_STORM_BELT",
+      "to": "INNER_CRADLE_EXCLUSION",
+      "route_type": "border",
+      "min_level": 30,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "SHATTERED_HEART",
+      "to": "INNER_CRADLE_EXCLUSION",
+      "route_type": "secondary",
+      "min_level": 60,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "THE_SPIRE",
+      "to": "SENTINEL_ENCLAVE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "OBSERVATORY_SPIRE",
+      "to": "SENTINEL_ENCLAVE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "PORT_MERIDIAN",
+      "to": "SENTINEL_ENCLAVE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CRYSTAL_SLOPE",
+      "to": "OBSERVATORY_SPIRE",
+      "route_type": "primary",
+      "min_level": 1,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "THE_SPIRE",
+      "to": "OBSERVATORY_SPIRE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "FRACTURED_GLASS_VALLEY",
+      "to": "CRYSTAL_SLOPE",
+      "route_type": "primary",
+      "min_level": 6,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "HIGHLAND_PLATEAU",
+      "to": "CRYSTAL_SLOPE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "RESONANCE_CAVERNS",
+      "to": "FRACTURED_GLASS_VALLEY",
+      "route_type": "primary",
+      "min_level": 13,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "SHARD_PULSE_PEAK",
+      "to": "RESONANCE_CAVERNS",
+      "route_type": "primary",
+      "min_level": 25,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "FRAGMENT_SHRINE",
+      "to": "RESONANCE_CAVERNS",
+      "route_type": "secondary",
+      "min_level": 15,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CRADLE_EXPANSE",
+      "to": "RESONANCE_CAVERNS",
+      "route_type": "border",
+      "min_level": 20,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "AETHEL_STORM_BELT",
+      "to": "SHARD_PULSE_PEAK",
+      "route_type": "border",
+      "min_level": 30,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "SKYBRIDGE_REACTOR",
+      "to": "SHARD_PULSE_PEAK",
+      "route_type": "secondary",
+      "min_level": 35,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SCRAP_FIELD",
+      "to": "BASTION_CORE",
+      "route_type": "primary",
+      "min_level": 1,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "FORTRESS_KAELEN",
+      "to": "BASTION_CORE",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "IRON_RAVINE",
+      "to": "SCRAP_FIELD",
+      "route_type": "primary",
+      "min_level": 6,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "EXTRACTION_ZONE_DELTA",
+      "to": "IRON_RAVINE",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SCORCHED_BADLANDS",
+      "to": "IRON_RAVINE",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "WAR_MACHINE_GRAVEYARD",
+      "to": "IRON_RAVINE",
+      "route_type": "primary",
+      "min_level": 13,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "TITAN_ASSEMBLY_YARD",
+      "to": "WAR_MACHINE_GRAVEYARD",
+      "route_type": "primary",
+      "min_level": 30,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "BORDER_SKIRMISH_RING",
+      "to": "WAR_MACHINE_GRAVEYARD",
+      "route_type": "border",
+      "min_level": 25,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "MESA_WARPATH",
+      "to": "WAR_MACHINE_GRAVEYARD",
+      "route_type": "secondary",
+      "min_level": 16,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "AETHEL_STORM_BELT",
+      "to": "TITAN_ASSEMBLY_YARD",
+      "route_type": "border",
+      "min_level": 30,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "FORGE_CANYON_DEPTHS",
+      "to": "TITAN_ASSEMBLY_YARD",
+      "route_type": "secondary",
+      "min_level": 30,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CORAL_WETLANDS",
+      "to": "PORT_MERIDIAN",
+      "route_type": "primary",
+      "min_level": 1,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "SANCTUM",
+      "to": "PORT_MERIDIAN",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "THE_SPIRE",
+      "to": "PORT_MERIDIAN",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SMUGGLER_JUNGLE",
+      "to": "CORAL_WETLANDS",
+      "route_type": "primary",
+      "min_level": 6,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "GLOWVINE_FOREST",
+      "to": "CORAL_WETLANDS",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "BLACK_DOCK_MARKET",
+      "to": "SMUGGLER_JUNGLE",
+      "route_type": "primary",
+      "min_level": 15,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "SHARDROOT_SWAMP",
+      "to": "SMUGGLER_JUNGLE",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "BORDER_SKIRMISH_RING",
+      "to": "BLACK_DOCK_MARKET",
+      "route_type": "border",
+      "min_level": 25,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "SUNKEN_AETHEL_RUIN",
+      "to": "BLACK_DOCK_MARKET",
+      "route_type": "primary",
+      "min_level": 30,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "AETHEL_STORM_BELT",
+      "to": "SUNKEN_AETHEL_RUIN",
+      "route_type": "border",
+      "min_level": 30,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "SHATTERED_HEART",
+      "to": "SUNKEN_AETHEL_RUIN",
+      "route_type": "secondary",
+      "min_level": 60,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "HIGHLAND_PLATEAU",
+      "to": "THE_SPIRE",
+      "route_type": "primary",
+      "min_level": 1,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "EXTRACTION_ZONE_DELTA",
+      "to": "HIGHLAND_PLATEAU",
+      "route_type": "primary",
+      "min_level": 6,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "SECURE_MINING_GRID",
+      "to": "EXTRACTION_ZONE_DELTA",
+      "route_type": "primary",
+      "min_level": 16,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "SKYBRIDGE_REACTOR",
+      "to": "SECURE_MINING_GRID",
+      "route_type": "primary",
+      "min_level": 35,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "BORDER_SKIRMISH_RING",
+      "to": "SECURE_MINING_GRID",
+      "route_type": "border",
+      "min_level": 25,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "AETHEL_STORM_BELT",
+      "to": "SKYBRIDGE_REACTOR",
+      "route_type": "border",
+      "min_level": 30,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "GLOWVINE_FOREST",
+      "to": "SANCTUM",
+      "route_type": "primary",
+      "min_level": 1,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "SHARDROOT_SWAMP",
+      "to": "GLOWVINE_FOREST",
+      "route_type": "primary",
+      "min_level": 6,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "FRAGMENT_SHRINE",
+      "to": "SHARDROOT_SWAMP",
+      "route_type": "primary",
+      "min_level": 15,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "HEARTWOOD_ALTAR",
+      "to": "FRAGMENT_SHRINE",
+      "route_type": "primary",
+      "min_level": 28,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "CRADLE_EXPANSE",
+      "to": "FRAGMENT_SHRINE",
+      "route_type": "border",
+      "min_level": 20,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "AETHEL_STORM_BELT",
+      "to": "HEARTWOOD_ALTAR",
+      "route_type": "border",
+      "min_level": 30,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "SHATTERED_HEART",
+      "to": "HEARTWOOD_ALTAR",
+      "route_type": "secondary",
+      "min_level": 60,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "DUNE_OUTSKIRTS",
+      "to": "FORTRESS_KAELEN",
+      "route_type": "primary",
+      "min_level": 1,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "SCORCHED_BADLANDS",
+      "to": "DUNE_OUTSKIRTS",
+      "route_type": "primary",
+      "min_level": 6,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "MESA_WARPATH",
+      "to": "SCORCHED_BADLANDS",
+      "route_type": "primary",
+      "min_level": 16,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "FORGE_CANYON_DEPTHS",
+      "to": "MESA_WARPATH",
+      "route_type": "primary",
+      "min_level": 30,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "BORDER_SKIRMISH_RING",
+      "to": "MESA_WARPATH",
+      "route_type": "border",
+      "min_level": 25,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "AETHEL_STORM_BELT",
+      "to": "FORGE_CANYON_DEPTHS",
+      "route_type": "border",
+      "min_level": 30,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "AETHEL_STORM_BELT",
+      "to": "CRADLE_EXPANSE",
+      "route_type": "primary",
+      "min_level": 30,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "BLOOD_IRON_BASIN",
+      "to": "CRADLE_EXPANSE",
+      "route_type": "border",
+      "min_level": 30,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "BORDER_SKIRMISH_RING",
+      "to": "CRADLE_EXPANSE",
+      "route_type": "primary",
+      "min_level": 25,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "HIDDEN_AETHELGARDIAN_CITY",
+      "to": "CRADLE_EXPANSE",
+      "route_type": "border",
+      "min_level": 50,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "SHATTERED_HEART",
+      "to": "CRADLE_EXPANSE",
+      "route_type": "border",
+      "min_level": 60,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "TITAN_GRAVEYARD",
+      "to": "CRADLE_EXPANSE",
+      "route_type": "border",
+      "min_level": 60,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "AETHEL_STORM_RIDGE",
+      "to": "AETHEL_STORM_BELT",
+      "route_type": "border",
+      "min_level": 50,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "HIDDEN_AETHELGARDIAN_CITY",
+      "to": "AETHEL_STORM_BELT",
+      "route_type": "border",
+      "min_level": 50,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "SHATTERED_HEART",
+      "to": "AETHEL_STORM_BELT",
+      "route_type": "border",
+      "min_level": 60,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "VOID_RIFT_CROSSROADS",
+      "to": "BORDER_SKIRMISH_RING",
+      "route_type": "border",
+      "min_level": 40,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "SHATTERED_HEART",
+      "to": "BLOOD_IRON_BASIN",
+      "route_type": "border",
+      "min_level": 60,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "VOID_ECHO_CHASM",
+      "to": "VOID_RIFT_CROSSROADS",
+      "route_type": "border",
+      "min_level": 55,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "PRIMA_MATERIA_FORGE",
+      "to": "AETHEL_STORM_RIDGE",
+      "route_type": "border",
+      "min_level": 75,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "SEVERANCE_FAULTLINE",
+      "to": "TITAN_GRAVEYARD",
+      "route_type": "border",
+      "min_level": 65,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "PRIMA_MATERIA_FORGE",
+      "to": "ETERNAL_GATE",
+      "route_type": "border",
+      "min_level": 75,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "HIDDEN_AETHELGARDIAN_CITY",
+      "to": "ETERNAL_GATE",
+      "route_type": "border",
+      "min_level": 50,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "HIDDEN_AETHELGARDIAN_CITY",
+      "to": "SHATTERED_HEART",
+      "route_type": "secondary",
+      "min_level": 50,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SEVERANCE_FAULTLINE",
+      "to": "SHATTERED_HEART",
+      "route_type": "primary",
+      "min_level": 65,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "VOID_ECHO_CHASM",
+      "to": "SHATTERED_HEART",
+      "route_type": "secondary",
+      "min_level": 55,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "AETHEL_SIPHON_CORE",
+      "to": "SEVERANCE_FAULTLINE",
+      "route_type": "primary",
+      "min_level": 70,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "PRIMA_MATERIA_FORGE",
+      "to": "AETHEL_SIPHON_CORE",
+      "route_type": "primary",
+      "min_level": 75,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "SENTINEL_ENCLAVE",
+      "to": "ORBITAL_SENTINEL_COMMAND",
+      "route_type": "primary",
+      "min_level": 1,
+      "travel_time": 30,
+      "danger_level": 0
+    },
+    {
+      "from": "NEXUS_CORE",
+      "to": "ORBITAL_SENTINEL_COMMAND",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "THE_SPIRE",
+      "to": "ORBITAL_SENTINEL_COMMAND",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "AETHEL_GARDENS",
+      "to": "NEXUS_CROSSROADS",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CRYSTAL_SLOPE",
+      "to": "NEXUS_CROSSROADS",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SCRAP_FIELD",
+      "to": "NEXUS_CROSSROADS",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CORAL_WETLANDS",
+      "to": "NEXUS_CROSSROADS",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "HIGHLAND_PLATEAU",
+      "to": "NEXUS_CROSSROADS",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "GLOWVINE_FOREST",
+      "to": "NEXUS_CROSSROADS",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "DUNE_OUTSKIRTS",
+      "to": "NEXUS_CROSSROADS",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "NEXUS_CORE",
+      "to": "NEXUS_CROSSROADS",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "OBSERVATORY_SPIRE",
+      "to": "NEXUS_CROSSROADS",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "BASTION_CORE",
+      "to": "NEXUS_CROSSROADS",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "PORT_MERIDIAN",
+      "to": "NEXUS_CROSSROADS",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "THE_SPIRE",
+      "to": "NEXUS_CROSSROADS",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SANCTUM",
+      "to": "NEXUS_CROSSROADS",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "FORTRESS_KAELEN",
+      "to": "NEXUS_CROSSROADS",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "BROKEN_CIVIL_QUARTER",
+      "to": "CENTRAL_SPIRE_BAZAAR",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "FRACTURED_GLASS_VALLEY",
+      "to": "CENTRAL_SPIRE_BAZAAR",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "IRON_RAVINE",
+      "to": "CENTRAL_SPIRE_BAZAAR",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SMUGGLER_JUNGLE",
+      "to": "CENTRAL_SPIRE_BAZAAR",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "EXTRACTION_ZONE_DELTA",
+      "to": "CENTRAL_SPIRE_BAZAAR",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SHARDROOT_SWAMP",
+      "to": "CENTRAL_SPIRE_BAZAAR",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SCORCHED_BADLANDS",
+      "to": "CENTRAL_SPIRE_BAZAAR",
+      "route_type": "secondary",
+      "min_level": 6,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CRADLE_EXPANSE",
+      "to": "CENTRAL_SPIRE_BAZAAR",
+      "route_type": "border",
+      "min_level": 10,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "BORDER_SKIRMISH_RING",
+      "to": "CENTRAL_SPIRE_BAZAAR",
+      "route_type": "border",
+      "min_level": 10,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "AETHEL_STORM_BELT",
+      "to": "CENTRAL_SPIRE_BAZAAR",
+      "route_type": "border",
+      "min_level": 10,
+      "travel_time": 90,
+      "danger_level": 3
+    },
+    {
+      "from": "NEXUS_CORE",
+      "to": "CENTRAL_SPIRE_BAZAAR",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "OBSERVATORY_SPIRE",
+      "to": "CENTRAL_SPIRE_BAZAAR",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "BASTION_CORE",
+      "to": "CENTRAL_SPIRE_BAZAAR",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "PORT_MERIDIAN",
+      "to": "CENTRAL_SPIRE_BAZAAR",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "THE_SPIRE",
+      "to": "CENTRAL_SPIRE_BAZAAR",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SANCTUM",
+      "to": "CENTRAL_SPIRE_BAZAAR",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "FORTRESS_KAELEN",
+      "to": "CENTRAL_SPIRE_BAZAAR",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "CRADLE_OUTER_RING",
+      "to": "ORBITAL_NEUTRAL_HUB",
+      "route_type": "secondary",
+      "min_level": 10,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "RESONANCE_CAVERNS",
+      "to": "ORBITAL_NEUTRAL_HUB",
+      "route_type": "secondary",
+      "min_level": 10,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "WAR_MACHINE_GRAVEYARD",
+      "to": "ORBITAL_NEUTRAL_HUB",
+      "route_type": "secondary",
+      "min_level": 10,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "BLACK_DOCK_MARKET",
+      "to": "ORBITAL_NEUTRAL_HUB",
+      "route_type": "secondary",
+      "min_level": 10,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SECURE_MINING_GRID",
+      "to": "ORBITAL_NEUTRAL_HUB",
+      "route_type": "secondary",
+      "min_level": 10,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "FRAGMENT_SHRINE",
+      "to": "ORBITAL_NEUTRAL_HUB",
+      "route_type": "secondary",
+      "min_level": 10,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "MESA_WARPATH",
+      "to": "ORBITAL_NEUTRAL_HUB",
+      "route_type": "secondary",
+      "min_level": 10,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SHATTERED_HEART",
+      "to": "ORBITAL_NEUTRAL_HUB",
+      "route_type": "secondary",
+      "min_level": 10,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SEVERANCE_FAULTLINE",
+      "to": "ORBITAL_NEUTRAL_HUB",
+      "route_type": "secondary",
+      "min_level": 10,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "PRIMA_MATERIA_FORGE",
+      "to": "ORBITAL_NEUTRAL_HUB",
+      "route_type": "secondary",
+      "min_level": 10,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "NEXUS_CORE",
+      "to": "ORBITAL_NEUTRAL_HUB",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "OBSERVATORY_SPIRE",
+      "to": "ORBITAL_NEUTRAL_HUB",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "BASTION_CORE",
+      "to": "ORBITAL_NEUTRAL_HUB",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "PORT_MERIDIAN",
+      "to": "ORBITAL_NEUTRAL_HUB",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "THE_SPIRE",
+      "to": "ORBITAL_NEUTRAL_HUB",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "SANCTUM",
+      "to": "ORBITAL_NEUTRAL_HUB",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
+    },
+    {
+      "from": "FORTRESS_KAELEN",
+      "to": "ORBITAL_NEUTRAL_HUB",
+      "route_type": "secondary",
+      "min_level": 1,
+      "travel_time": 60,
+      "danger_level": 1
     }
   ],
   "special_zones": [
     {
       "id": "SHATTERED_HEART",
-      "name": "Shattered Heart \u2014 Endgame Complex",
+      "name": "Shattered Heart — Endgame Complex",
       "zone_type": "endgame",
       "world_position": {
         "x": 0,
@@ -6051,7 +7203,7 @@
     },
     {
       "id": "CRADLE_EXPANSE",
-      "name": "Cradle Expanse \u2014 PvP Core",
+      "name": "Cradle Expanse — PvP Core",
       "zone_type": "pvp",
       "world_position": {
         "x": 0,
