@@ -1038,7 +1038,7 @@
     "role": "CRAFTER",
     "faction": "NONE",
     "dialogue_tree": "dialog_master_kael",
-    "shop_inventory": null,
+    "shop_inventory": "shop_master_kael",
     "location": "Prima Materia Forge",
     "region_id": "PRIMA_MATERIA_FORGE",
     "description": "Master Kael is the only living crafter authorised to work with Prima Materia. He accepts commissions once per season, if he finds the requester worthy.",
@@ -1058,7 +1058,7 @@
     "role": "CRAFTER",
     "faction": "NONE",
     "dialogue_tree": "dialog_xylar_smith",
-    "shop_inventory": null,
+    "shop_inventory": "shop_abyssal_smith",
     "location": "Void Echo Chasm Forge",
     "region_id": "VOID_ECHO_CHASM",
     "description": "Xylar the Abyssal forges weapons using Void-touched metal that no standard smith will touch. The products are extraordinary. So is the risk.",
@@ -1594,7 +1594,8 @@
     "available_services": [
       "CRAFT"
     ],
-    "greeting": "Need something forged? My hammer cares not for faction allegiance — only quality."
+    "greeting": "Need something forged? My hammer cares not for faction allegiance — only quality.",
+    "shop_inventory": "shop_crossroad_blacksmith"
   },
   {
     "npc_id": "npc_crossroad_quest_board",
@@ -1697,7 +1698,8 @@
     "available_services": [
       "CRAFT"
     ],
-    "greeting": "Every faction's forging secrets, combined in one forge. What shall we create?"
+    "greeting": "Every faction's forging secrets, combined in one forge. What shall we create?",
+    "shop_inventory": "shop_bazaar_blacksmith"
   },
   {
     "npc_id": "npc_bazaar_exchange",
@@ -1783,7 +1785,8 @@
     "available_services": [
       "CRAFT"
     ],
-    "greeting": "I've forged for generals and legends. Let's see if you're worthy of my best work."
+    "greeting": "I've forged for generals and legends. Let's see if you're worthy of my best work.",
+    "shop_inventory": "shop_orbital_blacksmith"
   },
   {
     "npc_id": "npc_orbital_exchange",

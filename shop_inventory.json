@@ -1,7 +1,7 @@
 {
   "meta": {
     "version": "2.0",
-    "description": "Shop Inventory Database for Echo of Xylos \u2014 merged & enriched"
+    "description": "Shop Inventory Database for Echo of Xylos — merged & enriched"
   },
   "shops": [
     {
@@ -39,58 +39,6 @@
               "item_id": "con_nutrient_ration",
               "stock": 50,
               "refresh_time": 300,
-              "price_modifier": 1.0
-            }
-          ]
-        },
-        {
-          "category": "starter_weapons",
-          "items": [
-            {
-              "item_id": "wpn_rusty_sword",
-              "stock": 10,
-              "refresh_time": 600,
-              "price_modifier": 1.0
-            },
-            {
-              "item_id": "wpn_hunter_dagger",
-              "stock": 10,
-              "refresh_time": 600,
-              "price_modifier": 1.0
-            },
-            {
-              "item_id": "wpn_apprentice_staff",
-              "stock": 10,
-              "refresh_time": 600,
-              "price_modifier": 1.0
-            },
-            {
-              "item_id": "wpn_training_spear",
-              "stock": 8,
-              "refresh_time": 600,
-              "price_modifier": 1.0
-            }
-          ]
-        },
-        {
-          "category": "starter_armor",
-          "items": [
-            {
-              "item_id": "armor_cloth_robes",
-              "stock": 10,
-              "refresh_time": 600,
-              "price_modifier": 1.0
-            },
-            {
-              "item_id": "armor_leather_vest",
-              "stock": 10,
-              "refresh_time": 600,
-              "price_modifier": 1.0
-            },
-            {
-              "item_id": "armor_guard_chainmail",
-              "stock": 8,
-              "refresh_time": 600,
               "price_modifier": 1.0
             }
           ]
@@ -222,6 +170,82 @@
               "price_modifier": 1.0
             }
           ]
+        },
+        {
+          "category": "weapons_basic",
+          "items": [
+            {
+              "item_id": "wpn_apprentice_staff",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_hunter_dagger",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_iron_sword",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_rusty_sword",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_scrap_axe",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_training_spear",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            }
+          ]
+        },
+        {
+          "category": "armor_basic",
+          "items": [
+            {
+              "item_id": "arm_iron_plate",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "arm_leather_tunic",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "armor_cloth_robes",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "armor_guard_chainmail",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "armor_leather_vest",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            }
+          ]
         }
       ]
     },
@@ -229,6 +253,23 @@
       "id": "shop_scrap_01",
       "name": "Scavenger Goods",
       "categories": [
+        {
+          "category": "consumables",
+          "items": [
+            {
+              "item_id": "potion_minor_healing",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "potion_minor_mana",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            }
+          ]
+        },
         {
           "category": "scrap",
           "items": [
@@ -257,23 +298,6 @@
               "price_modifier": 0.85
             }
           ]
-        },
-        {
-          "category": "cheap_weapons",
-          "items": [
-            {
-              "item_id": "wpn_scrap_axe",
-              "stock": 8,
-              "refresh_time": 900,
-              "price_modifier": 0.85
-            },
-            {
-              "item_id": "wpn_rusty_sword",
-              "stock": 6,
-              "refresh_time": 900,
-              "price_modifier": 0.8
-            }
-          ]
         }
       ]
     },
@@ -281,6 +305,23 @@
       "id": "shop_scrap_02",
       "name": "Rusty's Scrap Market",
       "categories": [
+        {
+          "category": "consumables",
+          "items": [
+            {
+              "item_id": "potion_minor_healing",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "potion_minor_mana",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            }
+          ]
+        },
         {
           "category": "scrap_materials",
           "items": [
@@ -322,6 +363,23 @@
       "id": "shop_crystal_01",
       "name": "Crystal Collector",
       "categories": [
+        {
+          "category": "consumables",
+          "items": [
+            {
+              "item_id": "potion_minor_healing",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "potion_minor_mana",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            }
+          ]
+        },
         {
           "category": "crystals",
           "items": [
@@ -437,6 +495,29 @@
               "price_modifier": 0.85
             }
           ]
+        },
+        {
+          "category": "boots_and_gloves",
+          "items": [
+            {
+              "item_id": "bts_t005_boots",
+              "stock": 3,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "bts_t010_boots",
+              "stock": 3,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "glv_t005_glove",
+              "stock": 3,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            }
+          ]
         }
       ]
     },
@@ -444,6 +525,23 @@
       "id": "shop_tech_01",
       "name": "Tech Salvage Market",
       "categories": [
+        {
+          "category": "consumables",
+          "items": [
+            {
+              "item_id": "potion_minor_healing",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "potion_minor_mana",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            }
+          ]
+        },
         {
           "category": "tech_components",
           "items": [
@@ -523,6 +621,18 @@
           "category": "restricted_consumables",
           "items": [
             {
+              "item_id": "potion_minor_healing",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "potion_minor_mana",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
               "item_id": "con_scramble_grenade",
               "stock": 10,
               "refresh_time": 1800,
@@ -554,6 +664,23 @@
       "name": "Madam Z Contraband",
       "categories": [
         {
+          "category": "consumables",
+          "items": [
+            {
+              "item_id": "potion_minor_healing",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "potion_minor_mana",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            }
+          ]
+        },
+        {
           "category": "illegal_goods",
           "items": [
             {
@@ -580,12 +707,6 @@
           "category": "black_market_gear",
           "items": [
             {
-              "item_id": "wpn_t025_weapon1",
-              "stock": 2,
-              "refresh_time": 7200,
-              "price_modifier": 1.4
-            },
-            {
               "item_id": "acc1_t025_accessory1",
               "stock": 2,
               "refresh_time": 7200,
@@ -608,6 +729,12 @@
         {
           "category": "herbs",
           "items": [
+            {
+              "item_id": "potion_minor_mana",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
             {
               "item_id": "healing_herb",
               "stock": 40,
@@ -675,31 +802,20 @@
       "name": "Wasteland Trader",
       "categories": [
         {
-          "category": "survival_gear",
-          "items": [
-            {
-              "item_id": "bts_t005_boots",
-              "stock": 6,
-              "refresh_time": 900,
-              "price_modifier": 1.0
-            },
-            {
-              "item_id": "bts_t010_boots",
-              "stock": 4,
-              "refresh_time": 900,
-              "price_modifier": 1.0
-            },
-            {
-              "item_id": "glv_t005_glove",
-              "stock": 5,
-              "refresh_time": 900,
-              "price_modifier": 1.0
-            }
-          ]
-        },
-        {
           "category": "survival_consumables",
           "items": [
+            {
+              "item_id": "potion_minor_healing",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "potion_minor_mana",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
             {
               "item_id": "con_nutrient_ration",
               "stock": 30,
@@ -834,18 +950,6 @@
           "category": "rare_equipment",
           "items": [
             {
-              "item_id": "wpn_t045_weapon1",
-              "stock": 1,
-              "refresh_time": 86400,
-              "price_modifier": 1.1
-            },
-            {
-              "item_id": "arm_t045_armor",
-              "stock": 1,
-              "refresh_time": 86400,
-              "price_modifier": 1.1
-            },
-            {
               "item_id": "acc1_t045_accessory1",
               "stock": 1,
               "refresh_time": 86400,
@@ -862,6 +966,18 @@
         {
           "category": "rare_consumables",
           "items": [
+            {
+              "item_id": "potion_minor_healing",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "potion_minor_mana",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            },
             {
               "item_id": "con_prime_war_elixir",
               "stock": 3,
@@ -1041,6 +1157,65 @@
               "stock": 3,
               "refresh_time": 1800,
               "price_modifier": 1.1
+            }
+          ]
+        },
+        {
+          "category": "equipment_basic",
+          "items": [
+            {
+              "item_id": "arm_leather_tunic",
+              "stock": 4,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "armor_cloth_robes",
+              "stock": 4,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "armor_guard_chainmail",
+              "stock": 4,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "armor_leather_vest",
+              "stock": 4,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_apprentice_staff",
+              "stock": 4,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_hunter_dagger",
+              "stock": 4,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_rusty_sword",
+              "stock": 4,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_scrap_axe",
+              "stock": 4,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_training_spear",
+              "stock": 4,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
             }
           ]
         }
@@ -1808,18 +1983,6 @@
               "stock": 30,
               "refresh_time": 300,
               "price_modifier": 1.0
-            },
-            {
-              "item_id": "wpn_iron_sword",
-              "stock": 10,
-              "refresh_time": 600,
-              "price_modifier": 1.0
-            },
-            {
-              "item_id": "arm_iron_plate",
-              "stock": 10,
-              "refresh_time": 600,
-              "price_modifier": 1.0
             }
           ]
         }
@@ -1855,18 +2018,6 @@
               "stock": 30,
               "refresh_time": 300,
               "price_modifier": 1.0
-            },
-            {
-              "item_id": "wpn_apprentice_staff",
-              "stock": 10,
-              "refresh_time": 600,
-              "price_modifier": 1.0
-            },
-            {
-              "item_id": "armor_cloth_robes",
-              "stock": 10,
-              "refresh_time": 600,
-              "price_modifier": 1.0
             }
           ]
         }
@@ -1876,6 +2027,17 @@
       "id": "shop_hegemony_capital",
       "name": "Hegemony Armory",
       "categories": [
+        {
+          "category": "consumables",
+          "items": [
+            {
+              "item_id": "potion_minor_mana",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            }
+          ]
+        },
         {
           "category": "general",
           "items": [
@@ -1898,18 +2060,6 @@
               "price_modifier": 1.0
             },
             {
-              "item_id": "wpn_iron_sword",
-              "stock": 15,
-              "refresh_time": 600,
-              "price_modifier": 1.0
-            },
-            {
-              "item_id": "arm_iron_plate",
-              "stock": 15,
-              "refresh_time": 600,
-              "price_modifier": 1.0
-            },
-            {
               "item_id": "mat_iron_ore",
               "stock": 30,
               "refresh_time": 300,
@@ -1923,6 +2073,17 @@
       "id": "shop_meridian_capital",
       "name": "Cartel Trading Post",
       "categories": [
+        {
+          "category": "consumables",
+          "items": [
+            {
+              "item_id": "potion_minor_mana",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            }
+          ]
+        },
         {
           "category": "general",
           "items": [
@@ -1942,18 +2103,6 @@
               "item_id": "con_minor_stim_pack",
               "stock": 35,
               "refresh_time": 300,
-              "price_modifier": 1.0
-            },
-            {
-              "item_id": "wpn_hunter_dagger",
-              "stock": 10,
-              "refresh_time": 600,
-              "price_modifier": 1.0
-            },
-            {
-              "item_id": "arm_leather_tunic",
-              "stock": 10,
-              "refresh_time": 600,
               "price_modifier": 1.0
             },
             {
@@ -1996,18 +2145,6 @@
               "stock": 35,
               "refresh_time": 300,
               "price_modifier": 1.0
-            },
-            {
-              "item_id": "wpn_steel_broadsword",
-              "stock": 10,
-              "refresh_time": 600,
-              "price_modifier": 1.0
-            },
-            {
-              "item_id": "arm_iron_plate",
-              "stock": 10,
-              "refresh_time": 600,
-              "price_modifier": 1.0
             }
           ]
         }
@@ -2017,6 +2154,17 @@
       "id": "shop_shard_capital",
       "name": "Shard Sanctum Supplies",
       "categories": [
+        {
+          "category": "consumables",
+          "items": [
+            {
+              "item_id": "potion_minor_mana",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            }
+          ]
+        },
         {
           "category": "general",
           "items": [
@@ -2039,18 +2187,6 @@
               "price_modifier": 1.0
             },
             {
-              "item_id": "wpn_apprentice_staff",
-              "stock": 10,
-              "refresh_time": 600,
-              "price_modifier": 1.0
-            },
-            {
-              "item_id": "armor_cloth_robes",
-              "stock": 10,
-              "refresh_time": 600,
-              "price_modifier": 1.0
-            },
-            {
               "item_id": "shardroot_vine",
               "stock": 20,
               "refresh_time": 300,
@@ -2064,6 +2200,17 @@
       "id": "shop_legion_capital",
       "name": "Legion Quartermaster Depot",
       "categories": [
+        {
+          "category": "consumables",
+          "items": [
+            {
+              "item_id": "potion_minor_mana",
+              "stock": 30,
+              "refresh_time": 300,
+              "price_modifier": 1.0
+            }
+          ]
+        },
         {
           "category": "general",
           "items": [
@@ -2083,18 +2230,6 @@
               "item_id": "con_repair_patch",
               "stock": 30,
               "refresh_time": 300,
-              "price_modifier": 1.0
-            },
-            {
-              "item_id": "wpn_iron_sword",
-              "stock": 15,
-              "refresh_time": 600,
-              "price_modifier": 1.0
-            },
-            {
-              "item_id": "arm_iron_plate",
-              "stock": 15,
-              "refresh_time": 600,
               "price_modifier": 1.0
             },
             {
@@ -2186,18 +2321,6 @@
               "price_modifier": 1.0
             },
             {
-              "item_id": "wpn_iron_sword",
-              "stock": 10,
-              "refresh_time": 600,
-              "price_modifier": 1.0
-            },
-            {
-              "item_id": "arm_iron_plate",
-              "stock": 10,
-              "refresh_time": 600,
-              "price_modifier": 1.0
-            },
-            {
               "item_id": "core_fragment",
               "stock": 15,
               "refresh_time": 300,
@@ -2233,18 +2356,6 @@
               "price_modifier": 1.0
             },
             {
-              "item_id": "wpn_steel_broadsword",
-              "stock": 10,
-              "refresh_time": 600,
-              "price_modifier": 1.0
-            },
-            {
-              "item_id": "arm_iron_plate",
-              "stock": 15,
-              "refresh_time": 600,
-              "price_modifier": 1.0
-            },
-            {
               "item_id": "drake_heart",
               "stock": 5,
               "refresh_time": 1200,
@@ -2261,6 +2372,438 @@
               "stock": 5,
               "refresh_time": 1200,
               "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_crossroad_blacksmith",
+      "name": "Crossroads Forge",
+      "categories": [
+        {
+          "category": "weapons_basic",
+          "items": [
+            {
+              "item_id": "wpn_apprentice_staff",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_hunter_dagger",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_iron_sword",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_rusty_sword",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_scrap_axe",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wpn_training_spear",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            }
+          ]
+        },
+        {
+          "category": "armor_basic",
+          "items": [
+            {
+              "item_id": "arm_iron_plate",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "arm_leather_tunic",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "armor_cloth_robes",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "armor_guard_chainmail",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "armor_leather_vest",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            }
+          ]
+        },
+        {
+          "category": "forge_materials",
+          "items": [
+            {
+              "item_id": "iron_ore",
+              "stock": 20,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "leather_strip",
+              "stock": 20,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "wood_plank",
+              "stock": 20,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "scrap_metal",
+              "stock": 20,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "mat_iron_ingot",
+              "stock": 10,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_bazaar_blacksmith",
+      "name": "Bazaar Armory",
+      "categories": [
+        {
+          "category": "weapons",
+          "items": [
+            {
+              "item_id": "wpn_steel_broadsword",
+              "stock": 4,
+              "refresh_time": 86400,
+              "price_modifier": 1.1
+            },
+            {
+              "item_id": "wpn_t025_weapon1",
+              "stock": 4,
+              "refresh_time": 86400,
+              "price_modifier": 1.1
+            },
+            {
+              "item_id": "wpn_iron_sword",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.1
+            }
+          ]
+        },
+        {
+          "category": "armor",
+          "items": [
+            {
+              "item_id": "arm_iron_plate",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.1
+            }
+          ]
+        },
+        {
+          "category": "accessories",
+          "items": [
+            {
+              "item_id": "acc1_t025_accessory1",
+              "stock": 2,
+              "refresh_time": 86400,
+              "price_modifier": 1.2
+            }
+          ]
+        },
+        {
+          "category": "forge_materials",
+          "items": [
+            {
+              "item_id": "mat_iron_ingot",
+              "stock": 15,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "machine_parts",
+              "stock": 10,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "mat_synth_fiber",
+              "stock": 8,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_orbital_blacksmith",
+      "name": "Orbital Armory — Elite",
+      "categories": [
+        {
+          "category": "elite_weapons",
+          "items": [
+            {
+              "item_id": "wpn_t045_weapon1",
+              "stock": 2,
+              "refresh_time": 86400,
+              "price_modifier": 1.5
+            }
+          ]
+        },
+        {
+          "category": "elite_armor",
+          "items": [
+            {
+              "item_id": "arm_t045_armor",
+              "stock": 2,
+              "refresh_time": 86400,
+              "price_modifier": 1.5
+            }
+          ]
+        },
+        {
+          "category": "boots_gloves",
+          "items": [
+            {
+              "item_id": "bts_t010_boots",
+              "stock": 2,
+              "refresh_time": 86400,
+              "price_modifier": 1.4
+            },
+            {
+              "item_id": "glv_t005_glove",
+              "stock": 2,
+              "refresh_time": 86400,
+              "price_modifier": 1.4
+            }
+          ]
+        },
+        {
+          "category": "rare_forge_materials",
+          "items": [
+            {
+              "item_id": "mat_nano_composite",
+              "stock": 5,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "void_crystal_shard",
+              "stock": 3,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "raw_aethel_fragment",
+              "stock": 2,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_master_kael",
+      "name": "Prima Materia Forge",
+      "categories": [
+        {
+          "category": "legendary_weapons",
+          "items": [
+            {
+              "item_id": "wpn_t045_weapon1",
+              "stock": 2,
+              "refresh_time": 86400,
+              "price_modifier": 1.8
+            },
+            {
+              "item_id": "wpn_steel_broadsword",
+              "stock": 3,
+              "refresh_time": 86400,
+              "price_modifier": 1.5
+            },
+            {
+              "item_id": "wpn_iron_sword",
+              "stock": 3,
+              "refresh_time": 86400,
+              "price_modifier": 1.3
+            }
+          ]
+        },
+        {
+          "category": "rare_armor",
+          "items": [
+            {
+              "item_id": "arm_t045_armor",
+              "stock": 2,
+              "refresh_time": 86400,
+              "price_modifier": 1.8
+            },
+            {
+              "item_id": "arm_iron_plate",
+              "stock": 3,
+              "refresh_time": 86400,
+              "price_modifier": 1.4
+            },
+            {
+              "item_id": "hlm_t015_helmet",
+              "stock": 3,
+              "refresh_time": 86400,
+              "price_modifier": 1.4
+            }
+          ]
+        },
+        {
+          "category": "prime_materials",
+          "items": [
+            {
+              "item_id": "mat_nano_composite",
+              "stock": 5,
+              "refresh_time": 3600,
+              "price_modifier": 1.2
+            },
+            {
+              "item_id": "void_crystal_shard",
+              "stock": 3,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "raw_aethel_fragment",
+              "stock": 2,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "mat_iron_ingot",
+              "stock": 10,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "mat_synth_fiber",
+              "stock": 8,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_abyssal_smith",
+      "name": "Abyssal Forge",
+      "categories": [
+        {
+          "category": "void_weapons",
+          "items": [
+            {
+              "item_id": "wpn_t045_weapon1",
+              "stock": 2,
+              "refresh_time": 86400,
+              "price_modifier": 2.0
+            },
+            {
+              "item_id": "wpn_t025_weapon1",
+              "stock": 3,
+              "refresh_time": 86400,
+              "price_modifier": 1.6
+            }
+          ]
+        },
+        {
+          "category": "void_armor",
+          "items": [
+            {
+              "item_id": "arm_t045_armor",
+              "stock": 2,
+              "refresh_time": 86400,
+              "price_modifier": 2.0
+            },
+            {
+              "item_id": "arm_iron_plate",
+              "stock": 3,
+              "refresh_time": 86400,
+              "price_modifier": 1.5
+            }
+          ]
+        },
+        {
+          "category": "void_materials",
+          "items": [
+            {
+              "item_id": "void_crystal_shard",
+              "stock": 5,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "raw_aethel_fragment",
+              "stock": 3,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "crs_resonance_crystal",
+              "stock": 4,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "void_fragment",
+              "stock": 3,
+              "refresh_time": 86400,
+              "price_modifier": 1.0
+            }
+          ]
+        },
+        {
+          "category": "consumables",
+          "items": [
+            {
+              "item_id": "potion_minor_healing",
+              "stock": 10,
+              "refresh_time": 300,
+              "price_modifier": 1.5
+            },
+            {
+              "item_id": "potion_minor_mana",
+              "stock": 10,
+              "refresh_time": 300,
+              "price_modifier": 1.5
             }
           ]
         }
