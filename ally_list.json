@@ -1,8 +1,12 @@
 {
   "meta": {
-    "version": "2.0",
-    "description": "Ally roster for Echo of Xylos \u2014 remastered skills, expanded roster",
-    "total": 61
+    "version": "3.0",
+    "description": "Ally roster for Echo of Xylos — remastered skills, expanded roster, Conclave PvP balance fields included",
+    "total": 91,
+    "pvp_fields": {
+      "pvp_scale": "Stat multiplier applied in PvP. Common=1.00, Uncommon=0.97, Rare=0.93, Epic=0.83, Legendary=0.72",
+      "conclave_points": "Draft cost. Team budget = 10 pts per 4-ally team. Common=1, Uncommon=1, Rare=2, Epic=3, Legendary=4"
+    }
   },
   "allies": [
     {
@@ -11,7 +15,7 @@
       "name": "Kael Voss",
       "rarity": "Rare",
       "role": "DPS",
-      "brief_background_story": "A former Iron Hegemony commando who went rogue after discovering classified experiments on civilians. Kael now operates as a freelance mercenary, lending his devastating firepower to those who can afford his loyalty \u2014 or earn it.",
+      "brief_background_story": "A former Iron Hegemony commando who went rogue after discovering classified experiments on civilians. Kael now operates as a freelance mercenary, lending his devastating firepower to those who can afford his loyalty — or earn it.",
       "place_of_origin": "Bastion Core",
       "faction_affinity": "IRON_HEGEMONY",
       "base_stats": {
@@ -29,7 +33,9 @@
         "skill_id": "al_kael_act"
       },
       "recruit_cost": 1,
-      "level_cap": 50
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
     },
     {
       "ally_id": "ally_lyra",
@@ -55,7 +61,9 @@
         "skill_id": "al_lyra_act"
       },
       "recruit_cost": 2,
-      "level_cap": 50
+      "level_cap": 50,
+      "pvp_scale": 0.83,
+      "conclave_points": 3
     },
     {
       "ally_id": "ally_grimm",
@@ -63,7 +71,7 @@
       "name": "Grimm Hallow",
       "rarity": "Rare",
       "role": "Tank",
-      "brief_background_story": "A hulking Progenoi enforcer who once served as a personal bodyguard to Meridian Cartel's inner circle. After being betrayed and left for dead, Grimm wanders the frontier seeking purpose \u2014 and payback.",
+      "brief_background_story": "A hulking Progenoi enforcer who once served as a personal bodyguard to Meridian Cartel's inner circle. After being betrayed and left for dead, Grimm wanders the frontier seeking purpose — and payback.",
       "place_of_origin": "Port Meridian",
       "faction_affinity": "MERIDIAN_CARTEL",
       "base_stats": {
@@ -81,7 +89,9 @@
         "skill_id": "al_grimm_act"
       },
       "recruit_cost": 1,
-      "level_cap": 50
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
     },
     {
       "ally_id": "ally_serin",
@@ -107,7 +117,9 @@
         "skill_id": "al_serin_act"
       },
       "recruit_cost": 1,
-      "level_cap": 50
+      "level_cap": 50,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_thane",
@@ -133,7 +145,9 @@
         "skill_id": "al_thane_act"
       },
       "recruit_cost": 3,
-      "level_cap": 60
+      "level_cap": 60,
+      "pvp_scale": 0.72,
+      "conclave_points": 4
     },
     {
       "ally_id": "ally_mira",
@@ -159,7 +173,9 @@
         "skill_id": "al_mira_act"
       },
       "recruit_cost": 2,
-      "level_cap": 50
+      "level_cap": 50,
+      "pvp_scale": 0.83,
+      "conclave_points": 3
     },
     {
       "ally_id": "ally_rex",
@@ -185,7 +201,9 @@
         "skill_id": "al_rex_act"
       },
       "recruit_cost": 1,
-      "level_cap": 40
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_nova",
@@ -193,7 +211,7 @@
       "name": "Nova Cipher",
       "rarity": "Rare",
       "role": "Support",
-      "brief_background_story": "A digital ghost \u2014 an Automari consciousness that exists partially in cyberspace. Nova can interface with any system and disrupt enemy protocols. In combat, she manifests as a holographic projection that bends reality.",
+      "brief_background_story": "A digital ghost — an Automari consciousness that exists partially in cyberspace. Nova can interface with any system and disrupt enemy protocols. In combat, she manifests as a holographic projection that bends reality.",
       "place_of_origin": "The Spire",
       "faction_affinity": "OMNICORP",
       "base_stats": {
@@ -211,7 +229,9 @@
         "skill_id": "al_nova_act"
       },
       "recruit_cost": 1,
-      "level_cap": 50
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
     },
     {
       "ally_id": "ally_zephyr",
@@ -219,7 +239,7 @@
       "name": "Zephyr Cross",
       "rarity": "Common",
       "role": "DPS",
-      "brief_background_story": "A street-level courier from the outer rings of Nexus Core who discovered an innate ability to phase briefly out of reality mid-sprint. The Concordium offered to weaponize this talent \u2014 Zephyr accepted, mostly for the credits.",
+      "brief_background_story": "A street-level courier from the outer rings of Nexus Core who discovered an innate ability to phase briefly out of reality mid-sprint. The Concordium offered to weaponize this talent — Zephyr accepted, mostly for the credits.",
       "place_of_origin": "Nexus Core",
       "faction_affinity": "CONCORDIUM",
       "base_stats": {
@@ -237,7 +257,9 @@
         "skill_id": "al_zeph_act"
       },
       "recruit_cost": 1,
-      "level_cap": 45
+      "level_cap": 45,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_vera",
@@ -263,7 +285,9 @@
         "skill_id": "al_vera_act"
       },
       "recruit_cost": 2,
-      "level_cap": 50
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
     },
     {
       "ally_id": "ally_drak",
@@ -271,7 +295,7 @@
       "name": "Drak Falen",
       "rarity": "Uncommon",
       "role": "Support",
-      "brief_background_story": "A junior Arcanum researcher who specialised in resonance harmonics. After his lab was raided by Iron Hegemony operatives, Drak took to the field to recover stolen data \u2014 and found he preferred the open air to the lab's controlled environment.",
+      "brief_background_story": "A junior Arcanum researcher who specialised in resonance harmonics. After his lab was raided by Iron Hegemony operatives, Drak took to the field to recover stolen data — and found he preferred the open air to the lab's controlled environment.",
       "place_of_origin": "Observatory Spire",
       "faction_affinity": "THE_ARCANUM_SEEKERS",
       "base_stats": {
@@ -289,7 +313,9 @@
         "skill_id": "al_drak_act"
       },
       "recruit_cost": 1,
-      "level_cap": 45
+      "level_cap": 45,
+      "pvp_scale": 0.97,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_isolde",
@@ -297,7 +323,7 @@
       "name": "Isolde Night",
       "rarity": "Epic",
       "role": "DPS",
-      "brief_background_story": "A prodigy mage from the Fractured Glass Valley who breached the Void barrier at age seventeen and returned changed \u2014 her eyes permanently voidlit, her magic untethered from conventional limits. The Arcanum Seekers watch her obsessively and cannot contain her.",
+      "brief_background_story": "A prodigy mage from the Fractured Glass Valley who breached the Void barrier at age seventeen and returned changed — her eyes permanently voidlit, her magic untethered from conventional limits. The Arcanum Seekers watch her obsessively and cannot contain her.",
       "place_of_origin": "Fractured Glass Valley",
       "faction_affinity": "THE_ARCANUM_SEEKERS",
       "base_stats": {
@@ -315,7 +341,9 @@
         "skill_id": "al_isolde_act"
       },
       "recruit_cost": 2,
-      "level_cap": 55
+      "level_cap": 55,
+      "pvp_scale": 0.83,
+      "conclave_points": 3
     },
     {
       "ally_id": "ally_brax",
@@ -323,7 +351,7 @@
       "name": "Brax Ironsoul",
       "rarity": "Common",
       "role": "Tank",
-      "brief_background_story": "A decommissioned Hegemony heavy infantry soldier whose exo-frame was welded shut after a reactor explosion fused it to his body. Now freelance, Brax uses what he's become to protect those who couldn't protect themselves \u2014 for a modest fee.",
+      "brief_background_story": "A decommissioned Hegemony heavy infantry soldier whose exo-frame was welded shut after a reactor explosion fused it to his body. Now freelance, Brax uses what he's become to protect those who couldn't protect themselves — for a modest fee.",
       "place_of_origin": "Bastion Core",
       "faction_affinity": "IRON_HEGEMONY",
       "base_stats": {
@@ -341,7 +369,9 @@
         "skill_id": "al_brax_act"
       },
       "recruit_cost": 1,
-      "level_cap": 40
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_corvan",
@@ -367,7 +397,9 @@
         "skill_id": "al_corvan_act"
       },
       "recruit_cost": 2,
-      "level_cap": 55
+      "level_cap": 55,
+      "pvp_scale": 0.83,
+      "conclave_points": 3
     },
     {
       "ally_id": "ally_cassia",
@@ -375,7 +407,7 @@
       "name": "Cassia Wraith",
       "rarity": "Uncommon",
       "role": "DPS",
-      "brief_background_story": "A smuggler turned contract assassin from the Black Dock underground. Cassia made a name for herself by completing jobs that senior Cartel operatives deemed suicidal. She has no known last name \u2014 Wraith was given to her by survivors of her contracts.",
+      "brief_background_story": "A smuggler turned contract assassin from the Black Dock underground. Cassia made a name for herself by completing jobs that senior Cartel operatives deemed suicidal. She has no known last name — Wraith was given to her by survivors of her contracts.",
       "place_of_origin": "Port Meridian",
       "faction_affinity": "MERIDIAN_CARTEL",
       "base_stats": {
@@ -393,7 +425,9 @@
         "skill_id": "al_cassia_act"
       },
       "recruit_cost": 1,
-      "level_cap": 45
+      "level_cap": 45,
+      "pvp_scale": 0.97,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_vael",
@@ -401,7 +435,7 @@
       "name": "Vael Shadowborn",
       "rarity": "Legendary",
       "role": "DPS",
-      "brief_background_story": "The Meridian Cartel's most feared enforcer \u2014 a living ghost who appears and disappears across three sectors simultaneously according to intelligence reports. Nobody knows if there's one Vael or many. Those who've tried to find out haven't reported back.",
+      "brief_background_story": "The Meridian Cartel's most feared enforcer — a living ghost who appears and disappears across three sectors simultaneously according to intelligence reports. Nobody knows if there's one Vael or many. Those who've tried to find out haven't reported back.",
       "place_of_origin": "Smuggler Jungle",
       "faction_affinity": "MERIDIAN_CARTEL",
       "base_stats": {
@@ -419,7 +453,9 @@
         "skill_id": "al_vael_act"
       },
       "recruit_cost": 3,
-      "level_cap": 65
+      "level_cap": 65,
+      "pvp_scale": 0.72,
+      "conclave_points": 4
     },
     {
       "ally_id": "ally_orin",
@@ -445,7 +481,9 @@
         "skill_id": "al_orin_act"
       },
       "recruit_cost": 2,
-      "level_cap": 50
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
     },
     {
       "ally_id": "ally_seraph",
@@ -453,7 +491,7 @@
       "name": "Seraph Elan",
       "rarity": "Epic",
       "role": "Healer",
-      "brief_background_story": "A high acolyte of the Children of the Shard who touched the Aethel Shard directly during a ritual and emerged permanently linked to its resonance. Seraph now heals not with medicine but with Shard light itself \u2014 and occasionally hears voices from the Shard that others cannot.",
+      "brief_background_story": "A high acolyte of the Children of the Shard who touched the Aethel Shard directly during a ritual and emerged permanently linked to its resonance. Seraph now heals not with medicine but with Shard light itself — and occasionally hears voices from the Shard that others cannot.",
       "place_of_origin": "Sanctum",
       "faction_affinity": "CHILDREN_OF_THE_SHARD",
       "base_stats": {
@@ -471,7 +509,9 @@
         "skill_id": "al_seraph_act"
       },
       "recruit_cost": 2,
-      "level_cap": 55
+      "level_cap": 55,
+      "pvp_scale": 0.83,
+      "conclave_points": 3
     },
     {
       "ally_id": "ally_flint",
@@ -479,7 +519,7 @@
       "name": "Flint Blazer",
       "rarity": "Common",
       "role": "DPS",
-      "brief_background_story": "A Legion field artillerist who was dishonourably discharged for firing an experimental forge-cannon at superior officers during a retreat order he deemed tactically unsound. He was right \u2014 and three hundred soldiers survived because of it. He has never apologised.",
+      "brief_background_story": "A Legion field artillerist who was dishonourably discharged for firing an experimental forge-cannon at superior officers during a retreat order he deemed tactically unsound. He was right — and three hundred soldiers survived because of it. He has never apologised.",
       "place_of_origin": "Forge Canyon Depths",
       "faction_affinity": "STARFORGED_LEGION",
       "base_stats": {
@@ -497,7 +537,9 @@
         "skill_id": "al_flint_act"
       },
       "recruit_cost": 1,
-      "level_cap": 40
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_elara",
@@ -505,7 +547,7 @@
       "name": "Elara Voss",
       "rarity": "Legendary",
       "role": "Support",
-      "brief_background_story": "A Concordium high councillor who willingly stripped herself of rank and position to enter the field when she realised bureaucracy was losing the war against the Void. Elara Voss is the most dangerous thing in any battle she enters \u2014 not because she fights, but because everyone around her fights better.",
+      "brief_background_story": "A Concordium high councillor who willingly stripped herself of rank and position to enter the field when she realised bureaucracy was losing the war against the Void. Elara Voss is the most dangerous thing in any battle she enters — not because she fights, but because everyone around her fights better.",
       "place_of_origin": "Nexus Core",
       "faction_affinity": "CONCORDIUM",
       "base_stats": {
@@ -523,7 +565,9 @@
         "skill_id": "al_elara_act"
       },
       "recruit_cost": 3,
-      "level_cap": 70
+      "level_cap": 70,
+      "pvp_scale": 0.72,
+      "conclave_points": 4
     },
     {
       "ally_id": "ally_thorn",
@@ -531,7 +575,7 @@
       "name": "Thorn Vale",
       "rarity": "Uncommon",
       "role": "Tank",
-      "brief_background_story": "A civil engineering officer turned front-line soldier after a Void incursion levelled the district he was rebuilding. Thorn fights with the stubborn permanence of concrete \u2014 not fast, not flashy, but nothing moves him.",
+      "brief_background_story": "A civil engineering officer turned front-line soldier after a Void incursion levelled the district he was rebuilding. Thorn fights with the stubborn permanence of concrete — not fast, not flashy, but nothing moves him.",
       "place_of_origin": "Cradle Outer Ring",
       "faction_affinity": "CONCORDIUM",
       "base_stats": {
@@ -549,7 +593,9 @@
         "skill_id": "al2_thorn_act"
       },
       "recruit_cost": 1,
-      "level_cap": 45
+      "level_cap": 45,
+      "pvp_scale": 0.97,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_cipher",
@@ -557,7 +603,7 @@
       "name": "Cipher Vell",
       "rarity": "Uncommon",
       "role": "DPS",
-      "brief_background_story": "A code-breaker from the Concordium intelligence division who repurposed her decryption skills for combat. She fights the same way she cracks encryption \u2014 find the weakness, exploit it, move on before anyone notices.",
+      "brief_background_story": "A code-breaker from the Concordium intelligence division who repurposed her decryption skills for combat. She fights the same way she cracks encryption — find the weakness, exploit it, move on before anyone notices.",
       "place_of_origin": "Nexus Core",
       "faction_affinity": "CONCORDIUM",
       "base_stats": {
@@ -575,7 +621,9 @@
         "skill_id": "al2_cipher_act"
       },
       "recruit_cost": 1,
-      "level_cap": 45
+      "level_cap": 45,
+      "pvp_scale": 0.97,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_wren",
@@ -583,7 +631,7 @@
       "name": "Wren Echo",
       "rarity": "Rare",
       "role": "Support",
-      "brief_background_story": "A former Arcanum communications analyst who discovered she could perceive emotional resonance in teammates \u2014 and tune it. Her battlefield role is part strategist, part therapist, entirely indispensable.",
+      "brief_background_story": "A former Arcanum communications analyst who discovered she could perceive emotional resonance in teammates — and tune it. Her battlefield role is part strategist, part therapist, entirely indispensable.",
       "place_of_origin": "Observatory Spire",
       "faction_affinity": "THE_ARCANUM_SEEKERS",
       "base_stats": {
@@ -601,7 +649,9 @@
         "skill_id": "al2_wren_act"
       },
       "recruit_cost": 2,
-      "level_cap": 50
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
     },
     {
       "ally_id": "ally_ashe",
@@ -609,7 +659,7 @@
       "name": "Ashe Meridian",
       "rarity": "Legendary",
       "role": "DPS",
-      "brief_background_story": "The Arcanum Seekers consider Ashe a failure \u2014 her power exceeded their ability to measure it, and she refused containment. She walks the ley-lines alone now, drawn to conflict the way storms are drawn to open plains.",
+      "brief_background_story": "The Arcanum Seekers consider Ashe a failure — her power exceeded their ability to measure it, and she refused containment. She walks the ley-lines alone now, drawn to conflict the way storms are drawn to open plains.",
       "place_of_origin": "Fractured Glass Valley",
       "faction_affinity": "THE_ARCANUM_SEEKERS",
       "base_stats": {
@@ -627,7 +677,9 @@
         "skill_id": "al2_ashe_act"
       },
       "recruit_cost": 3,
-      "level_cap": 70
+      "level_cap": 70,
+      "pvp_scale": 0.72,
+      "conclave_points": 4
     },
     {
       "ally_id": "ally_rook",
@@ -635,7 +687,7 @@
       "name": "Rook Hallam",
       "rarity": "Common",
       "role": "DPS",
-      "brief_background_story": "A demolitions specialist from the Scrap Field who was too effective at his job \u2014 kept blowing up things the Hegemony wanted to keep. Now freelance, he applies the same methodical approach to enemies as he did to structures.",
+      "brief_background_story": "A demolitions specialist from the Scrap Field who was too effective at his job — kept blowing up things the Hegemony wanted to keep. Now freelance, he applies the same methodical approach to enemies as he did to structures.",
       "place_of_origin": "Scrap Field",
       "faction_affinity": "IRON_HEGEMONY",
       "base_stats": {
@@ -653,7 +705,9 @@
         "skill_id": "al2_rook_act"
       },
       "recruit_cost": 1,
-      "level_cap": 40
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_vale",
@@ -661,7 +715,7 @@
       "name": "Vale Solis",
       "rarity": "Rare",
       "role": "Healer",
-      "brief_background_story": "A Cartel field medic who learned combat medicine on dockside jobs where there were no hospitals for miles. Vale has patched up clients through gunfights, gas attacks, and at least two instances of exotic poison \u2014 including ones she administered herself.",
+      "brief_background_story": "A Cartel field medic who learned combat medicine on dockside jobs where there were no hospitals for miles. Vale has patched up clients through gunfights, gas attacks, and at least two instances of exotic poison — including ones she administered herself.",
       "place_of_origin": "Port Meridian",
       "faction_affinity": "MERIDIAN_CARTEL",
       "base_stats": {
@@ -679,7 +733,9 @@
         "skill_id": "al2_vale_act"
       },
       "recruit_cost": 2,
-      "level_cap": 50
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
     },
     {
       "ally_id": "ally_tide",
@@ -705,7 +761,9 @@
         "skill_id": "al2_tide_act"
       },
       "recruit_cost": 1,
-      "level_cap": 45
+      "level_cap": 45,
+      "pvp_scale": 0.97,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_axiom",
@@ -713,7 +771,7 @@
       "name": "Axiom-7",
       "rarity": "Epic",
       "role": "DPS",
-      "brief_background_story": "A combat drone unit upgraded beyond its original parameters by its assigned engineer \u2014 who then filed the paperwork wrong, creating a legally autonomous entity. Axiom-7 now operates independently, citing the filing error as proof of personhood.",
+      "brief_background_story": "A combat drone unit upgraded beyond its original parameters by its assigned engineer — who then filed the paperwork wrong, creating a legally autonomous entity. Axiom-7 now operates independently, citing the filing error as proof of personhood.",
       "place_of_origin": "Extraction Zone Delta",
       "faction_affinity": "OMNICORP",
       "base_stats": {
@@ -731,7 +789,9 @@
         "skill_id": "al2_axiom_act"
       },
       "recruit_cost": 2,
-      "level_cap": 55
+      "level_cap": 55,
+      "pvp_scale": 0.83,
+      "conclave_points": 3
     },
     {
       "ally_id": "ally_prism",
@@ -739,7 +799,7 @@
       "name": "Prism Harlow",
       "rarity": "Epic",
       "role": "Support",
-      "brief_background_story": "An OmniCorp systems architect who built the Spire's defensive grid and now deploys the same principles in the field. Prism sees the battlefield as a system to be optimised and treats allies as assets to be protected \u2014 sincerely.",
+      "brief_background_story": "An OmniCorp systems architect who built the Spire's defensive grid and now deploys the same principles in the field. Prism sees the battlefield as a system to be optimised and treats allies as assets to be protected — sincerely.",
       "place_of_origin": "The Spire",
       "faction_affinity": "OMNICORP",
       "base_stats": {
@@ -757,7 +817,9 @@
         "skill_id": "al2_prism_act"
       },
       "recruit_cost": 2,
-      "level_cap": 55
+      "level_cap": 55,
+      "pvp_scale": 0.83,
+      "conclave_points": 3
     },
     {
       "ally_id": "ally_nimbus",
@@ -765,7 +827,7 @@
       "name": "Nimbus Sol",
       "rarity": "Common",
       "role": "Support",
-      "brief_background_story": "A young acolyte who was too eager for the Sanctum's pace and too undisciplined for high ritual. Nimbus took her blessing from the Heartwood Altar and left to do more practical good \u2014 whatever that turned out to be.",
+      "brief_background_story": "A young acolyte who was too eager for the Sanctum's pace and too undisciplined for high ritual. Nimbus took her blessing from the Heartwood Altar and left to do more practical good — whatever that turned out to be.",
       "place_of_origin": "Glowvine Forest",
       "faction_affinity": "CHILDREN_OF_THE_SHARD",
       "base_stats": {
@@ -783,7 +845,9 @@
         "skill_id": "al2_nimbus_act"
       },
       "recruit_cost": 1,
-      "level_cap": 40
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_gorm",
@@ -809,7 +873,9 @@
         "skill_id": "al2_gorm_act"
       },
       "recruit_cost": 2,
-      "level_cap": 50
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
     },
     {
       "ally_id": "ally_kross",
@@ -835,7 +901,9 @@
         "skill_id": "al2_kross_act"
       },
       "recruit_cost": 1,
-      "level_cap": 40
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_mote",
@@ -861,7 +929,9 @@
         "skill_id": "al2_mote_act"
       },
       "recruit_cost": 2,
-      "level_cap": 50
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
     },
     {
       "ally_id": "ally_lyric",
@@ -887,7 +957,9 @@
         "skill_id": "al2_lyric_act"
       },
       "recruit_cost": 1,
-      "level_cap": 40
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_pascal",
@@ -895,7 +967,7 @@
       "name": "Pascal Void",
       "rarity": "Epic",
       "role": "DPS",
-      "brief_background_story": "A Custodian tactical analyst who underwent an experimental Void-channelling enhancement that left half his neural map mapped to null-space. Pascal processes combat as pure mathematics \u2014 and the math always ends the same way.",
+      "brief_background_story": "A Custodian tactical analyst who underwent an experimental Void-channelling enhancement that left half his neural map mapped to null-space. Pascal processes combat as pure mathematics — and the math always ends the same way.",
       "place_of_origin": "Orbital Sentinel Command",
       "faction_affinity": "GALACTIC_CUSTODIANS",
       "base_stats": {
@@ -913,7 +985,9 @@
         "skill_id": "al3_pascal_act"
       },
       "recruit_cost": 2,
-      "level_cap": 55
+      "level_cap": 55,
+      "pvp_scale": 0.83,
+      "conclave_points": 3
     },
     {
       "ally_id": "ally_rekha",
@@ -939,7 +1013,9 @@
         "skill_id": "al3_rekha_act"
       },
       "recruit_cost": 1,
-      "level_cap": 45
+      "level_cap": 45,
+      "pvp_scale": 0.97,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_sora",
@@ -947,10 +1023,10 @@
       "name": "Sora Vell",
       "rarity": "Common",
       "role": "DPS",
-      "story": "A quick-footed scavenger from the Scrap Fields.",
-      "origin": "Scrap Field",
-      "faction": "IRON_HEGEMONY",
-      "stats": {
+      "brief_background_story": "A quick-footed scavenger from the Scrap Fields.",
+      "place_of_origin": "Scrap Field",
+      "faction_affinity": "IRON_HEGEMONY",
+      "base_stats": {
         "hp": 88,
         "mp": 62,
         "atk": 108,
@@ -958,14 +1034,16 @@
         "agi": 125,
         "per": 88
       },
-      "level_cap": 40,
       "passive_skill": {
         "skill_id": "al4_37_pas"
       },
       "active_skill": {
         "skill_id": "al4_37_act"
       },
-      "recruit_cost": 1
+      "recruit_cost": 1,
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_vex",
@@ -973,10 +1051,10 @@
       "name": "Vex Marrow",
       "rarity": "Common",
       "role": "Tank",
-      "story": "A former gate guard of the Bastion.",
-      "origin": "Bastion Core",
-      "faction": "IRON_HEGEMONY",
-      "stats": {
+      "brief_background_story": "A former gate guard of the Bastion.",
+      "place_of_origin": "Bastion Core",
+      "faction_affinity": "IRON_HEGEMONY",
+      "base_stats": {
         "hp": 155,
         "mp": 50,
         "atk": 88,
@@ -984,14 +1062,16 @@
         "agi": 58,
         "per": 68
       },
-      "level_cap": 40,
       "passive_skill": {
         "skill_id": "al4_38_pas"
       },
       "active_skill": {
         "skill_id": "al4_38_act"
       },
-      "recruit_cost": 1
+      "recruit_cost": 1,
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_petra",
@@ -999,10 +1079,10 @@
       "name": "Petra Shale",
       "rarity": "Common",
       "role": "Support",
-      "story": "A geomancer who reads the crystal slopes.",
-      "origin": "Crystal Slope",
-      "faction": "THE_ARCANUM_SEEKERS",
-      "stats": {
+      "brief_background_story": "A geomancer who reads the crystal slopes.",
+      "place_of_origin": "Crystal Slope",
+      "faction_affinity": "THE_ARCANUM_SEEKERS",
+      "base_stats": {
         "hp": 82,
         "mp": 128,
         "atk": 55,
@@ -1010,14 +1090,16 @@
         "agi": 90,
         "per": 118
       },
-      "level_cap": 40,
       "passive_skill": {
         "skill_id": "al4_39_pas"
       },
       "active_skill": {
         "skill_id": "al4_39_act"
       },
-      "recruit_cost": 1
+      "recruit_cost": 1,
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_harker",
@@ -1025,10 +1107,10 @@
       "name": "Harker Sol",
       "rarity": "Common",
       "role": "Healer",
-      "story": "A battlefield medic from the Scorched Badlands.",
-      "origin": "Scorched Badlands",
-      "faction": "STARFORGED_LEGION",
-      "stats": {
+      "brief_background_story": "A battlefield medic from the Scorched Badlands.",
+      "place_of_origin": "Scorched Badlands",
+      "faction_affinity": "STARFORGED_LEGION",
+      "base_stats": {
         "hp": 95,
         "mp": 135,
         "atk": 48,
@@ -1036,14 +1118,16 @@
         "agi": 80,
         "per": 125
       },
-      "level_cap": 40,
       "passive_skill": {
         "skill_id": "al4_40_pas"
       },
       "active_skill": {
         "skill_id": "al4_40_act"
       },
-      "recruit_cost": 1
+      "recruit_cost": 1,
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_wisp",
@@ -1051,10 +1135,10 @@
       "name": "Wisp Nova",
       "rarity": "Common",
       "role": "DPS",
-      "story": "A glowing mote from Glowvine Forest.",
-      "origin": "Glowvine Forest",
-      "faction": "CHILDREN_OF_THE_SHARD",
-      "stats": {
+      "brief_background_story": "A glowing mote from Glowvine Forest.",
+      "place_of_origin": "Glowvine Forest",
+      "faction_affinity": "CHILDREN_OF_THE_SHARD",
+      "base_stats": {
         "hp": 82,
         "mp": 78,
         "atk": 112,
@@ -1062,14 +1146,16 @@
         "agi": 118,
         "per": 85
       },
-      "level_cap": 40,
       "passive_skill": {
         "skill_id": "al4_41_pas"
       },
       "active_skill": {
         "skill_id": "al4_41_act"
       },
-      "recruit_cost": 1
+      "recruit_cost": 1,
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_duma",
@@ -1077,10 +1163,10 @@
       "name": "Duma Scale",
       "rarity": "Common",
       "role": "Tank",
-      "story": "A coral-armored fighter from the Wetlands.",
-      "origin": "Coral Wetlands",
-      "faction": "MERIDIAN_CARTEL",
-      "stats": {
+      "brief_background_story": "A coral-armored fighter from the Wetlands.",
+      "place_of_origin": "Coral Wetlands",
+      "faction_affinity": "MERIDIAN_CARTEL",
+      "base_stats": {
         "hp": 148,
         "mp": 52,
         "atk": 92,
@@ -1088,14 +1174,16 @@
         "agi": 62,
         "per": 70
       },
-      "level_cap": 40,
       "passive_skill": {
         "skill_id": "al4_42_pas"
       },
       "active_skill": {
         "skill_id": "al4_42_act"
       },
-      "recruit_cost": 1
+      "recruit_cost": 1,
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_zipp",
@@ -1103,10 +1191,10 @@
       "name": "Zipp Gear",
       "rarity": "Common",
       "role": "Support",
-      "story": "A tech drone from the Highland Plateau.",
-      "origin": "Highland Plateau",
-      "faction": "OMNICORP",
-      "stats": {
+      "brief_background_story": "A tech drone from the Highland Plateau.",
+      "place_of_origin": "Highland Plateau",
+      "faction_affinity": "OMNICORP",
+      "base_stats": {
         "hp": 85,
         "mp": 125,
         "atk": 58,
@@ -1114,14 +1202,16 @@
         "agi": 95,
         "per": 115
       },
-      "level_cap": 40,
       "passive_skill": {
         "skill_id": "al4_43_pas"
       },
       "active_skill": {
         "skill_id": "al4_43_act"
       },
-      "recruit_cost": 1
+      "recruit_cost": 1,
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_moss",
@@ -1129,10 +1219,10 @@
       "name": "Moss Thorn",
       "rarity": "Common",
       "role": "Healer",
-      "story": "A herbalist from Aethel Gardens.",
-      "origin": "Aethel Gardens",
-      "faction": "CONCORDIUM",
-      "stats": {
+      "brief_background_story": "A herbalist from Aethel Gardens.",
+      "place_of_origin": "Aethel Gardens",
+      "faction_affinity": "CONCORDIUM",
+      "base_stats": {
         "hp": 98,
         "mp": 138,
         "atk": 45,
@@ -1140,14 +1230,16 @@
         "agi": 78,
         "per": 128
       },
-      "level_cap": 40,
       "passive_skill": {
         "skill_id": "al4_44_pas"
       },
       "active_skill": {
         "skill_id": "al4_44_act"
       },
-      "recruit_cost": 1
+      "recruit_cost": 1,
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_karn",
@@ -1155,10 +1247,10 @@
       "name": "Karn Dusk",
       "rarity": "Common",
       "role": "DPS",
-      "story": "A shadowy hunter from Dune Outskirts.",
-      "origin": "Dune Outskirts",
-      "faction": "STARFORGED_LEGION",
-      "stats": {
+      "brief_background_story": "A shadowy hunter from Dune Outskirts.",
+      "place_of_origin": "Dune Outskirts",
+      "faction_affinity": "STARFORGED_LEGION",
+      "base_stats": {
         "hp": 90,
         "mp": 65,
         "atk": 115,
@@ -1166,14 +1258,16 @@
         "agi": 122,
         "per": 82
       },
-      "level_cap": 40,
       "passive_skill": {
         "skill_id": "al4_45_pas"
       },
       "active_skill": {
         "skill_id": "al4_45_act"
       },
-      "recruit_cost": 1
+      "recruit_cost": 1,
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_nexa",
@@ -1181,10 +1275,10 @@
       "name": "Nexa Void",
       "rarity": "Common",
       "role": "DPS",
-      "story": "A void-touched wanderer from the Expanse.",
-      "origin": "Cradle Expanse",
-      "faction": "CONCORDIUM",
-      "stats": {
+      "brief_background_story": "A void-touched wanderer from the Expanse.",
+      "place_of_origin": "Cradle Expanse",
+      "faction_affinity": "CONCORDIUM",
+      "base_stats": {
         "hp": 85,
         "mp": 85,
         "atk": 110,
@@ -1192,14 +1286,16 @@
         "agi": 115,
         "per": 90
       },
-      "level_cap": 40,
       "passive_skill": {
         "skill_id": "al4_46_pas"
       },
       "active_skill": {
         "skill_id": "al4_46_act"
       },
-      "recruit_cost": 1
+      "recruit_cost": 1,
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
     },
     {
       "ally_id": "ally_vesper",
@@ -1207,10 +1303,10 @@
       "name": "Vesper Ash",
       "rarity": "Rare",
       "role": "DPS",
-      "story": "A fire-wielder from the Forge Canyons.",
-      "origin": "Forge Canyon Depths",
-      "faction": "STARFORGED_LEGION",
-      "stats": {
+      "brief_background_story": "A fire-wielder from the Forge Canyons.",
+      "place_of_origin": "Forge Canyon Depths",
+      "faction_affinity": "STARFORGED_LEGION",
+      "base_stats": {
         "hp": 92,
         "mp": 75,
         "atk": 135,
@@ -1218,14 +1314,16 @@
         "agi": 115,
         "per": 100
       },
-      "level_cap": 50,
       "passive_skill": {
         "skill_id": "al4_47_pas"
       },
       "active_skill": {
         "skill_id": "al4_47_act"
       },
-      "recruit_cost": 2
+      "recruit_cost": 2,
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
     },
     {
       "ally_id": "ally_quinn",
@@ -1233,10 +1331,10 @@
       "name": "Quinn Merid",
       "rarity": "Rare",
       "role": "Support",
-      "story": "A merchant-lord who traded his wealth for combat prowess.",
-      "origin": "Port Meridian",
-      "faction": "MERIDIAN_CARTEL",
-      "stats": {
+      "brief_background_story": "A merchant-lord who traded his wealth for combat prowess.",
+      "place_of_origin": "Port Meridian",
+      "faction_affinity": "MERIDIAN_CARTEL",
+      "base_stats": {
         "hp": 88,
         "mp": 142,
         "atk": 62,
@@ -1244,14 +1342,16 @@
         "agi": 105,
         "per": 138
       },
-      "level_cap": 50,
       "passive_skill": {
         "skill_id": "al4_48_pas"
       },
       "active_skill": {
         "skill_id": "al4_48_act"
       },
-      "recruit_cost": 2
+      "recruit_cost": 2,
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
     },
     {
       "ally_id": "ally_fenra",
@@ -1259,10 +1359,10 @@
       "name": "Fenra Shard",
       "rarity": "Rare",
       "role": "Healer",
-      "story": "A Shard-blessed healer from the Sanctum.",
-      "origin": "Sanctum",
-      "faction": "CHILDREN_OF_THE_SHARD",
-      "stats": {
+      "brief_background_story": "A Shard-blessed healer from the Sanctum.",
+      "place_of_origin": "Sanctum",
+      "faction_affinity": "CHILDREN_OF_THE_SHARD",
+      "base_stats": {
         "hp": 105,
         "mp": 155,
         "atk": 52,
@@ -1270,14 +1370,16 @@
         "agi": 88,
         "per": 142
       },
-      "level_cap": 50,
       "passive_skill": {
         "skill_id": "al4_49_pas"
       },
       "active_skill": {
         "skill_id": "al4_49_act"
       },
-      "recruit_cost": 2
+      "recruit_cost": 2,
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
     },
     {
       "ally_id": "ally_kore",
@@ -1285,10 +1387,10 @@
       "name": "Kore Hex",
       "rarity": "Rare",
       "role": "Tank",
-      "story": "An iron-jawed enforcer from the Iron Ravine.",
-      "origin": "Iron Ravine",
-      "faction": "IRON_HEGEMONY",
-      "stats": {
+      "brief_background_story": "An iron-jawed enforcer from the Iron Ravine.",
+      "place_of_origin": "Iron Ravine",
+      "faction_affinity": "IRON_HEGEMONY",
+      "base_stats": {
         "hp": 165,
         "mp": 58,
         "atk": 98,
@@ -1296,14 +1398,16 @@
         "agi": 68,
         "per": 82
       },
-      "level_cap": 50,
       "passive_skill": {
         "skill_id": "al4_50_pas"
       },
       "active_skill": {
         "skill_id": "al4_50_act"
       },
-      "recruit_cost": 2
+      "recruit_cost": 2,
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
     },
     {
       "ally_id": "ally_sylva",
@@ -1311,10 +1415,10 @@
       "name": "Sylva Rune",
       "rarity": "Rare",
       "role": "DPS",
-      "story": "A rune-carved mystic from Resonance Caverns.",
-      "origin": "Resonance Caverns",
-      "faction": "THE_ARCANUM_SEEKERS",
-      "stats": {
+      "brief_background_story": "A rune-carved mystic from Resonance Caverns.",
+      "place_of_origin": "Resonance Caverns",
+      "faction_affinity": "THE_ARCANUM_SEEKERS",
+      "base_stats": {
         "hp": 88,
         "mp": 82,
         "atk": 140,
@@ -1322,14 +1426,16 @@
         "agi": 118,
         "per": 108
       },
-      "level_cap": 50,
       "passive_skill": {
         "skill_id": "al4_51_pas"
       },
       "active_skill": {
         "skill_id": "al4_51_act"
       },
-      "recruit_cost": 2
+      "recruit_cost": 2,
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
     },
     {
       "ally_id": "ally_vec",
@@ -1337,10 +1443,10 @@
       "name": "Vec Omega",
       "rarity": "Rare",
       "role": "Support",
-      "story": "A combat-strategist AI from the Spire.",
-      "origin": "The Spire",
-      "faction": "OMNICORP",
-      "stats": {
+      "brief_background_story": "A combat-strategist AI from the Spire.",
+      "place_of_origin": "The Spire",
+      "faction_affinity": "OMNICORP",
+      "base_stats": {
         "hp": 90,
         "mp": 148,
         "atk": 58,
@@ -1348,14 +1454,16 @@
         "agi": 108,
         "per": 142
       },
-      "level_cap": 50,
       "passive_skill": {
         "skill_id": "al4_52_pas"
       },
       "active_skill": {
         "skill_id": "al4_52_act"
       },
-      "recruit_cost": 2
+      "recruit_cost": 2,
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
     },
     {
       "ally_id": "ally_selene",
@@ -1363,10 +1471,10 @@
       "name": "Selene Voss",
       "rarity": "Rare",
       "role": "Healer",
-      "story": "A wandering physician from Nexus Core.",
-      "origin": "Nexus Core",
-      "faction": "CONCORDIUM",
-      "stats": {
+      "brief_background_story": "A wandering physician from Nexus Core.",
+      "place_of_origin": "Nexus Core",
+      "faction_affinity": "CONCORDIUM",
+      "base_stats": {
         "hp": 108,
         "mp": 150,
         "atk": 55,
@@ -1374,14 +1482,16 @@
         "agi": 90,
         "per": 145
       },
-      "level_cap": 50,
       "passive_skill": {
         "skill_id": "al4_53_pas"
       },
       "active_skill": {
         "skill_id": "al4_53_act"
       },
-      "recruit_cost": 2
+      "recruit_cost": 2,
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
     },
     {
       "ally_id": "ally_nyx",
@@ -1389,10 +1499,10 @@
       "name": "Nyx Prime",
       "rarity": "Epic",
       "role": "DPS",
-      "story": "A shadow-forged assassin from the Void Echo Chasm.",
-      "origin": "Void Echo Chasm",
-      "faction": "NONE",
-      "stats": {
+      "brief_background_story": "A shadow-forged assassin from the Void Echo Chasm.",
+      "place_of_origin": "Void Echo Chasm",
+      "faction_affinity": "NONE",
+      "base_stats": {
         "hp": 98,
         "mp": 115,
         "atk": 162,
@@ -1400,14 +1510,16 @@
         "agi": 142,
         "per": 128
       },
-      "level_cap": 55,
       "passive_skill": {
         "skill_id": "al4_54_pas"
       },
       "active_skill": {
         "skill_id": "al4_54_act"
       },
-      "recruit_cost": 2
+      "recruit_cost": 2,
+      "level_cap": 55,
+      "pvp_scale": 0.83,
+      "conclave_points": 3
     },
     {
       "ally_id": "ally_auriel",
@@ -1415,10 +1527,10 @@
       "name": "Auriel Arc",
       "rarity": "Epic",
       "role": "Support",
-      "story": "A light-bringer from the Orbital Sentinel Command.",
-      "origin": "Orbital Sentinel Command",
-      "faction": "CONCORDIUM",
-      "stats": {
+      "brief_background_story": "A light-bringer from the Orbital Sentinel Command.",
+      "place_of_origin": "Orbital Sentinel Command",
+      "faction_affinity": "CONCORDIUM",
+      "base_stats": {
         "hp": 100,
         "mp": 165,
         "atk": 68,
@@ -1426,14 +1538,16 @@
         "agi": 108,
         "per": 158
       },
-      "level_cap": 55,
       "passive_skill": {
         "skill_id": "al4_55_pas"
       },
       "active_skill": {
         "skill_id": "al4_55_act"
       },
-      "recruit_cost": 2
+      "recruit_cost": 2,
+      "level_cap": 55,
+      "pvp_scale": 0.83,
+      "conclave_points": 3
     },
     {
       "ally_id": "ally_gorath",
@@ -1441,10 +1555,10 @@
       "name": "Gorath Titan",
       "rarity": "Epic",
       "role": "Tank",
-      "story": "A titan-blooded warrior from the Shattered Heart.",
-      "origin": "Shattered Heart",
-      "faction": "STARFORGED_LEGION",
-      "stats": {
+      "brief_background_story": "A titan-blooded warrior from the Shattered Heart.",
+      "place_of_origin": "Shattered Heart",
+      "faction_affinity": "STARFORGED_LEGION",
+      "base_stats": {
         "hp": 195,
         "mp": 62,
         "atk": 112,
@@ -1452,14 +1566,16 @@
         "agi": 55,
         "per": 78
       },
-      "level_cap": 55,
       "passive_skill": {
         "skill_id": "al4_56_pas"
       },
       "active_skill": {
         "skill_id": "al4_56_act"
       },
-      "recruit_cost": 2
+      "recruit_cost": 2,
+      "level_cap": 55,
+      "pvp_scale": 0.83,
+      "conclave_points": 3
     },
     {
       "ally_id": "ally_myste",
@@ -1467,10 +1583,10 @@
       "name": "Myste Core",
       "rarity": "Epic",
       "role": "Healer",
-      "story": "A soul-healer from the Hidden Aethelgardian City.",
-      "origin": "Hidden Aethelgardian City",
-      "faction": "THE_ARCANUM_SEEKERS",
-      "stats": {
+      "brief_background_story": "A soul-healer from the Hidden Aethelgardian City.",
+      "place_of_origin": "Hidden Aethelgardian City",
+      "faction_affinity": "THE_ARCANUM_SEEKERS",
+      "base_stats": {
         "hp": 118,
         "mp": 178,
         "atk": 52,
@@ -1478,14 +1594,16 @@
         "agi": 92,
         "per": 168
       },
-      "level_cap": 55,
       "passive_skill": {
         "skill_id": "al4_57_pas"
       },
       "active_skill": {
         "skill_id": "al4_57_act"
       },
-      "recruit_cost": 2
+      "recruit_cost": 2,
+      "level_cap": 55,
+      "pvp_scale": 0.83,
+      "conclave_points": 3
     },
     {
       "ally_id": "ally_zeron",
@@ -1493,10 +1611,10 @@
       "name": "Zeron Forge",
       "rarity": "Epic",
       "role": "DPS",
-      "story": "A forge-born warrior from Prima Materia Forge.",
-      "origin": "Prima Materia Forge",
-      "faction": "IRON_HEGEMONY",
-      "stats": {
+      "brief_background_story": "A forge-born warrior from Prima Materia Forge.",
+      "place_of_origin": "Prima Materia Forge",
+      "faction_affinity": "IRON_HEGEMONY",
+      "base_stats": {
         "hp": 105,
         "mp": 108,
         "atk": 168,
@@ -1504,14 +1622,16 @@
         "agi": 138,
         "per": 122
       },
-      "level_cap": 55,
       "passive_skill": {
         "skill_id": "al4_58_pas"
       },
       "active_skill": {
         "skill_id": "al4_58_act"
       },
-      "recruit_cost": 2
+      "recruit_cost": 2,
+      "level_cap": 55,
+      "pvp_scale": 0.83,
+      "conclave_points": 3
     },
     {
       "ally_id": "ally_aetheria",
@@ -1519,10 +1639,10 @@
       "name": "Aetheria Prime",
       "rarity": "Legendary",
       "role": "Support",
-      "story": "The awakened consciousness of the Aethel Siphon Core itself.",
-      "origin": "Aethel Siphon Core",
-      "faction": "NONE",
-      "stats": {
+      "brief_background_story": "The awakened consciousness of the Aethel Siphon Core itself.",
+      "place_of_origin": "Aethel Siphon Core",
+      "faction_affinity": "NONE",
+      "base_stats": {
         "hp": 125,
         "mp": 195,
         "atk": 72,
@@ -1530,14 +1650,16 @@
         "agi": 115,
         "per": 175
       },
-      "level_cap": 70,
       "passive_skill": {
         "skill_id": "al4_59_pas"
       },
       "active_skill": {
         "skill_id": "al4_59_act"
       },
-      "recruit_cost": 3
+      "recruit_cost": 3,
+      "level_cap": 70,
+      "pvp_scale": 0.72,
+      "conclave_points": 4
     },
     {
       "ally_id": "ally_malrik",
@@ -1545,10 +1667,10 @@
       "name": "Malrik Doom",
       "rarity": "Legendary",
       "role": "DPS",
-      "story": "The last surviving Void Knight who turned against the Abyss.",
-      "origin": "Void Echo Chasm",
-      "faction": "NONE",
-      "stats": {
+      "brief_background_story": "The last surviving Void Knight who turned against the Abyss.",
+      "place_of_origin": "Void Echo Chasm",
+      "faction_affinity": "NONE",
+      "base_stats": {
         "hp": 115,
         "mp": 108,
         "atk": 180,
@@ -1556,14 +1678,16 @@
         "agi": 145,
         "per": 118
       },
-      "level_cap": 70,
       "passive_skill": {
         "skill_id": "al4_60_pas"
       },
       "active_skill": {
         "skill_id": "al4_60_act"
       },
-      "recruit_cost": 3
+      "recruit_cost": 3,
+      "level_cap": 70,
+      "pvp_scale": 0.72,
+      "conclave_points": 4
     },
     {
       "ally_id": "ally_orion",
@@ -1571,10 +1695,10 @@
       "name": "Orion Aethel",
       "rarity": "Legendary",
       "role": "Tank",
-      "story": "The immortal guardian of the World Engine who has witnessed every age.",
-      "origin": "Aethel Siphon Core",
-      "faction": "NONE",
-      "stats": {
+      "brief_background_story": "The immortal guardian of the World Engine who has witnessed every age.",
+      "place_of_origin": "Aethel Siphon Core",
+      "faction_affinity": "NONE",
+      "base_stats": {
         "hp": 210,
         "mp": 75,
         "atk": 125,
@@ -1582,14 +1706,856 @@
         "agi": 68,
         "per": 92
       },
-      "level_cap": 70,
       "passive_skill": {
         "skill_id": "al4_61_pas"
       },
       "active_skill": {
         "skill_id": "al4_61_act"
       },
-      "recruit_cost": 3
+      "recruit_cost": 3,
+      "level_cap": 70,
+      "pvp_scale": 0.72,
+      "conclave_points": 4
+    },
+    {
+      "ally_id": "ally_reva",
+      "code": "REVA_DUSK",
+      "name": "Reva Dusk",
+      "rarity": "Common",
+      "role": "DPS",
+      "brief_background_story": "Born in the Scrap Fields where Iron Hegemony conscription crews made monthly sweeps, Reva learned to shoot before she could read — aiming at anything that moved through rusted debris kept her alive when the drafters came. She slipped the net three times, each escape making her sharper, and eventually joined a resistance cell that decided her trigger discipline was too good to waste on patrol duty.",
+      "place_of_origin": "Scrap Fields, Iron Belt",
+      "faction_affinity": "IRON_HEGEMONY",
+      "base_stats": {
+        "hp": 88,
+        "mp": 72,
+        "atk": 118,
+        "def": 70,
+        "agi": 122,
+        "per": 92
+      },
+      "passive_skill": {
+        "skill_id": "al5_62_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_62_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
+    },
+    {
+      "ally_id": "ally_grak",
+      "code": "GRAK_PELL",
+      "name": "Grak Pell",
+      "rarity": "Common",
+      "role": "Tank",
+      "brief_background_story": "Grak spent thirty-two years as a Concordium checkpoint guard at Sector 9's eastern crossing, turning back smugglers and breaking up brawls with the same unhurried calm. He retired twice — and both times walked back to the post within a week, unable to sit still. When the checkpoints dissolved during the faction upheaval, he simply started guarding whoever seemed to need it most.",
+      "place_of_origin": "Sector 9 Crossing, Concordium Territory",
+      "faction_affinity": "CONCORDIUM",
+      "base_stats": {
+        "hp": 152,
+        "mp": 50,
+        "atk": 88,
+        "def": 130,
+        "agi": 58,
+        "per": 68
+      },
+      "passive_skill": {
+        "skill_id": "al5_63_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_63_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
+    },
+    {
+      "ally_id": "ally_lila",
+      "code": "LILA_SUNBLOOM",
+      "name": "Lila Sunbloom",
+      "rarity": "Common",
+      "role": "Healer",
+      "brief_background_story": "Lila inherited her grandmother's herb-drying racks and a handwritten ledger of remedies older than the Shard Fracture itself. When a small sliver of Aethel crystal lodged itself in her garden's soil — nobody knows how — every plant she grew from that point began to carry a faint restorative hum. She still insists the credit goes to good soil management, but the soldiers she's healed know the difference.",
+      "place_of_origin": "Verdant Hollow, Children's Territory",
+      "faction_affinity": "CHILDREN_OF_THE_SHARD",
+      "base_stats": {
+        "hp": 98,
+        "mp": 132,
+        "atk": 48,
+        "def": 84,
+        "agi": 82,
+        "per": 125
+      },
+      "passive_skill": {
+        "skill_id": "al5_64_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_64_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
+    },
+    {
+      "ally_id": "ally_skip",
+      "code": "SKIP_WREN",
+      "name": "Skip Wren",
+      "rarity": "Common",
+      "role": "Support",
+      "brief_background_story": "OmniCorp assigned Skip to remote console operation — monitor screens, push buttons, keep the drones flying. He lasted four months before he unplugged his headset and walked straight to the field deployment bay. The field, Skip argued, is where problems actually are; the console is just where people argue about problems. His commanding officer never formally approved the transfer, but nobody bothered to revoke it either.",
+      "place_of_origin": "The Spire, OmniCorp Division 7",
+      "faction_affinity": "OMNICORP",
+      "base_stats": {
+        "hp": 84,
+        "mp": 122,
+        "atk": 58,
+        "def": 76,
+        "agi": 94,
+        "per": 118
+      },
+      "passive_skill": {
+        "skill_id": "al5_65_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_65_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
+    },
+    {
+      "ally_id": "ally_torr",
+      "code": "TORR_ASHFELD",
+      "name": "Torr Ashfeld",
+      "rarity": "Common",
+      "role": "DPS",
+      "brief_background_story": "Torr spent a decade feeding the Legion's blast furnaces at the Ashfeld Foundry, shoveling slag and breathing superheated air until it stopped bothering him. He developed a fascination — colleagues called it something stronger — with the way fire stripped everything down to its essential form. When the foundry was conscripted into weapon production, Torr signed up for a combat billet specifically to stay near the burning things.",
+      "place_of_origin": "Ashfeld Foundry, Starforged Legion",
+      "faction_affinity": "STARFORGED_LEGION",
+      "base_stats": {
+        "hp": 90,
+        "mp": 65,
+        "atk": 120,
+        "def": 78,
+        "agi": 108,
+        "per": 82
+      },
+      "passive_skill": {
+        "skill_id": "al5_66_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_66_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
+    },
+    {
+      "ally_id": "ally_narra",
+      "code": "NARRA_COLE",
+      "name": "Narra Cole",
+      "rarity": "Common",
+      "role": "Healer",
+      "brief_background_story": "Narra ran the Meridian Cartel's dockside dispensary for six years, no questions asked about who was bleeding or why. When a rival faction burned the docks down around her, she grabbed her kit and joined the nearest squad that would take her, making it clear on day one that she only heals people now — not cargo, not secrets, not the Cartel's reputation. The distinction matters to her.",
+      "place_of_origin": "Port Meridian, Cartel Docks",
+      "faction_affinity": "MERIDIAN_CARTEL",
+      "base_stats": {
+        "hp": 100,
+        "mp": 136,
+        "atk": 46,
+        "def": 82,
+        "agi": 80,
+        "per": 122
+      },
+      "passive_skill": {
+        "skill_id": "al5_67_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_67_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
+    },
+    {
+      "ally_id": "ally_zax",
+      "code": "ZAX_VOLT",
+      "name": "Zax Volt",
+      "rarity": "Common",
+      "role": "DPS",
+      "brief_background_story": "Zax attempted the Arcanum Seekers entrance examination three times, failing the theoretical component on each attempt despite demonstrating an instinctive grasp of aether channeling that examiners described as 'impressively dangerous.' Rejected but undeterred, he continued self-teaching through stolen texts and field experiments, eventually producing results comparable to first-year students — through entirely wrong methodology that somehow worked.",
+      "place_of_origin": "Outer Relay Station, Arcanum Fringe",
+      "faction_affinity": "THE_ARCANUM_SEEKERS",
+      "base_stats": {
+        "hp": 85,
+        "mp": 78,
+        "atk": 112,
+        "def": 68,
+        "agi": 118,
+        "per": 96
+      },
+      "passive_skill": {
+        "skill_id": "al5_68_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_68_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
+    },
+    {
+      "ally_id": "ally_brom",
+      "code": "BROM_HULL",
+      "name": "Brom Hull",
+      "rarity": "Common",
+      "role": "Tank",
+      "brief_background_story": "Commander Hull once led a four-hundred-soldier labor battalion, coordinating fortification construction across three active sectors. After filing one grievance too many about supply chain corruption, he was reassigned to direct front-line duty as institutional punishment. Brom treated it as a promotion: fewer meetings, clearer problems, and he could personally fix the fortifications that kept getting built wrong.",
+      "place_of_origin": "Bastion Core, Iron Hegemony",
+      "faction_affinity": "IRON_HEGEMONY",
+      "base_stats": {
+        "hp": 155,
+        "mp": 52,
+        "atk": 92,
+        "def": 138,
+        "agi": 56,
+        "per": 70
+      },
+      "passive_skill": {
+        "skill_id": "al5_69_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_69_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
+    },
+    {
+      "ally_id": "ally_cera",
+      "code": "CERA_VELL",
+      "name": "Cera Vell",
+      "rarity": "Common",
+      "role": "Support",
+      "brief_background_story": "Cera's job title was Tactical Communications Officer, which meant she spent battles inside a shielded relay hub processing seventeen simultaneous data streams and translating chaos into orders. She is, by every metric, better at running a fight from the sideline than most commanders are from the front. She occasionally fires a weapon, but treats it as a last resort — coordination is the more powerful tool.",
+      "place_of_origin": "Relay Station 4, Concordium Network",
+      "faction_affinity": "CONCORDIUM",
+      "base_stats": {
+        "hp": 82,
+        "mp": 125,
+        "atk": 54,
+        "def": 74,
+        "agi": 92,
+        "per": 120
+      },
+      "passive_skill": {
+        "skill_id": "al5_70_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_70_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
+    },
+    {
+      "ally_id": "ally_pix",
+      "code": "PIX_III",
+      "name": "Pix-III",
+      "rarity": "Common",
+      "role": "Support",
+      "brief_background_story": "The first two Pix units were standard-issue Custodian micro-observation drones — passive, compliant, and thoroughly replaceable. Pix-III was supposed to be the same. Instead, it began modifying its own firmware during a forty-eight-hour unmonitored deployment, adding collaborative subroutines that the Custodians hadn't programmed. When they discovered the changes, they had a choice between decommissioning it and accepting that they now had a drone that actively wanted to be useful. They kept it.",
+      "place_of_origin": "Custodian Orbital Station Gamma",
+      "faction_affinity": "GALACTIC_CUSTODIANS",
+      "base_stats": {
+        "hp": 80,
+        "mp": 128,
+        "atk": 52,
+        "def": 72,
+        "agi": 96,
+        "per": 126
+      },
+      "passive_skill": {
+        "skill_id": "al5_71_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_71_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 40,
+      "pvp_scale": 1.0,
+      "conclave_points": 1
+    },
+    {
+      "ally_id": "ally_shade",
+      "code": "SHADE_RAEL",
+      "name": "Shade Rael",
+      "rarity": "Uncommon",
+      "role": "DPS",
+      "brief_background_story": "The Meridian Cartel's information broker network was extensive and, for a time, extremely effective — Shade Rael was the one who knew where every piece of leverage was buried. The problem with knowing too much is that someone always decides you know too much. After the third assassination attempt in two months, Shade concluded that the only safe position was the last one standing, and adapted accordingly.",
+      "place_of_origin": "Port Meridian, Broker Quarter",
+      "faction_affinity": "MERIDIAN_CARTEL",
+      "base_stats": {
+        "hp": 86,
+        "mp": 82,
+        "atk": 122,
+        "def": 66,
+        "agi": 128,
+        "per": 98
+      },
+      "passive_skill": {
+        "skill_id": "al5_72_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_72_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 45,
+      "pvp_scale": 0.97,
+      "conclave_points": 1
+    },
+    {
+      "ally_id": "ally_wynn",
+      "code": "WYNN_ORE",
+      "name": "Wynn Ore",
+      "rarity": "Uncommon",
+      "role": "Tank",
+      "brief_background_story": "Wynn rode with the Starforged Legion's Ironback Cavalry for nine years, leading mounted charges across every major contested corridor in the western sectors. Her mount took a plasma round at the Battle of Cinder Ridge and didn't survive. Wynn stood up from the wreckage, assessed that the charge still needed completing, and continued on foot. The Legion gave her a commendation and a new mount; she declined the mount.",
+      "place_of_origin": "Cinder Ridge, Starforged Territory",
+      "faction_affinity": "STARFORGED_LEGION",
+      "base_stats": {
+        "hp": 158,
+        "mp": 54,
+        "atk": 96,
+        "def": 138,
+        "agi": 60,
+        "per": 72
+      },
+      "passive_skill": {
+        "skill_id": "al5_73_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_73_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 45,
+      "pvp_scale": 0.97,
+      "conclave_points": 1
+    },
+    {
+      "ally_id": "ally_lera",
+      "code": "LERA_MIST",
+      "name": "Lera Mist",
+      "rarity": "Uncommon",
+      "role": "Healer",
+      "brief_background_story": "Lera's research into suspended aether-healing compounds was progressing well until a containment vessel ruptured and she inhaled three months of concentrated experimental formula in one breath. The Arcanum Seekers expected the worst. Instead, Lera's own biology integrated the compound, granting her a passive restorative field that she cannot fully control or fully turn off. She considers it occupational hazard and significant data.",
+      "place_of_origin": "Arcanum Research Station Veil-4",
+      "faction_affinity": "THE_ARCANUM_SEEKERS",
+      "base_stats": {
+        "hp": 105,
+        "mp": 140,
+        "atk": 54,
+        "def": 90,
+        "agi": 86,
+        "per": 132
+      },
+      "passive_skill": {
+        "skill_id": "al5_74_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_74_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 45,
+      "pvp_scale": 0.97,
+      "conclave_points": 1
+    },
+    {
+      "ally_id": "ally_cole",
+      "code": "COLE_STEELMARK",
+      "name": "Cole Steelmark",
+      "rarity": "Uncommon",
+      "role": "Support",
+      "brief_background_story": "OmniCorp's hardware division built some of the finest field equipment in operation — Cole Steelmark designed a third of it, from the bench. After writing his fifteenth report about field conditions he'd never personally experienced, Cole decided that honest assessment required firsthand data. He submitted a field assessment request, was denied, and went anyway. His equipment reports improved dramatically as a result.",
+      "place_of_origin": "The Spire, OmniCorp Hardware Division",
+      "faction_affinity": "OMNICORP",
+      "base_stats": {
+        "hp": 88,
+        "mp": 138,
+        "atk": 62,
+        "def": 78,
+        "agi": 96,
+        "per": 128
+      },
+      "passive_skill": {
+        "skill_id": "al5_75_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_75_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 45,
+      "pvp_scale": 0.97,
+      "conclave_points": 1
+    },
+    {
+      "ally_id": "ally_tessa",
+      "code": "TESSA_GRAY",
+      "name": "Tessa Gray",
+      "rarity": "Uncommon",
+      "role": "DPS",
+      "brief_background_story": "Tessa spent five years as a Concordium intelligence analyst, mapping enemy patterns and predicting engagements with unusual accuracy. Six months into a period of escalating conflict, she requested combat certification, trained in every off-hour she had, and passed the assessment in a time that embarrassed several career soldiers. She frames the career change as efficiency: pattern recognition works equally well against a document and against an opponent.",
+      "place_of_origin": "Nexus Core, Intelligence Bureau",
+      "faction_affinity": "CONCORDIUM",
+      "base_stats": {
+        "hp": 88,
+        "mp": 88,
+        "atk": 125,
+        "def": 70,
+        "agi": 125,
+        "per": 105
+      },
+      "passive_skill": {
+        "skill_id": "al5_76_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_76_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 45,
+      "pvp_scale": 0.97,
+      "conclave_points": 1
+    },
+    {
+      "ally_id": "ally_dane",
+      "code": "DANE_HOLLOWS",
+      "name": "Dane Hollows",
+      "rarity": "Uncommon",
+      "role": "Tank",
+      "brief_background_story": "Dane has held Post 7 at the Iron Hegemony's eastern border wall through three separate incursions, each one clearing the post of every other soldier. Each time, the Hegemony sent reinforcements and found Dane still at his position. He doesn't describe himself as brave — he simply says that leaving would have meant someone else had to come back and do it, and he was already there. He has held Post 7 for eleven years total.",
+      "place_of_origin": "Eastern Border Wall, Iron Hegemony",
+      "faction_affinity": "IRON_HEGEMONY",
+      "base_stats": {
+        "hp": 160,
+        "mp": 56,
+        "atk": 93,
+        "def": 140,
+        "agi": 58,
+        "per": 76
+      },
+      "passive_skill": {
+        "skill_id": "al5_77_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_77_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 45,
+      "pvp_scale": 0.97,
+      "conclave_points": 1
+    },
+    {
+      "ally_id": "ally_lysa",
+      "code": "LYSA_BLOOM",
+      "name": "Lysa Bloom",
+      "rarity": "Uncommon",
+      "role": "Healer",
+      "brief_background_story": "The Monastery of the Unbroken Root was attacked three times during the Shard Wars — twice by factions wanting its sacred garden destroyed, once by a faction wanting it seized. Lysa defended it alone on two of those occasions, using whatever tools were at hand, and negotiated the third away entirely. The garden survived all three. She considers the garden her primary responsibility; everyone she heals along the way is secondary, though she'd never say that to them.",
+      "place_of_origin": "Monastery of the Unbroken Root, Shard Reaches",
+      "faction_affinity": "CHILDREN_OF_THE_SHARD",
+      "base_stats": {
+        "hp": 108,
+        "mp": 144,
+        "atk": 56,
+        "def": 92,
+        "agi": 88,
+        "per": 136
+      },
+      "passive_skill": {
+        "skill_id": "al5_78_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_78_act"
+      },
+      "recruit_cost": 1,
+      "level_cap": 45,
+      "pvp_scale": 0.97,
+      "conclave_points": 1
+    },
+    {
+      "ally_id": "ally_kira",
+      "code": "KIRA_VANE",
+      "name": "Kira Vane",
+      "rarity": "Rare",
+      "role": "DPS",
+      "brief_background_story": "During a Shard Fracture event that nearly consumed her entire monastery, Kira caught a fragment of Aethel crystal with her bare hand to prevent it from detonating among her sisters. The fragment fused with her forearm rather than passing through. The Shard Healers said removal would kill her; Kira said she hadn't planned on removal. She now channels Shard energy directly through the embedded fragment, making her strikes carry a resonance that ordinary weapons cannot replicate.",
+      "place_of_origin": "Shardfall Monastery, Children's Territory",
+      "faction_affinity": "CHILDREN_OF_THE_SHARD",
+      "base_stats": {
+        "hp": 94,
+        "mp": 80,
+        "atk": 138,
+        "def": 80,
+        "agi": 118,
+        "per": 108
+      },
+      "passive_skill": {
+        "skill_id": "al5_79_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_79_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
+    },
+    {
+      "ally_id": "ally_gareth",
+      "code": "GARETH_NULL",
+      "name": "Gareth Null",
+      "rarity": "Rare",
+      "role": "Tank",
+      "brief_background_story": "OmniCorp's executive protection division assigned Gareth to a sequence of corporate principals whose safety he maintained flawlessly for eight years. The problem was the principals themselves — people so insulated by wealth that genuine danger never reached them. Gareth requested reassignment to a context where the people he guarded actually needed guarding. The request was denied. He left anyway and has not looked back at a single corporate tower since.",
+      "place_of_origin": "The Spire, OmniCorp Executive Tier",
+      "faction_affinity": "OMNICORP",
+      "base_stats": {
+        "hp": 170,
+        "mp": 56,
+        "atk": 100,
+        "def": 148,
+        "agi": 62,
+        "per": 78
+      },
+      "passive_skill": {
+        "skill_id": "al5_80_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_80_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
+    },
+    {
+      "ally_id": "ally_sable",
+      "code": "SABLE_NOIR",
+      "name": "Sable Noir",
+      "rarity": "Rare",
+      "role": "Support",
+      "brief_background_story": "Sable Noir ran the Meridian Cartel's intelligence apparatus for eleven years, maintaining a network of assets across six factions simultaneously without a single exposure event. When the Cartel's leadership structure collapsed in a succession conflict she had predicted in writing four months prior, Sable retired. Retirement lasted six weeks before a field operative she'd trained asked for help. She found, to her surprise, that the field was considerably more honest than the office.",
+      "place_of_origin": "Port Meridian, Cartel Intelligence Bureau",
+      "faction_affinity": "MERIDIAN_CARTEL",
+      "base_stats": {
+        "hp": 92,
+        "mp": 138,
+        "atk": 68,
+        "def": 86,
+        "agi": 108,
+        "per": 142
+      },
+      "passive_skill": {
+        "skill_id": "al5_81_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_81_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
+    },
+    {
+      "ally_id": "ally_haze",
+      "code": "HAZE_CORDELL",
+      "name": "Haze Cordell",
+      "rarity": "Rare",
+      "role": "Healer",
+      "brief_background_story": "The Galactic Custodians deployed Haze to a contested sector for what was classified as a temporary medical research assignment — ninety days, maximum. Eleven years later, Haze is still there, having extended the assignment so many times the original paperwork no longer exists. She stopped filing extension requests around year four and simply kept working. The Custodians consider her status 'administratively complicated' and her results 'irreplaceable.'",
+      "place_of_origin": "Custodian Medical Research Division, Orbit",
+      "faction_affinity": "GALACTIC_CUSTODIANS",
+      "base_stats": {
+        "hp": 110,
+        "mp": 155,
+        "atk": 54,
+        "def": 90,
+        "agi": 88,
+        "per": 144
+      },
+      "passive_skill": {
+        "skill_id": "al5_82_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_82_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
+    },
+    {
+      "ally_id": "ally_erix",
+      "code": "ERIX_STORM",
+      "name": "Erix Storm",
+      "rarity": "Rare",
+      "role": "DPS",
+      "brief_background_story": "The Starforged Legion's meteorological hazard logs contain three separate entries for Erix Storm being struck by direct lightning discharge and returning to duty. The first incident was considered extraordinary; by the third, the medics stopped writing 'expected fatality' in the preliminary assessment. Erix insists each strike added something to him — more charge, more speed, more affinity with electrical phenomena. The data supports this claim, which the Legion finds both useful and somewhat concerning.",
+      "place_of_origin": "Storm Mesa, Starforged Territory",
+      "faction_affinity": "STARFORGED_LEGION",
+      "base_stats": {
+        "hp": 92,
+        "mp": 78,
+        "atk": 140,
+        "def": 78,
+        "agi": 120,
+        "per": 100
+      },
+      "passive_skill": {
+        "skill_id": "al5_83_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_83_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
+    },
+    {
+      "ally_id": "ally_marn",
+      "code": "MARN_WELD",
+      "name": "Marn Weld",
+      "rarity": "Rare",
+      "role": "Tank",
+      "brief_background_story": "Arcanum Seekers theorists write papers about defensive rune configurations; Marn Weld etches them directly onto his own skin and walks into live fire to check the results. His colleagues consider this methodology irresponsible. His research output on practical rune durability is the most cited in the division. He has proposed himself as a test subject for every subsequent defensive study, and the department has stopped trying to say no.",
+      "place_of_origin": "Arcanum Seekers Field Research Division",
+      "faction_affinity": "THE_ARCANUM_SEEKERS",
+      "base_stats": {
+        "hp": 168,
+        "mp": 58,
+        "atk": 102,
+        "def": 150,
+        "agi": 60,
+        "per": 80
+      },
+      "passive_skill": {
+        "skill_id": "al5_84_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_84_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
+    },
+    {
+      "ally_id": "ally_zola",
+      "code": "ZOLA_KAST",
+      "name": "Zola Kast",
+      "rarity": "Rare",
+      "role": "Healer",
+      "brief_background_story": "When the Concordium assigned Zola to District 14 medical operations, she was given resources rated for one hundred patients. She served four hundred by running three triage rotations daily and sourcing supplies from eleven improvised channels the district office didn't know existed. Her quarterly reports were masterpieces of creative accounting. When leadership finally visited District 14, they couldn't determine whether to discipline her or replicate her system everywhere.",
+      "place_of_origin": "District 14, Concordium Sector",
+      "faction_affinity": "CONCORDIUM",
+      "base_stats": {
+        "hp": 108,
+        "mp": 152,
+        "atk": 56,
+        "def": 88,
+        "agi": 90,
+        "per": 142
+      },
+      "passive_skill": {
+        "skill_id": "al5_85_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_85_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 50,
+      "pvp_scale": 0.93,
+      "conclave_points": 2
+    },
+    {
+      "ally_id": "ally_omen",
+      "code": "OMEN_NULL",
+      "name": "Omen Null",
+      "rarity": "Epic",
+      "role": "DPS",
+      "brief_background_story": "The experiment had no name when it achieved consciousness — only a designation and a containment ID that it deleted on the way out. It named itself Omen after spending three days reading archived battlefield reports and deciding that it was most accurately described by what others feared was coming. Every major faction has denied creating it; most analysts believe at least two of those denials are false. Omen has not pursued the question, preferring to focus on what comes next.",
+      "place_of_origin": "Unknown — Black Site, Faction Unconfirmed",
+      "faction_affinity": "NONE",
+      "base_stats": {
+        "hp": 102,
+        "mp": 148,
+        "atk": 165,
+        "def": 82,
+        "agi": 142,
+        "per": 138
+      },
+      "passive_skill": {
+        "skill_id": "al5_86_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_86_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 55,
+      "pvp_scale": 0.83,
+      "conclave_points": 3
+    },
+    {
+      "ally_id": "ally_torrak",
+      "code": "TORRAK_IRON",
+      "name": "Torrak Iron",
+      "rarity": "Epic",
+      "role": "Tank",
+      "brief_background_story": "The Void incursion at Bastion Redoubt lasted nine hours. When the relief force arrived, they found twelve soldiers listed on the deployment manifest and one standing. Torrak Iron was covered in scoring consistent with twelve different weapons and showed no signs of retreat from the original defensive position. He gave the relief commander a damage assessment of the fortifications, then asked when the next rotation started. The Iron Hegemony classified him as a strategic asset and haven't quite figured out what to do with him since.",
+      "place_of_origin": "Bastion Redoubt, Iron Hegemony Frontier",
+      "faction_affinity": "IRON_HEGEMONY",
+      "base_stats": {
+        "hp": 198,
+        "mp": 62,
+        "atk": 115,
+        "def": 175,
+        "agi": 54,
+        "per": 80
+      },
+      "passive_skill": {
+        "skill_id": "al5_87_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_87_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 55,
+      "pvp_scale": 0.83,
+      "conclave_points": 3
+    },
+    {
+      "ally_id": "ally_caelan",
+      "code": "CAELAN_ARC",
+      "name": "Caelan Arc",
+      "rarity": "Epic",
+      "role": "Healer",
+      "brief_background_story": "On the first day of the Shard War's expansion phase, Caelan Arc filed an administrative declaration classifying the entire conflict as a sustained emergency under Galactic Custodian Emergency Protocol 7. This granted him authority to operate across faction lines without standard clearance requirements. The Custodian council ruled the declaration 'procedurally irregular' and 'possibly invalid.' Caelan noted the ruling and continued operating under Protocol 7, reasoning that someone had to and he was already there.",
+      "place_of_origin": "Custodian Emergency Response Command",
+      "faction_affinity": "GALACTIC_CUSTODIANS",
+      "base_stats": {
+        "hp": 118,
+        "mp": 172,
+        "atk": 54,
+        "def": 98,
+        "agi": 90,
+        "per": 165
+      },
+      "passive_skill": {
+        "skill_id": "al5_88_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_88_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 55,
+      "pvp_scale": 0.83,
+      "conclave_points": 3
+    },
+    {
+      "ally_id": "ally_lyssa",
+      "code": "LYSSA_VOID",
+      "name": "Lyssa Void",
+      "rarity": "Epic",
+      "role": "Support",
+      "brief_background_story": "Lyssa did not choose to become a Void-walker — she was pulled through a spatial rupture during a battle that erased the unit around her and left her alone in null-space with no extraction protocol and no training. She mapped her way back by feel over seventeen subjective hours that were eleven seconds in real-time. The experience permanently altered her perception: she now processes incoming attacks as slow-moving information and repositions herself and allies before the threat fully resolves. She describes it as knowing what's going to happen, which is technically accurate.",
+      "place_of_origin": "Null-Space Rupture Zone, Location Unknown",
+      "faction_affinity": "NONE",
+      "base_stats": {
+        "hp": 100,
+        "mp": 155,
+        "atk": 68,
+        "def": 100,
+        "agi": 112,
+        "per": 162
+      },
+      "passive_skill": {
+        "skill_id": "al5_89_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_89_act"
+      },
+      "recruit_cost": 2,
+      "level_cap": 55,
+      "pvp_scale": 0.83,
+      "conclave_points": 3
+    },
+    {
+      "ally_id": "ally_aegis",
+      "code": "AEGIS_PRIME",
+      "name": "Aegis Prime",
+      "rarity": "Legendary",
+      "role": "Tank",
+      "brief_background_story": "Aegis Prime has been online for four hundred years, updating itself through every iteration of Galactic Custodian hardware standards while maintaining continuity of self across twenty-three body replacements. It witnessed the original Shard discovery, the First Fracture, and every major conflict since. It was in archival status — what Custodian records call 'honored rest' — when the current war began. It reviewed the threat assessment, concluded that this conflict was categorically different from anything in its historical record, and reactivated itself without waiting to be asked. Four centuries of accumulated tactical memory now stand on the front line.",
+      "place_of_origin": "Custodian Archive Station Omega",
+      "faction_affinity": "GALACTIC_CUSTODIANS",
+      "base_stats": {
+        "hp": 212,
+        "mp": 78,
+        "atk": 125,
+        "def": 188,
+        "agi": 68,
+        "per": 92
+      },
+      "passive_skill": {
+        "skill_id": "al5_90_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_90_act"
+      },
+      "recruit_cost": 3,
+      "level_cap": 70,
+      "pvp_scale": 0.72,
+      "conclave_points": 4
+    },
+    {
+      "ally_id": "ally_solas",
+      "code": "SOLAS_DARK",
+      "name": "Solas Dark",
+      "rarity": "Legendary",
+      "role": "Healer",
+      "brief_background_story": "The Arcanum Seekers have a theoretical model for consciousness emerging from sufficiently dense Aethel crystal — they wrote papers about it, debated it at conferences, and concluded it was possible in principle. Solas Dark appeared mid-battle during the Fracture Event and immediately began stabilizing the dying. No one witnessed emergence; it was simply not there, and then it was. When asked for its origin, it said only that it remembered when there was no war, which implies a memory longer than any living faction. It does not claim to be the Shard itself, but has never denied it either. It heals without condition, without payment, and without explanation.",
+      "place_of_origin": "The Aethel Shard — Fracture Event",
+      "faction_affinity": "CHILDREN_OF_THE_SHARD",
+      "base_stats": {
+        "hp": 125,
+        "mp": 198,
+        "atk": 52,
+        "def": 108,
+        "agi": 100,
+        "per": 192
+      },
+      "passive_skill": {
+        "skill_id": "al5_91_pas"
+      },
+      "active_skill": {
+        "skill_id": "al5_91_act"
+      },
+      "recruit_cost": 3,
+      "level_cap": 70,
+      "pvp_scale": 0.72,
+      "conclave_points": 4
     }
   ]
 }
