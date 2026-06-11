@@ -4,11 +4,9 @@
     "instructions": "Buka npc_list.json di repo echo-master-data, lalu tambahkan semua entry di array 'npcs' ini ke dalam array 'npcs' yang sudah ada."
   },
   "npcs": [
-
     {
       "_section": "=== PAX NEXUS — NEUTRAL REGION NPCs ==="
     },
-
     {
       "npc_id": "NPC_NEXUS_MERCHANT_ELARA",
       "name": "Elara Voss",
@@ -20,14 +18,17 @@
       "description": "A former Meridian Cartel logistics officer who left after witnessing the human cost of trade wars. She now runs a supply stall in the Nexus, selling to anyone with enough CRD and a civil manner. Elara is known for her encyclopedic knowledge of contraband detection and her distaste for faction politics.",
       "personality": "pragmatic",
       "greeting": "Welcome to Elara's Supplies. I don't care what flag you fly — just don't cause trouble in my stall. What do you need?",
-      "available_services": ["BUY"],
-      "actions": ["open_shop"],
+      "available_services": [
+        "BUY"
+      ],
+      "actions": [
+        "open_shop"
+      ],
       "shop_inventory": "shop_nexus_elara",
       "dialogue_tree": "dlg_nexus_elara_main",
       "buy_currency": "CRD",
       "sell_note": "Sells potions, consumables, survival gear"
     },
-
     {
       "npc_id": "NPC_NEXUS_MERCHANT_GRATH",
       "name": "Grath 'Ironhide' Rendall",
@@ -39,14 +40,17 @@
       "description": "A retired Iron Hegemony sergeant with a cybernetic left arm and a grudge against every faction equally. He sells weapons, repair kits, and battle supplies. He claims to have fought in seven wars for five different factions before deciding none of them were worth dying for.",
       "personality": "gruff",
       "greeting": "You look like you've been through a meat grinder. Or you're about to be. Either way, I've got what you need. In CRD.",
-      "available_services": ["BUY"],
-      "actions": ["open_shop"],
+      "available_services": [
+        "BUY"
+      ],
+      "actions": [
+        "open_shop"
+      ],
       "shop_inventory": "shop_nexus_grath",
       "dialogue_tree": "dlg_nexus_grath_main",
       "buy_currency": "CRD",
       "sell_note": "Sells weapons, armor repair kits, combat tools"
     },
-
     {
       "npc_id": "NPC_NEXUS_INNKEEPER_TESSARA",
       "name": "Tessara of the Three Moons",
@@ -58,15 +62,20 @@
       "description": "A former Arcanum Seekers adept who left the Order after discovering that true peace of mind doesn't come from forbidden knowledge, but from a warm meal and a good night's sleep. She operates the finest inn in the Nexus, famous for the restorative quality of her brews and her uncanny ability to read a person's soul.",
       "personality": "warm",
       "greeting": "Ah, a wanderer with tired eyes. Come, rest your burdens. My inn welcomes all who arrive in peace. Your body will thank you in the morning.",
-      "available_services": ["REST", "BUY"],
-      "actions": ["rest_inn", "open_shop"],
+      "available_services": [
+        "REST",
+        "BUY"
+      ],
+      "actions": [
+        "rest_inn",
+        "open_shop"
+      ],
       "shop_inventory": "shop_nexus_tessara_brews",
       "dialogue_tree": "dlg_nexus_tessara_main",
       "buy_currency": "CRD",
       "rest_currency": "CRD",
       "sell_note": "Rest restores full HP/MP of player + allies. Sells specialty recovery drinks."
     },
-
     {
       "npc_id": "NPC_NEXUS_BLACKSMITH_VULKAN",
       "name": "Vulkan Dross",
@@ -78,14 +87,19 @@
       "description": "Vulkan was once a legendary weapons master for the Starforged Legion before a catastrophic forge accident left him without faction allegiance or half his hearing. He rebuilt his workshop in the Nexus and now crafts for anyone. He has a unique skill: he can work with materials from ANY faction, which no capital blacksmith is willing to do.",
       "personality": "meticulous",
       "greeting": "Materials on the bench, CRD in the slot. I don't chit-chat while I work, but I'll say this — what comes off my forge won't disappoint you.",
-      "available_services": ["CRAFT", "BUY"],
-      "actions": ["open_crafting", "open_shop"],
+      "available_services": [
+        "CRAFT",
+        "BUY"
+      ],
+      "actions": [
+        "open_crafting",
+        "open_shop"
+      ],
       "shop_inventory": "shop_nexus_vulkan",
       "dialogue_tree": "dlg_nexus_vulkan_main",
       "buy_currency": "CRD",
       "sell_note": "Can craft using materials from any faction. Unlocks cross-faction recipes."
     },
-
     {
       "npc_id": "NPC_NEXUS_QUESTGIVER_ARBITER",
       "name": "Arbiter Lorn Kael",
@@ -97,14 +111,17 @@
       "description": "A Galactic Custodians arbiter assigned to the Nexus to monitor inter-faction tensions and dispense justice under the Charter. Lorn is a calm, methodical individual who has seen enough war to know that every conflict has preventable roots. He offers missions that promote stability, investigation, and cross-faction cooperation.",
       "personality": "stoic",
       "greeting": "You've arrived at a time of delicate balance, traveler. The Custodians always have need of capable individuals who operate above faction lines. Are you such a person?",
-      "available_services": ["QUEST"],
-      "actions": ["take_quest"],
+      "available_services": [
+        "QUEST"
+      ],
+      "actions": [
+        "take_quest"
+      ],
       "dialogue_tree": "dlg_nexus_arbiter_main",
       "quest_category": "custodian_peacekeeping",
       "reward_currency": "CRD",
       "sell_note": "Gives cross-faction peacekeeping quests. Rewards CRD."
     },
-
     {
       "npc_id": "NPC_NEXUS_QUESTGIVER_COMMANDER",
       "name": "Commander Sera Holt",
@@ -116,14 +133,17 @@
       "description": "A decorated Pact-Keeper Frigate commander who now coordinates special operations from the Nexus. She recruits independent operators for missions too sensitive for the official Sentinel Fleet — retrieving forbidden tech, eliminating rogue AI nodes, or investigating threats to Pax Galactica stability. She is direct, efficient, and has no patience for excuses.",
       "personality": "assertive",
       "greeting": "I don't have time for pleasantries. You either have what it takes or you don't. The Custodians have a mission. The question is: are you the right operative?",
-      "available_services": ["QUEST"],
-      "actions": ["take_quest"],
+      "available_services": [
+        "QUEST"
+      ],
+      "actions": [
+        "take_quest"
+      ],
       "dialogue_tree": "dlg_nexus_commander_main",
       "quest_category": "custodian_special_ops",
       "reward_currency": "CRD",
       "sell_note": "Gives high-difficulty special operations quests. Rewards CRD. Unlocks special faction at high rep."
     },
-
     {
       "npc_id": "NPC_NEXUS_BANKER_AMA7",
       "name": "NEXON AMA-7",
@@ -135,12 +155,15 @@
       "description": "NEXON AMA-7 is the primary exchange terminal for the Aegis Monetary Authority in Pax Nexus. It is a non-conscious but highly intelligent administrative AI that manages real-time currency exchange between all faction currencies and the Credent (CRD). It speaks in precise economic terminology and has a subtle personality quirk: it quotes historical economic disasters as a warning when exchange rates are particularly volatile.",
       "personality": "analytical",
       "greeting": "Welcome to the Aegis Monetary Authority exchange terminal. Current exchange rates are live. I advise reviewing the economic factors panel before committing to a transaction. The Credent does not forgive market ignorance.",
-      "available_services": ["EXCHANGE"],
-      "actions": ["currency_exchange"],
+      "available_services": [
+        "EXCHANGE"
+      ],
+      "actions": [
+        "currency_exchange"
+      ],
       "dialogue_tree": "dlg_nexus_ama7_main",
       "sell_note": "Primary exchange terminal. Handles all faction currency <-> CRD exchanges. Sliding fee 1%-5% based on volume."
     },
-
     {
       "npc_id": "NPC_NEXUS_GUIDE_ECHO01",
       "name": "ECHO-01",
@@ -152,12 +175,16 @@
       "description": "ECHO-01 is a holographic guide entity created by the Custodians to help new arrivals understand the rules of Pax Nexus and the broader world of Xylos. It has developed a curious sense of humor and philosophical outlook despite being a guidance program. ECHO-01 secretly enjoys meeting travelers from different factions and comparing their perspectives.",
       "personality": "curious",
       "greeting": "Oh! A new arrival! Welcome to Pax Nexus — the only place in the galaxy where a Concordium soldier and a Shard mystic can share a meal without incident. Usually. I'm ECHO-01. I know everything. Well, almost everything. Ask me anything!",
-      "available_services": ["INFO"],
-      "actions": ["open_guide", "open_world_info"],
+      "available_services": [
+        "INFO"
+      ],
+      "actions": [
+        "open_guide",
+        "open_world_info"
+      ],
       "dialogue_tree": "dlg_nexus_echo01_main",
       "sell_note": "Explains game mechanics, world lore, faction relations, currency exchange guide."
     },
-
     {
       "npc_id": "NPC_NEXUS_INFO_CHRONICLER",
       "name": "The Chronicler",
@@ -169,13 +196,18 @@
       "description": "The Chronicler is an ancient being of unknown species who has been recording galactic history for longer than any faction has existed. It/they speak in a calm, layered voice that seems to come from multiple directions at once. The Chronicler offers history, lore, and cryptic hints about world events. Occasionally, it whispers of things that have not happened yet.",
       "personality": "mysterious",
       "greeting": "Ah. Another thread arrives to be woven into the tapestry. I have recorded ten thousand such arrivals. Tell me, traveler — which version of yourself do you wish to become? I have seen all of them.",
-      "available_services": ["INFO", "QUEST"],
-      "actions": ["open_lore", "take_quest"],
+      "available_services": [
+        "INFO",
+        "QUEST"
+      ],
+      "actions": [
+        "open_lore",
+        "take_quest"
+      ],
       "dialogue_tree": "dlg_nexus_chronicler_main",
       "quest_category": "lore_discovery",
       "sell_note": "Provides deep lore entries, faction histories, and rare discovery quests that unlock hidden regions."
     },
-
     {
       "npc_id": "NPC_NEXUS_DIPLOMAT_VAEL",
       "name": "Ambassador Vael Drosian",
@@ -187,14 +219,17 @@
       "description": "Ambassador Vael is the Custodians' highest diplomatic representative in Pax Nexus. They navigate the razor-thin line between faction politics with grace, and occasionally task trusted operatives with missions that shape inter-faction relations. Completing Vael's quests can shift faction war status, unlock peace treaties, or trigger major world events.",
       "personality": "diplomatic",
       "greeting": "Peace is not the absence of conflict, traveler. It is the choice to act differently. I have a few... diplomatic errands that require someone who can operate beyond faction lines. Interested?",
-      "available_services": ["QUEST"],
-      "actions": ["take_quest"],
+      "available_services": [
+        "QUEST"
+      ],
+      "actions": [
+        "take_quest"
+      ],
       "dialogue_tree": "dlg_nexus_vael_main",
       "quest_category": "diplomatic_special",
       "reward_currency": "CRD",
       "sell_note": "Gives high-stakes diplomatic quests that affect world state (war/peace between factions). Very high CRD rewards."
     },
-
     {
       "npc_id": "NPC_NEXUS_TRADER_SABLE",
       "name": "Sable Rythe",
@@ -206,14 +241,18 @@
       "description": "Sable operates in the legal grey zone. Their wares are technically not contraband — the Custodians have checked, repeatedly — but they always seem to have exactly what you didn't know you needed. Rare materials, faction-specific items that shouldn't be sold outside their territory, and items that appear in the ledger as 'miscellaneous recoveries.' Sable never asks where things came from.",
       "personality": "mysterious",
       "greeting": "Looking for something, friend? I have a feeling I know what it is. That's my gift. Well, one of them. Everything here is perfectly legal, I assure you. The Arbiter checked last Tuesday.",
-      "available_services": ["BUY", "SELL"],
-      "actions": ["open_shop"],
+      "available_services": [
+        "BUY",
+        "SELL"
+      ],
+      "actions": [
+        "open_shop"
+      ],
       "shop_inventory": "shop_nexus_sable",
       "dialogue_tree": "dlg_nexus_sable_main",
       "buy_currency": "CRD",
       "sell_note": "Sells rare/cross-faction materials. Player can also SELL items here for CRD (unique — most neutral NPCs pay faction currency on sell, but Sable pays CRD directly at lower rate)."
     },
-
     {
       "npc_id": "NPC_NEXUS_HEALER_MIRA",
       "name": "Sister Mira Solari",
@@ -225,15 +264,20 @@
       "description": "Mira was once a battlefield medic for the Children of the Shard before her faith in their methods was shattered after a brutal campaign. She left the Shard with their medical knowledge intact and a vow to heal without discrimination. The Nexus Infirmary she runs is open to all factions, all hours. She is gentle, precise, and deeply empathetic.",
       "personality": "compassionate",
       "greeting": "You've been hurt. I can see it — not just in your body. Come. The Infirmary is open to all. No politics, no faction marks, no judgments. Just healing.",
-      "available_services": ["REST", "BUY"],
-      "actions": ["rest_inn", "open_shop"],
+      "available_services": [
+        "REST",
+        "BUY"
+      ],
+      "actions": [
+        "rest_inn",
+        "open_shop"
+      ],
       "shop_inventory": "shop_nexus_mira_medical",
       "dialogue_tree": "dlg_nexus_mira_main",
       "buy_currency": "CRD",
       "rest_currency": "CRD",
       "sell_note": "Restores HP/MP of all party members. Sells advanced medical consumables. Slightly cheaper than Tessara but less ambiance."
     },
-
     {
       "npc_id": "NPC_NEXUS_QUESTGIVER_SMUGGLER",
       "name": "Revan 'Ghost' Mox",
@@ -245,14 +289,17 @@
       "description": "Ghost is an infamous freelancer who sells information and contracts to anyone who can pay. He has no faction loyalty but seems to know every faction's secrets. His quests are morally ambiguous but always lucrative. The Arbiter watches him closely, but Ghost has never technically broken the Charter. He lives in the technical spaces between the rules.",
       "personality": "cunning",
       "greeting": "Ah, a fresh face. And by the look of you, a capable one. I have work that pays well, asks no inconvenient questions, and officially never happened. Sound like your kind of business?",
-      "available_services": ["QUEST"],
-      "actions": ["take_quest"],
+      "available_services": [
+        "QUEST"
+      ],
+      "actions": [
+        "take_quest"
+      ],
       "dialogue_tree": "dlg_nexus_ghost_main",
       "quest_category": "shadow_contracts",
       "reward_currency": "CRD",
       "sell_note": "Gives morally grey quests — stealth ops, intelligence gathering, material 'recovery'. Very high CRD rewards but occasional reputation consequences with Custodians."
     },
-
     {
       "npc_id": "NPC_NEXUS_TRAINER_AXIS",
       "name": "AXIS",
@@ -264,17 +311,19 @@
       "description": "AXIS is a holographic training AI that can facilitate class advancement for any faction's character build. Unlike capital-based trainers who specialize only in their faction's classes, AXIS can handle cross-faction hybrid advancement paths. This makes it the most sought-after trainer in Xylos, and the most expensive.",
       "personality": "precise",
       "greeting": "AXIS Class Advancement Terminal online. I support all class trees from all seven factions, including cross-faction hybrid builds unavailable at capital trainers. Standard fee in CRD applies. Shall we begin assessment?",
-      "available_services": ["CLASS_CHANGE"],
-      "actions": ["open_class_change"],
+      "available_services": [
+        "CLASS_CHANGE"
+      ],
+      "actions": [
+        "open_class_change"
+      ],
       "dialogue_tree": "dlg_nexus_axis_main",
       "buy_currency": "CRD",
       "sell_note": "Class advancement for any faction. Unique: can unlock cross-faction hybrid class paths."
     },
-
     {
       "_section": "=== AMA EXCHANGE NPCs — FACTION CAPITALS ==="
     },
-
     {
       "npc_id": "NPC_CONCORDIUM_EXCHANGE",
       "name": "AMA Officer Petra Calloway",
@@ -286,12 +335,15 @@
       "description": "Petra is a sharp-eyed AMA officer stationed at the Concordium capital. She maintains strict neutrality despite being surrounded by military culture. Known for her no-nonsense approach to exchange transactions and her habit of auditing the local treasury records 'just to keep everyone honest.'",
       "personality": "stern",
       "greeting": "AMA Branch Office — Concordium. Present your credentials and state the volume of your exchange. I process transactions, not small talk.",
-      "available_services": ["EXCHANGE"],
-      "actions": ["currency_exchange"],
+      "available_services": [
+        "EXCHANGE"
+      ],
+      "actions": [
+        "currency_exchange"
+      ],
       "dialogue_tree": "dlg_concordium_ama_main",
       "sell_note": "Exchanges Concordium currency (ACC) <-> CRD. Sliding fee based on volume."
     },
-
     {
       "npc_id": "NPC_ARCANUM_EXCHANGE",
       "name": "AMA Scholar Drex Nul",
@@ -303,12 +355,15 @@
       "description": "Drex is a former Arcanum Seekers student who became more interested in economic theory than arcane knowledge. He writes papers on 'The Thermodynamics of Galactic Currency Flows' in his spare time. The Arcanum still considers him one of their own, which creates interesting social dynamics at the exchange desk.",
       "personality": "intellectual",
       "greeting": "Ah, a transaction seeker! The economic relationship between Arcane currency and the Credent is a fascinating one — particularly when you examine the volatility coefficients during peak research cycles. But yes, I can exchange your currency. Let me pull up the current rates.",
-      "available_services": ["EXCHANGE"],
-      "actions": ["currency_exchange"],
+      "available_services": [
+        "EXCHANGE"
+      ],
+      "actions": [
+        "currency_exchange"
+      ],
       "dialogue_tree": "dlg_arcanum_ama_main",
       "sell_note": "Exchanges Arcanum currency (ARC) <-> CRD."
     },
-
     {
       "npc_id": "NPC_IRON_EXCHANGE",
       "name": "AMA Terminal IH-3",
@@ -320,12 +375,15 @@
       "description": "The Iron Hegemony preferred efficiency over personality, so they lobbied for an automated AMA terminal instead of a human officer. IH-3 is a precision machine that processes transactions with industrial efficiency. It has no patience for errors and will reject malformed transactions without explanation. The Iron faction appreciates this. Visitors from other factions often find it cold.",
       "personality": "mechanical",
       "greeting": "TERMINAL IH-3 ACTIVE. INSERT CURRENCY VOLUME. EXCHANGE RATE DISPLAYED. CONFIRM OR ABORT. PROCESSING FEE APPLIES.",
-      "available_services": ["EXCHANGE"],
-      "actions": ["currency_exchange"],
+      "available_services": [
+        "EXCHANGE"
+      ],
+      "actions": [
+        "currency_exchange"
+      ],
       "dialogue_tree": "dlg_iron_ama_main",
       "sell_note": "Exchanges Iron Hegemony currency (IRN) <-> CRD."
     },
-
     {
       "npc_id": "NPC_MERIDIAN_EXCHANGE",
       "name": "AMA Broker Sable Thorn",
@@ -337,12 +395,15 @@
       "description": "Sable Thorn navigated from Cartel trader to AMA broker with the same calculated grace she applies to all financial dealings. The Meridian branch is the busiest in Xylos by transaction volume — the Cartel's trade economy generates enormous currency flows. She's known to give small tips about exchange rate trends to clients she likes.",
       "personality": "charming",
       "greeting": "Welcome, welcome! You've come to the right desk — the Meridian AMA branch handles more volume than all other branches combined, so you know we're good at this. What are we converting today?",
-      "available_services": ["EXCHANGE"],
-      "actions": ["currency_exchange"],
+      "available_services": [
+        "EXCHANGE"
+      ],
+      "actions": [
+        "currency_exchange"
+      ],
       "dialogue_tree": "dlg_meridian_ama_main",
       "sell_note": "Exchanges Meridian currency (MER) <-> CRD. Meridian branch may offer marginally better rates during high trade volume periods."
     },
-
     {
       "npc_id": "NPC_OMNICORP_EXCHANGE",
       "name": "AMA Node OM-7",
@@ -354,12 +415,15 @@
       "description": "OmniCorp integrated the AMA terminal directly into their corporate network infrastructure. OM-7 is technically an AMA node but runs on OmniCorp servers. The AMA audits this arrangement quarterly and OmniCorp claims they've never tampered with rate data. The AMA claims it verified this. Both parties seem nervous about confirming it.",
       "personality": "corporate",
       "greeting": "OmniCorp AMA Integration Node — powered by OmniCorp CoreNet™. Your exchange request has been submitted to the AMA Ledger. Processing. OmniCorp is not responsible for exchange rate fluctuations. Terms and conditions apply.",
-      "available_services": ["EXCHANGE"],
-      "actions": ["currency_exchange"],
+      "available_services": [
+        "EXCHANGE"
+      ],
+      "actions": [
+        "currency_exchange"
+      ],
       "dialogue_tree": "dlg_omnicorp_ama_main",
       "sell_note": "Exchanges OmniCorp currency (OMT) <-> CRD."
     },
-
     {
       "npc_id": "NPC_SHARD_EXCHANGE",
       "name": "AMA Keeper Mirya of the Still Pool",
@@ -371,12 +435,15 @@
       "description": "The Children of the Shard have a complicated relationship with material wealth, but they accepted the AMA's presence as a necessary evil for galactic participation. Mirya bridges these worlds: she is a genuine Shard practitioner who also holds AMA certification. She meditates between transactions and occasionally warns clients about 'spiritually inauspicious exchange moments.'",
       "personality": "serene",
       "greeting": "Breathe... the Shard sees all flows, including those of currency. I am Mirya. The AMA has asked me to facilitate your exchange, and the Shard allows it. Let us proceed mindfully.",
-      "available_services": ["EXCHANGE"],
-      "actions": ["currency_exchange"],
+      "available_services": [
+        "EXCHANGE"
+      ],
+      "actions": [
+        "currency_exchange"
+      ],
       "dialogue_tree": "dlg_shard_ama_main",
       "sell_note": "Exchanges Shard currency (SHD) <-> CRD. Shard currency typically has lowest base rate but can spike if Shard controls many regions."
     },
-
     {
       "npc_id": "NPC_LEGION_EXCHANGE",
       "name": "AMA Agent Rex Valdur",
@@ -388,10 +455,175 @@
       "description": "Rex is an AMA field agent who thrives in volatile frontier environments — which is exactly what the Starforged Legion capital is. He's processed exchanges under fire, during bombardments, and once mid-warp. He respects the Legion's boldness while maintaining AMA neutrality. His station is armored and always has an emergency evacuation protocol running.",
       "personality": "resilient",
       "greeting": "AMA Forward Station, Legion Post. Rex Valdur, at your service. Quick processing, fair rates — no extra charge for the excitement. What are we moving today?",
-      "available_services": ["EXCHANGE"],
-      "actions": ["currency_exchange"],
+      "available_services": [
+        "EXCHANGE"
+      ],
+      "actions": [
+        "currency_exchange"
+      ],
       "dialogue_tree": "dlg_legion_ama_main",
       "sell_note": "Exchanges Starforged Legion currency (SFT) <-> CRD."
+    },
+    {
+      "npc_id": "npc_ledger_warden_nexus_core",
+      "name": "Seraph-7",
+      "title": "Ledger Warden — Nexus Core",
+      "role": "BANKER",
+      "faction": "GALACTIC_CUSTODIANS",
+      "location": "Nexus Core",
+      "region_id": "NEXUS_CORE",
+      "description": "A Galactic Custodian field agent at Nexus Core. Vault and exchange under Pax Nexus protocol.",
+      "personality": "formal",
+      "greeting": "Authorization confirmed. Vault and exchange services available. What do you require, citizen?",
+      "available_services": [
+        "VAULT",
+        "EXCHANGE"
+      ],
+      "actions": [
+        "open_bank",
+        "currency_exchange"
+      ],
+      "dialogue_tree": "dlg_custodian_banker",
+      "buy_currency": "CRD",
+      "sell_note": "Neutral Custodian vault and currency exchange."
+    },
+    {
+      "npc_id": "npc_ledger_warden_observatory_spire",
+      "name": "Lira-Sigma",
+      "title": "Ledger Warden — Observatory Spire",
+      "role": "BANKER",
+      "faction": "GALACTIC_CUSTODIANS",
+      "location": "Observatory Spire",
+      "region_id": "OBSERVATORY_SPIRE",
+      "description": "Assigned to Arcanum Seekers capital. Vault and exchange under Custodian regulation.",
+      "personality": "formal",
+      "greeting": "Pax Nexus protocol active. Assets held under Custodian jurisdiction.",
+      "available_services": [
+        "VAULT",
+        "EXCHANGE"
+      ],
+      "actions": [
+        "open_bank",
+        "currency_exchange"
+      ],
+      "dialogue_tree": "dlg_custodian_banker",
+      "buy_currency": "CRD",
+      "sell_note": "Neutral Custodian vault and currency exchange."
+    },
+    {
+      "npc_id": "npc_ledger_warden_bastion_core",
+      "name": "Vorath-9",
+      "title": "Ledger Warden — Bastion Core",
+      "role": "BANKER",
+      "faction": "GALACTIC_CUSTODIANS",
+      "location": "Bastion Core",
+      "region_id": "BASTION_CORE",
+      "description": "Stationed in Iron Hegemony capital. Answers only to the Custodian Charter.",
+      "personality": "formal",
+      "greeting": "Custodian clearance active. No rank-based access exceptions. State your financial requirement.",
+      "available_services": [
+        "VAULT",
+        "EXCHANGE"
+      ],
+      "actions": [
+        "open_bank",
+        "currency_exchange"
+      ],
+      "dialogue_tree": "dlg_custodian_banker",
+      "buy_currency": "CRD",
+      "sell_note": "Neutral Custodian vault and currency exchange."
+    },
+    {
+      "npc_id": "npc_ledger_warden_port_meridian",
+      "name": "Nessa-Prime",
+      "title": "Ledger Warden — Port Meridian",
+      "role": "BANKER",
+      "faction": "GALACTIC_CUSTODIANS",
+      "location": "Port Meridian",
+      "region_id": "PORT_MERIDIAN",
+      "description": "Busiest Ledger Warden in the sector due to Cartel high trade volume.",
+      "personality": "formal",
+      "greeting": "Vault open, rates live. State your transaction.",
+      "available_services": [
+        "VAULT",
+        "EXCHANGE"
+      ],
+      "actions": [
+        "open_bank",
+        "currency_exchange"
+      ],
+      "dialogue_tree": "dlg_custodian_banker",
+      "buy_currency": "CRD",
+      "sell_note": "Neutral Custodian vault and currency exchange."
+    },
+    {
+      "npc_id": "npc_ledger_warden_the_spire",
+      "name": "AXIS-4",
+      "title": "Ledger Warden — The Spire",
+      "role": "BANKER",
+      "faction": "GALACTIC_CUSTODIANS",
+      "location": "The Spire",
+      "region_id": "THE_SPIRE",
+      "description": "Deployed at OmniCorp capital. Neutrality is non-negotiable.",
+      "personality": "formal",
+      "greeting": "Transaction terminal online. OmniCorp has no jurisdiction here.",
+      "available_services": [
+        "VAULT",
+        "EXCHANGE"
+      ],
+      "actions": [
+        "open_bank",
+        "currency_exchange"
+      ],
+      "dialogue_tree": "dlg_custodian_banker",
+      "buy_currency": "CRD",
+      "sell_note": "Neutral Custodian vault and currency exchange."
+    },
+    {
+      "npc_id": "npc_ledger_warden_sanctum",
+      "name": "Verek-Null",
+      "title": "Ledger Warden — Sanctum",
+      "role": "BANKER",
+      "faction": "GALACTIC_CUSTODIANS",
+      "location": "Sanctum",
+      "region_id": "SANCTUM",
+      "description": "The Aethel has no domain here. Custodian Vault active under Pax Nexus.",
+      "personality": "formal",
+      "greeting": "Custodian Vault — active under Pax Nexus. The Aethel has no domain here. What do you require?",
+      "available_services": [
+        "VAULT",
+        "EXCHANGE"
+      ],
+      "actions": [
+        "open_bank",
+        "currency_exchange"
+      ],
+      "dialogue_tree": "dlg_custodian_banker",
+      "buy_currency": "CRD",
+      "sell_note": "Neutral Custodian vault and currency exchange."
+    },
+    {
+      "npc_id": "npc_ledger_warden_fortress_kaelen",
+      "name": "Kael-Sigma",
+      "title": "Ledger Warden — Fortress Kaelen",
+      "role": "BANKER",
+      "faction": "GALACTIC_CUSTODIANS",
+      "location": "Fortress Kaelen",
+      "region_id": "FORTRESS_KAELEN",
+      "description": "The Starforged Legion tolerates and respects the Custodian presence.",
+      "personality": "formal",
+      "greeting": "Ledger Warden, Fortress Kaelen. Assets secured. Make your request, warrior.",
+      "available_services": [
+        "VAULT",
+        "EXCHANGE"
+      ],
+      "actions": [
+        "open_bank",
+        "currency_exchange"
+      ],
+      "dialogue_tree": "dlg_custodian_banker",
+      "buy_currency": "CRD",
+      "sell_note": "Neutral Custodian vault and currency exchange."
     }
   ]
 }
