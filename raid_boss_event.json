@@ -46,9 +46,8 @@
       ],
       "clear_rewards": {
         "exp_reward": 2500,
-        "currency_reward": 45000,
         "crd_reward": 200,
-        "faction_point": 150,
+        "faction_point": 600,
         "reputation_point": 170,
         "hunting_point": 60,
         "loot_table": [
@@ -109,9 +108,8 @@
       ],
       "clear_rewards": {
         "exp_reward": 27000,
-        "currency_reward": 45000,
         "crd_reward": 200,
-        "faction_point": 150,
+        "faction_point": 600,
         "reputation_point": 170,
         "hunting_point": 60,
         "loot_table": [
@@ -128,7 +126,7 @@
     },
     {
       "raid_id": "raid_dummy_test",
-      "name": "Training Ground \u2014 Dummy Test",
+      "name": "Training Ground — Dummy Test",
       "region": "NEXUS_CORE",
       "min_level": 1,
       "recommended_party_size": 1,
@@ -155,9 +153,8 @@
       ],
       "clear_rewards": {
         "exp_reward": 10000,
-        "currency_reward": 100000,
         "crd_reward": 0,
-        "faction_point": 0,
+        "faction_point": 100,
         "reputation_point": 0,
         "hunting_point": 0,
         "loot_table": [

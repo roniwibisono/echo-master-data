@@ -2808,6 +2808,212 @@
           ]
         }
       ]
+    },
+    {
+      "id": "shop_nexus_elara",
+      "name": "Elara's General Supplies — Pax Nexus",
+      "buy_currency": "CRD",
+      "faction": "NEUTRAL",
+      "description": "General consumables and survival gear. All prices in CRD.",
+      "categories": [
+        {
+          "category": "consumables",
+          "items": [
+            {
+              "item_id": "potion_minor_healing",
+              "stock": -1,
+              "refresh_time": 0,
+              "price_modifier": 1.2
+            },
+            {
+              "item_id": "potion_medium_healing",
+              "stock": -1,
+              "refresh_time": 0,
+              "price_modifier": 1.2
+            },
+            {
+              "item_id": "con_small_hp_cell",
+              "stock": -1,
+              "refresh_time": 0,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "con_medium_hp_cell",
+              "stock": -1,
+              "refresh_time": 0,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "potion_minor_mana",
+              "stock": -1,
+              "refresh_time": 0,
+              "price_modifier": 1.2
+            },
+            {
+              "item_id": "potion_medium_mana",
+              "stock": -1,
+              "refresh_time": 0,
+              "price_modifier": 1.2
+            },
+            {
+              "item_id": "ration_field",
+              "stock": -1,
+              "refresh_time": 0,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "antidote_basic",
+              "stock": -1,
+              "refresh_time": 0,
+              "price_modifier": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_nexus_grath",
+      "name": "Grath's Combat Outfitters — Pax Nexus",
+      "buy_currency": "CRD",
+      "faction": "NEUTRAL",
+      "description": "Combat equipment and weapons for all factions. Neutral pricing.",
+      "categories": [
+        {
+          "category": "consumables",
+          "items": [
+            {
+              "item_id": "grenade_frag",
+              "stock": 20,
+              "refresh_time": 3600,
+              "price_modifier": 1.3
+            },
+            {
+              "item_id": "smoke_bomb",
+              "stock": 30,
+              "refresh_time": 3600,
+              "price_modifier": 1.1
+            },
+            {
+              "item_id": "stim_combat",
+              "stock": 15,
+              "refresh_time": 3600,
+              "price_modifier": 1.4
+            },
+            {
+              "item_id": "armor_patch_basic",
+              "stock": 40,
+              "refresh_time": 3600,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "repair_kit_field",
+              "stock": 25,
+              "refresh_time": 3600,
+              "price_modifier": 1.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_nexus_sable",
+      "name": "Sable's Rare Exchange — Pax Nexus",
+      "buy_currency": "CRD",
+      "faction": "NEUTRAL",
+      "description": "Rare materials and crafting components sourced from all seven territories.",
+      "categories": [
+        {
+          "category": "materials",
+          "items": [
+            {
+              "item_id": "metal_shard",
+              "stock": 50,
+              "refresh_time": 7200,
+              "price_modifier": 1.5
+            },
+            {
+              "item_id": "refined_scrap",
+              "stock": 30,
+              "refresh_time": 7200,
+              "price_modifier": 1.4
+            },
+            {
+              "item_id": "aethel_dust",
+              "stock": 20,
+              "refresh_time": 7200,
+              "price_modifier": 1.6
+            },
+            {
+              "item_id": "resonant_shard",
+              "stock": 15,
+              "refresh_time": 7200,
+              "price_modifier": 1.8
+            },
+            {
+              "item_id": "echo_memory_core_low",
+              "stock": 10,
+              "refresh_time": 14400,
+              "price_modifier": 2.0
+            },
+            {
+              "item_id": "void_fragment",
+              "stock": 5,
+              "refresh_time": 28800,
+              "price_modifier": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shop_nexus_mira_medical",
+      "name": "Sister Mira's Medical Station — Pax Nexus",
+      "buy_currency": "CRD",
+      "faction": "NEUTRAL",
+      "description": "Advanced healing supplies and medical equipment.",
+      "categories": [
+        {
+          "category": "consumables",
+          "items": [
+            {
+              "item_id": "potion_major_healing",
+              "stock": -1,
+              "refresh_time": 0,
+              "price_modifier": 1.1
+            },
+            {
+              "item_id": "con_large_hp_cell",
+              "stock": -1,
+              "refresh_time": 0,
+              "price_modifier": 1.1
+            },
+            {
+              "item_id": "revival_shard",
+              "stock": 10,
+              "refresh_time": 3600,
+              "price_modifier": 1.5
+            },
+            {
+              "item_id": "cleanse_vial",
+              "stock": 20,
+              "refresh_time": 3600,
+              "price_modifier": 1.2
+            },
+            {
+              "item_id": "mp_cell_small",
+              "stock": -1,
+              "refresh_time": 0,
+              "price_modifier": 1.0
+            },
+            {
+              "item_id": "mp_cell_large",
+              "stock": 20,
+              "refresh_time": 3600,
+              "price_modifier": 1.3
+            }
+          ]
+        }
+      ]
     }
   ]
 }

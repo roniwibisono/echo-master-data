@@ -60,7 +60,7 @@
       "rank": "D",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRYSTAL_SLOPE",
-      "description": "Crystal Sproutlings grow from Shard fragment deposits \u2014 they are, technically, living extensions of the same material that was shattered during the Great Severance. High Seeker Elara Voss believes they possess a rudimentary Aethelgardian-coded consciousness, a biological memory of the world before the Siphon overloaded. The Arcanum does not apologize for how it learns. Engage them. Collect what remains.",
+      "description": "Crystal Sproutlings grow from Shard fragment deposits — they are, technically, living extensions of the same material that was shattered during the Great Severance. High Seeker Elara Voss believes they possess a rudimentary Aethelgardian-coded consciousness, a biological memory of the world before the Siphon overloaded. The Arcanum does not apologize for how it learns. Engage them. Collect what remains.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "High Seeker Elara Voss",
@@ -337,7 +337,7 @@
       "rank": "D",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "FRACTURED_GLASS_VALLEY",
-      "description": "Glass Crawlers evolved in the Fractured Glass Valley over generations, developing reinforced chitin that lets them move through razor-edged terrain that cuts through standard armor plating in minutes. Archivist Sylas believes their locomotion pattern is derived from Aethelgardian nano-structure principles \u2014 essentially, the creatures stumbled into a solution the ancient engineers spent centuries developing. Their movement data could redefine Arcanum field equipment design. Collect specimens carefully.",
+      "description": "Glass Crawlers evolved in the Fractured Glass Valley over generations, developing reinforced chitin that lets them move through razor-edged terrain that cuts through standard armor plating in minutes. Archivist Sylas believes their locomotion pattern is derived from Aethelgardian nano-structure principles — essentially, the creatures stumbled into a solution the ancient engineers spent centuries developing. Their movement data could redefine Arcanum field equipment design. Collect specimens carefully.",
       "quest_giver": {
         "npc_id": "npc_arcanum_archivist",
         "name": "Archivist Sylas",
@@ -388,7 +388,7 @@
       "rank": "D",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "FRACTURED_GLASS_VALLEY",
-      "description": "A Giant Alpha Rat has made the valley's sealed archive chamber its nest \u2014 the chamber that Arcanum scouts confirmed contains pre-Severance data cylinders still intact after centuries. High Seeker Elara Voss's voice is tight when she explains this. The Concordium had this chamber on their survey maps for decades and left it sealed. The Arcanum broke through last season. A rat will not reclaim what human curiosity has finally unlocked.",
+      "description": "A Giant Alpha Rat has made the valley's sealed archive chamber its nest — the chamber that Arcanum scouts confirmed contains pre-Severance data cylinders still intact after centuries. High Seeker Elara Voss's voice is tight when she explains this. The Concordium had this chamber on their survey maps for decades and left it sealed. The Arcanum broke through last season. A rat will not reclaim what human curiosity has finally unlocked.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "High Seeker Elara Voss",
@@ -524,7 +524,7 @@
       "rewards": {
         "exp": 300,
         "currency": 180,
-        "crd": 90,
+        "crd": 0,
         "rep": 180,
         "items": [
           {
@@ -681,7 +681,7 @@
       "rewards": {
         "exp": 450,
         "currency": 240,
-        "crd": 120,
+        "crd": 0,
         "rep": 240,
         "items": [
           {
@@ -702,7 +702,7 @@
       "rank": "C",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "RESONANCE_CAVERNS",
-      "description": "Archivist Sylas has mapped the echo patterns in the deepest cavern chambers and believes they form a recursive mathematical structure \u2014 a proof, encoded in reflected sound, that describes the fundamental resonance equation underlying aethel energy transfer. If he is right, this single proof is worth more than the entire Concordium's engineering database. The Bats that keep disrupting his recordings have earned a very specific kind of contempt from a very quiet man.",
+      "description": "Archivist Sylas has mapped the echo patterns in the deepest cavern chambers and believes they form a recursive mathematical structure — a proof, encoded in reflected sound, that describes the fundamental resonance equation underlying aethel energy transfer. If he is right, this single proof is worth more than the entire Concordium's engineering database. The Bats that keep disrupting his recordings have earned a very specific kind of contempt from a very quiet man.",
       "quest_giver": {
         "npc_id": "npc_arcanum_archivist",
         "name": "Archivist Sylas",
@@ -957,7 +957,7 @@
       "rank": "C",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "RESONANCE_CAVERNS",
-      "description": "The Resonance Echo that formed in the deepest chamber is not a creature in any biological sense \u2014 it is the caverns' accumulated Aethelgardian data coalesced into a coherent energy entity, the same phenomenon the ancient texts called 'a dreaming archive.' The Arcanum has theorized about this. High Seeker Elara Voss has written three papers about the theoretical possibility. She is almost incapable of hiding her awe as she orders you to defeat it and extract its data core.",
+      "description": "The Resonance Echo that formed in the deepest chamber is not a creature in any biological sense — it is the caverns' accumulated Aethelgardian data coalesced into a coherent energy entity, the same phenomenon the ancient texts called 'a dreaming archive.' The Arcanum has theorized about this. High Seeker Elara Voss has written three papers about the theoretical possibility. She is almost incapable of hiding her awe as she orders you to defeat it and extract its data core.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "High Seeker Elara Voss",
@@ -987,7 +987,7 @@
       "rewards": {
         "exp": 800,
         "currency": 450,
-        "crd": 225,
+        "crd": 0,
         "rep": 450,
         "items": [
           {
@@ -1097,7 +1097,7 @@
       "rewards": {
         "exp": 600,
         "currency": 350,
-        "crd": 0,
+        "crd": 105,
         "rep": 350,
         "items": [
           {
@@ -1148,7 +1148,7 @@
       "rewards": {
         "exp": 650,
         "currency": 380,
-        "crd": 0,
+        "crd": 114,
         "rep": 380,
         "items": [
           {
@@ -1199,7 +1199,7 @@
       "rewards": {
         "exp": 750,
         "currency": 420,
-        "crd": 210,
+        "crd": 126,
         "rep": 450,
         "items": [
           {
@@ -1250,7 +1250,7 @@
       "rewards": {
         "exp": 850,
         "currency": 460,
-        "crd": 230,
+        "crd": 138,
         "rep": 480,
         "items": [
           {
@@ -1301,7 +1301,7 @@
       "rewards": {
         "exp": 1000,
         "currency": 550,
-        "crd": 275,
+        "crd": 165,
         "rep": 550,
         "items": [
           {
@@ -1352,7 +1352,7 @@
       "rewards": {
         "exp": 900,
         "currency": 500,
-        "crd": 250,
+        "crd": 150,
         "rep": 520,
         "items": [
           {
@@ -1403,7 +1403,7 @@
       "rewards": {
         "exp": 700,
         "currency": 400,
-        "crd": 0,
+        "crd": 120,
         "rep": 400,
         "items": [
           {
@@ -1454,7 +1454,7 @@
       "rewards": {
         "exp": 750,
         "currency": 430,
-        "crd": 0,
+        "crd": 129,
         "rep": 430,
         "items": [
           {
@@ -1475,7 +1475,7 @@
       "rank": "B",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "AETHEL_STORM_BELT",
-      "description": "Multiple Sunken Aethel Leviathans have migrated into the Storm Belt. Their migration pattern is unprecedented \u2014 and dangerous to the observation post.",
+      "description": "Multiple Sunken Aethel Leviathans have migrated into the Storm Belt. Their migration pattern is unprecedented — and dangerous to the observation post.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -1505,7 +1505,7 @@
       "rewards": {
         "exp": 900,
         "currency": 520,
-        "crd": 260,
+        "crd": 156,
         "rep": 520,
         "items": [
           {
@@ -1562,7 +1562,7 @@
       "rewards": {
         "exp": 2500,
         "currency": 1200,
-        "crd": 0,
+        "crd": 360,
         "rep": 800,
         "items": [
           {
@@ -1621,7 +1621,7 @@
       "rewards": {
         "exp": 900,
         "currency": 500,
-        "crd": 0,
+        "crd": 250,
         "rep": 500,
         "items": [
           {
@@ -1672,7 +1672,7 @@
       "rewards": {
         "exp": 1200,
         "currency": 650,
-        "crd": 0,
+        "crd": 325,
         "rep": 650,
         "items": [
           {
@@ -1744,7 +1744,7 @@
       "rank": "A",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Void Channelers are conducting void-alchemical rituals. Steal their research \u2014 it may contain the key to void energy transmutation.",
+      "description": "Aethel Void Channelers are conducting void-alchemical rituals. Steal their research — it may contain the key to void energy transmutation.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -1876,7 +1876,7 @@
       "rewards": {
         "exp": 1500,
         "currency": 800,
-        "crd": 0,
+        "crd": 400,
         "rep": 800,
         "items": [
           {
@@ -1897,7 +1897,7 @@
       "rank": "A",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRADLE_EXPANSE",
-      "description": "The Ashen Drake's fire contains unique alchemical properties. The Arcanum must obtain a fresh flame sample \u2014 directly from the source if necessary.",
+      "description": "The Ashen Drake's fire contains unique alchemical properties. The Arcanum must obtain a fresh flame sample — directly from the source if necessary.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -1978,7 +1978,7 @@
       "rewards": {
         "exp": 1700,
         "currency": 900,
-        "crd": 0,
+        "crd": 450,
         "rep": 900,
         "items": [
           {
@@ -2086,7 +2086,7 @@
       "rewards": {
         "exp": 5000,
         "currency": 2500,
-        "crd": 0,
+        "crd": 1250,
         "rep": 2000,
         "items": [
           {
@@ -2166,7 +2166,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "Void Reavers are the most stable void entities. Study them extensively \u2014 their nature may reveal how to safely harness void energy.",
+      "description": "Void Reavers are the most stable void entities. Study them extensively — their nature may reveal how to safely harness void energy.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -2268,7 +2268,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "Abyssal Reavers contain concentrated void essence \u2014 the most potent alchemical ingredient known. Harvest them for the Arcanum's grand experiment.",
+      "description": "Abyssal Reavers contain concentrated void essence — the most potent alchemical ingredient known. Harvest them for the Arcanum's grand experiment.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -2574,7 +2574,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "SHATTERED_HEART",
-      "description": "The Ashen Drake's heart contains the secret of eternal fire \u2014 the ultimate alchemical catalyst. The Arcanum demands it. Raid Tier-1: claim the Drake's heart for the grand experiment.",
+      "description": "The Ashen Drake's heart contains the secret of eternal fire — the ultimate alchemical catalyst. The Arcanum demands it. Raid Tier-1: claim the Drake's heart for the grand experiment.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -2894,7 +2894,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "SHATTERED_HEART",
-      "description": "Gigantic Jotunns in the Shattered Heart are not random \u2014 they guard something. The Arcanum believes a Precursor archive lies beneath their territory.",
+      "description": "Gigantic Jotunns in the Shattered Heart are not random — they guard something. The Arcanum believes a Precursor archive lies beneath their territory.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -2996,7 +2996,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Abyss Harbinger is not just a monster \u2014 it is a living formula. An equation of pure void given form. The Arcanum must record it before destroying it.",
+      "description": "The Abyss Harbinger is not just a monster — it is a living formula. An equation of pure void given form. The Arcanum must record it before destroying it.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -3104,7 +3104,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "THE ULTIMATE KNOWLEDGE TRIAL. The Abyss Harbinger is a dimensional library \u2014 a living archive of forbidden knowledge. Defeat the Raid Boss Tier-2 entity and claim every secret it holds. Knowledge is Power. Secrets are Sovereignty.",
+      "description": "THE ULTIMATE KNOWLEDGE TRIAL. The Abyss Harbinger is a dimensional library — a living archive of forbidden knowledge. Defeat the Raid Boss Tier-2 entity and claim every secret it holds. Knowledge is Power. Secrets are Sovereignty.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -3367,7 +3367,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The Aethel Siphon Core is the ultimate Precursor laboratory. The Arcanum has theorized its existence for centuries. Now it is discovered \u2014 claim it for science.",
+      "description": "The Aethel Siphon Core is the ultimate Precursor laboratory. The Arcanum has theorized its existence for centuries. Now it is discovered — claim it for science.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -3622,7 +3622,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRADLE_EXPANSE",
-      "description": "THE GRAVITATIONAL TRIAL. The Gravity Titan has risen. Its core is the most valuable scientific specimen in Xylos history. The Arcanum demands you retrieve it \u2014 intact. Defeat the Raid Boss Tier-3 entity and claim the Titan's gravitational heart for the eternal archives.",
+      "description": "THE GRAVITATIONAL TRIAL. The Gravity Titan has risen. Its core is the most valuable scientific specimen in Xylos history. The Arcanum demands you retrieve it — intact. Defeat the Raid Boss Tier-3 entity and claim the Titan's gravitational heart for the eternal archives.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -3687,7 +3687,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The Prima Materia Forge \u2014 the Precursor facility where reality itself can be shaped. The Arcanum's ultimate ambition: master the Forge and create legendary weapons.",
+      "description": "The Prima Materia Forge — the Precursor facility where reality itself can be shaped. The Arcanum's ultimate ambition: master the Forge and create legendary weapons.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -3738,7 +3738,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Ancient Forge Automatons still defend the facility. Disable them and reverse-engineer their construction \u2014 the Arcanum could replicate this technology.",
+      "description": "Ancient Forge Automatons still defend the facility. Disable them and reverse-engineer their construction — the Arcanum could replicate this technology.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -3891,7 +3891,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Gigantic Jotunns have learned to use the Forge's heat as a weapon. Their mastery of the Forge's fire is concerning \u2014 and fascinating.",
+      "description": "Gigantic Jotunns have learned to use the Forge's heat as a weapon. Their mastery of the Forge's fire is concerning — and fascinating.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -4044,7 +4044,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "A Titan Proto Core contains a failed Titan \u2014 the ultimate experimental subject. The Arcanum must dissect it to understand Titan biology.",
+      "description": "A Titan Proto Core contains a failed Titan — the ultimate experimental subject. The Arcanum must dissect it to understand Titan biology.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -4209,7 +4209,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "HIDDEN_AETHELGARDIAN_CITY",
-      "description": "The Hidden Aethelgardian City \u2014 a mythical Precursor metropolis. The Arcanum has triangulated its location using data from the Titan and Harbinger. Enter and claim its knowledge.",
+      "description": "The Hidden Aethelgardian City — a mythical Precursor metropolis. The Arcanum has triangulated its location using data from the Titan and Harbinger. Enter and claim its knowledge.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -4260,7 +4260,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "HIDDEN_AETHELGARDIAN_CITY",
-      "description": "The city's automated defenses still function. They do not distinguish between friend and foe \u2014 only threats to Precursor knowledge.",
+      "description": "The city's automated defenses still function. They do not distinguish between friend and foe — only threats to Precursor knowledge.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -4311,7 +4311,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "HIDDEN_AETHELGARDIAN_CITY",
-      "description": "The city contains the Eternal Library \u2014 a Precursor repository of all knowledge. Download its contents for the Arcanum's grand archive.",
+      "description": "The city contains the Eternal Library — a Precursor repository of all knowledge. Download its contents for the Arcanum's grand archive.",
       "quest_giver": {
         "npc_id": "npc_arcanum_archivist",
         "name": "Archivist Sylas",
@@ -4362,7 +4362,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "SHATTERED_HEART",
-      "description": "The Ashen Drake has evolved to its Apex form \u2014 a living repository of draconic knowledge. The Arcanum must study this ultimate form.",
+      "description": "The Ashen Drake has evolved to its Apex form — a living repository of draconic knowledge. The Arcanum must study this ultimate form.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -4527,7 +4527,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The three Apex entities \u2014 Drake, Titan, Harbinger \u2014 represent three branches of forbidden knowledge. The Arcanum authorizes their simultaneous study.",
+      "description": "The three Apex entities — Drake, Titan, Harbinger — represent three branches of forbidden knowledge. The Arcanum authorizes their simultaneous study.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -4643,7 +4643,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Beneath the Siphon Core lies the World Engine \u2014 the device that can reshape planetary reality. The Arcanum's greatest discovery. Secure it absolutely.",
+      "description": "Beneath the Siphon Core lies the World Engine — the device that can reshape planetary reality. The Arcanum's greatest discovery. Secure it absolutely.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -5006,7 +5006,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "ORBITAL_SENTINEL_COMMAND",
-      "description": "From orbit, the Arcanum watches over Xylos \u2014 the planet that is now our greatest library. Maintain eternal vigilance over our domain of knowledge.",
+      "description": "From orbit, the Arcanum watches over Xylos — the planet that is now our greatest library. Maintain eternal vigilance over our domain of knowledge.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -5057,7 +5057,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The collected knowledge from all sources forms the Final Formula \u2014 the unified theory of Xylos. Channel all accumulated Arcanum knowledge into its completion.",
+      "description": "The collected knowledge from all sources forms the Final Formula — the unified theory of Xylos. Channel all accumulated Arcanum knowledge into its completion.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -5114,7 +5114,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Only the ultimate test remains. Face the three Apex entities \u2014 Jotunn, Drake, and Harbinger \u2014 and from their essences forge the Key of Absolute Knowledge.",
+      "description": "Only the ultimate test remains. Face the three Apex entities — Jotunn, Drake, and Harbinger — and from their essences forge the Key of Absolute Knowledge.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -5185,7 +5185,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "The deepest Void Echo Chasm holds the final secret \u2014 the truth of Xylos's creation. Descend one final time and claim the ultimate knowledge.",
+      "description": "The deepest Void Echo Chasm holds the final secret — the truth of Xylos's creation. Descend one final time and claim the ultimate knowledge.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -5278,7 +5278,7 @@
       "rewards": {
         "exp": 50000,
         "currency": 25000,
-        "crd": 12500,
+        "crd": 0,
         "rep": 10000,
         "items": [
           {
