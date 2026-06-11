@@ -2660,5 +2660,166 @@
     "dialogue_tree": "dlg_nexus_axis_main",
     "buy_currency": "CRD",
     "sell_note": "Class advancement for any faction. Unique: can unlock cross-faction hybrid class paths."
+  },
+  {
+    "npc_id": "npc_ledger_warden_nexus_core",
+    "name": "Seraph-7",
+    "title": "Ledger Warden — Nexus Core",
+    "role": "BANKER",
+    "faction": "GALACTIC_CUSTODIANS",
+    "location": "Nexus Core",
+    "region_id": "NEXUS_CORE",
+    "description": "A Galactic Custodian field agent assigned to the financial sovereignty infrastructure of Nexus Core. Processes vault deposits, withdrawals, and AMA-regulated currency exchange under Pax Nexus protocol.",
+    "personality": "formal",
+    "greeting": "Authorization confirmed. Vault and exchange services are available. What do you require, citizen?",
+    "available_services": [
+      "VAULT",
+      "EXCHANGE"
+    ],
+    "actions": [
+      "open_bank",
+      "currency_exchange"
+    ],
+    "dialogue_tree": "dlg_custodian_banker",
+    "buy_currency": "CRD",
+    "sell_note": "Neutral Custodian vault and currency exchange. No faction affiliation."
+  },
+  {
+    "npc_id": "npc_ledger_warden_observatory_spire",
+    "name": "Lira-Sigma",
+    "title": "Ledger Warden — Observatory Spire",
+    "role": "BANKER",
+    "faction": "GALACTIC_CUSTODIANS",
+    "location": "Observatory Spire",
+    "region_id": "OBSERVATORY_SPIRE",
+    "description": "Assigned to the Arcanum Seekers' capital. Lira-Sigma maintains strict non-partisan financial services — vault and exchange are governed entirely by Custodian regulation, not Arcanum policy.",
+    "personality": "formal",
+    "greeting": "Pax Nexus protocol active. Your assets are held under Custodian jurisdiction here — independent of Arcanum authority.",
+    "available_services": [
+      "VAULT",
+      "EXCHANGE"
+    ],
+    "actions": [
+      "open_bank",
+      "currency_exchange"
+    ],
+    "dialogue_tree": "dlg_custodian_banker",
+    "buy_currency": "CRD",
+    "sell_note": "Neutral Custodian vault and currency exchange. No faction affiliation."
+  },
+  {
+    "npc_id": "npc_ledger_warden_bastion_core",
+    "name": "Vorath-9",
+    "title": "Ledger Warden — Bastion Core",
+    "role": "BANKER",
+    "faction": "GALACTIC_CUSTODIANS",
+    "location": "Bastion Core",
+    "region_id": "BASTION_CORE",
+    "description": "Stationed within the Iron Hegemony's fortified capital. Vorath-9 is the only entity in Bastion Core that answers to no commanding officer — only to the Custodian Charter.",
+    "personality": "formal",
+    "greeting": "Custodian clearance active. No rank-based access exceptions here. State your financial requirement.",
+    "available_services": [
+      "VAULT",
+      "EXCHANGE"
+    ],
+    "actions": [
+      "open_bank",
+      "currency_exchange"
+    ],
+    "dialogue_tree": "dlg_custodian_banker",
+    "buy_currency": "CRD",
+    "sell_note": "Neutral Custodian vault and currency exchange. No faction affiliation."
+  },
+  {
+    "npc_id": "npc_ledger_warden_port_meridian",
+    "name": "Nessa-Prime",
+    "title": "Ledger Warden — Port Meridian",
+    "role": "BANKER",
+    "faction": "GALACTIC_CUSTODIANS",
+    "location": "Port Meridian",
+    "region_id": "PORT_MERIDIAN",
+    "description": "Port Meridian's high trade volume makes Nessa-Prime one of the busiest Ledger Wardens in the sector. The Cartel's market activity means this vault processes more exchange transactions per cycle than any other capital.",
+    "personality": "formal",
+    "greeting": "Vault open, rates live. The Cartel's currency moves fast — so do we. State your transaction.",
+    "available_services": [
+      "VAULT",
+      "EXCHANGE"
+    ],
+    "actions": [
+      "open_bank",
+      "currency_exchange"
+    ],
+    "dialogue_tree": "dlg_custodian_banker",
+    "buy_currency": "CRD",
+    "sell_note": "Neutral Custodian vault and currency exchange. No faction affiliation."
+  },
+  {
+    "npc_id": "npc_ledger_warden_the_spire",
+    "name": "AXIS-4",
+    "title": "Ledger Warden — The Spire",
+    "role": "BANKER",
+    "faction": "GALACTIC_CUSTODIANS",
+    "location": "The Spire",
+    "region_id": "THE_SPIRE",
+    "description": "Deployed at OmniCorp's corporate capital. AXIS-4 operates with machine precision. OmniCorp attempted to renegotiate Custodian neutrality terms three times. All requests were denied.",
+    "personality": "formal",
+    "greeting": "Transaction terminal online. OmniCorp has no jurisdiction over this node. Vault and exchange access confirmed.",
+    "available_services": [
+      "VAULT",
+      "EXCHANGE"
+    ],
+    "actions": [
+      "open_bank",
+      "currency_exchange"
+    ],
+    "dialogue_tree": "dlg_custodian_banker",
+    "buy_currency": "CRD",
+    "sell_note": "Neutral Custodian vault and currency exchange. No faction affiliation."
+  },
+  {
+    "npc_id": "npc_ledger_warden_sanctum",
+    "name": "Verek-Null",
+    "title": "Ledger Warden — Sanctum",
+    "role": "BANKER",
+    "faction": "GALACTIC_CUSTODIANS",
+    "location": "Sanctum",
+    "region_id": "SANCTUM",
+    "description": "The Children of the Shard accepted the Custodian presence in Sanctum reluctantly. Verek-Null serves without comment on Aethel doctrine — a silence the Shard interprets as neutrality, and the Custodians confirm it.",
+    "personality": "formal",
+    "greeting": "Custodian Vault — active under Pax Nexus. The Aethel has no domain here. What do you require?",
+    "available_services": [
+      "VAULT",
+      "EXCHANGE"
+    ],
+    "actions": [
+      "open_bank",
+      "currency_exchange"
+    ],
+    "dialogue_tree": "dlg_custodian_banker",
+    "buy_currency": "CRD",
+    "sell_note": "Neutral Custodian vault and currency exchange. No faction affiliation."
+  },
+  {
+    "npc_id": "npc_ledger_warden_fortress_kaelen",
+    "name": "Kael-Sigma",
+    "title": "Ledger Warden — Fortress Kaelen",
+    "role": "BANKER",
+    "faction": "GALACTIC_CUSTODIANS",
+    "location": "Fortress Kaelen",
+    "region_id": "FORTRESS_KAELEN",
+    "description": "The Starforged Legion values order — and Custodian protocol is the only form of order they did not forge themselves. Kael-Sigma is tolerated, respected, and never challenged within these walls.",
+    "personality": "formal",
+    "greeting": "Ledger Warden, Fortress Kaelen. Assets secured, rates standing. Make your request, warrior.",
+    "available_services": [
+      "VAULT",
+      "EXCHANGE"
+    ],
+    "actions": [
+      "open_bank",
+      "currency_exchange"
+    ],
+    "dialogue_tree": "dlg_custodian_banker",
+    "buy_currency": "CRD",
+    "sell_note": "Neutral Custodian vault and currency exchange. No faction affiliation."
   }
 ]
