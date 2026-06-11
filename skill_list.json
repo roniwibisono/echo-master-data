@@ -17781,7 +17781,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_37_act",
@@ -17799,7 +17801,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "enemy"
   },
   {
     "id": "al4_38_pas",
@@ -17817,7 +17821,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_38_act",
@@ -17835,7 +17841,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "self"
   },
   {
     "id": "al4_39_pas",
@@ -17853,7 +17861,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_39_act",
@@ -17871,7 +17881,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "All Ally"
   },
   {
     "id": "al4_40_pas",
@@ -17889,7 +17901,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_40_act",
@@ -17907,7 +17921,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "none",
+    "target_effect": "All Ally"
   },
   {
     "id": "al4_41_pas",
@@ -17925,7 +17941,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_41_act",
@@ -17943,7 +17961,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "enemy"
   },
   {
     "id": "al4_42_pas",
@@ -17961,7 +17981,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_42_act",
@@ -17979,7 +18001,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "self"
   },
   {
     "id": "al4_43_pas",
@@ -17997,7 +18021,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_43_act",
@@ -18015,7 +18041,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "All Ally"
   },
   {
     "id": "al4_44_pas",
@@ -18033,7 +18061,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_44_act",
@@ -18051,7 +18081,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "none",
+    "target_effect": "All Ally"
   },
   {
     "id": "al4_45_pas",
@@ -18069,7 +18101,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_45_act",
@@ -18087,7 +18121,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "enemy"
   },
   {
     "id": "al4_46_pas",
@@ -18105,7 +18141,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_46_act",
@@ -18123,7 +18161,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "enemy"
   },
   {
     "id": "al4_47_pas",
@@ -18141,7 +18181,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_47_act",
@@ -18159,7 +18201,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "enemy"
   },
   {
     "id": "al4_48_pas",
@@ -18177,7 +18221,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_48_act",
@@ -18195,7 +18241,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "All Ally"
   },
   {
     "id": "al4_49_pas",
@@ -18213,7 +18261,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_49_act",
@@ -18231,7 +18281,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "none",
+    "target_effect": "All Ally"
   },
   {
     "id": "al4_50_pas",
@@ -18249,7 +18301,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_50_act",
@@ -18267,7 +18321,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "self"
   },
   {
     "id": "al4_51_pas",
@@ -18285,7 +18341,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_51_act",
@@ -18303,7 +18361,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "enemy"
   },
   {
     "id": "al4_52_pas",
@@ -18321,7 +18381,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_52_act",
@@ -18339,7 +18401,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "All Ally"
   },
   {
     "id": "al4_53_pas",
@@ -18357,7 +18421,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_53_act",
@@ -18375,7 +18441,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "none",
+    "target_effect": "All Ally"
   },
   {
     "id": "al4_54_pas",
@@ -18393,7 +18461,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_54_act",
@@ -18411,7 +18481,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 2.0
+    "cooldown_seconds": 2.0,
+    "target_attack": "enemy",
+    "target_effect": "enemy"
   },
   {
     "id": "al4_55_pas",
@@ -18429,7 +18501,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_55_act",
@@ -18447,7 +18521,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 2.0
+    "cooldown_seconds": 2.0,
+    "target_attack": "enemy",
+    "target_effect": "All Ally"
   },
   {
     "id": "al4_56_pas",
@@ -18465,7 +18541,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_56_act",
@@ -18483,7 +18561,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 2.0
+    "cooldown_seconds": 2.0,
+    "target_attack": "enemy",
+    "target_effect": "self"
   },
   {
     "id": "al4_57_pas",
@@ -18501,7 +18581,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_57_act",
@@ -18519,7 +18601,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 2.0
+    "cooldown_seconds": 2.0,
+    "target_attack": "none",
+    "target_effect": "All Ally"
   },
   {
     "id": "al4_58_pas",
@@ -18537,7 +18621,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_58_act",
@@ -18555,7 +18641,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 2.0
+    "cooldown_seconds": 2.0,
+    "target_attack": "enemy",
+    "target_effect": "enemy"
   },
   {
     "id": "al4_59_pas",
@@ -18573,7 +18661,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_59_act",
@@ -18591,7 +18681,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 2.0
+    "cooldown_seconds": 2.0,
+    "target_attack": "enemy",
+    "target_effect": "All Ally"
   },
   {
     "id": "al4_60_pas",
@@ -18609,7 +18701,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_60_act",
@@ -18627,7 +18721,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 2.0
+    "cooldown_seconds": 2.0,
+    "target_attack": "enemy",
+    "target_effect": "enemy"
   },
   {
     "id": "al4_61_pas",
@@ -18645,7 +18741,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al4_61_act",
@@ -18663,7 +18761,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 2.0
+    "cooldown_seconds": 2.0,
+    "target_attack": "enemy",
+    "target_effect": "self"
   },
   {
     "id": "dummy_protocol",
@@ -20517,7 +20617,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_62_act",
@@ -20535,7 +20637,9 @@
     "range": 4.0,
     "aoe_radius": 0.0,
     "projectile_speed": 14.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "enemy"
   },
   {
     "id": "al5_63_pas",
@@ -20553,7 +20657,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_63_act",
@@ -20571,7 +20677,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "self"
   },
   {
     "id": "al5_64_pas",
@@ -20589,7 +20697,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_64_act",
@@ -20607,7 +20717,9 @@
     "range": 3.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "none",
+    "target_effect": "All Ally"
   },
   {
     "id": "al5_65_pas",
@@ -20625,7 +20737,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_65_act",
@@ -20643,7 +20757,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "none",
+    "target_effect": "All Ally"
   },
   {
     "id": "al5_66_pas",
@@ -20661,7 +20777,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_66_act",
@@ -20679,7 +20797,9 @@
     "range": 3.0,
     "aoe_radius": 0.0,
     "projectile_speed": 10.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "enemy"
   },
   {
     "id": "al5_67_pas",
@@ -20697,7 +20817,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_67_act",
@@ -20715,7 +20837,9 @@
     "range": 3.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "none",
+    "target_effect": "All Ally"
   },
   {
     "id": "al5_68_pas",
@@ -20733,7 +20857,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_68_act",
@@ -20751,7 +20877,9 @@
     "range": 4.0,
     "aoe_radius": 0.0,
     "projectile_speed": 12.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "enemy"
   },
   {
     "id": "al5_69_pas",
@@ -20769,7 +20897,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_69_act",
@@ -20787,7 +20917,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "self"
   },
   {
     "id": "al5_70_pas",
@@ -20805,7 +20937,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_70_act",
@@ -20823,7 +20957,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "none",
+    "target_effect": "All Ally"
   },
   {
     "id": "al5_71_pas",
@@ -20841,7 +20977,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_71_act",
@@ -20859,7 +20997,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "none",
+    "target_effect": "All Ally"
   },
   {
     "id": "al5_72_pas",
@@ -20877,7 +21017,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_72_act",
@@ -20895,7 +21037,9 @@
     "range": 3.0,
     "aoe_radius": 0.0,
     "projectile_speed": 12.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "enemy"
   },
   {
     "id": "al5_73_pas",
@@ -20913,7 +21057,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_73_act",
@@ -20931,7 +21077,9 @@
     "range": 2.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "self"
   },
   {
     "id": "al5_74_pas",
@@ -20949,7 +21097,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_74_act",
@@ -20967,7 +21117,9 @@
     "range": 0.0,
     "aoe_radius": 3.5,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "All Enemy",
+    "target_effect": "All Ally"
   },
   {
     "id": "al5_75_pas",
@@ -20985,7 +21137,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_75_act",
@@ -21003,7 +21157,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "none",
+    "target_effect": "All Ally"
   },
   {
     "id": "al5_76_pas",
@@ -21021,7 +21177,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_76_act",
@@ -21039,7 +21197,9 @@
     "range": 3.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "enemy"
   },
   {
     "id": "al5_77_pas",
@@ -21057,7 +21217,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_77_act",
@@ -21075,7 +21237,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "self"
   },
   {
     "id": "al5_78_pas",
@@ -21093,7 +21257,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_78_act",
@@ -21111,7 +21277,9 @@
     "range": 3.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "none",
+    "target_effect": "All Ally"
   },
   {
     "id": "al5_79_pas",
@@ -21129,7 +21297,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_79_act",
@@ -21147,7 +21317,9 @@
     "range": 2.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "enemy"
   },
   {
     "id": "al5_80_pas",
@@ -21165,7 +21337,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_80_act",
@@ -21183,7 +21357,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "self"
   },
   {
     "id": "al5_81_pas",
@@ -21201,7 +21377,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_81_act",
@@ -21219,7 +21397,9 @@
     "range": 4.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "enemy"
   },
   {
     "id": "al5_82_pas",
@@ -21237,7 +21417,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_82_act",
@@ -21255,7 +21437,9 @@
     "range": 0.0,
     "aoe_radius": 4.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "All Enemy",
+    "target_effect": "All Ally"
   },
   {
     "id": "al5_83_pas",
@@ -21273,7 +21457,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_83_act",
@@ -21291,7 +21477,9 @@
     "range": 4.0,
     "aoe_radius": 0.0,
     "projectile_speed": 16.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "enemy"
   },
   {
     "id": "al5_84_pas",
@@ -21309,7 +21497,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_84_act",
@@ -21327,7 +21517,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "self"
   },
   {
     "id": "al5_85_pas",
@@ -21345,7 +21537,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_85_act",
@@ -21363,7 +21557,9 @@
     "range": 0.0,
     "aoe_radius": 4.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "All Enemy",
+    "target_effect": "All Ally"
   },
   {
     "id": "al5_86_pas",
@@ -21381,7 +21577,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_86_act",
@@ -21399,7 +21597,9 @@
     "range": 4.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "enemy",
+    "target_effect": "enemy"
   },
   {
     "id": "al5_87_pas",
@@ -21417,7 +21617,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_87_act",
@@ -21435,7 +21637,9 @@
     "range": 0.0,
     "aoe_radius": 4.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "All Enemy",
+    "target_effect": "All Ally"
   },
   {
     "id": "al5_88_pas",
@@ -21453,7 +21657,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_88_act",
@@ -21471,7 +21677,9 @@
     "range": 0.0,
     "aoe_radius": 5.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "All Enemy",
+    "target_effect": "All Ally"
   },
   {
     "id": "al5_89_pas",
@@ -21489,7 +21697,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_89_act",
@@ -21507,7 +21717,9 @@
     "range": 0.0,
     "aoe_radius": 5.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "none",
+    "target_effect": "All Ally"
   },
   {
     "id": "al5_90_pas",
@@ -21525,7 +21737,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_90_act",
@@ -21543,7 +21757,9 @@
     "range": 0.0,
     "aoe_radius": 6.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "All Enemy",
+    "target_effect": "All Ally"
   },
   {
     "id": "al5_91_pas",
@@ -21561,7 +21777,9 @@
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 0.0
+    "cooldown_seconds": 0.0,
+    "target_attack": "none",
+    "target_effect": "self"
   },
   {
     "id": "al5_91_act",
@@ -21579,6 +21797,8 @@
     "range": 0.0,
     "aoe_radius": 6.0,
     "projectile_speed": 0.0,
-    "cooldown_seconds": 1.0
+    "cooldown_seconds": 1.0,
+    "target_attack": "All Enemy",
+    "target_effect": "All Ally"
   }
 ]
