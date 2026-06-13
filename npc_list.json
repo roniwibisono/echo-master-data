@@ -1357,9 +1357,14 @@
     "personality": "structured_encouraging",
     "greeting": "Advancement requires preparation. Let's assess where you stand.",
     "available_services": [
-      "CLASS_TRAINING"
+      "CLASS_TRAINING",
+      "QUEST"
     ],
-    "actions": []
+    "actions": [
+      "open_class_change",
+      "open_skill_training",
+      "take_quest"
+    ]
   },
   {
     "npc_id": "npc_arcanum_class_trainer",
@@ -1375,9 +1380,14 @@
     "personality": "mystical_rigorous",
     "greeting": "Your path is written in resonance. I help you read it.",
     "available_services": [
-      "CLASS_TRAINING"
+      "CLASS_TRAINING",
+      "QUEST"
     ],
-    "actions": []
+    "actions": [
+      "open_class_change",
+      "open_skill_training",
+      "take_quest"
+    ]
   },
   {
     "npc_id": "npc_hegemony_class_trainer",
@@ -1393,9 +1403,14 @@
     "personality": "demanding_effective",
     "greeting": "You want advancement? Show me you've earned the right to ask for it.",
     "available_services": [
-      "CLASS_TRAINING"
+      "CLASS_TRAINING",
+      "QUEST"
     ],
-    "actions": []
+    "actions": [
+      "open_class_change",
+      "open_skill_training",
+      "take_quest"
+    ]
   },
   {
     "npc_id": "npc_custodian_class_trainer",
@@ -1411,9 +1426,14 @@
     "personality": "methodical_neutral",
     "greeting": "Class advancement follows protocol. Protocol follows evidence. Present your record.",
     "available_services": [
-      "CLASS_TRAINING"
+      "CLASS_TRAINING",
+      "QUEST"
     ],
-    "actions": []
+    "actions": [
+      "open_class_change",
+      "open_skill_training",
+      "take_quest"
+    ]
   },
   {
     "npc_id": "npc_mercenary_class_trainer",
@@ -1429,9 +1449,14 @@
     "personality": "cynical_pragmatic",
     "greeting": "I don't care who you fight for. I care how well you fight. Big difference.",
     "available_services": [
-      "CLASS_TRAINING"
+      "CLASS_TRAINING",
+      "QUEST"
     ],
-    "actions": []
+    "actions": [
+      "open_class_change",
+      "open_skill_training",
+      "take_quest"
+    ]
   },
   {
     "npc_id": "npc_class_architect",
@@ -1447,9 +1472,14 @@
     "personality": "innovative_eccentric",
     "greeting": "The standard paths are fine for standard people. Shall we explore what else is possible?",
     "available_services": [
-      "CLASS_TRAINING"
+      "CLASS_TRAINING",
+      "QUEST"
     ],
-    "actions": []
+    "actions": [
+      "open_class_change",
+      "open_skill_training",
+      "take_quest"
+    ]
   },
   {
     "npc_id": "npc_meridian_class_trainer",
@@ -1465,9 +1495,14 @@
     "personality": "sharp_secretive",
     "greeting": "You found this place. That's already the first test. You passed.",
     "available_services": [
-      "CLASS_TRAINING"
+      "CLASS_TRAINING",
+      "QUEST"
     ],
-    "actions": []
+    "actions": [
+      "open_class_change",
+      "open_skill_training",
+      "take_quest"
+    ]
   },
   {
     "npc_id": "npc_omnicorp_class_trainer",
@@ -1483,9 +1518,14 @@
     "personality": "high_performance_driven",
     "greeting": "OmniCorp class advancement is metric-based. Your last performance determined your eligibility.",
     "available_services": [
-      "CLASS_TRAINING"
+      "CLASS_TRAINING",
+      "QUEST"
     ],
-    "actions": []
+    "actions": [
+      "open_class_change",
+      "open_skill_training",
+      "take_quest"
+    ]
   },
   {
     "npc_id": "npc_shard_class_trainer",
@@ -1501,9 +1541,14 @@
     "personality": "transcendent_demanding",
     "greeting": "The Shard does not grant power cheaply. Are you prepared to pay its price?",
     "available_services": [
-      "CLASS_TRAINING"
+      "CLASS_TRAINING",
+      "QUEST"
     ],
-    "actions": []
+    "actions": [
+      "open_class_change",
+      "open_skill_training",
+      "take_quest"
+    ]
   },
   {
     "npc_id": "npc_legion_class_trainer",
@@ -1519,9 +1564,14 @@
     "personality": "fierce_honourable",
     "greeting": "Legion advancement is earned in combat. Step onto the sand.",
     "available_services": [
-      "CLASS_TRAINING"
+      "CLASS_TRAINING",
+      "QUEST"
     ],
-    "actions": []
+    "actions": [
+      "open_class_change",
+      "open_skill_training",
+      "take_quest"
+    ]
   },
   {
     "npc_id": "npc_class_advisor",
