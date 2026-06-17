@@ -7,7 +7,7 @@
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "SCRAP_FIELD",
-      "description": "The Iron Hegemony does not recruit — it conscripts, shapes, and deploys. Warlord Harkon Steele built the Hegemony from the Concordium's security division after the Great Schism, because he understood something the diplomats didn't: Prima Materia cannot be negotiated with. It can only be controlled by force. The Scrap Field is your proving ground — Broken Scout Drones are jamming logistics, and in the Hegemony, a soldier who can't clear the field is not a soldier at all.",
+      "description": "The Iron Hegemony does not recruit — it conscripts, shapes, and deploys. Warlord Harkon Steele built the Hegemony from the Concordium's security division after the Great Schism, because he understood something the diplomats didn't: Prima Materia cannot be negotiated with. It can only be controlled by force. The Scrap Field is your proving ground — Broken Scout Drones are jamming logistics, and in the Hegemony, a soldier who can't clear the field is not a soldier at all. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -31,7 +31,7 @@
           "target": "scrap_metal",
           "count": 2,
           "desc": "Collect salvage parts for the war machine.",
-          "description": "Collect scrap metal (x2)."
+          "description": "Collect scrap metal (x2). [Item: Scrap Metal]"
         }
       ],
       "rewards": {
@@ -62,7 +62,7 @@
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "SCRAP_FIELD",
-      "description": "Scrap Rats have been gnawing through the supply crates the Hegemony uses to move components between the Scrap Field and Bastion Core. In any other organization, this would be a maintenance problem. In the Iron Hegemony, it is a tactical failure — every gap in the supply line is a gap in the war machine's armor. Warlord Steele has a saying: 'The rat that eats your rations today is the enemy that kills your unit tomorrow.' Exterminate them.",
+      "description": "Scrap Rats have been gnawing through the supply crates the Hegemony uses to move components between the Scrap Field and Bastion Core. In any other organization, this would be a maintenance problem. In the Iron Hegemony, it is a tactical failure — every gap in the supply line is a gap in the war machine's armor. Warlord Steele has a saying: 'The rat that eats your rations today is the enemy that kills your unit tomorrow.' Exterminate them. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -70,7 +70,7 @@
       },
       "requirements": {
         "min_level": 1,
-        "reputation_required": 0,
+        "reputation_required": 5,
         "required_quests": [
           "fq_iron_001"
         ]
@@ -88,7 +88,7 @@
           "target": "metal_shard",
           "count": 3,
           "desc": "Collect Rat tails for bounty proof.",
-          "description": "Collect metal shard (x3)."
+          "description": "Collect metal shard (x3). [Item: Metal Shard]"
         }
       ],
       "rewards": {
@@ -115,7 +115,7 @@
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "SCRAP_FIELD",
-      "description": "Tink — the Hegemony's salvage engineer, a person who hasn't slept a full night in six years because the Bastion forges never sleep either — needs Scrap Drone components to keep the war machine running. The Hegemony's strength is not just in soldiers; it is in the relentless industrial capacity that turns scrap into weapons. Every drone you disable is another batch of components that becomes a new piece of armor, a new weapon, another tool of control.",
+      "description": "Tink — the Hegemony's salvage engineer, a person who hasn't slept a full night in six years because the Bastion forges never sleep either — needs Scrap Drone components to keep the war machine running. (Location: Scrap Field, Tink) The Hegemony's strength is not just in soldiers; it is in the relentless industrial capacity that turns scrap into weapons. Every drone you disable is another batch of components that becomes a new piece of armor, a new weapon, another tool of control.",
       "quest_giver": {
         "npc_id": "npc_salvage_expert",
         "name": "Warlord Harkon Steele",
@@ -123,7 +123,7 @@
       },
       "requirements": {
         "min_level": 2,
-        "reputation_required": 60,
+        "reputation_required": 10,
         "required_quests": [
           "fq_iron_002"
         ]
@@ -141,7 +141,7 @@
           "target": "scrap_metal",
           "count": 3,
           "desc": "Salvage drone components.",
-          "description": "Collect scrap metal (x3)."
+          "description": "Collect scrap metal (x3). [Item: Scrap Metal]"
         }
       ],
       "rewards": {
@@ -168,7 +168,7 @@
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "SCRAP_FIELD",
-      "description": "Rust Mites have colonized the Hegemony's equipment depot at the Scrap Field perimeter — eating through iron plating that Bastion engineers spent weeks fabricating. In the Hegemony's ideology, corrosion is not just a material problem; it is a symbol of the weakness that allowed the Great Schism to happen. Warlord Steele demands that the Scrap Field be maintained in fighting condition at all times. A soldier who lets their equipment rot is a soldier who does not believe in the mission.",
+      "description": "Rust Mites have colonized the Hegemony's equipment depot at the Scrap Field perimeter — eating through iron plating that Bastion engineers spent weeks fabricating. In the Hegemony's ideology, corrosion is not just a material problem; it is a symbol of the weakness that allowed the Great Schism to happen. Warlord Steele demands that the Scrap Field be maintained in fighting condition at all times. A soldier who lets their equipment rot is a soldier who does not believe in the mission. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -176,7 +176,7 @@
       },
       "requirements": {
         "min_level": 3,
-        "reputation_required": 120,
+        "reputation_required": 15,
         "required_quests": [
           "fq_iron_003"
         ]
@@ -221,7 +221,7 @@
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "BASTION_CORE",
-      "description": "Warlord Harkon Steele reviews every conscript personally — or so the rumor goes. What is true is that a summons to Bastion Core means someone has noticed you are more than standard material. The Hegemony does not believe in generalist soldiers; every weapon has a function, and a soldier who has not found theirs is a weapon without an edge. At Bastion Core's war hall, you will choose the form your lethality takes. Choose it correctly. There are no second specializations.",
+      "description": "Warlord Harkon Steele reviews every conscript personally — or so the rumor goes. What is true is that a summons to Bastion Core means someone has noticed you are more than standard material. The Hegemony does not believe in generalist soldiers; every weapon has a function, and a soldier who has not found theirs is a weapon without an edge. At Bastion Core's war hall, you will choose the form your lethality takes. Choose it correctly. There are no second specializations. Quest giver: War Marshal Drax at Bastion Core War College.",
       "quest_giver": {
         "npc_id": "npc_hegemony_class_trainer",
         "name": "War Marshal Drax",
@@ -229,7 +229,7 @@
       },
       "requirements": {
         "min_level": 4,
-        "reputation_required": 150,
+        "reputation_required": 20,
         "required_quests": [
           "fq_iron_004"
         ]
@@ -240,7 +240,7 @@
           "target": "npc_hegemony_class_trainer",
           "count": 1,
           "desc": "Report to War Marshal Drax at the Bastion.",
-          "description": "Speak with npc hegemony class trainer."
+          "description": "Speak with npc hegemony class trainer. (War Marshal Drax at Bastion Core War College)"
         },
         {
           "type": "interact",
@@ -297,7 +297,7 @@
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "IRON_RAVINE",
-      "description": "The Iron Ravine sits on mineral deposits that could supply the Bastion's forges for a generation — deposits the Concordium surveyed and filed away while debating policy, and that the Meridian Cartel is already sending surveyors to assess. Warlord Steele does not debate. He sends soldiers. The Iron Hegemony's doctrine is simple: the one who controls the mineral controls the war machine, and the one who controls the war machine controls everything else. Establish the forward base.",
+      "description": "The Iron Ravine sits on mineral deposits that could supply the Bastion's forges for a generation — deposits the Concordium surveyed and filed away while debating policy, and that the Meridian Cartel is already sending surveyors to assess. Warlord Steele does not debate. He sends soldiers. The Iron Hegemony's doctrine is simple: the one who controls the mineral controls the war machine, and the one who controls the war machine controls everything else. Establish the forward base. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -305,7 +305,7 @@
       },
       "requirements": {
         "min_level": 5,
-        "reputation_required": 240,
+        "reputation_required": 20,
         "required_quests": [
           "fq_iron_005"
         ]
@@ -316,14 +316,14 @@
           "target": "IRON_RAVINE",
           "count": 1,
           "desc": "Enter the Iron Ravine.",
-          "description": "Travel to IRON RAVINE."
+          "description": "Travel to IRON RAVINE. (Travel to: Iron Ravine)"
         },
         {
           "type": "collect",
           "target": "rat_hide",
           "count": 1,
           "desc": "Deploy a forward base beacon.",
-          "description": "Collect rat hide (x1)."
+          "description": "Collect rat hide (x1). [Item: Rat Hide]"
         }
       ],
       "rewards": {
@@ -350,7 +350,7 @@
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "IRON_RAVINE",
-      "description": "Iron Ravine Miners — independent operators who have worked these veins for years, who have no Hegemony contracts and no Hegemony protection — are blocking access to the central mineral shaft. In the Concordium, this would be a dispute. In the Meridian Cartel, this would be a negotiation. In the Iron Hegemony, Warlord Steele has a single word for independent operators who stand between his soldiers and a strategic resource: obstacles.",
+      "description": "Iron Ravine Miners — independent operators who have worked these veins for years, who have no Hegemony contracts and no Hegemony protection — are blocking access to the central mineral shaft. In the Concordium, this would be a dispute. In the Meridian Cartel, this would be a negotiation. In the Iron Hegemony, Warlord Steele has a single word for independent operators who stand between his soldiers and a strategic resource: obstacles. Quest giver: Gorn at Iron Ravine Mine Entrance.",
       "quest_giver": {
         "npc_id": "npc_iron_miner",
         "name": "Warlord Harkon Steele",
@@ -358,7 +358,7 @@
       },
       "requirements": {
         "min_level": 6,
-        "reputation_required": 300,
+        "reputation_required": 25,
         "required_quests": [
           "fq_iron_006"
         ]
@@ -376,7 +376,7 @@
           "target": "refined_scrap",
           "count": 3,
           "desc": "Collect Ravine Ore for the forges.",
-          "description": "Collect refined scrap (x3)."
+          "description": "Collect refined scrap (x3). [Item: Refined Scrap]"
         }
       ],
       "rewards": {
@@ -403,7 +403,7 @@
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "IRON_RAVINE",
-      "description": "An Iron Ravine Brute has claimed the central shaft as its territory and crushed three of the Hegemony's initial mining crews — not out of intelligence but pure animal dominance. Warlord Steele has a complicated respect for dominant animals; they understand, on instinct, what the Concordium's diplomats will never accept. But respect does not mean tolerance. The Ravine belongs to the Hegemony. Show the Brute what superior force looks like from the losing side.",
+      "description": "An Iron Ravine Brute has claimed the central shaft as its territory and crushed three of the Hegemony's initial mining crews — not out of intelligence but pure animal dominance. Warlord Steele has a complicated respect for dominant animals; they understand, on instinct, what the Concordium's diplomats will never accept. But respect does not mean tolerance. The Ravine belongs to the Hegemony. Show the Brute what superior force looks like from the losing side. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -411,7 +411,7 @@
       },
       "requirements": {
         "min_level": 7,
-        "reputation_required": 360,
+        "reputation_required": 30,
         "required_quests": [
           "fq_iron_007"
         ]
@@ -429,7 +429,7 @@
           "target": "metal_shard",
           "count": 1,
           "desc": "Claim the Brute's weapon as trophy.",
-          "description": "Collect metal shard (x1)."
+          "description": "Collect metal shard (x1). [Item: Metal Shard]"
         }
       ],
       "rewards": {
@@ -456,7 +456,7 @@
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "IRON_RAVINE",
-      "description": "A Scrapfield Enforcer — a rogue combat machine that predates the Hegemony's own war-mech program — has been claiming the central ravine as its patrol zone and attacking Hegemony survey teams on sight. Its combat protocols may actually be superior to some Hegemony-built machines, which Tink finds professionally embarrassing and Warlord Steele finds unacceptable. The Iron Hegemony is the only authority in the Iron Ravine. Enforce that fact.",
+      "description": "A Scrapfield Enforcer — a rogue combat machine that predates the Hegemony's own war-mech program — has been claiming the central ravine as its patrol zone and attacking Hegemony survey teams on sight. Its combat protocols may actually be superior to some Hegemony-built machines, which Tink finds professionally embarrassing and Warlord Steele finds unacceptable. The Iron Hegemony is the only authority in the Iron Ravine. Enforce that fact. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -464,7 +464,7 @@
       },
       "requirements": {
         "min_level": 8,
-        "reputation_required": 420,
+        "reputation_required": 35,
         "required_quests": [
           "fq_iron_008"
         ]
@@ -509,7 +509,7 @@
       "rank": "D",
       "faction": "IRON_HEGEMONY",
       "region": "IRON_RAVINE",
-      "description": "Ravine Scrap Golems are what happens when the Severance's corrupted energy animates salvaged machinery without anyone controlling the result — walking fortresses of mismatched metal and raw aethel charge that will attack anything within range. Warlord Steele does not waste time theorizing about what they are. He looks at them and sees two things: a threat to neutralize, and a salvage yield that Tink has already calculated down to the last circuit. Break them. Take what the Hegemony needs.",
+      "description": "Ravine Scrap Golems are what happens when the Severance's corrupted energy animates salvaged machinery without anyone controlling the result — walking fortresses of mismatched metal and raw aethel charge that will attack anything within range. (Location: Iron Ravine, Commander Drax) Warlord Steele does not waste time theorizing about what they are. He looks at them and sees two things: a threat to neutralize, and a salvage yield that Tink has already calculated down to the last circuit. Break them. Take what the Hegemony needs.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -517,7 +517,7 @@
       },
       "requirements": {
         "min_level": 9,
-        "reputation_required": 480,
+        "reputation_required": 40,
         "required_quests": [
           "fq_iron_009"
         ]
@@ -535,7 +535,7 @@
           "target": "scrap_core",
           "count": 1,
           "desc": "Salvage Golem core components.",
-          "description": "Collect scrap core (x1)."
+          "description": "Collect scrap core (x1). [Item: Scrap Core]"
         }
       ],
       "rewards": {
@@ -562,7 +562,7 @@
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "The War Machine Graveyard is a cemetery of titans — pre-Severance war constructs that fought wars whose names have been forgotten, left to rust in a field that no other faction wants to enter. Warlord Steele walks it differently. He sees it as a library, every destroyed machine a lesson about what failed and why. The Iron Hegemony's doctrine forbids forgetting the last war. Enter the Graveyard. See what losing looks like, so you understand what winning requires.",
+      "description": "The War Machine Graveyard is a cemetery of titans — pre-Severance war constructs that fought wars whose names have been forgotten, left to rust in a field that no other faction wants to enter. Warlord Steele walks it differently. He sees it as a library, every destroyed machine a lesson about what failed and why. The Iron Hegemony's doctrine forbids forgetting the last war. Enter the Graveyard. See what losing looks like, so you understand what winning requires. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -570,7 +570,7 @@
       },
       "requirements": {
         "min_level": 10,
-        "reputation_required": 540,
+        "reputation_required": 45,
         "required_quests": [
           "fq_iron_010"
         ]
@@ -581,14 +581,14 @@
           "target": "WAR_MACHINE_GRAVEYARD",
           "count": 1,
           "desc": "Enter the War Machine Graveyard.",
-          "description": "Travel to WAR MACHINE GRAVEYARD."
+          "description": "Travel to WAR MACHINE GRAVEYARD. (Travel to: War Machine Graveyard)"
         },
         {
           "type": "collect",
           "target": "refined_scrap",
           "count": 2,
           "desc": "Gather battlefield intelligence.",
-          "description": "Collect refined scrap (x2)."
+          "description": "Collect refined scrap (x2). [Item: Refined Scrap]"
         }
       ],
       "rewards": {
@@ -615,7 +615,7 @@
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "War Machine Wreckers — scavengers who strip the Graveyard's titan remains for parts to sell to the Meridian Cartel and OmniCorp — have been operating here for years without Hegemony authorization. Foreman Brigg's inventory assessments show they've already taken components that the Hegemony's Titan Assembly Yard needed. The Graveyard's lessons belong to the Iron Hegemony. Its parts belong to the Iron Hegemony. Its scavengers belong on the ground.",
+      "description": "War Machine Wreckers — scavengers who strip the Graveyard's titan remains for parts to sell to the Meridian Cartel and OmniCorp — have been operating here for years without Hegemony authorization. (Location: War Machine Graveyard, Foreman Brigg) Foreman Brigg's inventory assessments show they've already taken components that the Hegemony's Titan Assembly Yard needed. The Graveyard's lessons belong to the Iron Hegemony. Its parts belong to the Iron Hegemony. Its scavengers belong on the ground.",
       "quest_giver": {
         "npc_id": "npc_assembly_foreman",
         "name": "Warlord Harkon Steele",
@@ -623,7 +623,7 @@
       },
       "requirements": {
         "min_level": 11,
-        "reputation_required": 600,
+        "reputation_required": 50,
         "required_quests": [
           "fq_iron_011"
         ]
@@ -641,7 +641,7 @@
           "target": "refined_scrap",
           "count": 3,
           "desc": "Collect usable parts from destroyed Wreckers.",
-          "description": "Collect refined scrap (x3)."
+          "description": "Collect refined scrap (x3). [Item: Refined Scrap]"
         }
       ],
       "rewards": {
@@ -676,7 +676,7 @@
       },
       "requirements": {
         "min_level": 12,
-        "reputation_required": 660,
+        "reputation_required": 55,
         "required_quests": [
           "fq_iron_012"
         ]
@@ -694,7 +694,7 @@
           "target": "scrap_core",
           "count": 3,
           "desc": "Recover salvaged technology.",
-          "description": "Collect scrap core (x3)."
+          "description": "Collect scrap core (x3). [Item: Scrap Core]"
         }
       ],
       "rewards": {
@@ -721,7 +721,7 @@
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "War Machine Sentinels — automated guardian constructs still running on battle-programming written before the Severance — continue patrolling the Graveyard as if the war they were built for is still ongoing. Tink has analyzed their combat protocols and found techniques the Hegemony's current Titan Assembly Yard has not re-discovered. Disable them carefully. Every Sentinel destroyed is a lesson extracted from the past to make the Hegemony's future war machines more lethal.",
+      "description": "War Machine Sentinels — automated guardian constructs still running on battle-programming written before the Severance — continue patrolling the Graveyard as if the war they were built for is still ongoing. (Location: War Machine Graveyard, Foreman Brigg) Tink has analyzed their combat protocols and found techniques the Hegemony's current Titan Assembly Yard has not re-discovered. Disable them carefully. Every Sentinel destroyed is a lesson extracted from the past to make the Hegemony's future war machines more lethal.",
       "quest_giver": {
         "npc_id": "npc_assembly_foreman",
         "name": "Warlord Harkon Steele",
@@ -729,7 +729,7 @@
       },
       "requirements": {
         "min_level": 13,
-        "reputation_required": 720,
+        "reputation_required": 60,
         "required_quests": [
           "fq_iron_013"
         ]
@@ -747,7 +747,7 @@
           "target": "sensor_chip",
           "count": 1,
           "desc": "Extract combat protocol data.",
-          "description": "Collect sensor chip (x1)."
+          "description": "Collect sensor chip (x1). [Item: Sensor Chip]"
         }
       ],
       "rewards": {
@@ -774,7 +774,7 @@
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "Warlord Steele does not believe in partial victories. A contested zone is a weak zone — every Wrecker and Scavenger still active in the Graveyard represents a hole in the Hegemony's tactical control. The full sweep order is simple and absolute: everything in the Graveyard that is not Iron Hegemony is either neutralized or tagged for disposal. By the end of this operation, the War Machine Graveyard will be an Iron Hegemony asset with no asterisks.",
+      "description": "Warlord Steele does not believe in partial victories. A contested zone is a weak zone — every Wrecker and Scavenger still active in the Graveyard represents a hole in the Hegemony's tactical control. The full sweep order is simple and absolute: everything in the Graveyard that is not Iron Hegemony is either neutralized or tagged for disposal. By the end of this operation, the War Machine Graveyard will be an Iron Hegemony asset with no asterisks. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -782,7 +782,7 @@
       },
       "requirements": {
         "min_level": 14,
-        "reputation_required": 780,
+        "reputation_required": 65,
         "required_quests": [
           "fq_iron_014"
         ]
@@ -827,7 +827,7 @@
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "Multiple War Machine Sentinels are converging on the Hegemony's salvage teams — an automated counter-response to the Hegemony's presence in their patrol zones. Warlord Steele's briefing is characteristically brief: 'Multiple Sentinels converging. This is not a threat. This is target practice.' The Hegemony's soldiers are not told to be careful. They are told to be efficient. Efficiency is the highest virtue in the Iron Hegemony's doctrine of war.",
+      "description": "Multiple War Machine Sentinels are converging on the Hegemony's salvage teams — an automated counter-response to the Hegemony's presence in their patrol zones. (Location: War Machine Graveyard, Commander Drax) Warlord Steele's briefing is characteristically brief: 'Multiple Sentinels converging. This is not a threat. This is target practice.' The Hegemony's soldiers are not told to be careful. They are told to be efficient. Efficiency is the highest virtue in the Iron Hegemony's doctrine of war.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -835,7 +835,7 @@
       },
       "requirements": {
         "min_level": 15,
-        "reputation_required": 840,
+        "reputation_required": 70,
         "required_quests": [
           "fq_iron_015"
         ]
@@ -853,7 +853,7 @@
           "target": "scrap_core",
           "count": 1,
           "desc": "File the Sentinel wreckage report.",
-          "description": "Collect scrap core (x1)."
+          "description": "Collect scrap core (x1). [Item: Scrap Core]"
         }
       ],
       "rewards": {
@@ -880,7 +880,7 @@
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "Foreman Brigg has a requisition list from the Bastion's Titan Assembly program — specific components from specific models in the Graveyard that cannot be manufactured any other way. The program is behind schedule. Three rival factions are ahead of the Hegemony in their own advanced weapons programs, and Warlord Steele does not tolerate being behind. The Graveyard Wreckers are in the retrieval zones again. Remove them. Retrieve what the Bastion needs. Bring the Hegemony back ahead.",
+      "description": "Foreman Brigg has a requisition list from the Bastion's Titan Assembly program — specific components from specific models in the Graveyard that cannot be manufactured any other way. (Location: War Machine Graveyard, Foreman Brigg) The program is behind schedule. Three rival factions are ahead of the Hegemony in their own advanced weapons programs, and Warlord Steele does not tolerate being behind. The Graveyard Wreckers are in the retrieval zones again. Remove them. Retrieve what the Bastion needs. Bring the Hegemony back ahead.",
       "quest_giver": {
         "npc_id": "npc_assembly_foreman",
         "name": "Warlord Harkon Steele",
@@ -888,7 +888,7 @@
       },
       "requirements": {
         "min_level": 16,
-        "reputation_required": 900,
+        "reputation_required": 75,
         "required_quests": [
           "fq_iron_016"
         ]
@@ -899,7 +899,7 @@
           "target": "refined_scrap",
           "count": 4,
           "desc": "Retrieve specified components.",
-          "description": "Collect refined scrap (x4)."
+          "description": "Collect refined scrap (x4). [Item: Refined Scrap]"
         },
         {
           "type": "kill",
@@ -933,7 +933,7 @@
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "Deep in the War Machine Graveyard's protected core zone, a Sentinel Commander — a war construct with hierarchical battle protocols that can coordinate the scattered Sentinels into a unified tactical force — has activated. Tink believes it has been dormant for centuries, triggered by the Hegemony's salvage operations. Warlord Steele believes this is irrelevant. The Graveyard belongs to the Iron Hegemony. Destroy the Commander. Plant the claim beacon. End this.",
+      "description": "Deep in the War Machine Graveyard's protected core zone, a Sentinel Commander — a war construct with hierarchical battle protocols that can coordinate the scattered Sentinels into a unified tactical force — has activated. Tink believes it has been dormant for centuries, triggered by the Hegemony's salvage operations. Warlord Steele believes this is irrelevant. The Graveyard belongs to the Iron Hegemony. Destroy the Commander. Plant the claim beacon. End this. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -941,7 +941,7 @@
       },
       "requirements": {
         "min_level": 17,
-        "reputation_required": 960,
+        "reputation_required": 80,
         "required_quests": [
           "fq_iron_017"
         ]
@@ -959,7 +959,7 @@
           "target": "scrap_core",
           "count": 1,
           "desc": "Plant the Hegemony claim beacon.",
-          "description": "Collect scrap core (x1)."
+          "description": "Collect scrap core (x1). [Item: Scrap Core]"
         }
       ],
       "rewards": {
@@ -986,7 +986,7 @@
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "WAR_MACHINE_GRAVEYARD",
-      "description": "A Resonance Echo — the kind of energy entity the Arcanum Seekers would write excited papers about — has formed in the Graveyard's deep sector, drawn by the resonance from the now-active Sentinel Commander. It is disrupting every piece of Hegemony electronic equipment within range and coordinating erratic behavior in the surviving Sentinels. The Iron Hegemony does not tolerate anomalies in controlled territory. This is controlled territory now. Destroy it.",
+      "description": "A Resonance Echo — the kind of energy entity the Arcanum Seekers would write excited papers about — has formed in the Graveyard's deep sector, drawn by the resonance from the now-active Sentinel Commander. (Location: War Machine Graveyard, Commander Drax) It is disrupting every piece of Hegemony electronic equipment within range and coordinating erratic behavior in the surviving Sentinels. The Iron Hegemony does not tolerate anomalies in controlled territory. This is controlled territory now. Destroy it.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -994,7 +994,7 @@
       },
       "requirements": {
         "min_level": 18,
-        "reputation_required": 1020,
+        "reputation_required": 85,
         "required_quests": [
           "fq_iron_018"
         ]
@@ -1039,7 +1039,7 @@
       "rank": "C",
       "faction": "IRON_HEGEMONY",
       "region": "BASTION_CORE",
-      "description": "The War Machine Graveyard is secured. The Titan Assembly program has its components. Warlord Harkon Steele does not give compliments — he gives promotions, which mean exactly the same thing in the Iron Hegemony. Return to Bastion Core for your Advanced Combat elevation. The Titan Assembly Yard awaits, and what is built there will change the balance of power on Xylos. You are going to help build it.",
+      "description": "The War Machine Graveyard is secured. The Titan Assembly program has its components. Warlord Harkon Steele does not give compliments — he gives promotions, which mean exactly the same thing in the Iron Hegemony. Return to Bastion Core for your Advanced Combat elevation. The Titan Assembly Yard awaits, and what is built there will change the balance of power on Xylos. You are going to help build it. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Warlord Harkon Steele",
@@ -1047,7 +1047,7 @@
       },
       "requirements": {
         "min_level": 19,
-        "reputation_required": 1080,
+        "reputation_required": 90,
         "required_quests": [
           "fq_iron_019"
         ]
@@ -1058,14 +1058,14 @@
           "target": "BASTION_CORE",
           "count": 1,
           "desc": "Return to the Bastion.",
-          "description": "Travel to BASTION CORE."
+          "description": "Travel to BASTION CORE. (Travel to: Bastion Core)"
         },
         {
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
           "desc": "Receive the Advanced Combat Badge.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -1092,7 +1092,7 @@
       "rank": "B",
       "faction": "IRON_HEGEMONY",
       "region": "TITAN_ASSEMBLY_YARD",
-      "description": "The Titan Assembly Yard was once where Precursor war machines were born. The Hegemony will make it our primary production facility.",
+      "description": "The Titan Assembly Yard was once where Precursor war machines were born. The Hegemony will make it our primary production facility. Quest giver: Foreman Brigg at Titan Assembly Yard Command Post.",
       "quest_giver": {
         "npc_id": "npc_assembly_foreman",
         "name": "Foreman Brigg",
@@ -1111,14 +1111,14 @@
           "target": "TITAN_ASSEMBLY_YARD",
           "count": 1,
           "desc": "Enter the Titan Assembly Yard.",
-          "description": "Travel to TITAN ASSEMBLY YARD."
+          "description": "Travel to TITAN ASSEMBLY YARD. (Travel to: Titan Assembly Yard)"
         },
         {
           "type": "collect",
           "target": "core_fragment",
           "count": 2,
           "desc": "Recover Assembly schematics.",
-          "description": "Collect core fragment (x2)."
+          "description": "Collect core fragment (x2). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -1145,7 +1145,7 @@
       "rank": "B",
       "faction": "IRON_HEGEMONY",
       "region": "TITAN_ASSEMBLY_YARD",
-      "description": "Titan Assembly Drones still function on ancient protocols. Override their programming with force.",
+      "description": "Titan Assembly Drones still function on ancient protocols. (Location: Titan Assembly Yard, Foreman Brigg) Override their programming with force.",
       "quest_giver": {
         "npc_id": "npc_assembly_foreman",
         "name": "Foreman Brigg",
@@ -1171,7 +1171,7 @@
           "target": "circuit_fragment",
           "count": 2,
           "desc": "Extract override codes.",
-          "description": "Collect circuit fragment (x2)."
+          "description": "Collect circuit fragment (x2). [Item: Circuit Fragment]"
         }
       ],
       "rewards": {
@@ -1198,7 +1198,7 @@
       "rank": "B",
       "faction": "IRON_HEGEMONY",
       "region": "TITAN_ASSEMBLY_YARD",
-      "description": "Titan Assembly Sentinels guard the central assembly line. Breach their defenses and claim the line for Hegemony production.",
+      "description": "Titan Assembly Sentinels guard the central assembly line. (Location: Titan Assembly Yard, Commander Drax) Breach their defenses and claim the line for Hegemony production.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -1224,7 +1224,7 @@
           "target": "scrap_core",
           "count": 1,
           "desc": "Seize the assembly line control terminal.",
-          "description": "Collect scrap core (x1)."
+          "description": "Collect scrap core (x1). [Item: Scrap Core]"
         }
       ],
       "rewards": {
@@ -1251,7 +1251,7 @@
       "rank": "B",
       "faction": "IRON_HEGEMONY",
       "region": "TITAN_ASSEMBLY_YARD",
-      "description": "Titan Forge Automatons are apex construction machines. Disable them and study their assembly protocols.",
+      "description": "Titan Forge Automatons are apex construction machines. (Location: Titan Assembly Yard, Foreman Brigg) Disable them and study their assembly protocols.",
       "quest_giver": {
         "npc_id": "npc_assembly_foreman",
         "name": "Foreman Brigg",
@@ -1277,7 +1277,7 @@
           "target": "titan_core",
           "count": 1,
           "desc": "Extract Automaton assembly protocols.",
-          "description": "Collect titan core (x1)."
+          "description": "Collect titan core (x1). [Item: Titan Core]"
         }
       ],
       "rewards": {
@@ -1304,7 +1304,7 @@
       "rank": "B",
       "faction": "IRON_HEGEMONY",
       "region": "TITAN_ASSEMBLY_YARD",
-      "description": "A Titan Proto Core — a failed Titan — has reactivated. This is a live-fire exercise. Destroy it.",
+      "description": "A Titan Proto Core — a failed Titan — has reactivated. (Location: Titan Assembly Yard, Commander Drax) This is a live-fire exercise. Destroy it.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -1330,7 +1330,7 @@
           "target": "titan_core",
           "count": 1,
           "desc": "Collect Proto Core battle data.",
-          "description": "Collect titan core (x1)."
+          "description": "Collect titan core (x1). [Item: Titan Core]"
         }
       ],
       "rewards": {
@@ -1357,7 +1357,7 @@
       "rank": "B",
       "faction": "IRON_HEGEMONY",
       "region": "BORDER_SKIRMISH_RING",
-      "description": "The Border Skirmish Ring is where factions test their strength. The Hegemony does not test — we dominate.",
+      "description": "The Border Skirmish Ring is where factions test their strength. The Hegemony does not test — we dominate. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -1376,14 +1376,14 @@
           "target": "BORDER_SKIRMISH_RING",
           "count": 1,
           "desc": "Enter the Border Skirmish Ring.",
-          "description": "Travel to BORDER SKIRMISH RING."
+          "description": "Travel to BORDER SKIRMISH RING. (Travel to: Border Skirmish Ring)"
         },
         {
           "type": "collect",
           "target": "contraband_core",
           "count": 2,
           "desc": "Gather enemy movement intelligence.",
-          "description": "Collect contraband core (x2)."
+          "description": "Collect contraband core (x2). [Item: Contraband Core]"
         }
       ],
       "rewards": {
@@ -1410,7 +1410,7 @@
       "rank": "B",
       "faction": "IRON_HEGEMONY",
       "region": "BORDER_SKIRMISH_RING",
-      "description": "Patrol the skirmish ring and eliminate any non-Hegemony forces. The border is ours.",
+      "description": "Patrol the skirmish ring and eliminate any non-Hegemony forces. (Location: Border Skirmish Ring, Commander Drax) The border is ours.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -1436,7 +1436,7 @@
           "target": "refined_scrap",
           "count": 1,
           "desc": "Complete border patrol and claim the badge.",
-          "description": "Collect refined scrap (x1)."
+          "description": "Collect refined scrap (x1). [Item: Refined Scrap]"
         }
       ],
       "rewards": {
@@ -1463,7 +1463,7 @@
       "rank": "B",
       "faction": "IRON_HEGEMONY",
       "region": "BORDER_SKIRMISH_RING",
-      "description": "Aethel Behemoths are being used as living siege weapons by rival factions. Destroy the weapon before it reaches Hegemony lines.",
+      "description": "Aethel Behemoths are being used as living siege weapons by rival factions. (Location: Border Skirmish Ring, Commander Drax) Destroy the weapon before it reaches Hegemony lines.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -1489,7 +1489,7 @@
           "target": "raw_aethel_core",
           "count": 1,
           "desc": "Document the siege weapon tactics.",
-          "description": "Collect raw aethel core (x1)."
+          "description": "Collect raw aethel core (x1). [Item: Raw Aethel Core]"
         }
       ],
       "rewards": {
@@ -1516,7 +1516,7 @@
       "rank": "B",
       "faction": "IRON_HEGEMONY",
       "region": "TITAN_ASSEMBLY_YARD",
-      "description": "The Assembly Yard has produced new Sentinel variants. Test Hegemony combat doctrine against them.",
+      "description": "The Assembly Yard has produced new Sentinel variants. (Location: Titan Assembly Yard, Foreman Brigg) Test Hegemony combat doctrine against them.",
       "quest_giver": {
         "npc_id": "npc_assembly_foreman",
         "name": "Foreman Brigg",
@@ -1542,7 +1542,7 @@
           "target": "scrap_core",
           "count": 1,
           "desc": "Document Sentinel variant capabilities.",
-          "description": "Collect scrap core (x1)."
+          "description": "Collect scrap core (x1). [Item: Scrap Core]"
         }
       ],
       "rewards": {
@@ -1569,7 +1569,7 @@
       "rank": "B",
       "faction": "IRON_HEGEMONY",
       "region": "BASTION_CORE",
-      "description": "War Marshal Drax has called for your Ascension Test. Prove your strength has surpassed the rank of common soldier.",
+      "description": "War Marshal Drax has called for your Ascension Test. (Location: Bastion Core, War Marshal Drax) Prove your strength has surpassed the rank of common soldier.",
       "quest_giver": {
         "npc_id": "npc_hegemony_class_trainer",
         "name": "War Marshal Drax",
@@ -1577,7 +1577,7 @@
       },
       "requirements": {
         "min_level": 29,
-        "reputation_required": 1680,
+        "reputation_required": 95,
         "required_quests": [
           "fq_iron_029"
         ]
@@ -1588,7 +1588,7 @@
           "target": "npc_hegemony_class_trainer",
           "count": 1,
           "desc": "Report to War Marshal Drax.",
-          "description": "Speak with npc hegemony class trainer."
+          "description": "Speak with npc hegemony class trainer. (War Marshal Drax at Bastion Core War College)"
         },
         {
           "type": "kill",
@@ -1637,7 +1637,7 @@
       "rank": "A",
       "faction": "IRON_HEGEMONY",
       "region": "ORBITAL_SENTINEL_COMMAND",
-      "description": "The Hegemony now controls the ground. The next frontier is the sky. Secure the Orbital Sentinel Command.",
+      "description": "The Hegemony now controls the ground. The next frontier is the sky. Secure the Orbital Sentinel Command. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -1656,14 +1656,14 @@
           "target": "ORBITAL_SENTINEL_COMMAND",
           "count": 1,
           "desc": "Report to Orbital Sentinel Command.",
-          "description": "Travel to ORBITAL SENTINEL COMMAND."
+          "description": "Travel to ORBITAL SENTINEL COMMAND. (Travel to: Orbital Sentinel Command)"
         },
         {
           "type": "collect",
           "target": "void_core",
           "count": 1,
           "desc": "Deploy the Hegemony orbital control beacon.",
-          "description": "Collect void core (x1)."
+          "description": "Collect void core (x1). [Item: Void Core]"
         }
       ],
       "rewards": {
@@ -1690,7 +1690,7 @@
       "rank": "A",
       "faction": "IRON_HEGEMONY",
       "region": "CRADLE_EXPANSE",
-      "description": "The Ashen Drake threatens Hegemony air superiority. Conduct reconnaissance and engage if necessary.",
+      "description": "The Ashen Drake threatens Hegemony air superiority. (Location: Cradle Expanse, Commander Drax) Conduct reconnaissance and engage if necessary.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -1716,7 +1716,7 @@
           "target": "ancient_scale",
           "count": 2,
           "desc": "Record Drake combat data.",
-          "description": "Collect ancient scale (x2)."
+          "description": "Collect ancient scale (x2). [Item: Ancient Scale]"
         }
       ],
       "rewards": {
@@ -1743,7 +1743,7 @@
       "rank": "A",
       "faction": "IRON_HEGEMONY",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Iron Carapaces are armored threats. Hegemony tanks need live-fire practice. Be the gun.",
+      "description": "Aethel Iron Carapaces are armored threats. (Location: Cradle Expanse, Commander Drax) Hegemony tanks need live-fire practice. Be the gun.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -1769,7 +1769,7 @@
           "target": "carapace_fragment",
           "count": 3,
           "desc": "Harvest armor plates for the forges.",
-          "description": "Collect carapace fragment (x3)."
+          "description": "Collect carapace fragment (x3). [Item: Carapace Fragment]"
         }
       ],
       "rewards": {
@@ -1796,7 +1796,7 @@
       "rank": "A",
       "faction": "IRON_HEGEMONY",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Corrupted Behemoths are priority targets. Any threat to Hegemony territory receives the same response: elimination.",
+      "description": "Aethel Corrupted Behemoths are priority targets. (Location: Cradle Expanse, Commander Drax) Any threat to Hegemony territory receives the same response: elimination.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -1822,7 +1822,7 @@
           "target": "crystal_core",
           "count": 2,
           "desc": "Confirm target elimination.",
-          "description": "Collect crystal core (x2)."
+          "description": "Collect crystal core (x2). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -1849,7 +1849,7 @@
       "rank": "A",
       "faction": "IRON_HEGEMONY",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Abyssal Reavers are the enemy's shock troops. Meet them with Hegemony steel.",
+      "description": "Aethel Abyssal Reavers are the enemy's shock troops. (Location: Cradle Expanse, Commander Drax) Meet them with Hegemony steel.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -1875,7 +1875,7 @@
           "target": "void_channeler_core",
           "count": 1,
           "desc": "File the after-action report.",
-          "description": "Collect void channeler core (x1)."
+          "description": "Collect void channeler core (x1). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -1902,7 +1902,7 @@
       "rank": "A",
       "faction": "IRON_HEGEMONY",
       "region": "ORBITAL_SENTINEL_COMMAND",
-      "description": "Rival factions probe the orbital defense grid. Remind them why Hegemony controls the skies.",
+      "description": "Rival factions probe the orbital defense grid. (Location: Orbital Sentinel Command, Commander Drax) Remind them why Hegemony controls the skies.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -1955,7 +1955,7 @@
       "rank": "A",
       "faction": "IRON_HEGEMONY",
       "region": "CRADLE_EXPANSE",
-      "description": "The Ashen Drake has been sighted again. This time, Hegemony authorizes a kill order. Bring it down.",
+      "description": "The Ashen Drake has been sighted again. (Location: Cradle Expanse, Commander Drax) This time, Hegemony authorizes a kill order. Bring it down.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -1981,7 +1981,7 @@
           "target": "ancient_scale",
           "count": 1,
           "desc": "Confirm the Drake kill.",
-          "description": "Collect ancient scale (x1)."
+          "description": "Collect ancient scale (x1). [Item: Ancient Scale]"
         }
       ],
       "rewards": {
@@ -2008,7 +2008,7 @@
       "rank": "A",
       "faction": "IRON_HEGEMONY",
       "region": "BORDER_SKIRMISH_RING",
-      "description": "Full ground assault on enemy positions in the Skirmish Ring. Hegemony doctrine: overwhelming force.",
+      "description": "Full ground assault on enemy positions in the Skirmish Ring. (Location: Border Skirmish Ring, Commander Drax) Hegemony doctrine: overwhelming force.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -2034,7 +2034,7 @@
           "target": "core_fragment",
           "count": 2,
           "desc": "Claim territory with Hegemony beacons.",
-          "description": "Collect core fragment (x2)."
+          "description": "Collect core fragment (x2). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2061,7 +2061,7 @@
       "rank": "A",
       "faction": "IRON_HEGEMONY",
       "region": "CRADLE_EXPANSE",
-      "description": "The Abyss Counter-Offensive has begun. Multiple Reaver battalions advance on Hegemony positions. Break their offensive.",
+      "description": "The Abyss Counter-Offensive has begun. (Location: Cradle Expanse, Commander Drax) Multiple Reaver battalions advance on Hegemony positions. Break their offensive.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -2114,7 +2114,7 @@
       "rank": "A",
       "faction": "IRON_HEGEMONY",
       "region": "BASTION_CORE",
-      "description": "The Master Commander trial. Defeat the Ashen Drake and two elite guardians. Only the strongest lead Hegemony forces into battle.",
+      "description": "The Master Commander trial. (Location: Bastion Core, Commander Drax) Defeat the Ashen Drake and two elite guardians. Only the strongest lead Hegemony forces into battle.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -2122,7 +2122,7 @@
       },
       "requirements": {
         "min_level": 39,
-        "reputation_required": 2280,
+        "reputation_required": 105,
         "required_quests": [
           "fq_iron_039"
         ]
@@ -2182,7 +2182,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Void Echo Chasm is the most hostile environment on Xylos. The Hegemony will establish a forward base here. Fear is not an option.",
+      "description": "The Void Echo Chasm is the most hostile environment on Xylos. The Hegemony will establish a forward base here. Fear is not an option. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -2201,14 +2201,14 @@
           "target": "VOID_ECHO_CHASM",
           "count": 1,
           "desc": "Enter the Void Echo Chasm.",
-          "description": "Travel to VOID ECHO CHASM."
+          "description": "Travel to VOID ECHO CHASM. (Travel to: Void Echo Chasm)"
         },
         {
           "type": "collect",
           "target": "void_channeler_core",
           "count": 2,
           "desc": "Conduct chasm terrain survey.",
-          "description": "Collect void channeler core (x2)."
+          "description": "Collect void channeler core (x2). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -2235,7 +2235,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "VOID_ECHO_CHASM",
-      "description": "Void Reavers are the chasm's defenders. Engage and destroy. Hegemony fears no darkness.",
+      "description": "Void Reavers are the chasm's defenders. (Location: Void Echo Chasm, Commander Drax) Engage and destroy. Hegemony fears no darkness.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -2261,7 +2261,7 @@
           "target": "void_fragment",
           "count": 1,
           "desc": "Submit kill tally to command.",
-          "description": "Collect void fragment (x1)."
+          "description": "Collect void fragment (x1). [Item: Void Fragment]"
         }
       ],
       "rewards": {
@@ -2288,7 +2288,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "VOID_ECHO_CHASM",
-      "description": "Void Channelers perform rituals that empower the Abyss. Purge them. The Hegemony leaves no enemy power source intact.",
+      "description": "Void Channelers perform rituals that empower the Abyss. (Location: Void Echo Chasm, Commander Drax) Purge them. The Hegemony leaves no enemy power source intact.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -2296,7 +2296,7 @@
       },
       "requirements": {
         "min_level": 42,
-        "reputation_required": 2460,
+        "reputation_required": 130,
         "required_quests": [
           "fq_iron_042"
         ]
@@ -2314,7 +2314,7 @@
           "target": "raw_aethel_fragment",
           "count": 1,
           "desc": "Report ritual disruption status.",
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -2341,7 +2341,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "VOID_ECHO_CHASM",
-      "description": "Abyssal Reavers are the enemy's elite. Exterminate them. The Hegemony tolerates no elite but its own.",
+      "description": "Abyssal Reavers are the enemy's elite. (Location: Void Echo Chasm, Commander Drax) Exterminate them. The Hegemony tolerates no elite but its own.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -2367,7 +2367,7 @@
           "target": "void_channeler_core",
           "count": 1,
           "desc": "File extermination completion report.",
-          "description": "Collect void channeler core (x1)."
+          "description": "Collect void channeler core (x1). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -2394,7 +2394,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "VOID_ECHO_CHASM",
-      "description": "Corrupted Behemoths in the chasm are juiced on void energy. Prove that Hegemony steel cuts deeper than void corruption.",
+      "description": "Corrupted Behemoths in the chasm are juiced on void energy. (Location: Void Echo Chasm, Commander Drax) Prove that Hegemony steel cuts deeper than void corruption.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -2420,7 +2420,7 @@
           "target": "crystal_core",
           "count": 1,
           "desc": "Collect void-resistance data for armor research.",
-          "description": "Collect crystal core (x1)."
+          "description": "Collect crystal core (x1). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -2447,7 +2447,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "VOID_ECHO_CHASM",
-      "description": "Soul Fragmenters attempt to break the minds of Hegemony soldiers. They will fail. Destroy these psychological warfare units.",
+      "description": "Soul Fragmenters attempt to break the minds of Hegemony soldiers. (Location: Void Echo Chasm, Commander Drax) They will fail. Destroy these psychological warfare units.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -2473,7 +2473,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "Report soldier morale status.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2500,7 +2500,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "VOID_ECHO_CHASM",
-      "description": "Chrono Wraiths warp time around Hegemony positions. Counter their temporal attacks with overwhelming firepower.",
+      "description": "Chrono Wraiths warp time around Hegemony positions. (Location: Void Echo Chasm, Commander Drax) Counter their temporal attacks with overwhelming firepower.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -2526,7 +2526,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "Develop temporal countermeasure data.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -2553,7 +2553,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "VOID_ECHO_CHASM",
-      "description": "A Gigantic Jotunn blocks the advance. Hegemony doctrine: destroy the obstacle and keep moving.",
+      "description": "A Gigantic Jotunn blocks the advance. (Location: Void Echo Chasm, Commander Drax) Hegemony doctrine: destroy the obstacle and keep moving.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -2579,7 +2579,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "Deploy advance beacon past the Jotunn.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2606,7 +2606,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "SHATTERED_HEART",
-      "description": "The Shattered Heart is the enemy's core territory. Breach it. The Hegemony attacks — always.",
+      "description": "The Shattered Heart is the enemy's core territory. Breach it. The Hegemony attacks — always. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -2625,14 +2625,14 @@
           "target": "SHATTERED_HEART",
           "count": 1,
           "desc": "Breach the Shattered Heart.",
-          "description": "Travel to SHATTERED HEART."
+          "description": "Travel to SHATTERED HEART. (Travel to: Shattered Heart, Shattered Heart)"
         },
         {
           "type": "collect",
           "target": "void_core",
           "count": 1,
           "desc": "Establish the breach head.",
-          "description": "Collect void core (x1)."
+          "description": "Collect void core (x1). [Item: Void Core]"
         }
       ],
       "rewards": {
@@ -2659,7 +2659,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "SHATTERED_HEART",
-      "description": "THE DRAKE EXECUTION. The Ashen Drake rules the Shattered Heart. The Hegemony will execute it. Raid Tier-1: lead the assault and bring down the Drake. Victory through Conquest.",
+      "description": "THE DRAKE EXECUTION. The Ashen Drake rules the Shattered Heart. The Hegemony will execute it. Raid Tier-1: lead the assault and bring down the Drake. Victory through Conquest. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -2692,7 +2692,7 @@
           "target": "ancient_scale",
           "count": 1,
           "desc": "Claim the Drake's head as trophy for the Bastion.",
-          "description": "Collect ancient scale (x1)."
+          "description": "Collect ancient scale (x1). [Item: Ancient Scale]"
         }
       ],
       "rewards": {
@@ -2727,7 +2727,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Soul Fragmenter threat has escalated. Multiple units are deploying. This is now a military campaign.",
+      "description": "The Soul Fragmenter threat has escalated. (Location: Void Echo Chasm, Commander Drax) Multiple units are deploying. This is now a military campaign.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -2753,7 +2753,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "Submit campaign status to High Command.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -2780,7 +2780,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "VOID_ECHO_CHASM",
-      "description": "Operation Total Void Control is authorized. Exterminate all void signatures in the chasm. The Hegemony does not share territory.",
+      "description": "Operation Total Void Control is authorized. (Location: Void Echo Chasm, Commander Drax) Exterminate all void signatures in the chasm. The Hegemony does not share territory.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -2833,7 +2833,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "VOID_ECHO_CHASM",
-      "description": "A Void Stalker has been hunting our soldiers. This insult to Hegemony strength will be answered with execution.",
+      "description": "A Void Stalker has been hunting our soldiers. (Location: Void Echo Chasm, Commander Drax) This insult to Hegemony strength will be answered with execution.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -2859,7 +2859,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "Recover fallen soldiers' identification.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2886,7 +2886,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "VOID_ECHO_CHASM",
-      "description": "Chrono Wraiths create temporal breaches that trap our troops. Close the breaches with extreme prejudice.",
+      "description": "Chrono Wraiths create temporal breaches that trap our troops. (Location: Void Echo Chasm, Commander Drax) Close the breaches with extreme prejudice.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -2912,7 +2912,7 @@
           "target": "monster_material",
           "count": 3,
           "desc": "Confirm breach closures.",
-          "description": "Collect monster material (x3)."
+          "description": "Collect monster material (x3). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -2939,7 +2939,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "SHATTERED_HEART",
-      "description": "Full assault on the Shattered Heart. Enemy Reaver battalions are dug in. Dig them out.",
+      "description": "Full assault on the Shattered Heart. Enemy Reaver battalions are dug in. Dig them out. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -2992,7 +2992,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "SHATTERED_HEART",
-      "description": "Gigantic Jotunns have fortified a position in the Heart. Hegemony doctrine for strongpoints: overwhelming force.",
+      "description": "Gigantic Jotunns have fortified a position in the Heart. (Location: Shattered Heart, Commander Drax) Hegemony doctrine for strongpoints: overwhelming force.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -3018,7 +3018,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "Claim the strongpoint for Hegemony.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -3045,7 +3045,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "SHATTERED_HEART",
-      "description": "Crystal Tyrants form a defensive battery in the Heart. Silence their guns.",
+      "description": "Crystal Tyrants form a defensive battery in the Heart. (Location: Shattered Heart, Commander Drax) Silence their guns.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -3071,7 +3071,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "Report battery destruction.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -3098,7 +3098,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Abyss Harbinger is the enemy high command. Establish a beachhead for the final assault.",
+      "description": "The Abyss Harbinger is the enemy high command. (Location: Void Echo Chasm, Commander Drax) Establish a beachhead for the final assault.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -3106,7 +3106,7 @@
       },
       "requirements": {
         "min_level": 57,
-        "reputation_required": 3360,
+        "reputation_required": 180,
         "required_quests": [
           "fq_iron_057"
         ]
@@ -3131,7 +3131,7 @@
           "target": "raw_aethel_fragment",
           "count": 1,
           "desc": "Confirm beachhead established.",
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -3158,7 +3158,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "VOID_ECHO_CHASM",
-      "description": "Soul Fragmenters form the enemy's psychological warfare front. Break their front.",
+      "description": "Soul Fragmenters form the enemy's psychological warfare front. (Location: Void Echo Chasm, Commander Drax) Break their front.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -3211,7 +3211,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "VOID_ECHO_CHASM",
-      "description": "FINAL ASSAULT ON THE ABYSS. The Abyss Harbinger is the enemy commander. Destroy it and claim total victory over the Void. THE HEGEMONY CONTROLS ALL.",
+      "description": "FINAL ASSAULT ON THE ABYSS. (Location: Void Echo Chasm, Commander Drax) The Abyss Harbinger is the enemy commander. Destroy it and claim total victory over the Void. THE HEGEMONY CONTROLS ALL.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -3237,7 +3237,7 @@
           "target": "abyss_fragment",
           "count": 1,
           "desc": "Claim the Harbinger's battle standard for the Bastion.",
-          "description": "Collect abyss fragment (x1)."
+          "description": "Collect abyss fragment (x1). [Item: Abyss Fragment]"
         }
       ],
       "rewards": {
@@ -3272,7 +3272,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "The Severance Faultline threatens planetary stability. The Hegemony does not negotiate with nature — we conquer it.",
+      "description": "The Severance Faultline threatens planetary stability. The Hegemony does not negotiate with nature — we conquer it. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -3291,14 +3291,14 @@
           "target": "SEVERANCE_FAULTLINE",
           "count": 1,
           "desc": "Enter the Severance Faultline.",
-          "description": "Travel to SEVERANCE FAULTLINE."
+          "description": "Travel to SEVERANCE FAULTLINE. (Travel to: Severance Faultline, Shattered Heart)"
         },
         {
           "type": "collect",
           "target": "abyss_fragment",
           "count": 3,
           "desc": "Collect fault stability readings.",
-          "description": "Collect abyss fragment (x3)."
+          "description": "Collect abyss fragment (x3). [Item: Abyss Fragment]"
         }
       ],
       "rewards": {
@@ -3325,7 +3325,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Aethel Iron Carapaces have armor that rivals Hegemony steel. Destroy them and study their composition.",
+      "description": "Aethel Iron Carapaces have armor that rivals Hegemony steel. (Location: Severance Faultline, Commander Drax) Destroy them and study their composition.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -3351,7 +3351,7 @@
           "target": "crystal_core",
           "count": 3,
           "desc": "Collect armor samples for the forges.",
-          "description": "Collect crystal core (x3)."
+          "description": "Collect crystal core (x3). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -3378,7 +3378,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Crystal Tyrants have taken positions along the fault. They are obstacles. Remove them.",
+      "description": "Crystal Tyrants have taken positions along the fault. (Location: Severance Faultline, Commander Drax) They are obstacles. Remove them.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -3404,7 +3404,7 @@
           "target": "core_fragment",
           "count": 2,
           "desc": "Confirm positions cleared.",
-          "description": "Collect core fragment (x2)."
+          "description": "Collect core fragment (x2). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -3431,7 +3431,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Gigantic Jotunns blockade the main advance route. Break through. Nothing blocks the Hegemony advance.",
+      "description": "Gigantic Jotunns blockade the main advance route. (Location: Severance Faultline, Commander Drax) Break through. Nothing blocks the Hegemony advance.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -3457,7 +3457,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "Confirm advance route open.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -3484,7 +3484,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The Aethel Siphon Core is the planet's power source. The Hegemony will control the power. Enter and secure.",
+      "description": "The Aethel Siphon Core is the planet's power source. The Hegemony will control the power. Enter and secure. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -3503,14 +3503,14 @@
           "target": "AETHEL_SIPHON_CORE",
           "count": 1,
           "desc": "Enter the Aethel Siphon Core.",
-          "description": "Travel to AETHEL SIPHON CORE."
+          "description": "Travel to AETHEL SIPHON CORE. (Travel to: Aethel Siphon Core, Shattered Heart)"
         },
         {
           "type": "collect",
           "target": "monster_material",
           "count": 2,
           "desc": "Take power readings.",
-          "description": "Collect monster material (x2)."
+          "description": "Collect monster material (x2). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -3537,7 +3537,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Hostile entities infest the Core. Purge them. The Core must be secure for Hegemony power operations.",
+      "description": "Hostile entities infest the Core. (Location: Aethel Siphon Core, Commander Drax) Purge them. The Core must be secure for Hegemony power operations.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -3590,7 +3590,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Corrupted Behemoths assault the Core conduits. Defend the Core. Hegemony never surrenders a position.",
+      "description": "Corrupted Behemoths assault the Core conduits. (Location: Aethel Siphon Core, Commander Drax) Defend the Core. Hegemony never surrenders a position.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -3616,7 +3616,7 @@
           "target": "crystal_core",
           "count": 1,
           "desc": "Report successful defense.",
-          "description": "Collect crystal core (x1)."
+          "description": "Collect crystal core (x1). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -3643,7 +3643,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Rift Stalkers use micro-rifts for ambush tactics. Counter-ambush them. Hegemony soldiers do not get ambushed.",
+      "description": "Rift Stalkers use micro-rifts for ambush tactics. (Location: Aethel Siphon Core, Commander Drax) Counter-ambush them. Hegemony soldiers do not get ambushed.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -3669,7 +3669,7 @@
           "target": "rift_claw_fragment",
           "count": 1,
           "desc": "Confirm patrol route sweep.",
-          "description": "Collect rift claw fragment (x1)."
+          "description": "Collect rift claw fragment (x1). [Item: Rift Claw Fragment]"
         }
       ],
       "rewards": {
@@ -3696,7 +3696,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Intelligence confirms: the Gravity Titan is mobilizing. The Hegemony prepares for the largest military operation in our history.",
+      "description": "Intelligence confirms: the Gravity Titan is mobilizing. (Location: Aethel Siphon Core, Commander Drax) The Hegemony prepares for the largest military operation in our history.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -3704,7 +3704,7 @@
       },
       "requirements": {
         "min_level": 68,
-        "reputation_required": 4020,
+        "reputation_required": 230,
         "required_quests": [
           "fq_iron_068"
         ]
@@ -3715,7 +3715,7 @@
           "target": "monster_material",
           "count": 3,
           "desc": "Collect Titan mobilization intelligence.",
-          "description": "Collect monster material (x3)."
+          "description": "Collect monster material (x3). [Item: Monster Material]"
         },
         {
           "type": "kill",
@@ -3749,7 +3749,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "CRADLE_EXPANSE",
-      "description": "MAXIMUM PRIORITY: OPERATION TITANFALL. The Gravity Titan threatens to collapse Xylos. The Iron Hegemony will topple it. This is the largest military engagement in Hegemony history. Every soldier. Every tank. Every ounce of steel. BRING IT DOWN.",
+      "description": "MAXIMUM PRIORITY: OPERATION TITANFALL. (Location: Cradle Expanse, Commander Drax) The Gravity Titan threatens to collapse Xylos. The Iron Hegemony will topple it. This is the largest military engagement in Hegemony history. Every soldier. Every tank. Every ounce of steel. BRING IT DOWN.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -3782,7 +3782,7 @@
           "target": "raw_aethel_fragment",
           "count": 1,
           "desc": "Secure the Titan Core for Hegemony weapons research.",
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -3817,7 +3817,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The Prima Materia Forge will become the Hegemony's primary weapons factory. Secure it for mass production.",
+      "description": "The Prima Materia Forge will become the Hegemony's primary weapons factory. Secure it for mass production. Quest giver: Foreman Brigg at Titan Assembly Yard Command Post.",
       "quest_giver": {
         "npc_id": "npc_assembly_foreman",
         "name": "Foreman Brigg",
@@ -3836,14 +3836,14 @@
           "target": "PRIMA_MATERIA_FORGE",
           "count": 1,
           "desc": "Enter the Prima Materia Forge.",
-          "description": "Travel to PRIMA MATERIA FORGE."
+          "description": "Travel to PRIMA MATERIA FORGE. (Travel to: Prima Materia Forge, Shattered Heart)"
         },
         {
           "type": "collect",
           "target": "core_fragment",
           "count": 2,
           "desc": "Assess Forge infrastructure.",
-          "description": "Collect core fragment (x2)."
+          "description": "Collect core fragment (x2). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -3870,7 +3870,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Ancient Forge defenses still operate. Neutralize them. The Forge serves the Hegemony now.",
+      "description": "Ancient Forge defenses still operate. (Location: Prima Materia Forge, Commander Drax) Neutralize them. The Forge serves the Hegemony now.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -3896,7 +3896,7 @@
           "target": "carapace_fragment",
           "count": 2,
           "desc": "Confirm defense overrides.",
-          "description": "Collect carapace fragment (x2)."
+          "description": "Collect carapace fragment (x2). [Item: Carapace Fragment]"
         }
       ],
       "rewards": {
@@ -3923,7 +3923,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Corrupted Behemoths contaminate the Forge. Purify the facility. Hegemony weapons require pure materials.",
+      "description": "Corrupted Behemoths contaminate the Forge. (Location: Prima Materia Forge, Foreman Brigg) Purify the facility. Hegemony weapons require pure materials.",
       "quest_giver": {
         "npc_id": "npc_assembly_foreman",
         "name": "Foreman Brigg",
@@ -3949,7 +3949,7 @@
           "target": "crystal_core",
           "count": 1,
           "desc": "Confirm contamination cleared.",
-          "description": "Collect crystal core (x1)."
+          "description": "Collect crystal core (x1). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -3976,7 +3976,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Abyssal forces attempt to claim the Forge. Purge them with maximum force.",
+      "description": "Abyssal forces attempt to claim the Forge. (Location: Prima Materia Forge, Commander Drax) Purge them with maximum force.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -4029,7 +4029,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Jotunns use the Forge's heat as weapons. Disarm and destroy them. The Forge's fire belongs to the Hegemony.",
+      "description": "Jotunns use the Forge's heat as weapons. (Location: Prima Materia Forge, Foreman Brigg) Disarm and destroy them. The Forge's fire belongs to the Hegemony.",
       "quest_giver": {
         "npc_id": "npc_assembly_foreman",
         "name": "Foreman Brigg",
@@ -4055,7 +4055,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "Secure forge heat control.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -4082,7 +4082,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Operation Apex Production begins. The Forge will mass-produce Hegemony Apex-class weapons. Secure the production floor.",
+      "description": "Operation Apex Production begins. (Location: Prima Materia Forge, Foreman Brigg) The Forge will mass-produce Hegemony Apex-class weapons. Secure the production floor.",
       "quest_giver": {
         "npc_id": "npc_assembly_foreman",
         "name": "Foreman Brigg",
@@ -4108,7 +4108,7 @@
           "target": "raw_aethel_fragment",
           "count": 1,
           "desc": "Activate the production line.",
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -4135,7 +4135,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Titan Forge Automatons resist our control. Override them — by any means necessary.",
+      "description": "Titan Forge Automatons resist our control. (Location: Prima Materia Forge, Foreman Brigg) Override them — by any means necessary.",
       "quest_giver": {
         "npc_id": "npc_assembly_foreman",
         "name": "Foreman Brigg",
@@ -4161,7 +4161,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "Confirm override protocol active.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -4188,7 +4188,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Titan Proto Cores are failed Titans — but their materials are valuable. Recycle them into Hegemony steel.",
+      "description": "Titan Proto Cores are failed Titans — but their materials are valuable. (Location: Prima Materia Forge, Foreman Brigg) Recycle them into Hegemony steel.",
       "quest_giver": {
         "npc_id": "npc_assembly_foreman",
         "name": "Foreman Brigg",
@@ -4214,7 +4214,7 @@
           "target": "titan_core",
           "count": 1,
           "desc": "Process recycled Titan steel.",
-          "description": "Collect titan core (x1)."
+          "description": "Collect titan core (x1). [Item: Titan Core]"
         }
       ],
       "rewards": {
@@ -4241,7 +4241,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The final trial before Supreme General rank. Defeat both Titan and Harbinger in a single campaign. Show the galaxy what Hegemony steel can do.",
+      "description": "The final trial before Supreme General rank. (Location: Prima Materia Forge, Commander Drax) Defeat both Titan and Harbinger in a single campaign. Show the galaxy what Hegemony steel can do.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -4249,7 +4249,7 @@
       },
       "requirements": {
         "min_level": 78,
-        "reputation_required": 4620,
+        "reputation_required": 280,
         "required_quests": [
           "fq_iron_078"
         ]
@@ -4302,7 +4302,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "BASTION_CORE",
-      "description": "High Commander Varkas himself will pin the Supreme General insignia on your chest. Return to the Bastion. The Hegemony salutes you.",
+      "description": "High Commander Varkas himself will pin the Supreme General insignia on your chest. (Location: Bastion Core, Commander Drax) Return to the Bastion. The Hegemony salutes you.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -4310,7 +4310,7 @@
       },
       "requirements": {
         "min_level": 79,
-        "reputation_required": 4680,
+        "reputation_required": 330,
         "required_quests": [
           "fq_iron_079"
         ]
@@ -4321,14 +4321,14 @@
           "target": "BASTION_CORE",
           "count": 1,
           "desc": "Return to the Bastion.",
-          "description": "Travel to BASTION CORE."
+          "description": "Travel to BASTION CORE. (Travel to: Bastion Core)"
         },
         {
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
           "desc": "Receive the Supreme General insignia.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -4359,7 +4359,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "HIDDEN_AETHELGARDIAN_CITY",
-      "description": "The Hidden Aethelgardian City contains Precursor weapons technology. The Hegemony will not allow any faction to claim it first.",
+      "description": "The Hidden Aethelgardian City contains Precursor weapons technology. The Hegemony will not allow any faction to claim it first. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -4367,7 +4367,7 @@
       },
       "requirements": {
         "min_level": 80,
-        "reputation_required": 4740,
+        "reputation_required": 380,
         "required_quests": [
           "fq_iron_080"
         ]
@@ -4378,14 +4378,14 @@
           "target": "HIDDEN_AETHELGARDIAN_CITY",
           "count": 1,
           "desc": "Enter the Hidden Aethelgardian City.",
-          "description": "Travel to HIDDEN AETHELGARDIAN CITY."
+          "description": "Travel to HIDDEN AETHELGARDIAN CITY. (Travel to: Hidden Aethelgardian City)"
         },
         {
           "type": "collect",
           "target": "slime_core",
           "count": 3,
           "desc": "Recover Precursor weapons data.",
-          "description": "Collect slime core (x3)."
+          "description": "Collect slime core (x3). [Item: Slime Core]"
         }
       ],
       "rewards": {
@@ -4412,7 +4412,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "HIDDEN_AETHELGARDIAN_CITY",
-      "description": "The City has automated defenses. Destroy them. Hegemony takes what it wants.",
+      "description": "The City has automated defenses. (Location: Hidden Aethelgardian City, Commander Drax) Destroy them. Hegemony takes what it wants.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -4438,7 +4438,7 @@
           "target": "rift_claw_fragment",
           "count": 3,
           "desc": "Confirm city sectors secured.",
-          "description": "Collect rift claw fragment (x3)."
+          "description": "Collect rift claw fragment (x3). [Item: Rift Claw Fragment]"
         }
       ],
       "rewards": {
@@ -4465,7 +4465,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "HIDDEN_AETHELGARDIAN_CITY",
-      "description": "The City holds Precursor weapons caches. Secure them all for the Hegemony arsenal.",
+      "description": "The City holds Precursor weapons caches. (Location: Hidden Aethelgardian City, Commander Drax) Secure them all for the Hegemony arsenal.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -4484,7 +4484,7 @@
           "target": "void_channeler_core",
           "count": 5,
           "desc": "Secure weapons caches.",
-          "description": "Collect void channeler core (x5)."
+          "description": "Collect void channeler core (x5). [Item: Void Channeler Core]"
         },
         {
           "type": "kill",
@@ -4518,7 +4518,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "SHATTERED_HEART",
-      "description": "The Ashen Drake has evolved to Apex form. Eliminate it. Hegemony tolerates no rivals — especially winged ones.",
+      "description": "The Ashen Drake has evolved to Apex form. (Location: Shattered Heart, Commander Drax) Eliminate it. Hegemony tolerates no rivals — especially winged ones.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -4544,7 +4544,7 @@
           "target": "drake_heart",
           "count": 1,
           "desc": "Verify Apex elimination.",
-          "description": "Collect drake heart (x1)."
+          "description": "Collect drake heart (x1). [Item: Drake Heart]"
         }
       ],
       "rewards": {
@@ -4575,7 +4575,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Abyss Harbinger has been reborn. Destroy it again. And again if necessary. Hegemony victory is permanent.",
+      "description": "The Abyss Harbinger has been reborn. (Location: Void Echo Chasm, Commander Drax) Destroy it again. And again if necessary. Hegemony victory is permanent.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -4601,7 +4601,7 @@
           "target": "abyss_fragment",
           "count": 1,
           "desc": "Verify permanent destruction.",
-          "description": "Collect abyss fragment (x1)."
+          "description": "Collect abyss fragment (x1). [Item: Abyss Fragment]"
         }
       ],
       "rewards": {
@@ -4632,7 +4632,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "CRADLE_EXPANSE",
-      "description": "The Gravity Titan manifests once more. Hegemony response unchanged: destroy it. Again.",
+      "description": "The Gravity Titan manifests once more. (Location: Cradle Expanse, Commander Drax) Hegemony response unchanged: destroy it. Again.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -4658,7 +4658,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "Confirm Titan fall.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -4689,7 +4689,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "All three Apex entities — Drake, Titan, Harbinger. The Hegemony will destroy them all in a single campaign. Triple offensive authorized.",
+      "description": "All three Apex entities — Drake, Titan, Harbinger. (Location: Prima Materia Forge, Commander Drax) The Hegemony will destroy them all in a single campaign. Triple offensive authorized.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -4757,7 +4757,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The Aethel Siphon Core becomes Hegemony Central Command. Establish full military control of the planetary power grid.",
+      "description": "The Aethel Siphon Core becomes Hegemony Central Command. Establish full military control of the planetary power grid. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -4776,14 +4776,14 @@
           "target": "AETHEL_SIPHON_CORE",
           "count": 1,
           "desc": "Enter Core Command.",
-          "description": "Travel to AETHEL SIPHON CORE."
+          "description": "Travel to AETHEL SIPHON CORE. (Travel to: Aethel Siphon Core, Shattered Heart)"
         },
         {
           "type": "collect",
           "target": "stinger_core",
           "count": 5,
           "desc": "Deploy command beacons.",
-          "description": "Collect stinger core (x5)."
+          "description": "Collect stinger core (x5). [Item: Stinger Core]"
         }
       ],
       "rewards": {
@@ -4810,7 +4810,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The World Engine can reshape Xylos. The Hegemony will make it our ultimate weapon. Secure it absolutely.",
+      "description": "The World Engine can reshape Xylos. (Location: Aethel Siphon Core, Commander Drax) The Hegemony will make it our ultimate weapon. Secure it absolutely.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -4818,7 +4818,7 @@
       },
       "requirements": {
         "min_level": 88,
-        "reputation_required": 5220,
+        "reputation_required": 430,
         "required_quests": [
           "fq_iron_088"
         ]
@@ -4829,7 +4829,7 @@
           "target": "core_fragment",
           "count": 3,
           "desc": "Obtain Engine control codes.",
-          "description": "Collect core fragment (x3)."
+          "description": "Collect core fragment (x3). [Item: Core Fragment]"
         },
         {
           "type": "kill",
@@ -4863,7 +4863,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Activate the World Engine. This is the moment Hegemony dominance becomes absolute. Defend the activation at all costs.",
+      "description": "Activate the World Engine. (Location: Aethel Siphon Core, Commander Drax) This is the moment Hegemony dominance becomes absolute. Defend the activation at all costs.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -4871,7 +4871,7 @@
       },
       "requirements": {
         "min_level": 89,
-        "reputation_required": 5280,
+        "reputation_required": 480,
         "required_quests": [
           "fq_iron_089"
         ]
@@ -4896,7 +4896,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "Confirm Engine activation.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -4923,7 +4923,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "With the Engine online, remaining hostiles are flushed to the surface. Execute the final purge at the Faultline.",
+      "description": "With the Engine online, remaining hostiles are flushed to the surface. (Location: Severance Faultline, Commander Drax) Execute the final purge at the Faultline.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -4976,7 +4976,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Void is collapsing. Annihilate the remaining void forces. The Hegemony will erase the Abyss from history.",
+      "description": "The Void is collapsing. (Location: Void Echo Chasm, Commander Drax) Annihilate the remaining void forces. The Hegemony will erase the Abyss from history.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -5029,7 +5029,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "SHATTERED_HEART",
-      "description": "Crystal Tyrants make their last stand. Exterminate them. The Hegemony leaves no enemy standing.",
+      "description": "Crystal Tyrants make their last stand. (Location: Shattered Heart, Commander Drax) Exterminate them. The Hegemony leaves no enemy standing.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -5055,7 +5055,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "Confirm extermination complete.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -5082,7 +5082,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The Forge enters final mass production. Eliminate the last remaining threats to production.",
+      "description": "The Forge enters final mass production. (Location: Prima Materia Forge, Foreman Brigg) Eliminate the last remaining threats to production.",
       "quest_giver": {
         "npc_id": "npc_assembly_foreman",
         "name": "Foreman Brigg",
@@ -5135,7 +5135,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "CRADLE_EXPANSE",
-      "description": "The Cradle Expanse is now Hegemony sovereign territory. Enforce it.",
+      "description": "The Cradle Expanse is now Hegemony sovereign territory. Enforce it. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -5188,7 +5188,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "ORBITAL_SENTINEL_COMMAND",
-      "description": "From orbit, the Hegemony watches over our conquered world. Maintain orbital supremacy forever.",
+      "description": "From orbit, the Hegemony watches over our conquered world. (Location: Orbital Sentinel Command, Commander Drax) Maintain orbital supremacy forever.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -5241,7 +5241,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The Hegemony launches the Final Campaign to eliminate all significant threats. Channel your command authority into the war effort.",
+      "description": "The Hegemony launches the Final Campaign to eliminate all significant threats. (Location: Prima Materia Forge, Commander Drax) Channel your command authority into the war effort.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -5249,7 +5249,7 @@
       },
       "requirements": {
         "min_level": 96,
-        "reputation_required": 5700,
+        "reputation_required": 530,
         "required_quests": [
           "fq_iron_096"
         ]
@@ -5274,7 +5274,7 @@
           "target": "abyss_fragment",
           "count": 1,
           "desc": "Confirm Final Campaign complete.",
-          "description": "Collect abyss fragment (x1)."
+          "description": "Collect abyss fragment (x1). [Item: Abyss Fragment]"
         }
       ],
       "rewards": {
@@ -5301,7 +5301,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Only the ultimate conquest remains. Face the three Apex entities — Jotunn, Drake, Harbinger. The Hegemony conquers all.",
+      "description": "Only the ultimate conquest remains. (Location: Prima Materia Forge, Commander Drax) Face the three Apex entities — Jotunn, Drake, Harbinger. The Hegemony conquers all.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -5309,7 +5309,7 @@
       },
       "requirements": {
         "min_level": 97,
-        "reputation_required": 5760,
+        "reputation_required": 580,
         "required_quests": [
           "fq_iron_097"
         ]
@@ -5341,7 +5341,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "Claim the Conquest Seal.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -5376,7 +5376,7 @@
       "rank": "S",
       "faction": "IRON_HEGEMONY",
       "region": "VOID_ECHO_CHASM",
-      "description": "The deepest Void Echo Chasm holds the final test. Defeat the eternal forms of Titan and Harbinger in single combat. The Hegemony demands nothing less than total victory.",
+      "description": "The deepest Void Echo Chasm holds the final test. Defeat the eternal forms of Titan and Harbinger in single combat. The Hegemony demands nothing less than total victory. Quest giver: Commander Drax at Bastion Core Command Bunker.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -5384,7 +5384,7 @@
       },
       "requirements": {
         "min_level": 98,
-        "reputation_required": 5820,
+        "reputation_required": 630,
         "required_quests": [
           "fq_iron_098"
         ]
@@ -5395,7 +5395,7 @@
           "target": "VOID_ECHO_CHASM",
           "count": 1,
           "desc": "Descend to the deepest chasm.",
-          "description": "Travel to VOID ECHO CHASM."
+          "description": "Travel to VOID ECHO CHASM. (Travel to: Void Echo Chasm)"
         },
         {
           "type": "kill",
@@ -5416,7 +5416,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "CLAIM THE ETERNAL HEGEMON SEAL.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -5443,7 +5443,7 @@
       "rank": "SS",
       "faction": "IRON_HEGEMONY",
       "region": "BASTION_CORE",
-      "description": "You have conquered everything. Titan. Harbinger. Drake. All have fallen to Hegemony steel. Return to the Bastion as the ETERNAL HEGEMON. Your name will be forged into the Bastion's walls forever. Strength through Unity. Power through Conquest. Forever.",
+      "description": "You have conquered everything. (Location: Bastion Core, Commander Drax) Titan. Harbinger. Drake. All have fallen to Hegemony steel. Return to the Bastion as the ETERNAL HEGEMON. Your name will be forged into the Bastion's walls forever. Strength through Unity. Power through Conquest. Forever.",
       "quest_giver": {
         "npc_id": "npc_hegemony_commander",
         "name": "Commander Drax",
@@ -5451,7 +5451,7 @@
       },
       "requirements": {
         "min_level": 99,
-        "reputation_required": 5880,
+        "reputation_required": 680,
         "required_quests": [
           "fq_iron_099"
         ]
@@ -5462,14 +5462,14 @@
           "target": "BASTION_CORE",
           "count": 1,
           "desc": "Return to the Bastion as the Eternal Hegemon.",
-          "description": "Travel to BASTION CORE."
+          "description": "Travel to BASTION CORE. (Travel to: Bastion Core)"
         },
         {
           "type": "interact",
           "target": "npc_hegemony_commander",
           "count": 1,
           "desc": "Receive the Eternal Hegemon honors from High Commander Varkas.",
-          "description": "Speak with npc hegemony commander."
+          "description": "Speak with npc hegemony commander. (Commander Drax at Bastion Core Command Bunker)"
         }
       ],
       "rewards": {

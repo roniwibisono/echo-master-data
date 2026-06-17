@@ -7,7 +7,7 @@
       "rank": "D",
       "faction": "STARFORGED_LEGION",
       "region": "DUNE_OUTSKIRTS",
-      "description": "Grand Justiciar Aurelius speaks with the gravity of a man who has watched his people lose everything and chosen to build something harder in place of what was taken. The Starforged Legion arrived on Xylos as exiles — their home system shattered, their fleet battle-scarred, their code of honor the only thing that survived the journey intact. The Dune Outskirts are the first ground the Legion has claimed, and the Dune Scavengers defiling the sacred sands are the first test of whether Xylos will accept the Legion's authority. Purify it. The Legion claims ground by right of strength.",
+      "description": "Grand Justiciar Aurelius speaks with the gravity of a man who has watched his people lose everything and chosen to build something harder in place of what was taken. The Starforged Legion arrived on Xylos as exiles — their home system shattered, their fleet battle-scarred, their code of honor the only thing that survived the journey intact. The Dune Outskirts are the first ground the Legion has claimed, and the Dune Scavengers defiling the sacred sands are the first test of whether Xylos will accept the Legion's authority. Purify it. The Legion claims ground by right of strength. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -29,7 +29,7 @@
           "type": "collect",
           "target": "sand_claw",
           "count": 1,
-          "description": "Collect sand claw (x1)."
+          "description": "Collect sand claw (x1). [Item: Sand Claw]"
         }
       ],
       "rewards": {
@@ -56,7 +56,7 @@
       "rank": "D",
       "faction": "STARFORGED_LEGION",
       "region": "DUNE_OUTSKIRTS",
-      "description": "Sergeant Korg's briefing is blunt in the way that experienced soldiers are blunt when they respect the troops they are briefing: the Dune Stalkers hunt Legion caravans because no one has made hunting Legion caravans painful enough to stop. The Legion's code of honor has a specific clause for this: when an enemy hunts you, you hunt them in return, with greater force and complete commitment. A Legionnaire does not become prey. The Dune Stalkers learn this today.",
+      "description": "Sergeant Korg's briefing is blunt in the way that experienced soldiers are blunt when they respect the troops they are briefing: the Dune Stalkers hunt Legion caravans because no one has made hunting Legion caravans painful enough to stop. (Location: Dune Outskirts, Sergeant Korg) The Legion's code of honor has a specific clause for this: when an enemy hunts you, you hunt them in return, with greater force and complete commitment. A Legionnaire does not become prey. The Dune Stalkers learn this today.",
       "quest_giver": {
         "npc_id": "npc_drill_sergeant_korg",
         "name": "Grand Justiciar Aurelius",
@@ -64,7 +64,7 @@
       },
       "requirements": {
         "min_level": 1,
-        "reputation_required": 0,
+        "reputation_required": 5,
         "required_quests": [
           "fq_star_001"
         ]
@@ -80,7 +80,7 @@
           "type": "collect",
           "target": "sand_claw",
           "count": 3,
-          "description": "Collect sand claw (x3)."
+          "description": "Collect sand claw (x3). [Item: Sand Claw]"
         }
       ],
       "rewards": {
@@ -107,7 +107,7 @@
       "rank": "D",
       "faction": "STARFORGED_LEGION",
       "region": "DUNE_OUTSKIRTS",
-      "description": "Centurion Valka's first lesson to every new Legion recruit, delivered with the flat certainty of someone who has never been comfortable anywhere and has made that into a weapon: 'A Legionnaire fights on any terrain, against any enemy, in any condition.' The Scorched Scarabs burrowing beneath Legion outposts represent terrain that fights back. Good. That is the kind of terrain the Legion makes into an advantage. Dig them out. Fight them in their own element. The lesson is not about Scarabs.",
+      "description": "Centurion Valka's first lesson to every new Legion recruit, delivered with the flat certainty of someone who has never been comfortable anywhere and has made that into a weapon: 'A Legionnaire fights on any terrain, against any enemy, in any condition.' The Scorched Scarabs burrowing beneath Legion outposts represent terrain that fights back. (Location: Dune Outskirts, Sergeant Korg) Good. That is the kind of terrain the Legion makes into an advantage. Dig them out. Fight them in their own element. The lesson is not about Scarabs.",
       "quest_giver": {
         "npc_id": "npc_drill_sergeant_korg",
         "name": "Centurion Valka",
@@ -115,7 +115,7 @@
       },
       "requirements": {
         "min_level": 2,
-        "reputation_required": 60,
+        "reputation_required": 10,
         "required_quests": [
           "fq_star_002"
         ]
@@ -131,7 +131,7 @@
           "type": "collect",
           "target": "scarab_shell",
           "count": 3,
-          "description": "Collect scarab shell (x3)."
+          "description": "Collect scarab shell (x3). [Item: Scarab Shell]"
         }
       ],
       "rewards": {
@@ -158,7 +158,7 @@
       "rank": "D",
       "faction": "STARFORGED_LEGION",
       "region": "DUNE_OUTSKIRTS",
-      "description": "Sand Runners are fast creatures of the desert — built by evolution to be faster than anything that chases them. Grand Justiciar Aurelius chose this quarry deliberately for the fourth trial: the Legion is not trained to be the fastest thing in any environment. The Legion is trained to be the most relentless. Swift prey outlasts the burst-speed predator. It does not outlast the predator that never stops. Run them down. This is not speed training. This is will training.",
+      "description": "Sand Runners are fast creatures of the desert — built by evolution to be faster than anything that chases them. (Location: Dune Outskirts, General Kaelen) Grand Justiciar Aurelius chose this quarry deliberately for the fourth trial: the Legion is not trained to be the fastest thing in any environment. The Legion is trained to be the most relentless. Swift prey outlasts the burst-speed predator. It does not outlast the predator that never stops. Run them down. This is not speed training. This is will training.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -166,7 +166,7 @@
       },
       "requirements": {
         "min_level": 3,
-        "reputation_required": 120,
+        "reputation_required": 15,
         "required_quests": [
           "fq_star_003"
         ]
@@ -182,7 +182,7 @@
           "type": "collect",
           "target": "sand_claw",
           "count": 3,
-          "description": "Collect sand claw (x3)."
+          "description": "Collect sand claw (x3). [Item: Sand Claw]"
         }
       ],
       "rewards": {
@@ -217,7 +217,7 @@
       },
       "requirements": {
         "min_level": 4,
-        "reputation_required": 150,
+        "reputation_required": 20,
         "required_quests": [
           "fq_star_004"
         ]
@@ -227,7 +227,7 @@
           "type": "interact",
           "target": "npc_legion_class_trainer",
           "count": 1,
-          "description": "Report to Centurion Valka."
+          "description": "Report to Centurion Valka. (Centurion Valka at Forge Canyon Depths Combat Arena)"
         },
         {
           "type": "interact",
@@ -239,7 +239,7 @@
           "type": "kill",
           "target": "DUNE_SCAVENGER",
           "count": 3,
-          "description": "Prove your worth against Dune Gnashers."
+          "description": "Prove your worth against Dune Gnashers. [Dune Scavenger]"
         }
       ],
       "rewards": {
@@ -282,7 +282,7 @@
       "rank": "D",
       "faction": "STARFORGED_LEGION",
       "region": "SCORCHED_BADLANDS",
-      "description": "The Scorched Badlands are everything the Legion was warned about Xylos: harsh, contested, filled with creatures that have evolved aggression as a survival trait in a world saturated with corrupted aethel. Grand Justiciar Aurelius does not send the Legion into such terrain reluctantly. The badlands are exactly the environment Legion soldiers were hardened for. Establish the forward command post. The badlands are lawless until the Legion arrives. After the Legion arrives, they are not.",
+      "description": "The Scorched Badlands are everything the Legion was warned about Xylos: harsh, contested, filled with creatures that have evolved aggression as a survival trait in a world saturated with corrupted aethel. Grand Justiciar Aurelius does not send the Legion into such terrain reluctantly. The badlands are exactly the environment Legion soldiers were hardened for. Establish the forward command post. The badlands are lawless until the Legion arrives. After the Legion arrives, they are not. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -290,7 +290,7 @@
       },
       "requirements": {
         "min_level": 5,
-        "reputation_required": 240,
+        "reputation_required": 25,
         "required_quests": [
           "fq_star_005"
         ]
@@ -306,7 +306,7 @@
           "type": "collect",
           "target": "ember_fang",
           "count": 1,
-          "description": "Collect ember fang (x1)."
+          "description": "Collect ember fang (x1). [Item: Ember Fang]"
         }
       ],
       "rewards": {
@@ -341,7 +341,7 @@
       },
       "requirements": {
         "min_level": 6,
-        "reputation_required": 300,
+        "reputation_required": 30,
         "required_quests": [
           "fq_star_006"
         ]
@@ -357,7 +357,7 @@
           "type": "collect",
           "target": "ember_fang",
           "count": 3,
-          "description": "Collect ember fang (x3)."
+          "description": "Collect ember fang (x3). [Item: Ember Fang]"
         }
       ],
       "rewards": {
@@ -392,7 +392,7 @@
       },
       "requirements": {
         "min_level": 7,
-        "reputation_required": 360,
+        "reputation_required": 35,
         "required_quests": [
           "fq_star_007"
         ]
@@ -402,13 +402,13 @@
           "type": "kill",
           "target": "DUNE_SCORPION",
           "count": 6,
-          "description": "Exterminate Scorpions."
+          "description": "Exterminate Scorpions. [Dune Scorpion]"
         },
         {
           "type": "collect",
           "target": "scorpion_stinger",
           "count": 3,
-          "description": "Collect scorpion stinger (x3)."
+          "description": "Collect scorpion stinger (x3). [Item: Scorpion Stinger]"
         }
       ],
       "rewards": {
@@ -435,7 +435,7 @@
       "rank": "D",
       "faction": "STARFORGED_LEGION",
       "region": "SCORCHED_BADLANDS",
-      "description": "The Dune Stinger is the apex predator of the Scorched Badlands — the creature that everything else in this harsh landscape fears. Grand Justiciar Aurelius says the Legion's arrival has changed the ecosystem's top position. A Legionnaire does not exist at the bottom of any food chain. Bring the Dune Stinger down. The Ash Hounds that escort it will learn what apex means in the Legion's presence. Leave the Stinger's venom sac intact — it has battlefield applications.",
+      "description": "The Dune Stinger is the apex predator of the Scorched Badlands — the creature that everything else in this harsh landscape fears. Grand Justiciar Aurelius says the Legion's arrival has changed the ecosystem's top position. A Legionnaire does not exist at the bottom of any food chain. Bring the Dune Stinger down. The Ash Hounds that escort it will learn what apex means in the Legion's presence. Leave the Stinger's venom sac intact — it has battlefield applications. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -443,7 +443,7 @@
       },
       "requirements": {
         "min_level": 8,
-        "reputation_required": 420,
+        "reputation_required": 40,
         "required_quests": [
           "fq_star_008"
         ]
@@ -459,7 +459,7 @@
           "type": "kill",
           "target": "ASH_HOUND",
           "count": 3,
-          "description": "Clear Hound escorts."
+          "description": "Clear Hound escorts. [Ash Hound]"
         }
       ],
       "rewards": {
@@ -486,7 +486,7 @@
       "rank": "D",
       "faction": "STARFORGED_LEGION",
       "region": "SCORCHED_BADLANDS",
-      "description": "A Scrapfield Enforcer has occupied the Badlands' central canyon, disrupting Legion patrol routes and attacking any soldier who enters its claimed zone. Grand Justiciar Aurelius reviews the reconnaissance report and issues a single order: 'Challenge it.' The Legion does not route around territorial claims. The Legion does not negotiate access to ground it has decided belongs to the Legion. Challenge the Enforcer's authority with the Brute escorts cleared first. Claim the canyon. There is no territory the Legion cannot take.",
+      "description": "A Scrapfield Enforcer has occupied the Badlands' central canyon, disrupting Legion patrol routes and attacking any soldier who enters its claimed zone. (Location: Scorched Badlands, General Kaelen) Grand Justiciar Aurelius reviews the reconnaissance report and issues a single order: 'Challenge it.' The Legion does not route around territorial claims. The Legion does not negotiate access to ground it has decided belongs to the Legion. Challenge the Enforcer's authority with the Brute escorts cleared first. Claim the canyon. There is no territory the Legion cannot take.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -494,7 +494,7 @@
       },
       "requirements": {
         "min_level": 9,
-        "reputation_required": 480,
+        "reputation_required": 45,
         "required_quests": [
           "fq_star_009"
         ]
@@ -504,13 +504,13 @@
           "type": "kill",
           "target": "SCRAPFIELD_ENFORCER",
           "count": 1,
-          "description": "Defeat the Enforcer."
+          "description": "Defeat the Enforcer. [Scrapfield Enforcer]"
         },
         {
           "type": "kill",
           "target": "BADLAND_BRUTE",
           "count": 2,
-          "description": "Clear Brute escorts."
+          "description": "Clear Brute escorts. [Badland Brute]"
         }
       ],
       "rewards": {
@@ -545,7 +545,7 @@
       },
       "requirements": {
         "min_level": 10,
-        "reputation_required": 540,
+        "reputation_required": 50,
         "required_quests": [
           "fq_star_010"
         ]
@@ -561,7 +561,7 @@
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -596,7 +596,7 @@
       },
       "requirements": {
         "min_level": 11,
-        "reputation_required": 600,
+        "reputation_required": 55,
         "required_quests": [
           "fq_star_011"
         ]
@@ -606,13 +606,13 @@
           "type": "kill",
           "target": "WARPATH_SCOUT",
           "count": 5,
-          "description": "Eliminate enemy scouts."
+          "description": "Eliminate enemy scouts. [Warpath Scout]"
         },
         {
           "type": "collect",
           "target": "rare_emblem",
           "count": 2,
-          "description": "Collect rare emblem (x2)."
+          "description": "Collect rare emblem (x2). [Item: Rare Emblem]"
         }
       ],
       "rewards": {
@@ -639,7 +639,7 @@
       "rank": "C",
       "faction": "STARFORGED_LEGION",
       "region": "MESA_WARPATH",
-      "description": "Warpath Veterans are experienced enemy combatants — soldiers who have survived enough battles to develop the adaptive tactical thinking that makes them genuinely dangerous. Veteran Gorok says this without disrespect for the dead: 'Veterans die the same as recruits when the tactics are right.' The Legion's training is superior. The Legion's weapons are superior. The Legion's commitment is absolute. Prove all three against the Veterans in the Warpath's central approach zone. Collect their insignia as documentation of the engagement.",
+      "description": "Warpath Veterans are experienced enemy combatants — soldiers who have survived enough battles to develop the adaptive tactical thinking that makes them genuinely dangerous. (Location: Mesa Warpath, Veteran Gorok) Veteran Gorok says this without disrespect for the dead: 'Veterans die the same as recruits when the tactics are right.' The Legion's training is superior. The Legion's weapons are superior. The Legion's commitment is absolute. Prove all three against the Veterans in the Warpath's central approach zone. Collect their insignia as documentation of the engagement.",
       "quest_giver": {
         "npc_id": "npc_warpath_veteran",
         "name": "Centurion Valka",
@@ -647,7 +647,7 @@
       },
       "requirements": {
         "min_level": 12,
-        "reputation_required": 660,
+        "reputation_required": 60,
         "required_quests": [
           "fq_star_012"
         ]
@@ -657,13 +657,13 @@
           "type": "kill",
           "target": "WARPATH_VETERAN",
           "count": 5,
-          "description": "Defeat enemy veterans."
+          "description": "Defeat enemy veterans. [Warpath Veteran]"
         },
         {
           "type": "collect",
           "target": "rare_emblem",
           "count": 2,
-          "description": "Collect rare emblem (x2)."
+          "description": "Collect rare emblem (x2). [Item: Rare Emblem]"
         }
       ],
       "rewards": {
@@ -690,7 +690,7 @@
       "rank": "C",
       "faction": "STARFORGED_LEGION",
       "region": "MESA_WARPATH",
-      "description": "A Warpath Champion — an enemy warrior who has distinguished themselves enough to earn a direct challenge from other worthy combatants — has issued a formal engagement notice to the Legion's forward units. In Starforged Legion doctrine, a challenge from a worthy opponent is not just accepted; it is honored. Veteran Gorok will observe the engagement from the ridge. Grand Justiciar Aurelius says: 'Show the Warpath what a Legionnaire looks like in direct combat. Make the Champion's fall worthy of both of you.'",
+      "description": "A Warpath Champion — an enemy warrior who has distinguished themselves enough to earn a direct challenge from other worthy combatants — has issued a formal engagement notice to the Legion's forward units. (Location: Mesa Warpath, Veteran Gorok) In Starforged Legion doctrine, a challenge from a worthy opponent is not just accepted; it is honored. Veteran Gorok will observe the engagement from the ridge. Grand Justiciar Aurelius says: 'Show the Warpath what a Legionnaire looks like in direct combat. Make the Champion's fall worthy of both of you.'",
       "quest_giver": {
         "npc_id": "npc_warpath_veteran",
         "name": "Grand Justiciar Aurelius",
@@ -698,7 +698,7 @@
       },
       "requirements": {
         "min_level": 13,
-        "reputation_required": 720,
+        "reputation_required": 65,
         "required_quests": [
           "fq_star_013"
         ]
@@ -714,7 +714,7 @@
           "type": "collect",
           "target": "rare_emblem",
           "count": 1,
-          "description": "Collect rare emblem (x1)."
+          "description": "Collect rare emblem (x1). [Item: Rare Emblem]"
         }
       ],
       "rewards": {
@@ -749,7 +749,7 @@
       },
       "requirements": {
         "min_level": 14,
-        "reputation_required": 780,
+        "reputation_required": 70,
         "required_quests": [
           "fq_star_014"
         ]
@@ -759,13 +759,13 @@
           "type": "kill",
           "target": "WARPATH_SCOUT",
           "count": 4,
-          "description": "Sweep Scouts."
+          "description": "Sweep Scouts. [Warpath Scout]"
         },
         {
           "type": "kill",
           "target": "WARPATH_VETERAN",
           "count": 4,
-          "description": "Sweep Veterans."
+          "description": "Sweep Veterans. [Warpath Veteran]"
         }
       ],
       "rewards": {
@@ -800,7 +800,7 @@
       },
       "requirements": {
         "min_level": 15,
-        "reputation_required": 840,
+        "reputation_required": 75,
         "required_quests": [
           "fq_star_015"
         ]
@@ -810,13 +810,13 @@
           "type": "kill",
           "target": "WARPATH_CHAMPION",
           "count": 3,
-          "description": "Break Champion cohort."
+          "description": "Break Champion cohort. [Warpath Champion]"
         },
         {
           "type": "collect",
           "target": "rare_emblem",
           "count": 1,
-          "description": "Collect rare emblem (x1)."
+          "description": "Collect rare emblem (x1). [Item: Rare Emblem]"
         }
       ],
       "rewards": {
@@ -843,7 +843,7 @@
       "rank": "C",
       "faction": "STARFORGED_LEGION",
       "region": "MESA_WARPATH",
-      "description": "General Kaelen's requisition from the Warpath's strategic materials cache requires specific components that the Legion's forward engineering team needs for fortification construction. The Warpath Wreckers that have been stripping the battlefield's decommissioned equipment are interfering with the recovery operation. The Legion's forward logistics are not a negotiable resource — every hour of construction delay is a fortification gap that a Champion or Scout will eventually find. Clear the Wreckers. Retrieve the components. Deliver them by nightfall.",
+      "description": "General Kaelen's requisition from the Warpath's strategic materials cache requires specific components that the Legion's forward engineering team needs for fortification construction. (Location: Mesa Warpath, Scout Jace) The Warpath Wreckers that have been stripping the battlefield's decommissioned equipment are interfering with the recovery operation. The Legion's forward logistics are not a negotiable resource — every hour of construction delay is a fortification gap that a Champion or Scout will eventually find. Clear the Wreckers. Retrieve the components. Deliver them by nightfall.",
       "quest_giver": {
         "npc_id": "npc_dune_scout",
         "name": "Grand Justiciar Aurelius",
@@ -851,7 +851,7 @@
       },
       "requirements": {
         "min_level": 16,
-        "reputation_required": 900,
+        "reputation_required": 80,
         "required_quests": [
           "fq_star_016"
         ]
@@ -861,13 +861,13 @@
           "type": "collect",
           "target": "rare_emblem",
           "count": 4,
-          "description": "Collect rare emblem (x4)."
+          "description": "Collect rare emblem (x4). [Item: Rare Emblem]"
         },
         {
           "type": "kill",
           "target": "WARPATH_SCOUT",
           "count": 3,
-          "description": "Clear the recovery zone."
+          "description": "Clear the recovery zone. [Warpath Scout]"
         }
       ],
       "rewards": {
@@ -894,7 +894,7 @@
       "rank": "C",
       "faction": "STARFORGED_LEGION",
       "region": "MESA_WARPATH",
-      "description": "A War Machine Sentinel Commander has activated deep in the Warpath's archaeological layer — a pre-Severance automated command unit that has been running battle protocols for centuries against enemies that no longer exist. It is now running those protocols against the Legion, and its targeting is advanced enough to make it a genuine threat rather than an obstacle. Grand Justiciar Aurelius studies the Sentinel's battle patterns with professional respect before issuing the order: 'Destroy it. Learn from its tactics first. Then destroy it.'",
+      "description": "A War Machine Sentinel Commander has activated deep in the Warpath's archaeological layer — a pre-Severance automated command unit that has been running battle protocols for centuries against enemies that no longer exist. (Location: Mesa Warpath, General Kaelen) It is now running those protocols against the Legion, and its targeting is advanced enough to make it a genuine threat rather than an obstacle. Grand Justiciar Aurelius studies the Sentinel's battle patterns with professional respect before issuing the order: 'Destroy it. Learn from its tactics first. Then destroy it.'",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -902,7 +902,7 @@
       },
       "requirements": {
         "min_level": 17,
-        "reputation_required": 960,
+        "reputation_required": 85,
         "required_quests": [
           "fq_star_017"
         ]
@@ -918,7 +918,7 @@
           "type": "kill",
           "target": "WARPATH_CHAMPION",
           "count": 2,
-          "description": "Clear Champion guards."
+          "description": "Clear Champion guards. [Warpath Champion]"
         }
       ],
       "rewards": {
@@ -945,7 +945,7 @@
       "rank": "C",
       "faction": "STARFORGED_LEGION",
       "region": "MESA_WARPATH",
-      "description": "A Resonance Echo has formed in the Warpath's deep canyon, drawn by the electromagnetic activity from the Sentinel Commander's activation and now disrupting Legion communication systems. Grand Justiciar Aurelius is notably less interested in the theological implications than the Children of the Shard would be, or the scientific implications the Arcanum Seekers would catalog. His interest is operational: the Echo is interfering with Legion tactical coordination. Eliminate it. A Legionnaire does not permit their communications to be compromised by any entity.",
+      "description": "A Resonance Echo has formed in the Warpath's deep canyon, drawn by the electromagnetic activity from the Sentinel Commander's activation and now disrupting Legion communication systems. (Location: Mesa Warpath, Veteran Gorok) Grand Justiciar Aurelius is notably less interested in the theological implications than the Children of the Shard would be, or the scientific implications the Arcanum Seekers would catalog. His interest is operational: the Echo is interfering with Legion tactical coordination. Eliminate it. A Legionnaire does not permit their communications to be compromised by any entity.",
       "quest_giver": {
         "npc_id": "npc_warpath_veteran",
         "name": "Grand Justiciar Aurelius",
@@ -953,7 +953,7 @@
       },
       "requirements": {
         "min_level": 18,
-        "reputation_required": 1020,
+        "reputation_required": 90,
         "required_quests": [
           "fq_star_018"
         ]
@@ -963,19 +963,19 @@
           "type": "kill",
           "target": "WARPATH_SCOUT",
           "count": 4,
-          "description": "Final Scout trial."
+          "description": "Final Scout trial. [Warpath Scout]"
         },
         {
           "type": "kill",
           "target": "WARPATH_VETERAN",
           "count": 4,
-          "description": "Final Veteran trial."
+          "description": "Final Veteran trial. [Warpath Veteran]"
         },
         {
           "type": "kill",
           "target": "WARPATH_CHAMPION",
           "count": 2,
-          "description": "Final Champion trial."
+          "description": "Final Champion trial. [Warpath Champion]"
         }
       ],
       "rewards": {
@@ -1002,7 +1002,7 @@
       "rank": "C",
       "faction": "STARFORGED_LEGION",
       "region": "FORTRESS_KAELEN",
-      "description": "Grand Justiciar Aurelius stands at Fortress Kaelen's ceremony platform — not a common occurrence, as the Justiciar's presence at individual promotions is reserved for those the Legion considers strategically significant. Your Advanced Combat elevation is, apparently, one of those. Centurion Valka is already preparing the Forge Canyon assignment briefing. The Forge Canyon Depths represent a new phase of the Legion's Xylos campaign, and those who operate there are expected to perform at a level commensurate with their rank. Advance. The Legion is watching.",
+      "description": "Grand Justiciar Aurelius stands at Fortress Kaelen's ceremony platform — not a common occurrence, as the Justiciar's presence at individual promotions is reserved for those the Legion considers strategically significant. Your Advanced Combat elevation is, apparently, one of those. Centurion Valka is already preparing the Forge Canyon assignment briefing. The Forge Canyon Depths represent a new phase of the Legion's Xylos campaign, and those who operate there are expected to perform at a level commensurate with their rank. Advance. The Legion is watching. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -1010,7 +1010,7 @@
       },
       "requirements": {
         "min_level": 19,
-        "reputation_required": 1080,
+        "reputation_required": 95,
         "required_quests": [
           "fq_star_019"
         ]
@@ -1026,7 +1026,7 @@
           "type": "collect",
           "target": "titan_core",
           "count": 1,
-          "description": "Collect titan core (x1)."
+          "description": "Collect titan core (x1). [Item: Titan Core]"
         }
       ],
       "rewards": {
@@ -1053,7 +1053,7 @@
       "rank": "B",
       "faction": "STARFORGED_LEGION",
       "region": "FORGE_CANYON_DEPTHS",
-      "description": "The Forge Canyon Depths are where the Starforged Legion draws its name from — a canyon complex of such geological intensity and electromagnetic activity that Legion historians believe the original Starforged weapons were created here by the Aethelgardians, using the canyon's natural forge-temperatures to work metals that no other location on Xylos could process. The Legion does not consider this heritage an accident. They consider it a sign that Xylos's most powerful forge was waiting for the most powerful warriors. Enter and take what belongs to the Legion's history.",
+      "description": "The Forge Canyon Depths are where the Starforged Legion draws its name from — a canyon complex of such geological intensity and electromagnetic activity that Legion historians believe the original Starforged weapons were created here by the Aethelgardians, using the canyon's natural forge-temperatures to work metals that no other location on Xylos could process. The Legion does not consider this heritage an accident. They consider it a sign that Xylos's most powerful forge was waiting for the most powerful warriors. Enter and take what belongs to the Legion's history. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -1061,7 +1061,7 @@
       },
       "requirements": {
         "min_level": 20,
-        "reputation_required": 1140,
+        "reputation_required": 100,
         "required_quests": [
           "fq_star_020"
         ]
@@ -1071,13 +1071,13 @@
           "type": "travel",
           "target": "FORGE_CANYON_DEPTHS",
           "count": 1,
-          "description": "Enter Forge Canyon."
+          "description": "Enter Forge Canyon. (Travel to: Forge Canyon Depths)"
         },
         {
           "type": "collect",
           "target": "rat_hide",
           "count": 2,
-          "description": "Collect rat hide (x2)."
+          "description": "Collect rat hide (x2). [Item: Rat Hide]"
         }
       ],
       "rewards": {
@@ -1104,7 +1104,7 @@
       "rank": "B",
       "faction": "STARFORGED_LEGION",
       "region": "FORGE_CANYON_DEPTHS",
-      "description": "Titan Assembly Drones — construction machines left in the Forge Canyon Depths by Iron Hegemony engineers who began a Titan-construction project here and abandoned it when the canyon's electromagnetic interference proved too extreme for their equipment — have been operating autonomously since the Hegemony's withdrawal, attacking anything that enters the construction zone. Centurion Valka examines their wreckage with professional interest: 'Iron Hegemony construction is good. Not Legion good. But good.' Destroy the Drones. Salvage the circuits for the Legion's own construction program.",
+      "description": "Titan Assembly Drones — construction machines left in the Forge Canyon Depths by Iron Hegemony engineers who began a Titan-construction project here and abandoned it when the canyon's electromagnetic interference proved too extreme for their equipment — have been operating autonomously since the Hegemony's withdrawal, attacking anything that enters the construction zone. Centurion Valka examines their wreckage with professional interest: 'Iron Hegemony construction is good. Not Legion good. But good.' Destroy the Drones. Salvage the circuits for the Legion's own construction program. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Centurion Valka",
@@ -1112,7 +1112,7 @@
       },
       "requirements": {
         "min_level": 21,
-        "reputation_required": 1200,
+        "reputation_required": 110,
         "required_quests": [
           "fq_star_021"
         ]
@@ -1122,13 +1122,13 @@
           "type": "kill",
           "target": "TITAN_ASSEMBLY_DRONE",
           "count": 6,
-          "description": "Destroy enemy drones."
+          "description": "Destroy enemy drones. [Titan Assembly Drone]"
         },
         {
           "type": "collect",
           "target": "circuit_fragment",
           "count": 2,
-          "description": "Collect circuit fragment (x2)."
+          "description": "Collect circuit fragment (x2). [Item: Circuit Fragment]"
         }
       ],
       "rewards": {
@@ -1155,7 +1155,7 @@
       "rank": "B",
       "faction": "STARFORGED_LEGION",
       "region": "FORGE_CANYON_DEPTHS",
-      "description": "The Titan Assembly Sentinels that the Iron Hegemony left in the Forge Canyon Depths as the final security layer are the most dangerous hardware the Hegemony built before their withdrawal — combat-optimized giants that have been running battle protocols in the canyon for months without maintenance or oversight. Grand Justiciar Aurelius reviews the specification data with the appreciation of someone who respects capable engineering regardless of who built it. Then he orders them destroyed. The Forge Canyon belongs to the Legion now.",
+      "description": "The Titan Assembly Sentinels that the Iron Hegemony left in the Forge Canyon Depths as the final security layer are the most dangerous hardware the Hegemony built before their withdrawal — combat-optimized giants that have been running battle protocols in the canyon for months without maintenance or oversight. Grand Justiciar Aurelius reviews the specification data with the appreciation of someone who respects capable engineering regardless of who built it. Then he orders them destroyed. The Forge Canyon belongs to the Legion now. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Centurion Valka",
@@ -1163,7 +1163,7 @@
       },
       "requirements": {
         "min_level": 22,
-        "reputation_required": 1260,
+        "reputation_required": 120,
         "required_quests": [
           "fq_star_022"
         ]
@@ -1173,13 +1173,13 @@
           "type": "kill",
           "target": "TITAN_ASSEMBLY_SENTINEL",
           "count": 3,
-          "description": "Destroy Sentinels."
+          "description": "Destroy Sentinels. [Titan Assembly Sentinel]"
         },
         {
           "type": "collect",
           "target": "sensor_chip",
           "count": 1,
-          "description": "Collect sensor chip (x1)."
+          "description": "Collect sensor chip (x1). [Item: Sensor Chip]"
         }
       ],
       "rewards": {
@@ -1206,7 +1206,7 @@
       "rank": "B",
       "faction": "STARFORGED_LEGION",
       "region": "FORGE_CANYON_DEPTHS",
-      "description": "Warpath Scouts have infiltrated the Forge Canyon Depths — enemy forward elements from the Mesa Warpath command, tracking the Legion's movement into the canyon zone and reporting back with information that will eventually result in a coordinated response the Legion would prefer to avoid. Grand Justiciar Aurelius's instruction is tactical and final: 'We do not operate in territory while enemy intelligence assets observe us. Clear the scouts. All of them.'",
+      "description": "Warpath Scouts have infiltrated the Forge Canyon Depths — enemy forward elements from the Mesa Warpath command, tracking the Legion's movement into the canyon zone and reporting back with information that will eventually result in a coordinated response the Legion would prefer to avoid. Grand Justiciar Aurelius's instruction is tactical and final: 'We do not operate in territory while enemy intelligence assets observe us. Clear the scouts. All of them.' Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -1214,7 +1214,7 @@
       },
       "requirements": {
         "min_level": 23,
-        "reputation_required": 1320,
+        "reputation_required": 130,
         "required_quests": [
           "fq_star_023"
         ]
@@ -1224,13 +1224,13 @@
           "type": "kill",
           "target": "WARPATH_SCOUT",
           "count": 4,
-          "description": "Clear Scouts."
+          "description": "Clear Scouts. [Warpath Scout]"
         },
         {
           "type": "kill",
           "target": "WARPATH_VETERAN",
           "count": 3,
-          "description": "Clear Veterans."
+          "description": "Clear Veterans. [Warpath Veteran]"
         }
       ],
       "rewards": {
@@ -1257,7 +1257,7 @@
       "rank": "B",
       "faction": "STARFORGED_LEGION",
       "region": "FORGE_CANYON_DEPTHS",
-      "description": "The Titan Proto-Cores deep in the Forge Canyon Depths are the most concentrated examples of Aethelgardian manufacturing technology remaining on Xylos — forged from Prima Materia in the canyon's natural furnaces before the Severance. The Iron Hegemony wanted them. The Concordium's engineers have theoretical interest in them. The Starforged Legion has a simpler claim: they are in the Legion's canyon, and the Legion takes what is in its territory. Assault the Proto-Core positions. Take what belongs to the strongest.",
+      "description": "The Titan Proto-Cores deep in the Forge Canyon Depths are the most concentrated examples of Aethelgardian manufacturing technology remaining on Xylos — forged from Prima Materia in the canyon's natural furnaces before the Severance. The Iron Hegemony wanted them. The Concordium's engineers have theoretical interest in them. The Starforged Legion has a simpler claim: they are in the Legion's canyon, and the Legion takes what is in its territory. Assault the Proto-Core positions. Take what belongs to the strongest. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Centurion Valka",
@@ -1265,7 +1265,7 @@
       },
       "requirements": {
         "min_level": 24,
-        "reputation_required": 1380,
+        "reputation_required": 140,
         "required_quests": [
           "fq_star_024"
         ]
@@ -1275,13 +1275,13 @@
           "type": "kill",
           "target": "TITAN_PROTO_CORE",
           "count": 2,
-          "description": "Destroy Proto Cores."
+          "description": "Destroy Proto Cores. [Titan Proto Core]"
         },
         {
           "type": "collect",
           "target": "titan_core",
           "count": 1,
-          "description": "Collect titan core (x1)."
+          "description": "Collect titan core (x1). [Item: Titan Core]"
         }
       ],
       "rewards": {
@@ -1308,7 +1308,7 @@
       "rank": "B",
       "faction": "STARFORGED_LEGION",
       "region": "BORDER_SKIRMISH_RING",
-      "description": "The Border Skirmish Ring is where the Legion's territorial expansion meets the resistance of every other faction that has been operating in the neutral zones. Grand Justiciar Aurelius's assessment of the Ring is strategic and direct: 'Every meter we hold here is a meter the others do not.' The Legion's doctrine of territorial expansion does not wait for other factions to yield ground willingly — it presents them with a situation in which yielding is the most rational choice. Enter the Ring. Begin that presentation.",
+      "description": "The Border Skirmish Ring is where the Legion's territorial expansion meets the resistance of every other faction that has been operating in the neutral zones. Grand Justiciar Aurelius's assessment of the Ring is strategic and direct: 'Every meter we hold here is a meter the others do not.' The Legion's doctrine of territorial expansion does not wait for other factions to yield ground willingly — it presents them with a situation in which yielding is the most rational choice. Enter the Ring. Begin that presentation. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -1316,7 +1316,7 @@
       },
       "requirements": {
         "min_level": 25,
-        "reputation_required": 1440,
+        "reputation_required": 150,
         "required_quests": [
           "fq_star_025"
         ]
@@ -1326,13 +1326,13 @@
           "type": "travel",
           "target": "BORDER_SKIRMISH_RING",
           "count": 1,
-          "description": "Enter."
+          "description": "Enter. (Travel to: Border Skirmish Ring)"
         },
         {
           "type": "collect",
           "target": "monster_material",
           "count": 2,
-          "description": "Collect monster material (x2)."
+          "description": "Collect monster material (x2). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -1359,7 +1359,7 @@
       "rank": "B",
       "faction": "STARFORGED_LEGION",
       "region": "BORDER_SKIRMISH_RING",
-      "description": "Aethel Rift Stalkers have established a presence in the Border Skirmish Ring sectors the Legion has claimed — void-touched predators that recognize no territorial boundary the Legion has planted. Grand Justiciar Aurelius does not distinguish between hostile factions and hostile creatures in his operational doctrine: anything in Legion territory that has not been authorized to be there is a target. Clear the Rift Stalkers from the claimed sectors. Show the border zone what Legion territorial enforcement looks like.",
+      "description": "Aethel Rift Stalkers have established a presence in the Border Skirmish Ring sectors the Legion has claimed — void-touched predators that recognize no territorial boundary the Legion has planted. Grand Justiciar Aurelius does not distinguish between hostile factions and hostile creatures in his operational doctrine: anything in Legion territory that has not been authorized to be there is a target. Clear the Rift Stalkers from the claimed sectors. Show the border zone what Legion territorial enforcement looks like. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -1367,7 +1367,7 @@
       },
       "requirements": {
         "min_level": 26,
-        "reputation_required": 1500,
+        "reputation_required": 160,
         "required_quests": [
           "fq_star_026"
         ]
@@ -1377,13 +1377,13 @@
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 6,
-          "description": "Patrol."
+          "description": "Patrol. [Aethel Rift Stalker]"
         },
         {
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -1410,7 +1410,7 @@
       "rank": "B",
       "faction": "STARFORGED_LEGION",
       "region": "BORDER_SKIRMISH_RING",
-      "description": "An Aethel Behemoth has been using the Border Skirmish Ring as its seasonal territory for what the Legion's ecological assessors estimate is decades — long before any faction claimed this zone. Centurion Valka frames the mission with characteristic directness: 'The Behemoth does not know the Ring changed hands. Inform it.' The Aethel Rift Stalkers that run with the Behemoth are its escort, not its protectors. Clear the escorts first. The Behemoth will understand the message when there is nothing left to misunderstand.",
+      "description": "An Aethel Behemoth has been using the Border Skirmish Ring as its seasonal territory for what the Legion's ecological assessors estimate is decades — long before any faction claimed this zone. Centurion Valka frames the mission with characteristic directness: 'The Behemoth does not know the Ring changed hands. Inform it.' The Aethel Rift Stalkers that run with the Behemoth are its escort, not its protectors. Clear the escorts first. The Behemoth will understand the message when there is nothing left to misunderstand. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Centurion Valka",
@@ -1418,7 +1418,7 @@
       },
       "requirements": {
         "min_level": 27,
-        "reputation_required": 1560,
+        "reputation_required": 170,
         "required_quests": [
           "fq_star_027"
         ]
@@ -1428,13 +1428,13 @@
           "type": "kill",
           "target": "AETHEL_BEHEMOTH",
           "count": 2,
-          "description": "Defeat."
+          "description": "Defeat. [Aethel Behemoth]"
         },
         {
           "type": "collect",
           "target": "raw_aethel_core",
           "count": 1,
-          "description": "Collect raw aethel core (x1)."
+          "description": "Collect raw aethel core (x1). [Item: Raw Aethel Core]"
         }
       ],
       "rewards": {
@@ -1461,7 +1461,7 @@
       "rank": "B",
       "faction": "STARFORGED_LEGION",
       "region": "FORGE_CANYON_DEPTHS",
-      "description": "The final Titan Assembly Sentinels in the Forge Canyon Depths represent the Iron Hegemony's last operational presence in territory the Legion has claimed. Grand Justiciar Aurelius does not permit competing operational presences in Legion-claimed territory. These Sentinels have been running Hegemony battle protocols since the Hegemony's withdrawal and they will continue to do so until someone destroys them. The Legion is that someone. Mastery of the Forge Canyon requires removing every piece of the previous tenant.",
+      "description": "The final Titan Assembly Sentinels in the Forge Canyon Depths represent the Iron Hegemony's last operational presence in territory the Legion has claimed. Grand Justiciar Aurelius does not permit competing operational presences in Legion-claimed territory. These Sentinels have been running Hegemony battle protocols since the Hegemony's withdrawal and they will continue to do so until someone destroys them. The Legion is that someone. Mastery of the Forge Canyon requires removing every piece of the previous tenant. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Centurion Valka",
@@ -1469,7 +1469,7 @@
       },
       "requirements": {
         "min_level": 28,
-        "reputation_required": 1620,
+        "reputation_required": 180,
         "required_quests": [
           "fq_star_028"
         ]
@@ -1479,13 +1479,13 @@
           "type": "kill",
           "target": "TITAN_ASSEMBLY_SENTINEL",
           "count": 4,
-          "description": "Master."
+          "description": "Master. [Titan Assembly Sentinel]"
         },
         {
           "type": "collect",
           "target": "scrap_core",
           "count": 1,
-          "description": "Collect scrap core (x1)."
+          "description": "Collect scrap core (x1). [Item: Scrap Core]"
         }
       ],
       "rewards": {
@@ -1512,7 +1512,7 @@
       "rank": "B",
       "faction": "STARFORGED_LEGION",
       "region": "FORTRESS_KAELEN",
-      "description": "Centurion Valka speaks the words that the Legion's code reserves for soldiers who have proven themselves in the hardest terrain on Xylos: 'You have earned the Second Trial.' The Resonance Echo from the Warpath must be confronted again — it has grown stronger, drawn by the canyon's electromagnetic activity. The Shard Pulse Tyrant of the Hegemony's Forge represents the hardest combat challenge the Forge Canyon offers. These are the Second Trial's two tests. Pass both. Grand Justiciar Aurelius will conduct the Ascension ceremony personally.",
+      "description": "Centurion Valka speaks the words that the Legion's code reserves for soldiers who have proven themselves in the hardest terrain on Xylos: 'You have earned the Second Trial.' The Resonance Echo from the Warpath must be confronted again — it has grown stronger, drawn by the canyon's electromagnetic activity. (Location: Fortress Kaelen, Centurion Valka) The Shard Pulse Tyrant of the Hegemony's Forge represents the hardest combat challenge the Forge Canyon offers. These are the Second Trial's two tests. Pass both. Grand Justiciar Aurelius will conduct the Ascension ceremony personally.",
       "quest_giver": {
         "npc_id": "npc_legion_class_trainer",
         "name": "Centurion Valka",
@@ -1520,7 +1520,7 @@
       },
       "requirements": {
         "min_level": 29,
-        "reputation_required": 1680,
+        "reputation_required": 190,
         "required_quests": [
           "fq_star_029"
         ]
@@ -1530,19 +1530,19 @@
           "type": "interact",
           "target": "npc_legion_class_trainer",
           "count": 1,
-          "description": "Report to Centurion Valka."
+          "description": "Report to Centurion Valka. (Centurion Valka at Forge Canyon Depths Combat Arena)"
         },
         {
           "type": "kill",
           "target": "RESONANCE_ECHO",
           "count": 1,
-          "description": "Prove strength."
+          "description": "Prove strength. [Resonance Echo]"
         },
         {
           "type": "kill",
           "target": "TITAN_PROTO_CORE",
           "count": 1,
-          "description": "Prove endurance."
+          "description": "Prove endurance. [Titan Proto Core]"
         }
       ],
       "rewards": {
@@ -1573,7 +1573,7 @@
       "rank": "A",
       "faction": "STARFORGED_LEGION",
       "region": "ORBITAL_SENTINEL_COMMAND",
-      "description": "Grand Justiciar Aurelius stands at the Orbital Sentinel Command's threshold and makes the announcement that no previous Legion commander has been able to make: 'The Legion reaches the stars.' Not metaphorically — the Orbital Sentinel Command represents the Legion's first foothold above Xylos's atmosphere, a position that allows the Legion to observe every other faction's movements from a height that confers absolute tactical advantage. Report to Orbital Command. The Legion's campaign on Xylos has entered its orbital phase.",
+      "description": "Grand Justiciar Aurelius stands at the Orbital Sentinel Command's threshold and makes the announcement that no previous Legion commander has been able to make: 'The Legion reaches the stars.' Not metaphorically — the Orbital Sentinel Command represents the Legion's first foothold above Xylos's atmosphere, a position that allows the Legion to observe every other faction's movements from a height that confers absolute tactical advantage. Report to Orbital Command. The Legion's campaign on Xylos has entered its orbital phase. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -1581,7 +1581,7 @@
       },
       "requirements": {
         "min_level": 30,
-        "reputation_required": 1740,
+        "reputation_required": 200,
         "required_quests": [
           "fq_star_030"
         ]
@@ -1591,13 +1591,13 @@
           "type": "travel",
           "target": "ORBITAL_SENTINEL_COMMAND",
           "count": 1,
-          "description": "Take to the skies."
+          "description": "Take to the skies. (Travel to: Orbital Sentinel Command)"
         },
         {
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -1624,7 +1624,7 @@
       "rank": "A",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "The Ashen Drake in the Cradle Expanse is the apex creature of the most contested zone on Xylos — a living measure of whether the Legion's soldiers are genuinely prepared for what the Expanse requires. Grand Justiciar Aurelius frames the Drake engagement as a test, not just a tactical objective: 'The Drake does not fear anything in the Expanse. That changes today.' Observe the Drake's behavior. The observation data alone has strategic value. Then challenge it. The Drake's defeat is the Legion's declaration that the Expanse answers to the Legion now.",
+      "description": "The Ashen Drake in the Cradle Expanse is the apex creature of the most contested zone on Xylos — a living measure of whether the Legion's soldiers are genuinely prepared for what the Expanse requires. Grand Justiciar Aurelius frames the Drake engagement as a test, not just a tactical objective: 'The Drake does not fear anything in the Expanse. That changes today.' Observe the Drake's behavior. The observation data alone has strategic value. Then challenge it. The Drake's defeat is the Legion's declaration that the Expanse answers to the Legion now. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -1632,7 +1632,7 @@
       },
       "requirements": {
         "min_level": 31,
-        "reputation_required": 1800,
+        "reputation_required": 225,
         "required_quests": [
           "fq_star_031"
         ]
@@ -1642,13 +1642,13 @@
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "description": "Challenge the Drake."
+          "description": "Challenge the Drake. [Ashen Drake]"
         },
         {
           "type": "collect",
           "target": "ancient_scale",
           "count": 1,
-          "description": "Collect ancient scale (x1)."
+          "description": "Collect ancient scale (x1). [Item: Ancient Scale]"
         }
       ],
       "rewards": {
@@ -1675,7 +1675,7 @@
       "rank": "A",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "The Aethel Iron Carapace creatures spreading through the Cradle Expanse are a direct strategic threat to the Legion's supply lanes — their shells deflect standard Legion weapons and their territorial clustering in the Expanse's mineral zones blocks access to resources the Legion needs for the Forge Canyon construction program. Centurion Valka has already run the breach calculations. Six Carapace must be cleared from the primary supply corridor. Three crystal cores recovered for the armor-penetration research program. This is the Legion's resource war.",
+      "description": "The Aethel Iron Carapace creatures spreading through the Cradle Expanse are a direct strategic threat to the Legion's supply lanes — their shells deflect standard Legion weapons and their territorial clustering in the Expanse's mineral zones blocks access to resources the Legion needs for the Forge Canyon construction program. Centurion Valka has already run the breach calculations. Six Carapace must be cleared from the primary supply corridor. Three crystal cores recovered for the armor-penetration research program. This is the Legion's resource war. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -1683,7 +1683,7 @@
       },
       "requirements": {
         "min_level": 32,
-        "reputation_required": 1860,
+        "reputation_required": 250,
         "required_quests": [
           "fq_star_032"
         ]
@@ -1693,13 +1693,13 @@
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 6,
-          "description": "Breach."
+          "description": "Breach. [Aethel Iron Carapace]"
         },
         {
           "type": "collect",
           "target": "carapace_fragment",
           "count": 3,
-          "description": "Collect carapace fragment (x3)."
+          "description": "Collect carapace fragment (x3). [Item: Carapace Fragment]"
         }
       ],
       "rewards": {
@@ -1726,7 +1726,7 @@
       "rank": "A",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Corrupted Behemoths — once the great natural guardians of the Cradle Expanse, twisted beyond recognition by the Concordium's extraction operations — now threaten the Legion's operational positions in the Expanse with the particular danger of creatures whose strength was never meant to be turned hostile. Grand Justiciar Aurelius hunts them with the grim pragmatism of someone who understands the tragedy without letting it stop the mission: 'They cannot be saved. They can be ended. End them cleanly.'",
+      "description": "Corrupted Behemoths — once the great natural guardians of the Cradle Expanse, twisted beyond recognition by the Concordium's extraction operations — now threaten the Legion's operational positions in the Expanse with the particular danger of creatures whose strength was never meant to be turned hostile. Grand Justiciar Aurelius hunts them with the grim pragmatism of someone who understands the tragedy without letting it stop the mission: 'They cannot be saved. They can be ended. End them cleanly.' Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Centurion Valka",
@@ -1734,7 +1734,7 @@
       },
       "requirements": {
         "min_level": 33,
-        "reputation_required": 1920,
+        "reputation_required": 275,
         "required_quests": [
           "fq_star_033"
         ]
@@ -1744,13 +1744,13 @@
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 2,
-          "description": "Hunt."
+          "description": "Hunt. [Aethel Corrupted Behemoth]"
         },
         {
           "type": "collect",
           "target": "crystal_core",
           "count": 1,
-          "description": "Collect crystal core (x1)."
+          "description": "Collect crystal core (x1). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -1777,7 +1777,7 @@
       "rank": "A",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Abyssal Reavers have penetrated the Cradle Expanse's Legion-controlled sectors — the void's forward elements, testing the Legion's defensive perimeter with the methodical patience of something that does not feel urgency. The Legion's code of honor does not extend to void entities; there is no worthy combat with the void, only elimination. Four Reavers, cleared from the Legion's operational zone, is today's answer to the void's advance. Tomorrow's answer will be the same.",
+      "description": "Aethel Abyssal Reavers have penetrated the Cradle Expanse's Legion-controlled sectors — the void's forward elements, testing the Legion's defensive perimeter with the methodical patience of something that does not feel urgency. The Legion's code of honor does not extend to void entities; there is no worthy combat with the void, only elimination. Four Reavers, cleared from the Legion's operational zone, is today's answer to the void's advance. Tomorrow's answer will be the same. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -1785,7 +1785,7 @@
       },
       "requirements": {
         "min_level": 34,
-        "reputation_required": 1980,
+        "reputation_required": 300,
         "required_quests": [
           "fq_star_034"
         ]
@@ -1795,13 +1795,13 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 4,
-          "description": "Engage."
+          "description": "Engage. [Aethel Abyssal Reaver]"
         },
         {
           "type": "collect",
           "target": "void_channeler_core",
           "count": 1,
-          "description": "Collect void channeler core (x1)."
+          "description": "Collect void channeler core (x1). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -1828,7 +1828,7 @@
       "rank": "A",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Rift Stalkers are using the Cradle Expanse's electromagnetic currents as patrol routes above the Legion's operational zones — maintaining aerial superiority over terrain the Legion has claimed on the ground. Grand Justiciar Aurelius's operational doctrine covers this explicitly: the Legion claims all dimensions of the territory it occupies, not just the ground layer. Clear the Rift Stalkers from the Expanse airspace. Neutralize the Void Channelers that are directing their movement patterns. Legion territory is Legion territory at all altitudes.",
+      "description": "Aethel Rift Stalkers are using the Cradle Expanse's electromagnetic currents as patrol routes above the Legion's operational zones — maintaining aerial superiority over terrain the Legion has claimed on the ground. Grand Justiciar Aurelius's operational doctrine covers this explicitly: the Legion claims all dimensions of the territory it occupies, not just the ground layer. Clear the Rift Stalkers from the Expanse airspace. Neutralize the Void Channelers that are directing their movement patterns. Legion territory is Legion territory at all altitudes. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -1836,7 +1836,7 @@
       },
       "requirements": {
         "min_level": 35,
-        "reputation_required": 2040,
+        "reputation_required": 325,
         "required_quests": [
           "fq_star_035"
         ]
@@ -1846,13 +1846,13 @@
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 6,
-          "description": "Defend."
+          "description": "Defend. [Aethel Rift Stalker]"
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 3,
-          "description": "Neutralize."
+          "description": "Neutralize. [Aethel Void Channeler]"
         }
       ],
       "rewards": {
@@ -1879,7 +1879,7 @@
       "rank": "A",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "The Ashen Drake has returned to the Cradle Expanse following its earlier encounter with the Legion. Grand Justiciar Aurelius reviews the intelligence with what might be approval: 'It came back. That is either courage or stupidity.' In the Legion's code, courage deserves respect. The Drake's return, regardless of the reason, is an opportunity to prove that the Legion's first engagement was not anomalous. Defeat the Drake a second time. Collect the heart. The Legion's judgment of the Expanse's apex creature is final and consistent.",
+      "description": "The Ashen Drake has returned to the Cradle Expanse following its earlier encounter with the Legion. Grand Justiciar Aurelius reviews the intelligence with what might be approval: 'It came back. That is either courage or stupidity.' In the Legion's code, courage deserves respect. The Drake's return, regardless of the reason, is an opportunity to prove that the Legion's first engagement was not anomalous. Defeat the Drake a second time. Collect the heart. The Legion's judgment of the Expanse's apex creature is final and consistent. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -1887,7 +1887,7 @@
       },
       "requirements": {
         "min_level": 36,
-        "reputation_required": 2100,
+        "reputation_required": 350,
         "required_quests": [
           "fq_star_036"
         ]
@@ -1897,13 +1897,13 @@
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "description": "Execute judgment."
+          "description": "Execute judgment. [Ashen Drake]"
         },
         {
           "type": "collect",
           "target": "ancient_scale",
           "count": 1,
-          "description": "Collect ancient scale (x1)."
+          "description": "Collect ancient scale (x1). [Item: Ancient Scale]"
         }
       ],
       "rewards": {
@@ -1930,7 +1930,7 @@
       "rank": "A",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "The Aethel Iron Carapace creatures have regrouped in the Expanse's northern sectors — there are eight of them now, a larger concentration than the first engagement. Centurion Valka is not concerned. The Legion does not operate on the principle that a larger number of the same threat constitutes a different kind of problem. Eight Carapace are eight individual targets with the same solution. Clear them. Recover the crystal cores. The Expanse belongs to whoever is strong enough to keep it. The Legion is that whoever.",
+      "description": "The Aethel Iron Carapace creatures have regrouped in the Expanse's northern sectors — there are eight of them now, a larger concentration than the first engagement. (Location: Cradle Expanse, General Kaelen) Centurion Valka is not concerned. The Legion does not operate on the principle that a larger number of the same threat constitutes a different kind of problem. Eight Carapace are eight individual targets with the same solution. Clear them. Recover the crystal cores. The Expanse belongs to whoever is strong enough to keep it. The Legion is that whoever.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Centurion Valka",
@@ -1938,7 +1938,7 @@
       },
       "requirements": {
         "min_level": 37,
-        "reputation_required": 2160,
+        "reputation_required": 375,
         "required_quests": [
           "fq_star_037"
         ]
@@ -1948,13 +1948,13 @@
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
-          "description": "Conquer."
+          "description": "Conquer. [Aethel Iron Carapace]"
         },
         {
           "type": "collect",
           "target": "carapace_fragment",
           "count": 1,
-          "description": "Collect carapace fragment (x1)."
+          "description": "Collect carapace fragment (x1). [Item: Carapace Fragment]"
         }
       ],
       "rewards": {
@@ -1981,7 +1981,7 @@
       "rank": "A",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "The Aethel Abyssal Reavers and Void Channelers have mounted a coordinated incursion into the Expanse — five Reavers supported by three Channelers, moving with the tactical discipline that indicates external coordination. Grand Justiciar Aurelius's battle briefing contains a note that his soldiers rarely hear: 'This is organized.' The void's counter-offensive against the Legion's Expanse positions is the most sophisticated threat the Reavers have presented. Break it surgically. Void Channelers first — remove the coordination. Then the Reavers. Leave no element of this counter-offensive operational.",
+      "description": "The Aethel Abyssal Reavers and Void Channelers have mounted a coordinated incursion into the Expanse — five Reavers supported by three Channelers, moving with the tactical discipline that indicates external coordination. (Location: Cradle Expanse, General Kaelen) Grand Justiciar Aurelius's battle briefing contains a note that his soldiers rarely hear: 'This is organized.' The void's counter-offensive against the Legion's Expanse positions is the most sophisticated threat the Reavers have presented. Break it surgically. Void Channelers first — remove the coordination. Then the Reavers. Leave no element of this counter-offensive operational.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -1989,7 +1989,7 @@
       },
       "requirements": {
         "min_level": 38,
-        "reputation_required": 2220,
+        "reputation_required": 400,
         "required_quests": [
           "fq_star_038"
         ]
@@ -1999,13 +1999,13 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 6,
-          "description": "Counter."
+          "description": "Counter. [Aethel Abyssal Reaver]"
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 3,
-          "description": "Silence."
+          "description": "Silence. [Aethel Void Channeler]"
         }
       ],
       "rewards": {
@@ -2032,7 +2032,7 @@
       "rank": "A",
       "faction": "STARFORGED_LEGION",
       "region": "FORTRESS_KAELEN",
-      "description": "Grand Justiciar Aurelius stands at the ceremony platform in Fortress Kaelen's inner sanctum — the chamber that has witnessed every major elevation in the Legion's history on Xylos — and the ceremony is brief and absolute, as all Legion ceremonies are. The Master of the Starforged elevation requires the final trial: the Drake defeated a third time, a Behemoth engaged at full strength, a Leviathan from the deep guided to rest. These are the three creatures that measure the limits of what a Legionnaire can face. Pass all three. The Legion's highest recognition awaits.",
+      "description": "Grand Justiciar Aurelius stands at the ceremony platform in Fortress Kaelen's inner sanctum — the chamber that has witnessed every major elevation in the Legion's history on Xylos — and the ceremony is brief and absolute, as all Legion ceremonies are. The Master of the Starforged elevation requires the final trial: the Drake defeated a third time, a Behemoth engaged at full strength, a Leviathan from the deep guided to rest. These are the three creatures that measure the limits of what a Legionnaire can face. Pass all three. The Legion's highest recognition awaits. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -2040,7 +2040,7 @@
       },
       "requirements": {
         "min_level": 39,
-        "reputation_required": 2280,
+        "reputation_required": 425,
         "required_quests": [
           "fq_star_039"
         ]
@@ -2050,19 +2050,19 @@
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "description": "Conquer Drake."
+          "description": "Conquer Drake. [Ashen Drake]"
         },
         {
           "type": "kill",
           "target": "AETHEL_BEHEMOTH",
           "count": 1,
-          "description": "Conquer Behemoth."
+          "description": "Conquer Behemoth. [Aethel Behemoth]"
         },
         {
           "type": "kill",
           "target": "WARPATH_CHAMPION",
           "count": 2,
-          "description": "Conquer Champions."
+          "description": "Conquer Champions. [Warpath Champion]"
         }
       ],
       "rewards": {
@@ -2089,7 +2089,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Grand Justiciar Aurelius describes the Void Echo Chasm to new arrivals with the candor that experienced warriors use when they want their soldiers to survive: 'Everything in the Chasm will try to kill you. Some of it will succeed if you let your guard down. Do not let your guard down.' The Legion does not romanticize the darkness the way the Children of the Shard do, or study it the way the Arcanum Seekers would. The Legion enters it because the Legion enters every territory that needs to be controlled. Light in the Chasm: establish the Legion's presence.",
+      "description": "Grand Justiciar Aurelius describes the Void Echo Chasm to new arrivals with the candor that experienced warriors use when they want their soldiers to survive: 'Everything in the Chasm will try to kill you. Some of it will succeed if you let your guard down. Do not let your guard down.' The Legion does not romanticize the darkness the way the Children of the Shard do, or study it the way the Arcanum Seekers would. The Legion enters it because the Legion enters every territory that needs to be controlled. Light in the Chasm: establish the Legion's presence. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -2097,7 +2097,7 @@
       },
       "requirements": {
         "min_level": 40,
-        "reputation_required": 2340,
+        "reputation_required": 450,
         "required_quests": [
           "fq_star_040"
         ]
@@ -2107,13 +2107,13 @@
           "type": "travel",
           "target": "VOID_ECHO_CHASM",
           "count": 1,
-          "description": "Enter."
+          "description": "Enter. (Travel to: Void Echo Chasm)"
         },
         {
           "type": "collect",
           "target": "void_channeler_core",
           "count": 3,
-          "description": "Collect void channeler core (x3)."
+          "description": "Collect void channeler core (x3). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -2140,7 +2140,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Void Reavers — entities born from the Chasm's accumulated void energy — present a unique tactical challenge in that standard engagement doctrines do not fully apply to creatures with no physical mass in the conventional sense. Centurion Valka's tactical brief covers this with characteristic efficiency: 'They die the same as everything else when you hit them hard enough. Find the hard enough. Document it. Apply it six times.' The Legion builds operational doctrine from every engagement. Void Reavers are today's data set.",
+      "description": "Void Reavers — entities born from the Chasm's accumulated void energy — present a unique tactical challenge in that standard engagement doctrines do not fully apply to creatures with no physical mass in the conventional sense. (Location: Void Echo Chasm, General Kaelen) Centurion Valka's tactical brief covers this with characteristic efficiency: 'They die the same as everything else when you hit them hard enough. Find the hard enough. Document it. Apply it six times.' The Legion builds operational doctrine from every engagement. Void Reavers are today's data set.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Centurion Valka",
@@ -2148,7 +2148,7 @@
       },
       "requirements": {
         "min_level": 41,
-        "reputation_required": 2400,
+        "reputation_required": 500,
         "required_quests": [
           "fq_star_041"
         ]
@@ -2158,13 +2158,13 @@
           "type": "kill",
           "target": "VOID_REAVER",
           "count": 6,
-          "description": "Purge."
+          "description": "Purge. [Void Reaver]"
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 4,
-          "description": "Purge."
+          "description": "Purge. [Aethel Void Channeler]"
         }
       ],
       "rewards": {
@@ -2191,7 +2191,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Aethel Abyssal Reavers — the void's most developed entities in the Chasm's mid-levels — are more organized than the basic Void Reavers above, capable of coordinating ambushes in the Chasm's narrow access passages. Grand Justiciar Aurelius reviewed the ambush tactics the Reavers have been using against other factions' incursion teams and made a single note: 'Predictable after the second encounter.' The Legion's tactical advantage over the void is that the void's patterns are learnable. Learn them. Then break them. Then eliminate the ambush force.",
+      "description": "Aethel Abyssal Reavers — the void's most developed entities in the Chasm's mid-levels — are more organized than the basic Void Reavers above, capable of coordinating ambushes in the Chasm's narrow access passages. (Location: Void Echo Chasm, General Kaelen) Grand Justiciar Aurelius reviewed the ambush tactics the Reavers have been using against other factions' incursion teams and made a single note: 'Predictable after the second encounter.' The Legion's tactical advantage over the void is that the void's patterns are learnable. Learn them. Then break them. Then eliminate the ambush force.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Centurion Valka",
@@ -2199,7 +2199,7 @@
       },
       "requirements": {
         "min_level": 42,
-        "reputation_required": 2460,
+        "reputation_required": 550,
         "required_quests": [
           "fq_star_042"
         ]
@@ -2209,13 +2209,13 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Hunt."
+          "description": "Hunt. [Aethel Abyssal Reaver]"
         },
         {
           "type": "collect",
           "target": "raw_aethel_fragment",
           "count": 2,
-          "description": "Collect raw aethel fragment (x2)."
+          "description": "Collect raw aethel fragment (x2). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -2242,7 +2242,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Corrupted Behemoths in the Chasm's lower levels are the most dangerous physical threats the Legion has encountered in the Void Echo Chasm — creatures that were once among the most powerful living entities on Xylos, now driven by pure corrupted aggression without the natural territorial caution that made them manageable before. Grand Justiciar Aurelius's battle brief is three words: 'Execute with precision.' No ceremony, no theological consideration, no hesitation. These creatures are threats. The Legion eliminates threats.",
+      "description": "Corrupted Behemoths in the Chasm's lower levels are the most dangerous physical threats the Legion has encountered in the Void Echo Chasm — creatures that were once among the most powerful living entities on Xylos, now driven by pure corrupted aggression without the natural territorial caution that made them manageable before. Grand Justiciar Aurelius's battle brief is three words: 'Execute with precision.' No ceremony, no theological consideration, no hesitation. These creatures are threats. The Legion eliminates threats. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -2250,7 +2250,7 @@
       },
       "requirements": {
         "min_level": 43,
-        "reputation_required": 2520,
+        "reputation_required": 600,
         "required_quests": [
           "fq_star_043"
         ]
@@ -2260,13 +2260,13 @@
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
-          "description": "Execute."
+          "description": "Execute. [Aethel Corrupted Behemoth]"
         },
         {
           "type": "collect",
           "target": "crystal_core",
           "count": 1,
-          "description": "Collect crystal core (x1)."
+          "description": "Collect crystal core (x1). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -2293,7 +2293,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Soul Fragmenters — entities that devour the soul-echoes trapped in the Chasm since the Great Severance — are, in the Legion's operational assessment, primarily a threat-elimination target. Centurion Valka does not engage with the theological implications of what Soul Fragmenters are doing to the Severance's trapped souls. The Legion's code does not require theological engagement — it requires tactical effectiveness. Two Soul Fragmenters are in the Chasm's designated elimination zone. The solution is the same as it always is in the Legion's code: strength, application, completion.",
+      "description": "Soul Fragmenters — entities that devour the soul-echoes trapped in the Chasm since the Great Severance — are, in the Legion's operational assessment, primarily a threat-elimination target. (Location: Void Echo Chasm, General Kaelen) Centurion Valka does not engage with the theological implications of what Soul Fragmenters are doing to the Severance's trapped souls. The Legion's code does not require theological engagement — it requires tactical effectiveness. Two Soul Fragmenters are in the Chasm's designated elimination zone. The solution is the same as it always is in the Legion's code: strength, application, completion.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Centurion Valka",
@@ -2301,7 +2301,7 @@
       },
       "requirements": {
         "min_level": 44,
-        "reputation_required": 2580,
+        "reputation_required": 650,
         "required_quests": [
           "fq_star_044"
         ]
@@ -2311,13 +2311,13 @@
           "type": "kill",
           "target": "SOUL_FRAGMENTER",
           "count": 2,
-          "description": "Break."
+          "description": "Break. [Soul Fragmenter]"
         },
         {
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2344,7 +2344,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Chrono Wraiths operate in temporal fractures that the Chasm's structure creates — points where the Great Severance's temporal damage has created loops that feed the Wraith indefinitely. Grand Justiciar Aurelius's tactical brief acknowledges the unusual nature of the target without elaborating on it: 'It exists in a time loop. Break the loop by destroying the anchor. The anchor is the Wraith. This is not philosophically complicated.' Two Chrono Wraiths, two temporal loops dissolved. The Legion clears time the same way it clears terrain.",
+      "description": "Chrono Wraiths operate in temporal fractures that the Chasm's structure creates — points where the Great Severance's temporal damage has created loops that feed the Wraith indefinitely. (Location: Void Echo Chasm, General Kaelen) Grand Justiciar Aurelius's tactical brief acknowledges the unusual nature of the target without elaborating on it: 'It exists in a time loop. Break the loop by destroying the anchor. The anchor is the Wraith. This is not philosophically complicated.' Two Chrono Wraiths, two temporal loops dissolved. The Legion clears time the same way it clears terrain.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -2352,7 +2352,7 @@
       },
       "requirements": {
         "min_level": 45,
-        "reputation_required": 2640,
+        "reputation_required": 700,
         "required_quests": [
           "fq_star_045"
         ]
@@ -2362,13 +2362,13 @@
           "type": "kill",
           "target": "CHRONO_WRAITH",
           "count": 2,
-          "description": "Eliminate."
+          "description": "Eliminate. [Chrono Wraith]"
         },
         {
           "type": "collect",
           "target": "monster_material",
           "count": 1,
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -2395,7 +2395,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "A Gigantic Jotunn occupies the Chasm passage that the Legion's advance requires. Grand Justiciar Aurelius's battle brief is one of the shortest on record: 'The mountain is in our way. Move it.' The Jotunn's geological nature and ancient claim to the deep stone is not a factor in Legion operational planning. What is a factor: it is in Legion territory, it is blocking a Legion advance, and it will be removed by Legion force or by understanding that the Legion does not stop. The Jotunn will understand one of these things.",
+      "description": "A Gigantic Jotunn occupies the Chasm passage that the Legion's advance requires. (Location: Void Echo Chasm, General Kaelen) Grand Justiciar Aurelius's battle brief is one of the shortest on record: 'The mountain is in our way. Move it.' The Jotunn's geological nature and ancient claim to the deep stone is not a factor in Legion operational planning. What is a factor: it is in Legion territory, it is blocking a Legion advance, and it will be removed by Legion force or by understanding that the Legion does not stop. The Jotunn will understand one of these things.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -2403,7 +2403,7 @@
       },
       "requirements": {
         "min_level": 46,
-        "reputation_required": 2700,
+        "reputation_required": 750,
         "required_quests": [
           "fq_star_046"
         ]
@@ -2413,13 +2413,13 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 1,
-          "description": "Conquer."
+          "description": "Conquer. [Gigantic Jotunn]"
         },
         {
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2446,7 +2446,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Shattered Heart — where Xylos's aethel core cracked under the Great Severance — is the kind of zone that other factions approach with caution or reverence. The Legion approaches it with a column of soldiers, a logistics train, and a deployment plan. Grand Justiciar Aurelius briefs the Shattered Heart entry with the directness of someone who considers geological drama irrelevant to tactical planning: 'It is terrain. Difficult terrain, but terrain. Establish Legion presence. All other considerations are secondary.'",
+      "description": "The Shattered Heart — where Xylos's aethel core cracked under the Great Severance — is the kind of zone that other factions approach with caution or reverence. (Location: Void Echo Chasm, General Kaelen) The Legion approaches it with a column of soldiers, a logistics train, and a deployment plan. Grand Justiciar Aurelius briefs the Shattered Heart entry with the directness of someone who considers geological drama irrelevant to tactical planning: 'It is terrain. Difficult terrain, but terrain. Establish Legion presence. All other considerations are secondary.'",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -2454,7 +2454,7 @@
       },
       "requirements": {
         "min_level": 47,
-        "reputation_required": 2760,
+        "reputation_required": 800,
         "required_quests": [
           "fq_star_047"
         ]
@@ -2464,13 +2464,13 @@
           "type": "travel",
           "target": "SHATTERED_HEART",
           "count": 1,
-          "description": "Breach."
+          "description": "Breach. (Travel to: Shattered Heart, Shattered Heart)"
         },
         {
           "type": "collect",
           "target": "monster_material",
           "count": 1,
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -2497,7 +2497,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "SHATTERED_HEART",
-      "description": "In the Shattered Heart, an Ashen Drake has maintained its territory since before any faction's arrival on Xylos — an ancient creature whose fire has been burning in the planet's aethel-rich geological core for centuries. Centurion Valka acknowledges its age without sentimentality: 'Old does not mean superior. Old means experienced.' The Drake's experience is considerable. The Legion's training is absolute. Guide it to rest by superior force and discipline. The Shattered Heart is the Legion's now.",
+      "description": "In the Shattered Heart, an Ashen Drake has maintained its territory since before any faction's arrival on Xylos — an ancient creature whose fire has been burning in the planet's aethel-rich geological core for centuries. Centurion Valka acknowledges its age without sentimentality: 'Old does not mean superior. Old means experienced.' The Drake's experience is considerable. The Legion's training is absolute. Guide it to rest by superior force and discipline. The Shattered Heart is the Legion's now. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Centurion Valka",
@@ -2505,7 +2505,7 @@
       },
       "requirements": {
         "min_level": 49,
-        "reputation_required": 2880,
+        "reputation_required": 850,
         "required_quests": [
           "fq_star_048"
         ]
@@ -2515,13 +2515,13 @@
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "description": "Redeem."
+          "description": "Redeem. [Ashen Drake]"
         },
         {
           "type": "kill",
           "target": "DRAKE_MINION",
           "count": 5,
-          "description": "Clear Minions."
+          "description": "Clear Minions. [Drake Minion]"
         }
       ],
       "rewards": {
@@ -2548,7 +2548,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Soul Fragmenters and a Void Stalker have established a combined operation in the Chasm's shadow zone — the Stalker coordinating the Fragmenters' harvest with tactical precision that Grand Justiciar Aurelius finds operationally interesting and strategically intolerable. 'They are running a coordinated operation inside Legion-designated territory,' he says, with the tone of someone who considers this personally offensive. Execute the Exorcism Protocol: the Stalker eliminated first, the Fragmenters cleared, the operation disbanded completely.",
+      "description": "Soul Fragmenters and a Void Stalker have established a combined operation in the Chasm's shadow zone — the Stalker coordinating the Fragmenters' harvest with tactical precision that Grand Justiciar Aurelius finds operationally interesting and strategically intolerable. (Location: Void Echo Chasm, General Kaelen) 'They are running a coordinated operation inside Legion-designated territory,' he says, with the tone of someone who considers this personally offensive. Execute the Exorcism Protocol: the Stalker eliminated first, the Fragmenters cleared, the operation disbanded completely.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -2556,7 +2556,7 @@
       },
       "requirements": {
         "min_level": 50,
-        "reputation_required": 2940,
+        "reputation_required": 900,
         "required_quests": [
           "fq_star_049"
         ]
@@ -2566,13 +2566,13 @@
           "type": "kill",
           "target": "SOUL_FRAGMENTER",
           "count": 3,
-          "description": "Exorcise."
+          "description": "Exorcise. [Soul Fragmenter]"
         },
         {
           "type": "kill",
           "target": "VOID_STALKER",
           "count": 1,
-          "description": "Exorcise."
+          "description": "Exorcise. [Void Stalker]"
         }
       ],
       "rewards": {
@@ -2599,7 +2599,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Legion's total void war doctrine — developed by Grand Justiciar Aurelius following three months of Chasm engagement analysis — requires the systematic elimination of void presence from Legion-designated operational zones without partial clearance or negotiated withdrawal. Eight Void Reavers, five Void Channelers, all zones. Centurion Valka makes the briefing simpler than the doctrine: 'All of them. Every zone. No survivors.' This is not a proportional response. This is Legion standard operating procedure.",
+      "description": "The Legion's total void war doctrine — developed by Grand Justiciar Aurelius following three months of Chasm engagement analysis — requires the systematic elimination of void presence from Legion-designated operational zones without partial clearance or negotiated withdrawal. (Location: Void Echo Chasm, General Kaelen) Eight Void Reavers, five Void Channelers, all zones. Centurion Valka makes the briefing simpler than the doctrine: 'All of them. Every zone. No survivors.' This is not a proportional response. This is Legion standard operating procedure.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Centurion Valka",
@@ -2607,7 +2607,7 @@
       },
       "requirements": {
         "min_level": 51,
-        "reputation_required": 3000,
+        "reputation_required": 950,
         "required_quests": [
           "fq_star_050"
         ]
@@ -2617,13 +2617,13 @@
           "type": "kill",
           "target": "VOID_REAVER",
           "count": 8,
-          "description": "Destroy."
+          "description": "Destroy. [Void Reaver]"
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 5,
-          "description": "Destroy."
+          "description": "Destroy. [Aethel Void Channeler]"
         }
       ],
       "rewards": {
@@ -2650,7 +2650,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "A Void Stalker has taken up residence in the Chasm's electromagnetic blind spot — the zone where the Shard's electromagnetic field bends around a void singularity, creating a region that standard detection cannot reach. Grand Justiciar Aurelius is not deterred by detection limitations. The Legion's scouts found it through physical reconnaissance rather than electronic detection. 'It hides from instruments. It cannot hide from soldiers.' Enter the blind spot. Execute the Stalker. The Chasm has no zones the Legion cannot reach.",
+      "description": "A Void Stalker has taken up residence in the Chasm's electromagnetic blind spot — the zone where the Shard's electromagnetic field bends around a void singularity, creating a region that standard detection cannot reach. (Location: Void Echo Chasm, General Kaelen) Grand Justiciar Aurelius is not deterred by detection limitations. The Legion's scouts found it through physical reconnaissance rather than electronic detection. 'It hides from instruments. It cannot hide from soldiers.' Enter the blind spot. Execute the Stalker. The Chasm has no zones the Legion cannot reach.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -2658,7 +2658,7 @@
       },
       "requirements": {
         "min_level": 52,
-        "reputation_required": 3060,
+        "reputation_required": 1000,
         "required_quests": [
           "fq_star_051"
         ]
@@ -2668,13 +2668,13 @@
           "type": "kill",
           "target": "VOID_STALKER",
           "count": 1,
-          "description": "Execute."
+          "description": "Execute. [Void Stalker]"
         },
         {
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2701,7 +2701,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Three Chrono Wraiths in the Chasm's deep zone have created overlapping temporal fractures that are functionally preventing the Legion from establishing a stable forward position in the area — every time the position is established, the temporal loops reset the zone's state. Centurion Valka's engineering assessment translates this into Legion operational language: 'The terrain resets because the Wraiths reset it. Eliminate the Wraiths. The terrain will stop resetting.' Banish all three. Establish the position.",
+      "description": "Three Chrono Wraiths in the Chasm's deep zone have created overlapping temporal fractures that are functionally preventing the Legion from establishing a stable forward position in the area — every time the position is established, the temporal loops reset the zone's state. (Location: Void Echo Chasm, General Kaelen) Centurion Valka's engineering assessment translates this into Legion operational language: 'The terrain resets because the Wraiths reset it. Eliminate the Wraiths. The terrain will stop resetting.' Banish all three. Establish the position.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Centurion Valka",
@@ -2709,7 +2709,7 @@
       },
       "requirements": {
         "min_level": 53,
-        "reputation_required": 3120,
+        "reputation_required": 1050,
         "required_quests": [
           "fq_star_052"
         ]
@@ -2719,13 +2719,13 @@
           "type": "kill",
           "target": "CHRONO_WRAITH",
           "count": 3,
-          "description": "Close breach."
+          "description": "Close breach. [Chrono Wraith]"
         },
         {
           "type": "collect",
           "target": "monster_material",
           "count": 1,
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -2752,7 +2752,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "The deepest accessible level of the Void Echo Chasm contains the highest concentration of Abyssal Reavers and Void Reavers that the Legion has encountered in any single engagement. Grand Justiciar Aurelius's battle brief is longer than usual, because the tactical complexity is higher than usual: multiple target types, coordinated void behavior, narrow engagement corridors. The brief ends with the standard conclusion: 'Eliminate all. Document the engagement. Apply the lessons forward.' Ten Reavers, six Void Reavers. This is the Legion's deepest engagement yet.",
+      "description": "The deepest accessible level of the Void Echo Chasm contains the highest concentration of Abyssal Reavers and Void Reavers that the Legion has encountered in any single engagement. Grand Justiciar Aurelius's battle brief is longer than usual, because the tactical complexity is higher than usual: multiple target types, coordinated void behavior, narrow engagement corridors. The brief ends with the standard conclusion: 'Eliminate all. Document the engagement. Apply the lessons forward.' Ten Reavers, six Void Reavers. This is the Legion's deepest engagement yet. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -2760,7 +2760,7 @@
       },
       "requirements": {
         "min_level": 54,
-        "reputation_required": 3180,
+        "reputation_required": 1100,
         "required_quests": [
           "fq_star_053"
         ]
@@ -2770,13 +2770,13 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 10,
-          "description": "Assault."
+          "description": "Assault. [Aethel Abyssal Reaver]"
         },
         {
           "type": "kill",
           "target": "VOID_REAVER",
           "count": 6,
-          "description": "Clear."
+          "description": "Clear. [Void Reaver]"
         }
       ],
       "rewards": {
@@ -2803,7 +2803,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Three Gigantic Jotunns have settled in the Chasm's lower levels, creating seismic interference that is disrupting the Legion's tunnel engineering for the deep zone forward post. The Legion's engineering team has been waiting three days for clearance. Grand Justiciar Aurelius does not believe in waiting: 'Geological obstacles are obstacles. Obstacles are cleared.' All three Jotunns must be guided from the interference zone. The engineering team has a four-hour window once the zone is clear. Do not waste the window.",
+      "description": "Three Gigantic Jotunns have settled in the Chasm's lower levels, creating seismic interference that is disrupting the Legion's tunnel engineering for the deep zone forward post. (Location: Void Echo Chasm, General Kaelen) The Legion's engineering team has been waiting three days for clearance. Grand Justiciar Aurelius does not believe in waiting: 'Geological obstacles are obstacles. Obstacles are cleared.' All three Jotunns must be guided from the interference zone. The engineering team has a four-hour window once the zone is clear. Do not waste the window.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -2811,7 +2811,7 @@
       },
       "requirements": {
         "min_level": 55,
-        "reputation_required": 3240,
+        "reputation_required": 1150,
         "required_quests": [
           "fq_star_054"
         ]
@@ -2821,13 +2821,13 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
-          "description": "Break."
+          "description": "Break. [Gigantic Jotunn]"
         },
         {
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2854,7 +2854,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Crystal Tyrants — crystal entities that have claimed control of the Chasm's concentrated aethel nodes — are using the nodes' energy output as a weapon system, projecting energy attacks that have been taking significant casualties from Legion forward patrols. Centurion Valka calls this 'a tyrant battery' and treats it as an artillery problem: identify the battery positions, eliminate the firing units, suppress the remaining fire, advance. Two Crystal Tyrants, two positions eliminated. The Chasm's artillery belongs to the Legion now.",
+      "description": "Crystal Tyrants — crystal entities that have claimed control of the Chasm's concentrated aethel nodes — are using the nodes' energy output as a weapon system, projecting energy attacks that have been taking significant casualties from Legion forward patrols. (Location: Void Echo Chasm, General Kaelen) Centurion Valka calls this 'a tyrant battery' and treats it as an artillery problem: identify the battery positions, eliminate the firing units, suppress the remaining fire, advance. Two Crystal Tyrants, two positions eliminated. The Chasm's artillery belongs to the Legion now.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Centurion Valka",
@@ -2862,7 +2862,7 @@
       },
       "requirements": {
         "min_level": 56,
-        "reputation_required": 3300,
+        "reputation_required": 1200,
         "required_quests": [
           "fq_star_055"
         ]
@@ -2872,13 +2872,13 @@
           "type": "kill",
           "target": "CRYSTAL_TYRANT",
           "count": 2,
-          "description": "Silence."
+          "description": "Silence. [Crystal Tyrant]"
         },
         {
           "type": "collect",
           "target": "monster_material",
           "count": 1,
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -2905,7 +2905,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Harbinger is sending its vanguard force into the Chasm — Abyssal Reavers acting as its advance elements, with a Chrono Wraith maintaining a temporal anchor that will hold the passage open for the Harbinger itself when it arrives. Grand Justiciar Aurelius reads this deployment with the assessment of an experienced general facing an organized enemy: 'It is preparing a beachhead. Deny the beachhead.' Destroy the vanguard. Destroy the temporal anchor. When the Harbinger arrives, it will arrive into Legion-controlled territory with no advance preparation intact.",
+      "description": "The Harbinger is sending its vanguard force into the Chasm — Abyssal Reavers acting as its advance elements, with a Chrono Wraith maintaining a temporal anchor that will hold the passage open for the Harbinger itself when it arrives. (Location: Void Echo Chasm, General Kaelen) Grand Justiciar Aurelius reads this deployment with the assessment of an experienced general facing an organized enemy: 'It is preparing a beachhead. Deny the beachhead.' Destroy the vanguard. Destroy the temporal anchor. When the Harbinger arrives, it will arrive into Legion-controlled territory with no advance preparation intact.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -2913,7 +2913,7 @@
       },
       "requirements": {
         "min_level": 57,
-        "reputation_required": 3360,
+        "reputation_required": 1250,
         "required_quests": [
           "fq_star_056"
         ]
@@ -2923,19 +2923,19 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 6,
-          "description": "Clear."
+          "description": "Clear. [Aethel Abyssal Reaver]"
         },
         {
           "type": "kill",
           "target": "CHRONO_WRAITH",
           "count": 1,
-          "description": "Eliminate."
+          "description": "Eliminate. [Chrono Wraith]"
         },
         {
           "type": "collect",
           "target": "raw_aethel_fragment",
           "count": 1,
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -2962,7 +2962,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Soul Fragmenters and a Void Stalker are conducting a coordinated operation along the Chasm's approach to the Harbinger's entry point — the same pre-positioning the Harbinger's other void forces have been executing throughout the Chasm. Grand Justiciar Aurelius's intelligence analysis is complete: the Harbinger is using the Fragmenters to clear the Chasm's trapped soul-echoes before its arrival, removing the one resonance frequency that could interfere with its void signature. Break the Fragmenter line. Preserve the interference. Make the Harbinger's arrival harder.",
+      "description": "Soul Fragmenters and a Void Stalker are conducting a coordinated operation along the Chasm's approach to the Harbinger's entry point — the same pre-positioning the Harbinger's other void forces have been executing throughout the Chasm. (Location: Void Echo Chasm, General Kaelen) Grand Justiciar Aurelius's intelligence analysis is complete: the Harbinger is using the Fragmenters to clear the Chasm's trapped soul-echoes before its arrival, removing the one resonance frequency that could interfere with its void signature. Break the Fragmenter line. Preserve the interference. Make the Harbinger's arrival harder.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -2970,7 +2970,7 @@
       },
       "requirements": {
         "min_level": 58,
-        "reputation_required": 3420,
+        "reputation_required": 1300,
         "required_quests": [
           "fq_star_057"
         ]
@@ -2980,13 +2980,13 @@
           "type": "kill",
           "target": "SOUL_FRAGMENTER",
           "count": 3,
-          "description": "Break."
+          "description": "Break. [Soul Fragmenter]"
         },
         {
           "type": "kill",
           "target": "VOID_STALKER",
           "count": 1,
-          "description": "Eliminate."
+          "description": "Eliminate. [Void Stalker]"
         }
       ],
       "rewards": {
@@ -3013,7 +3013,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Abyss Harbinger has entered the Void Echo Chasm. Grand Justiciar Aurelius's battle briefing, for the first time in the Legion's Xylos campaign, takes more than five minutes to deliver — because the Harbinger is unlike any previous target, operating at a scale that required the Legion to revise its standard combat doctrine for this single engagement. The briefing ends: 'The Harbinger believes the Chasm belongs to the void. The Legion disagrees. Demonstrate that disagreement with full force. For the homeworld. For the code. For every soldier who did not survive to reach this moment.'",
+      "description": "The Abyss Harbinger has entered the Void Echo Chasm. Grand Justiciar Aurelius's battle briefing, for the first time in the Legion's Xylos campaign, takes more than five minutes to deliver — because the Harbinger is unlike any previous target, operating at a scale that required the Legion to revise its standard combat doctrine for this single engagement. The briefing ends: 'The Harbinger believes the Chasm belongs to the void. The Legion disagrees. Demonstrate that disagreement with full force. For the homeworld. For the code. For every soldier who did not survive to reach this moment.' Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -3021,7 +3021,7 @@
       },
       "requirements": {
         "min_level": 59,
-        "reputation_required": 3480,
+        "reputation_required": 1350,
         "required_quests": [
           "fq_star_058"
         ]
@@ -3031,13 +3031,13 @@
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "description": "BANISH HARBINGER."
+          "description": "BANISH HARBINGER. [Abyss Harbinger]"
         },
         {
           "type": "collect",
           "target": "abyss_fragment",
           "count": 1,
-          "description": "Collect abyss fragment (x1)."
+          "description": "Collect abyss fragment (x1). [Item: Abyss Fragment]"
         }
       ],
       "rewards": {
@@ -3064,7 +3064,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "The Severance Faultline is the scar that divides Xylos's geological substrate along the line of the Great Severance's shockwave. Grand Justiciar Aurelius approaches the Faultline as a military commander approaches a river crossing: identify the viable ford points, establish bridgehead control, advance through. The other factions approach the Faultline with ideology. The Legion approaches it with maps. Enter the Faultline zone. Establish the first bridgehead.",
+      "description": "The Severance Faultline is the scar that divides Xylos's geological substrate along the line of the Great Severance's shockwave. Grand Justiciar Aurelius approaches the Faultline as a military commander approaches a river crossing: identify the viable ford points, establish bridgehead control, advance through. The other factions approach the Faultline with ideology. The Legion approaches it with maps. Enter the Faultline zone. Establish the first bridgehead. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -3072,7 +3072,7 @@
       },
       "requirements": {
         "min_level": 60,
-        "reputation_required": 3540,
+        "reputation_required": 1400,
         "required_quests": [
           "fq_star_059"
         ]
@@ -3082,13 +3082,13 @@
           "type": "travel",
           "target": "SEVERANCE_FAULTLINE",
           "count": 1,
-          "description": "Enter."
+          "description": "Enter. (Travel to: Severance Faultline, Shattered Heart)"
         },
         {
           "type": "collect",
           "target": "raw_aethel_fragment",
           "count": 3,
-          "description": "Collect raw aethel fragment (x3)."
+          "description": "Collect raw aethel fragment (x3). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -3115,7 +3115,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "The Aethel Iron Carapace creatures along the Faultline are feeding on the exposed aethel substrate — the same substrate that, according to the Concordium's geological surveys, represents some of Xylos's most concentrated raw aethel deposits. The Legion's claim to these deposits is straightforward: whoever controls the terrain controls the resources the terrain contains. Clear the Carapace. Secure the substrate. The Faultline's resources belong to the Legion.",
+      "description": "The Aethel Iron Carapace creatures along the Faultline are feeding on the exposed aethel substrate — the same substrate that, according to the Concordium's geological surveys, represents some of Xylos's most concentrated raw aethel deposits. (Location: Severance Faultline, General Kaelen) The Legion's claim to these deposits is straightforward: whoever controls the terrain controls the resources the terrain contains. Clear the Carapace. Secure the substrate. The Faultline's resources belong to the Legion.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -3123,7 +3123,7 @@
       },
       "requirements": {
         "min_level": 61,
-        "reputation_required": 3600,
+        "reputation_required": 1450,
         "required_quests": [
           "fq_star_060"
         ]
@@ -3133,13 +3133,13 @@
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
-          "description": "Breach."
+          "description": "Breach. [Aethel Iron Carapace]"
         },
         {
           "type": "collect",
           "target": "crystal_core",
           "count": 3,
-          "description": "Collect crystal core (x3)."
+          "description": "Collect crystal core (x3). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -3166,7 +3166,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Crystal Tyrants along the Severance Faultline have positioned themselves at the highest-concentration aethel nodes in the zone — nodes that the Legion's geological assessors have flagged as critical infrastructure for the Legion's own energy supply program. Centurion Valka does not respect the Tyrants' prior claim to these nodes. The Legion arrived. The Legion is stronger. The Tyrants are obstacles. Ground them with the efficiency the Legion code demands.",
+      "description": "Crystal Tyrants along the Severance Faultline have positioned themselves at the highest-concentration aethel nodes in the zone — nodes that the Legion's geological assessors have flagged as critical infrastructure for the Legion's own energy supply program. Centurion Valka does not respect the Tyrants' prior claim to these nodes. The Legion arrived. The Legion is stronger. The Tyrants are obstacles. Ground them with the efficiency the Legion code demands. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Centurion Valka",
@@ -3174,7 +3174,7 @@
       },
       "requirements": {
         "min_level": 62,
-        "reputation_required": 3660,
+        "reputation_required": 1500,
         "required_quests": [
           "fq_star_061"
         ]
@@ -3184,13 +3184,13 @@
           "type": "kill",
           "target": "CRYSTAL_TYRANT",
           "count": 2,
-          "description": "Remove."
+          "description": "Remove. [Crystal Tyrant]"
         },
         {
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -3217,7 +3217,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Gigantic Jotunns in the Severance Faultline's deep access corridors are blocking the Legion's geological infrastructure teams from reaching the primary aethel substrate. Grand Justiciar Aurelius's position on geological entities blocking Legion operations has not changed throughout the Xylos campaign: 'Ancient is not exempt. Move them.' Three Jotunns, three corridors cleared, three days of geological survey work that the Legion's engineers have been waiting to conduct. The deep stone yields to the Legion.",
+      "description": "Gigantic Jotunns in the Severance Faultline's deep access corridors are blocking the Legion's geological infrastructure teams from reaching the primary aethel substrate. Grand Justiciar Aurelius's position on geological entities blocking Legion operations has not changed throughout the Xylos campaign: 'Ancient is not exempt. Move them.' Three Jotunns, three corridors cleared, three days of geological survey work that the Legion's engineers have been waiting to conduct. The deep stone yields to the Legion. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -3225,7 +3225,7 @@
       },
       "requirements": {
         "min_level": 63,
-        "reputation_required": 3720,
+        "reputation_required": 1550,
         "required_quests": [
           "fq_star_062"
         ]
@@ -3235,13 +3235,13 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
-          "description": "Break."
+          "description": "Break. [Gigantic Jotunn]"
         },
         {
           "type": "collect",
           "target": "monster_material",
           "count": 1,
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -3268,7 +3268,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "The Faultline's eastern approach corridor is the last geological obstruction before the Legion's infrastructure teams can reach the deepest accessible Faultline deposits. One more Jotunn, one more clearance, one more advance. Grand Justiciar Aurelius briefs this with the same directness he brings to every geological obstacle: 'Move it.' The materials gathered from the cleared zone will provide the geological interface data the Legion needs for the Aethel Siphon Core approach. Finish this phase.",
+      "description": "The Faultline's eastern approach corridor is the last geological obstruction before the Legion's infrastructure teams can reach the deepest accessible Faultline deposits. (Location: Severance Faultline, General Kaelen) One more Jotunn, one more clearance, one more advance. Grand Justiciar Aurelius briefs this with the same directness he brings to every geological obstacle: 'Move it.' The materials gathered from the cleared zone will provide the geological interface data the Legion needs for the Aethel Siphon Core approach. Finish this phase.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -3276,7 +3276,7 @@
       },
       "requirements": {
         "min_level": 64,
-        "reputation_required": 3780,
+        "reputation_required": 1600,
         "required_quests": [
           "fq_star_063"
         ]
@@ -3286,13 +3286,13 @@
           "type": "collect",
           "target": "core_fragment",
           "count": 3,
-          "description": "Collect core fragment (x3)."
+          "description": "Collect core fragment (x3). [Item: Core Fragment]"
         },
         {
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 1,
-          "description": "Clear."
+          "description": "Clear. [Gigantic Jotunn]"
         }
       ],
       "rewards": {
@@ -3319,7 +3319,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The Aethel Siphon Core — where the Concordium built their entire civilization and from which every faction on Xylos draws their strategic planning — is where the Legion's Xylos campaign reaches its highest strategic objective. Grand Justiciar Aurelius's address to the Legion column before entry is the longest speech anyone has heard him give: it ends with, 'The Siphon is the prize. We enter as conquerors.' The Children of the Shard built a religion around it. The Legion intends to build a kingdom.",
+      "description": "The Aethel Siphon Core — where the Concordium built their entire civilization and from which every faction on Xylos draws their strategic planning — is where the Legion's Xylos campaign reaches its highest strategic objective. Grand Justiciar Aurelius's address to the Legion column before entry is the longest speech anyone has heard him give: it ends with, 'The Siphon is the prize. We enter as conquerors.' The Children of the Shard built a religion around it. The Legion intends to build a kingdom. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -3327,7 +3327,7 @@
       },
       "requirements": {
         "min_level": 64,
-        "reputation_required": 3780,
+        "reputation_required": 1650,
         "required_quests": [
           "fq_star_064"
         ]
@@ -3337,13 +3337,13 @@
           "type": "travel",
           "target": "AETHEL_SIPHON_CORE",
           "count": 1,
-          "description": "Enter."
+          "description": "Enter. (Travel to: Aethel Siphon Core, Shattered Heart)"
         },
         {
           "type": "collect",
           "target": "monster_material",
           "count": 2,
-          "description": "Collect monster material (x2)."
+          "description": "Collect monster material (x2). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -3370,7 +3370,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Abyssal Reavers have colonized the Aethel Siphon Core's approach corridors — drawn by the Core's power output and now constituting the primary obstacle to Legion entry. Centurion Valka's approach to this obstacle is standard Legion doctrine applied to non-standard terrain: identify all hostiles in the objective zone, establish elimination sequence based on threat level, execute systematically. Twelve Abyssal Reavers, plus Void Channelers. The Siphon's approaches will be clear before the Legion's main column enters.",
+      "description": "Abyssal Reavers have colonized the Aethel Siphon Core's approach corridors — drawn by the Core's power output and now constituting the primary obstacle to Legion entry. Centurion Valka's approach to this obstacle is standard Legion doctrine applied to non-standard terrain: identify all hostiles in the objective zone, establish elimination sequence based on threat level, execute systematically. Twelve Abyssal Reavers, plus Void Channelers. The Siphon's approaches will be clear before the Legion's main column enters. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Centurion Valka",
@@ -3378,7 +3378,7 @@
       },
       "requirements": {
         "min_level": 65,
-        "reputation_required": 3840,
+        "reputation_required": 1700,
         "required_quests": [
           "fq_star_065"
         ]
@@ -3388,13 +3388,13 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 8,
-          "description": "Purge."
+          "description": "Purge. [Aethel Abyssal Reaver]"
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 5,
-          "description": "Purge."
+          "description": "Purge. [Aethel Void Channeler]"
         }
       ],
       "rewards": {
@@ -3421,7 +3421,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Corrupted Behemoths in the Aethel Siphon Core's inner zones are the most powerful physical obstacles the Legion has faced in the entire Xylos campaign. Grand Justiciar Aurelius does not downplay this: 'They are stronger than anything we have fought here. That is why this test matters.' The Legion's code states that the measure of a force's true capability is what it defeats when the enemy is at its strongest. Face the Behemoths in the Core's inner sanctum. The Legion's strength must be demonstrated at the Siphon's heart.",
+      "description": "Corrupted Behemoths in the Aethel Siphon Core's inner zones are the most powerful physical obstacles the Legion has faced in the entire Xylos campaign. Grand Justiciar Aurelius does not downplay this: 'They are stronger than anything we have fought here. That is why this test matters.' The Legion's code states that the measure of a force's true capability is what it defeats when the enemy is at its strongest. Face the Behemoths in the Core's inner sanctum. The Legion's strength must be demonstrated at the Siphon's heart. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -3429,7 +3429,7 @@
       },
       "requirements": {
         "min_level": 66,
-        "reputation_required": 3900,
+        "reputation_required": 1750,
         "required_quests": [
           "fq_star_066"
         ]
@@ -3439,13 +3439,13 @@
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
-          "description": "Defend."
+          "description": "Defend. [Aethel Corrupted Behemoth]"
         },
         {
           "type": "collect",
           "target": "raw_aethel_fragment",
           "count": 1,
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -3472,7 +3472,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Aethel Rift Stalkers have found the Siphon Core's micro-fractures — exposure points where the Core's energy bleeds outward — and have been enlarging these fractures through their feeding behavior. The result: the Core's output has dropped measurably since the Stalkers' arrival. The Legion's engineers need stable Core output for their own energy infrastructure. Clear the Stalkers. Seal the fractures they have widened. The Siphon Core's power belongs to whatever force controls it, and the Legion controls it now.",
+      "description": "Aethel Rift Stalkers have found the Siphon Core's micro-fractures — exposure points where the Core's energy bleeds outward — and have been enlarging these fractures through their feeding behavior. (Location: Aethel Siphon Core, General Kaelen) The result: the Core's output has dropped measurably since the Stalkers' arrival. The Legion's engineers need stable Core output for their own energy infrastructure. Clear the Stalkers. Seal the fractures they have widened. The Siphon Core's power belongs to whatever force controls it, and the Legion controls it now.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Centurion Valka",
@@ -3480,7 +3480,7 @@
       },
       "requirements": {
         "min_level": 67,
-        "reputation_required": 3960,
+        "reputation_required": 1800,
         "required_quests": [
           "fq_star_067"
         ]
@@ -3490,13 +3490,13 @@
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 6,
-          "description": "Patrol."
+          "description": "Patrol. [Aethel Rift Stalker]"
         },
         {
           "type": "collect",
           "target": "raw_aethel_fragment",
           "count": 1,
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -3523,7 +3523,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Deep in the Aethel Siphon Core, the entity that all other factions' intelligence has failed to identify correctly — what the Concordium calls an 'anomaly,' what the Arcanum calls a 'phenomenon,' what the Children call a 'sacred manifestation' — waits for the Legion's advance team. Grand Justiciar Aurelius has reviewed every faction's engagement record with this entity. None of them passed its trial. 'We will be different,' he says, without inflection. 'Because we are different.' Gather what the Core's approach zones offer. Present the Legion to whatever guards the deepest chamber.",
+      "description": "Deep in the Aethel Siphon Core, the entity that all other factions' intelligence has failed to identify correctly — what the Concordium calls an 'anomaly,' what the Arcanum calls a 'phenomenon,' what the Children call a 'sacred manifestation' — waits for the Legion's advance team. Grand Justiciar Aurelius has reviewed every faction's engagement record with this entity. None of them passed its trial. 'We will be different,' he says, without inflection. 'Because we are different.' Gather what the Core's approach zones offer. Present the Legion to whatever guards the deepest chamber. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -3531,7 +3531,7 @@
       },
       "requirements": {
         "min_level": 68,
-        "reputation_required": 4020,
+        "reputation_required": 1850,
         "required_quests": [
           "fq_star_068"
         ]
@@ -3541,13 +3541,13 @@
           "type": "collect",
           "target": "core_fragment",
           "count": 3,
-          "description": "Collect core fragment (x3)."
+          "description": "Collect core fragment (x3). [Item: Core Fragment]"
         },
         {
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 1,
-          "description": "Engage."
+          "description": "Engage. [Gigantic Jotunn]"
         }
       ],
       "rewards": {
@@ -3574,7 +3574,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "A Gravity Titan in the Cradle Expanse has been disrupting the Legion's supply lanes with its gravitational field effect — pulling Legion transport vehicles off course and creating navigation hazards that have cost the Legion two weeks of logistical efficiency. Grand Justiciar Aurelius's assessment is brief: 'Gravity is a terrain feature. This one needs to be removed.' The Gravity Titan may be the most massive creature on Xylos. The Legion's soldiers are the most trained on Xylos. The math resolves in the Legion's favor.",
+      "description": "A Gravity Titan in the Cradle Expanse has been disrupting the Legion's supply lanes with its gravitational field effect — pulling Legion transport vehicles off course and creating navigation hazards that have cost the Legion two weeks of logistical efficiency. Grand Justiciar Aurelius's assessment is brief: 'Gravity is a terrain feature. This one needs to be removed.' The Gravity Titan may be the most massive creature on Xylos. The Legion's soldiers are the most trained on Xylos. The math resolves in the Legion's favor. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -3582,7 +3582,7 @@
       },
       "requirements": {
         "min_level": 69,
-        "reputation_required": 4080,
+        "reputation_required": 1900,
         "required_quests": [
           "fq_star_069"
         ]
@@ -3592,13 +3592,13 @@
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "description": "HUMBLE THE TITAN."
+          "description": "HUMBLE THE TITAN. [Gravity Titan]"
         },
         {
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Clear."
+          "description": "Clear. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -3625,7 +3625,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The Prima Materia Forge is where the highest-value material on Xylos is processed — a zone that every faction has tried and failed to hold because the Prima Materia itself resists extraction by those who approach it incorrectly. Grand Justiciar Aurelius's tactical note on this failure: 'They approached it as a resource. We approach it as a conquest.' The Legion does not extract Prima Materia. The Legion claims the Forge. Whatever the Forge produces, the Legion owns.",
+      "description": "The Prima Materia Forge is where the highest-value material on Xylos is processed — a zone that every faction has tried and failed to hold because the Prima Materia itself resists extraction by those who approach it incorrectly. Grand Justiciar Aurelius's tactical note on this failure: 'They approached it as a resource. We approach it as a conquest.' The Legion does not extract Prima Materia. The Legion claims the Forge. Whatever the Forge produces, the Legion owns. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -3633,7 +3633,7 @@
       },
       "requirements": {
         "min_level": 70,
-        "reputation_required": 4140,
+        "reputation_required": 1950,
         "required_quests": [
           "fq_star_070"
         ]
@@ -3643,13 +3643,13 @@
           "type": "travel",
           "target": "PRIMA_MATERIA_FORGE",
           "count": 1,
-          "description": "Enter."
+          "description": "Enter. (Travel to: Prima Materia Forge, Shattered Heart)"
         },
         {
           "type": "collect",
           "target": "raw_aethel_fragment",
           "count": 2,
-          "description": "Collect raw aethel fragment (x2)."
+          "description": "Collect raw aethel fragment (x2). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -3676,7 +3676,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Aethel Iron Carapace creatures have armored the Prima Materia Forge's outer processing ring against entry — layers of carapace-shell forming organic barricades that the Legion's standard approach techniques cannot breach without clearing the creatures themselves. Centurion Valka's engineering assessment is direct: 'The barricades are alive. Eliminate the alive parts. The barricades become rubble.' Clear the Carapace. The Forge's approach corridor must be open before the Legion's main engineering team can advance.",
+      "description": "Aethel Iron Carapace creatures have armored the Prima Materia Forge's outer processing ring against entry — layers of carapace-shell forming organic barricades that the Legion's standard approach techniques cannot breach without clearing the creatures themselves. Centurion Valka's engineering assessment is direct: 'The barricades are alive. Eliminate the alive parts. The barricades become rubble.' Clear the Carapace. The Forge's approach corridor must be open before the Legion's main engineering team can advance. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Centurion Valka",
@@ -3684,7 +3684,7 @@
       },
       "requirements": {
         "min_level": 71,
-        "reputation_required": 4200,
+        "reputation_required": 2000,
         "required_quests": [
           "fq_star_071"
         ]
@@ -3694,13 +3694,13 @@
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
-          "description": "Conquer."
+          "description": "Conquer. [Aethel Iron Carapace]"
         },
         {
           "type": "collect",
           "target": "carapace_fragment",
           "count": 1,
-          "description": "Collect carapace fragment (x1)."
+          "description": "Collect carapace fragment (x1). [Item: Carapace Fragment]"
         }
       ],
       "rewards": {
@@ -3727,7 +3727,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Aethel Abyssal Reavers and a Gravity Titan have combined their presence in the Prima Materia Forge's inner processing zone — the Reavers feeding on the Forge's ambient Prima Materia output while the Titan's gravity well creates conditions that enhance their void feeding efficiency. Grand Justiciar Aurelius calls this 'an improvised supply chain for the void.' The Legion's response to the void establishing supply chains inside Legion-claimed territory is not complicated: destroy the supply chain, eliminate both elements, and deny the void the resource advantage it was building.",
+      "description": "Aethel Abyssal Reavers and a Gravity Titan have combined their presence in the Prima Materia Forge's inner processing zone — the Reavers feeding on the Forge's ambient Prima Materia output while the Titan's gravity well creates conditions that enhance their void feeding efficiency. Grand Justiciar Aurelius calls this 'an improvised supply chain for the void.' The Legion's response to the void establishing supply chains inside Legion-claimed territory is not complicated: destroy the supply chain, eliminate both elements, and deny the void the resource advantage it was building. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -3735,7 +3735,7 @@
       },
       "requirements": {
         "min_level": 72,
-        "reputation_required": 4260,
+        "reputation_required": 2050,
         "required_quests": [
           "fq_star_072"
         ]
@@ -3745,13 +3745,13 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 8,
-          "description": "Purge."
+          "description": "Purge. [Aethel Abyssal Reaver]"
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 5,
-          "description": "Silence."
+          "description": "Silence. [Aethel Void Channeler]"
         }
       ],
       "rewards": {
@@ -3778,7 +3778,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Gigantic Jotunns drawn by the Forge's geological activity have entered the primary processing zone and are creating seismic interference that has halted the Legion's Prima Materia extraction operations for forty-eight hours. The Legion's extraction quota is being missed. Grand Justiciar Aurelius does not miss quotas. Three Jotunns, three operational corridors, forty-eight hours of backlogged production waiting to resume. The Forge runs on Legion schedule. Move the Jotunns to the deep stone where they belong.",
+      "description": "Gigantic Jotunns drawn by the Forge's geological activity have entered the primary processing zone and are creating seismic interference that has halted the Legion's Prima Materia extraction operations for forty-eight hours. (Location: Prima Materia Forge, General Kaelen) The Legion's extraction quota is being missed. Grand Justiciar Aurelius does not miss quotas. Three Jotunns, three operational corridors, forty-eight hours of backlogged production waiting to resume. The Forge runs on Legion schedule. Move the Jotunns to the deep stone where they belong.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Centurion Valka",
@@ -3786,7 +3786,7 @@
       },
       "requirements": {
         "min_level": 73,
-        "reputation_required": 4320,
+        "reputation_required": 2100,
         "required_quests": [
           "fq_star_073"
         ]
@@ -3796,13 +3796,13 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
-          "description": "Conquer."
+          "description": "Conquer. [Gigantic Jotunn]"
         },
         {
           "type": "collect",
           "target": "monster_material",
           "count": 1,
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -3829,7 +3829,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Titan Proto-Cores — the Forge's primary output, concentrations of Prima Materia forged into the construction substrate for the Legion's most advanced weapons program — have been accumulating in the Forge's deep storage zone. The Iron Hegemony's ghost operations are still trying to recover them through remote automated extraction, using the abandoned Hegemony systems the Legion has not yet fully decommissioned. The Proto-Cores belong to the Legion. Clear the automated extraction interference. Take what the Forge has produced under Legion authority.",
+      "description": "Titan Proto-Cores — the Forge's primary output, concentrations of Prima Materia forged into the construction substrate for the Legion's most advanced weapons program — have been accumulating in the Forge's deep storage zone. (Location: Prima Materia Forge, General Kaelen) The Iron Hegemony's ghost operations are still trying to recover them through remote automated extraction, using the abandoned Hegemony systems the Legion has not yet fully decommissioned. The Proto-Cores belong to the Legion. Clear the automated extraction interference. Take what the Forge has produced under Legion authority.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -3837,7 +3837,7 @@
       },
       "requirements": {
         "min_level": 74,
-        "reputation_required": 4380,
+        "reputation_required": 2150,
         "required_quests": [
           "fq_star_074"
         ]
@@ -3847,13 +3847,13 @@
           "type": "kill",
           "target": "TITAN_PROTO_CORE",
           "count": 2,
-          "description": "Recycle."
+          "description": "Recycle. [Titan Proto Core]"
         },
         {
           "type": "collect",
           "target": "titan_core",
           "count": 1,
-          "description": "Collect titan core (x1)."
+          "description": "Collect titan core (x1). [Item: Titan Core]"
         }
       ],
       "rewards": {
@@ -3880,7 +3880,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The Gravity Titan that guards the Prima Materia Forge's ultimate processing chamber is the apex challenge of the Legion's Xylos campaign — a creature of such mass and gravitational influence that it represents, in Grand Justiciar Aurelius's own words, 'the hardest thing we have faced on this planet.' The Trial of Legend is not just about winning. It is about winning at the highest level the Legion can be tested at, against an opponent that gives the test full gravity. The pun is not acknowledged by Grand Justiciar Aurelius. The mission is.",
+      "description": "The Gravity Titan that guards the Prima Materia Forge's ultimate processing chamber is the apex challenge of the Legion's Xylos campaign — a creature of such mass and gravitational influence that it represents, in Grand Justiciar Aurelius's own words, 'the hardest thing we have faced on this planet.' The Trial of Legend is not just about winning. It is about winning at the highest level the Legion can be tested at, against an opponent that gives the test full gravity. The pun is not acknowledged by Grand Justiciar Aurelius. The mission is. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -3888,7 +3888,7 @@
       },
       "requirements": {
         "min_level": 75,
-        "reputation_required": 4440,
+        "reputation_required": 2200,
         "required_quests": [
           "fq_star_075"
         ]
@@ -3898,13 +3898,13 @@
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "description": "Conquer Titan."
+          "description": "Conquer Titan. [Gravity Titan]"
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "description": "Conquer Harbinger."
+          "description": "Conquer Harbinger. [Abyss Harbinger]"
         }
       ],
       "rewards": {
@@ -3931,7 +3931,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Grand Justiciar Aurelius stands at Fortress Kaelen's ceremony hall for the final time this campaign cycle, and what he says is the shortest possible completion of the Legion's highest ceremony: 'You carried the code. The code carried the Legion. Return.' The Prima Materia Forge is secured. The Void Echo Chasm has been cleared. The Severance Faultline has been crossed. The Aethel Siphon Core is under Legion control. The Cradle Expanse answers to the Legion's authority. Return to Fortress Kaelen. The legend is complete.",
+      "description": "Grand Justiciar Aurelius stands at Fortress Kaelen's ceremony hall for the final time this campaign cycle, and what he says is the shortest possible completion of the Legion's highest ceremony: 'You carried the code. The code carried the Legion. Return.' The Prima Materia Forge is secured. The Void Echo Chasm has been cleared. The Severance Faultline has been crossed. The Aethel Siphon Core is under Legion control. The Cradle Expanse answers to the Legion's authority. Return to Fortress Kaelen. The legend is complete. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -3939,7 +3939,7 @@
       },
       "requirements": {
         "min_level": 76,
-        "reputation_required": 4500,
+        "reputation_required": 2250,
         "required_quests": [
           "fq_star_076"
         ]
@@ -3949,13 +3949,13 @@
           "type": "travel",
           "target": "FORTRESS_KAELEN",
           "count": 1,
-          "description": "Return."
+          "description": "Return. (Travel to: Fortress Kaelen)"
         },
         {
           "type": "collect",
           "target": "ancient_scale",
           "count": 1,
-          "description": "Collect ancient scale (x1)."
+          "description": "Collect ancient scale (x1). [Item: Ancient Scale]"
         }
       ],
       "rewards": {
@@ -3982,7 +3982,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Legion duty.",
+      "description": "Legion duty. (Region: Cradle Expanse) Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "",
@@ -4000,7 +4000,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Duty."
+          "description": "Duty. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4022,7 +4022,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Legion duty.",
+      "description": "Legion duty. (Region: Cradle Expanse) Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "",
@@ -4040,7 +4040,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Duty."
+          "description": "Duty. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4062,7 +4062,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Legion duty.",
+      "description": "Legion duty. (Region: Cradle Expanse) Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "",
@@ -4080,7 +4080,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Duty."
+          "description": "Duty. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4102,7 +4102,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Legion duty.",
+      "description": "Legion duty. (Region: Cradle Expanse) Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "",
@@ -4120,7 +4120,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Duty."
+          "description": "Duty. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4142,7 +4142,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Legion duty.",
+      "description": "Legion duty. (Region: Cradle Expanse) Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "",
@@ -4160,7 +4160,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Duty."
+          "description": "Duty. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4182,7 +4182,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Legion duty.",
+      "description": "Legion duty. (Region: Cradle Expanse) Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "",
@@ -4200,7 +4200,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Duty."
+          "description": "Duty. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4222,7 +4222,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Legion duty.",
+      "description": "Legion duty. (Region: Cradle Expanse) Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "",
@@ -4240,7 +4240,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Duty."
+          "description": "Duty. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4262,7 +4262,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Legion duty.",
+      "description": "Legion duty. (Region: Cradle Expanse) Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "",
@@ -4280,7 +4280,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Duty."
+          "description": "Duty. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4302,7 +4302,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Legion duty.",
+      "description": "Legion duty. (Region: Cradle Expanse) Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "",
@@ -4320,7 +4320,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Duty."
+          "description": "Duty. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4342,7 +4342,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Legion duty.",
+      "description": "Legion duty. (Region: Cradle Expanse) Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "",
@@ -4360,7 +4360,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Duty."
+          "description": "Duty. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4382,7 +4382,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Legion duty.",
+      "description": "Legion duty. (Region: Cradle Expanse) Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "",
@@ -4400,7 +4400,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Duty."
+          "description": "Duty. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4422,7 +4422,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Legion duty.",
+      "description": "Legion duty. (Region: Cradle Expanse) Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "",
@@ -4440,7 +4440,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Duty."
+          "description": "Duty. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4462,7 +4462,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Legion duty.",
+      "description": "Legion duty. (Region: Cradle Expanse) Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "",
@@ -4480,7 +4480,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Duty."
+          "description": "Duty. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4502,7 +4502,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Legion duty.",
+      "description": "Legion duty. (Region: Cradle Expanse) Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "",
@@ -4520,7 +4520,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Duty."
+          "description": "Duty. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4542,7 +4542,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Legion duty.",
+      "description": "Legion duty. (Region: Cradle Expanse) Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "",
@@ -4560,7 +4560,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Duty."
+          "description": "Duty. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4582,7 +4582,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Legion duty.",
+      "description": "Legion duty. (Region: Cradle Expanse) Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "",
@@ -4600,7 +4600,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Duty."
+          "description": "Duty. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4622,7 +4622,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Legion duty.",
+      "description": "Legion duty. (Region: Cradle Expanse) Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "",
@@ -4640,7 +4640,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Duty."
+          "description": "Duty. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4662,7 +4662,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Legion duty.",
+      "description": "Legion duty. (Region: Cradle Expanse) Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "",
@@ -4680,7 +4680,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Duty."
+          "description": "Duty. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4702,7 +4702,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Legion duty.",
+      "description": "Legion duty. (Region: Cradle Expanse) Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "",
@@ -4720,7 +4720,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Duty."
+          "description": "Duty. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4742,7 +4742,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Legion duty.",
+      "description": "Legion duty. (Region: Cradle Expanse) Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "",
@@ -4760,7 +4760,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Duty."
+          "description": "Duty. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4782,7 +4782,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "CRADLE_EXPANSE",
-      "description": "Legion duty.",
+      "description": "Legion duty. (Region: Cradle Expanse) Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "",
@@ -4800,7 +4800,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Duty."
+          "description": "Duty. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4822,7 +4822,7 @@
       "rank": "S",
       "faction": "STARFORGED_LEGION",
       "region": "VOID_ECHO_CHASM",
-      "description": "Grand Justiciar Aurelius stands at the approach to the Eternal Gate — the threshold that Legion scripture describes as the final test a Legionnaire must pass before their deeds are recorded in the Legion's permanent record. One last Gravity Titan holds the pass. It is not a coincidence that the Legion's history placed this creature here as the final obstacle; the universe arranges such things for those who carry the code correctly. Defeat the Titan. The Gate is open to those who have earned it.",
+      "description": "Grand Justiciar Aurelius stands at the approach to the Eternal Gate — the threshold that Legion scripture describes as the final test a Legionnaire must pass before their deeds are recorded in the Legion's permanent record. (Location: Void Echo Chasm, General Kaelen) One last Gravity Titan holds the pass. It is not a coincidence that the Legion's history placed this creature here as the final obstacle; the universe arranges such things for those who carry the code correctly. Defeat the Titan. The Gate is open to those who have earned it.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -4830,7 +4830,7 @@
       },
       "requirements": {
         "min_level": 98,
-        "reputation_required": 5820,
+        "reputation_required": 2300,
         "required_quests": [
           "fq_star_098"
         ]
@@ -4840,25 +4840,25 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 1,
-          "description": "Conquer Jotunn."
+          "description": "Conquer Jotunn. [Gigantic Jotunn]"
         },
         {
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "description": "Conquer Drake."
+          "description": "Conquer Drake. [Ashen Drake]"
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "description": "Conquer Harbinger."
+          "description": "Conquer Harbinger. [Abyss Harbinger]"
         },
         {
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -4885,7 +4885,7 @@
       "rank": "SS",
       "faction": "STARFORGED_LEGION",
       "region": "FORTRESS_KAELEN",
-      "description": "Grand Justiciar Aurelius speaks at the Eternal Gate with the economy of language that he has always used for moments of genuine weight: 'The Legion has found its home on Xylos. The code holds. The homeworld was not the last word — it was the first word of this sentence. Xylos is the next.' Return to Fortress Kaelen. The Eternal Gate has opened for the Starforged Legion. What was taken from them across the stars has been rebuilt here, with stronger walls, stronger soldiers, and a code that survived everything the void could throw at it.",
+      "description": "Grand Justiciar Aurelius speaks at the Eternal Gate with the economy of language that he has always used for moments of genuine weight: 'The Legion has found its home on Xylos. The code holds. The homeworld was not the last word — it was the first word of this sentence. Xylos is the next.' Return to Fortress Kaelen. The Eternal Gate has opened for the Starforged Legion. What was taken from them across the stars has been rebuilt here, with stronger walls, stronger soldiers, and a code that survived everything the void could throw at it. Quest giver: General Kaelen at Fortress Kaelen War Room.",
       "quest_giver": {
         "npc_id": "npc_legion_general",
         "name": "Grand Justiciar Aurelius",
@@ -4893,7 +4893,7 @@
       },
       "requirements": {
         "min_level": 99,
-        "reputation_required": 5880,
+        "reputation_required": 2350,
         "required_quests": [
           "fq_star_099"
         ]
@@ -4903,13 +4903,13 @@
           "type": "travel",
           "target": "FORTRESS_KAELEN",
           "count": 1,
-          "description": "Return as Eternal Legionnaire."
+          "description": "Return as Eternal Legionnaire. (Travel to: Fortress Kaelen)"
         },
         {
           "type": "interact",
           "target": "npc_legion_general",
           "count": 1,
-          "description": "Receive Grand Justiciar Aurelius's eternal commendation."
+          "description": "Receive Grand Justiciar Aurelius's eternal commendation. (General Kaelen at Fortress Kaelen War Room)"
         }
       ],
       "rewards": {

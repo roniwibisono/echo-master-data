@@ -7,7 +7,7 @@
       "rank": "D",
       "faction": "OMNICORP",
       "region": "HIGHLAND_PLATEAU",
-      "description": "Director Astra Vey of OmniCorp does not introduce herself the way other faction leaders do. The briefing arrives as a data packet: your activation code, your initial tasking, and a performance metric you are expected to meet. OmniCorp is a galaxy-spanning corporation that treats Xylos as a line item in a much larger balance sheet — and the Highland Plateau is the first asset to be optimized. Plateau Hares are causing sensor interference. Sanitize the zone. Efficiency is not requested. It is the baseline.",
+      "description": "Director Astra Vey of OmniCorp does not introduce herself the way other faction leaders do. The briefing arrives as a data packet: your activation code, your initial tasking, and a performance metric you are expected to meet. OmniCorp is a galaxy-spanning corporation that treats Xylos as a line item in a much larger balance sheet — and the Highland Plateau is the first asset to be optimized. Plateau Hares are causing sensor interference. Sanitize the zone. Efficiency is not requested. It is the baseline. Quest giver: Director Sterling at The Spire Executive Floor.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Astra Vey",
@@ -31,7 +31,7 @@
           "target": "hare_hide",
           "count": 1,
           "desc": "Upload sensor calibration data to the Spire.",
-          "description": "Collect hare hide (x1)."
+          "description": "Collect hare hide (x1). [Item: Hare Hide]"
         }
       ],
       "rewards": {
@@ -62,7 +62,7 @@
       "rank": "D",
       "faction": "OMNICORP",
       "region": "HIGHLAND_PLATEAU",
-      "description": "OmniCorp's Survey Bots are the most advanced autonomous assessment units on Xylos — which makes it particularly inconvenient that four of them have gone offline in the Highland Plateau's northern grid sector. Director Vey's analysis is concise: the Plateau Drones that are swarming the area malfunctioned when OmniCorp's initial survey signals overwhelmed their primitive navigation systems. The Survey Bots' data cores contain Xylos asset maps that no other faction has. Recover them before someone else does.",
+      "description": "OmniCorp's Survey Bots are the most advanced autonomous assessment units on Xylos — which makes it particularly inconvenient that four of them have gone offline in the Highland Plateau's northern grid sector. Director Vey's analysis is concise: the Plateau Drones that are swarming the area malfunctioned when OmniCorp's initial survey signals overwhelmed their primitive navigation systems. The Survey Bots' data cores contain Xylos asset maps that no other faction has. Recover them before someone else does. Quest giver: Tech Officer 404 at Skybridge Reactor Control Room.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_technician",
         "name": "Director Astra Vey",
@@ -70,7 +70,7 @@
       },
       "requirements": {
         "min_level": 1,
-        "reputation_required": 0,
+        "reputation_required": 5,
         "required_quests": [
           "fq_omni_001"
         ]
@@ -88,7 +88,7 @@
           "target": "sensor_chip",
           "count": 3,
           "desc": "Recover Survey Bot data cores.",
-          "description": "Collect sensor chip (x3)."
+          "description": "Collect sensor chip (x3). [Item: Sensor Chip]"
         }
       ],
       "rewards": {
@@ -115,7 +115,7 @@
       "rank": "D",
       "faction": "OMNICORP",
       "region": "HIGHLAND_PLATEAU",
-      "description": "The Plateau Drones were OmniCorp's own early-model survey units, deployed on the Highland Plateau in a previous assessment cycle and never retrieved — now operating outside their original parameters due to Xylos's aethel-charged atmosphere corrupting their navigation firmware. Director Astra Vey considers them a known liability. Their salvage value is marginal. Their interference with current operations is not. OmniCorp's standard approach to hardware that costs more to fix than to replace: controlled demolition.",
+      "description": "The Plateau Drones were OmniCorp's own early-model survey units, deployed on the Highland Plateau in a previous assessment cycle and never retrieved — now operating outside their original parameters due to Xylos's aethel-charged atmosphere corrupting their navigation firmware. Director Astra Vey considers them a known liability. Their salvage value is marginal. Their interference with current operations is not. OmniCorp's standard approach to hardware that costs more to fix than to replace: controlled demolition. Quest giver: Director Sterling at The Spire Executive Floor.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Astra Vey",
@@ -123,7 +123,7 @@
       },
       "requirements": {
         "min_level": 2,
-        "reputation_required": 60,
+        "reputation_required": 10,
         "required_quests": [
           "fq_omni_002"
         ]
@@ -141,7 +141,7 @@
           "target": "circuit_fragment",
           "count": 2,
           "desc": "Submit debris for failure analysis.",
-          "description": "Collect circuit fragment (x2)."
+          "description": "Collect circuit fragment (x2). [Item: Circuit Fragment]"
         }
       ],
       "rewards": {
@@ -168,7 +168,7 @@
       "rank": "D",
       "faction": "OMNICORP",
       "region": "HIGHLAND_PLATEAU",
-      "description": "OmniCorp's resource optimization assessment of the Highland Plateau flagged Highland Goatlings as a drain on the plateau's nutrient substrate — a substrate OmniCorp intends to use for hydroponic mineral extraction. Director Vey's briefing contains a single metric: removal cost versus projected extraction gain over three fiscal years. The math is unambiguous. The Goatlings are not a problem with a solution; they are a resource allocation decision that has already been made. Execute it.",
+      "description": "OmniCorp's resource optimization assessment of the Highland Plateau flagged Highland Goatlings as a drain on the plateau's nutrient substrate — a substrate OmniCorp intends to use for hydroponic mineral extraction. Director Vey's briefing contains a single metric: removal cost versus projected extraction gain over three fiscal years. The math is unambiguous. The Goatlings are not a problem with a solution; they are a resource allocation decision that has already been made. Execute it. Quest giver: Director Sterling at The Spire Executive Floor.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Astra Vey",
@@ -176,7 +176,7 @@
       },
       "requirements": {
         "min_level": 3,
-        "reputation_required": 120,
+        "reputation_required": 15,
         "required_quests": [
           "fq_omni_003"
         ]
@@ -194,7 +194,7 @@
           "target": "goat_horn",
           "count": 1,
           "desc": "File resource reclamation report.",
-          "description": "Collect goat horn (x1)."
+          "description": "Collect goat horn (x1). [Item: Goat Horn]"
         }
       ],
       "rewards": {
@@ -229,7 +229,7 @@
       },
       "requirements": {
         "min_level": 4,
-        "reputation_required": 150,
+        "reputation_required": 20,
         "required_quests": [
           "fq_omni_004"
         ]
@@ -240,7 +240,7 @@
           "target": "npc_omnicorp_class_trainer",
           "count": 1,
           "desc": "Report to Director Astra Vey for module installation.",
-          "description": "Speak with npc omnicorp class trainer."
+          "description": "Speak with npc omnicorp class trainer. (Director Astra Vey at The Spire Advanced Division)"
         },
         {
           "type": "interact",
@@ -305,7 +305,7 @@
       },
       "requirements": {
         "min_level": 5,
-        "reputation_required": 240,
+        "reputation_required": 20,
         "required_quests": [
           "fq_omni_005"
         ]
@@ -316,14 +316,14 @@
           "target": "EXTRACTION_ZONE_DELTA",
           "count": 1,
           "desc": "Enter Extraction Zone Delta.",
-          "description": "Travel to EXTRACTION ZONE DELTA."
+          "description": "Travel to EXTRACTION ZONE DELTA. (Travel to: Extraction Zone Delta)"
         },
         {
           "type": "collect",
           "target": "core_fragment",
           "count": 2,
           "desc": "Complete extraction zone assessment.",
-          "description": "Collect core fragment (x2)."
+          "description": "Collect core fragment (x2). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -350,7 +350,7 @@
       "rank": "D",
       "faction": "OMNICORP",
       "region": "EXTRACTION_ZONE_DELTA",
-      "description": "OmniCorp's Delta Mining Drones are the company's flagship extraction hardware — designed to operate in precise coordinated patterns for maximum resource yield. The aethel-charged mineral veins in Zone Delta have been disrupting their programming, causing erratic extraction behavior that is damaging the vein structures OmniCorp spent six months mapping. Director Vey's engineering note is characteristically cold: 'Hardware performing outside design parameters is hardware requiring replacement.' Terminate the deviant units.",
+      "description": "OmniCorp's Delta Mining Drones are the company's flagship extraction hardware — designed to operate in precise coordinated patterns for maximum resource yield. (Location: Extraction Zone Delta, Chief Barrett) The aethel-charged mineral veins in Zone Delta have been disrupting their programming, causing erratic extraction behavior that is damaging the vein structures OmniCorp spent six months mapping. Director Vey's engineering note is characteristically cold: 'Hardware performing outside design parameters is hardware requiring replacement.' Terminate the deviant units.",
       "quest_giver": {
         "npc_id": "npc_extraction_chief",
         "name": "Director Astra Vey",
@@ -358,7 +358,7 @@
       },
       "requirements": {
         "min_level": 6,
-        "reputation_required": 300,
+        "reputation_required": 25,
         "required_quests": [
           "fq_omni_006"
         ]
@@ -376,7 +376,7 @@
           "target": "circuit_fragment",
           "count": 1,
           "desc": "Submit mining output recalibration report.",
-          "description": "Collect circuit fragment (x1)."
+          "description": "Collect circuit fragment (x1). [Item: Circuit Fragment]"
         }
       ],
       "rewards": {
@@ -394,7 +394,7 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_omni_007"
+      "quest_chain_next": "fq_omni_009"
     },
     {
       "id": "fq_omni_009",
@@ -403,7 +403,7 @@
       "rank": "D",
       "faction": "OMNICORP",
       "region": "EXTRACTION_ZONE_DELTA",
-      "description": "OmniCorp's Delta Assault Drones were security hardware — deployed to protect the extraction infrastructure from rival faction intrusion. The aethel contamination in Zone Delta has corrupted their target identification systems and they are now attacking OmniCorp personnel. Director Astra Vey reviewed the incident report and flagged it with a single notation: 'Standard termination protocol. Hardware liability exceeds replacement cost. Asset destruction approved.' She is already ordering the next generation of Assault Drones from the galactic supply chain.",
+      "description": "OmniCorp's Delta Assault Drones were security hardware — deployed to protect the extraction infrastructure from rival faction intrusion. (Location: Extraction Zone Delta, Chief Barrett) The aethel contamination in Zone Delta has corrupted their target identification systems and they are now attacking OmniCorp personnel. Director Astra Vey reviewed the incident report and flagged it with a single notation: 'Standard termination protocol. Hardware liability exceeds replacement cost. Asset destruction approved.' She is already ordering the next generation of Assault Drones from the galactic supply chain.",
       "quest_giver": {
         "npc_id": "npc_extraction_chief",
         "name": "Director Astra Vey",
@@ -411,7 +411,7 @@
       },
       "requirements": {
         "min_level": 8,
-        "reputation_required": 420,
+        "reputation_required": 30,
         "required_quests": [
           "fq_omni_007"
         ]
@@ -429,7 +429,7 @@
           "target": "scrap_core",
           "count": 1,
           "desc": "Recover blackbox for failure analysis.",
-          "description": "Collect scrap core (x1)."
+          "description": "Collect scrap core (x1). [Item: Scrap Core]"
         }
       ],
       "rewards": {
@@ -456,7 +456,7 @@
       "rank": "D",
       "faction": "OMNICORP",
       "region": "EXTRACTION_ZONE_DELTA",
-      "description": "The rogue Delta Assault Drones have networked into a command cluster — a self-organizing behavior their original programming was not supposed to allow, which suggests the aethel contamination has done something to their hardware that OmniCorp's engineers find deeply uncomfortable to discuss. Director Vey's assessment skips the engineering concern entirely: the cluster represents a processing bottleneck in Zone Delta's operational throughput. Purge it completely. Redundancy is inefficiency. No defective unit leaves the zone operational.",
+      "description": "The rogue Delta Assault Drones have networked into a command cluster — a self-organizing behavior their original programming was not supposed to allow, which suggests the aethel contamination has done something to their hardware that OmniCorp's engineers find deeply uncomfortable to discuss. (Location: Extraction Zone Delta, Director Sterling) Director Vey's assessment skips the engineering concern entirely: the cluster represents a processing bottleneck in Zone Delta's operational throughput. Purge it completely. Redundancy is inefficiency. No defective unit leaves the zone operational.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Astra Vey",
@@ -464,7 +464,7 @@
       },
       "requirements": {
         "min_level": 9,
-        "reputation_required": 480,
+        "reputation_required": 35,
         "required_quests": [
           "fq_omni_009"
         ]
@@ -482,7 +482,7 @@
           "target": "sensor_chip",
           "count": 1,
           "desc": "Confirm cluster purge complete.",
-          "description": "Collect sensor chip (x1)."
+          "description": "Collect sensor chip (x1). [Item: Sensor Chip]"
         }
       ],
       "rewards": {
@@ -509,7 +509,7 @@
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "The Secure Mining Grid predates OmniCorp's formal Xylos colonization — it was built by an earlier survey operation whose records OmniCorp's legal team absorbed through a corporate acquisition eighteen years ago. The hardware inside has been running continuously since before any of the current factions existed on Xylos. Director Vey's interest is strategic: what technology did the previous operators have that OmniCorp does not? The answer could be worth considerably more than the Grid's mineral output.",
+      "description": "The Secure Mining Grid predates OmniCorp's formal Xylos colonization — it was built by an earlier survey operation whose records OmniCorp's legal team absorbed through a corporate acquisition eighteen years ago. The hardware inside has been running continuously since before any of the current factions existed on Xylos. Director Vey's interest is strategic: what technology did the previous operators have that OmniCorp does not? The answer could be worth considerably more than the Grid's mineral output. Quest giver: Warden AI at Secure Mining Grid Checkpoint.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "Director Astra Vey",
@@ -517,7 +517,7 @@
       },
       "requirements": {
         "min_level": 10,
-        "reputation_required": 540,
+        "reputation_required": 40,
         "required_quests": [
           "fq_omni_010"
         ]
@@ -528,14 +528,14 @@
           "target": "SECURE_MINING_GRID",
           "count": 1,
           "desc": "Enter the Secure Mining Grid.",
-          "description": "Travel to SECURE MINING GRID."
+          "description": "Travel to SECURE MINING GRID. (Travel to: Secure Mining Grid)"
         },
         {
           "type": "collect",
           "target": "ancient_scale",
           "count": 2,
           "desc": "Catalog recoverable hardware.",
-          "description": "Collect ancient scale (x2)."
+          "description": "Collect ancient scale (x2). [Item: Ancient Scale]"
         }
       ],
       "rewards": {
@@ -562,7 +562,7 @@
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "The Grid Sentinel Drones are running on patrol protocols written for a different era — their zones of engagement were mapped before OmniCorp's survey teams arrived, which means they are treating OmniCorp personnel as hostiles in their own asset. The Warden AI — an automated management system that has been running the Grid since before OmniCorp took ownership — acknowledges the problem but cannot update the Sentinel firmware without physical access to the patrol units. Achieve physical access. Forcefully.",
+      "description": "The Grid Sentinel Drones are running on patrol protocols written for a different era — their zones of engagement were mapped before OmniCorp's survey teams arrived, which means they are treating OmniCorp personnel as hostiles in their own asset. (Location: Secure Mining Grid, Warden AI) The Warden AI — an automated management system that has been running the Grid since before OmniCorp took ownership — acknowledges the problem but cannot update the Sentinel firmware without physical access to the patrol units. Achieve physical access. Forcefully.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "Director Astra Vey",
@@ -570,7 +570,7 @@
       },
       "requirements": {
         "min_level": 11,
-        "reputation_required": 600,
+        "reputation_required": 45,
         "required_quests": [
           "fq_omni_011"
         ]
@@ -588,7 +588,7 @@
           "target": "circuit_fragment",
           "count": 2,
           "desc": "Upload updated patrol data.",
-          "description": "Collect circuit fragment (x2)."
+          "description": "Collect circuit fragment (x2). [Item: Circuit Fragment]"
         }
       ],
       "rewards": {
@@ -615,7 +615,7 @@
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "The Grid Defenders were the previous operators' frontline combat units — built to a standard that was impressive for its era and is now, by OmniCorp's metrics, 340% below current combat hardware benchmarks. Tech Officer 404 has completed the obsolescence analysis. Director Vey has reviewed it. The conclusion is standard OmniCorp doctrine: hardware that cannot be upgraded to current specifications is hardware that needs to be cleared from the asset inventory. Begin the replacement cycle.",
+      "description": "The Grid Defenders were the previous operators' frontline combat units — built to a standard that was impressive for its era and is now, by OmniCorp's metrics, 340% below current combat hardware benchmarks. (Location: Secure Mining Grid, Tech Officer 404) Tech Officer 404 has completed the obsolescence analysis. Director Vey has reviewed it. The conclusion is standard OmniCorp doctrine: hardware that cannot be upgraded to current specifications is hardware that needs to be cleared from the asset inventory. Begin the replacement cycle.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_technician",
         "name": "Director Astra Vey",
@@ -623,7 +623,7 @@
       },
       "requirements": {
         "min_level": 12,
-        "reputation_required": 660,
+        "reputation_required": 50,
         "required_quests": [
           "fq_omni_012"
         ]
@@ -641,7 +641,7 @@
           "target": "refined_scrap",
           "count": 1,
           "desc": "Upload new combat algorithm.",
-          "description": "Collect refined scrap (x1)."
+          "description": "Collect refined scrap (x1). [Item: Refined Scrap]"
         }
       ],
       "rewards": {
@@ -676,7 +676,7 @@
       },
       "requirements": {
         "min_level": 13,
-        "reputation_required": 720,
+        "reputation_required": 55,
         "required_quests": [
           "fq_omni_013"
         ]
@@ -694,7 +694,7 @@
           "target": "sensor_chip",
           "count": 1,
           "desc": "Secure central node access.",
-          "description": "Collect sensor chip (x1)."
+          "description": "Collect sensor chip (x1). [Item: Sensor Chip]"
         }
       ],
       "rewards": {
@@ -721,7 +721,7 @@
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "Director Astra Vey's operational report is terse: 'Secure Mining Grid efficiency: 67%. OmniCorp standard: 95%. Delta: -28 points. Status: unacceptable. Corrective action: immediate.' The Sentinel Drones and Defenders still patrolling the Grid's uncleared sectors are the primary efficiency bottleneck. Every unit still operating outside OmniCorp control is a percentage point of grid throughput that belongs to a previous operator. Remove them all. Restore the Grid to OmniCorp standard.",
+      "description": "Director Astra Vey's operational report is terse: 'Secure Mining Grid efficiency: 67%. OmniCorp standard: 95%. Delta: -28 points. Status: unacceptable. Corrective action: immediate.' The Sentinel Drones and Defenders still patrolling the Grid's uncleared sectors are the primary efficiency bottleneck. Every unit still operating outside OmniCorp control is a percentage point of grid throughput that belongs to a previous operator. Remove them all. Restore the Grid to OmniCorp standard. Quest giver: Director Sterling at The Spire Executive Floor.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Astra Vey",
@@ -729,7 +729,7 @@
       },
       "requirements": {
         "min_level": 14,
-        "reputation_required": 780,
+        "reputation_required": 60,
         "required_quests": [
           "fq_omni_014"
         ]
@@ -774,7 +774,7 @@
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "The Grid Assault Units remaining in the Grid's deep sectors are not simply holdovers — the Warden AI has flagged an anomalous behavior pattern: they are actively routing around OmniCorp's new management protocols, creating processing dead zones that are costing the Grid 12% of its theoretical throughput. Director Vey finds this more interesting than concerning. Something in the previous operators' programming is resisting OmniCorp's override. She wants it studied — after it is eliminated.",
+      "description": "The Grid Assault Units remaining in the Grid's deep sectors are not simply holdovers — the Warden AI has flagged an anomalous behavior pattern: they are actively routing around OmniCorp's new management protocols, creating processing dead zones that are costing the Grid 12% of its theoretical throughput. (Location: Secure Mining Grid, Warden AI) Director Vey finds this more interesting than concerning. Something in the previous operators' programming is resisting OmniCorp's override. She wants it studied — after it is eliminated.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "Director Astra Vey",
@@ -782,7 +782,7 @@
       },
       "requirements": {
         "min_level": 15,
-        "reputation_required": 840,
+        "reputation_required": 65,
         "required_quests": [
           "fq_omni_015"
         ]
@@ -800,7 +800,7 @@
           "target": "scrap_core",
           "count": 1,
           "desc": "Report processing load restored.",
-          "description": "Collect scrap core (x1)."
+          "description": "Collect scrap core (x1). [Item: Scrap Core]"
         }
       ],
       "rewards": {
@@ -827,7 +827,7 @@
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "The Warden AI has located four legacy data nodes in the Grid's restricted sectors — nodes that contain pre-Xylos colonization schematics for technology that OmniCorp's R&D division has flagged as potentially revolutionary. Tech Officer 404 believes the schematics predate the Great Severance, which would make them the oldest technological records on the planet. Director Vey's assessment: 'Competitive intelligence asset. Priority retrieval before rival faction access. Sentinel escorts are a secondary concern.' They are not a secondary concern.",
+      "description": "The Warden AI has located four legacy data nodes in the Grid's restricted sectors — nodes that contain pre-Xylos colonization schematics for technology that OmniCorp's R&D division has flagged as potentially revolutionary. (Location: Secure Mining Grid, Tech Officer 404) Tech Officer 404 believes the schematics predate the Great Severance, which would make them the oldest technological records on the planet. Director Vey's assessment: 'Competitive intelligence asset. Priority retrieval before rival faction access. Sentinel escorts are a secondary concern.' They are not a secondary concern.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_technician",
         "name": "Director Astra Vey",
@@ -835,7 +835,7 @@
       },
       "requirements": {
         "min_level": 16,
-        "reputation_required": 900,
+        "reputation_required": 70,
         "required_quests": [
           "fq_omni_016"
         ]
@@ -846,7 +846,7 @@
           "target": "circuit_fragment",
           "count": 4,
           "desc": "Retrieve legacy data nodes.",
-          "description": "Collect circuit fragment (x4)."
+          "description": "Collect circuit fragment (x4). [Item: Circuit Fragment]"
         },
         {
           "type": "kill",
@@ -880,7 +880,7 @@
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "The Grid Assault Unit cluster has done something the Warden AI classifies as unprecedented in its operational history: it has seized Grid Sector 7, locked OmniCorp's protocols out of the local node, and appears to be executing an autonomous objective that was not in its original programming. Tech Officer 404's analysis is alarming and concise: the cluster is exhibiting emergent behavior. Director Vey's response to this is two words: 'Terminate it.' She is already forwarding the incident report to OmniCorp's R&D division.",
+      "description": "The Grid Assault Unit cluster has done something the Warden AI classifies as unprecedented in its operational history: it has seized Grid Sector 7, locked OmniCorp's protocols out of the local node, and appears to be executing an autonomous objective that was not in its original programming. (Location: Secure Mining Grid, Warden AI) Tech Officer 404's analysis is alarming and concise: the cluster is exhibiting emergent behavior. Director Vey's response to this is two words: 'Terminate it.' She is already forwarding the incident report to OmniCorp's R&D division.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "Director Astra Vey",
@@ -888,7 +888,7 @@
       },
       "requirements": {
         "min_level": 17,
-        "reputation_required": 960,
+        "reputation_required": 75,
         "required_quests": [
           "fq_omni_017"
         ]
@@ -906,7 +906,7 @@
           "target": "scrap_core",
           "count": 1,
           "desc": "Confirm sector 7 reclaimed.",
-          "description": "Collect scrap core (x1)."
+          "description": "Collect scrap core (x1). [Item: Scrap Core]"
         }
       ],
       "rewards": {
@@ -933,7 +933,7 @@
       "rank": "C",
       "faction": "OMNICORP",
       "region": "SECURE_MINING_GRID",
-      "description": "The Resonance Echo that formed in Grid Sector 7 during the cluster's autonomous operations has created a signal interference pattern across all grid frequencies — which is why the Warden AI's communications have been degraded and why OmniCorp's management protocols have been running at 40% bandwidth for the past six hours. Director Vey has reviewed the interference signature against OmniCorp's signal library. She finds it 'consistent with known Aethelgardian communication formats.' This information goes nowhere outside OmniCorp. Eliminate the source.",
+      "description": "The Resonance Echo that formed in Grid Sector 7 during the cluster's autonomous operations has created a signal interference pattern across all grid frequencies — which is why the Warden AI's communications have been degraded and why OmniCorp's management protocols have been running at 40% bandwidth for the past six hours. (Location: Secure Mining Grid, Director Sterling) Director Vey has reviewed the interference signature against OmniCorp's signal library. She finds it 'consistent with known Aethelgardian communication formats.' This information goes nowhere outside OmniCorp. Eliminate the source.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Astra Vey",
@@ -941,7 +941,7 @@
       },
       "requirements": {
         "min_level": 18,
-        "reputation_required": 1020,
+        "reputation_required": 80,
         "required_quests": [
           "fq_omni_018"
         ]
@@ -986,7 +986,7 @@
       "rank": "C",
       "faction": "OMNICORP",
       "region": "THE_SPIRE",
-      "description": "The Secure Mining Grid is at 94% operational efficiency — one point below OmniCorp standard, which Director Vey has flagged as 'within acceptable margin.' This represents an extraordinary improvement in a compressed timeline, and OmniCorp does not leave extraordinary performance unacknowledged when the performance metrics are this clean. Return to the Spire. The Advanced Unit certification comes with expanded access credentials and a briefing on the Skybridge Reactor project — the next phase of OmniCorp's Xylos acquisition plan.",
+      "description": "The Secure Mining Grid is at 94% operational efficiency — one point below OmniCorp standard, which Director Vey has flagged as 'within acceptable margin.' This represents an extraordinary improvement in a compressed timeline, and OmniCorp does not leave extraordinary performance unacknowledged when the performance metrics are this clean. (Location: The Spire, Director Sterling) Return to the Spire. The Advanced Unit certification comes with expanded access credentials and a briefing on the Skybridge Reactor project — the next phase of OmniCorp's Xylos acquisition plan.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Astra Vey",
@@ -994,7 +994,7 @@
       },
       "requirements": {
         "min_level": 19,
-        "reputation_required": 1080,
+        "reputation_required": 85,
         "required_quests": [
           "fq_omni_019"
         ]
@@ -1005,14 +1005,14 @@
           "target": "THE_SPIRE",
           "count": 1,
           "desc": "Return to the Spire.",
-          "description": "Travel to THE SPIRE."
+          "description": "Travel to THE SPIRE. (Travel to: The Spire)"
         },
         {
           "type": "collect",
           "target": "thick_gel",
           "count": 1,
           "desc": "Receive Advanced Unit certification.",
-          "description": "Collect thick gel (x1)."
+          "description": "Collect thick gel (x1). [Item: Thick Gel]"
         }
       ],
       "rewards": {
@@ -1039,7 +1039,7 @@
       "rank": "B",
       "faction": "OMNICORP",
       "region": "SKYBRIDGE_REACTOR",
-      "description": "The Skybridge Reactor contains pre-colonization power systems. Initiate data retrieval from the Reactor's legacy systems.",
+      "description": "The Skybridge Reactor contains pre-colonization power systems. Initiate data retrieval from the Reactor's legacy systems. Quest giver: Engineer Cross at Skybridge Reactor Maintenance Bay.",
       "quest_giver": {
         "npc_id": "npc_reactor_engineer",
         "name": "Engineer Cross",
@@ -1058,14 +1058,14 @@
           "target": "SKYBRIDGE_REACTOR",
           "count": 1,
           "desc": "Enter the Skybridge Reactor.",
-          "description": "Travel to SKYBRIDGE REACTOR."
+          "description": "Travel to SKYBRIDGE REACTOR. (Travel to: Skybridge Reactor)"
         },
         {
           "type": "collect",
           "target": "monster_material",
           "count": 2,
           "desc": "Download Reactor schematics.",
-          "description": "Collect monster material (x2)."
+          "description": "Collect monster material (x2). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -1092,7 +1092,7 @@
       "rank": "B",
       "faction": "OMNICORP",
       "region": "SKYBRIDGE_REACTOR",
-      "description": "Titan Assembly Drones are valuable manufacturing units. Acquire them for Omnicorp R&D — intact or in pieces.",
+      "description": "Titan Assembly Drones are valuable manufacturing units. (Location: Skybridge Reactor, Engineer Cross) Acquire them for Omnicorp R&D — intact or in pieces.",
       "quest_giver": {
         "npc_id": "npc_reactor_engineer",
         "name": "Engineer Cross",
@@ -1118,7 +1118,7 @@
           "target": "circuit_fragment",
           "count": 2,
           "desc": "Catalog acquired components.",
-          "description": "Collect circuit fragment (x2)."
+          "description": "Collect circuit fragment (x2). [Item: Circuit Fragment]"
         }
       ],
       "rewards": {
@@ -1145,7 +1145,7 @@
       "rank": "B",
       "faction": "OMNICORP",
       "region": "SKYBRIDGE_REACTOR",
-      "description": "Titan Assembly Sentinels guard the Reactor core. Their security protocols are incompatible with Omnicorp systems. Override.",
+      "description": "Titan Assembly Sentinels guard the Reactor core. (Location: Skybridge Reactor, Warden AI) Their security protocols are incompatible with Omnicorp systems. Override.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "Warden AI",
@@ -1171,7 +1171,7 @@
           "target": "sensor_chip",
           "count": 1,
           "desc": "Log core access granted.",
-          "description": "Collect sensor chip (x1)."
+          "description": "Collect sensor chip (x1). [Item: Sensor Chip]"
         }
       ],
       "rewards": {
@@ -1198,7 +1198,7 @@
       "rank": "B",
       "faction": "OMNICORP",
       "region": "SKYBRIDGE_REACTOR",
-      "description": "Titan Proto Cores are failed Titan experiments. Omnicorp wants the failure data. Extract it from the Cores — forcibly.",
+      "description": "Titan Proto Cores are failed Titan experiments. (Location: Skybridge Reactor, Engineer Cross) Omnicorp wants the failure data. Extract it from the Cores — forcibly.",
       "quest_giver": {
         "npc_id": "npc_reactor_engineer",
         "name": "Engineer Cross",
@@ -1224,7 +1224,7 @@
           "target": "titan_core",
           "count": 1,
           "desc": "Upload failure analysis.",
-          "description": "Collect titan core (x1)."
+          "description": "Collect titan core (x1). [Item: Titan Core]"
         }
       ],
       "rewards": {
@@ -1251,7 +1251,7 @@
       "rank": "B",
       "faction": "OMNICORP",
       "region": "SKYBRIDGE_REACTOR",
-      "description": "Storm Rift Serpents feed on the Reactor's energy output. This is theft of corporate resources. Recover the stolen energy.",
+      "description": "Storm Rift Serpents feed on the Reactor's energy output. (Location: Skybridge Reactor, Director Sterling) This is theft of corporate resources. Recover the stolen energy.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Sterling",
@@ -1277,7 +1277,7 @@
           "target": "storm_core",
           "count": 1,
           "desc": "Report energy recovery metrics.",
-          "description": "Collect storm core (x1)."
+          "description": "Collect storm core (x1). [Item: Storm Core]"
         }
       ],
       "rewards": {
@@ -1304,7 +1304,7 @@
       "rank": "B",
       "faction": "OMNICORP",
       "region": "CRADLE_EXPANSE",
-      "description": "The Cradle Expanse requires orbital monitoring station deployment. Establish Omnicorp surveillance of the contested zone.",
+      "description": "The Cradle Expanse requires orbital monitoring station deployment. Establish Omnicorp surveillance of the contested zone. Quest giver: Director Sterling at The Spire Executive Floor.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Sterling",
@@ -1323,14 +1323,14 @@
           "target": "CRADLE_EXPANSE",
           "count": 1,
           "desc": "Enter the Cradle Expanse.",
-          "description": "Travel to CRADLE EXPANSE."
+          "description": "Travel to CRADLE EXPANSE. (Travel to: Cradle Expanse)"
         },
         {
           "type": "collect",
           "target": "raw_aethel_core",
           "count": 2,
           "desc": "Deploy surveillance stations.",
-          "description": "Collect raw aethel core (x2)."
+          "description": "Collect raw aethel core (x2). [Item: Raw Aethel Core]"
         }
       ],
       "rewards": {
@@ -1357,7 +1357,7 @@
       "rank": "B",
       "faction": "OMNICORP",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Rift Stalkers are biological anomalies. Collect specimens for Omnicorp Bio-Division analysis.",
+      "description": "Aethel Rift Stalkers are biological anomalies. (Location: Cradle Expanse, Tech Officer 404) Collect specimens for Omnicorp Bio-Division analysis.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_technician",
         "name": "Tech Officer 404",
@@ -1383,7 +1383,7 @@
           "target": "rift_claw_fragment",
           "count": 1,
           "desc": "Submit bio-analysis preliminary report.",
-          "description": "Collect rift claw fragment (x1)."
+          "description": "Collect rift claw fragment (x1). [Item: Rift Claw Fragment]"
         }
       ],
       "rewards": {
@@ -1410,7 +1410,7 @@
       "rank": "B",
       "faction": "OMNICORP",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Behemoths contain unique biological power cells. Harvest them for Omnicorp energy research.",
+      "description": "Aethel Behemoths contain unique biological power cells. (Location: Cradle Expanse, Tech Officer 404) Harvest them for Omnicorp energy research.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_technician",
         "name": "Tech Officer 404",
@@ -1436,7 +1436,7 @@
           "target": "raw_aethel_core",
           "count": 1,
           "desc": "Submit power cell analysis.",
-          "description": "Collect raw aethel core (x1)."
+          "description": "Collect raw aethel core (x1). [Item: Raw Aethel Core]"
         }
       ],
       "rewards": {
@@ -1463,7 +1463,7 @@
       "rank": "B",
       "faction": "OMNICORP",
       "region": "SKYBRIDGE_REACTOR",
-      "description": "Titan Assembly Sentinels auto-reactivate every 72 hours. Implement permanent shutdown procedure.",
+      "description": "Titan Assembly Sentinels auto-reactivate every 72 hours. (Location: Skybridge Reactor, Warden AI) Implement permanent shutdown procedure.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "Warden AI",
@@ -1489,7 +1489,7 @@
           "target": "sensor_chip",
           "count": 1,
           "desc": "Confirm permanent shutdown.",
-          "description": "Collect sensor chip (x1)."
+          "description": "Collect sensor chip (x1). [Item: Sensor Chip]"
         }
       ],
       "rewards": {
@@ -1516,7 +1516,7 @@
       "rank": "B",
       "faction": "OMNICORP",
       "region": "THE_SPIRE",
-      "description": "System analysis indicates Ascension-ready status. Report to Director Astra Vey for Firmware v3.0 installation.",
+      "description": "System analysis indicates Ascension-ready status. (Location: The Spire, Director Astra Vey) Report to Director Astra Vey for Firmware v3.0 installation.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_class_trainer",
         "name": "Director Astra Vey",
@@ -1524,7 +1524,7 @@
       },
       "requirements": {
         "min_level": 29,
-        "reputation_required": 1680,
+        "reputation_required": 90,
         "required_quests": [
           "fq_omni_029"
         ]
@@ -1535,7 +1535,7 @@
           "target": "npc_omnicorp_class_trainer",
           "count": 1,
           "desc": "Report for Firmware Update installation.",
-          "description": "Speak with npc omnicorp class trainer."
+          "description": "Speak with npc omnicorp class trainer. (Director Astra Vey at The Spire Advanced Division)"
         },
         {
           "type": "kill",
@@ -1584,7 +1584,7 @@
       "rank": "A",
       "faction": "OMNICORP",
       "region": "ORBITAL_SENTINEL_COMMAND",
-      "description": "Orbital Sentinel Command provides planetary-wide sensor coverage. Omnicorp will integrate its systems with our network.",
+      "description": "Orbital Sentinel Command provides planetary-wide sensor coverage. Omnicorp will integrate its systems with our network. Quest giver: Director Sterling at The Spire Executive Floor.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Sterling",
@@ -1603,14 +1603,14 @@
           "target": "ORBITAL_SENTINEL_COMMAND",
           "count": 1,
           "desc": "Report to Orbital Sentinel Command.",
-          "description": "Travel to ORBITAL SENTINEL COMMAND."
+          "description": "Travel to ORBITAL SENTINEL COMMAND. (Travel to: Orbital Sentinel Command)"
         },
         {
           "type": "collect",
           "target": "titan_core",
           "count": 1,
           "desc": "Complete orbital systems integration.",
-          "description": "Collect titan core (x1)."
+          "description": "Collect titan core (x1). [Item: Titan Core]"
         }
       ],
       "rewards": {
@@ -1637,7 +1637,7 @@
       "rank": "A",
       "faction": "OMNICORP",
       "region": "CRADLE_EXPANSE",
-      "description": "The Ashen Drake disrupts corporate transmission signals. Signal interference is unacceptable. Neutralize the source.",
+      "description": "The Ashen Drake disrupts corporate transmission signals. (Location: Cradle Expanse, Director Sterling) Signal interference is unacceptable. Neutralize the source.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Sterling",
@@ -1663,7 +1663,7 @@
           "target": "drake_heart",
           "count": 1,
           "desc": "Report signal clarity restored.",
-          "description": "Collect drake heart (x1)."
+          "description": "Collect drake heart (x1). [Item: Drake Heart]"
         }
       ],
       "rewards": {
@@ -1690,7 +1690,7 @@
       "rank": "A",
       "faction": "OMNICORP",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Iron Carapaces have armor superior to Omnicorp alloys. Reverse-engineer through systematic deconstruction.",
+      "description": "Aethel Iron Carapaces have armor superior to Omnicorp alloys. (Location: Cradle Expanse, Tech Officer 404) Reverse-engineer through systematic deconstruction.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_technician",
         "name": "Tech Officer 404",
@@ -1716,7 +1716,7 @@
           "target": "crystal_core",
           "count": 1,
           "desc": "Submit alloy analysis.",
-          "description": "Collect crystal core (x1)."
+          "description": "Collect crystal core (x1). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -1743,7 +1743,7 @@
       "rank": "A",
       "faction": "OMNICORP",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Corrupted Behemoths are corrupted data given physical form. Delete them.",
+      "description": "Aethel Corrupted Behemoths are corrupted data given physical form. (Location: Cradle Expanse, Director Sterling) Delete them.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Sterling",
@@ -1769,7 +1769,7 @@
           "target": "raw_aethel_fragment",
           "count": 1,
           "desc": "Confirm data deletion.",
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -1796,7 +1796,7 @@
       "rank": "A",
       "faction": "OMNICORP",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Abyssal Reavers are attempting network intrusion at the orbital level. Deploy counter-intrusion measures.",
+      "description": "Aethel Abyssal Reavers are attempting network intrusion at the orbital level. (Location: Cradle Expanse, Warden AI) Deploy counter-intrusion measures.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "Warden AI",
@@ -1822,7 +1822,7 @@
           "target": "raw_aethel_fragment",
           "count": 1,
           "desc": "Report firewall integrity.",
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -1849,7 +1849,7 @@
       "rank": "A",
       "faction": "OMNICORP",
       "region": "ORBITAL_SENTINEL_COMMAND",
-      "description": "Hostile entities probing orbital network nodes. Deploy automated defense protocols.",
+      "description": "Hostile entities probing orbital network nodes. (Location: Orbital Sentinel Command, Director Sterling) Deploy automated defense protocols.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Sterling",
@@ -1902,7 +1902,7 @@
       "rank": "A",
       "faction": "OMNICORP",
       "region": "CRADLE_EXPANSE",
-      "description": "The Ashen Drake has re-initialized. Execute System Shutdown on the Drake process. No process is immune to termination.",
+      "description": "The Ashen Drake has re-initialized. (Location: Cradle Expanse, Director Sterling) Execute System Shutdown on the Drake process. No process is immune to termination.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Sterling",
@@ -1928,7 +1928,7 @@
           "target": "drake_heart",
           "count": 1,
           "desc": "Confirm Drake process terminated.",
-          "description": "Collect drake heart (x1)."
+          "description": "Collect drake heart (x1). [Item: Drake Heart]"
         }
       ],
       "rewards": {
@@ -1955,7 +1955,7 @@
       "rank": "A",
       "faction": "OMNICORP",
       "region": "CRADLE_EXPANSE",
-      "description": "Omnicorp grid expansion into the Expanse faces hostile resistance. Override resistance with superior firepower.",
+      "description": "Omnicorp grid expansion into the Expanse faces hostile resistance. (Location: Cradle Expanse, Director Sterling) Override resistance with superior firepower.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Sterling",
@@ -1981,7 +1981,7 @@
           "target": "crystal_core",
           "count": 1,
           "desc": "Confirm grid expansion.",
-          "description": "Collect crystal core (x1)."
+          "description": "Collect crystal core (x1). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -2008,7 +2008,7 @@
       "rank": "A",
       "faction": "OMNICORP",
       "region": "CRADLE_EXPANSE",
-      "description": "Abyssal Reavers are executing a coordinated network breach. Isolate and terminate all intrusion vectors.",
+      "description": "Abyssal Reavers are executing a coordinated network breach. (Location: Cradle Expanse, Warden AI) Isolate and terminate all intrusion vectors.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "Warden AI",
@@ -2061,7 +2061,7 @@
       "rank": "A",
       "faction": "OMNICORP",
       "region": "THE_SPIRE",
-      "description": "The System Master certification trial. Terminate Ashen Drake and two elite threats to prove System Master operational status.",
+      "description": "The System Master certification trial. (Location: The Spire, Director Sterling) Terminate Ashen Drake and two elite threats to prove System Master operational status.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Sterling",
@@ -2069,7 +2069,7 @@
       },
       "requirements": {
         "min_level": 39,
-        "reputation_required": 2280,
+        "reputation_required": 100,
         "required_quests": [
           "fq_omni_039"
         ]
@@ -2129,7 +2129,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Void Echo Chasm represents a dimensional anomaly. Omnicorp authorizes full analysis. All sensor data will be uploaded to the Spire.",
+      "description": "The Void Echo Chasm represents a dimensional anomaly. Omnicorp authorizes full analysis. All sensor data will be uploaded to the Spire. Quest giver: Director Sterling at The Spire Executive Floor.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Sterling",
@@ -2148,14 +2148,14 @@
           "target": "VOID_ECHO_CHASM",
           "count": 1,
           "desc": "Enter the Void Echo Chasm.",
-          "description": "Travel to VOID ECHO CHASM."
+          "description": "Travel to VOID ECHO CHASM. (Travel to: Void Echo Chasm)"
         },
         {
           "type": "collect",
           "target": "alpha_fang",
           "count": 3,
           "desc": "Upload chasm sensor data.",
-          "description": "Collect alpha fang (x3)."
+          "description": "Collect alpha fang (x3). [Item: Alpha Fang]"
         }
       ],
       "rewards": {
@@ -2182,7 +2182,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "VOID_ECHO_CHASM",
-      "description": "Void Reavers are runtime errors in the dimensional fabric. Execute Debug Protocol on all Reaver instances.",
+      "description": "Void Reavers are runtime errors in the dimensional fabric. (Location: Void Echo Chasm, Tech Officer 404) Execute Debug Protocol on all Reaver instances.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_technician",
         "name": "Tech Officer 404",
@@ -2208,7 +2208,7 @@
           "target": "void_fragment",
           "count": 1,
           "desc": "Upload debug operation log.",
-          "description": "Collect void fragment (x1)."
+          "description": "Collect void fragment (x1). [Item: Void Fragment]"
         }
       ],
       "rewards": {
@@ -2235,7 +2235,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "VOID_ECHO_CHASM",
-      "description": "Void Channelers are running unauthorized void-energy scripts. Classify as malware. Execute Anti-Malware Protocol.",
+      "description": "Void Channelers are running unauthorized void-energy scripts. (Location: Void Echo Chasm, Warden AI) Classify as malware. Execute Anti-Malware Protocol.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "Warden AI",
@@ -2243,7 +2243,7 @@
       },
       "requirements": {
         "min_level": 42,
-        "reputation_required": 2460,
+        "reputation_required": 125,
         "required_quests": [
           "fq_omni_042"
         ]
@@ -2261,7 +2261,7 @@
           "target": "void_channeler_core",
           "count": 1,
           "desc": "Confirm malware removal.",
-          "description": "Collect void channeler core (x1)."
+          "description": "Collect void channeler core (x1). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -2288,7 +2288,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "VOID_ECHO_CHASM",
-      "description": "Aethel Abyssal Reavers are high-priority system processes that cannot be terminated through normal means. Deploy Kill Command.",
+      "description": "Aethel Abyssal Reavers are high-priority system processes that cannot be terminated through normal means. (Location: Void Echo Chasm, Director Sterling) Deploy Kill Command.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Sterling",
@@ -2314,7 +2314,7 @@
           "target": "raw_aethel_fragment",
           "count": 1,
           "desc": "Upload Kill Command execution log.",
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -2341,7 +2341,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "VOID_ECHO_CHASM",
-      "description": "Aethel Corrupted Behemoths are error cascades in the void system. Execute Error Correction Protocol.",
+      "description": "Aethel Corrupted Behemoths are error cascades in the void system. (Location: Void Echo Chasm, Warden AI) Execute Error Correction Protocol.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "Warden AI",
@@ -2367,7 +2367,7 @@
           "target": "raw_aethel_fragment",
           "count": 1,
           "desc": "Confirm errors corrected.",
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -2394,7 +2394,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "VOID_ECHO_CHASM",
-      "description": "Soul Fragmenters cause segmentation faults in neural network operatives. Patch the vulnerability at the source.",
+      "description": "Soul Fragmenters cause segmentation faults in neural network operatives. (Location: Void Echo Chasm, Tech Officer 404) Patch the vulnerability at the source.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_technician",
         "name": "Tech Officer 404",
@@ -2420,7 +2420,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "Confirm patch deployed.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -2447,7 +2447,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "VOID_ECHO_CHASM",
-      "description": "Chrono Wraiths generate temporal runtime errors. Time is a resource — these errors waste it. Terminate all Wraith processes.",
+      "description": "Chrono Wraiths generate temporal runtime errors. (Location: Void Echo Chasm, Warden AI) Time is a resource — these errors waste it. Terminate all Wraith processes.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "Warden AI",
@@ -2473,7 +2473,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "Report temporal stability restored.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2500,7 +2500,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "VOID_ECHO_CHASM",
-      "description": "A Gigantic Jotunn occupies a high-value resource node. Resolve the resource conflict through Jotunn process termination.",
+      "description": "A Gigantic Jotunn occupies a high-value resource node. (Location: Void Echo Chasm, Director Sterling) Resolve the resource conflict through Jotunn process termination.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Sterling",
@@ -2526,7 +2526,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "Confirm resource node secured.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -2553,7 +2553,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "SHATTERED_HEART",
-      "description": "The Shattered Heart is an unexploited resource sector. Omnicorp authorizes full sector analysis and asset deployment.",
+      "description": "The Shattered Heart is an unexploited resource sector. Omnicorp authorizes full sector analysis and asset deployment. Quest giver: Director Sterling at The Spire Executive Floor.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Sterling",
@@ -2572,14 +2572,14 @@
           "target": "SHATTERED_HEART",
           "count": 1,
           "desc": "Enter the Shattered Heart sector.",
-          "description": "Travel to SHATTERED HEART."
+          "description": "Travel to SHATTERED HEART. (Travel to: Shattered Heart, Shattered Heart)"
         },
         {
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
           "desc": "Complete sector analysis.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2606,7 +2606,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "SHATTERED_HEART",
-      "description": "THE DRAKE EXTRACTION OPERATION. The Ashen Drake is a Class-A energy asset. Extract its core for Omnicorp reactor fuel. Raid Tier-1. Efficiency is the only metric.",
+      "description": "THE DRAKE EXTRACTION OPERATION. (Location: Shattered Heart, Director Sterling) The Ashen Drake is a Class-A energy asset. Extract its core for Omnicorp reactor fuel. Raid Tier-1. Efficiency is the only metric.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "Director Sterling",
@@ -2639,7 +2639,7 @@
           "target": "drake_scale_fragment",
           "count": 1,
           "desc": "Confirm core extraction complete.",
-          "description": "Collect drake scale fragment (x1)."
+          "description": "Collect drake scale fragment (x1). [Item: Drake Scale Fragment]"
         }
       ],
       "rewards": {
@@ -2674,7 +2674,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "VOID_ECHO_CHASM",
-      "description": "Soul Fragmenters have multiplied beyond acceptable parameters. Execute comprehensive Anti-Virus sweep.",
+      "description": "Soul Fragmenters have multiplied beyond acceptable parameters. (Location: Void Echo Chasm, Warden AI) Execute comprehensive Anti-Virus sweep.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "",
@@ -2700,7 +2700,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "Confirm virus scan complete.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2727,7 +2727,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "VOID_ECHO_CHASM",
-      "description": "Operation Total Void Cleanup. All void entities classified as system junk. Execute Disk Cleanup Protocol.",
+      "description": "Operation Total Void Cleanup. (Location: Void Echo Chasm, Director Sterling) All void entities classified as system junk. Execute Disk Cleanup Protocol.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -2780,7 +2780,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "VOID_ECHO_CHASM",
-      "description": "A Void Stalker operates as a rootkit in the void network. Rootkits must be removed at the kernel level.",
+      "description": "A Void Stalker operates as a rootkit in the void network. (Location: Void Echo Chasm, Warden AI) Rootkits must be removed at the kernel level.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "",
@@ -2806,7 +2806,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "Confirm rootkit removal.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -2833,7 +2833,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "VOID_ECHO_CHASM",
-      "description": "Chrono Wraiths exploit temporal vulnerabilities. Deploy Temporal Stability Patch across all affected sectors.",
+      "description": "Chrono Wraiths exploit temporal vulnerabilities. (Location: Void Echo Chasm, Tech Officer 404) Deploy Temporal Stability Patch across all affected sectors.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_technician",
         "name": "",
@@ -2859,7 +2859,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "Confirm all patches deployed.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2886,7 +2886,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "SHATTERED_HEART",
-      "description": "The Shattered Heart sector contains residual hostile processes. Execute Sector Purge Protocol.",
+      "description": "The Shattered Heart sector contains residual hostile processes. Execute Sector Purge Protocol. Quest giver: Director Sterling at The Spire Executive Floor.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -2939,7 +2939,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "SHATTERED_HEART",
-      "description": "Gigantic Jotunns function as organic servers hosting hostile processes. Shut them down.",
+      "description": "Gigantic Jotunns function as organic servers hosting hostile processes. (Location: Shattered Heart, Warden AI) Shut them down.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "",
@@ -2965,7 +2965,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "Upload server shutdown log.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -2992,7 +2992,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "SHATTERED_HEART",
-      "description": "Crystal Tyrants are foreign hardware installations in the Heart sector. Remove all foreign hardware.",
+      "description": "Crystal Tyrants are foreign hardware installations in the Heart sector. (Location: Shattered Heart, Director Sterling) Remove all foreign hardware.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -3018,7 +3018,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "Confirm hardware removal.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -3045,7 +3045,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Abyss Harbinger is the master process controlling void anomalies. Prepare for total system shutdown.",
+      "description": "The Abyss Harbinger is the master process controlling void anomalies. (Location: Void Echo Chasm, Warden AI) Prepare for total system shutdown.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "",
@@ -3053,7 +3053,7 @@
       },
       "requirements": {
         "min_level": 57,
-        "reputation_required": 3360,
+        "reputation_required": 175,
         "required_quests": [
           "fq_omni_057"
         ]
@@ -3078,7 +3078,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "Establish mainframe access.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -3105,7 +3105,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "VOID_ECHO_CHASM",
-      "description": "Soul Fragmenters are spawning child processes. Execute Process Kill on all Fragmenter processes and subprocesses.",
+      "description": "Soul Fragmenters are spawning child processes. (Location: Void Echo Chasm, Warden AI) Execute Process Kill on all Fragmenter processes and subprocesses.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "",
@@ -3158,7 +3158,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "VOID_ECHO_CHASM",
-      "description": "FINAL SHUTDOWN SEQUENCE. The Abyss Harbinger is the void's master process. Execute total system shutdown. Raid Boss Tier-2. All Omnicorp resources authorized. System integrity must be restored.",
+      "description": "FINAL SHUTDOWN SEQUENCE. (Location: Void Echo Chasm, Director Sterling) The Abyss Harbinger is the void's master process. Execute total system shutdown. Raid Boss Tier-2. All Omnicorp resources authorized. System integrity must be restored.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -3184,7 +3184,7 @@
           "target": "void_core",
           "count": 1,
           "desc": "Secure the Shutdown Code for Omnicorp.",
-          "description": "Collect void core (x1)."
+          "description": "Collect void core (x1). [Item: Void Core]"
         }
       ],
       "rewards": {
@@ -3219,7 +3219,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "The Severance Faultline is a structural integrity failure. Omnicorp will deploy gravity anchors to stabilize the planetary crust.",
+      "description": "The Severance Faultline is a structural integrity failure. Omnicorp will deploy gravity anchors to stabilize the planetary crust. Quest giver: Director Sterling at The Spire Executive Floor.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -3238,14 +3238,14 @@
           "target": "SEVERANCE_FAULTLINE",
           "count": 1,
           "desc": "Enter the Severance Faultline.",
-          "description": "Travel to SEVERANCE FAULTLINE."
+          "description": "Travel to SEVERANCE FAULTLINE. (Travel to: Severance Faultline, Shattered Heart)"
         },
         {
           "type": "collect",
           "target": "titan_core",
           "count": 3,
           "desc": "Upload structural stability readings.",
-          "description": "Collect titan core (x3)."
+          "description": "Collect titan core (x3). [Item: Titan Core]"
         }
       ],
       "rewards": {
@@ -3272,7 +3272,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Aethel Iron Carapaces contain minerals essential for gravity anchor construction. Deconstruct and extract.",
+      "description": "Aethel Iron Carapaces contain minerals essential for gravity anchor construction. (Location: Severance Faultline, Tech Officer 404) Deconstruct and extract.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_technician",
         "name": "",
@@ -3298,7 +3298,7 @@
           "target": "carapace_fragment",
           "count": 1,
           "desc": "Report mineral extraction yields.",
-          "description": "Collect carapace fragment (x1)."
+          "description": "Collect carapace fragment (x1). [Item: Carapace Fragment]"
         }
       ],
       "rewards": {
@@ -3325,7 +3325,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Crystal Tyrants disrupt anchor calibration. Eliminate interference sources.",
+      "description": "Crystal Tyrants disrupt anchor calibration. (Location: Severance Faultline, Director Sterling) Eliminate interference sources.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -3351,7 +3351,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "Confirm calibration restored.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -3378,7 +3378,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Gigantic Jotunns refuse to vacate anchor deployment sites. Deploy anchors regardless.",
+      "description": "Gigantic Jotunns refuse to vacate anchor deployment sites. (Location: Severance Faultline, Director Sterling) Deploy anchors regardless.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -3404,7 +3404,7 @@
           "target": "core_fragment",
           "count": 3,
           "desc": "Confirm all anchors deployed.",
-          "description": "Collect core fragment (x3)."
+          "description": "Collect core fragment (x3). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -3431,7 +3431,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The Aethel Siphon Core will become Omnicorp's primary server farm. Begin integration assessment.",
+      "description": "The Aethel Siphon Core will become Omnicorp's primary server farm. Begin integration assessment. Quest giver: Director Sterling at The Spire Executive Floor.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -3450,14 +3450,14 @@
           "target": "AETHEL_SIPHON_CORE",
           "count": 1,
           "desc": "Enter the Aethel Siphon Core.",
-          "description": "Travel to AETHEL SIPHON CORE."
+          "description": "Travel to AETHEL SIPHON CORE. (Travel to: Aethel Siphon Core, Shattered Heart)"
         },
         {
           "type": "collect",
           "target": "void_channeler_core",
           "count": 2,
           "desc": "Complete integration assessment.",
-          "description": "Collect void channeler core (x2)."
+          "description": "Collect void channeler core (x2). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -3484,7 +3484,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Hostile processes detected in Core systems. Execute security sweep.",
+      "description": "Hostile processes detected in Core systems. (Location: Aethel Siphon Core, Warden AI) Execute security sweep.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "",
@@ -3537,7 +3537,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Corrupted Behemoths cause system crashes in Core infrastructure. Prevent crash cascade.",
+      "description": "Corrupted Behemoths cause system crashes in Core infrastructure. (Location: Aethel Siphon Core, Warden AI) Prevent crash cascade.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "",
@@ -3563,7 +3563,7 @@
           "target": "raw_aethel_fragment",
           "count": 1,
           "desc": "Confirm system uptime restored.",
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -3590,7 +3590,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Rift Stalkers have established a peer-to-peer network in the Core. Disconnect all nodes.",
+      "description": "Rift Stalkers have established a peer-to-peer network in the Core. (Location: Aethel Siphon Core, Tech Officer 404) Disconnect all nodes.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_technician",
         "name": "",
@@ -3616,7 +3616,7 @@
           "target": "raw_aethel_fragment",
           "count": 1,
           "desc": "Confirm network disconnected.",
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -3643,7 +3643,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The Gravity Titan's algorithm can manipulate mass. Omnicorp will copy that algorithm and deploy it across the network.",
+      "description": "The Gravity Titan's algorithm can manipulate mass. (Location: Aethel Siphon Core, Director Sterling) Omnicorp will copy that algorithm and deploy it across the network.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -3651,7 +3651,7 @@
       },
       "requirements": {
         "min_level": 68,
-        "reputation_required": 4020,
+        "reputation_required": 225,
         "required_quests": [
           "fq_omni_068"
         ]
@@ -3662,7 +3662,7 @@
           "target": "core_fragment",
           "count": 3,
           "desc": "Collect Gravity Titan algorithm data.",
-          "description": "Collect core fragment (x3)."
+          "description": "Collect core fragment (x3). [Item: Core Fragment]"
         },
         {
           "type": "kill",
@@ -3696,7 +3696,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "CRADLE_EXPANSE",
-      "description": "GRAVITY RECALIBRATION OPERATION. The Gravity Titan's algorithm is the key to mass manipulation. Defeat the Raid Boss Tier-3 entity and download the complete algorithm. Omnicorp will control gravity itself.",
+      "description": "GRAVITY RECALIBRATION OPERATION. (Location: Cradle Expanse, Director Sterling) The Gravity Titan's algorithm is the key to mass manipulation. Defeat the Raid Boss Tier-3 entity and download the complete algorithm. Omnicorp will control gravity itself.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -3729,7 +3729,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "Confirm algorithm download.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -3764,7 +3764,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The Prima Materia Forge will become Omnicorp's primary manufacturing facility. Initiate facility takeover.",
+      "description": "The Prima Materia Forge will become Omnicorp's primary manufacturing facility. Initiate facility takeover. Quest giver: Director Sterling at The Spire Executive Floor.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -3783,14 +3783,14 @@
           "target": "PRIMA_MATERIA_FORGE",
           "count": 1,
           "desc": "Enter the Prima Materia Forge.",
-          "description": "Travel to PRIMA MATERIA FORGE."
+          "description": "Travel to PRIMA MATERIA FORGE. (Travel to: Prima Materia Forge, Shattered Heart)"
         },
         {
           "type": "collect",
           "target": "crystal_core",
           "count": 2,
           "desc": "Complete manufacturing assessment.",
-          "description": "Collect crystal core (x2)."
+          "description": "Collect crystal core (x2). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -3817,7 +3817,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Ancient Forge defenses reject Omnicorp network integration. Override with extreme prejudice.",
+      "description": "Ancient Forge defenses reject Omnicorp network integration. (Location: Prima Materia Forge, Warden AI) Override with extreme prejudice.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "",
@@ -3843,7 +3843,7 @@
           "target": "crystal_core",
           "count": 1,
           "desc": "Confirm all systems overridden.",
-          "description": "Collect crystal core (x1)."
+          "description": "Collect crystal core (x1). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -3870,7 +3870,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Corrupted Behemoths are defective products contaminating the Forge. Execute Product Recall and Disposal.",
+      "description": "Corrupted Behemoths are defective products contaminating the Forge. (Location: Prima Materia Forge, Director Sterling) Execute Product Recall and Disposal.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -3896,7 +3896,7 @@
           "target": "raw_aethel_fragment",
           "count": 1,
           "desc": "File QA clearance report.",
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -3923,7 +3923,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Abyssal forces have entered the Forge — unauthorized access detected. Remove all unauthorized users.",
+      "description": "Abyssal forces have entered the Forge — unauthorized access detected. (Location: Prima Materia Forge, Warden AI) Remove all unauthorized users.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "",
@@ -3976,7 +3976,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Jotunns are interfering with Forge workflow automation. Terminate interfering processes.",
+      "description": "Jotunns are interfering with Forge workflow automation. (Location: Prima Materia Forge, Director Sterling) Terminate interfering processes.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -4002,7 +4002,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "Confirm workflow optimized.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -4029,7 +4029,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Initiate Mass Production Protocol. All rival presence in the Forge is a production inefficiency.",
+      "description": "Initiate Mass Production Protocol. (Location: Prima Materia Forge, Tech Officer 404) All rival presence in the Forge is a production inefficiency.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_technician",
         "name": "",
@@ -4055,7 +4055,7 @@
           "target": "void_channeler_core",
           "count": 1,
           "desc": "Confirm mass production online.",
-          "description": "Collect void channeler core (x1)."
+          "description": "Collect void channeler core (x1). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -4082,7 +4082,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Titan Forge Automatons resist Omnicorp programming. Reprogram through combat override.",
+      "description": "Titan Forge Automatons resist Omnicorp programming. (Location: Prima Materia Forge, Warden AI) Reprogram through combat override.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "",
@@ -4108,7 +4108,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "Confirm reprogramming.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -4135,7 +4135,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Titan Proto Cores are failed products. Recycle for raw materials.",
+      "description": "Titan Proto Cores are failed products. (Location: Prima Materia Forge, Tech Officer 404) Recycle for raw materials.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_technician",
         "name": "",
@@ -4161,7 +4161,7 @@
           "target": "titan_core",
           "count": 1,
           "desc": "Report recycling yield.",
-          "description": "Collect titan core (x1)."
+          "description": "Collect titan core (x1). [Item: Titan Core]"
         }
       ],
       "rewards": {
@@ -4188,7 +4188,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The Executive Legend certification trial. Eliminate both Titan and Harbinger in one operational cycle. Prove systematic superiority.",
+      "description": "The Executive Legend certification trial. (Location: Prima Materia Forge, Director Sterling) Eliminate both Titan and Harbinger in one operational cycle. Prove systematic superiority.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -4196,7 +4196,7 @@
       },
       "requirements": {
         "min_level": 78,
-        "reputation_required": 4620,
+        "reputation_required": 275,
         "required_quests": [
           "fq_omni_078"
         ]
@@ -4249,7 +4249,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "THE_SPIRE",
-      "description": "CEO Valerius personally authorizes your Executive Legend certification. Return to the Spire for system-wide recognition broadcast.",
+      "description": "CEO Valerius personally authorizes your Executive Legend certification. (Location: The Spire, Director Sterling) Return to the Spire for system-wide recognition broadcast.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -4257,7 +4257,7 @@
       },
       "requirements": {
         "min_level": 79,
-        "reputation_required": 4680,
+        "reputation_required": 325,
         "required_quests": [
           "fq_omni_079"
         ]
@@ -4268,14 +4268,14 @@
           "target": "THE_SPIRE",
           "count": 1,
           "desc": "Return to the Spire.",
-          "description": "Travel to THE SPIRE."
+          "description": "Travel to THE SPIRE. (Travel to: The Spire)"
         },
         {
           "type": "collect",
           "target": "monster_material",
           "count": 1,
           "desc": "Receive Executive Legend certification.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -4306,7 +4306,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "HIDDEN_AETHELGARDIAN_CITY",
-      "description": "The Hidden Aethelgardian City contains Precursor technology caches. Omnicorp authorizes full technology acquisition.",
+      "description": "The Hidden Aethelgardian City contains Precursor technology caches. Omnicorp authorizes full technology acquisition. Quest giver: Director Sterling at The Spire Executive Floor.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -4314,7 +4314,7 @@
       },
       "requirements": {
         "min_level": 80,
-        "reputation_required": 4740,
+        "reputation_required": 375,
         "required_quests": [
           "fq_omni_080"
         ]
@@ -4325,14 +4325,14 @@
           "target": "HIDDEN_AETHELGARDIAN_CITY",
           "count": 1,
           "desc": "Enter the Hidden Aethelgardian City.",
-          "description": "Travel to HIDDEN AETHELGARDIAN CITY."
+          "description": "Travel to HIDDEN AETHELGARDIAN CITY. (Travel to: Hidden Aethelgardian City)"
         },
         {
           "type": "collect",
           "target": "monster_material",
           "count": 3,
           "desc": "Acquire Precursor technology caches.",
-          "description": "Collect monster material (x3)."
+          "description": "Collect monster material (x3). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -4359,7 +4359,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "HIDDEN_AETHELGARDIAN_CITY",
-      "description": "City defenses are incompatible with Omnicorp protocols. Remove legacy defense systems.",
+      "description": "City defenses are incompatible with Omnicorp protocols. (Location: Hidden Aethelgardian City, Warden AI) Remove legacy defense systems.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "",
@@ -4385,7 +4385,7 @@
           "target": "raw_aethel_fragment",
           "count": 3,
           "desc": "Confirm sectors secured.",
-          "description": "Collect raw aethel fragment (x3)."
+          "description": "Collect raw aethel fragment (x3). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -4412,7 +4412,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "HIDDEN_AETHELGARDIAN_CITY",
-      "description": "The City holds a Precursor tech database. Download all data for Omnicorp R&D.",
+      "description": "The City holds a Precursor tech database. (Location: Hidden Aethelgardian City, Tech Officer 404) Download all data for Omnicorp R&D.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_technician",
         "name": "",
@@ -4431,7 +4431,7 @@
           "target": "raw_aethel_fragment",
           "count": 5,
           "desc": "Download Precursor tech database.",
-          "description": "Collect raw aethel fragment (x5)."
+          "description": "Collect raw aethel fragment (x5). [Item: Raw Aethel Fragment]"
         },
         {
           "type": "kill",
@@ -4465,7 +4465,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "SHATTERED_HEART",
-      "description": "The Apex Ashen Drake is a legacy biological process. Execute permanent deletion.",
+      "description": "The Apex Ashen Drake is a legacy biological process. (Location: Shattered Heart, Director Sterling) Execute permanent deletion.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -4491,7 +4491,7 @@
           "target": "ancient_scale",
           "count": 1,
           "desc": "Verify deletion.",
-          "description": "Collect ancient scale (x1)."
+          "description": "Collect ancient scale (x1). [Item: Ancient Scale]"
         }
       ],
       "rewards": {
@@ -4522,7 +4522,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Apex Abyss Harbinger has reinstalled itself. Execute permanent uninstall.",
+      "description": "The Apex Abyss Harbinger has reinstalled itself. (Location: Void Echo Chasm, Director Sterling) Execute permanent uninstall.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -4548,7 +4548,7 @@
           "target": "void_core",
           "count": 1,
           "desc": "Verify uninstall complete.",
-          "description": "Collect void core (x1)."
+          "description": "Collect void core (x1). [Item: Void Core]"
         }
       ],
       "rewards": {
@@ -4579,7 +4579,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "CRADLE_EXPANSE",
-      "description": "The Gravity Titan has reformatted. Execute full disk format on Titan instance.",
+      "description": "The Gravity Titan has reformatted. (Location: Cradle Expanse, Director Sterling) Execute full disk format on Titan instance.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -4605,7 +4605,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "Verify format complete.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -4636,7 +4636,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "All three Apex processes — Drake, Titan, Harbinger. Execute concurrent termination. System resources: unlimited.",
+      "description": "All three Apex processes — Drake, Titan, Harbinger. (Location: Prima Materia Forge, Director Sterling) Execute concurrent termination. System resources: unlimited.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -4704,7 +4704,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The Aethel Siphon Core is now Omnicorp Central Server. Complete full systems integration.",
+      "description": "The Aethel Siphon Core is now Omnicorp Central Server. Complete full systems integration. Quest giver: Director Sterling at The Spire Executive Floor.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -4723,14 +4723,14 @@
           "target": "AETHEL_SIPHON_CORE",
           "count": 1,
           "desc": "Enter Omnicorp Central Server.",
-          "description": "Travel to AETHEL SIPHON CORE."
+          "description": "Travel to AETHEL SIPHON CORE. (Travel to: Aethel Siphon Core, Shattered Heart)"
         },
         {
           "type": "collect",
           "target": "monster_material",
           "count": 5,
           "desc": "Deploy integration beacons.",
-          "description": "Collect monster material (x5)."
+          "description": "Collect monster material (x5). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -4757,7 +4757,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The World Engine is the ultimate source code. Omnicorp will acquire exclusive access.",
+      "description": "The World Engine is the ultimate source code. (Location: Aethel Siphon Core, Director Sterling) Omnicorp will acquire exclusive access.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -4765,7 +4765,7 @@
       },
       "requirements": {
         "min_level": 88,
-        "reputation_required": 5220,
+        "reputation_required": 425,
         "required_quests": [
           "fq_omni_088"
         ]
@@ -4776,7 +4776,7 @@
           "target": "monster_material",
           "count": 3,
           "desc": "Obtain source code access keys.",
-          "description": "Collect monster material (x3)."
+          "description": "Collect monster material (x3). [Item: Monster Material]"
         },
         {
           "type": "kill",
@@ -4810,7 +4810,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Compile the World Engine source code. Omnicorp's greatest software deployment. Defend the compile process.",
+      "description": "Compile the World Engine source code. (Location: Aethel Siphon Core, Warden AI) Omnicorp's greatest software deployment. Defend the compile process.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "",
@@ -4818,7 +4818,7 @@
       },
       "requirements": {
         "min_level": 89,
-        "reputation_required": 5280,
+        "reputation_required": 475,
         "required_quests": [
           "fq_omni_089"
         ]
@@ -4843,7 +4843,7 @@
           "target": "void_channeler_core",
           "count": 1,
           "desc": "Confirm successful compile.",
-          "description": "Collect void channeler core (x1)."
+          "description": "Collect void channeler core (x1). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -4870,7 +4870,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "The compiled Engine flushes residual errors. Execute final system cleanup at the Faultline.",
+      "description": "The compiled Engine flushes residual errors. (Location: Severance Faultline, Director Sterling) Execute final system cleanup at the Faultline.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -4923,7 +4923,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "VOID_ECHO_CHASM",
-      "description": "The void is a deprecated system. Purge all remaining void instances permanently.",
+      "description": "The void is a deprecated system. (Location: Void Echo Chasm, Warden AI) Purge all remaining void instances permanently.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "",
@@ -4976,7 +4976,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "SHATTERED_HEART",
-      "description": "Crystal Tyrants are legacy hardware. Execute legacy hardware removal.",
+      "description": "Crystal Tyrants are legacy hardware. (Location: Shattered Heart, Director Sterling) Execute legacy hardware removal.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -5002,7 +5002,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "Confirm legacy removal.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -5029,7 +5029,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Final Forge production cycle. Eliminate all variables that could impact production efficiency.",
+      "description": "Final Forge production cycle. (Location: Prima Materia Forge, Tech Officer 404) Eliminate all variables that could impact production efficiency.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_technician",
         "name": "",
@@ -5082,7 +5082,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "CRADLE_EXPANSE",
-      "description": "The Cradle Expanse is now Omnicorp-managed territory. Enforce network control protocols.",
+      "description": "The Cradle Expanse is now Omnicorp-managed territory. Enforce network control protocols. Quest giver: Director Sterling at The Spire Executive Floor.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -5135,7 +5135,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "ORBITAL_SENTINEL_COMMAND",
-      "description": "Orbital systems require quarterly maintenance. Clear all orbital sectors of hostile elements.",
+      "description": "Orbital systems require quarterly maintenance. (Location: Orbital Sentinel Command, Director Sterling) Clear all orbital sectors of hostile elements.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -5188,7 +5188,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Execute final system backup before singularity. Eliminate all threats to backup integrity.",
+      "description": "Execute final system backup before singularity. (Location: Prima Materia Forge, Warden AI) Eliminate all threats to backup integrity.",
       "quest_giver": {
         "npc_id": "npc_grid_security",
         "name": "",
@@ -5196,7 +5196,7 @@
       },
       "requirements": {
         "min_level": 96,
-        "reputation_required": 5700,
+        "reputation_required": 525,
         "required_quests": [
           "fq_omni_096"
         ]
@@ -5221,7 +5221,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "Confirm backup complete.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -5248,7 +5248,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Execute the Final Override. Terminate Jotunn, Drake, and Harbinger processes. All system authority transfers to Omnicorp.",
+      "description": "Execute the Final Override. (Location: Prima Materia Forge, Director Sterling) Terminate Jotunn, Drake, and Harbinger processes. All system authority transfers to Omnicorp.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -5256,7 +5256,7 @@
       },
       "requirements": {
         "min_level": 97,
-        "reputation_required": 5760,
+        "reputation_required": 575,
         "required_quests": [
           "fq_omni_097"
         ]
@@ -5288,7 +5288,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "Confirm Final Override.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -5323,7 +5323,7 @@
       "rank": "S",
       "faction": "OMNICORP",
       "region": "VOID_ECHO_CHASM",
-      "description": "The deepest Void Echo Chasm. Defeat the Eternal forms of Titan and Harbinger. All system resources converge on this moment. The Singularity awaits.",
+      "description": "The deepest Void Echo Chasm. Defeat the Eternal forms of Titan and Harbinger. All system resources converge on this moment. The Singularity awaits. Quest giver: Director Sterling at The Spire Executive Floor.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -5331,7 +5331,7 @@
       },
       "requirements": {
         "min_level": 98,
-        "reputation_required": 5820,
+        "reputation_required": 625,
         "required_quests": [
           "fq_omni_098"
         ]
@@ -5342,7 +5342,7 @@
           "target": "VOID_ECHO_CHASM",
           "count": 1,
           "desc": "Enter the deepest chasm.",
-          "description": "Travel to VOID ECHO CHASM."
+          "description": "Travel to VOID ECHO CHASM. (Travel to: Void Echo Chasm)"
         },
         {
           "type": "kill",
@@ -5363,7 +5363,7 @@
           "target": "void_core",
           "count": 1,
           "desc": "CLAIM THE SINGULARITY SEAL.",
-          "description": "Collect void core (x1)."
+          "description": "Collect void core (x1). [Item: Void Core]"
         }
       ],
       "rewards": {
@@ -5390,7 +5390,7 @@
       "rank": "SS",
       "faction": "OMNICORP",
       "region": "THE_SPIRE",
-      "description": "SYSTEM STATUS: SINGULARITY ACHIEVED. All processes terminated. All systems integrated. All authority centralized. Return to the Spire. CEO Valerius confirms: YOU are now the operating system of Xylos. Efficiency is eternal. You are eternal.",
+      "description": "SYSTEM STATUS: SINGULARITY ACHIEVED. (Location: The Spire, Director Sterling) All processes terminated. All systems integrated. All authority centralized. Return to the Spire. CEO Valerius confirms: YOU are now the operating system of Xylos. Efficiency is eternal. You are eternal.",
       "quest_giver": {
         "npc_id": "npc_omnicorp_executive",
         "name": "",
@@ -5398,7 +5398,7 @@
       },
       "requirements": {
         "min_level": 99,
-        "reputation_required": 5880,
+        "reputation_required": 675,
         "required_quests": [
           "fq_omni_099"
         ]
@@ -5409,14 +5409,14 @@
           "target": "THE_SPIRE",
           "count": 1,
           "desc": "Return to the Spire as the Singularity.",
-          "description": "Travel to THE SPIRE."
+          "description": "Travel to THE SPIRE. (Travel to: The Spire)"
         },
         {
           "type": "interact",
           "target": "npc_omnicorp_executive",
           "count": 1,
           "desc": "Receive Singularity certification from CEO Valerius.",
-          "description": "Speak with npc omnicorp executive."
+          "description": "Speak with npc omnicorp executive. (Director Sterling at The Spire Executive Floor)"
         }
       ],
       "rewards": {

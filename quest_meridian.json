@@ -31,7 +31,7 @@
           "target": "rat_tail",
           "count": 1,
           "desc": "File your reclamation manifest.",
-          "description": "Collect rat tail (x1)."
+          "description": "Collect rat tail (x1). [Item: Rat Tail]"
         }
       ],
       "rewards": {
@@ -70,7 +70,7 @@
       },
       "requirements": {
         "min_level": 1,
-        "reputation_required": 0,
+        "reputation_required": 5,
         "required_quests": [
           "fq_merid_001"
         ]
@@ -88,7 +88,7 @@
           "target": "crab_shell",
           "count": 1,
           "desc": "Submit tidal zone asset report.",
-          "description": "Collect crab shell (x1)."
+          "description": "Collect crab shell (x1). [Item: Crab Shell]"
         }
       ],
       "rewards": {
@@ -115,7 +115,7 @@
       "rank": "D",
       "faction": "MERIDIAN_CARTEL",
       "region": "CORAL_WETLANDS",
-      "description": "The Cartel's efficiency doctrine: every operation should have at least two revenue streams. Coral Tidal Crabs are blocking the dock access lanes — that's the cost column. Their shells, however, are worth twelve Aurum Cipher each on the Xylosian artisan market — that's the profit column. Don Vercelli Mox frames this mission with quiet appreciation: 'The crabs are paying for their own removal.' This is why the Cartel thinks faster than everyone else.",
+      "description": "The Cartel's efficiency doctrine: every operation should have at least two revenue streams. (Location: Coral Wetlands, Don Vercelli) Coral Tidal Crabs are blocking the dock access lanes — that's the cost column. Their shells, however, are worth twelve Aurum Cipher each on the Xylosian artisan market — that's the profit column. Don Vercelli Mox frames this mission with quiet appreciation: 'The crabs are paying for their own removal.' This is why the Cartel thinks faster than everyone else.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli Mox",
@@ -123,7 +123,7 @@
       },
       "requirements": {
         "min_level": 2,
-        "reputation_required": 60,
+        "reputation_required": 10,
         "required_quests": [
           "fq_merid_002"
         ]
@@ -141,7 +141,7 @@
           "target": "crab_shell",
           "count": 3,
           "desc": "Collect shells for export.",
-          "description": "Collect crab shell (x3)."
+          "description": "Collect crab shell (x3). [Item: Crab Shell]"
         }
       ],
       "rewards": {
@@ -168,7 +168,7 @@
       "rank": "D",
       "faction": "MERIDIAN_CARTEL",
       "region": "CORAL_WETLANDS",
-      "description": "Tide Mudlings have been tunneling through the Cartel's shipping lane foundations — a nuisance until Don Vercelli Mox's geological assessors discovered that their mud contains trace aethel deposits from the Severance's contamination of the tidal substrate. Suddenly the Mudlings are both a problem and a supply source. The Arcanum Seekers would pay handsomely for processed trace aethel. The Cartel's shipping lanes need clearing. The math, as Vercelli says, 'works out beautifully.'",
+      "description": "Tide Mudlings have been tunneling through the Cartel's shipping lane foundations — a nuisance until Don Vercelli Mox's geological assessors discovered that their mud contains trace aethel deposits from the Severance's contamination of the tidal substrate. (Location: Coral Wetlands, Don Vercelli) Suddenly the Mudlings are both a problem and a supply source. The Arcanum Seekers would pay handsomely for processed trace aethel. The Cartel's shipping lanes need clearing. The math, as Vercelli says, 'works out beautifully.'",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli Mox",
@@ -176,7 +176,7 @@
       },
       "requirements": {
         "min_level": 3,
-        "reputation_required": 120,
+        "reputation_required": 15,
         "required_quests": [
           "fq_merid_003"
         ]
@@ -194,7 +194,7 @@
           "target": "mud_core",
           "count": 3,
           "desc": "Extract Aethel-infused mud samples.",
-          "description": "Collect mud core (x3)."
+          "description": "Collect mud core (x3). [Item: Mud Core]"
         }
       ],
       "rewards": {
@@ -229,7 +229,7 @@
       },
       "requirements": {
         "min_level": 4,
-        "reputation_required": 150,
+        "reputation_required": 20,
         "required_quests": [
           "fq_merid_004"
         ]
@@ -240,7 +240,7 @@
           "target": "npc_meridian_class_trainer",
           "count": 1,
           "desc": "Negotiate your specialization contract with Captain Vex.",
-          "description": "Speak with npc meridian class trainer."
+          "description": "Speak with npc meridian class trainer. (Captain Vex at Port Meridian Covert Training Facility)"
         },
         {
           "type": "interact",
@@ -305,7 +305,7 @@
       },
       "requirements": {
         "min_level": 5,
-        "reputation_required": 240,
+        "reputation_required": 20,
         "required_quests": [
           "fq_merid_005"
         ]
@@ -316,14 +316,14 @@
           "target": "SMUGGLER_JUNGLE",
           "count": 1,
           "desc": "Enter the Smuggler Jungle.",
-          "description": "Travel to SMUGGLER JUNGLE."
+          "description": "Travel to SMUGGLER JUNGLE. (Travel to: Smuggler Jungle)"
         },
         {
           "type": "collect",
           "target": "drake_heart",
           "count": 1,
           "desc": "Deploy a trading post beacon.",
-          "description": "Collect drake heart (x1)."
+          "description": "Collect drake heart (x1). [Item: Drake Heart]"
         }
       ],
       "rewards": {
@@ -350,7 +350,7 @@
       "rank": "D",
       "faction": "MERIDIAN_CARTEL",
       "region": "SMUGGLER_JUNGLE",
-      "description": "Jungle Stalkers have been hunting Cartel supply caravans moving through the new trading post's access routes — eating into delivery margins and discouraging the independent operators whose business Don Vercelli Mox is counting on. Sly, the Cartel's jungle-network fixer, puts it simply: 'Every caravan the Stalkers take is a contract the Cartel doesn't get paid on.' In the Cartel's standard commercial agreement, predators that eat revenue are competitors. Remove them.",
+      "description": "Jungle Stalkers have been hunting Cartel supply caravans moving through the new trading post's access routes — eating into delivery margins and discouraging the independent operators whose business Don Vercelli Mox is counting on. (Location: Smuggler Jungle, Sly) Sly, the Cartel's jungle-network fixer, puts it simply: 'Every caravan the Stalkers take is a contract the Cartel doesn't get paid on.' In the Cartel's standard commercial agreement, predators that eat revenue are competitors. Remove them.",
       "quest_giver": {
         "npc_id": "npc_shady_smuggler",
         "name": "Don Vercelli Mox",
@@ -358,7 +358,7 @@
       },
       "requirements": {
         "min_level": 6,
-        "reputation_required": 300,
+        "reputation_required": 25,
         "required_quests": [
           "fq_merid_006"
         ]
@@ -376,7 +376,7 @@
           "target": "stalker_fang",
           "count": 2,
           "desc": "Recover stolen Cartel supplies.",
-          "description": "Collect stalker fang (x2)."
+          "description": "Collect stalker fang (x2). [Item: Stalker Fang]"
         }
       ],
       "rewards": {
@@ -403,7 +403,7 @@
       "rank": "D",
       "faction": "MERIDIAN_CARTEL",
       "region": "SMUGGLER_JUNGLE",
-      "description": "Swamp Rippers — aggressive territorial predators that have been displaced by the jungle's shrinking clean-water zones, a consequence of the Severance's long-term pollution — have begun attacking Cartel workers clearing the new trade route. Don Vercelli Mox has reviewed the incident reports, calculated the injury costs, the lost labor hours, and the equipment damage, and arrived at a figure. 'They're a liability,' he says. 'Write them off.' He means it in every sense.",
+      "description": "Swamp Rippers — aggressive territorial predators that have been displaced by the jungle's shrinking clean-water zones, a consequence of the Severance's long-term pollution — have begun attacking Cartel workers clearing the new trade route. (Location: Smuggler Jungle, Don Vercelli) Don Vercelli Mox has reviewed the incident reports, calculated the injury costs, the lost labor hours, and the equipment damage, and arrived at a figure. 'They're a liability,' he says. 'Write them off.' He means it in every sense.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli Mox",
@@ -411,7 +411,7 @@
       },
       "requirements": {
         "min_level": 7,
-        "reputation_required": 360,
+        "reputation_required": 30,
         "required_quests": [
           "fq_merid_007"
         ]
@@ -429,7 +429,7 @@
           "target": "swamp_scale",
           "count": 3,
           "desc": "Collect Ripper hide — still tradable.",
-          "description": "Collect swamp scale (x3)."
+          "description": "Collect swamp scale (x3). [Item: Swamp Scale]"
         }
       ],
       "rewards": {
@@ -456,7 +456,7 @@
       "rank": "D",
       "faction": "MERIDIAN_CARTEL",
       "region": "SMUGGLER_JUNGLE",
-      "description": "Madam Z — the Cartel's black market liaison, a woman who has never been on any official Cartel payroll but whose network Don Vercelli Mox relies on completely — has identified a premium buyer for Jungle Venomfang venom: an alchemical research house operating under Arcanum Seeker patronage. Current market rate: four hundred Aurum Cipher per sealed vial. The Venomfangs also happen to be harassing the new trade route. In the Cartel, the best problems solve two things at once.",
+      "description": "Madam Z — the Cartel's black market liaison, a woman who has never been on any official Cartel payroll but whose network Don Vercelli Mox relies on completely — has identified a premium buyer for Jungle Venomfang venom: an alchemical research house operating under Arcanum Seeker patronage. (Location: Smuggler Jungle, Madam Z) Current market rate: four hundred Aurum Cipher per sealed vial. The Venomfangs also happen to be harassing the new trade route. In the Cartel, the best problems solve two things at once.",
       "quest_giver": {
         "npc_id": "npc_black_market_dealer",
         "name": "Don Vercelli Mox",
@@ -464,7 +464,7 @@
       },
       "requirements": {
         "min_level": 8,
-        "reputation_required": 420,
+        "reputation_required": 35,
         "required_quests": [
           "fq_merid_008"
         ]
@@ -482,7 +482,7 @@
           "target": "venom_sac",
           "count": 3,
           "desc": "Secure venom vials for market.",
-          "description": "Collect venom sac (x3)."
+          "description": "Collect venom sac (x3). [Item: Venom Sac]"
         }
       ],
       "rewards": {
@@ -509,7 +509,7 @@
       "rank": "D",
       "faction": "MERIDIAN_CARTEL",
       "region": "SMUGGLER_JUNGLE",
-      "description": "A Contraband Golem — a war construct that a previous black-market operation used as a walking vault, stuffed with illegal goods before the operation was shut down by whoever they were dealing with — now blocks the main Cartel trade route, attacking anyone who approaches. Don Vercelli Mox does not ask what is inside it. He already knows, because the original operator owed the Cartel a very large sum. 'Consider this a repossession,' he says, adjusting his cufflinks.",
+      "description": "A Contraband Golem — a war construct that a previous black-market operation used as a walking vault, stuffed with illegal goods before the operation was shut down by whoever they were dealing with — now blocks the main Cartel trade route, attacking anyone who approaches. (Location: Smuggler Jungle, Don Vercelli) Don Vercelli Mox does not ask what is inside it. He already knows, because the original operator owed the Cartel a very large sum. 'Consider this a repossession,' he says, adjusting his cufflinks.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli Mox",
@@ -517,7 +517,7 @@
       },
       "requirements": {
         "min_level": 9,
-        "reputation_required": 480,
+        "reputation_required": 40,
         "required_quests": [
           "fq_merid_009"
         ]
@@ -535,7 +535,7 @@
           "target": "contraband_core",
           "count": 1,
           "desc": "Seize the Golem's inventory manifest.",
-          "description": "Collect contraband core (x1)."
+          "description": "Collect contraband core (x1). [Item: Contraband Core]"
         }
       ],
       "rewards": {
@@ -570,7 +570,7 @@
       },
       "requirements": {
         "min_level": 10,
-        "reputation_required": 540,
+        "reputation_required": 45,
         "required_quests": [
           "fq_merid_010"
         ]
@@ -581,14 +581,14 @@
           "target": "BLACK_DOCK_MARKET",
           "count": 1,
           "desc": "Enter the Black Dock Market.",
-          "description": "Travel to BLACK DOCK MARKET."
+          "description": "Travel to BLACK DOCK MARKET. (Travel to: Black Dock Market)"
         },
         {
           "type": "collect",
           "target": "thick_hide",
           "count": 2,
           "desc": "File your market security assessment.",
-          "description": "Collect thick hide (x2)."
+          "description": "Collect thick hide (x2). [Item: Thick Hide]"
         }
       ],
       "rewards": {
@@ -615,7 +615,7 @@
       "rank": "C",
       "faction": "MERIDIAN_CARTEL",
       "region": "BLACK_DOCK_MARKET",
-      "description": "The Black Dock Smugglers operating without Cartel commission are not just a revenue problem — they are a structural threat. If independent operators can trade in Cartel territory without paying tribute, the message to every other trader in the network is that the Cartel's authority is negotiable. Don Vercelli Mox's authority is not negotiable. The commission rate is set. The enforcement policy is simple: pay or stop operating. Most choose wrong.",
+      "description": "The Black Dock Smugglers operating without Cartel commission are not just a revenue problem — they are a structural threat. (Location: Black Dock Market, Don Vercelli) If independent operators can trade in Cartel territory without paying tribute, the message to every other trader in the network is that the Cartel's authority is negotiable. Don Vercelli Mox's authority is not negotiable. The commission rate is set. The enforcement policy is simple: pay or stop operating. Most choose wrong.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli Mox",
@@ -623,7 +623,7 @@
       },
       "requirements": {
         "min_level": 11,
-        "reputation_required": 600,
+        "reputation_required": 50,
         "required_quests": [
           "fq_merid_011"
         ]
@@ -641,7 +641,7 @@
           "target": "contraband_core",
           "count": 1,
           "desc": "Collect outstanding commission.",
-          "description": "Collect contraband core (x1)."
+          "description": "Collect contraband core (x1). [Item: Contraband Core]"
         }
       ],
       "rewards": {
@@ -668,7 +668,7 @@
       "rank": "C",
       "faction": "MERIDIAN_CARTEL",
       "region": "BLACK_DOCK_MARKET",
-      "description": "Three Cartel middle managers are dead in two days. The Black Dock Assassins behind it are working for a rival network — rumored to be OmniCorp-funded — attempting a hostile restructuring of Cartel operations at the Dock. Don Vercelli Mox reads the intelligence report with the precise calm of someone who has survived six previous hostile takeover attempts. 'Our counterproposal,' he says, 'is that they stop existing.' The boardroom just looks different in the Cartel.",
+      "description": "Three Cartel middle managers are dead in two days. (Location: Black Dock Market, Don Vercelli) The Black Dock Assassins behind it are working for a rival network — rumored to be OmniCorp-funded — attempting a hostile restructuring of Cartel operations at the Dock. Don Vercelli Mox reads the intelligence report with the precise calm of someone who has survived six previous hostile takeover attempts. 'Our counterproposal,' he says, 'is that they stop existing.' The boardroom just looks different in the Cartel.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli Mox",
@@ -676,7 +676,7 @@
       },
       "requirements": {
         "min_level": 12,
-        "reputation_required": 660,
+        "reputation_required": 55,
         "required_quests": [
           "fq_merid_012"
         ]
@@ -694,7 +694,7 @@
           "target": "mutant_claw",
           "count": 1,
           "desc": "Seize their assassination contracts.",
-          "description": "Collect mutant claw (x1)."
+          "description": "Collect mutant claw (x1). [Item: Mutant Claw]"
         }
       ],
       "rewards": {
@@ -721,7 +721,7 @@
       "rank": "C",
       "faction": "MERIDIAN_CARTEL",
       "region": "BLACK_DOCK_MARKET",
-      "description": "Black Dock Enforcers run a protection racket across the market's eastern berths — a racket that operates without Cartel permission, without Cartel oversight, and without Cartel revenue sharing. Don Vercelli Mox sent an acquisition offer. They sent the courier back without a reply. This is, in the Cartel's legal framework, a breach of commercial terms. The Cartel's standard breach remedy is immediate and non-negotiable. Acquire the operation. The terms are not open for discussion.",
+      "description": "Black Dock Enforcers run a protection racket across the market's eastern berths — a racket that operates without Cartel permission, without Cartel oversight, and without Cartel revenue sharing. (Location: Black Dock Market, Don Vercelli) Don Vercelli Mox sent an acquisition offer. They sent the courier back without a reply. This is, in the Cartel's legal framework, a breach of commercial terms. The Cartel's standard breach remedy is immediate and non-negotiable. Acquire the operation. The terms are not open for discussion.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli Mox",
@@ -729,7 +729,7 @@
       },
       "requirements": {
         "min_level": 13,
-        "reputation_required": 720,
+        "reputation_required": 60,
         "required_quests": [
           "fq_merid_013"
         ]
@@ -747,7 +747,7 @@
           "target": "rare_emblem",
           "count": 1,
           "desc": "Claim the protection racket deed.",
-          "description": "Collect rare emblem (x1)."
+          "description": "Collect rare emblem (x1). [Item: Rare Emblem]"
         }
       ],
       "rewards": {
@@ -774,7 +774,7 @@
       "rank": "C",
       "faction": "MERIDIAN_CARTEL",
       "region": "BLACK_DOCK_MARKET",
-      "description": "Madam Z conducts the Black Dock's quarterly audit with the thoroughness of someone who has found, in twenty years of operation, that unlicensed traders always underestimate the Cartel's record-keeping. The audit is complete. The deregistration list is comprehensive. Smugglers operating without current permits, Assassins contracted outside Cartel channels — they have all been identified. Their continued existence is a footnote on an otherwise clean ledger. Close the footnotes.",
+      "description": "Madam Z conducts the Black Dock's quarterly audit with the thoroughness of someone who has found, in twenty years of operation, that unlicensed traders always underestimate the Cartel's record-keeping. (Location: Black Dock Market, Madam Z) The audit is complete. The deregistration list is comprehensive. Smugglers operating without current permits, Assassins contracted outside Cartel channels — they have all been identified. Their continued existence is a footnote on an otherwise clean ledger. Close the footnotes.",
       "quest_giver": {
         "npc_id": "npc_black_market_dealer",
         "name": "Don Vercelli Mox",
@@ -782,7 +782,7 @@
       },
       "requirements": {
         "min_level": 14,
-        "reputation_required": 780,
+        "reputation_required": 65,
         "required_quests": [
           "fq_merid_014"
         ]
@@ -827,7 +827,7 @@
       "rank": "C",
       "faction": "MERIDIAN_CARTEL",
       "region": "BLACK_DOCK_MARKET",
-      "description": "The remaining Enforcer crews in the Black Dock's western sector are coordinating their resistance — sharing intelligence, covering each other's operations, and actively steering clients away from Cartel-licensed services. Don Vercelli Mox calls this 'a price war conducted with weapons.' He finds it almost impressive. Almost. The Cartel's market share in the Black Dock will be total, or these Enforcer crews will serve as a case study in what happens when you compete with the Cartel.",
+      "description": "The remaining Enforcer crews in the Black Dock's western sector are coordinating their resistance — sharing intelligence, covering each other's operations, and actively steering clients away from Cartel-licensed services. (Location: Black Dock Market, Don Vercelli) Don Vercelli Mox calls this 'a price war conducted with weapons.' He finds it almost impressive. Almost. The Cartel's market share in the Black Dock will be total, or these Enforcer crews will serve as a case study in what happens when you compete with the Cartel.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli Mox",
@@ -835,7 +835,7 @@
       },
       "requirements": {
         "min_level": 15,
-        "reputation_required": 840,
+        "reputation_required": 70,
         "required_quests": [
           "fq_merid_015"
         ]
@@ -853,7 +853,7 @@
           "target": "contraband_core",
           "count": 1,
           "desc": "Report expanded market share.",
-          "description": "Collect contraband core (x1)."
+          "description": "Collect contraband core (x1). [Item: Contraband Core]"
         }
       ],
       "rewards": {
@@ -880,7 +880,7 @@
       "rank": "C",
       "faction": "MERIDIAN_CARTEL",
       "region": "BLACK_DOCK_MARKET",
-      "description": "Sly's ledger has discrepancies — four shipments of Cartel-controlled goods that were logged entering the Black Dock but never logged arriving at their designated berths. Someone in the distribution chain is skimming, and in the Cartel's contract framework, inventory theft carries a very specific clause. Find the missing goods. Find the people who took them. The goods come back to the Cartel. The people do not.",
+      "description": "Sly's ledger has discrepancies — four shipments of Cartel-controlled goods that were logged entering the Black Dock but never logged arriving at their designated berths. (Location: Black Dock Market, Sly) Someone in the distribution chain is skimming, and in the Cartel's contract framework, inventory theft carries a very specific clause. Find the missing goods. Find the people who took them. The goods come back to the Cartel. The people do not.",
       "quest_giver": {
         "npc_id": "npc_shady_smuggler",
         "name": "Don Vercelli Mox",
@@ -888,7 +888,7 @@
       },
       "requirements": {
         "min_level": 16,
-        "reputation_required": 900,
+        "reputation_required": 75,
         "required_quests": [
           "fq_merid_016"
         ]
@@ -899,7 +899,7 @@
           "target": "contraband_core",
           "count": 4,
           "desc": "Recover missing inventory shipments.",
-          "description": "Collect contraband core (x4)."
+          "description": "Collect contraband core (x4). [Item: Contraband Core]"
         },
         {
           "type": "kill",
@@ -933,7 +933,7 @@
       "rank": "C",
       "faction": "MERIDIAN_CARTEL",
       "region": "BLACK_DOCK_MARKET",
-      "description": "A coordinated Enforcer syndicate — eight cells, unified leadership, financed from outside the Cartel network — has positioned itself as a 'competitive alternative' to Meridian operations in the Black Dock. Don Vercelli Mox reads the intelligence with the expression of someone who has been mildly inconvenienced. 'There is only one Cartel,' he says. 'Everything else is a temporary arrangement.' Break the syndicate at its leadership. The alternative to the Cartel does not get to exist.",
+      "description": "A coordinated Enforcer syndicate — eight cells, unified leadership, financed from outside the Cartel network — has positioned itself as a 'competitive alternative' to Meridian operations in the Black Dock. (Location: Black Dock Market, Don Vercelli) Don Vercelli Mox reads the intelligence with the expression of someone who has been mildly inconvenienced. 'There is only one Cartel,' he says. 'Everything else is a temporary arrangement.' Break the syndicate at its leadership. The alternative to the Cartel does not get to exist.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli Mox",
@@ -941,7 +941,7 @@
       },
       "requirements": {
         "min_level": 17,
-        "reputation_required": 960,
+        "reputation_required": 80,
         "required_quests": [
           "fq_merid_017"
         ]
@@ -959,7 +959,7 @@
           "target": "contraband_core",
           "count": 1,
           "desc": "Seize their operations ledger.",
-          "description": "Collect contraband core (x1)."
+          "description": "Collect contraband core (x1). [Item: Contraband Core]"
         }
       ],
       "rewards": {
@@ -986,7 +986,7 @@
       "rank": "C",
       "faction": "MERIDIAN_CARTEL",
       "region": "BLACK_DOCK_MARKET",
-      "description": "A Resonance Echo has formed in the Black Dock's deep storage sector — drawn by the high concentration of aethel goods the Cartel has been routing through here. Its harmonic interference is scrambling encrypted Cartel communications, which means every deal in progress is potentially compromised. Don Vercelli Mox describes this in precise financial terms: an entity generating unlimited liability with zero revenue contribution. In the Cartel's accounting framework, such accounts are closed permanently.",
+      "description": "A Resonance Echo has formed in the Black Dock's deep storage sector — drawn by the high concentration of aethel goods the Cartel has been routing through here. (Location: Black Dock Market, Don Vercelli) Its harmonic interference is scrambling encrypted Cartel communications, which means every deal in progress is potentially compromised. Don Vercelli Mox describes this in precise financial terms: an entity generating unlimited liability with zero revenue contribution. In the Cartel's accounting framework, such accounts are closed permanently.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli Mox",
@@ -994,7 +994,7 @@
       },
       "requirements": {
         "min_level": 18,
-        "reputation_required": 1020,
+        "reputation_required": 85,
         "required_quests": [
           "fq_merid_018"
         ]
@@ -1047,7 +1047,7 @@
       },
       "requirements": {
         "min_level": 19,
-        "reputation_required": 1080,
+        "reputation_required": 90,
         "required_quests": [
           "fq_merid_019"
         ]
@@ -1058,14 +1058,14 @@
           "target": "PORT_MERIDIAN",
           "count": 1,
           "desc": "Return to Port Meridian headquarters.",
-          "description": "Travel to PORT MERIDIAN."
+          "description": "Travel to PORT MERIDIAN. (Travel to: Port Meridian)"
         },
         {
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
           "desc": "Sign your Advanced Contractor contract.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -1092,7 +1092,7 @@
       "rank": "B",
       "faction": "MERIDIAN_CARTEL",
       "region": "SUNKEN_AETHEL_RUIN",
-      "description": "The Sunken Aethel Ruin holds Precursor assets. The Cartel must acquire them before our competitors do. First-mover advantage is everything.",
+      "description": "The Sunken Aethel Ruin holds Precursor assets. The Cartel must acquire them before our competitors do. First-mover advantage is everything. Quest giver: Kip at Sunken Aethel Ruin Dockside.",
       "quest_giver": {
         "npc_id": "npc_ruin_diver",
         "name": "Kip",
@@ -1111,14 +1111,14 @@
           "target": "SUNKEN_AETHEL_RUIN",
           "count": 1,
           "desc": "Enter the Sunken Aethel Ruin.",
-          "description": "Travel to SUNKEN AETHEL RUIN."
+          "description": "Travel to SUNKEN AETHEL RUIN. (Travel to: Sunken Aethel Ruin)"
         },
         {
           "type": "collect",
           "target": "monster_material",
           "count": 2,
           "desc": "Catalog acquirable assets.",
-          "description": "Collect monster material (x2)."
+          "description": "Collect monster material (x2). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -1145,7 +1145,7 @@
       "rank": "B",
       "faction": "MERIDIAN_CARTEL",
       "region": "SUNKEN_AETHEL_RUIN",
-      "description": "Cradle Purifiers guard the Ruin's most valuable chambers. Their defense protocols are a sunk cost — write them off.",
+      "description": "Cradle Purifiers guard the Ruin's most valuable chambers. (Location: Sunken Aethel Ruin, Kip) Their defense protocols are a sunk cost — write them off.",
       "quest_giver": {
         "npc_id": "npc_ruin_diver",
         "name": "Kip",
@@ -1171,7 +1171,7 @@
           "target": "aethel_crystal_core",
           "count": 2,
           "desc": "Secure chamber access codes.",
-          "description": "Collect aethel crystal core (x2)."
+          "description": "Collect aethel crystal core (x2). [Item: Aethel Crystal Core]"
         }
       ],
       "rewards": {
@@ -1198,7 +1198,7 @@
       "rank": "B",
       "faction": "MERIDIAN_CARTEL",
       "region": "SUNKEN_AETHEL_RUIN",
-      "description": "Cradle Sentinels guard the Ruin's main vault. The Cartel has a saying: every locked door is just a late payment. Force the acquisition.",
+      "description": "Cradle Sentinels guard the Ruin's main vault. (Location: Sunken Aethel Ruin, Don Vercelli) The Cartel has a saying: every locked door is just a late payment. Force the acquisition.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -1224,7 +1224,7 @@
           "target": "aethel_core_shard",
           "count": 1,
           "desc": "Catalog the vault contents.",
-          "description": "Collect aethel core shard (x1)."
+          "description": "Collect aethel core shard (x1). [Item: Aethel Core Shard]"
         }
       ],
       "rewards": {
@@ -1251,7 +1251,7 @@
       "rank": "B",
       "faction": "MERIDIAN_CARTEL",
       "region": "SUNKEN_AETHEL_RUIN",
-      "description": "Aethel Behemoths are living capital. Their organs trade at premium prices. Make the investment — harvest the returns.",
+      "description": "Aethel Behemoths are living capital. (Location: Sunken Aethel Ruin, Kip) Their organs trade at premium prices. Make the investment — harvest the returns.",
       "quest_giver": {
         "npc_id": "npc_ruin_diver",
         "name": "Kip",
@@ -1277,7 +1277,7 @@
           "target": "raw_aethel_core",
           "count": 1,
           "desc": "File the organ harvesting manifest.",
-          "description": "Collect raw aethel core (x1)."
+          "description": "Collect raw aethel core (x1). [Item: Raw Aethel Core]"
         }
       ],
       "rewards": {
@@ -1304,7 +1304,7 @@
       "rank": "B",
       "faction": "MERIDIAN_CARTEL",
       "region": "SUNKEN_AETHEL_RUIN",
-      "description": "Sunken Aethel Leviathans are the ultimate commodity. Their scales are armor-grade, their blood is fuel. Monopolize the supply.",
+      "description": "Sunken Aethel Leviathans are the ultimate commodity. (Location: Sunken Aethel Ruin, Don Vercelli) Their scales are armor-grade, their blood is fuel. Monopolize the supply.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -1330,7 +1330,7 @@
           "target": "leviathan_scale",
           "count": 1,
           "desc": "Submit commodity valuation report.",
-          "description": "Collect leviathan scale (x1)."
+          "description": "Collect leviathan scale (x1). [Item: Leviathan Scale]"
         }
       ],
       "rewards": {
@@ -1357,7 +1357,7 @@
       "rank": "B",
       "faction": "MERIDIAN_CARTEL",
       "region": "AETHEL_STORM_BELT",
-      "description": "The Aethel Storm Belt is a high-risk, high-reward market. The Cartel is opening a trading desk there. Establish the position.",
+      "description": "The Aethel Storm Belt is a high-risk, high-reward market. The Cartel is opening a trading desk there. Establish the position. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -1376,14 +1376,14 @@
           "target": "AETHEL_STORM_BELT",
           "count": 1,
           "desc": "Enter the Aethel Storm Belt.",
-          "description": "Travel to AETHEL STORM BELT."
+          "description": "Travel to AETHEL STORM BELT. (Travel to: Aethel Storm Belt)"
         },
         {
           "type": "collect",
           "target": "core_fragment",
           "count": 2,
           "desc": "Gather market intelligence.",
-          "description": "Collect core fragment (x2)."
+          "description": "Collect core fragment (x2). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -1410,7 +1410,7 @@
       "rank": "B",
       "faction": "MERIDIAN_CARTEL",
       "region": "AETHEL_STORM_BELT",
-      "description": "Storm Rift Serpents are a volatile commodity. Their energy cells are in high demand. Stabilize the supply.",
+      "description": "Storm Rift Serpents are a volatile commodity. (Location: Aethel Storm Belt, Don Vercelli) Their energy cells are in high demand. Stabilize the supply.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -1436,7 +1436,7 @@
           "target": "storm_core",
           "count": 2,
           "desc": "Collect energy cells for market.",
-          "description": "Collect storm core (x2)."
+          "description": "Collect storm core (x2). [Item: Storm Core]"
         }
       ],
       "rewards": {
@@ -1463,7 +1463,7 @@
       "rank": "B",
       "faction": "MERIDIAN_CARTEL",
       "region": "AETHEL_STORM_BELT",
-      "description": "Leviathans have migrated into the Storm Belt. More supply means more profit. Harvest aggressively.",
+      "description": "Leviathans have migrated into the Storm Belt. (Location: Aethel Storm Belt, Kip) More supply means more profit. Harvest aggressively.",
       "quest_giver": {
         "npc_id": "npc_ruin_diver",
         "name": "Kip",
@@ -1489,7 +1489,7 @@
           "target": "slime_core",
           "count": 1,
           "desc": "File harvest yield report.",
-          "description": "Collect slime core (x1)."
+          "description": "Collect slime core (x1). [Item: Slime Core]"
         }
       ],
       "rewards": {
@@ -1516,7 +1516,7 @@
       "rank": "B",
       "faction": "MERIDIAN_CARTEL",
       "region": "SUNKEN_AETHEL_RUIN",
-      "description": "Cradle Sentinel variants have been discovered. More variety means more market segmentation. Acquire samples of all models.",
+      "description": "Cradle Sentinel variants have been discovered. (Location: Sunken Aethel Ruin, Don Vercelli) More variety means more market segmentation. Acquire samples of all models.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -1542,7 +1542,7 @@
           "target": "aethel_core_shard",
           "count": 1,
           "desc": "Complete the Sentinel variant catalog.",
-          "description": "Collect aethel core shard (x1)."
+          "description": "Collect aethel core shard (x1). [Item: Aethel Core Shard]"
         }
       ],
       "rewards": {
@@ -1569,7 +1569,7 @@
       "rank": "B",
       "faction": "MERIDIAN_CARTEL",
       "region": "PORT_MERIDIAN",
-      "description": "Captain Vex requires a mid-contract performance review. Defeat the Resonance Echo and prove your portfolio is Master-grade.",
+      "description": "Captain Vex requires a mid-contract performance review. (Location: Port Meridian, Captain Vex) Defeat the Resonance Echo and prove your portfolio is Master-grade.",
       "quest_giver": {
         "npc_id": "npc_meridian_class_trainer",
         "name": "Captain Vex",
@@ -1577,7 +1577,7 @@
       },
       "requirements": {
         "min_level": 29,
-        "reputation_required": 1680,
+        "reputation_required": 95,
         "required_quests": [
           "fq_merid_029"
         ]
@@ -1588,7 +1588,7 @@
           "target": "npc_meridian_class_trainer",
           "count": 1,
           "desc": "Present your portfolio to Captain Vex.",
-          "description": "Speak with npc meridian class trainer."
+          "description": "Speak with npc meridian class trainer. (Captain Vex at Port Meridian Covert Training Facility)"
         },
         {
           "type": "kill",
@@ -1637,7 +1637,7 @@
       "rank": "A",
       "faction": "MERIDIAN_CARTEL",
       "region": "ORBITAL_SENTINEL_COMMAND",
-      "description": "The Orbital Sentinel Command is the gateway to space trade. The Cartel will establish exclusive orbital trading rights.",
+      "description": "The Orbital Sentinel Command is the gateway to space trade. The Cartel will establish exclusive orbital trading rights. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -1656,14 +1656,14 @@
           "target": "ORBITAL_SENTINEL_COMMAND",
           "count": 1,
           "desc": "Report to Orbital Sentinel Command.",
-          "description": "Travel to ORBITAL SENTINEL COMMAND."
+          "description": "Travel to ORBITAL SENTINEL COMMAND. (Travel to: Orbital Sentinel Command)"
         },
         {
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
           "desc": "Secure the orbital trade license.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -1690,7 +1690,7 @@
       "rank": "A",
       "faction": "MERIDIAN_CARTEL",
       "region": "CRADLE_EXPANSE",
-      "description": "The Ashen Drake attacks Cartel cargo ships. The insurance premiums are killing profits. Eliminate the risk factor.",
+      "description": "The Ashen Drake attacks Cartel cargo ships. (Location: Cradle Expanse, Don Vercelli) The insurance premiums are killing profits. Eliminate the risk factor.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -1716,7 +1716,7 @@
           "target": "ancient_scale",
           "count": 1,
           "desc": "File reduced cargo loss report.",
-          "description": "Collect ancient scale (x1)."
+          "description": "Collect ancient scale (x1). [Item: Ancient Scale]"
         }
       ],
       "rewards": {
@@ -1743,7 +1743,7 @@
       "rank": "A",
       "faction": "MERIDIAN_CARTEL",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Iron Carapaces shed armor plates that rival Cartel-forged steel. Corner the market.",
+      "description": "Aethel Iron Carapaces shed armor plates that rival Cartel-forged steel. (Location: Cradle Expanse, Don Vercelli) Corner the market.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -1769,7 +1769,7 @@
           "target": "carapace_fragment",
           "count": 3,
           "desc": "Prepare armor plate shipments.",
-          "description": "Collect carapace fragment (x3)."
+          "description": "Collect carapace fragment (x3). [Item: Carapace Fragment]"
         }
       ],
       "rewards": {
@@ -1796,7 +1796,7 @@
       "rank": "A",
       "faction": "MERIDIAN_CARTEL",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Corrupted Behemoths are undercutting Cartel prices by destroying our facilities. Short their existence.",
+      "description": "Aethel Corrupted Behemoths are undercutting Cartel prices by destroying our facilities. (Location: Cradle Expanse, Don Vercelli) Short their existence.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -1822,7 +1822,7 @@
           "target": "crystal_core",
           "count": 1,
           "desc": "File zero-damage facility report.",
-          "description": "Collect crystal core (x1)."
+          "description": "Collect crystal core (x1). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -1849,7 +1849,7 @@
       "rank": "A",
       "faction": "MERIDIAN_CARTEL",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Abyssal Reavers carry void-touched materials worth millions. The Cartel wants exclusive trading rights. Negotiate with force.",
+      "description": "Aethel Abyssal Reavers carry void-touched materials worth millions. (Location: Cradle Expanse, Don Vercelli) The Cartel wants exclusive trading rights. Negotiate with force.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -1875,7 +1875,7 @@
           "target": "abyssal_reaver_claw",
           "count": 2,
           "desc": "Collect void-touched material samples.",
-          "description": "Collect abyssal reaver claw (x2)."
+          "description": "Collect abyssal reaver claw (x2). [Item: Abyssal Reaver Claw]"
         }
       ],
       "rewards": {
@@ -1902,7 +1902,7 @@
       "rank": "A",
       "faction": "MERIDIAN_CARTEL",
       "region": "ORBITAL_SENTINEL_COMMAND",
-      "description": "Rival factions are attempting hostile takeovers of Cartel orbital assets. Defend the portfolio.",
+      "description": "Rival factions are attempting hostile takeovers of Cartel orbital assets. (Location: Orbital Sentinel Command, Don Vercelli) Defend the portfolio.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -1955,7 +1955,7 @@
       "rank": "A",
       "faction": "MERIDIAN_CARTEL",
       "region": "CRADLE_EXPANSE",
-      "description": "The Ashen Drake has returned. The Cartel board has authorized a complete liquidation. Every part of the Drake is profitable.",
+      "description": "The Ashen Drake has returned. (Location: Cradle Expanse, Don Vercelli) The Cartel board has authorized a complete liquidation. Every part of the Drake is profitable.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -1981,7 +1981,7 @@
           "target": "ancient_scale",
           "count": 1,
           "desc": "File Drake asset recovery report.",
-          "description": "Collect ancient scale (x1)."
+          "description": "Collect ancient scale (x1). [Item: Ancient Scale]"
         }
       ],
       "rewards": {
@@ -2008,7 +2008,7 @@
       "rank": "A",
       "faction": "MERIDIAN_CARTEL",
       "region": "AETHEL_STORM_BELT",
-      "description": "Achieve total market dominance in the Storm Belt. Any competitor still operating is a market inefficiency.",
+      "description": "Achieve total market dominance in the Storm Belt. (Location: Aethel Storm Belt, Don Vercelli) Any competitor still operating is a market inefficiency.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2034,7 +2034,7 @@
           "target": "alpha_fang",
           "count": 1,
           "desc": "File market dominance confirmation.",
-          "description": "Collect alpha fang (x1)."
+          "description": "Collect alpha fang (x1). [Item: Alpha Fang]"
         }
       ],
       "rewards": {
@@ -2061,7 +2061,7 @@
       "rank": "A",
       "faction": "MERIDIAN_CARTEL",
       "region": "CRADLE_EXPANSE",
-      "description": "Abyssal Reavers are attempting a merger — with each other — to form a larger threat. Block the merger.",
+      "description": "Abyssal Reavers are attempting a merger — with each other — to form a larger threat. (Location: Cradle Expanse, Don Vercelli) Block the merger.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2114,7 +2114,7 @@
       "rank": "A",
       "faction": "MERIDIAN_CARTEL",
       "region": "PORT_MERIDIAN",
-      "description": "The Senior Partner trial. Liquidate the Ashen Drake and two premium assets. Only Partners sit on the Cartel board.",
+      "description": "The Senior Partner trial. (Location: Port Meridian, Don Vercelli) Liquidate the Ashen Drake and two premium assets. Only Partners sit on the Cartel board.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2122,7 +2122,7 @@
       },
       "requirements": {
         "min_level": 39,
-        "reputation_required": 2280,
+        "reputation_required": 105,
         "required_quests": [
           "fq_merid_039"
         ]
@@ -2182,7 +2182,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Void Echo Chasm is the ultimate untapped market. Rare minerals, void-exclusive resources, zero competition. The Cartel is going in.",
+      "description": "The Void Echo Chasm is the ultimate untapped market. Rare minerals, void-exclusive resources, zero competition. The Cartel is going in. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2201,14 +2201,14 @@
           "target": "VOID_ECHO_CHASM",
           "count": 1,
           "desc": "Enter the Void Echo Chasm.",
-          "description": "Travel to VOID ECHO CHASM."
+          "description": "Travel to VOID ECHO CHASM. (Travel to: Void Echo Chasm)"
         },
         {
           "type": "collect",
           "target": "thick_hide",
           "count": 2,
           "desc": "Complete void market survey.",
-          "description": "Collect thick hide (x2)."
+          "description": "Collect thick hide (x2). [Item: Thick Hide]"
         }
       ],
       "rewards": {
@@ -2235,7 +2235,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "Void Reavers drop crystallized void essence — untapped market value. Begin harvesting operations.",
+      "description": "Void Reavers drop crystallized void essence — untapped market value. (Location: Void Echo Chasm, Don Vercelli) Begin harvesting operations.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2261,7 +2261,7 @@
           "target": "void_fragment",
           "count": 1,
           "desc": "Prepare first void essence shipment.",
-          "description": "Collect void fragment (x1)."
+          "description": "Collect void fragment (x1). [Item: Void Fragment]"
         }
       ],
       "rewards": {
@@ -2288,7 +2288,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "Void Channelers are cornering the void energy market. The Cartel does not tolerate monopolies — except its own.",
+      "description": "Void Channelers are cornering the void energy market. (Location: Void Echo Chasm, Don Vercelli) The Cartel does not tolerate monopolies — except its own.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2296,7 +2296,7 @@
       },
       "requirements": {
         "min_level": 42,
-        "reputation_required": 2460,
+        "reputation_required": 130,
         "required_quests": [
           "fq_merid_042"
         ]
@@ -2314,7 +2314,7 @@
           "target": "raw_aethel_fragment",
           "count": 1,
           "desc": "Claim their market share.",
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -2341,7 +2341,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "Abyssal Reavers contain concentrated void material — the most valuable substance in the known universe. Maximize the harvest.",
+      "description": "Abyssal Reavers contain concentrated void material — the most valuable substance in the known universe. (Location: Void Echo Chasm, Don Vercelli) Maximize the harvest.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2367,7 +2367,7 @@
           "target": "abyssal_reaver_claw",
           "count": 1,
           "desc": "Report harvest yield to the board.",
-          "description": "Collect abyssal reaver claw (x1)."
+          "description": "Collect abyssal reaver claw (x1). [Item: Abyssal Reaver Claw]"
         }
       ],
       "rewards": {
@@ -2394,7 +2394,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "Corrupted Behemoths are depreciating Cartel void assets. Accelerate their depreciation — to zero.",
+      "description": "Corrupted Behemoths are depreciating Cartel void assets. (Location: Void Echo Chasm, Don Vercelli) Accelerate their depreciation — to zero.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2420,7 +2420,7 @@
           "target": "crystal_core",
           "count": 1,
           "desc": "Report asset recovery status.",
-          "description": "Collect crystal core (x1)."
+          "description": "Collect crystal core (x1). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -2447,7 +2447,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "Soul Fragmenters disrupt Cartel personnel productivity. Every hour of lost work is lost profit. Terminate the productivity drain.",
+      "description": "Soul Fragmenters disrupt Cartel personnel productivity. (Location: Void Echo Chasm, Don Vercelli) Every hour of lost work is lost profit. Terminate the productivity drain.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2473,7 +2473,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "Report restored productivity metrics.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2500,7 +2500,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "Chrono Wraiths create temporal loops — time arbitrage opportunities. But they're damaging the Cartel's time-is-money principle. Eliminate the arbitrage.",
+      "description": "Chrono Wraiths create temporal loops — time arbitrage opportunities. (Location: Void Echo Chasm, Don Vercelli) But they're damaging the Cartel's time-is-money principle. Eliminate the arbitrage.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2526,7 +2526,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "Confirm temporal market stability.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -2553,7 +2553,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "A Gigantic Jotunn sits on the largest void mineral deposit in the chasm. Hostile takeover required.",
+      "description": "A Gigantic Jotunn sits on the largest void mineral deposit in the chasm. (Location: Void Echo Chasm, Kip) Hostile takeover required.",
       "quest_giver": {
         "npc_id": "npc_ruin_diver",
         "name": "Kip",
@@ -2579,7 +2579,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "File mineral deposit claim.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2606,7 +2606,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "SHATTERED_HEART",
-      "description": "The Shattered Heart is a new market frontier. The Cartel always enters new markets first. Establish the Cartel presence.",
+      "description": "The Shattered Heart is a new market frontier. The Cartel always enters new markets first. Establish the Cartel presence. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2625,14 +2625,14 @@
           "target": "SHATTERED_HEART",
           "count": 1,
           "desc": "Enter the Shattered Heart market.",
-          "description": "Travel to SHATTERED HEART."
+          "description": "Travel to SHATTERED HEART. (Travel to: Shattered Heart, Shattered Heart)"
         },
         {
           "type": "collect",
           "target": "ancient_scale",
           "count": 1,
           "desc": "Complete market entry analysis.",
-          "description": "Collect ancient scale (x1)."
+          "description": "Collect ancient scale (x1). [Item: Ancient Scale]"
         }
       ],
       "rewards": {
@@ -2659,7 +2659,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "SHATTERED_HEART",
-      "description": "THE DRAKE LIQUIDATION EVENT. The Ashen Drake is the most valuable organic asset in the Shattered Heart. The Cartel board authorizes complete liquidation of all Drake assets. Raid Tier-1. Profit through liquidation.",
+      "description": "THE DRAKE LIQUIDATION EVENT. The Ashen Drake is the most valuable organic asset in the Shattered Heart. The Cartel board authorizes complete liquidation of all Drake assets. Raid Tier-1. Profit through liquidation. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2692,7 +2692,7 @@
           "target": "drake_heart",
           "count": 1,
           "desc": "File complete Drake asset recovery sheet.",
-          "description": "Collect drake heart (x1)."
+          "description": "Collect drake heart (x1). [Item: Drake Heart]"
         }
       ],
       "rewards": {
@@ -2727,7 +2727,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "Soul Fragmenters represent unacceptable operational risk. Cartel Risk Management mandates their elimination.",
+      "description": "Soul Fragmenters represent unacceptable operational risk. (Location: Void Echo Chasm, Don Vercelli) Cartel Risk Management mandates their elimination.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2753,7 +2753,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "File Risk Management completion.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -2780,7 +2780,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "Operation Total Market Control. Eliminate all unlicensed void entities. The Cartel owns this dimension now.",
+      "description": "Operation Total Market Control. (Location: Void Echo Chasm, Don Vercelli) Eliminate all unlicensed void entities. The Cartel owns this dimension now.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2833,7 +2833,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "A Void Stalker is making a hostile bid for Cartel void operations. Reject the bid — with extreme prejudice.",
+      "description": "A Void Stalker is making a hostile bid for Cartel void operations. (Location: Void Echo Chasm, Don Vercelli) Reject the bid — with extreme prejudice.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2859,7 +2859,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "Confirm hostile bid rejection.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2886,7 +2886,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "Chrono Wraiths are causing temporal market volatility. The Cartel requires market stability. Correct the market.",
+      "description": "Chrono Wraiths are causing temporal market volatility. (Location: Void Echo Chasm, Don Vercelli) The Cartel requires market stability. Correct the market.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2912,7 +2912,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "Confirm market correction.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -2939,7 +2939,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "SHATTERED_HEART",
-      "description": "Seize majority market share in the Shattered Heart. Competitor liquidation required.",
+      "description": "Seize majority market share in the Shattered Heart. Competitor liquidation required. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -2992,7 +2992,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "SHATTERED_HEART",
-      "description": "Gigantic Jotunns have the largest market cap in the Heart. Reduce their valuation to zero.",
+      "description": "Gigantic Jotunns have the largest market cap in the Heart. (Location: Shattered Heart, Don Vercelli) Reduce their valuation to zero.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -3018,7 +3018,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "File devaluation report.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -3045,7 +3045,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "SHATTERED_HEART",
-      "description": "Crystal Tyrants hold valuable assets. Divest them — forcibly.",
+      "description": "Crystal Tyrants hold valuable assets. (Location: Shattered Heart, Don Vercelli) Divest them — forcibly.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -3071,7 +3071,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "File divestment completion report.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -3098,7 +3098,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Abyss Harbinger is the largest untapped asset in the void. Perform market entry analysis and prepare for the final transaction.",
+      "description": "The Abyss Harbinger is the largest untapped asset in the void. (Location: Void Echo Chasm, Don Vercelli) Perform market entry analysis and prepare for the final transaction.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -3106,7 +3106,7 @@
       },
       "requirements": {
         "min_level": 57,
-        "reputation_required": 3360,
+        "reputation_required": 180,
         "required_quests": [
           "fq_merid_057"
         ]
@@ -3131,7 +3131,7 @@
           "target": "raw_aethel_fragment",
           "count": 1,
           "desc": "File Harbinger market analysis.",
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -3158,7 +3158,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "Soul Fragmenters are operating at a loss — our loss. Force them into bankruptcy.",
+      "description": "Soul Fragmenters are operating at a loss — our loss. (Location: Void Echo Chasm, Don Vercelli) Force them into bankruptcy.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -3211,7 +3211,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "THE FINAL TRANSACTION. The Abyss Harbinger has destabilized the void energy market with uncontrolled inflation. The Cartel closes this deal permanently. Defeat the Raid Boss Tier-2 entity and stabilize the market. Profit is the only law.",
+      "description": "THE FINAL TRANSACTION. (Location: Void Echo Chasm, Don Vercelli) The Abyss Harbinger has destabilized the void energy market with uncontrolled inflation. The Cartel closes this deal permanently. Defeat the Raid Boss Tier-2 entity and stabilize the market. Profit is the only law.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -3237,7 +3237,7 @@
           "target": "abyss_fragment",
           "count": 1,
           "desc": "Claim the market stabilization asset.",
-          "description": "Collect abyss fragment (x1)."
+          "description": "Collect abyss fragment (x1). [Item: Abyss Fragment]"
         }
       ],
       "rewards": {
@@ -3272,7 +3272,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "The Severance Faultline is rich in energy assets. The Cartel will build extraction infrastructure here. First: secure the construction site.",
+      "description": "The Severance Faultline is rich in energy assets. The Cartel will build extraction infrastructure here. First: secure the construction site. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -3291,14 +3291,14 @@
           "target": "SEVERANCE_FAULTLINE",
           "count": 1,
           "desc": "Enter the Severance Faultline.",
-          "description": "Travel to SEVERANCE FAULTLINE."
+          "description": "Travel to SEVERANCE FAULTLINE. (Travel to: Severance Faultline, Shattered Heart)"
         },
         {
           "type": "collect",
           "target": "monster_material",
           "count": 3,
           "desc": "Survey infrastructure opportunities.",
-          "description": "Collect monster material (x3)."
+          "description": "Collect monster material (x3). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -3325,7 +3325,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Aethel Iron Carapaces contain compressed energy minerals. Acquire the assets.",
+      "description": "Aethel Iron Carapaces contain compressed energy minerals. (Location: Severance Faultline, Kip) Acquire the assets.",
       "quest_giver": {
         "npc_id": "npc_ruin_diver",
         "name": "Kip",
@@ -3351,7 +3351,7 @@
           "target": "crystal_core",
           "count": 3,
           "desc": "Prepare energy mineral shipments.",
-          "description": "Collect crystal core (x3)."
+          "description": "Collect crystal core (x3). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -3378,7 +3378,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Crystal Tyrants occupy prime real estate on the faultline. Evict them. Cartel Development is moving in.",
+      "description": "Crystal Tyrants occupy prime real estate on the faultline. (Location: Severance Faultline, Don Vercelli) Evict them. Cartel Development is moving in.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -3404,7 +3404,7 @@
           "target": "core_fragment",
           "count": 2,
           "desc": "File real estate claims.",
-          "description": "Collect core fragment (x2)."
+          "description": "Collect core fragment (x2). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -3431,7 +3431,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Gigantic Jotunns refuse to relocate. Exercise eminent domain — the Cartel way.",
+      "description": "Gigantic Jotunns refuse to relocate. (Location: Severance Faultline, Don Vercelli) Exercise eminent domain — the Cartel way.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -3457,7 +3457,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "File domain claim paperwork.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -3484,7 +3484,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The Aethel Siphon Core is the ultimate power plant. The Cartel will acquire it and sell the energy at premium rates.",
+      "description": "The Aethel Siphon Core is the ultimate power plant. The Cartel will acquire it and sell the energy at premium rates. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -3503,14 +3503,14 @@
           "target": "AETHEL_SIPHON_CORE",
           "count": 1,
           "desc": "Enter the Aethel Siphon Core.",
-          "description": "Travel to AETHEL SIPHON CORE."
+          "description": "Travel to AETHEL SIPHON CORE. (Travel to: Aethel Siphon Core, Shattered Heart)"
         },
         {
           "type": "collect",
           "target": "raw_aethel_fragment",
           "count": 2,
           "desc": "Complete power plant valuation.",
-          "description": "Collect raw aethel fragment (x2)."
+          "description": "Collect raw aethel fragment (x2). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -3537,7 +3537,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Hostile entities are depreciating Core asset values. Secure the investment.",
+      "description": "Hostile entities are depreciating Core asset values. (Location: Aethel Siphon Core, Don Vercelli) Secure the investment.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -3590,7 +3590,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Corrupted Behemoths are a liability on the Core balance sheet. Clear the liability.",
+      "description": "Corrupted Behemoths are a liability on the Core balance sheet. (Location: Aethel Siphon Core, Don Vercelli) Clear the liability.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -3616,7 +3616,7 @@
           "target": "crystal_core",
           "count": 1,
           "desc": "File clean balance sheet.",
-          "description": "Collect crystal core (x1)."
+          "description": "Collect crystal core (x1). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -3643,7 +3643,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Rift Stalkers disrupt Core energy markets. Eliminate the disruption. Markets must be stable.",
+      "description": "Rift Stalkers disrupt Core energy markets. (Location: Aethel Siphon Core, Don Vercelli) Eliminate the disruption. Markets must be stable.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -3669,7 +3669,7 @@
           "target": "rift_claw_fragment",
           "count": 1,
           "desc": "Confirm market stability.",
-          "description": "Collect rift claw fragment (x1)."
+          "description": "Collect rift claw fragment (x1). [Item: Rift Claw Fragment]"
         }
       ],
       "rewards": {
@@ -3696,7 +3696,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The Gravity Titan represents the largest potential dividend in Xylos history. Whoever controls gravity controls the market. Prepare the acquisition.",
+      "description": "The Gravity Titan represents the largest potential dividend in Xylos history. (Location: Aethel Siphon Core, Don Vercelli) Whoever controls gravity controls the market. Prepare the acquisition.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -3704,7 +3704,7 @@
       },
       "requirements": {
         "min_level": 68,
-        "reputation_required": 4020,
+        "reputation_required": 230,
         "required_quests": [
           "fq_merid_068"
         ]
@@ -3715,7 +3715,7 @@
           "target": "monster_material",
           "count": 3,
           "desc": "Complete Gravity Titan dividend analysis.",
-          "description": "Collect monster material (x3)."
+          "description": "Collect monster material (x3). [Item: Monster Material]"
         },
         {
           "type": "kill",
@@ -3749,7 +3749,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "CRADLE_EXPANSE",
-      "description": "THE GRAVITY DIVIDEND PAYOUT. The Cartel board declares the Gravity Titan a dividend asset. Defeat the Raid Boss Tier-3 entity and claim its gravity control technology. Whoever controls gravity controls the price of everything on Xylos.",
+      "description": "THE GRAVITY DIVIDEND PAYOUT. (Location: Cradle Expanse, Don Vercelli) The Cartel board declares the Gravity Titan a dividend asset. Defeat the Raid Boss Tier-3 entity and claim its gravity control technology. Whoever controls gravity controls the price of everything on Xylos.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -3782,7 +3782,7 @@
           "target": "raw_aethel_fragment",
           "count": 1,
           "desc": "Confirm dividend payout complete.",
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -3817,7 +3817,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The Prima Materia Forge produces the rarest materials in existence. The Cartel will hold the monopoly on all Forge output.",
+      "description": "The Prima Materia Forge produces the rarest materials in existence. The Cartel will hold the monopoly on all Forge output. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -3836,14 +3836,14 @@
           "target": "PRIMA_MATERIA_FORGE",
           "count": 1,
           "desc": "Enter the Prima Materia Forge.",
-          "description": "Travel to PRIMA MATERIA FORGE."
+          "description": "Travel to PRIMA MATERIA FORGE. (Travel to: Prima Materia Forge, Shattered Heart)"
         },
         {
           "type": "collect",
           "target": "void_core",
           "count": 2,
           "desc": "Establish Forge monopoly framework.",
-          "description": "Collect void core (x2)."
+          "description": "Collect void core (x2). [Item: Void Core]"
         }
       ],
       "rewards": {
@@ -3870,7 +3870,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Ancient Forge defenses are anti-competitive. The Cartel files an anti-trust motion — enforced by firepower.",
+      "description": "Ancient Forge defenses are anti-competitive. (Location: Prima Materia Forge, Don Vercelli) The Cartel files an anti-trust motion — enforced by firepower.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -3896,7 +3896,7 @@
           "target": "carapace_fragment",
           "count": 1,
           "desc": "File anti-trust enforcement report.",
-          "description": "Collect carapace fragment (x1)."
+          "description": "Collect carapace fragment (x1). [Item: Carapace Fragment]"
         }
       ],
       "rewards": {
@@ -3923,7 +3923,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Corrupted Behemoths are contaminating Forge output. This is a quality control disaster. Implement immediate recall and disposal.",
+      "description": "Corrupted Behemoths are contaminating Forge output. (Location: Prima Materia Forge, Don Vercelli) This is a quality control disaster. Implement immediate recall and disposal.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -3969,7 +3969,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Abyssal forces are attempting to steal Forge monopoly. Purge the competitors.",
+      "description": "Abyssal forces are attempting to steal Forge monopoly. (Location: Prima Materia Forge, Don Vercelli) Purge the competitors.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4022,7 +4022,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Jotunns have unionized around the Forge's heat sources. The Cartel does not negotiate with unions.",
+      "description": "Jotunns have unionized around the Forge's heat sources. (Location: Prima Materia Forge, Don Vercelli) The Cartel does not negotiate with unions.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4048,7 +4048,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "File union dissolution report.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -4075,7 +4075,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The Cartel board demands 300% production increase. Clear the production floor of all obstructions.",
+      "description": "The Cartel board demands 300% production increase. (Location: Prima Materia Forge, Don Vercelli) Clear the production floor of all obstructions.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4101,7 +4101,7 @@
           "target": "void_channeler_core",
           "count": 1,
           "desc": "Confirm 300% production quota met.",
-          "description": "Collect void channeler core (x1)."
+          "description": "Collect void channeler core (x1). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -4128,7 +4128,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Titan Forge Automatons are superior manufacturing units. The Cartel wants them on our payroll — or destroyed.",
+      "description": "Titan Forge Automatons are superior manufacturing units. (Location: Prima Materia Forge, Don Vercelli) The Cartel wants them on our payroll — or destroyed.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4154,7 +4154,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "File acquisition status.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -4181,7 +4181,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Titan Proto Cores are failed products. Liquidate the defective inventory and recover the materials.",
+      "description": "Titan Proto Cores are failed products. (Location: Prima Materia Forge, Don Vercelli) Liquidate the defective inventory and recover the materials.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4207,7 +4207,7 @@
           "target": "titan_core",
           "count": 1,
           "desc": "File material recovery report.",
-          "description": "Collect titan core (x1)."
+          "description": "Collect titan core (x1). [Item: Titan Core]"
         }
       ],
       "rewards": {
@@ -4234,7 +4234,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The Executive Legend trial. Eliminate both Titan and Harbinger in a single operational cycle. Efficiency is the Cartel way.",
+      "description": "The Executive Legend trial. (Location: Prima Materia Forge, Don Vercelli) Eliminate both Titan and Harbinger in a single operational cycle. Efficiency is the Cartel way.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4242,7 +4242,7 @@
       },
       "requirements": {
         "min_level": 78,
-        "reputation_required": 4620,
+        "reputation_required": 280,
         "required_quests": [
           "fq_merid_078"
         ]
@@ -4295,7 +4295,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "PORT_MERIDIAN",
-      "description": "The Cartel board unanimously votes you Executive Legend. Return to Port Meridian for the shareholder ceremony. Your stock has never been higher.",
+      "description": "The Cartel board unanimously votes you Executive Legend. Return to Port Meridian for the shareholder ceremony. Your stock has never been higher. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4303,7 +4303,7 @@
       },
       "requirements": {
         "min_level": 79,
-        "reputation_required": 4680,
+        "reputation_required": 330,
         "required_quests": [
           "fq_merid_079"
         ]
@@ -4314,14 +4314,14 @@
           "target": "PORT_MERIDIAN",
           "count": 1,
           "desc": "Return to Port Meridian.",
-          "description": "Travel to PORT MERIDIAN."
+          "description": "Travel to PORT MERIDIAN. (Travel to: Port Meridian)"
         },
         {
           "type": "collect",
           "target": "refined_scrap",
           "count": 1,
           "desc": "Receive your Executive Legend shares.",
-          "description": "Collect refined scrap (x1)."
+          "description": "Collect refined scrap (x1). [Item: Refined Scrap]"
         }
       ],
       "rewards": {
@@ -4352,7 +4352,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "HIDDEN_AETHELGARDIAN_CITY",
-      "description": "The Hidden Aethelgardian City is the ultimate real estate asset. The Cartel will acquire it before any competitor even knows it exists.",
+      "description": "The Hidden Aethelgardian City is the ultimate real estate asset. The Cartel will acquire it before any competitor even knows it exists. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4360,7 +4360,7 @@
       },
       "requirements": {
         "min_level": 80,
-        "reputation_required": 4740,
+        "reputation_required": 380,
         "required_quests": [
           "fq_merid_080"
         ]
@@ -4371,14 +4371,14 @@
           "target": "HIDDEN_AETHELGARDIAN_CITY",
           "count": 1,
           "desc": "Enter the Hidden Aethelgardian City.",
-          "description": "Travel to HIDDEN AETHELGARDIAN CITY."
+          "description": "Travel to HIDDEN AETHELGARDIAN CITY. (Travel to: Hidden Aethelgardian City)"
         },
         {
           "type": "collect",
           "target": "monster_material",
           "count": 3,
           "desc": "Secure city property deeds.",
-          "description": "Collect monster material (x3)."
+          "description": "Collect monster material (x3). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -4405,7 +4405,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "HIDDEN_AETHELGARDIAN_CITY",
-      "description": "City defenses are holdover liabilities from previous ownership. Clear all liens on the property.",
+      "description": "City defenses are holdover liabilities from previous ownership. (Location: Hidden Aethelgardian City, Don Vercelli) Clear all liens on the property.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4431,7 +4431,7 @@
           "target": "raw_aethel_fragment",
           "count": 1,
           "desc": "File clear property title.",
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -4458,7 +4458,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "SHATTERED_HEART",
-      "description": "The Apex Ashen Drake is a unique asset with no market equivalent. The Cartel files for an Initial Public Obliteration.",
+      "description": "The Apex Ashen Drake is a unique asset with no market equivalent. (Location: Shattered Heart, Don Vercelli) The Cartel files for an Initial Public Obliteration.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4484,7 +4484,7 @@
           "target": "drake_heart",
           "count": 1,
           "desc": "Receive the IPO completion certificate.",
-          "description": "Collect drake heart (x1)."
+          "description": "Collect drake heart (x1). [Item: Drake Heart]"
         }
       ],
       "rewards": {
@@ -4515,7 +4515,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Apex Abyss Harbinger is the final void market competitor. Acquire — permanently.",
+      "description": "The Apex Abyss Harbinger is the final void market competitor. (Location: Void Echo Chasm, Don Vercelli) Acquire — permanently.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4541,7 +4541,7 @@
           "target": "abyss_fragment",
           "count": 1,
           "desc": "Confirm permanent acquisition.",
-          "description": "Collect abyss fragment (x1)."
+          "description": "Collect abyss fragment (x1). [Item: Abyss Fragment]"
         }
       ],
       "rewards": {
@@ -4572,7 +4572,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "CRADLE_EXPANSE",
-      "description": "The Gravity Titan's third manifestation pays an even larger dividend. The Cartel always collects.",
+      "description": "The Gravity Titan's third manifestation pays an even larger dividend. (Location: Cradle Expanse, Don Vercelli) The Cartel always collects.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4598,7 +4598,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "Confirm dividend collection.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -4629,7 +4629,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The three Apex entities — Drake, Titan, Harbinger — represent the final merger opportunity. Consolidate the market.",
+      "description": "The three Apex entities — Drake, Titan, Harbinger — represent the final merger opportunity. (Location: Prima Materia Forge, Don Vercelli) Consolidate the market.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4697,7 +4697,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The Aethel Siphon Core is now Cartel Energy Division. Complete the corporate takeover and begin energy billing.",
+      "description": "The Aethel Siphon Core is now Cartel Energy Division. Complete the corporate takeover and begin energy billing. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4716,14 +4716,14 @@
           "target": "AETHEL_SIPHON_CORE",
           "count": 1,
           "desc": "Enter Cartel Energy Division HQ.",
-          "description": "Travel to AETHEL SIPHON CORE."
+          "description": "Travel to AETHEL SIPHON CORE. (Travel to: Aethel Siphon Core, Shattered Heart)"
         },
         {
           "type": "collect",
           "target": "core_fragment",
           "count": 5,
           "desc": "Deploy corporate takeover beacons.",
-          "description": "Collect core fragment (x5)."
+          "description": "Collect core fragment (x5). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -4750,7 +4750,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The World Engine is the most valuable asset in Xylos history. The Cartel takes it public — with us as the sole shareholder.",
+      "description": "The World Engine is the most valuable asset in Xylos history. (Location: Aethel Siphon Core, Don Vercelli) The Cartel takes it public — with us as the sole shareholder.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4758,7 +4758,7 @@
       },
       "requirements": {
         "min_level": 88,
-        "reputation_required": 5220,
+        "reputation_required": 430,
         "required_quests": [
           "fq_merid_088"
         ]
@@ -4769,7 +4769,7 @@
           "target": "core_fragment",
           "count": 3,
           "desc": "Secure World Engine ownership deeds.",
-          "description": "Collect core fragment (x3)."
+          "description": "Collect core fragment (x3). [Item: Core Fragment]"
         },
         {
           "type": "kill",
@@ -4803,7 +4803,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Activate the World Engine. When it goes online, the Cartel will own the means of planetary production. Defend your investment.",
+      "description": "Activate the World Engine. (Location: Aethel Siphon Core, Don Vercelli) When it goes online, the Cartel will own the means of planetary production. Defend your investment.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4811,7 +4811,7 @@
       },
       "requirements": {
         "min_level": 89,
-        "reputation_required": 5280,
+        "reputation_required": 480,
         "required_quests": [
           "fq_merid_089"
         ]
@@ -4836,7 +4836,7 @@
           "target": "raw_aethel_fragment",
           "count": 1,
           "desc": "Confirm Engine activation and profit.",
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -4863,7 +4863,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "The Engine flushes remaining hostile assets. Execute the final liquidation sale — everything must go.",
+      "description": "The Engine flushes remaining hostile assets. (Location: Severance Faultline, Don Vercelli) Execute the final liquidation sale — everything must go.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4916,7 +4916,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "The void market is saturated. Close all remaining void positions and claim final dividends.",
+      "description": "The void market is saturated. (Location: Void Echo Chasm, Don Vercelli) Close all remaining void positions and claim final dividends.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4969,7 +4969,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "SHATTERED_HEART",
-      "description": "Crystal Tyrants file for bankruptcy — Chapter 7, total liquidation. Execute the court order.",
+      "description": "Crystal Tyrants file for bankruptcy — Chapter 7, total liquidation. (Location: Shattered Heart, Don Vercelli) Execute the court order.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -4995,7 +4995,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "Certify bankruptcy complete.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -5022,7 +5022,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Final quarter earnings report. Maximize Forge output by eliminating all production hindrances.",
+      "description": "Final quarter earnings report. (Location: Prima Materia Forge, Don Vercelli) Maximize Forge output by eliminating all production hindrances.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -5075,7 +5075,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "CRADLE_EXPANSE",
-      "description": "The Cradle Expanse is now a Cartel-exclusive market. Enforce the monopoly.",
+      "description": "The Cradle Expanse is now a Cartel-exclusive market. Enforce the monopoly. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -5128,7 +5128,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "ORBITAL_SENTINEL_COMMAND",
-      "description": "The orbital portfolio requires quarterly maintenance. Clear all orbital holdings of hostile entities.",
+      "description": "The orbital portfolio requires quarterly maintenance. (Location: Orbital Sentinel Command, Don Vercelli) Clear all orbital holdings of hostile entities.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -5181,7 +5181,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The final quarter of operations. Consolidate all Cartel assets and prepare the closing balance sheet.",
+      "description": "The final quarter of operations. (Location: Prima Materia Forge, Don Vercelli) Consolidate all Cartel assets and prepare the closing balance sheet.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -5189,7 +5189,7 @@
       },
       "requirements": {
         "min_level": 96,
-        "reputation_required": 5700,
+        "reputation_required": 530,
         "required_quests": [
           "fq_merid_096"
         ]
@@ -5214,7 +5214,7 @@
           "target": "monster_material",
           "count": 1,
           "desc": "File the closing balance sheet.",
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -5241,7 +5241,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The final merger. Combine the assets of Jotunn, Drake, and Harbinger into the ultimate corporate entity: YOU.",
+      "description": "The final merger. (Location: Prima Materia Forge, Don Vercelli) Combine the assets of Jotunn, Drake, and Harbinger into the ultimate corporate entity: YOU.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -5249,7 +5249,7 @@
       },
       "requirements": {
         "min_level": 97,
-        "reputation_required": 5760,
+        "reputation_required": 580,
         "required_quests": [
           "fq_merid_097"
         ]
@@ -5281,7 +5281,7 @@
           "target": "core_fragment",
           "count": 1,
           "desc": "Sign the Merger Certificate.",
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -5316,7 +5316,7 @@
       "rank": "S",
       "faction": "MERIDIAN_CARTEL",
       "region": "VOID_ECHO_CHASM",
-      "description": "The deepest Void Echo Chasm holds the final board meeting. Defeat the Eternal forms of Titan and Harbinger. The Cartel board demands your ascension.",
+      "description": "The deepest Void Echo Chasm holds the final board meeting. Defeat the Eternal forms of Titan and Harbinger. The Cartel board demands your ascension. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -5324,7 +5324,7 @@
       },
       "requirements": {
         "min_level": 98,
-        "reputation_required": 5820,
+        "reputation_required": 630,
         "required_quests": [
           "fq_merid_098"
         ]
@@ -5335,7 +5335,7 @@
           "target": "VOID_ECHO_CHASM",
           "count": 1,
           "desc": "Attend the final board meeting.",
-          "description": "Travel to VOID ECHO CHASM."
+          "description": "Travel to VOID ECHO CHASM. (Travel to: Void Echo Chasm)"
         },
         {
           "type": "kill",
@@ -5356,7 +5356,7 @@
           "target": "abyss_fragment",
           "count": 1,
           "desc": "CLAIM THE ETERNITY CEO SEAL.",
-          "description": "Collect abyss fragment (x1)."
+          "description": "Collect abyss fragment (x1). [Item: Abyss Fragment]"
         }
       ],
       "rewards": {
@@ -5383,7 +5383,7 @@
       "rank": "SS",
       "faction": "MERIDIAN_CARTEL",
       "region": "PORT_MERIDIAN",
-      "description": "The market has spoken. The shareholders have voted. You are now the ETERNITY CEO — the eternal majority shareholder of Xylos itself. Return to Port Meridian. Every contract. Every deal. Every liquidation. It all led here. Profit is eternal.",
+      "description": "The market has spoken. The shareholders have voted. You are now the ETERNITY CEO — the eternal majority shareholder of Xylos itself. Return to Port Meridian. Every contract. Every deal. Every liquidation. It all led here. Profit is eternal. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters.",
       "quest_giver": {
         "npc_id": "npc_cartel_boss",
         "name": "Don Vercelli",
@@ -5391,7 +5391,7 @@
       },
       "requirements": {
         "min_level": 99,
-        "reputation_required": 5880,
+        "reputation_required": 680,
         "required_quests": [
           "fq_merid_099"
         ]
@@ -5402,14 +5402,14 @@
           "target": "PORT_MERIDIAN",
           "count": 1,
           "desc": "Return to Port Meridian as Eternity CEO.",
-          "description": "Travel to PORT MERIDIAN."
+          "description": "Travel to PORT MERIDIAN. (Travel to: Port Meridian)"
         },
         {
           "type": "interact",
           "target": "npc_cartel_boss",
           "count": 1,
           "desc": "Receive the Eternity CEO charter from Executive Director Silas.",
-          "description": "Speak with npc cartel boss."
+          "description": "Speak with npc cartel boss. (Don Vercelli at Port Meridian Cartel Headquarters)"
         }
       ],
       "rewards": {

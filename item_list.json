@@ -25123,6 +25123,17 @@
       "description": "The rarest substance on Xylos — refined directly from the Aethel Siphon. Required to push equipment beyond mortal limits. Obtained from Shardfall Sieges and Raids.",
       "sell_value": 5000,
       "icon_image": "icons/items/materials/prima_materia.png"
+    },
+    {
+      "id": "item_parallel_craft_license",
+      "name": "Parallel Crafting License",
+      "type": "CONSUMABLE",
+      "rarity": "RARE",
+      "description": "Allows simultaneous crafting of multiple items. Grants one additional crafting slot. Purchased from the Premium Shop.",
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 10,
+      "icon_image": "icons/items/consumables/parallel_craft_license.png"
     }
   ]
 }

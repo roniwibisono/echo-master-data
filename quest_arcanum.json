@@ -7,7 +7,7 @@
       "rank": "D",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRYSTAL_SLOPE",
-      "description": "High Seeker Elara Voss has inducted you into the Arcanum Seekers — the faction the Concordium calls reckless and the Iron Hegemony calls dangerous, and who call themselves the only people on Xylos who are asking the right questions. The Crystal Slope's Wild Mushrooms absorb raw aethel from the Shard fragment impact site nearby, storing energy signatures that predate the Great Severance. The Arcanum needs those signatures. Knowledge has a price, and it begins here.",
+      "description": "High Seeker Elara Voss has inducted you into the Arcanum Seekers — the faction the Concordium calls reckless and the Iron Hegemony calls dangerous, and who call themselves the only people on Xylos who are asking the right questions. The Crystal Slope's Wild Mushrooms absorb raw aethel from the Shard fragment impact site nearby, storing energy signatures that predate the Great Severance. The Arcanum needs those signatures. Knowledge has a price, and it begins here. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "High Seeker Elara Voss",
@@ -29,7 +29,7 @@
           "type": "collect",
           "target": "mushroom_cap",
           "count": 2,
-          "description": "Collect mushroom cap (x2)."
+          "description": "Collect mushroom cap (x2). [Item: Mushroom Cap]"
         }
       ],
       "rewards": {
@@ -60,7 +60,7 @@
       "rank": "D",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRYSTAL_SLOPE",
-      "description": "Crystal Sproutlings grow from Shard fragment deposits — they are, technically, living extensions of the same material that was shattered during the Great Severance. High Seeker Elara Voss believes they possess a rudimentary Aethelgardian-coded consciousness, a biological memory of the world before the Siphon overloaded. The Arcanum does not apologize for how it learns. Engage them. Collect what remains.",
+      "description": "Crystal Sproutlings grow from Shard fragment deposits — they are, technically, living extensions of the same material that was shattered during the Great Severance. (Location: Crystal Slope, Scholar Elara) High Seeker Elara Voss believes they possess a rudimentary Aethelgardian-coded consciousness, a biological memory of the world before the Siphon overloaded. The Arcanum does not apologize for how it learns. Engage them. Collect what remains.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "High Seeker Elara Voss",
@@ -68,7 +68,7 @@
       },
       "requirements": {
         "min_level": 1,
-        "reputation_required": 0,
+        "reputation_required": 5,
         "required_quests": [
           "fq_arc_001"
         ]
@@ -84,7 +84,7 @@
           "type": "collect",
           "target": "crystal_fragment",
           "count": 2,
-          "description": "Collect crystal fragment (x2)."
+          "description": "Collect crystal fragment (x2). [Item: Crystal Fragment]"
         }
       ],
       "rewards": {
@@ -111,7 +111,7 @@
       "rank": "D",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRYSTAL_SLOPE",
-      "description": "Archivist Sylas — the Arcanum's keeper of specimens and secrets — has a theory: Shardlings are not random creatures but fractal echoes of the original Aethel Shard, each one containing a tiny portion of the Shard's encoded memory. The Concordium wants to regulate the Shard. The Arcanum wants to read it. Bring Sylas enough Shardlings and he will begin to translate what the Shard is trying to say.",
+      "description": "Archivist Sylas — the Arcanum's keeper of specimens and secrets — has a theory: Shardlings are not random creatures but fractal echoes of the original Aethel Shard, each one containing a tiny portion of the Shard's encoded memory. (Location: Crystal Slope, Archivist Sylas) The Concordium wants to regulate the Shard. The Arcanum wants to read it. Bring Sylas enough Shardlings and he will begin to translate what the Shard is trying to say.",
       "quest_giver": {
         "npc_id": "npc_arcanum_archivist",
         "name": "Archivist Sylas",
@@ -119,7 +119,7 @@
       },
       "requirements": {
         "min_level": 2,
-        "reputation_required": 60,
+        "reputation_required": 10,
         "required_quests": [
           "fq_arc_002"
         ]
@@ -135,7 +135,7 @@
           "type": "collect",
           "target": "crystal_fragment",
           "count": 3,
-          "description": "Collect crystal fragment (x3)."
+          "description": "Collect crystal fragment (x3). [Item: Crystal Fragment]"
         }
       ],
       "rewards": {
@@ -162,7 +162,7 @@
       "rank": "D",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRYSTAL_SLOPE",
-      "description": "An Aethelgardian text recovered from the Resonance Caverns — one of the Arcanum's most prized possessions — describes the Crystal Wisps as 'light-formed messengers, carrying the speech of those who built the Siphon.' High Seeker Elara Voss believes every Wisp that flickers out is a word from before the Severance, lost forever. She wants their energy signatures captured before that language is gone entirely. The methodology is unfortunate but necessary.",
+      "description": "An Aethelgardian text recovered from the Resonance Caverns — one of the Arcanum's most prized possessions — describes the Crystal Wisps as 'light-formed messengers, carrying the speech of those who built the Siphon.' High Seeker Elara Voss believes every Wisp that flickers out is a word from before the Severance, lost forever. (Location: Crystal Slope, Scholar Elara) She wants their energy signatures captured before that language is gone entirely. The methodology is unfortunate but necessary.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "High Seeker Elara Voss",
@@ -170,7 +170,7 @@
       },
       "requirements": {
         "min_level": 3,
-        "reputation_required": 120,
+        "reputation_required": 15,
         "required_quests": [
           "fq_arc_003"
         ]
@@ -186,7 +186,7 @@
           "type": "collect",
           "target": "crystal_dust",
           "count": 1,
-          "description": "Collect crystal dust (x1)."
+          "description": "Collect crystal dust (x1). [Item: Crystal Dust]"
         }
       ],
       "rewards": {
@@ -221,7 +221,7 @@
       },
       "requirements": {
         "min_level": 4,
-        "reputation_required": 150,
+        "reputation_required": 20,
         "required_quests": [
           "fq_arc_004"
         ]
@@ -231,7 +231,7 @@
           "type": "interact",
           "target": "npc_arcanum_class_trainer",
           "count": 1,
-          "description": "Speak with Archsage Myr at the Observatory Spire."
+          "description": "Speak with Archsage Myr at the Observatory Spire. (Archsage Myr at Observatory Spire Academy)"
         },
         {
           "type": "interact",
@@ -286,7 +286,7 @@
       "rank": "D",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "FRACTURED_GLASS_VALLEY",
-      "description": "The Fractured Glass Valley was an Aethelgardian research station before the Severance shattered it — and the terrain along with it. High Seeker Elara Voss has been trying to get a team in here for years, but the Concordium kept classifying it restricted. Now, post-Schism, in the chaos of competing factions, the Arcanum moves. The data slates buried in the glass are worth more than the annual budget of most research divisions. Get in before anyone else does.",
+      "description": "The Fractured Glass Valley was an Aethelgardian research station before the Severance shattered it — and the terrain along with it. High Seeker Elara Voss has been trying to get a team in here for years, but the Concordium kept classifying it restricted. Now, post-Schism, in the chaos of competing factions, the Arcanum moves. The data slates buried in the glass are worth more than the annual budget of most research divisions. Get in before anyone else does. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "High Seeker Elara Voss",
@@ -294,7 +294,7 @@
       },
       "requirements": {
         "min_level": 5,
-        "reputation_required": 240,
+        "reputation_required": 20,
         "required_quests": [
           "fq_arc_005"
         ]
@@ -310,7 +310,7 @@
           "type": "collect",
           "target": "stinger_core",
           "count": 2,
-          "description": "Collect stinger core (x2)."
+          "description": "Collect stinger core (x2). [Item: Stinger Core]"
         }
       ],
       "rewards": {
@@ -345,7 +345,7 @@
       },
       "requirements": {
         "min_level": 6,
-        "reputation_required": 300,
+        "reputation_required": 25,
         "required_quests": [
           "fq_arc_006"
         ]
@@ -361,7 +361,7 @@
           "type": "collect",
           "target": "desert_chitin",
           "count": 3,
-          "description": "Collect desert chitin (x3)."
+          "description": "Collect desert chitin (x3). [Item: Desert Chitin]"
         }
       ],
       "rewards": {
@@ -388,7 +388,7 @@
       "rank": "D",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "FRACTURED_GLASS_VALLEY",
-      "description": "A Giant Alpha Rat has made the valley's sealed archive chamber its nest — the chamber that Arcanum scouts confirmed contains pre-Severance data cylinders still intact after centuries. High Seeker Elara Voss's voice is tight when she explains this. The Concordium had this chamber on their survey maps for decades and left it sealed. The Arcanum broke through last season. A rat will not reclaim what human curiosity has finally unlocked.",
+      "description": "A Giant Alpha Rat has made the valley's sealed archive chamber its nest — the chamber that Arcanum scouts confirmed contains pre-Severance data cylinders still intact after centuries. (Location: Fractured Glass Valley, Scholar Elara) High Seeker Elara Voss's voice is tight when she explains this. The Concordium had this chamber on their survey maps for decades and left it sealed. The Arcanum broke through last season. A rat will not reclaim what human curiosity has finally unlocked.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "High Seeker Elara Voss",
@@ -396,7 +396,7 @@
       },
       "requirements": {
         "min_level": 7,
-        "reputation_required": 360,
+        "reputation_required": 30,
         "required_quests": [
           "fq_arc_007"
         ]
@@ -412,7 +412,7 @@
           "type": "collect",
           "target": "alpha_fang",
           "count": 3,
-          "description": "Collect alpha fang (x3)."
+          "description": "Collect alpha fang (x3). [Item: Alpha Fang]"
         }
       ],
       "rewards": {
@@ -443,7 +443,7 @@
       "rank": "D",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "FRACTURED_GLASS_VALLEY",
-      "description": "Glass Wisps are what Crystal Wisps become after generations of exposure to the valley's compressed aethel radiation — their energy signatures have grown so complex that Researcher Vin's field equipment can barely parse them. This is exactly why the Arcanum exists. Every other faction on Xylos sees these creatures as obstacles. The Arcanum sees them as data points in the longest experiment in history: what does the Severance eventually become?",
+      "description": "Glass Wisps are what Crystal Wisps become after generations of exposure to the valley's compressed aethel radiation — their energy signatures have grown so complex that Researcher Vin's field equipment can barely parse them. (Location: Fractured Glass Valley, Researcher Vin) This is exactly why the Arcanum exists. Every other faction on Xylos sees these creatures as obstacles. The Arcanum sees them as data points in the longest experiment in history: what does the Severance eventually become?",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -451,7 +451,7 @@
       },
       "requirements": {
         "min_level": 8,
-        "reputation_required": 420,
+        "reputation_required": 35,
         "required_quests": [
           "fq_arc_008"
         ]
@@ -467,7 +467,7 @@
           "type": "collect",
           "target": "glass_shard",
           "count": 2,
-          "description": "Collect glass shard (x2)."
+          "description": "Collect glass shard (x2). [Item: Glass Shard]"
         }
       ],
       "rewards": {
@@ -494,7 +494,7 @@
       "rank": "D",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "FRACTURED_GLASS_VALLEY",
-      "description": "Crystal Rams grow their horns by absorbing the deep aethel currents that flow through the valley's crystalline substrate — the same currents that once powered Aethelgardian technology. Their horns are essentially biological aethel conduits, grown over decades into shapes that mirror the original Siphon's internal architecture. High Seeker Elara Voss wants two of them for a reconstruction project she has never shared with the Concordium and never will.",
+      "description": "Crystal Rams grow their horns by absorbing the deep aethel currents that flow through the valley's crystalline substrate — the same currents that once powered Aethelgardian technology. (Location: Fractured Glass Valley, Scholar Elara) Their horns are essentially biological aethel conduits, grown over decades into shapes that mirror the original Siphon's internal architecture. High Seeker Elara Voss wants two of them for a reconstruction project she has never shared with the Concordium and never will.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "High Seeker Elara Voss",
@@ -502,7 +502,7 @@
       },
       "requirements": {
         "min_level": 9,
-        "reputation_required": 480,
+        "reputation_required": 40,
         "required_quests": [
           "fq_arc_009"
         ]
@@ -518,7 +518,7 @@
           "type": "collect",
           "target": "crystal_horn",
           "count": 2,
-          "description": "Collect crystal horn (x2)."
+          "description": "Collect crystal horn (x2). [Item: Crystal Horn]"
         }
       ],
       "rewards": {
@@ -549,7 +549,7 @@
       "rank": "C",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "RESONANCE_CAVERNS",
-      "description": "The Resonance Caverns were discovered by an Arcanum expedition three years ago — and immediately classified by the Concordium, who found the frequency emissions 'destabilizing to infrastructure.' What that really means, High Seeker Elara Voss explains, is that the Concordium is afraid of what the caverns are saying. The frequencies match Aethelgardian communication protocols last recorded three hundred years before the Severance. The Arcanum is listening now.",
+      "description": "The Resonance Caverns were discovered by an Arcanum expedition three years ago — and immediately classified by the Concordium, who found the frequency emissions 'destabilizing to infrastructure.' What that really means, High Seeker Elara Voss explains, is that the Concordium is afraid of what the caverns are saying. The frequencies match Aethelgardian communication protocols last recorded three hundred years before the Severance. The Arcanum is listening now. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "High Seeker Elara Voss",
@@ -557,7 +557,7 @@
       },
       "requirements": {
         "min_level": 10,
-        "reputation_required": 540,
+        "reputation_required": 45,
         "required_quests": [
           "fq_arc_010"
         ]
@@ -573,7 +573,7 @@
           "type": "collect",
           "target": "rat_hide",
           "count": 2,
-          "description": "Collect rat hide (x2)."
+          "description": "Collect rat hide (x2). [Item: Rat Hide]"
         }
       ],
       "rewards": {
@@ -600,7 +600,7 @@
       "rank": "C",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "RESONANCE_CAVERNS",
-      "description": "Resonance Bats have adapted to use the caverns' Aethelgardian frequency emissions as their primary navigation signal — which means when they pulse their own echolocation, it creates harmonic interference that drowns out the original signal the Arcanum is trying to record. Researcher Vin is philosophical about it: 'They evolved into the frequency stream like we evolved into language.' He still needs them neutralized before the interference destroys another month of data collection.",
+      "description": "Resonance Bats have adapted to use the caverns' Aethelgardian frequency emissions as their primary navigation signal — which means when they pulse their own echolocation, it creates harmonic interference that drowns out the original signal the Arcanum is trying to record. (Location: Resonance Caverns, Researcher Vin) Researcher Vin is philosophical about it: 'They evolved into the frequency stream like we evolved into language.' He still needs them neutralized before the interference destroys another month of data collection.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -608,7 +608,7 @@
       },
       "requirements": {
         "min_level": 11,
-        "reputation_required": 600,
+        "reputation_required": 50,
         "required_quests": [
           "fq_arc_011"
         ]
@@ -624,7 +624,7 @@
           "type": "collect",
           "target": "void_fragment",
           "count": 3,
-          "description": "Collect void fragment (x3)."
+          "description": "Collect void fragment (x3). [Item: Void Fragment]"
         }
       ],
       "rewards": {
@@ -651,7 +651,7 @@
       "rank": "C",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "RESONANCE_CAVERNS",
-      "description": "Resonance Golems were not born — they were built, by Aethelgardian architects who understood acoustics as a force as real as gravity. They still guard the cavern's deeper chambers, still following protocols written before Xylos had a recorded history. High Seeker Elara Voss reads the technical specifications in their construction with open hunger: 'They solved in stone what we have not solved in silicon.' She needs them disabled — and every component catalogued.",
+      "description": "Resonance Golems were not born — they were built, by Aethelgardian architects who understood acoustics as a force as real as gravity. (Location: Resonance Caverns, Scholar Elara) They still guard the cavern's deeper chambers, still following protocols written before Xylos had a recorded history. High Seeker Elara Voss reads the technical specifications in their construction with open hunger: 'They solved in stone what we have not solved in silicon.' She needs them disabled — and every component catalogued.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "High Seeker Elara Voss",
@@ -659,7 +659,7 @@
       },
       "requirements": {
         "min_level": 12,
-        "reputation_required": 660,
+        "reputation_required": 55,
         "required_quests": [
           "fq_arc_012"
         ]
@@ -675,7 +675,7 @@
           "type": "collect",
           "target": "crystal_core",
           "count": 1,
-          "description": "Collect crystal core (x1)."
+          "description": "Collect crystal core (x1). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -702,7 +702,7 @@
       "rank": "C",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "RESONANCE_CAVERNS",
-      "description": "Archivist Sylas has mapped the echo patterns in the deepest cavern chambers and believes they form a recursive mathematical structure — a proof, encoded in reflected sound, that describes the fundamental resonance equation underlying aethel energy transfer. If he is right, this single proof is worth more than the entire Concordium's engineering database. The Bats that keep disrupting his recordings have earned a very specific kind of contempt from a very quiet man.",
+      "description": "Archivist Sylas has mapped the echo patterns in the deepest cavern chambers and believes they form a recursive mathematical structure — a proof, encoded in reflected sound, that describes the fundamental resonance equation underlying aethel energy transfer. (Location: Resonance Caverns, Archivist Sylas) If he is right, this single proof is worth more than the entire Concordium's engineering database. The Bats that keep disrupting his recordings have earned a very specific kind of contempt from a very quiet man.",
       "quest_giver": {
         "npc_id": "npc_arcanum_archivist",
         "name": "Archivist Sylas",
@@ -710,7 +710,7 @@
       },
       "requirements": {
         "min_level": 13,
-        "reputation_required": 720,
+        "reputation_required": 60,
         "required_quests": [
           "fq_arc_013"
         ]
@@ -720,13 +720,13 @@
           "type": "kill",
           "target": "RESONANCE_BAT",
           "count": 5,
-          "description": "Clear Bats from the echo chambers."
+          "description": "Clear Bats from the echo chambers. [Resonance Bat]"
         },
         {
           "type": "collect",
           "target": "void_fragment",
           "count": 2,
-          "description": "Collect void fragment (x2)."
+          "description": "Collect void fragment (x2). [Item: Void Fragment]"
         }
       ],
       "rewards": {
@@ -753,7 +753,7 @@
       "rank": "C",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "RESONANCE_CAVERNS",
-      "description": "Something is actively corrupting the Aethelgardian signal in the Resonance Caverns — not random interference, but a structured counter-harmonic that High Seeker Elara Voss describes as deliberate suppression. Something in the deep chambers does not want the signal heard. The Golems are amplifying the suppression, and the Bats are spreading it. Elara's eyes are bright with exactly the kind of dangerous curiosity that made the Concordium classify her research six times.",
+      "description": "Something is actively corrupting the Aethelgardian signal in the Resonance Caverns — not random interference, but a structured counter-harmonic that High Seeker Elara Voss describes as deliberate suppression. Something in the deep chambers does not want the signal heard. The Golems are amplifying the suppression, and the Bats are spreading it. Elara's eyes are bright with exactly the kind of dangerous curiosity that made the Concordium classify her research six times. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "High Seeker Elara Voss",
@@ -761,7 +761,7 @@
       },
       "requirements": {
         "min_level": 14,
-        "reputation_required": 780,
+        "reputation_required": 65,
         "required_quests": [
           "fq_arc_014"
         ]
@@ -771,13 +771,13 @@
           "type": "kill",
           "target": "RESONANCE_GOLEM",
           "count": 3,
-          "description": "Destroy Golems causing harmonic interference."
+          "description": "Destroy Golems causing harmonic interference. [Resonance Golem]"
         },
         {
           "type": "kill",
           "target": "RESONANCE_BAT",
           "count": 5,
-          "description": "Eliminate Bat swarms amplifying the interference."
+          "description": "Eliminate Bat swarms amplifying the interference. [Resonance Bat]"
         }
       ],
       "rewards": {
@@ -812,7 +812,7 @@
       },
       "requirements": {
         "min_level": 15,
-        "reputation_required": 840,
+        "reputation_required": 70,
         "required_quests": [
           "fq_arc_015"
         ]
@@ -822,13 +822,13 @@
           "type": "collect",
           "target": "specter_essence",
           "count": 4,
-          "description": "Collect specter essence (x4)."
+          "description": "Collect specter essence (x4). [Item: Specter Essence]"
         },
         {
           "type": "kill",
           "target": "RESONANCE_BAT",
           "count": 4,
-          "description": "Clear hostiles from unmapped sectors."
+          "description": "Clear hostiles from unmapped sectors. [Resonance Bat]"
         }
       ],
       "rewards": {
@@ -855,7 +855,7 @@
       "rank": "C",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "RESONANCE_CAVERNS",
-      "description": "The sealed chamber Archivist Sylas found is not just locked — it was engineered to resist entry, with Golem guardians reactivating every time a breach is attempted. The Aethelgardians sealed something here deliberately, which means they knew it needed to be contained. High Seeker Elara Voss's response to this is characteristic: 'Everything that was sealed was sealed by someone who was also afraid of knowing. We are not afraid.' Breach the chamber. Document everything.",
+      "description": "The sealed chamber Archivist Sylas found is not just locked — it was engineered to resist entry, with Golem guardians reactivating every time a breach is attempted. (Location: Resonance Caverns, Scholar Elara) The Aethelgardians sealed something here deliberately, which means they knew it needed to be contained. High Seeker Elara Voss's response to this is characteristic: 'Everything that was sealed was sealed by someone who was also afraid of knowing. We are not afraid.' Breach the chamber. Document everything.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "High Seeker Elara Voss",
@@ -863,7 +863,7 @@
       },
       "requirements": {
         "min_level": 16,
-        "reputation_required": 900,
+        "reputation_required": 75,
         "required_quests": [
           "fq_arc_016"
         ]
@@ -873,13 +873,13 @@
           "type": "collect",
           "target": "arcane_crystal_fragment",
           "count": 2,
-          "description": "Collect arcane crystal fragment (x2)."
+          "description": "Collect arcane crystal fragment (x2). [Item: Arcane Crystal Fragment]"
         },
         {
           "type": "kill",
           "target": "RESONANCE_GOLEM",
           "count": 2,
-          "description": "Defeat Golems guarding the chamber."
+          "description": "Defeat Golems guarding the chamber. [Resonance Golem]"
         }
       ],
       "rewards": {
@@ -906,7 +906,7 @@
       "rank": "C",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "RESONANCE_CAVERNS",
-      "description": "The artifacts from the sealed chamber contain Aethelgardian language fragments in a dialect that Archivist Sylas has never seen — older than the Siphon's construction era, possibly older than anything in the Arcanum's database. High Seeker Elara Voss has begun a real-time translation and she cannot be interrupted. The Golems are fighting back. The Bats are swarming. Someone — or something — does not want those words spoken aloud again.",
+      "description": "The artifacts from the sealed chamber contain Aethelgardian language fragments in a dialect that Archivist Sylas has never seen — older than the Siphon's construction era, possibly older than anything in the Arcanum's database. (Location: Resonance Caverns, Scholar Elara) High Seeker Elara Voss has begun a real-time translation and she cannot be interrupted. The Golems are fighting back. The Bats are swarming. Someone — or something — does not want those words spoken aloud again.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "High Seeker Elara Voss",
@@ -914,7 +914,7 @@
       },
       "requirements": {
         "min_level": 17,
-        "reputation_required": 960,
+        "reputation_required": 80,
         "required_quests": [
           "fq_arc_017"
         ]
@@ -924,13 +924,13 @@
           "type": "kill",
           "target": "RESONANCE_GOLEM",
           "count": 3,
-          "description": "Defend the translation site from Golem assault."
+          "description": "Defend the translation site from Golem assault. [Resonance Golem]"
         },
         {
           "type": "kill",
           "target": "RESONANCE_BAT",
           "count": 6,
-          "description": "Eliminate Bats disrupting the ritual."
+          "description": "Eliminate Bats disrupting the ritual. [Resonance Bat]"
         }
       ],
       "rewards": {
@@ -957,7 +957,7 @@
       "rank": "C",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "RESONANCE_CAVERNS",
-      "description": "The Resonance Echo that formed in the deepest chamber is not a creature in any biological sense — it is the caverns' accumulated Aethelgardian data coalesced into a coherent energy entity, the same phenomenon the ancient texts called 'a dreaming archive.' The Arcanum has theorized about this. High Seeker Elara Voss has written three papers about the theoretical possibility. She is almost incapable of hiding her awe as she orders you to defeat it and extract its data core.",
+      "description": "The Resonance Echo that formed in the deepest chamber is not a creature in any biological sense — it is the caverns' accumulated Aethelgardian data coalesced into a coherent energy entity, the same phenomenon the ancient texts called 'a dreaming archive.' The Arcanum has theorized about this. (Location: Resonance Caverns, Scholar Elara) High Seeker Elara Voss has written three papers about the theoretical possibility. She is almost incapable of hiding her awe as she orders you to defeat it and extract its data core.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "High Seeker Elara Voss",
@@ -965,7 +965,7 @@
       },
       "requirements": {
         "min_level": 18,
-        "reputation_required": 1020,
+        "reputation_required": 85,
         "required_quests": [
           "fq_arc_018"
         ]
@@ -981,7 +981,7 @@
           "type": "kill",
           "target": "RESONANCE_GOLEM",
           "count": 2,
-          "description": "Destroy Golems shielding the Echo."
+          "description": "Destroy Golems shielding the Echo. [Resonance Golem]"
         }
       ],
       "rewards": {
@@ -1012,7 +1012,7 @@
       "rank": "C",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "OBSERVATORY_SPIRE",
-      "description": "The Resonance Echo's data core is being analyzed in the Observatory Spire's highest laboratory. High Seeker Elara Voss has called you back — not with orders, but with something closer to an invitation. The Arcanum's restricted archives, the ones the Concordium tried to confiscate twice, are being opened for your Advanced evaluation. What you learned in the Caverns was just the beginning. The Spire's deeper doors require a key that can only be earned, not given.",
+      "description": "The Resonance Echo's data core is being analyzed in the Observatory Spire's highest laboratory. High Seeker Elara Voss has called you back — not with orders, but with something closer to an invitation. The Arcanum's restricted archives, the ones the Concordium tried to confiscate twice, are being opened for your Advanced evaluation. What you learned in the Caverns was just the beginning. The Spire's deeper doors require a key that can only be earned, not given. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "High Seeker Elara Voss",
@@ -1020,7 +1020,7 @@
       },
       "requirements": {
         "min_level": 19,
-        "reputation_required": 1080,
+        "reputation_required": 90,
         "required_quests": [
           "fq_arc_019"
         ]
@@ -1036,7 +1036,7 @@
           "type": "collect",
           "target": "monster_material",
           "count": 1,
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -1067,7 +1067,7 @@
       "rank": "B",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "SHARD_PULSE_PEAK",
-      "description": "The Shard Pulse Peak is a forbidden research zone. Ancient machines still operate there, pulsing with unknowable energy. The Arcanum has authorized your entry.",
+      "description": "The Shard Pulse Peak is a forbidden research zone. Ancient machines still operate there, pulsing with unknowable energy. The Arcanum has authorized your entry. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -1091,7 +1091,7 @@
           "type": "collect",
           "target": "thick_hide",
           "count": 2,
-          "description": "Collect thick hide (x2)."
+          "description": "Collect thick hide (x2). [Item: Thick Hide]"
         }
       ],
       "rewards": {
@@ -1118,7 +1118,7 @@
       "rank": "B",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "SHARD_PULSE_PEAK",
-      "description": "Shard Pulse Sentinels patrol the peak's machine platforms. Their energy signatures suggest they are guardians of dormant technology.",
+      "description": "Shard Pulse Sentinels patrol the peak's machine platforms. (Location: Shard Pulse Peak, Watcher Vane) Their energy signatures suggest they are guardians of dormant technology.",
       "quest_giver": {
         "npc_id": "npc_peak_watcher",
         "name": "Watcher Vane",
@@ -1142,7 +1142,7 @@
           "type": "collect",
           "target": "arcane_crystal_fragment",
           "count": 2,
-          "description": "Collect arcane crystal fragment (x2)."
+          "description": "Collect arcane crystal fragment (x2). [Item: Arcane Crystal Fragment]"
         }
       ],
       "rewards": {
@@ -1169,7 +1169,7 @@
       "rank": "B",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "SHARD_PULSE_PEAK",
-      "description": "Shard Pulse Guardians are elite Sentinel variants. They protect the peak's central machine. Disable them and access the machine's data terminal.",
+      "description": "Shard Pulse Guardians are elite Sentinel variants. (Location: Shard Pulse Peak, Watcher Vane) They protect the peak's central machine. Disable them and access the machine's data terminal.",
       "quest_giver": {
         "npc_id": "npc_peak_watcher",
         "name": "Watcher Vane",
@@ -1193,7 +1193,7 @@
           "type": "collect",
           "target": "crystal_core",
           "count": 1,
-          "description": "Collect crystal core (x1)."
+          "description": "Collect crystal core (x1). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -1220,7 +1220,7 @@
       "rank": "B",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "SHARD_PULSE_PEAK",
-      "description": "A Sunken Aethel Leviathan has been detected in the peak's subterranean lake. Its biology may hold secrets of Aethel conversion. Capture tissue samples.",
+      "description": "A Sunken Aethel Leviathan has been detected in the peak's subterranean lake. (Location: Shard Pulse Peak, Researcher Vin) Its biology may hold secrets of Aethel conversion. Capture tissue samples.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -1244,7 +1244,7 @@
           "type": "collect",
           "target": "leviathan_scale",
           "count": 3,
-          "description": "Collect leviathan scale (x3)."
+          "description": "Collect leviathan scale (x3). [Item: Leviathan Scale]"
         }
       ],
       "rewards": {
@@ -1271,7 +1271,7 @@
       "rank": "B",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "SHARD_PULSE_PEAK",
-      "description": "The Shard Pulse Tyrant is the apex guardian of the peak. Its energy signature matches Precursor command protocols. Disable it to access the master terminal.",
+      "description": "The Shard Pulse Tyrant is the apex guardian of the peak. (Location: Shard Pulse Peak, Scholar Elara) Its energy signature matches Precursor command protocols. Disable it to access the master terminal.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -1295,7 +1295,7 @@
           "type": "kill",
           "target": "SHARD_PULSE_GUARDIAN",
           "count": 1,
-          "description": "Clear Guardian escorts."
+          "description": "Clear Guardian escorts. [Shard Pulse Guardian]"
         }
       ],
       "rewards": {
@@ -1322,7 +1322,7 @@
       "rank": "B",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "SHARD_PULSE_PEAK",
-      "description": "A Storm Rift Serpent has been drawn to the peak's energy. These creatures ride electromagnetic currents. Harvest its scales for the Arcanum's armory.",
+      "description": "A Storm Rift Serpent has been drawn to the peak's energy. (Location: Shard Pulse Peak, Researcher Vin) These creatures ride electromagnetic currents. Harvest its scales for the Arcanum's armory.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -1346,7 +1346,7 @@
           "type": "collect",
           "target": "storm_core",
           "count": 2,
-          "description": "Collect storm core (x2)."
+          "description": "Collect storm core (x2). [Item: Storm Core]"
         }
       ],
       "rewards": {
@@ -1373,7 +1373,7 @@
       "rank": "B",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "AETHEL_STORM_BELT",
-      "description": "The Aethel Storm Belt is a contested zone of intense electromagnetic activity. The Arcanum seeks to establish an observation post to study celestial phenomena.",
+      "description": "The Aethel Storm Belt is a contested zone of intense electromagnetic activity. The Arcanum seeks to establish an observation post to study celestial phenomena. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -1397,7 +1397,7 @@
           "type": "collect",
           "target": "desert_chitin",
           "count": 2,
-          "description": "Collect desert chitin (x2)."
+          "description": "Collect desert chitin (x2). [Item: Desert Chitin]"
         }
       ],
       "rewards": {
@@ -1424,7 +1424,7 @@
       "rank": "B",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "AETHEL_STORM_BELT",
-      "description": "Storm Rift Serpents dominate the Storm Belt. Their electromagnetic nature disrupts our instruments. Thin their population.",
+      "description": "Storm Rift Serpents dominate the Storm Belt. (Location: Aethel Storm Belt, Researcher Vin) Their electromagnetic nature disrupts our instruments. Thin their population.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -1448,7 +1448,7 @@
           "type": "collect",
           "target": "storm_core",
           "count": 2,
-          "description": "Collect storm core (x2)."
+          "description": "Collect storm core (x2). [Item: Storm Core]"
         }
       ],
       "rewards": {
@@ -1475,7 +1475,7 @@
       "rank": "B",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "AETHEL_STORM_BELT",
-      "description": "Multiple Sunken Aethel Leviathans have migrated into the Storm Belt. Their migration pattern is unprecedented — and dangerous to the observation post.",
+      "description": "Multiple Sunken Aethel Leviathans have migrated into the Storm Belt. (Location: Aethel Storm Belt, Scholar Elara) Their migration pattern is unprecedented — and dangerous to the observation post.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -1493,13 +1493,13 @@
           "type": "kill",
           "target": "SUNKEN_AETHEL_LEVIATHAN",
           "count": 2,
-          "description": "Defeat Leviathans threatening the observation post."
+          "description": "Defeat Leviathans threatening the observation post. [Sunken Aethel Leviathan]"
         },
         {
           "type": "kill",
           "target": "STORM_RIFT_SERPENT",
           "count": 2,
-          "description": "Clear Serpent escorts."
+          "description": "Clear Serpent escorts. [Storm Rift Serpent]"
         }
       ],
       "rewards": {
@@ -1534,7 +1534,7 @@
       },
       "requirements": {
         "min_level": 29,
-        "reputation_required": 1680,
+        "reputation_required": 95,
         "required_quests": [
           "fq_arc_029"
         ]
@@ -1544,7 +1544,7 @@
           "type": "interact",
           "target": "npc_arcanum_class_trainer",
           "count": 1,
-          "description": "Report to Archsage Myr for Ascension evaluation."
+          "description": "Report to Archsage Myr for Ascension evaluation. (Archsage Myr at Observatory Spire Academy)"
         },
         {
           "type": "kill",
@@ -1591,7 +1591,7 @@
       "rank": "A",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "ORBITAL_SENTINEL_COMMAND",
-      "description": "The Arcanum Seekers require access to orbital platforms. Knowledge of the heavens is the next frontier. Establish our presence at the Orbital Sentinel Command.",
+      "description": "The Arcanum Seekers require access to orbital platforms. Knowledge of the heavens is the next frontier. Establish our presence at the Orbital Sentinel Command. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -1615,7 +1615,7 @@
           "type": "collect",
           "target": "monster_material",
           "count": 1,
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -1642,7 +1642,7 @@
       "rank": "A",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRADLE_EXPANSE",
-      "description": "The Ashen Drake has been sighted from orbit. The Arcanum needs direct observation data. Track the Drake in the Cradle Expanse.",
+      "description": "The Ashen Drake has been sighted from orbit. The Arcanum needs direct observation data. Track the Drake in the Cradle Expanse. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -1666,7 +1666,7 @@
           "type": "collect",
           "target": "drake_heart",
           "count": 2,
-          "description": "Collect drake heart (x2)."
+          "description": "Collect drake heart (x2). [Item: Drake Heart]"
         }
       ],
       "rewards": {
@@ -1693,7 +1693,7 @@
       "rank": "A",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Behemoths possess unusual regenerative properties. The Arcanum believes their biology can unlock new alchemical formulas.",
+      "description": "Aethel Behemoths possess unusual regenerative properties. (Location: Cradle Expanse, Researcher Vin) The Arcanum believes their biology can unlock new alchemical formulas.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -1717,7 +1717,7 @@
           "type": "collect",
           "target": "raw_aethel_core",
           "count": 2,
-          "description": "Collect raw aethel core (x2)."
+          "description": "Collect raw aethel core (x2). [Item: Raw Aethel Core]"
         }
       ],
       "rewards": {
@@ -1744,7 +1744,7 @@
       "rank": "A",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Void Channelers are conducting void-alchemical rituals. Steal their research — it may contain the key to void energy transmutation.",
+      "description": "Aethel Void Channelers are conducting void-alchemical rituals. (Location: Cradle Expanse, Scholar Elara) Steal their research — it may contain the key to void energy transmutation.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -1762,13 +1762,13 @@
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 4,
-          "description": "Interrupt the void-alchemical rituals."
+          "description": "Interrupt the void-alchemical rituals. [Aethel Void Channeler]"
         },
         {
           "type": "collect",
           "target": "void_channeler_core",
           "count": 2,
-          "description": "Collect void channeler core (x2)."
+          "description": "Collect void channeler core (x2). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -1795,7 +1795,7 @@
       "rank": "A",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Abyssal Reavers are creatures of pure void energy. The Arcanum requires a live essence sample for the restricted archive.",
+      "description": "Aethel Abyssal Reavers are creatures of pure void energy. (Location: Cradle Expanse, Researcher Vin) The Arcanum requires a live essence sample for the restricted archive.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -1813,13 +1813,13 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 3,
-          "description": "Defeat Abyssal Reavers and extract essence."
+          "description": "Defeat Abyssal Reavers and extract essence. [Aethel Abyssal Reaver]"
         },
         {
           "type": "collect",
           "target": "void_channeler_core",
           "count": 1,
-          "description": "Collect void channeler core (x1)."
+          "description": "Collect void channeler core (x1). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -1846,7 +1846,7 @@
       "rank": "A",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "ORBITAL_SENTINEL_COMMAND",
-      "description": "Rival factions are probing Arcanum orbital archives. The knowledge stored here must be protected at all costs.",
+      "description": "Rival factions are probing Arcanum orbital archives. (Location: Orbital Sentinel Command, Archivist Sylas) The knowledge stored here must be protected at all costs.",
       "quest_giver": {
         "npc_id": "npc_arcanum_archivist",
         "name": "Archivist Sylas",
@@ -1864,13 +1864,13 @@
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 6,
-          "description": "Repel intruders from the orbital archives."
+          "description": "Repel intruders from the orbital archives. [Aethel Rift Stalker]"
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 3,
-          "description": "Neutralize hostile Channelers."
+          "description": "Neutralize hostile Channelers. [Aethel Void Channeler]"
         }
       ],
       "rewards": {
@@ -1897,7 +1897,7 @@
       "rank": "A",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRADLE_EXPANSE",
-      "description": "The Ashen Drake's fire contains unique alchemical properties. The Arcanum must obtain a fresh flame sample — directly from the source if necessary.",
+      "description": "The Ashen Drake's fire contains unique alchemical properties. (Location: Cradle Expanse, Scholar Elara) The Arcanum must obtain a fresh flame sample — directly from the source if necessary.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -1921,7 +1921,7 @@
           "type": "collect",
           "target": "drake_heart",
           "count": 1,
-          "description": "Collect drake heart (x1)."
+          "description": "Collect drake heart (x1). [Item: Drake Heart]"
         }
       ],
       "rewards": {
@@ -1948,7 +1948,7 @@
       "rank": "A",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Corrupted Behemoths are the result of failed void experiments by rival factions. Clean up their mess and collect the corrupted data.",
+      "description": "Aethel Corrupted Behemoths are the result of failed void experiments by rival factions. (Location: Cradle Expanse, Researcher Vin) Clean up their mess and collect the corrupted data.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -1966,13 +1966,13 @@
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 2,
-          "description": "Destroy Corrupted Behemoths."
+          "description": "Destroy Corrupted Behemoths. [Aethel Corrupted Behemoth]"
         },
         {
           "type": "collect",
           "target": "crystal_core",
           "count": 2,
-          "description": "Collect crystal core (x2)."
+          "description": "Collect crystal core (x2). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -1999,7 +1999,7 @@
       "rank": "A",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRADLE_EXPANSE",
-      "description": "Multiple Abyssal Reavers threaten to overrun the orbital research stations. The Arcanum cannot afford to lose decades of orbital data.",
+      "description": "Multiple Abyssal Reavers threaten to overrun the orbital research stations. (Location: Cradle Expanse, Scholar Elara) The Arcanum cannot afford to lose decades of orbital data.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -2017,13 +2017,13 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Defeat the Abyssal Reaver assault."
+          "description": "Defeat the Abyssal Reaver assault. [Aethel Abyssal Reaver]"
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 3,
-          "description": "Silence the summoning Channelers."
+          "description": "Silence the summoning Channelers. [Aethel Void Channeler]"
         }
       ],
       "rewards": {
@@ -2050,7 +2050,7 @@
       "rank": "A",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "OBSERVATORY_SPIRE",
-      "description": "The final trial for Master rank. Defeat the Ashen Drake and two elite guardians to gain access to the Arcanum's most restricted orbital archives.",
+      "description": "The final trial for Master rank. (Location: Observatory Spire, Scholar Elara) Defeat the Ashen Drake and two elite guardians to gain access to the Arcanum's most restricted orbital archives.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -2058,7 +2058,7 @@
       },
       "requirements": {
         "min_level": 39,
-        "reputation_required": 2280,
+        "reputation_required": 105,
         "required_quests": [
           "fq_arc_039"
         ]
@@ -2080,7 +2080,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 1,
-          "description": "Slay an Abyssal Reaver."
+          "description": "Slay an Abyssal Reaver. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -2115,7 +2115,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Void Echo Chasm contains echoes of all knowledge ever lost. The Arcanum Seeker's greatest ambition: enter the chasm and retrieve what was forgotten.",
+      "description": "The Void Echo Chasm contains echoes of all knowledge ever lost. The Arcanum Seeker's greatest ambition: enter the chasm and retrieve what was forgotten. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -2139,7 +2139,7 @@
           "type": "collect",
           "target": "void_channeler_core",
           "count": 3,
-          "description": "Collect void channeler core (x3)."
+          "description": "Collect void channeler core (x3). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -2166,7 +2166,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "Void Reavers are the most stable void entities. Study them extensively — their nature may reveal how to safely harness void energy.",
+      "description": "Void Reavers are the most stable void entities. (Location: Void Echo Chasm, Researcher Vin) Study them extensively — their nature may reveal how to safely harness void energy.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -2190,7 +2190,7 @@
           "type": "collect",
           "target": "void_fragment",
           "count": 1,
-          "description": "Collect void fragment (x1)."
+          "description": "Collect void fragment (x1). [Item: Void Fragment]"
         }
       ],
       "rewards": {
@@ -2217,7 +2217,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "Ancient void rituals have been detected in the chasm depths. The energy signatures match the Abyss Harbinger myth. Investigate with extreme caution.",
+      "description": "Ancient void rituals have been detected in the chasm depths. (Location: Void Echo Chasm, Scholar Elara) The energy signatures match the Abyss Harbinger myth. Investigate with extreme caution.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -2225,7 +2225,7 @@
       },
       "requirements": {
         "min_level": 42,
-        "reputation_required": 2460,
+        "reputation_required": 130,
         "required_quests": [
           "fq_arc_042"
         ]
@@ -2235,13 +2235,13 @@
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 6,
-          "description": "Interrupt the forbidden void rituals."
+          "description": "Interrupt the forbidden void rituals. [Aethel Void Channeler]"
         },
         {
           "type": "collect",
           "target": "void_channeler_core",
           "count": 3,
-          "description": "Collect void channeler core (x3)."
+          "description": "Collect void channeler core (x3). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -2268,7 +2268,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "Abyssal Reavers contain concentrated void essence — the most potent alchemical ingredient known. Harvest them for the Arcanum's grand experiment.",
+      "description": "Abyssal Reavers contain concentrated void essence — the most potent alchemical ingredient known. (Location: Void Echo Chasm, Researcher Vin) Harvest them for the Arcanum's grand experiment.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -2286,13 +2286,13 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Harvest Abyssal Reavers for void essence."
+          "description": "Harvest Abyssal Reavers for void essence. [Aethel Abyssal Reaver]"
         },
         {
           "type": "collect",
           "target": "void_channeler_core",
           "count": 3,
-          "description": "Collect void channeler core (x3)."
+          "description": "Collect void channeler core (x3). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -2319,7 +2319,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "Aethel Corrupted Behemoths in the chasm show signs of controlled mutation. The Arcanum hypothesizes they were someone's experiment. Collect tissue for comparative analysis.",
+      "description": "Aethel Corrupted Behemoths in the chasm show signs of controlled mutation. (Location: Void Echo Chasm, Researcher Vin) The Arcanum hypothesizes they were someone's experiment. Collect tissue for comparative analysis.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -2337,13 +2337,13 @@
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
-          "description": "Defeat Corrupted Behemoths for tissue samples."
+          "description": "Defeat Corrupted Behemoths for tissue samples. [Aethel Corrupted Behemoth]"
         },
         {
           "type": "collect",
           "target": "raw_aethel_fragment",
           "count": 1,
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -2370,7 +2370,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "Soul Fragmenters tear apart the boundary between consciousness and void. The Arcanum believes studying them could unlock the secrets of consciousness itself.",
+      "description": "Soul Fragmenters tear apart the boundary between consciousness and void. (Location: Void Echo Chasm, Scholar Elara) The Arcanum believes studying them could unlock the secrets of consciousness itself.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -2378,7 +2378,7 @@
       },
       "requirements": {
         "min_level": 45,
-        "reputation_required": 2640,
+        "reputation_required": 180,
         "required_quests": [
           "fq_arc_045"
         ]
@@ -2394,7 +2394,7 @@
           "type": "collect",
           "target": "monster_material",
           "count": 1,
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -2421,7 +2421,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "Chrono Wraiths warp time around them. If the Arcanum can understand their temporal mechanics, the implications for knowledge preservation are infinite.",
+      "description": "Chrono Wraiths warp time around them. (Location: Void Echo Chasm, Scholar Elara) If the Arcanum can understand their temporal mechanics, the implications for knowledge preservation are infinite.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -2445,7 +2445,7 @@
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2472,7 +2472,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "Gigantic Jotunns are biological impossibilities. Their existence defies known science. The Arcanum must study one up close.",
+      "description": "Gigantic Jotunns are biological impossibilities. (Location: Void Echo Chasm, Researcher Vin) Their existence defies known science. The Arcanum must study one up close.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -2496,7 +2496,7 @@
           "type": "collect",
           "target": "monster_material",
           "count": 1,
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -2523,7 +2523,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "SHATTERED_HEART",
-      "description": "The Shattered Heart is the ultimate repository of Precursor knowledge. The Arcanum has waited centuries for this moment. Enter and claim what is ours.",
+      "description": "The Shattered Heart is the ultimate repository of Precursor knowledge. The Arcanum has waited centuries for this moment. Enter and claim what is ours. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -2547,7 +2547,7 @@
           "type": "collect",
           "target": "abyss_fragment",
           "count": 2,
-          "description": "Collect abyss fragment (x2)."
+          "description": "Collect abyss fragment (x2). [Item: Abyss Fragment]"
         }
       ],
       "rewards": {
@@ -2574,7 +2574,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "SHATTERED_HEART",
-      "description": "The Ashen Drake's heart contains the secret of eternal fire — the ultimate alchemical catalyst. The Arcanum demands it. Raid Tier-1: claim the Drake's heart for the grand experiment.",
+      "description": "The Ashen Drake's heart contains the secret of eternal fire — the ultimate alchemical catalyst. (Location: Shattered Heart, Scholar Elara) The Arcanum demands it. Raid Tier-1: claim the Drake's heart for the grand experiment.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -2604,7 +2604,7 @@
           "type": "collect",
           "target": "ancient_scale",
           "count": 1,
-          "description": "Collect ancient scale (x1)."
+          "description": "Collect ancient scale (x1). [Item: Ancient Scale]"
         }
       ],
       "rewards": {
@@ -2639,7 +2639,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "Soul Fragmenters are multiplying across the chasm. Each one tears a hole in the fabric of consciousness. The Arcanum must contain them to prevent a reality cascade.",
+      "description": "Soul Fragmenters are multiplying across the chasm. (Location: Void Echo Chasm, Scholar Elara) Each one tears a hole in the fabric of consciousness. The Arcanum must contain them to prevent a reality cascade.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -2663,7 +2663,7 @@
           "type": "collect",
           "target": "core_fragment",
           "count": 3,
-          "description": "Collect core fragment (x3)."
+          "description": "Collect core fragment (x3). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2690,7 +2690,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Arcanum initiates Operation Void Dominance. All void signatures must be catalogued, contained, or eliminated. Knowledge of the void must be total.",
+      "description": "The Arcanum initiates Operation Void Dominance. (Location: Void Echo Chasm, Scholar Elara) All void signatures must be catalogued, contained, or eliminated. Knowledge of the void must be total.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -2714,7 +2714,7 @@
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 5,
-          "description": "Silence all remaining Void Channelers."
+          "description": "Silence all remaining Void Channelers. [Aethel Void Channeler]"
         }
       ],
       "rewards": {
@@ -2741,7 +2741,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "A Void Stalker has been hunting Arcanum researchers. It seems to be drawn to those who carry Precursor knowledge. Turn the hunt around.",
+      "description": "A Void Stalker has been hunting Arcanum researchers. (Location: Void Echo Chasm, Scholar Elara) It seems to be drawn to those who carry Precursor knowledge. Turn the hunt around.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -2765,7 +2765,7 @@
           "type": "collect",
           "target": "monster_material",
           "count": 1,
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -2792,7 +2792,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "Chrono Wraiths are creating temporal loops within the chasm. Each loop traps a piece of Precursor knowledge in an endless cycle. Break the loops.",
+      "description": "Chrono Wraiths are creating temporal loops within the chasm. (Location: Void Echo Chasm, Researcher Vin) Each loop traps a piece of Precursor knowledge in an endless cycle. Break the loops.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -2816,7 +2816,7 @@
           "type": "collect",
           "target": "core_fragment",
           "count": 2,
-          "description": "Collect core fragment (x2)."
+          "description": "Collect core fragment (x2). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2843,7 +2843,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "SHATTERED_HEART",
-      "description": "Abyssal Reavers flood from the Shattered Heart. Each one carries traces of Precursor data. The Arcanum must collect them all.",
+      "description": "Abyssal Reavers flood from the Shattered Heart. Each one carries traces of Precursor data. The Arcanum must collect them all. Quest giver: Archivist Sylas at Observatory Spire Archive.",
       "quest_giver": {
         "npc_id": "npc_arcanum_archivist",
         "name": "Archivist Sylas",
@@ -2861,13 +2861,13 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 10,
-          "description": "Defeat Abyssal Reavers and extract data traces."
+          "description": "Defeat Abyssal Reavers and extract data traces. [Aethel Abyssal Reaver]"
         },
         {
           "type": "collect",
           "target": "raw_aethel_fragment",
           "count": 1,
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -2894,7 +2894,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "SHATTERED_HEART",
-      "description": "Gigantic Jotunns in the Shattered Heart are not random — they guard something. The Arcanum believes a Precursor archive lies beneath their territory.",
+      "description": "Gigantic Jotunns in the Shattered Heart are not random — they guard something. The Arcanum believes a Precursor archive lies beneath their territory. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -2912,13 +2912,13 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
-          "description": "Defeat Jotunn archive guardians."
+          "description": "Defeat Jotunn archive guardians. [Gigantic Jotunn]"
         },
         {
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2945,7 +2945,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "SHATTERED_HEART",
-      "description": "Crystal Tyrants have claimed the Precursor archive as their territory. Their crystalline bodies have absorbed millennia of stored knowledge.",
+      "description": "Crystal Tyrants have claimed the Precursor archive as their territory. (Location: Shattered Heart, Scholar Elara) Their crystalline bodies have absorbed millennia of stored knowledge.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -2969,7 +2969,7 @@
           "type": "collect",
           "target": "monster_material",
           "count": 1,
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -2996,7 +2996,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Abyss Harbinger is not just a monster — it is a living formula. An equation of pure void given form. The Arcanum must record it before destroying it.",
+      "description": "The Abyss Harbinger is not just a monster — it is a living formula. (Location: Void Echo Chasm, Scholar Elara) An equation of pure void given form. The Arcanum must record it before destroying it.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -3004,7 +3004,7 @@
       },
       "requirements": {
         "min_level": 57,
-        "reputation_required": 3360,
+        "reputation_required": 230,
         "required_quests": [
           "fq_arc_057"
         ]
@@ -3014,7 +3014,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 6,
-          "description": "Cut through the Harbinger's vanguard."
+          "description": "Cut through the Harbinger's vanguard. [Aethel Abyssal Reaver]"
         },
         {
           "type": "kill",
@@ -3026,7 +3026,7 @@
           "type": "collect",
           "target": "raw_aethel_fragment",
           "count": 1,
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -3053,7 +3053,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "Soul Fragmenters are harvesting the souls of fallen researchers. The Arcanum cannot allow the accumulated knowledge of its members to be consumed.",
+      "description": "Soul Fragmenters are harvesting the souls of fallen researchers. (Location: Void Echo Chasm, Scholar Elara) The Arcanum cannot allow the accumulated knowledge of its members to be consumed.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -3104,7 +3104,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "THE ULTIMATE KNOWLEDGE TRIAL. The Abyss Harbinger is a dimensional library — a living archive of forbidden knowledge. Defeat the Raid Boss Tier-2 entity and claim every secret it holds. Knowledge is Power. Secrets are Sovereignty.",
+      "description": "THE ULTIMATE KNOWLEDGE TRIAL. (Location: Void Echo Chasm, Scholar Elara) The Abyss Harbinger is a dimensional library — a living archive of forbidden knowledge. Defeat the Raid Boss Tier-2 entity and claim every secret it holds. Knowledge is Power. Secrets are Sovereignty.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -3122,13 +3122,13 @@
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "description": "DEFEAT THE ABYSS HARBINGER."
+          "description": "DEFEAT THE ABYSS HARBINGER. [Abyss Harbinger]"
         },
         {
           "type": "collect",
           "target": "abyss_fragment",
           "count": 1,
-          "description": "Collect abyss fragment (x1)."
+          "description": "Collect abyss fragment (x1). [Item: Abyss Fragment]"
         }
       ],
       "rewards": {
@@ -3163,7 +3163,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "The Harbinger's defeat has triggered unprecedented seismic activity. The Arcanum sees opportunity: tectonic data may reveal the planet's deepest secrets.",
+      "description": "The Harbinger's defeat has triggered unprecedented seismic activity. (Location: Severance Faultline, Researcher Vin) The Arcanum sees opportunity: tectonic data may reveal the planet's deepest secrets.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -3187,7 +3187,7 @@
           "type": "collect",
           "target": "monster_material",
           "count": 3,
-          "description": "Collect monster material (x3)."
+          "description": "Collect monster material (x3). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -3214,7 +3214,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Aethel Iron Carapaces are drawn to the fault's energy. Their shells contain compressed geological data spanning millions of years.",
+      "description": "Aethel Iron Carapaces are drawn to the fault's energy. (Location: Severance Faultline, Researcher Vin) Their shells contain compressed geological data spanning millions of years.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -3232,13 +3232,13 @@
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
-          "description": "Defeat Iron Carapaces for geological data."
+          "description": "Defeat Iron Carapaces for geological data. [Aethel Iron Carapace]"
         },
         {
           "type": "collect",
           "target": "crystal_core",
           "count": 3,
-          "description": "Collect crystal core (x3)."
+          "description": "Collect crystal core (x3). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -3265,7 +3265,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Crystal Tyrants at the fault emit resonant frequencies that amplify seismic waves. The Arcanum hypothesizes they can be used as planetary-scale transmitters.",
+      "description": "Crystal Tyrants at the fault emit resonant frequencies that amplify seismic waves. (Location: Severance Faultline, Scholar Elara) The Arcanum hypothesizes they can be used as planetary-scale transmitters.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -3289,7 +3289,7 @@
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -3316,7 +3316,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Gigantic Jotunns are migrating through the faultline. Their movement patterns correlate with Precursor navigation charts discovered in the Harbinger's archives.",
+      "description": "Gigantic Jotunns are migrating through the faultline. (Location: Severance Faultline, Scholar Elara) Their movement patterns correlate with Precursor navigation charts discovered in the Harbinger's archives.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -3334,13 +3334,13 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
-          "description": "Defeat migrating Jotunns."
+          "description": "Defeat migrating Jotunns. [Gigantic Jotunn]"
         },
         {
           "type": "collect",
           "target": "monster_material",
           "count": 1,
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -3367,7 +3367,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The Aethel Siphon Core is the ultimate Precursor laboratory. The Arcanum has theorized its existence for centuries. Now it is discovered — claim it for science.",
+      "description": "The Aethel Siphon Core is the ultimate Precursor laboratory. The Arcanum has theorized its existence for centuries. Now it is discovered — claim it for science. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -3391,7 +3391,7 @@
           "type": "collect",
           "target": "monster_material",
           "count": 2,
-          "description": "Collect monster material (x2)."
+          "description": "Collect monster material (x2). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -3418,7 +3418,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Abyssal Reavers in the Core have been mutated by concentrated Aethel. These mutations are scientifically invaluable.",
+      "description": "Abyssal Reavers in the Core have been mutated by concentrated Aethel. (Location: Aethel Siphon Core, Researcher Vin) These mutations are scientifically invaluable.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -3436,13 +3436,13 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 8,
-          "description": "Collect mutated Reaver specimens."
+          "description": "Collect mutated Reaver specimens. [Aethel Abyssal Reaver]"
         },
         {
           "type": "collect",
           "target": "abyssal_reaver_claw",
           "count": 1,
-          "description": "Collect abyssal reaver claw (x1)."
+          "description": "Collect abyssal reaver claw (x1). [Item: Abyssal Reaver Claw]"
         }
       ],
       "rewards": {
@@ -3469,7 +3469,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Corrupted Behemoths assault the Core's primary conduits. If the Core falls, the greatest Precursor laboratory is lost forever.",
+      "description": "Corrupted Behemoths assault the Core's primary conduits. (Location: Aethel Siphon Core, Scholar Elara) If the Core falls, the greatest Precursor laboratory is lost forever.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -3487,13 +3487,13 @@
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
-          "description": "Defeat Corrupted Behemoths at the conduits."
+          "description": "Defeat Corrupted Behemoths at the conduits. [Aethel Corrupted Behemoth]"
         },
         {
           "type": "collect",
           "target": "raw_aethel_fragment",
           "count": 1,
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -3520,7 +3520,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Aethel Rift Stalkers create micro-rifts that offer glimpses into alternate dimensions. The Arcanum must study these windows into other realities.",
+      "description": "Aethel Rift Stalkers create micro-rifts that offer glimpses into alternate dimensions. (Location: Aethel Siphon Core, Researcher Vin) The Arcanum must study these windows into other realities.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -3538,13 +3538,13 @@
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 6,
-          "description": "Defeat Rift Stalkers near active micro-rifts."
+          "description": "Defeat Rift Stalkers near active micro-rifts. [Aethel Rift Stalker]"
         },
         {
           "type": "collect",
           "target": "raw_aethel_fragment",
           "count": 1,
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -3571,7 +3571,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The Gravity Titan's existence is a mathematical anomaly. The Arcanum believes understanding its formula could revolutionize gravitational science.",
+      "description": "The Gravity Titan's existence is a mathematical anomaly. (Location: Aethel Siphon Core, Scholar Elara) The Arcanum believes understanding its formula could revolutionize gravitational science.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -3579,7 +3579,7 @@
       },
       "requirements": {
         "min_level": 68,
-        "reputation_required": 4020,
+        "reputation_required": 280,
         "required_quests": [
           "fq_arc_068"
         ]
@@ -3589,13 +3589,13 @@
           "type": "collect",
           "target": "core_fragment",
           "count": 3,
-          "description": "Collect core fragment (x3)."
+          "description": "Collect core fragment (x3). [Item: Core Fragment]"
         },
         {
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 1,
-          "description": "Defeat a Jotunn drawn by Titan resonance."
+          "description": "Defeat a Jotunn drawn by Titan resonance. [Gigantic Jotunn]"
         }
       ],
       "rewards": {
@@ -3622,7 +3622,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRADLE_EXPANSE",
-      "description": "THE GRAVITATIONAL TRIAL. The Gravity Titan has risen. Its core is the most valuable scientific specimen in Xylos history. The Arcanum demands you retrieve it — intact. Defeat the Raid Boss Tier-3 entity and claim the Titan's gravitational heart for the eternal archives.",
+      "description": "THE GRAVITATIONAL TRIAL. (Location: Cradle Expanse, Scholar Elara) The Gravity Titan has risen. Its core is the most valuable scientific specimen in Xylos history. The Arcanum demands you retrieve it — intact. Defeat the Raid Boss Tier-3 entity and claim the Titan's gravitational heart for the eternal archives.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -3640,19 +3640,19 @@
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "description": "DEFEAT THE GRAVITY TITAN."
+          "description": "DEFEAT THE GRAVITY TITAN. [Gravity Titan]"
         },
         {
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Clear the Titan's Abyssal escorts."
+          "description": "Clear the Titan's Abyssal escorts. [Aethel Abyssal Reaver]"
         },
         {
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -3687,7 +3687,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The Prima Materia Forge — the Precursor facility where reality itself can be shaped. The Arcanum's ultimate ambition: master the Forge and create legendary weapons.",
+      "description": "The Prima Materia Forge — the Precursor facility where reality itself can be shaped. The Arcanum's ultimate ambition: master the Forge and create legendary weapons. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -3711,7 +3711,7 @@
           "type": "collect",
           "target": "monster_material",
           "count": 2,
-          "description": "Collect monster material (x2)."
+          "description": "Collect monster material (x2). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -3738,7 +3738,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Ancient Forge Automatons still defend the facility. Disable them and reverse-engineer their construction — the Arcanum could replicate this technology.",
+      "description": "Ancient Forge Automatons still defend the facility. (Location: Prima Materia Forge, Researcher Vin) Disable them and reverse-engineer their construction — the Arcanum could replicate this technology.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -3756,13 +3756,13 @@
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
-          "description": "Disable Forge defense automatons."
+          "description": "Disable Forge defense automatons. [Aethel Iron Carapace]"
         },
         {
           "type": "collect",
           "target": "crystal_core",
           "count": 2,
-          "description": "Collect crystal core (x2)."
+          "description": "Collect crystal core (x2). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -3789,7 +3789,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Corrupted Behemoths contaminate the Forge's raw materials. The purity of Prima Materia must be absolute for legendary crafting.",
+      "description": "Corrupted Behemoths contaminate the Forge's raw materials. (Location: Prima Materia Forge, Scholar Elara) The purity of Prima Materia must be absolute for legendary crafting.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -3807,13 +3807,13 @@
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
-          "description": "Purge Corrupted Behemoths from the Forge."
+          "description": "Purge Corrupted Behemoths from the Forge. [Aethel Corrupted Behemoth]"
         },
         {
           "type": "collect",
           "target": "raw_aethel_fragment",
           "count": 3,
-          "description": "Collect raw aethel fragment (x3)."
+          "description": "Collect raw aethel fragment (x3). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -3840,7 +3840,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Void Channelers seek to corrupt the Forge. Void-tainted Prima Materia would be catastrophic. Stop them at all costs.",
+      "description": "Void Channelers seek to corrupt the Forge. (Location: Prima Materia Forge, Scholar Elara) Void-tainted Prima Materia would be catastrophic. Stop them at all costs.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -3858,13 +3858,13 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 8,
-          "description": "Exterminate Abyssal Reavers."
+          "description": "Exterminate Abyssal Reavers. [Aethel Abyssal Reaver]"
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 5,
-          "description": "Silence Void Channelers at the Forge core."
+          "description": "Silence Void Channelers at the Forge core. [Aethel Void Channeler]"
         }
       ],
       "rewards": {
@@ -3891,7 +3891,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Gigantic Jotunns have learned to use the Forge's heat as a weapon. Their mastery of the Forge's fire is concerning — and fascinating.",
+      "description": "Gigantic Jotunns have learned to use the Forge's heat as a weapon. (Location: Prima Materia Forge, Researcher Vin) Their mastery of the Forge's fire is concerning — and fascinating.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -3909,13 +3909,13 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
-          "description": "Defeat Jotunn Forge-Masters."
+          "description": "Defeat Jotunn Forge-Masters. [Gigantic Jotunn]"
         },
         {
           "type": "collect",
           "target": "monster_material",
           "count": 1,
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -3942,7 +3942,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The Arcanum initiates Operation Materia Synthesis. The goal: produce the first Arcanum-crafted legendary weapon using Prima Materia.",
+      "description": "The Arcanum initiates Operation Materia Synthesis. (Location: Prima Materia Forge, Scholar Elara) The goal: produce the first Arcanum-crafted legendary weapon using Prima Materia.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -3960,13 +3960,13 @@
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 6,
-          "description": "Clear the Forge of hostile forces."
+          "description": "Clear the Forge of hostile forces. [Aethel Void Channeler]"
         },
         {
           "type": "collect",
           "target": "void_channeler_core",
           "count": 3,
-          "description": "Collect void channeler core (x3)."
+          "description": "Collect void channeler core (x3). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -3993,7 +3993,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Titan Forge Automatons are the apex of Precursor engineering. The Arcanum must learn to control them rather than simply destroy them.",
+      "description": "Titan Forge Automatons are the apex of Precursor engineering. (Location: Prima Materia Forge, Researcher Vin) The Arcanum must learn to control them rather than simply destroy them.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -4017,7 +4017,7 @@
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -4044,7 +4044,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "A Titan Proto Core contains a failed Titan — the ultimate experimental subject. The Arcanum must dissect it to understand Titan biology.",
+      "description": "A Titan Proto Core contains a failed Titan — the ultimate experimental subject. (Location: Prima Materia Forge, Researcher Vin) The Arcanum must dissect it to understand Titan biology.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -4068,7 +4068,7 @@
           "type": "collect",
           "target": "titan_core",
           "count": 1,
-          "description": "Collect titan core (x1)."
+          "description": "Collect titan core (x1). [Item: Titan Core]"
         }
       ],
       "rewards": {
@@ -4095,7 +4095,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The Forge is mastered. The legendary weapon is forged. But the final test remains: prove the weapon's worth against the two greatest threats to Xylos.",
+      "description": "The Forge is mastered. (Location: Prima Materia Forge, Scholar Elara) The legendary weapon is forged. But the final test remains: prove the weapon's worth against the two greatest threats to Xylos.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -4103,7 +4103,7 @@
       },
       "requirements": {
         "min_level": 78,
-        "reputation_required": 4620,
+        "reputation_required": 330,
         "required_quests": [
           "fq_arc_078"
         ]
@@ -4154,7 +4154,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "OBSERVATORY_SPIRE",
-      "description": "You have defeated both Titan and Harbinger in a single campaign. The Arcanum Seekers recognize you as a Legendary Seeker. Return to the Observatory Spire.",
+      "description": "You have defeated both Titan and Harbinger in a single campaign. The Arcanum Seekers recognize you as a Legendary Seeker. Return to the Observatory Spire. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -4162,7 +4162,7 @@
       },
       "requirements": {
         "min_level": 79,
-        "reputation_required": 4680,
+        "reputation_required": 380,
         "required_quests": [
           "fq_arc_079"
         ]
@@ -4178,7 +4178,7 @@
           "type": "collect",
           "target": "desert_chitin",
           "count": 1,
-          "description": "Collect desert chitin (x1)."
+          "description": "Collect desert chitin (x1). [Item: Desert Chitin]"
         }
       ],
       "rewards": {
@@ -4209,7 +4209,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "HIDDEN_AETHELGARDIAN_CITY",
-      "description": "The Hidden Aethelgardian City — a mythical Precursor metropolis. The Arcanum has triangulated its location using data from the Titan and Harbinger. Enter and claim its knowledge.",
+      "description": "The Hidden Aethelgardian City — a mythical Precursor metropolis. The Arcanum has triangulated its location using data from the Titan and Harbinger. Enter and claim its knowledge. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -4217,7 +4217,7 @@
       },
       "requirements": {
         "min_level": 80,
-        "reputation_required": 4740,
+        "reputation_required": 430,
         "required_quests": [
           "fq_arc_080"
         ]
@@ -4233,7 +4233,7 @@
           "type": "collect",
           "target": "desert_chitin",
           "count": 3,
-          "description": "Collect desert chitin (x3)."
+          "description": "Collect desert chitin (x3). [Item: Desert Chitin]"
         }
       ],
       "rewards": {
@@ -4260,7 +4260,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "HIDDEN_AETHELGARDIAN_CITY",
-      "description": "The city's automated defenses still function. They do not distinguish between friend and foe — only threats to Precursor knowledge.",
+      "description": "The city's automated defenses still function. (Location: Hidden Aethelgardian City, Researcher Vin) They do not distinguish between friend and foe — only threats to Precursor knowledge.",
       "quest_giver": {
         "npc_id": "npc_researcher_vin",
         "name": "Researcher Vin",
@@ -4278,13 +4278,13 @@
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 8,
-          "description": "Disable city defense constructs."
+          "description": "Disable city defense constructs. [Aethel Rift Stalker]"
         },
         {
           "type": "collect",
           "target": "raw_aethel_fragment",
           "count": 1,
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -4311,7 +4311,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "HIDDEN_AETHELGARDIAN_CITY",
-      "description": "The city contains the Eternal Library — a Precursor repository of all knowledge. Download its contents for the Arcanum's grand archive.",
+      "description": "The city contains the Eternal Library — a Precursor repository of all knowledge. (Location: Hidden Aethelgardian City, Archivist Sylas) Download its contents for the Arcanum's grand archive.",
       "quest_giver": {
         "npc_id": "npc_arcanum_archivist",
         "name": "Archivist Sylas",
@@ -4329,13 +4329,13 @@
           "type": "collect",
           "target": "abyssal_reaver_claw",
           "count": 5,
-          "description": "Collect abyssal reaver claw (x5)."
+          "description": "Collect abyssal reaver claw (x5). [Item: Abyssal Reaver Claw]"
         },
         {
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 4,
-          "description": "Defeat Reavers drawn to the knowledge energy."
+          "description": "Defeat Reavers drawn to the knowledge energy. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4362,7 +4362,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "SHATTERED_HEART",
-      "description": "The Ashen Drake has evolved to its Apex form — a living repository of draconic knowledge. The Arcanum must study this ultimate form.",
+      "description": "The Ashen Drake has evolved to its Apex form — a living repository of draconic knowledge. (Location: Shattered Heart, Scholar Elara) The Arcanum must study this ultimate form.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -4386,7 +4386,7 @@
           "type": "collect",
           "target": "ancient_scale",
           "count": 1,
-          "description": "Collect ancient scale (x1)."
+          "description": "Collect ancient scale (x1). [Item: Ancient Scale]"
         }
       ],
       "rewards": {
@@ -4417,7 +4417,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Abyss Harbinger's rebirth brings new void-knowledge. The Arcanum must record its new form before destroying it forever.",
+      "description": "The Abyss Harbinger's rebirth brings new void-knowledge. (Location: Void Echo Chasm, Scholar Elara) The Arcanum must record its new form before destroying it forever.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -4441,7 +4441,7 @@
           "type": "collect",
           "target": "void_core",
           "count": 1,
-          "description": "Collect void core (x1)."
+          "description": "Collect void core (x1). [Item: Void Core]"
         }
       ],
       "rewards": {
@@ -4472,7 +4472,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRADLE_EXPANSE",
-      "description": "The Gravity Titan's third manifestation is its most powerful. Its gravitational signature contains data from the planet's formation. The Arcanum must have it.",
+      "description": "The Gravity Titan's third manifestation is its most powerful. (Location: Cradle Expanse, Scholar Elara) Its gravitational signature contains data from the planet's formation. The Arcanum must have it.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -4496,7 +4496,7 @@
           "type": "collect",
           "target": "monster_material",
           "count": 1,
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -4527,7 +4527,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The three Apex entities — Drake, Titan, Harbinger — represent three branches of forbidden knowledge. The Arcanum authorizes their simultaneous study.",
+      "description": "The three Apex entities — Drake, Titan, Harbinger — represent three branches of forbidden knowledge. (Location: Prima Materia Forge, Scholar Elara) The Arcanum authorizes their simultaneous study.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -4545,19 +4545,19 @@
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "description": "Study the Drake manifestation."
+          "description": "Study the Drake manifestation. [Ashen Drake]"
         },
         {
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "description": "Study the Titan manifestation."
+          "description": "Study the Titan manifestation. [Gravity Titan]"
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "description": "Study the Harbinger manifestation."
+          "description": "Study the Harbinger manifestation. [Abyss Harbinger]"
         }
       ],
       "rewards": {
@@ -4592,7 +4592,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The Aethel Siphon Core is now the Arcanum's primary research facility. Establish total control and begin the planetary energy calibration.",
+      "description": "The Aethel Siphon Core is now the Arcanum's primary research facility. Establish total control and begin the planetary energy calibration. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -4610,13 +4610,13 @@
           "type": "travel",
           "target": "AETHEL_SIPHON_CORE",
           "count": 1,
-          "description": "Return to the Siphon Core as Overlord."
+          "description": "Return to the Siphon Core as Overlord. (Travel to: Aethel Siphon Core, Shattered Heart)"
         },
         {
           "type": "collect",
           "target": "raw_aethel_fragment",
           "count": 5,
-          "description": "Collect raw aethel fragment (x5)."
+          "description": "Collect raw aethel fragment (x5). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -4643,7 +4643,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Beneath the Siphon Core lies the World Engine — the device that can reshape planetary reality. The Arcanum's greatest discovery. Secure it absolutely.",
+      "description": "Beneath the Siphon Core lies the World Engine — the device that can reshape planetary reality. (Location: Aethel Siphon Core, Scholar Elara) The Arcanum's greatest discovery. Secure it absolutely.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -4651,7 +4651,7 @@
       },
       "requirements": {
         "min_level": 88,
-        "reputation_required": 5220,
+        "reputation_required": 480,
         "required_quests": [
           "fq_arc_088"
         ]
@@ -4661,13 +4661,13 @@
           "type": "collect",
           "target": "monster_material",
           "count": 3,
-          "description": "Collect monster material (x3)."
+          "description": "Collect monster material (x3). [Item: Monster Material]"
         },
         {
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 2,
-          "description": "Defeat Jotunns guarding the Engine."
+          "description": "Defeat Jotunns guarding the Engine. [Gigantic Jotunn]"
         }
       ],
       "rewards": {
@@ -4694,7 +4694,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The World Engine can be calibrated to broadcast knowledge across the planet. The Arcanum's ultimate dream: a world where all knowledge is shared. Protect the calibration.",
+      "description": "The World Engine can be calibrated to broadcast knowledge across the planet. (Location: Aethel Siphon Core, Scholar Elara) The Arcanum's ultimate dream: a world where all knowledge is shared. Protect the calibration.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -4702,7 +4702,7 @@
       },
       "requirements": {
         "min_level": 89,
-        "reputation_required": 5280,
+        "reputation_required": 530,
         "required_quests": [
           "fq_arc_089"
         ]
@@ -4712,19 +4712,19 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 10,
-          "description": "Defend the World Engine from Abyssal assault."
+          "description": "Defend the World Engine from Abyssal assault. [Aethel Abyssal Reaver]"
         },
         {
           "type": "kill",
           "target": "CRYSTAL_TYRANT",
           "count": 2,
-          "description": "Defeat Tyrants disrupting the calibration."
+          "description": "Defeat Tyrants disrupting the calibration. [Crystal Tyrant]"
         },
         {
           "type": "collect",
           "target": "abyssal_reaver_claw",
           "count": 1,
-          "description": "Collect abyssal reaver claw (x1)."
+          "description": "Collect abyssal reaver claw (x1). [Item: Abyssal Reaver Claw]"
         }
       ],
       "rewards": {
@@ -4751,7 +4751,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Residual hostile entities are being flushed by the World Engine. Begin the systematic purge at the Severance Faultline.",
+      "description": "Residual hostile entities are being flushed by the World Engine. Begin the systematic purge at the Severance Faultline. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -4769,13 +4769,13 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 5,
-          "description": "Purge Jotunns from the faultline."
+          "description": "Purge Jotunns from the faultline. [Gigantic Jotunn]"
         },
         {
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
-          "description": "Eliminate Carapace swarms."
+          "description": "Eliminate Carapace swarms. [Aethel Iron Carapace]"
         }
       ],
       "rewards": {
@@ -4802,7 +4802,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Void is collapsing. The Arcanum must collect the final void data before it disappears forever. Every echo is precious.",
+      "description": "The Void is collapsing. (Location: Void Echo Chasm, Scholar Elara) The Arcanum must collect the final void data before it disappears forever. Every echo is precious.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -4820,13 +4820,13 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 10,
-          "description": "Exterminate the final Abyssal Reavers."
+          "description": "Exterminate the final Abyssal Reavers. [Aethel Abyssal Reaver]"
         },
         {
           "type": "collect",
           "target": "void_channeler_core",
           "count": 1,
-          "description": "Collect void channeler core (x1)."
+          "description": "Collect void channeler core (x1). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -4853,7 +4853,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "SHATTERED_HEART",
-      "description": "Crystal Tyrants in the Shattered Heart have absorbed the last remaining Precursor archives. Extract the knowledge from their crystalline bodies.",
+      "description": "Crystal Tyrants in the Shattered Heart have absorbed the last remaining Precursor archives. Extract the knowledge from their crystalline bodies. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -4877,7 +4877,7 @@
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -4904,7 +4904,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The Forge will be the Arcanum's eternal workshop. Purify the last remaining contamination and seal the facility.",
+      "description": "The Forge will be the Arcanum's eternal workshop. (Location: Prima Materia Forge, Scholar Elara) Purify the last remaining contamination and seal the facility.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -4922,13 +4922,13 @@
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 8,
-          "description": "Silence the last Void Channelers."
+          "description": "Silence the last Void Channelers. [Aethel Void Channeler]"
         },
         {
           "type": "kill",
           "target": "TITAN_FORGE_AUTOMATON",
           "count": 3,
-          "description": "Disable rogue Forge Automatons."
+          "description": "Disable rogue Forge Automatons. [Titan Forge Automaton]"
         }
       ],
       "rewards": {
@@ -4955,7 +4955,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "CRADLE_EXPANSE",
-      "description": "The Cradle Expanse is now Arcanum research territory. Enforce our intellectual sovereignty with overwhelming arcane power.",
+      "description": "The Cradle Expanse is now Arcanum research territory. Enforce our intellectual sovereignty with overwhelming arcane power. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -4973,13 +4973,13 @@
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 10,
-          "description": "Clear all hostiles from the Expanse."
+          "description": "Clear all hostiles from the Expanse. [Aethel Rift Stalker]"
         },
         {
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "description": "Destroy any residual Titan manifestations."
+          "description": "Destroy any residual Titan manifestations. [Gravity Titan]"
         }
       ],
       "rewards": {
@@ -5006,7 +5006,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "ORBITAL_SENTINEL_COMMAND",
-      "description": "From orbit, the Arcanum watches over Xylos — the planet that is now our greatest library. Maintain eternal vigilance over our domain of knowledge.",
+      "description": "From orbit, the Arcanum watches over Xylos — the planet that is now our greatest library. (Location: Orbital Sentinel Command, Scholar Elara) Maintain eternal vigilance over our domain of knowledge.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -5024,13 +5024,13 @@
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 10,
-          "description": "Patrol and secure orbital sectors."
+          "description": "Patrol and secure orbital sectors. [Aethel Iron Carapace]"
         },
         {
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
-          "description": "Eliminate any remaining Corrupted Behemoths."
+          "description": "Eliminate any remaining Corrupted Behemoths. [Aethel Corrupted Behemoth]"
         }
       ],
       "rewards": {
@@ -5057,7 +5057,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The collected knowledge from all sources forms the Final Formula — the unified theory of Xylos. Channel all accumulated Arcanum knowledge into its completion.",
+      "description": "The collected knowledge from all sources forms the Final Formula — the unified theory of Xylos. (Location: Prima Materia Forge, Scholar Elara) Channel all accumulated Arcanum knowledge into its completion.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -5065,7 +5065,7 @@
       },
       "requirements": {
         "min_level": 96,
-        "reputation_required": 5700,
+        "reputation_required": 580,
         "required_quests": [
           "fq_arc_096"
         ]
@@ -5075,19 +5075,19 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
-          "description": "Defeat Jotunns resisting the Final Formula."
+          "description": "Defeat Jotunns resisting the Final Formula. [Gigantic Jotunn]"
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "description": "Destroy the Harbinger's final echo."
+          "description": "Destroy the Harbinger's final echo. [Abyss Harbinger]"
         },
         {
           "type": "collect",
           "target": "monster_material",
           "count": 3,
-          "description": "Collect monster material (x3)."
+          "description": "Collect monster material (x3). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -5114,7 +5114,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Only the ultimate test remains. Face the three Apex entities — Jotunn, Drake, and Harbinger — and from their essences forge the Key of Absolute Knowledge.",
+      "description": "Only the ultimate test remains. (Location: Prima Materia Forge, Scholar Elara) Face the three Apex entities — Jotunn, Drake, and Harbinger — and from their essences forge the Key of Absolute Knowledge.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -5122,7 +5122,7 @@
       },
       "requirements": {
         "min_level": 97,
-        "reputation_required": 5760,
+        "reputation_required": 630,
         "required_quests": [
           "fq_arc_097"
         ]
@@ -5132,25 +5132,25 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 1,
-          "description": "Defeat the Apex Jotunn."
+          "description": "Defeat the Apex Jotunn. [Gigantic Jotunn]"
         },
         {
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "description": "Defeat the Apex Drake."
+          "description": "Defeat the Apex Drake. [Ashen Drake]"
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "description": "Defeat the Apex Harbinger."
+          "description": "Defeat the Apex Harbinger. [Abyss Harbinger]"
         },
         {
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -5185,7 +5185,7 @@
       "rank": "S",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "VOID_ECHO_CHASM",
-      "description": "The deepest Void Echo Chasm holds the final secret — the truth of Xylos's creation. Descend one final time and claim the ultimate knowledge.",
+      "description": "The deepest Void Echo Chasm holds the final secret — the truth of Xylos's creation. Descend one final time and claim the ultimate knowledge. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -5193,7 +5193,7 @@
       },
       "requirements": {
         "min_level": 98,
-        "reputation_required": 5820,
+        "reputation_required": 680,
         "required_quests": [
           "fq_arc_098"
         ]
@@ -5203,7 +5203,7 @@
           "type": "travel",
           "target": "VOID_ECHO_CHASM",
           "count": 1,
-          "description": "Descend to the deepest chasm level."
+          "description": "Descend to the deepest chasm level. (Travel to: Void Echo Chasm)"
         },
         {
           "type": "kill",
@@ -5221,7 +5221,7 @@
           "type": "collect",
           "target": "abyss_fragment",
           "count": 1,
-          "description": "Collect abyss fragment (x1)."
+          "description": "Collect abyss fragment (x1). [Item: Abyss Fragment]"
         }
       ],
       "rewards": {
@@ -5248,7 +5248,7 @@
       "rank": "SS",
       "faction": "THE_ARCANUM_SEEKERS",
       "region": "OBSERVATORY_SPIRE",
-      "description": "You have done the impossible. You hold the Sovereign Seal. Return to the Observatory Spire where all of the Arcanum Seekers await. You are no longer a Seeker. You are the SOVEREIGN OF SECRETS. Knowledge is Power. Secrets are Sovereignty. Now and forever.",
+      "description": "You have done the impossible. You hold the Sovereign Seal. Return to the Observatory Spire where all of the Arcanum Seekers await. You are no longer a Seeker. You are the SOVEREIGN OF SECRETS. Knowledge is Power. Secrets are Sovereignty. Now and forever. Quest giver: Scholar Elara at Observatory Spire Research Wing.",
       "quest_giver": {
         "npc_id": "npc_arcanum_scholar",
         "name": "Scholar Elara",
@@ -5256,7 +5256,7 @@
       },
       "requirements": {
         "min_level": 99,
-        "reputation_required": 5880,
+        "reputation_required": 730,
         "required_quests": [
           "fq_arc_099"
         ]
@@ -5272,7 +5272,7 @@
           "type": "interact",
           "target": "npc_arcanum_scholar",
           "count": 1,
-          "description": "Receive the highest honors from High Seeker Elara."
+          "description": "Receive the highest honors from High Seeker Elara. (Scholar Elara at Observatory Spire Research Wing)"
         }
       ],
       "rewards": {

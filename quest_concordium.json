@@ -7,7 +7,7 @@
       "rank": "D",
       "faction": "CONCORDIUM",
       "region": "AETHEL_GARDENS",
-      "description": "The Aethel Gardens were once Xylos's crown jewel — terraced bioluminescent groves fed by the Cradle's overflow. Now they fester with Forest Slimes, born from the Severance's corruption soaking into the soil. Commander Lirien Vale needs these supply routes clear before another convoy is lost to the ooze. This is your first step toward understanding what the Concordium is trying to rebuild.",
+      "description": "The Aethel Gardens were once Xylos's crown jewel — terraced bioluminescent groves fed by the Cradle's overflow. Now they fester with Forest Slimes, born from the Severance's corruption soaking into the soil. Commander Lirien Vale needs these supply routes clear before another convoy is lost to the ooze. This is your first step toward understanding what the Concordium is trying to rebuild. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "Commander Lirien Vale",
@@ -29,7 +29,7 @@
           "type": "collect",
           "target": "slime_gel",
           "count": 1,
-          "description": "Collect slime gel (x1)."
+          "description": "Collect slime gel (x1). [Item: Slime Gel]"
         }
       ],
       "rewards": {
@@ -60,7 +60,7 @@
       "rank": "D",
       "faction": "CONCORDIUM",
       "region": "AETHEL_GARDENS",
-      "description": "The Concordium's forward outpost in the Gardens is surrounded on three sides by Aethel Sproutlings — corrupted seedlings that haven't known sunlight in decades. Commander Vale is stretched thin after the Schism fractured half her garrison to the Iron Hegemony defectors. The perimeter must hold; the Gardens are the only uncontested supply corridor into Nexus Core.",
+      "description": "The Concordium's forward outpost in the Gardens is surrounded on three sides by Aethel Sproutlings — corrupted seedlings that haven't known sunlight in decades. (Location: Aethel Gardens, Officer Valen) Commander Vale is stretched thin after the Schism fractured half her garrison to the Iron Hegemony defectors. The perimeter must hold; the Gardens are the only uncontested supply corridor into Nexus Core.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "Commander Lirien Vale",
@@ -68,7 +68,7 @@
       },
       "requirements": {
         "min_level": 1,
-        "reputation_required": 0,
+        "reputation_required": 5,
         "required_quests": [
           "fq_conc_001"
         ]
@@ -78,13 +78,13 @@
           "type": "kill",
           "target": "AETHEL_GARDEN_CRITTER",
           "count": 4,
-          "description": "Defeat Garden Critters along the perimeter."
+          "description": "Defeat Garden Critters along the perimeter. [Aethel Garden Critter]"
         },
         {
           "type": "collect",
           "target": "minor_essence",
           "count": 1,
-          "description": "Collect minor essence (x1)."
+          "description": "Collect minor essence (x1). [Item: Minor Essence]"
         }
       ],
       "rewards": {
@@ -111,7 +111,7 @@
       "rank": "D",
       "faction": "CONCORDIUM",
       "region": "AETHEL_GARDENS",
-      "description": "Garden Mites feed on the bio-conductive wiring that channels aethel energy from the Gardens to Nexus Core — the same wiring the Concordium spent fifteen years laying after the Schism. If the eastern grove falls to this infestation, it won't be slimes that broke the Concordium's dream. It'll be insects. Commander Vale needs this stopped before she has to write that report.",
+      "description": "Garden Mites feed on the bio-conductive wiring that channels aethel energy from the Gardens to Nexus Core — the same wiring the Concordium spent fifteen years laying after the Schism. (Location: Aethel Gardens, Officer Valen) If the eastern grove falls to this infestation, it won't be slimes that broke the Concordium's dream. It'll be insects. Commander Vale needs this stopped before she has to write that report.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "Commander Lirien Vale",
@@ -119,7 +119,7 @@
       },
       "requirements": {
         "min_level": 2,
-        "reputation_required": 60,
+        "reputation_required": 10,
         "required_quests": [
           "fq_conc_002"
         ]
@@ -135,7 +135,7 @@
           "type": "collect",
           "target": "mite_chitin",
           "count": 3,
-          "description": "Collect mite chitin (x3)."
+          "description": "Collect mite chitin (x3). [Item: Mite Chitin]"
         }
       ],
       "rewards": {
@@ -162,7 +162,7 @@
       "rank": "D",
       "faction": "CONCORDIUM",
       "region": "AETHEL_GARDENS",
-      "description": "The aethel conduits threading through the Gardens were carved by the Concordium's founders — some say they can still hear those engineers' voices in the hum. Feral Rootlings have grown through the conduit walls, drinking raw aethel energy and warping into something that was never in any pre-Severance bestiary. Cut them out before the conduit lines fail and Nexus Core goes dark.",
+      "description": "The aethel conduits threading through the Gardens were carved by the Concordium's founders — some say they can still hear those engineers' voices in the hum. (Location: Aethel Gardens, Officer Valen) Feral Rootlings have grown through the conduit walls, drinking raw aethel energy and warping into something that was never in any pre-Severance bestiary. Cut them out before the conduit lines fail and Nexus Core goes dark.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "Commander Lirien Vale",
@@ -170,7 +170,7 @@
       },
       "requirements": {
         "min_level": 3,
-        "reputation_required": 120,
+        "reputation_required": 15,
         "required_quests": [
           "fq_conc_003"
         ]
@@ -186,7 +186,7 @@
           "type": "collect",
           "target": "living_root",
           "count": 4,
-          "description": "Collect living root (x4)."
+          "description": "Collect living root (x4). [Item: Living Root]"
         }
       ],
       "rewards": {
@@ -221,7 +221,7 @@
       },
       "requirements": {
         "min_level": 4,
-        "reputation_required": 150,
+        "reputation_required": 20,
         "required_quests": [
           "fq_conc_004"
         ]
@@ -231,7 +231,7 @@
           "type": "interact",
           "target": "npc_concordium_class_trainer",
           "count": 1,
-          "description": "Speak with Instructor Kael at Nexus Core."
+          "description": "Speak with Instructor Kael at Nexus Core. (Instructor Kael at Nexus Core Training Academy)"
         },
         {
           "type": "interact",
@@ -243,7 +243,7 @@
           "type": "kill",
           "target": "FOREST_SLIME",
           "count": 3,
-          "description": "Defeat Rabid Meadow Hares to demonstrate your training."
+          "description": "Defeat Forest Slimes to demonstrate your training."
         }
       ],
       "rewards": {
@@ -286,7 +286,7 @@
       "rank": "D",
       "faction": "CONCORDIUM",
       "region": "BROKEN_CIVIL_QUARTER",
-      "description": "The Broken Civil Quarter was once the beating heart of unified Nexus — before the Great Schism tore the Concordium into three factions and left these streets to rot. Concordium engineers have located a viable breach point to reclaim the district, but Tunnel Crawlers have nested in the main access corridor. Commander Vale's orders are direct: clear it, stake the Concordium flag, and remind Xylos that unity is still possible.",
+      "description": "The Broken Civil Quarter was once the beating heart of unified Nexus — before the Great Schism tore the Concordium into three factions and left these streets to rot. Concordium engineers have located a viable breach point to reclaim the district, but Tunnel Crawlers have nested in the main access corridor. Commander Vale's orders are direct: clear it, stake the Concordium flag, and remind Xylos that unity is still possible. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "Commander Lirien Vale",
@@ -294,7 +294,7 @@
       },
       "requirements": {
         "min_level": 5,
-        "reputation_required": 240,
+        "reputation_required": 20,
         "required_quests": [
           "fq_conc_005"
         ]
@@ -310,7 +310,7 @@
           "type": "collect",
           "target": "crawler_chitin",
           "count": 1,
-          "description": "Collect crawler chitin (x1)."
+          "description": "Collect crawler chitin (x1). [Item: Crawler Chitin]"
         }
       ],
       "rewards": {
@@ -337,7 +337,7 @@
       "rank": "D",
       "faction": "CONCORDIUM",
       "region": "BROKEN_CIVIL_QUARTER",
-      "description": "The Broken Civil Quarter caches contain medical supplies, engineering manuals, and communication arrays — resources the original Concordium buried here against the day the Schism might be reversed. Scavengers have been looting them for years, selling them to the highest bidder. Commander Vale's voice has an edge when she says it: some of those manuals were written by her mother.",
+      "description": "The Broken Civil Quarter caches contain medical supplies, engineering manuals, and communication arrays — resources the original Concordium buried here against the day the Schism might be reversed. Scavengers have been looting them for years, selling them to the highest bidder. Commander Vale's voice has an edge when she says it: some of those manuals were written by her mother. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "Commander Lirien Vale",
@@ -345,7 +345,7 @@
       },
       "requirements": {
         "min_level": 6,
-        "reputation_required": 300,
+        "reputation_required": 25,
         "required_quests": [
           "fq_conc_006"
         ]
@@ -355,13 +355,13 @@
           "type": "kill",
           "target": "BROKEN_SCAVENGER",
           "count": 5,
-          "description": "Eliminate scavengers in the ruined sector."
+          "description": "Eliminate scavengers in the ruined sector. [Broken Quarter Scavenger]"
         },
         {
           "type": "collect",
           "target": "rusted_scrap",
           "count": 2,
-          "description": "Collect rusted scrap (x2)."
+          "description": "Collect rusted scrap (x2). [Item: Rusted Scrap]"
         }
       ],
       "rewards": {
@@ -388,7 +388,7 @@
       "rank": "D",
       "faction": "CONCORDIUM",
       "region": "BROKEN_CIVIL_QUARTER",
-      "description": "A Civil Rat Alpha has claimed an old Concordium archive building, breeding a colony large enough to collapse the reclaimed sector's food supply. The irony is not lost on Commander Vale — the Concordium survived the Severance, the Schism, and three rival factions, and now a rat threatens the advance. She wants that Alpha dead, and she wants a record kept of its nesting site. Everything is data.",
+      "description": "A Civil Rat Alpha has claimed an old Concordium archive building, breeding a colony large enough to collapse the reclaimed sector's food supply. (Location: Broken Civil Quarter, Guard Captain) The irony is not lost on Commander Vale — the Concordium survived the Severance, the Schism, and three rival factions, and now a rat threatens the advance. She wants that Alpha dead, and she wants a record kept of its nesting site. Everything is data.",
       "quest_giver": {
         "npc_id": "npc_patrol_guard",
         "name": "Commander Lirien Vale",
@@ -396,7 +396,7 @@
       },
       "requirements": {
         "min_level": 7,
-        "reputation_required": 360,
+        "reputation_required": 30,
         "required_quests": [
           "fq_conc_007"
         ]
@@ -412,7 +412,7 @@
           "type": "kill",
           "target": "CIVIL_SCAVENGER",
           "count": 3,
-          "description": "Clear out nearby Civil Scavengers."
+          "description": "Clear out nearby Civil Scavengers. [Civil Quarter Scavenger]"
         }
       ],
       "rewards": {
@@ -443,7 +443,7 @@
       "rank": "D",
       "faction": "CONCORDIUM",
       "region": "BROKEN_CIVIL_QUARTER",
-      "description": "A Rusted Warden — automated guardian tech from before the Schism — still patrols the ruins as if it has orders. It doesn't recognize the Concordium's current insignia. It doesn't recognize anything except the threat-assessment protocols written into it a century ago. Vale wonders, quietly, whether the original Concordium ever planned for the machines to outlast the people who built them.",
+      "description": "A Rusted Warden — automated guardian tech from before the Schism — still patrols the ruins as if it has orders. (Location: Broken Civil Quarter, Officer Valen) It doesn't recognize the Concordium's current insignia. It doesn't recognize anything except the threat-assessment protocols written into it a century ago. Vale wonders, quietly, whether the original Concordium ever planned for the machines to outlast the people who built them.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "Commander Lirien Vale",
@@ -451,7 +451,7 @@
       },
       "requirements": {
         "min_level": 8,
-        "reputation_required": 420,
+        "reputation_required": 35,
         "required_quests": [
           "fq_conc_008"
         ]
@@ -498,7 +498,7 @@
       "rank": "D",
       "faction": "CONCORDIUM",
       "region": "BROKEN_CIVIL_QUARTER",
-      "description": "The sewers beneath the Civil Quarter were engineered by the Concordium's founders as emergency water routing — now they're the throne room of a Slime King, a massive Severance-spawn that has been growing in the dark for years. It is the embodiment of everything the Concordium is fighting against: the Severance's corruption, enthroned in the ruins of what Xylos once was. Commander Vale's message is simple: end its reign.",
+      "description": "The sewers beneath the Civil Quarter were engineered by the Concordium's founders as emergency water routing — now they're the throne room of a Slime King, a massive Severance-spawn that has been growing in the dark for years. (Location: Broken Civil Quarter, Officer Valen) It is the embodiment of everything the Concordium is fighting against: the Severance's corruption, enthroned in the ruins of what Xylos once was. Commander Vale's message is simple: end its reign.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "Commander Lirien Vale",
@@ -506,7 +506,7 @@
       },
       "requirements": {
         "min_level": 9,
-        "reputation_required": 480,
+        "reputation_required": 40,
         "required_quests": [
           "fq_conc_009"
         ]
@@ -522,7 +522,7 @@
           "type": "kill",
           "target": "CIVIL_MUTANT_HOUND",
           "count": 2,
-          "description": "Eliminate mutant hounds protecting the King."
+          "description": "Eliminate mutant hounds protecting the King. [Civil Mutant Hound]"
         }
       ],
       "rewards": {
@@ -553,7 +553,7 @@
       "rank": "C",
       "faction": "CONCORDIUM",
       "region": "CRADLE_OUTER_RING",
-      "description": "You've earned the right to see it — the Aethel Cradle's Outer Ring, the great machine the Concordium built around the planet's most powerful energy source. It hums with a sound older than recorded history, and Commander Vale says the original engineers wept when they first activated it. Now the Outer Ring is contested ground, and every faction wants what it contains. Your mission: scout it and make sure the Concordium holds the advantage.",
+      "description": "You've earned the right to see it — the Aethel Cradle's Outer Ring, the great machine the Concordium built around the planet's most powerful energy source. (Location: Cradle Outer Ring, Officer Valen) It hums with a sound older than recorded history, and Commander Vale says the original engineers wept when they first activated it. Now the Outer Ring is contested ground, and every faction wants what it contains. Your mission: scout it and make sure the Concordium holds the advantage.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "Commander Lirien Vale",
@@ -561,7 +561,7 @@
       },
       "requirements": {
         "min_level": 10,
-        "reputation_required": 540,
+        "reputation_required": 45,
         "required_quests": [
           "fq_conc_010"
         ]
@@ -577,7 +577,7 @@
           "type": "collect",
           "target": "void_fragment",
           "count": 3,
-          "description": "Collect void fragment (x3)."
+          "description": "Collect void fragment (x3). [Item: Void Fragment]"
         }
       ],
       "rewards": {
@@ -604,7 +604,7 @@
       "rank": "C",
       "faction": "CONCORDIUM",
       "region": "CRADLE_OUTER_RING",
-      "description": "Cradle Anomaly Wolves — creatures warped by proximity to the flux rifts surrounding the Aethel Cradle — are drawn to the Outer Ring's energy surges. Their howls disrupt the harmonic resonators the Concordium uses to calibrate the Cradle's output. Without stable calibration, the whole system risks cascade failure. The Concordium nearly lost the Cradle once. Commander Vale refuses to let it happen on her watch.",
+      "description": "Cradle Anomaly Wolves — creatures warped by proximity to the flux rifts surrounding the Aethel Cradle — are drawn to the Outer Ring's energy surges. (Location: Cradle Outer Ring, Officer Valen) Their howls disrupt the harmonic resonators the Concordium uses to calibrate the Cradle's output. Without stable calibration, the whole system risks cascade failure. The Concordium nearly lost the Cradle once. Commander Vale refuses to let it happen on her watch.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "Commander Lirien Vale",
@@ -612,7 +612,7 @@
       },
       "requirements": {
         "min_level": 11,
-        "reputation_required": 600,
+        "reputation_required": 50,
         "required_quests": [
           "fq_conc_011"
         ]
@@ -622,13 +622,13 @@
           "type": "kill",
           "target": "CRADLE_ANOMALY_WOLF",
           "count": 5,
-          "description": "Defeat Cradle Anomaly Wolves."
+          "description": "Defeat Cradle Anomaly Wolves. [Cradle Anomaly Wolf]"
         },
         {
           "type": "collect",
           "target": "wild_hide",
           "count": 3,
-          "description": "Collect wild hide (x3)."
+          "description": "Collect wild hide (x3). [Item: Wild Hide]"
         }
       ],
       "rewards": {
@@ -655,7 +655,7 @@
       "rank": "C",
       "faction": "CONCORDIUM",
       "region": "CRADLE_OUTER_RING",
-      "description": "Cradle Anomaly Beastlings are what happens when aethel radiation meets the Severance's corrupted biosphere — creatures that should not exist, multiplying faster than the Concordium's census teams can count. They've begun nesting in the maintenance shafts of the Outer Ring's stabilizer array. If the array goes offline, the Arcanum Seekers will be on the doorstep before the dust settles.",
+      "description": "Cradle Anomaly Beastlings are what happens when aethel radiation meets the Severance's corrupted biosphere — creatures that should not exist, multiplying faster than the Concordium's census teams can count. (Location: Cradle Outer Ring, Officer Valen) They've begun nesting in the maintenance shafts of the Outer Ring's stabilizer array. If the array goes offline, the Arcanum Seekers will be on the doorstep before the dust settles.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "Commander Lirien Vale",
@@ -663,7 +663,7 @@
       },
       "requirements": {
         "min_level": 12,
-        "reputation_required": 660,
+        "reputation_required": 55,
         "required_quests": [
           "fq_conc_012"
         ]
@@ -679,7 +679,7 @@
           "type": "collect",
           "target": "void_fragment",
           "count": 4,
-          "description": "Collect void fragment (x4)."
+          "description": "Collect void fragment (x4). [Item: Void Fragment]"
         }
       ],
       "rewards": {
@@ -706,7 +706,7 @@
       "rank": "C",
       "faction": "CONCORDIUM",
       "region": "CRADLE_OUTER_RING",
-      "description": "Cradle Fragment Beasts carry unstable aethel cores inside their bodies — shards of the original Shard, still radiating energy, embedded in living hosts. The Arcanum Seekers would want them captured; the Children of the Shard would want them worshipped. The Concordium wants them contained before they detonate and damage the Outer Ring's flux regulators. Ideology is secondary to operational integrity.",
+      "description": "Cradle Fragment Beasts carry unstable aethel cores inside their bodies — shards of the original Shard, still radiating energy, embedded in living hosts. (Location: Cradle Outer Ring, Officer Valen) The Arcanum Seekers would want them captured; the Children of the Shard would want them worshipped. The Concordium wants them contained before they detonate and damage the Outer Ring's flux regulators. Ideology is secondary to operational integrity.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "Commander Lirien Vale",
@@ -714,7 +714,7 @@
       },
       "requirements": {
         "min_level": 13,
-        "reputation_required": 720,
+        "reputation_required": 60,
         "required_quests": [
           "fq_conc_013"
         ]
@@ -730,7 +730,7 @@
           "type": "collect",
           "target": "aethel_fragment",
           "count": 3,
-          "description": "Collect aethel fragment (x3)."
+          "description": "Collect aethel fragment (x3). [Item: Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -757,7 +757,7 @@
       "rank": "C",
       "faction": "CONCORDIUM",
       "region": "CRADLE_OUTER_RING",
-      "description": "Resonance Bats — creatures that evolved using the Cradle's own harmonic emissions as echolocation — have been jamming the communication arrays that coordinate Concordium's Outer Ring defenses. The last three hours have been radio silence from Sector Seven. Commander Vale doesn't say the word \"scared\" but she checks the comms every thirty seconds. Clear the bats and bring back contact.",
+      "description": "Resonance Bats — creatures that evolved using the Cradle's own harmonic emissions as echolocation — have been jamming the communication arrays that coordinate Concordium's Outer Ring defenses. (Location: Cradle Outer Ring, Officer Valen) The last three hours have been radio silence from Sector Seven. Commander Vale doesn't say the word \"scared\" but she checks the comms every thirty seconds. Clear the bats and bring back contact.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "Commander Lirien Vale",
@@ -765,7 +765,7 @@
       },
       "requirements": {
         "min_level": 14,
-        "reputation_required": 780,
+        "reputation_required": 65,
         "required_quests": [
           "fq_conc_014"
         ]
@@ -808,7 +808,7 @@
       "rank": "C",
       "faction": "CONCORDIUM",
       "region": "CRADLE_OUTER_RING",
-      "description": "Three Concordium scouts went dark in the Outer Ring's eastern sector. Commander Vale reports this the way soldiers report casualties — precisely, without emotion, until the mission debrief when she says their names. The data they were carrying could reveal Iron Hegemony troop movements near the Cradle's loading docks. Recover it. And if you find the scouts, record what you find.",
+      "description": "Three Concordium scouts went dark in the Outer Ring's eastern sector. (Location: Cradle Outer Ring, Officer Valen) Commander Vale reports this the way soldiers report casualties — precisely, without emotion, until the mission debrief when she says their names. The data they were carrying could reveal Iron Hegemony troop movements near the Cradle's loading docks. Recover it. And if you find the scouts, record what you find.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "Commander Lirien Vale",
@@ -816,7 +816,7 @@
       },
       "requirements": {
         "min_level": 15,
-        "reputation_required": 840,
+        "reputation_required": 70,
         "required_quests": [
           "fq_conc_015"
         ]
@@ -826,13 +826,13 @@
           "type": "collect",
           "target": "void_fragment",
           "count": 3,
-          "description": "Collect void fragment (x3)."
+          "description": "Collect void fragment (x3). [Item: Void Fragment]"
         },
         {
           "type": "kill",
           "target": "CRADLE_ANOMALY_WOLF",
           "count": 4,
-          "description": "Defeat any hostiles guarding the scout sites."
+          "description": "Defeat any hostiles guarding the scout sites. [Cradle Anomaly Wolf]"
         }
       ],
       "rewards": {
@@ -859,7 +859,7 @@
       "rank": "C",
       "faction": "CONCORDIUM",
       "region": "CRADLE_OUTER_RING",
-      "description": "A void breach has opened in the Outer Ring's north platform — a point where the boundary between normal space and whatever dark geometry feeds the Void Channelers has grown thin. The Fragment Beasts that pour through it are getting stronger with each surge. Concordium engineers believe the breach appeared the same week the Iron Hegemony began unauthorized excavation near the Cradle's base. That may be coincidence. It may not.",
+      "description": "A void breach has opened in the Outer Ring's north platform — a point where the boundary between normal space and whatever dark geometry feeds the Void Channelers has grown thin. (Location: Cradle Outer Ring, Officer Valen) The Fragment Beasts that pour through it are getting stronger with each surge. Concordium engineers believe the breach appeared the same week the Iron Hegemony began unauthorized excavation near the Cradle's base. That may be coincidence. It may not.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "Commander Lirien Vale",
@@ -867,7 +867,7 @@
       },
       "requirements": {
         "min_level": 16,
-        "reputation_required": 900,
+        "reputation_required": 75,
         "required_quests": [
           "fq_conc_016"
         ]
@@ -877,13 +877,13 @@
           "type": "kill",
           "target": "CRADLE_FRAGMENT_BEAST",
           "count": 6,
-          "description": "Destroy Fragment Beasts near the breach."
+          "description": "Destroy Fragment Beasts near the breach. [Cradle Fragment Beast]"
         },
         {
           "type": "collect",
           "target": "aethel_fragment",
           "count": 2,
-          "description": "Collect aethel fragment (x2)."
+          "description": "Collect aethel fragment (x2). [Item: Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -910,7 +910,7 @@
       "rank": "C",
       "faction": "CONCORDIUM",
       "region": "CRADLE_OUTER_RING",
-      "description": "Resonance Golems are not random creatures — Concordium historians believe they are the Aethel Cradle's original defense constructs, built by the same Aethelgardian engineers who first activated the Siphon. They have been nesting in the deep Outer Ring and their harmonic pulses are rewriting the Concordium's own signal protocols with something older and stranger. Commander Vale wants them destroyed, but she orders you to document their emissions first. The Concordium does not discard knowledge.",
+      "description": "Resonance Golems are not random creatures — Concordium historians believe they are the Aethel Cradle's original defense constructs, built by the same Aethelgardian engineers who first activated the Siphon. (Location: Cradle Outer Ring, Officer Valen) They have been nesting in the deep Outer Ring and their harmonic pulses are rewriting the Concordium's own signal protocols with something older and stranger. Commander Vale wants them destroyed, but she orders you to document their emissions first. The Concordium does not discard knowledge.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "Commander Lirien Vale",
@@ -918,7 +918,7 @@
       },
       "requirements": {
         "min_level": 17,
-        "reputation_required": 960,
+        "reputation_required": 80,
         "required_quests": [
           "fq_conc_017"
         ]
@@ -934,7 +934,7 @@
           "type": "kill",
           "target": "RESONANCE_BAT",
           "count": 6,
-          "description": "Clear out the surrounding bat swarm."
+          "description": "Clear out the surrounding bat swarm. [Resonance Bat]"
         }
       ],
       "rewards": {
@@ -961,7 +961,7 @@
       "rank": "C",
       "faction": "CONCORDIUM",
       "region": "CRADLE_OUTER_RING",
-      "description": "The Resonance Echo is not just a creature — it is a concentrated echo of the Cradle's original harmonic signature, coalesced into something almost conscious. The Arcanum Seekers would call it a miracle. The Children of the Shard would call it a god-fragment. Commander Vale calls it a threat to Concordium communication infrastructure, and she is right on all fronts. Defeat it. Whatever it is, it cannot be allowed to rewrite the Cradle on its own terms.",
+      "description": "The Resonance Echo is not just a creature — it is a concentrated echo of the Cradle's original harmonic signature, coalesced into something almost conscious. (Location: Cradle Outer Ring, Officer Valen) The Arcanum Seekers would call it a miracle. The Children of the Shard would call it a god-fragment. Commander Vale calls it a threat to Concordium communication infrastructure, and she is right on all fronts. Defeat it. Whatever it is, it cannot be allowed to rewrite the Cradle on its own terms.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "Commander Lirien Vale",
@@ -969,7 +969,7 @@
       },
       "requirements": {
         "min_level": 18,
-        "reputation_required": 1020,
+        "reputation_required": 85,
         "required_quests": [
           "fq_conc_018"
         ]
@@ -985,7 +985,7 @@
           "type": "kill",
           "target": "CRADLE_FRAGMENT_BEAST",
           "count": 4,
-          "description": "Clear remaining Fragment Beasts from the area."
+          "description": "Clear remaining Fragment Beasts from the area. [Cradle Fragment Beast]"
         }
       ],
       "rewards": {
@@ -1016,7 +1016,7 @@
       "rank": "C",
       "faction": "CONCORDIUM",
       "region": "CRADLE_OUTER_RING",
-      "description": "The Outer Ring is not fully secured — it never will be, not while three factions and something older than any of them push against the Concordium's borders. But the Concordium holds more of it today than it did a season ago, and that is because of what you've done here. Commander Vale's final sweep order is also a test: the Concordium is preparing to evaluate you for Advanced assignment. The Cradle's inner platforms await.",
+      "description": "The Outer Ring is not fully secured — it never will be, not while three factions and something older than any of them push against the Concordium's borders. (Location: Cradle Outer Ring, Officer Valen) But the Concordium holds more of it today than it did a season ago, and that is because of what you've done here. Commander Vale's final sweep order is also a test: the Concordium is preparing to evaluate you for Advanced assignment. The Cradle's inner platforms await.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "Commander Lirien Vale",
@@ -1024,7 +1024,7 @@
       },
       "requirements": {
         "min_level": 19,
-        "reputation_required": 1080,
+        "reputation_required": 90,
         "required_quests": [
           "fq_conc_019"
         ]
@@ -1034,7 +1034,7 @@
           "type": "kill",
           "target": "CRADLE_ANOMALY_BEASTLING",
           "count": 5,
-          "description": "Final sweep: defeat remaining Beastlings."
+          "description": "Final sweep: defeat remaining Beastlings. [Cradle Anomaly Beastling]"
         },
         {
           "type": "kill",
@@ -1046,7 +1046,7 @@
           "type": "collect",
           "target": "void_fragment",
           "count": 1,
-          "description": "Collect void fragment (x1)."
+          "description": "Collect void fragment (x1). [Item: Void Fragment]"
         }
       ],
       "rewards": {
@@ -1077,7 +1077,7 @@
       "rank": "B",
       "faction": "CONCORDIUM",
       "region": "INNER_CRADLE_EXCLUSION",
-      "description": "Push deeper into the Inner Cradle Exclusion. Intel suggests powerful ancient technology lies dormant within.",
+      "description": "Push deeper into the Inner Cradle Exclusion. Intel suggests powerful ancient technology lies dormant within. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -1101,7 +1101,7 @@
           "type": "collect",
           "target": "monster_material",
           "count": 2,
-          "description": "Collect monster material (x2)."
+          "description": "Collect monster material (x2). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -1128,7 +1128,7 @@
       "rank": "B",
       "faction": "CONCORDIUM",
       "region": "INNER_CRADLE_EXCLUSION",
-      "description": "Inner Cradle Mutants exposed to raw aethel show extreme aggression. Eliminate the threat and take tissue samples.",
+      "description": "Inner Cradle Mutants exposed to raw aethel show extreme aggression. (Location: Inner Cradle Exclusion, Officer Valen) Eliminate the threat and take tissue samples.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -1152,7 +1152,7 @@
           "type": "collect",
           "target": "mutant_claw",
           "count": 3,
-          "description": "Collect mutant claw (x3)."
+          "description": "Collect mutant claw (x3). [Item: Mutant Claw]"
         }
       ],
       "rewards": {
@@ -1179,7 +1179,7 @@
       "rank": "B",
       "faction": "CONCORDIUM",
       "region": "INNER_CRADLE_EXCLUSION",
-      "description": "An Inner Cradle Behemoth has been spotted in the deep exclusion. This threat must be neutralized immediately.",
+      "description": "An Inner Cradle Behemoth has been spotted in the deep exclusion. (Location: Inner Cradle Exclusion, Officer Valen) This threat must be neutralized immediately.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -1203,7 +1203,7 @@
           "type": "kill",
           "target": "INNER_CRADLE_MUTANT",
           "count": 4,
-          "description": "Clear out mutant escorts protecting the Behemoth."
+          "description": "Clear out mutant escorts protecting the Behemoth. [Inner Cradle Mutant]"
         }
       ],
       "rewards": {
@@ -1230,7 +1230,7 @@
       "rank": "B",
       "faction": "CONCORDIUM",
       "region": "INNER_CRADLE_EXCLUSION",
-      "description": "Cradle Sentinels guard the ancient Cradle gates. They must be disabled for Concordium to advance.",
+      "description": "Cradle Sentinels guard the ancient Cradle gates. (Location: Inner Cradle Exclusion, Officer Valen) They must be disabled for Concordium to advance.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -1254,7 +1254,7 @@
           "type": "collect",
           "target": "aethel_core_shard",
           "count": 2,
-          "description": "Collect aethel core shard (x2)."
+          "description": "Collect aethel core shard (x2). [Item: Aethel Core Shard]"
         }
       ],
       "rewards": {
@@ -1281,7 +1281,7 @@
       "rank": "B",
       "faction": "CONCORDIUM",
       "region": "INNER_CRADLE_EXCLUSION",
-      "description": "A Cradle Void Stalker has been hunting Concordium operatives in the Exclusion. Track it and eliminate the threat.",
+      "description": "A Cradle Void Stalker has been hunting Concordium operatives in the Exclusion. (Location: Inner Cradle Exclusion, Officer Valen) Track it and eliminate the threat.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -1305,7 +1305,7 @@
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -1332,7 +1332,7 @@
       "rank": "B",
       "faction": "CONCORDIUM",
       "region": "INNER_CRADLE_EXCLUSION",
-      "description": "Cradle Void Titanlings are immature but dangerous. Stop them before they mature into true Titans.",
+      "description": "Cradle Void Titanlings are immature but dangerous. (Location: Inner Cradle Exclusion, Officer Valen) Stop them before they mature into true Titans.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -1356,7 +1356,7 @@
           "type": "kill",
           "target": "CRADLE_SENTINEL",
           "count": 2,
-          "description": "Clear Sentinel guards from the Titanling nest."
+          "description": "Clear Sentinel guards from the Titanling nest. [Cradle Sentinel]"
         }
       ],
       "rewards": {
@@ -1383,7 +1383,7 @@
       "rank": "B",
       "faction": "CONCORDIUM",
       "region": "CRADLE_EXPANSE",
-      "description": "The Cradle Expanse is a contested zone between factions. Concordium needs forward positions. Move in and establish control.",
+      "description": "The Cradle Expanse is a contested zone between factions. Concordium needs forward positions. Move in and establish control. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -1407,7 +1407,7 @@
           "type": "collect",
           "target": "core_fragment",
           "count": 2,
-          "description": "Collect core fragment (x2)."
+          "description": "Collect core fragment (x2). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -1434,7 +1434,7 @@
       "rank": "B",
       "faction": "CONCORDIUM",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Rift Stalkers prowl the Expanse threatening all faction operations. Clear them out systematically.",
+      "description": "Aethel Rift Stalkers prowl the Expanse threatening all faction operations. (Location: Cradle Expanse, Officer Valen) Clear them out systematically.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -1458,7 +1458,7 @@
           "type": "collect",
           "target": "rift_claw_fragment",
           "count": 2,
-          "description": "Collect rift claw fragment (x2)."
+          "description": "Collect rift claw fragment (x2). [Item: Rift Claw Fragment]"
         }
       ],
       "rewards": {
@@ -1485,7 +1485,7 @@
       "rank": "B",
       "faction": "CONCORDIUM",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Behemoths roam the Expanse. These elite creatures cannot be allowed to threaten Concordium supply lines.",
+      "description": "Aethel Behemoths roam the Expanse. (Location: Cradle Expanse, Officer Valen) These elite creatures cannot be allowed to threaten Concordium supply lines.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -1509,7 +1509,7 @@
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 4,
-          "description": "Clear Rift Stalkers from the hunting ground."
+          "description": "Clear Rift Stalkers from the hunting ground. [Aethel Rift Stalker]"
         }
       ],
       "rewards": {
@@ -1544,7 +1544,7 @@
       },
       "requirements": {
         "min_level": 29,
-        "reputation_required": 1680,
+        "reputation_required": 95,
         "required_quests": [
           "fq_conc_029"
         ]
@@ -1554,7 +1554,7 @@
           "type": "interact",
           "target": "npc_concordium_class_trainer",
           "count": 1,
-          "description": "Report to Instructor Kael for Ascension evaluation."
+          "description": "Report to Instructor Kael for Ascension evaluation. (Instructor Kael at Nexus Core Training Academy)"
         },
         {
           "type": "kill",
@@ -1601,7 +1601,7 @@
       "rank": "A",
       "faction": "CONCORDIUM",
       "region": "ORBITAL_SENTINEL_COMMAND",
-      "description": "Concordium high command summons you to the Orbital Sentinel Command. The faction wars have escalated to a new phase.",
+      "description": "Concordium high command summons you to the Orbital Sentinel Command. The faction wars have escalated to a new phase. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -1625,7 +1625,7 @@
           "type": "collect",
           "target": "monster_material",
           "count": 1,
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -1652,7 +1652,7 @@
       "rank": "A",
       "faction": "CONCORDIUM",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Iron Carapaces threaten orbital supply lanes. Destroy them to keep the lanes open for Concordium logistics.",
+      "description": "Aethel Iron Carapaces threaten orbital supply lanes. (Location: Cradle Expanse, Officer Valen) Destroy them to keep the lanes open for Concordium logistics.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -1676,7 +1676,7 @@
           "type": "collect",
           "target": "carapace_fragment",
           "count": 3,
-          "description": "Collect carapace fragment (x3)."
+          "description": "Collect carapace fragment (x3). [Item: Carapace Fragment]"
         }
       ],
       "rewards": {
@@ -1703,7 +1703,7 @@
       "rank": "A",
       "faction": "CONCORDIUM",
       "region": "CRADLE_EXPANSE",
-      "description": "An Aethel Corrupted Behemoth rampages near the orbital tether. End its destruction before the tether is severed.",
+      "description": "An Aethel Corrupted Behemoth rampages near the orbital tether. (Location: Cradle Expanse, Officer Valen) End its destruction before the tether is severed.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -1721,13 +1721,13 @@
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 2,
-          "description": "Defeat Corrupted Behemoths near the orbital tether."
+          "description": "Defeat Corrupted Behemoths near the orbital tether. [Aethel Corrupted Behemoth]"
         },
         {
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 3,
-          "description": "Clear Carapace escorts protecting the Behemoth."
+          "description": "Clear Carapace escorts protecting the Behemoth. [Aethel Iron Carapace]"
         }
       ],
       "rewards": {
@@ -1754,7 +1754,7 @@
       "rank": "A",
       "faction": "CONCORDIUM",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Void Channelers draw void energy into the Expanse. Shut down their rituals before a cataclysm occurs.",
+      "description": "Aethel Void Channelers draw void energy into the Expanse. (Location: Cradle Expanse, Officer Valen) Shut down their rituals before a cataclysm occurs.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -1778,7 +1778,7 @@
           "type": "collect",
           "target": "raw_aethel_fragment",
           "count": 2,
-          "description": "Collect raw aethel fragment (x2)."
+          "description": "Collect raw aethel fragment (x2). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -1805,7 +1805,7 @@
       "rank": "A",
       "faction": "CONCORDIUM",
       "region": "CRADLE_EXPANSE",
-      "description": "Aethel Abyssal Reavers have emerged — the vanguard of something far worse. Hunt them and collect intelligence.",
+      "description": "Aethel Abyssal Reavers have emerged — the vanguard of something far worse. (Location: Cradle Expanse, Officer Valen) Hunt them and collect intelligence.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -1829,7 +1829,7 @@
           "type": "collect",
           "target": "void_channeler_core",
           "count": 1,
-          "description": "Collect void channeler core (x1)."
+          "description": "Collect void channeler core (x1). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -1856,7 +1856,7 @@
       "rank": "A",
       "faction": "CONCORDIUM",
       "region": "ORBITAL_SENTINEL_COMMAND",
-      "description": "Rival factions are probing Concordium's orbital defenses. Repel all intruders in the command sector with extreme prejudice.",
+      "description": "Rival factions are probing Concordium's orbital defenses. (Location: Orbital Sentinel Command, Officer Valen) Repel all intruders in the command sector with extreme prejudice.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -1874,13 +1874,13 @@
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 6,
-          "description": "Repel intruder forces in the orbital sector."
+          "description": "Repel intruder forces in the orbital sector. [Aethel Rift Stalker]"
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 3,
-          "description": "Neutralize hostile Void Channelers attempting orbital breach."
+          "description": "Neutralize hostile Void Channelers attempting orbital breach. [Aethel Void Channeler]"
         }
       ],
       "rewards": {
@@ -1907,7 +1907,7 @@
       "rank": "A",
       "faction": "CONCORDIUM",
       "region": "CRADLE_EXPANSE",
-      "description": "Reports confirm: the legendary Ashen Drake hunts in the Expanse. It is the apex predator of this sector. Engage with extreme caution — survival is the primary objective.",
+      "description": "Reports confirm: the legendary Ashen Drake hunts in the Expanse. (Location: Cradle Expanse, Officer Valen) It is the apex predator of this sector. Engage with extreme caution — survival is the primary objective.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -1931,7 +1931,7 @@
           "type": "collect",
           "target": "ancient_scale",
           "count": 1,
-          "description": "Collect ancient scale (x1)."
+          "description": "Collect ancient scale (x1). [Item: Ancient Scale]"
         }
       ],
       "rewards": {
@@ -1962,7 +1962,7 @@
       "rank": "A",
       "faction": "CONCORDIUM",
       "region": "ORBITAL_SENTINEL_COMMAND",
-      "description": "Enemy infiltrators use orbital debris as cover. Sweep the entire command sector clean.",
+      "description": "Enemy infiltrators use orbital debris as cover. (Location: Orbital Sentinel Command, Officer Valen) Sweep the entire command sector clean.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -1980,13 +1980,13 @@
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 5,
-          "description": "Clean out Carapace infiltrators from orbital sector."
+          "description": "Clean out Carapace infiltrators from orbital sector. [Aethel Iron Carapace]"
         },
         {
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 1,
-          "description": "Eliminate the Corrupted Behemoth leading the infiltration."
+          "description": "Eliminate the Corrupted Behemoth leading the infiltration. [Aethel Corrupted Behemoth]"
         }
       ],
       "rewards": {
@@ -2013,7 +2013,7 @@
       "rank": "A",
       "faction": "CONCORDIUM",
       "region": "CRADLE_EXPANSE",
-      "description": "Multiple Abyssal Reavers converge on the Expanse in a coordinated assault. Break their formation before they reach Command.",
+      "description": "Multiple Abyssal Reavers converge on the Expanse in a coordinated assault. (Location: Cradle Expanse, Officer Valen) Break their formation before they reach Command.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -2031,13 +2031,13 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Defeat the Abyssal Reaver assault force."
+          "description": "Defeat the Abyssal Reaver assault force. [Aethel Abyssal Reaver]"
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 3,
-          "description": "Silence the summoning Channelers fueling the assault."
+          "description": "Silence the summoning Channelers fueling the assault. [Aethel Void Channeler]"
         }
       ],
       "rewards": {
@@ -2064,7 +2064,7 @@
       "rank": "A",
       "faction": "CONCORDIUM",
       "region": "CRADLE_EXPANSE",
-      "description": "The final trial for Master rank. Defeat the Ashen Drake and two elite entities to unlock the full potential of your power. Concordium expects nothing less than absolute victory.",
+      "description": "The final trial for Master rank. (Location: Cradle Expanse, Officer Valen) Defeat the Ashen Drake and two elite entities to unlock the full potential of your power. Concordium expects nothing less than absolute victory.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -2072,7 +2072,7 @@
       },
       "requirements": {
         "min_level": 39,
-        "reputation_required": 2280,
+        "reputation_required": 105,
         "required_quests": [
           "fq_conc_039"
         ]
@@ -2129,7 +2129,7 @@
       "rank": "A",
       "faction": "CONCORDIUM",
       "region": "VOID_ECHO_CHASM",
-      "description": "You descend into the Void Echo Chasm — a realm where reality frays at the edges. Concordium suspects ancient relics and a growing threat lie within.",
+      "description": "You descend into the Void Echo Chasm — a realm where reality frays at the edges. Concordium suspects ancient relics and a growing threat lie within. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -2153,7 +2153,7 @@
           "type": "collect",
           "target": "core_fragment",
           "count": 2,
-          "description": "Collect core fragment (x2)."
+          "description": "Collect core fragment (x2). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2180,7 +2180,7 @@
       "rank": "A",
       "faction": "CONCORDIUM",
       "region": "VOID_ECHO_CHASM",
-      "description": "Void Reavers — twisted entities born from the void — infest the upper chasm. Purge them with Concordium fury.",
+      "description": "Void Reavers — twisted entities born from the void — infest the upper chasm. (Location: Void Echo Chasm, Officer Valen) Purge them with Concordium fury.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -2204,7 +2204,7 @@
           "type": "collect",
           "target": "void_fragment",
           "count": 2,
-          "description": "Collect void fragment (x2)."
+          "description": "Collect void fragment (x2). [Item: Void Fragment]"
         }
       ],
       "rewards": {
@@ -2231,7 +2231,7 @@
       "rank": "A",
       "faction": "CONCORDIUM",
       "region": "VOID_ECHO_CHASM",
-      "description": "Strange energies pulse from the deepest chasm. Investigate the source — these match ancient records of the Abyss Harbinger.",
+      "description": "Strange energies pulse from the deepest chasm. (Location: Void Echo Chasm, Officer Valen) Investigate the source — these match ancient records of the Abyss Harbinger.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -2239,7 +2239,7 @@
       },
       "requirements": {
         "min_level": 42,
-        "reputation_required": 2460,
+        "reputation_required": 130,
         "required_quests": [
           "fq_conc_042"
         ]
@@ -2249,13 +2249,13 @@
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 6,
-          "description": "Defeat Void Channelers performing dark rituals."
+          "description": "Defeat Void Channelers performing dark rituals. [Aethel Void Channeler]"
         },
         {
           "type": "collect",
           "target": "void_channeler_core",
           "count": 3,
-          "description": "Collect void channeler core (x3)."
+          "description": "Collect void channeler core (x3). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -2282,7 +2282,7 @@
       "rank": "A",
       "faction": "CONCORDIUM",
       "region": "VOID_ECHO_CHASM",
-      "description": "Aethel Abyssal Reavers have infiltrated the chasm. They are the Harbinger's eyes. Leave none standing.",
+      "description": "Aethel Abyssal Reavers have infiltrated the chasm. (Location: Void Echo Chasm, Officer Valen) They are the Harbinger's eyes. Leave none standing.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -2300,7 +2300,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Defeat Abyssal Reavers in the chasm."
+          "description": "Defeat Abyssal Reavers in the chasm. [Aethel Abyssal Reaver]"
         },
         {
           "type": "kill",
@@ -2333,7 +2333,7 @@
       "rank": "A",
       "faction": "CONCORDIUM",
       "region": "VOID_ECHO_CHASM",
-      "description": "Aethel Corrupted Behemoths guard the path deeper into the chasm. These creatures have been twisted beyond recognition.",
+      "description": "Aethel Corrupted Behemoths guard the path deeper into the chasm. (Location: Void Echo Chasm, Officer Valen) These creatures have been twisted beyond recognition.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -2351,13 +2351,13 @@
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
-          "description": "Defeat Corrupted Behemoths in the chasm depths."
+          "description": "Defeat Corrupted Behemoths in the chasm depths. [Aethel Corrupted Behemoth]"
         },
         {
           "type": "collect",
           "target": "crystal_core",
           "count": 1,
-          "description": "Collect crystal core (x1)."
+          "description": "Collect crystal core (x1). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -2384,7 +2384,7 @@
       "rank": "A",
       "faction": "CONCORDIUM",
       "region": "VOID_ECHO_CHASM",
-      "description": "You discover ancient Concordium logs deep in the chasm. Recover them — they may contain the key to stopping the Harbinger.",
+      "description": "You discover ancient Concordium logs deep in the chasm. (Location: Void Echo Chasm, Officer Valen) Recover them — they may contain the key to stopping the Harbinger.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -2392,7 +2392,7 @@
       },
       "requirements": {
         "min_level": 45,
-        "reputation_required": 2640,
+        "reputation_required": 155,
         "required_quests": [
           "fq_conc_045"
         ]
@@ -2402,13 +2402,13 @@
           "type": "collect",
           "target": "void_channeler_core",
           "count": 3,
-          "description": "Collect void channeler core (x3)."
+          "description": "Collect void channeler core (x3). [Item: Void Channeler Core]"
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 4,
-          "description": "Defeat Channelers protecting the log sites."
+          "description": "Defeat Channelers protecting the log sites. [Aethel Void Channeler]"
         }
       ],
       "rewards": {
@@ -2435,7 +2435,7 @@
       "rank": "A",
       "faction": "CONCORDIUM",
       "region": "VOID_ECHO_CHASM",
-      "description": "A Gigantic Jotunn guards an ancient gate within the chasm. This creature must fall for the Concordium to proceed deeper.",
+      "description": "A Gigantic Jotunn guards an ancient gate within the chasm. (Location: Void Echo Chasm, Officer Valen) This creature must fall for the Concordium to proceed deeper.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -2490,7 +2490,7 @@
       "rank": "A",
       "faction": "CONCORDIUM",
       "region": "VOID_ECHO_CHASM",
-      "description": "A Crystal Tyrant has claimed territory in the chasm. Its crystal shell deflects conventional weaponry. Find its weakness.",
+      "description": "A Crystal Tyrant has claimed territory in the chasm. (Location: Void Echo Chasm, Officer Valen) Its crystal shell deflects conventional weaponry. Find its weakness.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -2514,7 +2514,7 @@
           "type": "collect",
           "target": "monster_material",
           "count": 1,
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -2541,7 +2541,7 @@
       "rank": "A",
       "faction": "CONCORDIUM",
       "region": "SHATTERED_HEART",
-      "description": "The Void Echo Chasm opens into the Shattered Heart — the epicenter of void corruption on Xylos. Establish a forward base here.",
+      "description": "The Void Echo Chasm opens into the Shattered Heart — the epicenter of void corruption on Xylos. Establish a forward base here. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -2565,7 +2565,7 @@
           "type": "collect",
           "target": "thick_gel",
           "count": 2,
-          "description": "Collect thick gel (x2)."
+          "description": "Collect thick gel (x2). [Item: Thick Gel]"
         }
       ],
       "rewards": {
@@ -2592,7 +2592,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "SHATTERED_HEART",
-      "description": "The Ashen Drake rules the Shattered Heart. Its draconic fire melts reality itself. This is your Raid Tier-1 trial. Victory will cement your legend.",
+      "description": "The Ashen Drake rules the Shattered Heart. Its draconic fire melts reality itself. This is your Raid Tier-1 trial. Victory will cement your legend. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -2657,7 +2657,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Soul Fragmenter — a void entity that tears apart consciousness itself — has been detected. Engage before it can multiply.",
+      "description": "The Soul Fragmenter — a void entity that tears apart consciousness itself — has been detected. (Location: Void Echo Chasm, Officer Valen) Engage before it can multiply.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -2681,7 +2681,7 @@
           "type": "collect",
           "target": "monster_material",
           "count": 1,
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -2712,7 +2712,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "VOID_ECHO_CHASM",
-      "description": "With the Soul Fragmenter destroyed, Concordium initiates Operation Void Dominance. Clear all remaining void signatures from the chasm.",
+      "description": "With the Soul Fragmenter destroyed, Concordium initiates Operation Void Dominance. (Location: Void Echo Chasm, Officer Valen) Clear all remaining void signatures from the chasm.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -2736,7 +2736,7 @@
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 5,
-          "description": "Silence all remaining Void Channelers."
+          "description": "Silence all remaining Void Channelers. [Aethel Void Channeler]"
         }
       ],
       "rewards": {
@@ -2763,7 +2763,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "VOID_ECHO_CHASM",
-      "description": "A Void Stalker — the most cunning of void predators — hunts our forces. It cannot be allowed to continue. Hunt the hunter.",
+      "description": "A Void Stalker — the most cunning of void predators — hunts our forces. (Location: Void Echo Chasm, Officer Valen) It cannot be allowed to continue. Hunt the hunter.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -2787,7 +2787,7 @@
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2814,7 +2814,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "VOID_ECHO_CHASM",
-      "description": "Chrono Wraiths are tearing holes in the fabric of time within the chasm. Each Wraith threatens to create a permanent temporal rift.",
+      "description": "Chrono Wraiths are tearing holes in the fabric of time within the chasm. (Location: Void Echo Chasm, Officer Valen) Each Wraith threatens to create a permanent temporal rift.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -2838,7 +2838,7 @@
           "type": "collect",
           "target": "monster_material",
           "count": 1,
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -2865,7 +2865,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "SHATTERED_HEART",
-      "description": "Abyssal Reavers flood from the Shattered Heart in waves. Hold the line. Not a single Reaver can reach the surface.",
+      "description": "Abyssal Reavers flood from the Shattered Heart in waves. Hold the line. Not a single Reaver can reach the surface. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -2883,7 +2883,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 10,
-          "description": "Slaughter Abyssal Reavers at the breach point."
+          "description": "Slaughter Abyssal Reavers at the breach point. [Aethel Abyssal Reaver]"
         },
         {
           "type": "kill",
@@ -2916,7 +2916,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "SHATTERED_HEART",
-      "description": "Multiple Gigantic Jotunns are converging on a critical Concordium position. These ancient giants must be stopped at all costs.",
+      "description": "Multiple Gigantic Jotunns are converging on a critical Concordium position. (Location: Shattered Heart, Officer Valen) These ancient giants must be stopped at all costs.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -2940,7 +2940,7 @@
           "type": "collect",
           "target": "core_fragment",
           "count": 2,
-          "description": "Collect core fragment (x2)."
+          "description": "Collect core fragment (x2). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -2967,7 +2967,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "SHATTERED_HEART",
-      "description": "Crystal Tyrants have organized into a hunting pack in the Heart. This coordinated behavior is unprecedented — and terrifying.",
+      "description": "Crystal Tyrants have organized into a hunting pack in the Heart. (Location: Shattered Heart, Officer Valen) This coordinated behavior is unprecedented — and terrifying.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -3018,7 +3018,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "VOID_ECHO_CHASM",
-      "description": "Intelligence confirms: the Abyss Harbinger is awakening. Its shadow already corrupts the deepest chasm. Prepare for the final confrontation.",
+      "description": "Intelligence confirms: the Abyss Harbinger is awakening. (Location: Void Echo Chasm, Officer Valen) Its shadow already corrupts the deepest chasm. Prepare for the final confrontation.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -3026,7 +3026,7 @@
       },
       "requirements": {
         "min_level": 57,
-        "reputation_required": 3360,
+        "reputation_required": 180,
         "required_quests": [
           "fq_conc_057"
         ]
@@ -3036,7 +3036,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 6,
-          "description": "Cut through the Harbinger's Abyssal vanguard."
+          "description": "Cut through the Harbinger's Abyssal vanguard. [Aethel Abyssal Reaver]"
         },
         {
           "type": "kill",
@@ -3048,7 +3048,7 @@
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -3075,7 +3075,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "VOID_ECHO_CHASM",
-      "description": "Soul Fragmenters have multiplied throughout the chasm. Each one harvested strengthens the Harbinger. The harvest must end.",
+      "description": "Soul Fragmenters have multiplied throughout the chasm. (Location: Void Echo Chasm, Officer Valen) Each one harvested strengthens the Harbinger. The harvest must end.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -3126,7 +3126,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "VOID_ECHO_CHASM",
-      "description": "THE FINAL VOID TRIAL. The Abyss Harbinger has fully awakened. As Concordium's foremost operative, you must descend into the deepest chasm and destroy the Raid Boss Tier-2 entity. The fate of Xylos hangs in the balance. Progress through Unity. Victory through Strength.",
+      "description": "THE FINAL VOID TRIAL. (Location: Void Echo Chasm, Officer Valen) The Abyss Harbinger has fully awakened. As Concordium's foremost operative, you must descend into the deepest chasm and destroy the Raid Boss Tier-2 entity. The fate of Xylos hangs in the balance. Progress through Unity. Victory through Strength.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -3144,13 +3144,13 @@
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "description": "DEFEAT THE ABYSS HARBINGER."
+          "description": "DEFEAT THE ABYSS HARBINGER. [Abyss Harbinger]"
         },
         {
           "type": "collect",
           "target": "void_core",
           "count": 1,
-          "description": "Collect void core (x1)."
+          "description": "Collect void core (x1). [Item: Void Core]"
         }
       ],
       "rewards": {
@@ -3185,7 +3185,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "After the Harbinger's fall, seismic readings spike across Xylos. The Severance Faultline threatens to tear the planet apart. Investigate immediately.",
+      "description": "After the Harbinger's fall, seismic readings spike across Xylos. The Severance Faultline threatens to tear the planet apart. Investigate immediately. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -3209,7 +3209,7 @@
           "type": "collect",
           "target": "stinger_core",
           "count": 3,
-          "description": "Collect stinger core (x3)."
+          "description": "Collect stinger core (x3). [Item: Stinger Core]"
         }
       ],
       "rewards": {
@@ -3236,7 +3236,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Aethel Iron Carapaces swarm the faultline, drawn by tectonic energy. Clear them before they destabilize the plate boundaries.",
+      "description": "Aethel Iron Carapaces swarm the faultline, drawn by tectonic energy. (Location: Severance Faultline, Officer Valen) Clear them before they destabilize the plate boundaries.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -3260,7 +3260,7 @@
           "type": "collect",
           "target": "carapace_fragment",
           "count": 3,
-          "description": "Collect carapace fragment (x3)."
+          "description": "Collect carapace fragment (x3). [Item: Carapace Fragment]"
         }
       ],
       "rewards": {
@@ -3287,7 +3287,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Crystal Tyrants are exploiting the unstable terrain. Their crystal resonance amplifies the seismic chaos. Break them.",
+      "description": "Crystal Tyrants are exploiting the unstable terrain. (Location: Severance Faultline, Officer Valen) Their crystal resonance amplifies the seismic chaos. Break them.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -3311,7 +3311,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 4,
-          "description": "Clear Abyssal Reavers drawn to the Tyrants energy."
+          "description": "Clear Abyssal Reavers drawn to the Tyrants energy. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -3338,7 +3338,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "Gigantic Jotunns are migrating through the faultline zone, crushing everything in their path. Redirect or destroy them.",
+      "description": "Gigantic Jotunns are migrating through the faultline zone, crushing everything in their path. (Location: Severance Faultline, Officer Valen) Redirect or destroy them.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -3356,13 +3356,13 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
-          "description": "Defeat Jotunns migrating through the faultline."
+          "description": "Defeat Jotunns migrating through the faultline. [Gigantic Jotunn]"
         },
         {
           "type": "collect",
           "target": "monster_material",
           "count": 1,
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -3389,7 +3389,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The Aethel Siphon Core — a planetary stabilizer built by the Precursors — is failing. Enter the Core and assess the damage.",
+      "description": "The Aethel Siphon Core — a planetary stabilizer built by the Precursors — is failing. Enter the Core and assess the damage. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -3413,7 +3413,7 @@
           "type": "collect",
           "target": "thick_hide",
           "count": 2,
-          "description": "Collect thick hide (x2)."
+          "description": "Collect thick hide (x2). [Item: Thick Hide]"
         }
       ],
       "rewards": {
@@ -3440,7 +3440,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Hostile entities have infested the Siphon Core. They must be purged before repair operations can begin.",
+      "description": "Hostile entities have infested the Siphon Core. (Location: Aethel Siphon Core, Officer Valen) They must be purged before repair operations can begin.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -3458,13 +3458,13 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 8,
-          "description": "Purge Abyssal Reavers from the Core."
+          "description": "Purge Abyssal Reavers from the Core. [Aethel Abyssal Reaver]"
         },
         {
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 5,
-          "description": "Eliminate Void Channelers corrupting the Core."
+          "description": "Eliminate Void Channelers corrupting the Core. [Aethel Void Channeler]"
         }
       ],
       "rewards": {
@@ -3491,7 +3491,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Corrupted Behemoths are assaulting the Siphon Core's primary conduits. If the conduits fall, the Core goes critical.",
+      "description": "Corrupted Behemoths are assaulting the Siphon Core's primary conduits. (Location: Aethel Siphon Core, Officer Valen) If the conduits fall, the Core goes critical.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -3509,13 +3509,13 @@
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
-          "description": "Defeat Corrupted Behemoths at the primary conduits."
+          "description": "Defeat Corrupted Behemoths at the primary conduits. [Aethel Corrupted Behemoth]"
         },
         {
           "type": "collect",
           "target": "crystal_core",
           "count": 1,
-          "description": "Collect crystal core (x1)."
+          "description": "Collect crystal core (x1). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -3542,7 +3542,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Aethel Rift Stalkers are opening micro-rifts inside the Core. Close the rifts and eliminate the Stalkers before containment fails.",
+      "description": "Aethel Rift Stalkers are opening micro-rifts inside the Core. (Location: Aethel Siphon Core, Officer Valen) Close the rifts and eliminate the Stalkers before containment fails.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -3560,7 +3560,7 @@
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 6,
-          "description": "Defeat Rift Stalkers near the micro-rifts."
+          "description": "Defeat Rift Stalkers near the micro-rifts. [Aethel Rift Stalker]"
         },
         {
           "type": "kill",
@@ -3593,7 +3593,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The seismic data is clear: the Gravity Titan stirs beneath the Cradle Expanse. Its awakening is linked to the Siphon Core failure. Prepare for the worst.",
+      "description": "The seismic data is clear: the Gravity Titan stirs beneath the Cradle Expanse. (Location: Aethel Siphon Core, Officer Valen) Its awakening is linked to the Siphon Core failure. Prepare for the worst.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -3601,7 +3601,7 @@
       },
       "requirements": {
         "min_level": 68,
-        "reputation_required": 4020,
+        "reputation_required": 230,
         "required_quests": [
           "fq_conc_068"
         ]
@@ -3611,13 +3611,13 @@
           "type": "collect",
           "target": "core_fragment",
           "count": 3,
-          "description": "Collect core fragment (x3)."
+          "description": "Collect core fragment (x3). [Item: Core Fragment]"
         },
         {
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 1,
-          "description": "Defeat a Jotunn drawn by the Titan's awakening call."
+          "description": "Defeat a Jotunn drawn by the Titan's awakening call. [Gigantic Jotunn]"
         }
       ],
       "rewards": {
@@ -3644,7 +3644,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "CRADLE_EXPANSE",
-      "description": "MAXIMUM PRIORITY ALERT. The Gravity Titan has risen from beneath the Cradle Expanse. This Raid Boss Tier-3 entity can manipulate gravity itself. If it reaches full power, Xylos's gravity field will collapse. You are the only operative capable of stopping it. THE CONCORDIUM COMMANDS YOU TO VICTORY.",
+      "description": "MAXIMUM PRIORITY ALERT. The Gravity Titan has risen from beneath the Cradle Expanse. This Raid Boss Tier-3 entity can manipulate gravity itself. If it reaches full power, Xylos's gravity field will collapse. You are the only operative capable of stopping it. THE CONCORDIUM COMMANDS YOU TO VICTORY. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -3662,19 +3662,19 @@
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "description": "DEFEAT THE GRAVITY TITAN."
+          "description": "DEFEAT THE GRAVITY TITAN. [Gravity Titan]"
         },
         {
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 5,
-          "description": "Clear the Titan's Abyssal escorts."
+          "description": "Clear the Titan's Abyssal escorts. [Aethel Abyssal Reaver]"
         },
         {
           "type": "collect",
           "target": "void_channeler_core",
           "count": 1,
-          "description": "Collect void channeler core (x1)."
+          "description": "Collect void channeler core (x1). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -3709,7 +3709,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The Gravity Titan's defeat has revealed the entrance to the Prima Materia Forge — the Precursor facility where pure matter is shaped. Claim it for Concordium.",
+      "description": "The Gravity Titan's defeat has revealed the entrance to the Prima Materia Forge — the Precursor facility where pure matter is shaped. Claim it for Concordium. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -3733,7 +3733,7 @@
           "type": "collect",
           "target": "void_channeler_core",
           "count": 2,
-          "description": "Collect void channeler core (x2)."
+          "description": "Collect void channeler core (x2). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -3760,7 +3760,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The Forge has ancient automated defenses. Disable them systematically — but beware rival faction scavengers.",
+      "description": "The Forge has ancient automated defenses. (Location: Prima Materia Forge, Officer Valen) Disable them systematically — but beware rival faction scavengers.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -3778,13 +3778,13 @@
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
-          "description": "Destroy Forge defense automatons."
+          "description": "Destroy Forge defense automatons. [Aethel Iron Carapace]"
         },
         {
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 4,
-          "description": "Eliminate rival faction scavengers."
+          "description": "Eliminate rival faction scavengers. [Aethel Rift Stalker]"
         }
       ],
       "rewards": {
@@ -3811,7 +3811,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Corrupted Behemoths have been drawn to the Forge's energy signature. They must be purged before they consume the Prima Materia.",
+      "description": "Corrupted Behemoths have been drawn to the Forge's energy signature. (Location: Prima Materia Forge, Officer Valen) They must be purged before they consume the Prima Materia.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -3829,13 +3829,13 @@
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
-          "description": "Purge Corrupted Behemoths from the Forge."
+          "description": "Purge Corrupted Behemoths from the Forge. [Aethel Corrupted Behemoth]"
         },
         {
           "type": "collect",
           "target": "crystal_core",
           "count": 2,
-          "description": "Collect crystal core (x2)."
+          "description": "Collect crystal core (x2). [Item: Crystal Core]"
         }
       ],
       "rewards": {
@@ -3862,7 +3862,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Abyssal Reavers are trying to corrupt the Forge's core. The Abyss must not claim the Prima Materia.",
+      "description": "Abyssal Reavers are trying to corrupt the Forge's core. (Location: Prima Materia Forge, Officer Valen) The Abyss must not claim the Prima Materia.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -3880,13 +3880,13 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 8,
-          "description": "Exterminate Abyssal Reavers in the Forge."
+          "description": "Exterminate Abyssal Reavers in the Forge. [Aethel Abyssal Reaver]"
         },
         {
           "type": "collect",
           "target": "void_channeler_core",
           "count": 3,
-          "description": "Collect void channeler core (x3)."
+          "description": "Collect void channeler core (x3). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -3913,7 +3913,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Gigantic Jotunns have claimed the deepest forge chambers as their territory. These creatures wield the Forge's heat as a weapon.",
+      "description": "Gigantic Jotunns have claimed the deepest forge chambers as their territory. (Location: Prima Materia Forge, Officer Valen) These creatures wield the Forge's heat as a weapon.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -3931,7 +3931,7 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
-          "description": "Defeat Jotunn Forge-Masters."
+          "description": "Defeat Jotunn Forge-Masters. [Gigantic Jotunn]"
         },
         {
           "type": "kill",
@@ -3964,7 +3964,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The Prima Materia War has begun. Rival factions, void entities, and ancient guardians clash for control. Concordium must dominate.",
+      "description": "The Prima Materia War has begun. (Location: Prima Materia Forge, Officer Valen) Rival factions, void entities, and ancient guardians clash for control. Concordium must dominate.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -3982,19 +3982,19 @@
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 6,
-          "description": "Defeat hostile forces in the Forge contested zones."
+          "description": "Defeat hostile forces in the Forge contested zones. [Aethel Void Channeler]"
         },
         {
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 6,
-          "description": "Destroy Abyssal forces attempting Forge control."
+          "description": "Destroy Abyssal forces attempting Forge control. [Aethel Abyssal Reaver]"
         },
         {
           "type": "collect",
           "target": "raw_aethel_fragment",
           "count": 2,
-          "description": "Collect raw aethel fragment (x2)."
+          "description": "Collect raw aethel fragment (x2). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -4021,7 +4021,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Residual Gravity Titan energy has spawned Titan Forge Automatons. These machines are immune to conventional damage. Find their thermal weak points.",
+      "description": "Residual Gravity Titan energy has spawned Titan Forge Automatons. (Location: Prima Materia Forge, Officer Valen) These machines are immune to conventional damage. Find their thermal weak points.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -4045,7 +4045,7 @@
           "type": "collect",
           "target": "core_fragment",
           "count": 1,
-          "description": "Collect core fragment (x1)."
+          "description": "Collect core fragment (x1). [Item: Core Fragment]"
         }
       ],
       "rewards": {
@@ -4072,7 +4072,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "A Titan Proto Core — a failed Titan gestation — has been reactivated by the Forge's energy. Destroy it before it matures.",
+      "description": "A Titan Proto Core — a failed Titan gestation — has been reactivated by the Forge's energy. (Location: Prima Materia Forge, Officer Valen) Destroy it before it matures.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -4096,7 +4096,7 @@
           "type": "kill",
           "target": "TITAN_FORGE_AUTOMATON",
           "count": 3,
-          "description": "Defeat Automatons guarding the Proto Core."
+          "description": "Defeat Automatons guarding the Proto Core. [Titan Forge Automaton]"
         }
       ],
       "rewards": {
@@ -4127,7 +4127,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "With the Forge secured, Concordium's position is unassailable. But one final test remains. Prove that you are worthy of the title: Legend of Concordium.",
+      "description": "With the Forge secured, Concordium's position is unassailable. (Location: Prima Materia Forge, Officer Valen) But one final test remains. Prove that you are worthy of the title: Legend of Concordium.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -4135,7 +4135,7 @@
       },
       "requirements": {
         "min_level": 78,
-        "reputation_required": 4620,
+        "reputation_required": 280,
         "required_quests": [
           "fq_conc_078"
         ]
@@ -4186,7 +4186,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "ORBITAL_SENTINEL_COMMAND",
-      "description": "You have defeated both Titan and Harbinger in a single campaign. Concordium High Command recognizes your ascension. Return to Orbital Sentinel Command for the highest commendation.",
+      "description": "You have defeated both Titan and Harbinger in a single campaign. Concordium High Command recognizes your ascension. Return to Orbital Sentinel Command for the highest commendation. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -4194,7 +4194,7 @@
       },
       "requirements": {
         "min_level": 79,
-        "reputation_required": 4680,
+        "reputation_required": 330,
         "required_quests": [
           "fq_conc_079"
         ]
@@ -4210,7 +4210,7 @@
           "type": "collect",
           "target": "monster_material",
           "count": 1,
-          "description": "Collect monster material (x1)."
+          "description": "Collect monster material (x1). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -4241,7 +4241,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "HIDDEN_AETHELGARDIAN_CITY",
-      "description": "Ancient records speak of the Hidden Aethelgardian City — a mythical location containing the secrets of the Precursors. Find it and claim its knowledge for Concordium.",
+      "description": "Ancient records speak of the Hidden Aethelgardian City — a mythical location containing the secrets of the Precursors. Find it and claim its knowledge for Concordium. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -4249,7 +4249,7 @@
       },
       "requirements": {
         "min_level": 80,
-        "reputation_required": 4740,
+        "reputation_required": 380,
         "required_quests": [
           "fq_conc_080"
         ]
@@ -4265,7 +4265,7 @@
           "type": "collect",
           "target": "void_channeler_core",
           "count": 3,
-          "description": "Collect void channeler core (x3)."
+          "description": "Collect void channeler core (x3). [Item: Void Channeler Core]"
         }
       ],
       "rewards": {
@@ -4292,7 +4292,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "HIDDEN_AETHELGARDIAN_CITY",
-      "description": "The Aethelgardian City is protected by ancient energy constructs. They recognize no faction — only threats to the Precursor legacy.",
+      "description": "The Aethelgardian City is protected by ancient energy constructs. (Location: Hidden Aethelgardian City, Officer Valen) They recognize no faction — only threats to the Precursor legacy.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -4310,7 +4310,7 @@
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 8,
-          "description": "Defeat ancient city guardian constructs."
+          "description": "Defeat ancient city guardian constructs. [Aethel Rift Stalker]"
         },
         {
           "type": "kill",
@@ -4343,7 +4343,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "HIDDEN_AETHELGARDIAN_CITY",
-      "description": "The Precursor Archives reveal the existence of the World Engine — a planetary control system beneath the Siphon Core. Gather more intelligence.",
+      "description": "The Precursor Archives reveal the existence of the World Engine — a planetary control system beneath the Siphon Core. (Location: Hidden Aethelgardian City, Officer Valen) Gather more intelligence.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -4361,13 +4361,13 @@
           "type": "collect",
           "target": "abyssal_reaver_claw",
           "count": 4,
-          "description": "Collect abyssal reaver claw (x4)."
+          "description": "Collect abyssal reaver claw (x4). [Item: Abyssal Reaver Claw]"
         },
         {
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 4,
-          "description": "Defeat Reavers drawn to the Precursor energy."
+          "description": "Defeat Reavers drawn to the Precursor energy. [Aethel Abyssal Reaver]"
         }
       ],
       "rewards": {
@@ -4394,7 +4394,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "SHATTERED_HEART",
-      "description": "The Ashen Drake has absorbed residual Titan energy and evolved to its maximum threat level. This is the ultimate draconic challenge.",
+      "description": "The Ashen Drake has absorbed residual Titan energy and evolved to its maximum threat level. (Location: Shattered Heart, Officer Valen) This is the ultimate draconic challenge.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -4449,7 +4449,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Abyss Harbinger has been reborn in the deepest chasm, empowered by the chaos of the Titan War. Destroy it permanently.",
+      "description": "The Abyss Harbinger has been reborn in the deepest chasm, empowered by the chaos of the Titan War. (Location: Void Echo Chasm, Officer Valen) Destroy it permanently.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -4504,7 +4504,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "CRADLE_EXPANSE",
-      "description": "The Gravity Titan has reformed from the planet's core energy. This third manifestation is the most powerful yet. End the cycle.",
+      "description": "The Gravity Titan has reformed from the planet's core energy. (Location: Cradle Expanse, Officer Valen) This third manifestation is the most powerful yet. End the cycle.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -4559,7 +4559,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "All three Apex entities — Drake, Titan, and Harbinger — have been sighted simultaneously. Concordium authorizes the Tri-Threat Protocol.",
+      "description": "All three Apex entities — Drake, Titan, and Harbinger — have been sighted simultaneously. (Location: Prima Materia Forge, Officer Valen) Concordium authorizes the Tri-Threat Protocol.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -4577,19 +4577,19 @@
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "description": "Hunt the Drake manifestation."
+          "description": "Hunt the Drake manifestation. [Ashen Drake]"
         },
         {
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "description": "Confront the Titan manifestation."
+          "description": "Confront the Titan manifestation. [Gravity Titan]"
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "description": "Destroy the Harbinger manifestation."
+          "description": "Destroy the Harbinger manifestation. [Abyss Harbinger]"
         }
       ],
       "rewards": {
@@ -4624,7 +4624,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "With the Apex entities suppressed, Concordium begins securing absolute sovereignty over Xylos's planetary infrastructure.",
+      "description": "With the Apex entities suppressed, Concordium begins securing absolute sovereignty over Xylos's planetary infrastructure. (Region: Aethel Siphon Core) Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -4642,13 +4642,13 @@
           "type": "travel",
           "target": "AETHEL_SIPHON_CORE",
           "count": 1,
-          "description": "Return to the stabilized Siphon Core."
+          "description": "Return to the stabilized Siphon Core. (Travel to: Aethel Siphon Core, Shattered Heart)"
         },
         {
           "type": "collect",
           "target": "raw_aethel_fragment",
           "count": 5,
-          "description": "Collect raw aethel fragment (x5)."
+          "description": "Collect raw aethel fragment (x5). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -4675,7 +4675,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "Beneath the Siphon Core lies the World Engine — the Precursor device that can reshape Xylos. Concordium must claim it before any other faction discovers it.",
+      "description": "Beneath the Siphon Core lies the World Engine — the Precursor device that can reshape Xylos. (Location: Aethel Siphon Core, Officer Valen) Concordium must claim it before any other faction discovers it.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -4683,7 +4683,7 @@
       },
       "requirements": {
         "min_level": 88,
-        "reputation_required": 5220,
+        "reputation_required": 430,
         "required_quests": [
           "fq_conc_088"
         ]
@@ -4693,13 +4693,13 @@
           "type": "collect",
           "target": "monster_material",
           "count": 3,
-          "description": "Collect monster material (x3)."
+          "description": "Collect monster material (x3). [Item: Monster Material]"
         },
         {
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 2,
-          "description": "Defeat Jotunns guarding the World Engine vault."
+          "description": "Defeat Jotunns guarding the World Engine vault. [Gigantic Jotunn]"
         }
       ],
       "rewards": {
@@ -4726,7 +4726,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The World Engine is online. Its power is beyond comprehension. Concordium must use it to bring permanent stability to Xylos. Protect the activation sequence.",
+      "description": "The World Engine is online. (Location: Aethel Siphon Core, Officer Valen) Its power is beyond comprehension. Concordium must use it to bring permanent stability to Xylos. Protect the activation sequence.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -4734,7 +4734,7 @@
       },
       "requirements": {
         "min_level": 89,
-        "reputation_required": 5280,
+        "reputation_required": 480,
         "required_quests": [
           "fq_conc_089"
         ]
@@ -4744,19 +4744,19 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 10,
-          "description": "Defend the World Engine from Abyssal assault."
+          "description": "Defend the World Engine from Abyssal assault. [Aethel Abyssal Reaver]"
         },
         {
           "type": "kill",
           "target": "CRYSTAL_TYRANT",
           "count": 2,
-          "description": "Defeat Tyrants attempting to disrupt the activation."
+          "description": "Defeat Tyrants attempting to disrupt the activation. [Crystal Tyrant]"
         },
         {
           "type": "collect",
           "target": "raw_aethel_fragment",
           "count": 1,
-          "description": "Collect raw aethel fragment (x1)."
+          "description": "Collect raw aethel fragment (x1). [Item: Raw Aethel Fragment]"
         }
       ],
       "rewards": {
@@ -4783,7 +4783,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "SEVERANCE_FAULTLINE",
-      "description": "With the World Engine stabilizing Xylos, remaining hostile entities are being flushed to the surface. Begin the final purge at the Severance Faultline.",
+      "description": "With the World Engine stabilizing Xylos, remaining hostile entities are being flushed to the surface. Begin the final purge at the Severance Faultline. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -4801,13 +4801,13 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 5,
-          "description": "Purge Jotunns from the faultline."
+          "description": "Purge Jotunns from the faultline. [Gigantic Jotunn]"
         },
         {
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 8,
-          "description": "Eliminate Carapace swarms."
+          "description": "Eliminate Carapace swarms. [Aethel Iron Carapace]"
         }
       ],
       "rewards": {
@@ -4834,7 +4834,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "VOID_ECHO_CHASM",
-      "description": "The Abyss is collapsing. Its remaining forces are pouring out in desperation. Seal the Void Echo Chasm forever.",
+      "description": "The Abyss is collapsing. Its remaining forces are pouring out in desperation. Seal the Void Echo Chasm forever. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -4852,7 +4852,7 @@
           "type": "kill",
           "target": "AETHEL_ABYSSAL_REAVER",
           "count": 10,
-          "description": "Exterminate the final Abyssal Reavers."
+          "description": "Exterminate the final Abyssal Reavers. [Aethel Abyssal Reaver]"
         },
         {
           "type": "kill",
@@ -4885,7 +4885,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "SHATTERED_HEART",
-      "description": "Crystal Tyrants have made their final stand in the Shattered Heart. Break their crystalline empire once and for all.",
+      "description": "Crystal Tyrants have made their final stand in the Shattered Heart. Break their crystalline empire once and for all. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -4909,7 +4909,7 @@
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "description": "Slay the Drake guarding their retreat."
+          "description": "Slay the Drake guarding their retreat. [Ashen Drake]"
         }
       ],
       "rewards": {
@@ -4936,7 +4936,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "The Prima Materia Forge must be completely purified of all void corruption. This is Concordium's final territorial claim.",
+      "description": "The Prima Materia Forge must be completely purified of all void corruption. This is Concordium's final territorial claim. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -4954,13 +4954,13 @@
           "type": "kill",
           "target": "AETHEL_VOID_CHANNELER",
           "count": 8,
-          "description": "Silence the last Void Channelers."
+          "description": "Silence the last Void Channelers. [Aethel Void Channeler]"
         },
         {
           "type": "kill",
           "target": "TITAN_FORGE_AUTOMATON",
           "count": 3,
-          "description": "Disable rogue Forge Automatons."
+          "description": "Disable rogue Forge Automatons. [Titan Forge Automaton]"
         }
       ],
       "rewards": {
@@ -4987,7 +4987,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "CRADLE_EXPANSE",
-      "description": "The Cradle Expanse is now officially Concordium sovereign territory. Enforce it with overwhelming force.",
+      "description": "The Cradle Expanse is now officially Concordium sovereign territory. Enforce it with overwhelming force. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -5005,13 +5005,13 @@
           "type": "kill",
           "target": "AETHEL_RIFT_STALKER",
           "count": 10,
-          "description": "Clear all hostiles from the Expanse."
+          "description": "Clear all hostiles from the Expanse. [Aethel Rift Stalker]"
         },
         {
           "type": "kill",
           "target": "GRAVITY_TITAN",
           "count": 1,
-          "description": "Destroy any residual Titan manifestations."
+          "description": "Destroy any residual Titan manifestations. [Gravity Titan]"
         }
       ],
       "rewards": {
@@ -5038,7 +5038,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "ORBITAL_SENTINEL_COMMAND",
-      "description": "Concordium now watches over Xylos from orbit. Maintain eternal vigilance over the planet you have helped to save and rule.",
+      "description": "Concordium now watches over Xylos from orbit. (Location: Orbital Sentinel Command, Officer Valen) Maintain eternal vigilance over the planet you have helped to save and rule.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -5056,13 +5056,13 @@
           "type": "kill",
           "target": "AETHEL_IRON_CARAPACE",
           "count": 10,
-          "description": "Patrol and clear orbital sectors."
+          "description": "Patrol and clear orbital sectors. [Aethel Iron Carapace]"
         },
         {
           "type": "kill",
           "target": "AETHEL_CORRUPTED_BEHEMOTH",
           "count": 3,
-          "description": "Eliminate any remaining Corrupted Behemoths."
+          "description": "Eliminate any remaining Corrupted Behemoths. [Aethel Corrupted Behemoth]"
         }
       ],
       "rewards": {
@@ -5089,7 +5089,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "AETHEL_SIPHON_CORE",
-      "description": "The World Engine requires one final calibration. Channel your accumulated power into the Engine to permanently seal the void and stabilize Xylos.",
+      "description": "The World Engine requires one final calibration. (Location: Aethel Siphon Core, Officer Valen) Channel your accumulated power into the Engine to permanently seal the void and stabilize Xylos.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -5097,7 +5097,7 @@
       },
       "requirements": {
         "min_level": 96,
-        "reputation_required": 5700,
+        "reputation_required": 530,
         "required_quests": [
           "fq_conc_096"
         ]
@@ -5107,19 +5107,19 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 3,
-          "description": "Defeat Jotunns resisting the final seal."
+          "description": "Defeat Jotunns resisting the final seal. [Gigantic Jotunn]"
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "description": "Destroy the Harbinger's final echo."
+          "description": "Destroy the Harbinger's final echo. [Abyss Harbinger]"
         },
         {
           "type": "collect",
           "target": "monster_material",
           "count": 3,
-          "description": "Collect monster material (x3)."
+          "description": "Collect monster material (x3). [Item: Monster Material]"
         }
       ],
       "rewards": {
@@ -5146,7 +5146,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "PRIMA_MATERIA_FORGE",
-      "description": "Only one step remains before absolute transcendence. Face the three Apex entities — Jotunn, Drake, and Harbinger — to earn the Eternity Seal.",
+      "description": "Only one step remains before absolute transcendence. (Location: Prima Materia Forge, Officer Valen) Face the three Apex entities — Jotunn, Drake, and Harbinger — to earn the Eternity Seal.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -5154,7 +5154,7 @@
       },
       "requirements": {
         "min_level": 97,
-        "reputation_required": 5760,
+        "reputation_required": 580,
         "required_quests": [
           "fq_conc_097"
         ]
@@ -5164,25 +5164,25 @@
           "type": "kill",
           "target": "GIGANTIC_JOTUNN",
           "count": 1,
-          "description": "Defeat the Apex Jotunn."
+          "description": "Defeat the Apex Jotunn. [Gigantic Jotunn]"
         },
         {
           "type": "kill",
           "target": "ASHEN_DRAKE",
           "count": 1,
-          "description": "Defeat the Apex Drake."
+          "description": "Defeat the Apex Drake. [Ashen Drake]"
         },
         {
           "type": "kill",
           "target": "ABYSS_HARBINGER",
           "count": 1,
-          "description": "Defeat the Apex Harbinger."
+          "description": "Defeat the Apex Harbinger. [Abyss Harbinger]"
         },
         {
           "type": "collect",
           "target": "drake_heart",
           "count": 1,
-          "description": "Collect drake heart (x1)."
+          "description": "Collect drake heart (x1). [Item: Drake Heart]"
         }
       ],
       "rewards": {
@@ -5217,7 +5217,7 @@
       "rank": "S",
       "faction": "CONCORDIUM",
       "region": "VOID_ECHO_CHASM",
-      "description": "The deepest level of Void Echo Chasm holds the Eternal Crown — the symbol of absolute mastery over Xylos. Descend one final time and claim it.",
+      "description": "The deepest level of Void Echo Chasm holds the Eternal Crown — the symbol of absolute mastery over Xylos. Descend one final time and claim it. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -5225,7 +5225,7 @@
       },
       "requirements": {
         "min_level": 98,
-        "reputation_required": 5820,
+        "reputation_required": 630,
         "required_quests": [
           "fq_conc_098"
         ]
@@ -5235,7 +5235,7 @@
           "type": "travel",
           "target": "VOID_ECHO_CHASM",
           "count": 1,
-          "description": "Descend to the deepest chasm level."
+          "description": "Descend to the deepest chasm level. (Travel to: Void Echo Chasm)"
         },
         {
           "type": "kill",
@@ -5253,7 +5253,7 @@
           "type": "collect",
           "target": "abyss_fragment",
           "count": 1,
-          "description": "Collect abyss fragment (x1)."
+          "description": "Collect abyss fragment (x1). [Item: Abyss Fragment]"
         }
       ],
       "rewards": {
@@ -5280,7 +5280,7 @@
       "rank": "SS",
       "faction": "CONCORDIUM",
       "region": "NEXUS_CORE",
-      "description": "You have done the impossible. You have claimed the Eternal Crown. Return to Nexus Core where all of Concordium awaits. You are no longer an operative. You are the ETERNAL LEGEND OF CONCORDIUM. Progress through Unity. Strength through Harmony. Now and forever.",
+      "description": "You have done the impossible. You have claimed the Eternal Crown. Return to Nexus Core where all of Concordium awaits. You are no longer an operative. You are the ETERNAL LEGEND OF CONCORDIUM. Progress through Unity. Strength through Harmony. Now and forever. Quest giver: Officer Valen at Nexus Core Command Post.",
       "quest_giver": {
         "npc_id": "npc_concordium_officer",
         "name": "",
@@ -5288,7 +5288,7 @@
       },
       "requirements": {
         "min_level": 99,
-        "reputation_required": 5880,
+        "reputation_required": 680,
         "required_quests": [
           "fq_conc_099"
         ]
@@ -5304,7 +5304,7 @@
           "type": "interact",
           "target": "npc_concordium_officer",
           "count": 1,
-          "description": "Receive the highest honors from Concordium High Command."
+          "description": "Receive the highest honors from Concordium High Command. (Officer Valen at Nexus Core Command Post)"
         }
       ],
       "rewards": {
