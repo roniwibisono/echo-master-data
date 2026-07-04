@@ -8013,6 +8013,91 @@
       "special_reward": []
     },
     {
+      "monster_id": 926,
+      "code": "SIEGE_REAPER",
+      "name": "Siege Reaper",
+      "rank": "elite",
+      "level": 12,
+      "race_code": "AUTOCHTHON",
+      "element": [
+        "metal",
+        "electric"
+      ],
+      "spawn_monster_id": "IRONFORGE_FACTORY",
+      "spawn_location": [
+        "Collapsed Assembly Yard"
+      ],
+      "base_stats": {
+        "hp": 2100,
+        "mp": 280,
+        "atk": 145,
+        "def": 125,
+        "agi": 24,
+        "per": 42
+      },
+      "scaling": {
+        "basic_attack": 1.5,
+        "skill_scaling_bonus": 0.45
+      },
+      "critical_rate": 0.11,
+      "critical_damage": 1.8,
+      "resistances": [
+        "metal",
+        "bleed"
+      ],
+      "weaknesses": [
+        "electric"
+      ],
+      "status_immunity": [
+        "poison"
+      ],
+      "ai_pattern": {
+        "behavior": "aggressive_siege_hunter"
+      },
+      "skill_set": {
+        "passive_skills": [
+          {
+            "skill_id": "siege_frame"
+          },
+          {
+            "skill_id": "combat_targeting"
+          }
+        ],
+        "active_skills": [
+          {
+            "skill_id": "plasma_lance"
+          },
+          {
+            "skill_id": "crusher_claw"
+          },
+          {
+            "skill_id": "reactor_overdrive"
+          }
+        ]
+      },
+      "exp_reward": 260,
+      "currency_reward": 145,
+      "crd_reward": 16,
+      "guild_point": 28,
+      "reputation_point": 30,
+      "hunting_point": 14,
+      "drop_item": [
+        {
+          "itemId": "siege_plasma_emitter",
+          "chance": 0.4
+        },
+        {
+          "itemId": "reinforced_hydraulic_frame",
+          "chance": 0.35
+        },
+        {
+          "itemId": "high_density_reactor_core",
+          "chance": 0.2
+        }
+      ],
+      "special_reward": []
+    },
+    {
       "monster_id": 50015,
       "code": "RESONANCE_ECHO",
       "name": "Resonance Echo",
