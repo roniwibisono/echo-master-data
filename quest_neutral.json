@@ -246,15 +246,15 @@
         },
         {
           "type": "collect",
-          "target": "SUPPLY_CRATE_MEDICAL",
+          "target": "salvaged_supply_crate",
           "count": 5,
-          "description": "Collect 5x SUPPLY_CRATE_MEDICAL from the skirmish area drops"
+          "description": "Collect 5x salvaged_supply_crate from the skirmish area drops"
         },
         {
           "type": "kill",
-          "target": "OPPORTUNIST_LOOTER",
+          "target": "FERAL_SCAVENGER",
           "count": 10,
-          "description": "Defeat 10x OPPORTUNIST_LOOTER at the Mid-Zone Skirmish Area"
+          "description": "Defeat 10x FERAL_SCAVENGER at the Mid-Zone Skirmish Area"
         },
         {
           "type": "interact",
@@ -270,7 +270,7 @@
         "reputation": 15,
         "items": [
           {
-            "item_id": "HEALING_POTION_LARGE",
+            "item_id": "con_large_hp_cell",
             "quantity": 5
           }
         ]
@@ -314,13 +314,13 @@
         },
         {
           "type": "kill",
-          "target": "ARCHIVE_GUARDIAN_AUTOMATON",
+          "target": "GRID_DEFENDER",
           "count": 4,
           "description": "Defeat {count} automatons guarding the vault"
         },
         {
           "type": "collect",
-          "target": "LOST_ARCHIVE_PAGE",
+          "target": "archive_scroll",
           "count": 1,
           "description": "Retrieve the lost archive page"
         },
@@ -338,11 +338,11 @@
         "reputation": 50,
         "items": [
           {
-            "item_id": "CHRONICLE_LENS",
+            "item_id": "mat_quantum_lens",
             "quantity": 1
           },
           {
-            "item_id": "RARE_LORE_TOME",
+            "item_id": "ancient_data_slate",
             "quantity": 1
           }
         ]
@@ -374,19 +374,19 @@
       "objectives": [
         {
           "type": "collect",
-          "target": "IRON_HEGEMON_ALLOY_SHARD",
+          "target": "salvaged_alloy_fragment",
           "count": 10,
           "description": "Collect 10 Iron Hegemon Alloy Shards (from Iron Hegemony regions)"
         },
         {
           "type": "collect",
-          "target": "ARCANE_CRYSTAL_CORE",
+          "target": "crystal_core",
           "count": 5,
           "description": "Collect 5 Arcane Crystal Cores (from Arcanum Seeker regions)"
         },
         {
           "type": "collect",
-          "target": "STARFORGED_STELLAR_ORE",
+          "target": "mat_iron_ore",
           "count": 8,
           "description": "Collect 8 Starforged Stellar Ore (from Starforged Legion regions)"
         },
@@ -404,7 +404,7 @@
         "reputation": 25,
         "items": [
           {
-            "item_id": "CROSS_FACTION_ALLOY_INGOT",
+            "item_id": "ingot_cache",
             "quantity": 3
           }
         ]
@@ -484,7 +484,7 @@
       "objectives": [
         {
           "type": "collect",
-          "target": "RESOURCE_SAMPLE_ANY",
+          "target": "scrap_metal",
           "count": 20,
           "description": "Collect 20 material resource samples from any region (any item material counts)"
         }
@@ -529,13 +529,13 @@
         },
         {
           "type": "kill",
-          "target": "INTERCEPTOR_SQUAD",
+          "target": "DELTA_ASSAULT_DRONE",
           "count": 6,
           "description": "Eliminate {count} interceptors who ambush you during delivery"
         },
         {
           "type": "interact",
-          "target": "GHOST_CONTACT_NPC",
+          "target": "npc_shady_smuggler",
           "count": 1,
           "description": "Complete the delivery with Ghost's contact"
         }
@@ -547,7 +547,7 @@
         "reputation": 0,
         "items": [
           {
-            "item_id": "GHOST_SUPPLY_CRATE_RANDOM",
+            "item_id": "smugglers_cache",
             "quantity": 1
           }
         ]
