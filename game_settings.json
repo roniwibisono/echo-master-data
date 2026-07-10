@@ -7,15 +7,15 @@
     {
       "key": "exp.global_multiplier",
       "category": "multiplier",
-      "value": 13.0,
-      "default_value": 1.0,
+      "value": 3.0,
+      "default_value": 3.0,
       "value_type": "double",
       "min_value": 0.1,
       "max_value": 100,
       "hot_reloadable": true,
       "requires_client_version": null,
       "enabled": true,
-      "description": "Global EXP multiplier on ALL exp gains. Currently dev-inflated (13); production default 1.0.",
+      "description": "Global EXP multiplier on ALL exp gains. Production 3.0: the faction quest line carries a player to ~L100 with a light optional grind (analysis-tuned).",
       "sort_order": 0
     },
     {
@@ -49,7 +49,7 @@
     {
       "key": "exp.multi_enemy_bonus",
       "category": "multiplier",
-      "value": 10.3,
+      "value": 1.3,
       "default_value": 1.3,
       "value_type": "double",
       "min_value": 1.0,
@@ -57,13 +57,13 @@
       "hot_reloadable": true,
       "requires_client_version": null,
       "enabled": true,
-      "description": "EXP bonus vs multiple enemies. Dev-inflated (10.3); prod 1.3.",
+      "description": "EXP bonus vs multiple enemies.",
       "sort_order": 3
     },
     {
       "key": "exp.elite_bonus",
       "category": "multiplier",
-      "value": 10.6,
+      "value": 1.6,
       "default_value": 1.6,
       "value_type": "double",
       "min_value": 1.0,
@@ -71,13 +71,13 @@
       "hot_reloadable": true,
       "requires_client_version": null,
       "enabled": true,
-      "description": "EXP bonus vs elite/boss. Dev-inflated (10.6); prod 1.6.",
+      "description": "EXP bonus vs elite/boss.",
       "sort_order": 4
     },
     {
       "key": "exp.idle_multiplier",
       "category": "multiplier",
-      "value": 105.0,
+      "value": 1.0,
       "default_value": 1.0,
       "value_type": "double",
       "min_value": 0.1,
@@ -85,7 +85,7 @@
       "hot_reloadable": true,
       "requires_client_version": null,
       "enabled": true,
-      "description": "Idle/AFK EXP-per-minute multiplier. Dev-inflated (105); prod 1.0.",
+      "description": "Idle/AFK EXP-per-minute multiplier.",
       "sort_order": 5
     },
     {
@@ -105,7 +105,7 @@
     {
       "key": "quest.exp_multiplier",
       "category": "multiplier",
-      "value": 10.0,
+      "value": 1.0,
       "default_value": 1.0,
       "value_type": "double",
       "min_value": 0.1,
@@ -113,7 +113,7 @@
       "hot_reloadable": true,
       "requires_client_version": null,
       "enabled": true,
-      "description": "Quest EXP reward multiplier (stacks with exp.global). Dev-inflated (10); prod 1.0.",
+      "description": "Quest EXP reward multiplier (stacks with exp.global).",
       "sort_order": 7
     },
     {
