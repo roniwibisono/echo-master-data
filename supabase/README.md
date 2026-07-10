@@ -136,6 +136,28 @@ files. `getDialogForQuest` maps to a `quest_id` index. Seed chunked
 flattens it; the empty wrapper + a doc `meta` block are dropped). Round-trip:
 732 dialogs, 0 semantic diffs. **Migration roadmap complete.**
 
+## Game settings (centralized live-ops tuning → `game_settings`)
+
+`migrations/0010_game_settings.sql` + `seed/game_settings_seed.sql` (156 tunables
+across 17 categories). A single key-value table of **server-wide** knobs — exp/
+drop/credit multipliers, progression curve, economy, combat formulas, raid/siege/
+conclave, faction war+buffs, feature kill-switches, maintenance mode, client
+gating, MOTD, timed events, anti-cheat caps. Dotted keys (`exp.global_multiplier`,
+`conclave.duel.vp_target`). Each row carries `value` (current live), `default_value`
+(production intent), `value_type`, `min_value`/`max_value` clamps, `hot_reloadable`,
+`enabled`, `description`. A `game_settings_audit` table (admin-only RLS) logs every
+value change via trigger. The Flutter client will read these via a
+GameSettingsService (CDN `game_settings.json` + Supabase Realtime) so any value can
+change for the whole server in real time without a redeploy.
+
+**NOTE:** several multipliers are seeded at their CURRENT in-code (dev-inflated)
+values so enabling the system is behaviour-neutral: `exp.global_multiplier=13`,
+`quest.exp_multiplier=10`, `exp.idle_multiplier=105`, `exp.multi_enemy_bonus=10.3`,
+`exp.elite_bonus=10.6`. Their `default_value` is the production intent (1.0/1.3/1.6)
+— flip `value`→`default_value` when ready to rebalance. Authoring source:
+`tools/import_game_settings.py` (holds the catalog, emits JSON + seed);
+`tools/export_game_settings.py` publishes DB edits back to `game_settings.json`.
+
 ## Live-verified status
 
 All 10 tables are loaded in the live project (ref `fbntgtzimydjhuwedrjz`) and
@@ -175,6 +197,9 @@ optional fields are omitted when null. Both mean the same thing to the client
 Recommended order by maintenance pain / relational value:
 `quests` (done) → `shops` (done) → `raid_events` (done) → `items` (done) →
 `skills` (done) → `monsters` (done) → `allies` (done) → `npcs` (done) → `dialogs` (done). ALL DONE ✅
+
+Post-migration: `game_settings` (0010) — new centralized live-ops tuning table
+(not a JSON→DB migration; a new server-config domain). Seed with `import_game_settings.py`.
 
 Keep as static JSON (small, structural): `xylos_factions`, `master_race`,
 `class_list`, `biome_taxonomy`, `title_master`, `biome_*_mapping`, world-map
