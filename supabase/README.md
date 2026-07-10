@@ -136,6 +136,30 @@ files. `getDialogForQuest` maps to a `quest_id` index. Seed chunked
 flattens it; the empty wrapper + a doc `meta` block are dropped). Round-trip:
 732 dialogs, 0 semantic diffs. **Migration roadmap complete.**
 
+## Live-verified status
+
+All 10 tables are loaded in the live project (ref `fbntgtzimydjhuwedrjz`) and
+round-trip-verified against the CDN JSON (anon-key REST export → semantic diff,
+treating `null` == empty/absent). **Every domain: 0 real value diffs.**
+
+| Table                | Rows | Round-trip |
+|----------------------|-----:|:----------:|
+| quests               |  713 |     ✅     |
+| shops / shop_items   | 42 / 372 |  ✅    |
+| raid_events          |    3 |     ✅     |
+| items                | 1102 |     ✅     |
+| skills               |  688 |     ✅     |
+| monsters             |  187 |     ✅     |
+| allies               |   91 |     ✅     |
+| npcs                 |  147 |     ✅     |
+| dialogs              |  732 |     ✅     |
+
+Two harmless, expected normalizations show up as textual (not semantic) diffs:
+`items` JSONB columns (`stats_bonus` / `equipment_slots` / `special_effects`)
+are `NOT NULL DEFAULT`, so a source `null` round-trips as `{}` / `[]`; `npcs`
+optional fields are omitted when null. Both mean the same thing to the client
+(`null` == empty), so neither changes runtime behaviour.
+
 ## Operational notes
 - **JSONB reorders keys.** A round-trip through a `jsonb` column normalises key
   order + whitespace, so `export_*.py` output is *semantically identical* but
