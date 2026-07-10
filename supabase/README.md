@@ -38,9 +38,19 @@ verified: 713 quests, 0 value diffs).
 change — hook it into the app's `checkVersion` later if you move to querying
 Supabase directly instead of the CDN.
 
+## Shops (`shop_inventory.json` → 2 normalised tables)
+
+42 shops / 372 stocked items → `public.shops` + `public.shop_items` (see
+`migrations/0002_shops.sql`). Unlike quests, shops are **normalised** so per-item
+`stock` / `price_modifier` / `refresh_time` are editable row-by-row. Setup: run
+`0002_shops.sql` then `seed/shops_seed.sql` (regenerate via
+`tools/import_shops.py`). Publish edits back with `tools/export_shops.py`
+(re-nests rows into the exact `{meta, shops:[{categories:[{items}]}]}` file).
+Round-trip verified: 42 shops, 372 items, 0 diffs.
+
 ## Roadmap (same pattern, one domain at a time)
 Recommended order by maintenance pain / relational value:
-`quests` (done) → `shop_inventory` → `raid_boss_event` / `quest_events`
+`quests` (done) → `shops` (done) → `raid_boss_event` / `quest_events`
 (live/timed) → `items` → `skills` → `monsters` → `allies` → `npcs` → `dialogs`.
 
 Keep as static JSON (small, structural): `xylos_factions`, `master_race`,
