@@ -123,6 +123,17 @@ id isn't already in npc_list, and all 28 addition ids overlap it, so it adds
 zero NPCs at runtime (15 of the overlaps *differ* — intended patches the client
 silently ignores; worth cleaning up separately).
 
+## Dialogs (`dialog_tree_master.json` + `dialog_quests.json` → `dialogs`)
+
+732 dialogs (31 generic/NPC + 701 quest; `dialog_id` globally unique, 0 dups/
+overlap) → `public.dialogs` (`migrations/0009_dialogs.sql`). The `nodes`
+conversation tree is JSONB; `source_file` + `sort_order` round-trip to the two
+files. `getDialogForQuest` maps to a `quest_id` index. Seed chunked
+(`dialogs_seed_part01..07.sql`). Tools: `import_dialogs.py` / `export_dialogs.py`
+(dialog_tree_master exports as a single `{dialogues:[…]}` wrapper — the client
+flattens it; the empty wrapper + a doc `meta` block are dropped). Round-trip:
+732 dialogs, 0 semantic diffs. **Migration roadmap complete.**
+
 ## Operational notes
 - **JSONB reorders keys.** A round-trip through a `jsonb` column normalises key
   order + whitespace, so `export_*.py` output is *semantically identical* but
@@ -137,7 +148,7 @@ silently ignores; worth cleaning up separately).
 ## Roadmap (same pattern, one domain at a time)
 Recommended order by maintenance pain / relational value:
 `quests` (done) → `shops` (done) → `raid_events` (done) → `items` (done) →
-`skills` (done) → `monsters` (done) → `allies` (done) → `npcs` (done) → `dialogs`.
+`skills` (done) → `monsters` (done) → `allies` (done) → `npcs` (done) → `dialogs` (done). ALL DONE ✅
 
 Keep as static JSON (small, structural): `xylos_factions`, `master_race`,
 `class_list`, `biome_taxonomy`, `title_master`, `biome_*_mapping`, world-map
