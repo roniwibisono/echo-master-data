@@ -24,15 +24,9 @@
       "objectives": [
         {
           "type": "interact",
-          "target": "class_trainer",
+          "target": "npc_class_advisor",
           "count": 1,
-          "description": "Visit your faction's Class Trainer."
-        },
-        {
-          "type": "interact",
-          "target": "class_change_screen",
-          "count": 1,
-          "description": "Open the class selection screen and choose your base class."
+          "description": "Speak with Guide Axiom, the Class Advisor, in Nexus Core."
         }
       ],
       "rewards": {
@@ -46,11 +40,11 @@
             "quantity": 3
           },
           {
-            "item_id": "rare_emblem",
+            "item_id": "echo_memory_core_low",
             "quantity": 1
           },
           {
-            "item_id": "echo_memory_core_low",
+            "item_id": "recomendation_letters",
             "quantity": 1
           }
         ]
@@ -68,7 +62,7 @@
       "popup": true,
       "popup_trigger": "on_level_up",
       "popup_level": 20,
-      "description": "Level 20 \u2014 the Advanced class threshold. Return to your faction's Class Trainer. Prove yourself in combat to unlock your Advanced specialization branch.",
+      "description": "Level 20 — the Advanced class threshold. Return to your faction's Class Trainer. Prove yourself in combat to unlock your Advanced specialization branch.",
       "quest_giver": {
         "npc_id": "npc_class_advisor",
         "name": "Guide Axiom",
@@ -112,7 +106,7 @@
       "popup": true,
       "popup_trigger": "on_level_up",
       "popup_level": 40,
-      "description": "Level 40 \u2014 the Ascension. The Master class tier is now within reach. Seek your faction's trainer and complete the Ascension trial to claim your Master designation.",
+      "description": "Level 40 — the Ascension. The Master class tier is now within reach. Seek your faction's trainer and complete the Ascension trial to claim your Master designation.",
       "quest_giver": {
         "npc_id": "npc_class_advisor",
         "name": "Guide Axiom",
