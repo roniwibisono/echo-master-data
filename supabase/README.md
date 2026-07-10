@@ -93,6 +93,15 @@ verbatim. Optional fields (`special_effects`, `usage_requirements`,
 omitted on export. Seed chunked (`skills_seed_part01..05.sql`). Tools:
 `import_skills.py` / `export_skills.py`. Round-trip: 688 skills, 0 semantic diffs.
 
+## Monsters (`monster_master.json` → `monsters`)
+
+187 monsters (0 dup ids/codes) → `public.monsters` (`migrations/0006_monsters.sql`).
+Scalars as columns; the list/dict fields (element, spawn_location, base_stats,
+scaling, resistances, weaknesses, status_immunity, ai_pattern, skill_set,
+drop_item, special_reward) as JSONB, with a **GIN index on `drop_item`** so
+"which monster drops item X" is fast. Seed chunked (`monsters_seed_part01..03.sql`).
+Tools: `import_monsters.py` / `export_monsters.py`. Round-trip: 187, 0 diffs.
+
 ## Operational notes
 - **JSONB reorders keys.** A round-trip through a `jsonb` column normalises key
   order + whitespace, so `export_*.py` output is *semantically identical* but
@@ -107,7 +116,7 @@ omitted on export. Seed chunked (`skills_seed_part01..05.sql`). Tools:
 ## Roadmap (same pattern, one domain at a time)
 Recommended order by maintenance pain / relational value:
 `quests` (done) → `shops` (done) → `raid_events` (done) → `items` (done) →
-`skills` (done) → `monsters` → `allies` → `npcs` → `dialogs`.
+`skills` (done) → `monsters` (done) → `allies` → `npcs` → `dialogs`.
 
 Keep as static JSON (small, structural): `xylos_factions`, `master_race`,
 `class_list`, `biome_taxonomy`, `title_master`, `biome_*_mapping`, world-map
