@@ -14917,7 +14917,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - Chance next ignore def.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -14953,7 +14953,7 @@
     },
     "target_attack": "enemy",
     "target_effect": "enemy",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; -15% AGI.",
     "skill_shape": "single_projectile",
     "range": 5.0,
     "aoe_radius": 0.0,
@@ -14989,7 +14989,7 @@
     },
     "target_attack": "none",
     "target_effect": "ally",
-    "skill_description": "",
+    "skill_description": "Passive - Regenerates HP each turn.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -15027,7 +15027,7 @@
     },
     "target_attack": "none",
     "target_effect": "all_allies",
-    "skill_description": "",
+    "skill_description": "Heals the party (1.8% max HP); cleanses one debuff.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -15063,7 +15063,7 @@
     },
     "target_attack": "none",
     "target_effect": "all_allies",
-    "skill_description": "",
+    "skill_description": "Passive - Party -2 MP_COST_REDUCTION.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -15097,7 +15097,7 @@
     },
     "target_attack": "enemy",
     "target_effect": "enemy",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; root (2t).",
     "skill_shape": "single_projectile",
     "range": 5.0,
     "aoe_radius": 0.0,
@@ -15130,7 +15130,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - Bonus damage on debuffed.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -15173,7 +15173,7 @@
     },
     "target_attack": "enemy",
     "target_effect": "enemy",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; damage_over_time 0/turn; apply status.",
     "skill_shape": "single_projectile",
     "range": 5.0,
     "aoe_radius": 0.0,
@@ -15216,7 +15216,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - -8% damage taken; conditional def boost.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -15252,7 +15252,7 @@
     },
     "target_attack": "all_enemies",
     "target_effect": "all_enemies",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; -15% ATK.",
     "skill_shape": "circle_aoe",
     "range": 4.0,
     "aoe_radius": 2.5,
@@ -15294,7 +15294,7 @@
     },
     "target_attack": "none",
     "target_effect": "all_allies",
-    "skill_description": "",
+    "skill_description": "Passive - Party +8% PER; on kill party mp restore.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -15338,7 +15338,7 @@
     },
     "target_attack": "all_enemies",
     "target_effect": "all_enemies",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; -10% ATK; -10% DEF.",
     "skill_shape": "circle_aoe",
     "range": 4.0,
     "aoe_radius": 2.5,
@@ -15377,7 +15377,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - Increases healing done by 0.15%; stack per on heal.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -15427,7 +15427,7 @@
     },
     "target_attack": "none",
     "target_effect": "all_allies",
-    "skill_description": "",
+    "skill_description": "Party +12% ATK; party +12% DEF; heals the party (2.5% max HP).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -15465,7 +15465,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - Bonus damage per burn stack; chance apply burn on attack.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -15508,7 +15508,7 @@
     },
     "target_attack": "enemy",
     "target_effect": "enemy",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; damage_over_time 0/turn; apply status.",
     "skill_shape": "single_projectile",
     "range": 5.0,
     "aoe_radius": 0.0,
@@ -15546,7 +15546,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - Magic penetration percent; immunity.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -15582,7 +15582,7 @@
     },
     "target_attack": "all_enemies",
     "target_effect": "all_enemies",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; -20% AGI.",
     "skill_shape": "circle_aoe",
     "range": 4.0,
     "aoe_radius": 2.5,
@@ -15624,7 +15624,7 @@
     },
     "target_attack": "none",
     "target_effect": "all_allies",
-    "skill_description": "",
+    "skill_description": "Passive - -15% damage taken; redirect party damage.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -15658,7 +15658,7 @@
     },
     "target_attack": "none",
     "target_effect": "all_allies",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; grants the party a 1.8-point shield.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -15703,7 +15703,7 @@
     },
     "target_attack": "none",
     "target_effect": "all_allies",
-    "skill_description": "",
+    "skill_description": "Passive - Party +15% ALL_STATS; MP regen 8/turn.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -15745,7 +15745,7 @@
     },
     "target_attack": "all_enemies",
     "target_effect": "both",
-    "skill_description": "",
+    "skill_description": "Party +20% ATK; aoe damage and heal.",
     "skill_shape": "circle_aoe",
     "range": 4.0,
     "aoe_radius": 2.5,
@@ -15784,7 +15784,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - Stack party atk on kill; unevadable attacks.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -15826,7 +15826,7 @@
     },
     "target_attack": "all_enemies",
     "target_effect": "all_enemies",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; -30% AGI; multi hit.",
     "skill_shape": "circle_aoe",
     "range": 4.0,
     "aoe_radius": 2.5,
@@ -15869,7 +15869,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - Party +5% DEF; conditional damage reduction.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -15902,7 +15902,7 @@
     },
     "target_attack": "enemy",
     "target_effect": "enemy",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; stun (1t).",
     "skill_shape": "single_projectile",
     "range": 5.0,
     "aoe_radius": 0.0,
@@ -15944,7 +15944,7 @@
     },
     "target_attack": "none",
     "target_effect": "all_allies",
-    "skill_description": "",
+    "skill_description": "Passive - Party +10% PER; mp regen on ally skill.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -15977,7 +15977,7 @@
     },
     "target_attack": "none",
     "target_effect": "all_allies",
-    "skill_description": "",
+    "skill_description": "Linked atk stack on hit.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -16016,7 +16016,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - On hit def shred; def penetration flat.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -16052,7 +16052,7 @@
     },
     "target_attack": "enemy",
     "target_effect": "enemy",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; -25% DEF.",
     "skill_shape": "single_projectile",
     "range": 5.0,
     "aoe_radius": 0.0,
@@ -16095,7 +16095,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - Regenerates HP each turn; self emergency heal.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -16138,7 +16138,7 @@
     },
     "target_attack": "none",
     "target_effect": "ally",
-    "skill_description": "",
+    "skill_description": "Heals an ally (~2.2x PER); removes all debuffs; debuff immunity.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -16177,7 +16177,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - Consecutive hit burst; first attack cannot miss.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -16215,7 +16215,7 @@
     },
     "target_attack": "enemy",
     "target_effect": "enemy",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; ignore def; unevadable.",
     "skill_shape": "single_projectile",
     "range": 5.0,
     "aoe_radius": 0.0,
@@ -16260,7 +16260,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - Party -3 HEALING_MP_COST_REDUCTION; HP regen 5/turn.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -16302,7 +16302,7 @@
     },
     "target_attack": "none",
     "target_effect": "all_allies",
-    "skill_description": "",
+    "skill_description": "Party +8% ALL_STATS; heals the party (1.5% max HP).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -16344,7 +16344,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - +15% max HP; last stand survival.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -16377,7 +16377,7 @@
     },
     "target_attack": "all_enemies",
     "target_effect": "all_enemies",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; taunt (2t).",
     "skill_shape": "circle_aoe",
     "range": 4.0,
     "aoe_radius": 2.5,
@@ -16415,7 +16415,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - Bonus damage on debuffed; on kill party mp restore.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -16449,7 +16449,7 @@
     },
     "target_attack": "enemy",
     "target_effect": "enemy",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; 65% chance to silence (1t).",
     "skill_shape": "single_projectile",
     "range": 5.0,
     "aoe_radius": 0.0,
@@ -16499,7 +16499,7 @@
     },
     "target_attack": "none",
     "target_effect": "all_allies",
-    "skill_description": "",
+    "skill_description": "Passive - Party +12% AGI; party +6% PER; passive enemy status scan.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -16541,7 +16541,7 @@
     },
     "target_attack": "all_enemies",
     "target_effect": "all_enemies",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; -18% AGI; strip one buff all enemies.",
     "skill_shape": "circle_aoe",
     "range": 4.0,
     "aoe_radius": 2.5,
@@ -16580,7 +16580,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - High mp damage boost; free attack on mp threshold cross.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -16614,7 +16614,7 @@
     },
     "target_attack": "all_enemies",
     "target_effect": "all_enemies",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; random_control (2t).",
     "skill_shape": "circle_aoe",
     "range": 4.0,
     "aoe_radius": 2.5,
@@ -16652,7 +16652,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - Bonus damage vs full hp; lifesteal on kill.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -16694,7 +16694,7 @@
     },
     "target_attack": "enemy",
     "target_effect": "enemy",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; -20% AGI; multi hit.",
     "skill_shape": "single_projectile",
     "range": 5.0,
     "aoe_radius": 0.0,
@@ -16728,7 +16728,7 @@
     },
     "target_attack": "none",
     "target_effect": "all_allies",
-    "skill_description": "",
+    "skill_description": "Passive - Reactive party shield.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -16770,7 +16770,7 @@
     },
     "target_attack": "none",
     "target_effect": "all_allies",
-    "skill_description": "",
+    "skill_description": "Party -20% damage taken; party heal amplify.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -16808,7 +16808,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - Stack atk on kill; chance apply burn on attack.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -16850,7 +16850,7 @@
     },
     "target_attack": "all_enemies",
     "target_effect": "all_enemies",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; damage_over_time 0/turn; chance apply burn.",
     "skill_shape": "circle_aoe",
     "range": 4.0,
     "aoe_radius": 2.5,
@@ -16892,7 +16892,7 @@
     },
     "target_attack": "none",
     "target_effect": "ally",
-    "skill_description": "",
+    "skill_description": "Passive - Regenerates HP each turn; healing silence immune.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -16930,7 +16930,7 @@
     },
     "target_attack": "none",
     "target_effect": "all_allies",
-    "skill_description": "",
+    "skill_description": "Heals the party (1.5% max HP); party mp restore flat.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -16969,7 +16969,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - First attack bonus damage; stack atk on kill.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -17003,7 +17003,7 @@
     },
     "target_attack": "all_enemies",
     "target_effect": "all_enemies",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; 35% chance to stun (1t).",
     "skill_shape": "circle_aoe",
     "range": 4.0,
     "aoe_radius": 2.5,
@@ -17045,7 +17045,7 @@
     },
     "target_attack": "none",
     "target_effect": "ally",
-    "skill_description": "",
+    "skill_description": "Passive - Regenerates HP each turn; increases healing done by 0.2%.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -17087,7 +17087,7 @@
     },
     "target_attack": "none",
     "target_effect": "all_allies",
-    "skill_description": "",
+    "skill_description": "Regenerates HP each turn; heals the party (2% max HP).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -17130,7 +17130,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - -12% damage taken; retaliate on hit below hp.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -17172,7 +17172,7 @@
     },
     "target_attack": "all_enemies",
     "target_effect": "all_enemies",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; -15% ATK; taunt (2t).",
     "skill_shape": "circle_aoe",
     "range": 4.0,
     "aoe_radius": 2.5,
@@ -17211,7 +17211,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - Chance double hit; stack agi on consecutive hit.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -17253,7 +17253,7 @@
     },
     "target_attack": "random_enemies",
     "target_effect": "enemy",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; -10% AGI; random multi target.",
     "skill_shape": "multi_projectile",
     "range": 5.0,
     "aoe_radius": 0.0,
@@ -17296,7 +17296,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - Conditional stat boost; agi debuff on attacker.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -17343,7 +17343,7 @@
     },
     "target_attack": "enemy",
     "target_effect": "enemy",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; damage_over_time 0/turn; splash damage all enemies; apply status.",
     "skill_shape": "single_projectile",
     "range": 5.0,
     "aoe_radius": 0.0,
@@ -17381,7 +17381,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - Skill type resonance stack; bonus damage vs buffed enemy.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -17431,7 +17431,7 @@
     },
     "target_attack": "none",
     "target_effect": "all_allies",
-    "skill_description": "",
+    "skill_description": "Party +15% ATK; party +15% PER; next skill damage boost all.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -17469,7 +17469,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - Immunity; single hit damage cap.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -17505,7 +17505,7 @@
     },
     "target_attack": "enemy",
     "target_effect": "enemy",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; -20% DEF.",
     "skill_shape": "single_projectile",
     "range": 5.0,
     "aoe_radius": 0.0,
@@ -17543,7 +17543,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - Evasion chance; agi debuff on evade.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -17585,7 +17585,7 @@
     },
     "target_attack": "all_enemies",
     "target_effect": "all_enemies",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; mp_drain_over_time 5/turn; strip one buff all enemies.",
     "skill_shape": "circle_aoe",
     "range": 4.0,
     "aoe_radius": 2.5,
@@ -17619,7 +17619,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - Charge build on attack.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -17663,7 +17663,7 @@
     },
     "target_attack": "all_enemies",
     "target_effect": "all_enemies",
-    "skill_description": "",
+    "skill_description": "Deals damage to the target; -15% DEF; -15% PER.",
     "skill_shape": "circle_aoe",
     "range": 4.0,
     "aoe_radius": 2.5,
@@ -17715,7 +17715,7 @@
     },
     "target_attack": "none",
     "target_effect": "self",
-    "skill_description": "",
+    "skill_description": "Passive - -5 MP_COST_REDUCTION; MP regen 4/turn; immunity.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -17758,7 +17758,7 @@
     },
     "target_attack": "none",
     "target_effect": "ally",
-    "skill_description": "",
+    "skill_description": "Party +10% DEF; dual target heal.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
@@ -17767,67 +17767,105 @@
   },
   {
     "id": "al4_37_pas",
-    "name": "Sora Vell Passive",
+    "name": "Battle Focus",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 12, \"agi_boost\": 8}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 12,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "agi",
+        "value": 8,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: A quick-footed scavenger from the Scrap Fields.",
+    "skill_description": "Passive - +12% ATK; +8% AGI.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al4_37_act",
-    "name": "Sora Vell Active",
+    "name": "Lacerate",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 25,
     "damage_formula": "ATK * 2.0",
     "effect": "{\"bleed\": 3}",
     "stat_modifiers": [],
-    "periodic_effects": [],
+    "periodic_effects": [
+      {
+        "type": "bleed",
+        "value": 8,
+        "scale": 0,
+        "duration_turns": 3,
+        "target": "enemy",
+        "condition": null
+      }
+    ],
     "control_effects": [],
-    "skill_description": "Active: A quick-footed scavenger from the Scrap Fields.",
+    "skill_description": "Deals damage to the target; inflicts bleed (8/turn for 3t).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "special_effects": []
   },
   {
     "id": "al4_38_pas",
-    "name": "Vex Marrow Passive",
+    "name": "Iron Stance",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"def_boost\": 12}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "def",
+        "value": 12,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: A former gate guard of the Bastion.",
+    "skill_description": "Passive - +12% DEF.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al4_38_act",
-    "name": "Vex Marrow Active",
+    "name": "Challenging Roar",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 25,
@@ -17835,59 +17873,87 @@
     "effect": "{\"taunt\": 1}",
     "stat_modifiers": [],
     "periodic_effects": [],
-    "control_effects": [],
-    "skill_description": "Active: A former gate guard of the Bastion.",
+    "control_effects": [
+      {
+        "type": "taunt",
+        "chance": 1.0,
+        "duration_turns": 1,
+        "target": "enemy"
+      }
+    ],
+    "skill_description": "Deals damage to the target; taunt (1t).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al4_39_pas",
-    "name": "Petra Shale Passive",
+    "name": "Coordinated Assault",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"party_atk_boost\": 5}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 5,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: A geomancer who reads the crystal slopes.",
+    "skill_description": "Passive - Party +5% ATK.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al4_39_act",
-    "name": "Petra Shale Active",
+    "name": "Rally",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 25,
-    "damage_formula": "PER * 2.0",
+    "damage_formula": "0",
     "effect": "{\"party_atk_buff\": 10}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 10,
+        "type": "percent",
+        "duration_turns": 2,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: A geomancer who reads the crystal slopes.",
+    "skill_description": "Party +10% ATK.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
-    "target_attack": "enemy",
-    "target_effect": "All Ally"
+    "target_attack": "none",
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al4_40_pas",
-    "name": "Harker Sol Passive",
+    "name": "Master Healer",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
@@ -17896,98 +17962,150 @@
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: A battlefield medic from the Scorched Badlands.",
+    "skill_description": "Passive - Increases healing done by 12%.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "Ally",
+    "special_effects": [
+      {
+        "type": "healing_bonus_percent",
+        "value": 12,
+        "duration_turns": 99
+      }
+    ]
   },
   {
     "id": "al4_40_act",
-    "name": "Harker Sol Active",
+    "name": "Mending Pulse",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 25,
-    "damage_formula": "PER * 2.5",
+    "damage_formula": "0",
     "effect": "{\"heal_ally\": \"lowest_hp\"}",
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: A battlefield medic from the Scorched Badlands.",
+    "skill_description": "Heals an ally (~2.5x PER).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "none",
-    "target_effect": "All Ally"
+    "target_effect": "Ally",
+    "special_effects": [
+      {
+        "type": "direct_heal_scaling_perception",
+        "value": 2.5,
+        "duration_turns": 1
+      }
+    ]
   },
   {
     "id": "al4_41_pas",
-    "name": "Wisp Nova Passive",
+    "name": "Adrenal Surge",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 12, \"agi_boost\": 8}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 12,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "agi",
+        "value": 8,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: A glowing mote from Glowvine Forest.",
+    "skill_description": "Passive - +12% ATK; +8% AGI.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al4_41_act",
-    "name": "Wisp Nova Active",
+    "name": "Hemorrhage",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 25,
     "damage_formula": "ATK * 2.0",
     "effect": "{\"bleed\": 3}",
     "stat_modifiers": [],
-    "periodic_effects": [],
+    "periodic_effects": [
+      {
+        "type": "bleed",
+        "value": 8,
+        "scale": 0,
+        "duration_turns": 3,
+        "target": "enemy",
+        "condition": null
+      }
+    ],
     "control_effects": [],
-    "skill_description": "Active: A glowing mote from Glowvine Forest.",
+    "skill_description": "Deals damage to the target; inflicts bleed (8/turn for 3t).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "special_effects": []
   },
   {
     "id": "al4_42_pas",
-    "name": "Duma Scale Passive",
+    "name": "Bracing Guard",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"def_boost\": 12}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "def",
+        "value": 12,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: A coral-armored fighter from the Wetlands.",
+    "skill_description": "Passive - +12% DEF.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al4_42_act",
-    "name": "Duma Scale Active",
+    "name": "Iron Challenge",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 25,
@@ -17995,59 +18113,87 @@
     "effect": "{\"taunt\": 1}",
     "stat_modifiers": [],
     "periodic_effects": [],
-    "control_effects": [],
-    "skill_description": "Active: A coral-armored fighter from the Wetlands.",
+    "control_effects": [
+      {
+        "type": "taunt",
+        "chance": 1.0,
+        "duration_turns": 1,
+        "target": "enemy"
+      }
+    ],
+    "skill_description": "Deals damage to the target; taunt (1t).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al4_43_pas",
-    "name": "Zipp Gear Passive",
+    "name": "Battle Order",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"party_atk_boost\": 5}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 5,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: A tech drone from the Highland Plateau.",
+    "skill_description": "Passive - Party +5% ATK.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al4_43_act",
-    "name": "Zipp Gear Active",
+    "name": "Vanguard Command",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 25,
-    "damage_formula": "PER * 2.0",
+    "damage_formula": "0",
     "effect": "{\"party_atk_buff\": 10}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 10,
+        "type": "percent",
+        "duration_turns": 2,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: A tech drone from the Highland Plateau.",
+    "skill_description": "Party +10% ATK.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
-    "target_attack": "enemy",
-    "target_effect": "All Ally"
+    "target_attack": "none",
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al4_44_pas",
-    "name": "Moss Thorn Passive",
+    "name": "Gentle Hands",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
@@ -18056,198 +18202,316 @@
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: A herbalist from Aethel Gardens.",
+    "skill_description": "Passive - Increases healing done by 12%.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "Ally",
+    "special_effects": [
+      {
+        "type": "healing_bonus_percent",
+        "value": 12,
+        "duration_turns": 99
+      }
+    ]
   },
   {
     "id": "al4_44_act",
-    "name": "Moss Thorn Active",
+    "name": "Field Triage",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 25,
-    "damage_formula": "PER * 2.5",
+    "damage_formula": "0",
     "effect": "{\"heal_ally\": \"lowest_hp\"}",
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: A herbalist from Aethel Gardens.",
+    "skill_description": "Heals an ally (~2.5x PER).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "none",
-    "target_effect": "All Ally"
+    "target_effect": "Ally",
+    "special_effects": [
+      {
+        "type": "direct_heal_scaling_perception",
+        "value": 2.5,
+        "duration_turns": 1
+      }
+    ]
   },
   {
     "id": "al4_45_pas",
-    "name": "Karn Dusk Passive",
+    "name": "Bloodrush",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 12, \"agi_boost\": 8}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 12,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "agi",
+        "value": 8,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: A shadowy hunter from Dune Outskirts.",
+    "skill_description": "Passive - +12% ATK; +8% AGI.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al4_45_act",
-    "name": "Karn Dusk Active",
+    "name": "Searing Brand",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 25,
     "damage_formula": "ATK * 2.0",
     "effect": "{\"bleed\": 3}",
     "stat_modifiers": [],
-    "periodic_effects": [],
+    "periodic_effects": [
+      {
+        "type": "bleed",
+        "value": 8,
+        "scale": 0,
+        "duration_turns": 3,
+        "target": "enemy",
+        "condition": null
+      }
+    ],
     "control_effects": [],
-    "skill_description": "Active: A shadowy hunter from Dune Outskirts.",
+    "skill_description": "Deals damage to the target; inflicts bleed (8/turn for 3t).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "special_effects": []
   },
   {
     "id": "al4_46_pas",
-    "name": "Nexa Void Passive",
+    "name": "Razor Focus",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 12, \"agi_boost\": 8}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 12,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "agi",
+        "value": 8,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: A void-touched wanderer from the Expanse.",
+    "skill_description": "Passive - +12% ATK; +8% AGI.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al4_46_act",
-    "name": "Nexa Void Active",
+    "name": "Corrosive Sting",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 25,
     "damage_formula": "ATK * 2.0",
     "effect": "{\"bleed\": 3}",
     "stat_modifiers": [],
-    "periodic_effects": [],
+    "periodic_effects": [
+      {
+        "type": "bleed",
+        "value": 8,
+        "scale": 0,
+        "duration_turns": 3,
+        "target": "enemy",
+        "condition": null
+      }
+    ],
     "control_effects": [],
-    "skill_description": "Active: A void-touched wanderer from the Expanse.",
+    "skill_description": "Deals damage to the target; inflicts bleed (8/turn for 3t).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "special_effects": []
   },
   {
     "id": "al4_47_pas",
-    "name": "Vesper Ash Passive",
+    "name": "Combat Trance",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 12, \"agi_boost\": 8}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 12,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "agi",
+        "value": 8,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: A fire-wielder from the Forge Canyons.",
+    "skill_description": "Passive - +12% ATK; +8% AGI.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al4_47_act",
-    "name": "Vesper Ash Active",
+    "name": "Blightblade",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 25,
     "damage_formula": "ATK * 2.0",
     "effect": "{\"bleed\": 3}",
     "stat_modifiers": [],
-    "periodic_effects": [],
+    "periodic_effects": [
+      {
+        "type": "bleed",
+        "value": 8,
+        "scale": 0,
+        "duration_turns": 3,
+        "target": "enemy",
+        "condition": null
+      }
+    ],
     "control_effects": [],
-    "skill_description": "Active: A fire-wielder from the Forge Canyons.",
+    "skill_description": "Deals damage to the target; inflicts bleed (8/turn for 3t).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "special_effects": []
   },
   {
     "id": "al4_48_pas",
-    "name": "Quinn Merid Passive",
+    "name": "Hold the Line",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"party_atk_boost\": 5}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 5,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: A merchant-lord who traded his wealth for combat prowess.",
+    "skill_description": "Passive - Party +5% ATK.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al4_48_act",
-    "name": "Quinn Merid Active",
+    "name": "Phalanx Order",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 25,
-    "damage_formula": "PER * 2.0",
+    "damage_formula": "0",
     "effect": "{\"party_atk_buff\": 10}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 10,
+        "type": "percent",
+        "duration_turns": 2,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: A merchant-lord who traded his wealth for combat prowess.",
+    "skill_description": "Party +10% ATK.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
-    "target_attack": "enemy",
-    "target_effect": "All Ally"
+    "target_attack": "none",
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al4_49_pas",
-    "name": "Fenra Shard Passive",
+    "name": "Restorative Mastery",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
@@ -18256,58 +18520,82 @@
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: A Shard-blessed healer from the Sanctum.",
+    "skill_description": "Passive - Increases healing done by 12%.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "Ally",
+    "special_effects": [
+      {
+        "type": "healing_bonus_percent",
+        "value": 12,
+        "duration_turns": 99
+      }
+    ]
   },
   {
     "id": "al4_49_act",
-    "name": "Fenra Shard Active",
+    "name": "Renewal",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 25,
-    "damage_formula": "PER * 2.5",
+    "damage_formula": "0",
     "effect": "{\"heal_ally\": \"lowest_hp\"}",
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: A Shard-blessed healer from the Sanctum.",
+    "skill_description": "Heals an ally (~2.5x PER).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "none",
-    "target_effect": "All Ally"
+    "target_effect": "Ally",
+    "special_effects": [
+      {
+        "type": "direct_heal_scaling_perception",
+        "value": 2.5,
+        "duration_turns": 1
+      }
+    ]
   },
   {
     "id": "al4_50_pas",
-    "name": "Kore Hex Passive",
+    "name": "Fortify",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"def_boost\": 12}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "def",
+        "value": 12,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: An iron-jawed enforcer from the Iron Ravine.",
+    "skill_description": "Passive - +12% DEF.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al4_50_act",
-    "name": "Kore Hex Active",
+    "name": "Guardian Call",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 25,
@@ -18315,99 +18603,155 @@
     "effect": "{\"taunt\": 1}",
     "stat_modifiers": [],
     "periodic_effects": [],
-    "control_effects": [],
-    "skill_description": "Active: An iron-jawed enforcer from the Iron Ravine.",
+    "control_effects": [
+      {
+        "type": "taunt",
+        "chance": 1.0,
+        "duration_turns": 1,
+        "target": "enemy"
+      }
+    ],
+    "skill_description": "Deals damage to the target; taunt (1t).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al4_51_pas",
-    "name": "Sylva Rune Passive",
+    "name": "Predator Sense",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 12, \"agi_boost\": 8}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 12,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "agi",
+        "value": 8,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: A rune-carved mystic from Resonance Caverns.",
+    "skill_description": "Passive - +12% ATK; +8% AGI.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al4_51_act",
-    "name": "Sylva Rune Active",
+    "name": "Ember Rend",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 25,
     "damage_formula": "ATK * 2.0",
     "effect": "{\"bleed\": 3}",
     "stat_modifiers": [],
-    "periodic_effects": [],
+    "periodic_effects": [
+      {
+        "type": "bleed",
+        "value": 8,
+        "scale": 0,
+        "duration_turns": 3,
+        "target": "enemy",
+        "condition": null
+      }
+    ],
     "control_effects": [],
-    "skill_description": "Active: A rune-carved mystic from Resonance Caverns.",
+    "skill_description": "Deals damage to the target; inflicts bleed (8/turn for 3t).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "special_effects": []
   },
   {
     "id": "al4_52_pas",
-    "name": "Vec Omega Passive",
+    "name": "Inspire",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"party_atk_boost\": 5}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 5,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: A combat-strategist AI from the Spire.",
+    "skill_description": "Passive - Party +5% ATK.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al4_52_act",
-    "name": "Vec Omega Active",
+    "name": "Tactical Surge",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 25,
-    "damage_formula": "PER * 2.0",
+    "damage_formula": "0",
     "effect": "{\"party_atk_buff\": 10}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 10,
+        "type": "percent",
+        "duration_turns": 2,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: A combat-strategist AI from the Spire.",
+    "skill_description": "Party +10% ATK.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
-    "target_attack": "enemy",
-    "target_effect": "All Ally"
+    "target_attack": "none",
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al4_53_pas",
-    "name": "Selene Voss Passive",
+    "name": "Caregiver",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
@@ -18416,58 +18760,90 @@
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: A wandering physician from Nexus Core.",
+    "skill_description": "Passive - Increases healing done by 12%.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "Ally",
+    "special_effects": [
+      {
+        "type": "healing_bonus_percent",
+        "value": 12,
+        "duration_turns": 99
+      }
+    ]
   },
   {
     "id": "al4_53_act",
-    "name": "Selene Voss Active",
+    "name": "Soothing Light",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 25,
-    "damage_formula": "PER * 2.5",
+    "damage_formula": "0",
     "effect": "{\"heal_ally\": \"lowest_hp\"}",
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: A wandering physician from Nexus Core.",
+    "skill_description": "Heals an ally (~2.5x PER).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "none",
-    "target_effect": "All Ally"
+    "target_effect": "Ally",
+    "special_effects": [
+      {
+        "type": "direct_heal_scaling_perception",
+        "value": 2.5,
+        "duration_turns": 1
+      }
+    ]
   },
   {
     "id": "al4_54_pas",
-    "name": "Nyx Prime Passive",
+    "name": "Berserk Edge",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 18, \"crit_rate_boost\": 10}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 18,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "crit_rate",
+        "value": 10,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: A shadow-forged assassin from the Void Echo Chasm.",
+    "skill_description": "Passive - +18% ATK; +10% crit rate.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al4_54_act",
-    "name": "Nyx Prime Active",
+    "name": "Concussive Blow",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 40,
@@ -18475,79 +18851,141 @@
     "effect": "{\"stun\": 0.4}",
     "stat_modifiers": [],
     "periodic_effects": [],
-    "control_effects": [],
-    "skill_description": "Active: A shadow-forged assassin from the Void Echo Chasm.",
+    "control_effects": [
+      {
+        "type": "stun",
+        "chance": 0.4,
+        "duration_turns": 1,
+        "target": "enemy"
+      }
+    ],
+    "skill_description": "Deals damage to the target; 40% chance to stun (1t).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 2.0,
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "special_effects": []
   },
   {
     "id": "al4_55_pas",
-    "name": "Auriel Arc Passive",
+    "name": "Frontline Push",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"party_atk_boost\": 8, \"party_def_boost\": 8}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 8,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": "-"
+      },
+      {
+        "stat": "def",
+        "value": 8,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: A light-bringer from the Orbital Sentinel Command.",
+    "skill_description": "Passive - Party +8% ATK; party +8% DEF.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al4_55_act",
-    "name": "Auriel Arc Active",
+    "name": "Banner of War",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 40,
-    "damage_formula": "PER * 2.0",
+    "damage_formula": "0",
     "effect": "{\"party_atk_buff\": 15, \"party_agi_buff\": 10}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 15,
+        "type": "percent",
+        "duration_turns": 2,
+        "target": "all_ally",
+        "condition": "-"
+      },
+      {
+        "stat": "agi",
+        "value": 10,
+        "type": "percent",
+        "duration_turns": 2,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: A light-bringer from the Orbital Sentinel Command.",
+    "skill_description": "Party +15% ATK; party +10% AGI.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 2.0,
-    "target_attack": "enemy",
-    "target_effect": "All Ally"
+    "target_attack": "none",
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al4_56_pas",
-    "name": "Gorath Titan Passive",
+    "name": "Bastion Form",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"def_boost\": 15, \"hp_boost\": 10}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "def",
+        "value": 15,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "hp",
+        "value": 10,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: A titan-blooded warrior from the Shattered Heart.",
+    "skill_description": "Passive - +15% DEF; +10% max HP.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al4_56_act",
-    "name": "Gorath Titan Active",
+    "name": "Bulwark Taunt",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 40,
@@ -18555,79 +18993,139 @@
     "effect": "{\"taunt\": 1, \"shield_self\": 0.15}",
     "stat_modifiers": [],
     "periodic_effects": [],
-    "control_effects": [],
-    "skill_description": "Active: A titan-blooded warrior from the Shattered Heart.",
+    "control_effects": [
+      {
+        "type": "taunt",
+        "chance": 1.0,
+        "duration_turns": 1,
+        "target": "enemy"
+      }
+    ],
+    "skill_description": "Deals damage to the target; taunt (1t); shields for 15% max HP.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 2.0,
     "target_attack": "enemy",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": [
+      {
+        "type": "shield_percent",
+        "value": 15,
+        "duration_turns": 2
+      }
+    ]
   },
   {
     "id": "al4_57_pas",
-    "name": "Myste Core Passive",
+    "name": "Nurturing Aura",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"heal_boost\": 20, \"mp_regen\": 8}",
     "stat_modifiers": [],
-    "periodic_effects": [],
+    "periodic_effects": [
+      {
+        "type": "mp_regen",
+        "value": 8,
+        "scale": 0,
+        "duration_turns": 99,
+        "target": "self",
+        "condition": null
+      }
+    ],
     "control_effects": [],
-    "skill_description": "Passive: A soul-healer from the Hidden Aethelgardian City.",
+    "skill_description": "Passive - MP regen 8/turn; increases healing done by 20%.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "Ally",
+    "special_effects": [
+      {
+        "type": "healing_bonus_percent",
+        "value": 20,
+        "duration_turns": 99
+      }
+    ]
   },
   {
     "id": "al4_57_act",
-    "name": "Myste Core Active",
+    "name": "Patch Up",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 40,
-    "damage_formula": "PER * 2.5",
+    "damage_formula": "0",
     "effect": "{\"heal_ally\": \"lowest_hp\", \"heal_amount\": \"PER * 1.5\"}",
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: A soul-healer from the Hidden Aethelgardian City.",
+    "skill_description": "Heals an ally (~2.5x PER); heals an ally (~2.5x PER).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 2.0,
     "target_attack": "none",
-    "target_effect": "All Ally"
+    "target_effect": "Ally",
+    "special_effects": [
+      {
+        "type": "direct_heal_scaling_perception",
+        "value": 2.5,
+        "duration_turns": 1
+      },
+      {
+        "type": "direct_heal_scaling_perception",
+        "value": 2.5,
+        "duration_turns": 1
+      }
+    ]
   },
   {
     "id": "al4_58_pas",
-    "name": "Zeron Forge Passive",
+    "name": "Hunter Poise",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 18, \"crit_rate_boost\": 10}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 18,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "crit_rate",
+        "value": 10,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: A forge-born warrior from Prima Materia Forge.",
+    "skill_description": "Passive - +18% ATK; +10% crit rate.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al4_58_act",
-    "name": "Zeron Forge Active",
+    "name": "Skullcrack",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 40,
@@ -18635,79 +19133,141 @@
     "effect": "{\"stun\": 0.4}",
     "stat_modifiers": [],
     "periodic_effects": [],
-    "control_effects": [],
-    "skill_description": "Active: A forge-born warrior from Prima Materia Forge.",
+    "control_effects": [
+      {
+        "type": "stun",
+        "chance": 0.4,
+        "duration_turns": 1,
+        "target": "enemy"
+      }
+    ],
+    "skill_description": "Deals damage to the target; 40% chance to stun (1t).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 2.0,
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "special_effects": []
   },
   {
     "id": "al4_59_pas",
-    "name": "Aetheria Prime Passive",
+    "name": "Morale Boost",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"party_atk_boost\": 8, \"party_def_boost\": 8}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 8,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": "-"
+      },
+      {
+        "stat": "def",
+        "value": 8,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: The awakened consciousness of the Aethel Siphon Core itself.",
+    "skill_description": "Passive - Party +8% ATK; party +8% DEF.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al4_59_act",
-    "name": "Aetheria Prime Active",
+    "name": "Command Aura",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 40,
-    "damage_formula": "PER * 2.5",
+    "damage_formula": "0",
     "effect": "{\"party_atk_buff\": 15, \"party_agi_buff\": 10}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 15,
+        "type": "percent",
+        "duration_turns": 2,
+        "target": "all_ally",
+        "condition": "-"
+      },
+      {
+        "stat": "agi",
+        "value": 10,
+        "type": "percent",
+        "duration_turns": 2,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: The awakened consciousness of the Aethel Siphon Core itself.",
+    "skill_description": "Party +15% ATK; party +10% AGI.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 2.0,
-    "target_attack": "enemy",
-    "target_effect": "All Ally"
+    "target_attack": "none",
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al4_60_pas",
-    "name": "Malrik Doom Passive",
+    "name": "Frenzy Tap",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 25, \"crit_rate_boost\": 15}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 25,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "crit_rate",
+        "value": 15,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: The last surviving Void Knight who turned against the Abyss.",
+    "skill_description": "Passive - +25% ATK; +15% crit rate.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al4_60_act",
-    "name": "Malrik Doom Active",
+    "name": "Neural Jolt",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 40,
@@ -18715,39 +19275,65 @@
     "effect": "{\"stun\": 0.4}",
     "stat_modifiers": [],
     "periodic_effects": [],
-    "control_effects": [],
-    "skill_description": "Active: The last surviving Void Knight who turned against the Abyss.",
+    "control_effects": [
+      {
+        "type": "stun",
+        "chance": 0.4,
+        "duration_turns": 1,
+        "target": "enemy"
+      }
+    ],
+    "skill_description": "Deals damage to the target; 40% chance to stun (1t).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 2.0,
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "special_effects": []
   },
   {
     "id": "al4_61_pas",
-    "name": "Orion Aethel Passive",
+    "name": "Stonewall",
     "type": "Passive",
     "source_type": "Ally",
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"def_boost\": 15, \"hp_boost\": 10}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "def",
+        "value": 15,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "hp",
+        "value": 10,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: The immortal guardian of the World Engine who has witnessed every age.",
+    "skill_description": "Passive - +15% DEF; +10% max HP.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al4_61_act",
-    "name": "Orion Aethel Active",
+    "name": "Draw Fire",
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 40,
@@ -18755,15 +19341,29 @@
     "effect": "{\"taunt\": 1, \"shield_self\": 0.15}",
     "stat_modifiers": [],
     "periodic_effects": [],
-    "control_effects": [],
-    "skill_description": "Active: The immortal guardian of the World Engine who has witnessed every age.",
+    "control_effects": [
+      {
+        "type": "taunt",
+        "chance": 1.0,
+        "duration_turns": 1,
+        "target": "enemy"
+      }
+    ],
+    "skill_description": "Deals damage to the target; taunt (1t); shields for 15% max HP.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 2.0,
     "target_attack": "enemy",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": [
+      {
+        "type": "shield_percent",
+        "value": 15,
+        "duration_turns": 2
+      }
+    ]
   },
   {
     "id": "dummy_protocol",
@@ -20609,17 +21209,35 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 10, \"agi_boost\": 8}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 10,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "agi",
+        "value": 8,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Years of surviving in debris-strewn terrain sharpened Reva's targeting instincts. Permanently increases ATK and AGI.",
+    "skill_description": "Passive - +10% ATK; +8% AGI.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al5_62_act",
@@ -20630,16 +21248,26 @@
     "damage_formula": "ATK * 1.9",
     "effect": "{\"bleed\": 2}",
     "stat_modifiers": [],
-    "periodic_effects": [],
+    "periodic_effects": [
+      {
+        "type": "bleed",
+        "value": 8,
+        "scale": 0,
+        "duration_turns": 2,
+        "target": "enemy",
+        "condition": null
+      }
+    ],
     "control_effects": [],
-    "skill_description": "Active: A precise shot aimed at unprotected joints — the kind you learn by watching conscription squads move. Deals damage and inflicts Bleed for 2 turns.",
+    "skill_description": "Deals damage to the target; inflicts bleed (8/turn for 2t).",
     "skill_shape": "single_projectile",
     "range": 4.0,
     "aoe_radius": 0.0,
     "projectile_speed": 14.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "special_effects": []
   },
   {
     "id": "al5_63_pas",
@@ -20649,17 +21277,27 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"def_boost\": 12}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "def",
+        "value": 12,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Thirty years of holding a post teaches the body to become an obstacle. Permanently increases DEF.",
+    "skill_description": "Passive - +12% DEF.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al5_63_act",
@@ -20671,15 +21309,23 @@
     "effect": "{\"taunt\": 2}",
     "stat_modifiers": [],
     "periodic_effects": [],
-    "control_effects": [],
-    "skill_description": "Active: Grak plants himself and demands the enemy's attention with practiced authority. Taunts all enemies for 2 turns.",
+    "control_effects": [
+      {
+        "type": "taunt",
+        "chance": 1.0,
+        "duration_turns": 2,
+        "target": "enemy"
+      }
+    ],
+    "skill_description": "Deals damage to the target; taunt (2t).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al5_64_pas",
@@ -20692,14 +21338,21 @@
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Lila's remedies carry a trace of Aethel blessing absorbed through years of tending crystal-touched plants. Permanently increases healing output.",
+    "skill_description": "Passive - Increases healing done by 10%.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "Ally",
+    "special_effects": [
+      {
+        "type": "healing_bonus_percent",
+        "value": 10,
+        "duration_turns": 99
+      }
+    ]
   },
   {
     "id": "al5_64_act",
@@ -20707,19 +21360,26 @@
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 22,
-    "damage_formula": "PER * 2.1",
+    "damage_formula": "0",
     "effect": "{\"heal_ally\": \"lowest_hp\"}",
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: A prepared remedy applied swiftly to the most critically wounded ally. Heals the ally with the lowest HP.",
+    "skill_description": "Heals an ally (~2.1x PER).",
     "skill_shape": "single_target",
     "range": 3.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "none",
-    "target_effect": "All Ally"
+    "target_effect": "Ally",
+    "special_effects": [
+      {
+        "type": "direct_heal_scaling_perception",
+        "value": 2.1,
+        "duration_turns": 1
+      }
+    ]
   },
   {
     "id": "al5_65_pas",
@@ -20729,17 +21389,27 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"party_atk_boost\": 4}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 4,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Skip's ongoing assessment of field conditions translates into real-time targeting adjustments for the whole squad. Permanently increases party ATK.",
+    "skill_description": "Passive - Party +4% ATK.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al5_65_act",
@@ -20749,17 +21419,27 @@
     "mp_cost": 20,
     "damage_formula": "",
     "effect": "{\"party_atk_buff\": 8}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 8,
+        "type": "percent",
+        "duration_turns": 2,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: Skip patches his field data directly into ally targeting systems, routing around standard acquisition delays. Increases party ATK for 2 turns.",
+    "skill_description": "Party +8% ATK.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "none",
-    "target_effect": "All Ally"
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al5_66_pas",
@@ -20769,17 +21449,27 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 11}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 11,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: A decade of foundry heat forged Torr's muscles and reflexes to an edge his opponents consistently underestimate. Permanently increases ATK.",
+    "skill_description": "Passive - +11% ATK.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al5_66_act",
@@ -20790,16 +21480,26 @@
     "damage_formula": "ATK * 2.0",
     "effect": "{\"burn\": 2}",
     "stat_modifiers": [],
-    "periodic_effects": [],
+    "periodic_effects": [
+      {
+        "type": "burn",
+        "value": 10,
+        "scale": 0,
+        "duration_turns": 2,
+        "target": "enemy",
+        "condition": null
+      }
+    ],
     "control_effects": [],
-    "skill_description": "Active: Torr hurls a mass of superheated material at the target with foundry-worker precision. Deals damage and applies Burn for 2 turns.",
+    "skill_description": "Deals damage to the target; inflicts burn (10/turn for 2t).",
     "skill_shape": "single_projectile",
     "range": 3.0,
     "aoe_radius": 0.0,
     "projectile_speed": 10.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "special_effects": []
   },
   {
     "id": "al5_67_pas",
@@ -20812,14 +21512,21 @@
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Six years of emergency care in the most chaotic port in Cartel territory built Narra's healing speed into reflex. Permanently increases healing output.",
+    "skill_description": "Passive - Increases healing done by 9%.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "Ally",
+    "special_effects": [
+      {
+        "type": "healing_bonus_percent",
+        "value": 9,
+        "duration_turns": 99
+      }
+    ]
   },
   {
     "id": "al5_67_act",
@@ -20827,19 +21534,26 @@
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 20,
-    "damage_formula": "PER * 2.0",
+    "damage_formula": "0",
     "effect": "{\"cleanse\": 1}",
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: Narra treats the target without hesitation or conditions, removing one active debuff and restoring HP.",
+    "skill_description": "Cleanses one debuff.",
     "skill_shape": "single_target",
     "range": 3.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "none",
-    "target_effect": "All Ally"
+    "target_effect": "Ally",
+    "special_effects": [
+      {
+        "type": "cleanse_debuff",
+        "value": 1,
+        "duration_turns": 0
+      }
+    ]
   },
   {
     "id": "al5_68_pas",
@@ -20849,17 +21563,35 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 9, \"crit_rate_boost\": 5}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 9,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "crit_rate",
+        "value": 5,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Zax's unorthodox aether-tapping techniques produce inconsistent but occasionally brilliant results. Permanently increases ATK and critical rate.",
+    "skill_description": "Passive - +9% ATK; +5% crit rate.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al5_68_act",
@@ -20871,15 +21603,23 @@
     "effect": "{\"slow\": 2}",
     "stat_modifiers": [],
     "periodic_effects": [],
-    "control_effects": [],
-    "skill_description": "Active: Zax channels raw aether through improvised focal points — the discharge hits like a hammer and scrambles the target's motor response. Deals damage and Slows for 2 turns.",
+    "control_effects": [
+      {
+        "type": "slow",
+        "chance": 1.0,
+        "duration_turns": 2,
+        "target": "enemy"
+      }
+    ],
+    "skill_description": "Deals damage to the target; slow (2t).",
     "skill_shape": "single_projectile",
     "range": 4.0,
     "aoe_radius": 0.0,
     "projectile_speed": 12.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "special_effects": []
   },
   {
     "id": "al5_69_pas",
@@ -20889,17 +21629,35 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"def_boost\": 11, \"party_atk_boost\": 3}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "def",
+        "value": 11,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "atk",
+        "value": 3,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Brom's command instincts don't switch off in combat — he holds the line and keeps the squad aligned. Increases own DEF and party ATK permanently.",
+    "skill_description": "Passive - +11% DEF; party +3% ATK.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al5_69_act",
@@ -20909,17 +21667,34 @@
     "mp_cost": 20,
     "damage_formula": "ATK * 1.8",
     "effect": "{\"taunt\": 1, \"def_up_self\": 10}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "def",
+        "value": 10,
+        "type": "percent",
+        "duration_turns": 2,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
-    "control_effects": [],
-    "skill_description": "Active: Brom advances to the most exposed position and draws all incoming fire to himself. Taunts enemies for 1 turn and raises own DEF.",
+    "control_effects": [
+      {
+        "type": "taunt",
+        "chance": 1.0,
+        "duration_turns": 1,
+        "target": "enemy"
+      }
+    ],
+    "skill_description": "Deals damage to the target; +10% DEF; taunt (1t).",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al5_70_pas",
@@ -20929,17 +21704,27 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"party_atk_boost\": 3}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 3,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Cera processes the battlefield as simultaneous data feeds, filtering for what each ally needs to know right now. Permanently increases party ATK.",
+    "skill_description": "Passive - Party +3% ATK.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al5_70_act",
@@ -20949,17 +21734,35 @@
     "mp_cost": 22,
     "damage_formula": "",
     "effect": "{\"party_def_buff\": 10, \"party_atk_buff\": 6}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "def",
+        "value": 10,
+        "type": "percent",
+        "duration_turns": 2,
+        "target": "all_ally",
+        "condition": "-"
+      },
+      {
+        "stat": "atk",
+        "value": 6,
+        "type": "percent",
+        "duration_turns": 2,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: Cera broadcasts a coordinated positioning update — every ally adjusts form simultaneously. Increases party ATK and DEF for 2 turns.",
+    "skill_description": "Party +10% DEF; party +6% ATK.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "none",
-    "target_effect": "All Ally"
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al5_71_pas",
@@ -20969,17 +21772,27 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"party_atk_boost\": 4}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 4,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Pix-III's self-modifications added cooperative targeting subroutines the Custodians never programmed. Permanently increases party ATK.",
+    "skill_description": "Passive - Party +4% ATK.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al5_71_act",
@@ -20990,16 +21803,26 @@
     "damage_formula": "",
     "effect": "{\"party_mp_regen\": 3}",
     "stat_modifiers": [],
-    "periodic_effects": [],
+    "periodic_effects": [
+      {
+        "type": "mp_regen",
+        "value": 3,
+        "scale": 0,
+        "duration_turns": 3,
+        "target": "all_ally",
+        "condition": null
+      }
+    ],
     "control_effects": [],
-    "skill_description": "Active: Pix-III deploys micro-relay nodes that boost ally energy recovery for 2 turns. Party regenerates MP each turn.",
+    "skill_description": "MP regen 3/turn.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "none",
-    "target_effect": "All Ally"
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al5_72_pas",
@@ -21009,17 +21832,35 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 14, \"agi_boost\": 8}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 14,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "agi",
+        "value": 8,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Three assassination attempts refined Shade's survival instincts to an art form. Permanently increases ATK and AGI.",
+    "skill_description": "Passive - +14% ATK; +8% AGI.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al5_72_act",
@@ -21030,16 +21871,26 @@
     "damage_formula": "ATK * 2.1",
     "effect": "{\"poison\": 3}",
     "stat_modifiers": [],
-    "periodic_effects": [],
+    "periodic_effects": [
+      {
+        "type": "poison",
+        "value": 8,
+        "scale": 0,
+        "duration_turns": 3,
+        "target": "enemy",
+        "condition": null
+      }
+    ],
     "control_effects": [],
-    "skill_description": "Active: Shade deploys a contact agent carried since broker days — precise, traceless, and persistent. Deals damage and applies Poison for 3 turns.",
+    "skill_description": "Deals damage to the target; inflicts poison (8/turn for 3t).",
     "skill_shape": "single_projectile",
     "range": 3.0,
     "aoe_radius": 0.0,
     "projectile_speed": 12.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "special_effects": []
   },
   {
     "id": "al5_73_pas",
@@ -21049,17 +21900,35 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"def_boost\": 14, \"atk_boost\": 8}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "def",
+        "value": 14,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "atk",
+        "value": 8,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Wynn completed a cavalry charge on foot. Forward momentum is philosophy, not tactic. Permanently increases DEF and ATK.",
+    "skill_description": "Passive - +14% DEF; +8% ATK.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al5_73_act",
@@ -21069,17 +21938,34 @@
     "mp_cost": 25,
     "damage_formula": "ATK * 2.2",
     "effect": "{\"taunt\": 2, \"def_up_self\": 12}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "def",
+        "value": 12,
+        "type": "percent",
+        "duration_turns": 2,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
-    "control_effects": [],
-    "skill_description": "Active: Wynn throws her full weight into the enemy line without hesitation. Deals heavy damage, taunts all enemies for 2 turns, and raises own DEF.",
+    "control_effects": [
+      {
+        "type": "taunt",
+        "chance": 1.0,
+        "duration_turns": 2,
+        "target": "enemy"
+      }
+    ],
+    "skill_description": "Deals damage to the target; +12% DEF; taunt (2t).",
     "skill_shape": "single_target",
     "range": 2.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al5_74_pas",
@@ -21090,16 +21976,32 @@
     "damage_formula": "",
     "effect": "{\"heal_boost\": 14, \"hp_regen\": 3}",
     "stat_modifiers": [],
-    "periodic_effects": [],
+    "periodic_effects": [
+      {
+        "type": "heal_over_time",
+        "value": 3,
+        "scale": 0,
+        "duration_turns": 99,
+        "target": "self",
+        "condition": null
+      }
+    ],
     "control_effects": [],
-    "skill_description": "Passive: Lera's body now generates healing compound passively — allies near her benefit from trace dispersal. Increases healing output and grants HP regeneration each turn.",
+    "skill_description": "Passive - HP regen 3/turn; increases healing done by 14%.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "Ally",
+    "special_effects": [
+      {
+        "type": "healing_bonus_percent",
+        "value": 14,
+        "duration_turns": 99
+      }
+    ]
   },
   {
     "id": "al5_74_act",
@@ -21107,19 +22009,26 @@
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 25,
-    "damage_formula": "PER * 2.4",
+    "damage_formula": "0",
     "effect": "{\"heal_all\": 1}",
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: Lera releases a dispersal of her integrated healing compound across the party. Heals all allies.",
+    "skill_description": "Heals the party (15% max HP).",
     "skill_shape": "aoe_burst",
     "range": 0.0,
     "aoe_radius": 3.5,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
-    "target_attack": "All Enemy",
-    "target_effect": "All Ally"
+    "target_attack": "none",
+    "target_effect": "All Ally",
+    "special_effects": [
+      {
+        "type": "aoe_heal_party",
+        "value": 15,
+        "duration_turns": 1
+      }
+    ]
   },
   {
     "id": "al5_75_pas",
@@ -21129,17 +22038,27 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"party_atk_boost\": 6}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 6,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Cole's firsthand data collection means he knows exactly how to optimize ally equipment loadouts in real-time. Permanently increases party ATK.",
+    "skill_description": "Passive - Party +6% ATK.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al5_75_act",
@@ -21149,17 +22068,35 @@
     "mp_cost": 25,
     "damage_formula": "",
     "effect": "{\"party_atk_buff\": 10, \"party_def_buff\": 8}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 10,
+        "type": "percent",
+        "duration_turns": 2,
+        "target": "all_ally",
+        "condition": "-"
+      },
+      {
+        "stat": "def",
+        "value": 8,
+        "type": "percent",
+        "duration_turns": 2,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: Cole rapidly cycles field fixes across allied gear — tightened tolerances, recalibrated outputs. Party ATK and DEF increase for 2 turns.",
+    "skill_description": "Party +10% ATK; party +8% DEF.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "none",
-    "target_effect": "All Ally"
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al5_76_pas",
@@ -21169,17 +22106,35 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 13, \"crit_rate_boost\": 8}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 13,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "crit_rate",
+        "value": 8,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Years of intelligence analysis translate directly to combat — Tessa reads openings before opponents know they're making them. Permanently increases ATK and critical rate.",
+    "skill_description": "Passive - +13% ATK; +8% crit rate.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al5_76_act",
@@ -21191,15 +22146,23 @@
     "effect": "{\"stun\": 0.3}",
     "stat_modifiers": [],
     "periodic_effects": [],
-    "control_effects": [],
-    "skill_description": "Active: Tessa attacks the position she calculated the target would be in half a second ago. Deals damage with 30% chance to Stun.",
+    "control_effects": [
+      {
+        "type": "stun",
+        "chance": 0.3,
+        "duration_turns": 1,
+        "target": "enemy"
+      }
+    ],
+    "skill_description": "Deals damage to the target; 30% chance to stun (1t).",
     "skill_shape": "single_target",
     "range": 3.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "special_effects": []
   },
   {
     "id": "al5_77_pas",
@@ -21209,17 +22172,27 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"def_boost\": 15}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "def",
+        "value": 15,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Three overruns, one post, eleven years — Dane's body learned that leaving is simply not an option. Permanently increases DEF.",
+    "skill_description": "Passive - +15% DEF.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al5_77_act",
@@ -21231,15 +22204,29 @@
     "effect": "{\"taunt\": 2, \"shield_self\": 18}",
     "stat_modifiers": [],
     "periodic_effects": [],
-    "control_effects": [],
-    "skill_description": "Active: Dane digs in and refuses the ground. Taunts all enemies for 2 turns and generates a damage-absorbing shield.",
+    "control_effects": [
+      {
+        "type": "taunt",
+        "chance": 1.0,
+        "duration_turns": 2,
+        "target": "enemy"
+      }
+    ],
+    "skill_description": "Deals damage to the target; taunt (2t); shields for 18.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": [
+      {
+        "type": "shield_flat",
+        "value": 18,
+        "duration_turns": 2
+      }
+    ]
   },
   {
     "id": "al5_78_pas",
@@ -21250,16 +22237,32 @@
     "damage_formula": "",
     "effect": "{\"heal_boost\": 13, \"party_hp_regen\": 2}",
     "stat_modifiers": [],
-    "periodic_effects": [],
+    "periodic_effects": [
+      {
+        "type": "heal_over_time",
+        "value": 2,
+        "scale": 0,
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": null
+      }
+    ],
     "control_effects": [],
-    "skill_description": "Passive: Lysa tends the party as she tends the garden — with patient, sustained care. Increases healing output and grants party HP regen each turn.",
+    "skill_description": "Passive - HP regen 2/turn; increases healing done by 13%.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "Ally",
+    "special_effects": [
+      {
+        "type": "healing_bonus_percent",
+        "value": 13,
+        "duration_turns": 99
+      }
+    ]
   },
   {
     "id": "al5_78_act",
@@ -21267,19 +22270,31 @@
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 25,
-    "damage_formula": "PER * 2.3",
+    "damage_formula": "0",
     "effect": "{\"heal_ally\": \"lowest_hp\", \"cleanse\": 1}",
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: Lysa applies a concentrated root extract that heals and purifies. Heals the lowest HP ally and removes one debuff.",
+    "skill_description": "Heals an ally (~2.3x PER); cleanses one debuff.",
     "skill_shape": "single_target",
     "range": 3.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "none",
-    "target_effect": "All Ally"
+    "target_effect": "Ally",
+    "special_effects": [
+      {
+        "type": "direct_heal_scaling_perception",
+        "value": 2.3,
+        "duration_turns": 1
+      },
+      {
+        "type": "cleanse_debuff",
+        "value": 1,
+        "duration_turns": 0
+      }
+    ]
   },
   {
     "id": "al5_79_pas",
@@ -21289,17 +22304,35 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 16, \"crit_rate_boost\": 8}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 16,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "crit_rate",
+        "value": 8,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: The Aethel fragment in Kira's forearm channels Shard resonance into every strike, amplifying damage beyond ordinary physical limits. Permanently increases ATK and critical rate.",
+    "skill_description": "Passive - +16% ATK; +8% crit rate.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al5_79_act",
@@ -21310,16 +22343,33 @@
     "damage_formula": "ATK * 2.6",
     "effect": "{\"stun\": 0.35, \"bleed\": 2}",
     "stat_modifiers": [],
-    "periodic_effects": [],
-    "control_effects": [],
-    "skill_description": "Active: Kira channels the Shard fragment's full output through a single, concentrated blow. Heavy damage with 35% Stun chance and Bleed for 2 turns.",
+    "periodic_effects": [
+      {
+        "type": "bleed",
+        "value": 8,
+        "scale": 0,
+        "duration_turns": 2,
+        "target": "enemy",
+        "condition": null
+      }
+    ],
+    "control_effects": [
+      {
+        "type": "stun",
+        "chance": 0.35,
+        "duration_turns": 1,
+        "target": "enemy"
+      }
+    ],
+    "skill_description": "Deals damage to the target; inflicts bleed (8/turn for 2t); 35% chance to stun (1t).",
     "skill_shape": "single_target",
     "range": 2.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "special_effects": []
   },
   {
     "id": "al5_80_pas",
@@ -21329,17 +22379,35 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"def_boost\": 17, \"party_def_boost\": 6}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "def",
+        "value": 17,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "def",
+        "value": 6,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Gareth's protection extends beyond himself — a habit built from watching executives ignore threats until it was too late. Increases own DEF and party DEF permanently.",
+    "skill_description": "Passive - +17% DEF; party +6% DEF.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al5_80_act",
@@ -21351,15 +22419,29 @@
     "effect": "{\"shield_self\": 22, \"taunt\": 2}",
     "stat_modifiers": [],
     "periodic_effects": [],
-    "control_effects": [],
-    "skill_description": "Active: Gareth interposes himself and generates a hardened defensive barrier. Taunts all enemies for 2 turns and generates a significant damage-absorbing shield.",
+    "control_effects": [
+      {
+        "type": "taunt",
+        "chance": 1.0,
+        "duration_turns": 2,
+        "target": "enemy"
+      }
+    ],
+    "skill_description": "Deals damage to the target; taunt (2t); shields for 22.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": [
+      {
+        "type": "shield_flat",
+        "value": 22,
+        "duration_turns": 2
+      }
+    ]
   },
   {
     "id": "al5_81_pas",
@@ -21369,17 +22451,35 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"party_atk_boost\": 7, \"party_def_boost\": 5}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 7,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": "-"
+      },
+      {
+        "stat": "def",
+        "value": 5,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Sable's intelligence network remained operational even after retirement — and old contacts still feed useful intelligence. Permanently increases party ATK and DEF.",
+    "skill_description": "Passive - Party +7% ATK; party +5% DEF.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al5_81_act",
@@ -21390,16 +22490,33 @@
     "damage_formula": "PER * 2.6",
     "effect": "{\"energy_drain\": 18, \"slow\": 2}",
     "stat_modifiers": [],
-    "periodic_effects": [],
-    "control_effects": [],
-    "skill_description": "Active: Sable exploits a dossier entry — a vulnerability the target didn't know she had access to. Drains enemy MP and applies Slow for 2 turns.",
+    "periodic_effects": [
+      {
+        "type": "drain_mp",
+        "value": 18,
+        "scale": 0,
+        "duration_turns": 3,
+        "target": "enemy",
+        "condition": null
+      }
+    ],
+    "control_effects": [
+      {
+        "type": "slow",
+        "chance": 1.0,
+        "duration_turns": 2,
+        "target": "enemy"
+      }
+    ],
+    "skill_description": "Deals damage to the target; drains 18 MP/turn; slow (2t).",
     "skill_shape": "single_target",
     "range": 4.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "special_effects": []
   },
   {
     "id": "al5_82_pas",
@@ -21410,16 +22527,32 @@
     "damage_formula": "",
     "effect": "{\"heal_boost\": 16, \"hp_regen\": 4}",
     "stat_modifiers": [],
-    "periodic_effects": [],
+    "periodic_effects": [
+      {
+        "type": "heal_over_time",
+        "value": 4,
+        "scale": 0,
+        "duration_turns": 99,
+        "target": "self",
+        "condition": null
+      }
+    ],
     "control_effects": [],
-    "skill_description": "Passive: Eleven years of continuous field medical work built Haze into a system that never fully stops running. Increases healing output and grants HP regen each turn.",
+    "skill_description": "Passive - HP regen 4/turn; increases healing done by 16%.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "Ally",
+    "special_effects": [
+      {
+        "type": "healing_bonus_percent",
+        "value": 16,
+        "duration_turns": 99
+      }
+    ]
   },
   {
     "id": "al5_82_act",
@@ -21427,19 +22560,31 @@
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 30,
-    "damage_formula": "PER * 2.8",
+    "damage_formula": "0",
     "effect": "{\"heal_all\": 1, \"cleanse\": 1}",
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: Haze applies her accumulated field research in a single coordinated treatment pass. Heals all allies and removes one debuff from each.",
+    "skill_description": "Heals the party (15% max HP); cleanses one debuff.",
     "skill_shape": "aoe_burst",
     "range": 0.0,
     "aoe_radius": 4.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
-    "target_attack": "All Enemy",
-    "target_effect": "All Ally"
+    "target_attack": "none",
+    "target_effect": "All Ally",
+    "special_effects": [
+      {
+        "type": "aoe_heal_party",
+        "value": 15,
+        "duration_turns": 1
+      },
+      {
+        "type": "cleanse_debuff",
+        "value": 1,
+        "duration_turns": 0
+      }
+    ]
   },
   {
     "id": "al5_83_pas",
@@ -21449,17 +22594,35 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 16, \"crit_rate_boost\": 10}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 16,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "crit_rate",
+        "value": 10,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Three lightning strikes left Erix's physiology permanently energized — his attacks carry a residual electrical charge that critical hits discharge explosively. Increases ATK and critical rate permanently.",
+    "skill_description": "Passive - +16% ATK; +10% crit rate.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al5_83_act",
@@ -21471,15 +22634,29 @@
     "effect": "{\"stun\": 0.35, \"slow\": 2}",
     "stat_modifiers": [],
     "periodic_effects": [],
-    "control_effects": [],
-    "skill_description": "Active: Erix releases accumulated bio-electrical charge in a single concentrated strike. Deals heavy damage with 35% Stun chance and Slows the target for 2 turns.",
+    "control_effects": [
+      {
+        "type": "stun",
+        "chance": 0.35,
+        "duration_turns": 1,
+        "target": "enemy"
+      },
+      {
+        "type": "slow",
+        "chance": 1.0,
+        "duration_turns": 2,
+        "target": "enemy"
+      }
+    ],
+    "skill_description": "Deals damage to the target; 35% chance to stun (1t); slow (2t).",
     "skill_shape": "single_projectile",
     "range": 4.0,
     "aoe_radius": 0.0,
     "projectile_speed": 16.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "special_effects": []
   },
   {
     "id": "al5_84_pas",
@@ -21489,17 +22666,33 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"def_boost\": 18, \"thorns\": 6}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "def",
+        "value": 18,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Every rune carved into Marn's own skin has been stress-tested beyond specification. DEF increases permanently and attackers take reflected damage (Thorns).",
+    "skill_description": "Passive - +18% DEF; reflects 6% of damage taken.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": [
+      {
+        "type": "damage_reflect",
+        "value": 6,
+        "duration_turns": 99
+      }
+    ]
   },
   {
     "id": "al5_84_act",
@@ -21512,14 +22705,26 @@
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: Marn activates a full-body rune sequence — a walking experiment in defensive theory. Generates a large shield and amplifies Thorns damage reflection.",
+    "skill_description": "Deals damage to the target; shields for 25; reflects 8% of damage taken.",
     "skill_shape": "self_buff",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": [
+      {
+        "type": "shield_flat",
+        "value": 25,
+        "duration_turns": 2
+      },
+      {
+        "type": "damage_reflect",
+        "value": 8,
+        "duration_turns": 3
+      }
+    ]
   },
   {
     "id": "al5_85_pas",
@@ -21530,16 +22735,32 @@
     "damage_formula": "",
     "effect": "{\"heal_boost\": 15, \"party_hp_regen\": 3}",
     "stat_modifiers": [],
-    "periodic_effects": [],
+    "periodic_effects": [
+      {
+        "type": "heal_over_time",
+        "value": 3,
+        "scale": 0,
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": null
+      }
+    ],
     "control_effects": [],
-    "skill_description": "Passive: Zola's District 14 system ran itself on improvisation and efficiency — she brings the same principle to combat medicine. Increases healing output and grants party HP regen each turn.",
+    "skill_description": "Passive - HP regen 3/turn; increases healing done by 15%.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "Ally",
+    "special_effects": [
+      {
+        "type": "healing_bonus_percent",
+        "value": 15,
+        "duration_turns": 99
+      }
+    ]
   },
   {
     "id": "al5_85_act",
@@ -21547,19 +22768,26 @@
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 32,
-    "damage_formula": "PER * 2.8",
+    "damage_formula": "0",
     "effect": "{\"heal_all\": 1}",
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: Zola runs a rapid triage pass across all allies — no one gets left for later. Heals all party members.",
+    "skill_description": "Heals the party (15% max HP).",
     "skill_shape": "aoe_burst",
     "range": 0.0,
     "aoe_radius": 4.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
-    "target_attack": "All Enemy",
-    "target_effect": "All Ally"
+    "target_attack": "none",
+    "target_effect": "All Ally",
+    "special_effects": [
+      {
+        "type": "aoe_heal_party",
+        "value": 15,
+        "duration_turns": 1
+      }
+    ]
   },
   {
     "id": "al5_86_pas",
@@ -21569,17 +22797,35 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"atk_boost\": 22, \"crit_rate_boost\": 12}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 22,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "crit_rate",
+        "value": 12,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Omen processes enemies as probability vectors and attacks the highest-value vulnerability before it closes. Permanently increases ATK and critical rate.",
+    "skill_description": "Passive - +22% ATK; +12% crit rate.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": []
   },
   {
     "id": "al5_86_act",
@@ -21591,15 +22837,29 @@
     "effect": "{\"void_rupture\": true, \"stun\": 0.45}",
     "stat_modifiers": [],
     "periodic_effects": [],
-    "control_effects": [],
-    "skill_description": "Active: Omen collapses a localized probability window — the target experiences a moment of null causality. Massive damage with 45% Stun chance and Void Rupture effect.",
+    "control_effects": [
+      {
+        "type": "stun",
+        "chance": 0.45,
+        "duration_turns": 1,
+        "target": "enemy"
+      }
+    ],
+    "skill_description": "Deals damage to the target; 45% chance to stun (1t); reduces target DEF by 20%.",
     "skill_shape": "single_target",
     "range": 4.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "enemy",
-    "target_effect": "enemy"
+    "target_effect": "enemy",
+    "special_effects": [
+      {
+        "type": "armor_break",
+        "value": 20,
+        "duration_turns": 2
+      }
+    ]
   },
   {
     "id": "al5_87_pas",
@@ -21609,17 +22869,33 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"def_boost\": 22, \"thorns\": 10}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "def",
+        "value": 22,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Something about surviving a nine-hour Void incursion as the last one standing hardened Torrak beyond standard physical limits. Permanently increases DEF and applies Thorns to all attackers.",
+    "skill_description": "Passive - +22% DEF; reflects 10% of damage taken.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": [
+      {
+        "type": "damage_reflect",
+        "value": 10,
+        "duration_turns": 99
+      }
+    ]
   },
   {
     "id": "al5_87_act",
@@ -21631,15 +22907,29 @@
     "effect": "{\"taunt\": 3, \"shield_all\": 20}",
     "stat_modifiers": [],
     "periodic_effects": [],
-    "control_effects": [],
-    "skill_description": "Active: Torrak holds the line for the entire squad — every attack meant for an ally redirects to him while a shared shield absorbs incoming damage. Taunts all enemies for 3 turns and grants a shield to all allies.",
+    "control_effects": [
+      {
+        "type": "taunt",
+        "chance": 1.0,
+        "duration_turns": 3,
+        "target": "enemy"
+      }
+    ],
+    "skill_description": "Deals damage to the target; taunt (3t); grants the party a 20-point shield.",
     "skill_shape": "aoe_burst",
     "range": 0.0,
     "aoe_radius": 4.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "All Enemy",
-    "target_effect": "All Ally"
+    "target_effect": "All Ally",
+    "special_effects": [
+      {
+        "type": "party_shield",
+        "value": 20,
+        "duration_turns": 2
+      }
+    ]
   },
   {
     "id": "al5_88_pas",
@@ -21650,16 +22940,32 @@
     "damage_formula": "",
     "effect": "{\"heal_boost\": 22, \"party_hp_regen\": 4}",
     "stat_modifiers": [],
-    "periodic_effects": [],
+    "periodic_effects": [
+      {
+        "type": "heal_over_time",
+        "value": 4,
+        "scale": 0,
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": null
+      }
+    ],
     "control_effects": [],
-    "skill_description": "Passive: Caelan operates on emergency authority that never expires. Every action is optimized for sustained crisis — party receives continuous HP regeneration and healing effectiveness is significantly increased.",
+    "skill_description": "Passive - HP regen 4/turn; increases healing done by 22%.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "Ally",
+    "special_effects": [
+      {
+        "type": "healing_bonus_percent",
+        "value": 22,
+        "duration_turns": 99
+      }
+    ]
   },
   {
     "id": "al5_88_act",
@@ -21667,19 +22973,31 @@
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 48,
-    "damage_formula": "PER * 3.4",
+    "damage_formula": "0",
     "effect": "{\"heal_all\": 1, \"remove_all_debuffs\": true}",
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: Caelan triggers a full-party emergency response — every injury addressed, every status condition cleared. Heals all allies and removes all debuffs from the party.",
+    "skill_description": "Heals the party (15% max HP); removes all debuffs.",
     "skill_shape": "aoe_burst",
     "range": 0.0,
     "aoe_radius": 5.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
-    "target_attack": "All Enemy",
-    "target_effect": "All Ally"
+    "target_attack": "none",
+    "target_effect": "All Ally",
+    "special_effects": [
+      {
+        "type": "aoe_heal_party",
+        "value": 15,
+        "duration_turns": 1
+      },
+      {
+        "type": "cleanse_all_debuffs",
+        "value": 1,
+        "duration_turns": 0
+      }
+    ]
   },
   {
     "id": "al5_89_pas",
@@ -21689,17 +23007,35 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"party_atk_boost\": 10, \"party_def_boost\": 8}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 10,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": "-"
+      },
+      {
+        "stat": "def",
+        "value": 8,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Lyssa's altered perception lets her position allies ahead of incoming threats — every squad member benefits from her expanded spatial awareness. Permanently increases party ATK and DEF.",
+    "skill_description": "Passive - Party +10% ATK; party +8% DEF.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "All Ally",
+    "special_effects": []
   },
   {
     "id": "al5_89_act",
@@ -21709,17 +23045,41 @@
     "mp_cost": 44,
     "damage_formula": "",
     "effect": "{\"shield_all\": 25, \"party_atk_buff\": 15, \"party_def_buff\": 12}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": 15,
+        "type": "percent",
+        "duration_turns": 2,
+        "target": "all_ally",
+        "condition": "-"
+      },
+      {
+        "stat": "def",
+        "value": 12,
+        "type": "percent",
+        "duration_turns": 2,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: Lyssa reads the next 3 seconds of combat and repositions the entire party ahead of attacks that haven't landed yet. Grants a shield to all allies and significantly boosts party ATK and DEF for 2 turns.",
+    "skill_description": "Party +15% ATK; party +12% DEF; grants the party a 25-point shield.",
     "skill_shape": "aoe_burst",
     "range": 0.0,
     "aoe_radius": 5.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "none",
-    "target_effect": "All Ally"
+    "target_effect": "All Ally",
+    "special_effects": [
+      {
+        "type": "party_shield",
+        "value": 25,
+        "duration_turns": 2
+      }
+    ]
   },
   {
     "id": "al5_90_pas",
@@ -21729,17 +23089,41 @@
     "mp_cost": 0,
     "damage_formula": "",
     "effect": "{\"def_boost\": 25, \"party_def_boost\": 12, \"thorns\": 14}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "def",
+        "value": 25,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "self",
+        "condition": "-"
+      },
+      {
+        "stat": "def",
+        "value": 12,
+        "type": "percent",
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Passive: Four hundred years of continuous tactical memory mean Aegis Prime has faced every attack pattern at least twice. Permanently increases own DEF and party DEF, and reflects damage (Thorns) to all attackers.",
+    "skill_description": "Passive - +25% DEF; party +12% DEF; reflects 14% of damage taken.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "self",
+    "special_effects": [
+      {
+        "type": "damage_reflect",
+        "value": 14,
+        "duration_turns": 99
+      }
+    ]
   },
   {
     "id": "al5_90_act",
@@ -21749,17 +23133,40 @@
     "mp_cost": 60,
     "damage_formula": "ATK * 3.5",
     "effect": "{\"taunt\": 3, \"shield_all\": 30, \"party_def_buff\": 20}",
-    "stat_modifiers": [],
+    "stat_modifiers": [
+      {
+        "stat": "def",
+        "value": 20,
+        "type": "percent",
+        "duration_turns": 2,
+        "target": "all_ally",
+        "condition": "-"
+      }
+    ],
     "periodic_effects": [],
-    "control_effects": [],
-    "skill_description": "Active: Aegis Prime deploys four centuries of defensive doctrine in a single formation — the squad becomes a fortress. Taunts all enemies for 3 turns, grants a massive shield to all allies, and greatly increases party DEF.",
+    "control_effects": [
+      {
+        "type": "taunt",
+        "chance": 1.0,
+        "duration_turns": 3,
+        "target": "enemy"
+      }
+    ],
+    "skill_description": "Deals damage to the target; party +20% DEF; taunt (3t); grants the party a 30-point shield.",
     "skill_shape": "aoe_burst",
     "range": 0.0,
     "aoe_radius": 6.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
     "target_attack": "All Enemy",
-    "target_effect": "All Ally"
+    "target_effect": "All Ally",
+    "special_effects": [
+      {
+        "type": "party_shield",
+        "value": 30,
+        "duration_turns": 2
+      }
+    ]
   },
   {
     "id": "al5_91_pas",
@@ -21770,16 +23177,40 @@
     "damage_formula": "",
     "effect": "{\"heal_boost\": 28, \"party_hp_regen\": 6, \"party_mp_regen\": 4}",
     "stat_modifiers": [],
-    "periodic_effects": [],
+    "periodic_effects": [
+      {
+        "type": "heal_over_time",
+        "value": 6,
+        "scale": 0,
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": null
+      },
+      {
+        "type": "mp_regen",
+        "value": 4,
+        "scale": 0,
+        "duration_turns": 99,
+        "target": "all_ally",
+        "condition": null
+      }
+    ],
     "control_effects": [],
-    "skill_description": "Passive: Solas existed when healing and harm were not yet separate concepts — its presence sustains allied vitality at a fundamental level. Greatly increases healing output and grants the party continuous HP and MP regeneration each turn.",
+    "skill_description": "Passive - HP regen 6/turn; MP regen 4/turn; increases healing done by 28%.",
     "skill_shape": "passive",
     "range": 0.0,
     "aoe_radius": 0.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 0.0,
     "target_attack": "none",
-    "target_effect": "self"
+    "target_effect": "Ally",
+    "special_effects": [
+      {
+        "type": "healing_bonus_percent",
+        "value": 28,
+        "duration_turns": 99
+      }
+    ]
   },
   {
     "id": "al5_91_act",
@@ -21787,19 +23218,36 @@
     "type": "Active",
     "source_type": "Ally",
     "mp_cost": 62,
-    "damage_formula": "PER * 4.2",
+    "damage_formula": "0",
     "effect": "{\"heal_all\": 1, \"revive\": 0.35, \"remove_all_debuffs\": true}",
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
-    "skill_description": "Active: Solas reaches back to the moment before the Fracture and pulls the party toward wholeness. Heals all allies, removes all debuffs, and has a 35% chance to revive a fallen ally at partial HP.",
+    "skill_description": "Heals the party (15% max HP); heals the party (35% max HP); removes all debuffs.",
     "skill_shape": "aoe_burst",
     "range": 0.0,
     "aoe_radius": 6.0,
     "projectile_speed": 0.0,
     "cooldown_seconds": 1.0,
-    "target_attack": "All Enemy",
-    "target_effect": "All Ally"
+    "target_attack": "none",
+    "target_effect": "All Ally",
+    "special_effects": [
+      {
+        "type": "aoe_heal_party",
+        "value": 15,
+        "duration_turns": 1
+      },
+      {
+        "type": "aoe_heal_party",
+        "value": 35,
+        "duration_turns": 1
+      },
+      {
+        "type": "cleanse_all_debuffs",
+        "value": 1,
+        "duration_turns": 0
+      }
+    ]
   },
   {
     "id": "siege_frame",
