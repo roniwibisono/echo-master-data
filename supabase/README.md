@@ -112,6 +112,17 @@ Scalars as columns; `base_stats` as JSONB. The `passive_skill`/`active_skill`
 text columns (joinable to `public.skills`); `export_allies.py` re-wraps them.
 Seed fits one file (`allies_seed.sql`, ~114 KB). Round-trip: 91 allies, 0 diffs.
 
+## NPCs (`npc_list.json` → `npcs`)
+
+147 NPCs (0 dup ids) → `public.npcs` (`migrations/0008_npcs.sql`). Scalars as
+columns; `available_services` / `actions` as JSONB; 7 optional text fields are
+NULL-when-absent, omitted on export. Seed fits one paste (`npcs_seed.sql`,
+~208 KB). Tools: `import_npcs.py` / `export_npcs.py`. Round-trip: 147, 0 diffs.
+**`npc_additions.json` is NOT migrated** — the client only adds additions whose
+id isn't already in npc_list, and all 28 addition ids overlap it, so it adds
+zero NPCs at runtime (15 of the overlaps *differ* — intended patches the client
+silently ignores; worth cleaning up separately).
+
 ## Operational notes
 - **JSONB reorders keys.** A round-trip through a `jsonb` column normalises key
   order + whitespace, so `export_*.py` output is *semantically identical* but
@@ -126,7 +137,7 @@ Seed fits one file (`allies_seed.sql`, ~114 KB). Round-trip: 91 allies, 0 diffs.
 ## Roadmap (same pattern, one domain at a time)
 Recommended order by maintenance pain / relational value:
 `quests` (done) → `shops` (done) → `raid_events` (done) → `items` (done) →
-`skills` (done) → `monsters` (done) → `allies` (done) → `npcs` → `dialogs`.
+`skills` (done) → `monsters` (done) → `allies` (done) → `npcs` (done) → `dialogs`.
 
 Keep as static JSON (small, structural): `xylos_factions`, `master_race`,
 `class_list`, `biome_taxonomy`, `title_master`, `biome_*_mapping`, world-map
