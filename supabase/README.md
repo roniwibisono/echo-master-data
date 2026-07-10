@@ -29,8 +29,11 @@ verified: 713 quests, 0 value diffs).
 ### One-time setup
 1. In the Supabase SQL editor, run **`migrations/0001_quests.sql`** (table +
    RLS public-read + content-version trigger).
-2. Run **`seed/quests_seed.sql`** to load the current 713 quests.
-   Regenerate it any time from the JSON with:
+2. Load the 713 quests. The full `seed/quests_seed.sql` (~1.5 MB) exceeds the
+   SQL Editor's query-size cap, so **use the chunk files**: run
+   `seed/quests_seed_part01.sql` … `part05.sql` in order (each ~300 KB). The
+   single `quests_seed.sql` is fine for `psql`/CLI (no size limit).
+   Regenerate all of them from the JSON with:
    `python3 supabase/tools/import_quests.py`
 
 ### Editing workflow (from now on)
