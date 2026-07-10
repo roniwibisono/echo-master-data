@@ -72,10 +72,32 @@ Setup: run `0003` then `seed/raid_events_seed.sql` (regen via
 verified: 3 events, 0 diffs. `quest_events.json` is empty (0 quests) — already
 round-tripped by the quests migration, no separate table yet.
 
+## Items (`item_list.json` → `items`)
+
+1146 entries → `public.items` (`migrations/0004_items.sql`). Scalars as columns;
+`equipment_slots` / `stats_bonus` / `special_effects` as JSONB. Source file has
+**37 duplicate ids** (20 identical, 17 with conflicting prices) — the client
+builds its id→item map **last-wins**, so the seed keeps the last occurrence
+(→ 1102 unique rows, matching runtime). `tools/import_items.py` prints the 17
+conflicts to review + fix in the DB. Seed is chunked (`items_seed_part01..08.sql`,
+~150 rows each) for the editor size cap; full `items_seed.sql` for psql. Publish
+with `tools/export_items.py`. Round-trip vs runtime: 1102 items, 0 diffs.
+
+## Operational notes
+- **JSONB reorders keys.** A round-trip through a `jsonb` column normalises key
+  order + whitespace, so `export_*.py` output is *semantically identical* but
+  textually reordered vs the original hand-formatted files (verified: quests
+  713 rows, 0 semantic diffs). The client reads by key name, so this is
+  harmless — the exported file becomes the new canonical CDN format the first
+  time you publish a real edit.
+- **`apply_all.sql`** (schema + full seeds) is ~7 MB → for **psql/CLI only**;
+  it exceeds the dashboard SQL-editor cap. In the dashboard, run the per-file
+  migrations + the chunked seeds.
+
 ## Roadmap (same pattern, one domain at a time)
 Recommended order by maintenance pain / relational value:
-`quests` (done) → `shops` (done) → `raid_events` (done) →
-`items` → `skills` → `monsters` → `allies` → `npcs` → `dialogs`.
+`quests` (done) → `shops` (done) → `raid_events` (done) → `items` (done) →
+`skills` → `monsters` → `allies` → `npcs` → `dialogs`.
 
 Keep as static JSON (small, structural): `xylos_factions`, `master_race`,
 `class_list`, `biome_taxonomy`, `title_master`, `biome_*_mapping`, world-map
