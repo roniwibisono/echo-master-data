@@ -5,11 +5,12 @@
 --  shop_inventory, buy_currency, rest_currency, sell_note, quest_category,
 --  reward_currency) are NULL when absent, omitted on export. Run after 0001.
 --
---  NOTE: npc_additions.json is NOT migrated. The client only adds an addition
---  whose id is NOT already in npc_list, and all 28 addition ids overlap the
---  list — so npc_additions contributes ZERO NPCs at runtime (npc_list wins).
---  15 of those overlaps DIFFER from the list version (intended patches the
---  client silently ignores) — surface for cleanup; not migrated here.
+--  NOTE: npc_additions.json was NOT migrated and has since been DELETED in a
+--  cleanup pass. The client only added an addition whose id was NOT already in
+--  npc_list, and all 28 addition ids overlapped the list — so it contributed
+--  ZERO NPCs at runtime (npc_list won). 15 overlaps DIFFERED from the list
+--  version (intended patches the client silently ignored); those tweaks were
+--  discarded — re-apply any wanted change directly to the npcs table.
 -- ═══════════════════════════════════════════════════════════════════════
 
 create table if not exists public.npcs (

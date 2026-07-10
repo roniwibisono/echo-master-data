@@ -118,10 +118,12 @@ Seed fits one file (`allies_seed.sql`, ~114 KB). Round-trip: 91 allies, 0 diffs.
 columns; `available_services` / `actions` as JSONB; 7 optional text fields are
 NULL-when-absent, omitted on export. Seed fits one paste (`npcs_seed.sql`,
 ~208 KB). Tools: `import_npcs.py` / `export_npcs.py`. Round-trip: 147, 0 diffs.
-**`npc_additions.json` is NOT migrated** — the client only adds additions whose
-id isn't already in npc_list, and all 28 addition ids overlap it, so it adds
-zero NPCs at runtime (15 of the overlaps *differ* — intended patches the client
-silently ignores; worth cleaning up separately).
+**`npc_additions.json` is NOT migrated — and has been DELETED** in a cleanup
+pass. The client only added additions whose id wasn't already in npc_list, and
+all 28 addition ids overlapped it, so it added zero NPCs at runtime (15 of the
+overlaps *differed* — intended patches the client silently ignored; discarded,
+re-apply any wanted change directly to the `npcs` table). The client's
+additions-loading code + CDN sync entry were removed alongside the file.
 
 ## Dialogs (`dialog_tree_master.json` + `dialog_quests.json` → `dialogs`)
 
@@ -154,4 +156,4 @@ Keep as static JSON (small, structural): `xylos_factions`, `master_race`,
 `class_list`, `biome_taxonomy`, `title_master`, `biome_*_mapping`, world-map
 topology. Keep binary assets (`images/ sprites/ icons/ monsters/`) on the CDN.
 
-> `shop_update.json` is unused — not migrated; safe to delete in a cleanup pass.
+> `shop_update.json` was unused (zero references anywhere) — DELETED in the cleanup pass.
