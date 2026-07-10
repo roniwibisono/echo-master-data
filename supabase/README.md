@@ -6,6 +6,17 @@ back to the CDN** so the Flutter client stays completely unchanged (it still
 reads `quest_*.json` etc. via its cache-then-CDN loader). This is the low-risk
 "edit in DB → export to CDN" hybrid.
 
+## Apply everything (one paste)
+
+Fastest path — open the **Supabase SQL editor** and run **`apply_all.sql`**
+(schema `0001→0003` + all three seeds, in the correct order). Regenerate it
+after any change with `bash supabase/build_apply_all.sh`.
+
+Alternatives: run each `migrations/000X.sql` then `seed/*.sql` individually, or
+drop the migrations into your `supabase/migrations/` pipeline and `supabase db
+push`. (DDL needs the service role / DB password / a linked CLI — the app's
+anon key cannot create tables.)
+
 ## Pilot: Quests (8 files → 1 table)
 
 `quest_list / arcanum / concordium / iron / legion / meridian / omnicorp /

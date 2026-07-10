@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Regenerate supabase/apply_all.sql from the individual migration + seed files.
+cd "$(dirname "$0")"
+OUT=apply_all.sql
+{
+  echo "-- apply_all.sql — run ONCE in the Supabase SQL editor (schema 0001→0003, then seeds)."
+  for f in migrations/0001_quests.sql migrations/0002_shops.sql migrations/0003_raid_events.sql \
+           seed/quests_seed.sql seed/shops_seed.sql seed/raid_events_seed.sql; do
+    echo; echo "-- ─── $f ───"; echo; cat "$f"; echo
+  done
+} > "$OUT"
+echo "wrote $OUT ($(wc -l < "$OUT") lines)"
