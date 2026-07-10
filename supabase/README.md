@@ -83,6 +83,16 @@ conflicts to review + fix in the DB. Seed is chunked (`items_seed_part01..08.sql
 ~150 rows each) for the editor size cap; full `items_seed.sql` for psql. Publish
 with `tools/export_items.py`. Round-trip vs runtime: 1102 items, 0 diffs.
 
+## Skills (`skill_list.json` → `skills`)
+
+688 skills (0 duplicate ids) → `public.skills` (`migrations/0005_skills.sql`).
+Scalars as columns (`"range"` is quoted — reserved); the effect arrays +
+`usage_requirements` as JSONB; `effect` is the legacy free-form blob kept
+verbatim. Optional fields (`special_effects`, `usage_requirements`,
+`target_attack`, `target_effect`, `arc_angle_degrees`) are NULL when absent and
+omitted on export. Seed chunked (`skills_seed_part01..05.sql`). Tools:
+`import_skills.py` / `export_skills.py`. Round-trip: 688 skills, 0 semantic diffs.
+
 ## Operational notes
 - **JSONB reorders keys.** A round-trip through a `jsonb` column normalises key
   order + whitespace, so `export_*.py` output is *semantically identical* but
@@ -97,7 +107,7 @@ with `tools/export_items.py`. Round-trip vs runtime: 1102 items, 0 diffs.
 ## Roadmap (same pattern, one domain at a time)
 Recommended order by maintenance pain / relational value:
 `quests` (done) → `shops` (done) → `raid_events` (done) → `items` (done) →
-`skills` → `monsters` → `allies` → `npcs` → `dialogs`.
+`skills` (done) → `monsters` → `allies` → `npcs` → `dialogs`.
 
 Keep as static JSON (small, structural): `xylos_factions`, `master_race`,
 `class_list`, `biome_taxonomy`, `title_master`, `biome_*_mapping`, world-map
