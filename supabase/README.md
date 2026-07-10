@@ -48,10 +48,20 @@ Supabase directly instead of the CDN.
 (re-nests rows into the exact `{meta, shops:[{categories:[{items}]}]}` file).
 Round-trip verified: 42 shops, 372 items, 0 diffs.
 
+## Raid events (`raid_boss_event.json` → `raid_events`)
+
+Timed raid-boss definitions (currently 3) → `public.raid_events`
+(`migrations/0003_raid_events.sql`). Scalars as columns; nested
+`entry_requirements` / `spawn_monster_id` / `phases` / `clear_rewards` as JSONB.
+Setup: run `0003` then `seed/raid_events_seed.sql` (regen via
+`tools/import_raids.py`); publish with `tools/export_raids.py`. Round-trip
+verified: 3 events, 0 diffs. `quest_events.json` is empty (0 quests) — already
+round-tripped by the quests migration, no separate table yet.
+
 ## Roadmap (same pattern, one domain at a time)
 Recommended order by maintenance pain / relational value:
-`quests` (done) → `shops` (done) → `raid_boss_event` / `quest_events`
-(live/timed) → `items` → `skills` → `monsters` → `allies` → `npcs` → `dialogs`.
+`quests` (done) → `shops` (done) → `raid_events` (done) →
+`items` → `skills` → `monsters` → `allies` → `npcs` → `dialogs`.
 
 Keep as static JSON (small, structural): `xylos_factions`, `master_race`,
 `class_list`, `biome_taxonomy`, `title_master`, `biome_*_mapping`, world-map
