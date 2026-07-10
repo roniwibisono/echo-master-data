@@ -8,9 +8,11 @@ reads `quest_*.json` etc. via its cache-then-CDN loader). This is the low-risk
 
 ## Apply everything (one paste)
 
-Fastest path — open the **Supabase SQL editor** and run **`apply_all.sql`**
-(schema `0001→0003` + all three seeds, in the correct order). Regenerate it
-after any change with `bash supabase/build_apply_all.sh`.
+`apply_all.sql` concatenates every schema migration + full seed in order —
+but it's ~15 MB now, so it's for **psql/CLI only** (see Operational notes); it
+exceeds the dashboard editor cap. In the dashboard, run each `migrations/000X.sql`
+then the domain's chunked seed files. Regenerate apply_all with
+`bash supabase/build_apply_all.sh`.
 
 Alternatives: run each `migrations/000X.sql` then `seed/*.sql` individually, or
 drop the migrations into your `supabase/migrations/` pipeline and `supabase db
