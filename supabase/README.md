@@ -169,6 +169,19 @@ Public-read + `bump_content_version('achievements')`. `player_achievements`
 `tools/import_achievements.py` (catalog → JSON + seed) / `export_achievements.py`.
 The client evaluates thresholds against lifetime stats and grants unlocks.
 
+## Leaderboards (RPC over `player_stats`)
+
+`migrations/0013_leaderboards.sql` — two SQL functions (callable via
+`supabase.rpc(...)`) that rank players by ANY PlayerStats metric out of
+`player_stats` (PostgREST can't `ORDER BY` a JSONB expression directly):
+`leaderboard_top(p_metric, p_faction, p_limit)` → ranked rows, and
+`leaderboard_rank(p_metric, p_player, p_faction)` → a player's 1-based rank.
+`p_metric` is a JSONB value key (`->>`), not an identifier — no injection; the
+hot metrics have expression indexes (0011) so those sorts are fast. Granted to
+anon + authenticated. Client: `StatsLeaderboardService` + `LeaderboardPage`
+(metric chips × global/faction scope, my-rank banner). All-time boards; seasonal
+snapshots deferred to Phase 4.
+
 ## Player stats (cloud mirror → `player_stats`)
 
 `migrations/0011_player_stats.sql` (player-data, not CDN master content). Lifetime
