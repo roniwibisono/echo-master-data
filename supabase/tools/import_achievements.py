@@ -1,0 +1,97 @@
+#!/usr/bin/env python3
+"""Author the achievements catalog -> achievements.json (CDN) + seed SQL.
+Tiered, data-driven achievements keyed to PlayerStats metric keys (StatKeys).
+Run:  python3 supabase/tools/import_achievements.py
+"""
+import json, os
+os.chdir('/Users/rnddev/Documents/echo-master-data')
+
+ROWS = []
+def A(aid, name, desc, category, metric, threshold, tier,
+      reward_title=None, reward_rubies=0, hidden=False):
+    ROWS.append(dict(id=aid, name=name, description=desc, category=category,
+                     metric=metric, operator='gte', threshold=threshold, tier=tier,
+                     reward_title=reward_title, reward_rubies=reward_rubies,
+                     hidden=hidden, sort_order=len(ROWS)))
+
+def tiers(base, name, desc_fmt, category, metric, steps, rubies):
+    # steps: [(suffix, threshold, tier)]
+    for suffix, thr, tier in steps:
+        A(f'{base}_{suffix}', f'{name} {suffix}', desc_fmt.format(thr=f'{thr:,}'),
+          category, metric, thr, tier, reward_rubies=rubies.get(tier, 0))
+
+BRONZE, SILVER, GOLD = 'bronze', 'silver', 'gold'
+RUBY = {BRONZE: 5, SILVER: 15, GOLD: 50}
+
+# ── COMBAT ────────────────────────────────────────────────────────────────
+tiers('slayer', 'Slayer', 'Defeat {thr} monsters.', 'combat', 'monsters_killed',
+      [('I', 100, BRONZE), ('II', 1000, SILVER), ('III', 10000, GOLD)], RUBY)
+tiers('warlord', 'Warlord', 'Win {thr} battles.', 'combat', 'battles_won',
+      [('I', 50, BRONZE), ('II', 500, SILVER), ('III', 5000, GOLD)], RUBY)
+tiers('devastator', 'Devastator', 'Deal {thr} total damage.', 'combat', 'total_damage_dealt',
+      [('I', 100000, BRONZE), ('II', 1000000, SILVER), ('III', 10000000, GOLD)], RUBY)
+tiers('juggernaut', 'Juggernaut', 'Absorb {thr} total damage.', 'combat', 'total_damage_taken',
+      [('I', 100000, BRONZE), ('II', 1000000, SILVER)], RUBY)
+tiers('critical', 'Critical Master', 'Land {thr} critical hits.', 'combat', 'crits_landed',
+      [('I', 100, BRONZE), ('II', 1000, SILVER)], RUBY)
+tiers('untouchable', 'Untouchable', 'Dodge {thr} attacks.', 'combat', 'dodges_performed',
+      [('I', 100, BRONZE), ('II', 1000, SILVER)], RUBY)
+tiers('bulwark', 'Bulwark', 'Block {thr} attacks.', 'combat', 'blocks_performed',
+      [('I', 100, BRONZE), ('II', 1000, SILVER)], RUBY)
+tiers('unstoppable', 'Unstoppable', 'Reach a {thr}-win streak.', 'combat', 'battle_win_streak_best',
+      [('I', 10, BRONZE), ('II', 50, SILVER), ('III', 100, GOLD)], RUBY)
+A('big_hitter', 'Big Hitter', 'Land a single hit of 10,000+.', 'combat',
+  'highest_single_hit', 10000, SILVER, reward_rubies=25)
+
+# ── PROGRESSION ────────────────────────────────────────────────────────────
+tiers('ascendant', 'Ascendant', 'Reach level {thr}.', 'progression', 'max_level_reached',
+      [('I', 30, BRONZE), ('II', 60, SILVER), ('III', 100, GOLD)], RUBY)
+A('reborn', 'Reborn', 'Promote your class.', 'progression', 'class_promotions', 1, BRONZE,
+  reward_rubies=10)
+
+# ── QUESTS ─────────────────────────────────────────────────────────────────
+tiers('questor', 'Questor', 'Complete {thr} quests.', 'quests', 'quests_completed',
+      [('I', 25, BRONZE), ('II', 100, SILVER), ('III', 250, GOLD)], RUBY)
+
+# ── CRAFTING ──────────────────────────────────────────────────────────────
+tiers('artisan', 'Artisan', 'Complete {thr} crafts.', 'crafting', 'crafts_completed',
+      [('I', 25, BRONZE), ('II', 100, SILVER), ('III', 500, GOLD)], RUBY)
+
+# ── EXPLORE ───────────────────────────────────────────────────────────────
+tiers('wanderer', 'Wanderer', 'Take {thr} explore steps.', 'explore', 'explore_steps_total',
+      [('I', 500, BRONZE), ('II', 5000, SILVER), ('III', 50000, GOLD)], RUBY)
+
+# ── ECONOMY ────────────────────────────────────────────────────────────────
+tiers('merchant', 'Merchant', 'Sell {thr} items.', 'economy', 'items_sold',
+      [('I', 50, BRONZE), ('II', 500, SILVER)], RUBY)
+
+# ── PvP ───────────────────────────────────────────────────────────────────
+tiers('duelist', 'Duelist', 'Win {thr} PvP duels.', 'pvp', 'pvp_duels_won',
+      [('I', 10, BRONZE), ('II', 100, SILVER)], RUBY)
+
+# ── emit achievements.json (CDN canonical) ─────────────────────────────────
+json.dump({'meta': {'domain': 'achievements', 'count': len(ROWS)}, 'achievements': ROWS},
+          open('achievements.json', 'w'), indent=2, ensure_ascii=False)
+
+# ── emit seed SQL ─────────────────────────────────────────────────────────
+COLS = ['id','name','description','category','metric','operator','threshold','tier',
+        'reward_title','reward_rubies','hidden','sort_order']
+def s(v): return 'NULL' if v is None else "'" + str(v).replace("'", "''") + "'"
+def sqlval(r, c):
+    if c in ('threshold','reward_rubies','sort_order'): return str(r[c])
+    if c == 'hidden': return 'true' if r[c] else 'false'
+    return s(r[c])
+collist = ', '.join(COLS)
+upd = ', '.join(f'{c}=excluded.{c}' for c in COLS if c != 'id')
+lines = [f'-- AUTO-GENERATED by import_achievements.py — {len(ROWS)} achievements.', 'begin;']
+for r in ROWS:
+    vals = ', '.join(sqlval(r, c) for c in COLS)
+    lines.append(f'insert into public.achievements ({collist})\nvalues ({vals})\n'
+                 f'on conflict (id) do update set {upd};')
+lines.append('commit;')
+open('supabase/seed/achievements_seed.sql', 'w').write('\n'.join(lines) + '\n')
+
+ids = [r['id'] for r in ROWS]
+assert len(ids) == len(set(ids)), 'DUP ids'
+print(f'WROTE achievements.json + achievements_seed.sql ({len(ROWS)} achievements, '
+      f'{len(set(r["category"] for r in ROWS))} categories)')

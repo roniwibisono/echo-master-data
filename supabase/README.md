@@ -158,6 +158,17 @@ values so enabling the system is behaviour-neutral: `exp.global_multiplier=13`,
 `tools/import_game_settings.py` (holds the catalog, emits JSON + seed);
 `tools/export_game_settings.py` publishes DB edits back to `game_settings.json`.
 
+## Achievements (`achievements.json` → `achievements`)
+
+`migrations/0012_achievements.sql` + `seed/achievements_seed.sql` (38 tiered
+achievements / 7 categories). Data-driven definitions (mirrors CDN
+`achievements.json`; client reads the CDN copy) — each references a `PlayerStats`
+metric key + `threshold` + `tier`, with optional `reward_title` / `reward_rubies`.
+Public-read + `bump_content_version('achievements')`. `player_achievements`
+(owner-write) mirrors per-player unlocks for achievement leaderboards. Authoring:
+`tools/import_achievements.py` (catalog → JSON + seed) / `export_achievements.py`.
+The client evaluates thresholds against lifetime stats and grants unlocks.
+
 ## Player stats (cloud mirror → `player_stats`)
 
 `migrations/0011_player_stats.sql` (player-data, not CDN master content). Lifetime
