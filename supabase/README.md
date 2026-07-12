@@ -169,6 +169,19 @@ Public-read + `bump_content_version('achievements')`. `player_achievements`
 `tools/import_achievements.py` (catalog → JSON + seed) / `export_achievements.py`.
 The client evaluates thresholds against lifetime stats and grants unlocks.
 
+## Anti-cheat (server-side flagging)
+
+`migrations/0014_anticheat.sql` — a `BEFORE UPDATE` trigger on `player_stats`
+compares each sync's counter delta against the live `game_settings anticheat.*`
+per-hour/per-day thresholds (`max_exp_per_hour`, `max_credits_per_hour`,
+`max_levelups_per_day`) and, on an implausible jump, records a `stat_flags` row
+(admin-only) + marks the row `flagged`. Policy: **flag, don't block** (never
+breaks a legit bursty sync); leaderboards exclude flagged players. Flag is
+**sticky + tamper-proof** (trigger ORs with the old value, ignoring the
+client-supplied column, so an owner can't clear their own flag). Thresholds
+default to **0 = disabled** → opt-in: ops enable/tune live via `game_settings`.
+`leaderboard_top`/`leaderboard_rank` re-created here with `and not flagged`.
+
 ## Leaderboards (RPC over `player_stats`)
 
 `migrations/0013_leaderboards.sql` — two SQL functions (callable via
