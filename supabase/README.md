@@ -169,6 +169,16 @@ Public-read + `bump_content_version('achievements')`. `player_achievements`
 `tools/import_achievements.py` (catalog → JSON + seed) / `export_achievements.py`.
 The client evaluates thresholds against lifetime stats and grants unlocks.
 
+## Seasonal snapshots (`leaderboard_snapshots`)
+
+`migrations/0015_leaderboard_snapshots.sql` — non-destructive seasonal archive
+(lifetime stats are never reset). At season rollover, ops call the SECURITY
+DEFINER `snapshot_leaderboard(season_id, metric, top)` (service-role only, NOT
+granted to anon) to capture the current top-N per metric into
+`leaderboard_snapshots` tagged with the `game_settings season.id`. Public read +
+`season_leaderboard(season_id, metric, limit)` RPC (anon) to show past-season
+boards. Re-capture is idempotent (deletes that season+metric first).
+
 ## Anti-cheat (server-side flagging)
 
 `migrations/0014_anticheat.sql` — a `BEFORE UPDATE` trigger on `player_stats`
