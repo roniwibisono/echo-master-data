@@ -158,6 +158,17 @@ values so enabling the system is behaviour-neutral: `exp.global_multiplier=13`,
 `tools/import_game_settings.py` (holds the catalog, emits JSON + seed);
 `tools/export_game_settings.py` publishes DB edits back to `game_settings.json`.
 
+## Player stats (cloud mirror → `player_stats`)
+
+`migrations/0011_player_stats.sql` (player-data, not CDN master content). Lifetime
+accomplishment stats already ride inside `player_saves.profile`; these tables are
+the **queryable mirror** the client upserts (debounced) for leaderboards/
+achievements: `player_stats` (scalar counters JSONB + expression indexes on hot
+leaderboard metrics + faction), `player_stat_maps` (full breakdown maps), and an
+append-only `stat_events` log. **RLS: public READ (leaderboards), owner-only
+WRITE** (`player_id = auth.uid()`). Plausibility/anti-cheat validation is Phase 4.
+No seed (populated live by clients).
+
 ## Live-verified status
 
 All 10 tables are loaded in the live project (ref `fbntgtzimydjhuwedrjz`) and
