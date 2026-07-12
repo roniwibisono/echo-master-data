@@ -1,6 +1,158 @@
 {
   "quests": [
     {
+      "id": "msq_tutorial_01",
+      "title": "First Contact",
+      "type": "story",
+      "rank": "D",
+      "faction": "NONE",
+      "region": "",
+      "auto_accept": true,
+      "description": "Open EXPLORE and win your first battle.",
+      "quest_giver": {
+        "npc_id": "npc_class_advisor",
+        "name": "Guide Axiom",
+        "location": "Nexus Core"
+      },
+      "requirements": {
+        "min_level": 1,
+        "reputation_required": 0,
+        "required_quests": []
+      },
+      "objectives": [
+        {
+          "type": "action",
+          "target": "win_battle",
+          "count": 1,
+          "description": "Open EXPLORE and win your first battle."
+        }
+      ],
+      "rewards": {
+        "exp": 120,
+        "currency": 50,
+        "crd": 50,
+        "reputation": 0,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "msq_tutorial_02"
+    },
+    {
+      "id": "msq_tutorial_02",
+      "title": "Growing Stronger",
+      "type": "story",
+      "rank": "D",
+      "faction": "NONE",
+      "region": "",
+      "auto_accept": true,
+      "description": "Reach Level 2 — then spend your stat point in Profile.",
+      "quest_giver": {
+        "npc_id": "npc_class_advisor",
+        "name": "Guide Axiom",
+        "location": "Nexus Core"
+      },
+      "requirements": {
+        "min_level": 1,
+        "reputation_required": 0,
+        "required_quests": []
+      },
+      "objectives": [
+        {
+          "type": "action",
+          "target": "reach_level_2",
+          "count": 1,
+          "description": "Reach Level 2 — then spend your stat point in Profile."
+        }
+      ],
+      "rewards": {
+        "exp": 150,
+        "currency": 50,
+        "crd": 50,
+        "reputation": 0,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "msq_tutorial_03"
+    },
+    {
+      "id": "msq_tutorial_03",
+      "title": "Find Your Calling",
+      "type": "story",
+      "rank": "D",
+      "faction": "NONE",
+      "region": "",
+      "auto_accept": true,
+      "description": "Reach Level 5 and choose your class.",
+      "quest_giver": {
+        "npc_id": "npc_class_advisor",
+        "name": "Guide Axiom",
+        "location": "Nexus Core"
+      },
+      "requirements": {
+        "min_level": 1,
+        "reputation_required": 0,
+        "required_quests": []
+      },
+      "objectives": [
+        {
+          "type": "action",
+          "target": "choose_class",
+          "count": 1,
+          "description": "Reach Level 5 and choose your class."
+        }
+      ],
+      "rewards": {
+        "exp": 200,
+        "currency": 50,
+        "crd": 50,
+        "reputation": 0,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "msq_tutorial_04"
+    },
+    {
+      "id": "msq_tutorial_04",
+      "title": "Serve Your Faction",
+      "type": "story",
+      "rank": "D",
+      "faction": "NONE",
+      "region": "",
+      "auto_accept": true,
+      "description": "Accept your faction's first mission from the Quest board.",
+      "quest_giver": {
+        "npc_id": "npc_class_advisor",
+        "name": "Guide Axiom",
+        "location": "Nexus Core"
+      },
+      "requirements": {
+        "min_level": 1,
+        "reputation_required": 0,
+        "required_quests": []
+      },
+      "objectives": [
+        {
+          "type": "action",
+          "target": "accept_faction_quest",
+          "count": 1,
+          "description": "Accept your faction's first mission from the Quest board."
+        }
+      ],
+      "rewards": {
+        "exp": 250,
+        "currency": 50,
+        "crd": 50,
+        "reputation": 0,
+        "items": []
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
       "id": "msq_lv5_class_intro",
       "title": "Your First Calling",
       "type": "tutorial",
