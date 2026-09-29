@@ -21,10 +21,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "CAVE_RAT",
+          "target": 5002,
           "count": 5,
           "desc": "Harvest Cave Rats for raw materials.",
-          "description": "Defeat Cave Rat (x5)."
+          "description": "Defeat Cave Rat (x5).",
+          "target_code": "CAVE_RAT"
         },
         {
           "type": "collect",
@@ -53,7 +54,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_002"
+      "quest_chain_next": "fq_merid_002",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Don Vercelli Mox — the Meridian Cartel's most feared and best-dressed power broker — does not waste pleasantries. Every relationship in the Cartel is a transaction, and yours begins here: the Coral Wetlands are prime Cartel real estate, and Cave Rats have been eating into the raw material supply chain's profit margins. The contract is simple. The message it sends is simpler: in the Cartel, you earn your place or you don't have one."
+        }
+      ]
     },
     {
       "id": "fq_merid_002",
@@ -78,10 +85,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "WETLAND_CRAWLER",
+          "target": 50016,
           "count": 5,
           "desc": "Liquidate Wetland Crawlers.",
-          "description": "Defeat Wetland Crawler (x5)."
+          "description": "Defeat Wetland Crawler (x5).",
+          "target_code": "WETLAND_CRAWLER"
         },
         {
           "type": "collect",
@@ -106,7 +114,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_003"
+      "quest_chain_next": "fq_merid_003",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Don Vercelli Mox explains the Coral Wetlands' situation with the dispassion of a property assessor: the tidal zones are worth six times their current value if they can be developed for Cartel shipping docks. Wetland Crawlers infesting the shoreline have depressed that value and delayed two dock permits already. In the Cartel's world, every creature that costs more alive than it does dead is already a liquidation order. These Crawlers cost considerably more alive."
+        }
+      ]
     },
     {
       "id": "fq_merid_003",
@@ -131,10 +145,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "CORAL_TIDAL_CRAB",
+          "target": 5012,
           "count": 5,
           "desc": "Eliminate Tidal Crabs.",
-          "description": "Defeat Coral Tidal Crab (x5)."
+          "description": "Defeat Coral Tidal Crab (x5).",
+          "target_code": "CORAL_TIDAL_CRAB"
         },
         {
           "type": "collect",
@@ -159,7 +174,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_004"
+      "quest_chain_next": "fq_merid_004",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Cartel's efficiency doctrine: every operation should have at least two revenue streams. (Location: Coral Wetlands, Don Vercelli) Coral Tidal Crabs are blocking the dock access lanes — that's the cost column. Their shells, however, are worth twelve Aurum Cipher each on the Xylosian artisan market — that's the profit column. Don Vercelli Mox frames this mission with quiet appreciation: 'The crabs are paying for their own removal.' This is why the Cartel thinks faster than everyone else."
+        }
+      ]
     },
     {
       "id": "fq_merid_004",
@@ -184,10 +205,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "TIDE_MUDLING",
+          "target": 5013,
           "count": 5,
           "desc": "Clear Mudlings from shipping lanes.",
-          "description": "Defeat Tide Mudling (x5)."
+          "description": "Defeat Tide Mudling (x5).",
+          "target_code": "TIDE_MUDLING"
         },
         {
           "type": "collect",
@@ -212,7 +234,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_005"
+      "quest_chain_next": "fq_merid_005",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Tide Mudlings have been tunneling through the Cartel's shipping lane foundations — a nuisance until Don Vercelli Mox's geological assessors discovered that their mud contains trace aethel deposits from the Severance's contamination of the tidal substrate. (Location: Coral Wetlands, Don Vercelli) Suddenly the Mudlings are both a problem and a supply source. The Arcanum Seekers would pay handsomely for processed trace aethel. The Cartel's shipping lanes need clearing. The math, as Vercelli says, 'works out beautifully.'"
+        }
+      ]
     },
     {
       "id": "fq_merid_005",
@@ -254,10 +282,11 @@
         },
         {
           "type": "kill",
-          "target": "CAVE_RAT",
+          "target": 5002,
           "count": 3,
           "desc": "Demonstrate ROI against Coral Serpents.",
-          "description": "Defeat Cave Rat (x3)."
+          "description": "Defeat Cave Rat (x3).",
+          "target_code": "CAVE_RAT"
         }
       ],
       "rewards": {
@@ -291,7 +320,13 @@
       "popup_trigger": "on_quest_complete",
       "popup_prerequisite": "fq_merid_004",
       "popup_level": 4,
-      "quest_chain_next": "fq_merid_006"
+      "quest_chain_next": "fq_merid_006",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Don Vercelli Mox reviews quarterly performance with the same dispassion he applies to everything. The verdict is implicit in the summons to Port Meridian: you have earned a renegotiation. In the Cartel, specialization is not a gift — it is a clause in a revised contract that defines your market value for every mission that follows. Captain Vex handles contract upgrades and tactical specialization. Choose the clause that makes you worth the most. In the Cartel, this is the only relevant question."
+        }
+      ]
     },
     {
       "id": "fq_merid_006",
@@ -344,7 +379,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_007"
+      "quest_chain_next": "fq_merid_007",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Smuggler Jungle is the one zone on Xylos where goods move without oversight — which is exactly why the Meridian Cartel has not yet made it theirs. Don Vercelli Mox describes this as 'a market running at 30% efficiency without Cartel management.' The other factions avoid it because it's lawless. The Cartel sees it differently: lawless means the contracts have not been written yet. Be the first one in. Establish a trading post. Write the first contract."
+        }
+      ]
     },
     {
       "id": "fq_merid_007",
@@ -369,10 +410,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "JUNGLE_STALKER",
+          "target": 5110,
           "count": 5,
           "desc": "Remove Jungle Stalker competition.",
-          "description": "Defeat Jungle Stalker (x5)."
+          "description": "Defeat Jungle Stalker (x5).",
+          "target_code": "JUNGLE_STALKER"
         },
         {
           "type": "collect",
@@ -397,7 +439,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_008"
+      "quest_chain_next": "fq_merid_008",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Jungle Stalkers have been hunting Cartel supply caravans moving through the new trading post's access routes — eating into delivery margins and discouraging the independent operators whose business Don Vercelli Mox is counting on. (Location: Smuggler Jungle, Sly) Sly, the Cartel's jungle-network fixer, puts it simply: 'Every caravan the Stalkers take is a contract the Cartel doesn't get paid on.' In the Cartel's standard commercial agreement, predators that eat revenue are competitors. Remove them."
+        }
+      ]
     },
     {
       "id": "fq_merid_008",
@@ -422,10 +470,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "SWAMP_RIPPER",
+          "target": 5111,
           "count": 5,
           "desc": "Write off Swamp Rippers.",
-          "description": "Defeat Swamp Ripper (x5)."
+          "description": "Defeat Swamp Ripper (x5).",
+          "target_code": "SWAMP_RIPPER"
         },
         {
           "type": "collect",
@@ -450,7 +499,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_009"
+      "quest_chain_next": "fq_merid_009",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Swamp Rippers — aggressive territorial predators that have been displaced by the jungle's shrinking clean-water zones, a consequence of the Severance's long-term pollution — have begun attacking Cartel workers clearing the new trade route. (Location: Smuggler Jungle, Don Vercelli) Don Vercelli Mox has reviewed the incident reports, calculated the injury costs, the lost labor hours, and the equipment damage, and arrived at a figure. 'They're a liability,' he says. 'Write them off.' He means it in every sense."
+        }
+      ]
     },
     {
       "id": "fq_merid_009",
@@ -475,10 +530,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "JUNGLE_VENOMFANG",
+          "target": 5124,
           "count": 5,
           "desc": "Harvest Venomfang venom assets.",
-          "description": "Defeat Jungle Venomfang (x5)."
+          "description": "Defeat Jungle Venomfang (x5).",
+          "target_code": "JUNGLE_VENOMFANG"
         },
         {
           "type": "collect",
@@ -503,7 +559,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_010"
+      "quest_chain_next": "fq_merid_010",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Madam Z — the Cartel's black market liaison, a woman who has never been on any official Cartel payroll but whose network Don Vercelli Mox relies on completely — has identified a premium buyer for Jungle Venomfang venom: an alchemical research house operating under Arcanum Seeker patronage. (Location: Smuggler Jungle, Madam Z) Current market rate: four hundred Aurum Cipher per sealed vial. The Venomfangs also happen to be harassing the new trade route. In the Cartel, the best problems solve two things at once."
+        }
+      ]
     },
     {
       "id": "fq_merid_010",
@@ -528,10 +590,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "CONTRABAND_GOLEM",
+          "target": 5112,
           "count": 2,
           "desc": "Liquidate Contraband Golems.",
-          "description": "Defeat Contraband Golem (x2)."
+          "description": "Defeat Contraband Golem (x2).",
+          "target_code": "CONTRABAND_GOLEM"
         },
         {
           "type": "collect",
@@ -556,7 +619,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_011"
+      "quest_chain_next": "fq_merid_011",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "A Contraband Golem — a war construct that a previous black-market operation used as a walking vault, stuffed with illegal goods before the operation was shut down by whoever they were dealing with — now blocks the main Cartel trade route, attacking anyone who approaches. (Location: Smuggler Jungle, Don Vercelli) Don Vercelli Mox does not ask what is inside it. He already knows, because the original operator owed the Cartel a very large sum. 'Consider this a repossession,' he says, adjusting his cufflinks."
+        }
+      ]
     },
     {
       "id": "fq_merid_011",
@@ -609,7 +678,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_012"
+      "quest_chain_next": "fq_merid_012",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Black Dock Market is the Cartel's crown jewel — an underground trading hub where every faction, every faction-adjacent operator, and every independent on Xylos eventually comes to do business. Don Vercelli Mox built it from a single smuggler's berth twenty years ago, deal by deal. Now the supply chain feeding it is under pressure from multiple competitors. Before you operate at this level of Cartel business, you need to understand what is at stake. Enter the Black Dock. See what the Cartel protects."
+        }
+      ]
     },
     {
       "id": "fq_merid_012",
@@ -634,10 +709,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "BLACK_DOCK_SMUGGLER",
+          "target": 5150,
           "count": 6,
           "desc": "Enforce monopoly on Smugglers.",
-          "description": "Defeat Black Dock Smuggler (x6)."
+          "description": "Defeat Black Dock Smuggler (x6).",
+          "target_code": "BLACK_DOCK_SMUGGLER"
         },
         {
           "type": "collect",
@@ -662,7 +738,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_013"
+      "quest_chain_next": "fq_merid_013",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Black Dock Smugglers operating without Cartel commission are not just a revenue problem — they are a structural threat. (Location: Black Dock Market, Don Vercelli) If independent operators can trade in Cartel territory without paying tribute, the message to every other trader in the network is that the Cartel's authority is negotiable. Don Vercelli Mox's authority is not negotiable. The commission rate is set. The enforcement policy is simple: pay or stop operating. Most choose wrong."
+        }
+      ]
     },
     {
       "id": "fq_merid_013",
@@ -687,10 +769,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "BLACK_DOCK_ASSASSIN",
+          "target": 5151,
           "count": 5,
           "desc": "Execute reverse takeover on Assassins.",
-          "description": "Defeat Black Dock Assassin (x5)."
+          "description": "Defeat Black Dock Assassin (x5).",
+          "target_code": "BLACK_DOCK_ASSASSIN"
         },
         {
           "type": "collect",
@@ -715,7 +798,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_014"
+      "quest_chain_next": "fq_merid_014",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Three Cartel middle managers are dead in two days. (Location: Black Dock Market, Don Vercelli) The Black Dock Assassins behind it are working for a rival network — rumored to be OmniCorp-funded — attempting a hostile restructuring of Cartel operations at the Dock. Don Vercelli Mox reads the intelligence report with the precise calm of someone who has survived six previous hostile takeover attempts. 'Our counterproposal,' he says, 'is that they stop existing.' The boardroom just looks different in the Cartel."
+        }
+      ]
     },
     {
       "id": "fq_merid_014",
@@ -740,10 +829,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "BLACK_DOCK_ENFORCER",
+          "target": 5152,
           "count": 3,
           "desc": "Acquire Enforcer operations.",
-          "description": "Defeat Black Dock Enforcer (x3)."
+          "description": "Defeat Black Dock Enforcer (x3).",
+          "target_code": "BLACK_DOCK_ENFORCER"
         },
         {
           "type": "collect",
@@ -768,7 +858,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_015"
+      "quest_chain_next": "fq_merid_015",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Black Dock Enforcers run a protection racket across the market's eastern berths — a racket that operates without Cartel permission, without Cartel oversight, and without Cartel revenue sharing. (Location: Black Dock Market, Don Vercelli) Don Vercelli Mox sent an acquisition offer. They sent the courier back without a reply. This is, in the Cartel's legal framework, a breach of commercial terms. The Cartel's standard breach remedy is immediate and non-negotiable. Acquire the operation. The terms are not open for discussion."
+        }
+      ]
     },
     {
       "id": "fq_merid_015",
@@ -793,17 +889,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "BLACK_DOCK_SMUGGLER",
+          "target": 5150,
           "count": 4,
           "desc": "Deregister unlicensed Smugglers.",
-          "description": "Defeat Black Dock Smuggler (x4)."
+          "description": "Defeat Black Dock Smuggler (x4).",
+          "target_code": "BLACK_DOCK_SMUGGLER"
         },
         {
           "type": "kill",
-          "target": "BLACK_DOCK_ASSASSIN",
+          "target": 5151,
           "count": 4,
           "desc": "Deregister hostile Assassins.",
-          "description": "Defeat Black Dock Assassin (x4)."
+          "description": "Defeat Black Dock Assassin (x4).",
+          "target_code": "BLACK_DOCK_ASSASSIN"
         }
       ],
       "rewards": {
@@ -821,7 +919,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_016"
+      "quest_chain_next": "fq_merid_016",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Madam Z conducts the Black Dock's quarterly audit with the thoroughness of someone who has found, in twenty years of operation, that unlicensed traders always underestimate the Cartel's record-keeping. (Location: Black Dock Market, Madam Z) The audit is complete. The deregistration list is comprehensive. Smugglers operating without current permits, Assassins contracted outside Cartel channels — they have all been identified. Their continued existence is a footnote on an otherwise clean ledger. Close the footnotes."
+        }
+      ]
     },
     {
       "id": "fq_merid_016",
@@ -846,10 +950,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "BLACK_DOCK_ENFORCER",
+          "target": 5152,
           "count": 4,
           "desc": "Break Enforcer resistance.",
-          "description": "Defeat Black Dock Enforcer (x4)."
+          "description": "Defeat Black Dock Enforcer (x4).",
+          "target_code": "BLACK_DOCK_ENFORCER"
         },
         {
           "type": "collect",
@@ -874,7 +979,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_017"
+      "quest_chain_next": "fq_merid_017",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The remaining Enforcer crews in the Black Dock's western sector are coordinating their resistance — sharing intelligence, covering each other's operations, and actively steering clients away from Cartel-licensed services. (Location: Black Dock Market, Don Vercelli) Don Vercelli Mox calls this 'a price war conducted with weapons.' He finds it almost impressive. Almost. The Cartel's market share in the Black Dock will be total, or these Enforcer crews will serve as a case study in what happens when you compete with the Cartel."
+        }
+      ]
     },
     {
       "id": "fq_merid_017",
@@ -906,10 +1017,11 @@
         },
         {
           "type": "kill",
-          "target": "BLACK_DOCK_SMUGGLER",
+          "target": 5150,
           "count": 3,
           "desc": "Deal with inventory thieves.",
-          "description": "Defeat Black Dock Smuggler (x3)."
+          "description": "Defeat Black Dock Smuggler (x3).",
+          "target_code": "BLACK_DOCK_SMUGGLER"
         }
       ],
       "rewards": {
@@ -927,7 +1039,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_018"
+      "quest_chain_next": "fq_merid_018",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Sly's ledger has discrepancies — four shipments of Cartel-controlled goods that were logged entering the Black Dock but never logged arriving at their designated berths. (Location: Black Dock Market, Sly) Someone in the distribution chain is skimming, and in the Cartel's contract framework, inventory theft carries a very specific clause. Find the missing goods. Find the people who took them. The goods come back to the Cartel. The people do not."
+        }
+      ]
     },
     {
       "id": "fq_merid_018",
@@ -952,10 +1070,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "BLACK_DOCK_ENFORCER",
+          "target": 5152,
           "count": 5,
           "desc": "Break the rival Enforcer cartel.",
-          "description": "Defeat Black Dock Enforcer (x5)."
+          "description": "Defeat Black Dock Enforcer (x5).",
+          "target_code": "BLACK_DOCK_ENFORCER"
         },
         {
           "type": "collect",
@@ -980,7 +1099,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_019"
+      "quest_chain_next": "fq_merid_019",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "A coordinated Enforcer syndicate — eight cells, unified leadership, financed from outside the Cartel network — has positioned itself as a 'competitive alternative' to Meridian operations in the Black Dock. (Location: Black Dock Market, Don Vercelli) Don Vercelli Mox reads the intelligence with the expression of someone who has been mildly inconvenienced. 'There is only one Cartel,' he says. 'Everything else is a temporary arrangement.' Break the syndicate at its leadership. The alternative to the Cartel does not get to exist."
+        }
+      ]
     },
     {
       "id": "fq_merid_019",
@@ -1005,17 +1130,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "RESONANCE_ECHO",
+          "target": 50015,
           "count": 1,
           "desc": "Close the Resonance Echo's account.",
-          "description": "Defeat Resonance Echo (x1)."
+          "description": "Defeat Resonance Echo (x1).",
+          "target_code": "RESONANCE_ECHO"
         },
         {
           "type": "kill",
-          "target": "BLACK_DOCK_ENFORCER",
+          "target": 5152,
           "count": 2,
           "desc": "Liquidate Enforcer escorts.",
-          "description": "Defeat Black Dock Enforcer (x2)."
+          "description": "Defeat Black Dock Enforcer (x2).",
+          "target_code": "BLACK_DOCK_ENFORCER"
         }
       ],
       "rewards": {
@@ -1033,7 +1160,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_020"
+      "quest_chain_next": "fq_merid_020",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "A Resonance Echo has formed in the Black Dock's deep storage sector — drawn by the high concentration of aethel goods the Cartel has been routing through here. (Location: Black Dock Market, Don Vercelli) Its harmonic interference is scrambling encrypted Cartel communications, which means every deal in progress is potentially compromised. Don Vercelli Mox describes this in precise financial terms: an entity generating unlimited liability with zero revenue contribution. In the Cartel's accounting framework, such accounts are closed permanently."
+        }
+      ]
     },
     {
       "id": "fq_merid_020",
@@ -1086,7 +1219,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_021"
+      "quest_chain_next": "fq_merid_021",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Don Vercelli Mox conducts performance reviews the way he conducts everything: with complete information, no unnecessary sentiment, and a clear sense of what the numbers mean. Your numbers exceed projection. The Cartel's Advanced Contractor tier comes with enhanced access to the Sunken Aethel Ruin operations, expanded commission authority, and the quiet knowledge that you are now, in the Cartel's internal taxonomy, someone worth keeping. Return to Port Meridian. Sign the new contract."
+        }
+      ]
     },
     {
       "id": "fq_merid_021",
@@ -1139,7 +1278,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_022"
+      "quest_chain_next": "fq_merid_022",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Sunken Aethel Ruin holds Precursor assets. The Cartel must acquire them before our competitors do. First-mover advantage is everything. Quest giver: Kip at Sunken Aethel Ruin Dockside."
+        }
+      ]
     },
     {
       "id": "fq_merid_022",
@@ -1164,10 +1309,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "CRADLE_PURIFIER",
+          "target": 5202,
           "count": 4,
           "desc": "Write off Cradle Purifiers.",
-          "description": "Defeat Cradle Purifier (x4)."
+          "description": "Defeat Cradle Purifier (x4).",
+          "target_code": "CRADLE_PURIFIER"
         },
         {
           "type": "collect",
@@ -1192,7 +1338,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_023"
+      "quest_chain_next": "fq_merid_023",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Cradle Purifiers guard the Ruin's most valuable chambers. (Location: Sunken Aethel Ruin, Kip) Their defense protocols are a sunk cost — write them off."
+        }
+      ]
     },
     {
       "id": "fq_merid_023",
@@ -1217,10 +1369,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "CRADLE_SENTINEL",
+          "target": 5201,
           "count": 3,
           "desc": "Force-acquire Sentinel-guarded assets.",
-          "description": "Defeat Cradle Sentinel (x3)."
+          "description": "Defeat Cradle Sentinel (x3).",
+          "target_code": "CRADLE_SENTINEL"
         },
         {
           "type": "collect",
@@ -1245,7 +1398,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_024"
+      "quest_chain_next": "fq_merid_024",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Cradle Sentinels guard the Ruin's main vault. (Location: Sunken Aethel Ruin, Don Vercelli) The Cartel has a saying: every locked door is just a late payment. Force the acquisition."
+        }
+      ]
     },
     {
       "id": "fq_merid_024",
@@ -1270,10 +1429,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_BEHEMOTH",
+          "target": 5200,
           "count": 2,
           "desc": "Harvest Behemoth organ assets.",
-          "description": "Defeat Aethel Behemoth (x2)."
+          "description": "Defeat Aethel Behemoth (x2).",
+          "target_code": "AETHEL_BEHEMOTH"
         },
         {
           "type": "collect",
@@ -1298,7 +1458,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_025"
+      "quest_chain_next": "fq_merid_025",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Aethel Behemoths are living capital. (Location: Sunken Aethel Ruin, Kip) Their organs trade at premium prices. Make the investment — harvest the returns."
+        }
+      ]
     },
     {
       "id": "fq_merid_025",
@@ -1323,10 +1489,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "SUNKEN_AETHEL_LEVIATHAN",
+          "target": 5205,
           "count": 1,
           "desc": "Monopolize the Leviathan supply.",
-          "description": "Defeat Sunken Aethel Leviathan (x1)."
+          "description": "Defeat Sunken Aethel Leviathan (x1).",
+          "target_code": "SUNKEN_AETHEL_LEVIATHAN"
         },
         {
           "type": "collect",
@@ -1351,7 +1518,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_026"
+      "quest_chain_next": "fq_merid_026",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Sunken Aethel Leviathans are the ultimate commodity. (Location: Sunken Aethel Ruin, Don Vercelli) Their scales are armor-grade, their blood is fuel. Monopolize the supply."
+        }
+      ]
     },
     {
       "id": "fq_merid_026",
@@ -1404,7 +1577,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_027"
+      "quest_chain_next": "fq_merid_027",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Aethel Storm Belt is a high-risk, high-reward market. The Cartel is opening a trading desk there. Establish the position. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters."
+        }
+      ]
     },
     {
       "id": "fq_merid_027",
@@ -1429,10 +1608,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "STORM_RIFT_SERPENT",
+          "target": 5206,
           "count": 3,
           "desc": "Stabilize Serpent commodity supply.",
-          "description": "Defeat Storm Rift Serpent (x3)."
+          "description": "Defeat Storm Rift Serpent (x3).",
+          "target_code": "STORM_RIFT_SERPENT"
         },
         {
           "type": "collect",
@@ -1457,7 +1637,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_028"
+      "quest_chain_next": "fq_merid_028",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Storm Rift Serpents are a volatile commodity. (Location: Aethel Storm Belt, Don Vercelli) Their energy cells are in high demand. Stabilize the supply."
+        }
+      ]
     },
     {
       "id": "fq_merid_028",
@@ -1482,10 +1668,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "SUNKEN_AETHEL_LEVIATHAN",
+          "target": 5205,
           "count": 2,
           "desc": "Harvest Leviathan supply.",
-          "description": "Defeat Sunken Aethel Leviathan (x2)."
+          "description": "Defeat Sunken Aethel Leviathan (x2).",
+          "target_code": "SUNKEN_AETHEL_LEVIATHAN"
         },
         {
           "type": "collect",
@@ -1510,7 +1697,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_029"
+      "quest_chain_next": "fq_merid_029",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Leviathans have migrated into the Storm Belt. (Location: Aethel Storm Belt, Kip) More supply means more profit. Harvest aggressively."
+        }
+      ]
     },
     {
       "id": "fq_merid_029",
@@ -1535,10 +1728,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "CRADLE_SENTINEL",
+          "target": 5201,
           "count": 4,
           "desc": "Acquire all Sentinel model samples.",
-          "description": "Defeat Cradle Sentinel (x4)."
+          "description": "Defeat Cradle Sentinel (x4).",
+          "target_code": "CRADLE_SENTINEL"
         },
         {
           "type": "collect",
@@ -1563,7 +1757,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_030"
+      "quest_chain_next": "fq_merid_030",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Cradle Sentinel variants have been discovered. (Location: Sunken Aethel Ruin, Don Vercelli) More variety means more market segmentation. Acquire samples of all models."
+        }
+      ]
     },
     {
       "id": "fq_merid_030",
@@ -1595,17 +1795,19 @@
         },
         {
           "type": "kill",
-          "target": "RESONANCE_ECHO",
+          "target": 50015,
           "count": 1,
           "desc": "Demonstrate ROI against the Resonance Echo.",
-          "description": "Defeat Resonance Echo (x1)."
+          "description": "Defeat Resonance Echo (x1).",
+          "target_code": "RESONANCE_ECHO"
         },
         {
           "type": "kill",
-          "target": "AETHEL_BEHEMOTH",
+          "target": 5200,
           "count": 1,
           "desc": "Harvest a Behemoth as your closing transaction.",
-          "description": "Defeat Aethel Behemoth (x1)."
+          "description": "Defeat Aethel Behemoth (x1).",
+          "target_code": "AETHEL_BEHEMOTH"
         }
       ],
       "rewards": {
@@ -1631,7 +1833,13 @@
       "popup_trigger": "on_quest_complete",
       "popup_prerequisite": "fq_merid_029",
       "popup_level": 29,
-      "quest_chain_next": "fq_merid_031"
+      "quest_chain_next": "fq_merid_031",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Captain Vex requires a mid-contract performance review. (Location: Port Meridian, Captain Vex) Defeat the Resonance Echo and prove your portfolio is Master-grade."
+        }
+      ]
     },
     {
       "id": "fq_merid_031",
@@ -1684,7 +1892,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_032"
+      "quest_chain_next": "fq_merid_032",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Orbital Sentinel Command is the gateway to space trade. The Cartel will establish exclusive orbital trading rights. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters."
+        }
+      ]
     },
     {
       "id": "fq_merid_032",
@@ -1709,10 +1923,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "ASHEN_DRAKE",
+          "target": 4001,
           "count": 1,
           "desc": "Eliminate the Drake risk factor.",
-          "description": "Defeat Ashen Drake (x1)."
+          "description": "Defeat Ashen Drake (x1).",
+          "target_code": "ASHEN_DRAKE"
         },
         {
           "type": "collect",
@@ -1737,7 +1952,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_033"
+      "quest_chain_next": "fq_merid_033",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Ashen Drake attacks Cartel cargo ships. (Location: Cradle Expanse, Don Vercelli) The insurance premiums are killing profits. Eliminate the risk factor."
+        }
+      ]
     },
     {
       "id": "fq_merid_033",
@@ -1762,10 +1983,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_IRON_CARAPACE",
+          "target": 5224,
           "count": 6,
           "desc": "Corner the Carapace armor market.",
-          "description": "Defeat Aethel Iron Carapace (x6)."
+          "description": "Defeat Aethel Iron Carapace (x6).",
+          "target_code": "AETHEL_IRON_CARAPACE"
         },
         {
           "type": "collect",
@@ -1790,7 +2012,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_034"
+      "quest_chain_next": "fq_merid_034",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Aethel Iron Carapaces shed armor plates that rival Cartel-forged steel. (Location: Cradle Expanse, Don Vercelli) Corner the market."
+        }
+      ]
     },
     {
       "id": "fq_merid_034",
@@ -1815,10 +2043,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "target": 5222,
           "count": 2,
           "desc": "Short the Behemoth position.",
-          "description": "Defeat Aethel Corrupted Behemoth (x2)."
+          "description": "Defeat Aethel Corrupted Behemoth (x2).",
+          "target_code": "AETHEL_CORRUPTED_BEHEMOTH"
         },
         {
           "type": "collect",
@@ -1843,7 +2072,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_035"
+      "quest_chain_next": "fq_merid_035",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Aethel Corrupted Behemoths are undercutting Cartel prices by destroying our facilities. (Location: Cradle Expanse, Don Vercelli) Short their existence."
+        }
+      ]
     },
     {
       "id": "fq_merid_035",
@@ -1868,10 +2103,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
+          "target": 5226,
           "count": 4,
           "desc": "Negotiate exclusive trading rights.",
-          "description": "Defeat Aethel Abyssal Reaver (x4)."
+          "description": "Defeat Aethel Abyssal Reaver (x4).",
+          "target_code": "AETHEL_ABYSSAL_REAVER"
         },
         {
           "type": "collect",
@@ -1896,7 +2132,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_036"
+      "quest_chain_next": "fq_merid_036",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Aethel Abyssal Reavers carry void-touched materials worth millions. (Location: Cradle Expanse, Don Vercelli) The Cartel wants exclusive trading rights. Negotiate with force."
+        }
+      ]
     },
     {
       "id": "fq_merid_036",
@@ -1921,17 +2163,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_RIFT_STALKER",
+          "target": 5223,
           "count": 6,
           "desc": "Defend against hostile takeover.",
-          "description": "Defeat Aethel Rift Stalker (x6)."
+          "description": "Defeat Aethel Rift Stalker (x6).",
+          "target_code": "AETHEL_RIFT_STALKER"
         },
         {
           "type": "kill",
-          "target": "AETHEL_VOID_CHANNELER",
+          "target": 5225,
           "count": 3,
           "desc": "Neutralize competitor aggression.",
-          "description": "Defeat Aethel Void Channeler (x3)."
+          "description": "Defeat Aethel Void Channeler (x3).",
+          "target_code": "AETHEL_VOID_CHANNELER"
         }
       ],
       "rewards": {
@@ -1949,7 +2193,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_037"
+      "quest_chain_next": "fq_merid_037",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Rival factions are attempting hostile takeovers of Cartel orbital assets. (Location: Orbital Sentinel Command, Don Vercelli) Defend the portfolio."
+        }
+      ]
     },
     {
       "id": "fq_merid_037",
@@ -1974,10 +2224,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "ASHEN_DRAKE",
+          "target": 4001,
           "count": 1,
           "desc": "Complete Drake liquidation.",
-          "description": "Defeat Ashen Drake (x1)."
+          "description": "Defeat Ashen Drake (x1).",
+          "target_code": "ASHEN_DRAKE"
         },
         {
           "type": "collect",
@@ -2002,7 +2253,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_038"
+      "quest_chain_next": "fq_merid_038",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Ashen Drake has returned. (Location: Cradle Expanse, Don Vercelli) The Cartel board has authorized a complete liquidation. Every part of the Drake is profitable."
+        }
+      ]
     },
     {
       "id": "fq_merid_038",
@@ -2027,10 +2284,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_IRON_CARAPACE",
+          "target": 5224,
           "count": 8,
           "desc": "Eliminate market inefficiencies.",
-          "description": "Defeat Aethel Iron Carapace (x8)."
+          "description": "Defeat Aethel Iron Carapace (x8).",
+          "target_code": "AETHEL_IRON_CARAPACE"
         },
         {
           "type": "collect",
@@ -2055,7 +2313,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_039"
+      "quest_chain_next": "fq_merid_039",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Achieve total market dominance in the Storm Belt. (Location: Aethel Storm Belt, Don Vercelli) Any competitor still operating is a market inefficiency."
+        }
+      ]
     },
     {
       "id": "fq_merid_039",
@@ -2080,17 +2344,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
+          "target": 5226,
           "count": 6,
           "desc": "Block the Abyssal merger.",
-          "description": "Defeat Aethel Abyssal Reaver (x6)."
+          "description": "Defeat Aethel Abyssal Reaver (x6).",
+          "target_code": "AETHEL_ABYSSAL_REAVER"
         },
         {
           "type": "kill",
-          "target": "AETHEL_VOID_CHANNELER",
+          "target": 5225,
           "count": 3,
           "desc": "Eliminate merger facilitators.",
-          "description": "Defeat Aethel Void Channeler (x3)."
+          "description": "Defeat Aethel Void Channeler (x3).",
+          "target_code": "AETHEL_VOID_CHANNELER"
         }
       ],
       "rewards": {
@@ -2108,7 +2374,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_040"
+      "quest_chain_next": "fq_merid_040",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Abyssal Reavers are attempting a merger — with each other — to form a larger threat. (Location: Cradle Expanse, Don Vercelli) Block the merger."
+        }
+      ]
     },
     {
       "id": "fq_merid_040",
@@ -2133,24 +2405,27 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "ASHEN_DRAKE",
+          "target": 4001,
           "count": 1,
           "desc": "Complete the Drake liquidation.",
-          "description": "Defeat Ashen Drake (x1)."
+          "description": "Defeat Ashen Drake (x1).",
+          "target_code": "ASHEN_DRAKE"
         },
         {
           "type": "kill",
-          "target": "AETHEL_BEHEMOTH",
+          "target": 5200,
           "count": 1,
           "desc": "Harvest a premium Behemoth asset.",
-          "description": "Defeat Aethel Behemoth (x1)."
+          "description": "Defeat Aethel Behemoth (x1).",
+          "target_code": "AETHEL_BEHEMOTH"
         },
         {
           "type": "kill",
-          "target": "SUNKEN_AETHEL_LEVIATHAN",
+          "target": 5205,
           "count": 1,
           "desc": "Acquire a premium Leviathan asset.",
-          "description": "Defeat Sunken Aethel Leviathan (x1)."
+          "description": "Defeat Sunken Aethel Leviathan (x1).",
+          "target_code": "SUNKEN_AETHEL_LEVIATHAN"
         }
       ],
       "rewards": {
@@ -2176,7 +2451,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_041"
+      "quest_chain_next": "fq_merid_041",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Senior Partner trial. (Location: Port Meridian, Don Vercelli) Liquidate the Ashen Drake and two premium assets. Only Partners sit on the Cartel board."
+        }
+      ]
     },
     {
       "id": "fq_merid_041",
@@ -2229,7 +2510,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_042"
+      "quest_chain_next": "fq_merid_042",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Void Echo Chasm is the ultimate untapped market. Rare minerals, void-exclusive resources, zero competition. The Cartel is going in. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters."
+        }
+      ]
     },
     {
       "id": "fq_merid_042",
@@ -2254,10 +2541,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "VOID_REAVER",
+          "target": 5301,
           "count": 6,
           "desc": "Harvest Reaver void essence commodity.",
-          "description": "Defeat Void Reaver (x6)."
+          "description": "Defeat Void Reaver (x6).",
+          "target_code": "VOID_REAVER"
         },
         {
           "type": "collect",
@@ -2282,7 +2570,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_043"
+      "quest_chain_next": "fq_merid_043",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Void Reavers drop crystallized void essence — untapped market value. (Location: Void Echo Chasm, Don Vercelli) Begin harvesting operations."
+        }
+      ]
     },
     {
       "id": "fq_merid_043",
@@ -2307,10 +2601,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_VOID_CHANNELER",
+          "target": 5225,
           "count": 6,
           "desc": "Break the Channeler void monopoly.",
-          "description": "Defeat Aethel Void Channeler (x6)."
+          "description": "Defeat Aethel Void Channeler (x6).",
+          "target_code": "AETHEL_VOID_CHANNELER"
         },
         {
           "type": "collect",
@@ -2335,7 +2630,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_044"
+      "quest_chain_next": "fq_merid_044",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Void Channelers are cornering the void energy market. (Location: Void Echo Chasm, Don Vercelli) The Cartel does not tolerate monopolies — except its own."
+        }
+      ]
     },
     {
       "id": "fq_merid_044",
@@ -2360,10 +2661,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
+          "target": 5226,
           "count": 6,
           "desc": "Maximize Abyssal Reaver harvest.",
-          "description": "Defeat Aethel Abyssal Reaver (x6)."
+          "description": "Defeat Aethel Abyssal Reaver (x6).",
+          "target_code": "AETHEL_ABYSSAL_REAVER"
         },
         {
           "type": "collect",
@@ -2388,7 +2690,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_045"
+      "quest_chain_next": "fq_merid_045",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Abyssal Reavers contain concentrated void material — the most valuable substance in the known universe. (Location: Void Echo Chasm, Don Vercelli) Maximize the harvest."
+        }
+      ]
     },
     {
       "id": "fq_merid_045",
@@ -2413,10 +2721,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "target": 5222,
           "count": 3,
           "desc": "Accelerate Behemoth depreciation.",
-          "description": "Defeat Aethel Corrupted Behemoth (x3)."
+          "description": "Defeat Aethel Corrupted Behemoth (x3).",
+          "target_code": "AETHEL_CORRUPTED_BEHEMOTH"
         },
         {
           "type": "collect",
@@ -2441,7 +2750,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_046"
+      "quest_chain_next": "fq_merid_046",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Corrupted Behemoths are depreciating Cartel void assets. (Location: Void Echo Chasm, Don Vercelli) Accelerate their depreciation — to zero."
+        }
+      ]
     },
     {
       "id": "fq_merid_046",
@@ -2466,10 +2781,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "SOUL_FRAGMENTER",
+          "target": 4015,
           "count": 2,
           "desc": "Terminate Fragmenter productivity drain.",
-          "description": "Defeat Soul Fragmenter (x2)."
+          "description": "Defeat Soul Fragmenter (x2).",
+          "target_code": "SOUL_FRAGMENTER"
         },
         {
           "type": "collect",
@@ -2494,7 +2810,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_047"
+      "quest_chain_next": "fq_merid_047",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Soul Fragmenters disrupt Cartel personnel productivity. (Location: Void Echo Chasm, Don Vercelli) Every hour of lost work is lost profit. Terminate the productivity drain."
+        }
+      ]
     },
     {
       "id": "fq_merid_047",
@@ -2519,10 +2841,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "CHRONO_WRAITH",
+          "target": 4004,
           "count": 2,
           "desc": "Eliminate Chrono Wraith time arbitrage.",
-          "description": "Defeat Chrono Wraith (x2)."
+          "description": "Defeat Chrono Wraith (x2).",
+          "target_code": "CHRONO_WRAITH"
         },
         {
           "type": "collect",
@@ -2547,7 +2870,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_048"
+      "quest_chain_next": "fq_merid_048",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Chrono Wraiths create temporal loops — time arbitrage opportunities. (Location: Void Echo Chasm, Don Vercelli) But they're damaging the Cartel's time-is-money principle. Eliminate the arbitrage."
+        }
+      ]
     },
     {
       "id": "fq_merid_048",
@@ -2572,10 +2901,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "GIGANTIC_JOTUNN",
+          "target": 4017,
           "count": 1,
           "desc": "Execute hostile takeover of Jotunn territory.",
-          "description": "Defeat Gigantic Jotunn (x1)."
+          "description": "Defeat Gigantic Jotunn (x1).",
+          "target_code": "GIGANTIC_JOTUNN"
         },
         {
           "type": "collect",
@@ -2600,7 +2930,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_049"
+      "quest_chain_next": "fq_merid_049",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "A Gigantic Jotunn sits on the largest void mineral deposit in the chasm. (Location: Void Echo Chasm, Kip) Hostile takeover required."
+        }
+      ]
     },
     {
       "id": "fq_merid_049",
@@ -2653,7 +2989,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_050"
+      "quest_chain_next": "fq_merid_050",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Shattered Heart is a new market frontier. The Cartel always enters new markets first. Establish the Cartel presence. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters."
+        }
+      ]
     },
     {
       "id": "fq_merid_050",
@@ -2678,17 +3020,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "ASHEN_DRAKE",
+          "target": 4001,
           "count": 1,
           "desc": "COMPLETE DRAKE LIQUIDATION.",
-          "description": "Defeat Ashen Drake (x1)."
+          "description": "Defeat Ashen Drake (x1).",
+          "target_code": "ASHEN_DRAKE"
         },
         {
           "type": "kill",
-          "target": "DRAKE_MINION",
+          "target": 50056,
           "count": 5,
           "desc": "Liquidate Drake Minion assets.",
-          "description": "Defeat Drake Minion (x5)."
+          "description": "Defeat Drake Minion (x5).",
+          "target_code": "DRAKE_MINION"
         },
         {
           "type": "collect",
@@ -2721,7 +3065,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_051"
+      "quest_chain_next": "fq_merid_051",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "THE DRAKE LIQUIDATION EVENT. The Ashen Drake is the most valuable organic asset in the Shattered Heart. The Cartel board authorizes complete liquidation of all Drake assets. Raid Tier-1. Profit through liquidation. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters."
+        }
+      ]
     },
     {
       "id": "fq_merid_051",
@@ -2746,10 +3096,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "SOUL_FRAGMENTER",
+          "target": 4015,
           "count": 3,
           "desc": "Eliminate operational risk.",
-          "description": "Defeat Soul Fragmenter (x3)."
+          "description": "Defeat Soul Fragmenter (x3).",
+          "target_code": "SOUL_FRAGMENTER"
         },
         {
           "type": "collect",
@@ -2774,7 +3125,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_052"
+      "quest_chain_next": "fq_merid_052",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Soul Fragmenters represent unacceptable operational risk. (Location: Void Echo Chasm, Don Vercelli) Cartel Risk Management mandates their elimination."
+        }
+      ]
     },
     {
       "id": "fq_merid_052",
@@ -2799,17 +3156,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "VOID_REAVER",
+          "target": 5301,
           "count": 8,
           "desc": "Eliminate unlicensed Reavers.",
-          "description": "Defeat Void Reaver (x8)."
+          "description": "Defeat Void Reaver (x8).",
+          "target_code": "VOID_REAVER"
         },
         {
           "type": "kill",
-          "target": "AETHEL_VOID_CHANNELER",
+          "target": 5225,
           "count": 5,
           "desc": "Eliminate unlicensed Channelers.",
-          "description": "Defeat Aethel Void Channeler (x5)."
+          "description": "Defeat Aethel Void Channeler (x5).",
+          "target_code": "AETHEL_VOID_CHANNELER"
         }
       ],
       "rewards": {
@@ -2827,7 +3186,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_053"
+      "quest_chain_next": "fq_merid_053",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Operation Total Market Control. (Location: Void Echo Chasm, Don Vercelli) Eliminate all unlicensed void entities. The Cartel owns this dimension now."
+        }
+      ]
     },
     {
       "id": "fq_merid_053",
@@ -2852,10 +3217,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "VOID_STALKER",
+          "target": 4019,
           "count": 1,
           "desc": "Reject the Stalker's hostile bid.",
-          "description": "Defeat Void Stalker (x1)."
+          "description": "Defeat Void Stalker (x1).",
+          "target_code": "VOID_STALKER"
         },
         {
           "type": "collect",
@@ -2880,7 +3246,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_054"
+      "quest_chain_next": "fq_merid_054",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "A Void Stalker is making a hostile bid for Cartel void operations. (Location: Void Echo Chasm, Don Vercelli) Reject the bid — with extreme prejudice."
+        }
+      ]
     },
     {
       "id": "fq_merid_054",
@@ -2905,10 +3277,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "CHRONO_WRAITH",
+          "target": 4004,
           "count": 3,
           "desc": "Correct temporal market volatility.",
-          "description": "Defeat Chrono Wraith (x3)."
+          "description": "Defeat Chrono Wraith (x3).",
+          "target_code": "CHRONO_WRAITH"
         },
         {
           "type": "collect",
@@ -2933,7 +3306,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_055"
+      "quest_chain_next": "fq_merid_055",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Chrono Wraiths are causing temporal market volatility. (Location: Void Echo Chasm, Don Vercelli) The Cartel requires market stability. Correct the market."
+        }
+      ]
     },
     {
       "id": "fq_merid_055",
@@ -2958,17 +3337,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
+          "target": 5226,
           "count": 10,
           "desc": "Seize market share from competitors.",
-          "description": "Defeat Aethel Abyssal Reaver (x10)."
+          "description": "Defeat Aethel Abyssal Reaver (x10).",
+          "target_code": "AETHEL_ABYSSAL_REAVER"
         },
         {
           "type": "kill",
-          "target": "VOID_REAVER",
+          "target": 5301,
           "count": 6,
           "desc": "Eliminate remaining competition.",
-          "description": "Defeat Void Reaver (x6)."
+          "description": "Defeat Void Reaver (x6).",
+          "target_code": "VOID_REAVER"
         }
       ],
       "rewards": {
@@ -2986,7 +3367,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_056"
+      "quest_chain_next": "fq_merid_056",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Seize majority market share in the Shattered Heart. Competitor liquidation required. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters."
+        }
+      ]
     },
     {
       "id": "fq_merid_056",
@@ -3011,10 +3398,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "GIGANTIC_JOTUNN",
+          "target": 4017,
           "count": 3,
           "desc": "Reduce Jotunn market cap.",
-          "description": "Defeat Gigantic Jotunn (x3)."
+          "description": "Defeat Gigantic Jotunn (x3).",
+          "target_code": "GIGANTIC_JOTUNN"
         },
         {
           "type": "collect",
@@ -3039,7 +3427,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_057"
+      "quest_chain_next": "fq_merid_057",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Gigantic Jotunns have the largest market cap in the Heart. (Location: Shattered Heart, Don Vercelli) Reduce their valuation to zero."
+        }
+      ]
     },
     {
       "id": "fq_merid_057",
@@ -3064,10 +3458,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "CRYSTAL_TYRANT",
+          "target": 4020,
           "count": 2,
           "desc": "Divest Tyrant-held assets.",
-          "description": "Defeat Crystal Tyrant (x2)."
+          "description": "Defeat Crystal Tyrant (x2).",
+          "target_code": "CRYSTAL_TYRANT"
         },
         {
           "type": "collect",
@@ -3092,7 +3487,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_058"
+      "quest_chain_next": "fq_merid_058",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Crystal Tyrants hold valuable assets. (Location: Shattered Heart, Don Vercelli) Divest them — forcibly."
+        }
+      ]
     },
     {
       "id": "fq_merid_058",
@@ -3117,17 +3518,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
+          "target": 5226,
           "count": 6,
           "desc": "Clear market entry obstacles.",
-          "description": "Defeat Aethel Abyssal Reaver (x6)."
+          "description": "Defeat Aethel Abyssal Reaver (x6).",
+          "target_code": "AETHEL_ABYSSAL_REAVER"
         },
         {
           "type": "kill",
-          "target": "CHRONO_WRAITH",
+          "target": 4004,
           "count": 1,
           "desc": "Neutralize temporal competitors.",
-          "description": "Defeat Chrono Wraith (x1)."
+          "description": "Defeat Chrono Wraith (x1).",
+          "target_code": "CHRONO_WRAITH"
         },
         {
           "type": "collect",
@@ -3152,7 +3555,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_059"
+      "quest_chain_next": "fq_merid_059",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Abyss Harbinger is the largest untapped asset in the void. (Location: Void Echo Chasm, Don Vercelli) Perform market entry analysis and prepare for the final transaction."
+        }
+      ]
     },
     {
       "id": "fq_merid_059",
@@ -3177,17 +3586,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "SOUL_FRAGMENTER",
+          "target": 4015,
           "count": 3,
           "desc": "Force Fragmenter bankruptcy.",
-          "description": "Defeat Soul Fragmenter (x3)."
+          "description": "Defeat Soul Fragmenter (x3).",
+          "target_code": "SOUL_FRAGMENTER"
         },
         {
           "type": "kill",
-          "target": "VOID_STALKER",
+          "target": 4019,
           "count": 1,
           "desc": "Seize Stalker-held Fragmenter assets.",
-          "description": "Defeat Void Stalker (x1)."
+          "description": "Defeat Void Stalker (x1).",
+          "target_code": "VOID_STALKER"
         }
       ],
       "rewards": {
@@ -3205,7 +3616,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_060"
+      "quest_chain_next": "fq_merid_060",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Soul Fragmenters are operating at a loss — our loss. (Location: Void Echo Chasm, Don Vercelli) Force them into bankruptcy."
+        }
+      ]
     },
     {
       "id": "fq_merid_060",
@@ -3230,10 +3647,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "ABYSS_HARBINGER",
+          "target": 4002,
           "count": 1,
           "desc": "CLOSE THE HARBINGER DEAL.",
-          "description": "Defeat Abyss Harbinger (x1)."
+          "description": "Defeat Abyss Harbinger (x1).",
+          "target_code": "ABYSS_HARBINGER"
         },
         {
           "type": "collect",
@@ -3266,7 +3684,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_061"
+      "quest_chain_next": "fq_merid_061",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "THE FINAL TRANSACTION. (Location: Void Echo Chasm, Don Vercelli) The Abyss Harbinger has destabilized the void energy market with uncontrolled inflation. The Cartel closes this deal permanently. Defeat the Raid Boss Tier-2 entity and stabilize the market. Profit is the only law."
+        }
+      ]
     },
     {
       "id": "fq_merid_061",
@@ -3319,7 +3743,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_062"
+      "quest_chain_next": "fq_merid_062",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Severance Faultline is rich in energy assets. The Cartel will build extraction infrastructure here. First: secure the construction site. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters."
+        }
+      ]
     },
     {
       "id": "fq_merid_062",
@@ -3344,10 +3774,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_IRON_CARAPACE",
+          "target": 5224,
           "count": 8,
           "desc": "Acquire Carapace energy assets.",
-          "description": "Defeat Aethel Iron Carapace (x8)."
+          "description": "Defeat Aethel Iron Carapace (x8).",
+          "target_code": "AETHEL_IRON_CARAPACE"
         },
         {
           "type": "collect",
@@ -3372,7 +3803,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_063"
+      "quest_chain_next": "fq_merid_063",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Aethel Iron Carapaces contain compressed energy minerals. (Location: Severance Faultline, Kip) Acquire the assets."
+        }
+      ]
     },
     {
       "id": "fq_merid_063",
@@ -3397,10 +3834,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "CRYSTAL_TYRANT",
+          "target": 4020,
           "count": 2,
           "desc": "Evict Tyrant tenants.",
-          "description": "Defeat Crystal Tyrant (x2)."
+          "description": "Defeat Crystal Tyrant (x2).",
+          "target_code": "CRYSTAL_TYRANT"
         },
         {
           "type": "collect",
@@ -3425,7 +3863,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_064"
+      "quest_chain_next": "fq_merid_064",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Crystal Tyrants occupy prime real estate on the faultline. (Location: Severance Faultline, Don Vercelli) Evict them. Cartel Development is moving in."
+        }
+      ]
     },
     {
       "id": "fq_merid_064",
@@ -3450,10 +3894,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "GIGANTIC_JOTUNN",
+          "target": 4017,
           "count": 3,
           "desc": "Exercise eminent domain.",
-          "description": "Defeat Gigantic Jotunn (x3)."
+          "description": "Defeat Gigantic Jotunn (x3).",
+          "target_code": "GIGANTIC_JOTUNN"
         },
         {
           "type": "collect",
@@ -3478,7 +3923,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_065"
+      "quest_chain_next": "fq_merid_065",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Gigantic Jotunns refuse to relocate. (Location: Severance Faultline, Don Vercelli) Exercise eminent domain — the Cartel way."
+        }
+      ]
     },
     {
       "id": "fq_merid_065",
@@ -3531,7 +3982,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_066"
+      "quest_chain_next": "fq_merid_066",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Aethel Siphon Core is the ultimate power plant. The Cartel will acquire it and sell the energy at premium rates. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters."
+        }
+      ]
     },
     {
       "id": "fq_merid_066",
@@ -3556,17 +4013,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
+          "target": 5226,
           "count": 8,
           "desc": "Secure Core investments.",
-          "description": "Defeat Aethel Abyssal Reaver (x8)."
+          "description": "Defeat Aethel Abyssal Reaver (x8).",
+          "target_code": "AETHEL_ABYSSAL_REAVER"
         },
         {
           "type": "kill",
-          "target": "AETHEL_VOID_CHANNELER",
+          "target": 5225,
           "count": 5,
           "desc": "Eliminate asset depreciation risks.",
-          "description": "Defeat Aethel Void Channeler (x5)."
+          "description": "Defeat Aethel Void Channeler (x5).",
+          "target_code": "AETHEL_VOID_CHANNELER"
         }
       ],
       "rewards": {
@@ -3584,7 +4043,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_067"
+      "quest_chain_next": "fq_merid_067",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Hostile entities are depreciating Core asset values. (Location: Aethel Siphon Core, Don Vercelli) Secure the investment."
+        }
+      ]
     },
     {
       "id": "fq_merid_067",
@@ -3609,10 +4074,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "target": 5222,
           "count": 3,
           "desc": "Clear Behemoth liability.",
-          "description": "Defeat Aethel Corrupted Behemoth (x3)."
+          "description": "Defeat Aethel Corrupted Behemoth (x3).",
+          "target_code": "AETHEL_CORRUPTED_BEHEMOTH"
         },
         {
           "type": "collect",
@@ -3637,7 +4103,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_068"
+      "quest_chain_next": "fq_merid_068",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Corrupted Behemoths are a liability on the Core balance sheet. (Location: Aethel Siphon Core, Don Vercelli) Clear the liability."
+        }
+      ]
     },
     {
       "id": "fq_merid_068",
@@ -3662,10 +4134,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_RIFT_STALKER",
+          "target": 5223,
           "count": 6,
           "desc": "Eliminate market disruption.",
-          "description": "Defeat Aethel Rift Stalker (x6)."
+          "description": "Defeat Aethel Rift Stalker (x6).",
+          "target_code": "AETHEL_RIFT_STALKER"
         },
         {
           "type": "collect",
@@ -3690,7 +4163,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_069"
+      "quest_chain_next": "fq_merid_069",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Rift Stalkers disrupt Core energy markets. (Location: Aethel Siphon Core, Don Vercelli) Eliminate the disruption. Markets must be stable."
+        }
+      ]
     },
     {
       "id": "fq_merid_069",
@@ -3722,10 +4201,11 @@
         },
         {
           "type": "kill",
-          "target": "GIGANTIC_JOTUNN",
+          "target": 4017,
           "count": 1,
           "desc": "Eliminate Jotunn competitor for the dividend.",
-          "description": "Defeat Gigantic Jotunn (x1)."
+          "description": "Defeat Gigantic Jotunn (x1).",
+          "target_code": "GIGANTIC_JOTUNN"
         }
       ],
       "rewards": {
@@ -3743,7 +4223,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_070"
+      "quest_chain_next": "fq_merid_070",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Gravity Titan represents the largest potential dividend in Xylos history. (Location: Aethel Siphon Core, Don Vercelli) Whoever controls gravity controls the market. Prepare the acquisition."
+        }
+      ]
     },
     {
       "id": "fq_merid_070",
@@ -3768,17 +4254,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "GRAVITY_TITAN",
+          "target": 4003,
           "count": 1,
           "desc": "CLAIM THE GRAVITY DIVIDEND.",
-          "description": "Defeat Gravity Titan (x1)."
+          "description": "Defeat Gravity Titan (x1).",
+          "target_code": "GRAVITY_TITAN"
         },
         {
           "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
+          "target": 5226,
           "count": 5,
           "desc": "Clear competitor bidders.",
-          "description": "Defeat Aethel Abyssal Reaver (x5)."
+          "description": "Defeat Aethel Abyssal Reaver (x5).",
+          "target_code": "AETHEL_ABYSSAL_REAVER"
         },
         {
           "type": "collect",
@@ -3811,7 +4299,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_071"
+      "quest_chain_next": "fq_merid_071",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "THE GRAVITY DIVIDEND PAYOUT. (Location: Cradle Expanse, Don Vercelli) The Cartel board declares the Gravity Titan a dividend asset. Defeat the Raid Boss Tier-3 entity and claim its gravity control technology. Whoever controls gravity controls the price of everything on Xylos."
+        }
+      ]
     },
     {
       "id": "fq_merid_071",
@@ -3864,7 +4358,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_072"
+      "quest_chain_next": "fq_merid_072",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Prima Materia Forge produces the rarest materials in existence. The Cartel will hold the monopoly on all Forge output. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters."
+        }
+      ]
     },
     {
       "id": "fq_merid_072",
@@ -3889,10 +4389,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_IRON_CARAPACE",
+          "target": 5224,
           "count": 8,
           "desc": "Enforce anti-trust against defenses.",
-          "description": "Defeat Aethel Iron Carapace (x8)."
+          "description": "Defeat Aethel Iron Carapace (x8).",
+          "target_code": "AETHEL_IRON_CARAPACE"
         },
         {
           "type": "collect",
@@ -3917,7 +4418,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_073"
+      "quest_chain_next": "fq_merid_073",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Ancient Forge defenses are anti-competitive. (Location: Prima Materia Forge, Don Vercelli) The Cartel files an anti-trust motion — enforced by firepower."
+        }
+      ]
     },
     {
       "id": "fq_merid_073",
@@ -3942,10 +4449,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "target": 5222,
           "count": 3,
           "desc": "Implement product recall and disposal.",
-          "description": "Defeat Aethel Corrupted Behemoth (x3)."
+          "description": "Defeat Aethel Corrupted Behemoth (x3).",
+          "target_code": "AETHEL_CORRUPTED_BEHEMOTH"
         }
       ],
       "rewards": {
@@ -3963,7 +4471,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_074"
+      "quest_chain_next": "fq_merid_074",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Corrupted Behemoths are contaminating Forge output. (Location: Prima Materia Forge, Don Vercelli) This is a quality control disaster. Implement immediate recall and disposal."
+        }
+      ]
     },
     {
       "id": "fq_merid_074",
@@ -3988,17 +4502,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
+          "target": 5226,
           "count": 8,
           "desc": "Purge Abyssal competitors.",
-          "description": "Defeat Aethel Abyssal Reaver (x8)."
+          "description": "Defeat Aethel Abyssal Reaver (x8).",
+          "target_code": "AETHEL_ABYSSAL_REAVER"
         },
         {
           "type": "kill",
-          "target": "AETHEL_VOID_CHANNELER",
+          "target": 5225,
           "count": 5,
           "desc": "Eliminate competitor leadership.",
-          "description": "Defeat Aethel Void Channeler (x5)."
+          "description": "Defeat Aethel Void Channeler (x5).",
+          "target_code": "AETHEL_VOID_CHANNELER"
         }
       ],
       "rewards": {
@@ -4016,7 +4532,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_075"
+      "quest_chain_next": "fq_merid_075",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Abyssal forces are attempting to steal Forge monopoly. (Location: Prima Materia Forge, Don Vercelli) Purge the competitors."
+        }
+      ]
     },
     {
       "id": "fq_merid_075",
@@ -4041,10 +4563,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "GIGANTIC_JOTUNN",
+          "target": 4017,
           "count": 3,
           "desc": "Bust the Jotunn forge union.",
-          "description": "Defeat Gigantic Jotunn (x3)."
+          "description": "Defeat Gigantic Jotunn (x3).",
+          "target_code": "GIGANTIC_JOTUNN"
         },
         {
           "type": "collect",
@@ -4069,7 +4592,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_076"
+      "quest_chain_next": "fq_merid_076",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Jotunns have unionized around the Forge's heat sources. (Location: Prima Materia Forge, Don Vercelli) The Cartel does not negotiate with unions."
+        }
+      ]
     },
     {
       "id": "fq_merid_076",
@@ -4094,10 +4623,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_VOID_CHANNELER",
+          "target": 5225,
           "count": 6,
           "desc": "Clear production obstructions.",
-          "description": "Defeat Aethel Void Channeler (x6)."
+          "description": "Defeat Aethel Void Channeler (x6).",
+          "target_code": "AETHEL_VOID_CHANNELER"
         },
         {
           "type": "collect",
@@ -4122,7 +4652,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_077"
+      "quest_chain_next": "fq_merid_077",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Cartel board demands 300% production increase. (Location: Prima Materia Forge, Don Vercelli) Clear the production floor of all obstructions."
+        }
+      ]
     },
     {
       "id": "fq_merid_077",
@@ -4147,10 +4683,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "TITAN_FORGE_AUTOMATON",
+          "target": 5204,
           "count": 3,
           "desc": "Acquire or destroy Automaton units.",
-          "description": "Defeat Titan Forge Automaton (x3)."
+          "description": "Defeat Titan Forge Automaton (x3).",
+          "target_code": "TITAN_FORGE_AUTOMATON"
         },
         {
           "type": "collect",
@@ -4175,7 +4712,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_078"
+      "quest_chain_next": "fq_merid_078",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Titan Forge Automatons are superior manufacturing units. (Location: Prima Materia Forge, Don Vercelli) The Cartel wants them on our payroll — or destroyed."
+        }
+      ]
     },
     {
       "id": "fq_merid_078",
@@ -4200,10 +4743,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "TITAN_PROTO_CORE",
+          "target": 5209,
           "count": 2,
           "desc": "Liquidate defective Proto Core inventory.",
-          "description": "Defeat Titan Proto Core (x2)."
+          "description": "Defeat Titan Proto Core (x2).",
+          "target_code": "TITAN_PROTO_CORE"
         },
         {
           "type": "collect",
@@ -4228,7 +4772,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_079"
+      "quest_chain_next": "fq_merid_079",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Titan Proto Cores are failed products. (Location: Prima Materia Forge, Don Vercelli) Liquidate the defective inventory and recover the materials."
+        }
+      ]
     },
     {
       "id": "fq_merid_079",
@@ -4253,17 +4803,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "GRAVITY_TITAN",
+          "target": 4003,
           "count": 1,
           "desc": "Eliminate Titan — operational cost zero.",
-          "description": "Defeat Gravity Titan (x1)."
+          "description": "Defeat Gravity Titan (x1).",
+          "target_code": "GRAVITY_TITAN"
         },
         {
           "type": "kill",
-          "target": "ABYSS_HARBINGER",
+          "target": 4002,
           "count": 1,
           "desc": "Eliminate Harbinger — operational cost zero.",
-          "description": "Defeat Abyss Harbinger (x1)."
+          "description": "Defeat Abyss Harbinger (x1).",
+          "target_code": "ABYSS_HARBINGER"
         }
       ],
       "rewards": {
@@ -4289,7 +4841,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_080"
+      "quest_chain_next": "fq_merid_080",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Executive Legend trial. (Location: Prima Materia Forge, Don Vercelli) Eliminate both Titan and Harbinger in a single operational cycle. Efficiency is the Cartel way."
+        }
+      ]
     },
     {
       "id": "fq_merid_080",
@@ -4346,7 +4904,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_081"
+      "quest_chain_next": "fq_merid_081",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Cartel board unanimously votes you Executive Legend. Return to Port Meridian for the shareholder ceremony. Your stock has never been higher. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters."
+        }
+      ]
     },
     {
       "id": "fq_merid_081",
@@ -4399,7 +4963,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_082"
+      "quest_chain_next": "fq_merid_082",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Hidden Aethelgardian City is the ultimate real estate asset. The Cartel will acquire it before any competitor even knows it exists. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters."
+        }
+      ]
     },
     {
       "id": "fq_merid_082",
@@ -4424,10 +4994,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_RIFT_STALKER",
+          "target": 5223,
           "count": 8,
           "desc": "Clear property liens.",
-          "description": "Defeat Aethel Rift Stalker (x8)."
+          "description": "Defeat Aethel Rift Stalker (x8).",
+          "target_code": "AETHEL_RIFT_STALKER"
         },
         {
           "type": "collect",
@@ -4452,7 +5023,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_082"
+      "quest_chain_next": "fq_merid_082",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "City defenses are holdover liabilities from previous ownership. (Location: Hidden Aethelgardian City, Don Vercelli) Clear all liens on the property."
+        }
+      ]
     },
     {
       "id": "fq_merid_084",
@@ -4477,10 +5054,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "ASHEN_DRAKE",
+          "target": 4001,
           "count": 1,
           "desc": "Execute the Apex Drake IPO.",
-          "description": "Defeat Ashen Drake (x1)."
+          "description": "Defeat Ashen Drake (x1).",
+          "target_code": "ASHEN_DRAKE"
         },
         {
           "type": "collect",
@@ -4509,7 +5087,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_085"
+      "quest_chain_next": "fq_merid_085",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Apex Ashen Drake is a unique asset with no market equivalent. (Location: Shattered Heart, Don Vercelli) The Cartel files for an Initial Public Obliteration."
+        }
+      ]
     },
     {
       "id": "fq_merid_085",
@@ -4534,10 +5118,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "ABYSS_HARBINGER",
+          "target": 4002,
           "count": 1,
           "desc": "Acquire the Apex Harbinger.",
-          "description": "Defeat Abyss Harbinger (x1)."
+          "description": "Defeat Abyss Harbinger (x1).",
+          "target_code": "ABYSS_HARBINGER"
         },
         {
           "type": "collect",
@@ -4566,7 +5151,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_086"
+      "quest_chain_next": "fq_merid_086",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Apex Abyss Harbinger is the final void market competitor. (Location: Void Echo Chasm, Don Vercelli) Acquire — permanently."
+        }
+      ]
     },
     {
       "id": "fq_merid_086",
@@ -4591,10 +5182,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "GRAVITY_TITAN",
+          "target": 4003,
           "count": 1,
           "desc": "Collect the Titan dividend.",
-          "description": "Defeat Gravity Titan (x1)."
+          "description": "Defeat Gravity Titan (x1).",
+          "target_code": "GRAVITY_TITAN"
         },
         {
           "type": "collect",
@@ -4623,7 +5215,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_087"
+      "quest_chain_next": "fq_merid_087",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Gravity Titan's third manifestation pays an even larger dividend. (Location: Cradle Expanse, Don Vercelli) The Cartel always collects."
+        }
+      ]
     },
     {
       "id": "fq_merid_087",
@@ -4648,24 +5246,27 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "ASHEN_DRAKE",
+          "target": 4001,
           "count": 1,
           "desc": "Consolidate Drake assets.",
-          "description": "Defeat Ashen Drake (x1)."
+          "description": "Defeat Ashen Drake (x1).",
+          "target_code": "ASHEN_DRAKE"
         },
         {
           "type": "kill",
-          "target": "GRAVITY_TITAN",
+          "target": 4003,
           "count": 1,
           "desc": "Consolidate Titan assets.",
-          "description": "Defeat Gravity Titan (x1)."
+          "description": "Defeat Gravity Titan (x1).",
+          "target_code": "GRAVITY_TITAN"
         },
         {
           "type": "kill",
-          "target": "ABYSS_HARBINGER",
+          "target": 4002,
           "count": 1,
           "desc": "Consolidate Harbinger assets.",
-          "description": "Defeat Abyss Harbinger (x1)."
+          "description": "Defeat Abyss Harbinger (x1).",
+          "target_code": "ABYSS_HARBINGER"
         }
       ],
       "rewards": {
@@ -4691,7 +5292,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_088"
+      "quest_chain_next": "fq_merid_088",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The three Apex entities — Drake, Titan, Harbinger — represent the final merger opportunity. (Location: Prima Materia Forge, Don Vercelli) Consolidate the market."
+        }
+      ]
     },
     {
       "id": "fq_merid_088",
@@ -4744,7 +5351,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_089"
+      "quest_chain_next": "fq_merid_089",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Aethel Siphon Core is now Cartel Energy Division. Complete the corporate takeover and begin energy billing. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters."
+        }
+      ]
     },
     {
       "id": "fq_merid_089",
@@ -4776,10 +5389,11 @@
         },
         {
           "type": "kill",
-          "target": "GIGANTIC_JOTUNN",
+          "target": 4017,
           "count": 2,
           "desc": "Eliminate competing bidders.",
-          "description": "Defeat Gigantic Jotunn (x2)."
+          "description": "Defeat Gigantic Jotunn (x2).",
+          "target_code": "GIGANTIC_JOTUNN"
         }
       ],
       "rewards": {
@@ -4797,7 +5411,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_090"
+      "quest_chain_next": "fq_merid_090",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The World Engine is the most valuable asset in Xylos history. (Location: Aethel Siphon Core, Don Vercelli) The Cartel takes it public — with us as the sole shareholder."
+        }
+      ]
     },
     {
       "id": "fq_merid_090",
@@ -4822,17 +5442,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
+          "target": 5226,
           "count": 10,
           "desc": "Defend the investment.",
-          "description": "Defeat Aethel Abyssal Reaver (x10)."
+          "description": "Defeat Aethel Abyssal Reaver (x10).",
+          "target_code": "AETHEL_ABYSSAL_REAVER"
         },
         {
           "type": "kill",
-          "target": "CRYSTAL_TYRANT",
+          "target": 4020,
           "count": 2,
           "desc": "Eliminate investment risks.",
-          "description": "Defeat Crystal Tyrant (x2)."
+          "description": "Defeat Crystal Tyrant (x2).",
+          "target_code": "CRYSTAL_TYRANT"
         },
         {
           "type": "collect",
@@ -4857,7 +5479,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_091"
+      "quest_chain_next": "fq_merid_091",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Activate the World Engine. (Location: Aethel Siphon Core, Don Vercelli) When it goes online, the Cartel will own the means of planetary production. Defend your investment."
+        }
+      ]
     },
     {
       "id": "fq_merid_091",
@@ -4882,17 +5510,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "GIGANTIC_JOTUNN",
+          "target": 4017,
           "count": 5,
           "desc": "Execute Jotunn liquidation.",
-          "description": "Defeat Gigantic Jotunn (x5)."
+          "description": "Defeat Gigantic Jotunn (x5).",
+          "target_code": "GIGANTIC_JOTUNN"
         },
         {
           "type": "kill",
-          "target": "AETHEL_IRON_CARAPACE",
+          "target": 5224,
           "count": 8,
           "desc": "Execute Carapace liquidation.",
-          "description": "Defeat Aethel Iron Carapace (x8)."
+          "description": "Defeat Aethel Iron Carapace (x8).",
+          "target_code": "AETHEL_IRON_CARAPACE"
         }
       ],
       "rewards": {
@@ -4910,7 +5540,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_092"
+      "quest_chain_next": "fq_merid_092",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Engine flushes remaining hostile assets. (Location: Severance Faultline, Don Vercelli) Execute the final liquidation sale — everything must go."
+        }
+      ]
     },
     {
       "id": "fq_merid_092",
@@ -4935,17 +5571,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
+          "target": 5226,
           "count": 10,
           "desc": "Close Abyssal positions.",
-          "description": "Defeat Aethel Abyssal Reaver (x10)."
+          "description": "Defeat Aethel Abyssal Reaver (x10).",
+          "target_code": "AETHEL_ABYSSAL_REAVER"
         },
         {
           "type": "kill",
-          "target": "VOID_REAVER",
+          "target": 5301,
           "count": 10,
           "desc": "Close Void positions.",
-          "description": "Defeat Void Reaver (x10)."
+          "description": "Defeat Void Reaver (x10).",
+          "target_code": "VOID_REAVER"
         }
       ],
       "rewards": {
@@ -4963,7 +5601,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_093"
+      "quest_chain_next": "fq_merid_093",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The void market is saturated. (Location: Void Echo Chasm, Don Vercelli) Close all remaining void positions and claim final dividends."
+        }
+      ]
     },
     {
       "id": "fq_merid_093",
@@ -4988,10 +5632,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "CRYSTAL_TYRANT",
+          "target": 4020,
           "count": 3,
           "desc": "Execute Chapter 7 liquidation.",
-          "description": "Defeat Crystal Tyrant (x3)."
+          "description": "Defeat Crystal Tyrant (x3).",
+          "target_code": "CRYSTAL_TYRANT"
         },
         {
           "type": "collect",
@@ -5016,7 +5661,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_094"
+      "quest_chain_next": "fq_merid_094",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Crystal Tyrants file for bankruptcy — Chapter 7, total liquidation. (Location: Shattered Heart, Don Vercelli) Execute the court order."
+        }
+      ]
     },
     {
       "id": "fq_merid_094",
@@ -5041,17 +5692,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_VOID_CHANNELER",
+          "target": 5225,
           "count": 8,
           "desc": "Eliminate production hindrances.",
-          "description": "Defeat Aethel Void Channeler (x8)."
+          "description": "Defeat Aethel Void Channeler (x8).",
+          "target_code": "AETHEL_VOID_CHANNELER"
         },
         {
           "type": "kill",
-          "target": "TITAN_FORGE_AUTOMATON",
+          "target": 5204,
           "count": 3,
           "desc": "Replace inefficient Automatons.",
-          "description": "Defeat Titan Forge Automaton (x3)."
+          "description": "Defeat Titan Forge Automaton (x3).",
+          "target_code": "TITAN_FORGE_AUTOMATON"
         }
       ],
       "rewards": {
@@ -5069,7 +5722,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_095"
+      "quest_chain_next": "fq_merid_095",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Final quarter earnings report. (Location: Prima Materia Forge, Don Vercelli) Maximize Forge output by eliminating all production hindrances."
+        }
+      ]
     },
     {
       "id": "fq_merid_095",
@@ -5094,17 +5753,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_RIFT_STALKER",
+          "target": 5223,
           "count": 10,
           "desc": "Enforce market monopoly.",
-          "description": "Defeat Aethel Rift Stalker (x10)."
+          "description": "Defeat Aethel Rift Stalker (x10).",
+          "target_code": "AETHEL_RIFT_STALKER"
         },
         {
           "type": "kill",
-          "target": "GRAVITY_TITAN",
+          "target": 4003,
           "count": 1,
           "desc": "Eliminate residual market competition.",
-          "description": "Defeat Gravity Titan (x1)."
+          "description": "Defeat Gravity Titan (x1).",
+          "target_code": "GRAVITY_TITAN"
         }
       ],
       "rewards": {
@@ -5122,7 +5783,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_096"
+      "quest_chain_next": "fq_merid_096",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Cradle Expanse is now a Cartel-exclusive market. Enforce the monopoly. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters."
+        }
+      ]
     },
     {
       "id": "fq_merid_096",
@@ -5147,17 +5814,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_IRON_CARAPACE",
+          "target": 5224,
           "count": 10,
           "desc": "Maintain orbital holdings.",
-          "description": "Defeat Aethel Iron Carapace (x10)."
+          "description": "Defeat Aethel Iron Carapace (x10).",
+          "target_code": "AETHEL_IRON_CARAPACE"
         },
         {
           "type": "kill",
-          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "target": 5222,
           "count": 3,
           "desc": "Clear orbital liabilities.",
-          "description": "Defeat Aethel Corrupted Behemoth (x3)."
+          "description": "Defeat Aethel Corrupted Behemoth (x3).",
+          "target_code": "AETHEL_CORRUPTED_BEHEMOTH"
         }
       ],
       "rewards": {
@@ -5175,7 +5844,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_097"
+      "quest_chain_next": "fq_merid_097",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The orbital portfolio requires quarterly maintenance. (Location: Orbital Sentinel Command, Don Vercelli) Clear all orbital holdings of hostile entities."
+        }
+      ]
     },
     {
       "id": "fq_merid_097",
@@ -5200,17 +5875,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "GIGANTIC_JOTUNN",
+          "target": 4017,
           "count": 3,
           "desc": "Consolidate Jotunn assets.",
-          "description": "Defeat Gigantic Jotunn (x3)."
+          "description": "Defeat Gigantic Jotunn (x3).",
+          "target_code": "GIGANTIC_JOTUNN"
         },
         {
           "type": "kill",
-          "target": "ABYSS_HARBINGER",
+          "target": 4002,
           "count": 1,
           "desc": "Close Harbinger accounts.",
-          "description": "Defeat Abyss Harbinger (x1)."
+          "description": "Defeat Abyss Harbinger (x1).",
+          "target_code": "ABYSS_HARBINGER"
         },
         {
           "type": "collect",
@@ -5235,7 +5912,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_098"
+      "quest_chain_next": "fq_merid_098",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The final quarter of operations. (Location: Prima Materia Forge, Don Vercelli) Consolidate all Cartel assets and prepare the closing balance sheet."
+        }
+      ]
     },
     {
       "id": "fq_merid_098",
@@ -5260,24 +5943,27 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "GIGANTIC_JOTUNN",
+          "target": 4017,
           "count": 1,
           "desc": "Merge Jotunn assets.",
-          "description": "Defeat Gigantic Jotunn (x1)."
+          "description": "Defeat Gigantic Jotunn (x1).",
+          "target_code": "GIGANTIC_JOTUNN"
         },
         {
           "type": "kill",
-          "target": "ASHEN_DRAKE",
+          "target": 4001,
           "count": 1,
           "desc": "Merge Drake assets.",
-          "description": "Defeat Ashen Drake (x1)."
+          "description": "Defeat Ashen Drake (x1).",
+          "target_code": "ASHEN_DRAKE"
         },
         {
           "type": "kill",
-          "target": "ABYSS_HARBINGER",
+          "target": 4002,
           "count": 1,
           "desc": "Merge Harbinger assets.",
-          "description": "Defeat Abyss Harbinger (x1)."
+          "description": "Defeat Abyss Harbinger (x1).",
+          "target_code": "ABYSS_HARBINGER"
         },
         {
           "type": "collect",
@@ -5310,7 +5996,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_099"
+      "quest_chain_next": "fq_merid_099",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The final merger. (Location: Prima Materia Forge, Don Vercelli) Combine the assets of Jotunn, Drake, and Harbinger into the ultimate corporate entity: YOU."
+        }
+      ]
     },
     {
       "id": "fq_merid_099",
@@ -5342,17 +6034,19 @@
         },
         {
           "type": "kill",
-          "target": "GRAVITY_TITAN",
+          "target": 4003,
           "count": 1,
           "desc": "Vote out the Eternal Gravity Titan.",
-          "description": "Defeat Gravity Titan (x1)."
+          "description": "Defeat Gravity Titan (x1).",
+          "target_code": "GRAVITY_TITAN"
         },
         {
           "type": "kill",
-          "target": "ABYSS_HARBINGER",
+          "target": 4002,
           "count": 1,
           "desc": "Vote out the Eternal Abyss Harbinger.",
-          "description": "Defeat Abyss Harbinger (x1)."
+          "description": "Defeat Abyss Harbinger (x1).",
+          "target_code": "ABYSS_HARBINGER"
         },
         {
           "type": "collect",
@@ -5377,7 +6071,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_merid_100"
+      "quest_chain_next": "fq_merid_100",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The deepest Void Echo Chasm holds the final board meeting. Defeat the Eternal forms of Titan and Harbinger. The Cartel board demands your ascension. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters."
+        }
+      ]
     },
     {
       "id": "fq_merid_100",
@@ -5433,7 +6133,13 @@
         "reputation": 5
       },
       "repeatable": false,
-      "daily": false
+      "daily": false,
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The market has spoken. The shareholders have voted. You are now the ETERNITY CEO — the eternal majority shareholder of Xylos itself. Return to Port Meridian. Every contract. Every deal. Every liquidation. It all led here. Profit is eternal. Quest giver: Don Vercelli at Port Meridian Cartel Headquarters."
+        }
+      ]
     }
   ]
 }

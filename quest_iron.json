@@ -21,10 +21,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "BROKEN_DRONE",
+          "target": 5003,
           "count": 5,
           "desc": "Destroy Broken Scout Drones.",
-          "description": "Defeat Broken Scout Drone (x5)."
+          "description": "Defeat Broken Scout Drone (x5).",
+          "target_code": "BROKEN_DRONE"
         },
         {
           "type": "collect",
@@ -53,7 +54,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_002"
+      "quest_chain_next": "fq_iron_002",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Iron Hegemony does not recruit — it conscripts, shapes, and deploys. Warlord Harkon Steele built the Hegemony from the Concordium's security division after the Great Schism, because he understood something the diplomats didn't: Prima Materia cannot be negotiated with. It can only be controlled by force. The Scrap Field is your proving ground — Broken Scout Drones are jamming logistics, and in the Hegemony, a soldier who can't clear the field is not a soldier at all. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_002",
@@ -78,10 +85,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "SCRAP_RAT",
+          "target": 50024,
           "count": 6,
           "desc": "Exterminate Scrap Rats.",
-          "description": "Defeat Scrap Rat (x6)."
+          "description": "Defeat Scrap Rat (x6).",
+          "target_code": "SCRAP_RAT"
         },
         {
           "type": "collect",
@@ -106,7 +114,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_003"
+      "quest_chain_next": "fq_iron_003",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Scrap Rats have been gnawing through the supply crates the Hegemony uses to move components between the Scrap Field and Bastion Core. In any other organization, this would be a maintenance problem. In the Iron Hegemony, it is a tactical failure — every gap in the supply line is a gap in the war machine's armor. Warlord Steele has a saying: 'The rat that eats your rations today is the enemy that kills your unit tomorrow.' Exterminate them. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_003",
@@ -131,10 +145,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "SCRAP_DRONE",
+          "target": 50012,
           "count": 5,
           "desc": "Disable Scrap Drones.",
-          "description": "Defeat Scrap Drone (x5)."
+          "description": "Defeat Scrap Drone (x5).",
+          "target_code": "SCRAP_DRONE"
         },
         {
           "type": "collect",
@@ -159,7 +174,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_004"
+      "quest_chain_next": "fq_iron_004",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Tink — the Hegemony's salvage engineer, a person who hasn't slept a full night in six years because the Bastion forges never sleep either — needs Scrap Drone components to keep the war machine running. (Location: Scrap Field, Tink) The Hegemony's strength is not just in soldiers; it is in the relentless industrial capacity that turns scrap into weapons. Every drone you disable is another batch of components that becomes a new piece of armor, a new weapon, another tool of control."
+        }
+      ]
     },
     {
       "id": "fq_iron_004",
@@ -184,17 +205,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "RUST_MITE",
+          "target": 5011,
           "count": 5,
           "desc": "Purge Rust Mites.",
-          "description": "Defeat Rust Mite (x5)."
+          "description": "Defeat Rust Mite (x5).",
+          "target_code": "RUST_MITE"
         },
         {
           "type": "kill",
-          "target": "SCRAP_CRAWLER",
+          "target": 5010,
           "count": 3,
           "desc": "Clear Scrap Crawlers nesting nearby.",
-          "description": "Defeat Scrap Crawler (x3)."
+          "description": "Defeat Scrap Crawler (x3).",
+          "target_code": "SCRAP_CRAWLER"
         }
       ],
       "rewards": {
@@ -212,7 +235,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_005"
+      "quest_chain_next": "fq_iron_005",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Rust Mites have colonized the Hegemony's equipment depot at the Scrap Field perimeter — eating through iron plating that Bastion engineers spent weeks fabricating. In the Hegemony's ideology, corrosion is not just a material problem; it is a symbol of the weakness that allowed the Great Schism to happen. Warlord Steele demands that the Scrap Field be maintained in fighting condition at all times. A soldier who lets their equipment rot is a soldier who does not believe in the mission. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_005",
@@ -254,10 +283,11 @@
         },
         {
           "type": "kill",
-          "target": "BROKEN_DRONE",
+          "target": 5003,
           "count": 3,
           "desc": "Demonstrate your worth against Scrap Hounds.",
-          "description": "Defeat Broken Scout Drone (x3)."
+          "description": "Defeat Broken Scout Drone (x3).",
+          "target_code": "BROKEN_DRONE"
         }
       ],
       "rewards": {
@@ -291,7 +321,13 @@
       "popup_trigger": "on_quest_complete",
       "popup_prerequisite": "fq_iron_004",
       "popup_level": 4,
-      "quest_chain_next": "fq_iron_006"
+      "quest_chain_next": "fq_iron_006",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Warlord Harkon Steele reviews every conscript personally — or so the rumor goes. What is true is that a summons to Bastion Core means someone has noticed you are more than standard material. The Hegemony does not believe in generalist soldiers; every weapon has a function, and a soldier who has not found theirs is a weapon without an edge. At Bastion Core's war hall, you will choose the form your lethality takes. Choose it correctly. There are no second specializations. Quest giver: War Marshal Drax at Bastion Core War College."
+        }
+      ]
     },
     {
       "id": "fq_iron_006",
@@ -344,7 +380,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_007"
+      "quest_chain_next": "fq_iron_007",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Iron Ravine sits on mineral deposits that could supply the Bastion's forges for a generation — deposits the Concordium surveyed and filed away while debating policy, and that the Meridian Cartel is already sending surveyors to assess. Warlord Steele does not debate. He sends soldiers. The Iron Hegemony's doctrine is simple: the one who controls the mineral controls the war machine, and the one who controls the war machine controls everything else. Establish the forward base. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_007",
@@ -369,10 +411,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "IRON_RAVINE_MINER",
+          "target": 5135,
           "count": 5,
           "desc": "Defeat Iron Ravine Miners.",
-          "description": "Defeat Iron Ravine Miner (x5)."
+          "description": "Defeat Iron Ravine Miner (x5).",
+          "target_code": "IRON_RAVINE_MINER"
         },
         {
           "type": "collect",
@@ -397,7 +440,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_008"
+      "quest_chain_next": "fq_iron_008",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Iron Ravine Miners — independent operators who have worked these veins for years, who have no Hegemony contracts and no Hegemony protection — are blocking access to the central mineral shaft. In the Concordium, this would be a dispute. In the Meridian Cartel, this would be a negotiation. In the Iron Hegemony, Warlord Steele has a single word for independent operators who stand between his soldiers and a strategic resource: obstacles. Quest giver: Gorn at Iron Ravine Mine Entrance."
+        }
+      ]
     },
     {
       "id": "fq_iron_008",
@@ -422,10 +471,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "IRON_RAVINE_BRUTE",
+          "target": 50035,
           "count": 2,
           "desc": "Defeat Iron Ravine Brutes.",
-          "description": "Defeat Iron Ravine Brute (x2)."
+          "description": "Defeat Iron Ravine Brute (x2).",
+          "target_code": "IRON_RAVINE_BRUTE"
         },
         {
           "type": "collect",
@@ -450,7 +500,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_009"
+      "quest_chain_next": "fq_iron_009",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "An Iron Ravine Brute has claimed the central shaft as its territory and crushed three of the Hegemony's initial mining crews — not out of intelligence but pure animal dominance. Warlord Steele has a complicated respect for dominant animals; they understand, on instinct, what the Concordium's diplomats will never accept. But respect does not mean tolerance. The Ravine belongs to the Hegemony. Show the Brute what superior force looks like from the losing side. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_009",
@@ -475,17 +531,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "SCRAPFIELD_ENFORCER",
+          "target": 5103,
           "count": 1,
           "desc": "Defeat the Scrapfield Enforcer.",
-          "description": "Defeat Scrapfield Enforcer (x1)."
+          "description": "Defeat Scrapfield Enforcer (x1).",
+          "target_code": "SCRAPFIELD_ENFORCER"
         },
         {
           "type": "kill",
-          "target": "IRON_RAVINE_SENTINEL",
+          "target": 5136,
           "count": 1,
           "desc": "Destroy a Ravine Sentinel guarding the Enforcer.",
-          "description": "Defeat Iron Ravine Sentinel (x1)."
+          "description": "Defeat Iron Ravine Sentinel (x1).",
+          "target_code": "IRON_RAVINE_SENTINEL"
         }
       ],
       "rewards": {
@@ -503,7 +561,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_010"
+      "quest_chain_next": "fq_iron_010",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "A Scrapfield Enforcer — a rogue combat machine that predates the Hegemony's own war-mech program — has been claiming the central ravine as its patrol zone and attacking Hegemony survey teams on sight. Its combat protocols may actually be superior to some Hegemony-built machines, which Tink finds professionally embarrassing and Warlord Steele finds unacceptable. The Iron Hegemony is the only authority in the Iron Ravine. Enforce that fact. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_010",
@@ -528,10 +592,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "RAVINE_SCRAP_GOLEM",
+          "target": 5123,
           "count": 2,
           "desc": "Destroy Ravine Scrap Golems.",
-          "description": "Defeat Ravine Scrap Golem (x2)."
+          "description": "Defeat Ravine Scrap Golem (x2).",
+          "target_code": "RAVINE_SCRAP_GOLEM"
         },
         {
           "type": "collect",
@@ -556,7 +621,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_011"
+      "quest_chain_next": "fq_iron_011",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Ravine Scrap Golems are what happens when the Severance's corrupted energy animates salvaged machinery without anyone controlling the result — walking fortresses of mismatched metal and raw aethel charge that will attack anything within range. (Location: Iron Ravine, Commander Drax) Warlord Steele does not waste time theorizing about what they are. He looks at them and sees two things: a threat to neutralize, and a salvage yield that Tink has already calculated down to the last circuit. Break them. Take what the Hegemony needs."
+        }
+      ]
     },
     {
       "id": "fq_iron_011",
@@ -609,7 +680,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_012"
+      "quest_chain_next": "fq_iron_012",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The War Machine Graveyard is a cemetery of titans — pre-Severance war constructs that fought wars whose names have been forgotten, left to rust in a field that no other faction wants to enter. Warlord Steele walks it differently. He sees it as a library, every destroyed machine a lesson about what failed and why. The Iron Hegemony's doctrine forbids forgetting the last war. Enter the Graveyard. See what losing looks like, so you understand what winning requires. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_012",
@@ -634,10 +711,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "WAR_MACHINE_WRECKER",
+          "target": 5140,
           "count": 5,
           "desc": "Destroy War Machine Wreckers.",
-          "description": "Defeat War Machine Wrecker (x5)."
+          "description": "Defeat War Machine Wrecker (x5).",
+          "target_code": "WAR_MACHINE_WRECKER"
         },
         {
           "type": "collect",
@@ -662,7 +740,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_013"
+      "quest_chain_next": "fq_iron_013",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "War Machine Wreckers — scavengers who strip the Graveyard's titan remains for parts to sell to the Meridian Cartel and OmniCorp — have been operating here for years without Hegemony authorization. (Location: War Machine Graveyard, Foreman Brigg) Foreman Brigg's inventory assessments show they've already taken components that the Hegemony's Titan Assembly Yard needed. The Graveyard's lessons belong to the Iron Hegemony. Its parts belong to the Iron Hegemony. Its scavengers belong on the ground."
+        }
+      ]
     },
     {
       "id": "fq_iron_013",
@@ -687,10 +771,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "WAR_MACHINE_SCAVENGER",
+          "target": 5141,
           "count": 5,
           "desc": "Eliminate War Machine Scavengers.",
-          "description": "Defeat War Machine Scavenger (x5)."
+          "description": "Defeat War Machine Scavenger (x5).",
+          "target_code": "WAR_MACHINE_SCAVENGER"
         },
         {
           "type": "collect",
@@ -715,7 +800,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_014"
+      "quest_chain_next": "fq_iron_014",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Tink — whose actual feelings about the War Machine Graveyard are somewhere between reverence and obsession — has produced a precise inventory of components the Hegemony needs and the War Machine Scavengers are taking. The Scavengers are not random looters; they are organized, they have buyers, and their operation is directly funded by OmniCorp. Every scrap core they remove is a weapon the Hegemony does not build. Tink says 'please.' Warlord Steele says 'eliminate them.'"
+        }
+      ]
     },
     {
       "id": "fq_iron_014",
@@ -740,10 +831,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "WAR_MACHINE_SENTINEL",
+          "target": 5142,
           "count": 3,
           "desc": "Disable War Machine Sentinels.",
-          "description": "Defeat War Machine Sentinel (x3)."
+          "description": "Defeat War Machine Sentinel (x3).",
+          "target_code": "WAR_MACHINE_SENTINEL"
         },
         {
           "type": "collect",
@@ -768,7 +860,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_015"
+      "quest_chain_next": "fq_iron_015",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "War Machine Sentinels — automated guardian constructs still running on battle-programming written before the Severance — continue patrolling the Graveyard as if the war they were built for is still ongoing. (Location: War Machine Graveyard, Foreman Brigg) Tink has analyzed their combat protocols and found techniques the Hegemony's current Titan Assembly Yard has not re-discovered. Disable them carefully. Every Sentinel destroyed is a lesson extracted from the past to make the Hegemony's future war machines more lethal."
+        }
+      ]
     },
     {
       "id": "fq_iron_015",
@@ -793,17 +891,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "WAR_MACHINE_WRECKER",
+          "target": 5140,
           "count": 4,
           "desc": "Sweep remaining Wreckers.",
-          "description": "Defeat War Machine Wrecker (x4)."
+          "description": "Defeat War Machine Wrecker (x4).",
+          "target_code": "WAR_MACHINE_WRECKER"
         },
         {
           "type": "kill",
-          "target": "WAR_MACHINE_SCAVENGER",
+          "target": 5141,
           "count": 4,
           "desc": "Sweep remaining Scavengers.",
-          "description": "Defeat War Machine Scavenger (x4)."
+          "description": "Defeat War Machine Scavenger (x4).",
+          "target_code": "WAR_MACHINE_SCAVENGER"
         }
       ],
       "rewards": {
@@ -821,7 +921,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_016"
+      "quest_chain_next": "fq_iron_016",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Warlord Steele does not believe in partial victories. A contested zone is a weak zone — every Wrecker and Scavenger still active in the Graveyard represents a hole in the Hegemony's tactical control. The full sweep order is simple and absolute: everything in the Graveyard that is not Iron Hegemony is either neutralized or tagged for disposal. By the end of this operation, the War Machine Graveyard will be an Iron Hegemony asset with no asterisks. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_016",
@@ -846,10 +952,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "WAR_MACHINE_SENTINEL",
+          "target": 5142,
           "count": 4,
           "desc": "Destroy converging Sentinels.",
-          "description": "Defeat War Machine Sentinel (x4)."
+          "description": "Defeat War Machine Sentinel (x4).",
+          "target_code": "WAR_MACHINE_SENTINEL"
         },
         {
           "type": "collect",
@@ -874,7 +981,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_017"
+      "quest_chain_next": "fq_iron_017",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Multiple War Machine Sentinels are converging on the Hegemony's salvage teams — an automated counter-response to the Hegemony's presence in their patrol zones. (Location: War Machine Graveyard, Commander Drax) Warlord Steele's briefing is characteristically brief: 'Multiple Sentinels converging. This is not a threat. This is target practice.' The Hegemony's soldiers are not told to be careful. They are told to be efficient. Efficiency is the highest virtue in the Iron Hegemony's doctrine of war."
+        }
+      ]
     },
     {
       "id": "fq_iron_017",
@@ -906,10 +1019,11 @@
         },
         {
           "type": "kill",
-          "target": "WAR_MACHINE_WRECKER",
+          "target": 5140,
           "count": 3,
           "desc": "Clear the retrieval zone.",
-          "description": "Defeat War Machine Wrecker (x3)."
+          "description": "Defeat War Machine Wrecker (x3).",
+          "target_code": "WAR_MACHINE_WRECKER"
         }
       ],
       "rewards": {
@@ -927,7 +1041,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_018"
+      "quest_chain_next": "fq_iron_018",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Foreman Brigg has a requisition list from the Bastion's Titan Assembly program — specific components from specific models in the Graveyard that cannot be manufactured any other way. (Location: War Machine Graveyard, Foreman Brigg) The program is behind schedule. Three rival factions are ahead of the Hegemony in their own advanced weapons programs, and Warlord Steele does not tolerate being behind. The Graveyard Wreckers are in the retrieval zones again. Remove them. Retrieve what the Bastion needs. Bring the Hegemony back ahead."
+        }
+      ]
     },
     {
       "id": "fq_iron_018",
@@ -952,10 +1072,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "WAR_MACHINE_SENTINEL",
+          "target": 5142,
           "count": 5,
           "desc": "Destroy the Sentinel Commander and its unit.",
-          "description": "Defeat War Machine Sentinel (x5)."
+          "description": "Defeat War Machine Sentinel (x5).",
+          "target_code": "WAR_MACHINE_SENTINEL"
         },
         {
           "type": "collect",
@@ -980,7 +1101,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_019"
+      "quest_chain_next": "fq_iron_019",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Deep in the War Machine Graveyard's protected core zone, a Sentinel Commander — a war construct with hierarchical battle protocols that can coordinate the scattered Sentinels into a unified tactical force — has activated. Tink believes it has been dormant for centuries, triggered by the Hegemony's salvage operations. Warlord Steele believes this is irrelevant. The Graveyard belongs to the Iron Hegemony. Destroy the Commander. Plant the claim beacon. End this. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_019",
@@ -1005,17 +1132,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "RESONANCE_ECHO",
+          "target": 50015,
           "count": 1,
           "desc": "Defeat the Resonance Echo.",
-          "description": "Defeat Resonance Echo (x1)."
+          "description": "Defeat Resonance Echo (x1).",
+          "target_code": "RESONANCE_ECHO"
         },
         {
           "type": "kill",
-          "target": "WAR_MACHINE_SENTINEL",
+          "target": 5142,
           "count": 2,
           "desc": "Clear Sentinel escorts.",
-          "description": "Defeat War Machine Sentinel (x2)."
+          "description": "Defeat War Machine Sentinel (x2).",
+          "target_code": "WAR_MACHINE_SENTINEL"
         }
       ],
       "rewards": {
@@ -1033,7 +1162,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_020"
+      "quest_chain_next": "fq_iron_020",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "A Resonance Echo — the kind of energy entity the Arcanum Seekers would write excited papers about — has formed in the Graveyard's deep sector, drawn by the resonance from the now-active Sentinel Commander. (Location: War Machine Graveyard, Commander Drax) It is disrupting every piece of Hegemony electronic equipment within range and coordinating erratic behavior in the surviving Sentinels. The Iron Hegemony does not tolerate anomalies in controlled territory. This is controlled territory now. Destroy it."
+        }
+      ]
     },
     {
       "id": "fq_iron_020",
@@ -1086,7 +1221,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_021"
+      "quest_chain_next": "fq_iron_021",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The War Machine Graveyard is secured. The Titan Assembly program has its components. Warlord Harkon Steele does not give compliments — he gives promotions, which mean exactly the same thing in the Iron Hegemony. Return to Bastion Core for your Advanced Combat elevation. The Titan Assembly Yard awaits, and what is built there will change the balance of power on Xylos. You are going to help build it. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_021",
@@ -1139,7 +1280,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_022"
+      "quest_chain_next": "fq_iron_022",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Titan Assembly Yard was once where Precursor war machines were born. The Hegemony will make it our primary production facility. Quest giver: Foreman Brigg at Titan Assembly Yard Command Post."
+        }
+      ]
     },
     {
       "id": "fq_iron_022",
@@ -1164,10 +1311,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "TITAN_ASSEMBLY_DRONE",
+          "target": 5207,
           "count": 6,
           "desc": "Destroy Titan Assembly Drones.",
-          "description": "Defeat Titan Assembly Drone (x6)."
+          "description": "Defeat Titan Assembly Drone (x6).",
+          "target_code": "TITAN_ASSEMBLY_DRONE"
         },
         {
           "type": "collect",
@@ -1192,7 +1340,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_023"
+      "quest_chain_next": "fq_iron_023",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Titan Assembly Drones still function on ancient protocols. (Location: Titan Assembly Yard, Foreman Brigg) Override their programming with force."
+        }
+      ]
     },
     {
       "id": "fq_iron_023",
@@ -1217,10 +1371,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "TITAN_ASSEMBLY_SENTINEL",
+          "target": 5208,
           "count": 3,
           "desc": "Destroy Titan Assembly Sentinels.",
-          "description": "Defeat Titan Assembly Sentinel (x3)."
+          "description": "Defeat Titan Assembly Sentinel (x3).",
+          "target_code": "TITAN_ASSEMBLY_SENTINEL"
         },
         {
           "type": "collect",
@@ -1245,7 +1400,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_024"
+      "quest_chain_next": "fq_iron_024",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Titan Assembly Sentinels guard the central assembly line. (Location: Titan Assembly Yard, Commander Drax) Breach their defenses and claim the line for Hegemony production."
+        }
+      ]
     },
     {
       "id": "fq_iron_024",
@@ -1270,10 +1431,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "TITAN_FORGE_AUTOMATON",
+          "target": 5204,
           "count": 2,
           "desc": "Disable Titan Forge Automatons.",
-          "description": "Defeat Titan Forge Automaton (x2)."
+          "description": "Defeat Titan Forge Automaton (x2).",
+          "target_code": "TITAN_FORGE_AUTOMATON"
         },
         {
           "type": "collect",
@@ -1298,7 +1460,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_025"
+      "quest_chain_next": "fq_iron_025",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Titan Forge Automatons are apex construction machines. (Location: Titan Assembly Yard, Foreman Brigg) Disable them and study their assembly protocols."
+        }
+      ]
     },
     {
       "id": "fq_iron_025",
@@ -1323,10 +1491,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "TITAN_PROTO_CORE",
+          "target": 5209,
           "count": 1,
           "desc": "Destroy the Titan Proto Core.",
-          "description": "Defeat Titan Proto Core (x1)."
+          "description": "Defeat Titan Proto Core (x1).",
+          "target_code": "TITAN_PROTO_CORE"
         },
         {
           "type": "collect",
@@ -1351,7 +1520,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_026"
+      "quest_chain_next": "fq_iron_026",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "A Titan Proto Core — a failed Titan — has reactivated. (Location: Titan Assembly Yard, Commander Drax) This is a live-fire exercise. Destroy it."
+        }
+      ]
     },
     {
       "id": "fq_iron_026",
@@ -1404,7 +1579,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_027"
+      "quest_chain_next": "fq_iron_027",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Border Skirmish Ring is where factions test their strength. The Hegemony does not test — we dominate. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_027",
@@ -1429,10 +1610,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_RIFT_STALKER",
+          "target": 5223,
           "count": 6,
           "desc": "Eliminate rival faction scouts.",
-          "description": "Defeat Aethel Rift Stalker (x6)."
+          "description": "Defeat Aethel Rift Stalker (x6).",
+          "target_code": "AETHEL_RIFT_STALKER"
         },
         {
           "type": "collect",
@@ -1457,7 +1639,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_028"
+      "quest_chain_next": "fq_iron_028",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Patrol the skirmish ring and eliminate any non-Hegemony forces. (Location: Border Skirmish Ring, Commander Drax) The border is ours."
+        }
+      ]
     },
     {
       "id": "fq_iron_028",
@@ -1482,10 +1670,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_BEHEMOTH",
+          "target": 5200,
           "count": 2,
           "desc": "Destroy the enemy Behemoth siege units.",
-          "description": "Defeat Aethel Behemoth (x2)."
+          "description": "Defeat Aethel Behemoth (x2).",
+          "target_code": "AETHEL_BEHEMOTH"
         },
         {
           "type": "collect",
@@ -1510,7 +1699,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_029"
+      "quest_chain_next": "fq_iron_029",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Aethel Behemoths are being used as living siege weapons by rival factions. (Location: Border Skirmish Ring, Commander Drax) Destroy the weapon before it reaches Hegemony lines."
+        }
+      ]
     },
     {
       "id": "fq_iron_029",
@@ -1535,10 +1730,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "TITAN_ASSEMBLY_SENTINEL",
+          "target": 5208,
           "count": 4,
           "desc": "Destroy new Sentinel variants.",
-          "description": "Defeat Titan Assembly Sentinel (x4)."
+          "description": "Defeat Titan Assembly Sentinel (x4).",
+          "target_code": "TITAN_ASSEMBLY_SENTINEL"
         },
         {
           "type": "collect",
@@ -1563,7 +1759,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_030"
+      "quest_chain_next": "fq_iron_030",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Assembly Yard has produced new Sentinel variants. (Location: Titan Assembly Yard, Foreman Brigg) Test Hegemony combat doctrine against them."
+        }
+      ]
     },
     {
       "id": "fq_iron_030",
@@ -1595,17 +1797,19 @@
         },
         {
           "type": "kill",
-          "target": "RESONANCE_ECHO",
+          "target": 50015,
           "count": 1,
           "desc": "Defeat the Resonance Echo as your strength test.",
-          "description": "Defeat Resonance Echo (x1)."
+          "description": "Defeat Resonance Echo (x1).",
+          "target_code": "RESONANCE_ECHO"
         },
         {
           "type": "kill",
-          "target": "TITAN_PROTO_CORE",
+          "target": 5209,
           "count": 1,
           "desc": "Destroy a Titan Proto Core as your endurance test.",
-          "description": "Defeat Titan Proto Core (x1)."
+          "description": "Defeat Titan Proto Core (x1).",
+          "target_code": "TITAN_PROTO_CORE"
         }
       ],
       "rewards": {
@@ -1631,7 +1835,13 @@
       "popup_trigger": "on_quest_complete",
       "popup_prerequisite": "fq_iron_029",
       "popup_level": 29,
-      "quest_chain_next": "fq_iron_031"
+      "quest_chain_next": "fq_iron_031",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "War Marshal Drax has called for your Ascension Test. (Location: Bastion Core, War Marshal Drax) Prove your strength has surpassed the rank of common soldier."
+        }
+      ]
     },
     {
       "id": "fq_iron_031",
@@ -1684,7 +1894,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_032"
+      "quest_chain_next": "fq_iron_032",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Hegemony now controls the ground. The next frontier is the sky. Secure the Orbital Sentinel Command. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_032",
@@ -1709,10 +1925,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "ASHEN_DRAKE",
+          "target": 4001,
           "count": 1,
           "desc": "Engage the Ashen Drake for reconnaissance.",
-          "description": "Defeat Ashen Drake (x1)."
+          "description": "Defeat Ashen Drake (x1).",
+          "target_code": "ASHEN_DRAKE"
         },
         {
           "type": "collect",
@@ -1737,7 +1954,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_033"
+      "quest_chain_next": "fq_iron_033",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Ashen Drake threatens Hegemony air superiority. (Location: Cradle Expanse, Commander Drax) Conduct reconnaissance and engage if necessary."
+        }
+      ]
     },
     {
       "id": "fq_iron_033",
@@ -1762,10 +1985,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_IRON_CARAPACE",
+          "target": 5224,
           "count": 6,
           "desc": "Destroy Aethel Iron Carapaces.",
-          "description": "Defeat Aethel Iron Carapace (x6)."
+          "description": "Defeat Aethel Iron Carapace (x6).",
+          "target_code": "AETHEL_IRON_CARAPACE"
         },
         {
           "type": "collect",
@@ -1790,7 +2014,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_034"
+      "quest_chain_next": "fq_iron_034",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Aethel Iron Carapaces are armored threats. (Location: Cradle Expanse, Commander Drax) Hegemony tanks need live-fire practice. Be the gun."
+        }
+      ]
     },
     {
       "id": "fq_iron_034",
@@ -1815,10 +2045,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "target": 5222,
           "count": 2,
           "desc": "Eliminate Corrupted Behemoths.",
-          "description": "Defeat Aethel Corrupted Behemoth (x2)."
+          "description": "Defeat Aethel Corrupted Behemoth (x2).",
+          "target_code": "AETHEL_CORRUPTED_BEHEMOTH"
         },
         {
           "type": "collect",
@@ -1843,7 +2074,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_035"
+      "quest_chain_next": "fq_iron_035",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Aethel Corrupted Behemoths are priority targets. (Location: Cradle Expanse, Commander Drax) Any threat to Hegemony territory receives the same response: elimination."
+        }
+      ]
     },
     {
       "id": "fq_iron_035",
@@ -1868,10 +2105,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
+          "target": 5226,
           "count": 4,
           "desc": "Destroy Abyssal Reaver shock troops.",
-          "description": "Defeat Aethel Abyssal Reaver (x4)."
+          "description": "Defeat Aethel Abyssal Reaver (x4).",
+          "target_code": "AETHEL_ABYSSAL_REAVER"
         },
         {
           "type": "collect",
@@ -1896,7 +2134,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_036"
+      "quest_chain_next": "fq_iron_036",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Aethel Abyssal Reavers are the enemy's shock troops. (Location: Cradle Expanse, Commander Drax) Meet them with Hegemony steel."
+        }
+      ]
     },
     {
       "id": "fq_iron_036",
@@ -1921,17 +2165,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_RIFT_STALKER",
+          "target": 5223,
           "count": 6,
           "desc": "Repel enemy probes.",
-          "description": "Defeat Aethel Rift Stalker (x6)."
+          "description": "Defeat Aethel Rift Stalker (x6).",
+          "target_code": "AETHEL_RIFT_STALKER"
         },
         {
           "type": "kill",
-          "target": "AETHEL_VOID_CHANNELER",
+          "target": 5225,
           "count": 3,
           "desc": "Neutralize void threats to the grid.",
-          "description": "Defeat Aethel Void Channeler (x3)."
+          "description": "Defeat Aethel Void Channeler (x3).",
+          "target_code": "AETHEL_VOID_CHANNELER"
         }
       ],
       "rewards": {
@@ -1949,7 +2195,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_037"
+      "quest_chain_next": "fq_iron_037",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Rival factions probe the orbital defense grid. (Location: Orbital Sentinel Command, Commander Drax) Remind them why Hegemony controls the skies."
+        }
+      ]
     },
     {
       "id": "fq_iron_037",
@@ -1974,10 +2226,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "ASHEN_DRAKE",
+          "target": 4001,
           "count": 1,
           "desc": "Hunt and kill the Ashen Drake.",
-          "description": "Defeat Ashen Drake (x1)."
+          "description": "Defeat Ashen Drake (x1).",
+          "target_code": "ASHEN_DRAKE"
         },
         {
           "type": "collect",
@@ -2002,7 +2255,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_038"
+      "quest_chain_next": "fq_iron_038",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Ashen Drake has been sighted again. (Location: Cradle Expanse, Commander Drax) This time, Hegemony authorizes a kill order. Bring it down."
+        }
+      ]
     },
     {
       "id": "fq_iron_038",
@@ -2027,10 +2286,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_IRON_CARAPACE",
+          "target": 5224,
           "count": 8,
           "desc": "Assault enemy positions.",
-          "description": "Defeat Aethel Iron Carapace (x8)."
+          "description": "Defeat Aethel Iron Carapace (x8).",
+          "target_code": "AETHEL_IRON_CARAPACE"
         },
         {
           "type": "collect",
@@ -2055,7 +2315,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_039"
+      "quest_chain_next": "fq_iron_039",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Full ground assault on enemy positions in the Skirmish Ring. (Location: Border Skirmish Ring, Commander Drax) Hegemony doctrine: overwhelming force."
+        }
+      ]
     },
     {
       "id": "fq_iron_039",
@@ -2080,17 +2346,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
+          "target": 5226,
           "count": 6,
           "desc": "Break the Abyssal counter-offensive.",
-          "description": "Defeat Aethel Abyssal Reaver (x6)."
+          "description": "Defeat Aethel Abyssal Reaver (x6).",
+          "target_code": "AETHEL_ABYSSAL_REAVER"
         },
         {
           "type": "kill",
-          "target": "AETHEL_VOID_CHANNELER",
+          "target": 5225,
           "count": 3,
           "desc": "Kill the Channeler commanders.",
-          "description": "Defeat Aethel Void Channeler (x3)."
+          "description": "Defeat Aethel Void Channeler (x3).",
+          "target_code": "AETHEL_VOID_CHANNELER"
         }
       ],
       "rewards": {
@@ -2108,7 +2376,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_040"
+      "quest_chain_next": "fq_iron_040",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Abyss Counter-Offensive has begun. (Location: Cradle Expanse, Commander Drax) Multiple Reaver battalions advance on Hegemony positions. Break their offensive."
+        }
+      ]
     },
     {
       "id": "fq_iron_040",
@@ -2133,24 +2407,27 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "ASHEN_DRAKE",
+          "target": 4001,
           "count": 1,
           "desc": "Defeat the Ashen Drake.",
-          "description": "Defeat Ashen Drake (x1)."
+          "description": "Defeat Ashen Drake (x1).",
+          "target_code": "ASHEN_DRAKE"
         },
         {
           "type": "kill",
-          "target": "AETHEL_BEHEMOTH",
+          "target": 5200,
           "count": 1,
           "desc": "Destroy an Aethel Behemoth.",
-          "description": "Defeat Aethel Behemoth (x1)."
+          "description": "Defeat Aethel Behemoth (x1).",
+          "target_code": "AETHEL_BEHEMOTH"
         },
         {
           "type": "kill",
-          "target": "TITAN_PROTO_CORE",
+          "target": 5209,
           "count": 1,
           "desc": "Destroy a Titan Proto Core.",
-          "description": "Defeat Titan Proto Core (x1)."
+          "description": "Defeat Titan Proto Core (x1).",
+          "target_code": "TITAN_PROTO_CORE"
         }
       ],
       "rewards": {
@@ -2176,7 +2453,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_041"
+      "quest_chain_next": "fq_iron_041",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Master Commander trial. (Location: Bastion Core, Commander Drax) Defeat the Ashen Drake and two elite guardians. Only the strongest lead Hegemony forces into battle."
+        }
+      ]
     },
     {
       "id": "fq_iron_041",
@@ -2229,7 +2512,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_042"
+      "quest_chain_next": "fq_iron_042",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Void Echo Chasm is the most hostile environment on Xylos. The Hegemony will establish a forward base here. Fear is not an option. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_042",
@@ -2254,10 +2543,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "VOID_REAVER",
+          "target": 5301,
           "count": 6,
           "desc": "Engage and destroy Void Reavers.",
-          "description": "Defeat Void Reaver (x6)."
+          "description": "Defeat Void Reaver (x6).",
+          "target_code": "VOID_REAVER"
         },
         {
           "type": "collect",
@@ -2282,7 +2572,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_043"
+      "quest_chain_next": "fq_iron_043",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Void Reavers are the chasm's defenders. (Location: Void Echo Chasm, Commander Drax) Engage and destroy. Hegemony fears no darkness."
+        }
+      ]
     },
     {
       "id": "fq_iron_043",
@@ -2307,10 +2603,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_VOID_CHANNELER",
+          "target": 5225,
           "count": 6,
           "desc": "Purge Void Channelers and their rituals.",
-          "description": "Defeat Aethel Void Channeler (x6)."
+          "description": "Defeat Aethel Void Channeler (x6).",
+          "target_code": "AETHEL_VOID_CHANNELER"
         },
         {
           "type": "collect",
@@ -2335,7 +2632,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_044"
+      "quest_chain_next": "fq_iron_044",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Void Channelers perform rituals that empower the Abyss. (Location: Void Echo Chasm, Commander Drax) Purge them. The Hegemony leaves no enemy power source intact."
+        }
+      ]
     },
     {
       "id": "fq_iron_044",
@@ -2360,10 +2663,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
+          "target": 5226,
           "count": 6,
           "desc": "Exterminate Abyssal Reavers.",
-          "description": "Defeat Aethel Abyssal Reaver (x6)."
+          "description": "Defeat Aethel Abyssal Reaver (x6).",
+          "target_code": "AETHEL_ABYSSAL_REAVER"
         },
         {
           "type": "collect",
@@ -2388,7 +2692,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_045"
+      "quest_chain_next": "fq_iron_045",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Abyssal Reavers are the enemy's elite. (Location: Void Echo Chasm, Commander Drax) Exterminate them. The Hegemony tolerates no elite but its own."
+        }
+      ]
     },
     {
       "id": "fq_iron_045",
@@ -2413,10 +2723,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "target": 5222,
           "count": 3,
           "desc": "Eliminate Corrupted Behemoths.",
-          "description": "Defeat Aethel Corrupted Behemoth (x3)."
+          "description": "Defeat Aethel Corrupted Behemoth (x3).",
+          "target_code": "AETHEL_CORRUPTED_BEHEMOTH"
         },
         {
           "type": "collect",
@@ -2441,7 +2752,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_046"
+      "quest_chain_next": "fq_iron_046",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Corrupted Behemoths in the chasm are juiced on void energy. (Location: Void Echo Chasm, Commander Drax) Prove that Hegemony steel cuts deeper than void corruption."
+        }
+      ]
     },
     {
       "id": "fq_iron_046",
@@ -2466,10 +2783,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "SOUL_FRAGMENTER",
+          "target": 4015,
           "count": 2,
           "desc": "Destroy Soul Fragmenters.",
-          "description": "Defeat Soul Fragmenter (x2)."
+          "description": "Defeat Soul Fragmenter (x2).",
+          "target_code": "SOUL_FRAGMENTER"
         },
         {
           "type": "collect",
@@ -2494,7 +2812,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_047"
+      "quest_chain_next": "fq_iron_047",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Soul Fragmenters attempt to break the minds of Hegemony soldiers. (Location: Void Echo Chasm, Commander Drax) They will fail. Destroy these psychological warfare units."
+        }
+      ]
     },
     {
       "id": "fq_iron_047",
@@ -2519,10 +2843,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "CHRONO_WRAITH",
+          "target": 4004,
           "count": 2,
           "desc": "Eliminate Chrono Wraiths.",
-          "description": "Defeat Chrono Wraith (x2)."
+          "description": "Defeat Chrono Wraith (x2).",
+          "target_code": "CHRONO_WRAITH"
         },
         {
           "type": "collect",
@@ -2547,7 +2872,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_048"
+      "quest_chain_next": "fq_iron_048",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Chrono Wraiths warp time around Hegemony positions. (Location: Void Echo Chasm, Commander Drax) Counter their temporal attacks with overwhelming firepower."
+        }
+      ]
     },
     {
       "id": "fq_iron_048",
@@ -2572,10 +2903,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "GIGANTIC_JOTUNN",
+          "target": 4017,
           "count": 1,
           "desc": "Destroy the Gigantic Jotunn.",
-          "description": "Defeat Gigantic Jotunn (x1)."
+          "description": "Defeat Gigantic Jotunn (x1).",
+          "target_code": "GIGANTIC_JOTUNN"
         },
         {
           "type": "collect",
@@ -2600,7 +2932,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_049"
+      "quest_chain_next": "fq_iron_049",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "A Gigantic Jotunn blocks the advance. (Location: Void Echo Chasm, Commander Drax) Hegemony doctrine: destroy the obstacle and keep moving."
+        }
+      ]
     },
     {
       "id": "fq_iron_049",
@@ -2653,7 +2991,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_050"
+      "quest_chain_next": "fq_iron_050",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Shattered Heart is the enemy's core territory. Breach it. The Hegemony attacks — always. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_050",
@@ -2678,17 +3022,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "ASHEN_DRAKE",
+          "target": 4001,
           "count": 1,
           "desc": "EXECUTE THE ASHEN DRAKE.",
-          "description": "Defeat Ashen Drake (x1)."
+          "description": "Defeat Ashen Drake (x1).",
+          "target_code": "ASHEN_DRAKE"
         },
         {
           "type": "kill",
-          "target": "DRAKE_MINION",
+          "target": 50056,
           "count": 5,
           "desc": "Clear Drake Minions from the lair.",
-          "description": "Defeat Drake Minion (x5)."
+          "description": "Defeat Drake Minion (x5).",
+          "target_code": "DRAKE_MINION"
         },
         {
           "type": "collect",
@@ -2721,7 +3067,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_051"
+      "quest_chain_next": "fq_iron_051",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "THE DRAKE EXECUTION. The Ashen Drake rules the Shattered Heart. The Hegemony will execute it. Raid Tier-1: lead the assault and bring down the Drake. Victory through Conquest. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_051",
@@ -2746,10 +3098,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "SOUL_FRAGMENTER",
+          "target": 4015,
           "count": 3,
           "desc": "Destroy the Fragmenter battalions.",
-          "description": "Defeat Soul Fragmenter (x3)."
+          "description": "Defeat Soul Fragmenter (x3).",
+          "target_code": "SOUL_FRAGMENTER"
         },
         {
           "type": "collect",
@@ -2774,7 +3127,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_052"
+      "quest_chain_next": "fq_iron_052",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Soul Fragmenter threat has escalated. (Location: Void Echo Chasm, Commander Drax) Multiple units are deploying. This is now a military campaign."
+        }
+      ]
     },
     {
       "id": "fq_iron_052",
@@ -2799,17 +3158,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "VOID_REAVER",
+          "target": 5301,
           "count": 8,
           "desc": "Exterminate Void Reavers.",
-          "description": "Defeat Void Reaver (x8)."
+          "description": "Defeat Void Reaver (x8).",
+          "target_code": "VOID_REAVER"
         },
         {
           "type": "kill",
-          "target": "AETHEL_VOID_CHANNELER",
+          "target": 5225,
           "count": 5,
           "desc": "Exterminate Void Channelers.",
-          "description": "Defeat Aethel Void Channeler (x5)."
+          "description": "Defeat Aethel Void Channeler (x5).",
+          "target_code": "AETHEL_VOID_CHANNELER"
         }
       ],
       "rewards": {
@@ -2827,7 +3188,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_053"
+      "quest_chain_next": "fq_iron_053",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Operation Total Void Control is authorized. (Location: Void Echo Chasm, Commander Drax) Exterminate all void signatures in the chasm. The Hegemony does not share territory."
+        }
+      ]
     },
     {
       "id": "fq_iron_053",
@@ -2852,10 +3219,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "VOID_STALKER",
+          "target": 4019,
           "count": 1,
           "desc": "Execute the Void Stalker.",
-          "description": "Defeat Void Stalker (x1)."
+          "description": "Defeat Void Stalker (x1).",
+          "target_code": "VOID_STALKER"
         },
         {
           "type": "collect",
@@ -2880,7 +3248,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_054"
+      "quest_chain_next": "fq_iron_054",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "A Void Stalker has been hunting our soldiers. (Location: Void Echo Chasm, Commander Drax) This insult to Hegemony strength will be answered with execution."
+        }
+      ]
     },
     {
       "id": "fq_iron_054",
@@ -2905,10 +3279,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "CHRONO_WRAITH",
+          "target": 4004,
           "count": 3,
           "desc": "Destroy Chrono Wraiths and close breaches.",
-          "description": "Defeat Chrono Wraith (x3)."
+          "description": "Defeat Chrono Wraith (x3).",
+          "target_code": "CHRONO_WRAITH"
         },
         {
           "type": "collect",
@@ -2933,7 +3308,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_055"
+      "quest_chain_next": "fq_iron_055",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Chrono Wraiths create temporal breaches that trap our troops. (Location: Void Echo Chasm, Commander Drax) Close the breaches with extreme prejudice."
+        }
+      ]
     },
     {
       "id": "fq_iron_055",
@@ -2958,17 +3339,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
+          "target": 5226,
           "count": 10,
           "desc": "Assault Reaver defensive positions.",
-          "description": "Defeat Aethel Abyssal Reaver (x10)."
+          "description": "Defeat Aethel Abyssal Reaver (x10).",
+          "target_code": "AETHEL_ABYSSAL_REAVER"
         },
         {
           "type": "kill",
-          "target": "VOID_REAVER",
+          "target": 5301,
           "count": 6,
           "desc": "Clear Void Reaver support units.",
-          "description": "Defeat Void Reaver (x6)."
+          "description": "Defeat Void Reaver (x6).",
+          "target_code": "VOID_REAVER"
         }
       ],
       "rewards": {
@@ -2986,7 +3369,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_056"
+      "quest_chain_next": "fq_iron_056",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Full assault on the Shattered Heart. Enemy Reaver battalions are dug in. Dig them out. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_056",
@@ -3011,10 +3400,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "GIGANTIC_JOTUNN",
+          "target": 4017,
           "count": 3,
           "desc": "Destroy the Jotunn strongpoint.",
-          "description": "Defeat Gigantic Jotunn (x3)."
+          "description": "Defeat Gigantic Jotunn (x3).",
+          "target_code": "GIGANTIC_JOTUNN"
         },
         {
           "type": "collect",
@@ -3039,7 +3429,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_057"
+      "quest_chain_next": "fq_iron_057",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Gigantic Jotunns have fortified a position in the Heart. (Location: Shattered Heart, Commander Drax) Hegemony doctrine for strongpoints: overwhelming force."
+        }
+      ]
     },
     {
       "id": "fq_iron_057",
@@ -3064,10 +3460,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "CRYSTAL_TYRANT",
+          "target": 4020,
           "count": 2,
           "desc": "Silence the Tyrant battery.",
-          "description": "Defeat Crystal Tyrant (x2)."
+          "description": "Defeat Crystal Tyrant (x2).",
+          "target_code": "CRYSTAL_TYRANT"
         },
         {
           "type": "collect",
@@ -3092,7 +3489,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_058"
+      "quest_chain_next": "fq_iron_058",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Crystal Tyrants form a defensive battery in the Heart. (Location: Shattered Heart, Commander Drax) Silence their guns."
+        }
+      ]
     },
     {
       "id": "fq_iron_058",
@@ -3117,17 +3520,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
+          "target": 5226,
           "count": 6,
           "desc": "Clear the beachhead zone.",
-          "description": "Defeat Aethel Abyssal Reaver (x6)."
+          "description": "Defeat Aethel Abyssal Reaver (x6).",
+          "target_code": "AETHEL_ABYSSAL_REAVER"
         },
         {
           "type": "kill",
-          "target": "CHRONO_WRAITH",
+          "target": 4004,
           "count": 1,
           "desc": "Eliminate Chrono Wraith defending the beachhead.",
-          "description": "Defeat Chrono Wraith (x1)."
+          "description": "Defeat Chrono Wraith (x1).",
+          "target_code": "CHRONO_WRAITH"
         },
         {
           "type": "collect",
@@ -3152,7 +3557,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_059"
+      "quest_chain_next": "fq_iron_059",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Abyss Harbinger is the enemy high command. (Location: Void Echo Chasm, Commander Drax) Establish a beachhead for the final assault."
+        }
+      ]
     },
     {
       "id": "fq_iron_059",
@@ -3177,17 +3588,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "SOUL_FRAGMENTER",
+          "target": 4015,
           "count": 3,
           "desc": "Break the Fragmenter front.",
-          "description": "Defeat Soul Fragmenter (x3)."
+          "description": "Defeat Soul Fragmenter (x3).",
+          "target_code": "SOUL_FRAGMENTER"
         },
         {
           "type": "kill",
-          "target": "VOID_STALKER",
+          "target": 4019,
           "count": 1,
           "desc": "Eliminate the Stalker commanding them.",
-          "description": "Defeat Void Stalker (x1)."
+          "description": "Defeat Void Stalker (x1).",
+          "target_code": "VOID_STALKER"
         }
       ],
       "rewards": {
@@ -3205,7 +3618,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_060"
+      "quest_chain_next": "fq_iron_060",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Soul Fragmenters form the enemy's psychological warfare front. (Location: Void Echo Chasm, Commander Drax) Break their front."
+        }
+      ]
     },
     {
       "id": "fq_iron_060",
@@ -3230,10 +3649,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "ABYSS_HARBINGER",
+          "target": 4002,
           "count": 1,
           "desc": "DEFEAT THE ABYSS HARBINGER.",
-          "description": "Defeat Abyss Harbinger (x1)."
+          "description": "Defeat Abyss Harbinger (x1).",
+          "target_code": "ABYSS_HARBINGER"
         },
         {
           "type": "collect",
@@ -3266,7 +3686,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_061"
+      "quest_chain_next": "fq_iron_061",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "FINAL ASSAULT ON THE ABYSS. (Location: Void Echo Chasm, Commander Drax) The Abyss Harbinger is the enemy commander. Destroy it and claim total victory over the Void. THE HEGEMONY CONTROLS ALL."
+        }
+      ]
     },
     {
       "id": "fq_iron_061",
@@ -3319,7 +3745,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_062"
+      "quest_chain_next": "fq_iron_062",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Severance Faultline threatens planetary stability. The Hegemony does not negotiate with nature — we conquer it. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_062",
@@ -3344,10 +3776,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_IRON_CARAPACE",
+          "target": 5224,
           "count": 8,
           "desc": "Destroy Iron Carapaces.",
-          "description": "Defeat Aethel Iron Carapace (x8)."
+          "description": "Defeat Aethel Iron Carapace (x8).",
+          "target_code": "AETHEL_IRON_CARAPACE"
         },
         {
           "type": "collect",
@@ -3372,7 +3805,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_063"
+      "quest_chain_next": "fq_iron_063",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Aethel Iron Carapaces have armor that rivals Hegemony steel. (Location: Severance Faultline, Commander Drax) Destroy them and study their composition."
+        }
+      ]
     },
     {
       "id": "fq_iron_063",
@@ -3397,10 +3836,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "CRYSTAL_TYRANT",
+          "target": 4020,
           "count": 2,
           "desc": "Remove Tyrant positions.",
-          "description": "Defeat Crystal Tyrant (x2)."
+          "description": "Defeat Crystal Tyrant (x2).",
+          "target_code": "CRYSTAL_TYRANT"
         },
         {
           "type": "collect",
@@ -3425,7 +3865,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_064"
+      "quest_chain_next": "fq_iron_064",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Crystal Tyrants have taken positions along the fault. (Location: Severance Faultline, Commander Drax) They are obstacles. Remove them."
+        }
+      ]
     },
     {
       "id": "fq_iron_064",
@@ -3450,10 +3896,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "GIGANTIC_JOTUNN",
+          "target": 4017,
           "count": 3,
           "desc": "Break the Jotunn blockade.",
-          "description": "Defeat Gigantic Jotunn (x3)."
+          "description": "Defeat Gigantic Jotunn (x3).",
+          "target_code": "GIGANTIC_JOTUNN"
         },
         {
           "type": "collect",
@@ -3478,7 +3925,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_065"
+      "quest_chain_next": "fq_iron_065",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Gigantic Jotunns blockade the main advance route. (Location: Severance Faultline, Commander Drax) Break through. Nothing blocks the Hegemony advance."
+        }
+      ]
     },
     {
       "id": "fq_iron_065",
@@ -3531,7 +3984,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_066"
+      "quest_chain_next": "fq_iron_066",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Aethel Siphon Core is the planet's power source. The Hegemony will control the power. Enter and secure. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_066",
@@ -3556,17 +4015,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
+          "target": 5226,
           "count": 8,
           "desc": "Purge hostile entities from the Core.",
-          "description": "Defeat Aethel Abyssal Reaver (x8)."
+          "description": "Defeat Aethel Abyssal Reaver (x8).",
+          "target_code": "AETHEL_ABYSSAL_REAVER"
         },
         {
           "type": "kill",
-          "target": "AETHEL_VOID_CHANNELER",
+          "target": 5225,
           "count": 5,
           "desc": "Eliminate all Channelers.",
-          "description": "Defeat Aethel Void Channeler (x5)."
+          "description": "Defeat Aethel Void Channeler (x5).",
+          "target_code": "AETHEL_VOID_CHANNELER"
         }
       ],
       "rewards": {
@@ -3584,7 +4045,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_067"
+      "quest_chain_next": "fq_iron_067",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Hostile entities infest the Core. (Location: Aethel Siphon Core, Commander Drax) Purge them. The Core must be secure for Hegemony power operations."
+        }
+      ]
     },
     {
       "id": "fq_iron_067",
@@ -3609,10 +4076,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "target": 5222,
           "count": 3,
           "desc": "Defend against Behemoth assault.",
-          "description": "Defeat Aethel Corrupted Behemoth (x3)."
+          "description": "Defeat Aethel Corrupted Behemoth (x3).",
+          "target_code": "AETHEL_CORRUPTED_BEHEMOTH"
         },
         {
           "type": "collect",
@@ -3637,7 +4105,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_068"
+      "quest_chain_next": "fq_iron_068",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Corrupted Behemoths assault the Core conduits. (Location: Aethel Siphon Core, Commander Drax) Defend the Core. Hegemony never surrenders a position."
+        }
+      ]
     },
     {
       "id": "fq_iron_068",
@@ -3662,10 +4136,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_RIFT_STALKER",
+          "target": 5223,
           "count": 6,
           "desc": "Counter-ambush Rift Stalkers.",
-          "description": "Defeat Aethel Rift Stalker (x6)."
+          "description": "Defeat Aethel Rift Stalker (x6).",
+          "target_code": "AETHEL_RIFT_STALKER"
         },
         {
           "type": "collect",
@@ -3690,7 +4165,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_069"
+      "quest_chain_next": "fq_iron_069",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Rift Stalkers use micro-rifts for ambush tactics. (Location: Aethel Siphon Core, Commander Drax) Counter-ambush them. Hegemony soldiers do not get ambushed."
+        }
+      ]
     },
     {
       "id": "fq_iron_069",
@@ -3722,10 +4203,11 @@
         },
         {
           "type": "kill",
-          "target": "GIGANTIC_JOTUNN",
+          "target": 4017,
           "count": 1,
           "desc": "Defeat a Jotunn scout for the Titan.",
-          "description": "Defeat Gigantic Jotunn (x1)."
+          "description": "Defeat Gigantic Jotunn (x1).",
+          "target_code": "GIGANTIC_JOTUNN"
         }
       ],
       "rewards": {
@@ -3743,7 +4225,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_070"
+      "quest_chain_next": "fq_iron_070",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Intelligence confirms: the Gravity Titan is mobilizing. (Location: Aethel Siphon Core, Commander Drax) The Hegemony prepares for the largest military operation in our history."
+        }
+      ]
     },
     {
       "id": "fq_iron_070",
@@ -3768,17 +4256,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "GRAVITY_TITAN",
+          "target": 4003,
           "count": 1,
           "desc": "TOPPLE THE GRAVITY TITAN.",
-          "description": "Defeat Gravity Titan (x1)."
+          "description": "Defeat Gravity Titan (x1).",
+          "target_code": "GRAVITY_TITAN"
         },
         {
           "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
+          "target": 5226,
           "count": 5,
           "desc": "Clear Abyssal escorts.",
-          "description": "Defeat Aethel Abyssal Reaver (x5)."
+          "description": "Defeat Aethel Abyssal Reaver (x5).",
+          "target_code": "AETHEL_ABYSSAL_REAVER"
         },
         {
           "type": "collect",
@@ -3811,7 +4301,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_071"
+      "quest_chain_next": "fq_iron_071",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "MAXIMUM PRIORITY: OPERATION TITANFALL. (Location: Cradle Expanse, Commander Drax) The Gravity Titan threatens to collapse Xylos. The Iron Hegemony will topple it. This is the largest military engagement in Hegemony history. Every soldier. Every tank. Every ounce of steel. BRING IT DOWN."
+        }
+      ]
     },
     {
       "id": "fq_iron_071",
@@ -3864,7 +4360,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_072"
+      "quest_chain_next": "fq_iron_072",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Prima Materia Forge will become the Hegemony's primary weapons factory. Secure it for mass production. Quest giver: Foreman Brigg at Titan Assembly Yard Command Post."
+        }
+      ]
     },
     {
       "id": "fq_iron_072",
@@ -3889,10 +4391,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_IRON_CARAPACE",
+          "target": 5224,
           "count": 8,
           "desc": "Neutralize Forge defense systems.",
-          "description": "Defeat Aethel Iron Carapace (x8)."
+          "description": "Defeat Aethel Iron Carapace (x8).",
+          "target_code": "AETHEL_IRON_CARAPACE"
         },
         {
           "type": "collect",
@@ -3917,7 +4420,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_073"
+      "quest_chain_next": "fq_iron_073",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Ancient Forge defenses still operate. (Location: Prima Materia Forge, Commander Drax) Neutralize them. The Forge serves the Hegemony now."
+        }
+      ]
     },
     {
       "id": "fq_iron_073",
@@ -3942,10 +4451,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "target": 5222,
           "count": 3,
           "desc": "Purify the Forge of Behemoths.",
-          "description": "Defeat Aethel Corrupted Behemoth (x3)."
+          "description": "Defeat Aethel Corrupted Behemoth (x3).",
+          "target_code": "AETHEL_CORRUPTED_BEHEMOTH"
         },
         {
           "type": "collect",
@@ -3970,7 +4480,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_074"
+      "quest_chain_next": "fq_iron_074",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Corrupted Behemoths contaminate the Forge. (Location: Prima Materia Forge, Foreman Brigg) Purify the facility. Hegemony weapons require pure materials."
+        }
+      ]
     },
     {
       "id": "fq_iron_074",
@@ -3995,17 +4511,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
+          "target": 5226,
           "count": 8,
           "desc": "Purge Abyssal forces.",
-          "description": "Defeat Aethel Abyssal Reaver (x8)."
+          "description": "Defeat Aethel Abyssal Reaver (x8).",
+          "target_code": "AETHEL_ABYSSAL_REAVER"
         },
         {
           "type": "kill",
-          "target": "AETHEL_VOID_CHANNELER",
+          "target": 5225,
           "count": 5,
           "desc": "Eliminate command units.",
-          "description": "Defeat Aethel Void Channeler (x5)."
+          "description": "Defeat Aethel Void Channeler (x5).",
+          "target_code": "AETHEL_VOID_CHANNELER"
         }
       ],
       "rewards": {
@@ -4023,7 +4541,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_075"
+      "quest_chain_next": "fq_iron_075",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Abyssal forces attempt to claim the Forge. (Location: Prima Materia Forge, Commander Drax) Purge them with maximum force."
+        }
+      ]
     },
     {
       "id": "fq_iron_075",
@@ -4048,10 +4572,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "GIGANTIC_JOTUNN",
+          "target": 4017,
           "count": 3,
           "desc": "Destroy Jotunn forge-holders.",
-          "description": "Defeat Gigantic Jotunn (x3)."
+          "description": "Defeat Gigantic Jotunn (x3).",
+          "target_code": "GIGANTIC_JOTUNN"
         },
         {
           "type": "collect",
@@ -4076,7 +4601,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_076"
+      "quest_chain_next": "fq_iron_076",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Jotunns use the Forge's heat as weapons. (Location: Prima Materia Forge, Foreman Brigg) Disarm and destroy them. The Forge's fire belongs to the Hegemony."
+        }
+      ]
     },
     {
       "id": "fq_iron_076",
@@ -4101,10 +4632,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_VOID_CHANNELER",
+          "target": 5225,
           "count": 6,
           "desc": "Secure the production floor.",
-          "description": "Defeat Aethel Void Channeler (x6)."
+          "description": "Defeat Aethel Void Channeler (x6).",
+          "target_code": "AETHEL_VOID_CHANNELER"
         },
         {
           "type": "collect",
@@ -4129,7 +4661,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_077"
+      "quest_chain_next": "fq_iron_077",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Operation Apex Production begins. (Location: Prima Materia Forge, Foreman Brigg) The Forge will mass-produce Hegemony Apex-class weapons. Secure the production floor."
+        }
+      ]
     },
     {
       "id": "fq_iron_077",
@@ -4154,10 +4692,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "TITAN_FORGE_AUTOMATON",
+          "target": 5204,
           "count": 3,
           "desc": "Override Titan Forge Automatons.",
-          "description": "Defeat Titan Forge Automaton (x3)."
+          "description": "Defeat Titan Forge Automaton (x3).",
+          "target_code": "TITAN_FORGE_AUTOMATON"
         },
         {
           "type": "collect",
@@ -4182,7 +4721,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_078"
+      "quest_chain_next": "fq_iron_078",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Titan Forge Automatons resist our control. (Location: Prima Materia Forge, Foreman Brigg) Override them — by any means necessary."
+        }
+      ]
     },
     {
       "id": "fq_iron_078",
@@ -4207,10 +4752,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "TITAN_PROTO_CORE",
+          "target": 5209,
           "count": 2,
           "desc": "Recycle Titan Proto Cores.",
-          "description": "Defeat Titan Proto Core (x2)."
+          "description": "Defeat Titan Proto Core (x2).",
+          "target_code": "TITAN_PROTO_CORE"
         },
         {
           "type": "collect",
@@ -4235,7 +4781,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_079"
+      "quest_chain_next": "fq_iron_079",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Titan Proto Cores are failed Titans — but their materials are valuable. (Location: Prima Materia Forge, Foreman Brigg) Recycle them into Hegemony steel."
+        }
+      ]
     },
     {
       "id": "fq_iron_079",
@@ -4260,17 +4812,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "GRAVITY_TITAN",
+          "target": 4003,
           "count": 1,
           "desc": "Defeat the Gravity Titan.",
-          "description": "Defeat Gravity Titan (x1)."
+          "description": "Defeat Gravity Titan (x1).",
+          "target_code": "GRAVITY_TITAN"
         },
         {
           "type": "kill",
-          "target": "ABYSS_HARBINGER",
+          "target": 4002,
           "count": 1,
           "desc": "Defeat the Abyss Harbinger.",
-          "description": "Defeat Abyss Harbinger (x1)."
+          "description": "Defeat Abyss Harbinger (x1).",
+          "target_code": "ABYSS_HARBINGER"
         }
       ],
       "rewards": {
@@ -4296,7 +4850,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_080"
+      "quest_chain_next": "fq_iron_080",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The final trial before Supreme General rank. (Location: Prima Materia Forge, Commander Drax) Defeat both Titan and Harbinger in a single campaign. Show the galaxy what Hegemony steel can do."
+        }
+      ]
     },
     {
       "id": "fq_iron_080",
@@ -4353,7 +4913,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_081"
+      "quest_chain_next": "fq_iron_081",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "High Commander Varkas himself will pin the Supreme General insignia on your chest. (Location: Bastion Core, Commander Drax) Return to the Bastion. The Hegemony salutes you."
+        }
+      ]
     },
     {
       "id": "fq_iron_081",
@@ -4406,7 +4972,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_082"
+      "quest_chain_next": "fq_iron_082",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Hidden Aethelgardian City contains Precursor weapons technology. The Hegemony will not allow any faction to claim it first. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_082",
@@ -4431,10 +5003,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_RIFT_STALKER",
+          "target": 5223,
           "count": 8,
           "desc": "Destroy city defense systems.",
-          "description": "Defeat Aethel Rift Stalker (x8)."
+          "description": "Defeat Aethel Rift Stalker (x8).",
+          "target_code": "AETHEL_RIFT_STALKER"
         },
         {
           "type": "collect",
@@ -4459,7 +5032,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_083"
+      "quest_chain_next": "fq_iron_083",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The City has automated defenses. (Location: Hidden Aethelgardian City, Commander Drax) Destroy them. Hegemony takes what it wants."
+        }
+      ]
     },
     {
       "id": "fq_iron_083",
@@ -4491,10 +5070,11 @@
         },
         {
           "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
+          "target": 5226,
           "count": 4,
           "desc": "Eliminate forces drawn to the weapons.",
-          "description": "Defeat Aethel Abyssal Reaver (x4)."
+          "description": "Defeat Aethel Abyssal Reaver (x4).",
+          "target_code": "AETHEL_ABYSSAL_REAVER"
         }
       ],
       "rewards": {
@@ -4512,7 +5092,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_084"
+      "quest_chain_next": "fq_iron_084",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The City holds Precursor weapons caches. (Location: Hidden Aethelgardian City, Commander Drax) Secure them all for the Hegemony arsenal."
+        }
+      ]
     },
     {
       "id": "fq_iron_084",
@@ -4537,10 +5123,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "ASHEN_DRAKE",
+          "target": 4001,
           "count": 1,
           "desc": "Eliminate the Apex Ashen Drake.",
-          "description": "Defeat Ashen Drake (x1)."
+          "description": "Defeat Ashen Drake (x1).",
+          "target_code": "ASHEN_DRAKE"
         },
         {
           "type": "collect",
@@ -4569,7 +5156,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_085"
+      "quest_chain_next": "fq_iron_085",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Ashen Drake has evolved to Apex form. (Location: Shattered Heart, Commander Drax) Eliminate it. Hegemony tolerates no rivals — especially winged ones."
+        }
+      ]
     },
     {
       "id": "fq_iron_085",
@@ -4594,10 +5187,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "ABYSS_HARBINGER",
+          "target": 4002,
           "count": 1,
           "desc": "Destroy the Apex Abyss Harbinger.",
-          "description": "Defeat Abyss Harbinger (x1)."
+          "description": "Defeat Abyss Harbinger (x1).",
+          "target_code": "ABYSS_HARBINGER"
         },
         {
           "type": "collect",
@@ -4626,7 +5220,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_086"
+      "quest_chain_next": "fq_iron_086",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Abyss Harbinger has been reborn. (Location: Void Echo Chasm, Commander Drax) Destroy it again. And again if necessary. Hegemony victory is permanent."
+        }
+      ]
     },
     {
       "id": "fq_iron_086",
@@ -4651,10 +5251,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "GRAVITY_TITAN",
+          "target": 4003,
           "count": 1,
           "desc": "Destroy the Apex Gravity Titan.",
-          "description": "Defeat Gravity Titan (x1)."
+          "description": "Defeat Gravity Titan (x1).",
+          "target_code": "GRAVITY_TITAN"
         },
         {
           "type": "collect",
@@ -4683,7 +5284,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_087"
+      "quest_chain_next": "fq_iron_087",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Gravity Titan manifests once more. (Location: Cradle Expanse, Commander Drax) Hegemony response unchanged: destroy it. Again."
+        }
+      ]
     },
     {
       "id": "fq_iron_087",
@@ -4708,24 +5315,27 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "ASHEN_DRAKE",
+          "target": 4001,
           "count": 1,
           "desc": "Destroy the Drake.",
-          "description": "Defeat Ashen Drake (x1)."
+          "description": "Defeat Ashen Drake (x1).",
+          "target_code": "ASHEN_DRAKE"
         },
         {
           "type": "kill",
-          "target": "GRAVITY_TITAN",
+          "target": 4003,
           "count": 1,
           "desc": "Destroy the Titan.",
-          "description": "Defeat Gravity Titan (x1)."
+          "description": "Defeat Gravity Titan (x1).",
+          "target_code": "GRAVITY_TITAN"
         },
         {
           "type": "kill",
-          "target": "ABYSS_HARBINGER",
+          "target": 4002,
           "count": 1,
           "desc": "Destroy the Harbinger.",
-          "description": "Defeat Abyss Harbinger (x1)."
+          "description": "Defeat Abyss Harbinger (x1).",
+          "target_code": "ABYSS_HARBINGER"
         }
       ],
       "rewards": {
@@ -4751,7 +5361,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_088"
+      "quest_chain_next": "fq_iron_088",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "All three Apex entities — Drake, Titan, Harbinger. (Location: Prima Materia Forge, Commander Drax) The Hegemony will destroy them all in a single campaign. Triple offensive authorized."
+        }
+      ]
     },
     {
       "id": "fq_iron_088",
@@ -4804,7 +5420,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_089"
+      "quest_chain_next": "fq_iron_089",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Aethel Siphon Core becomes Hegemony Central Command. Establish full military control of the planetary power grid. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_089",
@@ -4836,10 +5458,11 @@
         },
         {
           "type": "kill",
-          "target": "GIGANTIC_JOTUNN",
+          "target": 4017,
           "count": 2,
           "desc": "Destroy Jotunn guards.",
-          "description": "Defeat Gigantic Jotunn (x2)."
+          "description": "Defeat Gigantic Jotunn (x2).",
+          "target_code": "GIGANTIC_JOTUNN"
         }
       ],
       "rewards": {
@@ -4857,7 +5480,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_090"
+      "quest_chain_next": "fq_iron_090",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The World Engine can reshape Xylos. (Location: Aethel Siphon Core, Commander Drax) The Hegemony will make it our ultimate weapon. Secure it absolutely."
+        }
+      ]
     },
     {
       "id": "fq_iron_090",
@@ -4882,17 +5511,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
+          "target": 5226,
           "count": 10,
           "desc": "Defend Engine activation.",
-          "description": "Defeat Aethel Abyssal Reaver (x10)."
+          "description": "Defeat Aethel Abyssal Reaver (x10).",
+          "target_code": "AETHEL_ABYSSAL_REAVER"
         },
         {
           "type": "kill",
-          "target": "CRYSTAL_TYRANT",
+          "target": 4020,
           "count": 2,
           "desc": "Destroy Tyrant saboteurs.",
-          "description": "Defeat Crystal Tyrant (x2)."
+          "description": "Defeat Crystal Tyrant (x2).",
+          "target_code": "CRYSTAL_TYRANT"
         },
         {
           "type": "collect",
@@ -4917,7 +5548,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_091"
+      "quest_chain_next": "fq_iron_091",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Activate the World Engine. (Location: Aethel Siphon Core, Commander Drax) This is the moment Hegemony dominance becomes absolute. Defend the activation at all costs."
+        }
+      ]
     },
     {
       "id": "fq_iron_091",
@@ -4942,17 +5579,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "GIGANTIC_JOTUNN",
+          "target": 4017,
           "count": 5,
           "desc": "Execute Jotunns.",
-          "description": "Defeat Gigantic Jotunn (x5)."
+          "description": "Defeat Gigantic Jotunn (x5).",
+          "target_code": "GIGANTIC_JOTUNN"
         },
         {
           "type": "kill",
-          "target": "AETHEL_IRON_CARAPACE",
+          "target": 5224,
           "count": 8,
           "desc": "Execute Carapaces.",
-          "description": "Defeat Aethel Iron Carapace (x8)."
+          "description": "Defeat Aethel Iron Carapace (x8).",
+          "target_code": "AETHEL_IRON_CARAPACE"
         }
       ],
       "rewards": {
@@ -4970,7 +5609,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_092"
+      "quest_chain_next": "fq_iron_092",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "With the Engine online, remaining hostiles are flushed to the surface. (Location: Severance Faultline, Commander Drax) Execute the final purge at the Faultline."
+        }
+      ]
     },
     {
       "id": "fq_iron_092",
@@ -4995,17 +5640,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_ABYSSAL_REAVER",
+          "target": 5226,
           "count": 10,
           "desc": "Annihilate Abyssal forces.",
-          "description": "Defeat Aethel Abyssal Reaver (x10)."
+          "description": "Defeat Aethel Abyssal Reaver (x10).",
+          "target_code": "AETHEL_ABYSSAL_REAVER"
         },
         {
           "type": "kill",
-          "target": "VOID_REAVER",
+          "target": 5301,
           "count": 10,
           "desc": "Annihilate Void forces.",
-          "description": "Defeat Void Reaver (x10)."
+          "description": "Defeat Void Reaver (x10).",
+          "target_code": "VOID_REAVER"
         }
       ],
       "rewards": {
@@ -5023,7 +5670,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_093"
+      "quest_chain_next": "fq_iron_093",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Void is collapsing. (Location: Void Echo Chasm, Commander Drax) Annihilate the remaining void forces. The Hegemony will erase the Abyss from history."
+        }
+      ]
     },
     {
       "id": "fq_iron_093",
@@ -5048,10 +5701,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "CRYSTAL_TYRANT",
+          "target": 4020,
           "count": 3,
           "desc": "Exterminate Crystal Tyrants.",
-          "description": "Defeat Crystal Tyrant (x3)."
+          "description": "Defeat Crystal Tyrant (x3).",
+          "target_code": "CRYSTAL_TYRANT"
         },
         {
           "type": "collect",
@@ -5076,7 +5730,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_094"
+      "quest_chain_next": "fq_iron_094",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Crystal Tyrants make their last stand. (Location: Shattered Heart, Commander Drax) Exterminate them. The Hegemony leaves no enemy standing."
+        }
+      ]
     },
     {
       "id": "fq_iron_094",
@@ -5101,17 +5761,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_VOID_CHANNELER",
+          "target": 5225,
           "count": 8,
           "desc": "Eliminate production threats.",
-          "description": "Defeat Aethel Void Channeler (x8)."
+          "description": "Defeat Aethel Void Channeler (x8).",
+          "target_code": "AETHEL_VOID_CHANNELER"
         },
         {
           "type": "kill",
-          "target": "TITAN_FORGE_AUTOMATON",
+          "target": 5204,
           "count": 3,
           "desc": "Override final rogue Automatons.",
-          "description": "Defeat Titan Forge Automaton (x3)."
+          "description": "Defeat Titan Forge Automaton (x3).",
+          "target_code": "TITAN_FORGE_AUTOMATON"
         }
       ],
       "rewards": {
@@ -5129,7 +5791,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_095"
+      "quest_chain_next": "fq_iron_095",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Forge enters final mass production. (Location: Prima Materia Forge, Foreman Brigg) Eliminate the last remaining threats to production."
+        }
+      ]
     },
     {
       "id": "fq_iron_095",
@@ -5154,17 +5822,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_RIFT_STALKER",
+          "target": 5223,
           "count": 10,
           "desc": "Enforce sovereignty.",
-          "description": "Defeat Aethel Rift Stalker (x10)."
+          "description": "Defeat Aethel Rift Stalker (x10).",
+          "target_code": "AETHEL_RIFT_STALKER"
         },
         {
           "type": "kill",
-          "target": "GRAVITY_TITAN",
+          "target": 4003,
           "count": 1,
           "desc": "Destroy residual Titan presence.",
-          "description": "Defeat Gravity Titan (x1)."
+          "description": "Defeat Gravity Titan (x1).",
+          "target_code": "GRAVITY_TITAN"
         }
       ],
       "rewards": {
@@ -5182,7 +5852,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_096"
+      "quest_chain_next": "fq_iron_096",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Cradle Expanse is now Hegemony sovereign territory. Enforce it. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_096",
@@ -5207,17 +5883,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "AETHEL_IRON_CARAPACE",
+          "target": 5224,
           "count": 10,
           "desc": "Patrol and clear orbital sectors.",
-          "description": "Defeat Aethel Iron Carapace (x10)."
+          "description": "Defeat Aethel Iron Carapace (x10).",
+          "target_code": "AETHEL_IRON_CARAPACE"
         },
         {
           "type": "kill",
-          "target": "AETHEL_CORRUPTED_BEHEMOTH",
+          "target": 5222,
           "count": 3,
           "desc": "Eliminate remaining Behemoths.",
-          "description": "Defeat Aethel Corrupted Behemoth (x3)."
+          "description": "Defeat Aethel Corrupted Behemoth (x3).",
+          "target_code": "AETHEL_CORRUPTED_BEHEMOTH"
         }
       ],
       "rewards": {
@@ -5235,7 +5913,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_097"
+      "quest_chain_next": "fq_iron_097",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "From orbit, the Hegemony watches over our conquered world. (Location: Orbital Sentinel Command, Commander Drax) Maintain orbital supremacy forever."
+        }
+      ]
     },
     {
       "id": "fq_iron_097",
@@ -5260,17 +5944,19 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "GIGANTIC_JOTUNN",
+          "target": 4017,
           "count": 3,
           "desc": "Destroy Jotunn command units.",
-          "description": "Defeat Gigantic Jotunn (x3)."
+          "description": "Defeat Gigantic Jotunn (x3).",
+          "target_code": "GIGANTIC_JOTUNN"
         },
         {
           "type": "kill",
-          "target": "ABYSS_HARBINGER",
+          "target": 4002,
           "count": 1,
           "desc": "Destroy the Harbinger's last echo.",
-          "description": "Defeat Abyss Harbinger (x1)."
+          "description": "Defeat Abyss Harbinger (x1).",
+          "target_code": "ABYSS_HARBINGER"
         },
         {
           "type": "collect",
@@ -5295,7 +5981,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_098"
+      "quest_chain_next": "fq_iron_098",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Hegemony launches the Final Campaign to eliminate all significant threats. (Location: Prima Materia Forge, Commander Drax) Channel your command authority into the war effort."
+        }
+      ]
     },
     {
       "id": "fq_iron_098",
@@ -5320,24 +6012,27 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "GIGANTIC_JOTUNN",
+          "target": 4017,
           "count": 1,
           "desc": "Conquer the Apex Jotunn.",
-          "description": "Defeat Gigantic Jotunn (x1)."
+          "description": "Defeat Gigantic Jotunn (x1).",
+          "target_code": "GIGANTIC_JOTUNN"
         },
         {
           "type": "kill",
-          "target": "ASHEN_DRAKE",
+          "target": 4001,
           "count": 1,
           "desc": "Conquer the Apex Drake.",
-          "description": "Defeat Ashen Drake (x1)."
+          "description": "Defeat Ashen Drake (x1).",
+          "target_code": "ASHEN_DRAKE"
         },
         {
           "type": "kill",
-          "target": "ABYSS_HARBINGER",
+          "target": 4002,
           "count": 1,
           "desc": "Conquer the Apex Harbinger.",
-          "description": "Defeat Abyss Harbinger (x1)."
+          "description": "Defeat Abyss Harbinger (x1).",
+          "target_code": "ABYSS_HARBINGER"
         },
         {
           "type": "collect",
@@ -5370,7 +6065,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_099"
+      "quest_chain_next": "fq_iron_099",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Only the ultimate conquest remains. (Location: Prima Materia Forge, Commander Drax) Face the three Apex entities — Jotunn, Drake, Harbinger. The Hegemony conquers all."
+        }
+      ]
     },
     {
       "id": "fq_iron_099",
@@ -5402,17 +6103,19 @@
         },
         {
           "type": "kill",
-          "target": "GRAVITY_TITAN",
+          "target": 4003,
           "count": 1,
           "desc": "Defeat the Eternal Gravity Titan.",
-          "description": "Defeat Gravity Titan (x1)."
+          "description": "Defeat Gravity Titan (x1).",
+          "target_code": "GRAVITY_TITAN"
         },
         {
           "type": "kill",
-          "target": "ABYSS_HARBINGER",
+          "target": 4002,
           "count": 1,
           "desc": "Destroy the Eternal Abyss Harbinger.",
-          "description": "Defeat Abyss Harbinger (x1)."
+          "description": "Defeat Abyss Harbinger (x1).",
+          "target_code": "ABYSS_HARBINGER"
         },
         {
           "type": "collect",
@@ -5437,7 +6140,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "fq_iron_100"
+      "quest_chain_next": "fq_iron_100",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The deepest Void Echo Chasm holds the final test. Defeat the eternal forms of Titan and Harbinger in single combat. The Hegemony demands nothing less than total victory. Quest giver: Commander Drax at Bastion Core Command Bunker."
+        }
+      ]
     },
     {
       "id": "fq_iron_100",
@@ -5493,7 +6202,13 @@
         "reputation": 5
       },
       "repeatable": false,
-      "daily": false
+      "daily": false,
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "You have conquered everything. (Location: Bastion Core, Commander Drax) Titan. Harbinger. Drake. All have fallen to Hegemony steel. Return to the Bastion as the ETERNAL HEGEMON. Your name will be forged into the Bastion's walls forever. Strength through Unity. Power through Conquest. Forever."
+        }
+      ]
     }
   ]
 }

@@ -72,7 +72,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "QUEST_NEUTRAL_STORY_002"
+      "quest_chain_next": "QUEST_NEUTRAL_STORY_002",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Arbiter Lorn Kael has received intelligence of illegal weapon stockpiling near the border between two faction territories. (Location: Nexus Core, Arbiter Lorn Kael) A third party is believed to be arming both sides to provoke conflict. Investigate the weapons cache and report your findings to the Arbiter before a spark ignites a war."
+        }
+      ]
     },
     {
       "id": "QUEST_NEUTRAL_STORY_002",
@@ -140,7 +146,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "QUEST_NEUTRAL_STORY_003"
+      "quest_chain_next": "QUEST_NEUTRAL_STORY_003",
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The weapons cache investigation pointed to a shadow organization manipulating multiple factions simultaneously. (Location: Nexus Core, Commander Sera Holt) Commander Sera Holt requests a deep infiltration mission into a known smuggling hub. Gather intelligence on the organization's structure before they go underground."
+        }
+      ]
     },
     {
       "id": "QUEST_NEUTRAL_STORY_003",
@@ -212,7 +224,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": null
+      "quest_chain_next": null,
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The intelligence gathered reveals an existential threat: a rogue Custodian officer is orchestrating the shadow organization, using faction conflict as cover for acquiring planet-killer weapon components. (Location: Nexus Core, Ambassador Vael Drosian) Ambassador Vael must be briefed, and the threat neutralized before the next Conclave session. This is a multi-stage raid-level operation."
+        }
+      ]
     },
     {
       "_section": "=== SIDE QUESTS — PAX NEXUS LOCALS ==="
@@ -252,9 +270,10 @@
         },
         {
           "type": "kill",
-          "target": "FERAL_SCAVENGER",
+          "target": 5105,
           "count": 10,
-          "description": "Defeat 10x FERAL_SCAVENGER at the Mid-Zone Skirmish Area"
+          "description": "Defeat 10x FERAL_SCAVENGER at the Mid-Zone Skirmish Area",
+          "target_code": "FERAL_SCAVENGER"
         },
         {
           "type": "interact",
@@ -277,7 +296,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": null
+      "quest_chain_next": null,
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Elara Voss at Pax Nexus (Nexus Core — The Common Market) needs a shipment of medical supplies intercepted near the Mid-Zone Skirmish Area. Travel there, recover 5 medical supply crates, eliminate 10 opportunist looters guarding the site, and return to Elara."
+        }
+      ]
     },
     {
       "id": "QUEST_NEUTRAL_SIDE_002",
@@ -314,9 +339,10 @@
         },
         {
           "type": "kill",
-          "target": "GRID_DEFENDER",
+          "target": 5166,
           "count": 4,
-          "description": "Defeat {count} automatons guarding the vault"
+          "description": "Defeat {count} automatons guarding the vault",
+          "target_code": "GRID_DEFENDER"
         },
         {
           "type": "collect",
@@ -349,7 +375,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": null
+      "quest_chain_next": null,
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Chronicler has detected a missing fragment of the Galactic Archive — a page describing an ancient faction conflict that was deliberately erased. (Location: Nexus Core, The Chronicler) Someone doesn't want this history known. Recover it from a deep-tier region before it's destroyed."
+        }
+      ]
     },
     {
       "id": "QUEST_NEUTRAL_SIDE_003",
@@ -411,7 +443,13 @@
       },
       "repeatable": true,
       "daily": false,
-      "quest_chain_next": null
+      "quest_chain_next": null,
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Master Vulkan has been commissioned to forge a legendary weapon, but requires materials that can only be found in high-danger regions controlled by specific factions. (Location: Nexus Core, Vulkan Dross) Gather the materials — from any source."
+        }
+      ]
     },
     {
       "_section": "=== DAILY QUESTS — PAX NEXUS ==="
@@ -459,7 +497,13 @@
       },
       "repeatable": true,
       "daily": true,
-      "quest_chain_next": null
+      "quest_chain_next": null,
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The Custodians need independent operatives to patrol the border zones near Pax Nexus and report any unusual activity. (Location: Nexus Core, Arbiter Lorn Kael) This is routine work but crucial for maintaining the peace."
+        }
+      ]
     },
     {
       "id": "QUEST_NEUTRAL_DAILY_002",
@@ -498,7 +542,13 @@
       },
       "repeatable": true,
       "daily": true,
-      "quest_chain_next": null
+      "quest_chain_next": null,
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The AMA needs item material samples from various regions to calculate accurate resource production indices for exchange rate computation. (Location: Nexus Core, NEXON AMA-7) Gather materials from different zone tiers."
+        }
+      ]
     },
     {
       "id": "QUEST_NEUTRAL_DAILY_003",
@@ -529,9 +579,10 @@
         },
         {
           "type": "kill",
-          "target": "DELTA_ASSAULT_DRONE",
+          "target": 5162,
           "count": 6,
-          "description": "Eliminate {count} interceptors who ambush you during delivery"
+          "description": "Eliminate {count} interceptors who ambush you during delivery",
+          "target_code": "DELTA_ASSAULT_DRONE"
         },
         {
           "type": "interact",
@@ -554,7 +605,13 @@
       },
       "repeatable": true,
       "daily": true,
-      "quest_chain_next": null
+      "quest_chain_next": null,
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Ghost needs a package delivered to a contact in a high-danger region. (Location: Nexus Core, Revan 'Ghost' Mox) He assures you the contents are legal. He always says that. The contact will pay upon delivery — which means you'll need to handle anything that tries to stop you."
+        }
+      ]
     },
     {
       "_section": "=== AMA ECONOMIC SPECIAL QUESTS ==="
@@ -625,7 +682,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": null
+      "quest_chain_next": null,
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "The AMA has detected counterfeit CRD circulating in faction markets — a direct attack on the Credent's integrity. (Location: Nexus Core, NEXON AMA-7) NEXON AMA-7 has pinpointed the likely source: a underground forging operation in the conflict zone. Destroy the counterfeit operation and recover samples for AMA forensic analysis."
+        }
+      ]
     },
     {
       "id": "QUEST_NEUTRAL_AMA_002",
@@ -687,7 +750,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": null
+      "quest_chain_next": null,
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "An economic crisis is brewing: one faction's currency has collapsed to dangerous lows, threatening galactic trade routes. (Location: Nexus Core, NEXON AMA-7) The AMA is deploying an emergency stabilization package, but needs ground operatives to secure the delivery route and fend off speculators trying to exploit the collapse. This is a party mission."
+        }
+      ]
     },
     {
       "_section": "=== FACTION + CRD DUAL REWARD EXAMPLES (Special Quests) ==="
@@ -753,7 +822,13 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": null
+      "quest_chain_next": null,
+      "dialog_nodes": [
+        {
+          "speaker": "quest_giver",
+          "text": "Ambassador Vael is organizing a trade summit between warring factions. (Location: Nexus Core, Ambassador Vael Drosian) Your job: secure the venue, escort delegates, and prevent assassination attempts. Success means a peace treaty — which the Custodians will reward generously. Your faction will also reward your diplomatic service."
+        }
+      ]
     }
   ]
 }
