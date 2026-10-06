@@ -1,0 +1,50 @@
+{
+  "schema_version": "2-proposal",
+  "production_compatibility": "proposal only; do not import before runtime support exists",
+  "dialogues": [
+    {
+      "dialog_id": "",
+      "npc_id": "",
+      "quest_id": "",
+      "state": "AVAILABLE",
+      "conditions": [],
+      "start_node": "greeting",
+      "nodes": [
+        {
+          "id": "greeting",
+          "speaker": "",
+          "text": "",
+          "conditions": [],
+          "set_flags": [],
+          "options": [
+            {
+              "text": "",
+              "next": "accept_confirmation",
+              "action": "",
+              "conditions": [],
+              "set_flags": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "states": [
+    "AVAILABLE",
+    "OFFERED",
+    "ACCEPTED",
+    "IN_PROGRESS",
+    "OBJECTIVE_PARTIAL",
+    "READY_TO_TURN_IN",
+    "COMPLETED",
+    "POST_COMPLETION",
+    "FAILED",
+    "OPTIONAL_REVISIT"
+  ],
+  "condition_examples": [
+    "quest_completed:fq_conc_001",
+    "flag:FLAG_HELPED_CONCORDIUM_GARDENS",
+    "reputation:CONCORDIUM>=250"
+  ],
+  "memory_note": "Requires runtime query for quest state, persistent player flags, and selected response flags."
+}

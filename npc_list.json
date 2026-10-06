@@ -249,7 +249,10 @@
       "QUEST",
       "INFO"
     ],
-    "actions": []
+    "actions": [],
+    "legacy_aliases": [
+      "npc_high_seeker_voss"
+    ]
   },
   {
     "npc_id": "npc_arcanum_archivist",
@@ -1525,6 +1528,9 @@
       "open_class_change",
       "open_skill_training",
       "take_quest"
+    ],
+    "legacy_aliases": [
+      "npc_director_vey"
     ]
   },
   {
@@ -1571,6 +1577,9 @@
       "open_class_change",
       "open_skill_training",
       "take_quest"
+    ],
+    "legacy_aliases": [
+      "npc_centurion_valka"
     ]
   },
   {
@@ -2871,5 +2880,81 @@
     "dialogue_tree": "dlg_custodian_banker",
     "buy_currency": "CRD",
     "sell_note": "Neutral Custodian vault and currency exchange. No faction affiliation."
+  },
+  {
+    "npc_id": "npc_commander_vale",
+    "name": "Commander Lirien Vale",
+    "title": "Concordium Field Commander",
+    "role": "QUEST_GIVER",
+    "faction": "CONCORDIUM",
+    "dialogue_tree": "dialog_lirien_vale_main",
+    "shop_inventory": null,
+    "location": "Aethel Gardens",
+    "region_id": "AETHEL_GARDENS",
+    "description": "Field commander responsible for Concordium operations across the Gardens and Cradle. She weighs operational success against the people who pay for it.",
+    "personality": "direct_strategic",
+    "greeting": "The route report first. Then tell me what you saw.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": [],
+    "legacy_aliases": []
+  },
+  {
+    "npc_id": "npc_warlord_steele",
+    "name": "Warlord Harkon Steele",
+    "title": "Iron Hegemony Warlord",
+    "role": "QUEST_GIVER",
+    "faction": "IRON_HEGEMONY",
+    "dialogue_tree": "dialog_harkon_steele_main",
+    "shop_inventory": null,
+    "location": "Bastion Core",
+    "region_id": "BASTION_CORE",
+    "description": "Hegemony warlord overseeing field operations and the recovery of strategic industrial ground.",
+    "personality": "hard_practical",
+    "greeting": "State your readiness. I have a line to hold.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": [],
+    "legacy_aliases": []
+  },
+  {
+    "npc_id": "npc_don_mox",
+    "name": "Don Vercelli Mox",
+    "title": "Meridian Cartel Don",
+    "role": "QUEST_GIVER",
+    "faction": "MERIDIAN_CARTEL",
+    "dialogue_tree": "dialog_don_vercelli_mox_main",
+    "shop_inventory": null,
+    "location": "Port Meridian",
+    "region_id": "PORT_MERIDIAN",
+    "description": "Cartel leader whose influence rests on routes, favors, and information as much as cargo.",
+    "personality": "social_calculating",
+    "greeting": "Sit. We can decide whether this is business after we hear the whole story.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": [],
+    "legacy_aliases": []
+  },
+  {
+    "npc_id": "npc_elder_malakor",
+    "name": "Elder Malakor",
+    "title": "Shard Elder",
+    "role": "QUEST_GIVER",
+    "faction": "CHILDREN_OF_THE_SHARD",
+    "dialogue_tree": "dialog_elder_malakor_main",
+    "shop_inventory": null,
+    "location": "Sanctum",
+    "region_id": "SANCTUM",
+    "description": "Senior voice among the Children of the Shard. His interpretation of the Shard is a religious belief, not established fact.",
+    "personality": "solemn_grieving",
+    "greeting": "Listen before you answer. The forest has been trying to tell us something.",
+    "available_services": [
+      "QUEST"
+    ],
+    "actions": [],
+    "legacy_aliases": []
   }
 ]

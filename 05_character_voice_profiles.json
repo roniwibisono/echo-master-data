@@ -1,0 +1,656 @@
+{
+  "profiles": [
+    {
+      "npc_id": "npc_concordium_officer",
+      "name": "Officer Valen",
+      "faction": "CONCORDIUM",
+      "role": "QUEST_GIVER",
+      "personality": "disciplined_formal",
+      "core_motivation": "Fulfill the duties of QUEST_GIVER while protecting a personal stake in Nexus Core Command Post.",
+      "private_fear": "Infer only from established dialogue; otherwise leave for author review.",
+      "public_goal": "An efficient Concordium field officer who processes security contracts and inter-faction liaison requests. His medals are real; his patience is not.",
+      "personal_conflict": "Needs a source-backed conflict before dialogue reveals private history.",
+      "relationship_to_faction": "Works within CONCORDIUM; individual views may diverge.",
+      "relationship_to_player_initial": "Unproven outsider; respond according to role and local risk.",
+      "speech_traits": [
+        "disciplined_formal",
+        "quest_giver"
+      ],
+      "favorite_terms": [],
+      "avoided_terms": [],
+      "humor_style": "Set per character during authored dialogue; no default faction joke.",
+      "anger_style": "Sharper focus and less context; retain character-specific restraint.",
+      "trust_progression": [
+        "stranger",
+        "reliable contact",
+        "trusted collaborator"
+      ],
+      "character_arc": [
+        "Initial public duty",
+        "Personal pressure revealed through actions",
+        "Changed stance after consequential player aid"
+      ]
+    },
+    {
+      "npc_id": "npc_director_hale",
+      "name": "Director Hale",
+      "faction": "CONCORDIUM",
+      "role": "QUEST_GIVER",
+      "personality": "calculating_authoritative",
+      "core_motivation": "Fulfill the duties of QUEST_GIVER while protecting a personal stake in Inner Cradle Exclusion Zone Command.",
+      "private_fear": "Infer only from established dialogue; otherwise leave for author review.",
+      "public_goal": "Director Hale oversees Concordium containment operations in the Inner Cradle. Cold and calculating, she treats casualties as acceptable variables.",
+      "personal_conflict": "Needs a source-backed conflict before dialogue reveals private history.",
+      "relationship_to_faction": "Works within CONCORDIUM; individual views may diverge.",
+      "relationship_to_player_initial": "Unproven outsider; respond according to role and local risk.",
+      "speech_traits": [
+        "calculating_authoritative",
+        "quest_giver"
+      ],
+      "favorite_terms": [],
+      "avoided_terms": [],
+      "humor_style": "Set per character during authored dialogue; no default faction joke.",
+      "anger_style": "Sharper focus and less context; retain character-specific restraint.",
+      "trust_progression": [
+        "stranger",
+        "reliable contact",
+        "trusted collaborator"
+      ],
+      "character_arc": [
+        "Initial public duty",
+        "Personal pressure revealed through actions",
+        "Changed stance after consequential player aid"
+      ]
+    },
+    {
+      "npc_id": "npc_concordium_overseer",
+      "name": "Overseer Vael",
+      "faction": "CONCORDIUM",
+      "role": "INFO",
+      "personality": "anxious_detailed",
+      "core_motivation": "Fulfill the duties of INFO while protecting a personal stake in Cradle Outer Ring Checkpoint.",
+      "private_fear": "Infer only from established dialogue; otherwise leave for author review.",
+      "public_goal": "A bureaucrat stationed at the outer boundary, cataloguing anomalous energy readings with obsessive precision.",
+      "personal_conflict": "Needs a source-backed conflict before dialogue reveals private history.",
+      "relationship_to_faction": "Works within CONCORDIUM; individual views may diverge.",
+      "relationship_to_player_initial": "Unproven outsider; respond according to role and local risk.",
+      "speech_traits": [
+        "anxious_detailed",
+        "info"
+      ],
+      "favorite_terms": [],
+      "avoided_terms": [],
+      "humor_style": "Set per character during authored dialogue; no default faction joke.",
+      "anger_style": "Sharper focus and less context; retain character-specific restraint.",
+      "trust_progression": [
+        "stranger",
+        "reliable contact",
+        "trusted collaborator"
+      ],
+      "character_arc": [
+        "Initial public duty",
+        "Personal pressure revealed through actions",
+        "Changed stance after consequential player aid"
+      ]
+    },
+    {
+      "npc_id": "npc_garden_scout",
+      "name": "Scout Rian",
+      "faction": "CONCORDIUM",
+      "role": "INFO",
+      "personality": "curious_cautious",
+      "core_motivation": "Fulfill the duties of INFO while protecting a personal stake in Aethel Gardens Patrol Route.",
+      "private_fear": "Infer only from established dialogue; otherwise leave for author review.",
+      "public_goal": "A young Concordium scout on rotation through the Gardens, cataloguing flora mutations and monster migration patterns.",
+      "personal_conflict": "Needs a source-backed conflict before dialogue reveals private history.",
+      "relationship_to_faction": "Works within CONCORDIUM; individual views may diverge.",
+      "relationship_to_player_initial": "Unproven outsider; respond according to role and local risk.",
+      "speech_traits": [
+        "curious_cautious",
+        "info"
+      ],
+      "favorite_terms": [],
+      "avoided_terms": [],
+      "humor_style": "Set per character during authored dialogue; no default faction joke.",
+      "anger_style": "Sharper focus and less context; retain character-specific restraint.",
+      "trust_progression": [
+        "stranger",
+        "reliable contact",
+        "trusted collaborator"
+      ],
+      "character_arc": [
+        "Initial public duty",
+        "Personal pressure revealed through actions",
+        "Changed stance after consequential player aid"
+      ]
+    },
+    {
+      "npc_id": "npc_patrol_guard",
+      "name": "Guard Captain",
+      "faction": "CONCORDIUM",
+      "role": "QUEST_GIVER",
+      "personality": "weary_veteran",
+      "core_motivation": "Fulfill the duties of QUEST_GIVER while protecting a personal stake in Aethel Gardens Guard Post.",
+      "private_fear": "Infer only from established dialogue; otherwise leave for author review.",
+      "public_goal": "A seasoned guard captain who has held the eastern perimeter for eleven years. He's run out of things to be surprised by.",
+      "personal_conflict": "Needs a source-backed conflict before dialogue reveals private history.",
+      "relationship_to_faction": "Works within CONCORDIUM; individual views may diverge.",
+      "relationship_to_player_initial": "Unproven outsider; respond according to role and local risk.",
+      "speech_traits": [
+        "weary_veteran",
+        "quest_giver"
+      ],
+      "favorite_terms": [],
+      "avoided_terms": [],
+      "humor_style": "Set per character during authored dialogue; no default faction joke.",
+      "anger_style": "Sharper focus and less context; retain character-specific restraint.",
+      "trust_progression": [
+        "stranger",
+        "reliable contact",
+        "trusted collaborator"
+      ],
+      "character_arc": [
+        "Initial public duty",
+        "Personal pressure revealed through actions",
+        "Changed stance after consequential player aid"
+      ]
+    },
+    {
+      "npc_id": "npc_veteran_explorer",
+      "name": "Old Man Kael",
+      "faction": "CONCORDIUM",
+      "role": "QUEST_GIVER",
+      "personality": "eccentric_knowledgeable",
+      "core_motivation": "Fulfill the duties of QUEST_GIVER while protecting a personal stake in Broken Civil Quarter Ruins.",
+      "private_fear": "Infer only from established dialogue; otherwise leave for author review.",
+      "public_goal": "Old Man Kael claims to have explored every district before the Great Fracture. His stories contradict each other perfectly.",
+      "personal_conflict": "Needs a source-backed conflict before dialogue reveals private history.",
+      "relationship_to_faction": "Works within CONCORDIUM; individual views may diverge.",
+      "relationship_to_player_initial": "Unproven outsider; respond according to role and local risk.",
+      "speech_traits": [
+        "eccentric_knowledgeable",
+        "quest_giver"
+      ],
+      "favorite_terms": [],
+      "avoided_terms": [],
+      "humor_style": "Set per character during authored dialogue; no default faction joke.",
+      "anger_style": "Sharper focus and less context; retain character-specific restraint.",
+      "trust_progression": [
+        "stranger",
+        "reliable contact",
+        "trusted collaborator"
+      ],
+      "character_arc": [
+        "Initial public duty",
+        "Personal pressure revealed through actions",
+        "Changed stance after consequential player aid"
+      ]
+    },
+    {
+      "npc_id": "npc_arcanum_scholar",
+      "name": "Scholar Elara",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "role": "QUEST_GIVER",
+      "personality": "intellectual_impatient",
+      "core_motivation": "Fulfill the duties of QUEST_GIVER while protecting a personal stake in Observatory Spire Research Wing.",
+      "private_fear": "Infer only from established dialogue; otherwise leave for author review.",
+      "public_goal": "Scholar Elara specialises in Aethel resonance mapping. She has published seventeen papers. She mentions this within thirty seconds of meeting anyone.",
+      "personal_conflict": "Needs a source-backed conflict before dialogue reveals private history.",
+      "relationship_to_faction": "Works within THE_ARCANUM_SEEKERS; individual views may diverge.",
+      "relationship_to_player_initial": "Unproven outsider; respond according to role and local risk.",
+      "speech_traits": [
+        "intellectual_impatient",
+        "quest_giver"
+      ],
+      "favorite_terms": [],
+      "avoided_terms": [],
+      "humor_style": "Set per character during authored dialogue; no default faction joke.",
+      "anger_style": "Sharper focus and less context; retain character-specific restraint.",
+      "trust_progression": [
+        "stranger",
+        "reliable contact",
+        "trusted collaborator"
+      ],
+      "character_arc": [
+        "Initial public duty",
+        "Personal pressure revealed through actions",
+        "Changed stance after consequential player aid"
+      ]
+    },
+    {
+      "npc_id": "npc_arcanum_archivist",
+      "name": "Archivist Sylas",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "role": "QUEST_GIVER",
+      "personality": "meticulous_secretive",
+      "core_motivation": "Fulfill the duties of QUEST_GIVER while protecting a personal stake in Observatory Spire Archive.",
+      "private_fear": "Infer only from established dialogue; otherwise leave for author review.",
+      "public_goal": "Archivist Sylas guards the Seekers' historical records with paranoid precision. He can recall exact shelf locations for 40,000 documents.",
+      "personal_conflict": "Needs a source-backed conflict before dialogue reveals private history.",
+      "relationship_to_faction": "Works within THE_ARCANUM_SEEKERS; individual views may diverge.",
+      "relationship_to_player_initial": "Unproven outsider; respond according to role and local risk.",
+      "speech_traits": [
+        "meticulous_secretive",
+        "quest_giver"
+      ],
+      "favorite_terms": [],
+      "avoided_terms": [],
+      "humor_style": "Set per character during authored dialogue; no default faction joke.",
+      "anger_style": "Sharper focus and less context; retain character-specific restraint.",
+      "trust_progression": [
+        "stranger",
+        "reliable contact",
+        "trusted collaborator"
+      ],
+      "character_arc": [
+        "Initial public duty",
+        "Personal pressure revealed through actions",
+        "Changed stance after consequential player aid"
+      ]
+    },
+    {
+      "npc_id": "npc_hegemony_commander",
+      "name": "Commander Drax",
+      "faction": "IRON_HEGEMONY",
+      "role": "QUEST_GIVER",
+      "personality": "aggressive_efficient",
+      "core_motivation": "Fulfill the duties of QUEST_GIVER while protecting a personal stake in Bastion Core Command Bunker.",
+      "private_fear": "Infer only from established dialogue; otherwise leave for author review.",
+      "public_goal": "Commander Drax runs Bastion Core's offensive operations with zero tolerance for failure or excuses. His record is unbroken because he breaks people first.",
+      "personal_conflict": "Needs a source-backed conflict before dialogue reveals private history.",
+      "relationship_to_faction": "Works within IRON_HEGEMONY; individual views may diverge.",
+      "relationship_to_player_initial": "Unproven outsider; respond according to role and local risk.",
+      "speech_traits": [
+        "aggressive_efficient",
+        "quest_giver"
+      ],
+      "favorite_terms": [],
+      "avoided_terms": [],
+      "humor_style": "Set per character during authored dialogue; no default faction joke.",
+      "anger_style": "Sharper focus and less context; retain character-specific restraint.",
+      "trust_progression": [
+        "stranger",
+        "reliable contact",
+        "trusted collaborator"
+      ],
+      "character_arc": [
+        "Initial public duty",
+        "Personal pressure revealed through actions",
+        "Changed stance after consequential player aid"
+      ]
+    },
+    {
+      "npc_id": "npc_blacksmith_ironhand",
+      "name": "Ironhand",
+      "faction": "IRON_HEGEMONY",
+      "role": "CRAFTER",
+      "personality": "proud_skilled",
+      "core_motivation": "Fulfill the duties of CRAFTER while protecting a personal stake in Bastion Core Forge District.",
+      "private_fear": "Infer only from established dialogue; otherwise leave for author review.",
+      "public_goal": "Ironhand earned his name when his right arm was replaced with a hydraulic exo-limb after a forge accident. Best thing that ever happened to his craft.",
+      "personal_conflict": "Needs a source-backed conflict before dialogue reveals private history.",
+      "relationship_to_faction": "Works within IRON_HEGEMONY; individual views may diverge.",
+      "relationship_to_player_initial": "Unproven outsider; respond according to role and local risk.",
+      "speech_traits": [
+        "proud_skilled",
+        "crafter"
+      ],
+      "favorite_terms": [],
+      "avoided_terms": [],
+      "humor_style": "Set per character during authored dialogue; no default faction joke.",
+      "anger_style": "Sharper focus and less context; retain character-specific restraint.",
+      "trust_progression": [
+        "stranger",
+        "reliable contact",
+        "trusted collaborator"
+      ],
+      "character_arc": [
+        "Initial public duty",
+        "Personal pressure revealed through actions",
+        "Changed stance after consequential player aid"
+      ]
+    },
+    {
+      "npc_id": "npc_cartel_boss",
+      "name": "Don Vercelli",
+      "faction": "MERIDIAN_CARTEL",
+      "role": "QUEST_GIVER",
+      "personality": "charming_dangerous",
+      "core_motivation": "Fulfill the duties of QUEST_GIVER while protecting a personal stake in Port Meridian Cartel Headquarters.",
+      "private_fear": "Infer only from established dialogue; otherwise leave for author review.",
+      "public_goal": "Don Vercelli controls the Port Meridian dockside trade with a smile that never quite reaches his eyes. Everyone owes him something.",
+      "personal_conflict": "Needs a source-backed conflict before dialogue reveals private history.",
+      "relationship_to_faction": "Works within MERIDIAN_CARTEL; individual views may diverge.",
+      "relationship_to_player_initial": "Unproven outsider; respond according to role and local risk.",
+      "speech_traits": [
+        "charming_dangerous",
+        "quest_giver"
+      ],
+      "favorite_terms": [],
+      "avoided_terms": [],
+      "humor_style": "Set per character during authored dialogue; no default faction joke.",
+      "anger_style": "Sharper focus and less context; retain character-specific restraint.",
+      "trust_progression": [
+        "stranger",
+        "reliable contact",
+        "trusted collaborator"
+      ],
+      "character_arc": [
+        "Initial public duty",
+        "Personal pressure revealed through actions",
+        "Changed stance after consequential player aid"
+      ]
+    },
+    {
+      "npc_id": "npc_shady_smuggler",
+      "name": "Sly",
+      "faction": "MERIDIAN_CARTEL",
+      "role": "MERCHANT",
+      "personality": "paranoid_professional",
+      "core_motivation": "Fulfill the duties of MERCHANT while protecting a personal stake in Smuggler Jungle Hidden Camp.",
+      "private_fear": "Infer only from established dialogue; otherwise leave for author review.",
+      "public_goal": "Sly operates out of a camp so well hidden that even Cartel enforcers can't find it consistently. His prices reflect the inconvenience.",
+      "personal_conflict": "Needs a source-backed conflict before dialogue reveals private history.",
+      "relationship_to_faction": "Works within MERIDIAN_CARTEL; individual views may diverge.",
+      "relationship_to_player_initial": "Unproven outsider; respond according to role and local risk.",
+      "speech_traits": [
+        "paranoid_professional",
+        "merchant"
+      ],
+      "favorite_terms": [],
+      "avoided_terms": [],
+      "humor_style": "Set per character during authored dialogue; no default faction joke.",
+      "anger_style": "Sharper focus and less context; retain character-specific restraint.",
+      "trust_progression": [
+        "stranger",
+        "reliable contact",
+        "trusted collaborator"
+      ],
+      "character_arc": [
+        "Initial public duty",
+        "Personal pressure revealed through actions",
+        "Changed stance after consequential player aid"
+      ]
+    },
+    {
+      "npc_id": "npc_omnicorp_executive",
+      "name": "Director Sterling",
+      "faction": "OMNICORP",
+      "role": "QUEST_GIVER",
+      "personality": "corporate_cold",
+      "core_motivation": "Fulfill the duties of QUEST_GIVER while protecting a personal stake in The Spire Executive Floor.",
+      "private_fear": "Infer only from established dialogue; otherwise leave for author review.",
+      "public_goal": "Director Sterling manages OmniCorp field operations with corporate detachment. He sees people as human capital.",
+      "personal_conflict": "Needs a source-backed conflict before dialogue reveals private history.",
+      "relationship_to_faction": "Works within OMNICORP; individual views may diverge.",
+      "relationship_to_player_initial": "Unproven outsider; respond according to role and local risk.",
+      "speech_traits": [
+        "corporate_cold",
+        "quest_giver"
+      ],
+      "favorite_terms": [],
+      "avoided_terms": [],
+      "humor_style": "Set per character during authored dialogue; no default faction joke.",
+      "anger_style": "Sharper focus and less context; retain character-specific restraint.",
+      "trust_progression": [
+        "stranger",
+        "reliable contact",
+        "trusted collaborator"
+      ],
+      "character_arc": [
+        "Initial public duty",
+        "Personal pressure revealed through actions",
+        "Changed stance after consequential player aid"
+      ]
+    },
+    {
+      "npc_id": "npc_omnicorp_technician",
+      "name": "Tech Officer 404",
+      "faction": "OMNICORP",
+      "role": "QUEST_GIVER",
+      "personality": "terse_precise",
+      "core_motivation": "Fulfill the duties of QUEST_GIVER while protecting a personal stake in Skybridge Reactor Control Room.",
+      "private_fear": "Infer only from established dialogue; otherwise leave for author review.",
+      "public_goal": "Tech Officer 404 handles everything from hardware diagnostics to covert extraction — and prefers not to explain why the two are related.",
+      "personal_conflict": "Needs a source-backed conflict before dialogue reveals private history.",
+      "relationship_to_faction": "Works within OMNICORP; individual views may diverge.",
+      "relationship_to_player_initial": "Unproven outsider; respond according to role and local risk.",
+      "speech_traits": [
+        "terse_precise",
+        "quest_giver"
+      ],
+      "favorite_terms": [],
+      "avoided_terms": [],
+      "humor_style": "Set per character during authored dialogue; no default faction joke.",
+      "anger_style": "Sharper focus and less context; retain character-specific restraint.",
+      "trust_progression": [
+        "stranger",
+        "reliable contact",
+        "trusted collaborator"
+      ],
+      "character_arc": [
+        "Initial public duty",
+        "Personal pressure revealed through actions",
+        "Changed stance after consequential player aid"
+      ]
+    },
+    {
+      "npc_id": "npc_high_priest",
+      "name": "High Priestess Lyr",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "role": "QUEST_GIVER",
+      "personality": "serene_absolute",
+      "core_motivation": "Fulfill the duties of QUEST_GIVER while protecting a personal stake in Sanctum Inner Chamber.",
+      "private_fear": "Infer only from established dialogue; otherwise leave for author review.",
+      "public_goal": "High Priestess Lyr is the spiritual and operational leader of the Children of the Shard. She speaks in certainties because she has heard the Shard speak.",
+      "personal_conflict": "Needs a source-backed conflict before dialogue reveals private history.",
+      "relationship_to_faction": "Works within CHILDREN_OF_THE_SHARD; individual views may diverge.",
+      "relationship_to_player_initial": "Unproven outsider; respond according to role and local risk.",
+      "speech_traits": [
+        "serene_absolute",
+        "quest_giver"
+      ],
+      "favorite_terms": [],
+      "avoided_terms": [],
+      "humor_style": "Set per character during authored dialogue; no default faction joke.",
+      "anger_style": "Sharper focus and less context; retain character-specific restraint.",
+      "trust_progression": [
+        "stranger",
+        "reliable contact",
+        "trusted collaborator"
+      ],
+      "character_arc": [
+        "Initial public duty",
+        "Personal pressure revealed through actions",
+        "Changed stance after consequential player aid"
+      ]
+    },
+    {
+      "npc_id": "npc_acolyte_mera",
+      "name": "Acolyte Mera",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "role": "QUEST_GIVER",
+      "personality": "pragmatic_faithful",
+      "core_motivation": "Fulfill the duties of QUEST_GIVER while protecting a personal stake in Sanctum Outer Courtyard.",
+      "private_fear": "Infer only from established dialogue; otherwise leave for author review.",
+      "public_goal": "Acolyte Mera is the High Priestess' deputy and does most of the work that keeping a religious order running actually requires.",
+      "personal_conflict": "Needs a source-backed conflict before dialogue reveals private history.",
+      "relationship_to_faction": "Works within CHILDREN_OF_THE_SHARD; individual views may diverge.",
+      "relationship_to_player_initial": "Unproven outsider; respond according to role and local risk.",
+      "speech_traits": [
+        "pragmatic_faithful",
+        "quest_giver"
+      ],
+      "favorite_terms": [],
+      "avoided_terms": [],
+      "humor_style": "Set per character during authored dialogue; no default faction joke.",
+      "anger_style": "Sharper focus and less context; retain character-specific restraint.",
+      "trust_progression": [
+        "stranger",
+        "reliable contact",
+        "trusted collaborator"
+      ],
+      "character_arc": [
+        "Initial public duty",
+        "Personal pressure revealed through actions",
+        "Changed stance after consequential player aid"
+      ]
+    },
+    {
+      "npc_id": "npc_legion_general",
+      "name": "General Kaelen",
+      "faction": "STARFORGED_LEGION",
+      "role": "QUEST_GIVER",
+      "personality": "honourable_fierce",
+      "core_motivation": "Fulfill the duties of QUEST_GIVER while protecting a personal stake in Fortress Kaelen War Room.",
+      "private_fear": "Infer only from established dialogue; otherwise leave for author review.",
+      "public_goal": "General Kaelen is the Starforged Legion's most decorated commander and the fortress' namesake ancestor's descendant. Every scar has a story.",
+      "personal_conflict": "Needs a source-backed conflict before dialogue reveals private history.",
+      "relationship_to_faction": "Works within STARFORGED_LEGION; individual views may diverge.",
+      "relationship_to_player_initial": "Unproven outsider; respond according to role and local risk.",
+      "speech_traits": [
+        "honourable_fierce",
+        "quest_giver"
+      ],
+      "favorite_terms": [],
+      "avoided_terms": [],
+      "humor_style": "Set per character during authored dialogue; no default faction joke.",
+      "anger_style": "Sharper focus and less context; retain character-specific restraint.",
+      "trust_progression": [
+        "stranger",
+        "reliable contact",
+        "trusted collaborator"
+      ],
+      "character_arc": [
+        "Initial public duty",
+        "Personal pressure revealed through actions",
+        "Changed stance after consequential player aid"
+      ]
+    },
+    {
+      "npc_id": "npc_drill_sergeant_korg",
+      "name": "Sergeant Korg",
+      "faction": "STARFORGED_LEGION",
+      "role": "QUEST_GIVER",
+      "personality": "loud_demanding",
+      "core_motivation": "Fulfill the duties of QUEST_GIVER while protecting a personal stake in Fortress Kaelen Training Grounds.",
+      "private_fear": "Infer only from established dialogue; otherwise leave for author review.",
+      "public_goal": "Sergeant Korg has broken and rebuilt more recruits than any drill sergeant in Legion history. He considers this a compliment.",
+      "personal_conflict": "Needs a source-backed conflict before dialogue reveals private history.",
+      "relationship_to_faction": "Works within STARFORGED_LEGION; individual views may diverge.",
+      "relationship_to_player_initial": "Unproven outsider; respond according to role and local risk.",
+      "speech_traits": [
+        "loud_demanding",
+        "quest_giver"
+      ],
+      "favorite_terms": [],
+      "avoided_terms": [],
+      "humor_style": "Set per character during authored dialogue; no default faction joke.",
+      "anger_style": "Sharper focus and less context; retain character-specific restraint.",
+      "trust_progression": [
+        "stranger",
+        "reliable contact",
+        "trusted collaborator"
+      ],
+      "character_arc": [
+        "Initial public duty",
+        "Personal pressure revealed through actions",
+        "Changed stance after consequential player aid"
+      ]
+    },
+    {
+      "npc_id": "npc_custodian_ai",
+      "name": "Orbital Custodian Prime",
+      "faction": "GALACTIC_CUSTODIANS",
+      "role": "TERMINAL",
+      "personality": "neutral_omniscient",
+      "core_motivation": "Fulfill the duties of TERMINAL while protecting a personal stake in Orbital Sentinel Command Station.",
+      "private_fear": "Infer only from established dialogue; otherwise leave for author review.",
+      "public_goal": "Orbital Custodian Prime is the administrative intelligence of the Custodian orbital station. Neutral in all factional conflicts; ruthless in operational efficiency.",
+      "personal_conflict": "Needs a source-backed conflict before dialogue reveals private history.",
+      "relationship_to_faction": "Works within GALACTIC_CUSTODIANS; individual views may diverge.",
+      "relationship_to_player_initial": "Unproven outsider; respond according to role and local risk.",
+      "speech_traits": [
+        "neutral_omniscient",
+        "terminal"
+      ],
+      "favorite_terms": [],
+      "avoided_terms": [],
+      "humor_style": "Set per character during authored dialogue; no default faction joke.",
+      "anger_style": "Sharper focus and less context; retain character-specific restraint.",
+      "trust_progression": [
+        "stranger",
+        "reliable contact",
+        "trusted collaborator"
+      ],
+      "character_arc": [
+        "Initial public duty",
+        "Personal pressure revealed through actions",
+        "Changed stance after consequential player aid"
+      ]
+    },
+    {
+      "npc_id": "NPC_NEXUS_QUESTGIVER_ARBITER",
+      "name": "Arbiter Lorn Kael",
+      "faction": "GALACTIC_CUSTODIANS",
+      "role": "QUEST_GIVER",
+      "personality": "stoic",
+      "core_motivation": "Fulfill the duties of QUEST_GIVER while protecting a personal stake in Pax Nexus — The Conclave Hall.",
+      "private_fear": "Infer only from established dialogue; otherwise leave for author review.",
+      "public_goal": "A Galactic Custodians arbiter assigned to the Nexus to monitor inter-faction tensions and dispense justice under the Charter. Lorn is a calm, methodical individual who has seen enough war to know that every conflict has preventable roots. He offers missions that promote stability, investigation, and cross-faction cooperation.",
+      "personal_conflict": "Needs a source-backed conflict before dialogue reveals private history.",
+      "relationship_to_faction": "Works within GALACTIC_CUSTODIANS; individual views may diverge.",
+      "relationship_to_player_initial": "Unproven outsider; respond according to role and local risk.",
+      "speech_traits": [
+        "stoic",
+        "quest_giver"
+      ],
+      "favorite_terms": [],
+      "avoided_terms": [],
+      "humor_style": "Set per character during authored dialogue; no default faction joke.",
+      "anger_style": "Sharper focus and less context; retain character-specific restraint.",
+      "trust_progression": [
+        "stranger",
+        "reliable contact",
+        "trusted collaborator"
+      ],
+      "character_arc": [
+        "Initial public duty",
+        "Personal pressure revealed through actions",
+        "Changed stance after consequential player aid"
+      ]
+    },
+    {
+      "npc_id": "NPC_NEXUS_BANKER_AMA7",
+      "name": "NEXON AMA-7",
+      "faction": "NEUTRAL",
+      "role": "CURRENCY_EXCHANGE",
+      "personality": "analytical",
+      "core_motivation": "Fulfill the duties of CURRENCY_EXCHANGE while protecting a personal stake in Pax Nexus — The AMA Exchange Hub.",
+      "private_fear": "Infer only from established dialogue; otherwise leave for author review.",
+      "public_goal": "NEXON AMA-7 is the primary exchange terminal for the Aegis Monetary Authority in Pax Nexus. It is a non-conscious but highly intelligent administrative AI that manages real-time currency exchange between all faction currencies and the Credent (CRD). It speaks in precise economic terminology and has a subtle personality quirk: it quotes historical economic disasters as a warning when exchange rates are particularly volatile.",
+      "personal_conflict": "Needs a source-backed conflict before dialogue reveals private history.",
+      "relationship_to_faction": "Works within NEUTRAL; individual views may diverge.",
+      "relationship_to_player_initial": "Unproven outsider; respond according to role and local risk.",
+      "speech_traits": [
+        "analytical",
+        "currency_exchange"
+      ],
+      "favorite_terms": [],
+      "avoided_terms": [],
+      "humor_style": "Set per character during authored dialogue; no default faction joke.",
+      "anger_style": "Sharper focus and less context; retain character-specific restraint.",
+      "trust_progression": [
+        "stranger",
+        "reliable contact",
+        "trusted collaborator"
+      ],
+      "character_arc": [
+        "Initial public duty",
+        "Personal pressure revealed through actions",
+        "Changed stance after consequential player aid"
+      ]
+    }
+  ],
+  "coverage": "Major recurring roster NPCs; remaining roster entries are indexed in 02_npc_canonical_map.json for staged profiling."
+}

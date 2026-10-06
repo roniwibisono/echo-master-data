@@ -1,13 +1,11 @@
 [
   {
-    "dialogues": []
-  },
-  {
     "meta": {
-      "version": "1.0",
-      "description": "Dialogue Tree Master for Echoes of Xylos — includes NPC + Quest dialogs",
-      "quest_dialog_count": 254,
-      "total_count": 279
+      "version": "2.1",
+      "description": "NPC dialogue trees with integrated ambient and rumor conversations; quest dialogues remain in dialog_quests.json.",
+      "quest_dialog_count": 701,
+      "npc_dialog_count": 112,
+      "total_count": 813
     },
     "dialogues": [
       {
@@ -178,6 +176,11 @@
                 "text": "Not now.",
                 "next": "exit",
                 "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_valen_security",
+                "action": ""
               }
             ]
           },
@@ -194,6 +197,17 @@
                 "text": "I'll return later.",
                 "next": "exit",
                 "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "amb_valen_security",
+            "text": "The report is filed. The names are filed separately. I don't want anyone becoming a number because the cabinet ran out of space.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
               }
             ]
           }
@@ -1239,11 +1253,7 @@
             ]
           }
         ]
-      }
-    ]
-  },
-  {
-    "dialogues": [
+      },
       {
         "dialog_id": "dlg_concordium_ama_main",
         "npc_id": "NPC_CONCORDIUM_EXCHANGE",
@@ -1576,6 +1586,3677 @@
           {
             "id": "confirm_exchange",
             "text": "Exchange interface open. Make it count.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_quest_terminal",
+        "npc_id": "npc_quest_board",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "[TERMINAL ACTIVE] Select contract category to proceed.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "An automated posting terminal that aggregates Concordium-approved contracts and public bounties.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_hale_main",
+        "npc_id": "npc_director_hale",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Every asset is expendable if the mission succeeds. I'll be direct with you.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_hale_containment",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Director Hale oversees Concordium containment operations in the Inner Cradle. Cold and calculating, she treats casualties as acceptable variables.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "amb_hale_containment",
+            "text": "A stable perimeter is measurable. Reassurance isn't. I know which one the review board will fund.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_vael_main",
+        "npc_id": "npc_concordium_overseer",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "The readings are off again. Don't touch anything without filing a request.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_vael_manifest",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "A bureaucrat stationed at the outer boundary, cataloguing anomalous energy readings with obsessive precision.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "amb_vael_manifest",
+            "text": "The manifest says six replacement seals arrived. I have five seals and six signatures. Please don't ask me which one is wrong before my tea.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_rian_scout",
+        "npc_id": "npc_garden_scout",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Eyes open out here — the mutations near the eastern cluster have been getting aggressive.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_rian_observation",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "A young Concordium scout on rotation through the Gardens, cataloguing flora mutations and monster migration patterns.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "amb_rian_observation",
+            "text": "The slimes are where the old drainage map says water should pool. That's a pattern. It isn't proof of what changed them.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_scavenger",
+        "npc_id": "npc_scavenger",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Junk? Treasure? Same thing, different buyer. Let's talk.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_scavenger_claim",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Junk-Eye Joe lost one eye to a collapsing ceiling in this very district. He replaced it with a salvaged scope lens and kept digging.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "amb_scavenger_claim",
+            "text": "I tag what I can carry and leave what I can't. The dangerous part is convincing everyone else that the tag means anything.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_patrol_guard",
+        "npc_id": "npc_patrol_guard",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Another contract? Fine. Just don't get killed where I can see it.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "A seasoned guard captain who has held the eastern perimeter for eleven years. He's run out of things to be surprised by.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_veteran_kael",
+        "npc_id": "npc_veteran_explorer",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Sit down. This'll take a minute. Or don't — your loss.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_world_severance",
+                "action": ""
+              },
+              {
+                "text": "Any word from around here?",
+                "next": "rumor_great_fracture",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Old Man Kael claims to have explored every district before the Great Fracture. His stories contradict each other perfectly.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "amb_world_severance",
+            "text": "People call every old crack a Severance scar. Most are just old cracks. The distinction matters when you're choosing where to build.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "rumor_great_fracture",
+            "text": "Old Man Kael calls it the Great Fracture. The archive index uses a different title.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_elara_scholar",
+        "npc_id": "npc_arcanum_scholar",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "I'll spare you the background reading — just tell me what you know.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_arcanum_assistant",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Scholar Elara specialises in Aethel resonance mapping. She has published seventeen papers. She mentions this within thirty seconds of meeting anyone.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "amb_arcanum_assistant",
+            "text": "Three instruments agree on the pulse timing. They disagree on what the pulse means. Elara says that is a better result than false certainty.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_sylas_main",
+        "npc_id": "npc_arcanum_archivist",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Access is tiered. What clearance do you carry?",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_archivist_rumor",
+                "action": ""
+              },
+              {
+                "text": "Any word from around here?",
+                "next": "rumor_aethelgard_descendants",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Archivist Sylas guards the Seekers' historical records with paranoid precision. He can recall exact shelf locations for 40,000 documents.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "amb_archivist_rumor",
+            "text": "Aethelgardian records were copied by hand when the first vaults began to fail. Some errors may be the only surviving witnesses.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "rumor_aethelgard_descendants",
+            "text": "Some records suggest descendants remained on Xylos. The margin note is later than the document it annotates.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_finn_novice",
+        "npc_id": "npc_novice_researcher",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Oh! You're here! I was just about to try something probably-safe!",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "Any word from around here?",
+                "next": "rumor_arcanum_samples",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Finn is enthusiastic to a fault and has already accidentally detonated two crystal clusters this season.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "rumor_arcanum_samples",
+            "text": "The Seekers are cataloguing creature changes. Whether every sample is authorized is another question.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_glass_collector",
+        "npc_id": "npc_glass_collector",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "I'll tell you right now — the good pieces aren't for sale. But I have plenty of the rest.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Mina has spent years combing the Valley for pure Cradle Glass fragments. She sells the extras and keeps the finest for herself.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_cave_dax",
+        "npc_id": "npc_cave_spelunker",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "What? Oh — yeah. Deep cave, lots of crystals, definitely haunted. Want specifics?",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Dax descends into the Caverns daily and emerges with more data than anyone else alive. He's partially deaf from the resonance hum.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_peak_watcher",
+        "npc_id": "npc_peak_watcher",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "The readings spiked again. Something is building. I need a runner.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Watcher Vane monitors Shard energy peaks from the highest post in the region. She hasn't slept a full night in two years.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_drax_main",
+        "npc_id": "npc_hegemony_commander",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "You want a job? Prove you're worth the oxygen first.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Commander Drax runs Bastion Core's offensive operations with zero tolerance for failure or excuses. His record is unbroken because he breaks people first.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_ironhand",
+        "npc_id": "npc_blacksmith_ironhand",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Hegemony steel or something you've dragged in from the wasteland. Either way, I can work with it.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Ironhand earned his name when his right arm was replaced with a hydraulic exo-limb after a forge accident. Best thing that ever happened to his craft.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_rusty",
+        "npc_id": "npc_scrap_merchant",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Certified pre-owned! That's my official position and I'm sticking to it.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Rusty runs the most chaotic stall in the Scrap Field, selling things he definitely did not assemble himself and definitely works.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_gorn_miner",
+        "npc_id": "npc_iron_miner",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Ores go down, iron comes up, credits change hands. That's all there is.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_iron_worker",
+                "action": ""
+              },
+              {
+                "text": "Any word from around here?",
+                "next": "rumor_iron_quota",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Gorn has mined the Ravine since before the Hegemony claimed it. He works for them now but misses the silence.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "amb_iron_worker",
+            "text": "The furnace quota went up again. The supports did not. If command wants another shift, they can come down and hear that beam sing.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "rumor_iron_quota",
+            "text": "The Bastion raised the furnace quota and kept the same brace schedule.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_salvage_tink",
+        "npc_id": "npc_salvage_expert",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Every busted machine has one good thing left in it. I find it. You buy it. Works for everyone.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_iron_engineer",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Tink specialises in extracting usable components from decommissioned Hegemony war machines. Her shop smells of coolant and ambition.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "amb_iron_engineer",
+            "text": "Don't strike the old chassis after dusk. Not because it's haunted; because the loose plate falls when the temperature drops.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_brigg_foreman",
+        "npc_id": "npc_assembly_foreman",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Clock's running. Make it worth my time.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Foreman Brigg coordinates construction of Hegemony heavy units. He dispatches anyone who slows the line.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_vercelli_boss",
+        "npc_id": "npc_cartel_boss",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Welcome, welcome! Sit down. Have you eaten? Everyone eats at my table before we talk business.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Don Vercelli controls the Port Meridian dockside trade with a smile that never quite reaches his eyes. Everyone owes him something.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_salty_fisher",
+        "npc_id": "npc_wetland_fisher",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Careful out past the orange markers — something big has been circling.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_meridian_fisher",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Old Salty has fished the Wetlands for fifty years and has opinions on everything. He shares them whether asked or not.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "amb_meridian_fisher",
+            "text": "The catch is fine. Getting it to Port Meridian costs more every week the jungle route stays uncertain.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_sly_smuggler",
+        "npc_id": "npc_shady_smuggler",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "You're either a customer or a problem. Which is it?",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_meridian_smuggler",
+                "action": ""
+              },
+              {
+                "text": "Any word from around here?",
+                "next": "rumor_meridian_sketches",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Sly operates out of a camp so well hidden that even Cartel enforcers can't find it consistently. His prices reflect the inconvenience.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "amb_meridian_smuggler",
+            "text": "Someone is buying route sketches without asking who drew them. That is either a very careful buyer or a very careless one.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "rumor_meridian_sketches",
+            "text": "A buyer is paying for route maps from every faction, not just Meridian.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_madam_z",
+        "npc_id": "npc_black_market_dealer",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Everything has a price. The question is what you're willing to offer.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_cartel_dock",
+                "action": ""
+              },
+              {
+                "text": "Any word from around here?",
+                "next": "rumor_meridian_compact",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Madam Z runs the most sophisticated black-market operation in three sectors. Her network spans factions. Her records are encrypted to oblivion.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "amb_cartel_dock",
+            "text": "The Cartel calls it a temporary fee. The dockhands call it a second rent. Both groups brought receipts.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "rumor_meridian_compact",
+            "text": "A dock ledger mentions a Meridian Compact. Nobody agrees whether that was an office, a deal, or bad shorthand.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_kip_diver",
+        "npc_id": "npc_ruin_diver",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Got three contracts open and a window before the tide shifts. Short version: I need backup.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Kip free-dives the submerged Aethel ruins for Cartel clients, recovering artifacts that pre-date the current age. She has drowned three times and keeps going.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_sterling_exec",
+        "npc_id": "npc_omnicorp_executive",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Your efficiency rating is under evaluation. Perform accordingly.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Director Sterling manages OmniCorp field operations with corporate detachment. He sees people as human capital.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_tech404_side",
+        "npc_id": "npc_omnicorp_technician",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Task assigned. Completion expected. Questions are inefficient.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_omni_technician",
+                "action": ""
+              },
+              {
+                "text": "Any word from around here?",
+                "next": "rumor_omni_withdrawal",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Tech Officer 404 handles everything from hardware diagnostics to covert extraction — and prefers not to explain why the two are related.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "amb_omni_technician",
+            "text": "The dashboard calls it an acceptable loss. The dashboard has never had to tell a family their shift is over.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "rumor_omni_withdrawal",
+            "text": "The off-world board has asked for a new evacuation projection. They say it is routine.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_drone_7",
+        "npc_id": "npc_plateau_surveyor",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Surveyor Unit 7 online. Please state your resource-extraction inquiry.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_omni_survey",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Surveyor Unit 7 is an autonomous OmniCorp drone with a remarkable personality subroutine that it has never been permitted to act on.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "amb_omni_survey",
+            "text": "Survey complete. The ground is stable enough for equipment. The phrase 'stable enough' has been removed from the public projection.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_barrett_chief",
+        "npc_id": "npc_extraction_chief",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "We're behind quota. If you're here to help, I'll be grateful. If not, get clear of the machinery.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Chief Barrett has run OmniCorp extraction sites for eighteen years. She is equal parts miner, geologist, and combat veteran.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_warden_ai",
+        "npc_id": "npc_grid_security",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "[WARDEN-7] Clearance verification required. Unauthorised access terminates this session.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Warden AI manages access to OmniCorp's most sensitive mining operations. It has never once bent a rule.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_cross_engineer",
+        "npc_id": "npc_reactor_engineer",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "I have exactly four minutes before the coolant flush. Talk fast.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Engineer Cross keeps the Skybridge Reactor from melting down on a daily basis. He has not taken a day off in three years.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_lyr_main",
+        "npc_id": "npc_high_priest",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "The Shard has already seen this meeting. Come — what you seek to ask, it already knows.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "High Priestess Lyr is the spiritual and operational leader of the Children of the Shard. She speaks in certainties because she has heard the Shard speak.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_mera_side",
+        "npc_id": "npc_acolyte_mera",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Lyr handles the visions. I handle the schedules. What can I help you with?",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Acolyte Mera is the High Priestess' deputy and does most of the work that keeping a religious order running actually requires.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_silas_forest",
+        "npc_id": "npc_forest_acolyte",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Walk slowly here. The Glowvines respond to rushed energy.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_shard_acolyte",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Brother Silas tends the sacred Glowvine paths, pruning the luminescent vines and guiding pilgrims through the forest's more disorienting sections.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "amb_shard_acolyte",
+            "text": "I hear a voice in the roots. Mera says grief can make any silence sound like an answer. I don't know which of us is right.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_hermit",
+        "npc_id": "npc_swamp_hermit",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "The swamp provides. Coin helps too. What are you after?",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_shard_hermit",
+                "action": ""
+              },
+              {
+                "text": "Any word from around here?",
+                "next": "rumor_shard_purification",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "The Hermit lives alone at the swamp's edge and claims the isolation is his by choice. His knowledge of Shard-touched flora is unmatched.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "amb_shard_hermit",
+            "text": "The water clears near the old stones, then clouds again downstream. A blessing would be simpler. This looks like a wound.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "rumor_shard_purification",
+            "text": "Some elders want the Siphon destroyed. Others say the Shard never asked for blood.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_norn_keeper",
+        "npc_id": "npc_shrine_keeper",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Leave an offering, or don't — the Shard judges intent, not tribute.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Keeper Norn has maintained the Fragment Shrine for three generations of her family. The shrine remembers what history has tried to erase.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_rell_guardian",
+        "npc_id": "npc_altar_guardian",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "State your purpose at the Altar. Those who lie do not leave easily.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Guardian Rell is the last of the Altar's sworn defenders. She speaks rarely and only when she has something worth saying.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_kaelen_main",
+        "npc_id": "npc_legion_general",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "The Legion's wars are never truly over — they only pause. Come, there is work.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "General Kaelen is the Starforged Legion's most decorated commander and the fortress' namesake ancestor's descendant. Every scar has a story.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_korg_side",
+        "npc_id": "npc_drill_sergeant_korg",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "WHAT ARE YOU DOING STANDING THERE. Move, recruit!",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Sergeant Korg has broken and rebuilt more recruits than any drill sergeant in Legion history. He considers this a compliment.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_jace_scout",
+        "npc_id": "npc_dune_scout",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Sandstorm coming from the west in three hours. You'll want to be clear of the flats.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Scout Jace runs the farthest perimeter patrols alone and prefers it that way. She knows the dunes better than the sand knows itself.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_rex_survivor",
+        "npc_id": "npc_badland_survivor",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Prices are high because everything out here costs blood to move. Pay or move on.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_legion_survivor",
+                "action": ""
+              },
+              {
+                "text": "Any word from around here?",
+                "next": "rumor_legion_settlement",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Rex survived a collapse in the Mesa Warpath and set up the only trading post between the Badlands and the Fortress. He charges accordingly.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "amb_legion_survivor",
+            "text": "Back home, a roof meant you had stopped moving. Here, the young ones argue over which wall gets a window. I let them.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "rumor_legion_settlement",
+            "text": "The Legion is planning permanent water storage beside its new housing blocks.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_gorok_vet",
+        "npc_id": "npc_warpath_veteran",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Read the names on the wall before you take any contract from me. All of them.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_legion_veteran",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Veteran Gorok fought in the Mesa Warpath campaigns and returned to guard the memorial. He gives contracts to those who understand what they're walking into.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "amb_legion_veteran",
+            "text": "We used to name a formation after its commander. Now we name it after the people who made it back. Better record.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_dan_smithy",
+        "npc_id": "npc_lost_blacksmith",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Took the long route to find me. Good — means you actually need something forged right.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Smithy Dan set up a forge in the middle of nowhere after being blacklisted by every guild. His work is better than his manners.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_vance_medic",
+        "npc_id": "npc_battlefield_medic",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Wound first, introductions second. Sit down.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Medic Vance works the neutral zone, patching up anyone from any faction. He says he has no politics. Everyone believes him.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_traveling_trader",
+        "npc_id": "npc_wandering_trader",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "The rare finds the rare. You've found me — so you must be looking for something unusual.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "The Traveling Merchant has no fixed location and appears at crossroads when least expected. Some say they're the same person across decades; others say they're a fleet.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_jax_scout",
+        "npc_id": "npc_reckless_scout",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "I've been to the dead zones. Twice. Still alive, so clearly I'm doing something right.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Scout Jax goes where no briefing covers and comes back with information no intel team was willing to get.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_tark_frontline",
+        "npc_id": "npc_frontline_commander",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Nobody is cooperating. Again. Are you here to help or to make things worse?",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Commander Tark leads a multi-faction peacekeeping force that nobody actually obeys. He keeps trying anyway.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_void_walker",
+        "npc_id": "npc_void_walker",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "You see me. Most do not. That means the Void has noticed you already.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "The Nameless Walker exists between states — half in this world, half in the Void. They offer guidance but no comfort.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_prophet",
+        "npc_id": "npc_doomsayer",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "I see you've come to hear something terrible. I'll oblige.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "The Prophet claims to have seen how every faction ends. His predictions are specific, detailed, and have a troubling accuracy rate.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_aris_core",
+        "npc_id": "npc_core_technician",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "The Core is stable. For now. I need someone who can run interference on the eastern conduit.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Tech Lead Aris maintains the most dangerous energy extraction operation in the Concordium — a job that has taken three predecessors.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_master_kael",
+        "npc_id": "npc_master_kael",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Most people who come here aren't ready. Convince me you're different.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Master Kael is the only living crafter authorised to work with Prima Materia. He accepts commissions once per season, if he finds the requester worthy.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_xylar_smith",
+        "npc_id": "npc_abyssal_smith",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Void-forged items remember their makers. I only work for those who will be remembered in turn.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Xylar the Abyssal forges weapons using Void-touched metal that no standard smith will touch. The products are extraordinary. So is the risk.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_ancient_ghost",
+        "npc_id": "npc_ancient_ghost",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "You stand in what was once a great city. I am what remembers it.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "The Echo of Aethelgard is a residual consciousness from before the Fracture, preserved in a crystalline matrix. Its memories are the only record of the old world.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_resonance_entity",
+        "npc_id": "npc_echo_entity",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "... (the air crackles with recognition)",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "The Resonance is an entity formed from accumulated Aethel energy, neither fully conscious nor fully absent. It responds to genuine questions.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_custodian_ai",
+        "npc_id": "npc_custodian_ai",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "[CUSTODIAN PRIME] Authenticated connection established. What resource allocation do you require?",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_custodian_ai",
+                "action": ""
+              },
+              {
+                "text": "Any word from around here?",
+                "next": "rumor_custodian_threshold",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Orbital Custodian Prime is the administrative intelligence of the Custodian orbital station. Neutral in all factional conflicts; ruthless in operational efficiency.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "amb_custodian_ai",
+            "text": "Observation remains below intervention threshold. The threshold is a policy choice, not a measurement of suffering.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "rumor_custodian_threshold",
+            "text": "The Custodians are watching Xylos but have not authorized intervention.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_ross_main",
+        "npc_id": "npc_commander_ross",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "I have three missions that need immediate assignment. Priorities, in order.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Commander Ross leads the Concordium's high-risk operations in the fractured core regions. She gives orders calmly and expects them followed precisely.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_elara_main",
+        "npc_id": "npc_strategist_elara",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "The Storm Belt follows patterns. I know them. I'll tell you where to be.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Strategist Elara analyses the Storm Belt anomalies and translates raw data into actionable field assignments.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_vin_main",
+        "npc_id": "npc_researcher_vin",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Yes, yes — come in. Just don't touch the crystal array. Or that. Or — actually, touch nothing.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Researcher Vin is deep in a classified study of the Cavern's resonance peaks and needs reliable field agents who ask fewer questions.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_soren_main",
+        "npc_id": "npc_admiral_soren",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "From orbit, everything looks small. From the ground, nothing feels small. I need agents who understand both.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Admiral Soren commands the Custodian orbital fleet and coordinates missions that require both orbital and ground assets.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_exchange_crossroad",
+        "npc_id": "npc_crossroad_exchange",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "The Credent is universal. Exchange your faction currency here — equal rates for all.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "An Aegis Monetary Authority representative facilitating faction currency exchange to CRD.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_envoy_greet",
+        "npc_id": "npc_crossroad_envoy",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Greetings, wanderer. I am Envoy Kalen, servant of the Custodians. How may the galaxy assist you today?",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "A Galactic Custodian envoy station. Provides lore, news, and direction to travelers.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_exchange_bazaar",
+        "npc_id": "npc_bazaar_exchange",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Large volume exchange? I handle the accounts that shape planetary economies.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "A senior AMA auditor overseeing large-volume currency exchange operations.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_exchange_orbital",
+        "npc_id": "npc_orbital_exchange",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "The Credent is the pulse of galactic economy. Exchange wisely — fortunes rise and fall in moments.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "The AMA Chancellor overseeing all Xylos currency operations from orbit.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dlg_nexus_elara_main",
+        "npc_id": "NPC_NEXUS_MERCHANT_ELARA",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Welcome to Elara's Supplies. I don't care what flag you fly — just don't cause trouble in my stall. What do you need?",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "A former Meridian Cartel logistics officer who left after witnessing the human cost of trade wars. She now runs a supply stall in the Nexus, selling to anyone with enough CRD and a civil manner. Elara is known for her encyclopedic knowledge of contraband detection and her distaste for faction politics.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dlg_nexus_grath_main",
+        "npc_id": "NPC_NEXUS_MERCHANT_GRATH",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "You look like you've been through a meat grinder. Or you're about to be. Either way, I've got what you need. In CRD.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "A retired Iron Hegemony sergeant with a cybernetic left arm and a grudge against every faction equally. He sells weapons, repair kits, and battle supplies. He claims to have fought in seven wars for five different factions before deciding none of them were worth dying for.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dlg_nexus_tessara_main",
+        "npc_id": "NPC_NEXUS_INNKEEPER_TESSARA",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Ah, a wanderer with tired eyes. Come, rest your burdens. My inn welcomes all who arrive in peace. Your body will thank you in the morning.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "A former Arcanum Seekers adept who left the Order after discovering that true peace of mind doesn't come from forbidden knowledge, but from a warm meal and a good night's sleep. She operates the finest inn in the Nexus, famous for the restorative quality of her brews and her uncanny ability to read a person's soul.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dlg_nexus_vulkan_main",
+        "npc_id": "NPC_NEXUS_BLACKSMITH_VULKAN",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Materials on the bench, CRD in the slot. I don't chit-chat while I work, but I'll say this — what comes off my forge won't disappoint you.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Vulkan was once a legendary weapons master for the Starforged Legion before a catastrophic forge accident left him without faction allegiance or half his hearing. He rebuilt his workshop in the Nexus and now crafts for anyone. He has a unique skill: he can work with materials from ANY faction, which no capital blacksmith is willing to do.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dlg_nexus_arbiter_main",
+        "npc_id": "NPC_NEXUS_QUESTGIVER_ARBITER",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "You've arrived at a time of delicate balance, traveler. The Custodians always have need of capable individuals who operate above faction lines. Are you such a person?",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "A Galactic Custodians arbiter assigned to the Nexus to monitor inter-faction tensions and dispense justice under the Charter. Lorn is a calm, methodical individual who has seen enough war to know that every conflict has preventable roots. He offers missions that promote stability, investigation, and cross-faction cooperation.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dlg_nexus_commander_main",
+        "npc_id": "NPC_NEXUS_QUESTGIVER_COMMANDER",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "I don't have time for pleasantries. You either have what it takes or you don't. The Custodians have a mission. The question is: are you the right operative?",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "A decorated Pact-Keeper Frigate commander who now coordinates special operations from the Nexus. She recruits independent operators for missions too sensitive for the official Sentinel Fleet — retrieving forbidden tech, eliminating rogue AI nodes, or investigating threats to Pax Galactica stability. She is direct, efficient, and has no patience for excuses.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dlg_nexus_ama7_main",
+        "npc_id": "NPC_NEXUS_BANKER_AMA7",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Welcome to the Aegis Monetary Authority exchange terminal. Current exchange rates are live. I advise reviewing the economic factors panel before committing to a transaction. The Credent does not forgive market ignorance.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_ama_ledger",
+                "action": ""
+              },
+              {
+                "text": "Any word from around here?",
+                "next": "rumor_counterfeit_credent",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "NEXON AMA-7 is the primary exchange terminal for the Aegis Monetary Authority in Pax Nexus. It is a non-conscious but highly intelligent administrative AI that manages real-time currency exchange between all faction currencies and the Credent (CRD). It speaks in precise economic terminology and has a subtle personality quirk: it quotes historical economic disasters as a warning when exchange rates are particularly volatile.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "amb_ama_ledger",
+            "text": "Your exchange cleared at the posted rate. The fee is visible in the ledger; the reason for it should be too.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "rumor_counterfeit_credent",
+            "text": "The AMA flagged forged CRD samples near the mining grid. A sample is not proof of a coordinated attack.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dlg_nexus_echo01_main",
+        "npc_id": "NPC_NEXUS_GUIDE_ECHO01",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Oh! A new arrival! Welcome to Pax Nexus — the only place in the galaxy where a Concordium soldier and a Shard mystic can share a meal without incident. Usually. I'm ECHO-01. I know everything. Well, almost everything. Ask me anything!",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "ECHO-01 is a holographic guide entity created by the Custodians to help new arrivals understand the rules of Pax Nexus and the broader world of Xylos. It has developed a curious sense of humor and philosophical outlook despite being a guidance program. ECHO-01 secretly enjoys meeting travelers from different factions and comparing their perspectives.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dlg_nexus_chronicler_main",
+        "npc_id": "NPC_NEXUS_INFO_CHRONICLER",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Ah. Another thread arrives to be woven into the tapestry. I have recorded ten thousand such arrivals. Tell me, traveler — which version of yourself do you wish to become? I have seen all of them.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              },
+              {
+                "text": "How are the locals holding up?",
+                "next": "amb_neutral_refugee",
+                "action": ""
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "The Chronicler is an ancient being of unknown species who has been recording galactic history for longer than any faction has existed. It/they speak in a calm, layered voice that seems to come from multiple directions at once. The Chronicler offers history, lore, and cryptic hints about world events. Occasionally, it whispers of things that have not happened yet.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          },
+          {
+            "id": "amb_neutral_refugee",
+            "text": "A family at the south convoy desk is still waiting for an arrival time. The board keeps giving them a percentage.",
+            "options": [
+              {
+                "text": "I'll remember that.",
+                "next": "greet",
+                "action": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dlg_nexus_vael_main",
+        "npc_id": "NPC_NEXUS_DIPLOMAT_VAEL",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Peace is not the absence of conflict, traveler. It is the choice to act differently. I have a few... diplomatic errands that require someone who can operate beyond faction lines. Interested?",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Ambassador Vael is the Custodians' highest diplomatic representative in Pax Nexus. They navigate the razor-thin line between faction politics with grace, and occasionally task trusted operatives with missions that shape inter-faction relations. Completing Vael's quests can shift faction war status, unlock peace treaties, or trigger major world events.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dlg_nexus_sable_main",
+        "npc_id": "NPC_NEXUS_TRADER_SABLE",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Looking for something, friend? I have a feeling I know what it is. That's my gift. Well, one of them. Everything here is perfectly legal, I assure you. The Arbiter checked last Tuesday.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Sable operates in the legal grey zone. Their wares are technically not contraband — the Custodians have checked, repeatedly — but they always seem to have exactly what you didn't know you needed. Rare materials, faction-specific items that shouldn't be sold outside their territory, and items that appear in the ledger as 'miscellaneous recoveries.' Sable never asks where things came from.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dlg_nexus_mira_main",
+        "npc_id": "NPC_NEXUS_HEALER_MIRA",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "You've been hurt. I can see it — not just in your body. Come. The Infirmary is open to all. No politics, no faction marks, no judgments. Just healing.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Mira was once a battlefield medic for the Children of the Shard before her faith in their methods was shattered after a brutal campaign. She left the Shard with their medical knowledge intact and a vow to heal without discrimination. The Nexus Infirmary she runs is open to all factions, all hours. She is gentle, precise, and deeply empathetic.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dlg_nexus_ghost_main",
+        "npc_id": "NPC_NEXUS_QUESTGIVER_SMUGGLER",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Ah, a fresh face. And by the look of you, a capable one. I have work that pays well, asks no inconvenient questions, and officially never happened. Sound like your kind of business?",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Ghost is an infamous freelancer who sells information and contracts to anyone who can pay. He has no faction loyalty but seems to know every faction's secrets. His quests are morally ambiguous but always lucrative. The Arbiter watches him closely, but Ghost has never technically broken the Charter. He lives in the technical spaces between the rules.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dlg_nexus_axis_main",
+        "npc_id": "NPC_NEXUS_TRAINER_AXIS",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "AXIS Class Advancement Terminal online. I support all class trees from all seven factions, including cross-faction hybrid builds unavailable at capital trainers. Standard fee in CRD applies. Shall we begin assessment?",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "AXIS is a holographic training AI that can facilitate class advancement for any faction's character build. Unlike capital-based trainers who specialize only in their faction's classes, AXIS can handle cross-faction hybrid advancement paths. This makes it the most sought-after trainer in Xylos, and the most expensive.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dlg_custodian_banker",
+        "npc_id": "npc_ledger_warden_nexus_core",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Authorization confirmed. Vault and exchange services are available. What do you require, citizen?",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "A Galactic Custodian field agent assigned to the financial sovereignty infrastructure of Nexus Core. Processes vault deposits, withdrawals, and AMA-regulated currency exchange under Pax Nexus protocol.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_lirien_vale_main",
+        "npc_id": "npc_commander_vale",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "The route report first. Then tell me what you saw.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Field commander responsible for Concordium operations across the Gardens and Cradle. She weighs operational success against the people who pay for it.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_harkon_steele_main",
+        "npc_id": "npc_warlord_steele",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "State your readiness. I have a line to hold.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Hegemony warlord overseeing field operations and the recovery of strategic industrial ground.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_don_vercelli_mox_main",
+        "npc_id": "npc_don_mox",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Sit. We can decide whether this is business after we hear the whole story.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Cartel leader whose influence rests on routes, favors, and information as much as cargo.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_elder_malakor_main",
+        "npc_id": "npc_elder_malakor",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Listen before you answer. The forest has been trying to tell us something.",
+            "options": [
+              {
+                "text": "What's happening around here?",
+                "next": "local",
+                "action": ""
+              },
+              {
+                "text": "I'll leave you to it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "local",
+            "text": "Senior voice among the Children of the Shard. His interpretation of the Shard is a religious belief, not established fact.",
+            "options": [
+              {
+                "text": "Thanks for the word.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The conversation pauses.",
             "options": []
           }
         ]

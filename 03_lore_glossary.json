@@ -1,0 +1,149 @@
+{
+  "canon_source": "Provided Xylos lore attachments; source details left open where unspecified.",
+  "terms": [
+    {
+      "term": "Aethel",
+      "type": "energy",
+      "canonical_definition": "Energy born when fragments of the Aethel Shard resonated with Xylos's molten core.",
+      "public_knowledge": "A powerful energy associated with Xylos and its altered ecology.",
+      "restricted_knowledge": "The complete mechanism and any consciousness within it are not established canon.",
+      "unknown_truth": "The complete mechanism and any consciousness within it are not established canon.",
+      "faction_interpretations": {},
+      "first_reveal_stage": 1,
+      "status": "UNKNOWN_TRUTH",
+      "notes": "Keep explanations tied to observed effects."
+    },
+    {
+      "term": "Aethel Shard",
+      "type": "artifact",
+      "canonical_definition": "A colossal crystalline asteroid that shattered on Xylos; its fragments remain embedded in the planet.",
+      "public_knowledge": "A source of Aethel fragments and a focus of religious and scientific claims.",
+      "restricted_knowledge": "Whether it has intention or a unified mind is not proven.",
+      "unknown_truth": "Whether it has intention or a unified mind is not proven.",
+      "faction_interpretations": {},
+      "first_reveal_stage": 1,
+      "status": "UNKNOWN_TRUTH",
+      "notes": "Shard sentience claims remain belief or hypothesis."
+    },
+    {
+      "term": "Aethel Siphon",
+      "type": "technology",
+      "canonical_definition": "Aethelgardian device that draws raw Aethel from Shard fragments; later repaired by the Concordium.",
+      "public_knowledge": "A damaged ancient system, repaired and operated by Concordium; its safety is politically contested.",
+      "restricted_knowledge": "The source lore says it overloaded during the Great Severance; current operation's full risk is unspecified.",
+      "unknown_truth": "Further detail remains unspecified in supplied source lore.",
+      "faction_interpretations": {},
+      "first_reveal_stage": 2,
+      "status": "FACT",
+      "notes": "Do not treat every current disturbance as another overload without evidence."
+    },
+    {
+      "term": "Aethel Cradle",
+      "type": "structure",
+      "canonical_definition": "A platform built around the Aethel Shard impact epicenter and housing the Siphon.",
+      "public_knowledge": "Ancient infrastructure at the heart of Nexus and planetary politics.",
+      "restricted_knowledge": "The full extent of lower systems remains unknown.",
+      "unknown_truth": "Further detail remains unspecified in supplied source lore.",
+      "faction_interpretations": {},
+      "first_reveal_stage": 2,
+      "status": "FACT",
+      "notes": "Distinguish the ancient structure from Nexus's modern city."
+    },
+    {
+      "term": "Prima Materia",
+      "type": "material",
+      "canonical_definition": "Rare substance refined from raw Aethel at the Aethel Forge.",
+      "public_knowledge": "A high-value catalyst, strategic resource, and source of faction conflict.",
+      "restricted_knowledge": "Its ultimate physical limits are not specified.",
+      "unknown_truth": "Further detail remains unspecified in supplied source lore.",
+      "faction_interpretations": {},
+      "first_reveal_stage": 2,
+      "status": "FACT",
+      "notes": "NPCs may disagree over who should control it."
+    },
+    {
+      "term": "Great Severance",
+      "type": "historical_event",
+      "canonical_definition": "Catastrophe caused when Aethelgardians pushed the Siphon beyond its limits, overloading it and shattering Shard fragments.",
+      "public_knowledge": "A civilization-ending event tied to dangerous Siphon use.",
+      "restricted_knowledge": "Individual mechanisms and culpability may remain disputed in-world.",
+      "unknown_truth": "Further detail remains unspecified in supplied source lore.",
+      "faction_interpretations": {},
+      "first_reveal_stage": 1,
+      "status": "FACT",
+      "notes": "Separate from Great Schism."
+    },
+    {
+      "term": "Great Schism",
+      "type": "political_event",
+      "canonical_definition": "Political split of the Concordium that gave rise to Arcanum Seekers, Iron Hegemony, and Meridian Cartel.",
+      "public_knowledge": "A later fracture in settler governance and faction politics.",
+      "restricted_knowledge": "Exact dates and individual responsibility are unspecified.",
+      "unknown_truth": "Further detail remains unspecified in supplied source lore.",
+      "faction_interpretations": {},
+      "first_reveal_stage": 2,
+      "status": "FACT",
+      "notes": "Not the Great Severance."
+    },
+    {
+      "term": "Great Fracture",
+      "type": "term_under_review",
+      "canonical_definition": "Used by Old Man Kael in roster dialogue; the supplied canon does not define it.",
+      "public_knowledge": "A local expression or historical claim of uncertain reference.",
+      "restricted_knowledge": "Whether it is a third event, nickname, or error is unresolved.",
+      "unknown_truth": "Whether it is a third event, nickname, or error is unresolved.",
+      "faction_interpretations": {},
+      "first_reveal_stage": 0,
+      "status": "CANON_REVIEW_REQUIRED",
+      "notes": "Retain as character terminology pending author decision."
+    },
+    {
+      "term": "Aethelgardians",
+      "type": "people",
+      "canonical_definition": "Civilization that harnessed Aethel and built the Cradle, Siphon, Forge, and cities of Aethelgard.",
+      "public_knowledge": "An ancient civilization whose ruins and abandoned technology remain on Xylos.",
+      "restricted_knowledge": "Last descendants are said to live in hiding; specific identities are unknown.",
+      "unknown_truth": "Further detail remains unspecified in supplied source lore.",
+      "faction_interpretations": {},
+      "first_reveal_stage": 2,
+      "status": "FACT",
+      "notes": "NPC accounts may be incomplete."
+    },
+    {
+      "term": "Cradle Expanse",
+      "type": "location",
+      "canonical_definition": "Contested region around the ancient Aethel Cradle.",
+      "public_knowledge": "A hazardous frontier connected to old infrastructure and competing claims.",
+      "restricted_knowledge": "Detailed historical function beyond proximity to the Cradle is unclear.",
+      "unknown_truth": "Further detail remains unspecified in supplied source lore.",
+      "faction_interpretations": {},
+      "first_reveal_stage": 3,
+      "status": "FACT",
+      "notes": "Use current map ID CRADLE_EXPANSE."
+    },
+    {
+      "term": "Nexus",
+      "type": "settlement",
+      "canonical_definition": "Concordium capital built around the Aethel Cradle after the Siphon was repaired.",
+      "public_knowledge": "A major city and political center.",
+      "restricted_knowledge": "Claims of full control over the whole Cradle are contested by other factions.",
+      "unknown_truth": "Further detail remains unspecified in supplied source lore.",
+      "faction_interpretations": {},
+      "first_reveal_stage": 1,
+      "status": "FACT",
+      "notes": "Do not equate Nexus with NEXUS_CORE region automatically."
+    },
+    {
+      "term": "Xylos",
+      "type": "planet",
+      "canonical_definition": "A world in the Aethelgard System altered by Aethel Shard impact and later inhabited by settlers and off-world powers.",
+      "public_knowledge": "A scarred but inhabited planet rich in Aethel and ancient ruins.",
+      "restricted_knowledge": "The complete planetary history and Aethel's nature remain open.",
+      "unknown_truth": "Further detail remains unspecified in supplied source lore.",
+      "faction_interpretations": {},
+      "first_reveal_stage": 1,
+      "status": "FACT",
+      "notes": ""
+    }
+  ]
+}

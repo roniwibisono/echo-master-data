@@ -22,16 +22,17 @@ anon key cannot create tables.)
 ## Pilot: Quests (8 files → 1 table)
 
 `quest_list / arcanum / concordium / iron / legion / meridian / omnicorp /
-shard / neutral / events` (713 quests) unify into `public.quests`. Nested
+shard / neutral / events` (719 unique quest IDs in the current generated seed)
+unify into `public.quests`. Nested
 structures stay as **JSONB** (`quest_giver`, `requirements`, `objectives`,
 `rewards`) so the `QuestTemplate` model is unchanged. `source_file` +
-`sort_order` let the export tool rebuild the original files 1:1 (round-trip
-verified: 713 quests, 0 value diffs).
+`sort_order` let the export tool rebuild the original files. The current
+generated seed contains 719 unique IDs; run the import tool after content edits.
 
 ### One-time setup
 1. In the Supabase SQL editor, run **`migrations/0001_quests.sql`** (table +
    RLS public-read + content-version trigger).
-2. Load the 713 quests. The full `seed/quests_seed.sql` (~1.5 MB) exceeds the
+2. Load the 719 quests. The full `seed/quests_seed.sql` (~1.5 MB) exceeds the
    SQL Editor's query-size cap, so **use the chunk files**: run
    `seed/quests_seed_part01.sql` … `part05.sql` in order (each ~300 KB). The
    single `quests_seed.sql` is fine for `psql`/CLI (no size limit).
@@ -114,10 +115,12 @@ Seed fits one file (`allies_seed.sql`, ~114 KB). Round-trip: 91 allies, 0 diffs.
 
 ## NPCs (`npc_list.json` → `npcs`)
 
-147 NPCs (0 dup ids) → `public.npcs` (`migrations/0008_npcs.sql`). Scalars as
+151 NPCs (0 dup ids) → `public.npcs` (`migrations/0008_npcs.sql`). Scalars as
 columns; `available_services` / `actions` as JSONB; 7 optional text fields are
 NULL-when-absent, omitted on export. Seed fits one paste (`npcs_seed.sql`,
-~208 KB). Tools: `import_npcs.py` / `export_npcs.py`. Round-trip: 147, 0 diffs.
+regenerated from current source). Tools: `import_npcs.py` / `export_npcs.py`.
+The current content update adds four canonical quest-giver records;
+`legacy_aliases` is master-data documentation and is not persisted by the SQL schema.
 **`npc_additions.json` is NOT migrated — and has been DELETED** in a cleanup
 pass. The client only added additions whose id wasn't already in npc_list, and
 all 28 addition ids overlapped it, so it added zero NPCs at runtime (15 of the
@@ -127,14 +130,24 @@ additions-loading code + CDN sync entry were removed alongside the file.
 
 ## Dialogs (`dialog_tree_master.json` + `dialog_quests.json` → `dialogs`)
 
-732 dialogs (31 generic/NPC + 701 quest; `dialog_id` globally unique, 0 dups/
+813 dialogs (112 NPC + 701 quest; `dialog_id` globally unique, 0 dups/
 overlap) → `public.dialogs` (`migrations/0009_dialogs.sql`). The `nodes`
 conversation tree is JSONB; `source_file` + `sort_order` round-trip to the two
 files. `getDialogForQuest` maps to a `quest_id` index. Seed chunked
-(`dialogs_seed_part01..07.sql`). Tools: `import_dialogs.py` / `export_dialogs.py`
+(`dialogs_seed_part01..07.sql`, regenerate after content edits). Tools: `import_dialogs.py` / `export_dialogs.py`
 (dialog_tree_master exports as a single `{dialogues:[…]}` wrapper — the client
-flattens it; the empty wrapper + a doc `meta` block are dropped). Round-trip:
-732 dialogs, 0 semantic diffs. **Migration roadmap complete.**
+flattens it; the empty wrapper + a doc `meta` block are dropped). The current
+content seed is an idempotent upsert of the checked-in JSON; schema DDL remains
+unchanged. Run all seven regenerated dialog chunks if the target database is
+behind.
+
+Condition-free ambient and rumor lines are integrated into the NPC trees in
+`dialog_tree_master.json`, and are included in the generated dialog seed. Five
+state-gated variants remain proposal-only because the game has no verified
+condition resolver. No schema change is needed for the active lines. For an
+existing database, apply the refreshed NPC seed and all seven dialog chunks;
+do not replay `apply_all.sql` as a content-only update because it also includes
+all other domains.
 
 ## Game settings (centralized live-ops tuning → `game_settings`)
 
@@ -216,7 +229,7 @@ append-only `stat_events` log. **RLS: public READ (leaderboards), owner-only
 WRITE** (`player_id = auth.uid()`). Plausibility/anti-cheat validation is Phase 4.
 No seed (populated live by clients).
 
-## Live-verified status
+## Previously Live-verified Baseline
 
 All 10 tables are loaded in the live project (ref `fbntgtzimydjhuwedrjz`) and
 round-trip-verified against the CDN JSON (anon-key REST export → semantic diff,
@@ -234,6 +247,12 @@ treating `null` == empty/absent). **Every domain: 0 real value diffs.**
 | npcs                 |  147 |     ✅     |
 | dialogs              |  732 |     ✅     |
 
+Those values describe the earlier database snapshot, before the current
+narrative update. Checked-in source now produces 719 quest rows, 151 NPC rows,
+and 813 dialogue rows. Generated SQL seeds and `apply_all.sql` have been
+refreshed, but the new content has not been applied to or verified against the
+remote database.
+
 Two harmless, expected normalizations show up as textual (not semantic) diffs:
 `items` JSONB columns (`stats_bonus` / `equipment_slots` / `special_effects`)
 are `NOT NULL DEFAULT`, so a source `null` round-trips as `{}` / `[]`; `npcs`
@@ -243,8 +262,9 @@ optional fields are omitted when null. Both mean the same thing to the client
 ## Operational notes
 - **JSONB reorders keys.** A round-trip through a `jsonb` column normalises key
   order + whitespace, so `export_*.py` output is *semantically identical* but
-  textually reordered vs the original hand-formatted files (verified: quests
-  713 rows, 0 semantic diffs). The client reads by key name, so this is
+  textually reordered vs the original hand-formatted files. The current quest
+  seed contains 719 unique IDs; the earlier live round-trip contained 713 rows.
+  The client reads by key name, so this is
   harmless — the exported file becomes the new canonical CDN format the first
   time you publish a real edit.
 - **`apply_all.sql`** (schema + full seeds) is ~7 MB → for **psql/CLI only**;
