@@ -1,0 +1,55 @@
+{
+  "kill_objective_links": 711,
+  "resolved_links": 703,
+  "errors": [
+    {
+      "source": "quest_neutral.json",
+      "quest_id": "QUEST_NEUTRAL_STORY_001",
+      "target": "ROGUE_ARMS_DEALER",
+      "message": "No monster definition for quest kill target"
+    },
+    {
+      "source": "quest_neutral.json",
+      "quest_id": "QUEST_NEUTRAL_STORY_002",
+      "target": "SHADOW_ENFORCER",
+      "message": "No monster definition for quest kill target"
+    },
+    {
+      "source": "quest_neutral.json",
+      "quest_id": "QUEST_NEUTRAL_STORY_003",
+      "target": "ROGUE_CUSTODIAN_COMMANDER",
+      "message": "No monster definition for quest kill target"
+    },
+    {
+      "source": "quest_neutral.json",
+      "quest_id": "QUEST_NEUTRAL_DAILY_001",
+      "target": "BORDER_RAIDER",
+      "message": "No monster definition for quest kill target"
+    },
+    {
+      "source": "quest_neutral.json",
+      "quest_id": "QUEST_NEUTRAL_AMA_001",
+      "target": "FORGE_GUARD_ELITE",
+      "message": "No monster definition for quest kill target"
+    },
+    {
+      "source": "quest_neutral.json",
+      "quest_id": "QUEST_NEUTRAL_AMA_002",
+      "target": "ECONOMIC_SPECULATOR_SQUAD",
+      "message": "No monster definition for quest kill target"
+    },
+    {
+      "source": "quest_neutral.json",
+      "quest_id": "QUEST_NEUTRAL_SPECIAL_001",
+      "target": "SUMMIT_DISRUPTOR",
+      "message": "No monster definition for quest kill target"
+    },
+    {
+      "source": "quest_neutral.json",
+      "quest_id": "QUEST_NEUTRAL_SPECIAL_001",
+      "target": "ASSASSIN_ELITE",
+      "message": "No monster definition for quest kill target"
+    }
+  ],
+  "warnings": []
+}

@@ -1,0 +1,2147 @@
+{
+  "monsters_parsed": 189,
+  "basic_attacks": 189,
+  "active_skill_executions": 305,
+  "errors": [],
+  "observations": [
+    {
+      "monster": "ASHEN_DRAKE",
+      "skill": "inferno_breath",
+      "damage": 5888,
+      "healing": 0,
+      "remaining_mp": 14800
+    },
+    {
+      "monster": "ASHEN_DRAKE",
+      "skill": "wing_cyclone",
+      "damage": 5120,
+      "healing": 0,
+      "remaining_mp": 14880
+    },
+    {
+      "monster": "ASHEN_DRAKE",
+      "skill": "meteor_dive",
+      "damage": 4000,
+      "healing": 0,
+      "remaining_mp": 14820
+    },
+    {
+      "monster": "ASHEN_DRAKE",
+      "skill": "apocalypse_flare",
+      "damage": 7680,
+      "healing": 0,
+      "remaining_mp": 14700
+    },
+    {
+      "monster": "ABYSS_HARBINGER",
+      "skill": "void_lance",
+      "damage": 5573,
+      "healing": 0,
+      "remaining_mp": 19860
+    },
+    {
+      "monster": "ABYSS_HARBINGER",
+      "skill": "shadow_bind",
+      "damage": 3948,
+      "healing": 0,
+      "remaining_mp": 19880
+    },
+    {
+      "monster": "ABYSS_HARBINGER",
+      "skill": "abyssal_wave",
+      "damage": 7803,
+      "healing": 0,
+      "remaining_mp": 19820
+    },
+    {
+      "monster": "ABYSS_HARBINGER",
+      "skill": "black_hole_collapse",
+      "damage": 11890,
+      "healing": 0,
+      "remaining_mp": 19650
+    },
+    {
+      "monster": "GRAVITY_TITAN",
+      "skill": "strike",
+      "damage": 2750,
+      "healing": 0,
+      "remaining_mp": 14000
+    },
+    {
+      "monster": "GRAVITY_TITAN",
+      "skill": "power_slash",
+      "damage": 2750,
+      "healing": 0,
+      "remaining_mp": 14000
+    },
+    {
+      "monster": "GRAVITY_TITAN",
+      "skill": "ultimate_burst",
+      "damage": 2750,
+      "healing": 0,
+      "remaining_mp": 14000
+    },
+    {
+      "monster": "CHRONO_WRAITH",
+      "skill": "strike",
+      "damage": 1650,
+      "healing": 0,
+      "remaining_mp": 12000
+    },
+    {
+      "monster": "CHRONO_WRAITH",
+      "skill": "power_slash",
+      "damage": 1650,
+      "healing": 0,
+      "remaining_mp": 12000
+    },
+    {
+      "monster": "CHRONO_WRAITH",
+      "skill": "ultimate_burst",
+      "damage": 1650,
+      "healing": 0,
+      "remaining_mp": 12000
+    },
+    {
+      "monster": "SAND_REAVER",
+      "skill": "strike",
+      "damage": 385,
+      "healing": 0,
+      "remaining_mp": 1200
+    },
+    {
+      "monster": "SAND_REAVER",
+      "skill": "power_slash",
+      "damage": 385,
+      "healing": 0,
+      "remaining_mp": 1200
+    },
+    {
+      "monster": "SAND_REAVER",
+      "skill": "ultimate_burst",
+      "damage": 385,
+      "healing": 0,
+      "remaining_mp": 1200
+    },
+    {
+      "monster": "HIVE_REAPER",
+      "skill": "strike",
+      "damage": 1283,
+      "healing": 0,
+      "remaining_mp": 6000
+    },
+    {
+      "monster": "HIVE_REAPER",
+      "skill": "power_slash",
+      "damage": 1283,
+      "healing": 0,
+      "remaining_mp": 6000
+    },
+    {
+      "monster": "HIVE_REAPER",
+      "skill": "ultimate_burst",
+      "damage": 1283,
+      "healing": 0,
+      "remaining_mp": 6000
+    },
+    {
+      "monster": "FROST_WARDEN",
+      "skill": "strike",
+      "damage": 1100,
+      "healing": 0,
+      "remaining_mp": 5000
+    },
+    {
+      "monster": "FROST_WARDEN",
+      "skill": "power_slash",
+      "damage": 1100,
+      "healing": 0,
+      "remaining_mp": 5000
+    },
+    {
+      "monster": "FROST_WARDEN",
+      "skill": "ultimate_burst",
+      "damage": 1100,
+      "healing": 0,
+      "remaining_mp": 5000
+    },
+    {
+      "monster": "OBSIDIAN_GOLEM",
+      "skill": "strike",
+      "damage": 733,
+      "healing": 0,
+      "remaining_mp": 2000
+    },
+    {
+      "monster": "OBSIDIAN_GOLEM",
+      "skill": "power_slash",
+      "damage": 733,
+      "healing": 0,
+      "remaining_mp": 2000
+    },
+    {
+      "monster": "OBSIDIAN_GOLEM",
+      "skill": "ultimate_burst",
+      "damage": 733,
+      "healing": 0,
+      "remaining_mp": 2000
+    },
+    {
+      "monster": "RIFT_ASSASSIN",
+      "skill": "strike",
+      "damage": 871,
+      "healing": 0,
+      "remaining_mp": 1500
+    },
+    {
+      "monster": "RIFT_ASSASSIN",
+      "skill": "power_slash",
+      "damage": 871,
+      "healing": 0,
+      "remaining_mp": 1500
+    },
+    {
+      "monster": "RIFT_ASSASSIN",
+      "skill": "ultimate_burst",
+      "damage": 871,
+      "healing": 0,
+      "remaining_mp": 1500
+    },
+    {
+      "monster": "IRONCOIL_SENTINEL",
+      "skill": "strike",
+      "damage": 779,
+      "healing": 0,
+      "remaining_mp": 2500
+    },
+    {
+      "monster": "IRONCOIL_SENTINEL",
+      "skill": "power_slash",
+      "damage": 779,
+      "healing": 0,
+      "remaining_mp": 2500
+    },
+    {
+      "monster": "IRONCOIL_SENTINEL",
+      "skill": "ultimate_burst",
+      "damage": 779,
+      "healing": 0,
+      "remaining_mp": 2500
+    },
+    {
+      "monster": "FERAL_PROGENOI",
+      "skill": "strike",
+      "damage": 550,
+      "healing": 0,
+      "remaining_mp": 800
+    },
+    {
+      "monster": "FERAL_PROGENOI",
+      "skill": "power_slash",
+      "damage": 550,
+      "healing": 0,
+      "remaining_mp": 800
+    },
+    {
+      "monster": "FERAL_PROGENOI",
+      "skill": "ultimate_burst",
+      "damage": 550,
+      "healing": 0,
+      "remaining_mp": 800
+    },
+    {
+      "monster": "HELLSCAR_BEAST",
+      "skill": "strike",
+      "damage": 596,
+      "healing": 0,
+      "remaining_mp": 900
+    },
+    {
+      "monster": "HELLSCAR_BEAST",
+      "skill": "power_slash",
+      "damage": 596,
+      "healing": 0,
+      "remaining_mp": 900
+    },
+    {
+      "monster": "HELLSCAR_BEAST",
+      "skill": "ultimate_burst",
+      "damage": 596,
+      "healing": 0,
+      "remaining_mp": 900
+    },
+    {
+      "monster": "ECHO_RESONATOR",
+      "skill": "strike",
+      "damage": 1467,
+      "healing": 0,
+      "remaining_mp": 8000
+    },
+    {
+      "monster": "ECHO_RESONATOR",
+      "skill": "power_slash",
+      "damage": 1467,
+      "healing": 0,
+      "remaining_mp": 8000
+    },
+    {
+      "monster": "ECHO_RESONATOR",
+      "skill": "ultimate_burst",
+      "damage": 1467,
+      "healing": 0,
+      "remaining_mp": 8000
+    },
+    {
+      "monster": "ARC_LIGHT_REVENANT",
+      "skill": "strike",
+      "damage": 1833,
+      "healing": 0,
+      "remaining_mp": 15000
+    },
+    {
+      "monster": "ARC_LIGHT_REVENANT",
+      "skill": "power_slash",
+      "damage": 1833,
+      "healing": 0,
+      "remaining_mp": 15000
+    },
+    {
+      "monster": "ARC_LIGHT_REVENANT",
+      "skill": "ultimate_burst",
+      "damage": 1833,
+      "healing": 0,
+      "remaining_mp": 15000
+    },
+    {
+      "monster": "SOUL_FRAGMENTER",
+      "skill": "strike",
+      "damage": 1558,
+      "healing": 0,
+      "remaining_mp": 14000
+    },
+    {
+      "monster": "SOUL_FRAGMENTER",
+      "skill": "power_slash",
+      "damage": 1558,
+      "healing": 0,
+      "remaining_mp": 14000
+    },
+    {
+      "monster": "SOUL_FRAGMENTER",
+      "skill": "ultimate_burst",
+      "damage": 1558,
+      "healing": 0,
+      "remaining_mp": 14000
+    },
+    {
+      "monster": "CELESTIAL_NAVIGATOR",
+      "skill": "strike",
+      "damage": 1192,
+      "healing": 0,
+      "remaining_mp": 7000
+    },
+    {
+      "monster": "CELESTIAL_NAVIGATOR",
+      "skill": "power_slash",
+      "damage": 1192,
+      "healing": 0,
+      "remaining_mp": 7000
+    },
+    {
+      "monster": "CELESTIAL_NAVIGATOR",
+      "skill": "ultimate_burst",
+      "damage": 1192,
+      "healing": 0,
+      "remaining_mp": 7000
+    },
+    {
+      "monster": "GIGANTIC_JOTUNN",
+      "skill": "strike",
+      "damage": 2200,
+      "healing": 0,
+      "remaining_mp": 5000
+    },
+    {
+      "monster": "GIGANTIC_JOTUNN",
+      "skill": "power_slash",
+      "damage": 2200,
+      "healing": 0,
+      "remaining_mp": 5000
+    },
+    {
+      "monster": "GIGANTIC_JOTUNN",
+      "skill": "ultimate_burst",
+      "damage": 2200,
+      "healing": 0,
+      "remaining_mp": 5000
+    },
+    {
+      "monster": "ARCANE_MYCELORD",
+      "skill": "strike",
+      "damage": 1375,
+      "healing": 0,
+      "remaining_mp": 9000
+    },
+    {
+      "monster": "ARCANE_MYCELORD",
+      "skill": "power_slash",
+      "damage": 1375,
+      "healing": 0,
+      "remaining_mp": 9000
+    },
+    {
+      "monster": "ARCANE_MYCELORD",
+      "skill": "ultimate_burst",
+      "damage": 1375,
+      "healing": 0,
+      "remaining_mp": 9000
+    },
+    {
+      "monster": "VOID_STALKER",
+      "skill": "strike",
+      "damage": 1604,
+      "healing": 0,
+      "remaining_mp": 10000
+    },
+    {
+      "monster": "VOID_STALKER",
+      "skill": "power_slash",
+      "damage": 1604,
+      "healing": 0,
+      "remaining_mp": 10000
+    },
+    {
+      "monster": "VOID_STALKER",
+      "skill": "ultimate_burst",
+      "damage": 1604,
+      "healing": 0,
+      "remaining_mp": 10000
+    },
+    {
+      "monster": "CRYSTAL_TYRANT",
+      "skill": "strike",
+      "damage": 2383,
+      "healing": 0,
+      "remaining_mp": 4000
+    },
+    {
+      "monster": "CRYSTAL_TYRANT",
+      "skill": "power_slash",
+      "damage": 2383,
+      "healing": 0,
+      "remaining_mp": 4000
+    },
+    {
+      "monster": "CRYSTAL_TYRANT",
+      "skill": "ultimate_burst",
+      "damage": 2383,
+      "healing": 0,
+      "remaining_mp": 4000
+    },
+    {
+      "monster": "FOREST_SLIME",
+      "skill": "slime_bounce",
+      "damage": 15,
+      "healing": 0,
+      "remaining_mp": 30
+    },
+    {
+      "monster": "CAVE_RAT",
+      "skill": "bite",
+      "damage": 20,
+      "healing": 0,
+      "remaining_mp": 20
+    },
+    {
+      "monster": "CAVE_RAT",
+      "skill": "scratch",
+      "damage": 20,
+      "healing": 0,
+      "remaining_mp": 20
+    },
+    {
+      "monster": "BROKEN_DRONE",
+      "skill": "spark_shot",
+      "damage": 23,
+      "healing": 0,
+      "remaining_mp": 50
+    },
+    {
+      "monster": "WILD_MUSHROOM",
+      "skill": "toxic_spore",
+      "damage": 22,
+      "healing": 0,
+      "remaining_mp": 60
+    },
+    {
+      "monster": "AETHEL_SPROUTLING",
+      "skill": "thorn_poke",
+      "damage": 11,
+      "healing": 0,
+      "remaining_mp": 35
+    },
+    {
+      "monster": "GARDEN_MITE",
+      "skill": "acid_bite",
+      "damage": 17,
+      "healing": 0,
+      "remaining_mp": 20
+    },
+    {
+      "monster": "FERAL_ROOTLING",
+      "skill": "root_slam",
+      "damage": 17,
+      "healing": 0,
+      "remaining_mp": 22
+    },
+    {
+      "monster": "CRYSTAL_WISP",
+      "skill": "arcane_bolt",
+      "damage": 17,
+      "healing": 0,
+      "remaining_mp": 72
+    },
+    {
+      "monster": "SCRAP_DRONE",
+      "skill": "rotor_slash",
+      "damage": 18,
+      "healing": 0,
+      "remaining_mp": 20
+    },
+    {
+      "monster": "RUSTED_WARDEN",
+      "skill": "shield_bash",
+      "damage": 37,
+      "healing": 0,
+      "remaining_mp": 40
+    },
+    {
+      "monster": "DESERT_SCARAB",
+      "skill": "scarab_charge",
+      "damage": 27,
+      "healing": 0,
+      "remaining_mp": 40
+    },
+    {
+      "monster": "FERAL_SCAVENGER",
+      "skill": "maul_attack",
+      "damage": 46,
+      "healing": 0,
+      "remaining_mp": 14
+    },
+    {
+      "monster": "BROKEN_SENTINEL",
+      "skill": "overhead_crush",
+      "damage": 48,
+      "healing": 0,
+      "remaining_mp": 60
+    },
+    {
+      "monster": "SHARDLING",
+      "skill": "shard_throw",
+      "damage": 15,
+      "healing": 0,
+      "remaining_mp": 50
+    },
+    {
+      "monster": "SWAMP_CRAWLER",
+      "skill": "mud_snap",
+      "damage": 18,
+      "healing": 0,
+      "remaining_mp": 30
+    },
+    {
+      "monster": "JUNGLE_STALKER",
+      "skill": "pounce_strike",
+      "damage": 43,
+      "healing": 0,
+      "remaining_mp": 40
+    },
+    {
+      "monster": "SWAMP_RIPPER",
+      "skill": "tail_cleave",
+      "damage": 47,
+      "healing": 0,
+      "remaining_mp": 50
+    },
+    {
+      "monster": "CONTRABAND_GOLEM",
+      "skill": "ground_smash",
+      "damage": 59,
+      "healing": 0,
+      "remaining_mp": 48
+    },
+    {
+      "monster": "SHARDROOT_CREEPER",
+      "skill": "vine_whip",
+      "damage": 38,
+      "healing": 0,
+      "remaining_mp": 45
+    },
+    {
+      "monster": "SWAMP_SPECTER",
+      "skill": "void_bolt",
+      "damage": 43,
+      "healing": 0,
+      "remaining_mp": 108
+    },
+    {
+      "monster": "SHARDROOT_TITAN",
+      "skill": "root_quake",
+      "damage": 58,
+      "healing": 0,
+      "remaining_mp": 80
+    },
+    {
+      "monster": "ASH_HOUND",
+      "skill": "ember_bite",
+      "damage": 41,
+      "healing": 0,
+      "remaining_mp": 30
+    },
+    {
+      "monster": "AETHEL_BEHEMOTH",
+      "skill": "cataclysm_slam",
+      "damage": 193,
+      "healing": 0,
+      "remaining_mp": 400
+    },
+    {
+      "monster": "SLIME_KING",
+      "skill": "slime_wave",
+      "damage": 114,
+      "healing": 0,
+      "remaining_mp": 210
+    },
+    {
+      "monster": "SLIME_KING",
+      "skill": "gel_smash",
+      "damage": 75,
+      "healing": 0,
+      "remaining_mp": 215
+    },
+    {
+      "monster": "SLIME_KING",
+      "skill": "mini_slime_spawn",
+      "damage": 0,
+      "healing": 0,
+      "remaining_mp": 200
+    },
+    {
+      "monster": "GIANT_ALPHA_RAT",
+      "skill": "feral_bite",
+      "damage": 105,
+      "healing": 0,
+      "remaining_mp": 175
+    },
+    {
+      "monster": "GIANT_ALPHA_RAT",
+      "skill": "tail_whip",
+      "damage": 93,
+      "healing": 0,
+      "remaining_mp": 180
+    },
+    {
+      "monster": "GIANT_ALPHA_RAT",
+      "skill": "berserk_rush",
+      "damage": 123,
+      "healing": 0,
+      "remaining_mp": 160
+    },
+    {
+      "monster": "SCRAPFIELD_ENFORCER",
+      "skill": "shock_blast",
+      "damage": 116,
+      "healing": 0,
+      "remaining_mp": 301
+    },
+    {
+      "monster": "SCRAPFIELD_ENFORCER",
+      "skill": "overcharge",
+      "damage": 92,
+      "healing": 0,
+      "remaining_mp": 350
+    },
+    {
+      "monster": "SCRAPFIELD_ENFORCER",
+      "skill": "electric_surge",
+      "damage": 92,
+      "healing": 0,
+      "remaining_mp": 350
+    },
+    {
+      "monster": "DUNE_STINGER",
+      "skill": "sting_thrust",
+      "damage": 108,
+      "healing": 0,
+      "remaining_mp": 300
+    },
+    {
+      "monster": "DUNE_STINGER",
+      "skill": "sand_dash",
+      "damage": 108,
+      "healing": 0,
+      "remaining_mp": 300
+    },
+    {
+      "monster": "DUNE_STINGER",
+      "skill": "venom_burst",
+      "damage": 108,
+      "healing": 0,
+      "remaining_mp": 300
+    },
+    {
+      "monster": "SCRAP_CRAWLER",
+      "skill": "rotor_slash",
+      "damage": 22,
+      "healing": 0,
+      "remaining_mp": 30
+    },
+    {
+      "monster": "RUST_MITE",
+      "skill": "acid_bite",
+      "damage": 20,
+      "healing": 0,
+      "remaining_mp": 20
+    },
+    {
+      "monster": "CRADLE_WARDEN",
+      "skill": "arcane_slam",
+      "damage": 101,
+      "healing": 0,
+      "remaining_mp": 200
+    },
+    {
+      "monster": "CRADLE_SENTINEL",
+      "skill": "resonance_burst",
+      "damage": 150,
+      "healing": 0,
+      "remaining_mp": 350
+    },
+    {
+      "monster": "CORAL_TIDAL_CRAB",
+      "skill": "claw_snap",
+      "damage": 20,
+      "healing": 0,
+      "remaining_mp": 20
+    },
+    {
+      "monster": "TIDE_MUDLING",
+      "skill": "mud_throw",
+      "damage": 23,
+      "healing": 0,
+      "remaining_mp": 40
+    },
+    {
+      "monster": "PLATEAU_DRONE",
+      "skill": "spark_shot",
+      "damage": 22,
+      "healing": 0,
+      "remaining_mp": 50
+    },
+    {
+      "monster": "HIGHLAND_GOATLING",
+      "skill": "horn_charge",
+      "damage": 27,
+      "healing": 0,
+      "remaining_mp": 20
+    },
+    {
+      "monster": "OMNI_SURVEY_BOT",
+      "skill": "pulse_shot",
+      "damage": 28,
+      "healing": 0,
+      "remaining_mp": 60
+    },
+    {
+      "monster": "GLOWVINE_SPRITE",
+      "skill": "luminous_bolt",
+      "damage": 17,
+      "healing": 0,
+      "remaining_mp": 80
+    },
+    {
+      "monster": "FOREST_BARKLING",
+      "skill": "branch_slam",
+      "damage": 25,
+      "healing": 0,
+      "remaining_mp": 30
+    },
+    {
+      "monster": "SAND_RUNNER",
+      "skill": "sand_slash",
+      "damage": 25,
+      "healing": 0,
+      "remaining_mp": 20
+    },
+    {
+      "monster": "DUNE_GNASHER",
+      "skill": "gnaw_bite",
+      "damage": 33,
+      "healing": 0,
+      "remaining_mp": 20
+    },
+    {
+      "monster": "CRADLE_FRAGMENT_BEAST",
+      "skill": "fragment_slash",
+      "damage": 66,
+      "healing": 0,
+      "remaining_mp": 120
+    },
+    {
+      "monster": "GLASS_WISP",
+      "skill": "shard_bolt",
+      "damage": 38,
+      "healing": 0,
+      "remaining_mp": 150
+    },
+    {
+      "monster": "CRYSTAL_RAM",
+      "skill": "crystal_charge",
+      "damage": 50,
+      "healing": 0,
+      "remaining_mp": 60
+    },
+    {
+      "monster": "RAVINE_SCRAP_GOLEM",
+      "skill": "scrap_crush",
+      "damage": 73,
+      "healing": 0,
+      "remaining_mp": 80
+    },
+    {
+      "monster": "JUNGLE_VENOMFANG",
+      "skill": "venom_bite",
+      "damage": 51,
+      "healing": 0,
+      "remaining_mp": 10
+    },
+    {
+      "monster": "CRADLE_PURIFIER",
+      "skill": "purge_beam",
+      "damage": 169,
+      "healing": 0,
+      "remaining_mp": 340
+    },
+    {
+      "monster": "ARCANE_RIFT_BEAST",
+      "skill": "rift_claw",
+      "damage": 231,
+      "healing": 0,
+      "remaining_mp": 362
+    },
+    {
+      "monster": "TITAN_FORGE_AUTOMATON",
+      "skill": "molten_strike",
+      "damage": 230,
+      "healing": 0,
+      "remaining_mp": 150
+    },
+    {
+      "monster": "SUNKEN_AETHEL_LEVIATHAN",
+      "skill": "tidal_crush",
+      "damage": 267,
+      "healing": 0,
+      "remaining_mp": 320
+    },
+    {
+      "monster": "STORM_RIFT_SERPENT",
+      "skill": "storm_bite",
+      "damage": 342,
+      "healing": 0,
+      "remaining_mp": 410
+    },
+    {
+      "monster": "AETHEL_CORRUPTED_BEHEMOTH",
+      "skill": "corrupted_slam",
+      "damage": 432,
+      "healing": 0,
+      "remaining_mp": 390
+    },
+    {
+      "monster": "AETHEL_CORRUPTED_BEHEMOTH",
+      "skill": "aethel_shockwave",
+      "damage": 534,
+      "healing": 0,
+      "remaining_mp": 375
+    },
+    {
+      "monster": "CRYSTAL_TYRANT_DUNGEON",
+      "skill": "crystal_slam",
+      "damage": 1417,
+      "healing": 0,
+      "remaining_mp": 6000
+    },
+    {
+      "monster": "CRYSTAL_TYRANT_DUNGEON",
+      "skill": "shard_barrage",
+      "damage": 1417,
+      "healing": 0,
+      "remaining_mp": 6000
+    },
+    {
+      "monster": "CRYSTAL_TYRANT_DUNGEON",
+      "skill": "crystal_spike_field",
+      "damage": 1417,
+      "healing": 0,
+      "remaining_mp": 6000
+    },
+    {
+      "monster": "CRYSTAL_TYRANT_DUNGEON",
+      "skill": "tyrant_crystal_cataclysm",
+      "damage": 1417,
+      "healing": 0,
+      "remaining_mp": 6000
+    },
+    {
+      "monster": "VOID_REAVER",
+      "skill": "void_slash",
+      "damage": 283,
+      "healing": 0,
+      "remaining_mp": 760
+    },
+    {
+      "monster": "VOID_REAVER",
+      "skill": "rift_step",
+      "damage": 283,
+      "healing": 0,
+      "remaining_mp": 800
+    },
+    {
+      "monster": "GLOW_SPORELING",
+      "skill": "glow_spore",
+      "damage": 28,
+      "healing": 0,
+      "remaining_mp": 60
+    },
+    {
+      "monster": "VINE_STRIKER",
+      "skill": "vine_whip",
+      "damage": 37,
+      "healing": 0,
+      "remaining_mp": 45
+    },
+    {
+      "monster": "TUNNEL_CRAWLER",
+      "skill": "burrow_strike",
+      "damage": 43,
+      "healing": 0,
+      "remaining_mp": 12
+    },
+    {
+      "monster": "ARCANE_SHARDLING",
+      "skill": "arcane_shard",
+      "damage": 38,
+      "healing": 0,
+      "remaining_mp": 96
+    },
+    {
+      "monster": "FERAL_SAND_IMP",
+      "skill": "ember_claw",
+      "damage": 46,
+      "healing": 0,
+      "remaining_mp": 70
+    },
+    {
+      "monster": "AETHEL_WISP",
+      "skill": "aethel_pulse",
+      "damage": 46,
+      "healing": 0,
+      "remaining_mp": 130
+    },
+    {
+      "monster": "BROKEN_PATROL_DRONE",
+      "skill": "shock_burst",
+      "damage": 57,
+      "healing": 0,
+      "remaining_mp": 92
+    },
+    {
+      "monster": "CRYSTAL_SKITTER",
+      "skill": "shard_spike",
+      "damage": 52,
+      "healing": 0,
+      "remaining_mp": 68
+    },
+    {
+      "monster": "SCRAP_HOUND",
+      "skill": "maul_attack",
+      "damage": 70,
+      "healing": 0,
+      "remaining_mp": 24
+    },
+    {
+      "monster": "GLOWROOT_SHAMAN",
+      "skill": "spore_burst",
+      "damage": 107,
+      "healing": 0,
+      "remaining_mp": 220
+    },
+    {
+      "monster": "GLOWROOT_SHAMAN",
+      "skill": "nature_heal",
+      "damage": 0,
+      "healing": 0,
+      "remaining_mp": 225
+    },
+    {
+      "monster": "MEADOW_RABID_HARE",
+      "skill": "quick_bite",
+      "damage": 24,
+      "healing": 0,
+      "remaining_mp": 20
+    },
+    {
+      "monster": "BROKEN_SCAVENGER",
+      "skill": "rusty_slash",
+      "damage": 43,
+      "healing": 0,
+      "remaining_mp": 46
+    },
+    {
+      "monster": "FOREST_STAGLING",
+      "skill": "antler_charge",
+      "damage": 46,
+      "healing": 0,
+      "remaining_mp": 34
+    },
+    {
+      "monster": "CRYSTAL_MITE",
+      "skill": "crystal_puncture",
+      "damage": 38,
+      "healing": 0,
+      "remaining_mp": 62
+    },
+    {
+      "monster": "DUNE_SCORPION",
+      "skill": "sting_strike",
+      "damage": 59,
+      "healing": 0,
+      "remaining_mp": 50
+    },
+    {
+      "monster": "GLOWVINE_WARDEN",
+      "skill": "vine_crush",
+      "damage": 127,
+      "healing": 0,
+      "remaining_mp": 270
+    },
+    {
+      "monster": "GLOWVINE_WARDEN",
+      "skill": "root_snare",
+      "damage": 80,
+      "healing": 0,
+      "remaining_mp": 274
+    },
+    {
+      "monster": "LUMI_SPRITE",
+      "skill": "spark_thorn",
+      "damage": 30,
+      "healing": 0,
+      "remaining_mp": 112
+    },
+    {
+      "monster": "THORN_STALKER",
+      "skill": "thorn_pounce",
+      "damage": 58,
+      "healing": 0,
+      "remaining_mp": 80
+    },
+    {
+      "monster": "THORN_STALKER",
+      "skill": "bleed_claw",
+      "damage": 51,
+      "healing": 0,
+      "remaining_mp": 82
+    },
+    {
+      "monster": "VELDT_SCAVENGER",
+      "skill": "claw_swipe",
+      "damage": 50,
+      "healing": 0,
+      "remaining_mp": 34
+    },
+    {
+      "monster": "ALPHA_RAVAGER",
+      "skill": "ravage_bite",
+      "damage": 109,
+      "healing": 0,
+      "remaining_mp": 108
+    },
+    {
+      "monster": "ALPHA_RAVAGER",
+      "skill": "pack_call",
+      "damage": 0,
+      "healing": 0,
+      "remaining_mp": 105
+    },
+    {
+      "monster": "RUST_DRONE",
+      "skill": "laser_burst",
+      "damage": 66,
+      "healing": 0,
+      "remaining_mp": 190
+    },
+    {
+      "monster": "RUST_DRONE",
+      "skill": "overcharge_strike",
+      "damage": 81,
+      "healing": 0,
+      "remaining_mp": 186
+    },
+    {
+      "monster": "FLESH_ABERRANT",
+      "skill": "flesh_slash",
+      "damage": 58,
+      "healing": 0,
+      "remaining_mp": 80
+    },
+    {
+      "monster": "FLESH_ABERRANT",
+      "skill": "bio_spasm",
+      "damage": 58,
+      "healing": 0,
+      "remaining_mp": 80
+    },
+    {
+      "monster": "MUTAGEN_DEVOURER",
+      "skill": "devour_bite",
+      "damage": 88,
+      "healing": 0,
+      "remaining_mp": 120
+    },
+    {
+      "monster": "MUTAGEN_DEVOURER",
+      "skill": "mutagen_burst",
+      "damage": 88,
+      "healing": 0,
+      "remaining_mp": 120
+    },
+    {
+      "monster": "PARASITE_BRUTE",
+      "skill": "crush_claw",
+      "damage": 75,
+      "healing": 0,
+      "remaining_mp": 60
+    },
+    {
+      "monster": "PARASITE_BRUTE",
+      "skill": "parasite_spit",
+      "damage": 75,
+      "healing": 0,
+      "remaining_mp": 60
+    },
+    {
+      "monster": "VENOM_HUSK",
+      "skill": "toxic_spit",
+      "damage": 54,
+      "healing": 0,
+      "remaining_mp": 120
+    },
+    {
+      "monster": "VENOM_HUSK",
+      "skill": "venom_claw",
+      "damage": 54,
+      "healing": 0,
+      "remaining_mp": 120
+    },
+    {
+      "monster": "NEURAL_FEEDER",
+      "skill": "mind_bite",
+      "damage": 86,
+      "healing": 0,
+      "remaining_mp": 347
+    },
+    {
+      "monster": "NEURAL_FEEDER",
+      "skill": "synapse_drain",
+      "damage": 98,
+      "healing": 0,
+      "remaining_mp": 343
+    },
+    {
+      "monster": "TUMOR_BEHEMOTH",
+      "skill": "slam_crush",
+      "damage": 100,
+      "healing": 0,
+      "remaining_mp": 200
+    },
+    {
+      "monster": "TUMOR_BEHEMOTH",
+      "skill": "flesh_erupt",
+      "damage": 100,
+      "healing": 0,
+      "remaining_mp": 200
+    },
+    {
+      "monster": "SPORE_LEVIATHAN",
+      "skill": "spore_cloud",
+      "damage": 84,
+      "healing": 0,
+      "remaining_mp": 234
+    },
+    {
+      "monster": "SPORE_LEVIATHAN",
+      "skill": "toxic_burst",
+      "damage": 106,
+      "healing": 0,
+      "remaining_mp": 250
+    },
+    {
+      "monster": "CARRION_MUTANT",
+      "skill": "rotting_bite",
+      "damage": 67,
+      "healing": 0,
+      "remaining_mp": 70
+    },
+    {
+      "monster": "CARRION_MUTANT",
+      "skill": "flesh_rip",
+      "damage": 67,
+      "healing": 0,
+      "remaining_mp": 70
+    },
+    {
+      "monster": "ROTSPAWN_HORROR",
+      "skill": "decay_bite",
+      "damage": 92,
+      "healing": 0,
+      "remaining_mp": 150
+    },
+    {
+      "monster": "ROTSPAWN_HORROR",
+      "skill": "toxic_slam",
+      "damage": 92,
+      "healing": 0,
+      "remaining_mp": 150
+    },
+    {
+      "monster": "HEMOPHAGE_STALKER",
+      "skill": "blood_claw",
+      "damage": 88,
+      "healing": 0,
+      "remaining_mp": 160
+    },
+    {
+      "monster": "HEMOPHAGE_STALKER",
+      "skill": "hemophage_bite",
+      "damage": 88,
+      "healing": 0,
+      "remaining_mp": 160
+    },
+    {
+      "monster": "ROGUE_WAR_DRONE",
+      "skill": "laser_burst",
+      "damage": 74,
+      "healing": 0,
+      "remaining_mp": 110
+    },
+    {
+      "monster": "ROGUE_WAR_DRONE",
+      "skill": "overcharge_strike",
+      "damage": 90,
+      "healing": 0,
+      "remaining_mp": 106
+    },
+    {
+      "monster": "SCRAP_GOLIATH",
+      "skill": "crush_slam",
+      "damage": 132,
+      "healing": 0,
+      "remaining_mp": 66
+    },
+    {
+      "monster": "SCRAP_GOLIATH",
+      "skill": "overcharge_strike",
+      "damage": 118,
+      "healing": 0,
+      "remaining_mp": 66
+    },
+    {
+      "monster": "IRON_STALKER",
+      "skill": "steel_slash",
+      "damage": 78,
+      "healing": 0,
+      "remaining_mp": 131
+    },
+    {
+      "monster": "IRON_STALKER",
+      "skill": "servo_dash",
+      "damage": 72,
+      "healing": 0,
+      "remaining_mp": 130
+    },
+    {
+      "monster": "MACHINE_REVENANT",
+      "skill": "shock_slash",
+      "damage": 113,
+      "healing": 0,
+      "remaining_mp": 286
+    },
+    {
+      "monster": "MACHINE_REVENANT",
+      "skill": "energy_discharge",
+      "damage": 120,
+      "healing": 0,
+      "remaining_mp": 284
+    },
+    {
+      "monster": "RUST_TYRANT",
+      "skill": "tyrant_crush",
+      "damage": 173,
+      "healing": 0,
+      "remaining_mp": 182
+    },
+    {
+      "monster": "RUST_TYRANT",
+      "skill": "overcharge_strike",
+      "damage": 137,
+      "healing": 0,
+      "remaining_mp": 186
+    },
+    {
+      "monster": "CYBER_HOUND",
+      "skill": "cyber_bite",
+      "damage": 66,
+      "healing": 0,
+      "remaining_mp": 82
+    },
+    {
+      "monster": "CYBER_HOUND",
+      "skill": "servo_dash",
+      "damage": 63,
+      "healing": 0,
+      "remaining_mp": 80
+    },
+    {
+      "monster": "AUTO_SENTINEL",
+      "skill": "laser_burst",
+      "damage": 86,
+      "healing": 0,
+      "remaining_mp": 210
+    },
+    {
+      "monster": "AUTO_SENTINEL",
+      "skill": "shield_pulse",
+      "damage": 0,
+      "healing": 0,
+      "remaining_mp": 208
+    },
+    {
+      "monster": "SIEGE_REAPER",
+      "skill": "plasma_lance",
+      "damage": 159,
+      "healing": 0,
+      "remaining_mp": 252
+    },
+    {
+      "monster": "SIEGE_REAPER",
+      "skill": "crusher_claw",
+      "damage": 129,
+      "healing": 0,
+      "remaining_mp": 262
+    },
+    {
+      "monster": "SIEGE_REAPER",
+      "skill": "reactor_overdrive",
+      "damage": 0,
+      "healing": 0,
+      "remaining_mp": 245
+    },
+    {
+      "monster": "RESONANCE_ECHO",
+      "skill": "strike",
+      "damage": 220,
+      "healing": 0,
+      "remaining_mp": 900
+    },
+    {
+      "monster": "RESONANCE_ECHO",
+      "skill": "power_slash",
+      "damage": 220,
+      "healing": 0,
+      "remaining_mp": 900
+    },
+    {
+      "monster": "AETHEL_GARDEN_CRITTER",
+      "skill": "strike",
+      "damage": 13,
+      "healing": 0,
+      "remaining_mp": 20
+    },
+    {
+      "monster": "WETLAND_CRAWLER",
+      "skill": "strike",
+      "damage": 14,
+      "healing": 0,
+      "remaining_mp": 15
+    },
+    {
+      "monster": "SCRAP_HOUND_FERAL",
+      "skill": "strike",
+      "damage": 15,
+      "healing": 0,
+      "remaining_mp": 15
+    },
+    {
+      "monster": "CRYSTAL_SPROUTLING",
+      "skill": "strike",
+      "damage": 13,
+      "healing": 0,
+      "remaining_mp": 20
+    },
+    {
+      "monster": "DUNE_SCAVENGER",
+      "skill": "strike",
+      "damage": 15,
+      "healing": 0,
+      "remaining_mp": 15
+    },
+    {
+      "monster": "GARDEN_STINGER",
+      "skill": "strike",
+      "damage": 17,
+      "healing": 0,
+      "remaining_mp": 20
+    },
+    {
+      "monster": "AETHEL_BLOSSOM_BEAST",
+      "skill": "strike",
+      "damage": 20,
+      "healing": 0,
+      "remaining_mp": 30
+    },
+    {
+      "monster": "CRYSTAL_SPRITE",
+      "skill": "strike",
+      "damage": 18,
+      "healing": 0,
+      "remaining_mp": 40
+    },
+    {
+      "monster": "GLASS_CRAWLER",
+      "skill": "strike",
+      "damage": 21,
+      "healing": 0,
+      "remaining_mp": 20
+    },
+    {
+      "monster": "SCRAP_RAT",
+      "skill": "strike",
+      "damage": 16,
+      "healing": 0,
+      "remaining_mp": 10
+    },
+    {
+      "monster": "WETLAND_TOADLING",
+      "skill": "strike",
+      "damage": 17,
+      "healing": 0,
+      "remaining_mp": 20
+    },
+    {
+      "monster": "CORAL_SERPENT",
+      "skill": "strike",
+      "damage": 20,
+      "healing": 0,
+      "remaining_mp": 20
+    },
+    {
+      "monster": "HIGHLAND_GOATLING_YOUNG",
+      "skill": "strike",
+      "damage": 18,
+      "healing": 0,
+      "remaining_mp": 10
+    },
+    {
+      "monster": "PLATEAU_HARE",
+      "skill": "strike",
+      "damage": 13,
+      "healing": 0,
+      "remaining_mp": 5
+    },
+    {
+      "monster": "STONE_ARMADILLO",
+      "skill": "strike",
+      "damage": 20,
+      "healing": 0,
+      "remaining_mp": 10
+    },
+    {
+      "monster": "GLOWVINE_STALKER",
+      "skill": "strike",
+      "damage": 22,
+      "healing": 0,
+      "remaining_mp": 30
+    },
+    {
+      "monster": "DUNE_STALKER",
+      "skill": "strike",
+      "damage": 18,
+      "healing": 0,
+      "remaining_mp": 15
+    },
+    {
+      "monster": "SCORCHED_SCARAB",
+      "skill": "strike",
+      "damage": 22,
+      "healing": 0,
+      "remaining_mp": 20
+    },
+    {
+      "monster": "CIVIL_SCAVENGER",
+      "skill": "strike",
+      "damage": 44,
+      "healing": 0,
+      "remaining_mp": 50
+    },
+    {
+      "monster": "CIVIL_SCAVENGER",
+      "skill": "power_slash",
+      "damage": 44,
+      "healing": 0,
+      "remaining_mp": 50
+    },
+    {
+      "monster": "GLASS_STALKER",
+      "skill": "strike",
+      "damage": 43,
+      "healing": 0,
+      "remaining_mp": 40
+    },
+    {
+      "monster": "IRON_RAVINE_BRUTE",
+      "skill": "strike",
+      "damage": 48,
+      "healing": 0,
+      "remaining_mp": 50
+    },
+    {
+      "monster": "IRON_RAVINE_BRUTE",
+      "skill": "power_slash",
+      "damage": 48,
+      "healing": 0,
+      "remaining_mp": 50
+    },
+    {
+      "monster": "BADLAND_HUNTER",
+      "skill": "strike",
+      "damage": 44,
+      "healing": 0,
+      "remaining_mp": 40
+    },
+    {
+      "monster": "CIVIL_RAT_ALPHA",
+      "skill": "strike",
+      "damage": 64,
+      "healing": 0,
+      "remaining_mp": 60
+    },
+    {
+      "monster": "CIVIL_RAT_ALPHA",
+      "skill": "power_slash",
+      "damage": 64,
+      "healing": 0,
+      "remaining_mp": 60
+    },
+    {
+      "monster": "CIVIL_MUTANT_HOUND",
+      "skill": "strike",
+      "damage": 72,
+      "healing": 0,
+      "remaining_mp": 60
+    },
+    {
+      "monster": "CIVIL_MUTANT_HOUND",
+      "skill": "power_slash",
+      "damage": 72,
+      "healing": 0,
+      "remaining_mp": 60
+    },
+    {
+      "monster": "JUNGLE_VINE_BEAST",
+      "skill": "strike",
+      "damage": 61,
+      "healing": 0,
+      "remaining_mp": 80
+    },
+    {
+      "monster": "JUNGLE_SCARAB",
+      "skill": "strike",
+      "damage": 57,
+      "healing": 0,
+      "remaining_mp": 40
+    },
+    {
+      "monster": "CRADLE_ANOMALY_WOLF",
+      "skill": "strike",
+      "damage": 72,
+      "healing": 0,
+      "remaining_mp": 90
+    },
+    {
+      "monster": "CRADLE_ANOMALY_WOLF",
+      "skill": "power_slash",
+      "damage": 72,
+      "healing": 0,
+      "remaining_mp": 90
+    },
+    {
+      "monster": "CRADLE_ANOMALY_BEASTLING",
+      "skill": "strike",
+      "damage": 81,
+      "healing": 0,
+      "remaining_mp": 110
+    },
+    {
+      "monster": "GLASS_RAVAGER",
+      "skill": "strike",
+      "damage": 101,
+      "healing": 0,
+      "remaining_mp": 140
+    },
+    {
+      "monster": "GLASS_RAVAGER",
+      "skill": "power_slash",
+      "damage": 101,
+      "healing": 0,
+      "remaining_mp": 140
+    },
+    {
+      "monster": "GLASS_TYRANTLING",
+      "skill": "strike",
+      "damage": 108,
+      "healing": 0,
+      "remaining_mp": 160
+    },
+    {
+      "monster": "GLASS_TYRANTLING",
+      "skill": "power_slash",
+      "damage": 108,
+      "healing": 0,
+      "remaining_mp": 160
+    },
+    {
+      "monster": "SHARDROOT_STALKER",
+      "skill": "strike",
+      "damage": 75,
+      "healing": 0,
+      "remaining_mp": 100
+    },
+    {
+      "monster": "SWAMP_STINGER",
+      "skill": "strike",
+      "damage": 83,
+      "healing": 0,
+      "remaining_mp": 80
+    },
+    {
+      "monster": "SWAMP_STINGER",
+      "skill": "power_slash",
+      "damage": 83,
+      "healing": 0,
+      "remaining_mp": 80
+    },
+    {
+      "monster": "SWAMP_MUTANT_BEAST",
+      "skill": "strike",
+      "damage": 110,
+      "healing": 0,
+      "remaining_mp": 120
+    },
+    {
+      "monster": "SWAMP_MUTANT_BEAST",
+      "skill": "power_slash",
+      "damage": 110,
+      "healing": 0,
+      "remaining_mp": 120
+    },
+    {
+      "monster": "RESONANCE_BAT",
+      "skill": "strike",
+      "damage": 79,
+      "healing": 0,
+      "remaining_mp": 90
+    },
+    {
+      "monster": "RESONANCE_GOLEM",
+      "skill": "strike",
+      "damage": 128,
+      "healing": 0,
+      "remaining_mp": 140
+    },
+    {
+      "monster": "RESONANCE_GOLEM",
+      "skill": "power_slash",
+      "damage": 128,
+      "healing": 0,
+      "remaining_mp": 140
+    },
+    {
+      "monster": "BADLAND_SCORPION",
+      "skill": "strike",
+      "damage": 83,
+      "healing": 0,
+      "remaining_mp": 60
+    },
+    {
+      "monster": "BADLAND_BRUTE",
+      "skill": "strike",
+      "damage": 124,
+      "healing": 0,
+      "remaining_mp": 120
+    },
+    {
+      "monster": "BADLAND_BRUTE",
+      "skill": "power_slash",
+      "damage": 124,
+      "healing": 0,
+      "remaining_mp": 120
+    },
+    {
+      "monster": "IRON_RAVINE_MINER",
+      "skill": "strike",
+      "damage": 79,
+      "healing": 0,
+      "remaining_mp": 80
+    },
+    {
+      "monster": "IRON_RAVINE_SENTINEL",
+      "skill": "strike",
+      "damage": 119,
+      "healing": 0,
+      "remaining_mp": 140
+    },
+    {
+      "monster": "IRON_RAVINE_SENTINEL",
+      "skill": "power_slash",
+      "damage": 119,
+      "healing": 0,
+      "remaining_mp": 140
+    },
+    {
+      "monster": "WAR_MACHINE_WRECKER",
+      "skill": "strike",
+      "damage": 147,
+      "healing": 0,
+      "remaining_mp": 160
+    },
+    {
+      "monster": "WAR_MACHINE_WRECKER",
+      "skill": "power_slash",
+      "damage": 147,
+      "healing": 0,
+      "remaining_mp": 160
+    },
+    {
+      "monster": "WAR_MACHINE_SCAVENGER",
+      "skill": "strike",
+      "damage": 152,
+      "healing": 0,
+      "remaining_mp": 150
+    },
+    {
+      "monster": "WAR_MACHINE_SENTINEL",
+      "skill": "strike",
+      "damage": 193,
+      "healing": 0,
+      "remaining_mp": 240
+    },
+    {
+      "monster": "WAR_MACHINE_SENTINEL",
+      "skill": "power_slash",
+      "damage": 193,
+      "healing": 0,
+      "remaining_mp": 240
+    },
+    {
+      "monster": "BLACK_DOCK_SMUGGLER",
+      "skill": "strike",
+      "damage": 165,
+      "healing": 0,
+      "remaining_mp": 200
+    },
+    {
+      "monster": "BLACK_DOCK_SMUGGLER",
+      "skill": "power_slash",
+      "damage": 165,
+      "healing": 0,
+      "remaining_mp": 200
+    },
+    {
+      "monster": "BLACK_DOCK_ASSASSIN",
+      "skill": "strike",
+      "damage": 179,
+      "healing": 0,
+      "remaining_mp": 220
+    },
+    {
+      "monster": "BLACK_DOCK_ENFORCER",
+      "skill": "strike",
+      "damage": 211,
+      "healing": 0,
+      "remaining_mp": 260
+    },
+    {
+      "monster": "BLACK_DOCK_ENFORCER",
+      "skill": "power_slash",
+      "damage": 211,
+      "healing": 0,
+      "remaining_mp": 260
+    },
+    {
+      "monster": "DELTA_MINING_DRONE",
+      "skill": "strike",
+      "damage": 138,
+      "healing": 0,
+      "remaining_mp": 150
+    },
+    {
+      "monster": "DELTA_SECURITY_DRONE",
+      "skill": "strike",
+      "damage": 156,
+      "healing": 0,
+      "remaining_mp": 180
+    },
+    {
+      "monster": "DELTA_ASSAULT_DRONE",
+      "skill": "strike",
+      "damage": 202,
+      "healing": 0,
+      "remaining_mp": 240
+    },
+    {
+      "monster": "DELTA_ASSAULT_DRONE",
+      "skill": "power_slash",
+      "damage": 202,
+      "healing": 0,
+      "remaining_mp": 240
+    },
+    {
+      "monster": "GRID_SENTINEL_DRONE",
+      "skill": "strike",
+      "damage": 174,
+      "healing": 0,
+      "remaining_mp": 200
+    },
+    {
+      "monster": "GRID_DEFENDER",
+      "skill": "strike",
+      "damage": 183,
+      "healing": 0,
+      "remaining_mp": 220
+    },
+    {
+      "monster": "GRID_DEFENDER",
+      "skill": "power_slash",
+      "damage": 183,
+      "healing": 0,
+      "remaining_mp": 220
+    },
+    {
+      "monster": "GRID_ASSAULT_UNIT",
+      "skill": "strike",
+      "damage": 220,
+      "healing": 0,
+      "remaining_mp": 260
+    },
+    {
+      "monster": "GRID_ASSAULT_UNIT",
+      "skill": "power_slash",
+      "damage": 220,
+      "healing": 0,
+      "remaining_mp": 260
+    },
+    {
+      "monster": "SHRINE_WARDEN",
+      "skill": "strike",
+      "damage": 165,
+      "healing": 0,
+      "remaining_mp": 260
+    },
+    {
+      "monster": "SHRINE_AVENGER",
+      "skill": "strike",
+      "damage": 183,
+      "healing": 0,
+      "remaining_mp": 300
+    },
+    {
+      "monster": "SHRINE_AVENGER",
+      "skill": "power_slash",
+      "damage": 183,
+      "healing": 0,
+      "remaining_mp": 300
+    },
+    {
+      "monster": "SHRINE_GUARDIAN",
+      "skill": "strike",
+      "damage": 238,
+      "healing": 0,
+      "remaining_mp": 340
+    },
+    {
+      "monster": "SHRINE_GUARDIAN",
+      "skill": "power_slash",
+      "damage": 238,
+      "healing": 0,
+      "remaining_mp": 340
+    },
+    {
+      "monster": "WARPATH_SCOUT",
+      "skill": "strike",
+      "damage": 193,
+      "healing": 0,
+      "remaining_mp": 200
+    },
+    {
+      "monster": "WARPATH_VETERAN",
+      "skill": "strike",
+      "damage": 202,
+      "healing": 0,
+      "remaining_mp": 220
+    },
+    {
+      "monster": "WARPATH_VETERAN",
+      "skill": "power_slash",
+      "damage": 202,
+      "healing": 0,
+      "remaining_mp": 220
+    },
+    {
+      "monster": "WARPATH_CHAMPION",
+      "skill": "strike",
+      "damage": 275,
+      "healing": 0,
+      "remaining_mp": 260
+    },
+    {
+      "monster": "WARPATH_CHAMPION",
+      "skill": "power_slash",
+      "damage": 275,
+      "healing": 0,
+      "remaining_mp": 260
+    },
+    {
+      "monster": "CRADLE_VOID_STALKER",
+      "skill": "strike",
+      "damage": 312,
+      "healing": 0,
+      "remaining_mp": 400
+    },
+    {
+      "monster": "CRADLE_VOID_STALKER",
+      "skill": "power_slash",
+      "damage": 312,
+      "healing": 0,
+      "remaining_mp": 400
+    },
+    {
+      "monster": "INNER_CRADLE_MUTANT",
+      "skill": "strike",
+      "damage": 257,
+      "healing": 0,
+      "remaining_mp": 320
+    },
+    {
+      "monster": "INNER_CRADLE_BEHEMOTH",
+      "skill": "strike",
+      "damage": 330,
+      "healing": 0,
+      "remaining_mp": 420
+    },
+    {
+      "monster": "INNER_CRADLE_BEHEMOTH",
+      "skill": "power_slash",
+      "damage": 330,
+      "healing": 0,
+      "remaining_mp": 420
+    },
+    {
+      "monster": "CRADLE_VOID_TITANLING",
+      "skill": "strike",
+      "damage": 385,
+      "healing": 0,
+      "remaining_mp": 460
+    },
+    {
+      "monster": "CRADLE_VOID_TITANLING",
+      "skill": "power_slash",
+      "damage": 385,
+      "healing": 0,
+      "remaining_mp": 460
+    },
+    {
+      "monster": "SHARD_PULSE_SENTINEL",
+      "skill": "strike",
+      "damage": 303,
+      "healing": 0,
+      "remaining_mp": 420
+    },
+    {
+      "monster": "SHARD_PULSE_GUARDIAN",
+      "skill": "strike",
+      "damage": 385,
+      "healing": 0,
+      "remaining_mp": 520
+    },
+    {
+      "monster": "SHARD_PULSE_GUARDIAN",
+      "skill": "power_slash",
+      "damage": 385,
+      "healing": 0,
+      "remaining_mp": 520
+    },
+    {
+      "monster": "SHARD_PULSE_TYRANT",
+      "skill": "strike",
+      "damage": 568,
+      "healing": 0,
+      "remaining_mp": 900
+    },
+    {
+      "monster": "SHARD_PULSE_TYRANT",
+      "skill": "power_slash",
+      "damage": 568,
+      "healing": 0,
+      "remaining_mp": 900
+    },
+    {
+      "monster": "TITAN_ASSEMBLY_DRONE",
+      "skill": "strike",
+      "damage": 330,
+      "healing": 0,
+      "remaining_mp": 400
+    },
+    {
+      "monster": "TITAN_ASSEMBLY_SENTINEL",
+      "skill": "strike",
+      "damage": 422,
+      "healing": 0,
+      "remaining_mp": 520
+    },
+    {
+      "monster": "TITAN_ASSEMBLY_SENTINEL",
+      "skill": "power_slash",
+      "damage": 422,
+      "healing": 0,
+      "remaining_mp": 520
+    },
+    {
+      "monster": "TITAN_PROTO_CORE",
+      "skill": "strike",
+      "damage": 623,
+      "healing": 0,
+      "remaining_mp": 900
+    },
+    {
+      "monster": "TITAN_PROTO_CORE",
+      "skill": "power_slash",
+      "damage": 623,
+      "healing": 0,
+      "remaining_mp": 900
+    },
+    {
+      "monster": "AETHEL_RIFT_STALKER",
+      "skill": "rift_claw",
+      "damage": 224,
+      "healing": 0,
+      "remaining_mp": 342
+    },
+    {
+      "monster": "AETHEL_RIFT_STALKER",
+      "skill": "void_dash",
+      "damage": 191,
+      "healing": 0,
+      "remaining_mp": 336
+    },
+    {
+      "monster": "AETHEL_IRON_CARAPACE",
+      "skill": "crushing_slam",
+      "damage": 336,
+      "healing": 0,
+      "remaining_mp": 212
+    },
+    {
+      "monster": "AETHEL_IRON_CARAPACE",
+      "skill": "shard_guard",
+      "damage": 0,
+      "healing": 0,
+      "remaining_mp": 220
+    },
+    {
+      "monster": "AETHEL_VOID_CHANNELER",
+      "skill": "void_burst",
+      "damage": 510,
+      "healing": 0,
+      "remaining_mp": 688
+    },
+    {
+      "monster": "AETHEL_VOID_CHANNELER",
+      "skill": "aethel_decay_field",
+      "damage": 376,
+      "healing": 0,
+      "remaining_mp": 680
+    },
+    {
+      "monster": "AETHEL_ABYSSAL_REAVER",
+      "skill": "reaver_slash",
+      "damage": 446,
+      "healing": 0,
+      "remaining_mp": 510
+    },
+    {
+      "monster": "AETHEL_ABYSSAL_REAVER",
+      "skill": "void_rend",
+      "damage": 784,
+      "healing": 0,
+      "remaining_mp": 498
+    },
+    {
+      "monster": "AETHEL_ABYSSAL_REAVER",
+      "skill": "abyssal_roar",
+      "damage": 534,
+      "healing": 0,
+      "remaining_mp": 504
+    },
+    {
+      "monster": "DRAKE_MINION",
+      "skill": "claw_slash",
+      "damage": 533,
+      "healing": 0,
+      "remaining_mp": 1000
+    },
+    {
+      "monster": "DRAKE_MINION",
+      "skill": "ember_bite",
+      "damage": 600,
+      "healing": 0,
+      "remaining_mp": 990
+    },
+    {
+      "monster": "TURRET_MACHINIST",
+      "skill": "turret_shot",
+      "damage": 73,
+      "healing": 0,
+      "remaining_mp": 100
+    },
+    {
+      "monster": "CRYSTAL_DEPTHS_SENTRY",
+      "skill": "crystal_puncture",
+      "damage": 350,
+      "healing": 0,
+      "remaining_mp": 432
+    },
+    {
+      "monster": "CRYSTAL_DEPTHS_SKITTER",
+      "skill": "shard_spike",
+      "damage": 427,
+      "healing": 0,
+      "remaining_mp": 298
+    }
+  ],
+  "limitations": [
+    "MonsterTemplate is extracted verbatim from the actual game source.",
+    "AI decisions, raid phase transitions, UI and complete resistance/scaling semantics are not exercised."
+  ]
+}

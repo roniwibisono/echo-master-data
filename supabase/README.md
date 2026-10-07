@@ -88,22 +88,58 @@ with `tools/export_items.py`. Round-trip vs runtime: 1102 items, 0 diffs.
 
 ## Skills (`skill_list.json` → `skills`)
 
-688 skills (0 duplicate ids) → `public.skills` (`migrations/0005_skills.sql`).
+689 skills (0 duplicate ids) → `public.skills` (`migrations/0005_skills.sql`).
 Scalars as columns (`"range"` is quoted — reserved); the effect arrays +
 `usage_requirements` as JSONB; `effect` is the legacy free-form blob kept
 verbatim. Optional fields (`special_effects`, `usage_requirements`,
 `target_attack`, `target_effect`, `arc_angle_degrees`) are NULL when absent and
 omitted on export. Seed chunked (`skills_seed_part01..05.sql`). Tools:
-`import_skills.py` / `export_skills.py`. Round-trip: 688 skills, 0 semantic diffs.
+`import_skills.py` / `export_skills.py`. Verified against the live database on
+2026-10-08: 689 skills, 0 semantic diffs, 0 empty descriptions or effects.
+
+### Combat content audit (2026-10-08)
+
+`seed/combat_audit_20261008.sql` is a content-only delta for an existing
+database: 685 skill updates, one new passive (`spore_cloud_aura`), and the
+scoped Wild Mushroom passive reference fix. It was validated in a rolled-back
+transaction, then applied to project `fbntgtzimydjhuwedrjz` and verified.
+No schema migration or player-save update is needed. Existing ally base stats,
+rarities, recruitment costs and PvP fields are unchanged.
+
+For another database with the same baseline, run this delta, not
+`apply_all.sql`. For fresh installs use the refreshed five skill chunks and
+monster seeds. Skill imports now reject empty descriptions/effects and
+non-string formulas before replacing any seed file.
+
+See `../combat_data_audit_report.md` for class linkage fixes, balance changes,
+verification commands and outstanding client-engine limitations. Updating
+Supabase does not publish the changed JSON to the game's Git/CDN source.
 
 ## Monsters (`monster_master.json` → `monsters`)
 
-187 monsters (0 dup ids/codes) → `public.monsters` (`migrations/0006_monsters.sql`).
+189 monsters (0 dup ids/codes) → `public.monsters` (`migrations/0006_monsters.sql`).
 Scalars as columns; the list/dict fields (element, spawn_location, base_stats,
 scaling, resistances, weaknesses, status_immunity, ai_pattern, skill_set,
 drop_item, special_reward) as JSONB, with a **GIN index on `drop_item`** so
 "which monster drops item X" is fast. Seed chunked (`monsters_seed_part01..03.sql`).
-Tools: `import_monsters.py` / `export_monsters.py`. Round-trip: 187, 0 diffs.
+Tools: `import_monsters.py` / `export_monsters.py`. Current seeds contain 189
+validated rows; the importer fails before replacing seeds if references or
+required values are broken.
+
+### Monster content audit (2026-10-08)
+
+`seed/monster_audit_20261008.sql` contains 79 field-scoped updates and two new
+Crystal Depths templates for the existing dungeon references 6001/6002.
+The patch only updates audited fields, not complete existing monster rows.
+It includes integrity assertions and a verification query, and passed a live
+Supabase transaction test followed by rollback. **It has not been committed
+to the live database.** No schema or player-save changes are needed.
+
+Apply this delta for the existing database. Use the full seed or three chunks
+for fresh installs. The accompanying `biome_monster_mapping.json` is a CDN
+file, not a migrated table; publish it alongside `monster_master.json`.
+See `../monster_data_audit_report.md` for retained legacy/range warnings and
+client limitations. Do not replay the all-domain bundle as a content update.
 
 ## Allies (`ally_list.json` → `allies`)
 

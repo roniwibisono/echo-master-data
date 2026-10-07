@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-08",
+  "project_id": "fbntgtzimydjhuwedrjz",
+  "patch": "supabase/seed/monster_audit_20261008.sql",
+  "validation_transaction_passed": true,
+  "rolled_back": true,
+  "applied": false,
+  "existing_monster_updates": 79,
+  "new_monsters": 2,
+  "live_monsters_after_rollback": 187,
+  "live_new_dungeon_monsters_after_rollback": 0,
+  "live_undefined_drop_items_after_rollback": 3,
+  "schema_changes": 0
+}

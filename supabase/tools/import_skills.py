@@ -2,6 +2,7 @@
 """Generate chunked skill seed SQL from skill_list.json (top-level list).
 Run:  python3 supabase/tools/import_skills.py"""
 import json, os
+import math
 
 TEXT_REQ  = ['id','name','type','source_type','damage_formula','effect','skill_description','skill_shape']
 TEXT_OPT  = ['target_attack','target_effect']
@@ -40,6 +41,25 @@ def rowvals(sk, order):
 def main():
     root = os.getcwd()
     skills = json.load(open(os.path.join(root, 'skill_list.json')))
+    # Fail before replacing any seed file when source data would recreate the
+    # missing descriptions or invalid formula exports found in the combat audit.
+    seen = set()
+    for skill in skills:
+        sid = skill.get('id')
+        if not sid or sid in seen:
+            raise ValueError(f'Missing or duplicate skill ID: {sid!r}')
+        seen.add(sid)
+        for field in TEXT_REQ:
+            if not isinstance(skill.get(field), str) or not skill[field].strip():
+                raise ValueError(f'{sid}: {field} must be a nonempty string')
+        if skill.get('type') not in ('Active', 'Passive'):
+            raise ValueError(f'{sid}: invalid skill type')
+        for field in NUM_REQ + INT_REQ:
+            value = skill.get(field)
+            if type(value) not in (int, float) or not math.isfinite(value) or value < 0:
+                raise ValueError(f'{sid}: invalid {field}')
+        if type(skill['mp_cost']) is not int:
+            raise ValueError(f'{sid}: mp_cost must be an integer')
     rows = [rowvals(sk, i) for i, sk in enumerate(skills)]
     collist = ', '.join(COLS)
     upd = ', '.join(f'{c}=excluded.{c}' for c in COLS if c != 'id')

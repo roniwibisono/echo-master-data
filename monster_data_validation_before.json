@@ -1,0 +1,1225 @@
+{
+  "monsters": 187,
+  "ranks": {
+    "raid_boss": 4,
+    "hero": 3,
+    "leader": 30,
+    "area_boss": 9,
+    "normal": 112,
+    "elite": 25,
+    "dungeon_boss": 1,
+    "boss": 2,
+    "summon": 1
+  },
+  "counts": {
+    "active_skills": 303,
+    "passive_skills": 199,
+    "phase_skill_links": 25,
+    "drop_links": 350,
+    "world_spawn_links": 234,
+    "dungeon_monster_links": 3,
+    "raid_monster_links": 8,
+    "biome_monster_links": 90
+  },
+  "unreferenced_encounter_templates": [
+    {
+      "monster_id": 4005,
+      "code": "SAND_REAVER",
+      "rank": "leader"
+    },
+    {
+      "monster_id": 4006,
+      "code": "HIVE_REAPER",
+      "rank": "area_boss"
+    },
+    {
+      "monster_id": 4007,
+      "code": "FROST_WARDEN",
+      "rank": "area_boss"
+    },
+    {
+      "monster_id": 4008,
+      "code": "OBSIDIAN_GOLEM",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 4009,
+      "code": "RIFT_ASSASSIN",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 4010,
+      "code": "IRONCOIL_SENTINEL",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 4011,
+      "code": "FERAL_PROGENOI",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 4012,
+      "code": "HELLSCAR_BEAST",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 4013,
+      "code": "ECHO_RESONATOR",
+      "rank": "leader"
+    },
+    {
+      "monster_id": 4014,
+      "code": "ARC_LIGHT_REVENANT",
+      "rank": "area_boss"
+    },
+    {
+      "monster_id": 4015,
+      "code": "SOUL_FRAGMENTER",
+      "rank": "hero"
+    },
+    {
+      "monster_id": 4016,
+      "code": "CELESTIAL_NAVIGATOR",
+      "rank": "leader"
+    },
+    {
+      "monster_id": 5005,
+      "code": "DESERT_SCARAB",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 50014,
+      "code": "SLIME_KING",
+      "rank": "area_boss"
+    },
+    {
+      "monster_id": 5104,
+      "code": "DUNE_STINGER",
+      "rank": "area_boss"
+    },
+    {
+      "monster_id": 801,
+      "code": "LUMI_SPRITE",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 802,
+      "code": "THORN_STALKER",
+      "rank": "leader"
+    },
+    {
+      "monster_id": 803,
+      "code": "VELDT_SCAVENGER",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 804,
+      "code": "ALPHA_RAVAGER",
+      "rank": "area_boss"
+    },
+    {
+      "monster_id": 805,
+      "code": "RUST_DRONE",
+      "rank": "leader"
+    },
+    {
+      "monster_id": 900,
+      "code": "FLESH_ABERRANT",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 901,
+      "code": "MUTAGEN_DEVOURER",
+      "rank": "leader"
+    },
+    {
+      "monster_id": 902,
+      "code": "PARASITE_BRUTE",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 903,
+      "code": "VENOM_HUSK",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 904,
+      "code": "NEURAL_FEEDER",
+      "rank": "elite"
+    },
+    {
+      "monster_id": 913,
+      "code": "TUMOR_BEHEMOTH",
+      "rank": "elite"
+    },
+    {
+      "monster_id": 914,
+      "code": "SPORE_LEVIATHAN",
+      "rank": "elite"
+    },
+    {
+      "monster_id": 915,
+      "code": "CARRION_MUTANT",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 917,
+      "code": "ROTSPAWN_HORROR",
+      "rank": "leader"
+    },
+    {
+      "monster_id": 918,
+      "code": "HEMOPHAGE_STALKER",
+      "rank": "leader"
+    },
+    {
+      "monster_id": 919,
+      "code": "ROGUE_WAR_DRONE",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 920,
+      "code": "SCRAP_GOLIATH",
+      "rank": "elite"
+    },
+    {
+      "monster_id": 921,
+      "code": "IRON_STALKER",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 922,
+      "code": "MACHINE_REVENANT",
+      "rank": "elite"
+    },
+    {
+      "monster_id": 923,
+      "code": "RUST_TYRANT",
+      "rank": "leader"
+    },
+    {
+      "monster_id": 924,
+      "code": "CYBER_HOUND",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 925,
+      "code": "AUTO_SENTINEL",
+      "rank": "elite"
+    },
+    {
+      "monster_id": 926,
+      "code": "SIEGE_REAPER",
+      "rank": "elite"
+    }
+  ],
+  "errors": [
+    {
+      "owner": "ASHEN_DRAKE",
+      "field": "ai_pattern.phase_2.skills",
+      "message": "Not an equipped active skill: flame_prison"
+    },
+    {
+      "owner": "SIEGE_REAPER",
+      "field": "drop_item",
+      "message": "Undefined item: siege_plasma_emitter"
+    },
+    {
+      "owner": "SIEGE_REAPER",
+      "field": "drop_item",
+      "message": "Undefined item: reinforced_hydraulic_frame"
+    },
+    {
+      "owner": "SIEGE_REAPER",
+      "field": "drop_item",
+      "message": "Undefined item: high_density_reactor_core"
+    },
+    {
+      "owner": "crystal_depths",
+      "field": "monster_id",
+      "message": "Undefined monster: 6001"
+    },
+    {
+      "owner": "crystal_depths",
+      "field": "monster_id",
+      "message": "Undefined monster: 6002"
+    },
+    {
+      "owner": "crystal_pass",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5107"
+    },
+    {
+      "owner": "iron_fortress",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5108"
+    },
+    {
+      "owner": "iron_fortress",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5109"
+    },
+    {
+      "owner": "mining_canyon",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5108"
+    },
+    {
+      "owner": "battlefield_junkyard",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5113"
+    },
+    {
+      "owner": "battlefield_junkyard",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5114"
+    },
+    {
+      "owner": "coastal_swamp",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5119"
+    },
+    {
+      "owner": "arcology",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5127"
+    },
+    {
+      "owner": "industrial_mine",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5128"
+    },
+    {
+      "owner": "industrial_mine",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5129"
+    },
+    {
+      "owner": "automated_mine",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5127"
+    },
+    {
+      "owner": "sacred_temple",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5132"
+    },
+    {
+      "owner": "bioluminescent_forest",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5133"
+    },
+    {
+      "owner": "toxic_swamp",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5134"
+    },
+    {
+      "owner": "mesa_fortress",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5137"
+    },
+    {
+      "owner": "mesa_fortress",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5138"
+    },
+    {
+      "owner": "mesa_fortress",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5139"
+    },
+    {
+      "owner": "volcanic_badlands",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5138"
+    },
+    {
+      "owner": "volcanic_badlands",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5143"
+    },
+    {
+      "owner": "rocky_mesa",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5144"
+    },
+    {
+      "owner": "rocky_mesa",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5137"
+    },
+    {
+      "owner": "storm_wasteland",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5153"
+    },
+    {
+      "owner": "storm_wasteland",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5154"
+    },
+    {
+      "owner": "storm_wasteland",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5155"
+    },
+    {
+      "owner": "orbital",
+      "field": "monster_ids",
+      "message": "Undefined monster: 5156"
+    }
+  ],
+  "warnings": [
+    {
+      "owner": "ASHEN_DRAKE",
+      "field": "ai_pattern.behavior",
+      "message": "Client uses generic fallback for rotational_aoe"
+    },
+    {
+      "owner": "ABYSS_HARBINGER",
+      "field": "ai_pattern.behavior",
+      "message": "Client uses generic fallback for single_target_burst"
+    },
+    {
+      "owner": "GRAVITY_TITAN",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "CHRONO_WRAITH",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "SAND_REAVER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "HIVE_REAPER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "FROST_WARDEN",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "OBSIDIAN_GOLEM",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "RIFT_ASSASSIN",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "IRONCOIL_SENTINEL",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "FERAL_PROGENOI",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "HELLSCAR_BEAST",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "ECHO_RESONATOR",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "ARC_LIGHT_REVENANT",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "SOUL_FRAGMENTER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "CELESTIAL_NAVIGATOR",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "FOREST_SLIME",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Green Meadow"
+    },
+    {
+      "owner": "CAVE_RAT",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Abandoned Tunnel"
+    },
+    {
+      "owner": "BROKEN_DRONE",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Scrap Field -> SCRAP_FIELD"
+    },
+    {
+      "owner": "WILD_MUSHROOM",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Green Meadow"
+    },
+    {
+      "owner": "AETHEL_SPROUTLING",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Aethel Gardens -> AETHEL_GARDENS"
+    },
+    {
+      "owner": "GARDEN_MITE",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Aethel Gardens -> AETHEL_GARDENS"
+    },
+    {
+      "owner": "FERAL_ROOTLING",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Aethel Gardens -> AETHEL_GARDENS"
+    },
+    {
+      "owner": "CRYSTAL_WISP",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Crystal Slope -> CRYSTAL_SLOPE"
+    },
+    {
+      "owner": "SCRAP_DRONE",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Scrap Field -> SCRAP_FIELD"
+    },
+    {
+      "owner": "RUSTED_WARDEN",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Broken Civil Quarter -> BROKEN_CIVIL_QUARTER"
+    },
+    {
+      "owner": "DESERT_SCARAB",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dessert of Nadir"
+    },
+    {
+      "owner": "FERAL_SCAVENGER",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Broken Civil Quarter -> BROKEN_CIVIL_QUARTER"
+    },
+    {
+      "owner": "BROKEN_SENTINEL",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Broken Civil Quarter -> BROKEN_CIVIL_QUARTER"
+    },
+    {
+      "owner": "SHARDLING",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Crystal Slope -> CRYSTAL_SLOPE"
+    },
+    {
+      "owner": "SWAMP_CRAWLER",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Coral Wetlands -> CORAL_WETLANDS"
+    },
+    {
+      "owner": "JUNGLE_STALKER",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Smuggler Jungle -> SMUGGLER_JUNGLE"
+    },
+    {
+      "owner": "SWAMP_RIPPER",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Smuggler Jungle -> SMUGGLER_JUNGLE"
+    },
+    {
+      "owner": "CONTRABAND_GOLEM",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Smuggler Jungle -> SMUGGLER_JUNGLE"
+    },
+    {
+      "owner": "SHARDROOT_CREEPER",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Shardroot Swamp -> SHARDROOT_SWAMP"
+    },
+    {
+      "owner": "SWAMP_SPECTER",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Shardroot Swamp -> SHARDROOT_SWAMP"
+    },
+    {
+      "owner": "SHARDROOT_TITAN",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Shardroot Swamp -> SHARDROOT_SWAMP"
+    },
+    {
+      "owner": "ASH_HOUND",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Scorched Badlands -> SCORCHED_BADLANDS"
+    },
+    {
+      "owner": "AETHEL_BEHEMOTH",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Cradle Expanse -> CRADLE_EXPANSE"
+    },
+    {
+      "owner": "SLIME_KING",
+      "field": "ai_pattern.behavior",
+      "message": "Client uses generic fallback for aoe_pressure"
+    },
+    {
+      "owner": "SLIME_KING",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Green Meadow"
+    },
+    {
+      "owner": "GIANT_ALPHA_RAT",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Abandoned Tunnel"
+    },
+    {
+      "owner": "SCRAPFIELD_ENFORCER",
+      "field": "ai_pattern.behavior",
+      "message": "Client uses generic fallback for ranged_pressure"
+    },
+    {
+      "owner": "SCRAPFIELD_ENFORCER",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Scrap Field -> SCRAP_FIELD"
+    },
+    {
+      "owner": "DUNE_STINGER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dessert of Nadir"
+    },
+    {
+      "owner": "SCRAP_CRAWLER",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Scrap Field -> SCRAP_FIELD"
+    },
+    {
+      "owner": "RUST_MITE",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Scrap Field -> SCRAP_FIELD"
+    },
+    {
+      "owner": "CRADLE_WARDEN",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Cradle Outer Ring -> CRADLE_OUTER_RING"
+    },
+    {
+      "owner": "CRADLE_SENTINEL",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Inner Cradle Exclusion -> INNER_CRADLE_EXCLUSION"
+    },
+    {
+      "owner": "CORAL_TIDAL_CRAB",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Coral Wetlands -> CORAL_WETLANDS"
+    },
+    {
+      "owner": "TIDE_MUDLING",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Coral Wetlands -> CORAL_WETLANDS"
+    },
+    {
+      "owner": "PLATEAU_DRONE",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Highland Plateau -> HIGHLAND_PLATEAU"
+    },
+    {
+      "owner": "HIGHLAND_GOATLING",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Highland Plateau -> HIGHLAND_PLATEAU"
+    },
+    {
+      "owner": "OMNI_SURVEY_BOT",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Highland Plateau -> HIGHLAND_PLATEAU"
+    },
+    {
+      "owner": "GLOWVINE_SPRITE",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Glowvine Forest -> GLOWVINE_FOREST"
+    },
+    {
+      "owner": "FOREST_BARKLING",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Glowvine Forest -> GLOWVINE_FOREST"
+    },
+    {
+      "owner": "SAND_RUNNER",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Dune Outskirts -> DUNE_OUTSKIRTS"
+    },
+    {
+      "owner": "DUNE_GNASHER",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Dune Outskirts -> DUNE_OUTSKIRTS"
+    },
+    {
+      "owner": "CRADLE_FRAGMENT_BEAST",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Cradle Outer Ring -> CRADLE_OUTER_RING"
+    },
+    {
+      "owner": "GLASS_WISP",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Fractured Glass Valley -> FRACTURED_GLASS_VALLEY"
+    },
+    {
+      "owner": "CRYSTAL_RAM",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Fractured Glass Valley -> FRACTURED_GLASS_VALLEY"
+    },
+    {
+      "owner": "RAVINE_SCRAP_GOLEM",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Iron Ravine -> IRON_RAVINE"
+    },
+    {
+      "owner": "JUNGLE_VENOMFANG",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Smuggler Jungle -> SMUGGLER_JUNGLE"
+    },
+    {
+      "owner": "CRADLE_PURIFIER",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Inner Cradle Exclusion -> INNER_CRADLE_EXCLUSION"
+    },
+    {
+      "owner": "ARCANE_RIFT_BEAST",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Inner Cradle Exclusion -> INNER_CRADLE_EXCLUSION"
+    },
+    {
+      "owner": "TITAN_FORGE_AUTOMATON",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Titan Assembly Yard -> TITAN_ASSEMBLY_YARD"
+    },
+    {
+      "owner": "SUNKEN_AETHEL_LEVIATHAN",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Sunken Aethel Ruin -> SUNKEN_AETHEL_RUIN"
+    },
+    {
+      "owner": "STORM_RIFT_SERPENT",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Aethel Storm Belt -> AETHEL_STORM_BELT"
+    },
+    {
+      "owner": "AETHEL_CORRUPTED_BEHEMOTH",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Cradle Expanse -> CRADLE_EXPANSE"
+    },
+    {
+      "owner": "CRYSTAL_TYRANT_DUNGEON",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Crystal Depths -> crystal_depths"
+    },
+    {
+      "owner": "VOID_REAVER",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Void Echo Chasm -> VOID_ECHO_CHASM"
+    },
+    {
+      "owner": "GLOW_SPORELING",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Glowvine Forest -> GLOWVINE_FOREST"
+    },
+    {
+      "owner": "VINE_STRIKER",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Glowvine Forest -> GLOWVINE_FOREST"
+    },
+    {
+      "owner": "TUNNEL_CRAWLER",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Broken Civil Quarter -> BROKEN_CIVIL_QUARTER"
+    },
+    {
+      "owner": "ARCANE_SHARDLING",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Crystal Slope -> CRYSTAL_SLOPE"
+    },
+    {
+      "owner": "FERAL_SAND_IMP",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Dune Outskirts -> DUNE_OUTSKIRTS"
+    },
+    {
+      "owner": "AETHEL_WISP",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Aethel Gardens -> AETHEL_GARDENS"
+    },
+    {
+      "owner": "BROKEN_PATROL_DRONE",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Broken Civil Quarter -> BROKEN_CIVIL_QUARTER"
+    },
+    {
+      "owner": "CRYSTAL_SKITTER",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Crystal Slope -> CRYSTAL_SLOPE"
+    },
+    {
+      "owner": "SCRAP_HOUND",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Scrap Field -> SCRAP_FIELD"
+    },
+    {
+      "owner": "GLOWROOT_SHAMAN",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Shardroot Swamp -> SHARDROOT_SWAMP"
+    },
+    {
+      "owner": "MEADOW_RABID_HARE",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Aethel Gardens -> AETHEL_GARDENS"
+    },
+    {
+      "owner": "BROKEN_SCAVENGER",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Broken Civil Quarter -> BROKEN_CIVIL_QUARTER"
+    },
+    {
+      "owner": "FOREST_STAGLING",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Aethel Gardens -> AETHEL_GARDENS"
+    },
+    {
+      "owner": "CRYSTAL_MITE",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Crystal Slope -> CRYSTAL_SLOPE"
+    },
+    {
+      "owner": "DUNE_SCORPION",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Dune Outskirts -> DUNE_OUTSKIRTS"
+    },
+    {
+      "owner": "GLOWVINE_WARDEN",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Glowvine Forest -> GLOWVINE_FOREST"
+    },
+    {
+      "owner": "LUMI_SPRITE",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Aethelgard Forest"
+    },
+    {
+      "owner": "THORN_STALKER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Aethelgard Forest"
+    },
+    {
+      "owner": "VELDT_SCAVENGER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Veldt Savannah"
+    },
+    {
+      "owner": "ALPHA_RAVAGER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Veldt Savannah"
+    },
+    {
+      "owner": "RUST_DRONE",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Ironforge Ruins"
+    },
+    {
+      "owner": "FLESH_ABERRANT",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Infested Flesh Pits"
+    },
+    {
+      "owner": "MUTAGEN_DEVOURER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Mutagen Pools"
+    },
+    {
+      "owner": "PARASITE_BRUTE",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Parasite Nest"
+    },
+    {
+      "owner": "VENOM_HUSK",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Venom Swamp"
+    },
+    {
+      "owner": "NEURAL_FEEDER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Synapse Cavern"
+    },
+    {
+      "owner": "TUMOR_BEHEMOTH",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Tumor Fields"
+    },
+    {
+      "owner": "SPORE_LEVIATHAN",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Spore Marsh"
+    },
+    {
+      "owner": "CARRION_MUTANT",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Carrion Grounds"
+    },
+    {
+      "owner": "ROTSPAWN_HORROR",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Rotspawn Pit"
+    },
+    {
+      "owner": "HEMOPHAGE_STALKER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Hemophage Nest"
+    },
+    {
+      "owner": "ROGUE_WAR_DRONE",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Scrap Battlefield"
+    },
+    {
+      "owner": "SCRAP_GOLIATH",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Collapsed Assembly Yard"
+    },
+    {
+      "owner": "IRON_STALKER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Machine Graveyard"
+    },
+    {
+      "owner": "MACHINE_REVENANT",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Derelict Power Plant"
+    },
+    {
+      "owner": "RUST_TYRANT",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Rust Throne"
+    },
+    {
+      "owner": "CYBER_HOUND",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Scrap Wastes"
+    },
+    {
+      "owner": "AUTO_SENTINEL",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Sentinel Gate"
+    },
+    {
+      "owner": "SIEGE_REAPER",
+      "field": "ai_pattern.behavior",
+      "message": "Client uses generic fallback for aggressive_siege_hunter"
+    },
+    {
+      "owner": "SIEGE_REAPER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Collapsed Assembly Yard"
+    },
+    {
+      "owner": "AETHEL_RIFT_STALKER",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Cradle Expanse -> CRADLE_EXPANSE"
+    },
+    {
+      "owner": "AETHEL_IRON_CARAPACE",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Cradle Expanse -> CRADLE_EXPANSE"
+    },
+    {
+      "owner": "AETHEL_VOID_CHANNELER",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Cradle Expanse -> CRADLE_EXPANSE"
+    },
+    {
+      "owner": "AETHEL_ABYSSAL_REAVER",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Cradle Expanse -> CRADLE_EXPANSE"
+    },
+    {
+      "owner": "DRAKE_MINION",
+      "field": "spawn_location",
+      "message": "Noncanonical alias: Shattered Heart -> SHATTERED_HEART"
+    },
+    {
+      "owner": "TRAINING_DUMMY",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Training Ground"
+    },
+    {
+      "owner": "AETHEL_GARDENS",
+      "field": "level_range",
+      "message": "AETHEL_WISP level 7 outside 1-5"
+    },
+    {
+      "owner": "AETHEL_GARDENS",
+      "field": "level_range",
+      "message": "FOREST_STAGLING level 6 outside 1-5"
+    },
+    {
+      "owner": "CRYSTAL_SLOPE",
+      "field": "level_range",
+      "message": "ARCANE_SHARDLING level 7 outside 1-5"
+    },
+    {
+      "owner": "CRYSTAL_SLOPE",
+      "field": "level_range",
+      "message": "CRYSTAL_SKITTER level 8 outside 1-5"
+    },
+    {
+      "owner": "CRYSTAL_SLOPE",
+      "field": "level_range",
+      "message": "CRYSTAL_MITE level 7 outside 1-5"
+    },
+    {
+      "owner": "SCRAP_FIELD",
+      "field": "level_range",
+      "message": "SCRAP_HOUND level 9 outside 1-5"
+    },
+    {
+      "owner": "IRON_RAVINE",
+      "field": "level_range",
+      "message": "IRON_RAVINE_MINER level 13 outside 6-12"
+    },
+    {
+      "owner": "EXTRACTION_ZONE_DELTA",
+      "field": "level_range",
+      "message": "DELTA_MINING_DRONE level 18 outside 6-15"
+    },
+    {
+      "owner": "EXTRACTION_ZONE_DELTA",
+      "field": "level_range",
+      "message": "DELTA_SECURITY_DRONE level 19 outside 6-15"
+    },
+    {
+      "owner": "SKYBRIDGE_REACTOR",
+      "field": "level_range",
+      "message": "TITAN_ASSEMBLY_DRONE level 32 outside 35-50"
+    },
+    {
+      "owner": "GLOWVINE_FOREST",
+      "field": "level_range",
+      "message": "VINE_STRIKER level 6 outside 1-5"
+    },
+    {
+      "owner": "FRAGMENT_SHRINE",
+      "field": "level_range",
+      "message": "SHRINE_AVENGER level 23 outside 15-22"
+    },
+    {
+      "owner": "HEARTWOOD_ALTAR",
+      "field": "level_range",
+      "message": "SHRINE_WARDEN level 22 outside 28-40"
+    },
+    {
+      "owner": "HEARTWOOD_ALTAR",
+      "field": "level_range",
+      "message": "SHRINE_AVENGER level 23 outside 28-40"
+    },
+    {
+      "owner": "DUNE_OUTSKIRTS",
+      "field": "level_range",
+      "message": "FERAL_SAND_IMP level 7 outside 1-5"
+    },
+    {
+      "owner": "DUNE_OUTSKIRTS",
+      "field": "level_range",
+      "message": "DUNE_SCORPION level 8 outside 1-5"
+    },
+    {
+      "owner": "FORGE_CANYON_DEPTHS",
+      "field": "level_range",
+      "message": "WARPATH_SCOUT level 24 outside 30-45"
+    },
+    {
+      "owner": "FORGE_CANYON_DEPTHS",
+      "field": "level_range",
+      "message": "WARPATH_VETERAN level 25 outside 30-45"
+    },
+    {
+      "owner": "BORDER_SKIRMISH_RING",
+      "field": "level_range",
+      "message": "WARPATH_SCOUT level 24 outside 25-45"
+    },
+    {
+      "owner": "BORDER_SKIRMISH_RING",
+      "field": "level_range",
+      "message": "BLACK_DOCK_SMUGGLER level 20 outside 25-45"
+    },
+    {
+      "owner": "SEVERANCE_FAULTLINE",
+      "field": "level_range",
+      "message": "AETHEL_IRON_CARAPACE level 39 outside 65-90"
+    },
+    {
+      "owner": "SEVERANCE_FAULTLINE",
+      "field": "level_range",
+      "message": "AETHEL_VOID_CHANNELER level 40 outside 65-90"
+    },
+    {
+      "owner": "AETHEL_SIPHON_CORE",
+      "field": "level_range",
+      "message": "AETHEL_VOID_CHANNELER level 40 outside 70-90"
+    },
+    {
+      "owner": "AETHEL_SIPHON_CORE",
+      "field": "level_range",
+      "message": "AETHEL_RIFT_STALKER level 36 outside 70-90"
+    },
+    {
+      "owner": "PRIMA_MATERIA_FORGE",
+      "field": "level_range",
+      "message": "AETHEL_IRON_CARAPACE level 39 outside 75-95"
+    },
+    {
+      "owner": "PRIMA_MATERIA_FORGE",
+      "field": "level_range",
+      "message": "AETHEL_VOID_CHANNELER level 40 outside 75-95"
+    },
+    {
+      "owner": "HIDDEN_AETHELGARDIAN_CITY",
+      "field": "level_range",
+      "message": "AETHEL_RIFT_STALKER level 36 outside 50-80"
+    },
+    {
+      "owner": "HIDDEN_AETHELGARDIAN_CITY",
+      "field": "level_range",
+      "message": "AETHEL_IRON_CARAPACE level 39 outside 50-80"
+    },
+    {
+      "owner": "HIDDEN_AETHELGARDIAN_CITY",
+      "field": "level_range",
+      "message": "AETHEL_VOID_CHANNELER level 40 outside 50-80"
+    },
+    {
+      "owner": "VOID_ECHO_CHASM",
+      "field": "level_range",
+      "message": "AETHEL_VOID_CHANNELER level 40 outside 55-85"
+    },
+    {
+      "owner": "ASHEN_DRAKE",
+      "field": "hp_threshold",
+      "message": "Monster phase 3 differs from raid_dragon_nest"
+    },
+    {
+      "owner": "sacred_garden",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    },
+    {
+      "owner": "urban_ruins",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    },
+    {
+      "owner": "ancient_ring_road",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    },
+    {
+      "owner": "crystal_mountains",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    },
+    {
+      "owner": "crystal_hills",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    },
+    {
+      "owner": "crystal_cave",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    },
+    {
+      "owner": "scrap_desert",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    },
+    {
+      "owner": "mining_canyon",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    },
+    {
+      "owner": "battlefield_junkyard",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    },
+    {
+      "owner": "coastal_swamp",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    },
+    {
+      "owner": "tropical_jungle",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    },
+    {
+      "owner": "alpine_plateau",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    },
+    {
+      "owner": "industrial_mine",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    },
+    {
+      "owner": "automated_mine",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    },
+    {
+      "owner": "bioluminescent_forest",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    },
+    {
+      "owner": "toxic_swamp",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    },
+    {
+      "owner": "desert_edge",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    },
+    {
+      "owner": "volcanic_badlands",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    },
+    {
+      "owner": "rocky_mesa",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    },
+    {
+      "owner": "aethel_wasteland",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    },
+    {
+      "owner": "storm_wasteland",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    },
+    {
+      "owner": "endgame_abyss",
+      "field": "monster_ids",
+      "message": "Biome mapping disagrees with active world spawn tables"
+    }
+  ]
+}

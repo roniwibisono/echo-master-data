@@ -2,6 +2,8 @@
 """Generate monster seed SQL from monster_master.json.
 Run:  python3 supabase/tools/import_monsters.py  (chunks if large)"""
 import json, os
+from pathlib import Path
+import sys
 
 INT   = ['monster_id','level','exp_reward','currency_reward','crd_reward',
          'guild_point','reputation_point','hunting_point']
@@ -18,20 +20,26 @@ def iv(v): return 'NULL' if v is None else str(int(v))
 def nv(v): return 'NULL' if v is None else repr(float(v))
 def jb(o, dflt): return "'" + json.dumps(o if o is not None else dflt, ensure_ascii=False).replace("'", "''") + "'::jsonb"
 
-def main():
-    root = os.getcwd()
-    mons = json.load(open(os.path.join(root, 'monster_master.json')))['monsters']
-    rows = []
-    for order, m in enumerate(mons):
-        v = [iv(m.get('monster_id')), s(m.get('code')), s(m.get('name')), s(m.get('rank')),
+def rowvals(m, order):
+    v = [iv(m.get('monster_id')), s(m.get('code')), s(m.get('name')), s(m.get('rank')),
              iv(m.get('level')), s(m.get('race_code')), s(m.get('spawn_monster_id')),
              nv(m.get('critical_rate')), nv(m.get('critical_damage')),
              iv(m.get('exp_reward')), iv(m.get('currency_reward')), iv(m.get('crd_reward')),
              iv(m.get('guild_point')), iv(m.get('reputation_point')), iv(m.get('hunting_point'))]
-        for c in JSONB:
-            v.append(jb(m.get(c), {} if c in ('base_stats','scaling','ai_pattern','skill_set') else []))
-        v.append(str(order))
-        rows.append(v)
+    for c in JSONB:
+        v.append(jb(m.get(c), {} if c in ('base_stats','scaling','ai_pattern','skill_set') else []))
+    v.append(str(order))
+    return v
+
+def main():
+    root = os.getcwd()
+    sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+    from audit_monster_data import audit
+    result = audit()
+    if result['errors']:
+        raise ValueError(f"Monster seed rejected: {result['errors'][:5]}")
+    mons = json.load(open(os.path.join(root, 'monster_master.json')))['monsters']
+    rows = [rowvals(m, order) for order, m in enumerate(mons)]
     collist = ', '.join(COLS)
     upd = ', '.join(f'{c}=excluded.{c}' for c in COLS if c != 'monster_id')
     def write(path, rws, note):

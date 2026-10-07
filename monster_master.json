@@ -12,7 +12,8 @@
       ],
       "spawn_monster_id": "world_boss",
       "spawn_location": [
-        "SHATTERED_HEART"
+        "SHATTERED_HEART",
+        "ETERNAL_GATE"
       ],
       "base_stats": {
         "hp": 125000,
@@ -52,19 +53,20 @@
           "behavior": "summon_minions",
           "skills": [
             "meteor_dive",
-            "flame_prison"
+            "inferno_breath"
           ],
           "atk_bonus": 0.2
         },
         "phase_3": {
-          "hp_threshold": 0.3,
+          "hp_threshold": 0.25,
           "behavior": "berserk",
           "skills": [
             "apocalypse_flare"
           ],
           "atk_bonus": 0.5,
           "agi_bonus": 0.3
-        }
+        },
+        "behavior": "standard_rotation"
       },
       "skill_set": {
         "passive_skills": [
@@ -133,7 +135,9 @@
       ],
       "spawn_monster_id": "world_boss",
       "spawn_location": [
-        "CRYSTAL_SLOPE"
+        "CRYSTAL_SLOPE",
+        "ETERNAL_GATE",
+        "SEVERANCE_FAULTLINE"
       ],
       "base_stats": {
         "hp": 150000,
@@ -184,7 +188,8 @@
           ],
           "atk_bonus": 0.6,
           "agi_bonus": 0.4
-        }
+        },
+        "behavior": "aggressive_single_target"
       },
       "skill_set": {
         "passive_skills": [
@@ -249,7 +254,8 @@
       ],
       "spawn_monster_id": "dungeon",
       "spawn_location": [
-        "Dungeon A"
+        "ETERNAL_GATE",
+        "PRIMA_MATERIA_FORGE"
       ],
       "base_stats": {
         "hp": 110000,
@@ -331,7 +337,7 @@
       ],
       "spawn_monster_id": "dungeon",
       "spawn_location": [
-        "Dungeon A"
+        "AETHEL_STORM_RIDGE"
       ],
       "base_stats": {
         "hp": 38000,
@@ -1397,7 +1403,16 @@
       ],
       "spawn_monster_id": "dungeon",
       "spawn_location": [
-        "CRADLE_OUTER_RING"
+        "CRADLE_OUTER_RING",
+        "AETHEL_STORM_BELT",
+        "VOID_RIFT_CROSSROADS",
+        "ETERNAL_GATE",
+        "SHATTERED_HEART",
+        "SEVERANCE_FAULTLINE",
+        "AETHEL_SIPHON_CORE",
+        "PRIMA_MATERIA_FORGE",
+        "HIDDEN_AETHELGARDIAN_CITY",
+        "VOID_ECHO_CHASM"
       ],
       "base_stats": {
         "hp": 60000,
@@ -1479,7 +1494,9 @@
       ],
       "spawn_monster_id": "dungeon",
       "spawn_location": [
-        "CRADLE_OUTER_RING"
+        "CRADLE_OUTER_RING",
+        "SKYBRIDGE_REACTOR",
+        "AETHEL_STORM_RIDGE"
       ],
       "base_stats": {
         "hp": 28000,
@@ -1561,7 +1578,8 @@
       ],
       "spawn_monster_id": "dungeon",
       "spawn_location": [
-        "CRYSTAL_SLOPE"
+        "CRYSTAL_SLOPE",
+        "AETHEL_STORM_RIDGE"
       ],
       "base_stats": {
         "hp": 36000,
@@ -1643,7 +1661,14 @@
       ],
       "spawn_monster_id": "dungeon",
       "spawn_location": [
-        "CRYSTAL_SLOPE"
+        "CRYSTAL_SLOPE",
+        "TITAN_GRAVEYARD",
+        "ETERNAL_GATE",
+        "SHATTERED_HEART",
+        "SEVERANCE_FAULTLINE",
+        "AETHEL_SIPHON_CORE",
+        "PRIMA_MATERIA_FORGE",
+        "VOID_ECHO_CHASM"
       ],
       "base_stats": {
         "hp": 70000,
@@ -1725,7 +1750,7 @@
       ],
       "spawn_monster_id": "map_01",
       "spawn_location": [
-        "Green Meadow"
+        "AETHEL_GARDENS"
       ],
       "base_stats": {
         "hp": 120,
@@ -1798,7 +1823,7 @@
       ],
       "spawn_monster_id": "map_01",
       "spawn_location": [
-        "Abandoned Tunnel"
+        "CORAL_WETLANDS"
       ],
       "base_stats": {
         "hp": 140,
@@ -1872,7 +1897,7 @@
       ],
       "spawn_monster_id": "map_01",
       "spawn_location": [
-        "Scrap Field"
+        "SCRAP_FIELD"
       ],
       "base_stats": {
         "hp": 180,
@@ -1947,7 +1972,7 @@
       ],
       "spawn_monster_id": "map_01",
       "spawn_location": [
-        "Green Meadow"
+        "CRYSTAL_SLOPE"
       ],
       "base_stats": {
         "hp": 220,
@@ -1976,7 +2001,7 @@
       "skill_set": {
         "passive_skills": [
           {
-            "skill_id": "spore_cloud"
+            "skill_id": "spore_cloud_aura"
           }
         ],
         "active_skills": [
@@ -2016,7 +2041,7 @@
       ],
       "spawn_monster_id": "AETHEL_GARDENS",
       "spawn_location": [
-        "Aethel Gardens"
+        "AETHEL_GARDENS"
       ],
       "base_stats": {
         "hp": 140,
@@ -2085,7 +2110,7 @@
       ],
       "spawn_monster_id": "AETHEL_GARDENS",
       "spawn_location": [
-        "Aethel Gardens"
+        "AETHEL_GARDENS"
       ],
       "base_stats": {
         "hp": 160,
@@ -2143,7 +2168,8 @@
       ],
       "spawn_monster_id": "AETHEL_GARDENS",
       "spawn_location": [
-        "Aethel Gardens"
+        "AETHEL_GARDENS",
+        "GLOWVINE_FOREST"
       ],
       "base_stats": {
         "hp": 200,
@@ -2207,7 +2233,7 @@
       ],
       "spawn_monster_id": "CRYSTAL_SLOPE",
       "spawn_location": [
-        "Crystal Slope"
+        "CRYSTAL_SLOPE"
       ],
       "base_stats": {
         "hp": 120,
@@ -2273,7 +2299,7 @@
       ],
       "spawn_monster_id": "SCRAP_FIELD",
       "spawn_location": [
-        "Scrap Field"
+        "SCRAP_FIELD"
       ],
       "base_stats": {
         "hp": 180,
@@ -2339,7 +2365,7 @@
       ],
       "spawn_monster_id": "BROKEN_CIVIL_QUARTER",
       "spawn_location": [
-        "Broken Civil Quarter"
+        "BROKEN_CIVIL_QUARTER"
       ],
       "base_stats": {
         "hp": 420,
@@ -2478,7 +2504,7 @@
       ],
       "spawn_monster_id": "BROKEN_CIVIL_QUARTER",
       "spawn_location": [
-        "Broken Civil Quarter"
+        "BROKEN_CIVIL_QUARTER"
       ],
       "base_stats": {
         "hp": 380,
@@ -2536,7 +2562,7 @@
       ],
       "spawn_monster_id": "BROKEN_CIVIL_QUARTER",
       "spawn_location": [
-        "Broken Civil Quarter"
+        "BROKEN_CIVIL_QUARTER"
       ],
       "base_stats": {
         "hp": 620,
@@ -2603,7 +2629,7 @@
       ],
       "spawn_monster_id": "CRYSTAL_SLOPE",
       "spawn_location": [
-        "Crystal Slope"
+        "CRYSTAL_SLOPE"
       ],
       "base_stats": {
         "hp": 150,
@@ -2663,7 +2689,7 @@
       ],
       "spawn_monster_id": "CORAL_WETLANDS",
       "spawn_location": [
-        "Coral Wetlands"
+        "CORAL_WETLANDS"
       ],
       "base_stats": {
         "hp": 190,
@@ -2723,7 +2749,8 @@
       ],
       "spawn_monster_id": "SMUGGLER_JUNGLE",
       "spawn_location": [
-        "Smuggler Jungle"
+        "SMUGGLER_JUNGLE",
+        "SHARDROOT_SWAMP"
       ],
       "base_stats": {
         "hp": 460,
@@ -2783,7 +2810,8 @@
       ],
       "spawn_monster_id": "SMUGGLER_JUNGLE",
       "spawn_location": [
-        "Smuggler Jungle"
+        "SMUGGLER_JUNGLE",
+        "SHARDROOT_SWAMP"
       ],
       "base_stats": {
         "hp": 520,
@@ -2843,7 +2871,7 @@
       ],
       "spawn_monster_id": "SMUGGLER_JUNGLE",
       "spawn_location": [
-        "Smuggler Jungle"
+        "SMUGGLER_JUNGLE"
       ],
       "base_stats": {
         "hp": 780,
@@ -2909,7 +2937,7 @@
       ],
       "spawn_monster_id": "SHARDROOT_SWAMP",
       "spawn_location": [
-        "Shardroot Swamp"
+        "SHARDROOT_SWAMP"
       ],
       "base_stats": {
         "hp": 430,
@@ -2973,7 +3001,7 @@
       ],
       "spawn_monster_id": "SHARDROOT_SWAMP",
       "spawn_location": [
-        "Shardroot Swamp"
+        "SHARDROOT_SWAMP"
       ],
       "base_stats": {
         "hp": 360,
@@ -3039,7 +3067,7 @@
       ],
       "spawn_monster_id": "SHARDROOT_SWAMP",
       "spawn_location": [
-        "Shardroot Swamp"
+        "SHARDROOT_SWAMP"
       ],
       "base_stats": {
         "hp": 900,
@@ -3106,7 +3134,7 @@
       ],
       "spawn_monster_id": "SCORCHED_BADLANDS",
       "spawn_location": [
-        "Scorched Badlands"
+        "SCORCHED_BADLANDS"
       ],
       "base_stats": {
         "hp": 480,
@@ -3167,7 +3195,11 @@
       ],
       "spawn_monster_id": "CRADLE_EXPANSE",
       "spawn_location": [
-        "Cradle Expanse"
+        "CRADLE_EXPANSE",
+        "SUNKEN_AETHEL_RUIN",
+        "HEARTWOOD_ALTAR",
+        "BORDER_SKIRMISH_RING",
+        "TITAN_GRAVEYARD"
       ],
       "base_stats": {
         "hp": 3200,
@@ -3274,7 +3306,8 @@
             "mini_slime_spawn"
           ],
           "atk_bonus": 0.2
-        }
+        },
+        "behavior": "aggressive_swarm"
       },
       "skill_set": {
         "passive_skills": [
@@ -3332,7 +3365,7 @@
       ],
       "spawn_monster_id": "map_01",
       "spawn_location": [
-        "Abandoned Tunnel"
+        "FRACTURED_GLASS_VALLEY"
       ],
       "base_stats": {
         "hp": 1500,
@@ -3370,7 +3403,8 @@
           ],
           "atk_bonus": 0.3,
           "agi_bonus": 0.2
-        }
+        },
+        "behavior": "aggressive_single_target"
       },
       "skill_set": {
         "passive_skills": [
@@ -3425,7 +3459,7 @@
       ],
       "spawn_monster_id": "map_01",
       "spawn_location": [
-        "Scrap Field"
+        "SCRAP_FIELD"
       ],
       "base_stats": {
         "hp": 1800,
@@ -3466,7 +3500,8 @@
             "electric_surge"
           ],
           "atk_bonus": 0.25
-        }
+        },
+        "behavior": "ranged_basic"
       },
       "skill_set": {
         "passive_skills": [
@@ -3564,7 +3599,8 @@
           ],
           "atk_bonus": 0.3,
           "agi_bonus": 0.25
-        }
+        },
+        "behavior": "hit_and_run"
       },
       "skill_set": {
         "passive_skills": [
@@ -3619,7 +3655,7 @@
       ],
       "spawn_monster_id": "SCRAP_FIELD",
       "spawn_location": [
-        "Scrap Field"
+        "SCRAP_FIELD"
       ],
       "base_stats": {
         "hp": 210,
@@ -3685,7 +3721,7 @@
       ],
       "spawn_monster_id": "SCRAP_FIELD",
       "spawn_location": [
-        "Scrap Field"
+        "SCRAP_FIELD"
       ],
       "base_stats": {
         "hp": 180,
@@ -3743,7 +3779,7 @@
       ],
       "spawn_monster_id": "CRADLE_OUTER_RING",
       "spawn_location": [
-        "Cradle Outer Ring"
+        "CRADLE_OUTER_RING"
       ],
       "base_stats": {
         "hp": 1200,
@@ -3807,7 +3843,8 @@
       ],
       "spawn_monster_id": "INNER_CRADLE_EXCLUSION",
       "spawn_location": [
-        "Inner Cradle Exclusion"
+        "INNER_CRADLE_EXCLUSION",
+        "SUNKEN_AETHEL_RUIN"
       ],
       "base_stats": {
         "hp": 2600,
@@ -3873,7 +3910,7 @@
       ],
       "spawn_monster_id": "CORAL_WETLANDS",
       "spawn_location": [
-        "Coral Wetlands"
+        "CORAL_WETLANDS"
       ],
       "base_stats": {
         "hp": 200,
@@ -3938,7 +3975,7 @@
       ],
       "spawn_monster_id": "CORAL_WETLANDS",
       "spawn_location": [
-        "Coral Wetlands"
+        "CORAL_WETLANDS"
       ],
       "base_stats": {
         "hp": 240,
@@ -4002,7 +4039,7 @@
       ],
       "spawn_monster_id": "HIGHLAND_PLATEAU",
       "spawn_location": [
-        "Highland Plateau"
+        "HIGHLAND_PLATEAU"
       ],
       "base_stats": {
         "hp": 170,
@@ -4068,7 +4105,7 @@
       ],
       "spawn_monster_id": "HIGHLAND_PLATEAU",
       "spawn_location": [
-        "Highland Plateau"
+        "HIGHLAND_PLATEAU"
       ],
       "base_stats": {
         "hp": 230,
@@ -4126,7 +4163,7 @@
       ],
       "spawn_monster_id": "HIGHLAND_PLATEAU",
       "spawn_location": [
-        "Highland Plateau"
+        "HIGHLAND_PLATEAU"
       ],
       "base_stats": {
         "hp": 260,
@@ -4193,7 +4230,7 @@
       ],
       "spawn_monster_id": "GLOWVINE_FOREST",
       "spawn_location": [
-        "Glowvine Forest"
+        "GLOWVINE_FOREST"
       ],
       "base_stats": {
         "hp": 150,
@@ -4259,7 +4296,7 @@
       ],
       "spawn_monster_id": "GLOWVINE_FOREST",
       "spawn_location": [
-        "Glowvine Forest"
+        "GLOWVINE_FOREST"
       ],
       "base_stats": {
         "hp": 240,
@@ -4323,7 +4360,7 @@
       ],
       "spawn_monster_id": "DUNE_OUTSKIRTS",
       "spawn_location": [
-        "Dune Outskirts"
+        "DUNE_OUTSKIRTS"
       ],
       "base_stats": {
         "hp": 220,
@@ -4381,7 +4418,7 @@
       ],
       "spawn_monster_id": "DUNE_OUTSKIRTS",
       "spawn_location": [
-        "Dune Outskirts"
+        "DUNE_OUTSKIRTS"
       ],
       "base_stats": {
         "hp": 260,
@@ -4443,7 +4480,7 @@
       ],
       "spawn_monster_id": "CRADLE_OUTER_RING",
       "spawn_location": [
-        "Cradle Outer Ring"
+        "CRADLE_OUTER_RING"
       ],
       "base_stats": {
         "hp": 760,
@@ -4507,7 +4544,7 @@
       ],
       "spawn_monster_id": "FRACTURED_GLASS_VALLEY",
       "spawn_location": [
-        "Fractured Glass Valley"
+        "FRACTURED_GLASS_VALLEY"
       ],
       "base_stats": {
         "hp": 420,
@@ -4574,7 +4611,7 @@
       ],
       "spawn_monster_id": "FRACTURED_GLASS_VALLEY",
       "spawn_location": [
-        "Fractured Glass Valley"
+        "FRACTURED_GLASS_VALLEY"
       ],
       "base_stats": {
         "hp": 620,
@@ -4638,7 +4675,7 @@
       ],
       "spawn_monster_id": "IRON_RAVINE",
       "spawn_location": [
-        "Iron Ravine"
+        "IRON_RAVINE"
       ],
       "base_stats": {
         "hp": 980,
@@ -4705,7 +4742,7 @@
       ],
       "spawn_monster_id": "SMUGGLER_JUNGLE",
       "spawn_location": [
-        "Smuggler Jungle"
+        "SMUGGLER_JUNGLE"
       ],
       "base_stats": {
         "hp": 640,
@@ -4770,7 +4807,8 @@
       ],
       "spawn_monster_id": "INNER_CRADLE_EXCLUSION",
       "spawn_location": [
-        "Inner Cradle Exclusion"
+        "INNER_CRADLE_EXCLUSION",
+        "SUNKEN_AETHEL_RUIN"
       ],
       "base_stats": {
         "hp": 2800,
@@ -4838,7 +4876,7 @@
       ],
       "spawn_monster_id": "INNER_CRADLE_EXCLUSION",
       "spawn_location": [
-        "Inner Cradle Exclusion"
+        "INNER_CRADLE_EXCLUSION"
       ],
       "base_stats": {
         "hp": 3100,
@@ -4903,7 +4941,9 @@
       ],
       "spawn_monster_id": "TITAN_ASSEMBLY_YARD",
       "spawn_location": [
-        "Titan Assembly Yard"
+        "TITAN_ASSEMBLY_YARD",
+        "HEARTWOOD_ALTAR",
+        "BLOOD_IRON_BASIN"
       ],
       "base_stats": {
         "hp": 3400,
@@ -4971,7 +5011,10 @@
       ],
       "spawn_monster_id": "SUNKEN_AETHEL_RUIN",
       "spawn_location": [
-        "Sunken Aethel Ruin"
+        "SUNKEN_AETHEL_RUIN",
+        "SHARD_PULSE_PEAK",
+        "HEARTWOOD_ALTAR",
+        "TITAN_GRAVEYARD"
       ],
       "base_stats": {
         "hp": 3600,
@@ -5036,7 +5079,10 @@
       ],
       "spawn_monster_id": "AETHEL_STORM_BELT",
       "spawn_location": [
-        "Aethel Storm Belt"
+        "AETHEL_STORM_BELT",
+        "SHARD_PULSE_PEAK",
+        "SKYBRIDGE_REACTOR",
+        "AETHEL_STORM_RIDGE"
       ],
       "base_stats": {
         "hp": 4200,
@@ -5102,7 +5148,13 @@
       ],
       "spawn_monster_id": "CRADLE_EXPANSE",
       "spawn_location": [
-        "Cradle Expanse"
+        "CRADLE_EXPANSE",
+        "TITAN_GRAVEYARD",
+        "SHATTERED_HEART",
+        "SEVERANCE_FAULTLINE",
+        "AETHEL_SIPHON_CORE",
+        "PRIMA_MATERIA_FORGE",
+        "VOID_ECHO_CHASM"
       ],
       "base_stats": {
         "hp": 5200,
@@ -5176,7 +5228,7 @@
       ],
       "spawn_monster_id": "CRYSTAL_DEPTHS",
       "spawn_location": [
-        "Crystal Depths"
+        "crystal_depths"
       ],
       "base_stats": {
         "hp": 42000,
@@ -5227,7 +5279,8 @@
             "tyrant_crystal_cataclysm"
           ],
           "atk_bonus": 0.4
-        }
+        },
+        "behavior": "territorial_guardian"
       },
       "skill_set": {
         "passive_skills": [
@@ -5293,7 +5346,8 @@
       ],
       "spawn_monster_id": "VOID_ECHO_CHASM",
       "spawn_location": [
-        "Void Echo Chasm"
+        "VOID_ECHO_CHASM",
+        "VOID_RIFT_CROSSROADS"
       ],
       "base_stats": {
         "hp": 5200,
@@ -5360,7 +5414,7 @@
       ],
       "spawn_monster_id": "GLOWVINE_FOREST",
       "spawn_location": [
-        "Glowvine Forest"
+        "GLOWVINE_FOREST"
       ],
       "base_stats": {
         "hp": 320,
@@ -5424,7 +5478,7 @@
       ],
       "spawn_monster_id": "GLOWVINE_FOREST",
       "spawn_location": [
-        "Glowvine Forest"
+        "GLOWVINE_FOREST"
       ],
       "base_stats": {
         "hp": 360,
@@ -5488,7 +5542,7 @@
       ],
       "spawn_monster_id": "BROKEN_CIVIL_QUARTER",
       "spawn_location": [
-        "Broken Civil Quarter"
+        "BROKEN_CIVIL_QUARTER"
       ],
       "base_stats": {
         "hp": 400,
@@ -5552,7 +5606,7 @@
       ],
       "spawn_monster_id": "CRYSTAL_SLOPE",
       "spawn_location": [
-        "Crystal Slope"
+        "CRYSTAL_SLOPE"
       ],
       "base_stats": {
         "hp": 340,
@@ -5618,7 +5672,7 @@
       ],
       "spawn_monster_id": "DUNE_OUTSKIRTS",
       "spawn_location": [
-        "Dune Outskirts"
+        "DUNE_OUTSKIRTS"
       ],
       "base_stats": {
         "hp": 380,
@@ -5682,7 +5736,7 @@
       ],
       "spawn_monster_id": "AETHEL_GARDENS",
       "spawn_location": [
-        "Aethel Gardens"
+        "AETHEL_GARDENS"
       ],
       "base_stats": {
         "hp": 300,
@@ -5748,7 +5802,7 @@
       ],
       "spawn_monster_id": "BROKEN_CIVIL_QUARTER",
       "spawn_location": [
-        "Broken Civil Quarter"
+        "BROKEN_CIVIL_QUARTER"
       ],
       "base_stats": {
         "hp": 520,
@@ -5816,7 +5870,7 @@
       ],
       "spawn_monster_id": "CRYSTAL_SLOPE",
       "spawn_location": [
-        "Crystal Slope"
+        "CRYSTAL_SLOPE"
       ],
       "base_stats": {
         "hp": 460,
@@ -5882,7 +5936,7 @@
       ],
       "spawn_monster_id": "SCRAP_FIELD",
       "spawn_location": [
-        "Scrap Field"
+        "SCRAP_FIELD"
       ],
       "base_stats": {
         "hp": 580,
@@ -5947,7 +6001,7 @@
       ],
       "spawn_monster_id": "SHARDROOT_SWAMP",
       "spawn_location": [
-        "Shardroot Swamp"
+        "SHARDROOT_SWAMP"
       ],
       "base_stats": {
         "hp": 1100,
@@ -6019,7 +6073,7 @@
       ],
       "spawn_monster_id": "AETHEL_GARDENS",
       "spawn_location": [
-        "Aethel Gardens"
+        "AETHEL_GARDENS"
       ],
       "base_stats": {
         "hp": 280,
@@ -6081,7 +6135,7 @@
       ],
       "spawn_monster_id": "BROKEN_CIVIL_QUARTER",
       "spawn_location": [
-        "Broken Civil Quarter"
+        "BROKEN_CIVIL_QUARTER"
       ],
       "base_stats": {
         "hp": 420,
@@ -6145,7 +6199,7 @@
       ],
       "spawn_monster_id": "AETHEL_GARDENS",
       "spawn_location": [
-        "Aethel Gardens"
+        "AETHEL_GARDENS"
       ],
       "base_stats": {
         "hp": 480,
@@ -6210,7 +6264,7 @@
       ],
       "spawn_monster_id": "CRYSTAL_SLOPE",
       "spawn_location": [
-        "Crystal Slope"
+        "CRYSTAL_SLOPE"
       ],
       "base_stats": {
         "hp": 360,
@@ -6277,7 +6331,8 @@
       ],
       "spawn_monster_id": "DUNE_OUTSKIRTS",
       "spawn_location": [
-        "Dune Outskirts"
+        "DUNE_OUTSKIRTS",
+        "SCORCHED_BADLANDS"
       ],
       "base_stats": {
         "hp": 520,
@@ -6341,7 +6396,7 @@
       ],
       "spawn_monster_id": "GLOWVINE_FOREST",
       "spawn_location": [
-        "Glowvine Forest"
+        "GLOWVINE_FOREST"
       ],
       "base_stats": {
         "hp": 1800,
@@ -8052,7 +8107,7 @@
         "poison"
       ],
       "ai_pattern": {
-        "behavior": "aggressive_siege_hunter"
+        "behavior": "aggressive_hunter"
       },
       "skill_set": {
         "passive_skills": [
@@ -8083,15 +8138,15 @@
       "hunting_point": 14,
       "drop_item": [
         {
-          "itemId": "siege_plasma_emitter",
+          "itemId": "overheated_reactor_part",
           "chance": 0.4
         },
         {
-          "itemId": "reinforced_hydraulic_frame",
+          "itemId": "hydraulic_piston_fragment",
           "chance": 0.35
         },
         {
-          "itemId": "high_density_reactor_core",
+          "itemId": "power_regulator_core",
           "chance": 0.2
         }
       ],
@@ -10947,7 +11002,8 @@
       ],
       "spawn_monster_id": "wild",
       "spawn_location": [
-        "BLACK_DOCK_MARKET"
+        "BLACK_DOCK_MARKET",
+        "BORDER_SKIRMISH_RING"
       ],
       "base_stats": {
         "hp": 2100,
@@ -11571,7 +11627,8 @@
       ],
       "spawn_monster_id": "wild",
       "spawn_location": [
-        "FRAGMENT_SHRINE"
+        "FRAGMENT_SHRINE",
+        "HEARTWOOD_ALTAR"
       ],
       "base_stats": {
         "hp": 2200,
@@ -11641,7 +11698,8 @@
       ],
       "spawn_monster_id": "wild",
       "spawn_location": [
-        "FRAGMENT_SHRINE"
+        "FRAGMENT_SHRINE",
+        "HEARTWOOD_ALTAR"
       ],
       "base_stats": {
         "hp": 2400,
@@ -11714,7 +11772,8 @@
       ],
       "spawn_monster_id": "wild",
       "spawn_location": [
-        "FRAGMENT_SHRINE"
+        "FRAGMENT_SHRINE",
+        "HEARTWOOD_ALTAR"
       ],
       "base_stats": {
         "hp": 4200,
@@ -11788,7 +11847,9 @@
       ],
       "spawn_monster_id": "wild",
       "spawn_location": [
-        "MESA_WARPATH"
+        "MESA_WARPATH",
+        "FORGE_CANYON_DEPTHS",
+        "BORDER_SKIRMISH_RING"
       ],
       "base_stats": {
         "hp": 2600,
@@ -11848,7 +11909,8 @@
       ],
       "spawn_monster_id": "wild",
       "spawn_location": [
-        "MESA_WARPATH"
+        "MESA_WARPATH",
+        "FORGE_CANYON_DEPTHS"
       ],
       "base_stats": {
         "hp": 2800,
@@ -11911,7 +11973,9 @@
       ],
       "spawn_monster_id": "wild",
       "spawn_location": [
-        "MESA_WARPATH"
+        "MESA_WARPATH",
+        "FORGE_CANYON_DEPTHS",
+        "BORDER_SKIRMISH_RING"
       ],
       "base_stats": {
         "hp": 4400,
@@ -12465,7 +12529,9 @@
       ],
       "spawn_monster_id": "wild",
       "spawn_location": [
-        "TITAN_ASSEMBLY_YARD"
+        "TITAN_ASSEMBLY_YARD",
+        "SKYBRIDGE_REACTOR",
+        "FORGE_CANYON_DEPTHS"
       ],
       "base_stats": {
         "hp": 5400,
@@ -12531,7 +12597,11 @@
       ],
       "spawn_monster_id": "wild",
       "spawn_location": [
-        "TITAN_ASSEMBLY_YARD"
+        "TITAN_ASSEMBLY_YARD",
+        "SKYBRIDGE_REACTOR",
+        "FORGE_CANYON_DEPTHS",
+        "BORDER_SKIRMISH_RING",
+        "BLOOD_IRON_BASIN"
       ],
       "base_stats": {
         "hp": 7600,
@@ -12605,7 +12675,11 @@
       ],
       "spawn_monster_id": "wild",
       "spawn_location": [
-        "TITAN_ASSEMBLY_YARD"
+        "TITAN_ASSEMBLY_YARD",
+        "SKYBRIDGE_REACTOR",
+        "FORGE_CANYON_DEPTHS",
+        "BORDER_SKIRMISH_RING",
+        "BLOOD_IRON_BASIN"
       ],
       "base_stats": {
         "hp": 12000,
@@ -12677,7 +12751,9 @@
       ],
       "spawn_monster_id": "CRADLE_EXPANSE",
       "spawn_location": [
-        "Cradle Expanse"
+        "CRADLE_EXPANSE",
+        "AETHEL_SIPHON_CORE",
+        "HIDDEN_AETHELGARDIAN_CITY"
       ],
       "base_stats": {
         "hp": 2800,
@@ -12750,7 +12826,11 @@
       ],
       "spawn_monster_id": "CRADLE_EXPANSE",
       "spawn_location": [
-        "Cradle Expanse"
+        "CRADLE_EXPANSE",
+        "BLOOD_IRON_BASIN",
+        "SEVERANCE_FAULTLINE",
+        "PRIMA_MATERIA_FORGE",
+        "HIDDEN_AETHELGARDIAN_CITY"
       ],
       "base_stats": {
         "hp": 5600,
@@ -12826,7 +12906,13 @@
       ],
       "spawn_monster_id": "CRADLE_EXPANSE",
       "spawn_location": [
-        "Cradle Expanse"
+        "CRADLE_EXPANSE",
+        "VOID_RIFT_CROSSROADS",
+        "SEVERANCE_FAULTLINE",
+        "AETHEL_SIPHON_CORE",
+        "PRIMA_MATERIA_FORGE",
+        "HIDDEN_AETHELGARDIAN_CITY",
+        "VOID_ECHO_CHASM"
       ],
       "base_stats": {
         "hp": 2600,
@@ -12900,7 +12986,14 @@
       ],
       "spawn_monster_id": "CRADLE_EXPANSE",
       "spawn_location": [
-        "Cradle Expanse"
+        "CRADLE_EXPANSE",
+        "VOID_RIFT_CROSSROADS",
+        "SHATTERED_HEART",
+        "SEVERANCE_FAULTLINE",
+        "AETHEL_SIPHON_CORE",
+        "PRIMA_MATERIA_FORGE",
+        "HIDDEN_AETHELGARDIAN_CITY",
+        "VOID_ECHO_CHASM"
       ],
       "base_stats": {
         "hp": 7800,
@@ -12982,7 +13075,7 @@
       ],
       "spawn_monster_id": "SHATTERED_HEART",
       "spawn_location": [
-        "Shattered Heart"
+        "SHATTERED_HEART"
       ],
       "base_stats": {
         "hp": 12000,
@@ -13105,7 +13198,7 @@
       ],
       "spawn_monster_id": "raid",
       "spawn_location": [
-        "Training Ground"
+        "NEXUS_CORE"
       ],
       "base_stats": {
         "hp": 1000000,
@@ -13153,6 +13246,140 @@
       "reputation_point": 0,
       "hunting_point": 0,
       "drop_item": [],
+      "special_reward": []
+    },
+    {
+      "monster_id": 6001,
+      "code": "CRYSTAL_DEPTHS_SENTRY",
+      "name": "Crystal Depths Sentry",
+      "rank": "normal",
+      "level": 40,
+      "race_code": "CRYSTALLINE",
+      "element": [
+        "earth",
+        "arcane"
+      ],
+      "spawn_monster_id": "dungeon",
+      "spawn_location": [
+        "crystal_depths"
+      ],
+      "base_stats": {
+        "hp": 7200,
+        "mp": 450,
+        "atk": 420,
+        "def": 400,
+        "agi": 40,
+        "per": 55
+      },
+      "scaling": {
+        "basic_attack": 1.2,
+        "skill_scaling_bonus": 0.3
+      },
+      "critical_rate": 0.08,
+      "critical_damage": 1.5,
+      "resistances": [
+        "earth"
+      ],
+      "weaknesses": [
+        "electric"
+      ],
+      "status_immunity": [
+        "bleed"
+      ],
+      "ai_pattern": {
+        "behavior": "defensive_guard"
+      },
+      "skill_set": {
+        "passive_skills": [
+          {
+            "skill_id": "crystal_armor"
+          }
+        ],
+        "active_skills": [
+          {
+            "skill_id": "crystal_puncture"
+          }
+        ]
+      },
+      "exp_reward": 1800,
+      "currency_reward": 800,
+      "crd_reward": 5,
+      "guild_point": 10,
+      "reputation_point": 20,
+      "hunting_point": 10,
+      "drop_item": [
+        {
+          "itemId": "refined_crystal_shard",
+          "chance": 0.5
+        }
+      ],
+      "special_reward": []
+    },
+    {
+      "monster_id": 6002,
+      "code": "CRYSTAL_DEPTHS_SKITTER",
+      "name": "Crystal Depths Skitter",
+      "rank": "normal",
+      "level": 42,
+      "race_code": "CRYSTALLINE",
+      "element": [
+        "earth",
+        "arcane"
+      ],
+      "spawn_monster_id": "dungeon",
+      "spawn_location": [
+        "crystal_depths"
+      ],
+      "base_stats": {
+        "hp": 5400,
+        "mp": 320,
+        "atk": 480,
+        "def": 280,
+        "agi": 65,
+        "per": 45
+      },
+      "scaling": {
+        "basic_attack": 1.2,
+        "skill_scaling_bonus": 0.3
+      },
+      "critical_rate": 0.08,
+      "critical_damage": 1.5,
+      "resistances": [
+        "earth"
+      ],
+      "weaknesses": [
+        "electric"
+      ],
+      "status_immunity": [
+        "bleed"
+      ],
+      "ai_pattern": {
+        "behavior": "skirmisher"
+      },
+      "skill_set": {
+        "passive_skills": [
+          {
+            "skill_id": "crystal_carapace"
+          }
+        ],
+        "active_skills": [
+          {
+            "skill_id": "shard_spike"
+          }
+        ]
+      },
+      "exp_reward": 2000,
+      "currency_reward": 900,
+      "crd_reward": 5,
+      "guild_point": 10,
+      "reputation_point": 20,
+      "hunting_point": 10,
+      "drop_item": [
+        {
+          "itemId": "refined_crystal_shard",
+          "chance": 0.5
+        }
+      ],
       "special_reward": []
     }
   ]

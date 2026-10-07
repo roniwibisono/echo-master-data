@@ -1,0 +1,3112 @@
+{
+  "date": "2026-10-08",
+  "changes": [
+    {
+      "monster_id": 9999,
+      "code": "TRAINING_DUMMY",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": ["Training Ground"],
+          "after": ["NEXUS_CORE"]
+        }
+      }
+    },
+    {
+      "monster_id": 4001,
+      "code": "ASHEN_DRAKE",
+      "new": false,
+      "fields": {
+        "ai_pattern": {
+          "before": {
+            "phase_1": {
+              "hp_threshold": 1,
+              "behavior": "rotational_aoe",
+              "skills": [
+                "inferno_breath",
+                "wing_cyclone"
+              ]
+            },
+            "phase_2": {
+              "hp_threshold": 0.6,
+              "behavior": "summon_minions",
+              "skills": [
+                "meteor_dive",
+                "flame_prison"
+              ],
+              "atk_bonus": 0.2
+            },
+            "phase_3": {
+              "hp_threshold": 0.3,
+              "behavior": "berserk",
+              "skills": [
+                "apocalypse_flare"
+              ],
+              "atk_bonus": 0.5,
+              "agi_bonus": 0.3
+            }
+          },
+          "after": {
+            "phase_1": {
+              "hp_threshold": 1,
+              "behavior": "rotational_aoe",
+              "skills": [
+                "inferno_breath",
+                "wing_cyclone"
+              ]
+            },
+            "phase_2": {
+              "hp_threshold": 0.6,
+              "behavior": "summon_minions",
+              "skills": [
+                "meteor_dive",
+                "inferno_breath"
+              ],
+              "atk_bonus": 0.2
+            },
+            "phase_3": {
+              "hp_threshold": 0.25,
+              "behavior": "berserk",
+              "skills": [
+                "apocalypse_flare"
+              ],
+              "atk_bonus": 0.5,
+              "agi_bonus": 0.3
+            },
+            "behavior": "standard_rotation"
+          }
+        }
+      }
+    },
+    {
+      "monster_id": 4002,
+      "code": "ABYSS_HARBINGER",
+      "new": false,
+      "fields": {
+        "ai_pattern": {
+          "before": {
+            "phase_1": {
+              "hp_threshold": 1,
+              "behavior": "single_target_burst",
+              "skills": [
+                "void_lance",
+                "shadow_bind"
+              ]
+            },
+            "phase_2": {
+              "hp_threshold": 0.7,
+              "behavior": "aoe_control",
+              "skills": [
+                "abyssal_wave"
+              ],
+              "def_bonus": 0.3
+            },
+            "phase_3": {
+              "hp_threshold": 0.35,
+              "behavior": "collapse_burst",
+              "skills": [
+                "black_hole_collapse"
+              ],
+              "atk_bonus": 0.6,
+              "agi_bonus": 0.4
+            }
+          },
+          "after": {
+            "phase_1": {
+              "hp_threshold": 1,
+              "behavior": "single_target_burst",
+              "skills": [
+                "void_lance",
+                "shadow_bind"
+              ]
+            },
+            "phase_2": {
+              "hp_threshold": 0.7,
+              "behavior": "aoe_control",
+              "skills": [
+                "abyssal_wave"
+              ],
+              "def_bonus": 0.3
+            },
+            "phase_3": {
+              "hp_threshold": 0.35,
+              "behavior": "collapse_burst",
+              "skills": [
+                "black_hole_collapse"
+              ],
+              "atk_bonus": 0.6,
+              "agi_bonus": 0.4
+            },
+            "behavior": "aggressive_single_target"
+          }
+        }
+      }
+    },
+    {
+      "monster_id": 4003,
+      "code": "GRAVITY_TITAN",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Dungeon A",
+            "ETERNAL_GATE",
+            "PRIMA_MATERIA_FORGE"
+          ],
+          "after": [
+            "ETERNAL_GATE",
+            "PRIMA_MATERIA_FORGE"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 4004,
+      "code": "CHRONO_WRAITH",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Dungeon A",
+            "AETHEL_STORM_RIDGE"
+          ],
+          "after": [
+            "AETHEL_STORM_RIDGE"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5001,
+      "code": "FOREST_SLIME",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Green Meadow",
+            "AETHEL_GARDENS"
+          ],
+          "after": [
+            "AETHEL_GARDENS"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5002,
+      "code": "CAVE_RAT",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Abandoned Tunnel",
+            "CORAL_WETLANDS"
+          ],
+          "after": [
+            "CORAL_WETLANDS"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5003,
+      "code": "BROKEN_DRONE",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Scrap Field",
+            "SCRAP_FIELD"
+          ],
+          "after": [
+            "SCRAP_FIELD"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5004,
+      "code": "WILD_MUSHROOM",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Green Meadow",
+            "CRYSTAL_SLOPE"
+          ],
+          "after": [
+            "CRYSTAL_SLOPE"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 50010,
+      "code": "AETHEL_SPROUTLING",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Aethel Gardens",
+            "AETHEL_GARDENS"
+          ],
+          "after": [
+            "AETHEL_GARDENS"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5006,
+      "code": "GARDEN_MITE",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Aethel Gardens",
+            "AETHEL_GARDENS"
+          ],
+          "after": [
+            "AETHEL_GARDENS"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5007,
+      "code": "FERAL_ROOTLING",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Aethel Gardens",
+            "AETHEL_GARDENS",
+            "GLOWVINE_FOREST"
+          ],
+          "after": [
+            "AETHEL_GARDENS",
+            "GLOWVINE_FOREST"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5008,
+      "code": "CRYSTAL_WISP",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Crystal Slope",
+            "CRYSTAL_SLOPE"
+          ],
+          "after": [
+            "CRYSTAL_SLOPE"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 50012,
+      "code": "SCRAP_DRONE",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Scrap Field",
+            "SCRAP_FIELD"
+          ],
+          "after": [
+            "SCRAP_FIELD"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5101,
+      "code": "RUSTED_WARDEN",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Broken Civil Quarter",
+            "BROKEN_CIVIL_QUARTER"
+          ],
+          "after": [
+            "BROKEN_CIVIL_QUARTER"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5105,
+      "code": "FERAL_SCAVENGER",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Broken Civil Quarter",
+            "BROKEN_CIVIL_QUARTER"
+          ],
+          "after": [
+            "BROKEN_CIVIL_QUARTER"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5106,
+      "code": "BROKEN_SENTINEL",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Broken Civil Quarter",
+            "BROKEN_CIVIL_QUARTER"
+          ],
+          "after": [
+            "BROKEN_CIVIL_QUARTER"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5009,
+      "code": "SHARDLING",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Crystal Slope",
+            "CRYSTAL_SLOPE"
+          ],
+          "after": [
+            "CRYSTAL_SLOPE"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 50013,
+      "code": "SWAMP_CRAWLER",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Coral Wetlands",
+            "CORAL_WETLANDS"
+          ],
+          "after": [
+            "CORAL_WETLANDS"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5110,
+      "code": "JUNGLE_STALKER",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Smuggler Jungle",
+            "SMUGGLER_JUNGLE",
+            "SHARDROOT_SWAMP"
+          ],
+          "after": [
+            "SMUGGLER_JUNGLE",
+            "SHARDROOT_SWAMP"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5111,
+      "code": "SWAMP_RIPPER",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Smuggler Jungle",
+            "SMUGGLER_JUNGLE",
+            "SHARDROOT_SWAMP"
+          ],
+          "after": [
+            "SMUGGLER_JUNGLE",
+            "SHARDROOT_SWAMP"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5112,
+      "code": "CONTRABAND_GOLEM",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Smuggler Jungle",
+            "SMUGGLER_JUNGLE"
+          ],
+          "after": [
+            "SMUGGLER_JUNGLE"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5120,
+      "code": "SHARDROOT_CREEPER",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Shardroot Swamp",
+            "SHARDROOT_SWAMP"
+          ],
+          "after": [
+            "SHARDROOT_SWAMP"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5121,
+      "code": "SWAMP_SPECTER",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Shardroot Swamp",
+            "SHARDROOT_SWAMP"
+          ],
+          "after": [
+            "SHARDROOT_SWAMP"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5122,
+      "code": "SHARDROOT_TITAN",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Shardroot Swamp",
+            "SHARDROOT_SWAMP"
+          ],
+          "after": [
+            "SHARDROOT_SWAMP"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5130,
+      "code": "ASH_HOUND",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Scorched Badlands",
+            "SCORCHED_BADLANDS"
+          ],
+          "after": [
+            "SCORCHED_BADLANDS"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5200,
+      "code": "AETHEL_BEHEMOTH",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Cradle Expanse",
+            "SUNKEN_AETHEL_RUIN",
+            "HEARTWOOD_ALTAR",
+            "CRADLE_EXPANSE",
+            "BORDER_SKIRMISH_RING",
+            "TITAN_GRAVEYARD"
+          ],
+          "after": [
+            "CRADLE_EXPANSE",
+            "SUNKEN_AETHEL_RUIN",
+            "HEARTWOOD_ALTAR",
+            "BORDER_SKIRMISH_RING",
+            "TITAN_GRAVEYARD"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 50014,
+      "code": "SLIME_KING",
+      "new": false,
+      "fields": {
+        "ai_pattern": {
+          "before": {
+            "phase_1": {
+              "hp_threshold": 1,
+              "behavior": "aoe_pressure",
+              "skills": [
+                "slime_wave",
+                "gel_smash"
+              ]
+            },
+            "phase_2": {
+              "hp_threshold": 0.4,
+              "behavior": "split_spawn",
+              "skills": [
+                "mini_slime_spawn"
+              ],
+              "atk_bonus": 0.2
+            }
+          },
+          "after": {
+            "phase_1": {
+              "hp_threshold": 1,
+              "behavior": "aoe_pressure",
+              "skills": [
+                "slime_wave",
+                "gel_smash"
+              ]
+            },
+            "phase_2": {
+              "hp_threshold": 0.4,
+              "behavior": "split_spawn",
+              "skills": [
+                "mini_slime_spawn"
+              ],
+              "atk_bonus": 0.2
+            },
+            "behavior": "aggressive_swarm"
+          }
+        }
+      }
+    },
+    {
+      "monster_id": 5102,
+      "code": "GIANT_ALPHA_RAT",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Abandoned Tunnel",
+            "FRACTURED_GLASS_VALLEY"
+          ],
+          "after": [
+            "FRACTURED_GLASS_VALLEY"
+          ]
+        },
+        "ai_pattern": {
+          "before": {
+            "phase_1": {
+              "hp_threshold": 1,
+              "behavior": "aggressive_single_target",
+              "skills": [
+                "feral_bite",
+                "tail_whip"
+              ]
+            },
+            "phase_2": {
+              "hp_threshold": 0.4,
+              "behavior": "frenzy",
+              "skills": [
+                "berserk_rush"
+              ],
+              "atk_bonus": 0.3,
+              "agi_bonus": 0.2
+            }
+          },
+          "after": {
+            "phase_1": {
+              "hp_threshold": 1,
+              "behavior": "aggressive_single_target",
+              "skills": [
+                "feral_bite",
+                "tail_whip"
+              ]
+            },
+            "phase_2": {
+              "hp_threshold": 0.4,
+              "behavior": "frenzy",
+              "skills": [
+                "berserk_rush"
+              ],
+              "atk_bonus": 0.3,
+              "agi_bonus": 0.2
+            },
+            "behavior": "aggressive_single_target"
+          }
+        }
+      }
+    },
+    {
+      "monster_id": 5103,
+      "code": "SCRAPFIELD_ENFORCER",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Scrap Field",
+            "SCRAP_FIELD"
+          ],
+          "after": [
+            "SCRAP_FIELD"
+          ]
+        },
+        "ai_pattern": {
+          "before": {
+            "phase_1": {
+              "hp_threshold": 1,
+              "behavior": "ranged_pressure",
+              "skills": [
+                "shock_blast",
+                "overcharge"
+              ]
+            },
+            "phase_2": {
+              "hp_threshold": 0.35,
+              "behavior": "overload",
+              "skills": [
+                "electric_surge"
+              ],
+              "atk_bonus": 0.25
+            }
+          },
+          "after": {
+            "phase_1": {
+              "hp_threshold": 1,
+              "behavior": "ranged_pressure",
+              "skills": [
+                "shock_blast",
+                "overcharge"
+              ]
+            },
+            "phase_2": {
+              "hp_threshold": 0.35,
+              "behavior": "overload",
+              "skills": [
+                "electric_surge"
+              ],
+              "atk_bonus": 0.25
+            },
+            "behavior": "ranged_basic"
+          }
+        }
+      }
+    },
+    {
+      "monster_id": 5104,
+      "code": "DUNE_STINGER",
+      "new": false,
+      "fields": {
+        "ai_pattern": {
+          "before": {
+            "phase_1": {
+              "hp_threshold": 1,
+              "behavior": "hit_and_run",
+              "skills": [
+                "sting_thrust",
+                "sand_dash"
+              ]
+            },
+            "phase_2": {
+              "hp_threshold": 0.4,
+              "behavior": "venom_frenzy",
+              "skills": [
+                "venom_burst"
+              ],
+              "atk_bonus": 0.3,
+              "agi_bonus": 0.25
+            }
+          },
+          "after": {
+            "phase_1": {
+              "hp_threshold": 1,
+              "behavior": "hit_and_run",
+              "skills": [
+                "sting_thrust",
+                "sand_dash"
+              ]
+            },
+            "phase_2": {
+              "hp_threshold": 0.4,
+              "behavior": "venom_frenzy",
+              "skills": [
+                "venom_burst"
+              ],
+              "atk_bonus": 0.3,
+              "agi_bonus": 0.25
+            },
+            "behavior": "hit_and_run"
+          }
+        }
+      }
+    },
+    {
+      "monster_id": 5010,
+      "code": "SCRAP_CRAWLER",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Scrap Field",
+            "SCRAP_FIELD"
+          ],
+          "after": [
+            "SCRAP_FIELD"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5011,
+      "code": "RUST_MITE",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Scrap Field",
+            "SCRAP_FIELD"
+          ],
+          "after": [
+            "SCRAP_FIELD"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5115,
+      "code": "CRADLE_WARDEN",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Cradle Outer Ring",
+            "CRADLE_OUTER_RING"
+          ],
+          "after": [
+            "CRADLE_OUTER_RING"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5201,
+      "code": "CRADLE_SENTINEL",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Inner Cradle Exclusion",
+            "INNER_CRADLE_EXCLUSION",
+            "SUNKEN_AETHEL_RUIN"
+          ],
+          "after": [
+            "INNER_CRADLE_EXCLUSION",
+            "SUNKEN_AETHEL_RUIN"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5012,
+      "code": "CORAL_TIDAL_CRAB",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Coral Wetlands",
+            "CORAL_WETLANDS"
+          ],
+          "after": [
+            "CORAL_WETLANDS"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5013,
+      "code": "TIDE_MUDLING",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Coral Wetlands",
+            "CORAL_WETLANDS"
+          ],
+          "after": [
+            "CORAL_WETLANDS"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5014,
+      "code": "PLATEAU_DRONE",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Highland Plateau",
+            "HIGHLAND_PLATEAU"
+          ],
+          "after": [
+            "HIGHLAND_PLATEAU"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5015,
+      "code": "HIGHLAND_GOATLING",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Highland Plateau",
+            "HIGHLAND_PLATEAU"
+          ],
+          "after": [
+            "HIGHLAND_PLATEAU"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5016,
+      "code": "OMNI_SURVEY_BOT",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Highland Plateau",
+            "HIGHLAND_PLATEAU"
+          ],
+          "after": [
+            "HIGHLAND_PLATEAU"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5017,
+      "code": "GLOWVINE_SPRITE",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Glowvine Forest",
+            "GLOWVINE_FOREST"
+          ],
+          "after": [
+            "GLOWVINE_FOREST"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5018,
+      "code": "FOREST_BARKLING",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Glowvine Forest",
+            "GLOWVINE_FOREST"
+          ],
+          "after": [
+            "GLOWVINE_FOREST"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5019,
+      "code": "SAND_RUNNER",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Dune Outskirts",
+            "DUNE_OUTSKIRTS"
+          ],
+          "after": [
+            "DUNE_OUTSKIRTS"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5020,
+      "code": "DUNE_GNASHER",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Dune Outskirts",
+            "DUNE_OUTSKIRTS"
+          ],
+          "after": [
+            "DUNE_OUTSKIRTS"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5116,
+      "code": "CRADLE_FRAGMENT_BEAST",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Cradle Outer Ring",
+            "CRADLE_OUTER_RING"
+          ],
+          "after": [
+            "CRADLE_OUTER_RING"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5117,
+      "code": "GLASS_WISP",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Fractured Glass Valley",
+            "FRACTURED_GLASS_VALLEY"
+          ],
+          "after": [
+            "FRACTURED_GLASS_VALLEY"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5118,
+      "code": "CRYSTAL_RAM",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Fractured Glass Valley",
+            "FRACTURED_GLASS_VALLEY"
+          ],
+          "after": [
+            "FRACTURED_GLASS_VALLEY"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5123,
+      "code": "RAVINE_SCRAP_GOLEM",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Iron Ravine",
+            "IRON_RAVINE"
+          ],
+          "after": [
+            "IRON_RAVINE"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5124,
+      "code": "JUNGLE_VENOMFANG",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Smuggler Jungle",
+            "SMUGGLER_JUNGLE"
+          ],
+          "after": [
+            "SMUGGLER_JUNGLE"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5202,
+      "code": "CRADLE_PURIFIER",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Inner Cradle Exclusion",
+            "INNER_CRADLE_EXCLUSION",
+            "SUNKEN_AETHEL_RUIN"
+          ],
+          "after": [
+            "INNER_CRADLE_EXCLUSION",
+            "SUNKEN_AETHEL_RUIN"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5203,
+      "code": "ARCANE_RIFT_BEAST",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Inner Cradle Exclusion",
+            "INNER_CRADLE_EXCLUSION"
+          ],
+          "after": [
+            "INNER_CRADLE_EXCLUSION"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5204,
+      "code": "TITAN_FORGE_AUTOMATON",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Titan Assembly Yard",
+            "TITAN_ASSEMBLY_YARD",
+            "HEARTWOOD_ALTAR",
+            "BLOOD_IRON_BASIN"
+          ],
+          "after": [
+            "TITAN_ASSEMBLY_YARD",
+            "HEARTWOOD_ALTAR",
+            "BLOOD_IRON_BASIN"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5205,
+      "code": "SUNKEN_AETHEL_LEVIATHAN",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Sunken Aethel Ruin",
+            "SHARD_PULSE_PEAK",
+            "SUNKEN_AETHEL_RUIN",
+            "HEARTWOOD_ALTAR",
+            "TITAN_GRAVEYARD"
+          ],
+          "after": [
+            "SUNKEN_AETHEL_RUIN",
+            "SHARD_PULSE_PEAK",
+            "HEARTWOOD_ALTAR",
+            "TITAN_GRAVEYARD"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5206,
+      "code": "STORM_RIFT_SERPENT",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Aethel Storm Belt",
+            "SHARD_PULSE_PEAK",
+            "SKYBRIDGE_REACTOR",
+            "AETHEL_STORM_BELT",
+            "AETHEL_STORM_RIDGE"
+          ],
+          "after": [
+            "AETHEL_STORM_BELT",
+            "SHARD_PULSE_PEAK",
+            "SKYBRIDGE_REACTOR",
+            "AETHEL_STORM_RIDGE"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5222,
+      "code": "AETHEL_CORRUPTED_BEHEMOTH",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Cradle Expanse",
+            "CRADLE_EXPANSE",
+            "TITAN_GRAVEYARD",
+            "SHATTERED_HEART",
+            "SEVERANCE_FAULTLINE",
+            "AETHEL_SIPHON_CORE",
+            "PRIMA_MATERIA_FORGE",
+            "VOID_ECHO_CHASM"
+          ],
+          "after": [
+            "CRADLE_EXPANSE",
+            "TITAN_GRAVEYARD",
+            "SHATTERED_HEART",
+            "SEVERANCE_FAULTLINE",
+            "AETHEL_SIPHON_CORE",
+            "PRIMA_MATERIA_FORGE",
+            "VOID_ECHO_CHASM"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 4101,
+      "code": "CRYSTAL_TYRANT_DUNGEON",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Crystal Depths"
+          ],
+          "after": [
+            "crystal_depths"
+          ]
+        },
+        "ai_pattern": {
+          "before": {
+            "phase_1": {
+              "hp_threshold": 1,
+              "behavior": "territorial_guardian",
+              "skills": [
+                "crystal_slam",
+                "shard_barrage"
+              ]
+            },
+            "phase_2": {
+              "hp_threshold": 0.55,
+              "behavior": "aoe_pressure",
+              "skills": [
+                "crystal_spike_field"
+              ],
+              "def_bonus": 0.25
+            },
+            "phase_3": {
+              "hp_threshold": 0.25,
+              "behavior": "berserk",
+              "skills": [
+                "tyrant_crystal_cataclysm"
+              ],
+              "atk_bonus": 0.4
+            }
+          },
+          "after": {
+            "phase_1": {
+              "hp_threshold": 1,
+              "behavior": "territorial_guardian",
+              "skills": [
+                "crystal_slam",
+                "shard_barrage"
+              ]
+            },
+            "phase_2": {
+              "hp_threshold": 0.55,
+              "behavior": "aoe_pressure",
+              "skills": [
+                "crystal_spike_field"
+              ],
+              "def_bonus": 0.25
+            },
+            "phase_3": {
+              "hp_threshold": 0.25,
+              "behavior": "berserk",
+              "skills": [
+                "tyrant_crystal_cataclysm"
+              ],
+              "atk_bonus": 0.4
+            },
+            "behavior": "territorial_guardian"
+          }
+        }
+      }
+    },
+    {
+      "monster_id": 5301,
+      "code": "VOID_REAVER",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Void Echo Chasm",
+            "VOID_RIFT_CROSSROADS",
+            "VOID_ECHO_CHASM"
+          ],
+          "after": [
+            "VOID_ECHO_CHASM",
+            "VOID_RIFT_CROSSROADS"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5021,
+      "code": "GLOW_SPORELING",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Glowvine Forest",
+            "GLOWVINE_FOREST"
+          ],
+          "after": [
+            "GLOWVINE_FOREST"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5022,
+      "code": "VINE_STRIKER",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Glowvine Forest",
+            "GLOWVINE_FOREST"
+          ],
+          "after": [
+            "GLOWVINE_FOREST"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5023,
+      "code": "TUNNEL_CRAWLER",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Broken Civil Quarter",
+            "BROKEN_CIVIL_QUARTER"
+          ],
+          "after": [
+            "BROKEN_CIVIL_QUARTER"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5024,
+      "code": "ARCANE_SHARDLING",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Crystal Slope",
+            "CRYSTAL_SLOPE"
+          ],
+          "after": [
+            "CRYSTAL_SLOPE"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5025,
+      "code": "FERAL_SAND_IMP",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Dune Outskirts",
+            "DUNE_OUTSKIRTS"
+          ],
+          "after": [
+            "DUNE_OUTSKIRTS"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5031,
+      "code": "AETHEL_WISP",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Aethel Gardens",
+            "AETHEL_GARDENS"
+          ],
+          "after": [
+            "AETHEL_GARDENS"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5032,
+      "code": "BROKEN_PATROL_DRONE",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Broken Civil Quarter",
+            "BROKEN_CIVIL_QUARTER"
+          ],
+          "after": [
+            "BROKEN_CIVIL_QUARTER"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5033,
+      "code": "CRYSTAL_SKITTER",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Crystal Slope",
+            "CRYSTAL_SLOPE"
+          ],
+          "after": [
+            "CRYSTAL_SLOPE"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5034,
+      "code": "SCRAP_HOUND",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Scrap Field",
+            "SCRAP_FIELD"
+          ],
+          "after": [
+            "SCRAP_FIELD"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5035,
+      "code": "GLOWROOT_SHAMAN",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Shardroot Swamp",
+            "SHARDROOT_SWAMP"
+          ],
+          "after": [
+            "SHARDROOT_SWAMP"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5041,
+      "code": "MEADOW_RABID_HARE",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Aethel Gardens",
+            "AETHEL_GARDENS"
+          ],
+          "after": [
+            "AETHEL_GARDENS"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5042,
+      "code": "BROKEN_SCAVENGER",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Broken Civil Quarter",
+            "BROKEN_CIVIL_QUARTER"
+          ],
+          "after": [
+            "BROKEN_CIVIL_QUARTER"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5043,
+      "code": "FOREST_STAGLING",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Aethel Gardens",
+            "AETHEL_GARDENS"
+          ],
+          "after": [
+            "AETHEL_GARDENS"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5044,
+      "code": "CRYSTAL_MITE",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Crystal Slope",
+            "CRYSTAL_SLOPE"
+          ],
+          "after": [
+            "CRYSTAL_SLOPE"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5045,
+      "code": "DUNE_SCORPION",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Dune Outskirts",
+            "DUNE_OUTSKIRTS",
+            "SCORCHED_BADLANDS"
+          ],
+          "after": [
+            "DUNE_OUTSKIRTS",
+            "SCORCHED_BADLANDS"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5046,
+      "code": "GLOWVINE_WARDEN",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Glowvine Forest",
+            "GLOWVINE_FOREST"
+          ],
+          "after": [
+            "GLOWVINE_FOREST"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 926,
+      "code": "SIEGE_REAPER",
+      "new": false,
+      "fields": {
+        "ai_pattern": {
+          "before": {
+            "behavior": "aggressive_siege_hunter"
+          },
+          "after": {
+            "behavior": "aggressive_hunter"
+          }
+        },
+        "drop_item": {
+          "before": [
+            {
+              "itemId": "siege_plasma_emitter",
+              "chance": 0.4
+            },
+            {
+              "itemId": "reinforced_hydraulic_frame",
+              "chance": 0.35
+            },
+            {
+              "itemId": "high_density_reactor_core",
+              "chance": 0.2
+            }
+          ],
+          "after": [
+            {
+              "itemId": "overheated_reactor_part",
+              "chance": 0.4
+            },
+            {
+              "itemId": "hydraulic_piston_fragment",
+              "chance": 0.35
+            },
+            {
+              "itemId": "power_regulator_core",
+              "chance": 0.2
+            }
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5223,
+      "code": "AETHEL_RIFT_STALKER",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Cradle Expanse",
+            "CRADLE_EXPANSE",
+            "AETHEL_SIPHON_CORE",
+            "HIDDEN_AETHELGARDIAN_CITY"
+          ],
+          "after": [
+            "CRADLE_EXPANSE",
+            "AETHEL_SIPHON_CORE",
+            "HIDDEN_AETHELGARDIAN_CITY"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5224,
+      "code": "AETHEL_IRON_CARAPACE",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Cradle Expanse",
+            "CRADLE_EXPANSE",
+            "BLOOD_IRON_BASIN",
+            "SEVERANCE_FAULTLINE",
+            "PRIMA_MATERIA_FORGE",
+            "HIDDEN_AETHELGARDIAN_CITY"
+          ],
+          "after": [
+            "CRADLE_EXPANSE",
+            "BLOOD_IRON_BASIN",
+            "SEVERANCE_FAULTLINE",
+            "PRIMA_MATERIA_FORGE",
+            "HIDDEN_AETHELGARDIAN_CITY"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5225,
+      "code": "AETHEL_VOID_CHANNELER",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Cradle Expanse",
+            "CRADLE_EXPANSE",
+            "VOID_RIFT_CROSSROADS",
+            "SEVERANCE_FAULTLINE",
+            "AETHEL_SIPHON_CORE",
+            "PRIMA_MATERIA_FORGE",
+            "HIDDEN_AETHELGARDIAN_CITY",
+            "VOID_ECHO_CHASM"
+          ],
+          "after": [
+            "CRADLE_EXPANSE",
+            "VOID_RIFT_CROSSROADS",
+            "SEVERANCE_FAULTLINE",
+            "AETHEL_SIPHON_CORE",
+            "PRIMA_MATERIA_FORGE",
+            "HIDDEN_AETHELGARDIAN_CITY",
+            "VOID_ECHO_CHASM"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 5226,
+      "code": "AETHEL_ABYSSAL_REAVER",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Cradle Expanse",
+            "CRADLE_EXPANSE",
+            "VOID_RIFT_CROSSROADS",
+            "SHATTERED_HEART",
+            "SEVERANCE_FAULTLINE",
+            "AETHEL_SIPHON_CORE",
+            "PRIMA_MATERIA_FORGE",
+            "HIDDEN_AETHELGARDIAN_CITY",
+            "VOID_ECHO_CHASM"
+          ],
+          "after": [
+            "CRADLE_EXPANSE",
+            "VOID_RIFT_CROSSROADS",
+            "SHATTERED_HEART",
+            "SEVERANCE_FAULTLINE",
+            "AETHEL_SIPHON_CORE",
+            "PRIMA_MATERIA_FORGE",
+            "HIDDEN_AETHELGARDIAN_CITY",
+            "VOID_ECHO_CHASM"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 50056,
+      "code": "DRAKE_MINION",
+      "new": false,
+      "fields": {
+        "spawn_location": {
+          "before": [
+            "Shattered Heart",
+            "SHATTERED_HEART"
+          ],
+          "after": [
+            "SHATTERED_HEART"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 6001,
+      "code": "CRYSTAL_DEPTHS_SENTRY",
+      "new": true,
+      "fields": {
+        "skill_set": {
+          "before": null,
+          "after": {
+            "passive_skills": [
+              {
+                "skill_id": "crystal_armor"
+              }
+            ],
+            "active_skills": [
+              {
+                "skill_id": "crystal_puncture"
+              }
+            ]
+          }
+        },
+        "crd_reward": {
+          "before": null,
+          "after": 5
+        },
+        "code": {
+          "before": null,
+          "after": "CRYSTAL_DEPTHS_SENTRY"
+        },
+        "hunting_point": {
+          "before": null,
+          "after": 10
+        },
+        "element": {
+          "before": null,
+          "after": [
+            "earth",
+            "arcane"
+          ]
+        },
+        "ai_pattern": {
+          "before": null,
+          "after": {
+            "behavior": "defensive_guard"
+          }
+        },
+        "level": {
+          "before": null,
+          "after": 40
+        },
+        "status_immunity": {
+          "before": null,
+          "after": [
+            "bleed"
+          ]
+        },
+        "rank": {
+          "before": null,
+          "after": "normal"
+        },
+        "scaling": {
+          "before": null,
+          "after": {
+            "basic_attack": 1.2,
+            "skill_scaling_bonus": 0.3
+          }
+        },
+        "name": {
+          "before": null,
+          "after": "Crystal Depths Sentry"
+        },
+        "critical_rate": {
+          "before": null,
+          "after": 0.08
+        },
+        "currency_reward": {
+          "before": null,
+          "after": 800
+        },
+        "race_code": {
+          "before": null,
+          "after": "CRYSTALLINE"
+        },
+        "reputation_point": {
+          "before": null,
+          "after": 20
+        },
+        "special_reward": {
+          "before": null,
+          "after": []
+        },
+        "base_stats": {
+          "before": null,
+          "after": {
+            "hp": 7200,
+            "mp": 450,
+            "atk": 420,
+            "def": 400,
+            "agi": 40,
+            "per": 55
+          }
+        },
+        "spawn_location": {
+          "before": null,
+          "after": [
+            "crystal_depths"
+          ]
+        },
+        "critical_damage": {
+          "before": null,
+          "after": 1.5
+        },
+        "monster_id": {
+          "before": null,
+          "after": 6001
+        },
+        "drop_item": {
+          "before": null,
+          "after": [
+            {
+              "itemId": "refined_crystal_shard",
+              "chance": 0.5
+            }
+          ]
+        },
+        "resistances": {
+          "before": null,
+          "after": [
+            "earth"
+          ]
+        },
+        "spawn_monster_id": {
+          "before": null,
+          "after": "dungeon"
+        },
+        "exp_reward": {
+          "before": null,
+          "after": 1800
+        },
+        "guild_point": {
+          "before": null,
+          "after": 10
+        },
+        "weaknesses": {
+          "before": null,
+          "after": [
+            "electric"
+          ]
+        }
+      }
+    },
+    {
+      "monster_id": 6002,
+      "code": "CRYSTAL_DEPTHS_SKITTER",
+      "new": true,
+      "fields": {
+        "skill_set": {
+          "before": null,
+          "after": {
+            "passive_skills": [
+              {
+                "skill_id": "crystal_carapace"
+              }
+            ],
+            "active_skills": [
+              {
+                "skill_id": "shard_spike"
+              }
+            ]
+          }
+        },
+        "crd_reward": {
+          "before": null,
+          "after": 5
+        },
+        "code": {
+          "before": null,
+          "after": "CRYSTAL_DEPTHS_SKITTER"
+        },
+        "hunting_point": {
+          "before": null,
+          "after": 10
+        },
+        "element": {
+          "before": null,
+          "after": [
+            "earth",
+            "arcane"
+          ]
+        },
+        "ai_pattern": {
+          "before": null,
+          "after": {
+            "behavior": "skirmisher"
+          }
+        },
+        "level": {
+          "before": null,
+          "after": 42
+        },
+        "status_immunity": {
+          "before": null,
+          "after": [
+            "bleed"
+          ]
+        },
+        "rank": {
+          "before": null,
+          "after": "normal"
+        },
+        "scaling": {
+          "before": null,
+          "after": {
+            "basic_attack": 1.2,
+            "skill_scaling_bonus": 0.3
+          }
+        },
+        "name": {
+          "before": null,
+          "after": "Crystal Depths Skitter"
+        },
+        "critical_rate": {
+          "before": null,
+          "after": 0.08
+        },
+        "currency_reward": {
+          "before": null,
+          "after": 900
+        },
+        "race_code": {
+          "before": null,
+          "after": "CRYSTALLINE"
+        },
+        "reputation_point": {
+          "before": null,
+          "after": 20
+        },
+        "special_reward": {
+          "before": null,
+          "after": []
+        },
+        "base_stats": {
+          "before": null,
+          "after": {
+            "hp": 5400,
+            "mp": 320,
+            "atk": 480,
+            "def": 280,
+            "agi": 65,
+            "per": 45
+          }
+        },
+        "spawn_location": {
+          "before": null,
+          "after": [
+            "crystal_depths"
+          ]
+        },
+        "critical_damage": {
+          "before": null,
+          "after": 1.5
+        },
+        "monster_id": {
+          "before": null,
+          "after": 6002
+        },
+        "drop_item": {
+          "before": null,
+          "after": [
+            {
+              "itemId": "refined_crystal_shard",
+              "chance": 0.5
+            }
+          ]
+        },
+        "resistances": {
+          "before": null,
+          "after": [
+            "earth"
+          ]
+        },
+        "spawn_monster_id": {
+          "before": null,
+          "after": "dungeon"
+        },
+        "exp_reward": {
+          "before": null,
+          "after": 2000
+        },
+        "guild_point": {
+          "before": null,
+          "after": 10
+        },
+        "weaknesses": {
+          "before": null,
+          "after": [
+            "electric"
+          ]
+        }
+      }
+    }
+  ],
+  "biome_mapping": {
+    "before": {
+      "version": "1.0.0",
+      "mappings": [
+        {
+          "biome_primary": "ancient_city",
+          "monster_ids": [
+            5001,
+            5002,
+            5008
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "sacred_garden",
+          "monster_ids": [
+            5001,
+            5003,
+            5007
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "urban_ruins",
+          "monster_ids": [
+            5004,
+            5002,
+            5009
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "ancient_ring_road",
+          "monster_ids": [
+            5008,
+            5003,
+            5005
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "crystal_mountains",
+          "monster_ids": [
+            5007,
+            5006,
+            5101
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "crystal_hills",
+          "monster_ids": [
+            5007,
+            5102,
+            5103
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "crystal_cave",
+          "monster_ids": [
+            5101,
+            5104,
+            5105
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "crystal_pass",
+          "monster_ids": [
+            5007,
+            5106,
+            5107
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "iron_fortress",
+          "monster_ids": [
+            5004,
+            5108,
+            5109
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "scrap_desert",
+          "monster_ids": [
+            5004,
+            5009,
+            5110
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "mining_canyon",
+          "monster_ids": [
+            5111,
+            5108,
+            5112
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "battlefield_junkyard",
+          "monster_ids": [
+            5113,
+            5114,
+            5115
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "tropical_port",
+          "monster_ids": [
+            5116,
+            5117,
+            5118
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "coastal_swamp",
+          "monster_ids": [
+            5117,
+            5119,
+            5120
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "tropical_jungle",
+          "monster_ids": [
+            5121,
+            5122,
+            5117
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "alpine_plateau",
+          "monster_ids": [
+            5123,
+            5124,
+            5125
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "arcology",
+          "monster_ids": [
+            5002,
+            5126,
+            5127
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "industrial_mine",
+          "monster_ids": [
+            5112,
+            5128,
+            5129
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "automated_mine",
+          "monster_ids": [
+            5126,
+            5130,
+            5127
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "sacred_temple",
+          "monster_ids": [
+            5003,
+            5131,
+            5132
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "bioluminescent_forest",
+          "monster_ids": [
+            5003,
+            5133,
+            5007
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "toxic_swamp",
+          "monster_ids": [
+            5134,
+            5135,
+            5136
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "mesa_fortress",
+          "monster_ids": [
+            5137,
+            5138,
+            5139
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "desert_edge",
+          "monster_ids": [
+            5110,
+            5140,
+            5141
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "volcanic_badlands",
+          "monster_ids": [
+            5138,
+            5142,
+            5143
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "rocky_mesa",
+          "monster_ids": [
+            5111,
+            5144,
+            5137
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "aethel_wasteland",
+          "monster_ids": [
+            5150,
+            5151,
+            5152
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "storm_wasteland",
+          "monster_ids": [
+            5153,
+            5154,
+            5155
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "endgame_abyss",
+          "monster_ids": [
+            4004,
+            4001,
+            4002
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "orbital",
+          "monster_ids": [
+            5002,
+            5126,
+            5156
+          ],
+          "spawn_weights": [
+            0.3333333333333333,
+            0.3333333333333333,
+            0.3333333333333333
+          ]
+        },
+        {
+          "biome_primary": "neutral",
+          "monster_ids": [],
+          "spawn_weights": []
+        }
+      ]
+    },
+    "after": {
+      "version": "1.0.0",
+      "mappings": [
+        {
+          "biome_primary": "ancient_city",
+          "monster_ids": [],
+          "spawn_weights": []
+        },
+        {
+          "biome_primary": "sacred_garden",
+          "monster_ids": [
+            5001,
+            5006,
+            5007,
+            5031,
+            5041,
+            5043,
+            50010,
+            50011,
+            50020,
+            50021
+          ],
+          "spawn_weights": [
+            0.13333333333333333,
+            0.12444444444444444,
+            0.09777777777777778,
+            0.1111111111111111,
+            0.05333333333333334,
+            0.035555555555555556,
+            0.1111111111111111,
+            0.1111111111111111,
+            0.1111111111111111,
+            0.1111111111111111
+          ]
+        },
+        {
+          "biome_primary": "urban_ruins",
+          "monster_ids": [
+            5023,
+            5032,
+            5042,
+            5101,
+            5105,
+            5106,
+            50033,
+            50037,
+            50038
+          ],
+          "spawn_weights": [
+            0.2112676056338028,
+            0.04929577464788732,
+            0.176056338028169,
+            0.14084507042253522,
+            0.1056338028169014,
+            0.02112676056338028,
+            0.1267605633802817,
+            0.09859154929577464,
+            0.07042253521126761
+          ]
+        },
+        {
+          "biome_primary": "ancient_ring_road",
+          "monster_ids": [
+            4017,
+            4018,
+            5115,
+            5116,
+            5201,
+            5202,
+            5203,
+            50041,
+            50042,
+            50050,
+            50051,
+            50052
+          ],
+          "spawn_weights": [
+            0.047619047619047616,
+            0.047619047619047616,
+            0.02976190476190476,
+            0.17857142857142858,
+            0.05952380952380952,
+            0.041666666666666664,
+            0.11904761904761904,
+            0.11904761904761904,
+            0.09523809523809523,
+            0.13095238095238096,
+            0.08333333333333333,
+            0.047619047619047616
+          ]
+        },
+        {
+          "biome_primary": "crystal_mountains",
+          "monster_ids": [
+            5205,
+            5206,
+            50053,
+            50054,
+            50055
+          ],
+          "spawn_weights": [
+            0.05263157894736842,
+            0.10526315789473684,
+            0.39473684210526316,
+            0.2894736842105263,
+            0.15789473684210525
+          ]
+        },
+        {
+          "biome_primary": "crystal_hills",
+          "monster_ids": [
+            4002,
+            4019,
+            4020,
+            5004,
+            5008,
+            5009,
+            5024,
+            5033,
+            5044,
+            5102,
+            5117,
+            5118,
+            50018,
+            50022,
+            50023,
+            50034,
+            50043,
+            50044
+          ],
+          "spawn_weights": [
+            0.009554140127388535,
+            0.04777070063694268,
+            0.04777070063694268,
+            0.10191082802547771,
+            0.08917197452229299,
+            0.07961783439490445,
+            0.03184713375796178,
+            0.07961783439490445,
+            0.01592356687898089,
+            0.11146496815286625,
+            0.03184713375796178,
+            0.01592356687898089,
+            0.08917197452229299,
+            0.07006369426751592,
+            0.04777070063694268,
+            0.07961783439490445,
+            0.025477707006369428,
+            0.025477707006369428
+          ]
+        },
+        {
+          "biome_primary": "crystal_cave",
+          "monster_ids": [
+            5125,
+            5126,
+            50015
+          ],
+          "spawn_weights": [
+            0.76,
+            0.08,
+            0.16
+          ]
+        },
+        {
+          "biome_primary": "crystal_pass",
+          "monster_ids": [],
+          "spawn_weights": []
+        },
+        {
+          "biome_primary": "iron_fortress",
+          "monster_ids": [],
+          "spawn_weights": []
+        },
+        {
+          "biome_primary": "scrap_desert",
+          "monster_ids": [
+            5003,
+            5010,
+            5011,
+            5034,
+            5103,
+            50012,
+            50017,
+            50024
+          ],
+          "spawn_weights": [
+            0.08275862068965517,
+            0.19310344827586207,
+            0.13793103448275862,
+            0.10344827586206896,
+            0.10344827586206896,
+            0.12413793103448276,
+            0.1724137931034483,
+            0.08275862068965517
+          ]
+        },
+        {
+          "biome_primary": "mining_canyon",
+          "monster_ids": [
+            5123,
+            5135,
+            5136,
+            50035
+          ],
+          "spawn_weights": [
+            0.19047619047619047,
+            0.4444444444444444,
+            0.07936507936507936,
+            0.2857142857142857
+          ]
+        },
+        {
+          "biome_primary": "battlefield_junkyard",
+          "monster_ids": [
+            5140,
+            5141,
+            5142
+          ],
+          "spawn_weights": [
+            0.75,
+            0.16666666666666666,
+            0.08333333333333333
+          ]
+        },
+        {
+          "biome_primary": "tropical_port",
+          "monster_ids": [],
+          "spawn_weights": []
+        },
+        {
+          "biome_primary": "coastal_swamp",
+          "monster_ids": [
+            5002,
+            5012,
+            5013,
+            50013,
+            50016,
+            50025,
+            50026
+          ],
+          "spawn_weights": [
+            0.2711864406779661,
+            0.0847457627118644,
+            0.0423728813559322,
+            0.211864406779661,
+            0.1694915254237288,
+            0.13559322033898305,
+            0.0847457627118644
+          ]
+        },
+        {
+          "biome_primary": "tropical_jungle",
+          "monster_ids": [
+            5110,
+            5111,
+            5112,
+            5124,
+            50039,
+            50040
+          ],
+          "spawn_weights": [
+            0.11428571428571428,
+            0.05714285714285714,
+            0.20952380952380953,
+            0.14285714285714285,
+            0.23809523809523808,
+            0.23809523809523808
+          ]
+        },
+        {
+          "biome_primary": "alpine_plateau",
+          "monster_ids": [
+            5014,
+            5015,
+            5016,
+            50027,
+            50028,
+            50029
+          ],
+          "spawn_weights": [
+            0.2,
+            0.1696969696969697,
+            0.14545454545454545,
+            0.15151515151515152,
+            0.18181818181818182,
+            0.15151515151515152
+          ]
+        },
+        {
+          "biome_primary": "arcology",
+          "monster_ids": [],
+          "spawn_weights": []
+        },
+        {
+          "biome_primary": "industrial_mine",
+          "monster_ids": [
+            5160,
+            5161,
+            5162
+          ],
+          "spawn_weights": [
+            0.75,
+            0.16666666666666666,
+            0.08333333333333333
+          ]
+        },
+        {
+          "biome_primary": "automated_mine",
+          "monster_ids": [
+            5165,
+            5166,
+            5167
+          ],
+          "spawn_weights": [
+            0.7346938775510204,
+            0.1836734693877551,
+            0.08163265306122448
+          ]
+        },
+        {
+          "biome_primary": "sacred_temple",
+          "monster_ids": [],
+          "spawn_weights": []
+        },
+        {
+          "biome_primary": "bioluminescent_forest",
+          "monster_ids": [
+            5007,
+            5017,
+            5018,
+            5021,
+            5022,
+            5046,
+            50030
+          ],
+          "spawn_weights": [
+            0.08441558441558442,
+            0.21428571428571427,
+            0.16883116883116883,
+            0.16233766233766234,
+            0.16233766233766234,
+            0.06493506493506493,
+            0.14285714285714285
+          ]
+        },
+        {
+          "biome_primary": "toxic_swamp",
+          "monster_ids": [
+            5035,
+            5110,
+            5111,
+            5120,
+            5121,
+            5122,
+            50045,
+            50046,
+            50047
+          ],
+          "spawn_weights": [
+            0.05291005291005291,
+            0.14814814814814814,
+            0.10582010582010581,
+            0.13227513227513227,
+            0.09523809523809523,
+            0.15873015873015872,
+            0.13227513227513227,
+            0.13227513227513227,
+            0.042328042328042326
+          ]
+        },
+        {
+          "biome_primary": "mesa_fortress",
+          "monster_ids": [],
+          "spawn_weights": []
+        },
+        {
+          "biome_primary": "desert_edge",
+          "monster_ids": [
+            5019,
+            5020,
+            5025,
+            5045,
+            50019,
+            50031,
+            50032
+          ],
+          "spawn_weights": [
+            0.22764227642276422,
+            0.1951219512195122,
+            0.08943089430894309,
+            0.04065040650406504,
+            0.2032520325203252,
+            0.14634146341463414,
+            0.0975609756097561
+          ]
+        },
+        {
+          "biome_primary": "volcanic_badlands",
+          "monster_ids": [
+            5045,
+            5130,
+            5131,
+            5180,
+            5181,
+            5182,
+            5207,
+            5208,
+            5209,
+            50036,
+            50048
+          ],
+          "spawn_weights": [
+            0.065,
+            0.125,
+            0.06,
+            0.11,
+            0.075,
+            0.035,
+            0.14,
+            0.125,
+            0.015,
+            0.125,
+            0.125
+          ]
+        },
+        {
+          "biome_primary": "rocky_mesa",
+          "monster_ids": [
+            5180,
+            5181,
+            5182
+          ],
+          "spawn_weights": [
+            0.7291666666666666,
+            0.1875,
+            0.08333333333333333
+          ]
+        },
+        {
+          "biome_primary": "aethel_wasteland",
+          "monster_ids": [
+            5200,
+            5222,
+            5223,
+            5224,
+            5225,
+            5226,
+            50049
+          ],
+          "spawn_weights": [
+            0.23333333333333334,
+            0.06666666666666667,
+            0.2,
+            0.16666666666666666,
+            0.13333333333333333,
+            0.03333333333333333,
+            0.16666666666666666
+          ]
+        },
+        {
+          "biome_primary": "storm_wasteland",
+          "monster_ids": [
+            4004,
+            4017,
+            4018,
+            4019,
+            5206
+          ],
+          "spawn_weights": [
+            0.1893939393939394,
+            0.030303030303030304,
+            0.1893939393939394,
+            0.15151515151515152,
+            0.4393939393939394
+          ]
+        },
+        {
+          "biome_primary": "endgame_abyss",
+          "monster_ids": [
+            4001,
+            4002,
+            4017,
+            4020,
+            5222,
+            5223,
+            5224,
+            5225,
+            5226,
+            50056
+          ],
+          "spawn_weights": [
+            0.012618296529968454,
+            0.06309148264984227,
+            0.1640378548895899,
+            0.10094637223974763,
+            0.11356466876971609,
+            0.00946372239747634,
+            0.08517350157728706,
+            0.1640378548895899,
+            0.2082018927444795,
+            0.07886435331230283
+          ]
+        },
+        {
+          "biome_primary": "orbital",
+          "monster_ids": [],
+          "spawn_weights": []
+        },
+        {
+          "biome_primary": "neutral",
+          "monster_ids": [],
+          "spawn_weights": []
+        },
+        {
+          "biome_primary": "ancient_shrine",
+          "monster_ids": [
+            5170,
+            5171,
+            5172,
+            5200,
+            5204,
+            5205
+          ],
+          "spawn_weights": [
+            0.41216216216216217,
+            0.20270270270270271,
+            0.06756756756756757,
+            0.0945945945945946,
+            0.20270270270270271,
+            0.02027027027027027
+          ]
+        },
+        {
+          "biome_primary": "blood_iron_field",
+          "monster_ids": [
+            5204,
+            5208,
+            5209,
+            5224
+          ],
+          "spawn_weights": [
+            0.25,
+            0.25,
+            0.2,
+            0.3
+          ]
+        },
+        {
+          "biome_primary": "eternal_gate",
+          "monster_ids": [
+            4001,
+            4002,
+            4003,
+            4017,
+            4020
+          ],
+          "spawn_weights": [
+            0.15,
+            0.15,
+            0.15,
+            0.25,
+            0.3
+          ]
+        },
+        {
+          "biome_primary": "frontline_battlefield",
+          "monster_ids": [
+            5150,
+            5180,
+            5182,
+            5200,
+            5208,
+            5209
+          ],
+          "spawn_weights": [
+            0.2,
+            0.25,
+            0.22,
+            0.18,
+            0.1,
+            0.05
+          ]
+        },
+        {
+          "biome_primary": "hidden_city",
+          "monster_ids": [
+            4017,
+            5223,
+            5224,
+            5225,
+            5226
+          ],
+          "spawn_weights": [
+            0.03,
+            0.28,
+            0.25,
+            0.2,
+            0.24
+          ]
+        },
+        {
+          "biome_primary": "industrial_assembly",
+          "monster_ids": [
+            5204,
+            5207,
+            5208,
+            5209
+          ],
+          "spawn_weights": [
+            0.2777777777777778,
+            0.5,
+            0.08333333333333333,
+            0.1388888888888889
+          ]
+        },
+        {
+          "biome_primary": "prima_forge",
+          "monster_ids": [
+            4003,
+            4017,
+            4020,
+            5222,
+            5224,
+            5225,
+            5226
+          ],
+          "spawn_weights": [
+            0.16666666666666666,
+            0.2,
+            0.18333333333333332,
+            0.13333333333333333,
+            0.06666666666666667,
+            0.03333333333333333,
+            0.21666666666666667
+          ]
+        },
+        {
+          "biome_primary": "skybridge",
+          "monster_ids": [
+            4018,
+            5206,
+            5207,
+            5208,
+            5209
+          ],
+          "spawn_weights": [
+            0.04,
+            0.07,
+            0.28,
+            0.26,
+            0.35
+          ]
+        },
+        {
+          "biome_primary": "smuggler_harbor",
+          "monster_ids": [
+            5150,
+            5151,
+            5152
+          ],
+          "spawn_weights": [
+            0.7291666666666666,
+            0.1875,
+            0.08333333333333333
+          ]
+        },
+        {
+          "biome_primary": "sunken_ruins",
+          "monster_ids": [
+            5200,
+            5201,
+            5202,
+            5205
+          ],
+          "spawn_weights": [
+            0.4,
+            0.3142857142857143,
+            0.2,
+            0.08571428571428572
+          ]
+        },
+        {
+          "biome_primary": "titan_graveyard",
+          "monster_ids": [
+            4020,
+            5200,
+            5205,
+            5222
+          ],
+          "spawn_weights": [
+            0.2,
+            0.3,
+            0.25,
+            0.25
+          ]
+        },
+        {
+          "biome_primary": "void_chasm",
+          "monster_ids": [
+            4017,
+            4020,
+            5222,
+            5225,
+            5226,
+            5301
+          ],
+          "spawn_weights": [
+            0.16,
+            0.08,
+            0.04,
+            0.24,
+            0.2,
+            0.28
+          ]
+        },
+        {
+          "biome_primary": "void_rift",
+          "monster_ids": [
+            4017,
+            5225,
+            5226,
+            5301
+          ],
+          "spawn_weights": [
+            0.2,
+            0.25,
+            0.25,
+            0.3
+          ]
+        }
+      ]
+    }
+  }
+}
