@@ -55,7 +55,7 @@ class MemorySeedTest(unittest.TestCase):
                 self.assertEqual(sql("select name from public.items where id='legacy';"), 'Legacy')
                 self.assertEqual(sql("select has_table_privilege('anon','public.skill_memory_catalog','select') and not has_table_privilege('anon','public.skill_memory_catalog','insert') and not has_table_privilege('authenticated','public.skill_memory_catalog','update');"), 't')
                 self.assertEqual(sql("select relrowsecurity from pg_class where oid='public.skill_memory_catalog'::regclass;"), 't')
-                self.assertEqual(sql("select runtime_ready from public.skill_memory_catalog;"), 'f')
+                self.assertEqual(sql("select runtime_ready from public.skill_memory_catalog;"), 't')
             finally:
                 if started:
                     run('pg_ctl', '-D', root / 'data', '-w', 'stop')

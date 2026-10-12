@@ -44,7 +44,7 @@ def effect(kind, value, duration=0):
 def contract():
     return {
         'schema_version': 1,
-        'status': 'data_ready_runtime_pending',
+        'status': 'runtime_ready_client_release_required',
         'source_type': 'Skill_Memory', 'item_type': 'SKILL_MEMORY',
         'base_slots_per_learner': 2, 'max_skill_level': 10,
         'weapon_families': WEAPONS,
@@ -238,6 +238,28 @@ def build():
         {'id': 'trade', 'text': 'An unused inscription is unbound and may be sold on the market. Once used, the lesson and all mastery belong to that learner. They cannot be transferred or sold.', 'options': back},
         {'id': 'exit', 'text': 'Keep your hands steady and your memories sharper.', 'options': []},
     ]}
+    equipment, equipment_recipes = [], []
+    for weapon in ('Knuckle', 'Orb', 'Grimoire', 'Polearm', 'Shield'):
+        slug = weapon.lower()
+        iid = 'memory_artisan_' + slug
+        equipment.append({
+            'id': iid, 'name': 'Artisan ' + weapon, 'type': 'WEAPON_' + weapon.upper(),
+            'rarity': 'UNCOMMON', 'level_requirement': 20,
+            'equipment_slots': ['MAIN_HAND', 'OFF_HAND'],
+            'stats_bonus': {'atk': 16, 'def': 12 if weapon == 'Shield' else 2,
+                            'hp': 30, 'mp': 20, 'agi': 2, 'per': 16},
+            'special_effects': [], 'buy_price': 0, 'sell_price': 50, 'max_stack': 1,
+            'icon_image': 'materials/memory_fragment_chip.png',
+            'description': 'A practical ' + slug + ' forged by Ivara for memory techniques.',
+        })
+        equipment_recipes.append({
+            'recipe_id': 'rcp_' + iid, 'recipe_name': 'Forge Artisan ' + weapon,
+            'category': 'WEAPON', 'crafting_station': 'MEMORY_PRESS', 'required_level': 20,
+            'crafting_time_seconds': 15, 'crafting_cost': 200,
+            'craftable_by_npcs': [NPC], 'result': {'item_id': iid, 'quantity': 1},
+            'ingredients': [{'item_id': 'scrap_metal', 'quantity': 5},
+                            {'item_id': 'scrap_circuit', 'quantity': 3}],
+        })
     training = []
     for profile in profiles:
         skill = next(s for s in skills if s['id'] == profile['skill_id'])
@@ -253,8 +275,10 @@ def build():
                 'objectives': ['meaningful_skill_uses', 'qualifying_victories', 'artisan_turn_in'],
                 'binding': 'learner_snapshot_only_not_public_quest_catalog',
             })
-    return {'schema_version': 1, 'status': 'data_ready_runtime_pending', 'skills': skills,
+    return {'schema_version': 1, 'status': 'runtime_ready_client_release_required',
+            'runtime_ready': True, 'skills': skills,
             'training_quests': training,
+            'training_equipment': equipment, 'equipment_recipes': equipment_recipes,
             'items': memories, 'recipes': recipes, 'profiles': profiles, 'npc': npc, 'dialogue': dialog}
 
 
@@ -267,8 +291,8 @@ def merge(existing, incoming, key):
 def expected_files(pack):
     skills, items, recipes = load('skill_list.json'), load('item_list.json'), load('crafting_recipes.json')
     npcs, dialogs, world = load('npc_list.json'), load('dialog_tree_master.json'), load('world_map_v4.json')
-    items['items'] = merge(items['items'], pack['items'], 'id')
-    recipes['recipes'] = merge(recipes['recipes'], pack['recipes'], 'recipe_id')
+    items['items'] = merge(items['items'], pack['items'] + pack['training_equipment'], 'id')
+    recipes['recipes'] = merge(recipes['recipes'], pack['recipes'] + pack['equipment_recipes'], 'recipe_id')
     for group in dialogs:
         group['dialogues'] = [x for x in group['dialogues'] if x.get('dialog_id') != pack['dialogue']['dialog_id']]
     dialogs[0]['dialogues'].append(pack['dialogue'])
@@ -372,7 +396,7 @@ def main():
         for name, value in files.items():
             if not (ROOT / name).exists() or load(name) != value:
                 (ROOT / name).write_text(json.dumps(value, indent=2, ensure_ascii=False) + '\n')
-    print('PASS: 20 skills, 20 memories, 20 recipes, 20 profiles, 180 training templates, artisan dialogue; activation pending.')
+    print('PASS: 20 skills, 20 memories, 20 recipes, 5 training weapons, 180 training templates; compatible client required.')
 
 
 if __name__ == '__main__':

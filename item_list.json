@@ -25843,6 +25843,131 @@
       "tradable": true,
       "bind_on_use": true,
       "skill_memory_profile_id": "sk_mem_astral_rupture"
+    },
+    {
+      "id": "memory_artisan_knuckle",
+      "name": "Artisan Knuckle",
+      "type": "WEAPON_KNUCKLE",
+      "rarity": "UNCOMMON",
+      "level_requirement": 20,
+      "equipment_slots": [
+        "MAIN_HAND",
+        "OFF_HAND"
+      ],
+      "stats_bonus": {
+        "atk": 16,
+        "def": 2,
+        "hp": 30,
+        "mp": 20,
+        "agi": 2,
+        "per": 16
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 50,
+      "max_stack": 1,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "description": "A practical knuckle forged by Ivara for memory techniques."
+    },
+    {
+      "id": "memory_artisan_orb",
+      "name": "Artisan Orb",
+      "type": "WEAPON_ORB",
+      "rarity": "UNCOMMON",
+      "level_requirement": 20,
+      "equipment_slots": [
+        "MAIN_HAND",
+        "OFF_HAND"
+      ],
+      "stats_bonus": {
+        "atk": 16,
+        "def": 2,
+        "hp": 30,
+        "mp": 20,
+        "agi": 2,
+        "per": 16
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 50,
+      "max_stack": 1,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "description": "A practical orb forged by Ivara for memory techniques."
+    },
+    {
+      "id": "memory_artisan_grimoire",
+      "name": "Artisan Grimoire",
+      "type": "WEAPON_GRIMOIRE",
+      "rarity": "UNCOMMON",
+      "level_requirement": 20,
+      "equipment_slots": [
+        "MAIN_HAND",
+        "OFF_HAND"
+      ],
+      "stats_bonus": {
+        "atk": 16,
+        "def": 2,
+        "hp": 30,
+        "mp": 20,
+        "agi": 2,
+        "per": 16
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 50,
+      "max_stack": 1,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "description": "A practical grimoire forged by Ivara for memory techniques."
+    },
+    {
+      "id": "memory_artisan_polearm",
+      "name": "Artisan Polearm",
+      "type": "WEAPON_POLEARM",
+      "rarity": "UNCOMMON",
+      "level_requirement": 20,
+      "equipment_slots": [
+        "MAIN_HAND",
+        "OFF_HAND"
+      ],
+      "stats_bonus": {
+        "atk": 16,
+        "def": 2,
+        "hp": 30,
+        "mp": 20,
+        "agi": 2,
+        "per": 16
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 50,
+      "max_stack": 1,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "description": "A practical polearm forged by Ivara for memory techniques."
+    },
+    {
+      "id": "memory_artisan_shield",
+      "name": "Artisan Shield",
+      "type": "WEAPON_SHIELD",
+      "rarity": "UNCOMMON",
+      "level_requirement": 20,
+      "equipment_slots": [
+        "MAIN_HAND",
+        "OFF_HAND"
+      ],
+      "stats_bonus": {
+        "atk": 16,
+        "def": 12,
+        "hp": 30,
+        "mp": 20,
+        "agi": 2,
+        "per": 16
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 50,
+      "max_stack": 1,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "description": "A practical shield forged by Ivara for memory techniques."
     }
   ]
 }

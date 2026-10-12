@@ -12,6 +12,15 @@ class SkillMemoryDataTest(unittest.TestCase):
     def test_valid_pack(self):
         builder.validate(self.pack, self.files)
 
+    def test_required_weapon_families_are_craftable(self):
+        equipment = {i['id']: i for i in self.pack['training_equipment']}
+        families = {i['type'] for i in equipment.values()}
+        self.assertEqual(families, {'WEAPON_KNUCKLE', 'WEAPON_ORB', 'WEAPON_GRIMOIRE', 'WEAPON_POLEARM', 'WEAPON_SHIELD'})
+        self.assertEqual(len(self.pack['equipment_recipes']), 5)
+        for recipe in self.pack['equipment_recipes']:
+            self.assertIn(recipe['result']['item_id'], equipment)
+            self.assertEqual(recipe['craftable_by_npcs'], [builder.NPC])
+
     def test_all_sequential_training_steps(self):
         quests = self.pack['training_quests']
         self.assertEqual(len(quests), 180)

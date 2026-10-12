@@ -13,7 +13,7 @@ def build():
     contract = json.loads((ROOT / 'skill_memory_contract.json').read_text())
     pack['contract'] = contract
     # This is rollout metadata, not an existing-client runtime feature flag.
-    pack['runtime_ready'] = False
+    pack['runtime_ready'] = pack.get('runtime_ready', False)
     specs = [
         ('items', 'items', 'id', 'id name type rarity level_requirement buy_price sell_price max_stack icon_image description equipment_slots stats_bonus special_effects'),
         ('skills', 'skills', 'id', 'id name type source_type mp_cost damage_formula effect skill_description skill_shape range aoe_radius projectile_speed cooldown_seconds target_attack target_effect stat_modifiers periodic_effects control_effects special_effects usage_requirements skill_memory_tier'),
@@ -31,6 +31,8 @@ def build():
     # Record every unrelated row in the same transaction, excluding timestamps.
     for table, key, pk, raw_columns in specs:
         rows = pack[key] if isinstance(pack[key], list) else [pack[key]]
+        if table == 'items':
+            rows = rows + pack.get('training_equipment', [])
         ids = ', '.join("'" + r[pk].replace("'", "''") + "'" for r in rows)
         sql.append(f"create temporary table memory_before_{table} on commit drop as select {pk}, to_jsonb(t) - 'updated_at' as row_data from public.{table} t where {pk} not in ({ids});")
         columns = raw_columns.split()
@@ -38,12 +40,14 @@ def build():
         cols = ', '.join(map(quote, columns))
         updates = ', '.join(f'{quote(c)} = excluded.{quote(c)}' for c in columns if c != pk)
         values = f"payload->'{key}'" if isinstance(pack[key], list) else f"jsonb_build_array(payload->'{key}')"
+        if table == 'items':
+            values = "(payload->'items') || coalesce(payload->'training_equipment', '[]'::jsonb)"
         lhs = ', '.join('t.' + quote(c) for c in columns)
         rhs = ', '.join('excluded.' + quote(c) for c in columns)
         sql.append(f'insert into public.{table} as t ({cols}) select {cols} from jsonb_populate_recordset(null::public.{table}, (select {values} from memory_seed_pack)) on conflict ({pk}) do update set {updates} where row({lhs}) is distinct from row({rhs});')
         sql.append(f"do $verify$ begin if exists (select 1 from memory_before_{table} b full join (select {pk}, to_jsonb(t) - 'updated_at' as row_data from public.{table} t where {pk} not in ({ids})) a using ({pk}) where b.row_data is distinct from a.row_data) then raise exception 'Unrelated {table} changed'; end if; end $verify$;")
     sql += [
-        "insert into public.skill_memory_catalog as c(id, schema_version, runtime_ready, payload) select 'v1', 1, false, payload from memory_seed_pack on conflict (id) do update set schema_version=excluded.schema_version, runtime_ready=excluded.runtime_ready, payload=excluded.payload where c.payload is distinct from excluded.payload or c.runtime_ready is distinct from excluded.runtime_ready;",
+        "insert into public.skill_memory_catalog as c(id, schema_version, runtime_ready, payload) select 'v1', 1, (payload->>'runtime_ready')::boolean, payload from memory_seed_pack on conflict (id) do update set schema_version=excluded.schema_version, runtime_ready=excluded.runtime_ready, payload=excluded.payload where c.payload is distinct from excluded.payload or c.runtime_ready is distinct from excluded.runtime_ready;",
         'commit;',
     ]
     return '\n'.join(sql) + '\n'

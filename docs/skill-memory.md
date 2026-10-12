@@ -1,8 +1,9 @@
 # Skill Memory
 
-Status: P0/P1 data ready; P2 learning and P3 loadout/cast implemented locally.
-This is NOT an end-to-end published feature yet. P4 training data and transactional
-quest service are local; combat outcome wiring, scaling and training UI remain pending.
+Status: learning, loadout, training and mastery runtime implemented and tested in
+the client; compatible iOS Simulator build is the requested release target.
+Hosted catalog and co-op migrations are applied. Public store distribution is
+not part of this release. Earlier phase sections below are implementation history.
 
 ## P0: Contract
 
@@ -171,6 +172,43 @@ implementation stages; this section is the current publication record.
 
 Publishing must respect content activation. Do not mark runtime capability ready
 until those handlers exist. JSON metadata is not a substitute for runtime gating.
+
+## Simulator Runtime Activation (2026-10-12)
+
+This section supersedes the historical pending flags above. Training can be
+started/resumed from the player's or party member's Memory panel. Qualifying
+Explore PvE actions are recorded as structured outcomes (never log parsing),
+deduplicated and capped to the remaining objective, then committed once at battle
+exit. PvP/dummy encounters do not grant training progress. Worthy victories and
+Ivara's review remain independent objectives. Class skills are unchanged.
+
+Combatants carry mastery through player/ally/war/raid/siege/Conclave builders and
+raid snapshots. Context protocol 2 includes integer levels 1..10; old Memory
+contexts remain level-one compatible but cannot host protocol-2 contexts.
+Potency is `1 + 0.06 * (level - 1)`: damage formulas, authored ATK DoT, Echo Mend's
+direct/periodic healing, and Memory shields scale. Proc chances, debuff magnitude,
+duration, MP, cooldown and hit count are unchanged. Shields credit training only
+on actual absorption. Refreshing a live ward does not grant another use.
+
+Five explicit equipment families now have obtainable artisan recipes:
+Knuckle, Orb, Grimoire, Polearm, Shield. Existing equipment is not reclassified.
+The client reads the scoped Supabase pack once per startup, caches it for offline
+reuse, and merges only Memory content; Ivara's placement and generic dialogue do
+not depend on a fresh CDN cache. Existing activation overrides retain priority.
+
+The hosted pack now has `runtime_ready=true`, twenty memories/skills/recipes,
+five weapons and recipes, and 180 learner-bound templates. This metadata means
+the compatible client implements the runtime; it does not update installed apps.
+Validation: 91 focused Flutter regressions, 16 master-data/seed tests, disposable
+PostgreSQL validation of both co-op migrations, and iOS Simulator debug builds.
+No real player was granted test items or mastery for validation.
+
+Unused Memory items follow the existing inventory/trading system; consuming one
+removes it and persists a learner-bound quest, not a transferable inventory
+object. This feature does not replace the existing client-authoritative inventory
+and market with a new server-authoritative anti-cheat protocol. Store rollout and
+that broader server hardening require separate release work; zero bugs are not
+guaranteed by these tests.
 
 ## Rebuild and Validate
 
