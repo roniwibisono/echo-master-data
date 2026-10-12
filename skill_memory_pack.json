@@ -1,0 +1,5608 @@
+{
+  "schema_version": 1,
+  "status": "data_ready_runtime_pending",
+  "skills": [
+    {
+      "id": "sk_mem_dark_punch",
+      "name": "Dark Punch",
+      "type": "Active",
+      "source_type": "Skill_Memory",
+      "mp_cost": 18,
+      "damage_formula": "atk * 1.25",
+      "effect": "Deals atk * 1.25 damage. Reduces enemy ATK by 15% for 2 turns.",
+      "stat_modifiers": [
+        {
+          "stat": "atk",
+          "value": -15,
+          "type": "percent",
+          "duration_turns": 2,
+          "target": "enemy",
+          "condition": ""
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [],
+        "min_level": 20,
+        "allowed_weapons": [
+          "Knuckle"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Deals atk * 1.25 damage. Reduces enemy ATK by 15% for 2 turns. Requires Knuckle. Equip as a learned Skill Memory.",
+      "skill_shape": "single_projectile",
+      "range": 1.5,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 3.0,
+      "skill_memory_profile_id": "sk_mem_dark_punch",
+      "skill_memory_tier": 1
+    },
+    {
+      "id": "sk_mem_iron_jab",
+      "name": "Iron Jab",
+      "type": "Active",
+      "source_type": "Skill_Memory",
+      "mp_cost": 8,
+      "damage_formula": "atk * 1.15",
+      "effect": "Deals atk * 1.15 damage.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [],
+        "min_level": 20,
+        "allowed_weapons": [
+          "Knuckle"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Deals atk * 1.15 damage. Requires Knuckle. Equip as a learned Skill Memory.",
+      "skill_shape": "single_projectile",
+      "range": 1.5,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 3.0,
+      "skill_memory_profile_id": "sk_mem_iron_jab",
+      "skill_memory_tier": 1
+    },
+    {
+      "id": "sk_mem_crescent_slash",
+      "name": "Crescent Slash",
+      "type": "Active",
+      "source_type": "Skill_Memory",
+      "mp_cost": 18,
+      "damage_formula": "atk * 1.2",
+      "effect": "Deals atk * 1.2 damage. Inflicts bleed for 3 turns (20% ATK per turn).",
+      "stat_modifiers": [],
+      "periodic_effects": [
+        {
+          "type": "percent_atk",
+          "effect": "bleed",
+          "value": 20,
+          "scale": 0,
+          "duration_turns": 3,
+          "target": "enemy",
+          "interval_turns": 1
+        }
+      ],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [],
+        "min_level": 20,
+        "allowed_weapons": [
+          "Sword"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Deals atk * 1.2 damage. Inflicts bleed for 3 turns (20% ATK per turn). Requires Sword. Equip as a learned Skill Memory.",
+      "skill_shape": "single_projectile",
+      "range": 1.5,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 3.0,
+      "skill_memory_profile_id": "sk_mem_crescent_slash",
+      "skill_memory_tier": 1
+    },
+    {
+      "id": "sk_mem_needle_fang",
+      "name": "Needle Fang",
+      "type": "Active",
+      "source_type": "Skill_Memory",
+      "mp_cost": 18,
+      "damage_formula": "atk * 1.3",
+      "effect": "Deals atk * 1.3 damage. Ignores 20% DEF.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "defense_penetration_percent",
+          "value": 20,
+          "duration_turns": 0
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [],
+        "min_level": 20,
+        "allowed_weapons": [
+          "Dagger"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Deals atk * 1.3 damage. Ignores 20% DEF. Requires Dagger. Equip as a learned Skill Memory.",
+      "skill_shape": "single_projectile",
+      "range": 1.5,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 3.0,
+      "skill_memory_profile_id": "sk_mem_needle_fang",
+      "skill_memory_tier": 1
+    },
+    {
+      "id": "sk_mem_piercing_thrust",
+      "name": "Piercing Thrust",
+      "type": "Active",
+      "source_type": "Skill_Memory",
+      "mp_cost": 18,
+      "damage_formula": "atk * 1.2",
+      "effect": "Deals atk * 1.2 damage. Ignores 20% DEF.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "defense_penetration_percent",
+          "value": 20,
+          "duration_turns": 0
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [],
+        "min_level": 20,
+        "allowed_weapons": [
+          "Spear"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Deals atk * 1.2 damage. Ignores 20% DEF. Requires Spear. Equip as a learned Skill Memory.",
+      "skill_shape": "single_projectile",
+      "range": 1.5,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 3.0,
+      "skill_memory_profile_id": "sk_mem_piercing_thrust",
+      "skill_memory_tier": 1
+    },
+    {
+      "id": "sk_mem_spark_bolt",
+      "name": "Spark Bolt",
+      "type": "Active",
+      "source_type": "Skill_Memory",
+      "mp_cost": 18,
+      "damage_formula": "per * 1.35",
+      "effect": "Deals per * 1.35 damage.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [],
+        "min_level": 20,
+        "allowed_weapons": [
+          "Staff"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Deals per * 1.35 damage. Requires Staff. Equip as a learned Skill Memory.",
+      "skill_shape": "single_projectile",
+      "range": 4.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 3.0,
+      "skill_memory_profile_id": "sk_mem_spark_bolt",
+      "skill_memory_tier": 1
+    },
+    {
+      "id": "sk_mem_shield_pulse",
+      "name": "Shield Pulse",
+      "type": "Active",
+      "source_type": "Skill_Memory",
+      "mp_cost": 18,
+      "damage_formula": "0",
+      "effect": "Grants the caster a shield equal to 12% maximum HP.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "shield_percent",
+          "value": 12,
+          "duration_turns": 0
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [],
+        "min_level": 20,
+        "allowed_weapons": [
+          "Shield"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "none",
+      "target_effect": "self",
+      "skill_description": "Grants the caster a shield equal to 12% maximum HP. Requires Shield. Equip as a learned Skill Memory.",
+      "skill_shape": "single_projectile",
+      "range": 1.5,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 3.0,
+      "skill_memory_profile_id": "sk_mem_shield_pulse",
+      "skill_memory_tier": 1
+    },
+    {
+      "id": "sk_mem_phantom_step",
+      "name": "Phantom Step",
+      "type": "Active",
+      "source_type": "Skill_Memory",
+      "mp_cost": 32,
+      "damage_formula": "0",
+      "effect": "Grants the caster 15% evasion for 2 turns.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "evasion_chance",
+          "value": 15,
+          "duration_turns": 2
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [],
+        "min_level": 40,
+        "allowed_weapons": [
+          "Dagger"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "none",
+      "target_effect": "self",
+      "skill_description": "Grants the caster 15% evasion for 2 turns. Requires Dagger. Equip as a learned Skill Memory.",
+      "skill_shape": "single_projectile",
+      "range": 1.5,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 5.0,
+      "skill_memory_profile_id": "sk_mem_phantom_step",
+      "skill_memory_tier": 2
+    },
+    {
+      "id": "sk_mem_ember_knuckle",
+      "name": "Ember Knuckle",
+      "type": "Active",
+      "source_type": "Skill_Memory",
+      "mp_cost": 32,
+      "damage_formula": "atk * 1.4",
+      "effect": "Deals atk * 1.4 damage. Inflicts burn for 3 turns (20% ATK per turn).",
+      "stat_modifiers": [],
+      "periodic_effects": [
+        {
+          "type": "percent_atk",
+          "effect": "burn",
+          "value": 20,
+          "scale": 0,
+          "duration_turns": 3,
+          "target": "enemy",
+          "interval_turns": 1
+        }
+      ],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [],
+        "min_level": 40,
+        "allowed_weapons": [
+          "Knuckle"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Deals atk * 1.4 damage. Inflicts burn for 3 turns (20% ATK per turn). Requires Knuckle. Equip as a learned Skill Memory.",
+      "skill_shape": "single_projectile",
+      "range": 1.5,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 5.0,
+      "skill_memory_profile_id": "sk_mem_ember_knuckle",
+      "skill_memory_tier": 2
+    },
+    {
+      "id": "sk_mem_frost_lance",
+      "name": "Frost Lance",
+      "type": "Active",
+      "source_type": "Skill_Memory",
+      "mp_cost": 32,
+      "damage_formula": "atk * 1.5",
+      "effect": "Deals atk * 1.5 damage. Reduces enemy AGI by 15% for 2 turns.",
+      "stat_modifiers": [
+        {
+          "stat": "agi",
+          "value": -15,
+          "type": "percent",
+          "duration_turns": 2,
+          "target": "enemy",
+          "condition": ""
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [],
+        "min_level": 40,
+        "allowed_weapons": [
+          "Spear"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Deals atk * 1.5 damage. Reduces enemy AGI by 15% for 2 turns. Requires Spear. Equip as a learned Skill Memory.",
+      "skill_shape": "single_projectile",
+      "range": 1.5,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 5.0,
+      "skill_memory_profile_id": "sk_mem_frost_lance",
+      "skill_memory_tier": 2
+    },
+    {
+      "id": "sk_mem_thunder_arc",
+      "name": "Thunder Arc",
+      "type": "Active",
+      "source_type": "Skill_Memory",
+      "mp_cost": 32,
+      "damage_formula": "per * 1.15",
+      "effect": "Deals per * 1.15 damage. Hits all enemies.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [],
+        "min_level": 40,
+        "allowed_weapons": [
+          "Staff"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "all_enemy",
+      "target_effect": "all_enemy",
+      "skill_description": "Deals per * 1.15 damage. Hits all enemies. Requires Staff. Equip as a learned Skill Memory.",
+      "skill_shape": "circle_aoe",
+      "range": 4.0,
+      "aoe_radius": 2.5,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 5.0,
+      "skill_memory_profile_id": "sk_mem_thunder_arc",
+      "skill_memory_tier": 2
+    },
+    {
+      "id": "sk_mem_siphon_touch",
+      "name": "Siphon Touch",
+      "type": "Active",
+      "source_type": "Skill_Memory",
+      "mp_cost": 32,
+      "damage_formula": "per * 1.45",
+      "effect": "Deals per * 1.45 damage. Restores HP equal to 20% of damage dealt.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "lifesteal_percent",
+          "value": 20,
+          "duration_turns": 0
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [],
+        "min_level": 40,
+        "allowed_weapons": [
+          "Orb"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Deals per * 1.45 damage. Restores HP equal to 20% of damage dealt. Requires Orb. Equip as a learned Skill Memory.",
+      "skill_shape": "single_projectile",
+      "range": 4.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 5.0,
+      "skill_memory_profile_id": "sk_mem_siphon_touch",
+      "skill_memory_tier": 2
+    },
+    {
+      "id": "sk_mem_guardian_script",
+      "name": "Guardian Script",
+      "type": "Active",
+      "source_type": "Skill_Memory",
+      "mp_cost": 32,
+      "damage_formula": "0",
+      "effect": "Grants one ally a shield equal to 200% caster PER.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "grant_shield_scale_perception",
+          "value": 2,
+          "duration_turns": 0
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [],
+        "min_level": 40,
+        "allowed_weapons": [
+          "Grimoire"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "none",
+      "target_effect": "ally",
+      "skill_description": "Grants one ally a shield equal to 200% caster PER. Requires Grimoire. Equip as a learned Skill Memory.",
+      "skill_shape": "single_projectile",
+      "range": 4.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 5.0,
+      "skill_memory_profile_id": "sk_mem_guardian_script",
+      "skill_memory_tier": 2
+    },
+    {
+      "id": "sk_mem_venom_edge",
+      "name": "Venom Edge",
+      "type": "Active",
+      "source_type": "Skill_Memory",
+      "mp_cost": 32,
+      "damage_formula": "atk * 1.35",
+      "effect": "Deals atk * 1.35 damage. Inflicts poison for 3 turns (20% ATK per turn).",
+      "stat_modifiers": [],
+      "periodic_effects": [
+        {
+          "type": "percent_atk",
+          "effect": "poison",
+          "value": 20,
+          "scale": 0,
+          "duration_turns": 3,
+          "target": "enemy",
+          "interval_turns": 1
+        }
+      ],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [],
+        "min_level": 40,
+        "allowed_weapons": [
+          "Sword"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Deals atk * 1.35 damage. Inflicts poison for 3 turns (20% ATK per turn). Requires Sword. Equip as a learned Skill Memory.",
+      "skill_shape": "single_projectile",
+      "range": 1.5,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 5.0,
+      "skill_memory_profile_id": "sk_mem_venom_edge",
+      "skill_memory_tier": 2
+    },
+    {
+      "id": "sk_mem_gravity_break",
+      "name": "Gravity Break",
+      "type": "Active",
+      "source_type": "Skill_Memory",
+      "mp_cost": 50,
+      "damage_formula": "atk * 1.9",
+      "effect": "Deals atk * 1.9 damage. Reduces enemy AGI by 15% for 2 turns.",
+      "stat_modifiers": [
+        {
+          "stat": "agi",
+          "value": -15,
+          "type": "percent",
+          "duration_turns": 2,
+          "target": "enemy",
+          "condition": ""
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [],
+        "min_level": 60,
+        "allowed_weapons": [
+          "Knuckle"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Deals atk * 1.9 damage. Reduces enemy AGI by 15% for 2 turns. Requires Knuckle. Equip as a learned Skill Memory.",
+      "skill_shape": "single_projectile",
+      "range": 1.5,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 7.0,
+      "skill_memory_profile_id": "sk_mem_gravity_break",
+      "skill_memory_tier": 3
+    },
+    {
+      "id": "sk_mem_moon_sever",
+      "name": "Moon Sever",
+      "type": "Active",
+      "source_type": "Skill_Memory",
+      "mp_cost": 50,
+      "damage_formula": "atk * 2.2",
+      "effect": "Deals atk * 2.2 damage.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [],
+        "min_level": 60,
+        "allowed_weapons": [
+          "Sword"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Deals atk * 2.2 damage. Requires Sword. Equip as a learned Skill Memory.",
+      "skill_shape": "single_projectile",
+      "range": 1.5,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 7.0,
+      "skill_memory_profile_id": "sk_mem_moon_sever",
+      "skill_memory_tier": 3
+    },
+    {
+      "id": "sk_mem_chain_impale",
+      "name": "Chain Impale",
+      "type": "Active",
+      "source_type": "Skill_Memory",
+      "mp_cost": 50,
+      "damage_formula": "atk * 0.7",
+      "effect": "Three strikes, each dealing 70% ATK damage.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "multi_hit",
+          "value": 3,
+          "duration_turns": 0,
+          "hits": 3
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [],
+        "min_level": 60,
+        "allowed_weapons": [
+          "Polearm"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Three strikes, each dealing 70% ATK damage. Requires Polearm. Equip as a learned Skill Memory.",
+      "skill_shape": "single_projectile",
+      "range": 1.5,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 7.0,
+      "skill_memory_profile_id": "sk_mem_chain_impale",
+      "skill_memory_tier": 3
+    },
+    {
+      "id": "sk_mem_echo_mend",
+      "name": "Echo Mend",
+      "type": "Active",
+      "source_type": "Skill_Memory",
+      "mp_cost": 50,
+      "damage_formula": "0",
+      "effect": "Restores 200% caster PER HP and regenerates 3% target maximum HP for 3 turns.",
+      "stat_modifiers": [],
+      "periodic_effects": [
+        {
+          "type": "heal_over_time",
+          "value": 3,
+          "scale": 0,
+          "condition": "max_hp_percent",
+          "duration_turns": 3,
+          "target": "ally",
+          "interval_turns": 1
+        }
+      ],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "direct_heal_scaling_perception",
+          "value": 2,
+          "duration_turns": 0
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [],
+        "min_level": 60,
+        "allowed_weapons": [
+          "Staff"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "none",
+      "target_effect": "ally",
+      "skill_description": "Restores 200% caster PER HP and regenerates 3% target maximum HP for 3 turns. Requires Staff. Equip as a learned Skill Memory.",
+      "skill_shape": "single_projectile",
+      "range": 4.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 7.0,
+      "skill_memory_profile_id": "sk_mem_echo_mend",
+      "skill_memory_tier": 3
+    },
+    {
+      "id": "sk_mem_null_ward",
+      "name": "Null Ward",
+      "type": "Active",
+      "source_type": "Skill_Memory",
+      "mp_cost": 50,
+      "damage_formula": "0",
+      "effect": "The caster resists new debuffs for 2 turns; does not cleanse existing debuffs.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "debuff_immunity",
+          "value": 1,
+          "duration_turns": 2
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [],
+        "min_level": 60,
+        "allowed_weapons": [
+          "Grimoire"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "none",
+      "target_effect": "self",
+      "skill_description": "The caster resists new debuffs for 2 turns; does not cleanse existing debuffs. Requires Grimoire. Equip as a learned Skill Memory.",
+      "skill_shape": "single_projectile",
+      "range": 4.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 7.0,
+      "skill_memory_profile_id": "sk_mem_null_ward",
+      "skill_memory_tier": 3
+    },
+    {
+      "id": "sk_mem_astral_rupture",
+      "name": "Astral Rupture",
+      "type": "Active",
+      "source_type": "Skill_Memory",
+      "mp_cost": 50,
+      "damage_formula": "per * 1.6",
+      "effect": "Deals per * 1.6 damage. Hits all enemies.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [],
+        "min_level": 60,
+        "allowed_weapons": [
+          "Orb"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "all_enemy",
+      "target_effect": "all_enemy",
+      "skill_description": "Deals per * 1.6 damage. Hits all enemies. Requires Orb. Equip as a learned Skill Memory.",
+      "skill_shape": "circle_aoe",
+      "range": 4.0,
+      "aoe_radius": 2.5,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 7.0,
+      "skill_memory_profile_id": "sk_mem_astral_rupture",
+      "skill_memory_tier": 3
+    }
+  ],
+  "training_quests": [
+    {
+      "id": "q_mem_train_dark_punch_2",
+      "skill_id": "sk_mem_dark_punch",
+      "from_level": 1,
+      "to_level": 2,
+      "tier": 1,
+      "weapon_family": "Knuckle",
+      "required_uses": 10,
+      "required_victories": 3,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_dark_punch_3",
+      "skill_id": "sk_mem_dark_punch",
+      "from_level": 2,
+      "to_level": 3,
+      "tier": 1,
+      "weapon_family": "Knuckle",
+      "required_uses": 15,
+      "required_victories": 4,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_dark_punch_4",
+      "skill_id": "sk_mem_dark_punch",
+      "from_level": 3,
+      "to_level": 4,
+      "tier": 1,
+      "weapon_family": "Knuckle",
+      "required_uses": 20,
+      "required_victories": 5,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_dark_punch_5",
+      "skill_id": "sk_mem_dark_punch",
+      "from_level": 4,
+      "to_level": 5,
+      "tier": 1,
+      "weapon_family": "Knuckle",
+      "required_uses": 25,
+      "required_victories": 6,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_dark_punch_6",
+      "skill_id": "sk_mem_dark_punch",
+      "from_level": 5,
+      "to_level": 6,
+      "tier": 1,
+      "weapon_family": "Knuckle",
+      "required_uses": 30,
+      "required_victories": 7,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_dark_punch_7",
+      "skill_id": "sk_mem_dark_punch",
+      "from_level": 6,
+      "to_level": 7,
+      "tier": 1,
+      "weapon_family": "Knuckle",
+      "required_uses": 35,
+      "required_victories": 8,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_dark_punch_8",
+      "skill_id": "sk_mem_dark_punch",
+      "from_level": 7,
+      "to_level": 8,
+      "tier": 1,
+      "weapon_family": "Knuckle",
+      "required_uses": 40,
+      "required_victories": 9,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_dark_punch_9",
+      "skill_id": "sk_mem_dark_punch",
+      "from_level": 8,
+      "to_level": 9,
+      "tier": 1,
+      "weapon_family": "Knuckle",
+      "required_uses": 45,
+      "required_victories": 10,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_dark_punch_10",
+      "skill_id": "sk_mem_dark_punch",
+      "from_level": 9,
+      "to_level": 10,
+      "tier": 1,
+      "weapon_family": "Knuckle",
+      "required_uses": 50,
+      "required_victories": 11,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_iron_jab_2",
+      "skill_id": "sk_mem_iron_jab",
+      "from_level": 1,
+      "to_level": 2,
+      "tier": 1,
+      "weapon_family": "Knuckle",
+      "required_uses": 10,
+      "required_victories": 3,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_iron_jab_3",
+      "skill_id": "sk_mem_iron_jab",
+      "from_level": 2,
+      "to_level": 3,
+      "tier": 1,
+      "weapon_family": "Knuckle",
+      "required_uses": 15,
+      "required_victories": 4,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_iron_jab_4",
+      "skill_id": "sk_mem_iron_jab",
+      "from_level": 3,
+      "to_level": 4,
+      "tier": 1,
+      "weapon_family": "Knuckle",
+      "required_uses": 20,
+      "required_victories": 5,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_iron_jab_5",
+      "skill_id": "sk_mem_iron_jab",
+      "from_level": 4,
+      "to_level": 5,
+      "tier": 1,
+      "weapon_family": "Knuckle",
+      "required_uses": 25,
+      "required_victories": 6,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_iron_jab_6",
+      "skill_id": "sk_mem_iron_jab",
+      "from_level": 5,
+      "to_level": 6,
+      "tier": 1,
+      "weapon_family": "Knuckle",
+      "required_uses": 30,
+      "required_victories": 7,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_iron_jab_7",
+      "skill_id": "sk_mem_iron_jab",
+      "from_level": 6,
+      "to_level": 7,
+      "tier": 1,
+      "weapon_family": "Knuckle",
+      "required_uses": 35,
+      "required_victories": 8,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_iron_jab_8",
+      "skill_id": "sk_mem_iron_jab",
+      "from_level": 7,
+      "to_level": 8,
+      "tier": 1,
+      "weapon_family": "Knuckle",
+      "required_uses": 40,
+      "required_victories": 9,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_iron_jab_9",
+      "skill_id": "sk_mem_iron_jab",
+      "from_level": 8,
+      "to_level": 9,
+      "tier": 1,
+      "weapon_family": "Knuckle",
+      "required_uses": 45,
+      "required_victories": 10,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_iron_jab_10",
+      "skill_id": "sk_mem_iron_jab",
+      "from_level": 9,
+      "to_level": 10,
+      "tier": 1,
+      "weapon_family": "Knuckle",
+      "required_uses": 50,
+      "required_victories": 11,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_crescent_slash_2",
+      "skill_id": "sk_mem_crescent_slash",
+      "from_level": 1,
+      "to_level": 2,
+      "tier": 1,
+      "weapon_family": "Sword",
+      "required_uses": 10,
+      "required_victories": 3,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_crescent_slash_3",
+      "skill_id": "sk_mem_crescent_slash",
+      "from_level": 2,
+      "to_level": 3,
+      "tier": 1,
+      "weapon_family": "Sword",
+      "required_uses": 15,
+      "required_victories": 4,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_crescent_slash_4",
+      "skill_id": "sk_mem_crescent_slash",
+      "from_level": 3,
+      "to_level": 4,
+      "tier": 1,
+      "weapon_family": "Sword",
+      "required_uses": 20,
+      "required_victories": 5,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_crescent_slash_5",
+      "skill_id": "sk_mem_crescent_slash",
+      "from_level": 4,
+      "to_level": 5,
+      "tier": 1,
+      "weapon_family": "Sword",
+      "required_uses": 25,
+      "required_victories": 6,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_crescent_slash_6",
+      "skill_id": "sk_mem_crescent_slash",
+      "from_level": 5,
+      "to_level": 6,
+      "tier": 1,
+      "weapon_family": "Sword",
+      "required_uses": 30,
+      "required_victories": 7,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_crescent_slash_7",
+      "skill_id": "sk_mem_crescent_slash",
+      "from_level": 6,
+      "to_level": 7,
+      "tier": 1,
+      "weapon_family": "Sword",
+      "required_uses": 35,
+      "required_victories": 8,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_crescent_slash_8",
+      "skill_id": "sk_mem_crescent_slash",
+      "from_level": 7,
+      "to_level": 8,
+      "tier": 1,
+      "weapon_family": "Sword",
+      "required_uses": 40,
+      "required_victories": 9,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_crescent_slash_9",
+      "skill_id": "sk_mem_crescent_slash",
+      "from_level": 8,
+      "to_level": 9,
+      "tier": 1,
+      "weapon_family": "Sword",
+      "required_uses": 45,
+      "required_victories": 10,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_crescent_slash_10",
+      "skill_id": "sk_mem_crescent_slash",
+      "from_level": 9,
+      "to_level": 10,
+      "tier": 1,
+      "weapon_family": "Sword",
+      "required_uses": 50,
+      "required_victories": 11,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_needle_fang_2",
+      "skill_id": "sk_mem_needle_fang",
+      "from_level": 1,
+      "to_level": 2,
+      "tier": 1,
+      "weapon_family": "Dagger",
+      "required_uses": 10,
+      "required_victories": 3,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_needle_fang_3",
+      "skill_id": "sk_mem_needle_fang",
+      "from_level": 2,
+      "to_level": 3,
+      "tier": 1,
+      "weapon_family": "Dagger",
+      "required_uses": 15,
+      "required_victories": 4,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_needle_fang_4",
+      "skill_id": "sk_mem_needle_fang",
+      "from_level": 3,
+      "to_level": 4,
+      "tier": 1,
+      "weapon_family": "Dagger",
+      "required_uses": 20,
+      "required_victories": 5,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_needle_fang_5",
+      "skill_id": "sk_mem_needle_fang",
+      "from_level": 4,
+      "to_level": 5,
+      "tier": 1,
+      "weapon_family": "Dagger",
+      "required_uses": 25,
+      "required_victories": 6,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_needle_fang_6",
+      "skill_id": "sk_mem_needle_fang",
+      "from_level": 5,
+      "to_level": 6,
+      "tier": 1,
+      "weapon_family": "Dagger",
+      "required_uses": 30,
+      "required_victories": 7,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_needle_fang_7",
+      "skill_id": "sk_mem_needle_fang",
+      "from_level": 6,
+      "to_level": 7,
+      "tier": 1,
+      "weapon_family": "Dagger",
+      "required_uses": 35,
+      "required_victories": 8,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_needle_fang_8",
+      "skill_id": "sk_mem_needle_fang",
+      "from_level": 7,
+      "to_level": 8,
+      "tier": 1,
+      "weapon_family": "Dagger",
+      "required_uses": 40,
+      "required_victories": 9,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_needle_fang_9",
+      "skill_id": "sk_mem_needle_fang",
+      "from_level": 8,
+      "to_level": 9,
+      "tier": 1,
+      "weapon_family": "Dagger",
+      "required_uses": 45,
+      "required_victories": 10,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_needle_fang_10",
+      "skill_id": "sk_mem_needle_fang",
+      "from_level": 9,
+      "to_level": 10,
+      "tier": 1,
+      "weapon_family": "Dagger",
+      "required_uses": 50,
+      "required_victories": 11,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_piercing_thrust_2",
+      "skill_id": "sk_mem_piercing_thrust",
+      "from_level": 1,
+      "to_level": 2,
+      "tier": 1,
+      "weapon_family": "Spear",
+      "required_uses": 10,
+      "required_victories": 3,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_piercing_thrust_3",
+      "skill_id": "sk_mem_piercing_thrust",
+      "from_level": 2,
+      "to_level": 3,
+      "tier": 1,
+      "weapon_family": "Spear",
+      "required_uses": 15,
+      "required_victories": 4,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_piercing_thrust_4",
+      "skill_id": "sk_mem_piercing_thrust",
+      "from_level": 3,
+      "to_level": 4,
+      "tier": 1,
+      "weapon_family": "Spear",
+      "required_uses": 20,
+      "required_victories": 5,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_piercing_thrust_5",
+      "skill_id": "sk_mem_piercing_thrust",
+      "from_level": 4,
+      "to_level": 5,
+      "tier": 1,
+      "weapon_family": "Spear",
+      "required_uses": 25,
+      "required_victories": 6,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_piercing_thrust_6",
+      "skill_id": "sk_mem_piercing_thrust",
+      "from_level": 5,
+      "to_level": 6,
+      "tier": 1,
+      "weapon_family": "Spear",
+      "required_uses": 30,
+      "required_victories": 7,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_piercing_thrust_7",
+      "skill_id": "sk_mem_piercing_thrust",
+      "from_level": 6,
+      "to_level": 7,
+      "tier": 1,
+      "weapon_family": "Spear",
+      "required_uses": 35,
+      "required_victories": 8,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_piercing_thrust_8",
+      "skill_id": "sk_mem_piercing_thrust",
+      "from_level": 7,
+      "to_level": 8,
+      "tier": 1,
+      "weapon_family": "Spear",
+      "required_uses": 40,
+      "required_victories": 9,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_piercing_thrust_9",
+      "skill_id": "sk_mem_piercing_thrust",
+      "from_level": 8,
+      "to_level": 9,
+      "tier": 1,
+      "weapon_family": "Spear",
+      "required_uses": 45,
+      "required_victories": 10,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_piercing_thrust_10",
+      "skill_id": "sk_mem_piercing_thrust",
+      "from_level": 9,
+      "to_level": 10,
+      "tier": 1,
+      "weapon_family": "Spear",
+      "required_uses": 50,
+      "required_victories": 11,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_spark_bolt_2",
+      "skill_id": "sk_mem_spark_bolt",
+      "from_level": 1,
+      "to_level": 2,
+      "tier": 1,
+      "weapon_family": "Staff",
+      "required_uses": 10,
+      "required_victories": 3,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_spark_bolt_3",
+      "skill_id": "sk_mem_spark_bolt",
+      "from_level": 2,
+      "to_level": 3,
+      "tier": 1,
+      "weapon_family": "Staff",
+      "required_uses": 15,
+      "required_victories": 4,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_spark_bolt_4",
+      "skill_id": "sk_mem_spark_bolt",
+      "from_level": 3,
+      "to_level": 4,
+      "tier": 1,
+      "weapon_family": "Staff",
+      "required_uses": 20,
+      "required_victories": 5,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_spark_bolt_5",
+      "skill_id": "sk_mem_spark_bolt",
+      "from_level": 4,
+      "to_level": 5,
+      "tier": 1,
+      "weapon_family": "Staff",
+      "required_uses": 25,
+      "required_victories": 6,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_spark_bolt_6",
+      "skill_id": "sk_mem_spark_bolt",
+      "from_level": 5,
+      "to_level": 6,
+      "tier": 1,
+      "weapon_family": "Staff",
+      "required_uses": 30,
+      "required_victories": 7,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_spark_bolt_7",
+      "skill_id": "sk_mem_spark_bolt",
+      "from_level": 6,
+      "to_level": 7,
+      "tier": 1,
+      "weapon_family": "Staff",
+      "required_uses": 35,
+      "required_victories": 8,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_spark_bolt_8",
+      "skill_id": "sk_mem_spark_bolt",
+      "from_level": 7,
+      "to_level": 8,
+      "tier": 1,
+      "weapon_family": "Staff",
+      "required_uses": 40,
+      "required_victories": 9,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_spark_bolt_9",
+      "skill_id": "sk_mem_spark_bolt",
+      "from_level": 8,
+      "to_level": 9,
+      "tier": 1,
+      "weapon_family": "Staff",
+      "required_uses": 45,
+      "required_victories": 10,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_spark_bolt_10",
+      "skill_id": "sk_mem_spark_bolt",
+      "from_level": 9,
+      "to_level": 10,
+      "tier": 1,
+      "weapon_family": "Staff",
+      "required_uses": 50,
+      "required_victories": 11,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_shield_pulse_2",
+      "skill_id": "sk_mem_shield_pulse",
+      "from_level": 1,
+      "to_level": 2,
+      "tier": 1,
+      "weapon_family": "Shield",
+      "required_uses": 10,
+      "required_victories": 3,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_shield_pulse_3",
+      "skill_id": "sk_mem_shield_pulse",
+      "from_level": 2,
+      "to_level": 3,
+      "tier": 1,
+      "weapon_family": "Shield",
+      "required_uses": 15,
+      "required_victories": 4,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_shield_pulse_4",
+      "skill_id": "sk_mem_shield_pulse",
+      "from_level": 3,
+      "to_level": 4,
+      "tier": 1,
+      "weapon_family": "Shield",
+      "required_uses": 20,
+      "required_victories": 5,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_shield_pulse_5",
+      "skill_id": "sk_mem_shield_pulse",
+      "from_level": 4,
+      "to_level": 5,
+      "tier": 1,
+      "weapon_family": "Shield",
+      "required_uses": 25,
+      "required_victories": 6,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_shield_pulse_6",
+      "skill_id": "sk_mem_shield_pulse",
+      "from_level": 5,
+      "to_level": 6,
+      "tier": 1,
+      "weapon_family": "Shield",
+      "required_uses": 30,
+      "required_victories": 7,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_shield_pulse_7",
+      "skill_id": "sk_mem_shield_pulse",
+      "from_level": 6,
+      "to_level": 7,
+      "tier": 1,
+      "weapon_family": "Shield",
+      "required_uses": 35,
+      "required_victories": 8,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_shield_pulse_8",
+      "skill_id": "sk_mem_shield_pulse",
+      "from_level": 7,
+      "to_level": 8,
+      "tier": 1,
+      "weapon_family": "Shield",
+      "required_uses": 40,
+      "required_victories": 9,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_shield_pulse_9",
+      "skill_id": "sk_mem_shield_pulse",
+      "from_level": 8,
+      "to_level": 9,
+      "tier": 1,
+      "weapon_family": "Shield",
+      "required_uses": 45,
+      "required_victories": 10,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_shield_pulse_10",
+      "skill_id": "sk_mem_shield_pulse",
+      "from_level": 9,
+      "to_level": 10,
+      "tier": 1,
+      "weapon_family": "Shield",
+      "required_uses": 50,
+      "required_victories": 11,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_phantom_step_2",
+      "skill_id": "sk_mem_phantom_step",
+      "from_level": 1,
+      "to_level": 2,
+      "tier": 2,
+      "weapon_family": "Dagger",
+      "required_uses": 20,
+      "required_victories": 4,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_phantom_step_3",
+      "skill_id": "sk_mem_phantom_step",
+      "from_level": 2,
+      "to_level": 3,
+      "tier": 2,
+      "weapon_family": "Dagger",
+      "required_uses": 30,
+      "required_victories": 5,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_phantom_step_4",
+      "skill_id": "sk_mem_phantom_step",
+      "from_level": 3,
+      "to_level": 4,
+      "tier": 2,
+      "weapon_family": "Dagger",
+      "required_uses": 40,
+      "required_victories": 6,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_phantom_step_5",
+      "skill_id": "sk_mem_phantom_step",
+      "from_level": 4,
+      "to_level": 5,
+      "tier": 2,
+      "weapon_family": "Dagger",
+      "required_uses": 50,
+      "required_victories": 7,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_phantom_step_6",
+      "skill_id": "sk_mem_phantom_step",
+      "from_level": 5,
+      "to_level": 6,
+      "tier": 2,
+      "weapon_family": "Dagger",
+      "required_uses": 60,
+      "required_victories": 8,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_phantom_step_7",
+      "skill_id": "sk_mem_phantom_step",
+      "from_level": 6,
+      "to_level": 7,
+      "tier": 2,
+      "weapon_family": "Dagger",
+      "required_uses": 70,
+      "required_victories": 9,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_phantom_step_8",
+      "skill_id": "sk_mem_phantom_step",
+      "from_level": 7,
+      "to_level": 8,
+      "tier": 2,
+      "weapon_family": "Dagger",
+      "required_uses": 80,
+      "required_victories": 10,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_phantom_step_9",
+      "skill_id": "sk_mem_phantom_step",
+      "from_level": 8,
+      "to_level": 9,
+      "tier": 2,
+      "weapon_family": "Dagger",
+      "required_uses": 90,
+      "required_victories": 11,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_phantom_step_10",
+      "skill_id": "sk_mem_phantom_step",
+      "from_level": 9,
+      "to_level": 10,
+      "tier": 2,
+      "weapon_family": "Dagger",
+      "required_uses": 100,
+      "required_victories": 12,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_ember_knuckle_2",
+      "skill_id": "sk_mem_ember_knuckle",
+      "from_level": 1,
+      "to_level": 2,
+      "tier": 2,
+      "weapon_family": "Knuckle",
+      "required_uses": 20,
+      "required_victories": 4,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_ember_knuckle_3",
+      "skill_id": "sk_mem_ember_knuckle",
+      "from_level": 2,
+      "to_level": 3,
+      "tier": 2,
+      "weapon_family": "Knuckle",
+      "required_uses": 30,
+      "required_victories": 5,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_ember_knuckle_4",
+      "skill_id": "sk_mem_ember_knuckle",
+      "from_level": 3,
+      "to_level": 4,
+      "tier": 2,
+      "weapon_family": "Knuckle",
+      "required_uses": 40,
+      "required_victories": 6,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_ember_knuckle_5",
+      "skill_id": "sk_mem_ember_knuckle",
+      "from_level": 4,
+      "to_level": 5,
+      "tier": 2,
+      "weapon_family": "Knuckle",
+      "required_uses": 50,
+      "required_victories": 7,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_ember_knuckle_6",
+      "skill_id": "sk_mem_ember_knuckle",
+      "from_level": 5,
+      "to_level": 6,
+      "tier": 2,
+      "weapon_family": "Knuckle",
+      "required_uses": 60,
+      "required_victories": 8,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_ember_knuckle_7",
+      "skill_id": "sk_mem_ember_knuckle",
+      "from_level": 6,
+      "to_level": 7,
+      "tier": 2,
+      "weapon_family": "Knuckle",
+      "required_uses": 70,
+      "required_victories": 9,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_ember_knuckle_8",
+      "skill_id": "sk_mem_ember_knuckle",
+      "from_level": 7,
+      "to_level": 8,
+      "tier": 2,
+      "weapon_family": "Knuckle",
+      "required_uses": 80,
+      "required_victories": 10,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_ember_knuckle_9",
+      "skill_id": "sk_mem_ember_knuckle",
+      "from_level": 8,
+      "to_level": 9,
+      "tier": 2,
+      "weapon_family": "Knuckle",
+      "required_uses": 90,
+      "required_victories": 11,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_ember_knuckle_10",
+      "skill_id": "sk_mem_ember_knuckle",
+      "from_level": 9,
+      "to_level": 10,
+      "tier": 2,
+      "weapon_family": "Knuckle",
+      "required_uses": 100,
+      "required_victories": 12,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_frost_lance_2",
+      "skill_id": "sk_mem_frost_lance",
+      "from_level": 1,
+      "to_level": 2,
+      "tier": 2,
+      "weapon_family": "Spear",
+      "required_uses": 20,
+      "required_victories": 4,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_frost_lance_3",
+      "skill_id": "sk_mem_frost_lance",
+      "from_level": 2,
+      "to_level": 3,
+      "tier": 2,
+      "weapon_family": "Spear",
+      "required_uses": 30,
+      "required_victories": 5,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_frost_lance_4",
+      "skill_id": "sk_mem_frost_lance",
+      "from_level": 3,
+      "to_level": 4,
+      "tier": 2,
+      "weapon_family": "Spear",
+      "required_uses": 40,
+      "required_victories": 6,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_frost_lance_5",
+      "skill_id": "sk_mem_frost_lance",
+      "from_level": 4,
+      "to_level": 5,
+      "tier": 2,
+      "weapon_family": "Spear",
+      "required_uses": 50,
+      "required_victories": 7,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_frost_lance_6",
+      "skill_id": "sk_mem_frost_lance",
+      "from_level": 5,
+      "to_level": 6,
+      "tier": 2,
+      "weapon_family": "Spear",
+      "required_uses": 60,
+      "required_victories": 8,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_frost_lance_7",
+      "skill_id": "sk_mem_frost_lance",
+      "from_level": 6,
+      "to_level": 7,
+      "tier": 2,
+      "weapon_family": "Spear",
+      "required_uses": 70,
+      "required_victories": 9,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_frost_lance_8",
+      "skill_id": "sk_mem_frost_lance",
+      "from_level": 7,
+      "to_level": 8,
+      "tier": 2,
+      "weapon_family": "Spear",
+      "required_uses": 80,
+      "required_victories": 10,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_frost_lance_9",
+      "skill_id": "sk_mem_frost_lance",
+      "from_level": 8,
+      "to_level": 9,
+      "tier": 2,
+      "weapon_family": "Spear",
+      "required_uses": 90,
+      "required_victories": 11,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_frost_lance_10",
+      "skill_id": "sk_mem_frost_lance",
+      "from_level": 9,
+      "to_level": 10,
+      "tier": 2,
+      "weapon_family": "Spear",
+      "required_uses": 100,
+      "required_victories": 12,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_thunder_arc_2",
+      "skill_id": "sk_mem_thunder_arc",
+      "from_level": 1,
+      "to_level": 2,
+      "tier": 2,
+      "weapon_family": "Staff",
+      "required_uses": 20,
+      "required_victories": 4,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_thunder_arc_3",
+      "skill_id": "sk_mem_thunder_arc",
+      "from_level": 2,
+      "to_level": 3,
+      "tier": 2,
+      "weapon_family": "Staff",
+      "required_uses": 30,
+      "required_victories": 5,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_thunder_arc_4",
+      "skill_id": "sk_mem_thunder_arc",
+      "from_level": 3,
+      "to_level": 4,
+      "tier": 2,
+      "weapon_family": "Staff",
+      "required_uses": 40,
+      "required_victories": 6,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_thunder_arc_5",
+      "skill_id": "sk_mem_thunder_arc",
+      "from_level": 4,
+      "to_level": 5,
+      "tier": 2,
+      "weapon_family": "Staff",
+      "required_uses": 50,
+      "required_victories": 7,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_thunder_arc_6",
+      "skill_id": "sk_mem_thunder_arc",
+      "from_level": 5,
+      "to_level": 6,
+      "tier": 2,
+      "weapon_family": "Staff",
+      "required_uses": 60,
+      "required_victories": 8,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_thunder_arc_7",
+      "skill_id": "sk_mem_thunder_arc",
+      "from_level": 6,
+      "to_level": 7,
+      "tier": 2,
+      "weapon_family": "Staff",
+      "required_uses": 70,
+      "required_victories": 9,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_thunder_arc_8",
+      "skill_id": "sk_mem_thunder_arc",
+      "from_level": 7,
+      "to_level": 8,
+      "tier": 2,
+      "weapon_family": "Staff",
+      "required_uses": 80,
+      "required_victories": 10,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_thunder_arc_9",
+      "skill_id": "sk_mem_thunder_arc",
+      "from_level": 8,
+      "to_level": 9,
+      "tier": 2,
+      "weapon_family": "Staff",
+      "required_uses": 90,
+      "required_victories": 11,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_thunder_arc_10",
+      "skill_id": "sk_mem_thunder_arc",
+      "from_level": 9,
+      "to_level": 10,
+      "tier": 2,
+      "weapon_family": "Staff",
+      "required_uses": 100,
+      "required_victories": 12,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_siphon_touch_2",
+      "skill_id": "sk_mem_siphon_touch",
+      "from_level": 1,
+      "to_level": 2,
+      "tier": 2,
+      "weapon_family": "Orb",
+      "required_uses": 20,
+      "required_victories": 4,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_siphon_touch_3",
+      "skill_id": "sk_mem_siphon_touch",
+      "from_level": 2,
+      "to_level": 3,
+      "tier": 2,
+      "weapon_family": "Orb",
+      "required_uses": 30,
+      "required_victories": 5,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_siphon_touch_4",
+      "skill_id": "sk_mem_siphon_touch",
+      "from_level": 3,
+      "to_level": 4,
+      "tier": 2,
+      "weapon_family": "Orb",
+      "required_uses": 40,
+      "required_victories": 6,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_siphon_touch_5",
+      "skill_id": "sk_mem_siphon_touch",
+      "from_level": 4,
+      "to_level": 5,
+      "tier": 2,
+      "weapon_family": "Orb",
+      "required_uses": 50,
+      "required_victories": 7,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_siphon_touch_6",
+      "skill_id": "sk_mem_siphon_touch",
+      "from_level": 5,
+      "to_level": 6,
+      "tier": 2,
+      "weapon_family": "Orb",
+      "required_uses": 60,
+      "required_victories": 8,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_siphon_touch_7",
+      "skill_id": "sk_mem_siphon_touch",
+      "from_level": 6,
+      "to_level": 7,
+      "tier": 2,
+      "weapon_family": "Orb",
+      "required_uses": 70,
+      "required_victories": 9,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_siphon_touch_8",
+      "skill_id": "sk_mem_siphon_touch",
+      "from_level": 7,
+      "to_level": 8,
+      "tier": 2,
+      "weapon_family": "Orb",
+      "required_uses": 80,
+      "required_victories": 10,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_siphon_touch_9",
+      "skill_id": "sk_mem_siphon_touch",
+      "from_level": 8,
+      "to_level": 9,
+      "tier": 2,
+      "weapon_family": "Orb",
+      "required_uses": 90,
+      "required_victories": 11,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_siphon_touch_10",
+      "skill_id": "sk_mem_siphon_touch",
+      "from_level": 9,
+      "to_level": 10,
+      "tier": 2,
+      "weapon_family": "Orb",
+      "required_uses": 100,
+      "required_victories": 12,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_guardian_script_2",
+      "skill_id": "sk_mem_guardian_script",
+      "from_level": 1,
+      "to_level": 2,
+      "tier": 2,
+      "weapon_family": "Grimoire",
+      "required_uses": 20,
+      "required_victories": 4,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_guardian_script_3",
+      "skill_id": "sk_mem_guardian_script",
+      "from_level": 2,
+      "to_level": 3,
+      "tier": 2,
+      "weapon_family": "Grimoire",
+      "required_uses": 30,
+      "required_victories": 5,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_guardian_script_4",
+      "skill_id": "sk_mem_guardian_script",
+      "from_level": 3,
+      "to_level": 4,
+      "tier": 2,
+      "weapon_family": "Grimoire",
+      "required_uses": 40,
+      "required_victories": 6,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_guardian_script_5",
+      "skill_id": "sk_mem_guardian_script",
+      "from_level": 4,
+      "to_level": 5,
+      "tier": 2,
+      "weapon_family": "Grimoire",
+      "required_uses": 50,
+      "required_victories": 7,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_guardian_script_6",
+      "skill_id": "sk_mem_guardian_script",
+      "from_level": 5,
+      "to_level": 6,
+      "tier": 2,
+      "weapon_family": "Grimoire",
+      "required_uses": 60,
+      "required_victories": 8,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_guardian_script_7",
+      "skill_id": "sk_mem_guardian_script",
+      "from_level": 6,
+      "to_level": 7,
+      "tier": 2,
+      "weapon_family": "Grimoire",
+      "required_uses": 70,
+      "required_victories": 9,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_guardian_script_8",
+      "skill_id": "sk_mem_guardian_script",
+      "from_level": 7,
+      "to_level": 8,
+      "tier": 2,
+      "weapon_family": "Grimoire",
+      "required_uses": 80,
+      "required_victories": 10,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_guardian_script_9",
+      "skill_id": "sk_mem_guardian_script",
+      "from_level": 8,
+      "to_level": 9,
+      "tier": 2,
+      "weapon_family": "Grimoire",
+      "required_uses": 90,
+      "required_victories": 11,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_guardian_script_10",
+      "skill_id": "sk_mem_guardian_script",
+      "from_level": 9,
+      "to_level": 10,
+      "tier": 2,
+      "weapon_family": "Grimoire",
+      "required_uses": 100,
+      "required_victories": 12,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_venom_edge_2",
+      "skill_id": "sk_mem_venom_edge",
+      "from_level": 1,
+      "to_level": 2,
+      "tier": 2,
+      "weapon_family": "Sword",
+      "required_uses": 20,
+      "required_victories": 4,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_venom_edge_3",
+      "skill_id": "sk_mem_venom_edge",
+      "from_level": 2,
+      "to_level": 3,
+      "tier": 2,
+      "weapon_family": "Sword",
+      "required_uses": 30,
+      "required_victories": 5,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_venom_edge_4",
+      "skill_id": "sk_mem_venom_edge",
+      "from_level": 3,
+      "to_level": 4,
+      "tier": 2,
+      "weapon_family": "Sword",
+      "required_uses": 40,
+      "required_victories": 6,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_venom_edge_5",
+      "skill_id": "sk_mem_venom_edge",
+      "from_level": 4,
+      "to_level": 5,
+      "tier": 2,
+      "weapon_family": "Sword",
+      "required_uses": 50,
+      "required_victories": 7,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_venom_edge_6",
+      "skill_id": "sk_mem_venom_edge",
+      "from_level": 5,
+      "to_level": 6,
+      "tier": 2,
+      "weapon_family": "Sword",
+      "required_uses": 60,
+      "required_victories": 8,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_venom_edge_7",
+      "skill_id": "sk_mem_venom_edge",
+      "from_level": 6,
+      "to_level": 7,
+      "tier": 2,
+      "weapon_family": "Sword",
+      "required_uses": 70,
+      "required_victories": 9,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_venom_edge_8",
+      "skill_id": "sk_mem_venom_edge",
+      "from_level": 7,
+      "to_level": 8,
+      "tier": 2,
+      "weapon_family": "Sword",
+      "required_uses": 80,
+      "required_victories": 10,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_venom_edge_9",
+      "skill_id": "sk_mem_venom_edge",
+      "from_level": 8,
+      "to_level": 9,
+      "tier": 2,
+      "weapon_family": "Sword",
+      "required_uses": 90,
+      "required_victories": 11,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_venom_edge_10",
+      "skill_id": "sk_mem_venom_edge",
+      "from_level": 9,
+      "to_level": 10,
+      "tier": 2,
+      "weapon_family": "Sword",
+      "required_uses": 100,
+      "required_victories": 12,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_gravity_break_2",
+      "skill_id": "sk_mem_gravity_break",
+      "from_level": 1,
+      "to_level": 2,
+      "tier": 3,
+      "weapon_family": "Knuckle",
+      "required_uses": 30,
+      "required_victories": 5,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_gravity_break_3",
+      "skill_id": "sk_mem_gravity_break",
+      "from_level": 2,
+      "to_level": 3,
+      "tier": 3,
+      "weapon_family": "Knuckle",
+      "required_uses": 45,
+      "required_victories": 6,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_gravity_break_4",
+      "skill_id": "sk_mem_gravity_break",
+      "from_level": 3,
+      "to_level": 4,
+      "tier": 3,
+      "weapon_family": "Knuckle",
+      "required_uses": 60,
+      "required_victories": 7,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_gravity_break_5",
+      "skill_id": "sk_mem_gravity_break",
+      "from_level": 4,
+      "to_level": 5,
+      "tier": 3,
+      "weapon_family": "Knuckle",
+      "required_uses": 75,
+      "required_victories": 8,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_gravity_break_6",
+      "skill_id": "sk_mem_gravity_break",
+      "from_level": 5,
+      "to_level": 6,
+      "tier": 3,
+      "weapon_family": "Knuckle",
+      "required_uses": 90,
+      "required_victories": 9,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_gravity_break_7",
+      "skill_id": "sk_mem_gravity_break",
+      "from_level": 6,
+      "to_level": 7,
+      "tier": 3,
+      "weapon_family": "Knuckle",
+      "required_uses": 105,
+      "required_victories": 10,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_gravity_break_8",
+      "skill_id": "sk_mem_gravity_break",
+      "from_level": 7,
+      "to_level": 8,
+      "tier": 3,
+      "weapon_family": "Knuckle",
+      "required_uses": 120,
+      "required_victories": 11,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_gravity_break_9",
+      "skill_id": "sk_mem_gravity_break",
+      "from_level": 8,
+      "to_level": 9,
+      "tier": 3,
+      "weapon_family": "Knuckle",
+      "required_uses": 135,
+      "required_victories": 12,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_gravity_break_10",
+      "skill_id": "sk_mem_gravity_break",
+      "from_level": 9,
+      "to_level": 10,
+      "tier": 3,
+      "weapon_family": "Knuckle",
+      "required_uses": 150,
+      "required_victories": 13,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_moon_sever_2",
+      "skill_id": "sk_mem_moon_sever",
+      "from_level": 1,
+      "to_level": 2,
+      "tier": 3,
+      "weapon_family": "Sword",
+      "required_uses": 30,
+      "required_victories": 5,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_moon_sever_3",
+      "skill_id": "sk_mem_moon_sever",
+      "from_level": 2,
+      "to_level": 3,
+      "tier": 3,
+      "weapon_family": "Sword",
+      "required_uses": 45,
+      "required_victories": 6,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_moon_sever_4",
+      "skill_id": "sk_mem_moon_sever",
+      "from_level": 3,
+      "to_level": 4,
+      "tier": 3,
+      "weapon_family": "Sword",
+      "required_uses": 60,
+      "required_victories": 7,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_moon_sever_5",
+      "skill_id": "sk_mem_moon_sever",
+      "from_level": 4,
+      "to_level": 5,
+      "tier": 3,
+      "weapon_family": "Sword",
+      "required_uses": 75,
+      "required_victories": 8,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_moon_sever_6",
+      "skill_id": "sk_mem_moon_sever",
+      "from_level": 5,
+      "to_level": 6,
+      "tier": 3,
+      "weapon_family": "Sword",
+      "required_uses": 90,
+      "required_victories": 9,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_moon_sever_7",
+      "skill_id": "sk_mem_moon_sever",
+      "from_level": 6,
+      "to_level": 7,
+      "tier": 3,
+      "weapon_family": "Sword",
+      "required_uses": 105,
+      "required_victories": 10,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_moon_sever_8",
+      "skill_id": "sk_mem_moon_sever",
+      "from_level": 7,
+      "to_level": 8,
+      "tier": 3,
+      "weapon_family": "Sword",
+      "required_uses": 120,
+      "required_victories": 11,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_moon_sever_9",
+      "skill_id": "sk_mem_moon_sever",
+      "from_level": 8,
+      "to_level": 9,
+      "tier": 3,
+      "weapon_family": "Sword",
+      "required_uses": 135,
+      "required_victories": 12,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_moon_sever_10",
+      "skill_id": "sk_mem_moon_sever",
+      "from_level": 9,
+      "to_level": 10,
+      "tier": 3,
+      "weapon_family": "Sword",
+      "required_uses": 150,
+      "required_victories": 13,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_chain_impale_2",
+      "skill_id": "sk_mem_chain_impale",
+      "from_level": 1,
+      "to_level": 2,
+      "tier": 3,
+      "weapon_family": "Polearm",
+      "required_uses": 30,
+      "required_victories": 5,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_chain_impale_3",
+      "skill_id": "sk_mem_chain_impale",
+      "from_level": 2,
+      "to_level": 3,
+      "tier": 3,
+      "weapon_family": "Polearm",
+      "required_uses": 45,
+      "required_victories": 6,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_chain_impale_4",
+      "skill_id": "sk_mem_chain_impale",
+      "from_level": 3,
+      "to_level": 4,
+      "tier": 3,
+      "weapon_family": "Polearm",
+      "required_uses": 60,
+      "required_victories": 7,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_chain_impale_5",
+      "skill_id": "sk_mem_chain_impale",
+      "from_level": 4,
+      "to_level": 5,
+      "tier": 3,
+      "weapon_family": "Polearm",
+      "required_uses": 75,
+      "required_victories": 8,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_chain_impale_6",
+      "skill_id": "sk_mem_chain_impale",
+      "from_level": 5,
+      "to_level": 6,
+      "tier": 3,
+      "weapon_family": "Polearm",
+      "required_uses": 90,
+      "required_victories": 9,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_chain_impale_7",
+      "skill_id": "sk_mem_chain_impale",
+      "from_level": 6,
+      "to_level": 7,
+      "tier": 3,
+      "weapon_family": "Polearm",
+      "required_uses": 105,
+      "required_victories": 10,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_chain_impale_8",
+      "skill_id": "sk_mem_chain_impale",
+      "from_level": 7,
+      "to_level": 8,
+      "tier": 3,
+      "weapon_family": "Polearm",
+      "required_uses": 120,
+      "required_victories": 11,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_chain_impale_9",
+      "skill_id": "sk_mem_chain_impale",
+      "from_level": 8,
+      "to_level": 9,
+      "tier": 3,
+      "weapon_family": "Polearm",
+      "required_uses": 135,
+      "required_victories": 12,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_chain_impale_10",
+      "skill_id": "sk_mem_chain_impale",
+      "from_level": 9,
+      "to_level": 10,
+      "tier": 3,
+      "weapon_family": "Polearm",
+      "required_uses": 150,
+      "required_victories": 13,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_echo_mend_2",
+      "skill_id": "sk_mem_echo_mend",
+      "from_level": 1,
+      "to_level": 2,
+      "tier": 3,
+      "weapon_family": "Staff",
+      "required_uses": 30,
+      "required_victories": 5,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_echo_mend_3",
+      "skill_id": "sk_mem_echo_mend",
+      "from_level": 2,
+      "to_level": 3,
+      "tier": 3,
+      "weapon_family": "Staff",
+      "required_uses": 45,
+      "required_victories": 6,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_echo_mend_4",
+      "skill_id": "sk_mem_echo_mend",
+      "from_level": 3,
+      "to_level": 4,
+      "tier": 3,
+      "weapon_family": "Staff",
+      "required_uses": 60,
+      "required_victories": 7,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_echo_mend_5",
+      "skill_id": "sk_mem_echo_mend",
+      "from_level": 4,
+      "to_level": 5,
+      "tier": 3,
+      "weapon_family": "Staff",
+      "required_uses": 75,
+      "required_victories": 8,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_echo_mend_6",
+      "skill_id": "sk_mem_echo_mend",
+      "from_level": 5,
+      "to_level": 6,
+      "tier": 3,
+      "weapon_family": "Staff",
+      "required_uses": 90,
+      "required_victories": 9,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_echo_mend_7",
+      "skill_id": "sk_mem_echo_mend",
+      "from_level": 6,
+      "to_level": 7,
+      "tier": 3,
+      "weapon_family": "Staff",
+      "required_uses": 105,
+      "required_victories": 10,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_echo_mend_8",
+      "skill_id": "sk_mem_echo_mend",
+      "from_level": 7,
+      "to_level": 8,
+      "tier": 3,
+      "weapon_family": "Staff",
+      "required_uses": 120,
+      "required_victories": 11,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_echo_mend_9",
+      "skill_id": "sk_mem_echo_mend",
+      "from_level": 8,
+      "to_level": 9,
+      "tier": 3,
+      "weapon_family": "Staff",
+      "required_uses": 135,
+      "required_victories": 12,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_echo_mend_10",
+      "skill_id": "sk_mem_echo_mend",
+      "from_level": 9,
+      "to_level": 10,
+      "tier": 3,
+      "weapon_family": "Staff",
+      "required_uses": 150,
+      "required_victories": 13,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_null_ward_2",
+      "skill_id": "sk_mem_null_ward",
+      "from_level": 1,
+      "to_level": 2,
+      "tier": 3,
+      "weapon_family": "Grimoire",
+      "required_uses": 30,
+      "required_victories": 5,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_null_ward_3",
+      "skill_id": "sk_mem_null_ward",
+      "from_level": 2,
+      "to_level": 3,
+      "tier": 3,
+      "weapon_family": "Grimoire",
+      "required_uses": 45,
+      "required_victories": 6,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_null_ward_4",
+      "skill_id": "sk_mem_null_ward",
+      "from_level": 3,
+      "to_level": 4,
+      "tier": 3,
+      "weapon_family": "Grimoire",
+      "required_uses": 60,
+      "required_victories": 7,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_null_ward_5",
+      "skill_id": "sk_mem_null_ward",
+      "from_level": 4,
+      "to_level": 5,
+      "tier": 3,
+      "weapon_family": "Grimoire",
+      "required_uses": 75,
+      "required_victories": 8,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_null_ward_6",
+      "skill_id": "sk_mem_null_ward",
+      "from_level": 5,
+      "to_level": 6,
+      "tier": 3,
+      "weapon_family": "Grimoire",
+      "required_uses": 90,
+      "required_victories": 9,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_null_ward_7",
+      "skill_id": "sk_mem_null_ward",
+      "from_level": 6,
+      "to_level": 7,
+      "tier": 3,
+      "weapon_family": "Grimoire",
+      "required_uses": 105,
+      "required_victories": 10,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_null_ward_8",
+      "skill_id": "sk_mem_null_ward",
+      "from_level": 7,
+      "to_level": 8,
+      "tier": 3,
+      "weapon_family": "Grimoire",
+      "required_uses": 120,
+      "required_victories": 11,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_null_ward_9",
+      "skill_id": "sk_mem_null_ward",
+      "from_level": 8,
+      "to_level": 9,
+      "tier": 3,
+      "weapon_family": "Grimoire",
+      "required_uses": 135,
+      "required_victories": 12,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_null_ward_10",
+      "skill_id": "sk_mem_null_ward",
+      "from_level": 9,
+      "to_level": 10,
+      "tier": 3,
+      "weapon_family": "Grimoire",
+      "required_uses": 150,
+      "required_victories": 13,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_astral_rupture_2",
+      "skill_id": "sk_mem_astral_rupture",
+      "from_level": 1,
+      "to_level": 2,
+      "tier": 3,
+      "weapon_family": "Orb",
+      "required_uses": 30,
+      "required_victories": 5,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_astral_rupture_3",
+      "skill_id": "sk_mem_astral_rupture",
+      "from_level": 2,
+      "to_level": 3,
+      "tier": 3,
+      "weapon_family": "Orb",
+      "required_uses": 45,
+      "required_victories": 6,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_astral_rupture_4",
+      "skill_id": "sk_mem_astral_rupture",
+      "from_level": 3,
+      "to_level": 4,
+      "tier": 3,
+      "weapon_family": "Orb",
+      "required_uses": 60,
+      "required_victories": 7,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_astral_rupture_5",
+      "skill_id": "sk_mem_astral_rupture",
+      "from_level": 4,
+      "to_level": 5,
+      "tier": 3,
+      "weapon_family": "Orb",
+      "required_uses": 75,
+      "required_victories": 8,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_astral_rupture_6",
+      "skill_id": "sk_mem_astral_rupture",
+      "from_level": 5,
+      "to_level": 6,
+      "tier": 3,
+      "weapon_family": "Orb",
+      "required_uses": 90,
+      "required_victories": 9,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_astral_rupture_7",
+      "skill_id": "sk_mem_astral_rupture",
+      "from_level": 6,
+      "to_level": 7,
+      "tier": 3,
+      "weapon_family": "Orb",
+      "required_uses": 105,
+      "required_victories": 10,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_astral_rupture_8",
+      "skill_id": "sk_mem_astral_rupture",
+      "from_level": 7,
+      "to_level": 8,
+      "tier": 3,
+      "weapon_family": "Orb",
+      "required_uses": 120,
+      "required_victories": 11,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_astral_rupture_9",
+      "skill_id": "sk_mem_astral_rupture",
+      "from_level": 8,
+      "to_level": 9,
+      "tier": 3,
+      "weapon_family": "Orb",
+      "required_uses": 135,
+      "required_victories": 12,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    },
+    {
+      "id": "q_mem_train_astral_rupture_10",
+      "skill_id": "sk_mem_astral_rupture",
+      "from_level": 9,
+      "to_level": 10,
+      "tier": 3,
+      "weapon_family": "Orb",
+      "required_uses": 150,
+      "required_victories": 13,
+      "quest_giver": "npc_skill_artisan_ivara",
+      "region": "CENTRAL_SPIRE_BAZAAR",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "binding": "learner_snapshot_only_not_public_quest_catalog"
+    }
+  ],
+  "items": [
+    {
+      "id": "mem_dark_punch",
+      "name": "Skill Memory : Dark Punch",
+      "description": "Unbound memory of Dark Punch. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 20. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "UNCOMMON",
+      "level_requirement": 20,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_dark_punch",
+          "weapon_family": "Knuckle",
+          "learning_victories": 3
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 87,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_dark_punch"
+    },
+    {
+      "id": "mem_iron_jab",
+      "name": "Skill Memory : Iron Jab",
+      "description": "Unbound memory of Iron Jab. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 20. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "UNCOMMON",
+      "level_requirement": 20,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_iron_jab",
+          "weapon_family": "Knuckle",
+          "learning_victories": 3
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 74,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_iron_jab"
+    },
+    {
+      "id": "mem_crescent_slash",
+      "name": "Skill Memory : Crescent Slash",
+      "description": "Unbound memory of Crescent Slash. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 20. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "UNCOMMON",
+      "level_requirement": 20,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_crescent_slash",
+          "weapon_family": "Sword",
+          "learning_victories": 3
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 80,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_crescent_slash"
+    },
+    {
+      "id": "mem_needle_fang",
+      "name": "Skill Memory : Needle Fang",
+      "description": "Unbound memory of Needle Fang. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 20. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "UNCOMMON",
+      "level_requirement": 20,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_needle_fang",
+          "weapon_family": "Dagger",
+          "learning_victories": 3
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 80,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_needle_fang"
+    },
+    {
+      "id": "mem_piercing_thrust",
+      "name": "Skill Memory : Piercing Thrust",
+      "description": "Unbound memory of Piercing Thrust. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 20. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "UNCOMMON",
+      "level_requirement": 20,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_piercing_thrust",
+          "weapon_family": "Spear",
+          "learning_victories": 3
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 74,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_piercing_thrust"
+    },
+    {
+      "id": "mem_spark_bolt",
+      "name": "Skill Memory : Spark Bolt",
+      "description": "Unbound memory of Spark Bolt. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 20. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "UNCOMMON",
+      "level_requirement": 20,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_spark_bolt",
+          "weapon_family": "Staff",
+          "learning_victories": 3
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 75,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_spark_bolt"
+    },
+    {
+      "id": "mem_shield_pulse",
+      "name": "Skill Memory : Shield Pulse",
+      "description": "Unbound memory of Shield Pulse. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 20. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "UNCOMMON",
+      "level_requirement": 20,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_shield_pulse",
+          "weapon_family": "Shield",
+          "learning_victories": 3
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 75,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_shield_pulse"
+    },
+    {
+      "id": "mem_phantom_step",
+      "name": "Skill Memory : Phantom Step",
+      "description": "Unbound memory of Phantom Step. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 40. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "RARE",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_phantom_step",
+          "weapon_family": "Dagger",
+          "learning_victories": 5
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 294,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_phantom_step"
+    },
+    {
+      "id": "mem_ember_knuckle",
+      "name": "Skill Memory : Ember Knuckle",
+      "description": "Unbound memory of Ember Knuckle. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 40. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "RARE",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_ember_knuckle",
+          "weapon_family": "Knuckle",
+          "learning_victories": 5
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 371,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_ember_knuckle"
+    },
+    {
+      "id": "mem_frost_lance",
+      "name": "Skill Memory : Frost Lance",
+      "description": "Unbound memory of Frost Lance. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 40. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "RARE",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_frost_lance",
+          "weapon_family": "Spear",
+          "learning_victories": 5
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 301,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_frost_lance"
+    },
+    {
+      "id": "mem_thunder_arc",
+      "name": "Skill Memory : Thunder Arc",
+      "description": "Unbound memory of Thunder Arc. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 40. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "RARE",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_thunder_arc",
+          "weapon_family": "Staff",
+          "learning_victories": 5
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 371,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_thunder_arc"
+    },
+    {
+      "id": "mem_siphon_touch",
+      "name": "Skill Memory : Siphon Touch",
+      "description": "Unbound memory of Siphon Touch. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 40. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "RARE",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_siphon_touch",
+          "weapon_family": "Orb",
+          "learning_victories": 5
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 328,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_siphon_touch"
+    },
+    {
+      "id": "mem_guardian_script",
+      "name": "Skill Memory : Guardian Script",
+      "description": "Unbound memory of Guardian Script. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 40. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "RARE",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_guardian_script",
+          "weapon_family": "Grimoire",
+          "learning_victories": 5
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 264,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_guardian_script"
+    },
+    {
+      "id": "mem_venom_edge",
+      "name": "Skill Memory : Venom Edge",
+      "description": "Unbound memory of Venom Edge. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 40. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "RARE",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_venom_edge",
+          "weapon_family": "Sword",
+          "learning_victories": 5
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 274,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_venom_edge"
+    },
+    {
+      "id": "mem_gravity_break",
+      "name": "Skill Memory : Gravity Break",
+      "description": "Unbound memory of Gravity Break. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 60. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "EPIC",
+      "level_requirement": 60,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_gravity_break",
+          "weapon_family": "Knuckle",
+          "learning_victories": 8
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 3532,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_gravity_break"
+    },
+    {
+      "id": "mem_moon_sever",
+      "name": "Skill Memory : Moon Sever",
+      "description": "Unbound memory of Moon Sever. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 60. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "EPIC",
+      "level_requirement": 60,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_moon_sever",
+          "weapon_family": "Sword",
+          "learning_victories": 8
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 3982,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_moon_sever"
+    },
+    {
+      "id": "mem_chain_impale",
+      "name": "Skill Memory : Chain Impale",
+      "description": "Unbound memory of Chain Impale. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 60. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "EPIC",
+      "level_requirement": 60,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_chain_impale",
+          "weapon_family": "Polearm",
+          "learning_victories": 8
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 2272,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_chain_impale"
+    },
+    {
+      "id": "mem_echo_mend",
+      "name": "Skill Memory : Echo Mend",
+      "description": "Unbound memory of Echo Mend. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 60. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "EPIC",
+      "level_requirement": 60,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_echo_mend",
+          "weapon_family": "Staff",
+          "learning_victories": 8
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 2482,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_echo_mend"
+    },
+    {
+      "id": "mem_null_ward",
+      "name": "Skill Memory : Null Ward",
+      "description": "Unbound memory of Null Ward. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 60. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "EPIC",
+      "level_requirement": 60,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_null_ward",
+          "weapon_family": "Grimoire",
+          "learning_victories": 8
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 3532,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_null_ward"
+    },
+    {
+      "id": "mem_astral_rupture",
+      "name": "Skill Memory : Astral Rupture",
+      "description": "Unbound memory of Astral Rupture. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 60. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "EPIC",
+      "level_requirement": 60,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_astral_rupture",
+          "weapon_family": "Orb",
+          "learning_victories": 8
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 3982,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_astral_rupture"
+    }
+  ],
+  "recipes": [
+    {
+      "recipe_id": "rcp_mem_dark_punch",
+      "recipe_name": "Inscribe Dark Punch",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 20,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_dark_punch",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 2
+        },
+        {
+          "item_id": "void_parasite_egg",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_iron_jab",
+      "recipe_name": "Inscribe Iron Jab",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 20,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_iron_jab",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_metal",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_crescent_slash",
+      "recipe_name": "Inscribe Crescent Slash",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 20,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_crescent_slash",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 2
+        },
+        {
+          "item_id": "scorpion_stinger",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_needle_fang",
+      "recipe_name": "Inscribe Needle Fang",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 20,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_needle_fang",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 2
+        },
+        {
+          "item_id": "scorpion_stinger",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_piercing_thrust",
+      "recipe_name": "Inscribe Piercing Thrust",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 20,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_piercing_thrust",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_metal",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_spark_bolt",
+      "recipe_name": "Inscribe Spark Bolt",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 20,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_spark_bolt",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_shield_pulse",
+      "recipe_name": "Inscribe Shield Pulse",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 20,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_shield_pulse",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_phantom_step",
+      "recipe_name": "Inscribe Phantom Step",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 40,
+      "crafting_time_seconds": 30,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_phantom_step",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 4
+        },
+        {
+          "item_id": "raw_aethel_fragment",
+          "quantity": 3
+        },
+        {
+          "item_id": "void_channeler_core",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_ember_knuckle",
+      "recipe_name": "Inscribe Ember Knuckle",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 40,
+      "crafting_time_seconds": 30,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_ember_knuckle",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 4
+        },
+        {
+          "item_id": "raw_aethel_fragment",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_storm_core",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_frost_lance",
+      "recipe_name": "Inscribe Frost Lance",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 40,
+      "crafting_time_seconds": 30,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_frost_lance",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 4
+        },
+        {
+          "item_id": "raw_aethel_fragment",
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_thunder_arc",
+      "recipe_name": "Inscribe Thunder Arc",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 40,
+      "crafting_time_seconds": 30,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_thunder_arc",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 4
+        },
+        {
+          "item_id": "raw_aethel_fragment",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_storm_core",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_siphon_touch",
+      "recipe_name": "Inscribe Siphon Touch",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 40,
+      "crafting_time_seconds": 30,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_siphon_touch",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 4
+        },
+        {
+          "item_id": "raw_aethel_fragment",
+          "quantity": 3
+        },
+        {
+          "item_id": "abyssal_reaver_claw",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_guardian_script",
+      "recipe_name": "Inscribe Guardian Script",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 40,
+      "crafting_time_seconds": 30,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_guardian_script",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 4
+        },
+        {
+          "item_id": "raw_aethel_fragment",
+          "quantity": 3
+        },
+        {
+          "item_id": "mutated_neural_core",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_venom_edge",
+      "recipe_name": "Inscribe Venom Edge",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 40,
+      "crafting_time_seconds": 30,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_venom_edge",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 4
+        },
+        {
+          "item_id": "raw_aethel_fragment",
+          "quantity": 3
+        },
+        {
+          "item_id": "toxic_spore_gland",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_gravity_break",
+      "recipe_name": "Inscribe Gravity Break",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 60,
+      "crafting_time_seconds": 60,
+      "crafting_cost": 1800,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_gravity_break",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 6
+        },
+        {
+          "item_id": "void_core",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_moon_sever",
+      "recipe_name": "Inscribe Moon Sever",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 60,
+      "crafting_time_seconds": 60,
+      "crafting_cost": 1800,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_moon_sever",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 6
+        },
+        {
+          "item_id": "void_core",
+          "quantity": 4
+        },
+        {
+          "item_id": "drake_heart",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_chain_impale",
+      "recipe_name": "Inscribe Chain Impale",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 60,
+      "crafting_time_seconds": 60,
+      "crafting_cost": 1800,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_chain_impale",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 6
+        },
+        {
+          "item_id": "void_core",
+          "quantity": 4
+        },
+        {
+          "item_id": "leviathan_scale",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_echo_mend",
+      "recipe_name": "Inscribe Echo Mend",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 60,
+      "crafting_time_seconds": 60,
+      "crafting_cost": 1800,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_echo_mend",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 6
+        },
+        {
+          "item_id": "void_core",
+          "quantity": 4
+        },
+        {
+          "item_id": "ancient_scale",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_null_ward",
+      "recipe_name": "Inscribe Null Ward",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 60,
+      "crafting_time_seconds": 60,
+      "crafting_cost": 1800,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_null_ward",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 6
+        },
+        {
+          "item_id": "void_core",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_astral_rupture",
+      "recipe_name": "Inscribe Astral Rupture",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 60,
+      "crafting_time_seconds": 60,
+      "crafting_cost": 1800,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_astral_rupture",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 6
+        },
+        {
+          "item_id": "void_core",
+          "quantity": 4
+        },
+        {
+          "item_id": "drake_heart",
+          "quantity": 6
+        }
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "skill_id": "sk_mem_dark_punch",
+      "item_id": "mem_dark_punch",
+      "recipe_id": "rcp_mem_dark_punch",
+      "tier": 1,
+      "min_learner_level": 20,
+      "weapon_family": "Knuckle",
+      "max_level": 10,
+      "scalable_special_effects": [],
+      "learning_quest_template": "learning",
+      "training_quest_template": "training"
+    },
+    {
+      "skill_id": "sk_mem_iron_jab",
+      "item_id": "mem_iron_jab",
+      "recipe_id": "rcp_mem_iron_jab",
+      "tier": 1,
+      "min_learner_level": 20,
+      "weapon_family": "Knuckle",
+      "max_level": 10,
+      "scalable_special_effects": [],
+      "learning_quest_template": "learning",
+      "training_quest_template": "training"
+    },
+    {
+      "skill_id": "sk_mem_crescent_slash",
+      "item_id": "mem_crescent_slash",
+      "recipe_id": "rcp_mem_crescent_slash",
+      "tier": 1,
+      "min_learner_level": 20,
+      "weapon_family": "Sword",
+      "max_level": 10,
+      "scalable_special_effects": [],
+      "learning_quest_template": "learning",
+      "training_quest_template": "training"
+    },
+    {
+      "skill_id": "sk_mem_needle_fang",
+      "item_id": "mem_needle_fang",
+      "recipe_id": "rcp_mem_needle_fang",
+      "tier": 1,
+      "min_learner_level": 20,
+      "weapon_family": "Dagger",
+      "max_level": 10,
+      "scalable_special_effects": [],
+      "learning_quest_template": "learning",
+      "training_quest_template": "training"
+    },
+    {
+      "skill_id": "sk_mem_piercing_thrust",
+      "item_id": "mem_piercing_thrust",
+      "recipe_id": "rcp_mem_piercing_thrust",
+      "tier": 1,
+      "min_learner_level": 20,
+      "weapon_family": "Spear",
+      "max_level": 10,
+      "scalable_special_effects": [],
+      "learning_quest_template": "learning",
+      "training_quest_template": "training"
+    },
+    {
+      "skill_id": "sk_mem_spark_bolt",
+      "item_id": "mem_spark_bolt",
+      "recipe_id": "rcp_mem_spark_bolt",
+      "tier": 1,
+      "min_learner_level": 20,
+      "weapon_family": "Staff",
+      "max_level": 10,
+      "scalable_special_effects": [],
+      "learning_quest_template": "learning",
+      "training_quest_template": "training"
+    },
+    {
+      "skill_id": "sk_mem_shield_pulse",
+      "item_id": "mem_shield_pulse",
+      "recipe_id": "rcp_mem_shield_pulse",
+      "tier": 1,
+      "min_learner_level": 20,
+      "weapon_family": "Shield",
+      "max_level": 10,
+      "scalable_special_effects": [
+        "shield_percent"
+      ],
+      "learning_quest_template": "learning",
+      "training_quest_template": "training"
+    },
+    {
+      "skill_id": "sk_mem_phantom_step",
+      "item_id": "mem_phantom_step",
+      "recipe_id": "rcp_mem_phantom_step",
+      "tier": 2,
+      "min_learner_level": 40,
+      "weapon_family": "Dagger",
+      "max_level": 10,
+      "scalable_special_effects": [],
+      "learning_quest_template": "learning",
+      "training_quest_template": "training"
+    },
+    {
+      "skill_id": "sk_mem_ember_knuckle",
+      "item_id": "mem_ember_knuckle",
+      "recipe_id": "rcp_mem_ember_knuckle",
+      "tier": 2,
+      "min_learner_level": 40,
+      "weapon_family": "Knuckle",
+      "max_level": 10,
+      "scalable_special_effects": [],
+      "learning_quest_template": "learning",
+      "training_quest_template": "training"
+    },
+    {
+      "skill_id": "sk_mem_frost_lance",
+      "item_id": "mem_frost_lance",
+      "recipe_id": "rcp_mem_frost_lance",
+      "tier": 2,
+      "min_learner_level": 40,
+      "weapon_family": "Spear",
+      "max_level": 10,
+      "scalable_special_effects": [],
+      "learning_quest_template": "learning",
+      "training_quest_template": "training"
+    },
+    {
+      "skill_id": "sk_mem_thunder_arc",
+      "item_id": "mem_thunder_arc",
+      "recipe_id": "rcp_mem_thunder_arc",
+      "tier": 2,
+      "min_learner_level": 40,
+      "weapon_family": "Staff",
+      "max_level": 10,
+      "scalable_special_effects": [],
+      "learning_quest_template": "learning",
+      "training_quest_template": "training"
+    },
+    {
+      "skill_id": "sk_mem_siphon_touch",
+      "item_id": "mem_siphon_touch",
+      "recipe_id": "rcp_mem_siphon_touch",
+      "tier": 2,
+      "min_learner_level": 40,
+      "weapon_family": "Orb",
+      "max_level": 10,
+      "scalable_special_effects": [],
+      "learning_quest_template": "learning",
+      "training_quest_template": "training"
+    },
+    {
+      "skill_id": "sk_mem_guardian_script",
+      "item_id": "mem_guardian_script",
+      "recipe_id": "rcp_mem_guardian_script",
+      "tier": 2,
+      "min_learner_level": 40,
+      "weapon_family": "Grimoire",
+      "max_level": 10,
+      "scalable_special_effects": [
+        "grant_shield_scale_perception"
+      ],
+      "learning_quest_template": "learning",
+      "training_quest_template": "training"
+    },
+    {
+      "skill_id": "sk_mem_venom_edge",
+      "item_id": "mem_venom_edge",
+      "recipe_id": "rcp_mem_venom_edge",
+      "tier": 2,
+      "min_learner_level": 40,
+      "weapon_family": "Sword",
+      "max_level": 10,
+      "scalable_special_effects": [],
+      "learning_quest_template": "learning",
+      "training_quest_template": "training"
+    },
+    {
+      "skill_id": "sk_mem_gravity_break",
+      "item_id": "mem_gravity_break",
+      "recipe_id": "rcp_mem_gravity_break",
+      "tier": 3,
+      "min_learner_level": 60,
+      "weapon_family": "Knuckle",
+      "max_level": 10,
+      "scalable_special_effects": [],
+      "learning_quest_template": "learning",
+      "training_quest_template": "training"
+    },
+    {
+      "skill_id": "sk_mem_moon_sever",
+      "item_id": "mem_moon_sever",
+      "recipe_id": "rcp_mem_moon_sever",
+      "tier": 3,
+      "min_learner_level": 60,
+      "weapon_family": "Sword",
+      "max_level": 10,
+      "scalable_special_effects": [],
+      "learning_quest_template": "learning",
+      "training_quest_template": "training"
+    },
+    {
+      "skill_id": "sk_mem_chain_impale",
+      "item_id": "mem_chain_impale",
+      "recipe_id": "rcp_mem_chain_impale",
+      "tier": 3,
+      "min_learner_level": 60,
+      "weapon_family": "Polearm",
+      "max_level": 10,
+      "scalable_special_effects": [],
+      "learning_quest_template": "learning",
+      "training_quest_template": "training"
+    },
+    {
+      "skill_id": "sk_mem_echo_mend",
+      "item_id": "mem_echo_mend",
+      "recipe_id": "rcp_mem_echo_mend",
+      "tier": 3,
+      "min_learner_level": 60,
+      "weapon_family": "Staff",
+      "max_level": 10,
+      "scalable_special_effects": [
+        "direct_heal_scaling_perception"
+      ],
+      "learning_quest_template": "learning",
+      "training_quest_template": "training"
+    },
+    {
+      "skill_id": "sk_mem_null_ward",
+      "item_id": "mem_null_ward",
+      "recipe_id": "rcp_mem_null_ward",
+      "tier": 3,
+      "min_learner_level": 60,
+      "weapon_family": "Grimoire",
+      "max_level": 10,
+      "scalable_special_effects": [],
+      "learning_quest_template": "learning",
+      "training_quest_template": "training"
+    },
+    {
+      "skill_id": "sk_mem_astral_rupture",
+      "item_id": "mem_astral_rupture",
+      "recipe_id": "rcp_mem_astral_rupture",
+      "tier": 3,
+      "min_learner_level": 60,
+      "weapon_family": "Orb",
+      "max_level": 10,
+      "scalable_special_effects": [],
+      "learning_quest_template": "learning",
+      "training_quest_template": "training"
+    }
+  ],
+  "npc": {
+    "npc_id": "npc_skill_artisan_ivara",
+    "name": "Ivara",
+    "title": "Skill Artisan",
+    "role": "CRAFTER",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_skill_artisan_ivara",
+    "location": "Central Spire Bazaar",
+    "region_id": "CENTRAL_SPIRE_BAZAAR",
+    "description": "A memory engraver who turns combat echoes into transferable skill memories.",
+    "actions": [
+      "open_crafting"
+    ],
+    "available_services": [
+      "CRAFT"
+    ],
+    "greeting": "A memory is a beginning, not mastery. What will you make your own?"
+  },
+  "dialogue": {
+    "dialog_id": "dialog_skill_artisan_ivara",
+    "npc_id": "npc_skill_artisan_ivara",
+    "start_node": "greet",
+    "nodes": [
+      {
+        "id": "greet",
+        "text": "A memory is a beginning, not mastery. What will you make your own?",
+        "options": [
+          {
+            "text": "Craft a Skill Memory.",
+            "next": "craft",
+            "action": "open_crafting"
+          },
+          {
+            "text": "How do I learn a memory?",
+            "next": "learn"
+          },
+          {
+            "text": "How many can I equip?",
+            "next": "slots"
+          },
+          {
+            "text": "Tell me about mastery training.",
+            "next": "train"
+          },
+          {
+            "text": "Check my training progress.",
+            "next": "progress"
+          },
+          {
+            "text": "Can I sell a memory?",
+            "next": "trade"
+          },
+          {
+            "text": "Leave.",
+            "next": "exit",
+            "action": "exit"
+          }
+        ]
+      },
+      {
+        "id": "craft",
+        "text": "Bring memory chips, a stabilizer, and the essence of the technique. Stronger inscriptions need rarer materials and a larger engraving fee.",
+        "options": [
+          {
+            "text": "Back.",
+            "next": "greet"
+          }
+        ]
+      },
+      {
+        "id": "learn",
+        "text": "Choose yourself or a companion before using the memory. It is consumed to begin that learner's quest. Win real battles with the required weapon, then return to an artisan. Only completion unlocks the skill at level one.",
+        "options": [
+          {
+            "text": "Back.",
+            "next": "greet"
+          }
+        ]
+      },
+      {
+        "id": "slots",
+        "text": "Each learner has two memory slots, separate from class techniques. Certain passives may add slots. You may learn many memories and change your selection outside battle. An incompatible weapon disables its technique.",
+        "options": [
+          {
+            "text": "Back.",
+            "next": "greet"
+          }
+        ]
+      },
+      {
+        "id": "train",
+        "text": "Mastery grows from level one to ten. Each new level needs its own training quest: meaningful uses, worthy victories, and an artisan's review. Your current mastery remains usable while training.",
+        "options": [
+          {
+            "text": "Back.",
+            "next": "greet"
+          }
+        ]
+      },
+      {
+        "id": "progress",
+        "text": "Learning and training records belong to the chosen learner. Paused lessons can resume; they do not return the consumed memory. Your quest journal will track the objectives once lessons are available.",
+        "options": [
+          {
+            "text": "Back.",
+            "next": "greet"
+          }
+        ]
+      },
+      {
+        "id": "trade",
+        "text": "An unused inscription is unbound and may be sold on the market. Once used, the lesson and all mastery belong to that learner. They cannot be transferred or sold.",
+        "options": [
+          {
+            "text": "Back.",
+            "next": "greet"
+          }
+        ]
+      },
+      {
+        "id": "exit",
+        "text": "Keep your hands steady and your memories sharper.",
+        "options": []
+      }
+    ]
+  }
+}

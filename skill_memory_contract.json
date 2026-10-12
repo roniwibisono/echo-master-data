@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "status": "data_ready_runtime_pending",
+  "source_type": "Skill_Memory",
+  "item_type": "SKILL_MEMORY",
+  "base_slots_per_learner": 2,
+  "max_skill_level": 10,
+  "weapon_families": [
+    "Knuckle",
+    "Sword",
+    "Dagger",
+    "Spear",
+    "Polearm",
+    "Staff",
+    "Orb",
+    "Grimoire",
+    "Shield"
+  ],
+  "weapon_matching": "explicit_equipped_item_type_suffix_after_WEAPON_prefix_in_either_hand",
+  "equipment_type_format": {
+    "weapon": "WEAPON_{SUBTYPE}",
+    "accessory": "ACCESSORY_{SUBTYPE}"
+  },
+  "weapon_subtype_comparison": "uppercase_exact_match; no implicit aliases",
+  "slot_bonus_effect": "increase_skill_memory_slots",
+  "slot_bonus_sources": [
+    "class_passive",
+    "race_passive",
+    "ally_passive",
+    "equipped_item_passive"
+  ],
+  "memory_skills_can_grant_slots": false,
+  "learner_key": [
+    "player_id",
+    "learner_type",
+    "learner_id"
+  ],
+  "client_storage_keys": {
+    "learned": "skill_memory_levels",
+    "equipped": "equipped_memory_skill_ids",
+    "learning": "quest_progress.definition_snapshot.skill_memory"
+  },
+  "persistent_state": {
+    "learned_memories": "map skill_id -> level (1..10)",
+    "equipped_memories": "ordered unique skill_ids, separate from class skills",
+    "learning_attempts": "map skill_id -> quest_id, attempt_id, status, objective_progress",
+    "training_attempts": "map skill_id -> from_level, to_level, quest_id, attempt_id, objective_progress"
+  },
+  "states": [
+    "unlearned",
+    "learning",
+    "learned",
+    "training"
+  ],
+  "item_use": {
+    "transaction": [
+      "validate_selected_owned_learner",
+      "reject_known_or_pending_skill",
+      "check_min_level",
+      "consume_exactly_one_item",
+      "create_learning_quest"
+    ],
+    "atomic": true,
+    "idempotency_key": "item_use_request_id",
+    "quest_failure_rolls_back_consumption": true,
+    "abandon_policy": "pause_and_resume_same_attempt_without_refund",
+    "quest_completion": "unlock_level_1_for_bound_learner_only",
+    "weapon_required_at_use": false
+  },
+  "battle_rules": {
+    "resolve": "class_skills_plus_valid_equipped_memories_only",
+    "enforce_weapon": "at_equip_and_each_cast",
+    "weapon_swap": "keep_loadout_but_disable_incompatible_memory",
+    "loadout_changes": "out_of_combat_only",
+    "party_rules": "same_contract_independent_progress_per_member"
+  },
+  "progression": {
+    "level_potency_multipliers": [
+      1.0,
+      1.06,
+      1.12,
+      1.18,
+      1.24,
+      1.3,
+      1.36,
+      1.42,
+      1.48,
+      1.54
+    ],
+    "scale_only": [
+      "damage_formula_result",
+      "periodic_effects.percent_atk.value",
+      "periodic_effects.heal_over_time.value",
+      "healing_amount",
+      "shield_amount"
+    ],
+    "never_scale": [
+      "mp_cost",
+      "cooldown_seconds",
+      "duration_turns",
+      "chance",
+      "hit_count",
+      "lifesteal_percent",
+      "defense_penetration_percent",
+      "stat_modifiers",
+      "slot_count"
+    ],
+    "learning_template": {
+      "id_pattern": "q_mem_learn_{skill_slug}",
+      "objectives": [
+        "qualifying_victories_with_required_weapon",
+        "artisan_turn_in"
+      ],
+      "victories_by_tier": [
+        3,
+        5,
+        8
+      ]
+    },
+    "training_template": {
+      "id_pattern": "q_mem_train_{skill_slug}_{to_level}",
+      "objectives": [
+        "meaningful_skill_uses",
+        "qualifying_victories",
+        "artisan_turn_in"
+      ],
+      "uses_formula": "5 * to_level * tier",
+      "victories_formula": "to_level + tier"
+    },
+    "event_identity": [
+      "battle_id",
+      "action_id",
+      "learner_id",
+      "skill_id",
+      "attempt_id"
+    ],
+    "eligibility": "living_actor; non_dummy_non_pvp_enemy; enemy_level >= learner_level - 10",
+    "meaningful_use": "positive_damage_or_effective_heal_or_absorbed_shield_or_new_status",
+    "deduplicate": "one_use_per_action; one_victory_per_battle; never_reward_replayed_events",
+    "training_preserves_current_level": true,
+    "quests_authored_in": [
+      "P2_learning",
+      "P4_training"
+    ]
+  },
+  "market": {
+    "unused_item_tradable": true,
+    "bind_on_use": true,
+    "learned_skill_and_progress_tradable": false,
+    "crafted_item_stack_size": 20
+  },
+  "activation_requires": [
+    "transactional_learning_handler",
+    "quest_templates",
+    "memory_loadout_resolver",
+    "weapon_family_tags",
+    "level_scaling"
+  ]
+}

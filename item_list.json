@@ -8,7 +8,7 @@
       "id": "wpn_iron_sword",
       "name": "Iron Sword",
       "description": "A standard issue iron sword. Reliable but dull.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "COMMON",
       "level_requirement": 5,
       "equipment_slots": [
@@ -56,7 +56,7 @@
       "id": "wpn_void_blade",
       "name": "Void Blade",
       "description": "A blade forged from the dark energies of the Void.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "EPIC",
       "level_requirement": 40,
       "equipment_slots": [
@@ -100,7 +100,7 @@
       "id": "wpn_bronze_dagger",
       "name": "Bronze Dagger",
       "description": "A light and fast weapon for beginners. Easy to conceal.",
-      "type": "WEAPON",
+      "type": "WEAPON_DAGGER",
       "rarity": "COMMON",
       "level_requirement": 1,
       "equipment_slots": [
@@ -124,7 +124,7 @@
       "id": "wpn_steel_broadsword",
       "name": "Steel Broadsword",
       "description": "A standard military-issue sword. Heavy but packs a punch.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "UNCOMMON",
       "level_requirement": 10,
       "equipment_slots": [
@@ -148,7 +148,7 @@
       "id": "wpn_apprentice_staff",
       "name": "Apprentice Staff",
       "description": "A wooden staff channeled with basic Aethel energy.",
-      "type": "WEAPON",
+      "type": "WEAPON_STAFF",
       "rarity": "COMMON",
       "level_requirement": 3,
       "equipment_slots": [
@@ -244,7 +244,7 @@
       "id": "acc_ring_of_vitality",
       "name": "Ring of Vitality",
       "description": "A simple silver ring that glows with a faint red aura. Enhances life force.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "RARE",
       "level_requirement": 8,
       "equipment_slots": [
@@ -269,7 +269,7 @@
       "id": "acc_hunters_amulet",
       "name": "Hunter's Amulet",
       "description": "A carved bone amulet that sharpens the wearer's senses.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "UNCOMMON",
       "level_requirement": 15,
       "equipment_slots": [
@@ -876,7 +876,7 @@
       "id": "wpn_rusty_sword",
       "name": "Rusty Sword",
       "description": "An old blade used by militia trainees.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "COMMON",
       "level_requirement": 1,
       "equipment_slots": [
@@ -900,7 +900,7 @@
       "id": "wpn_hunter_dagger",
       "name": "Hunter Dagger",
       "description": "A lightweight dagger favored by scouts.",
-      "type": "WEAPON",
+      "type": "WEAPON_DAGGER",
       "rarity": "COMMON",
       "level_requirement": 2,
       "equipment_slots": [
@@ -924,7 +924,7 @@
       "id": "wpn_training_spear",
       "name": "Training Spear",
       "description": "A balanced spear used for early combat drills.",
-      "type": "WEAPON",
+      "type": "WEAPON_SPEAR",
       "rarity": "COMMON",
       "level_requirement": 4,
       "equipment_slots": [
@@ -948,7 +948,7 @@
       "id": "wpn_scrap_axe",
       "name": "Scrap Axe",
       "description": "An axe forged from salvaged metal.",
-      "type": "WEAPON",
+      "type": "WEAPON_AXE",
       "rarity": "COMMON",
       "level_requirement": 6,
       "equipment_slots": [
@@ -1164,7 +1164,7 @@
       "id": "ring_minor_focus",
       "name": "Minor Focus Ring",
       "description": "A ring that slightly enhances magical awareness.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "COMMON",
       "level_requirement": 4,
       "equipment_slots": [
@@ -1188,7 +1188,7 @@
       "id": "ring_hunter_band",
       "name": "Hunter Band",
       "description": "A band worn by hunters to sharpen their aim.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "COMMON",
       "level_requirement": 6,
       "equipment_slots": [
@@ -1212,7 +1212,7 @@
       "id": "amulet_aethel_fragment",
       "name": "Aethel Fragment Amulet",
       "description": "A fragment infused with faint Aethel energy.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "UNCOMMON",
       "level_requirement": 8,
       "equipment_slots": [
@@ -1236,7 +1236,7 @@
       "id": "belt_adventurer_belt",
       "name": "Adventurer Belt",
       "description": "A sturdy belt favored by beginners.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_BELT",
       "rarity": "COMMON",
       "level_requirement": 3,
       "equipment_slots": [
@@ -6850,7 +6850,7 @@
       "id": "acc_dummy_bracelet",
       "name": "Dummy Bracelet",
       "description": "A simple bracelet",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_BRACELET",
       "rarity": "RARE",
       "level_requirement": 1,
       "equipment_slots": [
@@ -6963,7 +6963,7 @@
       "id": "ring_of_destruct",
       "name": "Ring Of Destruction",
       "description": "One of Seven creation rings",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "MYTHIC",
       "level_requirement": 1,
       "equipment_slots": [
@@ -6992,7 +6992,7 @@
       "id": "ring_of_destruct_r",
       "name": "Ring Of Destruction[Replica]",
       "description": "Replica of One of Seven creation rings",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "MYTHIC",
       "level_requirement": 1,
       "equipment_slots": [
@@ -7419,7 +7419,7 @@
       "id": "expanse_conqueror_ring",
       "name": "Ring of the Expanse Conqueror",
       "description": "A ring awarded to champions of the Cradle Expanse.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "EPIC",
       "level_requirement": 30,
       "equipment_slots": [
@@ -7444,7 +7444,7 @@
       "id": "forge_master_greatsword",
       "name": "Forge Master Greatsword",
       "description": "A massive blade forged within the Prima Materia Forge.",
-      "type": "WEAPON",
+      "type": "WEAPON_GREATSWORD",
       "rarity": "EPIC",
       "level_requirement": 40,
       "equipment_slots": [
@@ -7492,7 +7492,7 @@
       "id": "rusted_plasma_pistol",
       "name": "Rusted Plasma Pistol",
       "description": "An old plasma weapon salvaged from ancient battlefields.",
-      "type": "WEAPON",
+      "type": "WEAPON_PISTOL",
       "rarity": "COMMON",
       "level_requirement": 12,
       "equipment_slots": [
@@ -7864,7 +7864,7 @@
       "id": "wpn_t001_weapon1",
       "name": "Rusted Blade",
       "description": "A common blade crafted for Lv.1 combatants. Rusted-tier quality.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "COMMON",
       "level_requirement": 1,
       "equipment_slots": [
@@ -7888,7 +7888,7 @@
       "id": "wpn_t005_weapon1",
       "name": "Reinforced Rusted Blade",
       "description": "A common blade crafted for Lv.5 combatants. Rusted-tier quality.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "COMMON",
       "level_requirement": 5,
       "equipment_slots": [
@@ -7912,7 +7912,7 @@
       "id": "wpn_t010_weapon1",
       "name": "Iron Blade",
       "description": "A common blade crafted for Lv.10 combatants. Iron-tier quality.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "COMMON",
       "level_requirement": 10,
       "equipment_slots": [
@@ -7936,7 +7936,7 @@
       "id": "wpn_t015_weapon1",
       "name": "Steel Blade",
       "description": "A common blade crafted for Lv.15 combatants. Steel-tier quality.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "COMMON",
       "level_requirement": 15,
       "equipment_slots": [
@@ -7960,7 +7960,7 @@
       "id": "wpn_t020_weapon1",
       "name": "Reinforced Blade",
       "description": "A uncommon blade crafted for Lv.20 combatants. Reinforced-tier quality.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "UNCOMMON",
       "level_requirement": 20,
       "equipment_slots": [
@@ -7984,7 +7984,7 @@
       "id": "wpn_t025_weapon1",
       "name": "Tempered Blade",
       "description": "A uncommon blade crafted for Lv.25 combatants. Tempered-tier quality.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "UNCOMMON",
       "level_requirement": 25,
       "equipment_slots": [
@@ -8008,7 +8008,7 @@
       "id": "wpn_t030_weapon1",
       "name": "Aethel-Touched Blade",
       "description": "A uncommon blade crafted for Lv.30 combatants. Aethel-Touched-tier quality.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "UNCOMMON",
       "level_requirement": 30,
       "equipment_slots": [
@@ -8032,7 +8032,7 @@
       "id": "wpn_t035_weapon1",
       "name": "Crystalline Blade",
       "description": "A rare blade crafted for Lv.35 combatants. Crystalline-tier quality.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "RARE",
       "level_requirement": 35,
       "equipment_slots": [
@@ -8056,7 +8056,7 @@
       "id": "wpn_t040_weapon1",
       "name": "Void-Forged Blade",
       "description": "A rare blade crafted for Lv.40 combatants. Void-Forged-tier quality.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "RARE",
       "level_requirement": 40,
       "equipment_slots": [
@@ -8080,7 +8080,7 @@
       "id": "wpn_t045_weapon1",
       "name": "Legion Blade",
       "description": "A rare blade crafted for Lv.45 combatants. Legion-tier quality.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "RARE",
       "level_requirement": 45,
       "equipment_slots": [
@@ -8104,7 +8104,7 @@
       "id": "wpn_t050_weapon1",
       "name": "Arcane Blade",
       "description": "A rare blade crafted for Lv.50 combatants. Arcane-tier quality.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "RARE",
       "level_requirement": 50,
       "equipment_slots": [
@@ -8128,7 +8128,7 @@
       "id": "wpn_t055_weapon1",
       "name": "Omni Blade",
       "description": "A rare blade crafted for Lv.55 combatants. Omni-tier quality.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "RARE",
       "level_requirement": 55,
       "equipment_slots": [
@@ -8152,7 +8152,7 @@
       "id": "wpn_t060_weapon1",
       "name": "Shard-Blessed Blade",
       "description": "A epic blade crafted for Lv.60 combatants. Shard-Blessed-tier quality.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "EPIC",
       "level_requirement": 60,
       "equipment_slots": [
@@ -8176,7 +8176,7 @@
       "id": "wpn_t065_weapon1",
       "name": "Starforged Blade",
       "description": "A epic blade crafted for Lv.65 combatants. Starforged-tier quality.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "EPIC",
       "level_requirement": 65,
       "equipment_slots": [
@@ -8200,7 +8200,7 @@
       "id": "wpn_t070_weapon1",
       "name": "Hegemony Blade",
       "description": "A epic blade crafted for Lv.70 combatants. Hegemony-tier quality.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "EPIC",
       "level_requirement": 70,
       "equipment_slots": [
@@ -8224,7 +8224,7 @@
       "id": "wpn_t075_weapon1",
       "name": "Abyss Blade",
       "description": "A epic blade crafted for Lv.75 combatants. Abyss-tier quality.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "EPIC",
       "level_requirement": 75,
       "equipment_slots": [
@@ -8248,7 +8248,7 @@
       "id": "wpn_t080_weapon1",
       "name": "Nova Blade",
       "description": "A epic blade crafted for Lv.80 combatants. Nova-tier quality.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "EPIC",
       "level_requirement": 80,
       "equipment_slots": [
@@ -8272,7 +8272,7 @@
       "id": "wpn_t085_weapon1",
       "name": "Phantom Blade",
       "description": "A legendary blade crafted for Lv.85 combatants. Phantom-tier quality.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "LEGENDARY",
       "level_requirement": 85,
       "equipment_slots": [
@@ -8296,7 +8296,7 @@
       "id": "wpn_t090_weapon1",
       "name": "Celestial Blade",
       "description": "A legendary blade crafted for Lv.90 combatants. Celestial-tier quality.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "LEGENDARY",
       "level_requirement": 90,
       "equipment_slots": [
@@ -8320,7 +8320,7 @@
       "id": "wpn_t095_weapon1",
       "name": "Void-Prime Blade",
       "description": "A legendary blade crafted for Lv.95 combatants. Void-Prime-tier quality.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "LEGENDARY",
       "level_requirement": 95,
       "equipment_slots": [
@@ -8344,7 +8344,7 @@
       "id": "wpn_t100_weapon1",
       "name": "Eternal Blade",
       "description": "A legendary blade crafted for Lv.100 combatants. Eternal-tier quality.",
-      "type": "WEAPON",
+      "type": "WEAPON_SWORD",
       "rarity": "LEGENDARY",
       "level_requirement": 100,
       "equipment_slots": [
@@ -11392,7 +11392,7 @@
       "id": "acc1_t001_accessory1",
       "name": "Rusted Ring",
       "description": "A common ring crafted for Lv.1 combatants. Rusted-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "COMMON",
       "level_requirement": 1,
       "equipment_slots": [
@@ -11416,7 +11416,7 @@
       "id": "acc1_t005_accessory1",
       "name": "Reinforced Rusted Ring",
       "description": "A common ring crafted for Lv.5 combatants. Rusted-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "COMMON",
       "level_requirement": 5,
       "equipment_slots": [
@@ -11440,7 +11440,7 @@
       "id": "acc1_t010_accessory1",
       "name": "Iron Ring",
       "description": "A common ring crafted for Lv.10 combatants. Iron-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "COMMON",
       "level_requirement": 10,
       "equipment_slots": [
@@ -11464,7 +11464,7 @@
       "id": "acc1_t015_accessory1",
       "name": "Steel Ring",
       "description": "A common ring crafted for Lv.15 combatants. Steel-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "COMMON",
       "level_requirement": 15,
       "equipment_slots": [
@@ -11488,7 +11488,7 @@
       "id": "acc1_t020_accessory1",
       "name": "Reinforced Ring",
       "description": "A uncommon ring crafted for Lv.20 combatants. Reinforced-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "UNCOMMON",
       "level_requirement": 20,
       "equipment_slots": [
@@ -11512,7 +11512,7 @@
       "id": "acc1_t025_accessory1",
       "name": "Tempered Ring",
       "description": "A uncommon ring crafted for Lv.25 combatants. Tempered-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "UNCOMMON",
       "level_requirement": 25,
       "equipment_slots": [
@@ -11536,7 +11536,7 @@
       "id": "acc1_t030_accessory1",
       "name": "Aethel-Touched Ring",
       "description": "A uncommon ring crafted for Lv.30 combatants. Aethel-Touched-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "UNCOMMON",
       "level_requirement": 30,
       "equipment_slots": [
@@ -11560,7 +11560,7 @@
       "id": "acc1_t035_accessory1",
       "name": "Crystalline Ring",
       "description": "A rare ring crafted for Lv.35 combatants. Crystalline-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "RARE",
       "level_requirement": 35,
       "equipment_slots": [
@@ -11584,7 +11584,7 @@
       "id": "acc1_t040_accessory1",
       "name": "Void-Forged Ring",
       "description": "A rare ring crafted for Lv.40 combatants. Void-Forged-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "RARE",
       "level_requirement": 40,
       "equipment_slots": [
@@ -11608,7 +11608,7 @@
       "id": "acc1_t045_accessory1",
       "name": "Legion Ring",
       "description": "A rare ring crafted for Lv.45 combatants. Legion-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "RARE",
       "level_requirement": 45,
       "equipment_slots": [
@@ -11632,7 +11632,7 @@
       "id": "acc1_t050_accessory1",
       "name": "Arcane Ring",
       "description": "A rare ring crafted for Lv.50 combatants. Arcane-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "RARE",
       "level_requirement": 50,
       "equipment_slots": [
@@ -11656,7 +11656,7 @@
       "id": "acc1_t055_accessory1",
       "name": "Omni Ring",
       "description": "A rare ring crafted for Lv.55 combatants. Omni-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "RARE",
       "level_requirement": 55,
       "equipment_slots": [
@@ -11680,7 +11680,7 @@
       "id": "acc1_t060_accessory1",
       "name": "Shard-Blessed Ring",
       "description": "A epic ring crafted for Lv.60 combatants. Shard-Blessed-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "EPIC",
       "level_requirement": 60,
       "equipment_slots": [
@@ -11704,7 +11704,7 @@
       "id": "acc1_t065_accessory1",
       "name": "Starforged Ring",
       "description": "A epic ring crafted for Lv.65 combatants. Starforged-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "EPIC",
       "level_requirement": 65,
       "equipment_slots": [
@@ -11728,7 +11728,7 @@
       "id": "acc1_t070_accessory1",
       "name": "Hegemony Ring",
       "description": "A epic ring crafted for Lv.70 combatants. Hegemony-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "EPIC",
       "level_requirement": 70,
       "equipment_slots": [
@@ -11752,7 +11752,7 @@
       "id": "acc1_t075_accessory1",
       "name": "Abyss Ring",
       "description": "A epic ring crafted for Lv.75 combatants. Abyss-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "EPIC",
       "level_requirement": 75,
       "equipment_slots": [
@@ -11776,7 +11776,7 @@
       "id": "acc1_t080_accessory1",
       "name": "Nova Ring",
       "description": "A epic ring crafted for Lv.80 combatants. Nova-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "EPIC",
       "level_requirement": 80,
       "equipment_slots": [
@@ -11800,7 +11800,7 @@
       "id": "acc1_t085_accessory1",
       "name": "Phantom Ring",
       "description": "A legendary ring crafted for Lv.85 combatants. Phantom-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "LEGENDARY",
       "level_requirement": 85,
       "equipment_slots": [
@@ -11824,7 +11824,7 @@
       "id": "acc1_t090_accessory1",
       "name": "Celestial Ring",
       "description": "A legendary ring crafted for Lv.90 combatants. Celestial-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "LEGENDARY",
       "level_requirement": 90,
       "equipment_slots": [
@@ -11848,7 +11848,7 @@
       "id": "acc1_t095_accessory1",
       "name": "Void-Prime Ring",
       "description": "A legendary ring crafted for Lv.95 combatants. Void-Prime-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "LEGENDARY",
       "level_requirement": 95,
       "equipment_slots": [
@@ -11872,7 +11872,7 @@
       "id": "acc1_t100_accessory1",
       "name": "Eternal Ring",
       "description": "A legendary ring crafted for Lv.100 combatants. Eternal-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "LEGENDARY",
       "level_requirement": 100,
       "equipment_slots": [
@@ -11896,7 +11896,7 @@
       "id": "acc2_t001_accessory2",
       "name": "Rusted Amulet",
       "description": "A common amulet crafted for Lv.1 combatants. Rusted-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "COMMON",
       "level_requirement": 1,
       "equipment_slots": [
@@ -11920,7 +11920,7 @@
       "id": "acc2_t005_accessory2",
       "name": "Reinforced Rusted Amulet",
       "description": "A common amulet crafted for Lv.5 combatants. Rusted-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "COMMON",
       "level_requirement": 5,
       "equipment_slots": [
@@ -11944,7 +11944,7 @@
       "id": "acc2_t010_accessory2",
       "name": "Iron Amulet",
       "description": "A common amulet crafted for Lv.10 combatants. Iron-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "COMMON",
       "level_requirement": 10,
       "equipment_slots": [
@@ -11968,7 +11968,7 @@
       "id": "acc2_t015_accessory2",
       "name": "Steel Amulet",
       "description": "A common amulet crafted for Lv.15 combatants. Steel-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "COMMON",
       "level_requirement": 15,
       "equipment_slots": [
@@ -11992,7 +11992,7 @@
       "id": "acc2_t020_accessory2",
       "name": "Reinforced Amulet",
       "description": "A uncommon amulet crafted for Lv.20 combatants. Reinforced-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "UNCOMMON",
       "level_requirement": 20,
       "equipment_slots": [
@@ -12016,7 +12016,7 @@
       "id": "acc2_t025_accessory2",
       "name": "Tempered Amulet",
       "description": "A uncommon amulet crafted for Lv.25 combatants. Tempered-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "UNCOMMON",
       "level_requirement": 25,
       "equipment_slots": [
@@ -12040,7 +12040,7 @@
       "id": "acc2_t030_accessory2",
       "name": "Aethel-Touched Amulet",
       "description": "A uncommon amulet crafted for Lv.30 combatants. Aethel-Touched-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "UNCOMMON",
       "level_requirement": 30,
       "equipment_slots": [
@@ -12064,7 +12064,7 @@
       "id": "acc2_t035_accessory2",
       "name": "Crystalline Amulet",
       "description": "A rare amulet crafted for Lv.35 combatants. Crystalline-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "RARE",
       "level_requirement": 35,
       "equipment_slots": [
@@ -12088,7 +12088,7 @@
       "id": "acc2_t040_accessory2",
       "name": "Void-Forged Amulet",
       "description": "A rare amulet crafted for Lv.40 combatants. Void-Forged-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "RARE",
       "level_requirement": 40,
       "equipment_slots": [
@@ -12112,7 +12112,7 @@
       "id": "acc2_t045_accessory2",
       "name": "Legion Amulet",
       "description": "A rare amulet crafted for Lv.45 combatants. Legion-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "RARE",
       "level_requirement": 45,
       "equipment_slots": [
@@ -12136,7 +12136,7 @@
       "id": "acc2_t050_accessory2",
       "name": "Arcane Amulet",
       "description": "A rare amulet crafted for Lv.50 combatants. Arcane-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "RARE",
       "level_requirement": 50,
       "equipment_slots": [
@@ -12160,7 +12160,7 @@
       "id": "acc2_t055_accessory2",
       "name": "Omni Amulet",
       "description": "A rare amulet crafted for Lv.55 combatants. Omni-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "RARE",
       "level_requirement": 55,
       "equipment_slots": [
@@ -12184,7 +12184,7 @@
       "id": "acc2_t060_accessory2",
       "name": "Shard-Blessed Amulet",
       "description": "A epic amulet crafted for Lv.60 combatants. Shard-Blessed-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "EPIC",
       "level_requirement": 60,
       "equipment_slots": [
@@ -12208,7 +12208,7 @@
       "id": "acc2_t065_accessory2",
       "name": "Starforged Amulet",
       "description": "A epic amulet crafted for Lv.65 combatants. Starforged-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "EPIC",
       "level_requirement": 65,
       "equipment_slots": [
@@ -12232,7 +12232,7 @@
       "id": "acc2_t070_accessory2",
       "name": "Hegemony Amulet",
       "description": "A epic amulet crafted for Lv.70 combatants. Hegemony-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "EPIC",
       "level_requirement": 70,
       "equipment_slots": [
@@ -12256,7 +12256,7 @@
       "id": "acc2_t075_accessory2",
       "name": "Abyss Amulet",
       "description": "A epic amulet crafted for Lv.75 combatants. Abyss-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "EPIC",
       "level_requirement": 75,
       "equipment_slots": [
@@ -12280,7 +12280,7 @@
       "id": "acc2_t080_accessory2",
       "name": "Nova Amulet",
       "description": "A epic amulet crafted for Lv.80 combatants. Nova-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "EPIC",
       "level_requirement": 80,
       "equipment_slots": [
@@ -12304,7 +12304,7 @@
       "id": "acc2_t085_accessory2",
       "name": "Phantom Amulet",
       "description": "A legendary amulet crafted for Lv.85 combatants. Phantom-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "LEGENDARY",
       "level_requirement": 85,
       "equipment_slots": [
@@ -12328,7 +12328,7 @@
       "id": "acc2_t090_accessory2",
       "name": "Celestial Amulet",
       "description": "A legendary amulet crafted for Lv.90 combatants. Celestial-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "LEGENDARY",
       "level_requirement": 90,
       "equipment_slots": [
@@ -12352,7 +12352,7 @@
       "id": "acc2_t095_accessory2",
       "name": "Void-Prime Amulet",
       "description": "A legendary amulet crafted for Lv.95 combatants. Void-Prime-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "LEGENDARY",
       "level_requirement": 95,
       "equipment_slots": [
@@ -12376,7 +12376,7 @@
       "id": "acc2_t100_accessory2",
       "name": "Eternal Amulet",
       "description": "A legendary amulet crafted for Lv.100 combatants. Eternal-tier quality.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_AMULET",
       "rarity": "LEGENDARY",
       "level_requirement": 100,
       "equipment_slots": [
@@ -23594,7 +23594,7 @@
       "id": "blessing_ring",
       "name": "Blessing Ring",
       "description": "A ring blessed by the Aethel Spirits. Greatly enhances experience gained.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "UNIQUE",
       "level_requirement": 5,
       "equipment_slots": [
@@ -23627,7 +23627,7 @@
       "id": "blessing_bracelet",
       "name": "Blessing Bracelet",
       "description": "A bracelet blessed by the Aethel Spirits. Enhances combat power and experience.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_BRACELET",
       "rarity": "UNIQUE",
       "level_requirement": 5,
       "equipment_slots": [
@@ -24115,7 +24115,7 @@
       "id": "mq_relic_unlisted_right_to_remain",
       "name": "Ring of the Unlisted Ward",
       "description": "A ring engraved with a doorway and no name. Recognition without possession.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "EPIC",
       "level_requirement": 10,
       "equipment_slots": [
@@ -24272,7 +24272,7 @@
       "id": "mq_relic_muster_warning_not_oath",
       "name": "Bellwright's Wrist Loop",
       "description": "A loop braided from retired bell rope. It honors maintenance, not a borrowed military oath.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_BRACELET",
       "rarity": "EPIC",
       "level_requirement": 22,
       "equipment_slots": [
@@ -24429,7 +24429,7 @@
       "id": "mq_relic_zero_port_without_lie",
       "name": "Zero Berth Signet",
       "description": "A signet bearing an empty crate. Earned by correcting a claim without condemning everyone who trades.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "EPIC",
       "level_requirement": 25,
       "equipment_slots": [
@@ -24586,7 +24586,7 @@
       "id": "mq_relic_quiet_silence_kept",
       "name": "Quiet Gallery Pendant",
       "description": "A pendant engraved with a measured pause. It honors the limits of a finding, not mastery of the Shard.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_PENDANT",
       "rarity": "EPIC",
       "level_requirement": 40,
       "equipment_slots": [
@@ -24743,7 +24743,7 @@
       "id": "mq_relic_armistice_unwritten_witness",
       "name": "Signet of the Unwritten Witness",
       "description": "Five grooves surround an unfinished witness line. The final groove remains open for a correction not yet heard.",
-      "type": "ACCESSORY",
+      "type": "ACCESSORY_RING",
       "rarity": "LEGENDARY",
       "level_requirement": 75,
       "equipment_slots": [
@@ -25183,6 +25183,666 @@
       "sell_price": 0,
       "max_stack": 1,
       "icon_image": ""
+    },
+    {
+      "id": "mem_dark_punch",
+      "name": "Skill Memory : Dark Punch",
+      "description": "Unbound memory of Dark Punch. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 20. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "UNCOMMON",
+      "level_requirement": 20,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_dark_punch",
+          "weapon_family": "Knuckle",
+          "learning_victories": 3
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 87,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_dark_punch"
+    },
+    {
+      "id": "mem_iron_jab",
+      "name": "Skill Memory : Iron Jab",
+      "description": "Unbound memory of Iron Jab. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 20. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "UNCOMMON",
+      "level_requirement": 20,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_iron_jab",
+          "weapon_family": "Knuckle",
+          "learning_victories": 3
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 74,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_iron_jab"
+    },
+    {
+      "id": "mem_crescent_slash",
+      "name": "Skill Memory : Crescent Slash",
+      "description": "Unbound memory of Crescent Slash. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 20. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "UNCOMMON",
+      "level_requirement": 20,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_crescent_slash",
+          "weapon_family": "Sword",
+          "learning_victories": 3
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 80,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_crescent_slash"
+    },
+    {
+      "id": "mem_needle_fang",
+      "name": "Skill Memory : Needle Fang",
+      "description": "Unbound memory of Needle Fang. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 20. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "UNCOMMON",
+      "level_requirement": 20,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_needle_fang",
+          "weapon_family": "Dagger",
+          "learning_victories": 3
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 80,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_needle_fang"
+    },
+    {
+      "id": "mem_piercing_thrust",
+      "name": "Skill Memory : Piercing Thrust",
+      "description": "Unbound memory of Piercing Thrust. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 20. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "UNCOMMON",
+      "level_requirement": 20,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_piercing_thrust",
+          "weapon_family": "Spear",
+          "learning_victories": 3
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 74,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_piercing_thrust"
+    },
+    {
+      "id": "mem_spark_bolt",
+      "name": "Skill Memory : Spark Bolt",
+      "description": "Unbound memory of Spark Bolt. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 20. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "UNCOMMON",
+      "level_requirement": 20,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_spark_bolt",
+          "weapon_family": "Staff",
+          "learning_victories": 3
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 75,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_spark_bolt"
+    },
+    {
+      "id": "mem_shield_pulse",
+      "name": "Skill Memory : Shield Pulse",
+      "description": "Unbound memory of Shield Pulse. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 20. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "UNCOMMON",
+      "level_requirement": 20,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_shield_pulse",
+          "weapon_family": "Shield",
+          "learning_victories": 3
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 75,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_shield_pulse"
+    },
+    {
+      "id": "mem_phantom_step",
+      "name": "Skill Memory : Phantom Step",
+      "description": "Unbound memory of Phantom Step. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 40. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "RARE",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_phantom_step",
+          "weapon_family": "Dagger",
+          "learning_victories": 5
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 294,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_phantom_step"
+    },
+    {
+      "id": "mem_ember_knuckle",
+      "name": "Skill Memory : Ember Knuckle",
+      "description": "Unbound memory of Ember Knuckle. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 40. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "RARE",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_ember_knuckle",
+          "weapon_family": "Knuckle",
+          "learning_victories": 5
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 371,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_ember_knuckle"
+    },
+    {
+      "id": "mem_frost_lance",
+      "name": "Skill Memory : Frost Lance",
+      "description": "Unbound memory of Frost Lance. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 40. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "RARE",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_frost_lance",
+          "weapon_family": "Spear",
+          "learning_victories": 5
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 301,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_frost_lance"
+    },
+    {
+      "id": "mem_thunder_arc",
+      "name": "Skill Memory : Thunder Arc",
+      "description": "Unbound memory of Thunder Arc. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 40. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "RARE",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_thunder_arc",
+          "weapon_family": "Staff",
+          "learning_victories": 5
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 371,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_thunder_arc"
+    },
+    {
+      "id": "mem_siphon_touch",
+      "name": "Skill Memory : Siphon Touch",
+      "description": "Unbound memory of Siphon Touch. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 40. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "RARE",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_siphon_touch",
+          "weapon_family": "Orb",
+          "learning_victories": 5
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 328,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_siphon_touch"
+    },
+    {
+      "id": "mem_guardian_script",
+      "name": "Skill Memory : Guardian Script",
+      "description": "Unbound memory of Guardian Script. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 40. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "RARE",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_guardian_script",
+          "weapon_family": "Grimoire",
+          "learning_victories": 5
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 264,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_guardian_script"
+    },
+    {
+      "id": "mem_venom_edge",
+      "name": "Skill Memory : Venom Edge",
+      "description": "Unbound memory of Venom Edge. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 40. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "RARE",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_venom_edge",
+          "weapon_family": "Sword",
+          "learning_victories": 5
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 274,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_venom_edge"
+    },
+    {
+      "id": "mem_gravity_break",
+      "name": "Skill Memory : Gravity Break",
+      "description": "Unbound memory of Gravity Break. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 60. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "EPIC",
+      "level_requirement": 60,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_gravity_break",
+          "weapon_family": "Knuckle",
+          "learning_victories": 8
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 3532,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_gravity_break"
+    },
+    {
+      "id": "mem_moon_sever",
+      "name": "Skill Memory : Moon Sever",
+      "description": "Unbound memory of Moon Sever. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 60. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "EPIC",
+      "level_requirement": 60,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_moon_sever",
+          "weapon_family": "Sword",
+          "learning_victories": 8
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 3982,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_moon_sever"
+    },
+    {
+      "id": "mem_chain_impale",
+      "name": "Skill Memory : Chain Impale",
+      "description": "Unbound memory of Chain Impale. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 60. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "EPIC",
+      "level_requirement": 60,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_chain_impale",
+          "weapon_family": "Polearm",
+          "learning_victories": 8
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 2272,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_chain_impale"
+    },
+    {
+      "id": "mem_echo_mend",
+      "name": "Skill Memory : Echo Mend",
+      "description": "Unbound memory of Echo Mend. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 60. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "EPIC",
+      "level_requirement": 60,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_echo_mend",
+          "weapon_family": "Staff",
+          "learning_victories": 8
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 2482,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_echo_mend"
+    },
+    {
+      "id": "mem_null_ward",
+      "name": "Skill Memory : Null Ward",
+      "description": "Unbound memory of Null Ward. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 60. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "EPIC",
+      "level_requirement": 60,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_null_ward",
+          "weapon_family": "Grimoire",
+          "learning_victories": 8
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 3532,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_null_ward"
+    },
+    {
+      "id": "mem_astral_rupture",
+      "name": "Skill Memory : Astral Rupture",
+      "description": "Unbound memory of Astral Rupture. Use on a selected learner to begin training; completing the learning quest unlocks level 1. Requires learner level 60. Unused memories can be traded.",
+      "type": "SKILL_MEMORY",
+      "rarity": "EPIC",
+      "level_requirement": 60,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_astral_rupture",
+          "weapon_family": "Orb",
+          "learning_victories": 8
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 3982,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_astral_rupture"
     }
   ]
 }

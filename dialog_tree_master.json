@@ -4,8 +4,8 @@
       "version": "2.1",
       "description": "NPC dialogue trees with integrated ambient and rumor conversations; quest dialogues remain in dialog_quests.json.",
       "quest_dialog_count": 701,
-      "npc_dialog_count": 112,
-      "total_count": 813
+      "npc_dialog_count": 113,
+      "total_count": 814
     },
     "dialogues": [
       {
@@ -5349,6 +5349,114 @@
                 "action": "exit"
               }
             ]
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_skill_artisan_ivara",
+        "npc_id": "npc_skill_artisan_ivara",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "A memory is a beginning, not mastery. What will you make your own?",
+            "options": [
+              {
+                "text": "Craft a Skill Memory.",
+                "next": "craft",
+                "action": "open_crafting"
+              },
+              {
+                "text": "How do I learn a memory?",
+                "next": "learn"
+              },
+              {
+                "text": "How many can I equip?",
+                "next": "slots"
+              },
+              {
+                "text": "Tell me about mastery training.",
+                "next": "train"
+              },
+              {
+                "text": "Check my training progress.",
+                "next": "progress"
+              },
+              {
+                "text": "Can I sell a memory?",
+                "next": "trade"
+              },
+              {
+                "text": "Leave.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "craft",
+            "text": "Bring memory chips, a stabilizer, and the essence of the technique. Stronger inscriptions need rarer materials and a larger engraving fee.",
+            "options": [
+              {
+                "text": "Back.",
+                "next": "greet"
+              }
+            ]
+          },
+          {
+            "id": "learn",
+            "text": "Choose yourself or a companion before using the memory. It is consumed to begin that learner's quest. Win real battles with the required weapon, then return to an artisan. Only completion unlocks the skill at level one.",
+            "options": [
+              {
+                "text": "Back.",
+                "next": "greet"
+              }
+            ]
+          },
+          {
+            "id": "slots",
+            "text": "Each learner has two memory slots, separate from class techniques. Certain passives may add slots. You may learn many memories and change your selection outside battle. An incompatible weapon disables its technique.",
+            "options": [
+              {
+                "text": "Back.",
+                "next": "greet"
+              }
+            ]
+          },
+          {
+            "id": "train",
+            "text": "Mastery grows from level one to ten. Each new level needs its own training quest: meaningful uses, worthy victories, and an artisan's review. Your current mastery remains usable while training.",
+            "options": [
+              {
+                "text": "Back.",
+                "next": "greet"
+              }
+            ]
+          },
+          {
+            "id": "progress",
+            "text": "Learning and training records belong to the chosen learner. Paused lessons can resume; they do not return the consumed memory. Your quest journal will track the objectives once lessons are available.",
+            "options": [
+              {
+                "text": "Back.",
+                "next": "greet"
+              }
+            ]
+          },
+          {
+            "id": "trade",
+            "text": "An unused inscription is unbound and may be sold on the market. Once used, the lesson and all mastery belong to that learner. They cannot be transferred or sold.",
+            "options": [
+              {
+                "text": "Back.",
+                "next": "greet"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "Keep your hands steady and your memories sharper.",
+            "options": []
           }
         ]
       }

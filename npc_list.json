@@ -3733,5 +3733,23 @@
       "CLASS_TRAINING",
       "QUEST"
     ]
+  },
+  {
+    "npc_id": "npc_skill_artisan_ivara",
+    "name": "Ivara",
+    "title": "Skill Artisan",
+    "role": "CRAFTER",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_skill_artisan_ivara",
+    "location": "Central Spire Bazaar",
+    "region_id": "CENTRAL_SPIRE_BAZAAR",
+    "description": "A memory engraver who turns combat echoes into transferable skill memories.",
+    "actions": [
+      "open_crafting"
+    ],
+    "available_services": [
+      "CRAFT"
+    ],
+    "greeting": "A memory is a beginning, not mastery. What will you make your own?"
   }
 ]

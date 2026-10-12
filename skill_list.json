@@ -31646,5 +31646,747 @@
     "aoe_radius": 3.5,
     "projectile_speed": 0,
     "cooldown_seconds": 22
+  },
+  {
+    "id": "sk_mem_dark_punch",
+    "name": "Dark Punch",
+    "type": "Active",
+    "source_type": "Skill_Memory",
+    "mp_cost": 18,
+    "damage_formula": "atk * 1.25",
+    "effect": "Deals atk * 1.25 damage. Reduces enemy ATK by 15% for 2 turns.",
+    "stat_modifiers": [
+      {
+        "stat": "atk",
+        "value": -15,
+        "type": "percent",
+        "duration_turns": 2,
+        "target": "enemy",
+        "condition": ""
+      }
+    ],
+    "periodic_effects": [],
+    "control_effects": [],
+    "special_effects": [],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "min_level": 20,
+      "allowed_weapons": [
+        "Knuckle"
+      ],
+      "allowed_races": []
+    },
+    "target_attack": "enemy",
+    "target_effect": "enemy",
+    "skill_description": "Deals atk * 1.25 damage. Reduces enemy ATK by 15% for 2 turns. Requires Knuckle. Equip as a learned Skill Memory.",
+    "skill_shape": "single_projectile",
+    "range": 1.5,
+    "aoe_radius": 0.0,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 3.0,
+    "skill_memory_profile_id": "sk_mem_dark_punch",
+    "skill_memory_tier": 1
+  },
+  {
+    "id": "sk_mem_iron_jab",
+    "name": "Iron Jab",
+    "type": "Active",
+    "source_type": "Skill_Memory",
+    "mp_cost": 8,
+    "damage_formula": "atk * 1.15",
+    "effect": "Deals atk * 1.15 damage.",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
+    "special_effects": [],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "min_level": 20,
+      "allowed_weapons": [
+        "Knuckle"
+      ],
+      "allowed_races": []
+    },
+    "target_attack": "enemy",
+    "target_effect": "enemy",
+    "skill_description": "Deals atk * 1.15 damage. Requires Knuckle. Equip as a learned Skill Memory.",
+    "skill_shape": "single_projectile",
+    "range": 1.5,
+    "aoe_radius": 0.0,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 3.0,
+    "skill_memory_profile_id": "sk_mem_iron_jab",
+    "skill_memory_tier": 1
+  },
+  {
+    "id": "sk_mem_crescent_slash",
+    "name": "Crescent Slash",
+    "type": "Active",
+    "source_type": "Skill_Memory",
+    "mp_cost": 18,
+    "damage_formula": "atk * 1.2",
+    "effect": "Deals atk * 1.2 damage. Inflicts bleed for 3 turns (20% ATK per turn).",
+    "stat_modifiers": [],
+    "periodic_effects": [
+      {
+        "type": "percent_atk",
+        "effect": "bleed",
+        "value": 20,
+        "scale": 0,
+        "duration_turns": 3,
+        "target": "enemy",
+        "interval_turns": 1
+      }
+    ],
+    "control_effects": [],
+    "special_effects": [],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "min_level": 20,
+      "allowed_weapons": [
+        "Sword"
+      ],
+      "allowed_races": []
+    },
+    "target_attack": "enemy",
+    "target_effect": "enemy",
+    "skill_description": "Deals atk * 1.2 damage. Inflicts bleed for 3 turns (20% ATK per turn). Requires Sword. Equip as a learned Skill Memory.",
+    "skill_shape": "single_projectile",
+    "range": 1.5,
+    "aoe_radius": 0.0,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 3.0,
+    "skill_memory_profile_id": "sk_mem_crescent_slash",
+    "skill_memory_tier": 1
+  },
+  {
+    "id": "sk_mem_needle_fang",
+    "name": "Needle Fang",
+    "type": "Active",
+    "source_type": "Skill_Memory",
+    "mp_cost": 18,
+    "damage_formula": "atk * 1.3",
+    "effect": "Deals atk * 1.3 damage. Ignores 20% DEF.",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
+    "special_effects": [
+      {
+        "type": "defense_penetration_percent",
+        "value": 20,
+        "duration_turns": 0
+      }
+    ],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "min_level": 20,
+      "allowed_weapons": [
+        "Dagger"
+      ],
+      "allowed_races": []
+    },
+    "target_attack": "enemy",
+    "target_effect": "enemy",
+    "skill_description": "Deals atk * 1.3 damage. Ignores 20% DEF. Requires Dagger. Equip as a learned Skill Memory.",
+    "skill_shape": "single_projectile",
+    "range": 1.5,
+    "aoe_radius": 0.0,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 3.0,
+    "skill_memory_profile_id": "sk_mem_needle_fang",
+    "skill_memory_tier": 1
+  },
+  {
+    "id": "sk_mem_piercing_thrust",
+    "name": "Piercing Thrust",
+    "type": "Active",
+    "source_type": "Skill_Memory",
+    "mp_cost": 18,
+    "damage_formula": "atk * 1.2",
+    "effect": "Deals atk * 1.2 damage. Ignores 20% DEF.",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
+    "special_effects": [
+      {
+        "type": "defense_penetration_percent",
+        "value": 20,
+        "duration_turns": 0
+      }
+    ],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "min_level": 20,
+      "allowed_weapons": [
+        "Spear"
+      ],
+      "allowed_races": []
+    },
+    "target_attack": "enemy",
+    "target_effect": "enemy",
+    "skill_description": "Deals atk * 1.2 damage. Ignores 20% DEF. Requires Spear. Equip as a learned Skill Memory.",
+    "skill_shape": "single_projectile",
+    "range": 1.5,
+    "aoe_radius": 0.0,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 3.0,
+    "skill_memory_profile_id": "sk_mem_piercing_thrust",
+    "skill_memory_tier": 1
+  },
+  {
+    "id": "sk_mem_spark_bolt",
+    "name": "Spark Bolt",
+    "type": "Active",
+    "source_type": "Skill_Memory",
+    "mp_cost": 18,
+    "damage_formula": "per * 1.35",
+    "effect": "Deals per * 1.35 damage.",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
+    "special_effects": [],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "min_level": 20,
+      "allowed_weapons": [
+        "Staff"
+      ],
+      "allowed_races": []
+    },
+    "target_attack": "enemy",
+    "target_effect": "enemy",
+    "skill_description": "Deals per * 1.35 damage. Requires Staff. Equip as a learned Skill Memory.",
+    "skill_shape": "single_projectile",
+    "range": 4.0,
+    "aoe_radius": 0.0,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 3.0,
+    "skill_memory_profile_id": "sk_mem_spark_bolt",
+    "skill_memory_tier": 1
+  },
+  {
+    "id": "sk_mem_shield_pulse",
+    "name": "Shield Pulse",
+    "type": "Active",
+    "source_type": "Skill_Memory",
+    "mp_cost": 18,
+    "damage_formula": "0",
+    "effect": "Grants the caster a shield equal to 12% maximum HP.",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
+    "special_effects": [
+      {
+        "type": "shield_percent",
+        "value": 12,
+        "duration_turns": 0
+      }
+    ],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "min_level": 20,
+      "allowed_weapons": [
+        "Shield"
+      ],
+      "allowed_races": []
+    },
+    "target_attack": "none",
+    "target_effect": "self",
+    "skill_description": "Grants the caster a shield equal to 12% maximum HP. Requires Shield. Equip as a learned Skill Memory.",
+    "skill_shape": "single_projectile",
+    "range": 1.5,
+    "aoe_radius": 0.0,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 3.0,
+    "skill_memory_profile_id": "sk_mem_shield_pulse",
+    "skill_memory_tier": 1
+  },
+  {
+    "id": "sk_mem_phantom_step",
+    "name": "Phantom Step",
+    "type": "Active",
+    "source_type": "Skill_Memory",
+    "mp_cost": 32,
+    "damage_formula": "0",
+    "effect": "Grants the caster 15% evasion for 2 turns.",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
+    "special_effects": [
+      {
+        "type": "evasion_chance",
+        "value": 15,
+        "duration_turns": 2
+      }
+    ],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "min_level": 40,
+      "allowed_weapons": [
+        "Dagger"
+      ],
+      "allowed_races": []
+    },
+    "target_attack": "none",
+    "target_effect": "self",
+    "skill_description": "Grants the caster 15% evasion for 2 turns. Requires Dagger. Equip as a learned Skill Memory.",
+    "skill_shape": "single_projectile",
+    "range": 1.5,
+    "aoe_radius": 0.0,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 5.0,
+    "skill_memory_profile_id": "sk_mem_phantom_step",
+    "skill_memory_tier": 2
+  },
+  {
+    "id": "sk_mem_ember_knuckle",
+    "name": "Ember Knuckle",
+    "type": "Active",
+    "source_type": "Skill_Memory",
+    "mp_cost": 32,
+    "damage_formula": "atk * 1.4",
+    "effect": "Deals atk * 1.4 damage. Inflicts burn for 3 turns (20% ATK per turn).",
+    "stat_modifiers": [],
+    "periodic_effects": [
+      {
+        "type": "percent_atk",
+        "effect": "burn",
+        "value": 20,
+        "scale": 0,
+        "duration_turns": 3,
+        "target": "enemy",
+        "interval_turns": 1
+      }
+    ],
+    "control_effects": [],
+    "special_effects": [],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "min_level": 40,
+      "allowed_weapons": [
+        "Knuckle"
+      ],
+      "allowed_races": []
+    },
+    "target_attack": "enemy",
+    "target_effect": "enemy",
+    "skill_description": "Deals atk * 1.4 damage. Inflicts burn for 3 turns (20% ATK per turn). Requires Knuckle. Equip as a learned Skill Memory.",
+    "skill_shape": "single_projectile",
+    "range": 1.5,
+    "aoe_radius": 0.0,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 5.0,
+    "skill_memory_profile_id": "sk_mem_ember_knuckle",
+    "skill_memory_tier": 2
+  },
+  {
+    "id": "sk_mem_frost_lance",
+    "name": "Frost Lance",
+    "type": "Active",
+    "source_type": "Skill_Memory",
+    "mp_cost": 32,
+    "damage_formula": "atk * 1.5",
+    "effect": "Deals atk * 1.5 damage. Reduces enemy AGI by 15% for 2 turns.",
+    "stat_modifiers": [
+      {
+        "stat": "agi",
+        "value": -15,
+        "type": "percent",
+        "duration_turns": 2,
+        "target": "enemy",
+        "condition": ""
+      }
+    ],
+    "periodic_effects": [],
+    "control_effects": [],
+    "special_effects": [],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "min_level": 40,
+      "allowed_weapons": [
+        "Spear"
+      ],
+      "allowed_races": []
+    },
+    "target_attack": "enemy",
+    "target_effect": "enemy",
+    "skill_description": "Deals atk * 1.5 damage. Reduces enemy AGI by 15% for 2 turns. Requires Spear. Equip as a learned Skill Memory.",
+    "skill_shape": "single_projectile",
+    "range": 1.5,
+    "aoe_radius": 0.0,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 5.0,
+    "skill_memory_profile_id": "sk_mem_frost_lance",
+    "skill_memory_tier": 2
+  },
+  {
+    "id": "sk_mem_thunder_arc",
+    "name": "Thunder Arc",
+    "type": "Active",
+    "source_type": "Skill_Memory",
+    "mp_cost": 32,
+    "damage_formula": "per * 1.15",
+    "effect": "Deals per * 1.15 damage. Hits all enemies.",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
+    "special_effects": [],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "min_level": 40,
+      "allowed_weapons": [
+        "Staff"
+      ],
+      "allowed_races": []
+    },
+    "target_attack": "all_enemy",
+    "target_effect": "all_enemy",
+    "skill_description": "Deals per * 1.15 damage. Hits all enemies. Requires Staff. Equip as a learned Skill Memory.",
+    "skill_shape": "circle_aoe",
+    "range": 4.0,
+    "aoe_radius": 2.5,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 5.0,
+    "skill_memory_profile_id": "sk_mem_thunder_arc",
+    "skill_memory_tier": 2
+  },
+  {
+    "id": "sk_mem_siphon_touch",
+    "name": "Siphon Touch",
+    "type": "Active",
+    "source_type": "Skill_Memory",
+    "mp_cost": 32,
+    "damage_formula": "per * 1.45",
+    "effect": "Deals per * 1.45 damage. Restores HP equal to 20% of damage dealt.",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
+    "special_effects": [
+      {
+        "type": "lifesteal_percent",
+        "value": 20,
+        "duration_turns": 0
+      }
+    ],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "min_level": 40,
+      "allowed_weapons": [
+        "Orb"
+      ],
+      "allowed_races": []
+    },
+    "target_attack": "enemy",
+    "target_effect": "enemy",
+    "skill_description": "Deals per * 1.45 damage. Restores HP equal to 20% of damage dealt. Requires Orb. Equip as a learned Skill Memory.",
+    "skill_shape": "single_projectile",
+    "range": 4.0,
+    "aoe_radius": 0.0,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 5.0,
+    "skill_memory_profile_id": "sk_mem_siphon_touch",
+    "skill_memory_tier": 2
+  },
+  {
+    "id": "sk_mem_guardian_script",
+    "name": "Guardian Script",
+    "type": "Active",
+    "source_type": "Skill_Memory",
+    "mp_cost": 32,
+    "damage_formula": "0",
+    "effect": "Grants one ally a shield equal to 200% caster PER.",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
+    "special_effects": [
+      {
+        "type": "grant_shield_scale_perception",
+        "value": 2,
+        "duration_turns": 0
+      }
+    ],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "min_level": 40,
+      "allowed_weapons": [
+        "Grimoire"
+      ],
+      "allowed_races": []
+    },
+    "target_attack": "none",
+    "target_effect": "ally",
+    "skill_description": "Grants one ally a shield equal to 200% caster PER. Requires Grimoire. Equip as a learned Skill Memory.",
+    "skill_shape": "single_projectile",
+    "range": 4.0,
+    "aoe_radius": 0.0,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 5.0,
+    "skill_memory_profile_id": "sk_mem_guardian_script",
+    "skill_memory_tier": 2
+  },
+  {
+    "id": "sk_mem_venom_edge",
+    "name": "Venom Edge",
+    "type": "Active",
+    "source_type": "Skill_Memory",
+    "mp_cost": 32,
+    "damage_formula": "atk * 1.35",
+    "effect": "Deals atk * 1.35 damage. Inflicts poison for 3 turns (20% ATK per turn).",
+    "stat_modifiers": [],
+    "periodic_effects": [
+      {
+        "type": "percent_atk",
+        "effect": "poison",
+        "value": 20,
+        "scale": 0,
+        "duration_turns": 3,
+        "target": "enemy",
+        "interval_turns": 1
+      }
+    ],
+    "control_effects": [],
+    "special_effects": [],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "min_level": 40,
+      "allowed_weapons": [
+        "Sword"
+      ],
+      "allowed_races": []
+    },
+    "target_attack": "enemy",
+    "target_effect": "enemy",
+    "skill_description": "Deals atk * 1.35 damage. Inflicts poison for 3 turns (20% ATK per turn). Requires Sword. Equip as a learned Skill Memory.",
+    "skill_shape": "single_projectile",
+    "range": 1.5,
+    "aoe_radius": 0.0,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 5.0,
+    "skill_memory_profile_id": "sk_mem_venom_edge",
+    "skill_memory_tier": 2
+  },
+  {
+    "id": "sk_mem_gravity_break",
+    "name": "Gravity Break",
+    "type": "Active",
+    "source_type": "Skill_Memory",
+    "mp_cost": 50,
+    "damage_formula": "atk * 1.9",
+    "effect": "Deals atk * 1.9 damage. Reduces enemy AGI by 15% for 2 turns.",
+    "stat_modifiers": [
+      {
+        "stat": "agi",
+        "value": -15,
+        "type": "percent",
+        "duration_turns": 2,
+        "target": "enemy",
+        "condition": ""
+      }
+    ],
+    "periodic_effects": [],
+    "control_effects": [],
+    "special_effects": [],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "min_level": 60,
+      "allowed_weapons": [
+        "Knuckle"
+      ],
+      "allowed_races": []
+    },
+    "target_attack": "enemy",
+    "target_effect": "enemy",
+    "skill_description": "Deals atk * 1.9 damage. Reduces enemy AGI by 15% for 2 turns. Requires Knuckle. Equip as a learned Skill Memory.",
+    "skill_shape": "single_projectile",
+    "range": 1.5,
+    "aoe_radius": 0.0,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 7.0,
+    "skill_memory_profile_id": "sk_mem_gravity_break",
+    "skill_memory_tier": 3
+  },
+  {
+    "id": "sk_mem_moon_sever",
+    "name": "Moon Sever",
+    "type": "Active",
+    "source_type": "Skill_Memory",
+    "mp_cost": 50,
+    "damage_formula": "atk * 2.2",
+    "effect": "Deals atk * 2.2 damage.",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
+    "special_effects": [],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "min_level": 60,
+      "allowed_weapons": [
+        "Sword"
+      ],
+      "allowed_races": []
+    },
+    "target_attack": "enemy",
+    "target_effect": "enemy",
+    "skill_description": "Deals atk * 2.2 damage. Requires Sword. Equip as a learned Skill Memory.",
+    "skill_shape": "single_projectile",
+    "range": 1.5,
+    "aoe_radius": 0.0,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 7.0,
+    "skill_memory_profile_id": "sk_mem_moon_sever",
+    "skill_memory_tier": 3
+  },
+  {
+    "id": "sk_mem_chain_impale",
+    "name": "Chain Impale",
+    "type": "Active",
+    "source_type": "Skill_Memory",
+    "mp_cost": 50,
+    "damage_formula": "atk * 0.7",
+    "effect": "Three strikes, each dealing 70% ATK damage.",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
+    "special_effects": [
+      {
+        "type": "multi_hit",
+        "value": 3,
+        "duration_turns": 0,
+        "hits": 3
+      }
+    ],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "min_level": 60,
+      "allowed_weapons": [
+        "Polearm"
+      ],
+      "allowed_races": []
+    },
+    "target_attack": "enemy",
+    "target_effect": "enemy",
+    "skill_description": "Three strikes, each dealing 70% ATK damage. Requires Polearm. Equip as a learned Skill Memory.",
+    "skill_shape": "single_projectile",
+    "range": 1.5,
+    "aoe_radius": 0.0,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 7.0,
+    "skill_memory_profile_id": "sk_mem_chain_impale",
+    "skill_memory_tier": 3
+  },
+  {
+    "id": "sk_mem_echo_mend",
+    "name": "Echo Mend",
+    "type": "Active",
+    "source_type": "Skill_Memory",
+    "mp_cost": 50,
+    "damage_formula": "0",
+    "effect": "Restores 200% caster PER HP and regenerates 3% target maximum HP for 3 turns.",
+    "stat_modifiers": [],
+    "periodic_effects": [
+      {
+        "type": "heal_over_time",
+        "value": 3,
+        "scale": 0,
+        "condition": "max_hp_percent",
+        "duration_turns": 3,
+        "target": "ally",
+        "interval_turns": 1
+      }
+    ],
+    "control_effects": [],
+    "special_effects": [
+      {
+        "type": "direct_heal_scaling_perception",
+        "value": 2,
+        "duration_turns": 0
+      }
+    ],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "min_level": 60,
+      "allowed_weapons": [
+        "Staff"
+      ],
+      "allowed_races": []
+    },
+    "target_attack": "none",
+    "target_effect": "ally",
+    "skill_description": "Restores 200% caster PER HP and regenerates 3% target maximum HP for 3 turns. Requires Staff. Equip as a learned Skill Memory.",
+    "skill_shape": "single_projectile",
+    "range": 4.0,
+    "aoe_radius": 0.0,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 7.0,
+    "skill_memory_profile_id": "sk_mem_echo_mend",
+    "skill_memory_tier": 3
+  },
+  {
+    "id": "sk_mem_null_ward",
+    "name": "Null Ward",
+    "type": "Active",
+    "source_type": "Skill_Memory",
+    "mp_cost": 50,
+    "damage_formula": "0",
+    "effect": "The caster resists new debuffs for 2 turns; does not cleanse existing debuffs.",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
+    "special_effects": [
+      {
+        "type": "debuff_immunity",
+        "value": 1,
+        "duration_turns": 2
+      }
+    ],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "min_level": 60,
+      "allowed_weapons": [
+        "Grimoire"
+      ],
+      "allowed_races": []
+    },
+    "target_attack": "none",
+    "target_effect": "self",
+    "skill_description": "The caster resists new debuffs for 2 turns; does not cleanse existing debuffs. Requires Grimoire. Equip as a learned Skill Memory.",
+    "skill_shape": "single_projectile",
+    "range": 4.0,
+    "aoe_radius": 0.0,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 7.0,
+    "skill_memory_profile_id": "sk_mem_null_ward",
+    "skill_memory_tier": 3
+  },
+  {
+    "id": "sk_mem_astral_rupture",
+    "name": "Astral Rupture",
+    "type": "Active",
+    "source_type": "Skill_Memory",
+    "mp_cost": 50,
+    "damage_formula": "per * 1.6",
+    "effect": "Deals per * 1.6 damage. Hits all enemies.",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
+    "special_effects": [],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "min_level": 60,
+      "allowed_weapons": [
+        "Orb"
+      ],
+      "allowed_races": []
+    },
+    "target_attack": "all_enemy",
+    "target_effect": "all_enemy",
+    "skill_description": "Deals per * 1.6 damage. Hits all enemies. Requires Orb. Equip as a learned Skill Memory.",
+    "skill_shape": "circle_aoe",
+    "range": 4.0,
+    "aoe_radius": 2.5,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 7.0,
+    "skill_memory_profile_id": "sk_mem_astral_rupture",
+    "skill_memory_tier": 3
   }
 ]

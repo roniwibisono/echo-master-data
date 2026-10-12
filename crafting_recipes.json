@@ -6392,6 +6392,586 @@
         "item_id": "con_field_recovery_pack",
         "quantity": 1
       }
+    },
+    {
+      "recipe_id": "rcp_mem_dark_punch",
+      "recipe_name": "Inscribe Dark Punch",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 20,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_dark_punch",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 2
+        },
+        {
+          "item_id": "void_parasite_egg",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_iron_jab",
+      "recipe_name": "Inscribe Iron Jab",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 20,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_iron_jab",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_metal",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_crescent_slash",
+      "recipe_name": "Inscribe Crescent Slash",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 20,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_crescent_slash",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 2
+        },
+        {
+          "item_id": "scorpion_stinger",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_needle_fang",
+      "recipe_name": "Inscribe Needle Fang",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 20,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_needle_fang",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 2
+        },
+        {
+          "item_id": "scorpion_stinger",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_piercing_thrust",
+      "recipe_name": "Inscribe Piercing Thrust",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 20,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_piercing_thrust",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_metal",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_spark_bolt",
+      "recipe_name": "Inscribe Spark Bolt",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 20,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_spark_bolt",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_shield_pulse",
+      "recipe_name": "Inscribe Shield Pulse",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 20,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 150,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_shield_pulse",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 2
+        },
+        {
+          "item_id": "scrap_circuit",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_phantom_step",
+      "recipe_name": "Inscribe Phantom Step",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 40,
+      "crafting_time_seconds": 30,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_phantom_step",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 4
+        },
+        {
+          "item_id": "raw_aethel_fragment",
+          "quantity": 3
+        },
+        {
+          "item_id": "void_channeler_core",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_ember_knuckle",
+      "recipe_name": "Inscribe Ember Knuckle",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 40,
+      "crafting_time_seconds": 30,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_ember_knuckle",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 4
+        },
+        {
+          "item_id": "raw_aethel_fragment",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_storm_core",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_frost_lance",
+      "recipe_name": "Inscribe Frost Lance",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 40,
+      "crafting_time_seconds": 30,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_frost_lance",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 4
+        },
+        {
+          "item_id": "raw_aethel_fragment",
+          "quantity": 7
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_thunder_arc",
+      "recipe_name": "Inscribe Thunder Arc",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 40,
+      "crafting_time_seconds": 30,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_thunder_arc",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 4
+        },
+        {
+          "item_id": "raw_aethel_fragment",
+          "quantity": 3
+        },
+        {
+          "item_id": "mat_storm_core",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_siphon_touch",
+      "recipe_name": "Inscribe Siphon Touch",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 40,
+      "crafting_time_seconds": 30,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_siphon_touch",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 4
+        },
+        {
+          "item_id": "raw_aethel_fragment",
+          "quantity": 3
+        },
+        {
+          "item_id": "abyssal_reaver_claw",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_guardian_script",
+      "recipe_name": "Inscribe Guardian Script",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 40,
+      "crafting_time_seconds": 30,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_guardian_script",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 4
+        },
+        {
+          "item_id": "raw_aethel_fragment",
+          "quantity": 3
+        },
+        {
+          "item_id": "mutated_neural_core",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_venom_edge",
+      "recipe_name": "Inscribe Venom Edge",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 40,
+      "crafting_time_seconds": 30,
+      "crafting_cost": 600,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_venom_edge",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 4
+        },
+        {
+          "item_id": "raw_aethel_fragment",
+          "quantity": 3
+        },
+        {
+          "item_id": "toxic_spore_gland",
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_gravity_break",
+      "recipe_name": "Inscribe Gravity Break",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 60,
+      "crafting_time_seconds": 60,
+      "crafting_cost": 1800,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_gravity_break",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 6
+        },
+        {
+          "item_id": "void_core",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_moon_sever",
+      "recipe_name": "Inscribe Moon Sever",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 60,
+      "crafting_time_seconds": 60,
+      "crafting_cost": 1800,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_moon_sever",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 6
+        },
+        {
+          "item_id": "void_core",
+          "quantity": 4
+        },
+        {
+          "item_id": "drake_heart",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_chain_impale",
+      "recipe_name": "Inscribe Chain Impale",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 60,
+      "crafting_time_seconds": 60,
+      "crafting_cost": 1800,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_chain_impale",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 6
+        },
+        {
+          "item_id": "void_core",
+          "quantity": 4
+        },
+        {
+          "item_id": "leviathan_scale",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_echo_mend",
+      "recipe_name": "Inscribe Echo Mend",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 60,
+      "crafting_time_seconds": 60,
+      "crafting_cost": 1800,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_echo_mend",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 6
+        },
+        {
+          "item_id": "void_core",
+          "quantity": 4
+        },
+        {
+          "item_id": "ancient_scale",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_null_ward",
+      "recipe_name": "Inscribe Null Ward",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 60,
+      "crafting_time_seconds": 60,
+      "crafting_cost": 1800,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_null_ward",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 6
+        },
+        {
+          "item_id": "void_core",
+          "quantity": 10
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_astral_rupture",
+      "recipe_name": "Inscribe Astral Rupture",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 60,
+      "crafting_time_seconds": 60,
+      "crafting_cost": 1800,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_astral_rupture",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "memory_fragment_chip",
+          "quantity": 6
+        },
+        {
+          "item_id": "void_core",
+          "quantity": 4
+        },
+        {
+          "item_id": "drake_heart",
+          "quantity": 6
+        }
+      ]
     }
   ]
 }
