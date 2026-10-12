@@ -1,0 +1,42 @@
+{
+  "input_entries": 1004,
+  "unique_ids": 881,
+  "duplicate_copies": 123,
+  "duplicate_ids": 123,
+  "conflicting_copies": 122,
+  "identical_copies": 1,
+  "precedence": "first occurrence, matching SkillRepository",
+  "class_count": 88,
+  "class_skill_ids": 315,
+  "missing_class_skills": [],
+  "types": {
+    "Passive": 315,
+    "Active": 518,
+    "Ultimate": 48
+  },
+  "empty_formulas": 88,
+  "legacy_class_aliases": [
+    {
+      "skill_id": "sk_beastmaster_pas",
+      "legacy_class": "mst_beastmaster",
+      "client_alias": "mst_beastExpert"
+    },
+    {
+      "skill_id": "sk_beastmaster_act_1",
+      "legacy_class": "mst_beastmaster",
+      "client_alias": "mst_beastExpert"
+    },
+    {
+      "skill_id": "sk_beastmaster_act_2",
+      "legacy_class": "mst_beastmaster",
+      "client_alias": "mst_beastExpert"
+    }
+  ],
+  "errors": [],
+  "source_sha256_before": "627f97fc7ea3542905f5e507346b5f9fcf56a797adfdffbabf48f3a1b9d64143",
+  "canonical_definitions_unchanged": true,
+  "source_sha256_after": "a2edb0b07eb576026a276ee44f07da0fe0d85cbd04a0a3e07d7e0200d07bd553",
+  "deduplicated": true,
+  "archive": "/Users/rnddev/Documents/echo-master-data/narrative/skill_audit_20261008/removed_duplicates.json",
+  "seed": "/Users/rnddev/Documents/echo-master-data/supabase/seed/skills_audited_20261008.sql"
+}

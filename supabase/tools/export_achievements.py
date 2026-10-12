@@ -6,7 +6,7 @@
 import json, os, sys, urllib.request
 
 COLS = ['id','name','description','category','metric','operator','threshold','tier',
-        'reward_title','reward_rubies','hidden','sort_order']
+        'reward_title','reward_rubies','hidden','sort_order', 'content_revision', 'emergency_blocked', 'is_active']
 
 def main():
     try:

@@ -10,7 +10,7 @@ ORDER = ['id','name','type','source_type','mp_cost','damage_formula','effect',
          'stat_modifiers','periodic_effects','control_effects','special_effects',
          'usage_requirements','target_attack','target_effect','skill_description',
          'skill_shape','range','aoe_radius','projectile_speed','cooldown_seconds',
-         'arc_angle_degrees']
+         'arc_angle_degrees', 'content_revision', 'emergency_blocked', 'is_active']
 OPTIONAL = {'special_effects','usage_requirements','target_attack','target_effect','arc_angle_degrees'}
 FLOATS = {'range','aoe_radius','projectile_speed','cooldown_seconds','arc_angle_degrees'}
 

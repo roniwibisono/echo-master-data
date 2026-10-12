@@ -19,7 +19,7 @@ import json, os, sys, urllib.request
 # quest field order for clean, stable output (matches the original files)
 FIELD_ORDER = ['id', 'title', 'type', 'rank', 'faction', 'region', 'description',
                'quest_giver', 'requirements', 'objectives', 'rewards',
-               'repeatable', 'daily', 'quest_chain_next']
+               'repeatable', 'daily', 'auto_accept', 'quest_chain_next', 'content_revision', 'emergency_blocked', 'is_active']
 POPUP_FIELDS = ['popup', 'popup_trigger', 'popup_level', 'popup_prerequisite']
 
 def fetch_all():

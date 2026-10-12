@@ -6,7 +6,7 @@
 import json, os, sys, urllib.request
 
 COLS = ['key','category','value','default_value','value_type','min_value','max_value',
-        'hot_reloadable','requires_client_version','enabled','description','sort_order']
+        'hot_reloadable','requires_client_version','enabled','description','sort_order', 'content_revision', 'emergency_blocked']
 
 def main():
     try:

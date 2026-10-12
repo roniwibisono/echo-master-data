@@ -291,60 +291,6 @@
       "icon_image": "icons/items/weapons/acc_hunters_amulet.png"
     },
     {
-      "id": "cns_health_potion_small",
-      "name": "Minor Health Potion",
-      "description": "Restores a small amount of HP (50 HP). Tastes like strawberries and copper.",
-      "type": "CONSUMABLE",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [
-        {
-          "effect_id": "heal_hp_flat",
-          "value": 50
-        }
-      ],
-      "buy_price": 20,
-      "sell_price": 5,
-      "max_stack": 99,
-      "icon_image": "icons/items/consumables/potion_hp_small.png"
-    },
-    {
-      "id": "cns_mana_potion_small",
-      "name": "Minor Mana Potion",
-      "description": "Restores a small amount of MP (30 MP). Tastes like ozone.",
-      "type": "CONSUMABLE",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [
-        {
-          "effect_id": "heal_mp_flat",
-          "value": 30
-        }
-      ],
-      "buy_price": 25,
-      "sell_price": 6,
-      "max_stack": 99,
-      "icon_image": "icons/items/consumables/potion_mp_small.png"
-    },
-    {
       "id": "mat_iron_ore",
       "name": "Iron Ore",
       "description": "Raw, unrefined iron. Can be smelted into ingots at a forge.",
@@ -494,7 +440,7 @@
     {
       "id": "con_nutrient_ration",
       "name": "Nutrient Ration",
-      "description": "Standard exploration ration that restores a small amount of stamina.",
+      "description": "A standard field ration. Restores 20 HP; does not restore exploration energy.",
       "type": "CONSUMABLE",
       "rarity": "COMMON",
       "level_requirement": 1,
@@ -543,7 +489,7 @@
     {
       "id": "con_medium_hp_cell",
       "name": "Medium HP Cell",
-      "description": "A stronger energy cell capable of restoring significant health.",
+      "description": "A medical energy cell that restores 200 HP.",
       "type": "CONSUMABLE",
       "rarity": "UNCOMMON",
       "level_requirement": 8,
@@ -558,8 +504,8 @@
       },
       "special_effects": [
         {
-          "effect": "restore_hp",
-          "value": 120
+          "effect_id": "restore_hp",
+          "value": 200
         }
       ],
       "buy_price": 60,
@@ -570,7 +516,7 @@
     {
       "id": "con_medium_mp_cell",
       "name": "Medium MP Cell",
-      "description": "A stronger energy cell capable of restoring significant mana.",
+      "description": "A medical energy cell that restores 120 MP.",
       "type": "CONSUMABLE",
       "rarity": "UNCOMMON",
       "level_requirement": 8,
@@ -585,8 +531,8 @@
       },
       "special_effects": [
         {
-          "effect": "restore_mp",
-          "value": 90
+          "effect_id": "restore_mp",
+          "value": 120
         }
       ],
       "buy_price": 65,
@@ -678,7 +624,7 @@
     {
       "id": "con_large_hp_cell",
       "name": "Large HP Cell",
-      "description": "Industrial energy module restoring a large amount of health.",
+      "description": "A medical energy cell that restores 500 HP.",
       "type": "CONSUMABLE",
       "rarity": "RARE",
       "level_requirement": 18,
@@ -693,8 +639,8 @@
       },
       "special_effects": [
         {
-          "effect": "restore_hp",
-          "value": 300
+          "effect_id": "restore_hp",
+          "value": 500
         }
       ],
       "buy_price": 150,
@@ -705,7 +651,7 @@
     {
       "id": "con_large_mp_cell",
       "name": "Large MP Cell",
-      "description": "Industrial energy module restoring a large amount of mana.",
+      "description": "A medical energy cell that restores 300 MP.",
       "type": "CONSUMABLE",
       "rarity": "RARE",
       "level_requirement": 18,
@@ -720,8 +666,8 @@
       },
       "special_effects": [
         {
-          "effect": "restore_mp",
-          "value": 250
+          "effect_id": "restore_mp",
+          "value": 300
         }
       ],
       "buy_price": 160,
@@ -1168,8 +1114,8 @@
     },
     {
       "id": "boots_scout_boots",
-      "name": "Scout Boots",
-      "description": "Light boots improving mobility.",
+      "name": "Reinforced Scout Boots",
+      "description": "Reinforced patrol boots with improved protection and perception.",
       "type": "BOOTS",
       "rarity": "COMMON",
       "level_requirement": 6,
@@ -1335,104 +1281,6 @@
       "icon_image": "icons/items/armor/leather_grip_gloves.png"
     },
     {
-      "id": "potion_minor_healing",
-      "name": "Minor Healing Potion",
-      "description": "A basic red concoction that restores a small amount of Health Points (HP). Essential for rookie adventurers.",
-      "type": "CONSUMABLE",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [
-        {
-          "effect": "heal_flat",
-          "value": 50
-        }
-      ],
-      "buy_price": 25,
-      "sell_price": 5,
-      "max_stack": 99,
-      "icon_image": "icons/items/consumables/potion_minor_healing.png"
-    },
-    {
-      "id": "potion_minor_mana",
-      "name": "Minor Mana Potion",
-      "description": "A glowing blue vial that restores a small amount of Mana Points (MP). Has a slightly sweet taste.",
-      "type": "CONSUMABLE",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [
-        {
-          "effect": "mp_restore",
-          "value": 30
-        }
-      ],
-      "buy_price": 30,
-      "sell_price": 6,
-      "max_stack": 99,
-      "icon_image": "icons/items/consumables/potion_minor_mana.png"
-    },
-    {
-      "id": "core_fragment",
-      "name": "Core Fragment",
-      "description": "A small energy fragment extracted from defeated creatures.",
-      "type": "MATERIAL",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 30,
-      "sell_price": 8,
-      "max_stack": 999,
-      "icon_image": "materials/core_fragment.png"
-    },
-    {
-      "id": "monster_material",
-      "name": "Monster Material",
-      "description": "Generic crafting material obtained from monsters.",
-      "type": "MATERIAL",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 25,
-      "sell_price": 6,
-      "max_stack": 999,
-      "icon_image": "icons/items/materials/monster_material.png"
-    },
-    {
       "id": "slime_core",
       "name": "Slime Core",
       "description": "A gelatinous core left behind by slime creatures.",
@@ -1585,72 +1433,6 @@
       "sell_price": 20,
       "max_stack": 999,
       "icon_image": "materials/scorpion_stinger.png"
-    },
-    {
-      "id": "drake_heart",
-      "name": "Drake Heart",
-      "description": "A blazing heart from a defeated drake, still radiating heat.",
-      "type": "MATERIAL",
-      "rarity": "EPIC",
-      "level_requirement": 60,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 1200,
-      "sell_price": 350,
-      "max_stack": 10,
-      "icon_image": "materials/drake_heart.png"
-    },
-    {
-      "id": "ancient_scale",
-      "name": "Ancient Scale",
-      "description": "A scale from an ancient draconic creature.",
-      "type": "MATERIAL",
-      "rarity": "RARE",
-      "level_requirement": 50,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 800,
-      "sell_price": 200,
-      "max_stack": 99,
-      "icon_image": "materials/ancient_scale.png"
-    },
-    {
-      "id": "void_core",
-      "name": "Void Core",
-      "description": "Condensed energy from creatures of the abyss.",
-      "type": "MATERIAL",
-      "rarity": "EPIC",
-      "level_requirement": 70,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 1500,
-      "sell_price": 450,
-      "max_stack": 20,
-      "icon_image": "materials/void_core.png"
     },
     {
       "id": "mutated_neural_core",
@@ -2135,28 +1917,6 @@
       "sell_price": 55,
       "max_stack": 999,
       "icon_image": "icons/items/materials/raw_aethel_fragment.png"
-    },
-    {
-      "id": "crystal_core",
-      "name": "Crystal Core",
-      "description": "A condensed energy core found within crystalline creatures and resonant formations.",
-      "type": "MATERIAL",
-      "rarity": "UNCOMMON",
-      "level_requirement": 10,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 120,
-      "sell_price": 30,
-      "max_stack": 999,
-      "icon_image": "icons/items/materials/crystal_core.png"
     },
     {
       "id": "corroded_circuit_board",
@@ -4073,28 +3833,6 @@
       "icon_image": "icons/items/materials/nanite_fragment.png"
     },
     {
-      "id": "mat_cradle_glass",
-      "name": "Cradle Glass",
-      "description": "Sharp crystalline shards formed when Aethel energy fused sand into glass during the Great Severance.",
-      "type": "MATERIAL",
-      "rarity": "COMMON",
-      "level_requirement": 6,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 26,
-      "sell_price": 9,
-      "max_stack": 99,
-      "icon_image": "icons/items/materials/cradle_glass.png"
-    },
-    {
       "id": "art_aethel_core_fragment",
       "name": "Aethel Core Fragment",
       "description": "A fractured piece of a larger Aethel crystal core, still pulsing with unstable energy.",
@@ -4115,28 +3853,6 @@
       "sell_price": 120,
       "max_stack": 25,
       "icon_image": "icons/items/materials/aethel_core_fragment.png"
-    },
-    {
-      "id": "crs_resonance_crystal",
-      "name": "Resonance Crystal",
-      "description": "A crystal capable of amplifying Aethel energy frequencies. Highly valued by Arcanum Seekers researchers.",
-      "type": "MATERIAL",
-      "rarity": "RARE",
-      "level_requirement": 24,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 420,
-      "sell_price": 150,
-      "max_stack": 25,
-      "icon_image": "icons/items/materials/resonance_crystal.png"
     },
     {
       "id": "mat_prima_particle",
@@ -4381,50 +4097,6 @@
       "icon_image": "icons/items/materials/time_core_fragment.png"
     },
     {
-      "id": "crs_paradox_crystal",
-      "name": "Paradox Crystal",
-      "description": "A crystal that appears to exist in multiple states simultaneously. Highly unstable and extremely valuable.",
-      "type": "MATERIAL",
-      "rarity": "LEGENDARY",
-      "level_requirement": 72,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 4700,
-      "sell_price": 1500,
-      "max_stack": 8,
-      "icon_image": "icons/items/materials/paradox_crystal.png"
-    },
-    {
-      "id": "ore_iron_scrap",
-      "name": "Iron Scrap",
-      "description": "Discarded fragments of corroded iron salvaged from old machines and battlefield debris.",
-      "type": "MATERIAL",
-      "rarity": "COMMON",
-      "level_requirement": 3,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 20,
-      "sell_price": 6,
-      "max_stack": 99,
-      "icon_image": "icons/items/materials/iron_scrap.png"
-    },
-    {
       "id": "mat_rusted_gear",
       "name": "Rusted Gear",
       "description": "A worn gear from ancient mechanical systems. Still useful for basic engineering projects.",
@@ -4577,28 +4249,6 @@
       "sell_price": 1300,
       "max_stack": 8,
       "icon_image": "icons/items/materials/hegemony_core.png"
-    },
-    {
-      "id": "ore_aethel_infused_steel",
-      "name": "Aethel Infused Steel",
-      "description": "Steel that has absorbed Aethel energy over centuries, making it extremely durable and rare.",
-      "type": "MATERIAL",
-      "rarity": "LEGENDARY",
-      "level_requirement": 70,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 4800,
-      "sell_price": 1500,
-      "max_stack": 8,
-      "icon_image": "icons/items/materials/aethel_infused_steel.png"
     },
     {
       "id": "bio_coral_fragment",
@@ -4910,8 +4560,8 @@
     },
     {
       "id": "bio_shard_essence",
-      "name": "Shard Essence",
-      "description": "A condensed biological extract drawn from organisms mutated by Aethel shards.",
+      "name": "Mutated Shard Bio-Essence",
+      "description": "A biological extract from shard-mutated organisms, distinct from altar-distilled Shard Essence.",
       "type": "MATERIAL",
       "rarity": "RARE",
       "level_requirement": 28,
@@ -4995,50 +4645,6 @@
       "sell_price": 1600,
       "max_stack": 5,
       "icon_image": "icons/items/materials/shard_temple_fragment.png"
-    },
-    {
-      "id": "ore_scorched_iron",
-      "name": "Scorched Iron Ore",
-      "description": "Iron ore hardened by intense desert heat and Aethel radiation.",
-      "type": "MATERIAL",
-      "rarity": "COMMON",
-      "level_requirement": 6,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 30,
-      "sell_price": 10,
-      "max_stack": 99,
-      "icon_image": "icons/items/materials/scorched_iron.png"
-    },
-    {
-      "id": "mat_dune_sandstone",
-      "name": "Dune Sandstone",
-      "description": "A hardened sandstone block commonly found in the shifting dunes of Xylos.",
-      "type": "MATERIAL",
-      "rarity": "COMMON",
-      "level_requirement": 5,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 26,
-      "sell_price": 8,
-      "max_stack": 99,
-      "icon_image": "icons/items/materials/dune_sandstone.png"
     },
     {
       "id": "bio_scarab_shell",
@@ -5372,8 +4978,8 @@
     },
     {
       "id": "art_prima_materia",
-      "name": "Prima Materia",
-      "description": "Refined essence of Aethel energy — the legendary substance that powered the ancient Aethelgardian civilization.",
+      "name": "Refined Aethel Essence",
+      "description": "A rare refined Aethel catalyst. Distinct from mythic Prima Materia used for endgame upgrades.",
       "type": "MATERIAL",
       "rarity": "RARE",
       "level_requirement": 45,
@@ -5394,8 +5000,8 @@
     },
     {
       "id": "crs_core_fragment",
-      "name": "Aethel Core Fragment",
-      "description": "A shard from a shattered Aethel reactor core. Still pulsates with concentrated energy.",
+      "name": "Concentrated Aethel Core Fragment",
+      "description": "A high-grade reactor fragment with concentrated Aethel energy. Distinct from ordinary core fragments.",
       "type": "MATERIAL",
       "rarity": "RARE",
       "level_requirement": 50,
@@ -5569,138 +5175,6 @@
       "icon_image": "icons/items/materials/first_king_fragment.png"
     },
     {
-      "id": "drake_heart",
-      "name": "Drake Heart",
-      "description": "A blazing heart extracted from a powerful drake. Still radiates intense heat.",
-      "type": "MATERIAL",
-      "rarity": "EPIC",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 1200,
-      "sell_price": 350,
-      "max_stack": 99,
-      "icon_image": "materials/drake_heart.png"
-    },
-    {
-      "id": "ancient_scale",
-      "name": "Ancient Scale",
-      "description": "A massive scale from an ancient drake, nearly indestructible.",
-      "type": "MATERIAL",
-      "rarity": "RARE",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 600,
-      "sell_price": 180,
-      "max_stack": 99,
-      "icon_image": "materials/ancient_scale.png"
-    },
-    {
-      "id": "legendary_fire_core",
-      "name": "Legendary Fire Core",
-      "description": "A legendary core containing condensed primordial fire energy.",
-      "type": "MATERIAL",
-      "rarity": "LEGENDARY",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 5000,
-      "sell_price": 2000,
-      "max_stack": 10,
-      "icon_image": "icons/items/materials/legendary_fire_core.png"
-    },
-    {
-      "id": "raid_token",
-      "name": "Raid Token",
-      "description": "A token granted for defeating raid-level enemies. Used for special exchanges.",
-      "type": "MATERIAL",
-      "rarity": "RARE",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 0,
-      "sell_price": 100,
-      "max_stack": 999,
-      "icon_image": "icons/items/materials/raid_token.png"
-    },
-    {
-      "id": "void_core",
-      "name": "Void Core",
-      "description": "A pulsating orb of pure void energy harvested from abyssal entities.",
-      "type": "MATERIAL",
-      "rarity": "EPIC",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 1400,
-      "sell_price": 420,
-      "max_stack": 99,
-      "icon_image": "materials/void_core.png"
-    },
-    {
-      "id": "abyss_fragment",
-      "name": "Abyss Fragment",
-      "description": "A fragment of crystallized abyss energy.",
-      "type": "MATERIAL",
-      "rarity": "RARE",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 400,
-      "sell_price": 120,
-      "max_stack": 999,
-      "icon_image": "icons/items/materials/abyss_fragment.png"
-    },
-    {
       "id": "mythic_void_relic",
       "name": "Mythic Void Relic",
       "description": "A mythical relic originating from the deepest void dimension.",
@@ -5721,50 +5195,6 @@
       "sell_price": 3200,
       "max_stack": 5,
       "icon_image": "icons/items/materials/mythic_void_relic.png"
-    },
-    {
-      "id": "core_fragment",
-      "name": "Core Fragment",
-      "description": "A broken shard from a monster's internal energy core.",
-      "type": "MATERIAL",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 40,
-      "sell_price": 10,
-      "max_stack": 999,
-      "icon_image": "materials/core_fragment.png"
-    },
-    {
-      "id": "monster_material",
-      "name": "Monster Material",
-      "description": "Generic biological material harvested from monsters.",
-      "type": "MATERIAL",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 25,
-      "sell_price": 6,
-      "max_stack": 999,
-      "icon_image": "icons/items/materials/monster_material.png"
     },
     {
       "id": "rare_emblem",
@@ -5789,28 +5219,6 @@
       "icon_image": "icons/items/materials/rare_emblem.png"
     },
     {
-      "id": "token",
-      "name": "Battle Token",
-      "description": "A standard token awarded for defeating elite enemies.",
-      "type": "MATERIAL",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 10,
-      "sell_price": 2,
-      "max_stack": 999,
-      "icon_image": "icons/items/materials/token.png"
-    },
-    {
       "id": "crs_singularity_core",
       "name": "Singularity Core",
       "description": "An ultra-dense crystal containing the compressed energy of a miniature singularity stabilized by Aethel resonance.",
@@ -5831,28 +5239,6 @@
       "sell_price": 2850,
       "max_stack": 5,
       "icon_image": "icons/items/materials/singularity_core.png"
-    },
-    {
-      "id": "abyss_fragment",
-      "name": "Abyss Fragment",
-      "description": "A fragment infused with abyssal energy.",
-      "type": "MATERIAL",
-      "rarity": "RARE",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 200,
-      "sell_price": 50,
-      "max_stack": 999,
-      "icon_image": "icons/items/materials/abyss_fragment.png"
     },
     {
       "id": "aethel_core_shard",
@@ -7043,28 +6429,6 @@
       "icon_image": "icons/items/materials/sand_claw.png"
     },
     {
-      "id": "scarab_shell",
-      "name": "Scarab Shell",
-      "description": "A hard shell from a desert scarab.",
-      "type": "MATERIAL",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 30,
-      "sell_price": 8,
-      "max_stack": 999,
-      "icon_image": "icons/items/materials/scarab_shell.png"
-    },
-    {
       "id": "scrap_core",
       "name": "Scrap Core",
       "description": "A mechanical core assembled from scrap.",
@@ -7307,28 +6671,6 @@
       "icon_image": "materials/stinger_core.png"
     },
     {
-      "id": "storm_core",
-      "name": "Storm Core",
-      "description": "A core charged with storm energy.",
-      "type": "MATERIAL",
-      "rarity": "RARE",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 450,
-      "sell_price": 130,
-      "max_stack": 999,
-      "icon_image": "materials/mat_storm_core.png"
-    },
-    {
       "id": "swamp_scale",
       "name": "Swamp Scale",
       "description": "A scale from a swamp-dwelling creature.",
@@ -7437,28 +6779,6 @@
       "sell_price": 300,
       "max_stack": 999,
       "icon_image": "materials/titan_core.png"
-    },
-    {
-      "id": "token",
-      "name": "Battle Token",
-      "description": "A standard reward token obtained from monsters.",
-      "type": "MATERIAL",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": {
-        "hp": 0,
-        "mp": 0,
-        "atk": 0,
-        "def": 0,
-        "agi": 0,
-        "per": 0
-      },
-      "special_effects": [],
-      "buy_price": 0,
-      "sell_price": 2,
-      "max_stack": 999,
-      "icon_image": "icons/items/materials/token.png"
     },
     {
       "id": "vine_fiber",
@@ -7784,66 +7104,6 @@
       "sell_price": 82,
       "max_stack": 999,
       "icon_image": "icons/items/materials/abyssal_reaver_claw.png"
-    },
-    {
-      "id": "minor_health_potion",
-      "name": "Minor Health Potion",
-      "description": "A basic restorative potion used by field operatives.",
-      "type": "CONSUMABLE",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [
-        {
-          "effect_id": "heal_hp_flat",
-          "value": 40
-        }
-      ],
-      "buy_price": 18,
-      "sell_price": 5,
-      "max_stack": 99,
-      "icon_image": "icons/items/consumables/minor_health_potion.png"
-    },
-    {
-      "id": "basic_hp_potion",
-      "name": "Basic Health Potion",
-      "description": "A small medical solution restoring health.",
-      "type": "CONSUMABLE",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [
-        {
-          "effect_id": "heal_hp_flat",
-          "value": 60
-        }
-      ],
-      "buy_price": 25,
-      "sell_price": 7,
-      "max_stack": 99,
-      "icon_image": "icons/items/consumables/basic_hp_potion.png"
-    },
-    {
-      "id": "advanced_hp_potion",
-      "name": "Advanced Health Potion",
-      "description": "A stronger healing compound used by elite operatives.",
-      "type": "CONSUMABLE",
-      "rarity": "UNCOMMON",
-      "level_requirement": 10,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [
-        {
-          "effect_id": "heal_hp_flat",
-          "value": 180
-        }
-      ],
-      "buy_price": 90,
-      "sell_price": 30,
-      "max_stack": 99,
-      "icon_image": "icons/items/consumables/advanced_hp_potion.png"
     },
     {
       "id": "weapon_crate",
@@ -8545,20 +7805,6 @@
       "icon_image": "icons/items/tokens/token.png"
     },
     {
-      "id": "mat_iron_ingot",
-      "name": "Iron Ingot",
-      "type": "MATERIAL",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [],
-      "buy_price": 40,
-      "sell_price": 10,
-      "max_stack": 999,
-      "icon_image": "icons/items/materials/iron_ingot.png"
-    },
-    {
       "id": "echo_core",
       "name": "Echo Core",
       "description": "A quantum crystal containing fragmented neural echoes of warriors lost to the void. When activated through the Echo Protocol, the core reconstructs a random combat-ready ally from its unstable consciousness archive.",
@@ -8640,7 +7886,7 @@
     },
     {
       "id": "wpn_t005_weapon1",
-      "name": "Rusted Blade",
+      "name": "Reinforced Rusted Blade",
       "description": "A common blade crafted for Lv.5 combatants. Rusted-tier quality.",
       "type": "WEAPON",
       "rarity": "COMMON",
@@ -9144,7 +8390,7 @@
     },
     {
       "id": "wpn2_t005_weapon2",
-      "name": "Rusted Offhand Blade",
+      "name": "Reinforced Rusted Offhand Blade",
       "description": "A common offhand blade crafted for Lv.5 combatants. Rusted-tier quality.",
       "type": "OFFHAND",
       "rarity": "COMMON",
@@ -9648,7 +8894,7 @@
     },
     {
       "id": "hlm_t005_helmet",
-      "name": "Rusted Helm",
+      "name": "Reinforced Rusted Helm",
       "description": "A common helm crafted for Lv.5 combatants. Rusted-tier quality.",
       "type": "HELMET",
       "rarity": "COMMON",
@@ -10152,7 +9398,7 @@
     },
     {
       "id": "arm_t005_armor",
-      "name": "Rusted Armor",
+      "name": "Reinforced Rusted Armor",
       "description": "A common armor crafted for Lv.5 combatants. Rusted-tier quality.",
       "type": "ARMOR",
       "rarity": "COMMON",
@@ -10656,7 +9902,7 @@
     },
     {
       "id": "glv_t005_glove",
-      "name": "Rusted Gauntlets",
+      "name": "Reinforced Rusted Gauntlets",
       "description": "A common gauntlets crafted for Lv.5 combatants. Rusted-tier quality.",
       "type": "GLOVE",
       "rarity": "COMMON",
@@ -11160,7 +10406,7 @@
     },
     {
       "id": "trs_t005_trouser",
-      "name": "Rusted Legguards",
+      "name": "Reinforced Rusted Legguards",
       "description": "A common legguards crafted for Lv.5 combatants. Rusted-tier quality.",
       "type": "TROUSER",
       "rarity": "COMMON",
@@ -11664,7 +10910,7 @@
     },
     {
       "id": "bts_t005_boots",
-      "name": "Rusted Boots",
+      "name": "Reinforced Rusted Boots",
       "description": "A common boots crafted for Lv.5 combatants. Rusted-tier quality.",
       "type": "BOOTS",
       "rarity": "COMMON",
@@ -12168,7 +11414,7 @@
     },
     {
       "id": "acc1_t005_accessory1",
-      "name": "Rusted Ring",
+      "name": "Reinforced Rusted Ring",
       "description": "A common ring crafted for Lv.5 combatants. Rusted-tier quality.",
       "type": "ACCESSORY",
       "rarity": "COMMON",
@@ -12672,7 +11918,7 @@
     },
     {
       "id": "acc2_t005_accessory2",
-      "name": "Rusted Amulet",
+      "name": "Reinforced Rusted Amulet",
       "description": "A common amulet crafted for Lv.5 combatants. Rusted-tier quality.",
       "type": "ACCESSORY",
       "rarity": "COMMON",
@@ -13703,21 +12949,6 @@
       "icon_image": "icons/items/materials/wood_plank.png"
     },
     {
-      "id": "iron_ore",
-      "name": "Iron Ore",
-      "description": "Raw iron ore. Smelt it to produce usable ingots.",
-      "type": "MATERIAL",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [],
-      "buy_price": 10,
-      "sell_price": 2,
-      "max_stack": 999,
-      "icon_image": "materials/mat_iron_ore.png"
-    },
-    {
       "id": "copper_ore",
       "name": "Copper Ore",
       "description": "Raw copper ore with a faint orange-green sheen. Used in electronics and basic alloys.",
@@ -13758,9 +12989,8 @@
       "stats_bonus": null,
       "special_effects": [
         {
-          "type": "full_heal",
-          "value": 1,
-          "duration_turns": 0
+          "effect_id": "restore_hp_percent",
+          "value": 100
         }
       ],
       "buy_price": 2500,
@@ -13779,9 +13009,8 @@
       "stats_bonus": null,
       "special_effects": [
         {
-          "type": "full_mp_restore",
-          "value": 1,
-          "duration_turns": 0
+          "effect_id": "restore_mp_percent",
+          "value": 100
         }
       ],
       "buy_price": 2800,
@@ -13809,416 +13038,6 @@
       "sell_price": 11,
       "max_stack": 99,
       "icon_image": "icons/items/consumables/antidote.png"
-    },
-    {
-      "id": "con_revive_shard",
-      "name": "Revive Shard",
-      "description": "A crystallised shard of life force. Revives a downed party member to 50% HP.",
-      "type": "CONSUMABLE",
-      "rarity": "RARE",
-      "level_requirement": 20,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [
-        {
-          "type": "revive",
-          "value": 0.5,
-          "duration_turns": 0
-        }
-      ],
-      "buy_price": 800,
-      "sell_price": 200,
-      "max_stack": 20,
-      "icon_image": "icons/items/consumables/revive_shard.png"
-    },
-    {
-      "id": "con_exp_booster",
-      "name": "EXP Booster",
-      "description": "Doubles EXP gained for the next 3 battle encounters.",
-      "type": "CONSUMABLE",
-      "rarity": "RARE",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [
-        {
-          "type": "exp_boost",
-          "value": 2,
-          "duration_turns": 3
-        }
-      ],
-      "buy_price": 600,
-      "sell_price": 150,
-      "max_stack": 20,
-      "icon_image": "icons/items/consumables/exp_booster.png"
-    },
-    {
-      "id": "con_stat_reset_token",
-      "name": "Stat Reset Token",
-      "description": "Grants a free respec of all allocated stat points. Single use.",
-      "type": "CONSUMABLE",
-      "rarity": "EPIC",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [
-        {
-          "type": "free_respec",
-          "value": 1,
-          "duration_turns": 0
-        }
-      ],
-      "buy_price": 5000,
-      "sell_price": 1250,
-      "max_stack": 5,
-      "icon_image": "icons/items/consumables/stat_reset_token.png"
-    },
-    {
-      "id": "con_void_repellent",
-      "name": "Void Repellent",
-      "description": "Temporarily reduces encounter rate with Void-type enemies by 50% for 10 explores.",
-      "type": "CONSUMABLE",
-      "rarity": "UNCOMMON",
-      "level_requirement": 15,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [
-        {
-          "type": "reduce_void_encounters",
-          "value": 0.5,
-          "duration_turns": 10
-        }
-      ],
-      "buy_price": 120,
-      "sell_price": 30,
-      "max_stack": 50,
-      "icon_image": "icons/items/consumables/void_repellent.png"
-    },
-    {
-      "id": "con_blessed_oil",
-      "name": "Blessed Oil",
-      "description": "A vial of oil blessed at the Heartwood Altar. Grants +15% healing received for 5 turns.",
-      "type": "CONSUMABLE",
-      "rarity": "RARE",
-      "level_requirement": 30,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [
-        {
-          "type": "healing_received_boost",
-          "value": 0.15,
-          "duration_turns": 5
-        }
-      ],
-      "buy_price": 450,
-      "sell_price": 113,
-      "max_stack": 30,
-      "icon_image": "icons/items/consumables/blessed_oil.png"
-    },
-    {
-      "id": "con_legion_iron_ration",
-      "name": "Legion Iron Ration",
-      "description": "High-calorie ration pack used by Starforged Legion troops. Restores 40% HP and 20% MP.",
-      "type": "CONSUMABLE",
-      "rarity": "UNCOMMON",
-      "level_requirement": 10,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [
-        {
-          "type": "partial_heal",
-          "value": 0.4,
-          "duration_turns": 0
-        },
-        {
-          "type": "partial_mp_restore",
-          "value": 0.2,
-          "duration_turns": 0
-        }
-      ],
-      "buy_price": 80,
-      "sell_price": 20,
-      "max_stack": 99,
-      "icon_image": "icons/items/consumables/legion_iron_ration.png"
-    },
-    {
-      "id": "con_aethel_incense",
-      "name": "Aethel Incense",
-      "description": "Burning this incense grants the party +10% PER for the next 3 encounters.",
-      "type": "CONSUMABLE",
-      "rarity": "UNCOMMON",
-      "level_requirement": 20,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [
-        {
-          "type": "party_per_boost",
-          "value": 0.1,
-          "duration_turns": 3
-        }
-      ],
-      "buy_price": 150,
-      "sell_price": 38,
-      "max_stack": 30,
-      "icon_image": "icons/items/consumables/aethel_incense.png"
-    },
-    {
-      "id": "con_scramble_grenade",
-      "name": "Scramble Grenade",
-      "description": "A Meridian Cartel tech device. Reduces all enemy ATK by 20% for 2 turns when used in battle.",
-      "type": "CONSUMABLE",
-      "rarity": "RARE",
-      "level_requirement": 25,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [
-        {
-          "type": "battle_enemy_atk_debuff",
-          "value": -20,
-          "duration_turns": 2
-        }
-      ],
-      "buy_price": 350,
-      "sell_price": 88,
-      "max_stack": 30,
-      "icon_image": "icons/items/consumables/scramble_grenade.png"
-    },
-    {
-      "id": "con_nano_patch",
-      "name": "OmniCorp Nano-Patch",
-      "description": "Microscopic repair bots in a patch. Heals 25% HP over 3 turns. Works on organic and synthetic.",
-      "type": "CONSUMABLE",
-      "rarity": "UNCOMMON",
-      "level_requirement": 12,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [
-        {
-          "type": "heal_over_time",
-          "value": 0.25,
-          "duration_turns": 3
-        }
-      ],
-      "buy_price": 95,
-      "sell_price": 24,
-      "max_stack": 50,
-      "icon_image": "icons/items/consumables/nano_patch.png"
-    },
-    {
-      "id": "machine_parts",
-      "name": "Machine Parts",
-      "description": "Assorted mechanical components salvaged from decommissioned machinery.",
-      "type": "MATERIAL",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [],
-      "buy_price": 15,
-      "sell_price": 4,
-      "max_stack": 99,
-      "icon_image": "icons/items/materials/machine_parts.png"
-    },
-    {
-      "id": "bandage_field",
-      "name": "Field Bandage",
-      "description": "Basic medical dressing for battlefield wounds. Reduces bleeding but not much else.",
-      "type": "CONSUMABLE",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [
-        {
-          "type": "heal",
-          "value": 30,
-          "duration_turns": 0
-        }
-      ],
-      "buy_price": 8,
-      "sell_price": 2,
-      "max_stack": 99,
-      "icon_image": "icons/items/consumables/bandage_field.png"
-    },
-    {
-      "id": "healing_herb",
-      "name": "Healing Herb",
-      "description": "A naturally occurring herb with mild restorative properties. Common in most biomes.",
-      "type": "CONSUMABLE",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [
-        {
-          "type": "heal",
-          "value": 25,
-          "duration_turns": 0
-        }
-      ],
-      "buy_price": 6,
-      "sell_price": 2,
-      "max_stack": 99,
-      "icon_image": "icons/items/consumables/healing_herb.png"
-    },
-    {
-      "id": "leather_strip",
-      "name": "Leather Strip",
-      "description": "A thin strip of tanned leather. Useful for basic crafting and repairs.",
-      "type": "MATERIAL",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [],
-      "buy_price": 5,
-      "sell_price": 1,
-      "max_stack": 999,
-      "icon_image": "icons/items/materials/leather_strip.png"
-    },
-    {
-      "id": "wood_plank",
-      "name": "Wood Plank",
-      "description": "A rough-hewn wooden plank. Structural material for basic constructions.",
-      "type": "MATERIAL",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [],
-      "buy_price": 4,
-      "sell_price": 1,
-      "max_stack": 999,
-      "icon_image": "icons/items/materials/wood_plank.png"
-    },
-    {
-      "id": "iron_ore",
-      "name": "Iron Ore",
-      "description": "Raw iron ore. Smelt it to produce usable ingots.",
-      "type": "MATERIAL",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [],
-      "buy_price": 10,
-      "sell_price": 2,
-      "max_stack": 999,
-      "icon_image": "materials/mat_iron_ore.png"
-    },
-    {
-      "id": "copper_ore",
-      "name": "Copper Ore",
-      "description": "Raw copper ore with a faint orange-green sheen. Used in electronics and basic alloys.",
-      "type": "MATERIAL",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [],
-      "buy_price": 8,
-      "sell_price": 2,
-      "max_stack": 999,
-      "icon_image": "icons/items/materials/copper_ore.png"
-    },
-    {
-      "id": "aethel_core",
-      "name": "Aethel Core",
-      "description": "A stabilised core of condensed Aethel energy. Foundation material for advanced Arcanum gear.",
-      "type": "MATERIAL",
-      "rarity": "RARE",
-      "level_requirement": 25,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [],
-      "buy_price": 350,
-      "sell_price": 88,
-      "max_stack": 50,
-      "icon_image": "icons/items/materials/aethel_core.png"
-    },
-    {
-      "id": "con_full_hp_cell",
-      "name": "Full HP Cell",
-      "description": "Fully restores HP. For emergencies only — the cost reflects it.",
-      "type": "CONSUMABLE",
-      "rarity": "EPIC",
-      "level_requirement": 40,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [
-        {
-          "type": "full_heal",
-          "value": 1,
-          "duration_turns": 0
-        }
-      ],
-      "buy_price": 2500,
-      "sell_price": 625,
-      "max_stack": 10,
-      "icon_image": "icons/items/consumables/full_hp_cell.png"
-    },
-    {
-      "id": "con_full_mp_cell",
-      "name": "Full MP Cell",
-      "description": "Fully restores MP. Extremely rare outside OmniCorp supply chains.",
-      "type": "CONSUMABLE",
-      "rarity": "EPIC",
-      "level_requirement": 40,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [
-        {
-          "type": "full_mp_restore",
-          "value": 1,
-          "duration_turns": 0
-        }
-      ],
-      "buy_price": 2800,
-      "sell_price": 700,
-      "max_stack": 10,
-      "icon_image": "icons/items/consumables/full_mp_cell.png"
-    },
-    {
-      "id": "con_antidote",
-      "name": "Antidote",
-      "description": "Cures all Poison and Burn status effects instantly.",
-      "type": "CONSUMABLE",
-      "rarity": "UNCOMMON",
-      "level_requirement": 5,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [
-        {
-          "type": "cleanse",
-          "value": "poison,burn",
-          "duration_turns": 0
-        }
-      ],
-      "buy_price": 45,
-      "sell_price": 11,
-      "max_stack": 99,
-      "icon_image": "icons/items/consumables/antidote.png"
-    },
-    {
-      "id": "con_revive_shard",
-      "name": "Revive Shard",
-      "description": "A crystallised shard of life force. Revives a downed party member to 50% HP.",
-      "type": "CONSUMABLE",
-      "rarity": "RARE",
-      "level_requirement": 20,
-      "equipment_slots": [],
-      "stats_bonus": null,
-      "special_effects": [
-        {
-          "type": "revive",
-          "value": 0.5,
-          "duration_turns": 0
-        }
-      ],
-      "buy_price": 800,
-      "sell_price": 200,
-      "max_stack": 20,
-      "icon_image": "icons/items/consumables/revive_shard.png"
     },
     {
       "id": "con_exp_booster",
@@ -14415,8 +13234,8 @@
     },
     {
       "id": "itm_phoenix_core",
-      "name": "Phoenix Core",
-      "description": "A blazing ember from a Phoenix's heart. Revives a defeated ally at full HP and MP.",
+      "name": "Phoenix Reboot Core",
+      "description": "An Aethel-powered resuscitation core. Revives a defeated ally with full HP and MP.",
       "type": "CONSUMABLE",
       "rarity": "RARE",
       "level_requirement": 10,
@@ -14435,8 +13254,8 @@
     },
     {
       "id": "itm_revival_elixir",
-      "name": "Revival Elixir",
-      "description": "A potent alchemical brew. Revives a defeated ally with 30% HP. Cheaper to craft than a Revival Shard.",
+      "name": "Emergency Revival Injector",
+      "description": "A nanomedical injector. Revives a defeated ally with 30% HP.",
       "type": "CONSUMABLE",
       "rarity": "COMMON",
       "level_requirement": 1,
@@ -14452,150 +13271,6 @@
       "buy_price": 200,
       "sell_price": 65,
       "max_stack": 20
-    },
-    {
-      "id": "itm_minor_hp_potion",
-      "name": "Minor HP Potion",
-      "description": "A small restorative vial. Restores 80 HP to one ally.",
-      "type": "CONSUMABLE",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": {},
-      "special_effects": [
-        {
-          "effect_id": "restore_hp",
-          "value": 80
-        }
-      ],
-      "icon_image": "item_potion_hp_minor",
-      "buy_price": 80,
-      "sell_price": 25,
-      "max_stack": 99
-    },
-    {
-      "id": "itm_hp_potion",
-      "name": "HP Potion",
-      "description": "Restores 200 HP to one ally.",
-      "type": "CONSUMABLE",
-      "rarity": "COMMON",
-      "level_requirement": 5,
-      "equipment_slots": [],
-      "stats_bonus": {},
-      "special_effects": [
-        {
-          "effect_id": "restore_hp",
-          "value": 200
-        }
-      ],
-      "icon_image": "item_potion_hp",
-      "buy_price": 180,
-      "sell_price": 60,
-      "max_stack": 99
-    },
-    {
-      "id": "itm_greater_hp_potion",
-      "name": "Greater HP Potion",
-      "description": "Restores 500 HP to one ally.",
-      "type": "CONSUMABLE",
-      "rarity": "UNCOMMON",
-      "level_requirement": 20,
-      "equipment_slots": [],
-      "stats_bonus": {},
-      "special_effects": [
-        {
-          "effect_id": "restore_hp",
-          "value": 500
-        }
-      ],
-      "icon_image": "item_potion_hp_greater",
-      "buy_price": 420,
-      "sell_price": 140,
-      "max_stack": 99
-    },
-    {
-      "id": "itm_full_heal_potion",
-      "name": "Elixir of Restoration",
-      "description": "A powerful elixir that fully restores HP and MP of one ally.",
-      "type": "CONSUMABLE",
-      "rarity": "RARE",
-      "level_requirement": 30,
-      "equipment_slots": [],
-      "stats_bonus": {},
-      "special_effects": [
-        {
-          "effect_id": "restore_hp_percent",
-          "value": 100
-        },
-        {
-          "effect_id": "restore_mp_percent",
-          "value": 100
-        }
-      ],
-      "icon_image": "item_elixir_restoration",
-      "buy_price": 1500,
-      "sell_price": 500,
-      "max_stack": 10
-    },
-    {
-      "id": "itm_minor_mp_potion",
-      "name": "Minor MP Potion",
-      "description": "Restores 50 MP to one ally.",
-      "type": "CONSUMABLE",
-      "rarity": "COMMON",
-      "level_requirement": 1,
-      "equipment_slots": [],
-      "stats_bonus": {},
-      "special_effects": [
-        {
-          "effect_id": "restore_mp",
-          "value": 50
-        }
-      ],
-      "icon_image": "item_potion_mp_minor",
-      "buy_price": 80,
-      "sell_price": 25,
-      "max_stack": 99
-    },
-    {
-      "id": "itm_mp_potion",
-      "name": "MP Potion",
-      "description": "Restores 120 MP to one ally.",
-      "type": "CONSUMABLE",
-      "rarity": "COMMON",
-      "level_requirement": 5,
-      "equipment_slots": [],
-      "stats_bonus": {},
-      "special_effects": [
-        {
-          "effect_id": "restore_mp",
-          "value": 120
-        }
-      ],
-      "icon_image": "item_potion_mp",
-      "buy_price": 160,
-      "sell_price": 55,
-      "max_stack": 99
-    },
-    {
-      "id": "itm_greater_mp_potion",
-      "name": "Greater MP Potion",
-      "description": "Restores 300 MP to one ally.",
-      "type": "CONSUMABLE",
-      "rarity": "UNCOMMON",
-      "level_requirement": 20,
-      "equipment_slots": [],
-      "stats_bonus": {},
-      "special_effects": [
-        {
-          "effect_id": "restore_mp",
-          "value": 300
-        }
-      ],
-      "icon_image": "item_potion_mp_greater",
-      "buy_price": 380,
-      "sell_price": 125,
-      "max_stack": 99
     },
     {
       "id": "abyssal_after_action",
@@ -25156,6 +23831,1358 @@
       "sell_price": 0,
       "max_stack": 99,
       "icon_image": "icons/items/materials/recomendation_letters.png"
+    },
+    {
+      "id": "ILLEGAL_WEAPON_CACHE",
+      "name": "Illegal Weapon Cache",
+      "description": "A sealed cache of illicit arms seized for a Custodian investigation.",
+      "type": "QUEST",
+      "rarity": "QUEST",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 99,
+      "icon_image": ""
+    },
+    {
+      "id": "COUNTERFEIT_CRD_SAMPLE",
+      "name": "Counterfeit CRD Sample",
+      "description": "A forged Credent sample flagged by the Aegis Monetary Authority.",
+      "type": "QUEST",
+      "rarity": "QUEST",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 99,
+      "icon_image": ""
+    },
+    {
+      "id": "con_small_energy_cell",
+      "name": "Small Energy Cell",
+      "description": "A portable Aethel battery. Restores 25 exploration energy; excess energy is stored as overcharge.",
+      "type": "CONSUMABLE",
+      "rarity": "COMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [
+        {
+          "effect_id": "restore_energy",
+          "value": 25
+        }
+      ],
+      "buy_price": 80,
+      "sell_price": 20,
+      "max_stack": 99,
+      "icon_image": "icons/items/consumables/con_small_mp_cell.png"
+    },
+    {
+      "id": "con_large_energy_cell",
+      "name": "Large Energy Cell",
+      "description": "A high-capacity Aethel battery. Restores 60 exploration energy; excess energy is stored as overcharge.",
+      "type": "CONSUMABLE",
+      "rarity": "UNCOMMON",
+      "level_requirement": 15,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [
+        {
+          "effect_id": "restore_energy",
+          "value": 60
+        }
+      ],
+      "buy_price": 210,
+      "sell_price": 52,
+      "max_stack": 50,
+      "icon_image": "icons/items/consumables/large_mp_cell.png"
+    },
+    {
+      "id": "con_field_recovery_pack",
+      "name": "Field Recovery Pack",
+      "description": "A dual-chamber field med-kit. Restores 120 HP and 60 MP in one use.",
+      "type": "CONSUMABLE",
+      "rarity": "UNCOMMON",
+      "level_requirement": 5,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [
+        {
+          "effect_id": "restore_hp",
+          "value": 120
+        },
+        {
+          "effect_id": "restore_mp",
+          "value": 60
+        }
+      ],
+      "buy_price": 100,
+      "sell_price": 25,
+      "max_stack": 50,
+      "icon_image": "icons/items/consumables/elite_recovery_pack.png"
+    },
+    {
+      "id": "con_full_recovery_pack",
+      "name": "Full Recovery Pack",
+      "description": "A premium nanomedical resupply kit. Restores 100% of maximum HP and MP. Does not revive defeated allies.",
+      "type": "CONSUMABLE",
+      "rarity": "EPIC",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [
+        {
+          "effect_id": "restore_hp_percent",
+          "value": 100
+        },
+        {
+          "effect_id": "restore_mp_percent",
+          "value": 100
+        }
+      ],
+      "buy_price": 5500,
+      "sell_price": 1375,
+      "max_stack": 10,
+      "icon_image": "icons/items/consumables/elite_recovery_pack.png"
+    },
+    {
+      "id": "cns_clean_water",
+      "name": "Sterile Water",
+      "description": "Purified field water used to assemble medical cells and nutrient supplies.",
+      "type": "MATERIAL",
+      "rarity": "COMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 4,
+      "sell_price": 1,
+      "max_stack": 999,
+      "icon_image": "icons/items/consumables/con_nutrient_ration.png"
+    },
+    {
+      "id": "mq_clue_unlisted_1",
+      "name": "Carbon Census Slip",
+      "description": "Recovered at The Unlisted Ward. Two chairs face an empty doorway. Only the smaller chair has fresh repairs. Household numbers continue across a wall that modern surveys label vacant. A field record, not an established answer to Xylos's ancient mysteries.",
+      "type": "QUEST",
+      "rarity": "UNCOMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 99,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_clue_unlisted_2",
+      "name": "Folded Relocation Notice",
+      "description": "Recovered at The Unlisted Ward. Two chairs face an empty doorway. Only the smaller chair has fresh repairs. Household numbers continue across a wall that modern surveys label vacant. A field record, not an established answer to Xylos's ancient mysteries.",
+      "type": "QUEST",
+      "rarity": "UNCOMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 99,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_unlisted_two_chairs",
+      "name": "Mended Doorplate",
+      "description": "A repaired doorplate, returned with permission. An empty address is not an empty life.",
+      "type": "QUEST",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_unlisted_second_number",
+      "name": "Double-Stamped Census Seal",
+      "description": "Two legitimate marks preserved on one seal. Agreement is not the same as accuracy.",
+      "type": "QUEST",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_unlisted_obedient_lock",
+      "name": "Retired Authorization Key",
+      "description": "A retired municipal key, preserved as evidence of a failed register rather than a trophy taken from a resident.",
+      "type": "QUEST",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_unlisted_folded_route",
+      "name": "Foldkeeper's Ribbon",
+      "description": "A ribbon used to refold a notice. Information can remain useful without becoming public.",
+      "type": "QUEST",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_unlisted_right_to_remain",
+      "name": "Ring of the Unlisted Ward",
+      "description": "A ring engraved with a doorway and no name. Recognition without possession.",
+      "type": "ACCESSORY",
+      "rarity": "EPIC",
+      "level_requirement": 10,
+      "equipment_slots": [
+        "ACCESSORY_1",
+        "ACCESSORY_2"
+      ],
+      "stats_bonus": {
+        "hp": 20,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 1
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_clue_muster_1",
+      "name": "Scorched Bell Tally",
+      "description": "Recovered at Hollow Muster Yard. A muster bell hangs over boots facing away from the parade line. A second rope leads into a workshop, not a command tower. A field record, not an established answer to Xylos's ancient mysteries.",
+      "type": "QUEST",
+      "rarity": "UNCOMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 99,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_clue_muster_2",
+      "name": "Workshop Evacuation Roll",
+      "description": "Recovered at Hollow Muster Yard. A muster bell hangs over boots facing away from the parade line. A second rope leads into a workshop, not a command tower. A field record, not an established answer to Xylos's ancient mysteries.",
+      "type": "QUEST",
+      "rarity": "UNCOMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 99,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_muster_fourth_beat",
+      "name": "Fourth-Beat Clapper",
+      "description": "A discarded bell clapper. Its worth lies in the warning people finally heard.",
+      "type": "QUEST",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_muster_boots_outward",
+      "name": "Outward Step Tag",
+      "description": "A civilian tool tag whose owner left through the proper safety exit.",
+      "type": "QUEST",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_muster_cable_thief",
+      "name": "Salvage-Locked Ferrule",
+      "description": "A sheared cable ferrule kept to teach future repair crews what the failure looked like.",
+      "type": "QUEST",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_muster_shared_shift",
+      "name": "Two-Stamp Work Token",
+      "description": "A work token stamped by two suppliers. Cooperation on one shift does not erase their disagreement.",
+      "type": "QUEST",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_muster_warning_not_oath",
+      "name": "Bellwright's Wrist Loop",
+      "description": "A loop braided from retired bell rope. It honors maintenance, not a borrowed military oath.",
+      "type": "ACCESSORY",
+      "rarity": "EPIC",
+      "level_requirement": 22,
+      "equipment_slots": [
+        "ACCESSORY_1",
+        "ACCESSORY_2"
+      ],
+      "stats_bonus": {
+        "hp": 40,
+        "mp": 0,
+        "atk": 0,
+        "def": 3,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_clue_zero_1",
+      "name": "Blank-Cargo Manifest",
+      "description": "Recovered at Zero Berth Customs Annex. A berth marked zero contains a crate with an inward-facing shipping stencil. A polished scale shows the same value even with no cargo. A field record, not an established answer to Xylos's ancient mysteries.",
+      "type": "QUEST",
+      "rarity": "UNCOMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 99,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_clue_zero_2",
+      "name": "Nested Storage Invoice",
+      "description": "Recovered at Zero Berth Customs Annex. A berth marked zero contains a crate with an inward-facing shipping stencil. A polished scale shows the same value even with no cargo. A field record, not an established answer to Xylos's ancient mysteries.",
+      "type": "QUEST",
+      "rarity": "UNCOMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 99,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_zero_weight_nothing",
+      "name": "Zero Berth Brass Weight",
+      "description": "A tare weight marked zero cargo. It distinguishes a valid storage fee from an invented shipment.",
+      "type": "QUEST",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_zero_inside_label",
+      "name": "Inward-Facing Shipping Seal",
+      "description": "A shipping seal from a returned container; its orientation explains its record.",
+      "type": "QUEST",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_zero_fee_at_door",
+      "name": "Broken Fee Counterseal",
+      "description": "A fee seal invalidated for unauthorized use. A collector's misconduct is not a judgment on an entire port.",
+      "type": "QUEST",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_zero_rent_inside_rent",
+      "name": "Nested Invoice Divider",
+      "description": "A ledger divider used to separate one service from two charges.",
+      "type": "QUEST",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_zero_port_without_lie",
+      "name": "Zero Berth Signet",
+      "description": "A signet bearing an empty crate. Earned by correcting a claim without condemning everyone who trades.",
+      "type": "ACCESSORY",
+      "rarity": "EPIC",
+      "level_requirement": 25,
+      "equipment_slots": [
+        "ACCESSORY_1",
+        "ACCESSORY_2"
+      ],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 25,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 3
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_clue_quiet_1",
+      "name": "Cloth-Bound Resonance Trace",
+      "description": "Recovered at Quiet Resonator Gallery. Three resonant ribs surround a fourth rib wrapped in old cloth. A listening bench faces away from the visible crystals toward a drainage channel. A field record, not an established answer to Xylos's ancient mysteries.",
+      "type": "QUEST",
+      "rarity": "UNCOMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 99,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_clue_quiet_2",
+      "name": "Drainage Interval Record",
+      "description": "Recovered at Quiet Resonator Gallery. Three resonant ribs surround a fourth rib wrapped in old cloth. A listening bench faces away from the visible crystals toward a drainage channel. A field record, not an established answer to Xylos's ancient mysteries.",
+      "type": "QUEST",
+      "rarity": "UNCOMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 99,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_quiet_cloth_on_crystal",
+      "name": "Quiet-Rib Tuning Fork",
+      "description": "A fork tuned to a damped rib. Its tone is an observation, not a divine translation.",
+      "type": "QUEST",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_quiet_bench_wrong_way",
+      "name": "Backward Listener's Token",
+      "description": "A token showing a bench turned away from spectacle and toward the sound's actual path.",
+      "type": "QUEST",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_quiet_test_without_beast",
+      "name": "Gallery Boundary Knot",
+      "description": "A boundary cord from a limited field test. A useful result need not justify unlimited intrusion.",
+      "type": "QUEST",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_quiet_same_pause",
+      "name": "Twin-Interval Crystal",
+      "description": "A crystal carrying two measured intervals. Similarity is evidence; intention is not established.",
+      "type": "QUEST",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_quiet_silence_kept",
+      "name": "Quiet Gallery Pendant",
+      "description": "A pendant engraved with a measured pause. It honors the limits of a finding, not mastery of the Shard.",
+      "type": "ACCESSORY",
+      "rarity": "EPIC",
+      "level_requirement": 40,
+      "equipment_slots": [
+        "ACCESSORY_1",
+        "ACCESSORY_2"
+      ],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 40,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 4
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_clue_armistice_1",
+      "name": "Scorched Relief Ledger Leaf",
+      "description": "Recovered at Sealed Armistice Vault. New lock bolts hold an old stone cabinet shut. A scorched relief ledger sits beside an undamaged metal duplicate, both bearing the same modern custody mark. A field record, not an established answer to Xylos's ancient mysteries.",
+      "type": "QUEST",
+      "rarity": "UNCOMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 99,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_clue_armistice_2",
+      "name": "Modern Custody Duplicate",
+      "description": "Recovered at Sealed Armistice Vault. New lock bolts hold an old stone cabinet shut. A scorched relief ledger sits beside an undamaged metal duplicate, both bearing the same modern custody mark. A field record, not an established answer to Xylos's ancient mysteries.",
+      "type": "QUEST",
+      "rarity": "UNCOMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 99,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_armistice_modern_lock",
+      "name": "Modern-on-Ancient Custody Seal",
+      "description": "A modern seal from an old chamber. Its custody date is not the chamber's age.",
+      "type": "QUEST",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_armistice_burn_without_verdict",
+      "name": "Heat-Line Witness Plate",
+      "description": "A plate tracing the limit of heat damage. It records a pattern, not an accusation.",
+      "type": "QUEST",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_armistice_safe_for_copy",
+      "name": "Paired Copyist's Clip",
+      "description": "A clip used to keep two independently witnessed archive copies together.",
+      "type": "QUEST",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_armistice_reserve_not_ransom",
+      "name": "Unsettled Reserve Countertoken",
+      "description": "An audit countertoken identifying a reserve without pretending the people waiting for it suffered no cost.",
+      "type": "QUEST",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "mq_relic_armistice_unwritten_witness",
+      "name": "Signet of the Unwritten Witness",
+      "description": "Five grooves surround an unfinished witness line. The final groove remains open for a correction not yet heard.",
+      "type": "ACCESSORY",
+      "rarity": "LEGENDARY",
+      "level_requirement": 75,
+      "equipment_slots": [
+        "ACCESSORY_1",
+        "ACCESSORY_2"
+      ],
+      "stats_bonus": {
+        "hp": 100,
+        "mp": 50,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 6
+      },
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": "materials/rusted_plate.png"
+    },
+    {
+      "id": "class_proof_concordium_base",
+      "name": "Civic Oath Seal",
+      "type": "QUEST_ITEM",
+      "rarity": "UNCOMMON",
+      "description": "The ration crews are moving again. You held the line without forgetting who stood behind it. Issued by Instructor Kael as proof of the Base trial. Consumed once when choosing a class.",
+      "level_requirement": 5,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_concordium_advance",
+      "name": "Routekeeper Warrant",
+      "type": "QUEST_ITEM",
+      "rarity": "RARE",
+      "description": "The route is open. I can assign crews to it, rather than merely drawing it on a map. Issued by Field Captain Ilyra as proof of the Advance trial. Consumed once when choosing a class.",
+      "level_requirement": 20,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_concordium_expert",
+      "name": "Cradle Stabilization Charter",
+      "type": "QUEST_ITEM",
+      "rarity": "EPIC",
+      "description": "Your report is sound. The protocol can now be rewritten around what actually happened. Issued by Inspector Soren as proof of the Expert trial. Consumed once when choosing a class.",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_concordium_master",
+      "name": "Concordium Steward Sigil",
+      "type": "QUEST_ITEM",
+      "rarity": "LEGENDARY",
+      "description": "Every name on my list has a route out. This sigil carries their trust, not just my signature. Issued by Marshal Elian as proof of the Master trial. Consumed once when choosing a class.",
+      "level_requirement": 60,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_arcanum_base",
+      "name": "Resonance Thesis Prism",
+      "type": "QUEST_ITEM",
+      "rarity": "UNCOMMON",
+      "description": "An honest record, including uncertainty. That is a better beginning than a spectacular claim. Issued by Archsage Myr as proof of the Base trial. Consumed once when choosing a class.",
+      "level_requirement": 5,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_arcanum_advance",
+      "name": "Echo Calibration Lens",
+      "type": "QUEST_ITEM",
+      "rarity": "RARE",
+      "description": "The baseline holds. We can enter those caverns with a reasoned plan rather than a wish. Issued by Resonant Scholar Eira as proof of the Advance trial. Consumed once when choosing a class.",
+      "level_requirement": 20,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_arcanum_expert",
+      "name": "Peer Witness Crystal",
+      "type": "QUEST_ITEM",
+      "rarity": "EPIC",
+      "description": "Your evidence survives scrutiny. The witness crystal certifies the work, not infallibility. Issued by Examiner Thalen as proof of the Expert trial. Consumed once when choosing a class.",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_arcanum_master",
+      "name": "Arcanum Living Codex",
+      "type": "QUEST_ITEM",
+      "rarity": "LEGENDARY",
+      "description": "The expedition has returned. This codex remains open: your mastery includes admitting what we still do not know. Issued by First Archivist Neris as proof of the Master trial. Consumed once when choosing a class.",
+      "level_requirement": 60,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_iron_base",
+      "name": "Tempered Service Rivet",
+      "type": "QUEST_ITEM",
+      "rarity": "UNCOMMON",
+      "description": "The recovery lanes are usable. Good. That rivet was tempered in work, not ceremony. Issued by War Marshal Drax as proof of the Base trial. Consumed once when choosing a class.",
+      "level_requirement": 5,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_iron_advance",
+      "name": "Supplyline Iron Writ",
+      "type": "QUEST_ITEM",
+      "rarity": "RARE",
+      "description": "Supplies are moving. The crews will notice your result before they ever learn your rank. Issued by Quartermaster Rusk as proof of the Advance trial. Consumed once when choosing a class.",
+      "level_requirement": 20,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_iron_expert",
+      "name": "Forge Control Crest",
+      "type": "QUEST_ITEM",
+      "rarity": "EPIC",
+      "description": "The shutdown held. You chose the crews over a pleasing output figure. Issued by Forge Inspector Maela as proof of the Expert trial. Consumed once when choosing a class.",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_iron_master",
+      "name": "Bastion Command Plate",
+      "type": "QUEST_ITEM",
+      "rarity": "LEGENDARY",
+      "description": "The lattice is under our control. Take the plate, and remember exactly what command costs. Issued by General Torren as proof of the Master trial. Consumed once when choosing a class.",
+      "level_requirement": 60,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_meridian_base",
+      "name": "Vex's Signed Passage",
+      "type": "QUEST_ITEM",
+      "rarity": "UNCOMMON",
+      "description": "The ferry crew is safe. A useful favor, and a signature I will remember. Issued by Captain Vex as proof of the Base trial. Consumed once when choosing a class.",
+      "level_requirement": 5,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_meridian_advance",
+      "name": "Unlisted Route Cipher",
+      "type": "QUEST_ITEM",
+      "rarity": "RARE",
+      "description": "The carriers are moving. Your cipher is earned; the network will answer your call. Issued by Route Broker Lysa as proof of the Advance trial. Consumed once when choosing a class.",
+      "level_requirement": 20,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_meridian_expert",
+      "name": "Deepwater Guarantee Seal",
+      "type": "QUEST_ITEM",
+      "rarity": "EPIC",
+      "description": "The divers came back breathing. That is a guarantee I am willing to sign. Issued by Diver Marshal Corin as proof of the Expert trial. Consumed once when choosing a class.",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_meridian_master",
+      "name": "Meridian Covenant Coin",
+      "type": "QUEST_ITEM",
+      "rarity": "LEGENDARY",
+      "description": "No one was left below. Keep the coin. It is a promise with witnesses, not loose currency. Issued by Keeper of Debts Sable as proof of the Master trial. Consumed once when choosing a class.",
+      "level_requirement": 60,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_omnicorp_base",
+      "name": "Astra's Competency Wafer",
+      "type": "QUEST_ITEM",
+      "rarity": "UNCOMMON",
+      "description": "Result verified. The wafer is signed. Your next discipline will be judged by what you do with it. Issued by Director Astra Vey as proof of the Base trial. Consumed once when choosing a class.",
+      "level_requirement": 5,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_omnicorp_advance",
+      "name": "Delta Recovery License",
+      "type": "QUEST_ITEM",
+      "rarity": "RARE",
+      "description": "The crew has safe access. That is the recovery figure I am filing. Issued by Operations Lead Tessa Lin as proof of the Advance trial. Consumed once when choosing a class.",
+      "level_requirement": 20,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_omnicorp_expert",
+      "name": "Reactor Override Key",
+      "type": "QUEST_ITEM",
+      "rarity": "EPIC",
+      "description": "Access is restored and the audit trail is intact. Your override key is approved. Issued by Chief Auditor Ren as proof of the Expert trial. Consumed once when choosing a class.",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_omnicorp_master",
+      "name": "OmniCorp Executive Mandate",
+      "type": "QUEST_ITEM",
+      "rarity": "LEGENDARY",
+      "description": "The failure was contained here. Your mandate records a decision we are prepared to stand behind. Issued by Executive Director Iona Hale as proof of the Master trial. Consumed once when choosing a class.",
+      "level_requirement": 60,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_shard_base",
+      "name": "Listening Shard",
+      "type": "QUEST_ITEM",
+      "rarity": "UNCOMMON",
+      "description": "The seed keepers can pass. Hold the shard gently; learning to listen has only begun. Issued by Oracle Seraphel as proof of the Base trial. Consumed once when choosing a class.",
+      "level_requirement": 5,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_shard_advance",
+      "name": "Rootmemory Votive",
+      "type": "QUEST_ITEM",
+      "rarity": "RARE",
+      "description": "The root paths are open. Your votive remembers the people who can use them again. Issued by Root Listener Amara as proof of the Advance trial. Consumed once when choosing a class.",
+      "level_requirement": 20,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_shard_expert",
+      "name": "Heartwood Witness Stone",
+      "type": "QUEST_ITEM",
+      "rarity": "EPIC",
+      "description": "You named the wound and made room to mend it. The witness stone carries that truth. Issued by Woundkeeper Oriel as proof of the Expert trial. Consumed once when choosing a class.",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_shard_master",
+      "name": "Sanctum Keeper Reliquary",
+      "type": "QUEST_ITEM",
+      "rarity": "LEGENDARY",
+      "description": "Those who follow us will have a safe approach. The reliquary holds your vow to keep listening. Issued by Elder Naeva as proof of the Master trial. Consumed once when choosing a class.",
+      "level_requirement": 60,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_legion_base",
+      "name": "Valka's Formation Knot",
+      "type": "QUEST_ITEM",
+      "rarity": "UNCOMMON",
+      "description": "The water runners are back. Tie the knot yourself. You have a place beside us. Issued by Centurion Valka as proof of the Base trial. Consumed once when choosing a class.",
+      "level_requirement": 5,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_legion_advance",
+      "name": "Marchwarden Standard Tab",
+      "type": "QUEST_ITEM",
+      "rarity": "RARE",
+      "description": "The march can continue. This tab belongs on a standard carried with others. Issued by Marchwarden Sera as proof of the Advance trial. Consumed once when choosing a class.",
+      "level_requirement": 20,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_legion_expert",
+      "name": "Rollkeeper Steel Token",
+      "type": "QUEST_ITEM",
+      "rarity": "EPIC",
+      "description": "The work crews have returned to the rolls. Keep this token where you can feel its weight. Issued by Rollkeeper Bren as proof of the Expert trial. Consumed once when choosing a class.",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
+    },
+    {
+      "id": "class_proof_legion_master",
+      "name": "Starforged Hearth Standard",
+      "type": "QUEST_ITEM",
+      "rarity": "LEGENDARY",
+      "description": "The approach is ours again. Raise the hearth standard for a home people can live in. Issued by Legate Ashra as proof of the Master trial. Consumed once when choosing a class.",
+      "level_requirement": 60,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 1,
+      "icon_image": ""
     }
   ]
 }

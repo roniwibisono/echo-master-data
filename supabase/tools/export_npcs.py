@@ -8,7 +8,7 @@ import json, os, sys, urllib.request
 ORDER = ['npc_id','name','title','role','faction','location','region_id','description',
          'personality','greeting','available_services','actions','shop_inventory',
          'dialogue_tree','buy_currency','rest_currency','sell_note','quest_category',
-         'reward_currency']
+         'reward_currency', 'content_revision', 'emergency_blocked', 'is_active']
 OPTIONAL = {'personality','shop_inventory','buy_currency','rest_currency','sell_note',
             'quest_category','reward_currency'}
 

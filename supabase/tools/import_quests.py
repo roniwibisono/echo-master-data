@@ -17,10 +17,11 @@ FILES = [
     'quest_iron.json', 'quest_legion.json', 'quest_meridian.json',
     'quest_omnicorp.json', 'quest_shard.json', 'quest_neutral.json',
     'quest_events.json',
+    'quest_mysteries.json',
 ]
 COLS = ['id','title','type','rank','faction','region','description',
         'quest_giver','requirements','objectives','rewards','repeatable',
-        'daily','quest_chain_next','popup','popup_trigger','popup_level',
+        'daily','auto_accept','quest_chain_next','popup','popup_trigger','popup_level',
         'popup_prerequisite','source_file','sort_order']
 
 def s(v):
@@ -55,7 +56,7 @@ def main():
                 s(q.get('faction', '')), s(q.get('region')), s(q.get('description')),
                 jb(q.get('quest_giver')), jb(q.get('requirements')),
                 jb(q.get('objectives') or []), jb(q.get('rewards')),
-                b(q.get('repeatable')), b(q.get('daily')),
+                b(q.get('repeatable')), b(q.get('daily')), b(q.get('auto_accept')),
                 s(q.get('quest_chain_next')), b(q.get('popup')),
                 s(q.get('popup_trigger')), i(q.get('popup_level')),
                 s(q.get('popup_prerequisite')), s(fname), str(order),

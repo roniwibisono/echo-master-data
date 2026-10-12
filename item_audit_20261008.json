@@ -1,0 +1,1336 @@
+{
+  "date": "2026-10-08",
+  "before_raw_count": 1148,
+  "before_unique_count": 1104,
+  "after_count": 1090,
+  "removed_duplicate_rows": 44,
+  "duplicate_ids_kept_last": {
+    "core_fragment": 3,
+    "monster_material": 3,
+    "drake_heart": 3,
+    "ancient_scale": 3,
+    "void_core": 3,
+    "crystal_core": 2,
+    "mat_cradle_glass": 2,
+    "crs_resonance_crystal": 2,
+    "ore_iron_scrap": 2,
+    "ore_aethel_infused_steel": 2,
+    "ore_scorched_iron": 2,
+    "mat_dune_sandstone": 2,
+    "legendary_fire_core": 2,
+    "raid_token": 2,
+    "abyss_fragment": 3,
+    "token": 3,
+    "mat_iron_ingot": 2,
+    "machine_parts": 2,
+    "bandage_field": 2,
+    "healing_herb": 2,
+    "leather_strip": 2,
+    "wood_plank": 2,
+    "iron_ore": 2,
+    "copper_ore": 2,
+    "aethel_core": 2,
+    "con_full_hp_cell": 2,
+    "con_full_mp_cell": 2,
+    "con_antidote": 2,
+    "con_revive_shard": 2,
+    "con_exp_booster": 2,
+    "con_stat_reset_token": 2,
+    "con_void_repellent": 2,
+    "con_blessed_oil": 2,
+    "con_legion_iron_ration": 2,
+    "con_aethel_incense": 2,
+    "con_scramble_grenade": 2,
+    "con_nano_patch": 2
+  },
+  "retired_existing_ids": {
+    "cns_health_potion_small": "con_small_hp_cell",
+    "potion_minor_healing": "con_small_hp_cell",
+    "minor_health_potion": "con_small_hp_cell",
+    "basic_hp_potion": "con_small_hp_cell",
+    "itm_minor_hp_potion": "con_small_hp_cell",
+    "cns_mana_potion_small": "con_small_mp_cell",
+    "potion_minor_mana": "con_small_mp_cell",
+    "itm_minor_mp_potion": "con_small_mp_cell",
+    "advanced_hp_potion": "con_medium_hp_cell",
+    "itm_hp_potion": "con_medium_hp_cell",
+    "itm_mp_potion": "con_medium_mp_cell",
+    "itm_greater_hp_potion": "con_large_hp_cell",
+    "itm_greater_mp_potion": "con_large_mp_cell",
+    "itm_full_heal_potion": "con_full_recovery_pack",
+    "con_revive_shard": "itm_revive_shard",
+    "storm_core": "mat_storm_core",
+    "iron_ore": "mat_iron_ore",
+    "crs_paradox_crystal": "paradox_crystal",
+    "scarab_shell": "bio_scarab_shell"
+  },
+  "undefined_ids_replaced": {
+    "mat_metal": "scrap_metal",
+    "potion_medium_healing": "con_medium_hp_cell",
+    "potion_medium_mana": "con_medium_mp_cell",
+    "potion_major_healing": "con_large_hp_cell",
+    "ration_field": "con_nutrient_ration",
+    "antidote_basic": "con_antidote",
+    "grenade_frag": "con_scramble_grenade",
+    "smoke_bomb": "con_minor_stim_pack",
+    "stim_combat": "con_combat_stimulant",
+    "armor_patch_basic": "con_repair_patch",
+    "repair_kit_field": "con_repair_patch",
+    "aethel_dust": "mat_aethel_dust",
+    "resonant_shard": "crs_resonant_shard",
+    "revival_shard": "itm_revive_shard",
+    "cleanse_vial": "con_antidote",
+    "mp_cell_small": "con_small_mp_cell",
+    "mp_cell_large": "con_large_mp_cell"
+  },
+  "new_items": [
+    {
+      "id": "con_small_energy_cell",
+      "name": "Small Energy Cell",
+      "description": "A portable Aethel battery. Restores 25 exploration energy; excess energy is stored as overcharge.",
+      "type": "CONSUMABLE",
+      "rarity": "COMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [
+        {
+          "effect_id": "restore_energy",
+          "value": 25
+        }
+      ],
+      "buy_price": 80,
+      "sell_price": 20,
+      "max_stack": 99,
+      "icon_image": "icons/items/consumables/con_small_mp_cell.png"
+    },
+    {
+      "id": "con_large_energy_cell",
+      "name": "Large Energy Cell",
+      "description": "A high-capacity Aethel battery. Restores 60 exploration energy; excess energy is stored as overcharge.",
+      "type": "CONSUMABLE",
+      "rarity": "UNCOMMON",
+      "level_requirement": 15,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [
+        {
+          "effect_id": "restore_energy",
+          "value": 60
+        }
+      ],
+      "buy_price": 210,
+      "sell_price": 52,
+      "max_stack": 50,
+      "icon_image": "icons/items/consumables/large_mp_cell.png"
+    },
+    {
+      "id": "con_field_recovery_pack",
+      "name": "Field Recovery Pack",
+      "description": "A dual-chamber field med-kit. Restores 120 HP and 60 MP in one use.",
+      "type": "CONSUMABLE",
+      "rarity": "UNCOMMON",
+      "level_requirement": 5,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [
+        {
+          "effect_id": "restore_hp",
+          "value": 120
+        },
+        {
+          "effect_id": "restore_mp",
+          "value": 60
+        }
+      ],
+      "buy_price": 100,
+      "sell_price": 25,
+      "max_stack": 50,
+      "icon_image": "icons/items/consumables/elite_recovery_pack.png"
+    },
+    {
+      "id": "con_full_recovery_pack",
+      "name": "Full Recovery Pack",
+      "description": "A premium nanomedical resupply kit. Restores 100% of maximum HP and MP. Does not revive defeated allies.",
+      "type": "CONSUMABLE",
+      "rarity": "EPIC",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [
+        {
+          "effect_id": "restore_hp_percent",
+          "value": 100
+        },
+        {
+          "effect_id": "restore_mp_percent",
+          "value": 100
+        }
+      ],
+      "buy_price": 5500,
+      "sell_price": 1375,
+      "max_stack": 10,
+      "icon_image": "icons/items/consumables/elite_recovery_pack.png"
+    },
+    {
+      "id": "cns_clean_water",
+      "name": "Sterile Water",
+      "description": "Purified field water used to assemble medical cells and nutrient supplies.",
+      "type": "MATERIAL",
+      "rarity": "COMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 4,
+      "sell_price": 1,
+      "max_stack": 999,
+      "icon_image": "icons/items/consumables/con_nutrient_ration.png"
+    }
+  ],
+  "updated_items": [
+    {
+      "id": "mat_storm_core",
+      "name": "Storm Core",
+      "description": "Energy core harvested from storm entities. Pulsing with raw power.",
+      "type": "MATERIAL",
+      "rarity": "RARE",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": null,
+      "special_effects": [],
+      "buy_price": 500,
+      "sell_price": 125,
+      "max_stack": 99,
+      "icon_image": "materials/mat_storm_core.png",
+      "sort_order": 3
+    },
+    {
+      "id": "mat_iron_ore",
+      "name": "Iron Ore",
+      "description": "Raw, unrefined iron. Can be smelted into ingots at a forge.",
+      "type": "MATERIAL",
+      "rarity": "COMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 10,
+      "sell_price": 2,
+      "max_stack": 999,
+      "icon_image": "materials/mat_iron_ore.png",
+      "sort_order": 12
+    },
+    {
+      "id": "con_small_hp_cell",
+      "name": "Small HP Cell",
+      "description": "A compact energy capsule used to restore a small amount of health.",
+      "type": "CONSUMABLE",
+      "rarity": "COMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "effect": "restore_hp",
+          "value": 50
+        }
+      ],
+      "buy_price": 20,
+      "sell_price": 5,
+      "max_stack": 99,
+      "icon_image": "icons/items/consumables/small_hp_potion.png",
+      "sort_order": 15
+    },
+    {
+      "id": "con_small_mp_cell",
+      "name": "Small MP Cell",
+      "description": "A compact energy capsule used to restore mental energy.",
+      "type": "CONSUMABLE",
+      "rarity": "COMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "effect": "restore_mp",
+          "value": 30
+        }
+      ],
+      "buy_price": 22,
+      "sell_price": 6,
+      "max_stack": 99,
+      "icon_image": "icons/items/consumables/con_small_mp_cell.png",
+      "sort_order": 16
+    },
+    {
+      "id": "con_minor_stim_pack",
+      "name": "Minor Stim Pack",
+      "description": "A quick injector that slightly boosts combat reflexes.",
+      "type": "CONSUMABLE",
+      "rarity": "COMMON",
+      "level_requirement": 3,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 5,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "effect": "duration",
+          "value": 30
+        }
+      ],
+      "buy_price": 30,
+      "sell_price": 8,
+      "max_stack": 50,
+      "icon_image": "icons/items/consumables/con_minor_stim_pack.png",
+      "sort_order": 17
+    },
+    {
+      "id": "con_nutrient_ration",
+      "name": "Nutrient Ration",
+      "description": "A standard field ration. Restores 20 HP; does not restore exploration energy.",
+      "type": "CONSUMABLE",
+      "rarity": "COMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 20,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 12,
+      "sell_price": 3,
+      "max_stack": 99,
+      "icon_image": "icons/items/consumables/con_nutrient_ration.png",
+      "sort_order": 18
+    },
+    {
+      "id": "con_repair_patch",
+      "name": "Field Repair Patch",
+      "description": "Nanofiber patch used to repair armor integrity in the field.",
+      "type": "CONSUMABLE",
+      "rarity": "COMMON",
+      "level_requirement": 5,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 10,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "effect": "duration",
+          "value": 20
+        }
+      ],
+      "buy_price": 28,
+      "sell_price": 7,
+      "max_stack": 50,
+      "icon_image": "icons/items/consumables/con_repair_patch.png",
+      "sort_order": 19
+    },
+    {
+      "id": "con_medium_hp_cell",
+      "name": "Medium HP Cell",
+      "description": "A medical energy cell that restores 200 HP.",
+      "type": "CONSUMABLE",
+      "rarity": "UNCOMMON",
+      "level_requirement": 8,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "effect_id": "restore_hp",
+          "value": 200
+        }
+      ],
+      "buy_price": 60,
+      "sell_price": 18,
+      "max_stack": 99,
+      "icon_image": "icons/items/consumables/medium_hp_potion.png",
+      "sort_order": 20
+    },
+    {
+      "id": "con_medium_mp_cell",
+      "name": "Medium MP Cell",
+      "description": "A medical energy cell that restores 120 MP.",
+      "type": "CONSUMABLE",
+      "rarity": "UNCOMMON",
+      "level_requirement": 8,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "effect_id": "restore_mp",
+          "value": 120
+        }
+      ],
+      "buy_price": 65,
+      "sell_price": 20,
+      "max_stack": 99,
+      "icon_image": "icons/items/consumables/con_medium_mp_cell.png",
+      "sort_order": 21
+    },
+    {
+      "id": "con_combat_stimulant",
+      "name": "Combat Stimulant",
+      "description": "Temporary enhancer that increases attack power.",
+      "type": "CONSUMABLE",
+      "rarity": "UNCOMMON",
+      "level_requirement": 10,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 15,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "effect": "duration",
+          "value": 40
+        }
+      ],
+      "buy_price": 75,
+      "sell_price": 22,
+      "max_stack": 50,
+      "icon_image": "icons/items/consumables/combat_stimulant.png",
+      "sort_order": 22
+    },
+    {
+      "id": "con_large_hp_cell",
+      "name": "Large HP Cell",
+      "description": "A medical energy cell that restores 500 HP.",
+      "type": "CONSUMABLE",
+      "rarity": "RARE",
+      "level_requirement": 18,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "effect_id": "restore_hp",
+          "value": 500
+        }
+      ],
+      "buy_price": 150,
+      "sell_price": 45,
+      "max_stack": 50,
+      "icon_image": "icons/items/consumables/large_hp_potion.png",
+      "sort_order": 25
+    },
+    {
+      "id": "con_large_mp_cell",
+      "name": "Large MP Cell",
+      "description": "A medical energy cell that restores 300 MP.",
+      "type": "CONSUMABLE",
+      "rarity": "RARE",
+      "level_requirement": 18,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "effect_id": "restore_mp",
+          "value": 300
+        }
+      ],
+      "buy_price": 160,
+      "sell_price": 48,
+      "max_stack": 50,
+      "icon_image": "icons/items/consumables/large_mp_cell.png",
+      "sort_order": 26
+    },
+    {
+      "id": "boots_scout_boots",
+      "name": "Reinforced Scout Boots",
+      "description": "Reinforced patrol boots with improved protection and perception.",
+      "type": "BOOTS",
+      "rarity": "COMMON",
+      "level_requirement": 6,
+      "equipment_slots": [
+        "FEET"
+      ],
+      "stats_bonus": {
+        "hp": 10,
+        "mp": 0,
+        "atk": 0,
+        "def": 4,
+        "agi": 5,
+        "per": 1
+      },
+      "special_effects": [],
+      "buy_price": 170,
+      "sell_price": 42,
+      "max_stack": 1,
+      "icon_image": "icons/items/weapons/arm_scout_boots.png",
+      "sort_order": 44
+    },
+    {
+      "id": "paradox_crystal",
+      "name": "Paradox Crystal",
+      "description": "A crystal that distorts time and probability around it.",
+      "type": "MATERIAL",
+      "rarity": "LEGENDARY",
+      "level_requirement": 73,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 5600,
+      "sell_price": 1700,
+      "max_stack": 10,
+      "icon_image": "icons/items/materials/paradox_crystal.png",
+      "sort_order": 158
+    },
+    {
+      "id": "mat_aethel_dust",
+      "name": "Aethel Dust",
+      "description": "Microscopic particles of crystallized Aethel energy. Often used in experimental alchemy and low-tier energy catalysts.",
+      "type": "MATERIAL",
+      "rarity": "COMMON",
+      "level_requirement": 3,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 22,
+      "sell_price": 7,
+      "max_stack": 99,
+      "icon_image": "materials/mat_aethel_dust.png",
+      "sort_order": 164
+    },
+    {
+      "id": "crs_resonant_shard",
+      "name": "Resonant Shard",
+      "description": "A crystal shard that hums softly when exposed to concentrated Aethel radiation.",
+      "type": "MATERIAL",
+      "rarity": "COMMON",
+      "level_requirement": 5,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 30,
+      "sell_price": 10,
+      "max_stack": 99,
+      "icon_image": "icons/items/materials/resonant_shard.png",
+      "sort_order": 172
+    },
+    {
+      "id": "bio_shard_essence",
+      "name": "Mutated Shard Bio-Essence",
+      "description": "A biological extract from shard-mutated organisms, distinct from altar-distilled Shard Essence.",
+      "type": "MATERIAL",
+      "rarity": "RARE",
+      "level_requirement": 28,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 480,
+      "sell_price": 160,
+      "max_stack": 20,
+      "icon_image": "icons/items/materials/shard_essence.png",
+      "sort_order": 200
+    },
+    {
+      "id": "bio_scarab_shell",
+      "name": "Scarab Shell",
+      "description": "The hardened carapace of desert scarabs mutated by Aethel radiation.",
+      "type": "MATERIAL",
+      "rarity": "COMMON",
+      "level_requirement": 6,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 32,
+      "sell_price": 11,
+      "max_stack": 99,
+      "icon_image": "icons/items/materials/scarab_shell.png",
+      "sort_order": 204
+    },
+    {
+      "id": "art_prima_materia",
+      "name": "Refined Aethel Essence",
+      "description": "A rare refined Aethel catalyst. Distinct from mythic Prima Materia used for endgame upgrades.",
+      "type": "MATERIAL",
+      "rarity": "RARE",
+      "level_requirement": 45,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 1250,
+      "sell_price": 420,
+      "max_stack": 20,
+      "icon_image": "icons/items/materials/prima_materia.png",
+      "sort_order": 219
+    },
+    {
+      "id": "crs_core_fragment",
+      "name": "Concentrated Aethel Core Fragment",
+      "description": "A high-grade reactor fragment with concentrated Aethel energy. Distinct from ordinary core fragments.",
+      "type": "MATERIAL",
+      "rarity": "RARE",
+      "level_requirement": 50,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "hp": 0,
+        "mp": 0,
+        "atk": 0,
+        "def": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 1500,
+      "sell_price": 500,
+      "max_stack": 20,
+      "icon_image": "icons/items/materials/aethel_core_fragment.png",
+      "sort_order": 220
+    },
+    {
+      "id": "wpn_t005_weapon1",
+      "name": "Reinforced Rusted Blade",
+      "description": "A common blade crafted for Lv.5 combatants. Rusted-tier quality.",
+      "type": "WEAPON",
+      "rarity": "COMMON",
+      "level_requirement": 5,
+      "equipment_slots": [
+        "MAIN_HAND"
+      ],
+      "stats_bonus": {
+        "atk": 7,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 2
+      },
+      "special_effects": [],
+      "buy_price": 175,
+      "sell_price": 43,
+      "max_stack": 1,
+      "icon_image": "icons/items/weapons/wpn_005.png",
+      "sort_order": 360
+    },
+    {
+      "id": "wpn2_t005_weapon2",
+      "name": "Reinforced Rusted Offhand Blade",
+      "description": "A common offhand blade crafted for Lv.5 combatants. Rusted-tier quality.",
+      "type": "OFFHAND",
+      "rarity": "COMMON",
+      "level_requirement": 5,
+      "equipment_slots": [
+        "OFF_HAND"
+      ],
+      "stats_bonus": {
+        "atk": 7,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 2
+      },
+      "special_effects": [],
+      "buy_price": 175,
+      "sell_price": 43,
+      "max_stack": 1,
+      "icon_image": "icons/items/weapons/wpn2_005.png",
+      "sort_order": 381
+    },
+    {
+      "id": "hlm_t005_helmet",
+      "name": "Reinforced Rusted Helm",
+      "description": "A common helm crafted for Lv.5 combatants. Rusted-tier quality.",
+      "type": "HELMET",
+      "rarity": "COMMON",
+      "level_requirement": 5,
+      "equipment_slots": [
+        "HEAD"
+      ],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 7,
+        "hp": 21,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 175,
+      "sell_price": 43,
+      "max_stack": 1,
+      "icon_image": "icons/items/helmets/hlm_005.png",
+      "sort_order": 402
+    },
+    {
+      "id": "arm_t005_armor",
+      "name": "Reinforced Rusted Armor",
+      "description": "A common armor crafted for Lv.5 combatants. Rusted-tier quality.",
+      "type": "ARMOR",
+      "rarity": "COMMON",
+      "level_requirement": 5,
+      "equipment_slots": [
+        "BODY"
+      ],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 7,
+        "hp": 21,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 175,
+      "sell_price": 43,
+      "max_stack": 1,
+      "icon_image": "icons/items/armors/arm_005.png",
+      "sort_order": 423
+    },
+    {
+      "id": "glv_t005_glove",
+      "name": "Reinforced Rusted Gauntlets",
+      "description": "A common gauntlets crafted for Lv.5 combatants. Rusted-tier quality.",
+      "type": "GLOVE",
+      "rarity": "COMMON",
+      "level_requirement": 5,
+      "equipment_slots": [
+        "HANDS"
+      ],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 7,
+        "per": 3
+      },
+      "special_effects": [],
+      "buy_price": 175,
+      "sell_price": 43,
+      "max_stack": 1,
+      "icon_image": "icons/items/gloves/glv_005.png",
+      "sort_order": 444
+    },
+    {
+      "id": "trs_t005_trouser",
+      "name": "Reinforced Rusted Legguards",
+      "description": "A common legguards crafted for Lv.5 combatants. Rusted-tier quality.",
+      "type": "TROUSER",
+      "rarity": "COMMON",
+      "level_requirement": 5,
+      "equipment_slots": [
+        "LEGS"
+      ],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 7,
+        "hp": 21,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [],
+      "buy_price": 175,
+      "sell_price": 43,
+      "max_stack": 1,
+      "icon_image": "icons/items/trousers/trs_005.png",
+      "sort_order": 465
+    },
+    {
+      "id": "bts_t005_boots",
+      "name": "Reinforced Rusted Boots",
+      "description": "A common boots crafted for Lv.5 combatants. Rusted-tier quality.",
+      "type": "BOOTS",
+      "rarity": "COMMON",
+      "level_requirement": 5,
+      "equipment_slots": [
+        "FEET"
+      ],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 7,
+        "per": 3
+      },
+      "special_effects": [],
+      "buy_price": 175,
+      "sell_price": 43,
+      "max_stack": 1,
+      "icon_image": "icons/items/boots/bts_005.png",
+      "sort_order": 486
+    },
+    {
+      "id": "acc1_t005_accessory1",
+      "name": "Reinforced Rusted Ring",
+      "description": "A common ring crafted for Lv.5 combatants. Rusted-tier quality.",
+      "type": "ACCESSORY",
+      "rarity": "COMMON",
+      "level_requirement": 5,
+      "equipment_slots": [
+        "ACCESSORY_1"
+      ],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 4,
+        "per": 7
+      },
+      "special_effects": [],
+      "buy_price": 175,
+      "sell_price": 43,
+      "max_stack": 1,
+      "icon_image": "icons/items/accessories/acc1_005.png",
+      "sort_order": 507
+    },
+    {
+      "id": "acc2_t005_accessory2",
+      "name": "Reinforced Rusted Amulet",
+      "description": "A common amulet crafted for Lv.5 combatants. Rusted-tier quality.",
+      "type": "ACCESSORY",
+      "rarity": "COMMON",
+      "level_requirement": 5,
+      "equipment_slots": [
+        "ACCESSORY_1"
+      ],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 42,
+        "agi": 0,
+        "per": 3
+      },
+      "special_effects": [],
+      "buy_price": 175,
+      "sell_price": 43,
+      "max_stack": 1,
+      "icon_image": "icons/items/accessories/acc2_005.png",
+      "sort_order": 528
+    },
+    {
+      "id": "con_full_hp_cell",
+      "name": "Full HP Cell",
+      "description": "Fully restores HP. For emergencies only — the cost reflects it.",
+      "type": "CONSUMABLE",
+      "rarity": "EPIC",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": null,
+      "special_effects": [
+        {
+          "effect_id": "restore_hp_percent",
+          "value": 100
+        }
+      ],
+      "buy_price": 2500,
+      "sell_price": 625,
+      "max_stack": 10,
+      "icon_image": "icons/items/consumables/full_hp_cell.png",
+      "sort_order": 586
+    },
+    {
+      "id": "con_full_mp_cell",
+      "name": "Full MP Cell",
+      "description": "Fully restores MP. Extremely rare outside OmniCorp supply chains.",
+      "type": "CONSUMABLE",
+      "rarity": "EPIC",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": null,
+      "special_effects": [
+        {
+          "effect_id": "restore_mp_percent",
+          "value": 100
+        }
+      ],
+      "buy_price": 2800,
+      "sell_price": 700,
+      "max_stack": 10,
+      "icon_image": "icons/items/consumables/full_mp_cell.png",
+      "sort_order": 587
+    },
+    {
+      "id": "con_antidote",
+      "name": "Antidote",
+      "description": "Cures all Poison and Burn status effects instantly.",
+      "type": "CONSUMABLE",
+      "rarity": "UNCOMMON",
+      "level_requirement": 5,
+      "equipment_slots": [],
+      "stats_bonus": null,
+      "special_effects": [
+        {
+          "type": "cleanse",
+          "value": "poison,burn",
+          "duration_turns": 0
+        }
+      ],
+      "buy_price": 45,
+      "sell_price": 11,
+      "max_stack": 99,
+      "icon_image": "icons/items/consumables/antidote.png",
+      "sort_order": 588
+    },
+    {
+      "id": "con_scramble_grenade",
+      "name": "Scramble Grenade",
+      "description": "A Meridian Cartel tech device. Reduces all enemy ATK by 20% for 2 turns when used in battle.",
+      "type": "CONSUMABLE",
+      "rarity": "RARE",
+      "level_requirement": 25,
+      "equipment_slots": [],
+      "stats_bonus": null,
+      "special_effects": [
+        {
+          "type": "battle_enemy_atk_debuff",
+          "value": -20,
+          "duration_turns": 2
+        }
+      ],
+      "buy_price": 350,
+      "sell_price": 88,
+      "max_stack": 30,
+      "icon_image": "icons/items/consumables/scramble_grenade.png",
+      "sort_order": 595
+    },
+    {
+      "id": "itm_revive_shard",
+      "name": "Revival Shard",
+      "description": "A shard of crystallised life-force. Revives a defeated ally with 50% HP.",
+      "type": "CONSUMABLE",
+      "rarity": "UNCOMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [
+        {
+          "effect_id": "revive_ally",
+          "value": 50
+        }
+      ],
+      "icon_image": "itm_revive_shard",
+      "buy_price": 350,
+      "sell_price": 120,
+      "max_stack": 10,
+      "sort_order": 597
+    },
+    {
+      "id": "itm_phoenix_core",
+      "name": "Phoenix Reboot Core",
+      "description": "An Aethel-powered resuscitation core. Revives a defeated ally with full HP and MP.",
+      "type": "CONSUMABLE",
+      "rarity": "RARE",
+      "level_requirement": 10,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [
+        {
+          "effect_id": "revive_ally_full",
+          "value": 100
+        }
+      ],
+      "icon_image": "itm_phoenix_core",
+      "buy_price": 1200,
+      "sell_price": 450,
+      "max_stack": 5,
+      "sort_order": 598
+    },
+    {
+      "id": "itm_revival_elixir",
+      "name": "Emergency Revival Injector",
+      "description": "A nanomedical injector. Revives a defeated ally with 30% HP.",
+      "type": "CONSUMABLE",
+      "rarity": "COMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [
+        {
+          "effect_id": "revive_ally",
+          "value": 30
+        }
+      ],
+      "icon_image": "itm_revival_elixir",
+      "buy_price": 200,
+      "sell_price": 65,
+      "max_stack": 20,
+      "sort_order": 599
+    },
+    {
+      "id": "con_small_energy_cell",
+      "name": "Small Energy Cell",
+      "description": "A portable Aethel battery. Restores 25 exploration energy; excess energy is stored as overcharge.",
+      "type": "CONSUMABLE",
+      "rarity": "COMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [
+        {
+          "effect_id": "restore_energy",
+          "value": 25
+        }
+      ],
+      "buy_price": 80,
+      "sell_price": 20,
+      "max_stack": 99,
+      "icon_image": "icons/items/consumables/con_small_mp_cell.png",
+      "sort_order": 1085
+    },
+    {
+      "id": "con_large_energy_cell",
+      "name": "Large Energy Cell",
+      "description": "A high-capacity Aethel battery. Restores 60 exploration energy; excess energy is stored as overcharge.",
+      "type": "CONSUMABLE",
+      "rarity": "UNCOMMON",
+      "level_requirement": 15,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [
+        {
+          "effect_id": "restore_energy",
+          "value": 60
+        }
+      ],
+      "buy_price": 210,
+      "sell_price": 52,
+      "max_stack": 50,
+      "icon_image": "icons/items/consumables/large_mp_cell.png",
+      "sort_order": 1086
+    },
+    {
+      "id": "con_field_recovery_pack",
+      "name": "Field Recovery Pack",
+      "description": "A dual-chamber field med-kit. Restores 120 HP and 60 MP in one use.",
+      "type": "CONSUMABLE",
+      "rarity": "UNCOMMON",
+      "level_requirement": 5,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [
+        {
+          "effect_id": "restore_hp",
+          "value": 120
+        },
+        {
+          "effect_id": "restore_mp",
+          "value": 60
+        }
+      ],
+      "buy_price": 100,
+      "sell_price": 25,
+      "max_stack": 50,
+      "icon_image": "icons/items/consumables/elite_recovery_pack.png",
+      "sort_order": 1087
+    },
+    {
+      "id": "con_full_recovery_pack",
+      "name": "Full Recovery Pack",
+      "description": "A premium nanomedical resupply kit. Restores 100% of maximum HP and MP. Does not revive defeated allies.",
+      "type": "CONSUMABLE",
+      "rarity": "EPIC",
+      "level_requirement": 40,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [
+        {
+          "effect_id": "restore_hp_percent",
+          "value": 100
+        },
+        {
+          "effect_id": "restore_mp_percent",
+          "value": 100
+        }
+      ],
+      "buy_price": 5500,
+      "sell_price": 1375,
+      "max_stack": 10,
+      "icon_image": "icons/items/consumables/elite_recovery_pack.png",
+      "sort_order": 1088
+    },
+    {
+      "id": "cns_clean_water",
+      "name": "Sterile Water",
+      "description": "Purified field water used to assemble medical cells and nutrient supplies.",
+      "type": "MATERIAL",
+      "rarity": "COMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {},
+      "special_effects": [],
+      "buy_price": 4,
+      "sell_price": 1,
+      "max_stack": 999,
+      "icon_image": "icons/items/consumables/con_nutrient_ration.png",
+      "sort_order": 1089
+    }
+  ],
+  "changed_reference_files": [
+    "shop_inventory.json",
+    "monster_master.json",
+    "crafting_recipes.json",
+    "biome_item_mapping.json",
+    "dungeon_db.json",
+    "quest_arcanum.json",
+    "quest_concordium.json",
+    "quest_iron.json",
+    "quest_legion.json",
+    "quest_list.json",
+    "quest_meridian.json",
+    "quest_omnicorp.json",
+    "quest_shard.json"
+  ],
+  "changed_shops": [
+    "shop_general_01",
+    "shop_materials_01",
+    "shop_scrap_01",
+    "shop_scrap_02",
+    "shop_crystal_01",
+    "shop_tech_01",
+    "shop_blackmarket_01",
+    "shop_blackmarket_02",
+    "shop_hermit_01",
+    "shop_wasteland_01",
+    "shop_medic_01",
+    "shop_rare_01",
+    "shop_orbital_exchange",
+    "shop_materials_02",
+    "shop_currency_omnicorp",
+    "shop_currency_shard",
+    "shop_currency_custodian",
+    "shop_concordium_capital",
+    "shop_arcanum_capital",
+    "shop_hegemony_capital",
+    "shop_meridian_capital",
+    "shop_omnicorp_capital",
+    "shop_shard_capital",
+    "shop_legion_capital",
+    "shop_crossroad_basic",
+    "shop_bazaar_advanced",
+    "shop_orbital_elite",
+    "shop_crossroad_blacksmith",
+    "shop_abyssal_smith",
+    "shop_nexus_elara",
+    "shop_nexus_grath",
+    "shop_nexus_sable",
+    "shop_nexus_mira_medical"
+  ],
+  "removed_shop_listings": [
+    {
+      "shop_id": "shop_general_01",
+      "item_id": "con_small_hp_cell",
+      "reason": "duplicate_listing"
+    },
+    {
+      "shop_id": "shop_general_01",
+      "item_id": "con_small_mp_cell",
+      "reason": "duplicate_listing"
+    },
+    {
+      "shop_id": "shop_hermit_01",
+      "item_id": "con_small_hp_cell",
+      "reason": "duplicate_listing"
+    },
+    {
+      "shop_id": "shop_materials_02",
+      "item_id": "mat_iron_ore",
+      "reason": "duplicate_listing"
+    },
+    {
+      "shop_id": "shop_concordium_capital",
+      "item_id": "con_small_hp_cell",
+      "reason": "duplicate_listing"
+    },
+    {
+      "shop_id": "shop_concordium_capital",
+      "item_id": "con_small_mp_cell",
+      "reason": "duplicate_listing"
+    },
+    {
+      "shop_id": "shop_arcanum_capital",
+      "item_id": "con_small_mp_cell",
+      "reason": "duplicate_listing"
+    },
+    {
+      "shop_id": "shop_hegemony_capital",
+      "item_id": "con_small_hp_cell",
+      "reason": "duplicate_listing"
+    },
+    {
+      "shop_id": "shop_omnicorp_capital",
+      "item_id": "con_small_mp_cell",
+      "reason": "duplicate_listing"
+    },
+    {
+      "shop_id": "shop_shard_capital",
+      "item_id": "con_small_hp_cell",
+      "reason": "duplicate_listing"
+    },
+    {
+      "shop_id": "shop_legion_capital",
+      "item_id": "con_small_hp_cell",
+      "reason": "duplicate_listing"
+    },
+    {
+      "shop_id": "shop_crossroad_basic",
+      "item_id": "con_small_hp_cell",
+      "reason": "duplicate_listing"
+    },
+    {
+      "shop_id": "shop_crossroad_basic",
+      "item_id": "con_small_mp_cell",
+      "reason": "duplicate_listing"
+    },
+    {
+      "shop_id": "shop_bazaar_advanced",
+      "item_id": "core_fragment",
+      "reason": "loot_only_no_buy_price"
+    },
+    {
+      "shop_id": "shop_orbital_elite",
+      "item_id": "drake_heart",
+      "reason": "loot_only_no_buy_price"
+    },
+    {
+      "shop_id": "shop_nexus_elara",
+      "item_id": "con_small_hp_cell",
+      "reason": "duplicate_listing"
+    },
+    {
+      "shop_id": "shop_nexus_elara",
+      "item_id": "con_medium_hp_cell",
+      "reason": "duplicate_listing"
+    },
+    {
+      "shop_id": "shop_nexus_grath",
+      "item_id": "con_repair_patch",
+      "reason": "duplicate_listing"
+    },
+    {
+      "shop_id": "shop_nexus_sable",
+      "item_id": "echo_memory_core_low",
+      "reason": "loot_only_no_buy_price"
+    },
+    {
+      "shop_id": "shop_nexus_mira_medical",
+      "item_id": "con_large_hp_cell",
+      "reason": "duplicate_listing"
+    }
+  ],
+  "notes": [
+    "Small HP/MP cells retain 50 HP / 30 MP. Medium cells now restore 200 HP / 120 MP; large cells 500 HP / 300 MP.",
+    "Original canonical prices and stock limits are retained. Distinct material grades and gear tiers are renamed, not merged.",
+    "Herbs, bandages, faction rations, buff tiers and loot crates have distinct costs/provenance/effects and are retained.",
+    "Revival uses the itm_* IDs explicitly recognized by the client ally screen. Stable crafting recipe IDs are retained.",
+    "Legacy Supabase rows use canonical definitions for saved inventories. They are not new shop or quest supplies.",
+    "Crafting, biome and dungeon files are CDN/local data; redeploy those JSON files along with the item catalog.",
+    "Existing cleanse, grenade, HoT and some utility consumables need client support beyond recovery-only combat. No new unsupported effects are added."
+  ]
+}

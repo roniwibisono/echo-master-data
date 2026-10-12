@@ -4,6 +4,7 @@ Tiered, data-driven achievements keyed to PlayerStats metric keys (StatKeys).
 Run:  python3 supabase/tools/import_achievements.py
 """
 import json, os
+from pathlib import Path
 os.chdir('/Users/rnddev/Documents/echo-master-data')
 
 ROWS = []
@@ -68,6 +69,12 @@ tiers('merchant', 'Merchant', 'Sell {thr} items.', 'economy', 'items_sold',
 # ── PvP ───────────────────────────────────────────────────────────────────
 tiers('duelist', 'Duelist', 'Win {thr} PvP duels.', 'pvp', 'pvp_duels_won',
       [('I', 10, BRONZE), ('II', 100, SILVER)], RUBY)
+
+extra = Path('narrative/mystery_achievements.json')
+if extra.is_file():
+    ROWS.extend(json.loads(extra.read_text())['achievements'])
+ids = [r['id'] for r in ROWS]
+assert len(ids) == len(set(ids)), 'DUP ids'
 
 # ── emit achievements.json (CDN canonical) ─────────────────────────────────
 json.dump({'meta': {'domain': 'achievements', 'count': len(ROWS)}, 'achievements': ROWS},

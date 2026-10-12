@@ -8,7 +8,7 @@ import json, os, sys, urllib.request
 ORDER = ['raid_id','name','region','min_level','recommended_party_size',
          'max_player','spawn_time_ends','time_limit','boss_monster_id',
          'raid_type','max_entry','entry_requirements','spawn_monster_id',
-         'phases','clear_rewards']
+         'phases','clear_rewards', 'content_revision', 'emergency_blocked', 'is_active']
 
 def main():
     try:

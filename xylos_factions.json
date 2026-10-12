@@ -29,7 +29,10 @@
         "name": "Aethel-Mark Credit",
         "code": "AMC",
         "description": "A digital and physical currency backed by regulated control over the Aethel Siphon, representing stability and order."
-      }
+      },
+      "capital_region": "NEXUS_CORE",
+      "starting_region": "AETHEL_GARDENS",
+      "summary": "The old guard founded by Xylos's first explorers. It seeks planetary stability, regulated Prima Materia, and renewed unity under Nexus."
     },
     {
       "id": 2,
@@ -57,12 +60,15 @@
         "name": "Quanta",
         "code": "QNT",
         "description": "A purely digital unit representing processed data or refined energy."
-      }
+      },
+      "capital_region": "OBSERVATORY_SPIRE",
+      "starting_region": "CRYSTAL_SLOPE",
+      "summary": "A Concordium splinter devoted to unrestricted knowledge of Aethel energy, Aethelgardian vaults, and sentient evolution."
     },
     {
       "id": 3,
       "name": "The Iron Hegemony",
-      "faction_code":"IRON_HEGEMONY",
+      "faction_code": "IRON_HEGEMONY",
       "ideology": "Order Through Strength. Peace Through Power.",
       "background": "Formed from the military-industrial core of the Concordium, believing peace requires absolute control.",
       "goals": [
@@ -85,12 +91,15 @@
         "name": "Ingot",
         "code": "IGT",
         "description": "Metal-based currency tied directly to industrial output."
-      }
+      },
+      "capital_region": "BASTION_CORE",
+      "starting_region": "SCRAP_FIELD",
+      "summary": "The military-industrial power of Bastion pursues order through strength and control of every Prima Materia site."
     },
     {
       "id": 4,
       "name": "The Meridian Cartel",
-      "faction_code":"MERIDIAN_CARTEL",
+      "faction_code": "MERIDIAN_CARTEL",
       "ideology": "Everything has a price. Influence is the true currency.",
       "background": "Former diplomats and merchants who realized economic control outweighs military power.",
       "goals": [
@@ -113,12 +122,15 @@
         "name": "Aurum Cipher",
         "code": "AUC",
         "description": "Encrypted digital currency for untraceable high-value transactions."
-      }
+      },
+      "capital_region": "PORT_MERIDIAN",
+      "starting_region": "CORAL_WETLANDS",
+      "summary": "A network of former diplomats and merchants seeking influence through trade, intelligence, and economic dependence."
     },
     {
       "id": 5,
       "name": "OmniCorp",
-      "faction_code":"OMNICORP",
+      "faction_code": "OMNICORP",
       "ideology": "Progress is profit. The future is proprietary.",
       "background": "An off-world mega-corporation exploiting Xylos as a resource asset.",
       "goals": [
@@ -141,12 +153,15 @@
         "name": "OmniCred",
         "code": "OMC",
         "description": "Closed-system digital currency used exclusively within OmniCorp."
-      }
+      },
+      "capital_region": "THE_SPIRE",
+      "starting_region": "HIGHLAND_PLATEAU",
+      "summary": "An off-world corporation treating Xylos as a resource asset and seeking a proprietary Prima Materia supply chain."
     },
     {
       "id": 6,
       "name": "The Children of the Shard",
-      "faction_code":"CHILDREN_OF_THE_SHARD",
+      "faction_code": "CHILDREN_OF_THE_SHARD",
       "ideology": "The Shard is sacred. The Aethel is its voice.",
       "background": "A religious cult viewing the Aethel Shard as divine and technology as heresy.",
       "goals": [
@@ -169,12 +184,15 @@
         "name": "Aethel-Tithes",
         "code": "ATH",
         "description": "Sacred offerings and consecrated Aethel fragments used in barter."
-      }
+      },
+      "capital_region": "SANCTUM",
+      "starting_region": "GLOWVINE_FOREST",
+      "summary": "A faith devoted to the Aethel Shard that seeks to end technological harvesting through the Great Purification."
     },
     {
       "id": 7,
       "name": "The Starforged Legion",
-      "faction_code":"STARFORGED_LEGION",
+      "faction_code": "STARFORGED_LEGION",
       "ideology": "A home is earned by blood and honor.",
       "background": "A nomadic warrior culture seeking a permanent home after their system was destroyed.",
       "goals": [
@@ -197,7 +215,10 @@
         "name": "Legion Scrip",
         "code": "LSC",
         "description": "Closed-loop resource-backed currency ensuring equitable distribution."
-      }
+      },
+      "capital_region": "FORTRESS_KAELEN",
+      "starting_region": "DUNE_OUTSKIRTS",
+      "summary": "A displaced warrior people seeking a defensible home through courage, discipline, and honorable alliances."
     }
   ]
 }

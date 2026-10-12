@@ -45,8 +45,9 @@ def main():
                 'item_id': r['item_id'], 'stock': r['stock'],
                 'refresh_time': r['refresh_time'],
                 'price_modifier': float(r['price_modifier']),
+                'id': r['id'], 'is_active': r.get('is_active',True), 'content_revision':r.get('content_revision',1),
             })
-        shop_obj = {'id': sh['id'], 'name': sh['name']}
+        shop_obj = {'id': sh['id'], 'name': sh['name'], 'is_active': sh.get('is_active',True), 'content_revision':sh.get('content_revision',1)}
         if sh.get('faction') is not None: shop_obj['faction'] = sh['faction']
         if sh.get('buy_currency') is not None: shop_obj['buy_currency'] = sh['buy_currency']
         if sh.get('description') is not None: shop_obj['description'] = sh['description']

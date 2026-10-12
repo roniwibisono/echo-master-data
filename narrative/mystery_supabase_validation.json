@@ -1,0 +1,62 @@
+{
+  "project_id": "fbntgtzimydjhuwedrjz",
+  "validated_on": "2026-10-08",
+  "seed_file": "supabase/seed/mystery_content_20261008.sql",
+  "transaction_validation_passed": true,
+  "dry_run_rolled_back": true,
+  "applied": true,
+  "applied_on": "2026-10-08",
+  "verified_at_utc": "2026-10-08T01:12:41Z",
+  "activation_seed_file": "supabase/seed/mystery_activation_20261008.sql",
+  "activated_achievements_seeded": true,
+  "quest_release_metadata_matches": 25,
+  "activation_rechecked_at_utc": "2026-10-08T01:23:00Z",
+  "commit_verified_by_separate_query": true,
+  "schema_changes": 0,
+  "player_save_changes": 0,
+  "scoped_records": {
+    "items": 35,
+    "monsters": 5,
+    "npcs": 15,
+    "quests": 25,
+    "dialogs": 40,
+    "achievements": 25
+  },
+  "rows_present_after_rollback": {
+    "mystery_quests": 0,
+    "mystery_items": 0,
+    "mystery_monsters": 0,
+    "mystery_npcs": 0,
+    "mystery_dialogs": 0
+  },
+  "rows_present_after_commit": {
+    "items": 35,
+    "monsters": 5,
+    "npcs": 15,
+    "quests": 25,
+    "dialogs": 40,
+    "achievements": 25
+  },
+  "exact_seed_matches_after_commit": {
+    "items": 35,
+    "monsters": 5,
+    "npcs": 15,
+    "quests": 25,
+    "dialogs": 40,
+    "achievements": 25
+  },
+  "live_reference_errors": {
+    "missing_quest_givers": 0,
+    "missing_reward_items": 0,
+    "missing_monster_drops": 0,
+    "invalid_active_skills": 0,
+    "invalid_passive_skills": 0,
+    "missing_dialog_npcs": 0,
+    "missing_dialog_quests": 0,
+    "invalid_mystery_metadata": 0,
+    "invalid_achievement_references": 0
+  },
+  "client_integration_required": false,
+  "client_released": false,
+  "pending_achievements_seeded": false
+}

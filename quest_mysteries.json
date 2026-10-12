@@ -1,0 +1,2211 @@
+{
+  "meta": {
+    "pack_id": "xylos_unwritten_witness",
+    "version": 1,
+    "authored_on": "2026-10-08",
+    "canon_status": "proposed_additive_lore",
+    "canon_sources": [
+      "03_lore_glossary.json",
+      "04_faction_voice_bible.md",
+      "world_map_v4.json"
+    ],
+    "release_status": "client_integration_required",
+    "principle": "Prestige proves curiosity and judgment, not permanent combat superiority. All endings award the same prestige."
+  },
+  "quests": [
+    {
+      "id": "mq_unlisted_two_chairs",
+      "title": "A Chair for Someone Missing",
+      "type": "secret",
+      "rank": "B",
+      "faction": "NEUTRAL",
+      "region": "UNLISTED_WARD",
+      "description": "A repaired chair stands outside a household listed as empty. Edda wants a name restored without revealing where the family now sleeps.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_edda_fen",
+        "name": "Edda Fen",
+        "location": "The Unlisted Ward"
+      },
+      "requirements": {
+        "min_level": 7,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "item_acquired",
+            "item_id": "mq_clue_unlisted_1",
+            "region_id": "UNLISTED_WARD"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_unlisted_two_chairs",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_unlisted_clue_1",
+            "npc_mystery_unlisted_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "mq_clue_unlisted_1",
+          "count": 1,
+          "description": "Recover the Carbon Census Slip from Malfunctioning Ward Indexer in The Unlisted Ward."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_unlisted_clue_1",
+          "count": 1,
+          "description": "Examine Repaired Doorplate and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_unlisted_clue_2",
+          "count": 1,
+          "description": "Examine Census Cabinet and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_edda_fen",
+          "count": 1,
+          "description": "Discuss your finding with Edda Fen in The Unlisted Ward."
+        }
+      ],
+      "rewards": {
+        "exp": 210,
+        "currency": 0,
+        "crd": 70,
+        "reputation": 15,
+        "items": [
+          {
+            "item_id": "mq_relic_unlisted_two_chairs",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "mq_unlisted_second_number"
+    },
+    {
+      "id": "mq_unlisted_second_number",
+      "title": "The Number Beneath the Number",
+      "type": "mystery",
+      "rank": "B",
+      "faction": "NEUTRAL",
+      "region": "UNLISTED_WARD",
+      "description": "Two surveys disagree about the same doorway. The older mark describes a utility district, while the newer mark counts households.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_edda_fen",
+        "name": "Edda Fen",
+        "location": "The Unlisted Ward"
+      },
+      "requirements": {
+        "min_level": 7,
+        "reputation_required": 0,
+        "required_quests": [
+          "mq_unlisted_two_chairs"
+        ],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "quest_completed",
+            "quest_id": "mq_unlisted_two_chairs",
+            "region_id": "UNLISTED_WARD"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_unlisted_second_number",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_unlisted_clue_1",
+            "npc_mystery_unlisted_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_mystery_unlisted_clue_1",
+          "count": 1,
+          "description": "Examine Repaired Doorplate and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_unlisted_clue_2",
+          "count": 1,
+          "description": "Examine Census Cabinet and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_edda_fen",
+          "count": 1,
+          "description": "Discuss your finding with Edda Fen in The Unlisted Ward."
+        }
+      ],
+      "rewards": {
+        "exp": 210,
+        "currency": 0,
+        "crd": 70,
+        "reputation": 15,
+        "items": [
+          {
+            "item_id": "mq_relic_unlisted_second_number",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "mq_unlisted_obedient_lock"
+    },
+    {
+      "id": "mq_unlisted_obedient_lock",
+      "title": "An Obedient Lock",
+      "type": "mystery",
+      "rank": "B",
+      "faction": "NEUTRAL",
+      "region": "UNLISTED_WARD",
+      "description": "The Ward Indexer repeatedly bars a relief passage because its stale register has no authorized households.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_edda_fen",
+        "name": "Edda Fen",
+        "location": "The Unlisted Ward"
+      },
+      "requirements": {
+        "min_level": 8,
+        "reputation_required": 0,
+        "required_quests": [
+          "mq_unlisted_second_number"
+        ],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "quest_completed",
+            "quest_id": "mq_unlisted_second_number",
+            "region_id": "UNLISTED_WARD"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_unlisted_obedient_lock",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_unlisted_clue_1",
+            "npc_mystery_unlisted_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 6101,
+          "count": 1,
+          "description": "Stop the dangerous Malfunctioning Ward Indexer in The Unlisted Ward.",
+          "target_code": "WARD_INDEXER"
+        },
+        {
+          "type": "travel",
+          "target": "UNLISTED_WARD",
+          "count": 1,
+          "description": "Inspect the now-safe evidence area in The Unlisted Ward."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_unlisted_clue_1",
+          "count": 1,
+          "description": "Examine Repaired Doorplate and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_unlisted_clue_2",
+          "count": 1,
+          "description": "Examine Census Cabinet and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_edda_fen",
+          "count": 1,
+          "description": "Discuss your finding with Edda Fen in The Unlisted Ward."
+        }
+      ],
+      "rewards": {
+        "exp": 240,
+        "currency": 0,
+        "crd": 80,
+        "reputation": 15,
+        "items": [
+          {
+            "item_id": "mq_relic_unlisted_obedient_lock",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "mq_unlisted_folded_route"
+    },
+    {
+      "id": "mq_unlisted_folded_route",
+      "title": "The Route Kept Inside",
+      "type": "secret",
+      "rank": "B",
+      "faction": "NEUTRAL",
+      "region": "UNLISTED_WARD",
+      "description": "A relocation notice hides a relief route inside its fold. Publishing it would help aid crews and expose people who chose anonymity.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_edda_fen",
+        "name": "Edda Fen",
+        "location": "The Unlisted Ward"
+      },
+      "requirements": {
+        "min_level": 9,
+        "reputation_required": 0,
+        "required_quests": [
+          "mq_unlisted_obedient_lock"
+        ],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "quest_completed",
+            "quest_id": "mq_unlisted_obedient_lock",
+            "region_id": "UNLISTED_WARD"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_unlisted_folded_route",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_unlisted_clue_1",
+            "npc_mystery_unlisted_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "mq_clue_unlisted_2",
+          "count": 1,
+          "description": "Recover the Folded Relocation Notice from Malfunctioning Ward Indexer in The Unlisted Ward."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_unlisted_clue_1",
+          "count": 1,
+          "description": "Examine Repaired Doorplate and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_unlisted_clue_2",
+          "count": 1,
+          "description": "Examine Census Cabinet and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_edda_fen",
+          "count": 1,
+          "description": "Discuss your finding with Edda Fen in The Unlisted Ward."
+        }
+      ],
+      "rewards": {
+        "exp": 270,
+        "currency": 0,
+        "crd": 90,
+        "reputation": 15,
+        "items": [
+          {
+            "item_id": "mq_relic_unlisted_folded_route",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "mq_unlisted_right_to_remain"
+    },
+    {
+      "id": "mq_unlisted_right_to_remain",
+      "title": "The Right to Remain Unlisted",
+      "type": "mystery",
+      "rank": "B",
+      "faction": "NEUTRAL",
+      "region": "UNLISTED_WARD",
+      "description": "The ward can be recognized without every resident being named. Edda asks how to preserve that distinction for the next census.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_edda_fen",
+        "name": "Edda Fen",
+        "location": "The Unlisted Ward"
+      },
+      "requirements": {
+        "min_level": 10,
+        "reputation_required": 0,
+        "required_quests": [
+          "mq_unlisted_folded_route"
+        ],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "quest_completed",
+            "quest_id": "mq_unlisted_folded_route",
+            "region_id": "UNLISTED_WARD"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_unlisted_right_to_remain",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_unlisted_clue_1",
+            "npc_mystery_unlisted_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_mystery_unlisted_clue_1",
+          "count": 1,
+          "description": "Examine Repaired Doorplate and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_unlisted_clue_2",
+          "count": 1,
+          "description": "Examine Census Cabinet and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_edda_fen",
+          "count": 1,
+          "description": "Discuss your finding with Edda Fen in The Unlisted Ward."
+        }
+      ],
+      "rewards": {
+        "exp": 300,
+        "currency": 0,
+        "crd": 100,
+        "reputation": 40,
+        "items": [
+          {
+            "item_id": "mq_relic_unlisted_right_to_remain",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "mq_muster_fourth_beat",
+      "title": "The Missing Fourth Beat",
+      "type": "secret",
+      "rank": "A",
+      "faction": "NEUTRAL",
+      "region": "HOLLOW_MUSTER",
+      "description": "A four-beat muster signal sounds only three times. A scorch mark could indicate sabotage or an ordinary failure.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_tovan_rell",
+        "name": "Tovan Rell",
+        "location": "Hollow Muster Yard"
+      },
+      "requirements": {
+        "min_level": 18,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "item_acquired",
+            "item_id": "mq_clue_muster_1",
+            "region_id": "HOLLOW_MUSTER"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_muster_fourth_beat",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_muster_clue_1",
+            "npc_mystery_muster_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "mq_clue_muster_1",
+          "count": 1,
+          "description": "Recover the Scorched Bell Tally from Hollow Muster Wrecker in Hollow Muster Yard."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_muster_clue_1",
+          "count": 1,
+          "description": "Examine Split Muster Bell and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_muster_clue_2",
+          "count": 1,
+          "description": "Examine Workshop Roll and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_tovan_rell",
+          "count": 1,
+          "description": "Discuss your finding with Tovan Rell in Hollow Muster Yard."
+        }
+      ],
+      "rewards": {
+        "exp": 540,
+        "currency": 0,
+        "crd": 180,
+        "reputation": 15,
+        "items": [
+          {
+            "item_id": "mq_relic_muster_fourth_beat",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "mq_muster_boots_outward"
+    },
+    {
+      "id": "mq_muster_boots_outward",
+      "title": "Boots Facing Outward",
+      "type": "mystery",
+      "rank": "A",
+      "faction": "NEUTRAL",
+      "region": "HOLLOW_MUSTER",
+      "description": "A roll marks a crew absent, but their boots and tool tags suggest an organized civilian evacuation.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_tovan_rell",
+        "name": "Tovan Rell",
+        "location": "Hollow Muster Yard"
+      },
+      "requirements": {
+        "min_level": 18,
+        "reputation_required": 0,
+        "required_quests": [
+          "mq_muster_fourth_beat"
+        ],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "quest_completed",
+            "quest_id": "mq_muster_fourth_beat",
+            "region_id": "HOLLOW_MUSTER"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_muster_boots_outward",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_muster_clue_1",
+            "npc_mystery_muster_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_mystery_muster_clue_1",
+          "count": 1,
+          "description": "Examine Split Muster Bell and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_muster_clue_2",
+          "count": 1,
+          "description": "Examine Workshop Roll and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_tovan_rell",
+          "count": 1,
+          "description": "Discuss your finding with Tovan Rell in Hollow Muster Yard."
+        }
+      ],
+      "rewards": {
+        "exp": 540,
+        "currency": 0,
+        "crd": 180,
+        "reputation": 15,
+        "items": [
+          {
+            "item_id": "mq_relic_muster_boots_outward",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "mq_muster_cable_thief"
+    },
+    {
+      "id": "mq_muster_cable_thief",
+      "title": "What Keeps Taking the Cable",
+      "type": "mystery",
+      "rank": "A",
+      "faction": "NEUTRAL",
+      "region": "HOLLOW_MUSTER",
+      "description": "Every repaired bell cable disappears. Tovan needs the malfunctioning wrecker stopped before anyone can rely on the signal.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_tovan_rell",
+        "name": "Tovan Rell",
+        "location": "Hollow Muster Yard"
+      },
+      "requirements": {
+        "min_level": 19,
+        "reputation_required": 0,
+        "required_quests": [
+          "mq_muster_boots_outward"
+        ],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "quest_completed",
+            "quest_id": "mq_muster_boots_outward",
+            "region_id": "HOLLOW_MUSTER"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_muster_cable_thief",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_muster_clue_1",
+            "npc_mystery_muster_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 6102,
+          "count": 1,
+          "description": "Stop the dangerous Hollow Muster Wrecker in Hollow Muster Yard.",
+          "target_code": "HOLLOW_MUSTER_WRECKER"
+        },
+        {
+          "type": "travel",
+          "target": "HOLLOW_MUSTER",
+          "count": 1,
+          "description": "Inspect the now-safe evidence area in Hollow Muster Yard."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_muster_clue_1",
+          "count": 1,
+          "description": "Examine Split Muster Bell and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_muster_clue_2",
+          "count": 1,
+          "description": "Examine Workshop Roll and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_tovan_rell",
+          "count": 1,
+          "description": "Discuss your finding with Tovan Rell in Hollow Muster Yard."
+        }
+      ],
+      "rewards": {
+        "exp": 570,
+        "currency": 0,
+        "crd": 190,
+        "reputation": 15,
+        "items": [
+          {
+            "item_id": "mq_relic_muster_cable_thief",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "mq_muster_shared_shift"
+    },
+    {
+      "id": "mq_muster_shared_shift",
+      "title": "The Shift Neither Banner Claimed",
+      "type": "secret",
+      "rank": "A",
+      "faction": "NEUTRAL",
+      "region": "HOLLOW_MUSTER",
+      "description": "The evacuation roll includes workers supplied by two rival institutions. A single-banner memorial would erase half the crew.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_tovan_rell",
+        "name": "Tovan Rell",
+        "location": "Hollow Muster Yard"
+      },
+      "requirements": {
+        "min_level": 20,
+        "reputation_required": 0,
+        "required_quests": [
+          "mq_muster_cable_thief"
+        ],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "quest_completed",
+            "quest_id": "mq_muster_cable_thief",
+            "region_id": "HOLLOW_MUSTER"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_muster_shared_shift",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_muster_clue_1",
+            "npc_mystery_muster_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "mq_clue_muster_2",
+          "count": 1,
+          "description": "Recover the Workshop Evacuation Roll from Hollow Muster Wrecker in Hollow Muster Yard."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_muster_clue_1",
+          "count": 1,
+          "description": "Examine Split Muster Bell and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_muster_clue_2",
+          "count": 1,
+          "description": "Examine Workshop Roll and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_tovan_rell",
+          "count": 1,
+          "description": "Discuss your finding with Tovan Rell in Hollow Muster Yard."
+        }
+      ],
+      "rewards": {
+        "exp": 600,
+        "currency": 0,
+        "crd": 200,
+        "reputation": 15,
+        "items": [
+          {
+            "item_id": "mq_relic_muster_shared_shift",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "mq_muster_warning_not_oath"
+    },
+    {
+      "id": "mq_muster_warning_not_oath",
+      "title": "A Warning Is Not an Oath",
+      "type": "mystery",
+      "rank": "A",
+      "faction": "NEUTRAL",
+      "region": "HOLLOW_MUSTER",
+      "description": "The repaired bell can become a ceremonial monument or a working civilian warning. Tovan cannot maintain both roles without help.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_tovan_rell",
+        "name": "Tovan Rell",
+        "location": "Hollow Muster Yard"
+      },
+      "requirements": {
+        "min_level": 22,
+        "reputation_required": 0,
+        "required_quests": [
+          "mq_muster_shared_shift"
+        ],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "quest_completed",
+            "quest_id": "mq_muster_shared_shift",
+            "region_id": "HOLLOW_MUSTER"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_muster_warning_not_oath",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_muster_clue_1",
+            "npc_mystery_muster_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_mystery_muster_clue_1",
+          "count": 1,
+          "description": "Examine Split Muster Bell and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_muster_clue_2",
+          "count": 1,
+          "description": "Examine Workshop Roll and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_tovan_rell",
+          "count": 1,
+          "description": "Discuss your finding with Tovan Rell in Hollow Muster Yard."
+        }
+      ],
+      "rewards": {
+        "exp": 660,
+        "currency": 0,
+        "crd": 220,
+        "reputation": 40,
+        "items": [
+          {
+            "item_id": "mq_relic_muster_warning_not_oath",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "mq_zero_weight_nothing",
+      "title": "The Weight of Nothing",
+      "type": "secret",
+      "rank": "A",
+      "faction": "NEUTRAL",
+      "region": "ZERO_BERTH",
+      "description": "A manifest prices an apparently empty crate. Sella suspects the buyer purchased storage space, not goods.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_sella_quinn",
+        "name": "Sella Quinn",
+        "location": "Zero Berth Customs Annex"
+      },
+      "requirements": {
+        "min_level": 22,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "item_acquired",
+            "item_id": "mq_clue_zero_1",
+            "region_id": "ZERO_BERTH"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_zero_weight_nothing",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_zero_clue_1",
+            "npc_mystery_zero_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "mq_clue_zero_1",
+          "count": 1,
+          "description": "Recover the Blank-Cargo Manifest from Zero Berth Extortionist in Zero Berth Customs Annex."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_zero_clue_1",
+          "count": 1,
+          "description": "Examine Zero Berth Scale and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_zero_clue_2",
+          "count": 1,
+          "description": "Examine Reversed Shipping Stencil and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_sella_quinn",
+          "count": 1,
+          "description": "Discuss your finding with Sella Quinn in Zero Berth Customs Annex."
+        }
+      ],
+      "rewards": {
+        "exp": 660,
+        "currency": 0,
+        "crd": 220,
+        "reputation": 15,
+        "items": [
+          {
+            "item_id": "mq_relic_zero_weight_nothing",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "mq_zero_inside_label"
+    },
+    {
+      "id": "mq_zero_inside_label",
+      "title": "The Label Facing Inward",
+      "type": "mystery",
+      "rank": "A",
+      "faction": "NEUTRAL",
+      "region": "ZERO_BERTH",
+      "description": "An inward stencil makes a returnable container look like a new delivery. Its direction matters more than its serial number.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_sella_quinn",
+        "name": "Sella Quinn",
+        "location": "Zero Berth Customs Annex"
+      },
+      "requirements": {
+        "min_level": 22,
+        "reputation_required": 0,
+        "required_quests": [
+          "mq_zero_weight_nothing"
+        ],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "quest_completed",
+            "quest_id": "mq_zero_weight_nothing",
+            "region_id": "ZERO_BERTH"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_zero_inside_label",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_zero_clue_1",
+            "npc_mystery_zero_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_mystery_zero_clue_1",
+          "count": 1,
+          "description": "Examine Zero Berth Scale and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_zero_clue_2",
+          "count": 1,
+          "description": "Examine Reversed Shipping Stencil and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_sella_quinn",
+          "count": 1,
+          "description": "Discuss your finding with Sella Quinn in Zero Berth Customs Annex."
+        }
+      ],
+      "rewards": {
+        "exp": 660,
+        "currency": 0,
+        "crd": 220,
+        "reputation": 15,
+        "items": [
+          {
+            "item_id": "mq_relic_zero_inside_label",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "mq_zero_fee_at_door"
+    },
+    {
+      "id": "mq_zero_fee_at_door",
+      "title": "The Fee at the Evidence Door",
+      "type": "mystery",
+      "rank": "A",
+      "faction": "NEUTRAL",
+      "region": "ZERO_BERTH",
+      "description": "An extortionist blocks examination of the disputed invoices. Sella needs access, not a verdict about the whole port.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_sella_quinn",
+        "name": "Sella Quinn",
+        "location": "Zero Berth Customs Annex"
+      },
+      "requirements": {
+        "min_level": 23,
+        "reputation_required": 0,
+        "required_quests": [
+          "mq_zero_inside_label"
+        ],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "quest_completed",
+            "quest_id": "mq_zero_inside_label",
+            "region_id": "ZERO_BERTH"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_zero_fee_at_door",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_zero_clue_1",
+            "npc_mystery_zero_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 6103,
+          "count": 1,
+          "description": "Stop the dangerous Zero Berth Extortionist in Zero Berth Customs Annex.",
+          "target_code": "ZERO_BERTH_EXTORTIONIST"
+        },
+        {
+          "type": "travel",
+          "target": "ZERO_BERTH",
+          "count": 1,
+          "description": "Inspect the now-safe evidence area in Zero Berth Customs Annex."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_zero_clue_1",
+          "count": 1,
+          "description": "Examine Zero Berth Scale and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_zero_clue_2",
+          "count": 1,
+          "description": "Examine Reversed Shipping Stencil and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_sella_quinn",
+          "count": 1,
+          "description": "Discuss your finding with Sella Quinn in Zero Berth Customs Annex."
+        }
+      ],
+      "rewards": {
+        "exp": 690,
+        "currency": 0,
+        "crd": 230,
+        "reputation": 15,
+        "items": [
+          {
+            "item_id": "mq_relic_zero_fee_at_door",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "mq_zero_rent_inside_rent"
+    },
+    {
+      "id": "mq_zero_rent_inside_rent",
+      "title": "Rent Inside Rent",
+      "type": "secret",
+      "rank": "A",
+      "faction": "NEUTRAL",
+      "region": "ZERO_BERTH",
+      "description": "A valid storage contract has been billed twice by nesting an already paid container-day charge inside berth rent.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_sella_quinn",
+        "name": "Sella Quinn",
+        "location": "Zero Berth Customs Annex"
+      },
+      "requirements": {
+        "min_level": 24,
+        "reputation_required": 0,
+        "required_quests": [
+          "mq_zero_fee_at_door"
+        ],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "quest_completed",
+            "quest_id": "mq_zero_fee_at_door",
+            "region_id": "ZERO_BERTH"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_zero_rent_inside_rent",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_zero_clue_1",
+            "npc_mystery_zero_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "mq_clue_zero_2",
+          "count": 1,
+          "description": "Recover the Nested Storage Invoice from Zero Berth Extortionist in Zero Berth Customs Annex."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_zero_clue_1",
+          "count": 1,
+          "description": "Examine Zero Berth Scale and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_zero_clue_2",
+          "count": 1,
+          "description": "Examine Reversed Shipping Stencil and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_sella_quinn",
+          "count": 1,
+          "description": "Discuss your finding with Sella Quinn in Zero Berth Customs Annex."
+        }
+      ],
+      "rewards": {
+        "exp": 720,
+        "currency": 0,
+        "crd": 240,
+        "reputation": 15,
+        "items": [
+          {
+            "item_id": "mq_relic_zero_rent_inside_rent",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "mq_zero_port_without_lie"
+    },
+    {
+      "id": "mq_zero_port_without_lie",
+      "title": "A Port Without This Lie",
+      "type": "mystery",
+      "rank": "A",
+      "faction": "NEUTRAL",
+      "region": "ZERO_BERTH",
+      "description": "A corrected claim can become a public precedent, a private settlement, or a monitored trial. Each protects different people.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_sella_quinn",
+        "name": "Sella Quinn",
+        "location": "Zero Berth Customs Annex"
+      },
+      "requirements": {
+        "min_level": 25,
+        "reputation_required": 0,
+        "required_quests": [
+          "mq_zero_rent_inside_rent"
+        ],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "quest_completed",
+            "quest_id": "mq_zero_rent_inside_rent",
+            "region_id": "ZERO_BERTH"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_zero_port_without_lie",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_zero_clue_1",
+            "npc_mystery_zero_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_mystery_zero_clue_1",
+          "count": 1,
+          "description": "Examine Zero Berth Scale and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_zero_clue_2",
+          "count": 1,
+          "description": "Examine Reversed Shipping Stencil and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_sella_quinn",
+          "count": 1,
+          "description": "Discuss your finding with Sella Quinn in Zero Berth Customs Annex."
+        }
+      ],
+      "rewards": {
+        "exp": 750,
+        "currency": 0,
+        "crd": 250,
+        "reputation": 40,
+        "items": [
+          {
+            "item_id": "mq_relic_zero_port_without_lie",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "mq_quiet_cloth_on_crystal",
+      "title": "Cloth on a Singing Rib",
+      "type": "secret",
+      "rank": "A",
+      "faction": "NEUTRAL",
+      "region": "QUIET_RESONATOR",
+      "description": "A cloth-wrapped rib sounds different from its neighbors. Iren asks whether deliberate damping was care, damage, or concealment.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_iren_saye",
+        "name": "Iren Saye",
+        "location": "Quiet Resonator Gallery"
+      },
+      "requirements": {
+        "min_level": 32,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "item_acquired",
+            "item_id": "mq_clue_quiet_1",
+            "region_id": "QUIET_RESONATOR"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_quiet_cloth_on_crystal",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_quiet_clue_1",
+            "npc_mystery_quiet_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "mq_clue_quiet_1",
+          "count": 1,
+          "description": "Recover the Cloth-Bound Resonance Trace from Quiet Gallery Rift Beast in Quiet Resonator Gallery."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_quiet_clue_1",
+          "count": 1,
+          "description": "Examine Wrapped Resonator Rib and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_quiet_clue_2",
+          "count": 1,
+          "description": "Examine Drainage Listening Bench and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_iren_saye",
+          "count": 1,
+          "description": "Discuss your finding with Iren Saye in Quiet Resonator Gallery."
+        }
+      ],
+      "rewards": {
+        "exp": 960,
+        "currency": 0,
+        "crd": 320,
+        "reputation": 15,
+        "items": [
+          {
+            "item_id": "mq_relic_quiet_cloth_on_crystal",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "mq_quiet_bench_wrong_way"
+    },
+    {
+      "id": "mq_quiet_bench_wrong_way",
+      "title": "The Bench Facing the Wrong Way",
+      "type": "mystery",
+      "rank": "A",
+      "faction": "NEUTRAL",
+      "region": "QUIET_RESONATOR",
+      "description": "A listening bench faces a drain instead of the crystals. Its placement suggests the apparent reply has a second path.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_iren_saye",
+        "name": "Iren Saye",
+        "location": "Quiet Resonator Gallery"
+      },
+      "requirements": {
+        "min_level": 33,
+        "reputation_required": 0,
+        "required_quests": [
+          "mq_quiet_cloth_on_crystal"
+        ],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "quest_completed",
+            "quest_id": "mq_quiet_cloth_on_crystal",
+            "region_id": "QUIET_RESONATOR"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_quiet_bench_wrong_way",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_quiet_clue_1",
+            "npc_mystery_quiet_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_mystery_quiet_clue_1",
+          "count": 1,
+          "description": "Examine Wrapped Resonator Rib and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_quiet_clue_2",
+          "count": 1,
+          "description": "Examine Drainage Listening Bench and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_iren_saye",
+          "count": 1,
+          "description": "Discuss your finding with Iren Saye in Quiet Resonator Gallery."
+        }
+      ],
+      "rewards": {
+        "exp": 990,
+        "currency": 0,
+        "crd": 330,
+        "reputation": 15,
+        "items": [
+          {
+            "item_id": "mq_relic_quiet_bench_wrong_way",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "mq_quiet_test_without_beast"
+    },
+    {
+      "id": "mq_quiet_test_without_beast",
+      "title": "One Test Without a Witnessed Monster",
+      "type": "mystery",
+      "rank": "A",
+      "faction": "NEUTRAL",
+      "region": "QUIET_RESONATOR",
+      "description": "A rift beast blocks the listening channel. Iren needs a safe test environment, not a ritual victory.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_iren_saye",
+        "name": "Iren Saye",
+        "location": "Quiet Resonator Gallery"
+      },
+      "requirements": {
+        "min_level": 34,
+        "reputation_required": 0,
+        "required_quests": [
+          "mq_quiet_bench_wrong_way"
+        ],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "quest_completed",
+            "quest_id": "mq_quiet_bench_wrong_way",
+            "region_id": "QUIET_RESONATOR"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_quiet_test_without_beast",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_quiet_clue_1",
+            "npc_mystery_quiet_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 6104,
+          "count": 1,
+          "description": "Stop the dangerous Quiet Gallery Rift Beast in Quiet Resonator Gallery.",
+          "target_code": "QUIET_GALLERY_RIFT_BEAST"
+        },
+        {
+          "type": "travel",
+          "target": "QUIET_RESONATOR",
+          "count": 1,
+          "description": "Inspect the now-safe evidence area in Quiet Resonator Gallery."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_quiet_clue_1",
+          "count": 1,
+          "description": "Examine Wrapped Resonator Rib and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_quiet_clue_2",
+          "count": 1,
+          "description": "Examine Drainage Listening Bench and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_iren_saye",
+          "count": 1,
+          "description": "Discuss your finding with Iren Saye in Quiet Resonator Gallery."
+        }
+      ],
+      "rewards": {
+        "exp": 1020,
+        "currency": 0,
+        "crd": 340,
+        "reputation": 15,
+        "items": [
+          {
+            "item_id": "mq_relic_quiet_test_without_beast",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "mq_quiet_same_pause"
+    },
+    {
+      "id": "mq_quiet_same_pause",
+      "title": "The Same Pause Twice",
+      "type": "secret",
+      "rank": "A",
+      "faction": "NEUTRAL",
+      "region": "QUIET_RESONATOR",
+      "description": "Two supposed prophetic replies share the same drainage interval. Iren can explain the repetition without adjudicating anyone's faith.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_iren_saye",
+        "name": "Iren Saye",
+        "location": "Quiet Resonator Gallery"
+      },
+      "requirements": {
+        "min_level": 36,
+        "reputation_required": 0,
+        "required_quests": [
+          "mq_quiet_test_without_beast"
+        ],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "quest_completed",
+            "quest_id": "mq_quiet_test_without_beast",
+            "region_id": "QUIET_RESONATOR"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_quiet_same_pause",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_quiet_clue_1",
+            "npc_mystery_quiet_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "mq_clue_quiet_2",
+          "count": 1,
+          "description": "Recover the Drainage Interval Record from Quiet Gallery Rift Beast in Quiet Resonator Gallery."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_quiet_clue_1",
+          "count": 1,
+          "description": "Examine Wrapped Resonator Rib and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_quiet_clue_2",
+          "count": 1,
+          "description": "Examine Drainage Listening Bench and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_iren_saye",
+          "count": 1,
+          "description": "Discuss your finding with Iren Saye in Quiet Resonator Gallery."
+        }
+      ],
+      "rewards": {
+        "exp": 1080,
+        "currency": 0,
+        "crd": 360,
+        "reputation": 15,
+        "items": [
+          {
+            "item_id": "mq_relic_quiet_same_pause",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "mq_quiet_silence_kept"
+    },
+    {
+      "id": "mq_quiet_silence_kept",
+      "title": "The Silence Worth Keeping",
+      "type": "mystery",
+      "rank": "S",
+      "faction": "NEUTRAL",
+      "region": "QUIET_RESONATOR",
+      "description": "The gallery can become a public experiment, a conserved listening place, or a jointly stewarded archive. Iren asks who may decide its next use.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_iren_saye",
+        "name": "Iren Saye",
+        "location": "Quiet Resonator Gallery"
+      },
+      "requirements": {
+        "min_level": 40,
+        "reputation_required": 0,
+        "required_quests": [
+          "mq_quiet_same_pause"
+        ],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "quest_completed",
+            "quest_id": "mq_quiet_same_pause",
+            "region_id": "QUIET_RESONATOR"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_quiet_silence_kept",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_quiet_clue_1",
+            "npc_mystery_quiet_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_mystery_quiet_clue_1",
+          "count": 1,
+          "description": "Examine Wrapped Resonator Rib and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_quiet_clue_2",
+          "count": 1,
+          "description": "Examine Drainage Listening Bench and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_iren_saye",
+          "count": 1,
+          "description": "Discuss your finding with Iren Saye in Quiet Resonator Gallery."
+        }
+      ],
+      "rewards": {
+        "exp": 1200,
+        "currency": 0,
+        "crd": 400,
+        "reputation": 40,
+        "items": [
+          {
+            "item_id": "mq_relic_quiet_silence_kept",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "mq_armistice_modern_lock",
+      "title": "A Modern Lock on Ancient Stone",
+      "type": "secret",
+      "rank": "S",
+      "faction": "NEUTRAL",
+      "region": "SEALED_ARMISTICE_VAULT",
+      "description": "A modern custody lock conceals a relief archive inside an ancient chamber. Maela needs the two histories separated before rumors combine them.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_maela_orr",
+        "name": "Maela Orr",
+        "location": "Sealed Armistice Vault"
+      },
+      "requirements": {
+        "min_level": 65,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "item_acquired",
+            "item_id": "mq_clue_armistice_1",
+            "region_id": "SEALED_ARMISTICE_VAULT"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_armistice_modern_lock",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_armistice_clue_1",
+            "npc_mystery_armistice_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "mq_clue_armistice_1",
+          "count": 1,
+          "description": "Recover the Scorched Relief Ledger Leaf from Vault Ember Drakonid in Sealed Armistice Vault."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_armistice_clue_1",
+          "count": 1,
+          "description": "Examine Scorched Relief Ledger and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_armistice_clue_2",
+          "count": 1,
+          "description": "Examine Duplicate Custody Plate and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_maela_orr",
+          "count": 1,
+          "description": "Discuss your finding with Maela Orr in Sealed Armistice Vault."
+        }
+      ],
+      "rewards": {
+        "exp": 1950,
+        "currency": 0,
+        "crd": 650,
+        "reputation": 15,
+        "items": [
+          {
+            "item_id": "mq_relic_armistice_modern_lock",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "mq_armistice_burn_without_verdict"
+    },
+    {
+      "id": "mq_armistice_burn_without_verdict",
+      "title": "A Burn Without a Verdict",
+      "type": "mystery",
+      "rank": "S",
+      "faction": "NEUTRAL",
+      "region": "SEALED_ARMISTICE_VAULT",
+      "description": "Heat damage resembles deliberate destruction, but its pattern could come from a displaced beast nesting beside the cabinet.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_maela_orr",
+        "name": "Maela Orr",
+        "location": "Sealed Armistice Vault"
+      },
+      "requirements": {
+        "min_level": 66,
+        "reputation_required": 0,
+        "required_quests": [
+          "mq_armistice_modern_lock"
+        ],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "quest_completed",
+            "quest_id": "mq_armistice_modern_lock",
+            "region_id": "SEALED_ARMISTICE_VAULT"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_armistice_burn_without_verdict",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_armistice_clue_1",
+            "npc_mystery_armistice_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_mystery_armistice_clue_1",
+          "count": 1,
+          "description": "Examine Scorched Relief Ledger and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_armistice_clue_2",
+          "count": 1,
+          "description": "Examine Duplicate Custody Plate and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_maela_orr",
+          "count": 1,
+          "description": "Discuss your finding with Maela Orr in Sealed Armistice Vault."
+        }
+      ],
+      "rewards": {
+        "exp": 1980,
+        "currency": 0,
+        "crd": 660,
+        "reputation": 15,
+        "items": [
+          {
+            "item_id": "mq_relic_armistice_burn_without_verdict",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "mq_armistice_safe_for_copy"
+    },
+    {
+      "id": "mq_armistice_safe_for_copy",
+      "title": "Safe Enough to Make a Copy",
+      "type": "mystery",
+      "rank": "S",
+      "faction": "NEUTRAL",
+      "region": "SEALED_ARMISTICE_VAULT",
+      "description": "The nesting drakonid threatens anyone copying the relief records. Maela needs a safe chamber before commissioning an audit.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_maela_orr",
+        "name": "Maela Orr",
+        "location": "Sealed Armistice Vault"
+      },
+      "requirements": {
+        "min_level": 68,
+        "reputation_required": 0,
+        "required_quests": [
+          "mq_armistice_burn_without_verdict"
+        ],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "quest_completed",
+            "quest_id": "mq_armistice_burn_without_verdict",
+            "region_id": "SEALED_ARMISTICE_VAULT"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_armistice_safe_for_copy",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_armistice_clue_1",
+            "npc_mystery_armistice_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 6105,
+          "count": 1,
+          "description": "Stop the dangerous Vault Ember Drakonid in Sealed Armistice Vault.",
+          "target_code": "VAULT_EMBER_DRAKONID"
+        },
+        {
+          "type": "travel",
+          "target": "SEALED_ARMISTICE_VAULT",
+          "count": 1,
+          "description": "Inspect the now-safe evidence area in Sealed Armistice Vault."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_armistice_clue_1",
+          "count": 1,
+          "description": "Examine Scorched Relief Ledger and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_armistice_clue_2",
+          "count": 1,
+          "description": "Examine Duplicate Custody Plate and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_maela_orr",
+          "count": 1,
+          "description": "Discuss your finding with Maela Orr in Sealed Armistice Vault."
+        }
+      ],
+      "rewards": {
+        "exp": 2040,
+        "currency": 0,
+        "crd": 680,
+        "reputation": 15,
+        "items": [
+          {
+            "item_id": "mq_relic_armistice_safe_for_copy",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "mq_armistice_reserve_not_ransom"
+    },
+    {
+      "id": "mq_armistice_reserve_not_ransom",
+      "title": "The Reserve That Wasn't a Ransom",
+      "type": "secret",
+      "rank": "S",
+      "faction": "NEUTRAL",
+      "region": "SEALED_ARMISTICE_VAULT",
+      "description": "A line called withheld reserve looks like relief money seized as leverage. The duplicate identifies an unsettled payment, while leaving the delay's human cost visible.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_maela_orr",
+        "name": "Maela Orr",
+        "location": "Sealed Armistice Vault"
+      },
+      "requirements": {
+        "min_level": 70,
+        "reputation_required": 0,
+        "required_quests": [
+          "mq_armistice_safe_for_copy"
+        ],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "quest_completed",
+            "quest_id": "mq_armistice_safe_for_copy",
+            "region_id": "SEALED_ARMISTICE_VAULT"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_armistice_reserve_not_ransom",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_armistice_clue_1",
+            "npc_mystery_armistice_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "collect",
+          "target": "mq_clue_armistice_2",
+          "count": 1,
+          "description": "Recover the Modern Custody Duplicate from Vault Ember Drakonid in Sealed Armistice Vault."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_armistice_clue_1",
+          "count": 1,
+          "description": "Examine Scorched Relief Ledger and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_armistice_clue_2",
+          "count": 1,
+          "description": "Examine Duplicate Custody Plate and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_maela_orr",
+          "count": 1,
+          "description": "Discuss your finding with Maela Orr in Sealed Armistice Vault."
+        }
+      ],
+      "rewards": {
+        "exp": 2100,
+        "currency": 0,
+        "crd": 700,
+        "reputation": 15,
+        "items": [
+          {
+            "item_id": "mq_relic_armistice_reserve_not_ransom",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": "mq_armistice_unwritten_witness"
+    },
+    {
+      "id": "mq_armistice_unwritten_witness",
+      "title": "The Unwritten Witness",
+      "type": "mystery",
+      "rank": "S",
+      "faction": "NEUTRAL",
+      "region": "SEALED_ARMISTICE_VAULT",
+      "description": "Records from the ward, yard, berth, gallery, and vault show how institutions can mistake absence, silence, or delay for consent. Maela offers no revelation about a hidden ruler, only a decision about who may challenge the archive.",
+      "quest_giver": {
+        "npc_id": "npc_mystery_maela_orr",
+        "name": "Maela Orr",
+        "location": "Sealed Armistice Vault"
+      },
+      "requirements": {
+        "min_level": 75,
+        "reputation_required": 0,
+        "required_quests": [
+          "mq_armistice_reserve_not_ransom",
+          "mq_unlisted_right_to_remain",
+          "mq_muster_warning_not_oath",
+          "mq_zero_port_without_lie",
+          "mq_quiet_silence_kept"
+        ],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "mystery": {
+          "schema_version": 1,
+          "pack_id": "xylos_unwritten_witness",
+          "release_status": "client_playable_pending_release",
+          "discovery": {
+            "type": "quest_completed",
+            "quest_id": "mq_armistice_reserve_not_ransom",
+            "region_id": "SEALED_ARMISTICE_VAULT"
+          },
+          "hide_until_discovered": true,
+          "hide_waypoints_until_discovered": true,
+          "decision_required": true,
+          "decision_group": "mq_armistice_unwritten_witness",
+          "choice_ids": [
+            "choice_1",
+            "choice_2",
+            "choice_3"
+          ],
+          "enforce_real_interactions": true,
+          "evidence_prop_ids": [
+            "npc_mystery_armistice_clue_1",
+            "npc_mystery_armistice_clue_2"
+          ]
+        }
+      },
+      "objectives": [
+        {
+          "type": "interact",
+          "target": "npc_mystery_armistice_clue_1",
+          "count": 1,
+          "description": "Examine Scorched Relief Ledger and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_armistice_clue_2",
+          "count": 1,
+          "description": "Examine Duplicate Custody Plate and compare its evidence."
+        },
+        {
+          "type": "interact",
+          "target": "npc_mystery_maela_orr",
+          "count": 1,
+          "description": "Discuss your finding with Maela Orr in Sealed Armistice Vault."
+        }
+      ],
+      "rewards": {
+        "exp": 2250,
+        "currency": 0,
+        "crd": 750,
+        "reputation": 40,
+        "items": [
+          {
+            "item_id": "mq_relic_armistice_unwritten_witness",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    }
+  ]
+}

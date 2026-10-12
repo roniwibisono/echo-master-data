@@ -1,0 +1,5276 @@
+[
+  {
+    "id": "sk_enf_pas",
+    "kept_index": 0,
+    "removed_index": 689,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_enf_pas",
+      "name": "Brace",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Gain 8% damage reduction while below 50% HP.",
+      "stat_modifiers": [
+        {
+          "stat": "def",
+          "value": 3,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "base_enforcer"
+        ],
+        "min_level": 1,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Gain 8% damage reduction while below 50% HP.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_enf_act_1",
+    "kept_index": 2,
+    "removed_index": 690,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_enf_act_1",
+      "name": "Shield Bash",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 8,
+      "damage_formula": "atk * 1.1",
+      "effect": "Bash the target and briefly slow them.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [
+        {
+          "type": "slow",
+          "value": 0.25,
+          "duration_turns": 1,
+          "target": "enemy"
+        }
+      ],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "base_enforcer"
+        ],
+        "min_level": 1,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Bash the target and briefly slow them.",
+      "skill_shape": "melee_slash",
+      "range": 1.4,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 2.5
+    }
+  },
+  {
+    "id": "sk_enf_act_2",
+    "kept_index": 1,
+    "removed_index": 691,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_enf_act_2",
+      "name": "Hold the Line",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 12,
+      "damage_formula": "",
+      "effect": "Raise defense for 3 turns.",
+      "stat_modifiers": [
+        {
+          "stat": "def",
+          "value": 8,
+          "duration_turns": 3,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "base_enforcer"
+        ],
+        "min_level": 3,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Raise defense for 3 turns.",
+      "skill_shape": "self_buff",
+      "range": 0,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 8
+    }
+  },
+  {
+    "id": "sk_van_pas",
+    "kept_index": 3,
+    "removed_index": 692,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_van_pas",
+      "name": "Iron Front",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Incoming damage is reduced by 5 while guarding.",
+      "stat_modifiers": [
+        {
+          "stat": "def",
+          "value": 5,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_vanguard"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Incoming damage is reduced by 5 while guarding.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_van_act_1",
+    "kept_index": 4,
+    "removed_index": 693,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_van_act_1",
+      "name": "Shield Wall",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 15,
+      "damage_formula": "",
+      "effect": "Greatly raise defense for 2 turns and taunt nearby enemies.",
+      "stat_modifiers": [
+        {
+          "stat": "def",
+          "value": 12,
+          "duration_turns": 2,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [
+        {
+          "type": "taunt",
+          "value": 1,
+          "duration_turns": 2,
+          "target": "enemy"
+        }
+      ],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_vanguard"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "enemy",
+      "skill_description": "Greatly raise defense for 2 turns and taunt nearby enemies.",
+      "skill_shape": "self_buff",
+      "range": 0,
+      "aoe_radius": 2.5,
+      "projectile_speed": 0,
+      "cooldown_seconds": 10
+    }
+  },
+  {
+    "id": "sk_van_act_2",
+    "kept_index": 5,
+    "removed_index": 694,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_van_act_2",
+      "name": "Interpose",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 10,
+      "damage_formula": "",
+      "effect": "Step into a blow meant for an ally and reduce it.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "intercept",
+          "value": 0.4,
+          "duration_turns": 1
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_vanguard"
+        ],
+        "min_level": 12,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "ally",
+      "target_effect": "ally",
+      "skill_description": "Step into a blow meant for an ally and reduce it.",
+      "skill_shape": "dash",
+      "range": 3.0,
+      "aoe_radius": 0,
+      "projectile_speed": 10,
+      "cooldown_seconds": 8
+    }
+  },
+  {
+    "id": "sk_dread_pas",
+    "kept_index": 6,
+    "removed_index": 695,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_dread_pas",
+      "name": "Siege Plating",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Max HP bonus is reinforced. Gain a small shield at the start of combat.",
+      "stat_modifiers": [
+        {
+          "stat": "hp",
+          "value": 80,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "shield",
+          "value": 60,
+          "duration_turns": 0
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_dreadnought"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Max HP bonus is reinforced. Gain a small shield at the start of combat.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_dread_act_1",
+    "kept_index": 7,
+    "removed_index": 696,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_dread_act_1",
+      "name": "Ram",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 18,
+      "damage_formula": "atk * 1.4",
+      "effect": "Charge a short distance and stun on impact.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [
+        {
+          "type": "stun",
+          "value": 1,
+          "duration_turns": 1,
+          "target": "enemy"
+        }
+      ],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_dreadnought"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Charge a short distance and stun on impact.",
+      "skill_shape": "dash",
+      "range": 3.5,
+      "aoe_radius": 1.2,
+      "projectile_speed": 12,
+      "cooldown_seconds": 6
+    }
+  },
+  {
+    "id": "sk_dread_act_3",
+    "kept_index": 8,
+    "removed_index": 697,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_dread_act_3",
+      "name": "Unbreakable",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 22,
+      "damage_formula": "",
+      "effect": "Become immune to control for 2 turns and gain defense.",
+      "stat_modifiers": [
+        {
+          "stat": "def",
+          "value": 15,
+          "duration_turns": 2,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "control_immunity",
+          "value": 1,
+          "duration_turns": 2
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_dreadnought"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Become immune to control for 2 turns and gain defense.",
+      "skill_shape": "self_buff",
+      "range": 0,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 14
+    }
+  },
+  {
+    "id": "sk_dread_ult",
+    "kept_index": 9,
+    "removed_index": 698,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_dread_ult",
+      "name": "Colossus March",
+      "type": "Ultimate",
+      "source_type": "Class_Tree",
+      "mp_cost": 40,
+      "damage_formula": "atk * 1.8",
+      "effect": "Advance through enemies, dealing damage and taunting everything hit.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [
+        {
+          "type": "taunt",
+          "value": 1,
+          "duration_turns": 2,
+          "target": "enemy"
+        }
+      ],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_dreadnought"
+        ],
+        "min_level": 25,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Advance through enemies, dealing damage and taunting everything hit.",
+      "skill_shape": "line",
+      "range": 6,
+      "aoe_radius": 1.5,
+      "projectile_speed": 8,
+      "cooldown_seconds": 20
+    }
+  },
+  {
+    "id": "sk_sent_pas",
+    "kept_index": 10,
+    "removed_index": 699,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_sent_pas",
+      "name": "Guard Stance",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Permanently increased defense. Counter a portion of blocked damage.",
+      "stat_modifiers": [
+        {
+          "stat": "def",
+          "value": 10,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_sentinel"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Permanently increased defense. Counter a portion of blocked damage.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_sent_act_1",
+    "kept_index": 11,
+    "removed_index": 700,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_sent_act_1",
+      "name": "Aegis",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 16,
+      "damage_formula": "",
+      "effect": "Grant a shield to self based on defense.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "shield",
+          "value": 0,
+          "scale": "def * 2",
+          "duration_turns": 3
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_sentinel"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Grant a shield to self based on defense.",
+      "skill_shape": "self_buff",
+      "range": 0,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 10
+    }
+  },
+  {
+    "id": "sk_sent_act_2",
+    "kept_index": 12,
+    "removed_index": 701,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_sent_act_2",
+      "name": "Rebuke",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 14,
+      "damage_formula": "def * 1.2",
+      "effect": "Strike with the shield and root the target.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [
+        {
+          "type": "root",
+          "value": 1,
+          "duration_turns": 1,
+          "target": "enemy"
+        }
+      ],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_sentinel"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Strike with the shield and root the target.",
+      "skill_shape": "melee_slash",
+      "range": 1.4,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 5
+    }
+  },
+  {
+    "id": "sk_ber_pas",
+    "kept_index": 13,
+    "removed_index": 702,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_ber_pas",
+      "name": "Blood Frenzy",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Attack rises as HP falls, up to +15% at low health.",
+      "stat_modifiers": [
+        {
+          "stat": "atk",
+          "value": 6,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_berserker"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Attack rises as HP falls, up to +15% at low health.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_ber_act_1",
+    "kept_index": 14,
+    "removed_index": 703,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_ber_act_1",
+      "name": "Wild Swing",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 10,
+      "damage_formula": "atk * 1.6",
+      "effect": "A heavy swing that also reduces your defense briefly.",
+      "stat_modifiers": [
+        {
+          "stat": "def",
+          "value": -4,
+          "duration_turns": 2,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_berserker"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "A heavy swing that also reduces your defense briefly.",
+      "skill_shape": "melee_arc",
+      "range": 1.6,
+      "aoe_radius": 1.4,
+      "projectile_speed": 0,
+      "cooldown_seconds": 3
+    }
+  },
+  {
+    "id": "sk_ber_act_2",
+    "kept_index": 15,
+    "removed_index": 704,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_ber_act_2",
+      "name": "Reckless Charge",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 14,
+      "damage_formula": "atk * 1.3",
+      "effect": "Dash in and gain attack for 2 turns.",
+      "stat_modifiers": [
+        {
+          "stat": "atk",
+          "value": 8,
+          "duration_turns": 2,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_berserker"
+        ],
+        "min_level": 12,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Dash in and gain attack for 2 turns.",
+      "skill_shape": "dash",
+      "range": 3.5,
+      "aoe_radius": 0,
+      "projectile_speed": 12,
+      "cooldown_seconds": 6
+    }
+  },
+  {
+    "id": "sk_war_pas",
+    "kept_index": 16,
+    "removed_index": 705,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_war_pas",
+      "name": "Commanding Presence",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Allies within range gain a small attack bonus.",
+      "stat_modifiers": [
+        {
+          "stat": "atk",
+          "value": 4,
+          "duration_turns": 0,
+          "target": "ally"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_warlord"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Allies within range gain a small attack bonus.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_war_act_1",
+    "kept_index": 17,
+    "removed_index": 706,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_war_act_1",
+      "name": "Tyrant Cleave",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 18,
+      "damage_formula": "atk * 1.7",
+      "effect": "Cleave in a wide arc.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_warlord"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Cleave in a wide arc.",
+      "skill_shape": "melee_arc",
+      "range": 1.8,
+      "aoe_radius": 2.0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 4
+    }
+  },
+  {
+    "id": "sk_warlord_act_2",
+    "kept_index": 18,
+    "removed_index": 707,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_warlord_act_2",
+      "name": "War Cry",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 16,
+      "damage_formula": "",
+      "effect": "Buff ally attack and taunt enemies.",
+      "stat_modifiers": [
+        {
+          "stat": "atk",
+          "value": 8,
+          "duration_turns": 3,
+          "target": "ally"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [
+        {
+          "type": "taunt",
+          "value": 1,
+          "duration_turns": 2,
+          "target": "enemy"
+        }
+      ],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_warlord"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "ally",
+      "skill_description": "Buff ally attack and taunt enemies.",
+      "skill_shape": "aoe_nova",
+      "range": 0,
+      "aoe_radius": 4.0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 12
+    }
+  },
+  {
+    "id": "sk_warlord_act_3",
+    "kept_index": 19,
+    "removed_index": 708,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_warlord_act_3",
+      "name": "Execute Order",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 20,
+      "damage_formula": "atk * 2.0",
+      "effect": "Heavy single strike. Bonus damage against targets below 30% HP.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "execute_bonus",
+          "value": 0.5,
+          "threshold": 0.3
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_warlord"
+        ],
+        "min_level": 24,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Heavy single strike. Bonus damage against targets below 30% HP.",
+      "skill_shape": "melee_slash",
+      "range": 1.6,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 6
+    }
+  },
+  {
+    "id": "sk_warlord_ult",
+    "kept_index": 20,
+    "removed_index": 709,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_warlord_ult",
+      "name": "Conqueror's Banner",
+      "type": "Ultimate",
+      "source_type": "Class_Tree",
+      "mp_cost": 36,
+      "damage_formula": "atk * 1.5",
+      "effect": "Plant a banner that buffs allies and damages enemies in the zone.",
+      "stat_modifiers": [
+        {
+          "stat": "atk",
+          "value": 12,
+          "duration_turns": 3,
+          "target": "ally"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_warlord"
+        ],
+        "min_level": 28,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Plant a banner that buffs allies and damages enemies in the zone.",
+      "skill_shape": "ground_target",
+      "range": 5,
+      "aoe_radius": 3.5,
+      "projectile_speed": 0,
+      "cooldown_seconds": 22
+    }
+  },
+  {
+    "id": "sk_rav_pas_1",
+    "kept_index": 21,
+    "removed_index": 710,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_rav_pas_1",
+      "name": "Open Wound",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Attacks apply a short bleed if the target is already bleeding.",
+      "stat_modifiers": [
+        {
+          "stat": "atk",
+          "value": 4,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "on_hit_bleed_extend",
+          "value": 1,
+          "duration_turns": 0
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_ravager"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Attacks apply a short bleed if the target is already bleeding.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_rav_act_1",
+    "kept_index": 22,
+    "removed_index": 711,
+    "identical": true,
+    "removed_definition": {
+      "id": "sk_rav_act_1",
+      "name": "Rend",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 20,
+      "damage_formula": "atk * 1.5",
+      "effect": "Inflicts Bleed, dealing 50% Attack damage per turn for 3 turns.",
+      "stat_modifiers": [],
+      "periodic_effects": [
+        {
+          "type": "damage_over_time",
+          "value": 0,
+          "scale": 0.5,
+          "duration_turns": 3,
+          "target": "enemy"
+        }
+      ],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "apply_status",
+          "value": "bleed",
+          "duration_turns": 3
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_ravager"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Inflicts Bleed, dealing 50% Attack damage per turn for 3 turns.",
+      "skill_shape": "single_projectile",
+      "range": 1.5,
+      "aoe_radius": 0.0,
+      "projectile_speed": 8.0,
+      "cooldown_seconds": 2.0
+    }
+  },
+  {
+    "id": "sk_rav_act_2",
+    "kept_index": 23,
+    "removed_index": 712,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_rav_act_2",
+      "name": "Flurry Cut",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 16,
+      "damage_formula": "atk * 0.7",
+      "effect": "Three quick cuts. Each hit can refresh Bleed.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "multi_hit",
+          "value": 3
+        },
+        {
+          "type": "refresh_status",
+          "value": "bleed",
+          "duration_turns": 3
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_ravager"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Three quick cuts. Each hit can refresh Bleed.",
+      "skill_shape": "melee_flurry",
+      "range": 1.5,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 4
+    }
+  },
+  {
+    "id": "sk_dra_pas",
+    "kept_index": 24,
+    "removed_index": 713,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_dra_pas",
+      "name": "Lunging Step",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "First attack after a dash deals bonus damage.",
+      "stat_modifiers": [
+        {
+          "stat": "agility",
+          "value": 3,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_dragoon"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "First attack after a dash deals bonus damage.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_dra_act_1",
+    "kept_index": 25,
+    "removed_index": 714,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_dra_act_1",
+      "name": "Piercing Thrust",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 12,
+      "damage_formula": "atk * 1.45",
+      "effect": "A line thrust that hits the first target hard.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_dragoon"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "A line thrust that hits the first target hard.",
+      "skill_shape": "line",
+      "range": 3.5,
+      "aoe_radius": 0.4,
+      "projectile_speed": 14,
+      "cooldown_seconds": 3
+    }
+  },
+  {
+    "id": "sk_dra_act_2",
+    "kept_index": 26,
+    "removed_index": 715,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_dra_act_2",
+      "name": "Dragoon Leap",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 14,
+      "damage_formula": "atk * 1.3",
+      "effect": "Leap to a point and slow enemies on landing.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [
+        {
+          "type": "slow",
+          "value": 0.3,
+          "duration_turns": 1,
+          "target": "enemy"
+        }
+      ],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_dragoon"
+        ],
+        "min_level": 12,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Leap to a point and slow enemies on landing.",
+      "skill_shape": "ground_target",
+      "range": 5,
+      "aoe_radius": 1.8,
+      "projectile_speed": 10,
+      "cooldown_seconds": 7
+    }
+  },
+  {
+    "id": "sk_sky_pas",
+    "kept_index": 27,
+    "removed_index": 716,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_sky_pas",
+      "name": "Airborne",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Gain evasion after a leap.",
+      "stat_modifiers": [
+        {
+          "stat": "agility",
+          "value": 6,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_skyreaver"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Gain evasion after a leap.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_sky_act_1",
+    "kept_index": 28,
+    "removed_index": 717,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_sky_act_1",
+      "name": "Skyfall",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 18,
+      "damage_formula": "atk * 1.8",
+      "effect": "Leap and crash down, staggering the impact zone.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [
+        {
+          "type": "slow",
+          "value": 0.4,
+          "duration_turns": 1,
+          "target": "enemy"
+        }
+      ],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_skyreaver"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Leap and crash down, staggering the impact zone.",
+      "skill_shape": "ground_target",
+      "range": 6,
+      "aoe_radius": 2.0,
+      "projectile_speed": 12,
+      "cooldown_seconds": 6
+    }
+  },
+  {
+    "id": "sk_sky_act_2",
+    "kept_index": 29,
+    "removed_index": 718,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_sky_act_2",
+      "name": "Reaving Dive",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 16,
+      "damage_formula": "atk * 1.5",
+      "effect": "Dive onto a target and gain agility.",
+      "stat_modifiers": [
+        {
+          "stat": "agility",
+          "value": 8,
+          "duration_turns": 2,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_skyreaver"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Dive onto a target and gain agility.",
+      "skill_shape": "dash",
+      "range": 6,
+      "aoe_radius": 0,
+      "projectile_speed": 14,
+      "cooldown_seconds": 5
+    }
+  },
+  {
+    "id": "sk_void_pas",
+    "kept_index": 30,
+    "removed_index": 719,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_void_pas",
+      "name": "Weak Point",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Attacks ignore a portion of defense.",
+      "stat_modifiers": [
+        {
+          "stat": "perception",
+          "value": 4,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "armor_pen",
+          "value": 0.15
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_voidlancer"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Attacks ignore a portion of defense.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_void_act_1",
+    "kept_index": 31,
+    "removed_index": 720,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_void_act_1",
+      "name": "Void Thrust",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 18,
+      "damage_formula": "atk * 1.7",
+      "effect": "Pierce in a line and mark the target.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "apply_status",
+          "value": "marked",
+          "duration_turns": 3
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_voidlancer"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Pierce in a line and mark the target.",
+      "skill_shape": "line",
+      "range": 4.5,
+      "aoe_radius": 0.4,
+      "projectile_speed": 16,
+      "cooldown_seconds": 4
+    }
+  },
+  {
+    "id": "sk_void_act_2",
+    "kept_index": 32,
+    "removed_index": 721,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_void_act_2",
+      "name": "Rift Step",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 14,
+      "damage_formula": "",
+      "effect": "Blink a short distance and gain perception.",
+      "stat_modifiers": [
+        {
+          "stat": "perception",
+          "value": 8,
+          "duration_turns": 2,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_voidlancer"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Blink a short distance and gain perception.",
+      "skill_shape": "dash",
+      "range": 4,
+      "aoe_radius": 0,
+      "projectile_speed": 20,
+      "cooldown_seconds": 6
+    }
+  },
+  {
+    "id": "sk_str_pas",
+    "kept_index": 33,
+    "removed_index": 722,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_str_pas",
+      "name": "Light Step",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Move speed and dodge window are slightly increased.",
+      "stat_modifiers": [
+        {
+          "stat": "agility",
+          "value": 3,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "base_strider"
+        ],
+        "min_level": 1,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Move speed and dodge window are slightly increased.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_str_act_1",
+    "kept_index": 34,
+    "removed_index": 723,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_str_act_1",
+      "name": "Quick Cut",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 6,
+      "damage_formula": "atk * 1.15",
+      "effect": "A fast strike with a short cooldown.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "base_strider"
+        ],
+        "min_level": 1,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "A fast strike with a short cooldown.",
+      "skill_shape": "melee_slash",
+      "range": 1.5,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 1.4
+    }
+  },
+  {
+    "id": "sk_str_act_2",
+    "kept_index": 35,
+    "removed_index": 724,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_str_act_2",
+      "name": "Sidestep",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 8,
+      "damage_formula": "",
+      "effect": "Gain agility and a brief evade.",
+      "stat_modifiers": [
+        {
+          "stat": "agility",
+          "value": 6,
+          "duration_turns": 2,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "evade",
+          "value": 1,
+          "duration_turns": 1
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "base_strider"
+        ],
+        "min_level": 3,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Gain agility and a brief evade.",
+      "skill_shape": "self_buff",
+      "range": 0,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 6
+    }
+  },
+  {
+    "id": "sk_ass_pas",
+    "kept_index": 36,
+    "removed_index": 725,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_ass_pas",
+      "name": "Backstabber",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Bonus damage when attacking from behind.",
+      "stat_modifiers": [
+        {
+          "stat": "atk",
+          "value": 3,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "positional_bonus",
+          "value": 0.25
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_assassin"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Bonus damage when attacking from behind.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_ass_act_1",
+    "kept_index": 37,
+    "removed_index": 726,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_ass_act_1",
+      "name": "Ambush",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 12,
+      "damage_formula": "atk * 1.8",
+      "effect": "Gap-close and strike. Bonus if the target has not acted.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_assassin"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Gap-close and strike. Bonus if the target has not acted.",
+      "skill_shape": "dash",
+      "range": 4,
+      "aoe_radius": 0,
+      "projectile_speed": 14,
+      "cooldown_seconds": 5
+    }
+  },
+  {
+    "id": "sk_ass_act_2",
+    "kept_index": 38,
+    "removed_index": 727,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_ass_act_2",
+      "name": "Smoke Veil",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 10,
+      "damage_formula": "",
+      "effect": "Drop a veil that raises evasion.",
+      "stat_modifiers": [
+        {
+          "stat": "agility",
+          "value": 8,
+          "duration_turns": 2,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_assassin"
+        ],
+        "min_level": 12,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Drop a veil that raises evasion.",
+      "skill_shape": "ground_target",
+      "range": 2,
+      "aoe_radius": 2.0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 8
+    }
+  },
+  {
+    "id": "sk_shad_pas",
+    "kept_index": 39,
+    "removed_index": 728,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_shad_pas",
+      "name": "Killing Dark",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Critical chance rises while in stealth or after a dash.",
+      "stat_modifiers": [
+        {
+          "stat": "agility",
+          "value": 5,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_shadowblade"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Critical chance rises while in stealth or after a dash.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_shad_act_1",
+    "kept_index": 40,
+    "removed_index": 729,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_shad_act_1",
+      "name": "Shadow Strike",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 16,
+      "damage_formula": "atk * 2.0",
+      "effect": "Appear behind the target and strike.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_shadowblade"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Appear behind the target and strike.",
+      "skill_shape": "dash",
+      "range": 5,
+      "aoe_radius": 0,
+      "projectile_speed": 18,
+      "cooldown_seconds": 5
+    }
+  },
+  {
+    "id": "sk_shad_act_2",
+    "kept_index": 41,
+    "removed_index": 730,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_shad_act_2",
+      "name": "Vanish",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 14,
+      "damage_formula": "",
+      "effect": "Enter stealth for 2 turns. The next attack is empowered.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "stealth",
+          "value": 1,
+          "duration_turns": 2
+        },
+        {
+          "type": "empowered_next",
+          "value": 0.4
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_shadowblade"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Enter stealth for 2 turns. The next attack is empowered.",
+      "skill_shape": "self_buff",
+      "range": 0,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 10
+    }
+  },
+  {
+    "id": "sk_phantom_pas",
+    "kept_index": 42,
+    "removed_index": 731,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_phantom_pas",
+      "name": "Afterimage",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "The first attack against you each turn has a chance to miss.",
+      "stat_modifiers": [
+        {
+          "stat": "perception",
+          "value": 5,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "miss_chance",
+          "value": 0.15
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_phantom"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "The first attack against you each turn has a chance to miss.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_phantom_act_1",
+    "kept_index": 43,
+    "removed_index": 732,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_phantom_act_1",
+      "name": "Feint",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 12,
+      "damage_formula": "atk * 1.2",
+      "effect": "Strike and slow. If they miss you next, they are rooted.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [
+        {
+          "type": "slow",
+          "value": 0.3,
+          "duration_turns": 1,
+          "target": "enemy"
+        }
+      ],
+      "special_effects": [
+        {
+          "type": "punish_miss",
+          "value": "root",
+          "duration_turns": 1
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_phantom"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Strike and slow. If they miss you next, they are rooted.",
+      "skill_shape": "melee_slash",
+      "range": 1.5,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 4
+    }
+  },
+  {
+    "id": "sk_phantom_act_2",
+    "kept_index": 44,
+    "removed_index": 733,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_phantom_act_2",
+      "name": "Mirror Step",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 16,
+      "damage_formula": "",
+      "effect": "Leave a decoy and blink away.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "decoy",
+          "value": 1,
+          "duration_turns": 2
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_phantom"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Leave a decoy and blink away.",
+      "skill_shape": "dash",
+      "range": 4,
+      "aoe_radius": 0,
+      "projectile_speed": 16,
+      "cooldown_seconds": 8
+    }
+  },
+  {
+    "id": "sk_ran_pas",
+    "kept_index": 45,
+    "removed_index": 734,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_ran_pas",
+      "name": "Keen Eye",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Ranged attacks gain accuracy and a small damage bonus.",
+      "stat_modifiers": [
+        {
+          "stat": "perception",
+          "value": 4,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_ranger"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Ranged attacks gain accuracy and a small damage bonus.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_ran_act_1",
+    "kept_index": 46,
+    "removed_index": 735,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_ran_act_1",
+      "name": "Aimed Shot",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 12,
+      "damage_formula": "atk * 1.6",
+      "effect": "A precise shot. Bonus damage against marked targets.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_ranger"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [
+          "bow",
+          "gun"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "A precise shot. Bonus damage against marked targets.",
+      "skill_shape": "single_projectile",
+      "range": 8,
+      "aoe_radius": 0,
+      "projectile_speed": 16,
+      "cooldown_seconds": 3
+    }
+  },
+  {
+    "id": "sk_ran_act_2",
+    "kept_index": 47,
+    "removed_index": 736,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_ran_act_2",
+      "name": "Hunter's Mark",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 8,
+      "damage_formula": "",
+      "effect": "Mark a target. Allies deal bonus damage to it.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "apply_status",
+          "value": "marked",
+          "duration_turns": 4
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_ranger"
+        ],
+        "min_level": 12,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Mark a target. Allies deal bonus damage to it.",
+      "skill_shape": "single_projectile",
+      "range": 10,
+      "aoe_radius": 0,
+      "projectile_speed": 18,
+      "cooldown_seconds": 8
+    }
+  },
+  {
+    "id": "sk_beastmaster_pas",
+    "kept_index": 48,
+    "removed_index": 737,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_beastmaster_pas",
+      "name": "Bond",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "You and your beast share a portion of healing.",
+      "stat_modifiers": [
+        {
+          "stat": "hp",
+          "value": 30,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "share_heal",
+          "value": 0.3
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_beastmaster"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "You and your beast share a portion of healing.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_beastmaster_act_1",
+    "kept_index": 49,
+    "removed_index": 738,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_beastmaster_act_1",
+      "name": "Sic",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 14,
+      "damage_formula": "atk * 1.3",
+      "effect": "Command the beast to maul the target and apply bleed.",
+      "stat_modifiers": [],
+      "periodic_effects": [
+        {
+          "type": "damage_over_time",
+          "value": 0,
+          "scale": 0.5,
+          "duration_turns": 3,
+          "target": "enemy"
+        }
+      ],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "summon_attack",
+          "value": "beast"
+        },
+        {
+          "type": "apply_status",
+          "value": "bleed",
+          "duration_turns": 3
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_beastmaster"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Command the beast to maul the target and apply bleed.",
+      "skill_shape": "single_projectile",
+      "range": 6,
+      "aoe_radius": 0,
+      "projectile_speed": 12,
+      "cooldown_seconds": 4
+    }
+  },
+  {
+    "id": "sk_beastmaster_act_2",
+    "kept_index": 50,
+    "removed_index": 739,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_beastmaster_act_2",
+      "name": "Call of the Wild",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 18,
+      "damage_formula": "",
+      "effect": "Summon or refresh the bonded beast.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "summon",
+          "value": "bonded_beast",
+          "duration_turns": 6
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_beastmaster"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Summon or refresh the bonded beast.",
+      "skill_shape": "ground_target",
+      "range": 4,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 12
+    }
+  },
+  {
+    "id": "sk_snp_pas",
+    "kept_index": 51,
+    "removed_index": 740,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_snp_pas",
+      "name": "Hold Breath",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Standing still charges the next shot.",
+      "stat_modifiers": [
+        {
+          "stat": "perception",
+          "value": 8,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_sniperelite"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Standing still charges the next shot.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_snp_act_1",
+    "kept_index": 52,
+    "removed_index": 741,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_snp_act_1",
+      "name": "Headshot",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 16,
+      "damage_formula": "atk * 2.4",
+      "effect": "Extreme single shot. Long range, long cooldown.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_sniperelite"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [
+          "bow",
+          "sniper"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Extreme single shot. Long range, long cooldown.",
+      "skill_shape": "single_projectile",
+      "range": 14,
+      "aoe_radius": 0,
+      "projectile_speed": 28,
+      "cooldown_seconds": 6
+    }
+  },
+  {
+    "id": "sk_snp_act_2",
+    "kept_index": 53,
+    "removed_index": 742,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_snp_act_2",
+      "name": "Spotter",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 10,
+      "damage_formula": "",
+      "effect": "Reveal and mark targets in a cone.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "reveal",
+          "value": 1,
+          "duration_turns": 3
+        },
+        {
+          "type": "apply_status",
+          "value": "marked",
+          "duration_turns": 3
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_sniperelite"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Reveal and mark targets in a cone.",
+      "skill_shape": "cone",
+      "range": 10,
+      "aoe_radius": 3,
+      "projectile_speed": 0,
+      "cooldown_seconds": 10
+    }
+  },
+  {
+    "id": "sk_gun_pas",
+    "kept_index": 54,
+    "removed_index": 743,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_gun_pas",
+      "name": "Fan the Hammer",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Consecutive shots against the same target gain damage.",
+      "stat_modifiers": [
+        {
+          "stat": "perception",
+          "value": 3,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_gunslinger"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Consecutive shots against the same target gain damage.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_gun_act_1",
+    "kept_index": 55,
+    "removed_index": 744,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_gun_act_1",
+      "name": "Hip Fire",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 8,
+      "damage_formula": "atk * 1.1",
+      "effect": "Two quick shots.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "multi_hit",
+          "value": 2
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_gunslinger"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [
+          "gun"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Two quick shots.",
+      "skill_shape": "single_projectile",
+      "range": 6,
+      "aoe_radius": 0,
+      "projectile_speed": 18,
+      "cooldown_seconds": 1.6
+    }
+  },
+  {
+    "id": "sk_gun_act_2",
+    "kept_index": 56,
+    "removed_index": 745,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_gun_act_2",
+      "name": "Roll Shot",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 12,
+      "damage_formula": "atk * 1.25",
+      "effect": "Dodge sideways and fire.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_gunslinger"
+        ],
+        "min_level": 12,
+        "allowed_weapons": [
+          "gun"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Dodge sideways and fire.",
+      "skill_shape": "dash",
+      "range": 3,
+      "aoe_radius": 0,
+      "projectile_speed": 14,
+      "cooldown_seconds": 4
+    }
+  },
+  {
+    "id": "sk_desp_pas",
+    "kept_index": 57,
+    "removed_index": 746,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_desp_pas",
+      "name": "Quick Draw",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "The first shot in a duel has bonus crit.",
+      "stat_modifiers": [
+        {
+          "stat": "agility",
+          "value": 5,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_desperado"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "The first shot in a duel has bonus crit.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_desp_act_1",
+    "kept_index": 58,
+    "removed_index": 747,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_desp_act_1",
+      "name": "Fanfire",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 16,
+      "damage_formula": "atk * 0.6",
+      "effect": "Empty the cylinder into a cone.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "multi_hit",
+          "value": 4
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_desperado"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [
+          "gun"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Empty the cylinder into a cone.",
+      "skill_shape": "cone",
+      "range": 5,
+      "aoe_radius": 2.5,
+      "projectile_speed": 16,
+      "cooldown_seconds": 5
+    }
+  },
+  {
+    "id": "sk_desp_act_2",
+    "kept_index": 59,
+    "removed_index": 748,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_desp_act_2",
+      "name": "Duelist's Brand",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 14,
+      "damage_formula": "atk * 1.8",
+      "effect": "Mark a duelist and gain agility against them.",
+      "stat_modifiers": [
+        {
+          "stat": "agility",
+          "value": 8,
+          "duration_turns": 3,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "apply_status",
+          "value": "duel",
+          "duration_turns": 3
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_desperado"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [
+          "gun"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Mark a duelist and gain agility against them.",
+      "skill_shape": "single_projectile",
+      "range": 7,
+      "aoe_radius": 0,
+      "projectile_speed": 18,
+      "cooldown_seconds": 6
+    }
+  },
+  {
+    "id": "sk_techdrifter_pas",
+    "kept_index": 60,
+    "removed_index": 749,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_techdrifter_pas",
+      "name": "Scavenged Rig",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Gadgets cost less and ranged attacks can apply a short jam.",
+      "stat_modifiers": [
+        {
+          "stat": "perception",
+          "value": 4,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_techdrifter"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Gadgets cost less and ranged attacks can apply a short jam.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_techdrifter_act_1",
+    "kept_index": 61,
+    "removed_index": 750,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_techdrifter_act_1",
+      "name": "Shock Round",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 14,
+      "damage_formula": "atk * 1.3",
+      "effect": "A round that slows and briefly silences devices.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [
+        {
+          "type": "slow",
+          "value": 0.25,
+          "duration_turns": 2,
+          "target": "enemy"
+        }
+      ],
+      "special_effects": [
+        {
+          "type": "apply_status",
+          "value": "jammed",
+          "duration_turns": 2
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_techdrifter"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [
+          "gun"
+        ],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "A round that slows and briefly silences devices.",
+      "skill_shape": "single_projectile",
+      "range": 7,
+      "aoe_radius": 0,
+      "projectile_speed": 18,
+      "cooldown_seconds": 4
+    }
+  },
+  {
+    "id": "sk_techdrifter_act_2",
+    "kept_index": 62,
+    "removed_index": 751,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_techdrifter_act_2",
+      "name": "Deploy Drone",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 16,
+      "damage_formula": "",
+      "effect": "Drop a drone that peppers a target.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "summon",
+          "value": "harass_drone",
+          "duration_turns": 4
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_techdrifter"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Drop a drone that peppers a target.",
+      "skill_shape": "ground_target",
+      "range": 5,
+      "aoe_radius": 0,
+      "projectile_speed": 8,
+      "cooldown_seconds": 10
+    }
+  },
+  {
+    "id": "sk_channeler_pas",
+    "kept_index": 63,
+    "removed_index": 752,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_channeler_pas",
+      "name": "Open Channel",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Mana regen is increased.",
+      "stat_modifiers": [
+        {
+          "stat": "mp",
+          "value": 10,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "mp_regen",
+          "value": 2
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "base_channeler"
+        ],
+        "min_level": 1,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Mana regen is increased.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_channeler_act_1",
+    "kept_index": 64,
+    "removed_index": 753,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_channeler_act_1",
+      "name": "Arc Bolt",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 12,
+      "damage_formula": "perception * 1.2",
+      "effect": "A simple bolt of channeled force.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "base_channeler"
+        ],
+        "min_level": 1,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "A simple bolt of channeled force.",
+      "skill_shape": "single_projectile",
+      "range": 7,
+      "aoe_radius": 0,
+      "projectile_speed": 12,
+      "cooldown_seconds": 2
+    }
+  },
+  {
+    "id": "sk_channeler_act_2",
+    "kept_index": 65,
+    "removed_index": 754,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_channeler_act_2",
+      "name": "Focus",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 8,
+      "damage_formula": "",
+      "effect": "Gain perception for 3 turns.",
+      "stat_modifiers": [
+        {
+          "stat": "perception",
+          "value": 6,
+          "duration_turns": 3,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "base_channeler"
+        ],
+        "min_level": 3,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Gain perception for 3 turns.",
+      "skill_shape": "self_buff",
+      "range": 0,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 8
+    }
+  },
+  {
+    "id": "sk_mys_pas",
+    "kept_index": 66,
+    "removed_index": 755,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_mys_pas",
+      "name": "Clear Sight",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Spells have a higher chance to apply their status.",
+      "stat_modifiers": [
+        {
+          "stat": "perception",
+          "value": 5,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_mystic"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Spells have a higher chance to apply their status.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_mys_act_1",
+    "kept_index": 67,
+    "removed_index": 756,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_mys_act_1",
+      "name": "Mind Lance",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 16,
+      "damage_formula": "perception * 1.5",
+      "effect": "A piercing mental bolt that slows.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [
+        {
+          "type": "slow",
+          "value": 0.3,
+          "duration_turns": 1,
+          "target": "enemy"
+        }
+      ],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_mystic"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "A piercing mental bolt that slows.",
+      "skill_shape": "single_projectile",
+      "range": 8,
+      "aoe_radius": 0,
+      "projectile_speed": 14,
+      "cooldown_seconds": 3
+    }
+  },
+  {
+    "id": "sk_mys_act_2",
+    "kept_index": 68,
+    "removed_index": 757,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_mys_act_2",
+      "name": "Veil of Sense",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 14,
+      "damage_formula": "",
+      "effect": "Buff ally perception and reveal hidden enemies.",
+      "stat_modifiers": [
+        {
+          "stat": "perception",
+          "value": 8,
+          "duration_turns": 3,
+          "target": "ally"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "reveal",
+          "value": 1,
+          "duration_turns": 2
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_mystic"
+        ],
+        "min_level": 12,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "ally",
+      "target_effect": "ally",
+      "skill_description": "Buff ally perception and reveal hidden enemies.",
+      "skill_shape": "aoe_nova",
+      "range": 0,
+      "aoe_radius": 4,
+      "projectile_speed": 0,
+      "cooldown_seconds": 10
+    }
+  },
+  {
+    "id": "sk_archon_pas",
+    "kept_index": 69,
+    "removed_index": 758,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_archon_pas",
+      "name": "Overflow",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Excess mana converts into a small shield.",
+      "stat_modifiers": [
+        {
+          "stat": "mp",
+          "value": 40,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "mana_shield",
+          "value": 0.1
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_archon"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Excess mana converts into a small shield.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_archon_act_1",
+    "kept_index": 70,
+    "removed_index": 759,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_archon_act_1",
+      "name": "Archon Beam",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 28,
+      "damage_formula": "perception * 2.0",
+      "effect": "A sustained beam.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_archon"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "A sustained beam.",
+      "skill_shape": "beam",
+      "range": 9,
+      "aoe_radius": 0.6,
+      "projectile_speed": 20,
+      "cooldown_seconds": 5
+    }
+  },
+  {
+    "id": "sk_archon_act_2",
+    "kept_index": 71,
+    "removed_index": 760,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_archon_act_2",
+      "name": "Sanctum",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 24,
+      "damage_formula": "",
+      "effect": "Create a zone that restores mana and perception.",
+      "stat_modifiers": [
+        {
+          "stat": "perception",
+          "value": 8,
+          "duration_turns": 3,
+          "target": "ally"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "mp_regen_zone",
+          "value": 6,
+          "duration_turns": 3
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_archon"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "ally",
+      "target_effect": "ally",
+      "skill_description": "Create a zone that restores mana and perception.",
+      "skill_shape": "ground_target",
+      "range": 6,
+      "aoe_radius": 3,
+      "projectile_speed": 0,
+      "cooldown_seconds": 14
+    }
+  },
+  {
+    "id": "sk_chronomancer_pas",
+    "kept_index": 72,
+    "removed_index": 761,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_chronomancer_pas",
+      "name": "Borrowed Time",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Once per combat, survive a lethal hit at 1 HP.",
+      "stat_modifiers": [
+        {
+          "stat": "agility",
+          "value": 4,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "cheat_death",
+          "value": 1
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_chronomancer"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Once per combat, survive a lethal hit at 1 HP.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_chronomancer_act_1",
+    "kept_index": 73,
+    "removed_index": 762,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_chronomancer_act_1",
+      "name": "Rewind",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 20,
+      "damage_formula": "",
+      "effect": "Cleanse a negative effect and restore a small amount of HP.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "cleanse",
+          "value": 1
+        },
+        {
+          "type": "heal",
+          "value": 0,
+          "scale": 0.15
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_chronomancer"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "ally",
+      "target_effect": "ally",
+      "skill_description": "Cleanse a negative effect and restore a small amount of HP.",
+      "skill_shape": "single_target",
+      "range": 6,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 10
+    }
+  },
+  {
+    "id": "sk_chronomancer_act_2",
+    "kept_index": 74,
+    "removed_index": 763,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_chronomancer_act_2",
+      "name": "Haste",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 18,
+      "damage_formula": "",
+      "effect": "Grant an ally extra agility for 2 turns.",
+      "stat_modifiers": [
+        {
+          "stat": "agility",
+          "value": 12,
+          "duration_turns": 2,
+          "target": "ally"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_chronomancer"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "ally",
+      "target_effect": "ally",
+      "skill_description": "Grant an ally extra agility for 2 turns.",
+      "skill_shape": "single_target",
+      "range": 6,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 8
+    }
+  },
+  {
+    "id": "sk_warpriest_pas",
+    "kept_index": 75,
+    "removed_index": 764,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_warpriest_pas",
+      "name": "Oath of Steel",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Healing an ally also grants them a scrap of attack.",
+      "stat_modifiers": [
+        {
+          "stat": "atk",
+          "value": 2,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_warpriest"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Healing an ally also grants them a scrap of attack.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_warpriest_act_1",
+    "kept_index": 76,
+    "removed_index": 765,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_warpriest_act_1",
+      "name": "Smite",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 14,
+      "damage_formula": "atk * 1.2 + perception * 0.4",
+      "effect": "A consecrated strike.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_warpriest"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "A consecrated strike.",
+      "skill_shape": "melee_slash",
+      "range": 1.6,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 3
+    }
+  },
+  {
+    "id": "sk_warpriest_act_2",
+    "kept_index": 77,
+    "removed_index": 766,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_warpriest_act_2",
+      "name": "Field Blessing",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 16,
+      "damage_formula": "",
+      "effect": "Heal an ally over time.",
+      "stat_modifiers": [],
+      "periodic_effects": [
+        {
+          "type": "heal_over_time",
+          "value": 0,
+          "scale": 0.25,
+          "duration_turns": 3,
+          "target": "self"
+        }
+      ],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "apply_status",
+          "value": "regen",
+          "duration_turns": 3
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_warpriest"
+        ],
+        "min_level": 12,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "ally",
+      "target_effect": "ally",
+      "skill_description": "Heal an ally over time.",
+      "skill_shape": "single_target",
+      "range": 5,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 8
+    }
+  },
+  {
+    "id": "sk_templar_pas",
+    "kept_index": 78,
+    "removed_index": 767,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_templar_pas",
+      "name": "Consecrated Ground",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Allies near you regenerate a small amount of HP.",
+      "stat_modifiers": [
+        {
+          "stat": "hp",
+          "value": 40,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "aura_regen",
+          "value": 4
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_templar"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Allies near you regenerate a small amount of HP.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_templar_act_1",
+    "kept_index": 79,
+    "removed_index": 768,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_templar_act_1",
+      "name": "Holy Bulwark",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 18,
+      "damage_formula": "",
+      "effect": "Shield an ally based on your HP.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "shield",
+          "value": 80,
+          "duration_turns": 3
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_templar"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "ally",
+      "target_effect": "ally",
+      "skill_description": "Shield an ally based on your HP.",
+      "skill_shape": "single_target",
+      "range": 4,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 10
+    }
+  },
+  {
+    "id": "sk_templar_act_2",
+    "kept_index": 80,
+    "removed_index": 769,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_templar_act_2",
+      "name": "Judging Strike",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 16,
+      "damage_formula": "atk * 1.5",
+      "effect": "Strike and heal yourself for a portion of damage.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "lifesteal",
+          "value": 0.3
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_templar"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Strike and heal yourself for a portion of damage.",
+      "skill_shape": "melee_slash",
+      "range": 1.6,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 4
+    }
+  },
+  {
+    "id": "sk_arbiter_pas",
+    "kept_index": 81,
+    "removed_index": 770,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_arbiter_pas",
+      "name": "Verdict",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Marked targets take bonus spell damage.",
+      "stat_modifiers": [
+        {
+          "stat": "perception",
+          "value": 6,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_arbiter"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Marked targets take bonus spell damage.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_arbiter_act_1",
+    "kept_index": 82,
+    "removed_index": 771,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_arbiter_act_1",
+      "name": "Sentence",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 20,
+      "damage_formula": "perception * 1.7",
+      "effect": "Damage and silence.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [
+        {
+          "type": "silence",
+          "value": 1,
+          "duration_turns": 1,
+          "target": "enemy"
+        }
+      ],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_arbiter"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Damage and silence.",
+      "skill_shape": "single_projectile",
+      "range": 8,
+      "aoe_radius": 0,
+      "projectile_speed": 14,
+      "cooldown_seconds": 5
+    }
+  },
+  {
+    "id": "sk_arbiter_act_2",
+    "kept_index": 83,
+    "removed_index": 772,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_arbiter_act_2",
+      "name": "Weigh the Soul",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 16,
+      "damage_formula": "",
+      "effect": "Mark a target. The next damaging spell against them is empowered.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "apply_status",
+          "value": "guilty",
+          "duration_turns": 3
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_arbiter"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Mark a target. The next damaging spell against them is empowered.",
+      "skill_shape": "single_projectile",
+      "range": 8,
+      "aoe_radius": 0,
+      "projectile_speed": 14,
+      "cooldown_seconds": 8
+    }
+  },
+  {
+    "id": "sk_summoner_pas",
+    "kept_index": 84,
+    "removed_index": 773,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_summoner_pas",
+      "name": "Caller",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Summons last 1 extra turn and cost less mana.",
+      "stat_modifiers": [
+        {
+          "stat": "mp",
+          "value": 20,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_summoner"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Summons last 1 extra turn and cost less mana.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_summoner_act_1",
+    "kept_index": 85,
+    "removed_index": 774,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_summoner_act_1",
+      "name": "Minor Call",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 18,
+      "damage_formula": "",
+      "effect": "Summon a minor spirit that attacks the nearest enemy.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "summon",
+          "value": "minor_spirit",
+          "duration_turns": 4
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_summoner"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Summon a minor spirit that attacks the nearest enemy.",
+      "skill_shape": "ground_target",
+      "range": 4,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 8
+    }
+  },
+  {
+    "id": "sk_summoner_act_2",
+    "kept_index": 86,
+    "removed_index": 775,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_summoner_act_2",
+      "name": "Command",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 10,
+      "damage_formula": "perception * 0.8",
+      "effect": "Order a summon to focus a target.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "command_summon",
+          "value": 1
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_summoner"
+        ],
+        "min_level": 12,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Order a summon to focus a target.",
+      "skill_shape": "single_projectile",
+      "range": 8,
+      "aoe_radius": 0,
+      "projectile_speed": 12,
+      "cooldown_seconds": 3
+    }
+  },
+  {
+    "id": "sk_voidcaller_pas",
+    "kept_index": 87,
+    "removed_index": 776,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_voidcaller_pas",
+      "name": "Rift Affinity",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Void summons deal bonus damage.",
+      "stat_modifiers": [
+        {
+          "stat": "perception",
+          "value": 6,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_voidcaller"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Void summons deal bonus damage.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_voidcaller_act_1",
+    "kept_index": 88,
+    "removed_index": 777,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_voidcaller_act_1",
+      "name": "Tear",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 22,
+      "damage_formula": "perception * 1.4",
+      "effect": "Open a rift that damages and summons a voidling.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "summon",
+          "value": "voidling",
+          "duration_turns": 4
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_voidcaller"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Open a rift that damages and summons a voidling.",
+      "skill_shape": "ground_target",
+      "range": 6,
+      "aoe_radius": 1.5,
+      "projectile_speed": 0,
+      "cooldown_seconds": 7
+    }
+  },
+  {
+    "id": "sk_voidcaller_act_2",
+    "kept_index": 89,
+    "removed_index": 778,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_voidcaller_act_2",
+      "name": "Abyssal Pull",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 18,
+      "damage_formula": "perception * 1.1",
+      "effect": "Pull enemies toward a rift and slow them.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [
+        {
+          "type": "slow",
+          "value": 0.35,
+          "duration_turns": 2,
+          "target": "enemy"
+        }
+      ],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_voidcaller"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Pull enemies toward a rift and slow them.",
+      "skill_shape": "ground_target",
+      "range": 7,
+      "aoe_radius": 2.5,
+      "projectile_speed": 0,
+      "cooldown_seconds": 9
+    }
+  },
+  {
+    "id": "sk_golemancer_pas",
+    "kept_index": 90,
+    "removed_index": 779,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_golemancer_pas",
+      "name": "Stone Bond",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "You gain defense while your golem is alive.",
+      "stat_modifiers": [
+        {
+          "stat": "def",
+          "value": 6,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_golemancer"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "You gain defense while your golem is alive.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_golemancer_act_1",
+    "kept_index": 91,
+    "removed_index": 780,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_golemancer_act_1",
+      "name": "Raise Golem",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 24,
+      "damage_formula": "",
+      "effect": "Summon a golem tank.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "summon",
+          "value": "golem",
+          "duration_turns": 6
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_golemancer"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Summon a golem tank.",
+      "skill_shape": "ground_target",
+      "range": 3,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 14
+    }
+  },
+  {
+    "id": "sk_golemancer_act_2",
+    "kept_index": 92,
+    "removed_index": 781,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_golemancer_act_2",
+      "name": "Seismic Slam",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 16,
+      "damage_formula": "def * 1.0 + perception * 0.5",
+      "effect": "Order the golem to slam, rooting the impact.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [
+        {
+          "type": "root",
+          "value": 1,
+          "duration_turns": 1,
+          "target": "enemy"
+        }
+      ],
+      "special_effects": [
+        {
+          "type": "command_summon",
+          "value": 1
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_golemancer"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Order the golem to slam, rooting the impact.",
+      "skill_shape": "ground_target",
+      "range": 5,
+      "aoe_radius": 2.0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 6
+    }
+  },
+  {
+    "id": "sk_machinist_pas",
+    "kept_index": 93,
+    "removed_index": 782,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_machinist_pas",
+      "name": "Field Repair",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Devices you own regenerate a small amount of HP.",
+      "stat_modifiers": [
+        {
+          "stat": "perception",
+          "value": 2,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "base_machinist"
+        ],
+        "min_level": 1,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Devices you own regenerate a small amount of HP.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_machinist_act_1",
+    "kept_index": 94,
+    "removed_index": 783,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_machinist_act_1",
+      "name": "Wrench Strike",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 6,
+      "damage_formula": "atk * 1.15",
+      "effect": "A tool strike that can jam a device.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "apply_status",
+          "value": "jammed",
+          "duration_turns": 1
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "base_machinist"
+        ],
+        "min_level": 1,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "A tool strike that can jam a device.",
+      "skill_shape": "melee_slash",
+      "range": 1.4,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 2
+    }
+  },
+  {
+    "id": "sk_machinist_act_2",
+    "kept_index": 95,
+    "removed_index": 784,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_machinist_act_2",
+      "name": "Deploy Mine",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 10,
+      "damage_formula": "atk * 1.2",
+      "effect": "Plant a mine that arms after a moment.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "trap",
+          "value": "mine",
+          "duration_turns": 4
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "base_machinist"
+        ],
+        "min_level": 3,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Plant a mine that arms after a moment.",
+      "skill_shape": "ground_target",
+      "range": 3,
+      "aoe_radius": 1.5,
+      "projectile_speed": 0,
+      "cooldown_seconds": 6
+    }
+  },
+  {
+    "id": "sk_artificer_pas",
+    "kept_index": 96,
+    "removed_index": 785,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_artificer_pas",
+      "name": "Overclock",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Your devices attack slightly faster.",
+      "stat_modifiers": [
+        {
+          "stat": "perception",
+          "value": 4,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_artificer"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Your devices attack slightly faster.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_artificer_act_1",
+    "kept_index": 97,
+    "removed_index": 786,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_artificer_act_1",
+      "name": "Turret Drop",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 16,
+      "damage_formula": "",
+      "effect": "Deploy a turret.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "summon",
+          "value": "turret",
+          "duration_turns": 5
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_artificer"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Deploy a turret.",
+      "skill_shape": "ground_target",
+      "range": 4,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 10
+    }
+  },
+  {
+    "id": "sk_artificer_act_2",
+    "kept_index": 98,
+    "removed_index": 787,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_artificer_act_2",
+      "name": "Shock Tool",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 12,
+      "damage_formula": "perception * 1.1",
+      "effect": "Zap a target and slow them.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [
+        {
+          "type": "slow",
+          "value": 0.3,
+          "duration_turns": 1,
+          "target": "enemy"
+        }
+      ],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_artificer"
+        ],
+        "min_level": 12,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Zap a target and slow them.",
+      "skill_shape": "single_projectile",
+      "range": 5,
+      "aoe_radius": 0,
+      "projectile_speed": 14,
+      "cooldown_seconds": 3
+    }
+  },
+  {
+    "id": "sk_mechapilot_pas",
+    "kept_index": 99,
+    "removed_index": 788,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_mechapilot_pas",
+      "name": "Frame Sync",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "While mounted, gain HP and attack from the frame.",
+      "stat_modifiers": [
+        {
+          "stat": "hp",
+          "value": 40,
+          "duration_turns": 0,
+          "target": "self"
+        },
+        {
+          "stat": "atk",
+          "value": 4,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_mechapilot"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "While mounted, gain HP and attack from the frame.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_mechapilot_act_1",
+    "kept_index": 100,
+    "removed_index": 789,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_mechapilot_act_1",
+      "name": "Cannon Burst",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 18,
+      "damage_formula": "atk * 1.7",
+      "effect": "Frame cannon shot in a line.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_mechapilot"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Frame cannon shot in a line.",
+      "skill_shape": "line",
+      "range": 7,
+      "aoe_radius": 0.8,
+      "projectile_speed": 16,
+      "cooldown_seconds": 5
+    }
+  },
+  {
+    "id": "sk_mechapilot_act_2",
+    "kept_index": 101,
+    "removed_index": 790,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_mechapilot_act_2",
+      "name": "Boost Ram",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 16,
+      "damage_formula": "atk * 1.4",
+      "effect": "Dash with the frame and stun.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [
+        {
+          "type": "stun",
+          "value": 1,
+          "duration_turns": 1,
+          "target": "enemy"
+        }
+      ],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_mechapilot"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Dash with the frame and stun.",
+      "skill_shape": "dash",
+      "range": 4,
+      "aoe_radius": 1.2,
+      "projectile_speed": 12,
+      "cooldown_seconds": 7
+    }
+  },
+  {
+    "id": "sk_cyberarchitect_pas",
+    "kept_index": 102,
+    "removed_index": 791,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_cyberarchitect_pas",
+      "name": "Grid Sense",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Allies near your structures gain defense.",
+      "stat_modifiers": [
+        {
+          "stat": "def",
+          "value": 4,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_cyberarchitect"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Allies near your structures gain defense.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_cyberarchitect_act_1",
+    "kept_index": 103,
+    "removed_index": 792,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_cyberarchitect_act_1",
+      "name": "Hardlight Wall",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 18,
+      "damage_formula": "",
+      "effect": "Raise a wall that blocks movement.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "structure",
+          "value": "wall",
+          "duration_turns": 3
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_cyberarchitect"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Raise a wall that blocks movement.",
+      "skill_shape": "ground_target",
+      "range": 5,
+      "aoe_radius": 2.0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 10
+    }
+  },
+  {
+    "id": "sk_cyberarchitect_act_2",
+    "kept_index": 104,
+    "removed_index": 793,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_cyberarchitect_act_2",
+      "name": "Node Pulse",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 16,
+      "damage_formula": "perception * 1.3",
+      "effect": "Damage enemies near your structures.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_cyberarchitect"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Damage enemies near your structures.",
+      "skill_shape": "aoe_nova",
+      "range": 6,
+      "aoe_radius": 2.5,
+      "projectile_speed": 0,
+      "cooldown_seconds": 6
+    }
+  },
+  {
+    "id": "sk_saboteur_pas",
+    "kept_index": 105,
+    "removed_index": 794,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_saboteur_pas",
+      "name": "Quiet Hands",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Traps arm faster and you gain agility after planting one.",
+      "stat_modifiers": [
+        {
+          "stat": "agility",
+          "value": 3,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_saboteur"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Traps arm faster and you gain agility after planting one.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_saboteur_act_1",
+    "kept_index": 106,
+    "removed_index": 795,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_saboteur_act_1",
+      "name": "Caltrops",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 10,
+      "damage_formula": "atk * 0.6",
+      "effect": "Drop a field that slows.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [
+        {
+          "type": "slow",
+          "value": 0.35,
+          "duration_turns": 2,
+          "target": "enemy"
+        }
+      ],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_saboteur"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Drop a field that slows.",
+      "skill_shape": "ground_target",
+      "range": 3,
+      "aoe_radius": 2.0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 6
+    }
+  },
+  {
+    "id": "sk_saboteur_act_2",
+    "kept_index": 107,
+    "removed_index": 796,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_saboteur_act_2",
+      "name": "Cut the Line",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 12,
+      "damage_formula": "perception * 1.2",
+      "effect": "Damage a device or silence a caster briefly.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [
+        {
+          "type": "silence",
+          "value": 1,
+          "duration_turns": 1,
+          "target": "enemy"
+        }
+      ],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_saboteur"
+        ],
+        "min_level": 12,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Damage a device or silence a caster briefly.",
+      "skill_shape": "single_projectile",
+      "range": 4,
+      "aoe_radius": 0,
+      "projectile_speed": 12,
+      "cooldown_seconds": 5
+    }
+  },
+  {
+    "id": "sk_demolitionist_pas",
+    "kept_index": 108,
+    "removed_index": 797,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_demolitionist_pas",
+      "name": "Shaped Charge",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Your explosions ignore a portion of defense.",
+      "stat_modifiers": [
+        {
+          "stat": "atk",
+          "value": 4,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "armor_pen",
+          "value": 0.1
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_demolitionist"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Your explosions ignore a portion of defense.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_demolitionist_act_1",
+    "kept_index": 109,
+    "removed_index": 798,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_demolitionist_act_1",
+      "name": "Satchel",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 18,
+      "damage_formula": "atk * 1.8",
+      "effect": "Throw a charge that explodes.",
+      "stat_modifiers": [],
+      "periodic_effects": [
+        {
+          "type": "damage_over_time",
+          "value": 0,
+          "scale": 0.4,
+          "duration_turns": 3,
+          "target": "enemy"
+        }
+      ],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "apply_status",
+          "value": "burn",
+          "duration_turns": 2
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_demolitionist"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Throw a charge that explodes.",
+      "skill_shape": "single_projectile",
+      "range": 5,
+      "aoe_radius": 2.2,
+      "projectile_speed": 8,
+      "cooldown_seconds": 5
+    }
+  },
+  {
+    "id": "sk_demolitionist_act_2",
+    "kept_index": 110,
+    "removed_index": 799,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_demolitionist_act_2",
+      "name": "Remote Detonate",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 12,
+      "damage_formula": "atk * 1.2",
+      "effect": "Detonate all armed charges.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "detonate_traps",
+          "value": 1
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_demolitionist"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Detonate all armed charges.",
+      "skill_shape": "aoe_nova",
+      "range": 8,
+      "aoe_radius": 2.0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 7
+    }
+  },
+  {
+    "id": "sk_netrunner_pas",
+    "kept_index": 111,
+    "removed_index": 800,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_netrunner_pas",
+      "name": "Daemon Cache",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Hacks cost less mana and can chain once.",
+      "stat_modifiers": [
+        {
+          "stat": "mp",
+          "value": 15,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_netrunner"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Hacks cost less mana and can chain once.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_netrunner_act_1",
+    "kept_index": 112,
+    "removed_index": 801,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_netrunner_act_1",
+      "name": "Spike",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 16,
+      "damage_formula": "perception * 1.5",
+      "effect": "Hack a target, dealing damage and silencing.",
+      "stat_modifiers": [],
+      "periodic_effects": [],
+      "control_effects": [
+        {
+          "type": "silence",
+          "value": 1,
+          "duration_turns": 1,
+          "target": "enemy"
+        }
+      ],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_netrunner"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Hack a target, dealing damage and silencing.",
+      "skill_shape": "single_projectile",
+      "range": 8,
+      "aoe_radius": 0,
+      "projectile_speed": 20,
+      "cooldown_seconds": 4
+    }
+  },
+  {
+    "id": "sk_netrunner_act_2",
+    "kept_index": 113,
+    "removed_index": 802,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_netrunner_act_2",
+      "name": "Trace Kill",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 18,
+      "damage_formula": "perception * 1.2",
+      "effect": "Mark a system. It takes damage over time.",
+      "stat_modifiers": [],
+      "periodic_effects": [
+        {
+          "type": "damage_over_time",
+          "value": 0,
+          "scale": 0.3,
+          "duration_turns": 3,
+          "target": "enemy"
+        }
+      ],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "apply_status",
+          "value": "traced",
+          "duration_turns": 3
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_netrunner"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Mark a system. It takes damage over time.",
+      "skill_shape": "single_projectile",
+      "range": 8,
+      "aoe_radius": 0,
+      "projectile_speed": 20,
+      "cooldown_seconds": 6
+    }
+  },
+  {
+    "id": "sk_alchemist_pas",
+    "kept_index": 114,
+    "removed_index": 803,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_alchemist_pas",
+      "name": "Reagent Belt",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Status effects you apply last 1 extra turn on a cooldown.",
+      "stat_modifiers": [
+        {
+          "stat": "perception",
+          "value": 3,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_alchemist"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Status effects you apply last 1 extra turn on a cooldown.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_alchemist_act_1",
+    "kept_index": 115,
+    "removed_index": 804,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_alchemist_act_1",
+      "name": "Acid Vial",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 12,
+      "damage_formula": "perception * 1.1",
+      "effect": "Throw acid. Defense of the target is reduced.",
+      "stat_modifiers": [
+        {
+          "stat": "def",
+          "value": -6,
+          "duration_turns": 3,
+          "target": "enemy"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_alchemist"
+        ],
+        "min_level": 10,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Throw acid. Defense of the target is reduced.",
+      "skill_shape": "single_projectile",
+      "range": 5,
+      "aoe_radius": 1.2,
+      "projectile_speed": 8,
+      "cooldown_seconds": 3
+    }
+  },
+  {
+    "id": "sk_alchemist_act_2",
+    "kept_index": 116,
+    "removed_index": 805,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_alchemist_act_2",
+      "name": "Tonic",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 10,
+      "damage_formula": "",
+      "effect": "Heal yourself over a short duration.",
+      "stat_modifiers": [],
+      "periodic_effects": [
+        {
+          "type": "heal_over_time",
+          "value": 0,
+          "scale": 0.3,
+          "duration_turns": 3,
+          "target": "self"
+        }
+      ],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "apply_status",
+          "value": "regen",
+          "duration_turns": 3
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "adv_alchemist"
+        ],
+        "min_level": 12,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Heal yourself over a short duration.",
+      "skill_shape": "self_buff",
+      "range": 0,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 8
+    }
+  },
+  {
+    "id": "sk_bioengineer_pas",
+    "kept_index": 117,
+    "removed_index": 806,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_bioengineer_pas",
+      "name": "Adaptive Tissue",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Receiving a heal grants a small defense bonus.",
+      "stat_modifiers": [
+        {
+          "stat": "hp",
+          "value": 30,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_bioengineer"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Receiving a heal grants a small defense bonus.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_bioengineer_act_1",
+    "kept_index": 118,
+    "removed_index": 807,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_bioengineer_act_1",
+      "name": "Splice",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 16,
+      "damage_formula": "",
+      "effect": "Strong heal over time on an ally.",
+      "stat_modifiers": [],
+      "periodic_effects": [
+        {
+          "type": "heal_over_time",
+          "value": 0,
+          "scale": 0.4,
+          "duration_turns": 3,
+          "target": "ally"
+        }
+      ],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "apply_status",
+          "value": "regen",
+          "duration_turns": 3
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_bioengineer"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "ally",
+      "target_effect": "ally",
+      "skill_description": "Strong heal over time on an ally.",
+      "skill_shape": "single_target",
+      "range": 5,
+      "aoe_radius": 0,
+      "projectile_speed": 0,
+      "cooldown_seconds": 7
+    }
+  },
+  {
+    "id": "sk_bioengineer_act_2",
+    "kept_index": 119,
+    "removed_index": 808,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_bioengineer_act_2",
+      "name": "Mutagen Dart",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 14,
+      "damage_formula": "perception * 1.2",
+      "effect": "Damage and reduce attack.",
+      "stat_modifiers": [
+        {
+          "stat": "atk",
+          "value": -6,
+          "duration_turns": 3,
+          "target": "enemy"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_bioengineer"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Damage and reduce attack.",
+      "skill_shape": "single_projectile",
+      "range": 6,
+      "aoe_radius": 0,
+      "projectile_speed": 12,
+      "cooldown_seconds": 5
+    }
+  },
+  {
+    "id": "sk_plaguespreader_pas",
+    "kept_index": 120,
+    "removed_index": 809,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_plaguespreader_pas",
+      "name": "Vector",
+      "type": "Passive",
+      "source_type": "Class_Tree",
+      "mp_cost": 0,
+      "damage_formula": "",
+      "effect": "Poison and blight can jump to a nearby enemy once.",
+      "stat_modifiers": [
+        {
+          "stat": "perception",
+          "value": 4,
+          "duration_turns": 0,
+          "target": "self"
+        }
+      ],
+      "periodic_effects": [],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "status_spread",
+          "value": 1
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_plaguespreader"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "self",
+      "target_effect": "self",
+      "skill_description": "Poison and blight can jump to a nearby enemy once.",
+      "skill_shape": "passive",
+      "range": 0.0,
+      "aoe_radius": 0.0,
+      "projectile_speed": 0.0,
+      "cooldown_seconds": 0.0
+    }
+  },
+  {
+    "id": "sk_plaguespreader_act_1",
+    "kept_index": 121,
+    "removed_index": 810,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_plaguespreader_act_1",
+      "name": "Plague Vial",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 16,
+      "damage_formula": "perception * 1.2",
+      "effect": "Apply blight in a small area.",
+      "stat_modifiers": [],
+      "periodic_effects": [
+        {
+          "type": "damage_over_time",
+          "value": 0,
+          "scale": 0.45,
+          "duration_turns": 4,
+          "target": "enemy"
+        }
+      ],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "apply_status",
+          "value": "blight",
+          "duration_turns": 4
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_plaguespreader"
+        ],
+        "min_level": 20,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Apply blight in a small area.",
+      "skill_shape": "single_projectile",
+      "range": 5,
+      "aoe_radius": 2.0,
+      "projectile_speed": 8,
+      "cooldown_seconds": 5
+    }
+  },
+  {
+    "id": "sk_plaguespreader_act_2",
+    "kept_index": 122,
+    "removed_index": 811,
+    "identical": false,
+    "removed_definition": {
+      "id": "sk_plaguespreader_act_2",
+      "name": "Miasma",
+      "type": "Active",
+      "source_type": "Class_Tree",
+      "mp_cost": 18,
+      "damage_formula": "perception * 0.8",
+      "effect": "Leave a cloud that poisons anyone who stays.",
+      "stat_modifiers": [],
+      "periodic_effects": [
+        {
+          "type": "damage_over_time",
+          "value": 0,
+          "scale": 0.35,
+          "duration_turns": 4,
+          "target": "enemy"
+        }
+      ],
+      "control_effects": [],
+      "special_effects": [
+        {
+          "type": "apply_status",
+          "value": "poison",
+          "duration_turns": 4
+        }
+      ],
+      "usage_requirements": {
+        "allowed_classes": [
+          "mst_plaguespreader"
+        ],
+        "min_level": 22,
+        "allowed_weapons": [],
+        "allowed_races": []
+      },
+      "target_attack": "enemy",
+      "target_effect": "enemy",
+      "skill_description": "Leave a cloud that poisons anyone who stays.",
+      "skill_shape": "ground_target",
+      "range": 6,
+      "aoe_radius": 2.5,
+      "projectile_speed": 0,
+      "cooldown_seconds": 8
+    }
+  }
+]

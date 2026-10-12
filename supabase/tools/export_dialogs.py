@@ -8,7 +8,7 @@
 import json, os, sys, urllib.request
 
 def to_dialog(row):
-    d = {'dialog_id': row.get('dialog_id')}
+    d = {'dialog_id': row.get('dialog_id'), 'is_active': row.get('is_active',True), 'content_revision': row.get('content_revision',1), 'emergency_blocked': row.get('emergency_blocked',False)}
     if row.get('quest_id') is not None:
         d['quest_id'] = row['quest_id']
     d['npc_id'] = row.get('npc_id')

@@ -135,7 +135,6 @@
       ],
       "spawn_monster_id": "world_boss",
       "spawn_location": [
-        "CRYSTAL_SLOPE",
         "ETERNAL_GATE",
         "SEVERANCE_FAULTLINE"
       ],
@@ -1403,7 +1402,6 @@
       ],
       "spawn_monster_id": "dungeon",
       "spawn_location": [
-        "CRADLE_OUTER_RING",
         "AETHEL_STORM_BELT",
         "VOID_RIFT_CROSSROADS",
         "ETERNAL_GATE",
@@ -1494,7 +1492,6 @@
       ],
       "spawn_monster_id": "dungeon",
       "spawn_location": [
-        "CRADLE_OUTER_RING",
         "SKYBRIDGE_REACTOR",
         "AETHEL_STORM_RIDGE"
       ],
@@ -1578,7 +1575,6 @@
       ],
       "spawn_monster_id": "dungeon",
       "spawn_location": [
-        "CRYSTAL_SLOPE",
         "AETHEL_STORM_RIDGE"
       ],
       "base_stats": {
@@ -1661,7 +1657,6 @@
       ],
       "spawn_monster_id": "dungeon",
       "spawn_location": [
-        "CRYSTAL_SLOPE",
         "TITAN_GRAVEYARD",
         "ETERNAL_GATE",
         "SHATTERED_HEART",
@@ -2477,7 +2472,7 @@
       "hunting_point": 3,
       "drop_item": [
         {
-          "itemId": "scarab_shell",
+          "itemId": "bio_scarab_shell",
           "chance": 0.5
         },
         {
@@ -2546,6 +2541,14 @@
         {
           "itemId": "mutant_claw",
           "chance": 0.6
+        },
+        {
+          "itemId": "salvaged_supply_crate",
+          "chance": 0.45
+        },
+        {
+          "itemId": "ILLEGAL_WEAPON_CACHE",
+          "chance": 0.25
         }
       ],
       "special_reward": []
@@ -5129,7 +5132,7 @@
       "hunting_point": 30,
       "drop_item": [
         {
-          "itemId": "storm_core",
+          "itemId": "mat_storm_core",
           "chance": 0.18
         }
       ],
@@ -9333,7 +9336,7 @@
       "hunting_point": 1,
       "drop_item": [
         {
-          "itemId": "scarab_shell",
+          "itemId": "bio_scarab_shell",
           "chance": 1
         }
       ],
@@ -9863,7 +9866,7 @@
       "hunting_point": 4,
       "drop_item": [
         {
-          "itemId": "scarab_shell",
+          "itemId": "bio_scarab_shell",
           "chance": 1
         }
       ],
@@ -10769,6 +10772,10 @@
         {
           "itemId": "scrap_core",
           "chance": 0.4
+        },
+        {
+          "itemId": "salvaged_alloy_fragment",
+          "chance": 0.5
         }
       ],
       "special_reward": []
@@ -11054,6 +11061,10 @@
         {
           "itemId": "refined_scrap",
           "chance": 1
+        },
+        {
+          "itemId": "ILLEGAL_WEAPON_CACHE",
+          "chance": 0.35
         }
       ],
       "special_reward": []
@@ -11537,6 +11548,10 @@
         {
           "itemId": "refined_scrap",
           "chance": 1
+        },
+        {
+          "itemId": "archive_scroll",
+          "chance": 0.35
         }
       ],
       "special_reward": []
@@ -11611,6 +11626,10 @@
         {
           "itemId": "sensor_chip",
           "chance": 1
+        },
+        {
+          "itemId": "COUNTERFEIT_CRD_SAMPLE",
+          "chance": 0.4
         }
       ],
       "special_reward": []
@@ -13378,6 +13397,356 @@
         {
           "itemId": "refined_crystal_shard",
           "chance": 0.5
+        }
+      ],
+      "special_reward": []
+    },
+    {
+      "monster_id": 6101,
+      "code": "WARD_INDEXER",
+      "name": "Malfunctioning Ward Indexer",
+      "rank": "normal",
+      "level": 7,
+      "race_code": "AUTOMATON",
+      "element": [
+        "metal"
+      ],
+      "spawn_monster_id": "UNLISTED_WARD",
+      "spawn_location": [
+        "UNLISTED_WARD"
+      ],
+      "base_stats": {
+        "hp": 420,
+        "mp": 40,
+        "atk": 44,
+        "def": 38,
+        "agi": 4,
+        "per": 6
+      },
+      "scaling": {
+        "basic_attack": 1.1,
+        "skill_scaling_bonus": 0.2
+      },
+      "critical_rate": 0.03,
+      "critical_damage": 1.35,
+      "resistances": [
+        "poison"
+      ],
+      "weaknesses": [
+        "electric"
+      ],
+      "status_immunity": [
+        "bleed"
+      ],
+      "ai_pattern": {
+        "behavior": "standard_rotation"
+      },
+      "skill_set": {
+        "passive_skills": [
+          {
+            "skill_id": "rust_armor"
+          }
+        ],
+        "active_skills": [
+          {
+            "skill_id": "shield_bash"
+          }
+        ]
+      },
+      "exp_reward": 48,
+      "currency_reward": 28,
+      "crd_reward": 3,
+      "guild_point": 6,
+      "reputation_point": 8,
+      "hunting_point": 3,
+      "drop_item": [
+        {
+          "itemId": "mq_clue_unlisted_1",
+          "chance": 1.0
+        },
+        {
+          "itemId": "mq_clue_unlisted_2",
+          "chance": 1.0
+        }
+      ],
+      "special_reward": []
+    },
+    {
+      "monster_id": 6102,
+      "code": "HOLLOW_MUSTER_WRECKER",
+      "name": "Hollow Muster Wrecker",
+      "rank": "normal",
+      "level": 18,
+      "race_code": "CONSTRUCT",
+      "element": [
+        "metal"
+      ],
+      "spawn_monster_id": "HOLLOW_MUSTER",
+      "spawn_location": [
+        "HOLLOW_MUSTER"
+      ],
+      "base_stats": {
+        "hp": 2100,
+        "mp": 160,
+        "atk": 160,
+        "def": 120,
+        "agi": 24,
+        "per": 32
+      },
+      "scaling": {
+        "basic_attack": 1.2,
+        "skill_scaling_bonus": 0.3
+      },
+      "critical_rate": 0.11,
+      "critical_damage": 1.5,
+      "resistances": [
+        "metal"
+      ],
+      "weaknesses": [
+        "electric"
+      ],
+      "status_immunity": [
+        "stun"
+      ],
+      "ai_pattern": {
+        "behavior": "standard_rotation"
+      },
+      "skill_set": {
+        "passive_skills": [
+          {
+            "skill_id": "battle_instinct"
+          }
+        ],
+        "active_skills": [
+          {
+            "skill_id": "strike"
+          },
+          {
+            "skill_id": "power_slash"
+          }
+        ]
+      },
+      "exp_reward": 640,
+      "currency_reward": 320,
+      "crd_reward": 10,
+      "guild_point": 14,
+      "reputation_point": 20,
+      "hunting_point": 10,
+      "drop_item": [
+        {
+          "itemId": "mq_clue_muster_1",
+          "chance": 1.0
+        },
+        {
+          "itemId": "mq_clue_muster_2",
+          "chance": 1.0
+        }
+      ],
+      "special_reward": []
+    },
+    {
+      "monster_id": 6103,
+      "code": "ZERO_BERTH_EXTORTIONIST",
+      "name": "Zero Berth Extortionist",
+      "rank": "leader",
+      "level": 22,
+      "race_code": "HUMANOID",
+      "element": [
+        "neutral"
+      ],
+      "spawn_monster_id": "ZERO_BERTH",
+      "spawn_location": [
+        "ZERO_BERTH"
+      ],
+      "base_stats": {
+        "hp": 3400,
+        "mp": 260,
+        "atk": 230,
+        "def": 180,
+        "agi": 36,
+        "per": 38
+      },
+      "scaling": {
+        "basic_attack": 1.25,
+        "skill_scaling_bonus": 0.35
+      },
+      "critical_rate": 0.13,
+      "critical_damage": 1.55,
+      "resistances": [],
+      "weaknesses": [],
+      "status_immunity": [
+        "stun"
+      ],
+      "ai_pattern": {
+        "behavior": "standard_rotation"
+      },
+      "skill_set": {
+        "passive_skills": [
+          {
+            "skill_id": "battle_instinct"
+          }
+        ],
+        "active_skills": [
+          {
+            "skill_id": "strike"
+          },
+          {
+            "skill_id": "power_slash"
+          }
+        ]
+      },
+      "exp_reward": 1100,
+      "currency_reward": 620,
+      "crd_reward": 20,
+      "guild_point": 24,
+      "reputation_point": 35,
+      "hunting_point": 18,
+      "drop_item": [
+        {
+          "itemId": "mq_clue_zero_1",
+          "chance": 1.0
+        },
+        {
+          "itemId": "mq_clue_zero_2",
+          "chance": 1.0
+        }
+      ],
+      "special_reward": []
+    },
+    {
+      "monster_id": 6104,
+      "code": "QUIET_GALLERY_RIFT_BEAST",
+      "name": "Quiet Gallery Rift Beast",
+      "rank": "elite",
+      "level": 32,
+      "race_code": "VOID_BEAST",
+      "element": [
+        "void",
+        "arcane"
+      ],
+      "spawn_monster_id": "QUIET_RESONATOR",
+      "spawn_location": [
+        "QUIET_RESONATOR"
+      ],
+      "base_stats": {
+        "hp": 3100,
+        "mp": 380,
+        "atk": 210,
+        "def": 150,
+        "agi": 18,
+        "per": 22
+      },
+      "scaling": {
+        "basic_attack": 1.45,
+        "skill_scaling_bonus": 0.5
+      },
+      "critical_rate": 0.1,
+      "critical_damage": 1.65,
+      "resistances": [
+        "void"
+      ],
+      "weaknesses": [
+        "light"
+      ],
+      "status_immunity": [],
+      "ai_pattern": {
+        "behavior": "standard_rotation"
+      },
+      "skill_set": {
+        "passive_skills": [
+          {
+            "skill_id": "void_adaptation"
+          }
+        ],
+        "active_skills": [
+          {
+            "skill_id": "rift_claw"
+          }
+        ]
+      },
+      "exp_reward": 360,
+      "currency_reward": 240,
+      "crd_reward": 24,
+      "guild_point": 45,
+      "reputation_point": 65,
+      "hunting_point": 22,
+      "drop_item": [
+        {
+          "itemId": "mq_clue_quiet_1",
+          "chance": 1.0
+        },
+        {
+          "itemId": "mq_clue_quiet_2",
+          "chance": 1.0
+        }
+      ],
+      "special_reward": []
+    },
+    {
+      "monster_id": 6105,
+      "code": "VAULT_EMBER_DRAKONID",
+      "name": "Vault Ember Drakonid",
+      "rank": "elite",
+      "level": 65,
+      "race_code": "DRAKONID",
+      "element": [
+        "fire"
+      ],
+      "spawn_monster_id": "SEALED_ARMISTICE_VAULT",
+      "spawn_location": [
+        "SEALED_ARMISTICE_VAULT"
+      ],
+      "base_stats": {
+        "hp": 12000,
+        "mp": 1000,
+        "atk": 800,
+        "def": 600,
+        "agi": 200,
+        "per": 150
+      },
+      "scaling": {
+        "basic_attack": 1.2,
+        "skill_scaling_bonus": 0.25
+      },
+      "critical_rate": 0.08,
+      "critical_damage": 1.6,
+      "resistances": [
+        "fire"
+      ],
+      "weaknesses": [
+        "ice"
+      ],
+      "status_immunity": [
+        "burn"
+      ],
+      "ai_pattern": {
+        "behavior": "standard_rotation"
+      },
+      "skill_set": {
+        "passive_skills": [],
+        "active_skills": [
+          {
+            "skill_id": "claw_slash"
+          },
+          {
+            "skill_id": "ember_bite"
+          }
+        ]
+      },
+      "exp_reward": 1200,
+      "currency_reward": 900,
+      "crd_reward": 10,
+      "guild_point": 8,
+      "reputation_point": 10,
+      "hunting_point": 4,
+      "drop_item": [
+        {
+          "itemId": "mq_clue_armistice_1",
+          "chance": 1.0
+        },
+        {
+          "itemId": "mq_clue_armistice_2",
+          "chance": 1.0
         }
       ],
       "special_reward": []

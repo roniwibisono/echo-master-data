@@ -1352,7 +1352,7 @@
     "title": "Concordium Combat Trainer",
     "role": "CLASS_TRAINER",
     "faction": "CONCORDIUM",
-    "dialogue_tree": "dialog_class_trainer_concordium",
+    "dialogue_tree": "dialog_class_trial_concordium_base",
     "shop_inventory": null,
     "location": "Nexus Core Training Academy",
     "region_id": "NEXUS_CORE",
@@ -1375,7 +1375,7 @@
     "title": "Arcanum Discipline Mentor",
     "role": "CLASS_TRAINER",
     "faction": "THE_ARCANUM_SEEKERS",
-    "dialogue_tree": "dialog_class_trainer_arcanum",
+    "dialogue_tree": "dialog_class_trial_arcanum_base",
     "shop_inventory": null,
     "location": "Observatory Spire Academy",
     "region_id": "OBSERVATORY_SPIRE",
@@ -1398,7 +1398,7 @@
     "title": "Iron Hegemony War Instructor",
     "role": "CLASS_TRAINER",
     "faction": "IRON_HEGEMONY",
-    "dialogue_tree": "dialog_class_trainer_hegemony",
+    "dialogue_tree": "dialog_class_trial_iron_base",
     "shop_inventory": null,
     "location": "Bastion Core War College",
     "region_id": "BASTION_CORE",
@@ -1490,7 +1490,7 @@
     "title": "Cartel Combat Broker",
     "role": "CLASS_TRAINER",
     "faction": "MERIDIAN_CARTEL",
-    "dialogue_tree": "dialog_class_trainer_meridian",
+    "dialogue_tree": "dialog_class_trial_meridian_base",
     "shop_inventory": null,
     "location": "Port Meridian Covert Training Facility",
     "region_id": "PORT_MERIDIAN",
@@ -1513,7 +1513,7 @@
     "title": "OmniCorp Combat Systems Instructor",
     "role": "CLASS_TRAINER",
     "faction": "OMNICORP",
-    "dialogue_tree": "dialog_class_trainer_omnicorp",
+    "dialogue_tree": "dialog_class_trial_omnicorp_base",
     "shop_inventory": null,
     "location": "The Spire Advanced Division",
     "region_id": "THE_SPIRE",
@@ -1539,7 +1539,7 @@
     "title": "Shard Ascension Guide",
     "role": "CLASS_TRAINER",
     "faction": "CHILDREN_OF_THE_SHARD",
-    "dialogue_tree": "dialog_class_trainer_shard",
+    "dialogue_tree": "dialog_class_trial_shard_base",
     "shop_inventory": null,
     "location": "Sanctum Deep Chamber",
     "region_id": "SANCTUM",
@@ -1562,10 +1562,10 @@
     "title": "Legion Combat Drillmaster",
     "role": "CLASS_TRAINER",
     "faction": "STARFORGED_LEGION",
-    "dialogue_tree": "dialog_class_trainer_legion",
+    "dialogue_tree": "dialog_class_trial_legion_base",
     "shop_inventory": null,
-    "location": "Forge Canyon Depths Combat Arena",
-    "region_id": "FORGE_CANYON_DEPTHS",
+    "location": "Fortress Kaelen Training Yard",
+    "region_id": "FORTRESS_KAELEN",
     "description": "Centurion Valka trains Legion fighters in the ancient combat traditions. Advancement means surviving her drills.",
     "personality": "fierce_honourable",
     "greeting": "Legion advancement is earned in combat. Step onto the sand.",
@@ -2956,5 +2956,782 @@
     ],
     "actions": [],
     "legacy_aliases": []
+  },
+  {
+    "npc_id": "npc_mystery_edda_fen",
+    "name": "Edda Fen",
+    "title": "Volunteer Census Keeper",
+    "role": "QUEST_GIVER",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_mystery_unlisted_greet",
+    "shop_inventory": null,
+    "location": "The Unlisted Ward",
+    "region_id": "UNLISTED_WARD",
+    "description": "Edda needs an independent field witness because official corrections require evidence and she refuses to publish refugees' addresses.",
+    "personality": "patient_precise_protective",
+    "greeting": "Names first. Numbers can wait.",
+    "available_services": [
+      "QUEST",
+      "INFO"
+    ],
+    "actions": [
+      "take_quest"
+    ],
+    "quest_category": "mystery",
+    "reward_currency": "CRD"
+  },
+  {
+    "npc_id": "npc_mystery_unlisted_clue_1",
+    "name": "Repaired Doorplate",
+    "title": "Field Evidence",
+    "role": "TERMINAL",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_npc_mystery_unlisted_clue_1",
+    "shop_inventory": null,
+    "location": "The Unlisted Ward",
+    "region_id": "UNLISTED_WARD",
+    "description": "Two chairs face an empty doorway. Only the smaller chair has fresh repairs. Household numbers continue across a wall that modern surveys label vacant.",
+    "personality": "environmental_record",
+    "greeting": "Two chairs face an empty doorway. Only the smaller chair has fresh repairs. Household numbers continue across a wall that modern surveys label vacant.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": [],
+    "quest_category": "mystery",
+    "reward_currency": "CRD"
+  },
+  {
+    "npc_id": "npc_mystery_unlisted_clue_2",
+    "name": "Census Cabinet",
+    "title": "Field Evidence",
+    "role": "TERMINAL",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_npc_mystery_unlisted_clue_2",
+    "shop_inventory": null,
+    "location": "The Unlisted Ward",
+    "region_id": "UNLISTED_WARD",
+    "description": "The lower series skips occupied doors but follows conduit junctions.",
+    "personality": "environmental_record",
+    "greeting": "The lower series skips occupied doors but follows conduit junctions.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": [],
+    "quest_category": "mystery",
+    "reward_currency": "CRD"
+  },
+  {
+    "npc_id": "npc_mystery_tovan_rell",
+    "name": "Tovan Rell",
+    "title": "Civilian Bellwright",
+    "role": "QUEST_GIVER",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_mystery_muster_greet",
+    "shop_inventory": null,
+    "location": "Hollow Muster Yard",
+    "region_id": "HOLLOW_MUSTER",
+    "description": "Tovan repairs signal bells for civilians who worked beside Iron and Legion crews. He needs an outsider to compare records neither employer will share with him.",
+    "personality": "terse_tactile_dutiful",
+    "greeting": "Hear the gap. Metal tells on itself.",
+    "available_services": [
+      "QUEST",
+      "INFO"
+    ],
+    "actions": [
+      "take_quest"
+    ],
+    "quest_category": "mystery",
+    "reward_currency": "CRD"
+  },
+  {
+    "npc_id": "npc_mystery_muster_clue_1",
+    "name": "Split Muster Bell",
+    "title": "Field Evidence",
+    "role": "TERMINAL",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_npc_mystery_muster_clue_1",
+    "shop_inventory": null,
+    "location": "Hollow Muster Yard",
+    "region_id": "HOLLOW_MUSTER",
+    "description": "A muster bell hangs over boots facing away from the parade line. A second rope leads into a workshop, not a command tower.",
+    "personality": "environmental_record",
+    "greeting": "A muster bell hangs over boots facing away from the parade line. A second rope leads into a workshop, not a command tower.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": [],
+    "quest_category": "mystery",
+    "reward_currency": "CRD"
+  },
+  {
+    "npc_id": "npc_mystery_muster_clue_2",
+    "name": "Workshop Roll",
+    "title": "Field Evidence",
+    "role": "TERMINAL",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_npc_mystery_muster_clue_2",
+    "shop_inventory": null,
+    "location": "Hollow Muster Yard",
+    "region_id": "HOLLOW_MUSTER",
+    "description": "Tool tags follow a work roster, not a military rank.",
+    "personality": "environmental_record",
+    "greeting": "Tool tags follow a work roster, not a military rank.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": [],
+    "quest_category": "mystery",
+    "reward_currency": "CRD"
+  },
+  {
+    "npc_id": "npc_mystery_sella_quinn",
+    "name": "Sella Quinn",
+    "title": "Independent Cargo Adjuster",
+    "role": "QUEST_GIVER",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_mystery_zero_greet",
+    "shop_inventory": null,
+    "location": "Zero Berth Customs Annex",
+    "region_id": "ZERO_BERTH",
+    "description": "Sella needs a field examiner outside her former OmniCorp employer and Meridian creditors to distinguish damaged cargo from a manipulated claim.",
+    "personality": "wry_contractual_attentive",
+    "greeting": "Read the unit before you buy the number.",
+    "available_services": [
+      "QUEST",
+      "INFO"
+    ],
+    "actions": [
+      "take_quest"
+    ],
+    "quest_category": "mystery",
+    "reward_currency": "CRD"
+  },
+  {
+    "npc_id": "npc_mystery_zero_clue_1",
+    "name": "Zero Berth Scale",
+    "title": "Field Evidence",
+    "role": "TERMINAL",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_npc_mystery_zero_clue_1",
+    "shop_inventory": null,
+    "location": "Zero Berth Customs Annex",
+    "region_id": "ZERO_BERTH",
+    "description": "A berth marked zero contains a crate with an inward-facing shipping stencil. A polished scale shows the same value even with no cargo.",
+    "personality": "environmental_record",
+    "greeting": "A berth marked zero contains a crate with an inward-facing shipping stencil. A polished scale shows the same value even with no cargo.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": [],
+    "quest_category": "mystery",
+    "reward_currency": "CRD"
+  },
+  {
+    "npc_id": "npc_mystery_zero_clue_2",
+    "name": "Reversed Shipping Stencil",
+    "title": "Field Evidence",
+    "role": "TERMINAL",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_npc_mystery_zero_clue_2",
+    "shop_inventory": null,
+    "location": "Zero Berth Customs Annex",
+    "region_id": "ZERO_BERTH",
+    "description": "The scale log marks outbound packaging as returnable.",
+    "personality": "environmental_record",
+    "greeting": "The scale log marks outbound packaging as returnable.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": [],
+    "quest_category": "mystery",
+    "reward_currency": "CRD"
+  },
+  {
+    "npc_id": "npc_mystery_iren_saye",
+    "name": "Iren Saye",
+    "title": "Independent Acoustic Conservator",
+    "role": "QUEST_GIVER",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_mystery_quiet_greet",
+    "shop_inventory": null,
+    "location": "Quiet Resonator Gallery",
+    "region_id": "QUIET_RESONATOR",
+    "description": "Iren wants a witness willing to compare Arcanum measurements with Children of the Shard oral accounts without appropriating either or declaring the Shard conscious.",
+    "personality": "gentle_empirical_self_questioning",
+    "greeting": "We heard it. We haven't explained it.",
+    "available_services": [
+      "QUEST",
+      "INFO"
+    ],
+    "actions": [
+      "take_quest"
+    ],
+    "quest_category": "mystery",
+    "reward_currency": "CRD"
+  },
+  {
+    "npc_id": "npc_mystery_quiet_clue_1",
+    "name": "Wrapped Resonator Rib",
+    "title": "Field Evidence",
+    "role": "TERMINAL",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_npc_mystery_quiet_clue_1",
+    "shop_inventory": null,
+    "location": "Quiet Resonator Gallery",
+    "region_id": "QUIET_RESONATOR",
+    "description": "Three resonant ribs surround a fourth rib wrapped in old cloth. A listening bench faces away from the visible crystals toward a drainage channel.",
+    "personality": "environmental_record",
+    "greeting": "Three resonant ribs surround a fourth rib wrapped in old cloth. A listening bench faces away from the visible crystals toward a drainage channel.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": [],
+    "quest_category": "mystery",
+    "reward_currency": "CRD"
+  },
+  {
+    "npc_id": "npc_mystery_quiet_clue_2",
+    "name": "Drainage Listening Bench",
+    "title": "Field Evidence",
+    "role": "TERMINAL",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_npc_mystery_quiet_clue_2",
+    "shop_inventory": null,
+    "location": "Quiet Resonator Gallery",
+    "region_id": "QUIET_RESONATOR",
+    "description": "A delayed note is loudest near its opening.",
+    "personality": "environmental_record",
+    "greeting": "A delayed note is loudest near its opening.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": [],
+    "quest_category": "mystery",
+    "reward_currency": "CRD"
+  },
+  {
+    "npc_id": "npc_mystery_maela_orr",
+    "name": "Maela Orr",
+    "title": "Independent Archive Custodian",
+    "role": "QUEST_GIVER",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_mystery_armistice_greet",
+    "shop_inventory": null,
+    "location": "Sealed Armistice Vault",
+    "region_id": "SEALED_ARMISTICE_VAULT",
+    "description": "Maela holds a limited mandate to compare a recent neutral relief archive with scattered field copies. She needs a witness outside its Custodian and AMA sponsors because both have an interest in appearing blameless.",
+    "personality": "measured_procedural_humane",
+    "greeting": "A finding has a boundary. Write it down.",
+    "available_services": [
+      "QUEST",
+      "INFO"
+    ],
+    "actions": [
+      "take_quest"
+    ],
+    "quest_category": "mystery",
+    "reward_currency": "CRD"
+  },
+  {
+    "npc_id": "npc_mystery_armistice_clue_1",
+    "name": "Scorched Relief Ledger",
+    "title": "Field Evidence",
+    "role": "TERMINAL",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_npc_mystery_armistice_clue_1",
+    "shop_inventory": null,
+    "location": "Sealed Armistice Vault",
+    "region_id": "SEALED_ARMISTICE_VAULT",
+    "description": "New lock bolts hold an old stone cabinet shut. A scorched relief ledger sits beside an undamaged metal duplicate, both bearing the same modern custody mark.",
+    "personality": "environmental_record",
+    "greeting": "New lock bolts hold an old stone cabinet shut. A scorched relief ledger sits beside an undamaged metal duplicate, both bearing the same modern custody mark.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": [],
+    "quest_category": "mystery",
+    "reward_currency": "CRD"
+  },
+  {
+    "npc_id": "npc_mystery_armistice_clue_2",
+    "name": "Duplicate Custody Plate",
+    "title": "Field Evidence",
+    "role": "TERMINAL",
+    "faction": "NEUTRAL",
+    "dialogue_tree": "dialog_npc_mystery_armistice_clue_2",
+    "shop_inventory": null,
+    "location": "Sealed Armistice Vault",
+    "region_id": "SEALED_ARMISTICE_VAULT",
+    "description": "The duplicate plate survives across the chamber.",
+    "personality": "environmental_record",
+    "greeting": "The duplicate plate survives across the chamber.",
+    "available_services": [
+      "INFO"
+    ],
+    "actions": [],
+    "quest_category": "mystery",
+    "reward_currency": "CRD"
+  },
+  {
+    "npc_id": "npc_concordium_trainer_advance",
+    "name": "Field Captain Ilyra",
+    "title": "Advance Class Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "CONCORDIUM",
+    "region_id": "NEXUS_CORE",
+    "location": "Nexus Core Training Hall",
+    "dialogue_tree": "dialog_class_trial_concordium_advance",
+    "shop_inventory": null,
+    "description": "Kael taught you to hold a line. I need you to move one. The outer-ring wardens are driving supply crews back into the broken quarter. Clear a passage without treating every ruin as expendable. A specialist earns trust when the next crew can follow them home.",
+    "personality": "patient_precise",
+    "greeting": "Kael taught you to hold a line.",
+    "actions": [
+      "open_class_change",
+      "take_quest"
+    ],
+    "available_services": [
+      "CLASS_TRAINING",
+      "QUEST"
+    ]
+  },
+  {
+    "npc_id": "npc_concordium_trainer_expert",
+    "name": "Inspector Soren",
+    "title": "Expert Class Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "CONCORDIUM",
+    "region_id": "NEXUS_CORE",
+    "location": "Nexus Core Training Hall",
+    "dialogue_tree": "dialog_class_trial_concordium_expert",
+    "shop_inventory": null,
+    "description": "The stabilization protocol assumes obedient sentinels. Our sentinels have stopped obeying. I need evidence that you can respond when the procedure fails: remove the hostile units inside the exclusion zone. Report what the ledger records, not what you wish happened.",
+    "personality": "skeptical_accountable",
+    "greeting": "The stabilization protocol assumes obedient sentinels.",
+    "actions": [
+      "open_class_change",
+      "take_quest"
+    ],
+    "available_services": [
+      "CLASS_TRAINING",
+      "QUEST"
+    ]
+  },
+  {
+    "npc_id": "npc_concordium_trainer_master",
+    "name": "Marshal Elian",
+    "title": "Master Class Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "CONCORDIUM",
+    "region_id": "NEXUS_CORE",
+    "location": "Nexus Core Training Hall",
+    "dialogue_tree": "dialog_class_trial_concordium_master",
+    "shop_inventory": null,
+    "description": "There is one convoy left inside the exclusion zone. Command calls the route unrecoverable. I have their names here. Break the beasts controlling that corridor and bring your report to me. Mastery means accepting responsibility when the easy order is to abandon people.",
+    "personality": "quiet_resolute",
+    "greeting": "There is one convoy left inside the exclusion zone.",
+    "actions": [
+      "open_class_change",
+      "take_quest"
+    ],
+    "available_services": [
+      "CLASS_TRAINING",
+      "QUEST"
+    ]
+  },
+  {
+    "npc_id": "npc_arcanum_trainer_advance",
+    "name": "Resonant Scholar Eira",
+    "title": "Advance Class Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "THE_ARCANUM_SEEKERS",
+    "region_id": "OBSERVATORY_SPIRE",
+    "location": "Observatory Spire Training Hall",
+    "dialogue_tree": "dialog_class_trial_arcanum_advance",
+    "shop_inventory": null,
+    "description": "The cavern echoes have begun answering signals nobody transmitted. My last team withdrew, correctly. Establish a safe baseline against the bats and the resonant echoes before I send anyone back. Curiosity should widen our understanding, not empty our chairs.",
+    "personality": "curious_cautious",
+    "greeting": "The cavern echoes have begun answering signals nobody transmitted.",
+    "actions": [
+      "open_class_change",
+      "take_quest"
+    ],
+    "available_services": [
+      "CLASS_TRAINING",
+      "QUEST"
+    ]
+  },
+  {
+    "npc_id": "npc_arcanum_trainer_expert",
+    "name": "Examiner Thalen",
+    "title": "Expert Class Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "THE_ARCANUM_SEEKERS",
+    "region_id": "OBSERVATORY_SPIRE",
+    "location": "Observatory Spire Training Hall",
+    "dialogue_tree": "dialog_class_trial_arcanum_expert",
+    "shop_inventory": null,
+    "description": "The peak guardians respond differently to each pulse. Your task is not to declare them understood; it is to stop the hostile pattern long enough for our instruments to survive. Bring a complete field record. I will challenge every conclusion you cannot support.",
+    "personality": "critical_exact",
+    "greeting": "The peak guardians respond differently to each pulse.",
+    "actions": [
+      "open_class_change",
+      "take_quest"
+    ],
+    "available_services": [
+      "CLASS_TRAINING",
+      "QUEST"
+    ]
+  },
+  {
+    "npc_id": "npc_arcanum_trainer_master",
+    "name": "First Archivist Neris",
+    "title": "Master Class Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "THE_ARCANUM_SEEKERS",
+    "region_id": "OBSERVATORY_SPIRE",
+    "location": "Observatory Spire Training Hall",
+    "dialogue_tree": "dialog_class_trial_arcanum_master",
+    "shop_inventory": null,
+    "description": "We could publish a triumph by sacrificing the next expedition. I refuse. Contain the peak's guardians and tyrants so that discovery can continue without another missing team. A master leaves knowledge others can test, and a path by which they can return.",
+    "personality": "reflective_uncompromising",
+    "greeting": "We could publish a triumph by sacrificing the next expedition.",
+    "actions": [
+      "open_class_change",
+      "take_quest"
+    ],
+    "available_services": [
+      "CLASS_TRAINING",
+      "QUEST"
+    ]
+  },
+  {
+    "npc_id": "npc_iron_trainer_advance",
+    "name": "Quartermaster Rusk",
+    "title": "Advance Class Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "IRON_HEGEMONY",
+    "region_id": "BASTION_CORE",
+    "location": "Bastion Core Training Hall",
+    "dialogue_tree": "dialog_class_trial_iron_advance",
+    "shop_inventory": null,
+    "description": "A brilliant fighter with an empty supply wagon is an expensive corpse. The graveyard machines are stopping our salvage crews. Clear the wreckers and their sentinel escorts. I want usable lanes at shift change, not a speech about your courage.",
+    "personality": "practical_unsentimental",
+    "greeting": "A brilliant fighter with an empty supply wagon is an expensive corpse.",
+    "actions": [
+      "open_class_change",
+      "take_quest"
+    ],
+    "available_services": [
+      "CLASS_TRAINING",
+      "QUEST"
+    ]
+  },
+  {
+    "npc_id": "npc_iron_trainer_expert",
+    "name": "Forge Inspector Maela",
+    "title": "Expert Class Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "IRON_HEGEMONY",
+    "region_id": "BASTION_CORE",
+    "location": "Bastion Core Training Hall",
+    "dialogue_tree": "dialog_class_trial_iron_expert",
+    "shop_inventory": null,
+    "description": "Our assembly guardians have classified their own crews as scrap. Production wants me to leave the line running. I have stopped it. Remove the hostile constructs before we restart. Expertise is knowing which pressure the system can bear, and when to shut it down.",
+    "personality": "blunt_technical",
+    "greeting": "Our assembly guardians have classified their own crews as scrap.",
+    "actions": [
+      "open_class_change",
+      "take_quest"
+    ],
+    "available_services": [
+      "CLASS_TRAINING",
+      "QUEST"
+    ]
+  },
+  {
+    "npc_id": "npc_iron_trainer_master",
+    "name": "General Torren",
+    "title": "Master Class Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "IRON_HEGEMONY",
+    "region_id": "BASTION_CORE",
+    "location": "Bastion Core Training Hall",
+    "dialogue_tree": "dialog_class_trial_iron_master",
+    "shop_inventory": null,
+    "description": "The proto cores are rebuilding the defense lattice faster than we can isolate it. Cut down the sentinel screen and the cores. Then report to me personally. This command plate is not permission to spend lives carelessly. It is the obligation to bring the line through.",
+    "personality": "restrained_demanding",
+    "greeting": "The proto cores are rebuilding the defense lattice faster than we can isolate it.",
+    "actions": [
+      "open_class_change",
+      "take_quest"
+    ],
+    "available_services": [
+      "CLASS_TRAINING",
+      "QUEST"
+    ]
+  },
+  {
+    "npc_id": "npc_meridian_trainer_advance",
+    "name": "Route Broker Lysa",
+    "title": "Advance Class Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "MERIDIAN_CARTEL",
+    "region_id": "PORT_MERIDIAN",
+    "location": "Port Meridian Training Hall",
+    "dialogue_tree": "dialog_class_trial_meridian_advance",
+    "shop_inventory": null,
+    "description": "Everyone claims the jungle route when it is safe. Nobody claims the people stranded on it now. Remove the stalkers and contraband constructs. Keep our carriers moving, and I will give you the cipher to a network that remembers who helped it.",
+    "personality": "wry_observant",
+    "greeting": "Everyone claims the jungle route when it is safe.",
+    "actions": [
+      "open_class_change",
+      "take_quest"
+    ],
+    "available_services": [
+      "CLASS_TRAINING",
+      "QUEST"
+    ]
+  },
+  {
+    "npc_id": "npc_meridian_trainer_expert",
+    "name": "Diver Marshal Corin",
+    "title": "Expert Class Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "MERIDIAN_CARTEL",
+    "region_id": "PORT_MERIDIAN",
+    "location": "Port Meridian Training Hall",
+    "dialogue_tree": "dialog_class_trial_meridian_expert",
+    "shop_inventory": null,
+    "description": "The divers' insurers would rather pay a death benefit than clear the submerged approach. I would rather have living divers. Break the guardians and behemoths blocking the ruins. Bring the report to Port. A guarantee should protect a person, not merely settle a ledger.",
+    "personality": "measured_resourceful",
+    "greeting": "The divers' insurers would rather pay a death benefit than clear the submerged approach.",
+    "actions": [
+      "open_class_change",
+      "take_quest"
+    ],
+    "available_services": [
+      "CLASS_TRAINING",
+      "QUEST"
+    ]
+  },
+  {
+    "npc_id": "npc_meridian_trainer_master",
+    "name": "Keeper of Debts Sable",
+    "title": "Master Class Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "MERIDIAN_CARTEL",
+    "region_id": "PORT_MERIDIAN",
+    "location": "Port Meridian Training Hall",
+    "dialogue_tree": "dialog_class_trial_meridian_master",
+    "shop_inventory": null,
+    "description": "Our oldest contract allows us to walk away from the flooded route. We are staying. Push back the behemoths and leviathans so the last crews can surface. When I hand you the covenant coin, understand this: some debts are worth choosing, even when nobody can collect.",
+    "personality": "softspoken_shrewd",
+    "greeting": "Our oldest contract allows us to walk away from the flooded route.",
+    "actions": [
+      "open_class_change",
+      "take_quest"
+    ],
+    "available_services": [
+      "CLASS_TRAINING",
+      "QUEST"
+    ]
+  },
+  {
+    "npc_id": "npc_omnicorp_trainer_advance",
+    "name": "Operations Lead Tessa Lin",
+    "title": "Advance Class Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "OMNICORP",
+    "region_id": "THE_SPIRE",
+    "location": "The Spire Training Hall",
+    "dialogue_tree": "dialog_class_trial_omnicorp_advance",
+    "shop_inventory": null,
+    "description": "Delta calls this an output problem. My maintenance crew calls it a survival problem. Remove the mining drones and their assault escort. I will sign your recovery license when the site is usable again. Efficient work gets people through their shift alive.",
+    "personality": "efficient_empathetic",
+    "greeting": "Delta calls this an output problem.",
+    "actions": [
+      "open_class_change",
+      "take_quest"
+    ],
+    "available_services": [
+      "CLASS_TRAINING",
+      "QUEST"
+    ]
+  },
+  {
+    "npc_id": "npc_omnicorp_trainer_expert",
+    "name": "Chief Auditor Ren",
+    "title": "Expert Class Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "OMNICORP",
+    "region_id": "THE_SPIRE",
+    "location": "The Spire Training Hall",
+    "dialogue_tree": "dialog_class_trial_omnicorp_expert",
+    "shop_inventory": null,
+    "description": "You are being evaluated for override authority. The reactor's defense units are obstructing emergency access. Clear them. Do not confuse a green dashboard with a safe facility. An expert must be willing to stop a profitable process when its evidence no longer supports operation.",
+    "personality": "precise_independent",
+    "greeting": "You are being evaluated for override authority.",
+    "actions": [
+      "open_class_change",
+      "take_quest"
+    ],
+    "available_services": [
+      "CLASS_TRAINING",
+      "QUEST"
+    ]
+  },
+  {
+    "npc_id": "npc_omnicorp_trainer_master",
+    "name": "Executive Director Iona Hale",
+    "title": "Master Class Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "OMNICORP",
+    "region_id": "THE_SPIRE",
+    "location": "The Spire Training Hall",
+    "dialogue_tree": "dialog_class_trial_omnicorp_master",
+    "shop_inventory": null,
+    "description": "The board suggests exporting the failing cores. That would export the casualties as well. Contain the sentinel units and proto cores here, on our own ground. Return with the record. This mandate will give you authority, and a liability you may never hide in somebody else's account.",
+    "personality": "controlled_principled",
+    "greeting": "The board suggests exporting the failing cores.",
+    "actions": [
+      "open_class_change",
+      "take_quest"
+    ],
+    "available_services": [
+      "CLASS_TRAINING",
+      "QUEST"
+    ]
+  },
+  {
+    "npc_id": "npc_shard_trainer_advance",
+    "name": "Root Listener Amara",
+    "title": "Advance Class Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "CHILDREN_OF_THE_SHARD",
+    "region_id": "SANCTUM",
+    "location": "Sanctum Training Hall",
+    "dialogue_tree": "dialog_class_trial_shard_advance",
+    "shop_inventory": null,
+    "description": "The swamp remembers every wound, but memory alone cannot shelter a traveler. Creepers and titans now hold the root paths. Open them for the caretakers. Bring your account back to me; I will help you hear what survival has changed in you.",
+    "personality": "gentle_persistent",
+    "greeting": "The swamp remembers every wound, but memory alone cannot shelter a traveler.",
+    "actions": [
+      "open_class_change",
+      "take_quest"
+    ],
+    "available_services": [
+      "CLASS_TRAINING",
+      "QUEST"
+    ]
+  },
+  {
+    "npc_id": "npc_shard_trainer_expert",
+    "name": "Woundkeeper Oriel",
+    "title": "Expert Class Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "CHILDREN_OF_THE_SHARD",
+    "region_id": "SANCTUM",
+    "location": "Sanctum Training Hall",
+    "dialogue_tree": "dialog_class_trial_shard_expert",
+    "shop_inventory": null,
+    "description": "The altar's defenders strike at the people trying to mend it. Some call that a holy judgment. I call it another wound. End the hostile guardians' hold over the approach. Return to Sanctum. I need a witness who sees suffering clearly, even when it contradicts a comforting story.",
+    "personality": "grieving_exact",
+    "greeting": "The altar's defenders strike at the people trying to mend it.",
+    "actions": [
+      "open_class_change",
+      "take_quest"
+    ],
+    "available_services": [
+      "CLASS_TRAINING",
+      "QUEST"
+    ]
+  },
+  {
+    "npc_id": "npc_shard_trainer_master",
+    "name": "Elder Naeva",
+    "title": "Master Class Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "CHILDREN_OF_THE_SHARD",
+    "region_id": "SANCTUM",
+    "location": "Sanctum Training Hall",
+    "dialogue_tree": "dialog_class_trial_shard_master",
+    "shop_inventory": null,
+    "description": "We will leave this altar to children who did not make its scars. Push back the beasts keeping our keepers outside. Do not offer me a claim of divine favor. Offer them a place they can enter safely. That is the vow this reliquary will hold.",
+    "personality": "warm_unyielding",
+    "greeting": "We will leave this altar to children who did not make its scars.",
+    "actions": [
+      "open_class_change",
+      "take_quest"
+    ],
+    "available_services": [
+      "CLASS_TRAINING",
+      "QUEST"
+    ]
+  },
+  {
+    "npc_id": "npc_legion_trainer_advance",
+    "name": "Marchwarden Sera",
+    "title": "Advance Class Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "STARFORGED_LEGION",
+    "region_id": "FORTRESS_KAELEN",
+    "location": "Fortress Kaelen Training Hall",
+    "dialogue_tree": "dialog_class_trial_legion_advance",
+    "shop_inventory": null,
+    "description": "The standard is useless if nobody makes it through the badlands beneath it. Ash hounds and brutes are harrying our march. Clear them and report to the fortress. I will judge your advance by the ground the next formation can safely cross.",
+    "personality": "plainspoken_protective",
+    "greeting": "The standard is useless if nobody makes it through the badlands beneath it.",
+    "actions": [
+      "open_class_change",
+      "take_quest"
+    ],
+    "available_services": [
+      "CLASS_TRAINING",
+      "QUEST"
+    ]
+  },
+  {
+    "npc_id": "npc_legion_trainer_expert",
+    "name": "Rollkeeper Bren",
+    "title": "Expert Class Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "STARFORGED_LEGION",
+    "region_id": "FORTRESS_KAELEN",
+    "location": "Fortress Kaelen Training Hall",
+    "dialogue_tree": "dialog_class_trial_legion_expert",
+    "shop_inventory": null,
+    "description": "Every empty place in formation has a name. The canyon's machines are making more of them. Clear the drone ranks and their sentinels. Bring the record back. An expert sees a missing fighter before they see a convenient gap in the roster.",
+    "personality": "meticulous_loyal",
+    "greeting": "Every empty place in formation has a name.",
+    "actions": [
+      "open_class_change",
+      "take_quest"
+    ],
+    "available_services": [
+      "CLASS_TRAINING",
+      "QUEST"
+    ]
+  },
+  {
+    "npc_id": "npc_legion_trainer_master",
+    "name": "Legate Ashra",
+    "title": "Master Class Mentor",
+    "role": "CLASS_TRAINER",
+    "faction": "STARFORGED_LEGION",
+    "region_id": "FORTRESS_KAELEN",
+    "location": "Fortress Kaelen Training Hall",
+    "dialogue_tree": "dialog_class_trial_legion_master",
+    "shop_inventory": null,
+    "description": "Our elders promised a home beyond the march. It cannot be a fortress that devours its builders. Break the sentinels and proto cores controlling the canyon approach. Return to Kaelen. Carry this hearth standard as a duty to the living, as well as to the names we remember.",
+    "personality": "ritual_aware_practical",
+    "greeting": "Our elders promised a home beyond the march.",
+    "actions": [
+      "open_class_change",
+      "take_quest"
+    ],
+    "available_services": [
+      "CLASS_TRAINING",
+      "QUEST"
+    ]
   }
 ]

@@ -8,7 +8,7 @@ import json, os, sys, urllib.request
 # canonical field order (passive/active re-wrapped as {skill_id})
 ORDER = ['ally_id','code','name','rarity','role','brief_background_story',
          'place_of_origin','faction_affinity','base_stats','passive_skill',
-         'active_skill','recruit_cost','level_cap','pvp_scale','conclave_points']
+         'active_skill','recruit_cost','level_cap','pvp_scale','conclave_points', 'content_revision', 'emergency_blocked', 'is_active']
 
 def main():
     try:

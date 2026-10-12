@@ -1,0 +1,15 @@
+{
+  "parser_counts": {
+    "quests": 25,
+    "npcs": 15,
+    "items": 35,
+    "regions": 5,
+    "dialogs": 40,
+    "titles": 25,
+    "achievements": 25
+  },
+  "errors": [],
+  "limitations": [
+    "JSON parser smoke tests only; discovery, choice persistence, ordered interactions, UI, and achievement metric production are not implemented or tested. Title factory is extracted verbatim; its player-dependent unlock evaluator is not executed."
+  ]
+}

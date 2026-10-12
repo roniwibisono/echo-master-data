@@ -17,7 +17,7 @@
       },
       "ingredients": [
         {
-          "item_id": "mat_metal",
+          "item_id": "scrap_metal",
           "quantity": 3
         }
       ]
@@ -103,7 +103,7 @@
     },
     {
       "recipe_id": "rcp_health_potion_small",
-      "recipe_name": "Brew Minor Health Potion",
+      "recipe_name": "Assemble Small HP Cell",
       "category": "ALCHEMY",
       "crafting_station": "ALCHEMY_TABLE",
       "required_level": 1,
@@ -113,7 +113,7 @@
         "ALL"
       ],
       "result": {
-        "item_id": "cns_health_potion_small",
+        "item_id": "con_small_hp_cell",
         "quantity": 3
       },
       "ingredients": [
@@ -125,7 +125,8 @@
           "item_id": "cns_clean_water",
           "quantity": 3
         }
-      ]
+      ],
+      "description": "A compact energy capsule used to restore a small amount of health."
     },
     {
       "recipe_id": "rcp_accesories_dummy",
@@ -5972,7 +5973,7 @@
       },
       "ingredients": [
         {
-          "item_id": "potion_minor_mana",
+          "item_id": "con_small_mp_cell",
           "quantity": 1
         }
       ]
@@ -5994,15 +5995,15 @@
       },
       "ingredients": [
         {
-          "item_id": "potion_minor_mana",
+          "item_id": "con_small_mp_cell",
           "quantity": 1
         }
       ]
     },
     {
       "recipe_id": "rec_revival_elixir",
-      "recipe_name": "Revival Elixir",
-      "description": "Basic revive formula using common materials.",
+      "recipe_name": "Assemble Emergency Revival Injector",
+      "description": "A nanomedical injector. Revives a defeated ally with 30% HP.",
       "category": "CONSUMABLE",
       "required_level": 1,
       "crafting_time_seconds": 10,
@@ -6051,8 +6052,8 @@
     },
     {
       "recipe_id": "rec_phoenix_core",
-      "recipe_name": "Phoenix Core",
-      "description": "Requires rare materials from high-level encounters.",
+      "recipe_name": "Assemble Phoenix Reboot Core",
+      "description": "An Aethel-powered resuscitation core. Revives a defeated ally with full HP and MP.",
       "category": "CONSUMABLE",
       "required_level": 20,
       "crafting_time_seconds": 120,
@@ -6078,8 +6079,8 @@
     },
     {
       "recipe_id": "rec_minor_hp_potion",
-      "recipe_name": "Minor HP Potion",
-      "description": "Basic healing brew.",
+      "recipe_name": "Assemble Small HP Cell",
+      "description": "A compact energy capsule used to restore a small amount of health.",
       "category": "CONSUMABLE",
       "required_level": 1,
       "crafting_time_seconds": 5,
@@ -6091,16 +6092,16 @@
         }
       ],
       "result": {
-        "item_id": "itm_minor_hp_potion",
+        "item_id": "con_small_hp_cell",
         "quantity": 3
       }
     },
     {
       "recipe_id": "rec_hp_potion",
-      "recipe_name": "HP Potion",
-      "description": "Standard healing potion.",
+      "recipe_name": "Assemble Medium HP Cell",
+      "description": "A medical energy cell that restores 200 HP.",
       "category": "CONSUMABLE",
-      "required_level": 5,
+      "required_level": 8,
       "crafting_time_seconds": 15,
       "crafting_cost": 60,
       "ingredients": [
@@ -6114,14 +6115,14 @@
         }
       ],
       "result": {
-        "item_id": "itm_hp_potion",
+        "item_id": "con_medium_hp_cell",
         "quantity": 2
       }
     },
     {
       "recipe_id": "rec_minor_mp_potion",
-      "recipe_name": "Minor MP Potion",
-      "description": "Basic mana brew.",
+      "recipe_name": "Assemble Small MP Cell",
+      "description": "A compact energy capsule used to restore mental energy.",
       "category": "CONSUMABLE",
       "required_level": 1,
       "crafting_time_seconds": 5,
@@ -6137,16 +6138,16 @@
         }
       ],
       "result": {
-        "item_id": "itm_minor_mp_potion",
+        "item_id": "con_small_mp_cell",
         "quantity": 3
       }
     },
     {
       "recipe_id": "rec_mp_potion",
-      "recipe_name": "MP Potion",
-      "description": "Standard mana potion.",
+      "recipe_name": "Assemble Medium MP Cell",
+      "description": "A medical energy cell that restores 120 MP.",
       "category": "CONSUMABLE",
-      "required_level": 5,
+      "required_level": 8,
       "crafting_time_seconds": 15,
       "crafting_cost": 60,
       "ingredients": [
@@ -6160,7 +6161,7 @@
         }
       ],
       "result": {
-        "item_id": "itm_mp_potion",
+        "item_id": "con_medium_mp_cell",
         "quantity": 2
       }
     },
@@ -6343,10 +6344,54 @@
       },
       "ingredients": [
         {
-          "item_id": "potion_minor_healing",
+          "item_id": "con_small_hp_cell",
           "quantity": 10
         }
       ]
+    },
+    {
+      "recipe_id": "rec_small_energy_cell",
+      "recipe_name": "Recharge Small Energy Cell",
+      "category": "CONSUMABLE",
+      "required_level": 1,
+      "crafting_time_seconds": 10,
+      "crafting_cost": 15,
+      "ingredients": [
+        {
+          "item_id": "machine_parts",
+          "quantity": 1
+        },
+        {
+          "item_id": "mat_aethel_dust",
+          "quantity": 1
+        }
+      ],
+      "result": {
+        "item_id": "con_small_energy_cell",
+        "quantity": 1
+      }
+    },
+    {
+      "recipe_id": "rec_field_recovery_pack",
+      "recipe_name": "Assemble Field Recovery Pack",
+      "category": "CONSUMABLE",
+      "required_level": 5,
+      "crafting_time_seconds": 15,
+      "crafting_cost": 20,
+      "ingredients": [
+        {
+          "item_id": "con_small_hp_cell",
+          "quantity": 2
+        },
+        {
+          "item_id": "con_small_mp_cell",
+          "quantity": 2
+        }
+      ],
+      "result": {
+        "item_id": "con_field_recovery_pack",
+        "quantity": 1
+      }
     }
   ]
 }

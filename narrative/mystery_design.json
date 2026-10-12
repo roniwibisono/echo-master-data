@@ -1,0 +1,1537 @@
+{
+  "meta": {
+    "pack_id": "xylos_unwritten_witness",
+    "version": 1,
+    "authored_on": "2026-10-08",
+    "canon_status": "proposed_additive_lore",
+    "canon_sources": [
+      "03_lore_glossary.json",
+      "04_faction_voice_bible.md",
+      "world_map_v4.json"
+    ],
+    "release_status": "client_playable_pending_release",
+    "principle": "Prestige proves curiosity and judgment, not permanent combat superiority. All endings award the same prestige."
+  },
+  "quests": [
+    {
+      "quest_id": "mq_unlisted_two_chairs",
+      "arc_id": "unlisted",
+      "kind": "secret",
+      "era": "Present-day reconstruction after the Great Schism; not evidence of who caused the Great Severance.",
+      "faction_context": [
+        "CONCORDIUM"
+      ],
+      "npc_motivation": "Edda needs an independent field witness because official corrections require evidence and she refuses to publish refugees' addresses.",
+      "discovery": {
+        "type": "item_acquired",
+        "item_id": "mq_clue_unlisted_1",
+        "region_id": "UNLISTED_WARD"
+      },
+      "breadcrumbs": [
+        "The small chair has fresh binding; the large one has weathered dust.",
+        "A torn census slip retains an occupancy mark but loses its address line.",
+        "The doorplate carries a household number, not a military unit number."
+      ],
+      "answer": "The household was relocated, not erased by death; occupancy and present address are separate records.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Restore the name, withhold the address",
+          "cost": "Aid workers need Edda as an intermediary",
+          "visible_consequence": "The public index gains a name without a location.",
+          "flag": "mq_unlisted_two_chairs.choice_1",
+          "npc_response": "If we choose that: The public index gains a name without a location. The cost is clear: Aid workers need Edda as an intermediary."
+        },
+        {
+          "id": "choice_2",
+          "label": "Share a sealed address with relief workers",
+          "cost": "The family must trust a restricted channel",
+          "visible_consequence": "A confidential aid entry accompanies the corrected name.",
+          "flag": "mq_unlisted_two_chairs.choice_2",
+          "npc_response": "If we choose that: A confidential aid entry accompanies the corrected name. The cost is clear: The family must trust a restricted channel."
+        },
+        {
+          "id": "choice_3",
+          "label": "Let the family authorize the correction",
+          "cost": "Recognition waits for consent",
+          "visible_consequence": "Edda leaves an unsigned entry for its owner to approve.",
+          "flag": "mq_unlisted_two_chairs.choice_3",
+          "npc_response": "If we choose that: Edda leaves an unsigned entry for its owner to approve. The cost is clear: Recognition waits for consent."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "The chair isn't abandoned. Someone fixed its leg yesterday. My register says nobody lives here. Help me find which record is lying.",
+        "active": "Names first. Numbers can wait.",
+        "ready": "The household was relocated, not erased by death; occupancy and present address are separate records.",
+        "completed": "One blank line is a person again. That is enough for today."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_unlisted_two_chairs",
+      "achievement_id": "mq_achievement_unlisted_two_chairs",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_unlisted_second_number",
+      "arc_id": "unlisted",
+      "kind": "mystery",
+      "era": "Present-day reconstruction after the Great Schism; not evidence of who caused the Great Severance.",
+      "faction_context": [
+        "CONCORDIUM"
+      ],
+      "npc_motivation": "Edda needs an independent field witness because official corrections require evidence and she refuses to publish refugees' addresses.",
+      "discovery": {
+        "type": "quest_completed",
+        "quest_id": "mq_unlisted_two_chairs",
+        "region_id": "UNLISTED_WARD"
+      },
+      "breadcrumbs": [
+        "The lower numeral is cut into stone; the upper numeral is painted.",
+        "The lower series skips occupied doors but follows conduit junctions.",
+        "The cabinet labels the two columns district and household."
+      ],
+      "answer": "The records use different counting units. Neither number alone proves a missing family.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Publish both systems with a legend",
+          "cost": "Readers must learn a harder index",
+          "visible_consequence": "Both numbering schemes remain visible.",
+          "flag": "mq_unlisted_second_number.choice_1",
+          "npc_response": "If we choose that: Both numbering schemes remain visible. The cost is clear: Readers must learn a harder index."
+        },
+        {
+          "id": "choice_2",
+          "label": "Prioritize the household number",
+          "cost": "Maintenance crews need an extra lookup",
+          "visible_consequence": "Residents gain a readable primary label.",
+          "flag": "mq_unlisted_second_number.choice_2",
+          "npc_response": "If we choose that: Residents gain a readable primary label. The cost is clear: Maintenance crews need an extra lookup."
+        },
+        {
+          "id": "choice_3",
+          "label": "Prioritize the utility number",
+          "cost": "Civil claims need an attached note",
+          "visible_consequence": "Repair crews recover the older route.",
+          "flag": "mq_unlisted_second_number.choice_3",
+          "npc_response": "If we choose that: Repair crews recover the older route. The cost is clear: Civil claims need an attached note."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "I can make both columns agree by throwing one away. That would be neat. It would also be wrong.",
+        "active": "Names first. Numbers can wait.",
+        "ready": "The records use different counting units. Neither number alone proves a missing family.",
+        "completed": "Two numbers. One door. Now the next clerk won't have to invent a disappearance."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_unlisted_second_number",
+      "achievement_id": "mq_achievement_unlisted_second_number",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_unlisted_obedient_lock",
+      "arc_id": "unlisted",
+      "kind": "mystery",
+      "era": "Present-day reconstruction after the Great Schism; not evidence of who caused the Great Severance.",
+      "faction_context": [
+        "CONCORDIUM"
+      ],
+      "npc_motivation": "Edda needs an independent field witness because official corrections require evidence and she refuses to publish refugees' addresses.",
+      "discovery": {
+        "type": "quest_completed",
+        "quest_id": "mq_unlisted_second_number",
+        "region_id": "UNLISTED_WARD"
+      },
+      "breadcrumbs": [
+        "The automaton's authorization plate names a municipal service.",
+        "Its rejection stamp predates the relocation notice.",
+        "Its patrol follows the same blocked doorway, never the occupied side lanes."
+      ],
+      "answer": "A stale authorization list, not a new Concordium order, causes the obstruction.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Submit the fault to municipal repair",
+          "cost": "Formal repair takes time",
+          "visible_consequence": "The obstruction is recorded as a service failure.",
+          "flag": "mq_unlisted_obedient_lock.choice_1",
+          "npc_response": "If we choose that: The obstruction is recorded as a service failure. The cost is clear: Formal repair takes time."
+        },
+        {
+          "id": "choice_2",
+          "label": "Mark a community-managed passage",
+          "cost": "Residents bear responsibility for access",
+          "visible_consequence": "A local maintenance notice replaces the rejection stamp.",
+          "flag": "mq_unlisted_obedient_lock.choice_2",
+          "npc_response": "If we choose that: A local maintenance notice replaces the rejection stamp. The cost is clear: Residents bear responsibility for access."
+        },
+        {
+          "id": "choice_3",
+          "label": "Keep the old index as evidence",
+          "cost": "Storage and custody cost effort",
+          "visible_consequence": "Edda retains a copy before a technician repairs it.",
+          "flag": "mq_unlisted_obedient_lock.choice_3",
+          "npc_response": "If we choose that: Edda retains a copy before a technician repairs it. The cost is clear: Storage and custody cost effort."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "It follows the register exactly. That's the problem. Stop it without calling the people behind that door intruders.",
+        "active": "Names first. Numbers can wait.",
+        "ready": "A stale authorization list, not a new Concordium order, causes the obstruction.",
+        "completed": "The machine can be replaced. The excuse that nobody was there cannot."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_unlisted_obedient_lock",
+      "achievement_id": "mq_achievement_unlisted_obedient_lock",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_unlisted_folded_route",
+      "arc_id": "unlisted",
+      "kind": "secret",
+      "era": "Present-day reconstruction after the Great Schism; not evidence of who caused the Great Severance.",
+      "faction_context": [
+        "CONCORDIUM"
+      ],
+      "npc_motivation": "Edda needs an independent field witness because official corrections require evidence and she refuses to publish refugees' addresses.",
+      "discovery": {
+        "type": "quest_completed",
+        "quest_id": "mq_unlisted_obedient_lock",
+        "region_id": "UNLISTED_WARD"
+      },
+      "breadcrumbs": [
+        "The exterior bears a public household mark.",
+        "The interior names a relief transfer, not a military movement.",
+        "The notice says restricted delivery, with no claim of faction disloyalty."
+      ],
+      "answer": "The hidden line protects recipients; it is not proof of a clandestine faction transfer.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Copy destinations only to relief staff",
+          "cost": "Aid depends on a trusted custodian",
+          "visible_consequence": "A restricted relief list is prepared.",
+          "flag": "mq_unlisted_folded_route.choice_1",
+          "npc_response": "If we choose that: A restricted relief list is prepared. The cost is clear: Aid depends on a trusted custodian."
+        },
+        {
+          "id": "choice_2",
+          "label": "Publish quantities without destinations",
+          "cost": "Delivery requires another channel",
+          "visible_consequence": "A public needs report excludes identifying details.",
+          "flag": "mq_unlisted_folded_route.choice_2",
+          "npc_response": "If we choose that: A public needs report excludes identifying details. The cost is clear: Delivery requires another channel."
+        },
+        {
+          "id": "choice_3",
+          "label": "Return the notice to its household",
+          "cost": "Verification stays local",
+          "visible_consequence": "The record owner decides what may circulate.",
+          "flag": "mq_unlisted_folded_route.choice_3",
+          "npc_response": "If we choose that: The record owner decides what may circulate. The cost is clear: Verification stays local."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "The fold kept this dry. It also kept it private. Don't mistake finding a route for owning the people at its end.",
+        "active": "Names first. Numbers can wait.",
+        "ready": "The hidden line protects recipients; it is not proof of a clandestine faction transfer.",
+        "completed": "You brought back the paper. More importantly, you didn't bring back a list of targets."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_unlisted_folded_route",
+      "achievement_id": "mq_achievement_unlisted_folded_route",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_unlisted_right_to_remain",
+      "arc_id": "unlisted",
+      "kind": "mystery",
+      "era": "Present-day reconstruction after the Great Schism; not evidence of who caused the Great Severance.",
+      "faction_context": [
+        "CONCORDIUM"
+      ],
+      "npc_motivation": "Edda needs an independent field witness because official corrections require evidence and she refuses to publish refugees' addresses.",
+      "discovery": {
+        "type": "quest_completed",
+        "quest_id": "mq_unlisted_folded_route",
+        "region_id": "UNLISTED_WARD"
+      },
+      "breadcrumbs": [
+        "The doorplate proves occupation, not identity.",
+        "The two numbering systems serve different public needs.",
+        "The folded route shows that privacy and assistance can coexist."
+      ],
+      "answer": "A register needs a consent category; anonymity must not be treated as abandonment.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Create an anonymous occupied category",
+          "cost": "Named claims still require witnesses",
+          "visible_consequence": "The ward is recorded without listing every person.",
+          "flag": "mq_unlisted_right_to_remain.choice_1",
+          "npc_response": "If we choose that: The ward is recorded without listing every person. The cost is clear: Named claims still require witnesses."
+        },
+        {
+          "id": "choice_2",
+          "label": "Keep a sealed identity supplement",
+          "cost": "Trust rests with its custodians",
+          "visible_consequence": "Public and restricted records are separated.",
+          "flag": "mq_unlisted_right_to_remain.choice_2",
+          "npc_response": "If we choose that: Public and restricted records are separated. The cost is clear: Trust rests with its custodians."
+        },
+        {
+          "id": "choice_3",
+          "label": "Require renewed household consent",
+          "cost": "Records become slower to update",
+          "visible_consequence": "Residents retain a recurring say in their entry.",
+          "flag": "mq_unlisted_right_to_remain.choice_3",
+          "npc_response": "If we choose that: Residents retain a recurring say in their entry. The cost is clear: Records become slower to update."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "I wanted to fill every blank. Now I know some blanks are chosen. Help me write a register that can tell the difference.",
+        "active": "Names first. Numbers can wait.",
+        "ready": "A register needs a consent category; anonymity must not be treated as abandonment.",
+        "completed": "The ward has a place on the map. Its people still have a choice about the register."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_unlisted_right_to_remain",
+      "achievement_id": "mq_achievement_unlisted_right_to_remain",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_muster_fourth_beat",
+      "arc_id": "muster",
+      "kind": "secret",
+      "era": "A recent evacuation; does not rewrite either faction's founding or the Great Schism.",
+      "faction_context": [
+        "IRON_HEGEMONY",
+        "STARFORGED_LEGION"
+      ],
+      "npc_motivation": "Tovan repairs signal bells for civilians who worked beside Iron and Legion crews. He needs an outsider to compare records neither employer will share with him.",
+      "discovery": {
+        "type": "item_acquired",
+        "item_id": "mq_clue_muster_1",
+        "region_id": "HOLLOW_MUSTER"
+      },
+      "breadcrumbs": [
+        "The tally labels the fourth beat evacuate.",
+        "A missing cable reaches the workshop, not the barracks.",
+        "Boots point toward an exit rather than the parade ground."
+      ],
+      "answer": "The interrupted signal is an evacuation instruction, not an incomplete pledge.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Restore the evacuation signal first",
+          "cost": "Production waits while crews test it",
+          "visible_consequence": "Workers hear a full warning sequence.",
+          "flag": "mq_muster_fourth_beat.choice_1",
+          "npc_response": "If we choose that: Workers hear a full warning sequence. The cost is clear: Production waits while crews test it."
+        },
+        {
+          "id": "choice_2",
+          "label": "Post a visual warning alongside repairs",
+          "cost": "Someone must maintain the signs",
+          "visible_consequence": "A second warning channel is established.",
+          "flag": "mq_muster_fourth_beat.choice_2",
+          "npc_response": "If we choose that: A second warning channel is established. The cost is clear: Someone must maintain the signs."
+        },
+        {
+          "id": "choice_3",
+          "label": "Use a staffed manual bell",
+          "cost": "A worker must remain on watch",
+          "visible_consequence": "The warning no longer depends on one cable.",
+          "flag": "mq_muster_fourth_beat.choice_3",
+          "npc_response": "If we choose that: The warning no longer depends on one cable. The cost is clear: A worker must remain on watch."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "Three beats call a shift. Four clear the yard. Listen before you accuse someone of desertion.",
+        "active": "Hear the gap. Metal tells on itself.",
+        "ready": "The interrupted signal is an evacuation instruction, not an incomplete pledge.",
+        "completed": "Four beats. No speech. That will do."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_muster_fourth_beat",
+      "achievement_id": "mq_achievement_muster_fourth_beat",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_muster_boots_outward",
+      "arc_id": "muster",
+      "kind": "mystery",
+      "era": "A recent evacuation; does not rewrite either faction's founding or the Great Schism.",
+      "faction_context": [
+        "IRON_HEGEMONY",
+        "STARFORGED_LEGION"
+      ],
+      "npc_motivation": "Tovan repairs signal bells for civilians who worked beside Iron and Legion crews. He needs an outsider to compare records neither employer will share with him.",
+      "discovery": {
+        "type": "quest_completed",
+        "quest_id": "mq_muster_fourth_beat",
+        "region_id": "HOLLOW_MUSTER"
+      },
+      "breadcrumbs": [
+        "Boot soles carry workshop grit, not barracks polish.",
+        "Tool tags follow a work roster, not a military rank.",
+        "The roll records departure after the evacuation beat."
+      ],
+      "answer": "Civilian crews left under a safety instruction; absence from muster is not evidence of military desertion.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Correct the work roster publicly",
+          "cost": "Employers must acknowledge the mistake",
+          "visible_consequence": "Civilian absences become documented evacuations.",
+          "flag": "mq_muster_boots_outward.choice_1",
+          "npc_response": "If we choose that: Civilian absences become documented evacuations. The cost is clear: Employers must acknowledge the mistake."
+        },
+        {
+          "id": "choice_2",
+          "label": "Attach witness statements privately",
+          "cost": "Public suspicion may persist longer",
+          "visible_consequence": "Workers gain a restricted proof of departure.",
+          "flag": "mq_muster_boots_outward.choice_2",
+          "npc_response": "If we choose that: Workers gain a restricted proof of departure. The cost is clear: Public suspicion may persist longer."
+        },
+        {
+          "id": "choice_3",
+          "label": "Let the crew speak collectively",
+          "cost": "The crew must spend time organizing",
+          "visible_consequence": "The roll carries their own account.",
+          "flag": "mq_muster_boots_outward.choice_3",
+          "npc_response": "If we choose that: The roll carries their own account. The cost is clear: The crew must spend time organizing."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "An empty parade line doesn't tell you where they went. Look at the wear on the soles.",
+        "active": "Hear the gap. Metal tells on itself.",
+        "ready": "Civilian crews left under a safety instruction; absence from muster is not evidence of military desertion.",
+        "completed": "Boots don't swear oaths. People do. Keep the columns separate."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_muster_boots_outward",
+      "achievement_id": "mq_achievement_muster_boots_outward",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_muster_cable_thief",
+      "arc_id": "muster",
+      "kind": "mystery",
+      "era": "A recent evacuation; does not rewrite either faction's founding or the Great Schism.",
+      "faction_context": [
+        "IRON_HEGEMONY",
+        "STARFORGED_LEGION"
+      ],
+      "npc_motivation": "Tovan repairs signal bells for civilians who worked beside Iron and Legion crews. He needs an outsider to compare records neither employer will share with him.",
+      "discovery": {
+        "type": "quest_completed",
+        "quest_id": "mq_muster_boots_outward",
+        "region_id": "HOLLOW_MUSTER"
+      },
+      "breadcrumbs": [
+        "Cable ends show mechanical shearing, not a clean hand cut.",
+        "The wrecker's cargo cradle contains matching wire.",
+        "Its salvage route loops through the bell support."
+      ],
+      "answer": "A derelict salvage routine repeatedly removes the cable; this evidence cannot identify a human saboteur.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Document the mechanical cause",
+          "cost": "A politically useful accusation loses force",
+          "visible_consequence": "Tovan files a repair failure, not a faction charge.",
+          "flag": "mq_muster_cable_thief.choice_1",
+          "npc_response": "If we choose that: Tovan files a repair failure, not a faction charge. The cost is clear: A politically useful accusation loses force."
+        },
+        {
+          "id": "choice_2",
+          "label": "Invite both crews to inspect it",
+          "cost": "Inspection delays reopening",
+          "visible_consequence": "Rival crews share a witnessed fault report.",
+          "flag": "mq_muster_cable_thief.choice_2",
+          "npc_response": "If we choose that: Rival crews share a witnessed fault report. The cost is clear: Inspection delays reopening."
+        },
+        {
+          "id": "choice_3",
+          "label": "Retain the damaged cable as proof",
+          "cost": "The workshop must store it",
+          "visible_consequence": "The physical evidence survives the repair.",
+          "flag": "mq_muster_cable_thief.choice_3",
+          "npc_response": "If we choose that: The physical evidence survives the repair. The cost is clear: The workshop must store it."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "Same length missing. Same bite in the copper. Someone calls it sabotage; I call it a repair that hasn't found its cause.",
+        "active": "Hear the gap. Metal tells on itself.",
+        "ready": "A derelict salvage routine repeatedly removes the cable; this evidence cannot identify a human saboteur.",
+        "completed": "It can break once. It doesn't get to break the same warning forever."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_muster_cable_thief",
+      "achievement_id": "mq_achievement_muster_cable_thief",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_muster_shared_shift",
+      "arc_id": "muster",
+      "kind": "secret",
+      "era": "A recent evacuation; does not rewrite either faction's founding or the Great Schism.",
+      "faction_context": [
+        "IRON_HEGEMONY",
+        "STARFORGED_LEGION"
+      ],
+      "npc_motivation": "Tovan repairs signal bells for civilians who worked beside Iron and Legion crews. He needs an outsider to compare records neither employer will share with him.",
+      "discovery": {
+        "type": "quest_completed",
+        "quest_id": "mq_muster_cable_thief",
+        "region_id": "HOLLOW_MUSTER"
+      },
+      "breadcrumbs": [
+        "The roll interleaves two supply stamps.",
+        "All entries share one shift and one exit record.",
+        "A margin note identifies the common bell crew, not a new faction."
+      ],
+      "answer": "This was a practical shared work shift, not evidence that Iron and Legion secretly merged.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "List names without institutional marks",
+          "cost": "The sponsors lose visible credit",
+          "visible_consequence": "The memorial centers the workers.",
+          "flag": "mq_muster_shared_shift.choice_1",
+          "npc_response": "If we choose that: The memorial centers the workers. The cost is clear: The sponsors lose visible credit."
+        },
+        {
+          "id": "choice_2",
+          "label": "Keep both supply stamps",
+          "cost": "Visitors may read politics into the plaque",
+          "visible_consequence": "Both contributions remain documented.",
+          "flag": "mq_muster_shared_shift.choice_2",
+          "npc_response": "If we choose that: Both contributions remain documented. The cost is clear: Visitors may read politics into the plaque."
+        },
+        {
+          "id": "choice_3",
+          "label": "Place separate plaques beside one bell",
+          "cost": "The shared work is less immediately obvious",
+          "visible_consequence": "Each institution keeps its record at a common site.",
+          "flag": "mq_muster_shared_shift.choice_3",
+          "npc_response": "If we choose that: Each institution keeps its record at a common site. The cost is clear: The shared work is less immediately obvious."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "They held the same rope. Their employers can argue about the brass plaque after I finish the names.",
+        "active": "Hear the gap. Metal tells on itself.",
+        "ready": "This was a practical shared work shift, not evidence that Iron and Legion secretly merged.",
+        "completed": "One rope. Enough hands. Don't make the metal say more than that."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_muster_shared_shift",
+      "achievement_id": "mq_achievement_muster_shared_shift",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_muster_warning_not_oath",
+      "arc_id": "muster",
+      "kind": "mystery",
+      "era": "A recent evacuation; does not rewrite either faction's founding or the Great Schism.",
+      "faction_context": [
+        "IRON_HEGEMONY",
+        "STARFORGED_LEGION"
+      ],
+      "npc_motivation": "Tovan repairs signal bells for civilians who worked beside Iron and Legion crews. He needs an outsider to compare records neither employer will share with him.",
+      "discovery": {
+        "type": "quest_completed",
+        "quest_id": "mq_muster_shared_shift",
+        "region_id": "HOLLOW_MUSTER"
+      },
+      "breadcrumbs": [
+        "The fourth beat has a specific safety meaning.",
+        "The absent crew obeyed it.",
+        "The wrecker fault explains why the warning failed."
+      ],
+      "answer": "Preserving memory requires an accountable maintenance plan, not merely a new ceremonial label.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Keep it a working warning bell",
+          "cost": "A crew must fund regular checks",
+          "visible_consequence": "The yard retains its evacuation signal.",
+          "flag": "mq_muster_warning_not_oath.choice_1",
+          "npc_response": "If we choose that: The yard retains its evacuation signal. The cost is clear: A crew must fund regular checks."
+        },
+        {
+          "id": "choice_2",
+          "label": "Move the original into a memorial",
+          "cost": "A replacement must carry the warning",
+          "visible_consequence": "The original becomes evidence beside a working copy.",
+          "flag": "mq_muster_warning_not_oath.choice_2",
+          "npc_response": "If we choose that: The original becomes evidence beside a working copy. The cost is clear: A replacement must carry the warning."
+        },
+        {
+          "id": "choice_3",
+          "label": "Give maintenance to a joint work council",
+          "cost": "Rival crews must keep cooperating",
+          "visible_consequence": "The bell gains shared civilian custodians.",
+          "flag": "mq_muster_warning_not_oath.choice_3",
+          "npc_response": "If we choose that: The bell gains shared civilian custodians. The cost is clear: Rival crews must keep cooperating."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "A monument rings when someone important visits. A warning rings when someone ordinary is in danger. Which job are we paying for?",
+        "active": "Hear the gap. Metal tells on itself.",
+        "ready": "Preserving memory requires an accountable maintenance plan, not merely a new ceremonial label.",
+        "completed": "If it rings and people get home, remember whoever kept it working."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_muster_warning_not_oath",
+      "achievement_id": "mq_achievement_muster_warning_not_oath",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_zero_weight_nothing",
+      "arc_id": "zero",
+      "kind": "secret",
+      "era": "A present-day dispute over storage fees; no claim about the founding of either faction.",
+      "faction_context": [
+        "MERIDIAN_CARTEL",
+        "OMNICORP"
+      ],
+      "npc_motivation": "Sella needs a field examiner outside her former OmniCorp employer and Meridian creditors to distinguish damaged cargo from a manipulated claim.",
+      "discovery": {
+        "type": "item_acquired",
+        "item_id": "mq_clue_zero_1",
+        "region_id": "ZERO_BERTH"
+      },
+      "breadcrumbs": [
+        "The cargo column is blank, not marked lost.",
+        "The billed unit is berth-day, not mass.",
+        "The empty scale retains its tare reading."
+      ],
+      "answer": "The base contract sells reserved storage time. An empty crate alone does not prove stolen cargo.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Disclose the storage unit prominently",
+          "cost": "The broker loses an easy sales shorthand",
+          "visible_consequence": "Future buyers see what is being sold.",
+          "flag": "mq_zero_weight_nothing.choice_1",
+          "npc_response": "If we choose that: Future buyers see what is being sold. The cost is clear: The broker loses an easy sales shorthand."
+        },
+        {
+          "id": "choice_2",
+          "label": "Offer a partial refund for ambiguity",
+          "cost": "The seller bears a negotiation cost",
+          "visible_consequence": "The buyer receives compensation without a fraud finding.",
+          "flag": "mq_zero_weight_nothing.choice_2",
+          "npc_response": "If we choose that: The buyer receives compensation without a fraud finding. The cost is clear: The seller bears a negotiation cost."
+        },
+        {
+          "id": "choice_3",
+          "label": "Keep the contract and add an explanation",
+          "cost": "The buyer still pays its stated fee",
+          "visible_consequence": "The annex records a clarified but unchanged agreement.",
+          "flag": "mq_zero_weight_nothing.choice_3",
+          "npc_response": "If we choose that: The annex records a clarified but unchanged agreement. The cost is clear: The buyer still pays its stated fee."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "Empty doesn't mean free. It also doesn't mean fraud. Show me what the contract actually sold.",
+        "active": "Read the unit before you buy the number.",
+        "ready": "The base contract sells reserved storage time. An empty crate alone does not prove stolen cargo.",
+        "completed": "Now we can argue about a real price instead of an imaginary shipment."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_zero_weight_nothing",
+      "achievement_id": "mq_achievement_zero_weight_nothing",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_zero_inside_label",
+      "arc_id": "zero",
+      "kind": "mystery",
+      "era": "A present-day dispute over storage fees; no claim about the founding of either faction.",
+      "faction_context": [
+        "MERIDIAN_CARTEL",
+        "OMNICORP"
+      ],
+      "npc_motivation": "Sella needs a field examiner outside her former OmniCorp employer and Meridian creditors to distinguish damaged cargo from a manipulated claim.",
+      "discovery": {
+        "type": "quest_completed",
+        "quest_id": "mq_zero_weight_nothing",
+        "region_id": "ZERO_BERTH"
+      },
+      "breadcrumbs": [
+        "The stencil faces the crate interior.",
+        "The scale log marks outbound packaging as returnable.",
+        "The repeated serial refers to the container, not two cargo loads."
+      ],
+      "answer": "The crate is a returned container. A repeated container serial is not proof of duplicated cargo.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Correct the delivery count",
+          "cost": "The carrier's volume claim shrinks",
+          "visible_consequence": "The record separates container returns from goods.",
+          "flag": "mq_zero_inside_label.choice_1",
+          "npc_response": "If we choose that: The record separates container returns from goods. The cost is clear: The carrier's volume claim shrinks."
+        },
+        {
+          "id": "choice_2",
+          "label": "Flag the stencil for physical inspection",
+          "cost": "A shipment waits at the berth",
+          "visible_consequence": "An inspector confirms direction before settlement.",
+          "flag": "mq_zero_inside_label.choice_2",
+          "npc_response": "If we choose that: An inspector confirms direction before settlement. The cost is clear: A shipment waits at the berth."
+        },
+        {
+          "id": "choice_3",
+          "label": "Publish a return-label standard",
+          "cost": "Dock crews must relabel stock",
+          "visible_consequence": "A clearer standard prevents the same dispute.",
+          "flag": "mq_zero_inside_label.choice_3",
+          "npc_response": "If we choose that: A clearer standard prevents the same dispute. The cost is clear: Dock crews must relabel stock."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "Serial's genuine. Story's facing the wrong way. Turn your attention, not the number.",
+        "active": "Read the unit before you buy the number.",
+        "ready": "The crate is a returned container. A repeated container serial is not proof of duplicated cargo.",
+        "completed": "A number can be honest while the headline above it isn't."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_zero_inside_label",
+      "achievement_id": "mq_achievement_zero_inside_label",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_zero_fee_at_door",
+      "arc_id": "zero",
+      "kind": "mystery",
+      "era": "A present-day dispute over storage fees; no claim about the founding of either faction.",
+      "faction_context": [
+        "MERIDIAN_CARTEL",
+        "OMNICORP"
+      ],
+      "npc_motivation": "Sella needs a field examiner outside her former OmniCorp employer and Meridian creditors to distinguish damaged cargo from a manipulated claim.",
+      "discovery": {
+        "type": "quest_completed",
+        "quest_id": "mq_zero_inside_label",
+        "region_id": "ZERO_BERTH"
+      },
+      "breadcrumbs": [
+        "The demanded fee is absent from the signed contract.",
+        "The collector bars only the inspection door.",
+        "The invoice identifies a private collector, not a faction decree."
+      ],
+      "answer": "The obstruction is an unauthorized inspection fee; the original storage contract remains a separate question.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "File the unauthorized fee with witnesses",
+          "cost": "Witnesses must risk being identified",
+          "visible_consequence": "The collector's obstruction becomes a documented claim.",
+          "flag": "mq_zero_fee_at_door.choice_1",
+          "npc_response": "If we choose that: The collector's obstruction becomes a documented claim. The cost is clear: Witnesses must risk being identified."
+        },
+        {
+          "id": "choice_2",
+          "label": "Protect the witnesses' identities",
+          "cost": "The case needs a trusted intermediary",
+          "visible_consequence": "Sella submits a restricted statement.",
+          "flag": "mq_zero_fee_at_door.choice_2",
+          "npc_response": "If we choose that: Sella submits a restricted statement. The cost is clear: The case needs a trusted intermediary."
+        },
+        {
+          "id": "choice_3",
+          "label": "Send the physical invoices to neutral custody",
+          "cost": "Settlement is delayed by transport",
+          "visible_consequence": "A neutral examiner receives the originals.",
+          "flag": "mq_zero_fee_at_door.choice_3",
+          "npc_response": "If we choose that: A neutral examiner receives the originals. The cost is clear: Settlement is delayed by transport."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "They charge to let me inspect the fee they charge. Stop that little circle. Leave the innocent crews out of it.",
+        "active": "Read the unit before you buy the number.",
+        "ready": "The obstruction is an unauthorized inspection fee; the original storage contract remains a separate question.",
+        "completed": "Access restored. Verdict still open. I like it when those are separate sentences."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_zero_fee_at_door",
+      "achievement_id": "mq_achievement_zero_fee_at_door",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_zero_rent_inside_rent",
+      "arc_id": "zero",
+      "kind": "secret",
+      "era": "A present-day dispute over storage fees; no claim about the founding of either faction.",
+      "faction_context": [
+        "MERIDIAN_CARTEL",
+        "OMNICORP"
+      ],
+      "npc_motivation": "Sella needs a field examiner outside her former OmniCorp employer and Meridian creditors to distinguish damaged cargo from a manipulated claim.",
+      "discovery": {
+        "type": "quest_completed",
+        "quest_id": "mq_zero_fee_at_door",
+        "region_id": "ZERO_BERTH"
+      },
+      "breadcrumbs": [
+        "Both invoices cover the same interval.",
+        "The nested line references the already settled container charge.",
+        "No additional berth or handling event appears in the log."
+      ],
+      "answer": "The duplicate interval, not the empty crate, proves the double charge.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Refund the duplicate charge",
+          "cost": "The creditor loses claimed revenue",
+          "visible_consequence": "The corrected account preserves the original service fee.",
+          "flag": "mq_zero_rent_inside_rent.choice_1",
+          "npc_response": "If we choose that: The corrected account preserves the original service fee. The cost is clear: The creditor loses claimed revenue."
+        },
+        {
+          "id": "choice_2",
+          "label": "Credit the buyer's next storage booking",
+          "cost": "Relief depends on using the port again",
+          "visible_consequence": "The account carries a compensating credit.",
+          "flag": "mq_zero_rent_inside_rent.choice_2",
+          "npc_response": "If we choose that: The account carries a compensating credit. The cost is clear: Relief depends on using the port again."
+        },
+        {
+          "id": "choice_3",
+          "label": "Place the duplicate sum in neutral escrow",
+          "cost": "Both sides wait for review",
+          "visible_consequence": "Neither party can spend the disputed amount yet.",
+          "flag": "mq_zero_rent_inside_rent.choice_3",
+          "npc_response": "If we choose that: Neither party can spend the disputed amount yet. The cost is clear: Both sides wait for review."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "We found a real service. Now we've found it twice on the same day's bill. One honest line doesn't excuse the second.",
+        "active": "Read the unit before you buy the number.",
+        "ready": "The duplicate interval, not the empty crate, proves the double charge.",
+        "completed": "Nothing was missing from the crate. Something was added to the bill."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_zero_rent_inside_rent",
+      "achievement_id": "mq_achievement_zero_rent_inside_rent",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_zero_port_without_lie",
+      "arc_id": "zero",
+      "kind": "mystery",
+      "era": "A present-day dispute over storage fees; no claim about the founding of either faction.",
+      "faction_context": [
+        "MERIDIAN_CARTEL",
+        "OMNICORP"
+      ],
+      "npc_motivation": "Sella needs a field examiner outside her former OmniCorp employer and Meridian creditors to distinguish damaged cargo from a manipulated claim.",
+      "discovery": {
+        "type": "quest_completed",
+        "quest_id": "mq_zero_rent_inside_rent",
+        "region_id": "ZERO_BERTH"
+      },
+      "breadcrumbs": [
+        "The storage unit is valid.",
+        "The reversed label explains the crate's journey.",
+        "The overlapping invoice interval proves the specific error."
+      ],
+      "answer": "A narrow, evidenced finding protects legitimate trade while correcting this duplicate charge.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Publish an anonymized precedent",
+          "cost": "The buyer's personal story stays absent",
+          "visible_consequence": "The berth displays a general billing correction.",
+          "flag": "mq_zero_port_without_lie.choice_1",
+          "npc_response": "If we choose that: The berth displays a general billing correction. The cost is clear: The buyer's personal story stays absent."
+        },
+        {
+          "id": "choice_2",
+          "label": "Negotiate a private settlement",
+          "cost": "Future buyers lack a public precedent",
+          "visible_consequence": "The parties settle without revealing their identities.",
+          "flag": "mq_zero_port_without_lie.choice_2",
+          "npc_response": "If we choose that: The parties settle without revealing their identities. The cost is clear: Future buyers lack a public precedent."
+        },
+        {
+          "id": "choice_3",
+          "label": "Run a jointly monitored billing trial",
+          "cost": "Workers must keep an extra record",
+          "visible_consequence": "Meridian and OmniCorp participants compare a limited test.",
+          "flag": "mq_zero_port_without_lie.choice_3",
+          "npc_response": "If we choose that: Meridian and OmniCorp participants compare a limited test. The cost is clear: Workers must keep an extra record."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "A scandal sells faster than a standard. Tell me which one will still help the next dockhand.",
+        "active": "Read the unit before you buy the number.",
+        "ready": "A narrow, evidenced finding protects legitimate trade while correcting this duplicate charge.",
+        "completed": "No secret empire behind this crate. Just a small lie large enough to ruin a worker. Small was worth your time."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_zero_port_without_lie",
+      "achievement_id": "mq_achievement_zero_port_without_lie",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_quiet_cloth_on_crystal",
+      "arc_id": "quiet",
+      "kind": "secret",
+      "era": "Present-day study of surviving infrastructure. A repeated sound cannot establish Shard sentience or reverse the Great Severance.",
+      "faction_context": [
+        "THE_ARCANUM_SEEKERS",
+        "CHILDREN_OF_THE_SHARD"
+      ],
+      "npc_motivation": "Iren wants a witness willing to compare Arcanum measurements with Children of the Shard oral accounts without appropriating either or declaring the Shard conscious.",
+      "discovery": {
+        "type": "item_acquired",
+        "item_id": "mq_clue_quiet_1",
+        "region_id": "QUIET_RESONATOR"
+      },
+      "breadcrumbs": [
+        "Cloth touches the fourth rib at a vibration point.",
+        "The trace records lower amplitude, not a new word.",
+        "The cloth's wear suggests repeated maintenance."
+      ],
+      "answer": "The wrapping dampens vibration. The observation alone cannot explain the caretaker's belief or intent.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Keep the damping while measuring",
+          "cost": "The unwrapped tone remains untested",
+          "visible_consequence": "The caretaker's intervention stays intact.",
+          "flag": "mq_quiet_cloth_on_crystal.choice_1",
+          "npc_response": "If we choose that: The caretaker's intervention stays intact. The cost is clear: The unwrapped tone remains untested."
+        },
+        {
+          "id": "choice_2",
+          "label": "Remove it briefly with consent",
+          "cost": "The louder tone may disturb visitors",
+          "visible_consequence": "A limited comparison is recorded.",
+          "flag": "mq_quiet_cloth_on_crystal.choice_2",
+          "npc_response": "If we choose that: A limited comparison is recorded. The cost is clear: The louder tone may disturb visitors."
+        },
+        {
+          "id": "choice_3",
+          "label": "Make a nonintrusive external trace",
+          "cost": "The result has more uncertainty",
+          "visible_consequence": "The study avoids changing the rib.",
+          "flag": "mq_quiet_cloth_on_crystal.choice_3",
+          "npc_response": "If we choose that: The study avoids changing the rib. The cost is clear: The result has more uncertainty."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "Someone softened this note. Before we call it vandalism or a miracle, let's hear what they changed.",
+        "active": "We heard it. We haven't explained it.",
+        "ready": "The wrapping dampens vibration. The observation alone cannot explain the caretaker's belief or intent.",
+        "completed": "A quieter note is a finding. Its meaning can remain a question."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_quiet_cloth_on_crystal",
+      "achievement_id": "mq_achievement_quiet_cloth_on_crystal",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_quiet_bench_wrong_way",
+      "arc_id": "quiet",
+      "kind": "mystery",
+      "era": "Present-day study of surviving infrastructure. A repeated sound cannot establish Shard sentience or reverse the Great Severance.",
+      "faction_context": [
+        "THE_ARCANUM_SEEKERS",
+        "CHILDREN_OF_THE_SHARD"
+      ],
+      "npc_motivation": "Iren wants a witness willing to compare Arcanum measurements with Children of the Shard oral accounts without appropriating either or declaring the Shard conscious.",
+      "discovery": {
+        "type": "quest_completed",
+        "quest_id": "mq_quiet_cloth_on_crystal",
+        "region_id": "QUIET_RESONATOR"
+      },
+      "breadcrumbs": [
+        "The bench faces the drainage channel.",
+        "A delayed note is loudest near its opening.",
+        "The rib-facing seat receives the first note but not the delay clearly."
+      ],
+      "answer": "The channel carries a delayed reflection; hearing a reply does not establish another speaker.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Mark the reflection path publicly",
+          "cost": "A cherished interpretation may be challenged",
+          "visible_consequence": "Visitors can compare both listening positions.",
+          "flag": "mq_quiet_bench_wrong_way.choice_1",
+          "npc_response": "If we choose that: Visitors can compare both listening positions. The cost is clear: A cherished interpretation may be challenged."
+        },
+        {
+          "id": "choice_2",
+          "label": "Discuss it with the oral custodians first",
+          "cost": "Public correction waits",
+          "visible_consequence": "The explanation begins with the people who preserve the account.",
+          "flag": "mq_quiet_bench_wrong_way.choice_2",
+          "npc_response": "If we choose that: The explanation begins with the people who preserve the account. The cost is clear: Public correction waits."
+        },
+        {
+          "id": "choice_3",
+          "label": "Publish the measurement without a verdict",
+          "cost": "Readers may still overinterpret it",
+          "visible_consequence": "The record separates timing from claims about a voice.",
+          "flag": "mq_quiet_bench_wrong_way.choice_3",
+          "npc_response": "If we choose that: The record separates timing from claims about a voice. The cost is clear: Readers may still overinterpret it."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "The view is terrible. The listening position is excellent. Whoever sat here knew the difference.",
+        "active": "We heard it. We haven't explained it.",
+        "ready": "The channel carries a delayed reflection; hearing a reply does not establish another speaker.",
+        "completed": "The second sound is real. A second speaker is still unproven."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_quiet_bench_wrong_way",
+      "achievement_id": "mq_achievement_quiet_bench_wrong_way",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_quiet_test_without_beast",
+      "arc_id": "quiet",
+      "kind": "mystery",
+      "era": "Present-day study of surviving infrastructure. A repeated sound cannot establish Shard sentience or reverse the Great Severance.",
+      "faction_context": [
+        "THE_ARCANUM_SEEKERS",
+        "CHILDREN_OF_THE_SHARD"
+      ],
+      "npc_motivation": "Iren wants a witness willing to compare Arcanum measurements with Children of the Shard oral accounts without appropriating either or declaring the Shard conscious.",
+      "discovery": {
+        "type": "quest_completed",
+        "quest_id": "mq_quiet_bench_wrong_way",
+        "region_id": "QUIET_RESONATOR"
+      },
+      "breadcrumbs": [
+        "Claw marks reach nesting debris in the channel.",
+        "The interference follows movement, not the rib's note.",
+        "The undisturbed trace still shows a reflection delay."
+      ],
+      "answer": "The beast causes intermittent interference; the measured reflection has a separate physical path.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Limit future tests to a marked safe interval",
+          "cost": "The study collects fewer samples",
+          "visible_consequence": "The gallery receives a bounded test schedule.",
+          "flag": "mq_quiet_test_without_beast.choice_1",
+          "npc_response": "If we choose that: The gallery receives a bounded test schedule. The cost is clear: The study collects fewer samples."
+        },
+        {
+          "id": "choice_2",
+          "label": "Move observers to the outer bench",
+          "cost": "Measurements become less precise",
+          "visible_consequence": "The risky channel no longer hosts visitors.",
+          "flag": "mq_quiet_test_without_beast.choice_2",
+          "npc_response": "If we choose that: The risky channel no longer hosts visitors. The cost is clear: Measurements become less precise."
+        },
+        {
+          "id": "choice_3",
+          "label": "Suspend invasive testing",
+          "cost": "The cause remains less fully characterized",
+          "visible_consequence": "Iren keeps the known result without expanding the disturbance.",
+          "flag": "mq_quiet_test_without_beast.choice_3",
+          "npc_response": "If we choose that: Iren keeps the known result without expanding the disturbance. The cost is clear: The cause remains less fully characterized."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "It's defending a nest. That doesn't make it a prophet. Clear the unsafe channel; don't write a revelation into the claws.",
+        "active": "We heard it. We haven't explained it.",
+        "ready": "The beast causes intermittent interference; the measured reflection has a separate physical path.",
+        "completed": "Safe enough to listen. Not licensed to disturb everything that lives here."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_quiet_test_without_beast",
+      "achievement_id": "mq_achievement_quiet_test_without_beast",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_quiet_same_pause",
+      "arc_id": "quiet",
+      "kind": "secret",
+      "era": "Present-day study of surviving infrastructure. A repeated sound cannot establish Shard sentience or reverse the Great Severance.",
+      "faction_context": [
+        "THE_ARCANUM_SEEKERS",
+        "CHILDREN_OF_THE_SHARD"
+      ],
+      "npc_motivation": "Iren wants a witness willing to compare Arcanum measurements with Children of the Shard oral accounts without appropriating either or declaring the Shard conscious.",
+      "discovery": {
+        "type": "quest_completed",
+        "quest_id": "mq_quiet_test_without_beast",
+        "region_id": "QUIET_RESONATOR"
+      },
+      "breadcrumbs": [
+        "Both records use the same listening position.",
+        "Their delay matches the channel interval.",
+        "The claimed messages vary, while the recorded waveform repeats."
+      ],
+      "answer": "The measured repetition fits channel acoustics. This test cannot establish or disprove broader beliefs about Aethel.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Publish a narrow acoustic finding",
+          "cost": "Dramatic claims remain outside its scope",
+          "visible_consequence": "The record corrects only what was measured.",
+          "flag": "mq_quiet_same_pause.choice_1",
+          "npc_response": "If we choose that: The record corrects only what was measured. The cost is clear: Dramatic claims remain outside its scope."
+        },
+        {
+          "id": "choice_2",
+          "label": "Co-author the explanation with custodians",
+          "cost": "Agreement takes time",
+          "visible_consequence": "Observation and oral interpretation are attributed separately.",
+          "flag": "mq_quiet_same_pause.choice_2",
+          "npc_response": "If we choose that: Observation and oral interpretation are attributed separately. The cost is clear: Agreement takes time."
+        },
+        {
+          "id": "choice_3",
+          "label": "Archive raw traces for later review",
+          "cost": "The public gets no quick conclusion",
+          "visible_consequence": "Others can inspect the evidence without inheriting a verdict.",
+          "flag": "mq_quiet_same_pause.choice_3",
+          "npc_response": "If we choose that: Others can inspect the evidence without inheriting a verdict. The cost is clear: The public gets no quick conclusion."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "Two answers, one delay. The instrument measures the delay. It doesn't get to measure someone's faith.",
+        "active": "We heard it. We haven't explained it.",
+        "ready": "The measured repetition fits channel acoustics. This test cannot establish or disprove broader beliefs about Aethel.",
+        "completed": "We can be precise without pretending to be final."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_quiet_same_pause",
+      "achievement_id": "mq_achievement_quiet_same_pause",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_quiet_silence_kept",
+      "arc_id": "quiet",
+      "kind": "mystery",
+      "era": "Present-day study of surviving infrastructure. A repeated sound cannot establish Shard sentience or reverse the Great Severance.",
+      "faction_context": [
+        "THE_ARCANUM_SEEKERS",
+        "CHILDREN_OF_THE_SHARD"
+      ],
+      "npc_motivation": "Iren wants a witness willing to compare Arcanum measurements with Children of the Shard oral accounts without appropriating either or declaring the Shard conscious.",
+      "discovery": {
+        "type": "quest_completed",
+        "quest_id": "mq_quiet_same_pause",
+        "region_id": "QUIET_RESONATOR"
+      },
+      "breadcrumbs": [
+        "The cloth is a physical intervention.",
+        "The bench reveals a reflection path.",
+        "The repeated interval supports a limited finding, not an account of Shard intention."
+      ],
+      "answer": "Stewardship can preserve both evidence and local consent without declaring one institution owner of the gallery's meaning.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Conserve it as a listening place",
+          "cost": "New experiments become exceptional",
+          "visible_consequence": "The bench and wrapping remain undisturbed.",
+          "flag": "mq_quiet_silence_kept.choice_1",
+          "npc_response": "If we choose that: The bench and wrapping remain undisturbed. The cost is clear: New experiments become exceptional."
+        },
+        {
+          "id": "choice_2",
+          "label": "Permit supervised public comparisons",
+          "cost": "Custodians must manage visitor pressure",
+          "visible_consequence": "Visitors may hear the measured effect for themselves.",
+          "flag": "mq_quiet_silence_kept.choice_2",
+          "npc_response": "If we choose that: Visitors may hear the measured effect for themselves. The cost is clear: Custodians must manage visitor pressure."
+        },
+        {
+          "id": "choice_3",
+          "label": "Create a jointly governed evidence archive",
+          "cost": "Neither group has unilateral authority",
+          "visible_consequence": "The traces remain available under shared permission.",
+          "flag": "mq_quiet_silence_kept.choice_3",
+          "npc_response": "If we choose that: The traces remain available under shared permission. The cost is clear: Neither group has unilateral authority."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "I came for a complete explanation. I can leave with a careful one. Who should hold the next permission slip?",
+        "active": "We heard it. We haven't explained it.",
+        "ready": "Stewardship can preserve both evidence and local consent without declaring one institution owner of the gallery's meaning.",
+        "completed": "It is still beautiful. Knowing one reason why doesn't take that away."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_quiet_silence_kept",
+      "achievement_id": "mq_achievement_quiet_silence_kept",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_armistice_modern_lock",
+      "arc_id": "armistice",
+      "kind": "secret",
+      "era": "A recent relief ceasefire archive housed in a surviving chamber. The archive is modern; the chamber is old. Neither proves a new cause of the Great Severance.",
+      "faction_context": [
+        "GALACTIC_CUSTODIANS",
+        "AMA"
+      ],
+      "npc_motivation": "Maela holds a limited mandate to compare a recent neutral relief archive with scattered field copies. She needs a witness outside its Custodian and AMA sponsors because both have an interest in appearing blameless.",
+      "discovery": {
+        "type": "item_acquired",
+        "item_id": "mq_clue_armistice_1",
+        "region_id": "SEALED_ARMISTICE_VAULT"
+      },
+      "breadcrumbs": [
+        "The lock uses a current custody mark.",
+        "The ledger names a recent relief interval.",
+        "Ancient stone wear continues beneath fresh bolt heads."
+      ],
+      "answer": "A modern relief archive reuses an ancient chamber; its contents cannot date the chamber's original purpose.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Label both histories separately",
+          "cost": "Visitors get a less dramatic account",
+          "visible_consequence": "The cabinet gains distinct structure and archive labels.",
+          "flag": "mq_armistice_modern_lock.choice_1",
+          "npc_response": "If we choose that: The cabinet gains distinct structure and archive labels. The cost is clear: Visitors get a less dramatic account."
+        },
+        {
+          "id": "choice_2",
+          "label": "Prioritize the relief archive's custody",
+          "cost": "The chamber's past remains unexplored",
+          "visible_consequence": "Immediate care protects the modern records.",
+          "flag": "mq_armistice_modern_lock.choice_2",
+          "npc_response": "If we choose that: Immediate care protects the modern records. The cost is clear: The chamber's past remains unexplored."
+        },
+        {
+          "id": "choice_3",
+          "label": "Request separate archaeological review",
+          "cost": "Review delays a complete site account",
+          "visible_consequence": "A second inquiry examines the stone without conflating it with the ledger.",
+          "flag": "mq_armistice_modern_lock.choice_3",
+          "npc_response": "If we choose that: A second inquiry examines the stone without conflating it with the ledger. The cost is clear: Review delays a complete site account."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "The chamber is old. The lock is not. Please don't turn a relief office into the missing chapter of the Severance.",
+        "active": "A finding has a boundary. Write it down.",
+        "ready": "A modern relief archive reuses an ancient chamber; its contents cannot date the chamber's original purpose.",
+        "completed": "Two histories can share a wall without becoming the same history."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_armistice_modern_lock",
+      "achievement_id": "mq_achievement_armistice_modern_lock",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_armistice_burn_without_verdict",
+      "arc_id": "armistice",
+      "kind": "mystery",
+      "era": "A recent relief ceasefire archive housed in a surviving chamber. The archive is modern; the chamber is old. Neither proves a new cause of the Great Severance.",
+      "faction_context": [
+        "GALACTIC_CUSTODIANS",
+        "AMA"
+      ],
+      "npc_motivation": "Maela holds a limited mandate to compare a recent neutral relief archive with scattered field copies. She needs a witness outside its Custodian and AMA sponsors because both have an interest in appearing blameless.",
+      "discovery": {
+        "type": "quest_completed",
+        "quest_id": "mq_armistice_modern_lock",
+        "region_id": "SEALED_ARMISTICE_VAULT"
+      },
+      "breadcrumbs": [
+        "Scorching is strongest beside the nesting recess.",
+        "The duplicate plate survives across the chamber.",
+        "The custody mark is unchanged on both versions."
+      ],
+      "answer": "The pattern supports localized heat exposure. It does not by itself establish intentional suppression.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Publish the damage pattern",
+          "cost": "Readers may still demand an immediate culprit",
+          "visible_consequence": "The report describes observed heat without assigning motive.",
+          "flag": "mq_armistice_burn_without_verdict.choice_1",
+          "npc_response": "If we choose that: The report describes observed heat without assigning motive. The cost is clear: Readers may still demand an immediate culprit."
+        },
+        {
+          "id": "choice_2",
+          "label": "Restrict interpretation until inspection",
+          "cost": "People wait longer for an account",
+          "visible_consequence": "A provisional report explicitly withholds a verdict.",
+          "flag": "mq_armistice_burn_without_verdict.choice_2",
+          "npc_response": "If we choose that: A provisional report explicitly withholds a verdict. The cost is clear: People wait longer for an account."
+        },
+        {
+          "id": "choice_3",
+          "label": "Invite external custody witnesses",
+          "cost": "The archive opens to more scrutiny",
+          "visible_consequence": "Independent witnesses inspect the same physical evidence.",
+          "flag": "mq_armistice_burn_without_verdict.choice_3",
+          "npc_response": "If we choose that: Independent witnesses inspect the same physical evidence. The cost is clear: The archive opens to more scrutiny."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "A damaged ledger is evidence of damage. Motive needs another page.",
+        "active": "A finding has a boundary. Write it down.",
+        "ready": "The pattern supports localized heat exposure. It does not by itself establish intentional suppression.",
+        "completed": "Uncertainty is not an acquittal. It is also not permission to invent a conviction."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_armistice_burn_without_verdict",
+      "achievement_id": "mq_achievement_armistice_burn_without_verdict",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_armistice_safe_for_copy",
+      "arc_id": "armistice",
+      "kind": "mystery",
+      "era": "A recent relief ceasefire archive housed in a surviving chamber. The archive is modern; the chamber is old. Neither proves a new cause of the Great Severance.",
+      "faction_context": [
+        "GALACTIC_CUSTODIANS",
+        "AMA"
+      ],
+      "npc_motivation": "Maela holds a limited mandate to compare a recent neutral relief archive with scattered field copies. She needs a witness outside its Custodian and AMA sponsors because both have an interest in appearing blameless.",
+      "discovery": {
+        "type": "quest_completed",
+        "quest_id": "mq_armistice_burn_without_verdict",
+        "region_id": "SEALED_ARMISTICE_VAULT"
+      },
+      "breadcrumbs": [
+        "Fresh ember marks align with the nesting recess.",
+        "The drakonid has no custody token or institutional mark.",
+        "The duplicate survives independently of the damaged page."
+      ],
+      "answer": "Removing a present threat enables copying. It neither authenticates every entry nor proves who damaged the ledger earlier.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Copy the duplicate first",
+          "cost": "Damaged personal entries wait",
+          "visible_consequence": "The audit gains a stable control record.",
+          "flag": "mq_armistice_safe_for_copy.choice_1",
+          "npc_response": "If we choose that: The audit gains a stable control record. The cost is clear: Damaged personal entries wait."
+        },
+        {
+          "id": "choice_2",
+          "label": "Stabilize the fragile pages first",
+          "cost": "The control copy waits",
+          "visible_consequence": "The most vulnerable record receives priority.",
+          "flag": "mq_armistice_safe_for_copy.choice_2",
+          "npc_response": "If we choose that: The most vulnerable record receives priority. The cost is clear: The control copy waits."
+        },
+        {
+          "id": "choice_3",
+          "label": "Have two witnesses divide the copying",
+          "cost": "More staff and supplies are needed",
+          "visible_consequence": "Copies begin with independent chains of custody.",
+          "flag": "mq_armistice_safe_for_copy.choice_3",
+          "npc_response": "If we choose that: Copies begin with independent chains of custody. The cost is clear: More staff and supplies are needed."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "A dead archivist can't testify. Clear the immediate threat; we'll keep the report about what you actually found.",
+        "active": "A finding has a boundary. Write it down.",
+        "ready": "Removing a present threat enables copying. It neither authenticates every entry nor proves who damaged the ledger earlier.",
+        "completed": "Now a second person can check the first person's work. That is a better safeguard than my reputation."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_armistice_safe_for_copy",
+      "achievement_id": "mq_achievement_armistice_safe_for_copy",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_armistice_reserve_not_ransom",
+      "arc_id": "armistice",
+      "kind": "secret",
+      "era": "A recent relief ceasefire archive housed in a surviving chamber. The archive is modern; the chamber is old. Neither proves a new cause of the Great Severance.",
+      "faction_context": [
+        "GALACTIC_CUSTODIANS",
+        "AMA"
+      ],
+      "npc_motivation": "Maela holds a limited mandate to compare a recent neutral relief archive with scattered field copies. She needs a witness outside its Custodian and AMA sponsors because both have an interest in appearing blameless.",
+      "discovery": {
+        "type": "quest_completed",
+        "quest_id": "mq_armistice_safe_for_copy",
+        "region_id": "SEALED_ARMISTICE_VAULT"
+      },
+      "breadcrumbs": [
+        "The reserve line names an unsettled transfer.",
+        "The duplicate has a release condition but no faction-concession clause.",
+        "A field note records recipients waiting while settlement was checked."
+      ],
+      "answer": "The documented reserve is pending settlement, not proven ransom. That does not make the relief delay harmless or automatically justified.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Publish both the settlement reason and delay",
+          "cost": "Sponsors face criticism despite a valid accounting category",
+          "visible_consequence": "The record preserves the cost borne by recipients.",
+          "flag": "mq_armistice_reserve_not_ransom.choice_1",
+          "npc_response": "If we choose that: The record preserves the cost borne by recipients. The cost is clear: Sponsors face criticism despite a valid accounting category."
+        },
+        {
+          "id": "choice_2",
+          "label": "Request an emergency relief exception",
+          "cost": "The authority must accept additional settlement risk",
+          "visible_consequence": "A narrow exception request accompanies the audited account.",
+          "flag": "mq_armistice_reserve_not_ransom.choice_2",
+          "npc_response": "If we choose that: A narrow exception request accompanies the audited account. The cost is clear: The authority must accept additional settlement risk."
+        },
+        {
+          "id": "choice_3",
+          "label": "Seek independent review of the hold",
+          "cost": "Release may be further delayed",
+          "visible_consequence": "A neutral review tests whether the hold was proportionate.",
+          "flag": "mq_armistice_reserve_not_ransom.choice_3",
+          "npc_response": "If we choose that: A neutral review tests whether the hold was proportionate. The cost is clear: Release may be further delayed."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "AMA's wording is exact. A hungry household doesn't eat exact wording. Verify the reserve and keep the delay in the finding.",
+        "active": "A finding has a boundary. Write it down.",
+        "ready": "The documented reserve is pending settlement, not proven ransom. That does not make the relief delay harmless or automatically justified.",
+        "completed": "A precise account can still describe a failure of care. Keep both sentences."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_armistice_reserve_not_ransom",
+      "achievement_id": "mq_achievement_armistice_reserve_not_ransom",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    },
+    {
+      "quest_id": "mq_armistice_unwritten_witness",
+      "arc_id": "armistice",
+      "kind": "mystery",
+      "era": "A recent relief ceasefire archive housed in a surviving chamber. The archive is modern; the chamber is old. Neither proves a new cause of the Great Severance.",
+      "faction_context": [
+        "GALACTIC_CUSTODIANS",
+        "AMA"
+      ],
+      "npc_motivation": "Maela holds a limited mandate to compare a recent neutral relief archive with scattered field copies. She needs a witness outside its Custodian and AMA sponsors because both have an interest in appearing blameless.",
+      "discovery": {
+        "type": "quest_completed",
+        "quest_id": "mq_armistice_reserve_not_ransom",
+        "region_id": "SEALED_ARMISTICE_VAULT"
+      },
+      "breadcrumbs": [
+        "The ward separates recognition from disclosure; the yard separates absence from desertion.",
+        "The berth separates a valid unit from a duplicate charge; the gallery separates sound from intention.",
+        "The vault separates accounting accuracy from the consequences of delay."
+      ],
+      "answer": "The common failure is treating a record as permission to stop listening. An appeal mechanism preserves correction without making every disputed account equally true.",
+      "decision_choices": [
+        {
+          "id": "choice_1",
+          "label": "Create a public, redacted appeal index",
+          "cost": "Transparency needs careful privacy work",
+          "visible_consequence": "People can challenge entries without revealing protected identities.",
+          "flag": "mq_armistice_unwritten_witness.choice_1",
+          "npc_response": "If we choose that: People can challenge entries without revealing protected identities. The cost is clear: Transparency needs careful privacy work."
+        },
+        {
+          "id": "choice_2",
+          "label": "Establish distributed local custodians",
+          "cost": "Corrections are slower to reconcile",
+          "visible_consequence": "Each site keeps a voice in its own record.",
+          "flag": "mq_armistice_unwritten_witness.choice_2",
+          "npc_response": "If we choose that: Each site keeps a voice in its own record. The cost is clear: Corrections are slower to reconcile."
+        },
+        {
+          "id": "choice_3",
+          "label": "Create a rotating independent review",
+          "cost": "Reviewers require resources and can still err",
+          "visible_consequence": "No permanent sponsor owns the final interpretation.",
+          "flag": "mq_armistice_unwritten_witness.choice_3",
+          "npc_response": "If we choose that: No permanent sponsor owns the final interpretation. The cost is clear: Reviewers require resources and can still err."
+        }
+      ],
+      "choice_persistence": "player_quest_progress.decision_id",
+      "dialog_state_lines": {
+        "available": "Five places. Five ways a neat record can injure someone. I can't award you the truth about Xylos. I can ask who gets to correct this shelf after us.",
+        "active": "A finding has a boundary. Write it down.",
+        "ready": "The common failure is treating a record as permission to stop listening. An appeal mechanism preserves correction without making every disputed account equally true.",
+        "completed": "Your name goes on the witness line, not the ownership line. Leave room beneath it for the person who proves us wrong."
+      },
+      "consequence_application": "personal_save_flags_and_npc_state_not_global_map_mutation",
+      "consequence_activation": "on_turn_in_only_after_valid_evidence_and_one_choice",
+      "title_id": "mq_title_armistice_unwritten_witness",
+      "achievement_id": "mq_achievement_armistice_unwritten_witness",
+      "retry_rule": "No fail-on-wrong-answer, timed window, permanent lockout, or consumed clue. Offer escalating hints after retries.",
+      "spoiler_policy": "No journal entry before discovery; details appear only after finding the first clue."
+    }
+  ]
+}

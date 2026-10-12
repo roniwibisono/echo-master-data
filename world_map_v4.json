@@ -322,7 +322,10 @@
         "npc_quest_board",
         "npc_concordium_officer",
         "npc_concordium_class_trainer",
-        "NPC_CONCORDIUM_EXCHANGE"
+        "NPC_CONCORDIUM_EXCHANGE",
+        "npc_concordium_trainer_advance",
+        "npc_concordium_trainer_expert",
+        "npc_concordium_trainer_master"
       ]
     },
     {
@@ -377,7 +380,8 @@
         },
         {
           "monster_id": 5031,
-          "spawn_weight": 25
+          "spawn_weight": 25,
+          "level_override": 5
         },
         {
           "monster_id": 5041,
@@ -385,7 +389,8 @@
         },
         {
           "monster_id": 5043,
-          "spawn_weight": 8
+          "spawn_weight": 8,
+          "level_override": 5
         },
         {
           "monster_id": 50011,
@@ -570,14 +575,6 @@
         "travel"
       ],
       "monster_spawns": [
-        {
-          "monster_id": 4017,
-          "spawn_weight": 8
-        },
-        {
-          "monster_id": 4018,
-          "spawn_weight": 8
-        },
         {
           "monster_id": 5115,
           "spawn_weight": 5
@@ -806,7 +803,10 @@
         "npc_quest_board",
         "npc_arcanum_scholar",
         "npc_arcanum_class_trainer",
-        "NPC_ARCANUM_EXCHANGE"
+        "NPC_ARCANUM_EXCHANGE",
+        "npc_arcanum_trainer_advance",
+        "npc_arcanum_trainer_expert",
+        "npc_arcanum_trainer_master"
       ]
     },
     {
@@ -847,18 +847,6 @@
       ],
       "monster_spawns": [
         {
-          "monster_id": 4002,
-          "spawn_weight": 3
-        },
-        {
-          "monster_id": 4019,
-          "spawn_weight": 15
-        },
-        {
-          "monster_id": 4020,
-          "spawn_weight": 15
-        },
-        {
           "monster_id": 5008,
           "spawn_weight": 28
         },
@@ -868,15 +856,18 @@
         },
         {
           "monster_id": 5024,
-          "spawn_weight": 10
+          "spawn_weight": 10,
+          "level_override": 5
         },
         {
           "monster_id": 5033,
-          "spawn_weight": 25
+          "spawn_weight": 25,
+          "level_override": 5
         },
         {
           "monster_id": 5044,
-          "spawn_weight": 5
+          "spawn_weight": 5,
+          "level_override": 5
         },
         {
           "monster_id": 50018,
@@ -976,7 +967,8 @@
         },
         {
           "monster_id": 50044,
-          "spawn_weight": 8
+          "spawn_weight": 8,
+          "level_override": 12
         },
         {
           "monster_id": 5102,
@@ -1141,7 +1133,8 @@
         },
         {
           "monster_id": 5206,
-          "spawn_weight": 8
+          "spawn_weight": 8,
+          "level_override": 40
         }
       ],
       "resource_nodes": [
@@ -1304,7 +1297,10 @@
         "npc_quest_board",
         "npc_hegemony_commander",
         "npc_hegemony_class_trainer",
-        "NPC_IRON_EXCHANGE"
+        "NPC_IRON_EXCHANGE",
+        "npc_iron_trainer_advance",
+        "npc_iron_trainer_expert",
+        "npc_iron_trainer_master"
       ]
     },
     {
@@ -1353,7 +1349,8 @@
         },
         {
           "monster_id": 5103,
-          "spawn_weight": 15
+          "spawn_weight": 15,
+          "level_override": 5
         },
         {
           "monster_id": 5010,
@@ -1365,7 +1362,8 @@
         },
         {
           "monster_id": 5034,
-          "spawn_weight": 15
+          "spawn_weight": 15,
+          "level_override": 5
         },
         {
           "monster_id": 50017,
@@ -1449,11 +1447,13 @@
         },
         {
           "monster_id": 5135,
-          "spawn_weight": 28
+          "spawn_weight": 28,
+          "level_override": 12
         },
         {
           "monster_id": 5136,
-          "spawn_weight": 5
+          "spawn_weight": 5,
+          "level_override": 12
         }
       ],
       "resource_nodes": [
@@ -1732,7 +1732,10 @@
         "npc_quest_board",
         "npc_cartel_boss",
         "npc_meridian_class_trainer",
-        "NPC_MERIDIAN_EXCHANGE"
+        "NPC_MERIDIAN_EXCHANGE",
+        "npc_meridian_trainer_advance",
+        "npc_meridian_trainer_expert",
+        "npc_meridian_trainer_master"
       ]
     },
     {
@@ -2127,7 +2130,10 @@
         "npc_quest_board",
         "npc_omnicorp_executive",
         "npc_omnicorp_class_trainer",
-        "NPC_OMNICORP_EXCHANGE"
+        "NPC_OMNICORP_EXCHANGE",
+        "npc_omnicorp_trainer_advance",
+        "npc_omnicorp_trainer_expert",
+        "npc_omnicorp_trainer_master"
       ]
     },
     {
@@ -2256,15 +2262,18 @@
       "monster_spawns": [
         {
           "monster_id": 5160,
-          "spawn_weight": 36
+          "spawn_weight": 36,
+          "level_override": 15
         },
         {
           "monster_id": 5161,
-          "spawn_weight": 8
+          "spawn_weight": 8,
+          "level_override": 15
         },
         {
           "monster_id": 5162,
-          "spawn_weight": 4
+          "spawn_weight": 4,
+          "level_override": 15
         }
       ],
       "resource_nodes": [
@@ -2548,7 +2557,10 @@
         "npc_quest_board",
         "npc_high_priest",
         "npc_shard_class_trainer",
-        "NPC_SHARD_EXCHANGE"
+        "NPC_SHARD_EXCHANGE",
+        "npc_shard_trainer_advance",
+        "npc_shard_trainer_expert",
+        "npc_shard_trainer_master"
       ]
     },
     {
@@ -2602,11 +2614,13 @@
         },
         {
           "monster_id": 5022,
-          "spawn_weight": 25
+          "spawn_weight": 25,
+          "level_override": 5
         },
         {
           "monster_id": 5046,
-          "spawn_weight": 10
+          "spawn_weight": 10,
+          "level_override": 5
         },
         {
           "monster_id": 50030,
@@ -2784,11 +2798,13 @@
         },
         {
           "monster_id": 5171,
-          "spawn_weight": 8
+          "spawn_weight": 8,
+          "level_override": 22
         },
         {
           "monster_id": 5172,
-          "spawn_weight": 4
+          "spawn_weight": 4,
+          "level_override": 22
         }
       ],
       "resource_nodes": [
@@ -2999,7 +3015,10 @@
         "npc_quest_board",
         "npc_legion_general",
         "npc_legion_class_trainer",
-        "NPC_LEGION_EXCHANGE"
+        "NPC_LEGION_EXCHANGE",
+        "npc_legion_trainer_advance",
+        "npc_legion_trainer_expert",
+        "npc_legion_trainer_master"
       ]
     },
     {
@@ -3046,11 +3065,13 @@
         },
         {
           "monster_id": 5025,
-          "spawn_weight": 11
+          "spawn_weight": 11,
+          "level_override": 5
         },
         {
           "monster_id": 5045,
-          "spawn_weight": 5
+          "spawn_weight": 5,
+          "level_override": 5
         },
         {
           "monster_id": 50019,
@@ -3141,7 +3162,8 @@
         },
         {
           "monster_id": 5131,
-          "spawn_weight": 12
+          "spawn_weight": 12,
+          "level_override": 15
         },
         {
           "monster_id": 5045,
@@ -3220,7 +3242,8 @@
         },
         {
           "monster_id": 5182,
-          "spawn_weight": 4
+          "spawn_weight": 4,
+          "level_override": 25
         }
       ],
       "resource_nodes": [
@@ -3520,7 +3543,8 @@
         },
         {
           "monster_id": 4017,
-          "spawn_weight": 4
+          "spawn_weight": 4,
+          "level_override": 55
         }
       ],
       "resource_nodes": [
@@ -3793,7 +3817,8 @@
         },
         {
           "monster_id": 4017,
-          "spawn_weight": 20
+          "spawn_weight": 20,
+          "level_override": 55
         }
       ],
       "resource_nodes": [],
@@ -4873,6 +4898,246 @@
       },
       "world_events": [],
       "lore": "The beating heart of interstellar commerce and diplomacy. The Aegis Monetary Authority operates the grand AMA Exchange Hub here, while Custodian Arbiters hear disputes from across the seven factions. No weapon may be drawn within Pax Nexus city limits — Sentinel Guards enforce this with lethal efficiency."
+    },
+    {
+      "id": "UNLISTED_WARD",
+      "name": "The Unlisted Ward",
+      "region": "CONCORDIUM_CORE",
+      "node_type": "mid",
+      "world_position": {
+        "x": 1.35,
+        "y": 0.25
+      },
+      "map_position": {
+        "region_x": 1,
+        "region_y": 0,
+        "local_x": 75,
+        "local_y": 75
+      },
+      "relative_layout": {
+        "west": "BROKEN_CIVIL_QUARTER"
+      },
+      "biome": {
+        "primary": "urban_ruins",
+        "secondary": "urban_decay",
+        "climate": "temperate"
+      },
+      "level_range": [
+        7,
+        10
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt",
+        "travel"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 6101,
+          "spawn_weight": 100
+        }
+      ],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": [
+        "npc_mystery_edda_fen",
+        "npc_mystery_unlisted_clue_1",
+        "npc_mystery_unlisted_clue_2"
+      ]
+    },
+    {
+      "id": "HOLLOW_MUSTER",
+      "name": "Hollow Muster Yard",
+      "region": "IRON_HEGEMONY",
+      "node_type": "high",
+      "world_position": {
+        "x": -1.65,
+        "y": 2.25
+      },
+      "map_position": {
+        "region_x": -2,
+        "region_y": 2,
+        "local_x": 75,
+        "local_y": 75
+      },
+      "relative_layout": {
+        "west": "WAR_MACHINE_GRAVEYARD"
+      },
+      "biome": {
+        "primary": "battlefield_junkyard",
+        "secondary": "war_machine_wreckage",
+        "climate": "arid"
+      },
+      "level_range": [
+        18,
+        22
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt",
+        "travel"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 6102,
+          "spawn_weight": 100
+        }
+      ],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": [
+        "npc_mystery_tovan_rell",
+        "npc_mystery_muster_clue_1",
+        "npc_mystery_muster_clue_2"
+      ]
+    },
+    {
+      "id": "ZERO_BERTH",
+      "name": "Zero Berth Customs Annex",
+      "region": "MERIDIAN_CARTEL",
+      "node_type": "high",
+      "world_position": {
+        "x": 1.35,
+        "y": 2.25
+      },
+      "map_position": {
+        "region_x": 1,
+        "region_y": 2,
+        "local_x": 75,
+        "local_y": 75
+      },
+      "relative_layout": {
+        "west": "BLACK_DOCK_MARKET"
+      },
+      "biome": {
+        "primary": "smuggler_harbor",
+        "secondary": "black_market",
+        "climate": "tropical"
+      },
+      "level_range": [
+        22,
+        25
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt",
+        "travel"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 6103,
+          "spawn_weight": 100
+        }
+      ],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": [
+        "npc_mystery_sella_quinn",
+        "npc_mystery_zero_clue_1",
+        "npc_mystery_zero_clue_2"
+      ]
+    },
+    {
+      "id": "QUIET_RESONATOR",
+      "name": "Quiet Resonator Gallery",
+      "region": "ARCANUM_SEEKERS",
+      "node_type": "high",
+      "world_position": {
+        "x": 3.35,
+        "y": 1.25
+      },
+      "map_position": {
+        "region_x": 3,
+        "region_y": 1,
+        "local_x": 75,
+        "local_y": 75
+      },
+      "relative_layout": {
+        "west": "SHARD_PULSE_PEAK"
+      },
+      "biome": {
+        "primary": "crystal_mountains",
+        "secondary": "shard_pulse",
+        "climate": "cold"
+      },
+      "level_range": [
+        32,
+        40
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt",
+        "travel"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 6104,
+          "spawn_weight": 100
+        }
+      ],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": [
+        "npc_mystery_iren_saye",
+        "npc_mystery_quiet_clue_1",
+        "npc_mystery_quiet_clue_2"
+      ]
+    },
+    {
+      "id": "SEALED_ARMISTICE_VAULT",
+      "name": "Sealed Armistice Vault",
+      "region": "SHATTERED_HEART",
+      "node_type": "endgame",
+      "world_position": {
+        "x": 0.35,
+        "y": 4.25
+      },
+      "map_position": {
+        "region_x": 0,
+        "region_y": 4,
+        "local_x": 75,
+        "local_y": 75
+      },
+      "relative_layout": {
+        "west": "SHATTERED_HEART"
+      },
+      "biome": {
+        "primary": "endgame_abyss",
+        "secondary": "shattered_core",
+        "climate": "void"
+      },
+      "level_range": [
+        65,
+        75
+      ],
+      "faction_owner": "NONE",
+      "is_safe_zone": false,
+      "is_pvp_enabled": false,
+      "available_actions": [
+        "hunt",
+        "travel"
+      ],
+      "monster_spawns": [
+        {
+          "monster_id": 6105,
+          "spawn_weight": 100
+        }
+      ],
+      "resource_nodes": [],
+      "world_events": [],
+      "npc_ids": [
+        "npc_mystery_maela_orr",
+        "npc_mystery_armistice_clue_1",
+        "npc_mystery_armistice_clue_2"
+      ]
     }
   ],
   "routes": [
@@ -7179,6 +7444,46 @@
       "min_level": 1,
       "travel_time": 60,
       "danger_level": 1
+    },
+    {
+      "from": "BROKEN_CIVIL_QUARTER",
+      "to": "UNLISTED_WARD",
+      "route_type": "secondary",
+      "min_level": 7,
+      "travel_time": 30,
+      "danger_level": 1
+    },
+    {
+      "from": "WAR_MACHINE_GRAVEYARD",
+      "to": "HOLLOW_MUSTER",
+      "route_type": "secondary",
+      "min_level": 18,
+      "travel_time": 30,
+      "danger_level": 1
+    },
+    {
+      "from": "BLACK_DOCK_MARKET",
+      "to": "ZERO_BERTH",
+      "route_type": "secondary",
+      "min_level": 22,
+      "travel_time": 30,
+      "danger_level": 1
+    },
+    {
+      "from": "SHARD_PULSE_PEAK",
+      "to": "QUIET_RESONATOR",
+      "route_type": "secondary",
+      "min_level": 32,
+      "travel_time": 30,
+      "danger_level": 1
+    },
+    {
+      "from": "SHATTERED_HEART",
+      "to": "SEALED_ARMISTICE_VAULT",
+      "route_type": "secondary",
+      "min_level": 65,
+      "travel_time": 30,
+      "danger_level": 1
     }
   ],
   "special_zones": [
@@ -7796,6 +8101,46 @@
         "x": 535,
         "y": 888,
         "icon": "endgame",
+        "faction": "NEUTRAL"
+      },
+      {
+        "id": "UNLISTED_WARD",
+        "label": "The Unlisted Ward",
+        "x": 407,
+        "y": 168,
+        "icon": "minor",
+        "faction": "NEUTRAL"
+      },
+      {
+        "id": "HOLLOW_MUSTER",
+        "label": "Hollow Muster Yard",
+        "x": 630,
+        "y": 497,
+        "icon": "minor",
+        "faction": "NEUTRAL"
+      },
+      {
+        "id": "ZERO_BERTH",
+        "label": "Zero Berth Customs Annex",
+        "x": 752,
+        "y": 630,
+        "icon": "minor",
+        "faction": "NEUTRAL"
+      },
+      {
+        "id": "QUIET_RESONATOR",
+        "label": "Quiet Resonator Gallery",
+        "x": 700,
+        "y": 397,
+        "icon": "minor",
+        "faction": "NEUTRAL"
+      },
+      {
+        "id": "SEALED_ARMISTICE_VAULT",
+        "label": "Sealed Armistice Vault",
+        "x": 492,
+        "y": 784,
+        "icon": "minor",
         "faction": "NEUTRAL"
       }
     ],
@@ -8484,6 +8829,31 @@
         "from": "PRIMA_MATERIA_FORGE_RUINS",
         "to": "ECHO_OF_THE_FIRST_KING",
         "type": "warp"
+      },
+      {
+        "from": "BROKEN_CIVIL_QUARTER",
+        "to": "UNLISTED_WARD",
+        "type": "trade"
+      },
+      {
+        "from": "WAR_MACHINE_GRAVEYARD",
+        "to": "HOLLOW_MUSTER",
+        "type": "trade"
+      },
+      {
+        "from": "BLACK_DOCK_MARKET",
+        "to": "ZERO_BERTH",
+        "type": "trade"
+      },
+      {
+        "from": "SHARD_PULSE_PEAK",
+        "to": "QUIET_RESONATOR",
+        "type": "trade"
+      },
+      {
+        "from": "SHATTERED_HEART",
+        "to": "SEALED_ARMISTICE_VAULT",
+        "type": "trade"
       }
     ]
   },
@@ -8536,6 +8906,41 @@
       "type": "trade",
       "bidirectional": true,
       "label": "Trade Route — Pax Nexus ↔ Fortress Kaelen"
+    },
+    {
+      "from": "BROKEN_CIVIL_QUARTER",
+      "to": "UNLISTED_WARD",
+      "type": "trade",
+      "bidirectional": true,
+      "label": "Field path to The Unlisted Ward"
+    },
+    {
+      "from": "WAR_MACHINE_GRAVEYARD",
+      "to": "HOLLOW_MUSTER",
+      "type": "trade",
+      "bidirectional": true,
+      "label": "Field path to Hollow Muster Yard"
+    },
+    {
+      "from": "BLACK_DOCK_MARKET",
+      "to": "ZERO_BERTH",
+      "type": "trade",
+      "bidirectional": true,
+      "label": "Field path to Zero Berth Customs Annex"
+    },
+    {
+      "from": "SHARD_PULSE_PEAK",
+      "to": "QUIET_RESONATOR",
+      "type": "trade",
+      "bidirectional": true,
+      "label": "Field path to Quiet Resonator Gallery"
+    },
+    {
+      "from": "SHATTERED_HEART",
+      "to": "SEALED_ARMISTICE_VAULT",
+      "type": "trade",
+      "bidirectional": true,
+      "label": "Field path to Sealed Armistice Vault"
     }
   ]
 }

@@ -1,0 +1,1132 @@
+{
+  "meta": {
+    "pack_id": "xylos_unwritten_witness",
+    "version": 1,
+    "authored_on": "2026-10-08",
+    "canon_status": "proposed_additive_lore",
+    "canon_sources": [
+      "03_lore_glossary.json",
+      "04_faction_voice_bible.md",
+      "world_map_v4.json"
+    ],
+    "release_status": "client_playable_pending_release",
+    "principle": "Prestige proves curiosity and judgment, not permanent combat superiority. All endings award the same prestige."
+  },
+  "arcs": [
+    {
+      "id": "unlisted",
+      "name": "The Unlisted Ward",
+      "parent_region": "BROKEN_CIVIL_QUARTER",
+      "region_id": "UNLISTED_WARD",
+      "region_name": "The Unlisted Ward",
+      "level_range": [
+        7,
+        10
+      ],
+      "npc_id": "npc_mystery_edda_fen",
+      "npc_name": "Edda Fen",
+      "npc_title": "Volunteer Census Keeper",
+      "personality": "patient_precise_protective",
+      "voice": "Names first. Numbers can wait.",
+      "motivation": "Edda needs an independent field witness because official corrections require evidence and she refuses to publish refugees' addresses.",
+      "faction_context": [
+        "CONCORDIUM"
+      ],
+      "era": "Present-day reconstruction after the Great Schism; not evidence of who caused the Great Severance.",
+      "site": "Two chairs face an empty doorway. Only the smaller chair has fresh repairs. Household numbers continue across a wall that modern surveys label vacant.",
+      "props": [
+        "Repaired Doorplate",
+        "Census Cabinet"
+      ],
+      "monster_id": 6101,
+      "monster_code": "WARD_INDEXER",
+      "monster_name": "Malfunctioning Ward Indexer",
+      "template_id": 5101,
+      "monster_lore": "A failing municipal automaton denies entry according to a damaged census index. Its shield and rust armor are ordinary surviving technology, not proof of ancient sentience.",
+      "clue_items": [
+        "Carbon Census Slip",
+        "Folded Relocation Notice"
+      ],
+      "icon": "materials/rusted_plate.png",
+      "quests": [
+        {
+          "slug": "two_chairs",
+          "title": "A Chair for Someone Missing",
+          "kind": "secret",
+          "level": 7,
+          "mode": "collect_first",
+          "premise": "A repaired chair stands outside a household listed as empty. Edda wants a name restored without revealing where the family now sleeps.",
+          "opening": "The chair isn't abandoned. Someone fixed its leg yesterday. My register says nobody lives here. Help me find which record is lying.",
+          "clues": [
+            "The small chair has fresh binding; the large one has weathered dust.",
+            "A torn census slip retains an occupancy mark but loses its address line.",
+            "The doorplate carries a household number, not a military unit number."
+          ],
+          "answer": "The household was relocated, not erased by death; occupancy and present address are separate records.",
+          "choices": [
+            [
+              "Restore the name, withhold the address",
+              "Aid workers need Edda as an intermediary",
+              "The public index gains a name without a location."
+            ],
+            [
+              "Share a sealed address with relief workers",
+              "The family must trust a restricted channel",
+              "A confidential aid entry accompanies the corrected name."
+            ],
+            [
+              "Let the family authorize the correction",
+              "Recognition waits for consent",
+              "Edda leaves an unsigned entry for its owner to approve."
+            ]
+          ],
+          "completion": "One blank line is a person again. That is enough for today.",
+          "reward": "Mended Doorplate",
+          "title_reward": "Finder of the Unlisted",
+          "reward_lore": "A repaired doorplate, returned with permission. An empty address is not an empty life."
+        },
+        {
+          "slug": "second_number",
+          "title": "The Number Beneath the Number",
+          "kind": "mystery",
+          "level": 7,
+          "mode": "interact",
+          "premise": "Two surveys disagree about the same doorway. The older mark describes a utility district, while the newer mark counts households.",
+          "opening": "I can make both columns agree by throwing one away. That would be neat. It would also be wrong.",
+          "clues": [
+            "The lower numeral is cut into stone; the upper numeral is painted.",
+            "The lower series skips occupied doors but follows conduit junctions.",
+            "The cabinet labels the two columns district and household."
+          ],
+          "answer": "The records use different counting units. Neither number alone proves a missing family.",
+          "choices": [
+            [
+              "Publish both systems with a legend",
+              "Readers must learn a harder index",
+              "Both numbering schemes remain visible."
+            ],
+            [
+              "Prioritize the household number",
+              "Maintenance crews need an extra lookup",
+              "Residents gain a readable primary label."
+            ],
+            [
+              "Prioritize the utility number",
+              "Civil claims need an attached note",
+              "Repair crews recover the older route."
+            ]
+          ],
+          "completion": "Two numbers. One door. Now the next clerk won't have to invent a disappearance.",
+          "reward": "Double-Stamped Census Seal",
+          "title_reward": "Reader Beneath the Paint",
+          "reward_lore": "Two legitimate marks preserved on one seal. Agreement is not the same as accuracy."
+        },
+        {
+          "slug": "obedient_lock",
+          "title": "An Obedient Lock",
+          "kind": "mystery",
+          "level": 8,
+          "mode": "combat",
+          "premise": "The Ward Indexer repeatedly bars a relief passage because its stale register has no authorized households.",
+          "opening": "It follows the register exactly. That's the problem. Stop it without calling the people behind that door intruders.",
+          "clues": [
+            "The automaton's authorization plate names a municipal service.",
+            "Its rejection stamp predates the relocation notice.",
+            "Its patrol follows the same blocked doorway, never the occupied side lanes."
+          ],
+          "answer": "A stale authorization list, not a new Concordium order, causes the obstruction.",
+          "choices": [
+            [
+              "Submit the fault to municipal repair",
+              "Formal repair takes time",
+              "The obstruction is recorded as a service failure."
+            ],
+            [
+              "Mark a community-managed passage",
+              "Residents bear responsibility for access",
+              "A local maintenance notice replaces the rejection stamp."
+            ],
+            [
+              "Keep the old index as evidence",
+              "Storage and custody cost effort",
+              "Edda retains a copy before a technician repairs it."
+            ]
+          ],
+          "completion": "The machine can be replaced. The excuse that nobody was there cannot.",
+          "reward": "Retired Authorization Key",
+          "title_reward": "Breaker of Empty Orders",
+          "reward_lore": "A retired municipal key, preserved as evidence of a failed register rather than a trophy taken from a resident."
+        },
+        {
+          "slug": "folded_route",
+          "title": "The Route Kept Inside",
+          "kind": "secret",
+          "level": 9,
+          "mode": "collect_second",
+          "premise": "A relocation notice hides a relief route inside its fold. Publishing it would help aid crews and expose people who chose anonymity.",
+          "opening": "The fold kept this dry. It also kept it private. Don't mistake finding a route for owning the people at its end.",
+          "clues": [
+            "The exterior bears a public household mark.",
+            "The interior names a relief transfer, not a military movement.",
+            "The notice says restricted delivery, with no claim of faction disloyalty."
+          ],
+          "answer": "The hidden line protects recipients; it is not proof of a clandestine faction transfer.",
+          "choices": [
+            [
+              "Copy destinations only to relief staff",
+              "Aid depends on a trusted custodian",
+              "A restricted relief list is prepared."
+            ],
+            [
+              "Publish quantities without destinations",
+              "Delivery requires another channel",
+              "A public needs report excludes identifying details."
+            ],
+            [
+              "Return the notice to its household",
+              "Verification stays local",
+              "The record owner decides what may circulate."
+            ]
+          ],
+          "completion": "You brought back the paper. More importantly, you didn't bring back a list of targets.",
+          "reward": "Foldkeeper's Ribbon",
+          "title_reward": "Keeper of Private Roads",
+          "reward_lore": "A ribbon used to refold a notice. Information can remain useful without becoming public."
+        },
+        {
+          "slug": "right_to_remain",
+          "title": "The Right to Remain Unlisted",
+          "kind": "mystery",
+          "level": 10,
+          "mode": "final",
+          "premise": "The ward can be recognized without every resident being named. Edda asks how to preserve that distinction for the next census.",
+          "opening": "I wanted to fill every blank. Now I know some blanks are chosen. Help me write a register that can tell the difference.",
+          "clues": [
+            "The doorplate proves occupation, not identity.",
+            "The two numbering systems serve different public needs.",
+            "The folded route shows that privacy and assistance can coexist."
+          ],
+          "answer": "A register needs a consent category; anonymity must not be treated as abandonment.",
+          "choices": [
+            [
+              "Create an anonymous occupied category",
+              "Named claims still require witnesses",
+              "The ward is recorded without listing every person."
+            ],
+            [
+              "Keep a sealed identity supplement",
+              "Trust rests with its custodians",
+              "Public and restricted records are separated."
+            ],
+            [
+              "Require renewed household consent",
+              "Records become slower to update",
+              "Residents retain a recurring say in their entry."
+            ]
+          ],
+          "completion": "The ward has a place on the map. Its people still have a choice about the register.",
+          "reward": "Ring of the Unlisted Ward",
+          "title_reward": "Witness Without Ownership",
+          "reward_lore": "A ring engraved with a doorway and no name. Recognition without possession.",
+          "accessory_stats": {
+            "hp": 20,
+            "per": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "muster",
+      "name": "The Hollow Muster",
+      "parent_region": "WAR_MACHINE_GRAVEYARD",
+      "region_id": "HOLLOW_MUSTER",
+      "region_name": "Hollow Muster Yard",
+      "level_range": [
+        18,
+        22
+      ],
+      "npc_id": "npc_mystery_tovan_rell",
+      "npc_name": "Tovan Rell",
+      "npc_title": "Civilian Bellwright",
+      "personality": "terse_tactile_dutiful",
+      "voice": "Hear the gap. Metal tells on itself.",
+      "motivation": "Tovan repairs signal bells for civilians who worked beside Iron and Legion crews. He needs an outsider to compare records neither employer will share with him.",
+      "faction_context": [
+        "IRON_HEGEMONY",
+        "STARFORGED_LEGION"
+      ],
+      "era": "A recent evacuation; does not rewrite either faction's founding or the Great Schism.",
+      "site": "A muster bell hangs over boots facing away from the parade line. A second rope leads into a workshop, not a command tower.",
+      "props": [
+        "Split Muster Bell",
+        "Workshop Roll"
+      ],
+      "monster_id": 6102,
+      "monster_code": "HOLLOW_MUSTER_WRECKER",
+      "monster_name": "Hollow Muster Wrecker",
+      "template_id": 5140,
+      "monster_lore": "A derelict construct scavenges the same signal cable each time workers repair it. Its repeated damage explains the missing bell beat without implicating a faction commander.",
+      "clue_items": [
+        "Scorched Bell Tally",
+        "Workshop Evacuation Roll"
+      ],
+      "icon": "materials/rusted_plate.png",
+      "quests": [
+        {
+          "slug": "fourth_beat",
+          "title": "The Missing Fourth Beat",
+          "kind": "secret",
+          "level": 18,
+          "mode": "collect_first",
+          "premise": "A four-beat muster signal sounds only three times. A scorch mark could indicate sabotage or an ordinary failure.",
+          "opening": "Three beats call a shift. Four clear the yard. Listen before you accuse someone of desertion.",
+          "clues": [
+            "The tally labels the fourth beat evacuate.",
+            "A missing cable reaches the workshop, not the barracks.",
+            "Boots point toward an exit rather than the parade ground."
+          ],
+          "answer": "The interrupted signal is an evacuation instruction, not an incomplete pledge.",
+          "choices": [
+            [
+              "Restore the evacuation signal first",
+              "Production waits while crews test it",
+              "Workers hear a full warning sequence."
+            ],
+            [
+              "Post a visual warning alongside repairs",
+              "Someone must maintain the signs",
+              "A second warning channel is established."
+            ],
+            [
+              "Use a staffed manual bell",
+              "A worker must remain on watch",
+              "The warning no longer depends on one cable."
+            ]
+          ],
+          "completion": "Four beats. No speech. That will do.",
+          "reward": "Fourth-Beat Clapper",
+          "title_reward": "Hearer of the Missing Beat",
+          "reward_lore": "A discarded bell clapper. Its worth lies in the warning people finally heard."
+        },
+        {
+          "slug": "boots_outward",
+          "title": "Boots Facing Outward",
+          "kind": "mystery",
+          "level": 18,
+          "mode": "interact",
+          "premise": "A roll marks a crew absent, but their boots and tool tags suggest an organized civilian evacuation.",
+          "opening": "An empty parade line doesn't tell you where they went. Look at the wear on the soles.",
+          "clues": [
+            "Boot soles carry workshop grit, not barracks polish.",
+            "Tool tags follow a work roster, not a military rank.",
+            "The roll records departure after the evacuation beat."
+          ],
+          "answer": "Civilian crews left under a safety instruction; absence from muster is not evidence of military desertion.",
+          "choices": [
+            [
+              "Correct the work roster publicly",
+              "Employers must acknowledge the mistake",
+              "Civilian absences become documented evacuations."
+            ],
+            [
+              "Attach witness statements privately",
+              "Public suspicion may persist longer",
+              "Workers gain a restricted proof of departure."
+            ],
+            [
+              "Let the crew speak collectively",
+              "The crew must spend time organizing",
+              "The roll carries their own account."
+            ]
+          ],
+          "completion": "Boots don't swear oaths. People do. Keep the columns separate.",
+          "reward": "Outward Step Tag",
+          "title_reward": "Reader of the Empty Line",
+          "reward_lore": "A civilian tool tag whose owner left through the proper safety exit."
+        },
+        {
+          "slug": "cable_thief",
+          "title": "What Keeps Taking the Cable",
+          "kind": "mystery",
+          "level": 19,
+          "mode": "combat",
+          "premise": "Every repaired bell cable disappears. Tovan needs the malfunctioning wrecker stopped before anyone can rely on the signal.",
+          "opening": "Same length missing. Same bite in the copper. Someone calls it sabotage; I call it a repair that hasn't found its cause.",
+          "clues": [
+            "Cable ends show mechanical shearing, not a clean hand cut.",
+            "The wrecker's cargo cradle contains matching wire.",
+            "Its salvage route loops through the bell support."
+          ],
+          "answer": "A derelict salvage routine repeatedly removes the cable; this evidence cannot identify a human saboteur.",
+          "choices": [
+            [
+              "Document the mechanical cause",
+              "A politically useful accusation loses force",
+              "Tovan files a repair failure, not a faction charge."
+            ],
+            [
+              "Invite both crews to inspect it",
+              "Inspection delays reopening",
+              "Rival crews share a witnessed fault report."
+            ],
+            [
+              "Retain the damaged cable as proof",
+              "The workshop must store it",
+              "The physical evidence survives the repair."
+            ]
+          ],
+          "completion": "It can break once. It doesn't get to break the same warning forever.",
+          "reward": "Salvage-Locked Ferrule",
+          "title_reward": "Ender of Repeated Failure",
+          "reward_lore": "A sheared cable ferrule kept to teach future repair crews what the failure looked like."
+        },
+        {
+          "slug": "shared_shift",
+          "title": "The Shift Neither Banner Claimed",
+          "kind": "secret",
+          "level": 20,
+          "mode": "collect_second",
+          "premise": "The evacuation roll includes workers supplied by two rival institutions. A single-banner memorial would erase half the crew.",
+          "opening": "They held the same rope. Their employers can argue about the brass plaque after I finish the names.",
+          "clues": [
+            "The roll interleaves two supply stamps.",
+            "All entries share one shift and one exit record.",
+            "A margin note identifies the common bell crew, not a new faction."
+          ],
+          "answer": "This was a practical shared work shift, not evidence that Iron and Legion secretly merged.",
+          "choices": [
+            [
+              "List names without institutional marks",
+              "The sponsors lose visible credit",
+              "The memorial centers the workers."
+            ],
+            [
+              "Keep both supply stamps",
+              "Visitors may read politics into the plaque",
+              "Both contributions remain documented."
+            ],
+            [
+              "Place separate plaques beside one bell",
+              "The shared work is less immediately obvious",
+              "Each institution keeps its record at a common site."
+            ]
+          ],
+          "completion": "One rope. Enough hands. Don't make the metal say more than that.",
+          "reward": "Two-Stamp Work Token",
+          "title_reward": "Keeper of the Shared Shift",
+          "reward_lore": "A work token stamped by two suppliers. Cooperation on one shift does not erase their disagreement."
+        },
+        {
+          "slug": "warning_not_oath",
+          "title": "A Warning Is Not an Oath",
+          "kind": "mystery",
+          "level": 22,
+          "mode": "final",
+          "premise": "The repaired bell can become a ceremonial monument or a working civilian warning. Tovan cannot maintain both roles without help.",
+          "opening": "A monument rings when someone important visits. A warning rings when someone ordinary is in danger. Which job are we paying for?",
+          "clues": [
+            "The fourth beat has a specific safety meaning.",
+            "The absent crew obeyed it.",
+            "The wrecker fault explains why the warning failed."
+          ],
+          "answer": "Preserving memory requires an accountable maintenance plan, not merely a new ceremonial label.",
+          "choices": [
+            [
+              "Keep it a working warning bell",
+              "A crew must fund regular checks",
+              "The yard retains its evacuation signal."
+            ],
+            [
+              "Move the original into a memorial",
+              "A replacement must carry the warning",
+              "The original becomes evidence beside a working copy."
+            ],
+            [
+              "Give maintenance to a joint work council",
+              "Rival crews must keep cooperating",
+              "The bell gains shared civilian custodians."
+            ]
+          ],
+          "completion": "If it rings and people get home, remember whoever kept it working.",
+          "reward": "Bellwright's Wrist Loop",
+          "title_reward": "Keeper of the Fourth Beat",
+          "reward_lore": "A loop braided from retired bell rope. It honors maintenance, not a borrowed military oath.",
+          "accessory_stats": {
+            "hp": 40,
+            "def": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "zero",
+      "name": "The Zero Berth",
+      "parent_region": "BLACK_DOCK_MARKET",
+      "region_id": "ZERO_BERTH",
+      "region_name": "Zero Berth Customs Annex",
+      "level_range": [
+        22,
+        25
+      ],
+      "npc_id": "npc_mystery_sella_quinn",
+      "npc_name": "Sella Quinn",
+      "npc_title": "Independent Cargo Adjuster",
+      "personality": "wry_contractual_attentive",
+      "voice": "Read the unit before you buy the number.",
+      "motivation": "Sella needs a field examiner outside her former OmniCorp employer and Meridian creditors to distinguish damaged cargo from a manipulated claim.",
+      "faction_context": [
+        "MERIDIAN_CARTEL",
+        "OMNICORP"
+      ],
+      "era": "A present-day dispute over storage fees; no claim about the founding of either faction.",
+      "site": "A berth marked zero contains a crate with an inward-facing shipping stencil. A polished scale shows the same value even with no cargo.",
+      "props": [
+        "Zero Berth Scale",
+        "Reversed Shipping Stencil"
+      ],
+      "monster_id": 6103,
+      "monster_code": "ZERO_BERTH_EXTORTIONIST",
+      "monster_name": "Zero Berth Extortionist",
+      "template_id": 5152,
+      "monster_lore": "A local fee collector uses disputed storage claims to bar inspection. Their crimes are individual acts, not proof that every Meridian trader or OmniCorp employee colludes.",
+      "clue_items": [
+        "Blank-Cargo Manifest",
+        "Nested Storage Invoice"
+      ],
+      "icon": "materials/rusted_plate.png",
+      "quests": [
+        {
+          "slug": "weight_nothing",
+          "title": "The Weight of Nothing",
+          "kind": "secret",
+          "level": 22,
+          "mode": "collect_first",
+          "premise": "A manifest prices an apparently empty crate. Sella suspects the buyer purchased storage space, not goods.",
+          "opening": "Empty doesn't mean free. It also doesn't mean fraud. Show me what the contract actually sold.",
+          "clues": [
+            "The cargo column is blank, not marked lost.",
+            "The billed unit is berth-day, not mass.",
+            "The empty scale retains its tare reading."
+          ],
+          "answer": "The base contract sells reserved storage time. An empty crate alone does not prove stolen cargo.",
+          "choices": [
+            [
+              "Disclose the storage unit prominently",
+              "The broker loses an easy sales shorthand",
+              "Future buyers see what is being sold."
+            ],
+            [
+              "Offer a partial refund for ambiguity",
+              "The seller bears a negotiation cost",
+              "The buyer receives compensation without a fraud finding."
+            ],
+            [
+              "Keep the contract and add an explanation",
+              "The buyer still pays its stated fee",
+              "The annex records a clarified but unchanged agreement."
+            ]
+          ],
+          "completion": "Now we can argue about a real price instead of an imaginary shipment.",
+          "reward": "Zero Berth Brass Weight",
+          "title_reward": "Appraiser of Nothing",
+          "reward_lore": "A tare weight marked zero cargo. It distinguishes a valid storage fee from an invented shipment."
+        },
+        {
+          "slug": "inside_label",
+          "title": "The Label Facing Inward",
+          "kind": "mystery",
+          "level": 22,
+          "mode": "interact",
+          "premise": "An inward stencil makes a returnable container look like a new delivery. Its direction matters more than its serial number.",
+          "opening": "Serial's genuine. Story's facing the wrong way. Turn your attention, not the number.",
+          "clues": [
+            "The stencil faces the crate interior.",
+            "The scale log marks outbound packaging as returnable.",
+            "The repeated serial refers to the container, not two cargo loads."
+          ],
+          "answer": "The crate is a returned container. A repeated container serial is not proof of duplicated cargo.",
+          "choices": [
+            [
+              "Correct the delivery count",
+              "The carrier's volume claim shrinks",
+              "The record separates container returns from goods."
+            ],
+            [
+              "Flag the stencil for physical inspection",
+              "A shipment waits at the berth",
+              "An inspector confirms direction before settlement."
+            ],
+            [
+              "Publish a return-label standard",
+              "Dock crews must relabel stock",
+              "A clearer standard prevents the same dispute."
+            ]
+          ],
+          "completion": "A number can be honest while the headline above it isn't.",
+          "reward": "Inward-Facing Shipping Seal",
+          "title_reward": "Reader of Reversed Claims",
+          "reward_lore": "A shipping seal from a returned container; its orientation explains its record."
+        },
+        {
+          "slug": "fee_at_door",
+          "title": "The Fee at the Evidence Door",
+          "kind": "mystery",
+          "level": 23,
+          "mode": "combat",
+          "premise": "An extortionist blocks examination of the disputed invoices. Sella needs access, not a verdict about the whole port.",
+          "opening": "They charge to let me inspect the fee they charge. Stop that little circle. Leave the innocent crews out of it.",
+          "clues": [
+            "The demanded fee is absent from the signed contract.",
+            "The collector bars only the inspection door.",
+            "The invoice identifies a private collector, not a faction decree."
+          ],
+          "answer": "The obstruction is an unauthorized inspection fee; the original storage contract remains a separate question.",
+          "choices": [
+            [
+              "File the unauthorized fee with witnesses",
+              "Witnesses must risk being identified",
+              "The collector's obstruction becomes a documented claim."
+            ],
+            [
+              "Protect the witnesses' identities",
+              "The case needs a trusted intermediary",
+              "Sella submits a restricted statement."
+            ],
+            [
+              "Send the physical invoices to neutral custody",
+              "Settlement is delayed by transport",
+              "A neutral examiner receives the originals."
+            ]
+          ],
+          "completion": "Access restored. Verdict still open. I like it when those are separate sentences.",
+          "reward": "Broken Fee Counterseal",
+          "title_reward": "Breaker of Circular Debt",
+          "reward_lore": "A fee seal invalidated for unauthorized use. A collector's misconduct is not a judgment on an entire port."
+        },
+        {
+          "slug": "rent_inside_rent",
+          "title": "Rent Inside Rent",
+          "kind": "secret",
+          "level": 24,
+          "mode": "collect_second",
+          "premise": "A valid storage contract has been billed twice by nesting an already paid container-day charge inside berth rent.",
+          "opening": "We found a real service. Now we've found it twice on the same day's bill. One honest line doesn't excuse the second.",
+          "clues": [
+            "Both invoices cover the same interval.",
+            "The nested line references the already settled container charge.",
+            "No additional berth or handling event appears in the log."
+          ],
+          "answer": "The duplicate interval, not the empty crate, proves the double charge.",
+          "choices": [
+            [
+              "Refund the duplicate charge",
+              "The creditor loses claimed revenue",
+              "The corrected account preserves the original service fee."
+            ],
+            [
+              "Credit the buyer's next storage booking",
+              "Relief depends on using the port again",
+              "The account carries a compensating credit."
+            ],
+            [
+              "Place the duplicate sum in neutral escrow",
+              "Both sides wait for review",
+              "Neither party can spend the disputed amount yet."
+            ]
+          ],
+          "completion": "Nothing was missing from the crate. Something was added to the bill.",
+          "reward": "Nested Invoice Divider",
+          "title_reward": "Unfolder of Double Ledgers",
+          "reward_lore": "A ledger divider used to separate one service from two charges."
+        },
+        {
+          "slug": "port_without_lie",
+          "title": "A Port Without This Lie",
+          "kind": "mystery",
+          "level": 25,
+          "mode": "final",
+          "premise": "A corrected claim can become a public precedent, a private settlement, or a monitored trial. Each protects different people.",
+          "opening": "A scandal sells faster than a standard. Tell me which one will still help the next dockhand.",
+          "clues": [
+            "The storage unit is valid.",
+            "The reversed label explains the crate's journey.",
+            "The overlapping invoice interval proves the specific error."
+          ],
+          "answer": "A narrow, evidenced finding protects legitimate trade while correcting this duplicate charge.",
+          "choices": [
+            [
+              "Publish an anonymized precedent",
+              "The buyer's personal story stays absent",
+              "The berth displays a general billing correction."
+            ],
+            [
+              "Negotiate a private settlement",
+              "Future buyers lack a public precedent",
+              "The parties settle without revealing their identities."
+            ],
+            [
+              "Run a jointly monitored billing trial",
+              "Workers must keep an extra record",
+              "Meridian and OmniCorp participants compare a limited test."
+            ]
+          ],
+          "completion": "No secret empire behind this crate. Just a small lie large enough to ruin a worker. Small was worth your time.",
+          "reward": "Zero Berth Signet",
+          "title_reward": "Auditor of the Unseen Margin",
+          "reward_lore": "A signet bearing an empty crate. Earned by correcting a claim without condemning everyone who trades.",
+          "accessory_stats": {
+            "mp": 25,
+            "per": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "quiet",
+      "name": "The Quiet Resonator",
+      "parent_region": "SHARD_PULSE_PEAK",
+      "region_id": "QUIET_RESONATOR",
+      "region_name": "Quiet Resonator Gallery",
+      "level_range": [
+        32,
+        40
+      ],
+      "npc_id": "npc_mystery_iren_saye",
+      "npc_name": "Iren Saye",
+      "npc_title": "Independent Acoustic Conservator",
+      "personality": "gentle_empirical_self_questioning",
+      "voice": "We heard it. We haven't explained it.",
+      "motivation": "Iren wants a witness willing to compare Arcanum measurements with Children of the Shard oral accounts without appropriating either or declaring the Shard conscious.",
+      "faction_context": [
+        "THE_ARCANUM_SEEKERS",
+        "CHILDREN_OF_THE_SHARD"
+      ],
+      "era": "Present-day study of surviving infrastructure. A repeated sound cannot establish Shard sentience or reverse the Great Severance.",
+      "site": "Three resonant ribs surround a fourth rib wrapped in old cloth. A listening bench faces away from the visible crystals toward a drainage channel.",
+      "props": [
+        "Wrapped Resonator Rib",
+        "Drainage Listening Bench"
+      ],
+      "monster_id": 6104,
+      "monster_code": "QUIET_GALLERY_RIFT_BEAST",
+      "monster_name": "Quiet Gallery Rift Beast",
+      "template_id": 5203,
+      "monster_lore": "A displaced rift beast nests in the gallery's maintenance channel. Its presence disrupts a physical test; it is not a messenger or personification of the Shard.",
+      "clue_items": [
+        "Cloth-Bound Resonance Trace",
+        "Drainage Interval Record"
+      ],
+      "icon": "materials/rusted_plate.png",
+      "quests": [
+        {
+          "slug": "cloth_on_crystal",
+          "title": "Cloth on a Singing Rib",
+          "kind": "secret",
+          "level": 32,
+          "mode": "collect_first",
+          "premise": "A cloth-wrapped rib sounds different from its neighbors. Iren asks whether deliberate damping was care, damage, or concealment.",
+          "opening": "Someone softened this note. Before we call it vandalism or a miracle, let's hear what they changed.",
+          "clues": [
+            "Cloth touches the fourth rib at a vibration point.",
+            "The trace records lower amplitude, not a new word.",
+            "The cloth's wear suggests repeated maintenance."
+          ],
+          "answer": "The wrapping dampens vibration. The observation alone cannot explain the caretaker's belief or intent.",
+          "choices": [
+            [
+              "Keep the damping while measuring",
+              "The unwrapped tone remains untested",
+              "The caretaker's intervention stays intact."
+            ],
+            [
+              "Remove it briefly with consent",
+              "The louder tone may disturb visitors",
+              "A limited comparison is recorded."
+            ],
+            [
+              "Make a nonintrusive external trace",
+              "The result has more uncertainty",
+              "The study avoids changing the rib."
+            ]
+          ],
+          "completion": "A quieter note is a finding. Its meaning can remain a question.",
+          "reward": "Quiet-Rib Tuning Fork",
+          "title_reward": "Listener Before Believer",
+          "reward_lore": "A fork tuned to a damped rib. Its tone is an observation, not a divine translation."
+        },
+        {
+          "slug": "bench_wrong_way",
+          "title": "The Bench Facing the Wrong Way",
+          "kind": "mystery",
+          "level": 33,
+          "mode": "interact",
+          "premise": "A listening bench faces a drain instead of the crystals. Its placement suggests the apparent reply has a second path.",
+          "opening": "The view is terrible. The listening position is excellent. Whoever sat here knew the difference.",
+          "clues": [
+            "The bench faces the drainage channel.",
+            "A delayed note is loudest near its opening.",
+            "The rib-facing seat receives the first note but not the delay clearly."
+          ],
+          "answer": "The channel carries a delayed reflection; hearing a reply does not establish another speaker.",
+          "choices": [
+            [
+              "Mark the reflection path publicly",
+              "A cherished interpretation may be challenged",
+              "Visitors can compare both listening positions."
+            ],
+            [
+              "Discuss it with the oral custodians first",
+              "Public correction waits",
+              "The explanation begins with the people who preserve the account."
+            ],
+            [
+              "Publish the measurement without a verdict",
+              "Readers may still overinterpret it",
+              "The record separates timing from claims about a voice."
+            ]
+          ],
+          "completion": "The second sound is real. A second speaker is still unproven.",
+          "reward": "Backward Listener's Token",
+          "title_reward": "Reader of the Second Sound",
+          "reward_lore": "A token showing a bench turned away from spectacle and toward the sound's actual path."
+        },
+        {
+          "slug": "test_without_beast",
+          "title": "One Test Without a Witnessed Monster",
+          "kind": "mystery",
+          "level": 34,
+          "mode": "combat",
+          "premise": "A rift beast blocks the listening channel. Iren needs a safe test environment, not a ritual victory.",
+          "opening": "It's defending a nest. That doesn't make it a prophet. Clear the unsafe channel; don't write a revelation into the claws.",
+          "clues": [
+            "Claw marks reach nesting debris in the channel.",
+            "The interference follows movement, not the rib's note.",
+            "The undisturbed trace still shows a reflection delay."
+          ],
+          "answer": "The beast causes intermittent interference; the measured reflection has a separate physical path.",
+          "choices": [
+            [
+              "Limit future tests to a marked safe interval",
+              "The study collects fewer samples",
+              "The gallery receives a bounded test schedule."
+            ],
+            [
+              "Move observers to the outer bench",
+              "Measurements become less precise",
+              "The risky channel no longer hosts visitors."
+            ],
+            [
+              "Suspend invasive testing",
+              "The cause remains less fully characterized",
+              "Iren keeps the known result without expanding the disturbance."
+            ]
+          ],
+          "completion": "Safe enough to listen. Not licensed to disturb everything that lives here.",
+          "reward": "Gallery Boundary Knot",
+          "title_reward": "Keeper of a Measured Boundary",
+          "reward_lore": "A boundary cord from a limited field test. A useful result need not justify unlimited intrusion."
+        },
+        {
+          "slug": "same_pause",
+          "title": "The Same Pause Twice",
+          "kind": "secret",
+          "level": 36,
+          "mode": "collect_second",
+          "premise": "Two supposed prophetic replies share the same drainage interval. Iren can explain the repetition without adjudicating anyone's faith.",
+          "opening": "Two answers, one delay. The instrument measures the delay. It doesn't get to measure someone's faith.",
+          "clues": [
+            "Both records use the same listening position.",
+            "Their delay matches the channel interval.",
+            "The claimed messages vary, while the recorded waveform repeats."
+          ],
+          "answer": "The measured repetition fits channel acoustics. This test cannot establish or disprove broader beliefs about Aethel.",
+          "choices": [
+            [
+              "Publish a narrow acoustic finding",
+              "Dramatic claims remain outside its scope",
+              "The record corrects only what was measured."
+            ],
+            [
+              "Co-author the explanation with custodians",
+              "Agreement takes time",
+              "Observation and oral interpretation are attributed separately."
+            ],
+            [
+              "Archive raw traces for later review",
+              "The public gets no quick conclusion",
+              "Others can inspect the evidence without inheriting a verdict."
+            ]
+          ],
+          "completion": "We can be precise without pretending to be final.",
+          "reward": "Twin-Interval Crystal",
+          "title_reward": "Keeper of Honest Uncertainty",
+          "reward_lore": "A crystal carrying two measured intervals. Similarity is evidence; intention is not established."
+        },
+        {
+          "slug": "silence_kept",
+          "title": "The Silence Worth Keeping",
+          "kind": "mystery",
+          "level": 40,
+          "mode": "final",
+          "premise": "The gallery can become a public experiment, a conserved listening place, or a jointly stewarded archive. Iren asks who may decide its next use.",
+          "opening": "I came for a complete explanation. I can leave with a careful one. Who should hold the next permission slip?",
+          "clues": [
+            "The cloth is a physical intervention.",
+            "The bench reveals a reflection path.",
+            "The repeated interval supports a limited finding, not an account of Shard intention."
+          ],
+          "answer": "Stewardship can preserve both evidence and local consent without declaring one institution owner of the gallery's meaning.",
+          "choices": [
+            [
+              "Conserve it as a listening place",
+              "New experiments become exceptional",
+              "The bench and wrapping remain undisturbed."
+            ],
+            [
+              "Permit supervised public comparisons",
+              "Custodians must manage visitor pressure",
+              "Visitors may hear the measured effect for themselves."
+            ],
+            [
+              "Create a jointly governed evidence archive",
+              "Neither group has unilateral authority",
+              "The traces remain available under shared permission."
+            ]
+          ],
+          "completion": "It is still beautiful. Knowing one reason why doesn't take that away.",
+          "reward": "Quiet Gallery Pendant",
+          "title_reward": "Warden of the Unanswered",
+          "reward_lore": "A pendant engraved with a measured pause. It honors the limits of a finding, not mastery of the Shard.",
+          "accessory_stats": {
+            "mp": 40,
+            "per": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "armistice",
+      "name": "The Unwritten Witness",
+      "parent_region": "SHATTERED_HEART",
+      "region_id": "SEALED_ARMISTICE_VAULT",
+      "region_name": "Sealed Armistice Vault",
+      "level_range": [
+        65,
+        75
+      ],
+      "npc_id": "npc_mystery_maela_orr",
+      "npc_name": "Maela Orr",
+      "npc_title": "Independent Archive Custodian",
+      "personality": "measured_procedural_humane",
+      "voice": "A finding has a boundary. Write it down.",
+      "motivation": "Maela holds a limited mandate to compare a recent neutral relief archive with scattered field copies. She needs a witness outside its Custodian and AMA sponsors because both have an interest in appearing blameless.",
+      "faction_context": [
+        "GALACTIC_CUSTODIANS",
+        "AMA"
+      ],
+      "era": "A recent relief ceasefire archive housed in a surviving chamber. The archive is modern; the chamber is old. Neither proves a new cause of the Great Severance.",
+      "site": "New lock bolts hold an old stone cabinet shut. A scorched relief ledger sits beside an undamaged metal duplicate, both bearing the same modern custody mark.",
+      "props": [
+        "Scorched Relief Ledger",
+        "Duplicate Custody Plate"
+      ],
+      "monster_id": 6105,
+      "monster_code": "VAULT_EMBER_DRAKONID",
+      "monster_name": "Vault Ember Drakonid",
+      "template_id": 50056,
+      "monster_lore": "A drakonid displaced from the surrounding Shattered Heart has scorched a modern archive chamber. Its nesting explains local heat damage, not the Great Severance or a Custodian conspiracy.",
+      "clue_items": [
+        "Scorched Relief Ledger Leaf",
+        "Modern Custody Duplicate"
+      ],
+      "icon": "materials/rusted_plate.png",
+      "quests": [
+        {
+          "slug": "modern_lock",
+          "title": "A Modern Lock on Ancient Stone",
+          "kind": "secret",
+          "level": 65,
+          "mode": "collect_first",
+          "premise": "A modern custody lock conceals a relief archive inside an ancient chamber. Maela needs the two histories separated before rumors combine them.",
+          "opening": "The chamber is old. The lock is not. Please don't turn a relief office into the missing chapter of the Severance.",
+          "clues": [
+            "The lock uses a current custody mark.",
+            "The ledger names a recent relief interval.",
+            "Ancient stone wear continues beneath fresh bolt heads."
+          ],
+          "answer": "A modern relief archive reuses an ancient chamber; its contents cannot date the chamber's original purpose.",
+          "choices": [
+            [
+              "Label both histories separately",
+              "Visitors get a less dramatic account",
+              "The cabinet gains distinct structure and archive labels."
+            ],
+            [
+              "Prioritize the relief archive's custody",
+              "The chamber's past remains unexplored",
+              "Immediate care protects the modern records."
+            ],
+            [
+              "Request separate archaeological review",
+              "Review delays a complete site account",
+              "A second inquiry examines the stone without conflating it with the ledger."
+            ]
+          ],
+          "completion": "Two histories can share a wall without becoming the same history.",
+          "reward": "Modern-on-Ancient Custody Seal",
+          "title_reward": "Divider of Borrowed Histories",
+          "reward_lore": "A modern seal from an old chamber. Its custody date is not the chamber's age."
+        },
+        {
+          "slug": "burn_without_verdict",
+          "title": "A Burn Without a Verdict",
+          "kind": "mystery",
+          "level": 66,
+          "mode": "interact",
+          "premise": "Heat damage resembles deliberate destruction, but its pattern could come from a displaced beast nesting beside the cabinet.",
+          "opening": "A damaged ledger is evidence of damage. Motive needs another page.",
+          "clues": [
+            "Scorching is strongest beside the nesting recess.",
+            "The duplicate plate survives across the chamber.",
+            "The custody mark is unchanged on both versions."
+          ],
+          "answer": "The pattern supports localized heat exposure. It does not by itself establish intentional suppression.",
+          "choices": [
+            [
+              "Publish the damage pattern",
+              "Readers may still demand an immediate culprit",
+              "The report describes observed heat without assigning motive."
+            ],
+            [
+              "Restrict interpretation until inspection",
+              "People wait longer for an account",
+              "A provisional report explicitly withholds a verdict."
+            ],
+            [
+              "Invite external custody witnesses",
+              "The archive opens to more scrutiny",
+              "Independent witnesses inspect the same physical evidence."
+            ]
+          ],
+          "completion": "Uncertainty is not an acquittal. It is also not permission to invent a conviction.",
+          "reward": "Heat-Line Witness Plate",
+          "title_reward": "Witness Before Judge",
+          "reward_lore": "A plate tracing the limit of heat damage. It records a pattern, not an accusation."
+        },
+        {
+          "slug": "safe_for_copy",
+          "title": "Safe Enough to Make a Copy",
+          "kind": "mystery",
+          "level": 68,
+          "mode": "combat",
+          "premise": "The nesting drakonid threatens anyone copying the relief records. Maela needs a safe chamber before commissioning an audit.",
+          "opening": "A dead archivist can't testify. Clear the immediate threat; we'll keep the report about what you actually found.",
+          "clues": [
+            "Fresh ember marks align with the nesting recess.",
+            "The drakonid has no custody token or institutional mark.",
+            "The duplicate survives independently of the damaged page."
+          ],
+          "answer": "Removing a present threat enables copying. It neither authenticates every entry nor proves who damaged the ledger earlier.",
+          "choices": [
+            [
+              "Copy the duplicate first",
+              "Damaged personal entries wait",
+              "The audit gains a stable control record."
+            ],
+            [
+              "Stabilize the fragile pages first",
+              "The control copy waits",
+              "The most vulnerable record receives priority."
+            ],
+            [
+              "Have two witnesses divide the copying",
+              "More staff and supplies are needed",
+              "Copies begin with independent chains of custody."
+            ]
+          ],
+          "completion": "Now a second person can check the first person's work. That is a better safeguard than my reputation.",
+          "reward": "Paired Copyist's Clip",
+          "title_reward": "Keeper of the Second Copy",
+          "reward_lore": "A clip used to keep two independently witnessed archive copies together."
+        },
+        {
+          "slug": "reserve_not_ransom",
+          "title": "The Reserve That Wasn't a Ransom",
+          "kind": "secret",
+          "level": 70,
+          "mode": "collect_second",
+          "premise": "A line called withheld reserve looks like relief money seized as leverage. The duplicate identifies an unsettled payment, while leaving the delay's human cost visible.",
+          "opening": "AMA's wording is exact. A hungry household doesn't eat exact wording. Verify the reserve and keep the delay in the finding.",
+          "clues": [
+            "The reserve line names an unsettled transfer.",
+            "The duplicate has a release condition but no faction-concession clause.",
+            "A field note records recipients waiting while settlement was checked."
+          ],
+          "answer": "The documented reserve is pending settlement, not proven ransom. That does not make the relief delay harmless or automatically justified.",
+          "choices": [
+            [
+              "Publish both the settlement reason and delay",
+              "Sponsors face criticism despite a valid accounting category",
+              "The record preserves the cost borne by recipients."
+            ],
+            [
+              "Request an emergency relief exception",
+              "The authority must accept additional settlement risk",
+              "A narrow exception request accompanies the audited account."
+            ],
+            [
+              "Seek independent review of the hold",
+              "Release may be further delayed",
+              "A neutral review tests whether the hold was proportionate."
+            ]
+          ],
+          "completion": "A precise account can still describe a failure of care. Keep both sentences.",
+          "reward": "Unsettled Reserve Countertoken",
+          "title_reward": "Reader of the Withheld Line",
+          "reward_lore": "An audit countertoken identifying a reserve without pretending the people waiting for it suffered no cost."
+        },
+        {
+          "slug": "unwritten_witness",
+          "title": "The Unwritten Witness",
+          "kind": "mystery",
+          "level": 75,
+          "mode": "final",
+          "premise": "Records from the ward, yard, berth, gallery, and vault show how institutions can mistake absence, silence, or delay for consent. Maela offers no revelation about a hidden ruler, only a decision about who may challenge the archive.",
+          "opening": "Five places. Five ways a neat record can injure someone. I can't award you the truth about Xylos. I can ask who gets to correct this shelf after us.",
+          "clues": [
+            "The ward separates recognition from disclosure; the yard separates absence from desertion.",
+            "The berth separates a valid unit from a duplicate charge; the gallery separates sound from intention.",
+            "The vault separates accounting accuracy from the consequences of delay."
+          ],
+          "answer": "The common failure is treating a record as permission to stop listening. An appeal mechanism preserves correction without making every disputed account equally true.",
+          "choices": [
+            [
+              "Create a public, redacted appeal index",
+              "Transparency needs careful privacy work",
+              "People can challenge entries without revealing protected identities."
+            ],
+            [
+              "Establish distributed local custodians",
+              "Corrections are slower to reconcile",
+              "Each site keeps a voice in its own record."
+            ],
+            [
+              "Create a rotating independent review",
+              "Reviewers require resources and can still err",
+              "No permanent sponsor owns the final interpretation."
+            ]
+          ],
+          "completion": "Your name goes on the witness line, not the ownership line. Leave room beneath it for the person who proves us wrong.",
+          "reward": "Signet of the Unwritten Witness",
+          "title_reward": "The Unwritten Witness",
+          "reward_lore": "Five grooves surround an unfinished witness line. The final groove remains open for a correction not yet heard.",
+          "accessory_stats": {
+            "hp": 100,
+            "mp": 50,
+            "per": 6
+          }
+        }
+      ]
+    }
+  ]
+}

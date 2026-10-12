@@ -1,0 +1,68 @@
+{
+  "monsters_parsed": 5,
+  "basic_attacks": 5,
+  "active_skill_executions": 8,
+  "errors": [],
+  "observations": [
+    {
+      "monster": "WARD_INDEXER",
+      "skill": "shield_bash",
+      "damage": 37,
+      "healing": 0,
+      "remaining_mp": 40
+    },
+    {
+      "monster": "HOLLOW_MUSTER_WRECKER",
+      "skill": "strike",
+      "damage": 147,
+      "healing": 0,
+      "remaining_mp": 160
+    },
+    {
+      "monster": "HOLLOW_MUSTER_WRECKER",
+      "skill": "power_slash",
+      "damage": 147,
+      "healing": 0,
+      "remaining_mp": 160
+    },
+    {
+      "monster": "ZERO_BERTH_EXTORTIONIST",
+      "skill": "strike",
+      "damage": 211,
+      "healing": 0,
+      "remaining_mp": 260
+    },
+    {
+      "monster": "ZERO_BERTH_EXTORTIONIST",
+      "skill": "power_slash",
+      "damage": 211,
+      "healing": 0,
+      "remaining_mp": 260
+    },
+    {
+      "monster": "QUIET_GALLERY_RIFT_BEAST",
+      "skill": "rift_claw",
+      "damage": 231,
+      "healing": 0,
+      "remaining_mp": 362
+    },
+    {
+      "monster": "VAULT_EMBER_DRAKONID",
+      "skill": "claw_slash",
+      "damage": 533,
+      "healing": 0,
+      "remaining_mp": 1000
+    },
+    {
+      "monster": "VAULT_EMBER_DRAKONID",
+      "skill": "ember_bite",
+      "damage": 600,
+      "healing": 0,
+      "remaining_mp": 990
+    }
+  ],
+  "limitations": [
+    "MonsterTemplate is extracted verbatim from the actual game source.",
+    "AI decisions, raid phase transitions, UI and complete resistance/scaling semantics are not exercised."
+  ]
+}

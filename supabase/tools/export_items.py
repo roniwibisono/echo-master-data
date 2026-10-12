@@ -7,7 +7,7 @@ import json, os, sys, urllib.request
 
 ORDER = ['id','name','description','type','rarity','level_requirement',
          'equipment_slots','stats_bonus','special_effects','buy_price',
-         'sell_price','sell_value','max_stack','icon_image']
+         'sell_price','sell_value','max_stack','icon_image', 'content_revision', 'emergency_blocked', 'is_active']
 
 def fetch(base, key, offset):
     req = urllib.request.Request(

@@ -3,6 +3,7 @@
 Run:  python3 supabase/tools/import_skills.py"""
 import json, os
 import math
+import argparse
 
 TEXT_REQ  = ['id','name','type','source_type','damage_formula','effect','skill_description','skill_shape']
 TEXT_OPT  = ['target_attack','target_effect']
@@ -39,6 +40,9 @@ def rowvals(sk, order):
     ]
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--validate-only', action='store_true')
+    args = parser.parse_args()
     root = os.getcwd()
     skills = json.load(open(os.path.join(root, 'skill_list.json')))
     # Fail before replacing any seed file when source data would recreate the
@@ -50,9 +54,10 @@ def main():
             raise ValueError(f'Missing or duplicate skill ID: {sid!r}')
         seen.add(sid)
         for field in TEXT_REQ:
-            if not isinstance(skill.get(field), str) or not skill[field].strip():
+            # Empty formulas are supported by the engine for effect-only skills.
+            if not isinstance(skill.get(field), str) or (field != 'damage_formula' and not skill[field].strip()):
                 raise ValueError(f'{sid}: {field} must be a nonempty string')
-        if skill.get('type') not in ('Active', 'Passive'):
+        if skill.get('type') not in ('Active', 'Passive', 'Ultimate'):
             raise ValueError(f'{sid}: invalid skill type')
         for field in NUM_REQ + INT_REQ:
             value = skill.get(field)
@@ -60,6 +65,9 @@ def main():
                 raise ValueError(f'{sid}: invalid {field}')
         if type(skill['mp_cost']) is not int:
             raise ValueError(f'{sid}: mp_cost must be an integer')
+    if args.validate_only:
+        print(f'VALIDATED {len(skills)} unique skills; no seed files replaced')
+        return
     rows = [rowvals(sk, i) for i, sk in enumerate(skills)]
     collist = ', '.join(COLS)
     upd = ', '.join(f'{c}=excluded.{c}' for c in COLS if c != 'id')

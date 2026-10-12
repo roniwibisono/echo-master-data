@@ -9,7 +9,7 @@ ORDER = ['monster_id','code','name','rank','level','race_code','element',
          'spawn_monster_id','spawn_location','base_stats','scaling','critical_rate',
          'critical_damage','resistances','weaknesses','status_immunity','ai_pattern',
          'skill_set','exp_reward','currency_reward','crd_reward','guild_point',
-         'reputation_point','hunting_point','drop_item','special_reward']
+         'reputation_point','hunting_point','drop_item','special_reward', 'content_revision', 'emergency_blocked', 'is_active']
 NUM = {'critical_rate', 'critical_damage'}
 
 def main():

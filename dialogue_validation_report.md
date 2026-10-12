@@ -1,12 +1,12 @@
 # Dialogue Validation Report
 
-Source quest dialogues: 701
-NPC records: 151
-Master NPC trees: 112
-Current quest IDs: 720
+Source quest dialogues: 726
+NPC records: 166
+Master NPC trees: 127
+Current quest IDs: 745
 
 Errors: 0
-Warnings: 58
+Warnings: 61
 
 ## Errors
 
@@ -27,6 +27,8 @@ Warnings: 58
 - dialogue_tree dialog_exchange_legion is shared by 3 NPCs
 - dialogue_tree dialog_envoy_greet is shared by 3 NPCs
 - dialogue_tree dlg_custodian_banker is shared by 7 NPCs
+- master quest_dialog_count=701 but dialog_quests has 726
+- master total_count=813 but flattened total is 853
 - exact paragraph repeated 4 times: 'Officer Valen: A cleared site still has to support the people sent to occupy it. In Cradle Outer Ring, Kill CR'
 - exact paragraph repeated 4 times: 'Commander Lirien Vale: The response is becoming a routine, and routine is where an unchecked assumption hides.'
 - exact paragraph repeated 3 times: "The Cradle's infrastructure is fragile. One functioning city, a thousand problems. We fix the cracks before th"
@@ -72,12 +74,13 @@ Warnings: 58
 - exact paragraph repeated 42 times: "The Legion's history is written in blood of those before us. Every Legionnaire adds a chapter. Make yours wort"
 - exact paragraph repeated 24 times: 'The Starforged Legion crossed the void after our homeworld was destroyed. Billions lost. Everything lost. But '
 - exact paragraph repeated 3 times: 'Confirm that you are ready to take this assignment.'
+- exact paragraph repeated 25 times: 'You may return without losing your place in the investigation.'
 
 ## Actions
 
 ```json
 {
-  "exit": 801,
-  "accept_quest": 701
+  "exit": 976,
+  "accept_quest": 726
 }
 ```

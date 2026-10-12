@@ -1,0 +1,614 @@
+{
+  "monsters": 194,
+  "ranks": {
+    "raid_boss": 4,
+    "hero": 3,
+    "leader": 31,
+    "area_boss": 9,
+    "normal": 116,
+    "elite": 27,
+    "dungeon_boss": 1,
+    "boss": 2,
+    "summon": 1
+  },
+  "counts": {
+    "active_skills": 313,
+    "passive_skills": 205,
+    "phase_skill_links": 25,
+    "drop_links": 362,
+    "world_spawn_links": 239,
+    "dungeon_monster_links": 3,
+    "raid_monster_links": 8,
+    "biome_monster_links": 224
+  },
+  "unreferenced_encounter_templates": [
+    {
+      "monster_id": 4005,
+      "code": "SAND_REAVER",
+      "rank": "leader"
+    },
+    {
+      "monster_id": 4006,
+      "code": "HIVE_REAPER",
+      "rank": "area_boss"
+    },
+    {
+      "monster_id": 4007,
+      "code": "FROST_WARDEN",
+      "rank": "area_boss"
+    },
+    {
+      "monster_id": 4008,
+      "code": "OBSIDIAN_GOLEM",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 4009,
+      "code": "RIFT_ASSASSIN",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 4010,
+      "code": "IRONCOIL_SENTINEL",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 4011,
+      "code": "FERAL_PROGENOI",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 4012,
+      "code": "HELLSCAR_BEAST",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 4013,
+      "code": "ECHO_RESONATOR",
+      "rank": "leader"
+    },
+    {
+      "monster_id": 4014,
+      "code": "ARC_LIGHT_REVENANT",
+      "rank": "area_boss"
+    },
+    {
+      "monster_id": 4015,
+      "code": "SOUL_FRAGMENTER",
+      "rank": "hero"
+    },
+    {
+      "monster_id": 4016,
+      "code": "CELESTIAL_NAVIGATOR",
+      "rank": "leader"
+    },
+    {
+      "monster_id": 5005,
+      "code": "DESERT_SCARAB",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 50014,
+      "code": "SLIME_KING",
+      "rank": "area_boss"
+    },
+    {
+      "monster_id": 5104,
+      "code": "DUNE_STINGER",
+      "rank": "area_boss"
+    },
+    {
+      "monster_id": 801,
+      "code": "LUMI_SPRITE",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 802,
+      "code": "THORN_STALKER",
+      "rank": "leader"
+    },
+    {
+      "monster_id": 803,
+      "code": "VELDT_SCAVENGER",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 804,
+      "code": "ALPHA_RAVAGER",
+      "rank": "area_boss"
+    },
+    {
+      "monster_id": 805,
+      "code": "RUST_DRONE",
+      "rank": "leader"
+    },
+    {
+      "monster_id": 900,
+      "code": "FLESH_ABERRANT",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 901,
+      "code": "MUTAGEN_DEVOURER",
+      "rank": "leader"
+    },
+    {
+      "monster_id": 902,
+      "code": "PARASITE_BRUTE",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 903,
+      "code": "VENOM_HUSK",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 904,
+      "code": "NEURAL_FEEDER",
+      "rank": "elite"
+    },
+    {
+      "monster_id": 913,
+      "code": "TUMOR_BEHEMOTH",
+      "rank": "elite"
+    },
+    {
+      "monster_id": 914,
+      "code": "SPORE_LEVIATHAN",
+      "rank": "elite"
+    },
+    {
+      "monster_id": 915,
+      "code": "CARRION_MUTANT",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 917,
+      "code": "ROTSPAWN_HORROR",
+      "rank": "leader"
+    },
+    {
+      "monster_id": 918,
+      "code": "HEMOPHAGE_STALKER",
+      "rank": "leader"
+    },
+    {
+      "monster_id": 919,
+      "code": "ROGUE_WAR_DRONE",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 920,
+      "code": "SCRAP_GOLIATH",
+      "rank": "elite"
+    },
+    {
+      "monster_id": 921,
+      "code": "IRON_STALKER",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 922,
+      "code": "MACHINE_REVENANT",
+      "rank": "elite"
+    },
+    {
+      "monster_id": 923,
+      "code": "RUST_TYRANT",
+      "rank": "leader"
+    },
+    {
+      "monster_id": 924,
+      "code": "CYBER_HOUND",
+      "rank": "normal"
+    },
+    {
+      "monster_id": 925,
+      "code": "AUTO_SENTINEL",
+      "rank": "elite"
+    },
+    {
+      "monster_id": 926,
+      "code": "SIEGE_REAPER",
+      "rank": "elite"
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    {
+      "owner": "SAND_REAVER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "HIVE_REAPER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "FROST_WARDEN",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "OBSIDIAN_GOLEM",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "RIFT_ASSASSIN",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "IRONCOIL_SENTINEL",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "FERAL_PROGENOI",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "HELLSCAR_BEAST",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "ECHO_RESONATOR",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "ARC_LIGHT_REVENANT",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "SOUL_FRAGMENTER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "CELESTIAL_NAVIGATOR",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dungeon A"
+    },
+    {
+      "owner": "DESERT_SCARAB",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dessert of Nadir"
+    },
+    {
+      "owner": "SLIME_KING",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Green Meadow"
+    },
+    {
+      "owner": "DUNE_STINGER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Dessert of Nadir"
+    },
+    {
+      "owner": "LUMI_SPRITE",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Aethelgard Forest"
+    },
+    {
+      "owner": "THORN_STALKER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Aethelgard Forest"
+    },
+    {
+      "owner": "VELDT_SCAVENGER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Veldt Savannah"
+    },
+    {
+      "owner": "ALPHA_RAVAGER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Veldt Savannah"
+    },
+    {
+      "owner": "RUST_DRONE",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Ironforge Ruins"
+    },
+    {
+      "owner": "FLESH_ABERRANT",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Infested Flesh Pits"
+    },
+    {
+      "owner": "MUTAGEN_DEVOURER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Mutagen Pools"
+    },
+    {
+      "owner": "PARASITE_BRUTE",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Parasite Nest"
+    },
+    {
+      "owner": "VENOM_HUSK",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Venom Swamp"
+    },
+    {
+      "owner": "NEURAL_FEEDER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Synapse Cavern"
+    },
+    {
+      "owner": "TUMOR_BEHEMOTH",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Tumor Fields"
+    },
+    {
+      "owner": "SPORE_LEVIATHAN",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Spore Marsh"
+    },
+    {
+      "owner": "CARRION_MUTANT",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Carrion Grounds"
+    },
+    {
+      "owner": "ROTSPAWN_HORROR",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Rotspawn Pit"
+    },
+    {
+      "owner": "HEMOPHAGE_STALKER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Hemophage Nest"
+    },
+    {
+      "owner": "ROGUE_WAR_DRONE",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Scrap Battlefield"
+    },
+    {
+      "owner": "SCRAP_GOLIATH",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Collapsed Assembly Yard"
+    },
+    {
+      "owner": "IRON_STALKER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Machine Graveyard"
+    },
+    {
+      "owner": "MACHINE_REVENANT",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Derelict Power Plant"
+    },
+    {
+      "owner": "RUST_TYRANT",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Rust Throne"
+    },
+    {
+      "owner": "CYBER_HOUND",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Scrap Wastes"
+    },
+    {
+      "owner": "AUTO_SENTINEL",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Sentinel Gate"
+    },
+    {
+      "owner": "SIEGE_REAPER",
+      "field": "spawn_location",
+      "message": "Legacy location not present in active world/dungeons: Collapsed Assembly Yard"
+    },
+    {
+      "owner": "AETHEL_GARDENS",
+      "field": "level_range",
+      "message": "AETHEL_WISP level 7 outside 1-5"
+    },
+    {
+      "owner": "AETHEL_GARDENS",
+      "field": "level_range",
+      "message": "FOREST_STAGLING level 6 outside 1-5"
+    },
+    {
+      "owner": "CRYSTAL_SLOPE",
+      "field": "level_range",
+      "message": "ARCANE_SHARDLING level 7 outside 1-5"
+    },
+    {
+      "owner": "CRYSTAL_SLOPE",
+      "field": "level_range",
+      "message": "CRYSTAL_SKITTER level 8 outside 1-5"
+    },
+    {
+      "owner": "CRYSTAL_SLOPE",
+      "field": "level_range",
+      "message": "CRYSTAL_MITE level 7 outside 1-5"
+    },
+    {
+      "owner": "SCRAP_FIELD",
+      "field": "level_range",
+      "message": "SCRAP_HOUND level 9 outside 1-5"
+    },
+    {
+      "owner": "IRON_RAVINE",
+      "field": "level_range",
+      "message": "IRON_RAVINE_MINER level 13 outside 6-12"
+    },
+    {
+      "owner": "EXTRACTION_ZONE_DELTA",
+      "field": "level_range",
+      "message": "DELTA_MINING_DRONE level 18 outside 6-15"
+    },
+    {
+      "owner": "EXTRACTION_ZONE_DELTA",
+      "field": "level_range",
+      "message": "DELTA_SECURITY_DRONE level 19 outside 6-15"
+    },
+    {
+      "owner": "SKYBRIDGE_REACTOR",
+      "field": "level_range",
+      "message": "TITAN_ASSEMBLY_DRONE level 32 outside 35-50"
+    },
+    {
+      "owner": "GLOWVINE_FOREST",
+      "field": "level_range",
+      "message": "VINE_STRIKER level 6 outside 1-5"
+    },
+    {
+      "owner": "FRAGMENT_SHRINE",
+      "field": "level_range",
+      "message": "SHRINE_AVENGER level 23 outside 15-22"
+    },
+    {
+      "owner": "HEARTWOOD_ALTAR",
+      "field": "level_range",
+      "message": "SHRINE_WARDEN level 22 outside 28-40"
+    },
+    {
+      "owner": "HEARTWOOD_ALTAR",
+      "field": "level_range",
+      "message": "SHRINE_AVENGER level 23 outside 28-40"
+    },
+    {
+      "owner": "DUNE_OUTSKIRTS",
+      "field": "level_range",
+      "message": "FERAL_SAND_IMP level 7 outside 1-5"
+    },
+    {
+      "owner": "DUNE_OUTSKIRTS",
+      "field": "level_range",
+      "message": "DUNE_SCORPION level 8 outside 1-5"
+    },
+    {
+      "owner": "FORGE_CANYON_DEPTHS",
+      "field": "level_range",
+      "message": "WARPATH_SCOUT level 24 outside 30-45"
+    },
+    {
+      "owner": "FORGE_CANYON_DEPTHS",
+      "field": "level_range",
+      "message": "WARPATH_VETERAN level 25 outside 30-45"
+    },
+    {
+      "owner": "BORDER_SKIRMISH_RING",
+      "field": "level_range",
+      "message": "WARPATH_SCOUT level 24 outside 25-45"
+    },
+    {
+      "owner": "BORDER_SKIRMISH_RING",
+      "field": "level_range",
+      "message": "BLACK_DOCK_SMUGGLER level 20 outside 25-45"
+    },
+    {
+      "owner": "SEVERANCE_FAULTLINE",
+      "field": "level_range",
+      "message": "AETHEL_IRON_CARAPACE level 39 outside 65-90"
+    },
+    {
+      "owner": "SEVERANCE_FAULTLINE",
+      "field": "level_range",
+      "message": "AETHEL_VOID_CHANNELER level 40 outside 65-90"
+    },
+    {
+      "owner": "AETHEL_SIPHON_CORE",
+      "field": "level_range",
+      "message": "AETHEL_VOID_CHANNELER level 40 outside 70-90"
+    },
+    {
+      "owner": "AETHEL_SIPHON_CORE",
+      "field": "level_range",
+      "message": "AETHEL_RIFT_STALKER level 36 outside 70-90"
+    },
+    {
+      "owner": "PRIMA_MATERIA_FORGE",
+      "field": "level_range",
+      "message": "AETHEL_IRON_CARAPACE level 39 outside 75-95"
+    },
+    {
+      "owner": "PRIMA_MATERIA_FORGE",
+      "field": "level_range",
+      "message": "AETHEL_VOID_CHANNELER level 40 outside 75-95"
+    },
+    {
+      "owner": "HIDDEN_AETHELGARDIAN_CITY",
+      "field": "level_range",
+      "message": "AETHEL_RIFT_STALKER level 36 outside 50-80"
+    },
+    {
+      "owner": "HIDDEN_AETHELGARDIAN_CITY",
+      "field": "level_range",
+      "message": "AETHEL_IRON_CARAPACE level 39 outside 50-80"
+    },
+    {
+      "owner": "HIDDEN_AETHELGARDIAN_CITY",
+      "field": "level_range",
+      "message": "AETHEL_VOID_CHANNELER level 40 outside 50-80"
+    },
+    {
+      "owner": "VOID_ECHO_CHASM",
+      "field": "level_range",
+      "message": "AETHEL_VOID_CHANNELER level 40 outside 55-85"
+    }
+  ],
+  "quest_references": {
+    "kill_objective_links": 716,
+    "resolved_links": 708,
+    "errors": [
+      {
+        "source": "quest_neutral.json",
+        "quest_id": "QUEST_NEUTRAL_STORY_001",
+        "target": "ROGUE_ARMS_DEALER",
+        "message": "No monster definition for quest kill target"
+      },
+      {
+        "source": "quest_neutral.json",
+        "quest_id": "QUEST_NEUTRAL_STORY_002",
+        "target": "SHADOW_ENFORCER",
+        "message": "No monster definition for quest kill target"
+      },
+      {
+        "source": "quest_neutral.json",
+        "quest_id": "QUEST_NEUTRAL_STORY_003",
+        "target": "ROGUE_CUSTODIAN_COMMANDER",
+        "message": "No monster definition for quest kill target"
+      },
+      {
+        "source": "quest_neutral.json",
+        "quest_id": "QUEST_NEUTRAL_DAILY_001",
+        "target": "BORDER_RAIDER",
+        "message": "No monster definition for quest kill target"
+      },
+      {
+        "source": "quest_neutral.json",
+        "quest_id": "QUEST_NEUTRAL_AMA_001",
+        "target": "FORGE_GUARD_ELITE",
+        "message": "No monster definition for quest kill target"
+      },
+      {
+        "source": "quest_neutral.json",
+        "quest_id": "QUEST_NEUTRAL_AMA_002",
+        "target": "ECONOMIC_SPECULATOR_SQUAD",
+        "message": "No monster definition for quest kill target"
+      },
+      {
+        "source": "quest_neutral.json",
+        "quest_id": "QUEST_NEUTRAL_SPECIAL_001",
+        "target": "SUMMIT_DISRUPTOR",
+        "message": "No monster definition for quest kill target"
+      },
+      {
+        "source": "quest_neutral.json",
+        "quest_id": "QUEST_NEUTRAL_SPECIAL_001",
+        "target": "ASSASSIN_ELITE",
+        "message": "No monster definition for quest kill target"
+      }
+    ],
+    "warnings": []
+  }
+}

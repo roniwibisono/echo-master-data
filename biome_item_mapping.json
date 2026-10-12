@@ -112,13 +112,13 @@
         "ridge_crystal",
         "mountain_herb",
         "wind_essence",
-        "storm_core"
+        "mat_storm_core"
       ],
       "drop_weights": {
         "ridge_crystal": 0.25,
         "mountain_herb": 0.25,
         "wind_essence": 0.25,
-        "storm_core": 0.25
+        "mat_storm_core": 0.25
       }
     },
     {
@@ -154,13 +154,13 @@
     {
       "biome_primary": "mining_canyon",
       "resource_items": [
-        "iron_ore",
+        "mat_iron_ore",
         "titanium_vein",
         "mineral_dust",
         "coal"
       ],
       "drop_weights": {
-        "iron_ore": 0.25,
+        "mat_iron_ore": 0.25,
         "titanium_vein": 0.25,
         "mineral_dust": 0.25,
         "coal": 0.25
@@ -409,13 +409,13 @@
     {
       "biome_primary": "storm_wasteland",
       "resource_items": [
-        "storm_core",
+        "mat_storm_core",
         "lightning_crystal",
         "charged_dust",
         "thunder_essence"
       ],
       "drop_weights": {
-        "storm_core": 0.25,
+        "mat_storm_core": 0.25,
         "lightning_crystal": 0.25,
         "charged_dust": 0.25,
         "thunder_essence": 0.25

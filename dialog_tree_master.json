@@ -5260,6 +5260,1076 @@
             "options": []
           }
         ]
+      },
+      {
+        "dialog_id": "dialog_axiom_promotion",
+        "npc_id": "npc_class_advisor",
+        "start_node": "base",
+        "nodes": [
+          {
+            "id": "base",
+            "text": "Axiom here. Your first discipline is now yours. Open Profile: your new skills are already learned, and your class bonuses now contribute to your attributes. Try a skill that suits your party role before your next hunt.",
+            "options": [
+              {
+                "text": "Show my new skills.",
+                "next": "exit",
+                "action": "open_profile_skills"
+              },
+              {
+                "text": "Review my attributes.",
+                "next": "exit",
+                "action": "open_profile_stats"
+              },
+              {
+                "text": "I will review them later.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "advance",
+            "text": "You have advanced, and your earlier training stays with you. Profile shows the new class bonuses and learned skills. Review your active skill loadout; knowing a skill and bringing it into a battle are separate choices.",
+            "options": [
+              {
+                "text": "Show my new skills.",
+                "next": "exit",
+                "action": "open_profile_skills"
+              },
+              {
+                "text": "Review my attributes.",
+                "next": "exit",
+                "action": "open_profile_stats"
+              },
+              {
+                "text": "I will review them later.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "expert",
+            "text": "Expertise gives you more choices, not a reason to stop checking them. Compare your new bonuses in Profile, inspect each learned skill, and make room for the tools your current party needs.",
+            "options": [
+              {
+                "text": "Show my new skills.",
+                "next": "exit",
+                "action": "open_profile_skills"
+              },
+              {
+                "text": "Review my attributes.",
+                "next": "exit",
+                "action": "open_profile_stats"
+              },
+              {
+                "text": "I will review them later.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "master",
+            "text": "Mastery does not erase the path that brought you here. Your full class history, new skills, and accumulated bonuses are in Profile. Review your loadout and remaining stat points before you lead your next expedition.",
+            "options": [
+              {
+                "text": "Show my new skills.",
+                "next": "exit",
+                "action": "open_profile_skills"
+              },
+              {
+                "text": "Review my attributes.",
+                "next": "exit",
+                "action": "open_profile_stats"
+              },
+              {
+                "text": "I will review them later.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "dialogues": [
+      {
+        "dialog_id": "dialog_mystery_unlisted_greet",
+        "npc_id": "npc_mystery_edda_fen",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Names first. Numbers can wait. Two chairs face an empty doorway. Only the smaller chair has fresh repairs. Household numbers continue across a wall that modern surveys label vacant.",
+            "options": [
+              {
+                "text": "What did you notice here?",
+                "next": "observation",
+                "action": ""
+              },
+              {
+                "text": "Why ask an outsider?",
+                "next": "motive",
+                "action": ""
+              },
+              {
+                "text": "I will look around first.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "observation",
+            "text": "The small chair has fresh binding; the large one has weathered dust.",
+            "options": [
+              {
+                "text": "Tell me more.",
+                "next": "greet",
+                "action": ""
+              },
+              {
+                "text": "I will examine it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "motive",
+            "text": "Edda needs an independent field witness because official corrections require evidence and she refuses to publish refugees' addresses.",
+            "options": [
+              {
+                "text": "What did you notice?",
+                "next": "observation",
+                "action": ""
+              },
+              {
+                "text": "I will think about it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The evidence remains available when you return.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_npc_mystery_unlisted_clue_1",
+        "npc_id": "npc_mystery_unlisted_clue_1",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Two chairs face an empty doorway. Only the smaller chair has fresh repairs. Household numbers continue across a wall that modern surveys label vacant.",
+            "options": [
+              {
+                "text": "Examine the mark.",
+                "next": "detail",
+                "action": ""
+              },
+              {
+                "text": "Compare its placement.",
+                "next": "placement",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "detail",
+            "text": "The lower numeral is cut into stone; the upper numeral is painted.",
+            "options": [
+              {
+                "text": "Look at its setting.",
+                "next": "placement",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "placement",
+            "text": "Two chairs face an empty doorway. Only the smaller chair has fresh repairs. Household numbers continue across a wall that modern surveys label vacant.",
+            "options": [
+              {
+                "text": "Look again.",
+                "next": "greet",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The record is left in place.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_npc_mystery_unlisted_clue_2",
+        "npc_id": "npc_mystery_unlisted_clue_2",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "The lower series skips occupied doors but follows conduit junctions.",
+            "options": [
+              {
+                "text": "Examine the mark.",
+                "next": "detail",
+                "action": ""
+              },
+              {
+                "text": "Compare its placement.",
+                "next": "placement",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "detail",
+            "text": "The lower series skips occupied doors but follows conduit junctions.",
+            "options": [
+              {
+                "text": "Look at its setting.",
+                "next": "placement",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "placement",
+            "text": "Two chairs face an empty doorway. Only the smaller chair has fresh repairs. Household numbers continue across a wall that modern surveys label vacant.",
+            "options": [
+              {
+                "text": "Look again.",
+                "next": "greet",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The record is left in place.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_mystery_muster_greet",
+        "npc_id": "npc_mystery_tovan_rell",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Hear the gap. Metal tells on itself. A muster bell hangs over boots facing away from the parade line. A second rope leads into a workshop, not a command tower.",
+            "options": [
+              {
+                "text": "What did you notice here?",
+                "next": "observation",
+                "action": ""
+              },
+              {
+                "text": "Why ask an outsider?",
+                "next": "motive",
+                "action": ""
+              },
+              {
+                "text": "I will look around first.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "observation",
+            "text": "The tally labels the fourth beat evacuate.",
+            "options": [
+              {
+                "text": "Tell me more.",
+                "next": "greet",
+                "action": ""
+              },
+              {
+                "text": "I will examine it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "motive",
+            "text": "Tovan repairs signal bells for civilians who worked beside Iron and Legion crews. He needs an outsider to compare records neither employer will share with him.",
+            "options": [
+              {
+                "text": "What did you notice?",
+                "next": "observation",
+                "action": ""
+              },
+              {
+                "text": "I will think about it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The evidence remains available when you return.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_npc_mystery_muster_clue_1",
+        "npc_id": "npc_mystery_muster_clue_1",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "A muster bell hangs over boots facing away from the parade line. A second rope leads into a workshop, not a command tower.",
+            "options": [
+              {
+                "text": "Examine the mark.",
+                "next": "detail",
+                "action": ""
+              },
+              {
+                "text": "Compare its placement.",
+                "next": "placement",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "detail",
+            "text": "Boot soles carry workshop grit, not barracks polish.",
+            "options": [
+              {
+                "text": "Look at its setting.",
+                "next": "placement",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "placement",
+            "text": "A muster bell hangs over boots facing away from the parade line. A second rope leads into a workshop, not a command tower.",
+            "options": [
+              {
+                "text": "Look again.",
+                "next": "greet",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The record is left in place.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_npc_mystery_muster_clue_2",
+        "npc_id": "npc_mystery_muster_clue_2",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Tool tags follow a work roster, not a military rank.",
+            "options": [
+              {
+                "text": "Examine the mark.",
+                "next": "detail",
+                "action": ""
+              },
+              {
+                "text": "Compare its placement.",
+                "next": "placement",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "detail",
+            "text": "Tool tags follow a work roster, not a military rank.",
+            "options": [
+              {
+                "text": "Look at its setting.",
+                "next": "placement",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "placement",
+            "text": "A muster bell hangs over boots facing away from the parade line. A second rope leads into a workshop, not a command tower.",
+            "options": [
+              {
+                "text": "Look again.",
+                "next": "greet",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The record is left in place.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_mystery_zero_greet",
+        "npc_id": "npc_mystery_sella_quinn",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Read the unit before you buy the number. A berth marked zero contains a crate with an inward-facing shipping stencil. A polished scale shows the same value even with no cargo.",
+            "options": [
+              {
+                "text": "What did you notice here?",
+                "next": "observation",
+                "action": ""
+              },
+              {
+                "text": "Why ask an outsider?",
+                "next": "motive",
+                "action": ""
+              },
+              {
+                "text": "I will look around first.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "observation",
+            "text": "The cargo column is blank, not marked lost.",
+            "options": [
+              {
+                "text": "Tell me more.",
+                "next": "greet",
+                "action": ""
+              },
+              {
+                "text": "I will examine it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "motive",
+            "text": "Sella needs a field examiner outside her former OmniCorp employer and Meridian creditors to distinguish damaged cargo from a manipulated claim.",
+            "options": [
+              {
+                "text": "What did you notice?",
+                "next": "observation",
+                "action": ""
+              },
+              {
+                "text": "I will think about it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The evidence remains available when you return.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_npc_mystery_zero_clue_1",
+        "npc_id": "npc_mystery_zero_clue_1",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "A berth marked zero contains a crate with an inward-facing shipping stencil. A polished scale shows the same value even with no cargo.",
+            "options": [
+              {
+                "text": "Examine the mark.",
+                "next": "detail",
+                "action": ""
+              },
+              {
+                "text": "Compare its placement.",
+                "next": "placement",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "detail",
+            "text": "The stencil faces the crate interior.",
+            "options": [
+              {
+                "text": "Look at its setting.",
+                "next": "placement",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "placement",
+            "text": "A berth marked zero contains a crate with an inward-facing shipping stencil. A polished scale shows the same value even with no cargo.",
+            "options": [
+              {
+                "text": "Look again.",
+                "next": "greet",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The record is left in place.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_npc_mystery_zero_clue_2",
+        "npc_id": "npc_mystery_zero_clue_2",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "The scale log marks outbound packaging as returnable.",
+            "options": [
+              {
+                "text": "Examine the mark.",
+                "next": "detail",
+                "action": ""
+              },
+              {
+                "text": "Compare its placement.",
+                "next": "placement",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "detail",
+            "text": "The scale log marks outbound packaging as returnable.",
+            "options": [
+              {
+                "text": "Look at its setting.",
+                "next": "placement",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "placement",
+            "text": "A berth marked zero contains a crate with an inward-facing shipping stencil. A polished scale shows the same value even with no cargo.",
+            "options": [
+              {
+                "text": "Look again.",
+                "next": "greet",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The record is left in place.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_mystery_quiet_greet",
+        "npc_id": "npc_mystery_iren_saye",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "We heard it. We haven't explained it. Three resonant ribs surround a fourth rib wrapped in old cloth. A listening bench faces away from the visible crystals toward a drainage channel.",
+            "options": [
+              {
+                "text": "What did you notice here?",
+                "next": "observation",
+                "action": ""
+              },
+              {
+                "text": "Why ask an outsider?",
+                "next": "motive",
+                "action": ""
+              },
+              {
+                "text": "I will look around first.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "observation",
+            "text": "Cloth touches the fourth rib at a vibration point.",
+            "options": [
+              {
+                "text": "Tell me more.",
+                "next": "greet",
+                "action": ""
+              },
+              {
+                "text": "I will examine it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "motive",
+            "text": "Iren wants a witness willing to compare Arcanum measurements with Children of the Shard oral accounts without appropriating either or declaring the Shard conscious.",
+            "options": [
+              {
+                "text": "What did you notice?",
+                "next": "observation",
+                "action": ""
+              },
+              {
+                "text": "I will think about it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The evidence remains available when you return.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_npc_mystery_quiet_clue_1",
+        "npc_id": "npc_mystery_quiet_clue_1",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "Three resonant ribs surround a fourth rib wrapped in old cloth. A listening bench faces away from the visible crystals toward a drainage channel.",
+            "options": [
+              {
+                "text": "Examine the mark.",
+                "next": "detail",
+                "action": ""
+              },
+              {
+                "text": "Compare its placement.",
+                "next": "placement",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "detail",
+            "text": "The bench faces the drainage channel.",
+            "options": [
+              {
+                "text": "Look at its setting.",
+                "next": "placement",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "placement",
+            "text": "Three resonant ribs surround a fourth rib wrapped in old cloth. A listening bench faces away from the visible crystals toward a drainage channel.",
+            "options": [
+              {
+                "text": "Look again.",
+                "next": "greet",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The record is left in place.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_npc_mystery_quiet_clue_2",
+        "npc_id": "npc_mystery_quiet_clue_2",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "A delayed note is loudest near its opening.",
+            "options": [
+              {
+                "text": "Examine the mark.",
+                "next": "detail",
+                "action": ""
+              },
+              {
+                "text": "Compare its placement.",
+                "next": "placement",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "detail",
+            "text": "A delayed note is loudest near its opening.",
+            "options": [
+              {
+                "text": "Look at its setting.",
+                "next": "placement",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "placement",
+            "text": "Three resonant ribs surround a fourth rib wrapped in old cloth. A listening bench faces away from the visible crystals toward a drainage channel.",
+            "options": [
+              {
+                "text": "Look again.",
+                "next": "greet",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The record is left in place.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_mystery_armistice_greet",
+        "npc_id": "npc_mystery_maela_orr",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "A finding has a boundary. Write it down. New lock bolts hold an old stone cabinet shut. A scorched relief ledger sits beside an undamaged metal duplicate, both bearing the same modern custody mark.",
+            "options": [
+              {
+                "text": "What did you notice here?",
+                "next": "observation",
+                "action": ""
+              },
+              {
+                "text": "Why ask an outsider?",
+                "next": "motive",
+                "action": ""
+              },
+              {
+                "text": "I will look around first.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "observation",
+            "text": "The lock uses a current custody mark.",
+            "options": [
+              {
+                "text": "Tell me more.",
+                "next": "greet",
+                "action": ""
+              },
+              {
+                "text": "I will examine it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "motive",
+            "text": "Maela holds a limited mandate to compare a recent neutral relief archive with scattered field copies. She needs a witness outside its Custodian and AMA sponsors because both have an interest in appearing blameless.",
+            "options": [
+              {
+                "text": "What did you notice?",
+                "next": "observation",
+                "action": ""
+              },
+              {
+                "text": "I will think about it.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The evidence remains available when you return.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_npc_mystery_armistice_clue_1",
+        "npc_id": "npc_mystery_armistice_clue_1",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "New lock bolts hold an old stone cabinet shut. A scorched relief ledger sits beside an undamaged metal duplicate, both bearing the same modern custody mark.",
+            "options": [
+              {
+                "text": "Examine the mark.",
+                "next": "detail",
+                "action": ""
+              },
+              {
+                "text": "Compare its placement.",
+                "next": "placement",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "detail",
+            "text": "Scorching is strongest beside the nesting recess.",
+            "options": [
+              {
+                "text": "Look at its setting.",
+                "next": "placement",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "placement",
+            "text": "New lock bolts hold an old stone cabinet shut. A scorched relief ledger sits beside an undamaged metal duplicate, both bearing the same modern custody mark.",
+            "options": [
+              {
+                "text": "Look again.",
+                "next": "greet",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The record is left in place.",
+            "options": []
+          }
+        ]
+      },
+      {
+        "dialog_id": "dialog_npc_mystery_armistice_clue_2",
+        "npc_id": "npc_mystery_armistice_clue_2",
+        "start_node": "greet",
+        "nodes": [
+          {
+            "id": "greet",
+            "text": "The duplicate plate survives across the chamber.",
+            "options": [
+              {
+                "text": "Examine the mark.",
+                "next": "detail",
+                "action": ""
+              },
+              {
+                "text": "Compare its placement.",
+                "next": "placement",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "detail",
+            "text": "The duplicate plate survives across the chamber.",
+            "options": [
+              {
+                "text": "Look at its setting.",
+                "next": "placement",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "placement",
+            "text": "New lock bolts hold an old stone cabinet shut. A scorched relief ledger sits beside an undamaged metal duplicate, both bearing the same modern custody mark.",
+            "options": [
+              {
+                "text": "Look again.",
+                "next": "greet",
+                "action": ""
+              },
+              {
+                "text": "Step away.",
+                "next": "exit",
+                "action": "exit"
+              }
+            ]
+          },
+          {
+            "id": "exit",
+            "text": "The record is left in place.",
+            "options": []
+          }
+        ]
       }
     ]
   }

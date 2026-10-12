@@ -141,6 +141,22 @@ file, not a migrated table; publish it alongside `monster_master.json`.
 See `../monster_data_audit_report.md` for retained legacy/range warnings and
 client limitations. Do not replay the all-domain bundle as a content update.
 
+## Optional Mystery Content Pack (2026-10-08)
+
+`seed/mystery_content_20261008.sql` is a scoped content delta: 35 items,
+5 monsters, 15 NPC/evidence objects, 25 quests and 40 dialogs. It was committed
+permanently to project `fbntgtzimydjhuwedrjz` on 2026-10-08. A separate query
+verified all 120 rows match the seed and checked references have no errors.
+`seed/mystery_activation_20261008.sql` was subsequently committed: 25 hidden
+achievements and release metadata on the 25 quests. All 145 content rows were
+verified against their seed fields. No schema/RLS or player-save rows changed.
+The local Flutter client now implements discovery, evidence, persisted choices,
+one-time local rewards, titles, achievements and recovery; its additive bundled
+asset includes title/map data without waiting for CDN publication.
+**A new client release is still required for public players.** No further manual
+seed is required. See `../narrative/MYSTERY_INTEGRATION.md` and
+`../narrative/MYSTERY_QUESTS.md`. Do not replay `apply_all.sql` as an update.
+
 ## Allies (`ally_list.json` → `allies`)
 
 91 allies (0 dup ids/codes) → `public.allies` (`migrations/0007_allies.sql`).

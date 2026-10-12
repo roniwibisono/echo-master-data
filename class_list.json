@@ -13,7 +13,9 @@
       "sk_enf_pas",
       "sk_enf_act_1",
       "sk_enf_act_2"
-    ]
+    ],
+    "description": "Front-line fighter trained to hold ground. Trades mobility for raw staying power and straightforward strikes.",
+    "isActive": 1
   },
   {
     "id": "adv_vanguard",
@@ -28,12 +30,14 @@
       "sk_van_pas",
       "sk_van_act_1",
       "sk_van_act_2"
-    ]
+    ],
+    "description": "Shield-first advance of the Enforcer. Specializes in absorbing pressure so the line behind them never breaks.",
+    "isActive": 1
   },
   {
     "id": "mst_dreadnought",
     "name": "Dreadnought",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_vanguard",
     "base_stats_bonus": {
       "hp": 500,
@@ -44,12 +48,14 @@
       "sk_dread_act_1",
       "sk_dread_act_3",
       "sk_dread_ult"
-    ]
+    ],
+    "description": "Living siege engine. Enormous health and armor let a Dreadnought walk through volleys that would drop a squad.",
+    "isActive": 1
   },
   {
     "id": "mst_sentinel",
     "name": "Sentinel",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_vanguard",
     "base_stats_bonus": {
       "def": 15
@@ -58,7 +64,9 @@
       "sk_sent_pas",
       "sk_sent_act_1",
       "sk_sent_act_2"
-    ]
+    ],
+    "description": "Immovable guardian. Almost nothing gets past a Sentinel's guard, at the cost of limited offense.",
+    "isActive": 1
   },
   {
     "id": "adv_berserker",
@@ -74,12 +82,14 @@
       "sk_ber_pas",
       "sk_ber_act_1",
       "sk_ber_act_2"
-    ]
+    ],
+    "description": "Enforcer who abandons defense for fury. Hits harder the longer a fight lasts, and bleeds for it.",
+    "isActive": 1
   },
   {
     "id": "mst_warlord",
     "name": "Warlord",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_berserker",
     "base_stats_bonus": {
       "atk": 20
@@ -90,12 +100,14 @@
       "sk_warlord_act_2",
       "sk_warlord_act_3",
       "sk_warlord_ult"
-    ]
+    ],
+    "description": "Battlefield tyrant. Turns personal rage into commanding presence and crushing weapon swings.",
+    "isActive": 1
   },
   {
     "id": "mst_ravager",
     "name": "Ravager",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_berserker",
     "base_stats_bonus": {
       "atk": 15,
@@ -105,7 +117,9 @@
       "sk_rav_pas_1",
       "sk_rav_act_1",
       "sk_rav_act_2"
-    ]
+    ],
+    "description": "Bleeding-edge berserker. Chains wounds and keeps moving so the target never gets a clean recovery.",
+    "isActive": 1
   },
   {
     "id": "adv_dragoon",
@@ -120,12 +134,14 @@
       "sk_dra_pas",
       "sk_dra_act_1",
       "sk_dra_act_2"
-    ]
+    ],
+    "description": "Polearm specialist who mixes Enforcer weight with sudden bursts of speed.",
+    "isActive": 1
   },
   {
     "id": "mst_skyreaver",
     "name": "Skyreaver",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_dragoon",
     "base_stats_bonus": {
       "agility": 15,
@@ -135,12 +151,14 @@
       "sk_sky_pas",
       "sk_sky_act_1",
       "sk_sky_act_2"
-    ]
+    ],
+    "description": "Aerial lancer. Closes distance in a leap and leaves the target exposed before they can reset.",
+    "isActive": 1
   },
   {
     "id": "mst_voidlancer",
     "name": "Void Lancer",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_dragoon",
     "base_stats_bonus": {
       "atk": 10,
@@ -150,7 +168,9 @@
       "sk_void_pas",
       "sk_void_act_1",
       "sk_void_act_2"
-    ]
+    ],
+    "description": "Perception-tuned lancer who aims at weak points and pierces through cover.",
+    "isActive": 1
   },
   {
     "id": "base_strider",
@@ -165,7 +185,9 @@
       "sk_str_pas",
       "sk_str_act_1",
       "sk_str_act_2"
-    ]
+    ],
+    "description": "Light fighter built on footwork and awareness. Survives by not being where the blow lands.",
+    "isActive": 1
   },
   {
     "id": "adv_assassin",
@@ -180,12 +202,14 @@
       "sk_ass_pas",
       "sk_ass_act_1",
       "sk_ass_act_2"
-    ]
+    ],
+    "description": "Close-range killer. Opens from a blind angle and finishes before the target turns.",
+    "isActive": 1
   },
   {
     "id": "mst_shadowblade",
     "name": "Shadowblade",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_assassin",
     "base_stats_bonus": {
       "agility": 15,
@@ -195,12 +219,14 @@
       "sk_shad_pas",
       "sk_shad_act_1",
       "sk_shad_act_2"
-    ]
+    ],
+    "description": "Darkness duelist. Stacks critical windows and vanishes between exchanges.",
+    "isActive": 1
   },
   {
     "id": "mst_phantom",
     "name": "Phantom",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_assassin",
     "base_stats_bonus": {
       "agility": 10,
@@ -210,7 +236,9 @@
       "sk_phantom_pas",
       "sk_phantom_act_1",
       "sk_phantom_act_2"
-    ]
+    ],
+    "description": "Misdirection specialist. Reads intent, then punishes the swing that was never going to land.",
+    "isActive": 1
   },
   {
     "id": "adv_ranger",
@@ -225,12 +253,14 @@
       "sk_ran_pas",
       "sk_ran_act_1",
       "sk_ran_act_2"
-    ]
+    ],
+    "description": "Tracker and marksman. Reads terrain, wind, and prey before the first shot.",
+    "isActive": 1
   },
   {
-    "id": "mst_beastmaster",
-    "name": "Beastmaster",
-    "tier": "Master",
+    "id": "mst_beastExpert",
+    "name": "BeastExpert",
+    "tier": "Expert",
     "parent_id": "adv_ranger",
     "base_stats_bonus": {
       "hp": 50,
@@ -240,12 +270,14 @@
       "sk_beastmaster_pas",
       "sk_beastmaster_act_1",
       "sk_beastmaster_act_2"
-    ]
+    ],
+    "description": "Ranger who fights with a bonded beast. Shares senses and splits the enemy's attention.",
+    "isActive": 1
   },
   {
     "id": "mst_sniperelite",
     "name": "Sniper Elite",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_ranger",
     "base_stats_bonus": {
       "perception": 18,
@@ -255,7 +287,9 @@
       "sk_snp_pas",
       "sk_snp_act_1",
       "sk_snp_act_2"
-    ]
+    ],
+    "description": "Extreme-range shooter. One clean shot is worth more than a magazine of panic fire.",
+    "isActive": 1
   },
   {
     "id": "adv_gunslinger",
@@ -270,12 +304,14 @@
       "sk_gun_pas",
       "sk_gun_act_1",
       "sk_gun_act_2"
-    ]
+    ],
+    "description": "Hip-fire specialist. Perception and agility keep the cylinder turning and the feet moving.",
+    "isActive": 1
   },
   {
     "id": "mst_desperado",
     "name": "Desperado",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_gunslinger",
     "base_stats_bonus": {
       "agility": 12,
@@ -285,12 +321,14 @@
       "sk_desp_pas",
       "sk_desp_act_1",
       "sk_desp_act_2"
-    ]
+    ],
+    "description": "Duelist of the open street. Wins by drawing first and refusing to stand still.",
+    "isActive": 1
   },
   {
     "id": "mst_techdrifter",
     "name": "Tech-Drifter",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_gunslinger",
     "base_stats_bonus": {
       "perception": 10,
@@ -300,7 +338,9 @@
       "sk_techdrifter_pas",
       "sk_techdrifter_act_1",
       "sk_techdrifter_act_2"
-    ]
+    ],
+    "description": "Gunhand wired into scavenged tech. Mixes ballistics with gadgets and short-range hacks.",
+    "isActive": 1
   },
   {
     "id": "base_channeler",
@@ -315,7 +355,9 @@
       "sk_channeler_pas",
       "sk_channeler_act_1",
       "sk_channeler_act_2"
-    ]
+    ],
+    "description": "Conduit for ambient power. Perception opens the channel; mana keeps it stable.",
+    "isActive": 1
   },
   {
     "id": "adv_mystic",
@@ -329,12 +371,14 @@
       "sk_mys_pas",
       "sk_mys_act_1",
       "sk_mys_act_2"
-    ]
+    ],
+    "description": "Pure channeler. Deepens perception until spells land with very little waste.",
+    "isActive": 1
   },
   {
     "id": "mst_archon",
     "name": "Archon",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_mystic",
     "base_stats_bonus": {
       "perception": 20,
@@ -344,12 +388,14 @@
       "sk_archon_pas",
       "sk_archon_act_1",
       "sk_archon_act_2"
-    ]
+    ],
+    "description": "High conduit. Enormous mana and perception make an Archon the center of any ritual fight.",
+    "isActive": 1
   },
   {
     "id": "mst_chronomancer",
     "name": "Chronomancer",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_mystic",
     "base_stats_bonus": {
       "perception": 10,
@@ -359,7 +405,9 @@
       "sk_chronomancer_pas",
       "sk_chronomancer_act_1",
       "sk_chronomancer_act_2"
-    ]
+    ],
+    "description": "Time-bent mystic. Steals beats from the turn order and spends them as extra actions.",
+    "isActive": 1
   },
   {
     "id": "adv_warpriest",
@@ -375,12 +423,14 @@
       "sk_warpriest_pas",
       "sk_warpriest_act_1",
       "sk_warpriest_act_2"
-    ]
+    ],
+    "description": "Channeler who takes the oath onto the front line. Faith, steel, and a smaller mana pool.",
+    "isActive": 1
   },
   {
     "id": "mst_templar",
     "name": "Templar",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_warpriest",
     "base_stats_bonus": {
       "hp": 50,
@@ -390,12 +440,14 @@
       "sk_templar_pas",
       "sk_templar_act_1",
       "sk_templar_act_2"
-    ]
+    ],
+    "description": "Armored warpriest. Holds consecrated ground and keeps allies standing inside it.",
+    "isActive": 1
   },
   {
     "id": "mst_arbiter",
     "name": "Arbiter",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_warpriest",
     "base_stats_bonus": {
       "perception": 15,
@@ -405,7 +457,9 @@
       "sk_arbiter_pas",
       "sk_arbiter_act_1",
       "sk_arbiter_act_2"
-    ]
+    ],
+    "description": "Judgment caster. Weighs a target and spends mana to enforce the verdict.",
+    "isActive": 1
   },
   {
     "id": "adv_summoner",
@@ -420,12 +474,14 @@
       "sk_summoner_pas",
       "sk_summoner_act_1",
       "sk_summoner_act_2"
-    ]
+    ],
+    "description": "Channeler who spends mana to call something else into the fight.",
+    "isActive": 1
   },
   {
     "id": "mst_voidcaller",
     "name": "Void Caller",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_summoner",
     "base_stats_bonus": {
       "perception": 15
@@ -434,12 +490,14 @@
       "sk_voidcaller_pas",
       "sk_voidcaller_act_1",
       "sk_voidcaller_act_2"
-    ]
+    ],
+    "description": "Summoner of rifts. Pulls hostile entities from elsewhere and points them at a target.",
+    "isActive": 1
   },
   {
     "id": "mst_golemancer",
     "name": "Golemancer",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_summoner",
     "base_stats_bonus": {
       "perception": 10,
@@ -449,7 +507,9 @@
       "sk_golemancer_pas",
       "sk_golemancer_act_1",
       "sk_golemancer_act_2"
-    ]
+    ],
+    "description": "Summoner of constructs. Builds a body that soaks damage the caster cannot.",
+    "isActive": 1
   },
   {
     "id": "base_machinist",
@@ -464,7 +524,9 @@
       "sk_machinist_pas",
       "sk_machinist_act_1",
       "sk_machinist_act_2"
-    ]
+    ],
+    "description": "Hands-on tinkerer. Perception finds the fault; a tool or a shot exploits it.",
+    "isActive": 1
   },
   {
     "id": "adv_artificer",
@@ -478,12 +540,14 @@
       "sk_artificer_pas",
       "sk_artificer_act_1",
       "sk_artificer_act_2"
-    ]
+    ],
+    "description": "Device specialist. Turns scavenged parts into repeatable combat tools.",
+    "isActive": 1
   },
   {
     "id": "mst_mechapilot",
     "name": "Mecha Pilot",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_artificer",
     "base_stats_bonus": {
       "atk": 5,
@@ -494,12 +558,14 @@
       "sk_mechapilot_pas",
       "sk_mechapilot_act_1",
       "sk_mechapilot_act_2"
-    ]
+    ],
+    "description": "Artificer in a frame. The suit carries the hp and the pilot carries the targeting.",
+    "isActive": 1
   },
   {
     "id": "mst_cyberarchitect",
     "name": "Cyber-Architect",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_artificer",
     "base_stats_bonus": {
       "perception": 15,
@@ -509,7 +575,9 @@
       "sk_cyberarchitect_pas",
       "sk_cyberarchitect_act_1",
       "sk_cyberarchitect_act_2"
-    ]
+    ],
+    "description": "Systems builder. Raises temporary structures and defensive grids mid-fight.",
+    "isActive": 1
   },
   {
     "id": "adv_saboteur",
@@ -524,12 +592,14 @@
       "sk_saboteur_pas",
       "sk_saboteur_act_1",
       "sk_saboteur_act_2"
-    ]
+    ],
+    "description": "Machinist who breaks things on purpose. Fast hands, planted charges, cut lines.",
+    "isActive": 1
   },
   {
     "id": "mst_demolitionist",
     "name": "Demolitionist",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_saboteur",
     "base_stats_bonus": {
       "perception": 12,
@@ -539,12 +609,14 @@
       "sk_demolitionist_pas",
       "sk_demolitionist_act_1",
       "sk_demolitionist_act_2"
-    ]
+    ],
+    "description": "Charge specialist. Shapes blasts so the kill zone is intentional, not accidental.",
+    "isActive": 1
   },
   {
     "id": "mst_netrunner",
     "name": "Netrunner",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_saboteur",
     "base_stats_bonus": {
       "perception": 15,
@@ -554,7 +626,9 @@
       "sk_netrunner_pas",
       "sk_netrunner_act_1",
       "sk_netrunner_act_2"
-    ]
+    ],
+    "description": "Intrusion specialist. Burns mana-like focus to hijack devices and living systems alike.",
+    "isActive": 1
   },
   {
     "id": "adv_alchemist",
@@ -569,12 +643,14 @@
       "sk_alchemist_pas",
       "sk_alchemist_act_1",
       "sk_alchemist_act_2"
-    ]
+    ],
+    "description": "Compound specialist. Mixes reagents into effects the body cannot ignore.",
+    "isActive": 1
   },
   {
     "id": "mst_bioengineer",
     "name": "Bio-Engineer",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_alchemist",
     "base_stats_bonus": {
       "perception": 10,
@@ -584,12 +660,14 @@
       "sk_bioengineer_pas",
       "sk_bioengineer_act_1",
       "sk_bioengineer_act_2"
-    ]
+    ],
+    "description": "Alchemist of living tissue. Rewrites a wound into a recovery, or a recovery into a weapon.",
+    "isActive": 1
   },
   {
     "id": "mst_plaguespreader",
     "name": "Plague Spreader",
-    "tier": "Master",
+    "tier": "Expert",
     "parent_id": "adv_alchemist",
     "base_stats_bonus": {
       "perception": 12,
@@ -599,6 +677,895 @@
       "sk_plaguespreader_pas",
       "sk_plaguespreader_act_1",
       "sk_plaguespreader_act_2"
-    ]
+    ],
+    "description": "Weaponized chemist. Seeds a status and lets the fight do the rest of the work.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_ironcolossus",
+    "name": "Iron Colossus",
+    "tier": "Master",
+    "parent_id": "mst_dreadnought",
+    "base_stats_bonus": {
+      "hp": 800,
+      "def": 25
+    },
+    "learnable_skill_ids": [
+      "sk_ironcolossus_pas",
+      "sk_ironcolossus_act_1",
+      "sk_ironcolossus_act_2",
+      "sk_ironcolossus_ult"
+    ],
+    "description": "Dreadnought who stopped being a soldier and became a wall. Absorbs siege fire and answers with a step that shakes the line.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_siegebreaker",
+    "name": "Siegebreaker",
+    "tier": "Master",
+    "parent_id": "mst_dreadnought",
+    "base_stats_bonus": {
+      "hp": 350,
+      "atk": 25,
+      "def": 12
+    },
+    "learnable_skill_ids": [
+      "sk_siegebreaker_pas",
+      "sk_siegebreaker_act_1",
+      "sk_siegebreaker_act_2",
+      "sk_siegebreaker_ult"
+    ],
+    "description": "Dreadnought turned into a ram. Still absurdly hard to drop, but built to open gates, shields, and formations.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_aegisward",
+    "name": "Aegis Ward",
+    "tier": "Master",
+    "parent_id": "mst_sentinel",
+    "base_stats_bonus": {
+      "def": 20,
+      "hp": 220,
+      "perception": 5
+    },
+    "learnable_skill_ids": [
+      "sk_aegisward_pas",
+      "sk_aegisward_act_1",
+      "sk_aegisward_act_2",
+      "sk_aegisward_ult"
+    ],
+    "description": "Sentinel whose guard extends past their own body. Plants a ward and makes the space behind it expensive to enter.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_bulwark",
+    "name": "Bulwark",
+    "tier": "Master",
+    "parent_id": "mst_sentinel",
+    "base_stats_bonus": {
+      "def": 35,
+      "hp": 180
+    },
+    "learnable_skill_ids": [
+      "sk_bulwark_pas",
+      "sk_bulwark_act_1",
+      "sk_bulwark_act_2",
+      "sk_bulwark_ult"
+    ],
+    "description": "Personal fortress. Gives up reach for a guard stance that barely moves, even under ultimates.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_conqueror",
+    "name": "Conqueror",
+    "tier": "Master",
+    "parent_id": "mst_warlord",
+    "base_stats_bonus": {
+      "atk": 28,
+      "hp": 220
+    },
+    "learnable_skill_ids": [
+      "sk_conqueror_pas",
+      "sk_conqueror_act_1",
+      "sk_conqueror_act_2",
+      "sk_conqueror_ult"
+    ],
+    "description": "Warlord who fights as a banner. Personal damage is high, and nearby allies hit harder while the Conqueror is standing.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_bloodtyrant",
+    "name": "Blood Tyrant",
+    "tier": "Master",
+    "parent_id": "mst_warlord",
+    "base_stats_bonus": {
+      "atk": 40,
+      "def": -8,
+      "hp": 80
+    },
+    "learnable_skill_ids": [
+      "sk_bloodtyrant_pas",
+      "sk_bloodtyrant_act_1",
+      "sk_bloodtyrant_act_2",
+      "sk_bloodtyrant_ult"
+    ],
+    "description": "Warlord who spends their own blood as fuel. Peak single-target brutality with almost no safety margin.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_gorefiend",
+    "name": "Gorefiend",
+    "tier": "Master",
+    "parent_id": "mst_ravager",
+    "base_stats_bonus": {
+      "atk": 22,
+      "agility": 8
+    },
+    "learnable_skill_ids": [
+      "sk_gorefiend_pas",
+      "sk_gorefiend_act_1",
+      "sk_gorefiend_act_2",
+      "sk_gorefiend_ult"
+    ],
+    "description": "Ravager obsessed with open wounds. Every hit extends a bleed and punishes anyone already leaking.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_rampager",
+    "name": "Rampager",
+    "tier": "Master",
+    "parent_id": "mst_ravager",
+    "base_stats_bonus": {
+      "atk": 16,
+      "agility": 18
+    },
+    "learnable_skill_ids": [
+      "sk_rampager_pas",
+      "sk_rampager_act_1",
+      "sk_rampager_act_2",
+      "sk_rampager_ult"
+    ],
+    "description": "Ravager who never resets. Chains dashes through a pack and leaves a trail of half-finished kills.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_stormlancer",
+    "name": "Stormlancer",
+    "tier": "Master",
+    "parent_id": "mst_skyreaver",
+    "base_stats_bonus": {
+      "agility": 22,
+      "atk": 12
+    },
+    "learnable_skill_ids": [
+      "sk_stormlancer_pas",
+      "sk_stormlancer_act_1",
+      "sk_stormlancer_act_2",
+      "sk_stormlancer_ult"
+    ],
+    "description": "Skyreaver who rides the fall. Leap, impact, and a shock that staggers everyone near the landing.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_skydancer",
+    "name": "Skydancer",
+    "tier": "Master",
+    "parent_id": "mst_skyreaver",
+    "base_stats_bonus": {
+      "agility": 28,
+      "perception": 6
+    },
+    "learnable_skill_ids": [
+      "sk_skydancer_pas",
+      "sk_skydancer_act_1",
+      "sk_skydancer_act_2",
+      "sk_skydancer_ult"
+    ],
+    "description": "Skyreaver who treats the air as cover. Evades more than they tank, and punishes the whiff.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_riftpiercer",
+    "name": "Riftpiercer",
+    "tier": "Master",
+    "parent_id": "mst_voidlancer",
+    "base_stats_bonus": {
+      "atk": 22,
+      "perception": 12
+    },
+    "learnable_skill_ids": [
+      "sk_riftpiercer_pas",
+      "sk_riftpiercer_act_1",
+      "sk_riftpiercer_act_2",
+      "sk_riftpiercer_ult"
+    ],
+    "description": "Void Lancer who opens a short rift on the thrust. The hit ignores a slice of defense and arrives early.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_eclipselancer",
+    "name": "Eclipse Lancer",
+    "tier": "Master",
+    "parent_id": "mst_voidlancer",
+    "base_stats_bonus": {
+      "atk": 14,
+      "perception": 20
+    },
+    "learnable_skill_ids": [
+      "sk_eclipselancer_pas",
+      "sk_eclipselancer_act_1",
+      "sk_eclipselancer_act_2",
+      "sk_eclipselancer_ult"
+    ],
+    "description": "Void Lancer who blacks out a target's read. Marks a weak point, then blinds the window they needed to dodge.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_nightreaper",
+    "name": "Night Reaper",
+    "tier": "Master",
+    "parent_id": "mst_shadowblade",
+    "base_stats_bonus": {
+      "agility": 22,
+      "atk": 12
+    },
+    "learnable_skill_ids": [
+      "sk_nightreaper_pas",
+      "sk_nightreaper_act_1",
+      "sk_nightreaper_act_2",
+      "sk_nightreaper_ult"
+    ],
+    "description": "Shadowblade who only commits when the target is isolated. Execute windows are short and absolute.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_umbralduelist",
+    "name": "Umbral Duelist",
+    "tier": "Master",
+    "parent_id": "mst_shadowblade",
+    "base_stats_bonus": {
+      "agility": 18,
+      "perception": 12
+    },
+    "learnable_skill_ids": [
+      "sk_umbralduelist_pas",
+      "sk_umbralduelist_act_1",
+      "sk_umbralduelist_act_2",
+      "sk_umbralduelist_ult"
+    ],
+    "description": "Shadowblade who duels in the dark. Counters the next swing and answers from the off-hand.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_wraith",
+    "name": "Wraith",
+    "tier": "Master",
+    "parent_id": "mst_phantom",
+    "base_stats_bonus": {
+      "agility": 18,
+      "perception": 16
+    },
+    "learnable_skill_ids": [
+      "sk_wraith_pas",
+      "sk_wraith_act_1",
+      "sk_wraith_act_2",
+      "sk_wraith_ult"
+    ],
+    "description": "Phantom who slips out of the hitbox. A missed attack against a Wraith is often the last clean action the attacker gets.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_mirage",
+    "name": "Mirage",
+    "tier": "Master",
+    "parent_id": "mst_phantom",
+    "base_stats_bonus": {
+      "perception": 22,
+      "agility": 10
+    },
+    "learnable_skill_ids": [
+      "sk_mirage_pas",
+      "sk_mirage_act_1",
+      "sk_mirage_act_2",
+      "sk_mirage_ult"
+    ],
+    "description": "Phantom who fights with copies. The real body is rarely the one the enemy committed to.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_packalpha",
+    "name": "Pack Alpha",
+    "tier": "Master",
+    "parent_id": "mst_beastExpert",
+    "base_stats_bonus": {
+      "hp": 180,
+      "perception": 14,
+      "atk": 10
+    },
+    "learnable_skill_ids": [
+      "sk_packalpha_pas",
+      "sk_packalpha_act_1",
+      "sk_packalpha_act_2",
+      "sk_packalpha_ult"
+    ],
+    "description": "Beastmaster who leads more than one bond. The pack splits focus and the Alpha finishes whatever is marked.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_wildbound",
+    "name": "Wildbound",
+    "tier": "Master",
+    "parent_id": "mst_beastExpert",
+    "base_stats_bonus": {
+      "perception": 20,
+      "agility": 10,
+      "hp": 60
+    },
+    "learnable_skill_ids": [
+      "sk_wildbound_pas",
+      "sk_wildbound_act_1",
+      "sk_wildbound_act_2",
+      "sk_wildbound_ult"
+    ],
+    "description": "Beastmaster who shares a body-sense with the beast. Moves as one unit and covers the angles the other cannot.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_deadeye",
+    "name": "Deadeye",
+    "tier": "Master",
+    "parent_id": "mst_sniperelite",
+    "base_stats_bonus": {
+      "perception": 28,
+      "atk": 10
+    },
+    "learnable_skill_ids": [
+      "sk_deadeye_pas",
+      "sk_deadeye_act_1",
+      "sk_deadeye_act_2",
+      "sk_deadeye_ult"
+    ],
+    "description": "Sniper Elite at the edge of the map. Holds a shot until the weak point is certain, then ends the exchange.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_ghostmarksman",
+    "name": "Ghost Marksman",
+    "tier": "Master",
+    "parent_id": "mst_sniperelite",
+    "base_stats_bonus": {
+      "perception": 22,
+      "agility": 14
+    },
+    "learnable_skill_ids": [
+      "sk_ghostmarksman_pas",
+      "sk_ghostmarksman_act_1",
+      "sk_ghostmarksman_act_2",
+      "sk_ghostmarksman_ult"
+    ],
+    "description": "Sniper Elite who relocates after every shot. The second round never comes from the same nest.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_outlawking",
+    "name": "Outlaw King",
+    "tier": "Master",
+    "parent_id": "mst_desperado",
+    "base_stats_bonus": {
+      "agility": 20,
+      "atk": 12,
+      "perception": 6
+    },
+    "learnable_skill_ids": [
+      "sk_outlawking_pas",
+      "sk_outlawking_act_1",
+      "sk_outlawking_act_2",
+      "sk_outlawking_ult"
+    ],
+    "description": "Desperado who owns the street. Fan-fire and a presence that makes allies braver and targets sloppier.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_quickdrawsaint",
+    "name": "Quickdraw Saint",
+    "tier": "Master",
+    "parent_id": "mst_desperado",
+    "base_stats_bonus": {
+      "agility": 16,
+      "perception": 18
+    },
+    "learnable_skill_ids": [
+      "sk_quickdrawsaint_pas",
+      "sk_quickdrawsaint_act_1",
+      "sk_quickdrawsaint_act_2",
+      "sk_quickdrawsaint_ult"
+    ],
+    "description": "Desperado whose draw is a ritual. Wins the first frame of a duel and rarely needs a third shot.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_chromegunner",
+    "name": "Chrome Gunner",
+    "tier": "Master",
+    "parent_id": "mst_techdrifter",
+    "base_stats_bonus": {
+      "perception": 16,
+      "atk": 12,
+      "agility": 6
+    },
+    "learnable_skill_ids": [
+      "sk_chromegunner_pas",
+      "sk_chromegunner_act_1",
+      "sk_chromegunner_act_2",
+      "sk_chromegunner_ult"
+    ],
+    "description": "Tech-Drifter bolted into a heavier rig. Smart rounds, heat sinks, and a gun that does not jam when the fight gets ugly.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_circuitcowboy",
+    "name": "Circuit Cowboy",
+    "tier": "Master",
+    "parent_id": "mst_techdrifter",
+    "base_stats_bonus": {
+      "agility": 16,
+      "perception": 14,
+      "mp": 30
+    },
+    "learnable_skill_ids": [
+      "sk_circuitcowboy_pas",
+      "sk_circuitcowboy_act_1",
+      "sk_circuitcowboy_act_2",
+      "sk_circuitcowboy_ult"
+    ],
+    "description": "Tech-Drifter who hacks between shots. A tagged enemy fights with one system already lying to them.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_ascendant",
+    "name": "Ascendant",
+    "tier": "Master",
+    "parent_id": "mst_archon",
+    "base_stats_bonus": {
+      "perception": 28,
+      "mp": 180
+    },
+    "learnable_skill_ids": [
+      "sk_ascendant_pas",
+      "sk_ascendant_act_1",
+      "sk_ascendant_act_2",
+      "sk_ascendant_ult"
+    ],
+    "description": "Archon who stopped channeling and started overflowing. Spells are larger, longer, and much more expensive.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_oracleprime",
+    "name": "Oracle Prime",
+    "tier": "Master",
+    "parent_id": "mst_archon",
+    "base_stats_bonus": {
+      "perception": 34,
+      "mp": 100
+    },
+    "learnable_skill_ids": [
+      "sk_oracleprime_pas",
+      "sk_oracleprime_act_1",
+      "sk_oracleprime_act_2",
+      "sk_oracleprime_ult"
+    ],
+    "description": "Archon who reads the fight before it resolves. Less raw mana, more information, and spells that land on the future position.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_timeweaver",
+    "name": "Timeweaver",
+    "tier": "Master",
+    "parent_id": "mst_chronomancer",
+    "base_stats_bonus": {
+      "perception": 16,
+      "agility": 16,
+      "mp": 50
+    },
+    "learnable_skill_ids": [
+      "sk_timeweaver_pas",
+      "sk_timeweaver_act_1",
+      "sk_timeweaver_act_2",
+      "sk_timeweaver_ult"
+    ],
+    "description": "Chronomancer who braids short loops. Rewinds a mistake, or forces an enemy to repeat a bad beat.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_paradox",
+    "name": "Paradox",
+    "tier": "Master",
+    "parent_id": "mst_chronomancer",
+    "base_stats_bonus": {
+      "agility": 22,
+      "perception": 14
+    },
+    "learnable_skill_ids": [
+      "sk_paradox_pas",
+      "sk_paradox_act_1",
+      "sk_paradox_act_2",
+      "sk_paradox_ult"
+    ],
+    "description": "Chronomancer who breaks causality on purpose. Acts twice in a window where everyone else acts once.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_crusader",
+    "name": "Crusader",
+    "tier": "Master",
+    "parent_id": "mst_templar",
+    "base_stats_bonus": {
+      "hp": 180,
+      "atk": 14,
+      "perception": 8
+    },
+    "learnable_skill_ids": [
+      "sk_crusader_pas",
+      "sk_crusader_act_1",
+      "sk_crusader_act_2",
+      "sk_crusader_ult"
+    ],
+    "description": "Templar on the offensive oath. Consecrated strikes that heal a sliver of the damage they deal.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_oathkeeper",
+    "name": "Oathkeeper",
+    "tier": "Master",
+    "parent_id": "mst_templar",
+    "base_stats_bonus": {
+      "hp": 140,
+      "def": 18,
+      "perception": 12
+    },
+    "learnable_skill_ids": [
+      "sk_oathkeeper_pas",
+      "sk_oathkeeper_act_1",
+      "sk_oathkeeper_act_2",
+      "sk_oathkeeper_ult"
+    ],
+    "description": "Templar who holds the vow. Intercepts a blow meant for an ally and answers with a ward, not a chase.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_judicator",
+    "name": "Judicator",
+    "tier": "Master",
+    "parent_id": "mst_arbiter",
+    "base_stats_bonus": {
+      "perception": 22,
+      "mp": 90
+    },
+    "learnable_skill_ids": [
+      "sk_judicator_pas",
+      "sk_judicator_act_1",
+      "sk_judicator_act_2",
+      "sk_judicator_ult"
+    ],
+    "description": "Arbiter who delivers sentence in an area. Guilt is a status, and the next spell spends it.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_inquisitor",
+    "name": "Inquisitor",
+    "tier": "Master",
+    "parent_id": "mst_arbiter",
+    "base_stats_bonus": {
+      "perception": 18,
+      "atk": 14,
+      "mp": 40
+    },
+    "learnable_skill_ids": [
+      "sk_inquisitor_pas",
+      "sk_inquisitor_act_1",
+      "sk_inquisitor_act_2",
+      "sk_inquisitor_ult"
+    ],
+    "description": "Arbiter who questions with a blade. Mixes mana verdicts with melee so a silenced caster still dies.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_abyssherald",
+    "name": "Abyss Herald",
+    "tier": "Master",
+    "parent_id": "mst_voidcaller",
+    "base_stats_bonus": {
+      "perception": 24,
+      "mp": 90
+    },
+    "learnable_skill_ids": [
+      "sk_abyssherald_pas",
+      "sk_abyssherald_act_1",
+      "sk_abyssherald_act_2",
+      "sk_abyssherald_ult"
+    ],
+    "description": "Void Caller who keeps the rift open. Summons last longer and arrive already hostile to the marked target.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_riftbinder",
+    "name": "Riftbinder",
+    "tier": "Master",
+    "parent_id": "mst_voidcaller",
+    "base_stats_bonus": {
+      "perception": 18,
+      "mp": 70,
+      "def": 10
+    },
+    "learnable_skill_ids": [
+      "sk_riftbinder_pas",
+      "sk_riftbinder_act_1",
+      "sk_riftbinder_act_2",
+      "sk_riftbinder_ult"
+    ],
+    "description": "Void Caller who anchors the tear to their own body. Fewer summons, harder to dispel, and a personal shield from the rift.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_titanforger",
+    "name": "Titanforger",
+    "tier": "Master",
+    "parent_id": "mst_golemancer",
+    "base_stats_bonus": {
+      "def": 22,
+      "hp": 200,
+      "perception": 8
+    },
+    "learnable_skill_ids": [
+      "sk_titanforger_pas",
+      "sk_titanforger_act_1",
+      "sk_titanforger_act_2",
+      "sk_titanforger_ult"
+    ],
+    "description": "Golemancer of siege constructs. The golem is a second tank, and the caster hides in its shadow.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_runesmith",
+    "name": "Runesmith",
+    "tier": "Master",
+    "parent_id": "mst_golemancer",
+    "base_stats_bonus": {
+      "perception": 20,
+      "def": 12,
+      "mp": 40
+    },
+    "learnable_skill_ids": [
+      "sk_runesmith_pas",
+      "sk_runesmith_act_1",
+      "sk_runesmith_act_2",
+      "sk_runesmith_ult"
+    ],
+    "description": "Golemancer who writes combat into the construct. Runes swap the golem between guard, slam, and pulse.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_titanpilot",
+    "name": "Titan Pilot",
+    "tier": "Master",
+    "parent_id": "mst_mechapilot",
+    "base_stats_bonus": {
+      "atk": 18,
+      "hp": 250,
+      "perception": 10
+    },
+    "learnable_skill_ids": [
+      "sk_titanpilot_pas",
+      "sk_titanpilot_act_1",
+      "sk_titanpilot_act_2",
+      "sk_titanpilot_ult"
+    ],
+    "description": "Mecha Pilot in a heavy frame. Slow to turn, brutal when the weapon system is online.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_aceframe",
+    "name": "Ace Frame",
+    "tier": "Master",
+    "parent_id": "mst_mechapilot",
+    "base_stats_bonus": {
+      "atk": 12,
+      "agility": 14,
+      "perception": 14
+    },
+    "learnable_skill_ids": [
+      "sk_aceframe_pas",
+      "sk_aceframe_act_1",
+      "sk_aceframe_act_2",
+      "sk_aceframe_ult"
+    ],
+    "description": "Mecha Pilot in a light frame. Boosts, lock-on, and a cockpit that rewards the pilot who never stops moving.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_gridmind",
+    "name": "Gridmind",
+    "tier": "Master",
+    "parent_id": "mst_cyberarchitect",
+    "base_stats_bonus": {
+      "perception": 28,
+      "mp": 50
+    },
+    "learnable_skill_ids": [
+      "sk_gridmind_pas",
+      "sk_gridmind_act_1",
+      "sk_gridmind_act_2",
+      "sk_gridmind_ult"
+    ],
+    "description": "Cyber-Architect who thinks in networks. Turrets, walls, and hacks share a single grid and buff each other.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_nexusengineer",
+    "name": "Nexus Engineer",
+    "tier": "Master",
+    "parent_id": "mst_cyberarchitect",
+    "base_stats_bonus": {
+      "perception": 18,
+      "def": 16,
+      "hp": 80
+    },
+    "learnable_skill_ids": [
+      "sk_nexusengineer_pas",
+      "sk_nexusengineer_act_1",
+      "sk_nexusengineer_act_2",
+      "sk_nexusengineer_ult"
+    ],
+    "description": "Cyber-Architect who builds a personal nexus. The node tanks, repairs devices, and punishes anyone who breaks a link.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_bombardier",
+    "name": "Bombardier",
+    "tier": "Master",
+    "parent_id": "mst_demolitionist",
+    "base_stats_bonus": {
+      "atk": 20,
+      "perception": 12
+    },
+    "learnable_skill_ids": [
+      "sk_bombardier_pas",
+      "sk_bombardier_act_1",
+      "sk_bombardier_act_2",
+      "sk_bombardier_ult"
+    ],
+    "description": "Demolitionist of long arcs. Lobs shaped charges that detonate on a timer or on contact.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_blastmaster",
+    "name": "Blastmaster",
+    "tier": "Master",
+    "parent_id": "mst_demolitionist",
+    "base_stats_bonus": {
+      "atk": 16,
+      "perception": 16,
+      "hp": 50
+    },
+    "learnable_skill_ids": [
+      "sk_blastmaster_pas",
+      "sk_blastmaster_act_1",
+      "sk_blastmaster_act_2",
+      "sk_blastmaster_ult"
+    ],
+    "description": "Demolitionist who sculpts the blast. Smaller radius, higher pressure, and a knockback that opens the next charge.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_ghostprotocol",
+    "name": "Ghost Protocol",
+    "tier": "Master",
+    "parent_id": "mst_netrunner",
+    "base_stats_bonus": {
+      "perception": 24,
+      "agility": 12,
+      "mp": 40
+    },
+    "learnable_skill_ids": [
+      "sk_ghostprotocol_pas",
+      "sk_ghostprotocol_act_1",
+      "sk_ghostprotocol_act_2",
+      "sk_ghostprotocol_ult"
+    ],
+    "description": "Netrunner who is never on the node they just touched. Hacks, relocates, and leaves a trace that lies.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_daemonking",
+    "name": "Daemon King",
+    "tier": "Master",
+    "parent_id": "mst_netrunner",
+    "base_stats_bonus": {
+      "perception": 22,
+      "mp": 70
+    },
+    "learnable_skill_ids": [
+      "sk_daemonking_pas",
+      "sk_daemonking_act_1",
+      "sk_daemonking_act_2",
+      "sk_daemonking_ult"
+    ],
+    "description": "Netrunner who installs a daemon and lets it work. Damage, silence, and stolen cooldowns tick without a second cast.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_geneweaver",
+    "name": "Geneweaver",
+    "tier": "Master",
+    "parent_id": "mst_bioengineer",
+    "base_stats_bonus": {
+      "perception": 20,
+      "hp": 120,
+      "mp": 30
+    },
+    "learnable_skill_ids": [
+      "sk_geneweaver_pas",
+      "sk_geneweaver_act_1",
+      "sk_geneweaver_act_2",
+      "sk_geneweaver_ult"
+    ],
+    "description": "Bio-Engineer who edits mid-fight. A splice can close a wound or force a mutation the target did not consent to.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_vitaforge",
+    "name": "Vitaforge",
+    "tier": "Master",
+    "parent_id": "mst_bioengineer",
+    "base_stats_bonus": {
+      "hp": 180,
+      "perception": 14,
+      "def": 10
+    },
+    "learnable_skill_ids": [
+      "sk_vitaforge_pas",
+      "sk_vitaforge_act_1",
+      "sk_vitaforge_act_2",
+      "sk_vitaforge_ult"
+    ],
+    "description": "Bio-Engineer of living armor. Grows plates, shares regen, and turns the squad into a harder organism.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_pestilence",
+    "name": "Pestilence",
+    "tier": "Master",
+    "parent_id": "mst_plaguespreader",
+    "base_stats_bonus": {
+      "perception": 20,
+      "atk": 12,
+      "mp": 30
+    },
+    "learnable_skill_ids": [
+      "sk_pestilence_pas",
+      "sk_pestilence_act_1",
+      "sk_pestilence_act_2",
+      "sk_pestilence_ult"
+    ],
+    "description": "Plague Spreader whose strain jumps. One application becomes a cloud, then a second target, then the pack.",
+    "isActive": 1
+  },
+  {
+    "id": "hm_blightlord",
+    "name": "Blightlord",
+    "tier": "Master",
+    "parent_id": "mst_plaguespreader",
+    "base_stats_bonus": {
+      "atk": 18,
+      "perception": 16
+    },
+    "learnable_skill_ids": [
+      "sk_blightlord_pas",
+      "sk_blightlord_act_1",
+      "sk_blightlord_act_2",
+      "sk_blightlord_ult"
+    ],
+    "description": "Plague Spreader who drinks their own work. Deals blight damage and converts a share of it into personal sustain.",
+    "isActive": 1
   }
 ]

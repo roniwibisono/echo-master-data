@@ -10,7 +10,10 @@
         "type": "has_chosen_class",
         "value": true
       },
-      "stat_bonus": { "hp": 15, "mp": 5 }
+      "stat_bonus": {
+        "hp": 15,
+        "mp": 5
+      }
     },
     {
       "id": "slime_slayer",
@@ -22,7 +25,9 @@
         "type": "quest_completed",
         "quest_id": "fq_conc_010"
       },
-      "stat_bonus": { "atk": 5 }
+      "stat_bonus": {
+        "atk": 5
+      }
     },
     {
       "id": "the_veteran",
@@ -37,7 +42,11 @@
       "requirements": {
         "class_tier": "advance"
       },
-      "stat_bonus": { "hp": 30, "atk": 8, "def": 5 }
+      "stat_bonus": {
+        "hp": 30,
+        "atk": 8,
+        "def": 5
+      }
     },
     {
       "id": "echo_breaker",
@@ -49,7 +58,10 @@
         "type": "quest_completed",
         "quest_id": "fq_conc_020"
       },
-      "stat_bonus": { "mp": 20, "per": 5 }
+      "stat_bonus": {
+        "mp": 20,
+        "per": 5
+      }
     },
     {
       "id": "the_master",
@@ -64,7 +76,12 @@
       "requirements": {
         "class_tier": "master"
       },
-      "stat_bonus": { "hp": 50, "mp": 30, "atk": 12, "def": 10 }
+      "stat_bonus": {
+        "hp": 50,
+        "mp": 30,
+        "atk": 12,
+        "def": 10
+      }
     },
     {
       "id": "drake_hunter",
@@ -76,7 +93,11 @@
         "type": "quest_completed",
         "quest_id": "fq_conc_050"
       },
-      "stat_bonus": { "atk": 20, "def": 15, "hp": 40 }
+      "stat_bonus": {
+        "atk": 20,
+        "def": 15,
+        "hp": 40
+      }
     },
     {
       "id": "harbinger_slayer",
@@ -88,7 +109,12 @@
         "type": "quest_completed",
         "quest_id": "fq_conc_060"
       },
-      "stat_bonus": { "atk": 30, "mp": 50, "def": 20, "per": 10 }
+      "stat_bonus": {
+        "atk": 30,
+        "mp": 50,
+        "def": 20,
+        "per": 10
+      }
     },
     {
       "id": "titan_feller",
@@ -100,7 +126,11 @@
         "type": "quest_completed",
         "quest_id": "fq_conc_070"
       },
-      "stat_bonus": { "hp": 100, "def": 30, "atk": 25 }
+      "stat_bonus": {
+        "hp": 100,
+        "def": 30,
+        "atk": 25
+      }
     },
     {
       "id": "the_legend",
@@ -115,7 +145,14 @@
       "requirements": {
         "power_rating": 5000
       },
-      "stat_bonus": { "hp": 150, "mp": 80, "atk": 35, "def": 30, "agi": 15, "per": 15 }
+      "stat_bonus": {
+        "hp": 150,
+        "mp": 80,
+        "atk": 35,
+        "def": 30,
+        "agi": 15,
+        "per": 15
+      }
     },
     {
       "id": "the_eternal",
@@ -127,7 +164,14 @@
         "type": "level",
         "value": 100
       },
-      "stat_bonus": { "hp": 300, "mp": 150, "atk": 50, "def": 50, "agi": 25, "per": 25 }
+      "stat_bonus": {
+        "hp": 300,
+        "mp": 150,
+        "atk": 50,
+        "def": 50,
+        "agi": 25,
+        "per": 25
+      }
     },
     {
       "id": "iron_banker",
@@ -139,7 +183,10 @@
         "type": "credits",
         "value": 500000
       },
-      "stat_bonus": { "hp": 50, "def": 20 }
+      "stat_bonus": {
+        "hp": 50,
+        "def": 20
+      }
     },
     {
       "id": "warmonger",
@@ -151,7 +198,10 @@
         "type": "power_rating",
         "value": 8000
       },
-      "stat_bonus": { "atk": 40, "hp": 80 }
+      "stat_bonus": {
+        "atk": 40,
+        "hp": 80
+      }
     },
     {
       "id": "the_explorer",
@@ -163,7 +213,10 @@
         "type": "explore_count",
         "value": 100
       },
-      "stat_bonus": { "agi": 15, "per": 10 }
+      "stat_bonus": {
+        "agi": 15,
+        "per": 10
+      }
     },
     {
       "id": "the_renowned",
@@ -175,7 +228,11 @@
         "type": "reputation",
         "value": 50000
       },
-      "stat_bonus": { "hp": 40, "mp": 30, "per": 10 }
+      "stat_bonus": {
+        "hp": 40,
+        "mp": 30,
+        "per": 10
+      }
     },
     {
       "id": "the_collector",
@@ -187,7 +244,10 @@
         "type": "inventory_size",
         "value": 100
       },
-      "stat_bonus": { "hp": 25, "def": 10 }
+      "stat_bonus": {
+        "hp": 25,
+        "def": 10
+      }
     },
     {
       "id": "merchant_prince",
@@ -199,7 +259,310 @@
         "type": "trades_completed",
         "value": 20
       },
-      "stat_bonus": { "per": 20, "agi": 10 }
+      "stat_bonus": {
+        "per": 20,
+        "agi": 10
+      }
+    },
+    {
+      "id": "mq_title_unlisted_two_chairs",
+      "name": "Finder of the Unlisted",
+      "description": "A repaired doorplate, returned with permission. An empty address is not an empty life.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_unlisted_two_chairs"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_unlisted_second_number",
+      "name": "Reader Beneath the Paint",
+      "description": "Two legitimate marks preserved on one seal. Agreement is not the same as accuracy.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_unlisted_second_number"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_unlisted_obedient_lock",
+      "name": "Breaker of Empty Orders",
+      "description": "A retired municipal key, preserved as evidence of a failed register rather than a trophy taken from a resident.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_unlisted_obedient_lock"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_unlisted_folded_route",
+      "name": "Keeper of Private Roads",
+      "description": "A ribbon used to refold a notice. Information can remain useful without becoming public.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_unlisted_folded_route"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_unlisted_right_to_remain",
+      "name": "Witness Without Ownership",
+      "description": "A ring engraved with a doorway and no name. Recognition without possession.",
+      "rarity": "EPIC",
+      "tier": 4,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_unlisted_right_to_remain"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_muster_fourth_beat",
+      "name": "Hearer of the Missing Beat",
+      "description": "A discarded bell clapper. Its worth lies in the warning people finally heard.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_muster_fourth_beat"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_muster_boots_outward",
+      "name": "Reader of the Empty Line",
+      "description": "A civilian tool tag whose owner left through the proper safety exit.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_muster_boots_outward"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_muster_cable_thief",
+      "name": "Ender of Repeated Failure",
+      "description": "A sheared cable ferrule kept to teach future repair crews what the failure looked like.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_muster_cable_thief"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_muster_shared_shift",
+      "name": "Keeper of the Shared Shift",
+      "description": "A work token stamped by two suppliers. Cooperation on one shift does not erase their disagreement.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_muster_shared_shift"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_muster_warning_not_oath",
+      "name": "Keeper of the Fourth Beat",
+      "description": "A loop braided from retired bell rope. It honors maintenance, not a borrowed military oath.",
+      "rarity": "EPIC",
+      "tier": 4,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_muster_warning_not_oath"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_zero_weight_nothing",
+      "name": "Appraiser of Nothing",
+      "description": "A tare weight marked zero cargo. It distinguishes a valid storage fee from an invented shipment.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_zero_weight_nothing"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_zero_inside_label",
+      "name": "Reader of Reversed Claims",
+      "description": "A shipping seal from a returned container; its orientation explains its record.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_zero_inside_label"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_zero_fee_at_door",
+      "name": "Breaker of Circular Debt",
+      "description": "A fee seal invalidated for unauthorized use. A collector's misconduct is not a judgment on an entire port.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_zero_fee_at_door"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_zero_rent_inside_rent",
+      "name": "Unfolder of Double Ledgers",
+      "description": "A ledger divider used to separate one service from two charges.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_zero_rent_inside_rent"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_zero_port_without_lie",
+      "name": "Auditor of the Unseen Margin",
+      "description": "A signet bearing an empty crate. Earned by correcting a claim without condemning everyone who trades.",
+      "rarity": "EPIC",
+      "tier": 4,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_zero_port_without_lie"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_quiet_cloth_on_crystal",
+      "name": "Listener Before Believer",
+      "description": "A fork tuned to a damped rib. Its tone is an observation, not a divine translation.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_quiet_cloth_on_crystal"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_quiet_bench_wrong_way",
+      "name": "Reader of the Second Sound",
+      "description": "A token showing a bench turned away from spectacle and toward the sound's actual path.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_quiet_bench_wrong_way"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_quiet_test_without_beast",
+      "name": "Keeper of a Measured Boundary",
+      "description": "A boundary cord from a limited field test. A useful result need not justify unlimited intrusion.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_quiet_test_without_beast"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_quiet_same_pause",
+      "name": "Keeper of Honest Uncertainty",
+      "description": "A crystal carrying two measured intervals. Similarity is evidence; intention is not established.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_quiet_same_pause"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_quiet_silence_kept",
+      "name": "Warden of the Unanswered",
+      "description": "A pendant engraved with a measured pause. It honors the limits of a finding, not mastery of the Shard.",
+      "rarity": "EPIC",
+      "tier": 4,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_quiet_silence_kept"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_armistice_modern_lock",
+      "name": "Divider of Borrowed Histories",
+      "description": "A modern seal from an old chamber. Its custody date is not the chamber's age.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_armistice_modern_lock"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_armistice_burn_without_verdict",
+      "name": "Witness Before Judge",
+      "description": "A plate tracing the limit of heat damage. It records a pattern, not an accusation.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_armistice_burn_without_verdict"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_armistice_safe_for_copy",
+      "name": "Keeper of the Second Copy",
+      "description": "A clip used to keep two independently witnessed archive copies together.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_armistice_safe_for_copy"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_armistice_reserve_not_ransom",
+      "name": "Reader of the Withheld Line",
+      "description": "An audit countertoken identifying a reserve without pretending the people waiting for it suffered no cost.",
+      "rarity": "RARE",
+      "tier": 3,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_armistice_reserve_not_ransom"
+      },
+      "stat_bonus": {}
+    },
+    {
+      "id": "mq_title_armistice_unwritten_witness",
+      "name": "The Unwritten Witness",
+      "description": "Five grooves surround an unfinished witness line. The final groove remains open for a correction not yet heard.",
+      "rarity": "LEGENDARY",
+      "tier": 5,
+      "unlock": {
+        "type": "quest_completed",
+        "quest_id": "mq_armistice_unwritten_witness"
+      },
+      "stat_bonus": {}
     }
   ]
 }

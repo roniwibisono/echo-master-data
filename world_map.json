@@ -138,7 +138,8 @@
         },
         {
           "monster_id": 5043,
-          "spawn_weight": 8
+          "spawn_weight": 8,
+          "level_override": 5
         }
       ],
       "resource_nodes": [
@@ -572,11 +573,13 @@
         },
         {
           "monster_id": 5024,
-          "spawn_weight": 10
+          "spawn_weight": 10,
+          "level_override": 5
         },
         {
           "monster_id": 5044,
-          "spawn_weight": 5
+          "spawn_weight": 5,
+          "level_override": 5
         },
         {
           "monster_id": 50018,
@@ -749,14 +752,6 @@
           "spawn_weight": 30
         },
         {
-          "monster_id": 4013,
-          "spawn_weight": 18
-        },
-        {
-          "monster_id": 4019,
-          "spawn_weight": 10
-        },
-        {
           "monster_id": 5126,
           "spawn_weight": 4
         }
@@ -835,11 +830,13 @@
         },
         {
           "monster_id": 5206,
-          "spawn_weight": 20
+          "spawn_weight": 20,
+          "level_override": 40
         },
         {
           "monster_id": 5206,
-          "spawn_weight": 8
+          "spawn_weight": 8,
+          "level_override": 40
         },
         {
           "monster_id": 5205,
@@ -987,7 +984,8 @@
         },
         {
           "monster_id": 5032,
-          "spawn_weight": 22
+          "spawn_weight": 22,
+          "level_override": 5
         },
         {
           "monster_id": 5003,
@@ -995,7 +993,8 @@
         },
         {
           "monster_id": 5042,
-          "spawn_weight": 5
+          "spawn_weight": 5,
+          "level_override": 5
         },
         {
           "monster_id": 5011,
@@ -1003,7 +1002,8 @@
         },
         {
           "monster_id": 5034,
-          "spawn_weight": 15
+          "spawn_weight": 15,
+          "level_override": 5
         },
         {
           "monster_id": 50012,
@@ -1084,11 +1084,13 @@
         },
         {
           "monster_id": 5135,
-          "spawn_weight": 28
+          "spawn_weight": 28,
+          "level_override": 12
         },
         {
           "monster_id": 5136,
-          "spawn_weight": 20
+          "spawn_weight": 20,
+          "level_override": 12
         },
         {
           "monster_id": 5123,
@@ -1096,7 +1098,8 @@
         },
         {
           "monster_id": 5136,
-          "spawn_weight": 5
+          "spawn_weight": 5,
+          "level_override": 12
         },
         {
           "monster_id": 50035,
@@ -1894,23 +1897,28 @@
       "monster_spawns": [
         {
           "monster_id": 5160,
-          "spawn_weight": 36
+          "spawn_weight": 36,
+          "level_override": 15
         },
         {
           "monster_id": 5161,
-          "spawn_weight": 30
+          "spawn_weight": 30,
+          "level_override": 15
         },
         {
           "monster_id": 5162,
-          "spawn_weight": 22
+          "spawn_weight": 22,
+          "level_override": 15
         },
         {
           "monster_id": 5161,
-          "spawn_weight": 8
+          "spawn_weight": 8,
+          "level_override": 15
         },
         {
           "monster_id": 5162,
-          "spawn_weight": 4
+          "spawn_weight": 4,
+          "level_override": 15
         }
       ],
       "resource_nodes": [
@@ -2304,7 +2312,8 @@
         },
         {
           "monster_id": 5126,
-          "spawn_weight": 7
+          "spawn_weight": 7,
+          "level_override": 14
         },
         {
           "monster_id": 5111,
@@ -2387,19 +2396,23 @@
         },
         {
           "monster_id": 5171,
-          "spawn_weight": 30
+          "spawn_weight": 30,
+          "level_override": 22
         },
         {
           "monster_id": 5172,
-          "spawn_weight": 22
+          "spawn_weight": 22,
+          "level_override": 22
         },
         {
           "monster_id": 5171,
-          "spawn_weight": 8
+          "spawn_weight": 8,
+          "level_override": 22
         },
         {
           "monster_id": 5172,
-          "spawn_weight": 4
+          "spawn_weight": 4,
+          "level_override": 22
         }
       ],
       "resource_nodes": [
@@ -2622,11 +2635,13 @@
         },
         {
           "monster_id": 5025,
-          "spawn_weight": 11
+          "spawn_weight": 11,
+          "level_override": 5
         },
         {
           "monster_id": 5045,
-          "spawn_weight": 5
+          "spawn_weight": 5,
+          "level_override": 5
         },
         {
           "monster_id": 50019,
@@ -2708,7 +2723,8 @@
         },
         {
           "monster_id": 5180,
-          "spawn_weight": 28
+          "spawn_weight": 28,
+          "level_override": 15
         },
         {
           "monster_id": 5019,
@@ -2732,7 +2748,8 @@
         },
         {
           "monster_id": 5131,
-          "spawn_weight": 12
+          "spawn_weight": 12,
+          "level_override": 15
         }
       ],
       "resource_nodes": [
@@ -2808,7 +2825,8 @@
         },
         {
           "monster_id": 5182,
-          "spawn_weight": 22
+          "spawn_weight": 22,
+          "level_override": 25
         },
         {
           "monster_id": 5181,
@@ -2816,7 +2834,8 @@
         },
         {
           "monster_id": 5182,
-          "spawn_weight": 4
+          "spawn_weight": 4,
+          "level_override": 25
         }
       ],
       "resource_nodes": [
@@ -3107,7 +3126,8 @@
         },
         {
           "monster_id": 4017,
-          "spawn_weight": 4
+          "spawn_weight": 4,
+          "level_override": 55
         }
       ],
       "resource_nodes": [
@@ -3988,7 +4008,8 @@
         },
         {
           "monster_id": 4017,
-          "spawn_weight": 20
+          "spawn_weight": 20,
+          "level_override": 55
         }
       ],
       "resource_nodes": [],

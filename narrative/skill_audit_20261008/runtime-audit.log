@@ -1,0 +1,307 @@
+00:00 +0: loading /Users/rnddev/Documents/project-echo/test/combat/skill_audit_test.dart
+00:00 +0: /Users/rnddev/Documents/project-echo/test/combat/skill_audit_test.dart: Skill Audit — Full Simulation Load skill data
+Loaded 881 total skills (566 active, 315 passive)
+00:00 +1: /Users/rnddev/Documents/project-echo/test/combat/skill_audit_test.dart: Skill Audit — Full Simulation Audit ALL active skills
+Audited 566 active skills: 563 passed, 3 failed
+
+=== FAILED SKILLS (3) ===
+
+--- sk_bulwark_ult (Last Wall) ---
+  ❌ HEAL SKILL DAMAGED ALLY: Ally caster lost 75 HP (likely-ally-targeted skill with non-zero formula)
+
+--- sk_paradox_ult (Two of You) ---
+  ❌ HEAL SKILL DAMAGED ALLY: Ally caster lost 90 HP (likely-ally-targeted skill with non-zero formula)
+
+--- sk_abyssherald_act_1 (Herald the Dark) ---
+  ❌ HEAL SKILL DAMAGED ALLY: Ally caster lost 23 HP (likely-ally-targeted skill with non-zero formula)
+
+00:00 +1 -1: /Users/rnddev/Documents/project-echo/test/combat/skill_audit_test.dart: Skill Audit — Full Simulation Audit ALL active skills [E]
+  Expected: <0>
+    Actual: <3>
+  3 active skills failed audit. See log above.
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test/combat/skill_audit_test.dart 489:7             main.<fn>.<fn>
+  
+00:00 +1 -1: /Users/rnddev/Documents/project-echo/test/combat/skill_audit_test.dart: Skill Audit — Full Simulation Audit ALL passive skills
+Audited 315 passive skills: 315 passed, 0 failed
+00:09 +2 -1: loading /Users/rnddev/Documents/project-echo/test/combat/skill_deep_audit_test.dart
+═══════════════════════════════════════════════════════════
+PHASE 1: Effect type coverage
+═══════════════════════════════════════════════════════════
+Registered handlers: 148 types
+No-op types: 54 types
+Unique types in skill data: 138
+
+❌ UNHANDLED EFFECT TYPES (40):
+  "armor_pen" — used by: sk_riftpiercer_act_1
+  "blink_after" — used by: sk_ghostprotocol_act_1
+  "command_summon" — used by: sk_abyssherald_act_2, sk_titanforger_act_2, sk_titanforger_ult, sk_runesmith_act_1, sk_runesmith_act_2
+  "consume_status" — used by: sk_judicator_act_2, sk_blightlord_act_2
+  "control_immunity" — used by: sk_aegisward_ult
+  "cooldown_refund_on_kill" — used by: sk_nightreaper_ult
+  "cooldown_steal" — used by: sk_daemonking_act_2
+  "counter" — used by: sk_bulwark_act_2, sk_skydancer_act_2, sk_umbralduelist_act_1
+  "damage_reduction" — used by: sk_umbralduelist_ult, sk_oracleprime_act_2
+  "decoy" — used by: sk_mirage_act_1, sk_mirage_ult, sk_ghostprotocol_act_2
+  "detonate_status" — used by: sk_gorefiend_ult, sk_daemonking_ult, sk_pestilence_ult
+  "echo_last_damage" — used by: sk_timeweaver_act_2
+  "echo_next_attack" — used by: sk_paradox_ult
+  "empower_next" — used by: sk_chromegunner_act_2
+  "empowered_next" — used by: sk_nightreaper_act_2, sk_ascendant_act_2, sk_titanpilot_act_2
+  "evade" — used by: sk_skydancer_act_1
+  "execute_bonus" — used by: sk_bloodtyrant_ult, sk_nightreaper_act_1, sk_nightreaper_ult, sk_deadeye_ult, sk_quickdrawsaint_ult
+  "extra_action" — used by: sk_timeweaver_ult
+  "heal_over_time" — used by: sk_aegisward_ult
+  "homing" — used by: sk_chromegunner_act_1
+  "intercept" — used by: sk_aegisward_act_2
+  "invert_status" — used by: sk_geneweaver_ult
+  "link_damage" — used by: sk_oathkeeper_act_1
+  "mark_bonus" — used by: sk_deadeye_act_1, sk_oracleprime_act_1
+  "mp_cost_extra" — used by: sk_ascendant_act_2
+  "prevent_death" — used by: sk_oathkeeper_ult
+  "refresh_status" — used by: sk_gorefiend_act_1
+  "reset_cooldowns" — used by: sk_timeweaver_ult
+  "revenge_nova" — used by: sk_nexusengineer_ult
+  "self_hp_cost" — used by: sk_bloodtyrant_act_1
+  "share_heal" — used by: sk_vitaforge_ult
+  "split_shot" — used by: sk_aceframe_act_2
+  "status_spread" — used by: sk_pestilence_act_1, sk_pestilence_ult
+  "stealth" — used by: sk_nightreaper_act_2, sk_ghostmarksman_act_1, sk_ghostprotocol_ult
+  "structure" — used by: sk_aegisward_act_1, sk_gridmind_act_2, sk_nexusengineer_act_1
+  "summon_attack" — used by: sk_packalpha_act_1, sk_wildbound_act_1
+  "swap_summon" — used by: sk_wildbound_act_2
+  "thorns" — used by: sk_bulwark_ult
+  "trap" — used by: sk_bombardier_act_2
+  "untargetable" — used by: sk_skydancer_ult, sk_wraith_act_2
+
+ℹ️  No-op effect types (36):
+  "activate_state"
+  "allow_repeat_target"
+  "aoe"
+  "aoe_attack"
+  "area_of_effect"
+  "armor_break"
+  "attack_all_enemies"
+  "auto_attack"
+  "cleave_attack"
+  "conditional_crit_damage_bonus_percent"
+  "conditional_damage_amp"
+  "conditional_damage_bonus_percent"
+  "conditional_guaranteed_crit"
+  "copy_last_enemy_skill_effect"
+  "current_hp_damage_scaling"
+  "deactivate_state"
+  "defense_penetration_percent"
+  "element"
+  "gap_closer"
+  "guaranteed_crit"
+  "ignore_def"
+  "ignore_defense"
+  "ignore_evasion"
+  "multi_hit"
+  "multi_target_limit"
+  "non_stackable"
+  "percent"
+  "phase_change"
+  "random_multi_target"
+  "random_targeting"
+  "structure_auto_attack"
+  "structure_auto_heal_lowest_hp"
+  "summon_stat_bonus_percent"
+  "tank_buster"
+  "teleport_attack"
+  "untargetable_single_target"
+
+═══════════════════════════════════════════════════════════
+PHASE 2: Deep per-skill execution audit
+═══════════════════════════════════════════════════════════
+Tested: 566 active skills
+
+❌ ERRORS (60 skills):
+  [sk_aegisward_act_1] Ward Plant
+    ❌ UNHANDLED_EFFECT: "structure" (no handler registered)
+  [sk_aegisward_act_2] Redirect
+    ❌ UNHANDLED_EFFECT: "intercept" (no handler registered)
+  [sk_aegisward_ult] Sanctuary
+    ❌ UNHANDLED_EFFECT: "control_immunity" (no handler registered)
+    ❌ UNHANDLED_EFFECT: "heal_over_time" (no handler registered)
+  [sk_bulwark_act_2] Shield Counter
+    ❌ UNHANDLED_EFFECT: "counter" (no handler registered)
+  [sk_bulwark_ult] Last Wall
+    ❌ UNHANDLED_EFFECT: "thorns" (no handler registered)
+  [sk_bloodtyrant_act_1] Blood Price
+    ❌ UNHANDLED_EFFECT: "self_hp_cost" (no handler registered)
+  [sk_bloodtyrant_ult] Red Court
+    ❌ UNHANDLED_EFFECT: "execute_bonus" (no handler registered)
+  [sk_gorefiend_act_1] Butcher
+    ❌ UNHANDLED_EFFECT: "refresh_status" (no handler registered)
+  [sk_gorefiend_ult] Exsanguinate
+    ❌ UNHANDLED_EFFECT: "detonate_status" (no handler registered)
+  [sk_skydancer_act_1] Aerial Waltz
+    ❌ UNHANDLED_EFFECT: "evade" (no handler registered)
+  [sk_skydancer_act_2] Punish Whiff
+    ❌ UNHANDLED_EFFECT: "counter" (no handler registered)
+  [sk_skydancer_ult] Dance of Spears
+    ❌ UNHANDLED_EFFECT: "untargetable" (no handler registered)
+  [sk_riftpiercer_act_1] Rift Thrust
+    ❌ UNHANDLED_EFFECT: "armor_pen" (no handler registered)
+  [sk_nightreaper_act_1] Reap
+    ❌ UNHANDLED_EFFECT: "execute_bonus" (no handler registered)
+  [sk_nightreaper_act_2] Night Step
+    ❌ UNHANDLED_EFFECT: "stealth" (no handler registered)
+    ❌ UNHANDLED_EFFECT: "empowered_next" (no handler registered)
+  [sk_nightreaper_ult] Last Light
+    ❌ UNHANDLED_EFFECT: "execute_bonus" (no handler registered)
+    ❌ UNHANDLED_EFFECT: "cooldown_refund_on_kill" (no handler registered)
+  [sk_umbralduelist_act_1] Parry Line
+    ❌ UNHANDLED_EFFECT: "counter" (no handler registered)
+  [sk_umbralduelist_ult] Duel in Shade
+    ❌ UNHANDLED_EFFECT: "damage_reduction" (no handler registered)
+  [sk_wraith_act_2] Hollow
+    ❌ UNHANDLED_EFFECT: "untargetable" (no handler registered)
+  [sk_mirage_act_1] Split Image
+    ❌ UNHANDLED_EFFECT: "decoy" (no handler registered)
+  [sk_mirage_ult] House of Mirrors
+    ❌ UNHANDLED_EFFECT: "decoy" (no handler registered)
+  [sk_packalpha_act_1] Pack Hunt
+    ❌ UNHANDLED_EFFECT: "summon_attack" (no handler registered)
+  [sk_wildbound_act_1] Twin Pounce
+    ❌ UNHANDLED_EFFECT: "summon_attack" (no handler registered)
+  [sk_wildbound_act_2] Trade Places
+    ❌ UNHANDLED_EFFECT: "swap_summon" (no handler registered)
+  [sk_deadeye_act_1] Killing Shot
+    ❌ UNHANDLED_EFFECT: "mark_bonus" (no handler registered)
+  [sk_deadeye_ult] One Breath
+    ❌ UNHANDLED_EFFECT: "execute_bonus" (no handler registered)
+  [sk_ghostmarksman_act_1] Relocate
+    ❌ UNHANDLED_EFFECT: "stealth" (no handler registered)
+  [sk_quickdrawsaint_ult] High Noon
+    ❌ UNHANDLED_EFFECT: "execute_bonus" (no handler registered)
+  [sk_chromegunner_act_1] Smart Burst
+    ❌ UNHANDLED_EFFECT: "homing" (no handler registered)
+  [sk_chromegunner_act_2] Incendiary Mag
+    ❌ UNHANDLED_EFFECT: "empower_next" (no handler registered)
+  [sk_ascendant_act_2] Overchannel
+    ❌ UNHANDLED_EFFECT: "empowered_next" (no handler registered)
+    ❌ UNHANDLED_EFFECT: "mp_cost_extra" (no handler registered)
+  [sk_oracleprime_act_1] Seen End
+    ❌ UNHANDLED_EFFECT: "mark_bonus" (no handler registered)
+  [sk_oracleprime_act_2] Prophecy
+    ❌ UNHANDLED_EFFECT: "damage_reduction" (no handler registered)
+  [sk_timeweaver_act_2] Repeat
+    ❌ UNHANDLED_EFFECT: "echo_last_damage" (no handler registered)
+  [sk_timeweaver_ult] Weave
+    ❌ UNHANDLED_EFFECT: "reset_cooldowns" (no handler registered)
+    ❌ UNHANDLED_EFFECT: "extra_action" (no handler registered)
+  [sk_paradox_ult] Two of You
+    ❌ UNHANDLED_EFFECT: "echo_next_attack" (no handler registered)
+  [sk_oathkeeper_act_1] Oathbound
+    ❌ UNHANDLED_EFFECT: "link_damage" (no handler registered)
+  [sk_oathkeeper_ult] Unbroken Oath
+    ❌ UNHANDLED_EFFECT: "prevent_death" (no handler registered)
+  [sk_judicator_act_2] Gavel
+    ❌ UNHANDLED_EFFECT: "consume_status" (no handler registered)
+  [sk_abyssherald_act_2] Point the Maw
+    ❌ UNHANDLED_EFFECT: "command_summon" (no handler registered)
+  [sk_titanforger_act_2] Bulwark Order
+    ❌ UNHANDLED_EFFECT: "command_summon" (no handler registered)
+  [sk_titanforger_ult] Titanfall
+    ❌ UNHANDLED_EFFECT: "command_summon" (no handler registered)
+  [sk_runesmith_act_1] Rune: Guard
+    ❌ UNHANDLED_EFFECT: "command_summon" (no handler registered)
+  [sk_runesmith_act_2] Rune: Slam
+    ❌ UNHANDLED_EFFECT: "command_summon" (no handler registered)
+  [sk_titanpilot_act_2] Lockdown
+    ❌ UNHANDLED_EFFECT: "empowered_next" (no handler registered)
+  [sk_aceframe_act_2] Lock Cluster
+    ❌ UNHANDLED_EFFECT: "split_shot" (no handler registered)
+  [sk_gridmind_act_2] Grid Wall
+    ❌ UNHANDLED_EFFECT: "structure" (no handler registered)
+  [sk_nexusengineer_act_1] Drop Nexus
+    ❌ UNHANDLED_EFFECT: "structure" (no handler registered)
+  [sk_nexusengineer_ult] Link Breaker
+    ❌ UNHANDLED_EFFECT: "revenge_nova" (no handler registered)
+  [sk_bombardier_act_2] Timed Pair
+    ❌ UNHANDLED_EFFECT: "trap" (no handler registered)
+  [sk_ghostprotocol_act_1] Ghost Spike
+    ❌ UNHANDLED_EFFECT: "blink_after" (no handler registered)
+  [sk_ghostprotocol_act_2] Spoof
+    ❌ UNHANDLED_EFFECT: "decoy" (no handler registered)
+  [sk_ghostprotocol_ult] Protocol Zero
+    ❌ UNHANDLED_EFFECT: "stealth" (no handler registered)
+  [sk_daemonking_act_2] Steal Cycle
+    ❌ UNHANDLED_EFFECT: "cooldown_steal" (no handler registered)
+  [sk_daemonking_ult] Coronation
+    ❌ UNHANDLED_EFFECT: "detonate_status" (no handler registered)
+  [sk_geneweaver_ult] Rewrite
+    ❌ UNHANDLED_EFFECT: "invert_status" (no handler registered)
+  [sk_vitaforge_ult] Organism
+    ❌ UNHANDLED_EFFECT: "share_heal" (no handler registered)
+  [sk_pestilence_act_1] Patient Zero
+    ❌ UNHANDLED_EFFECT: "status_spread" (no handler registered)
+  [sk_pestilence_ult] Pandemic
+    ❌ UNHANDLED_EFFECT: "detonate_status" (no handler registered)
+    ❌ UNHANDLED_EFFECT: "status_spread" (no handler registered)
+  [sk_blightlord_act_2] Siphon Cloud
+    ❌ UNHANDLED_EFFECT: "consume_status" (no handler registered)
+
+⚠️  WARNINGS (2 skills):
+  [sk_aegisward_ult] Sanctuary
+    ⚠️  HEAL_NO_EFFECT: heal declared but no HP restored
+  [sk_vitaforge_ult] Organism
+    ⚠️  HEAL_NO_EFFECT: heal declared but no HP restored
+
+═══════════════════════════════════════════════════════════
+PHASE 3: Passive skill audit
+═══════════════════════════════════════════════════════════
+Tested: 315 passive skills
+✅ No passive errors
+
+═══════════════════════════════════════════════════════════
+❌ ISSUES FOUND
+═══════════════════════════════════════════════════════════
+00:09 +2 -1: /Users/rnddev/Documents/project-echo/test/combat/skill_deep_audit_test.dart: deep skill audit completed without hard failures
+00:09 +2 -2: /Users/rnddev/Documents/project-echo/test/combat/skill_deep_audit_test.dart: deep skill audit completed without hard failures [E]
+  Expected: empty
+    Actual: Set:[
+              'structure',
+              'intercept',
+              'control_immunity',
+              'heal_over_time',
+              'counter',
+              'thorns',
+              'self_hp_cost',
+              'execute_bonus',
+              'refresh_status',
+              'detonate_status',
+              'evade',
+              'untargetable',
+              'armor_pen',
+              'stealth',
+              'empowered_next',
+              'cooldown_refund_on_kill',
+              'damage_reduction',
+              'decoy',
+              'summon_attack',
+              'swap_summon',
+              'mark_bonus',
+              'homing',
+              'empower_next',
+              'mp_cost_extra',
+              ...
+            ]
+  
+  package:matcher                                     expect
+  package:flutter_test/src/widget_tester.dart 473:18  expect
+  test/combat/skill_deep_audit_test.dart 670:5        main.<fn>
+  
+00:17 +2 -2: /Users/rnddev/Documents/project-echo/test/combat/raid_passive_runtime_test.dart: (setUpAll)
+00:17 +2 -2: /Users/rnddev/Documents/project-echo/test/combat/raid_passive_runtime_test.dart: raid init applies passive skills carried by ally combatants
+00:17 +3 -2: /Users/rnddev/Documents/project-echo/test/combat/raid_passive_runtime_test.dart: (tearDownAll)
+00:17 +3 -2: Some tests failed.
+
+Failing tests:
+  /Users/rnddev/Documents/project-echo/test/combat/skill_audit_test.dart: Skill Audit — Full Simulation Audit ALL active skills
+  /Users/rnddev/Documents/project-echo/test/combat/skill_deep_audit_test.dart: deep skill audit completed without hard failures

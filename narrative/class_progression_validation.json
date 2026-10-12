@@ -1,0 +1,400 @@
+{
+  "errors": [],
+  "trials": 28,
+  "classes_by_tier": {
+    "Base": 4,
+    "Advance": 12,
+    "Expert": 24,
+    "Master": 48
+  },
+  "class_skill_ids": 315,
+  "proofs": 28,
+  "new_mentors": 21,
+  "matrix": [
+    {
+      "quest": "class_trial_concordium_base",
+      "tier": "Base",
+      "level": 5,
+      "faction": "CONCORDIUM",
+      "trainer": "Instructor Kael",
+      "trainer_region": "Nexus Core",
+      "hunting_region": "Aethel Gardens",
+      "proof": "Civic Oath Seal",
+      "targets": [
+        "Defeat Feral Rootling ×5 in Aethel Gardens."
+      ]
+    },
+    {
+      "quest": "class_trial_concordium_advance",
+      "tier": "Advance",
+      "level": 20,
+      "faction": "CONCORDIUM",
+      "trainer": "Field Captain Ilyra",
+      "trainer_region": "Nexus Core",
+      "hunting_region": "Cradle Outer Ring",
+      "proof": "Routekeeper Warrant",
+      "targets": [
+        "Defeat Cradle Fragment Beast ×8 in Cradle Outer Ring.",
+        "Defeat Cradle Warden ×2 in Cradle Outer Ring."
+      ]
+    },
+    {
+      "quest": "class_trial_concordium_expert",
+      "tier": "Expert",
+      "level": 40,
+      "faction": "CONCORDIUM",
+      "trainer": "Inspector Soren",
+      "trainer_region": "Nexus Core",
+      "hunting_region": "Inner Cradle Exclusion",
+      "proof": "Cradle Stabilization Charter",
+      "targets": [
+        "Defeat Cradle Sentinel ×10 in Inner Cradle Exclusion.",
+        "Defeat Cradle Purifier ×4 in Inner Cradle Exclusion."
+      ]
+    },
+    {
+      "quest": "class_trial_concordium_master",
+      "tier": "Master",
+      "level": 60,
+      "faction": "CONCORDIUM",
+      "trainer": "Marshal Elian",
+      "trainer_region": "Nexus Core",
+      "hunting_region": "Inner Cradle Exclusion",
+      "proof": "Concordium Steward Sigil",
+      "targets": [
+        "Defeat Arcane Rift Beast ×16 in Inner Cradle Exclusion.",
+        "Defeat Cradle Void Titanling ×6 in Inner Cradle Exclusion."
+      ]
+    },
+    {
+      "quest": "class_trial_arcanum_base",
+      "tier": "Base",
+      "level": 5,
+      "faction": "THE_ARCANUM_SEEKERS",
+      "trainer": "Archsage Myr",
+      "trainer_region": "Observatory Spire",
+      "hunting_region": "Crystal Slope",
+      "proof": "Resonance Thesis Prism",
+      "targets": [
+        "Defeat Wild Mushroom ×5 in Crystal Slope."
+      ]
+    },
+    {
+      "quest": "class_trial_arcanum_advance",
+      "tier": "Advance",
+      "level": 20,
+      "faction": "THE_ARCANUM_SEEKERS",
+      "trainer": "Resonant Scholar Eira",
+      "trainer_region": "Observatory Spire",
+      "hunting_region": "Resonance Caverns",
+      "proof": "Echo Calibration Lens",
+      "targets": [
+        "Defeat Resonance Bat ×8 in Resonance Caverns.",
+        "Defeat Resonance Echo ×2 in Resonance Caverns."
+      ]
+    },
+    {
+      "quest": "class_trial_arcanum_expert",
+      "tier": "Expert",
+      "level": 40,
+      "faction": "THE_ARCANUM_SEEKERS",
+      "trainer": "Examiner Thalen",
+      "trainer_region": "Observatory Spire",
+      "hunting_region": "Shard Pulse Peak",
+      "proof": "Peer Witness Crystal",
+      "targets": [
+        "Defeat Shard Pulse Sentinel ×10 in Shard Pulse Peak.",
+        "Defeat Shard Pulse Guardian ×4 in Shard Pulse Peak."
+      ]
+    },
+    {
+      "quest": "class_trial_arcanum_master",
+      "tier": "Master",
+      "level": 60,
+      "faction": "THE_ARCANUM_SEEKERS",
+      "trainer": "First Archivist Neris",
+      "trainer_region": "Observatory Spire",
+      "hunting_region": "Shard Pulse Peak",
+      "proof": "Arcanum Living Codex",
+      "targets": [
+        "Defeat Shard Pulse Guardian ×16 in Shard Pulse Peak.",
+        "Defeat Shard Pulse Tyrant ×6 in Shard Pulse Peak."
+      ]
+    },
+    {
+      "quest": "class_trial_iron_base",
+      "tier": "Base",
+      "level": 5,
+      "faction": "IRON_HEGEMONY",
+      "trainer": "War Marshal Drax",
+      "trainer_region": "Bastion Core",
+      "hunting_region": "Scrap Field",
+      "proof": "Tempered Service Rivet",
+      "targets": [
+        "Defeat Scrap Drone ×5 in Scrap Field."
+      ]
+    },
+    {
+      "quest": "class_trial_iron_advance",
+      "tier": "Advance",
+      "level": 20,
+      "faction": "IRON_HEGEMONY",
+      "trainer": "Quartermaster Rusk",
+      "trainer_region": "Bastion Core",
+      "hunting_region": "War Machine Graveyard",
+      "proof": "Supplyline Iron Writ",
+      "targets": [
+        "Defeat War Machine Wrecker ×8 in War Machine Graveyard.",
+        "Defeat War Machine Sentinel ×2 in War Machine Graveyard."
+      ]
+    },
+    {
+      "quest": "class_trial_iron_expert",
+      "tier": "Expert",
+      "level": 40,
+      "faction": "IRON_HEGEMONY",
+      "trainer": "Forge Inspector Maela",
+      "trainer_region": "Bastion Core",
+      "hunting_region": "Titan Assembly Yard",
+      "proof": "Forge Control Crest",
+      "targets": [
+        "Defeat Titan Forge Automaton ×10 in Titan Assembly Yard.",
+        "Defeat Titan Assembly Sentinel ×4 in Titan Assembly Yard."
+      ]
+    },
+    {
+      "quest": "class_trial_iron_master",
+      "tier": "Master",
+      "level": 60,
+      "faction": "IRON_HEGEMONY",
+      "trainer": "General Torren",
+      "trainer_region": "Bastion Core",
+      "hunting_region": "Titan Assembly Yard",
+      "proof": "Bastion Command Plate",
+      "targets": [
+        "Defeat Titan Assembly Sentinel ×16 in Titan Assembly Yard.",
+        "Defeat Titan Proto Core ×6 in Titan Assembly Yard."
+      ]
+    },
+    {
+      "quest": "class_trial_meridian_base",
+      "tier": "Base",
+      "level": 5,
+      "faction": "MERIDIAN_CARTEL",
+      "trainer": "Captain Vex",
+      "trainer_region": "Port Meridian",
+      "hunting_region": "Coral Wetlands",
+      "proof": "Vex's Signed Passage",
+      "targets": [
+        "Defeat Swamp Crawler ×5 in Coral Wetlands."
+      ]
+    },
+    {
+      "quest": "class_trial_meridian_advance",
+      "tier": "Advance",
+      "level": 20,
+      "faction": "MERIDIAN_CARTEL",
+      "trainer": "Route Broker Lysa",
+      "trainer_region": "Port Meridian",
+      "hunting_region": "Smuggler Jungle",
+      "proof": "Unlisted Route Cipher",
+      "targets": [
+        "Defeat Jungle Stalker ×8 in Smuggler Jungle.",
+        "Defeat Contraband Golem ×2 in Smuggler Jungle."
+      ]
+    },
+    {
+      "quest": "class_trial_meridian_expert",
+      "tier": "Expert",
+      "level": 40,
+      "faction": "MERIDIAN_CARTEL",
+      "trainer": "Diver Marshal Corin",
+      "trainer_region": "Port Meridian",
+      "hunting_region": "Sunken Aethel Ruin",
+      "proof": "Deepwater Guarantee Seal",
+      "targets": [
+        "Defeat Cradle Sentinel ×10 in Sunken Aethel Ruin.",
+        "Defeat Aethel Behemoth ×4 in Sunken Aethel Ruin."
+      ]
+    },
+    {
+      "quest": "class_trial_meridian_master",
+      "tier": "Master",
+      "level": 60,
+      "faction": "MERIDIAN_CARTEL",
+      "trainer": "Keeper of Debts Sable",
+      "trainer_region": "Port Meridian",
+      "hunting_region": "Sunken Aethel Ruin",
+      "proof": "Meridian Covenant Coin",
+      "targets": [
+        "Defeat Aethel Behemoth ×16 in Sunken Aethel Ruin.",
+        "Defeat Sunken Aethel Leviathan ×6 in Sunken Aethel Ruin."
+      ]
+    },
+    {
+      "quest": "class_trial_omnicorp_base",
+      "tier": "Base",
+      "level": 5,
+      "faction": "OMNICORP",
+      "trainer": "Director Astra Vey",
+      "trainer_region": "The Spire",
+      "hunting_region": "Highland Plateau",
+      "proof": "Astra's Competency Wafer",
+      "targets": [
+        "Defeat Plateau Drone ×5 in Highland Plateau."
+      ]
+    },
+    {
+      "quest": "class_trial_omnicorp_advance",
+      "tier": "Advance",
+      "level": 20,
+      "faction": "OMNICORP",
+      "trainer": "Operations Lead Tessa Lin",
+      "trainer_region": "The Spire",
+      "hunting_region": "Extraction Zone Delta",
+      "proof": "Delta Recovery License",
+      "targets": [
+        "Defeat Delta Mining Drone ×8 in Extraction Zone Delta.",
+        "Defeat Delta Assault Drone ×2 in Extraction Zone Delta."
+      ]
+    },
+    {
+      "quest": "class_trial_omnicorp_expert",
+      "tier": "Expert",
+      "level": 40,
+      "faction": "OMNICORP",
+      "trainer": "Chief Auditor Ren",
+      "trainer_region": "The Spire",
+      "hunting_region": "Skybridge Reactor",
+      "proof": "Reactor Override Key",
+      "targets": [
+        "Defeat Titan Assembly Drone ×10 in Skybridge Reactor.",
+        "Defeat Titan Assembly Sentinel ×4 in Skybridge Reactor."
+      ]
+    },
+    {
+      "quest": "class_trial_omnicorp_master",
+      "tier": "Master",
+      "level": 60,
+      "faction": "OMNICORP",
+      "trainer": "Executive Director Iona Hale",
+      "trainer_region": "The Spire",
+      "hunting_region": "Skybridge Reactor",
+      "proof": "OmniCorp Executive Mandate",
+      "targets": [
+        "Defeat Titan Assembly Sentinel ×16 in Skybridge Reactor.",
+        "Defeat Titan Proto Core ×6 in Skybridge Reactor."
+      ]
+    },
+    {
+      "quest": "class_trial_shard_base",
+      "tier": "Base",
+      "level": 5,
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "trainer": "Oracle Seraphel",
+      "trainer_region": "Sanctum",
+      "hunting_region": "Glowvine Forest",
+      "proof": "Listening Shard",
+      "targets": [
+        "Defeat Forest Barkling ×5 in Glowvine Forest."
+      ]
+    },
+    {
+      "quest": "class_trial_shard_advance",
+      "tier": "Advance",
+      "level": 20,
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "trainer": "Root Listener Amara",
+      "trainer_region": "Sanctum",
+      "hunting_region": "Shardroot Swamp",
+      "proof": "Rootmemory Votive",
+      "targets": [
+        "Defeat Shardroot Creeper ×8 in Shardroot Swamp.",
+        "Defeat Shardroot Titan ×2 in Shardroot Swamp."
+      ]
+    },
+    {
+      "quest": "class_trial_shard_expert",
+      "tier": "Expert",
+      "level": 40,
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "trainer": "Woundkeeper Oriel",
+      "trainer_region": "Sanctum",
+      "hunting_region": "Heartwood Altar",
+      "proof": "Heartwood Witness Stone",
+      "targets": [
+        "Defeat Titan Forge Automaton ×10 in Heartwood Altar.",
+        "Defeat Aethel Behemoth ×4 in Heartwood Altar."
+      ]
+    },
+    {
+      "quest": "class_trial_shard_master",
+      "tier": "Master",
+      "level": 60,
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "trainer": "Elder Naeva",
+      "trainer_region": "Sanctum",
+      "hunting_region": "Heartwood Altar",
+      "proof": "Sanctum Keeper Reliquary",
+      "targets": [
+        "Defeat Aethel Behemoth ×16 in Heartwood Altar.",
+        "Defeat Sunken Aethel Leviathan ×6 in Heartwood Altar."
+      ]
+    },
+    {
+      "quest": "class_trial_legion_base",
+      "tier": "Base",
+      "level": 5,
+      "faction": "STARFORGED_LEGION",
+      "trainer": "Centurion Valka",
+      "trainer_region": "Fortress Kaelen",
+      "hunting_region": "Dune Outskirts",
+      "proof": "Valka's Formation Knot",
+      "targets": [
+        "Defeat Dune Scavenger ×5 in Dune Outskirts."
+      ]
+    },
+    {
+      "quest": "class_trial_legion_advance",
+      "tier": "Advance",
+      "level": 20,
+      "faction": "STARFORGED_LEGION",
+      "trainer": "Marchwarden Sera",
+      "trainer_region": "Fortress Kaelen",
+      "hunting_region": "Scorched Badlands",
+      "proof": "Marchwarden Standard Tab",
+      "targets": [
+        "Defeat Ash Hound ×8 in Scorched Badlands.",
+        "Defeat Badland Brute ×2 in Scorched Badlands."
+      ]
+    },
+    {
+      "quest": "class_trial_legion_expert",
+      "tier": "Expert",
+      "level": 40,
+      "faction": "STARFORGED_LEGION",
+      "trainer": "Rollkeeper Bren",
+      "trainer_region": "Fortress Kaelen",
+      "hunting_region": "Forge Canyon Depths",
+      "proof": "Rollkeeper Steel Token",
+      "targets": [
+        "Defeat Titan Assembly Drone ×10 in Forge Canyon Depths.",
+        "Defeat Titan Assembly Sentinel ×4 in Forge Canyon Depths."
+      ]
+    },
+    {
+      "quest": "class_trial_legion_master",
+      "tier": "Master",
+      "level": 60,
+      "faction": "STARFORGED_LEGION",
+      "trainer": "Legate Ashra",
+      "trainer_region": "Fortress Kaelen",
+      "hunting_region": "Forge Canyon Depths",
+      "proof": "Starforged Hearth Standard",
+      "targets": [
+        "Defeat Titan Assembly Sentinel ×16 in Forge Canyon Depths.",
+        "Defeat Titan Proto Core ×6 in Forge Canyon Depths."
+      ]
+    }
+  ]
+}

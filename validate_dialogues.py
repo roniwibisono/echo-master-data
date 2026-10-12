@@ -12,7 +12,7 @@ NPCS = ROOT / "npc_list.json"
 QUEST_FILES = [
     "quest_concordium.json", "quest_arcanum.json", "quest_iron.json",
     "quest_meridian.json", "quest_omnicorp.json", "quest_shard.json",
-    "quest_legion.json", "quest_neutral.json",
+    "quest_legion.json", "quest_neutral.json", "quest_mysteries.json",
 ]
 KNOWN_ACTIONS = {
     "accept_quest", "take_quest", "exit", "open_shop", "open_crafting", "rest", "rest_inn",

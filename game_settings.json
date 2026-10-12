@@ -2187,6 +2187,76 @@
       "enabled": true,
       "description": "Max level-ups/day before flagging (0 = disabled).",
       "sort_order": 155
+    },
+    {
+      "key": "feature.uiux.onboarding_v2",
+      "category": "feature",
+      "value": true,
+      "default_value": true,
+      "value_type": "bool",
+      "min_value": null,
+      "max_value": null,
+      "hot_reloadable": true,
+      "requires_client_version": null,
+      "enabled": true,
+      "description": "UIUX rollout: playable cold-open onboarding.",
+      "sort_order": 156
+    },
+    {
+      "key": "feature.uiux.home_v2",
+      "category": "feature",
+      "value": true,
+      "default_value": true,
+      "value_type": "bool",
+      "min_value": null,
+      "max_value": null,
+      "hot_reloadable": true,
+      "requires_client_version": null,
+      "enabled": true,
+      "description": "UIUX rollout: Journey-first Home and shell.",
+      "sort_order": 157
+    },
+    {
+      "key": "feature.uiux.map_v4",
+      "category": "feature",
+      "value": true,
+      "default_value": true,
+      "value_type": "bool",
+      "min_value": null,
+      "max_value": null,
+      "hot_reloadable": true,
+      "requires_client_version": null,
+      "enabled": true,
+      "description": "UIUX rollout: full-surface map V4.",
+      "sort_order": 158
+    },
+    {
+      "key": "feature.uiux.combat_hud_act",
+      "category": "feature",
+      "value": true,
+      "default_value": true,
+      "value_type": "bool",
+      "min_value": null,
+      "max_value": null,
+      "hot_reloadable": true,
+      "requires_client_version": null,
+      "enabled": true,
+      "description": "UIUX rollout: ACT combat HUD.",
+      "sort_order": 159
+    },
+    {
+      "key": "feature.uiux.reward_v2",
+      "category": "feature",
+      "value": true,
+      "default_value": true,
+      "value_type": "bool",
+      "min_value": null,
+      "max_value": null,
+      "hot_reloadable": true,
+      "requires_client_version": null,
+      "enabled": true,
+      "description": "UIUX rollout: reward and continuation flow.",
+      "sort_order": 160
     }
   ]
 }

@@ -74,44 +74,6 @@
       },
       "repeatable": false,
       "daily": false,
-      "quest_chain_next": "msq_tutorial_03"
-    },
-    {
-      "id": "msq_tutorial_03",
-      "title": "Find Your Calling",
-      "type": "story",
-      "rank": "D",
-      "faction": "NONE",
-      "region": "",
-      "auto_accept": true,
-      "description": "Reach Level 5 and choose your class.",
-      "quest_giver": {
-        "npc_id": "npc_class_advisor",
-        "name": "Guide Axiom",
-        "location": "Nexus Core"
-      },
-      "requirements": {
-        "min_level": 1,
-        "reputation_required": 0,
-        "required_quests": []
-      },
-      "objectives": [
-        {
-          "type": "action",
-          "target": "choose_class",
-          "count": 1,
-          "description": "Reach Level 5 and choose your class."
-        }
-      ],
-      "rewards": {
-        "exp": 200,
-        "currency": 50,
-        "crd": 50,
-        "reputation": 0,
-        "items": []
-      },
-      "repeatable": false,
-      "daily": false,
       "quest_chain_next": "msq_tutorial_04"
     },
     {
@@ -153,144 +115,1635 @@
       "quest_chain_next": null
     },
     {
-      "id": "msq_lv5_class_intro",
-      "title": "Your First Calling",
-      "type": "tutorial",
+      "id": "class_trial_concordium_base",
+      "title": "The Line We Keep",
+      "type": "story",
       "rank": "D",
-      "faction": "NONE",
-      "region": "NEXUS_CORE",
-      "popup": true,
-      "popup_trigger": "on_level_up",
-      "popup_level": 5,
-      "description": "You have reached Level 5. Your potential has crystallized into something the factions recognize. Seek your faction's Class Trainer and choose your base class specialization.",
+      "faction": "CONCORDIUM",
+      "region": "AETHEL_GARDENS",
+      "description": "Five levels of field work. Good. Now make it count for someone else. Feral roots have closed the garden path our ration crews use. I will not ask for trophies; I want that route safe. Keep your breathing steady, finish the drill, and return to me. Then we choose the role you can actually sustain. Defeat Feral Rootling ×5 in Aethel Gardens. Return to Instructor Kael at Nexus Core to receive Civic Oath Seal and choose your Base class.",
       "quest_giver": {
-        "npc_id": "npc_class_advisor",
-        "name": "Guide Axiom",
+        "npc_id": "npc_concordium_class_trainer",
+        "name": "Instructor Kael",
         "location": "Nexus Core"
       },
       "requirements": {
         "min_level": 5,
         "reputation_required": 0,
-        "required_quests": []
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Base",
+          "previous_tier": null,
+          "proof_item_id": "class_proof_concordium_base",
+          "trainer_npc_id": "npc_concordium_class_trainer",
+          "trainer_region": "NEXUS_CORE"
+        }
       },
       "objectives": [
         {
-          "type": "interact",
-          "target": "npc_class_advisor",
-          "count": 1,
-          "description": "Speak with Guide Axiom, the Class Advisor, in Nexus Core."
+          "type": "kill",
+          "target": 5007,
+          "target_code": "FERAL_ROOTLING",
+          "count": 5,
+          "description": "Defeat Feral Rootling ×5 in Aethel Gardens."
         }
       ],
       "rewards": {
-        "exp": 250,
-        "currency": 100,
-        "crd": 50,
-        "reputation": 50,
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
         "items": [
           {
-            "item_id": "con_small_hp_cell",
-            "quantity": 3
-          },
-          {
-            "item_id": "echo_memory_core_low",
-            "quantity": 1
-          },
-          {
-            "item_id": "recomendation_letters",
+            "item_id": "class_proof_concordium_base",
             "quantity": 1
           }
         ]
       },
       "repeatable": false,
-      "daily": false
+      "daily": false,
+      "quest_chain_next": null
     },
     {
-      "id": "msq_lv20_advanced_reminder",
-      "title": "The Next Threshold",
-      "type": "tutorial",
+      "id": "class_trial_concordium_advance",
+      "title": "A Route for Everyone",
+      "type": "story",
       "rank": "C",
-      "faction": "NONE",
-      "region": "NEXUS_CORE",
-      "popup": true,
-      "popup_trigger": "on_level_up",
-      "popup_level": 20,
-      "description": "Level 20 — the Advanced class threshold. Return to your faction's Class Trainer. Prove yourself in combat to unlock your Advanced specialization branch.",
+      "faction": "CONCORDIUM",
+      "region": "CRADLE_OUTER_RING",
+      "description": "Kael taught you to hold a line. I need you to move one. The outer-ring wardens are driving supply crews back into the broken quarter. Clear a passage without treating every ruin as expendable. A specialist earns trust when the next crew can follow them home. Defeat Cradle Fragment Beast ×8 in Cradle Outer Ring. Defeat Cradle Warden ×2 in Cradle Outer Ring. Return to Field Captain Ilyra at Nexus Core to receive Routekeeper Warrant and choose your Advance class.",
       "quest_giver": {
-        "npc_id": "npc_class_advisor",
-        "name": "Guide Axiom",
+        "npc_id": "npc_concordium_trainer_advance",
+        "name": "Field Captain Ilyra",
         "location": "Nexus Core"
       },
       "requirements": {
         "min_level": 20,
         "reputation_required": 0,
-        "required_quests": []
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Advance",
+          "previous_tier": "Base",
+          "proof_item_id": "class_proof_concordium_advance",
+          "trainer_npc_id": "npc_concordium_trainer_advance",
+          "trainer_region": "NEXUS_CORE"
+        }
       },
       "objectives": [
         {
-          "type": "interact",
-          "target": "class_trainer",
-          "count": 1,
-          "description": "Return to your faction's Class Trainer to begin the Advanced trial."
-        }
-      ],
-      "rewards": {
-        "exp": 1500,
-        "currency": 500,
-        "crd": 200,
-        "reputation": 100,
-        "items": [
-          {
-            "item_id": "advanced_hp_potion",
-            "quantity": 3
-          }
-        ]
-      },
-      "repeatable": false,
-      "daily": false
-    },
-    {
-      "id": "msq_lv40_master_reminder",
-      "title": "The Ascension",
-      "type": "tutorial",
-      "rank": "B",
-      "faction": "NONE",
-      "region": "NEXUS_CORE",
-      "popup": true,
-      "popup_trigger": "on_level_up",
-      "popup_level": 40,
-      "description": "Level 40 — the Ascension. The Master class tier is now within reach. Seek your faction's trainer and complete the Ascension trial to claim your Master designation.",
-      "quest_giver": {
-        "npc_id": "npc_class_advisor",
-        "name": "Guide Axiom",
-        "location": "Nexus Core"
-      },
-      "requirements": {
-        "min_level": 40,
-        "reputation_required": 0,
-        "required_quests": []
-      },
-      "objectives": [
+          "type": "kill",
+          "target": 5116,
+          "target_code": "CRADLE_FRAGMENT_BEAST",
+          "count": 8,
+          "description": "Defeat Cradle Fragment Beast ×8 in Cradle Outer Ring."
+        },
         {
-          "type": "interact",
-          "target": "class_trainer",
-          "count": 1,
-          "description": "Seek your faction's Class Trainer for the Ascension trial."
+          "type": "kill",
+          "target": 5115,
+          "target_code": "CRADLE_WARDEN",
+          "count": 2,
+          "description": "Defeat Cradle Warden ×2 in Cradle Outer Ring."
         }
       ],
       "rewards": {
-        "exp": 8000,
-        "currency": 2000,
-        "crd": 1000,
-        "reputation": 500,
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
         "items": [
           {
-            "item_id": "legendary_cache",
+            "item_id": "class_proof_concordium_advance",
             "quantity": 1
           }
         ]
       },
       "repeatable": false,
-      "daily": false
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_concordium_expert",
+      "title": "Protocol Under Pressure",
+      "type": "story",
+      "rank": "B",
+      "faction": "CONCORDIUM",
+      "region": "INNER_CRADLE_EXCLUSION",
+      "description": "The stabilization protocol assumes obedient sentinels. Our sentinels have stopped obeying. I need evidence that you can respond when the procedure fails: remove the hostile units inside the exclusion zone. Report what the ledger records, not what you wish happened. Defeat Cradle Sentinel ×10 in Inner Cradle Exclusion. Defeat Cradle Purifier ×4 in Inner Cradle Exclusion. Return to Inspector Soren at Nexus Core to receive Cradle Stabilization Charter and choose your Expert class.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_trainer_expert",
+        "name": "Inspector Soren",
+        "location": "Nexus Core"
+      },
+      "requirements": {
+        "min_level": 40,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Expert",
+          "previous_tier": "Advance",
+          "proof_item_id": "class_proof_concordium_expert",
+          "trainer_npc_id": "npc_concordium_trainer_expert",
+          "trainer_region": "NEXUS_CORE"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 5201,
+          "target_code": "CRADLE_SENTINEL",
+          "count": 10,
+          "description": "Defeat Cradle Sentinel ×10 in Inner Cradle Exclusion."
+        },
+        {
+          "type": "kill",
+          "target": 5202,
+          "target_code": "CRADLE_PURIFIER",
+          "count": 4,
+          "description": "Defeat Cradle Purifier ×4 in Inner Cradle Exclusion."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_concordium_expert",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_concordium_master",
+      "title": "The Last Civilian Convoy",
+      "type": "story",
+      "rank": "A",
+      "faction": "CONCORDIUM",
+      "region": "INNER_CRADLE_EXCLUSION",
+      "description": "There is one convoy left inside the exclusion zone. Command calls the route unrecoverable. I have their names here. Break the beasts controlling that corridor and bring your report to me. Mastery means accepting responsibility when the easy order is to abandon people. Defeat Arcane Rift Beast ×16 in Inner Cradle Exclusion. Defeat Cradle Void Titanling ×6 in Inner Cradle Exclusion. Return to Marshal Elian at Nexus Core to receive Concordium Steward Sigil and choose your Master class.",
+      "quest_giver": {
+        "npc_id": "npc_concordium_trainer_master",
+        "name": "Marshal Elian",
+        "location": "Nexus Core"
+      },
+      "requirements": {
+        "min_level": 60,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Master",
+          "previous_tier": "Expert",
+          "proof_item_id": "class_proof_concordium_master",
+          "trainer_npc_id": "npc_concordium_trainer_master",
+          "trainer_region": "NEXUS_CORE"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 5203,
+          "target_code": "ARCANE_RIFT_BEAST",
+          "count": 16,
+          "description": "Defeat Arcane Rift Beast ×16 in Inner Cradle Exclusion."
+        },
+        {
+          "type": "kill",
+          "target": 50052,
+          "target_code": "CRADLE_VOID_TITANLING",
+          "count": 6,
+          "description": "Defeat Cradle Void Titanling ×6 in Inner Cradle Exclusion."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_concordium_master",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_arcanum_base",
+      "title": "An Observation Before an Oath",
+      "type": "story",
+      "rank": "D",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "CRYSTAL_SLOPE",
+      "description": "A class is a hypothesis about what you might become. Do not mistake it for proof. Wild Mushrooms are interrupting our slope readings; confront them and let the ledger record the results. Return with observations. I can teach a promising mind. I cannot teach a mind that invents its evidence. Defeat Wild Mushroom ×5 in Crystal Slope. Return to Archsage Myr at Observatory Spire to receive Resonance Thesis Prism and choose your Base class.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_class_trainer",
+        "name": "Archsage Myr",
+        "location": "Observatory Spire"
+      },
+      "requirements": {
+        "min_level": 5,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Base",
+          "previous_tier": null,
+          "proof_item_id": "class_proof_arcanum_base",
+          "trainer_npc_id": "npc_arcanum_class_trainer",
+          "trainer_region": "OBSERVATORY_SPIRE"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 5004,
+          "target_code": "WILD_MUSHROOM",
+          "count": 5,
+          "description": "Defeat Wild Mushroom ×5 in Crystal Slope."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_arcanum_base",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_arcanum_advance",
+      "title": "The Echo That Answers",
+      "type": "story",
+      "rank": "C",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "RESONANCE_CAVERNS",
+      "description": "The cavern echoes have begun answering signals nobody transmitted. My last team withdrew, correctly. Establish a safe baseline against the bats and the resonant echoes before I send anyone back. Curiosity should widen our understanding, not empty our chairs. Defeat Resonance Bat ×8 in Resonance Caverns. Defeat Resonance Echo ×2 in Resonance Caverns. Return to Resonant Scholar Eira at Observatory Spire to receive Echo Calibration Lens and choose your Advance class.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_trainer_advance",
+        "name": "Resonant Scholar Eira",
+        "location": "Observatory Spire"
+      },
+      "requirements": {
+        "min_level": 20,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Advance",
+          "previous_tier": "Base",
+          "proof_item_id": "class_proof_arcanum_advance",
+          "trainer_npc_id": "npc_arcanum_trainer_advance",
+          "trainer_region": "OBSERVATORY_SPIRE"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 5125,
+          "target_code": "RESONANCE_BAT",
+          "count": 8,
+          "description": "Defeat Resonance Bat ×8 in Resonance Caverns."
+        },
+        {
+          "type": "kill",
+          "target": 50015,
+          "target_code": "RESONANCE_ECHO",
+          "count": 2,
+          "description": "Defeat Resonance Echo ×2 in Resonance Caverns."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_arcanum_advance",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_arcanum_expert",
+      "title": "A Hypothesis with Teeth",
+      "type": "story",
+      "rank": "B",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "SHARD_PULSE_PEAK",
+      "description": "The peak guardians respond differently to each pulse. Your task is not to declare them understood; it is to stop the hostile pattern long enough for our instruments to survive. Bring a complete field record. I will challenge every conclusion you cannot support. Defeat Shard Pulse Sentinel ×10 in Shard Pulse Peak. Defeat Shard Pulse Guardian ×4 in Shard Pulse Peak. Return to Examiner Thalen at Observatory Spire to receive Peer Witness Crystal and choose your Expert class.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_trainer_expert",
+        "name": "Examiner Thalen",
+        "location": "Observatory Spire"
+      },
+      "requirements": {
+        "min_level": 40,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Expert",
+          "previous_tier": "Advance",
+          "proof_item_id": "class_proof_arcanum_expert",
+          "trainer_npc_id": "npc_arcanum_trainer_expert",
+          "trainer_region": "OBSERVATORY_SPIRE"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 50053,
+          "target_code": "SHARD_PULSE_SENTINEL",
+          "count": 10,
+          "description": "Defeat Shard Pulse Sentinel ×10 in Shard Pulse Peak."
+        },
+        {
+          "type": "kill",
+          "target": 50054,
+          "target_code": "SHARD_PULSE_GUARDIAN",
+          "count": 4,
+          "description": "Defeat Shard Pulse Guardian ×4 in Shard Pulse Peak."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_arcanum_expert",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_arcanum_master",
+      "title": "Knowledge Worth Returning With",
+      "type": "story",
+      "rank": "A",
+      "faction": "THE_ARCANUM_SEEKERS",
+      "region": "SHARD_PULSE_PEAK",
+      "description": "We could publish a triumph by sacrificing the next expedition. I refuse. Contain the peak's guardians and tyrants so that discovery can continue without another missing team. A master leaves knowledge others can test, and a path by which they can return. Defeat Shard Pulse Guardian ×16 in Shard Pulse Peak. Defeat Shard Pulse Tyrant ×6 in Shard Pulse Peak. Return to First Archivist Neris at Observatory Spire to receive Arcanum Living Codex and choose your Master class.",
+      "quest_giver": {
+        "npc_id": "npc_arcanum_trainer_master",
+        "name": "First Archivist Neris",
+        "location": "Observatory Spire"
+      },
+      "requirements": {
+        "min_level": 60,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Master",
+          "previous_tier": "Expert",
+          "proof_item_id": "class_proof_arcanum_master",
+          "trainer_npc_id": "npc_arcanum_trainer_master",
+          "trainer_region": "OBSERVATORY_SPIRE"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 50054,
+          "target_code": "SHARD_PULSE_GUARDIAN",
+          "count": 16,
+          "description": "Defeat Shard Pulse Guardian ×16 in Shard Pulse Peak."
+        },
+        {
+          "type": "kill",
+          "target": 50055,
+          "target_code": "SHARD_PULSE_TYRANT",
+          "count": 6,
+          "description": "Defeat Shard Pulse Tyrant ×6 in Shard Pulse Peak."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_arcanum_master",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_iron_base",
+      "title": "Steel Before Rank",
+      "type": "story",
+      "rank": "D",
+      "faction": "IRON_HEGEMONY",
+      "region": "SCRAP_FIELD",
+      "description": "You have survived long enough to train properly. Scrap drones are tearing up the recovery lanes. Shut them down. No borrowed commendation, no purchased rank. Finish the work, return to Bastion, and I will put a tempered rivet in your hand. What you do next is your choice. Defeat Scrap Drone ×5 in Scrap Field. Return to War Marshal Drax at Bastion Core to receive Tempered Service Rivet and choose your Base class.",
+      "quest_giver": {
+        "npc_id": "npc_hegemony_class_trainer",
+        "name": "War Marshal Drax",
+        "location": "Bastion Core"
+      },
+      "requirements": {
+        "min_level": 5,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Base",
+          "previous_tier": null,
+          "proof_item_id": "class_proof_iron_base",
+          "trainer_npc_id": "npc_hegemony_class_trainer",
+          "trainer_region": "BASTION_CORE"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 50012,
+          "target_code": "SCRAP_DRONE",
+          "count": 5,
+          "description": "Defeat Scrap Drone ×5 in Scrap Field."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_iron_base",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_iron_advance",
+      "title": "Keep the Supply Line",
+      "type": "story",
+      "rank": "C",
+      "faction": "IRON_HEGEMONY",
+      "region": "WAR_MACHINE_GRAVEYARD",
+      "description": "A brilliant fighter with an empty supply wagon is an expensive corpse. The graveyard machines are stopping our salvage crews. Clear the wreckers and their sentinel escorts. I want usable lanes at shift change, not a speech about your courage. Defeat War Machine Wrecker ×8 in War Machine Graveyard. Defeat War Machine Sentinel ×2 in War Machine Graveyard. Return to Quartermaster Rusk at Bastion Core to receive Supplyline Iron Writ and choose your Advance class.",
+      "quest_giver": {
+        "npc_id": "npc_iron_trainer_advance",
+        "name": "Quartermaster Rusk",
+        "location": "Bastion Core"
+      },
+      "requirements": {
+        "min_level": 20,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Advance",
+          "previous_tier": "Base",
+          "proof_item_id": "class_proof_iron_advance",
+          "trainer_npc_id": "npc_iron_trainer_advance",
+          "trainer_region": "BASTION_CORE"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 5140,
+          "target_code": "WAR_MACHINE_WRECKER",
+          "count": 8,
+          "description": "Defeat War Machine Wrecker ×8 in War Machine Graveyard."
+        },
+        {
+          "type": "kill",
+          "target": 5142,
+          "target_code": "WAR_MACHINE_SENTINEL",
+          "count": 2,
+          "description": "Defeat War Machine Sentinel ×2 in War Machine Graveyard."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_iron_advance",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_iron_expert",
+      "title": "When the Forge Turns",
+      "type": "story",
+      "rank": "B",
+      "faction": "IRON_HEGEMONY",
+      "region": "TITAN_ASSEMBLY_YARD",
+      "description": "Our assembly guardians have classified their own crews as scrap. Production wants me to leave the line running. I have stopped it. Remove the hostile constructs before we restart. Expertise is knowing which pressure the system can bear, and when to shut it down. Defeat Titan Forge Automaton ×10 in Titan Assembly Yard. Defeat Titan Assembly Sentinel ×4 in Titan Assembly Yard. Return to Forge Inspector Maela at Bastion Core to receive Forge Control Crest and choose your Expert class.",
+      "quest_giver": {
+        "npc_id": "npc_iron_trainer_expert",
+        "name": "Forge Inspector Maela",
+        "location": "Bastion Core"
+      },
+      "requirements": {
+        "min_level": 40,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Expert",
+          "previous_tier": "Advance",
+          "proof_item_id": "class_proof_iron_expert",
+          "trainer_npc_id": "npc_iron_trainer_expert",
+          "trainer_region": "BASTION_CORE"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 5204,
+          "target_code": "TITAN_FORGE_AUTOMATON",
+          "count": 10,
+          "description": "Defeat Titan Forge Automaton ×10 in Titan Assembly Yard."
+        },
+        {
+          "type": "kill",
+          "target": 5208,
+          "target_code": "TITAN_ASSEMBLY_SENTINEL",
+          "count": 4,
+          "description": "Defeat Titan Assembly Sentinel ×4 in Titan Assembly Yard."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_iron_expert",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_iron_master",
+      "title": "Command at Breaking Pressure",
+      "type": "story",
+      "rank": "A",
+      "faction": "IRON_HEGEMONY",
+      "region": "TITAN_ASSEMBLY_YARD",
+      "description": "The proto cores are rebuilding the defense lattice faster than we can isolate it. Cut down the sentinel screen and the cores. Then report to me personally. This command plate is not permission to spend lives carelessly. It is the obligation to bring the line through. Defeat Titan Assembly Sentinel ×16 in Titan Assembly Yard. Defeat Titan Proto Core ×6 in Titan Assembly Yard. Return to General Torren at Bastion Core to receive Bastion Command Plate and choose your Master class.",
+      "quest_giver": {
+        "npc_id": "npc_iron_trainer_master",
+        "name": "General Torren",
+        "location": "Bastion Core"
+      },
+      "requirements": {
+        "min_level": 60,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Master",
+          "previous_tier": "Expert",
+          "proof_item_id": "class_proof_iron_master",
+          "trainer_npc_id": "npc_iron_trainer_master",
+          "trainer_region": "BASTION_CORE"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 5208,
+          "target_code": "TITAN_ASSEMBLY_SENTINEL",
+          "count": 16,
+          "description": "Defeat Titan Assembly Sentinel ×16 in Titan Assembly Yard."
+        },
+        {
+          "type": "kill",
+          "target": 5209,
+          "target_code": "TITAN_PROTO_CORE",
+          "count": 6,
+          "description": "Defeat Titan Proto Core ×6 in Titan Assembly Yard."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_iron_master",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_meridian_base",
+      "title": "A Favor with a Name",
+      "type": "story",
+      "rank": "D",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "CORAL_WETLANDS",
+      "description": "You found my door. That saves us one test. Wetland crawlers have pinned a ferry crew on the wrong bank, and one of them owes me a very interesting story. Clear the passage. Come back to Port and we will discuss what you are good at. The favor will have your name on it. Defeat Swamp Crawler ×5 in Coral Wetlands. Return to Captain Vex at Port Meridian to receive Vex's Signed Passage and choose your Base class.",
+      "quest_giver": {
+        "npc_id": "npc_meridian_class_trainer",
+        "name": "Captain Vex",
+        "location": "Port Meridian"
+      },
+      "requirements": {
+        "min_level": 5,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Base",
+          "previous_tier": null,
+          "proof_item_id": "class_proof_meridian_base",
+          "trainer_npc_id": "npc_meridian_class_trainer",
+          "trainer_region": "PORT_MERIDIAN"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 50013,
+          "target_code": "SWAMP_CRAWLER",
+          "count": 5,
+          "description": "Defeat Swamp Crawler ×5 in Coral Wetlands."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_meridian_base",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_meridian_advance",
+      "title": "The Route Nobody Owns",
+      "type": "story",
+      "rank": "C",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SMUGGLER_JUNGLE",
+      "description": "Everyone claims the jungle route when it is safe. Nobody claims the people stranded on it now. Remove the stalkers and contraband constructs. Keep our carriers moving, and I will give you the cipher to a network that remembers who helped it. Defeat Jungle Stalker ×8 in Smuggler Jungle. Defeat Contraband Golem ×2 in Smuggler Jungle. Return to Route Broker Lysa at Port Meridian to receive Unlisted Route Cipher and choose your Advance class.",
+      "quest_giver": {
+        "npc_id": "npc_meridian_trainer_advance",
+        "name": "Route Broker Lysa",
+        "location": "Port Meridian"
+      },
+      "requirements": {
+        "min_level": 20,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Advance",
+          "previous_tier": "Base",
+          "proof_item_id": "class_proof_meridian_advance",
+          "trainer_npc_id": "npc_meridian_trainer_advance",
+          "trainer_region": "PORT_MERIDIAN"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 5110,
+          "target_code": "JUNGLE_STALKER",
+          "count": 8,
+          "description": "Defeat Jungle Stalker ×8 in Smuggler Jungle."
+        },
+        {
+          "type": "kill",
+          "target": 5112,
+          "target_code": "CONTRABAND_GOLEM",
+          "count": 2,
+          "description": "Defeat Contraband Golem ×2 in Smuggler Jungle."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_meridian_advance",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_meridian_expert",
+      "title": "Insurance Below the Waterline",
+      "type": "story",
+      "rank": "B",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SUNKEN_AETHEL_RUIN",
+      "description": "The divers' insurers would rather pay a death benefit than clear the submerged approach. I would rather have living divers. Break the guardians and behemoths blocking the ruins. Bring the report to Port. A guarantee should protect a person, not merely settle a ledger. Defeat Cradle Sentinel ×10 in Sunken Aethel Ruin. Defeat Aethel Behemoth ×4 in Sunken Aethel Ruin. Return to Diver Marshal Corin at Port Meridian to receive Deepwater Guarantee Seal and choose your Expert class.",
+      "quest_giver": {
+        "npc_id": "npc_meridian_trainer_expert",
+        "name": "Diver Marshal Corin",
+        "location": "Port Meridian"
+      },
+      "requirements": {
+        "min_level": 40,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Expert",
+          "previous_tier": "Advance",
+          "proof_item_id": "class_proof_meridian_expert",
+          "trainer_npc_id": "npc_meridian_trainer_expert",
+          "trainer_region": "PORT_MERIDIAN"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 5201,
+          "target_code": "CRADLE_SENTINEL",
+          "count": 10,
+          "description": "Defeat Cradle Sentinel ×10 in Sunken Aethel Ruin."
+        },
+        {
+          "type": "kill",
+          "target": 5200,
+          "target_code": "AETHEL_BEHEMOTH",
+          "count": 4,
+          "description": "Defeat Aethel Behemoth ×4 in Sunken Aethel Ruin."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_meridian_expert",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_meridian_master",
+      "title": "The Debt We Choose to Keep",
+      "type": "story",
+      "rank": "A",
+      "faction": "MERIDIAN_CARTEL",
+      "region": "SUNKEN_AETHEL_RUIN",
+      "description": "Our oldest contract allows us to walk away from the flooded route. We are staying. Push back the behemoths and leviathans so the last crews can surface. When I hand you the covenant coin, understand this: some debts are worth choosing, even when nobody can collect. Defeat Aethel Behemoth ×16 in Sunken Aethel Ruin. Defeat Sunken Aethel Leviathan ×6 in Sunken Aethel Ruin. Return to Keeper of Debts Sable at Port Meridian to receive Meridian Covenant Coin and choose your Master class.",
+      "quest_giver": {
+        "npc_id": "npc_meridian_trainer_master",
+        "name": "Keeper of Debts Sable",
+        "location": "Port Meridian"
+      },
+      "requirements": {
+        "min_level": 60,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Master",
+          "previous_tier": "Expert",
+          "proof_item_id": "class_proof_meridian_master",
+          "trainer_npc_id": "npc_meridian_trainer_master",
+          "trainer_region": "PORT_MERIDIAN"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 5200,
+          "target_code": "AETHEL_BEHEMOTH",
+          "count": 16,
+          "description": "Defeat Aethel Behemoth ×16 in Sunken Aethel Ruin."
+        },
+        {
+          "type": "kill",
+          "target": 5205,
+          "target_code": "SUNKEN_AETHEL_LEVIATHAN",
+          "count": 6,
+          "description": "Defeat Sunken Aethel Leviathan ×6 in Sunken Aethel Ruin."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_meridian_master",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_omnicorp_base",
+      "title": "A Performance Worth Signing",
+      "type": "story",
+      "rank": "D",
+      "faction": "OMNICORP",
+      "region": "HIGHLAND_PLATEAU",
+      "description": "Your projection is promising. I do not certify projections. Rogue plateau drones are damaging a crew's survey equipment. Neutralize them and return to my office. The competency wafer requires a verifiable result. Once you have it, choose the discipline in which you intend to outperform your own baseline. Defeat Plateau Drone ×5 in Highland Plateau. Return to Director Astra Vey at The Spire to receive Astra's Competency Wafer and choose your Base class.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_class_trainer",
+        "name": "Director Astra Vey",
+        "location": "The Spire"
+      },
+      "requirements": {
+        "min_level": 5,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Base",
+          "previous_tier": null,
+          "proof_item_id": "class_proof_omnicorp_base",
+          "trainer_npc_id": "npc_omnicorp_class_trainer",
+          "trainer_region": "THE_SPIRE"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 5014,
+          "target_code": "PLATEAU_DRONE",
+          "count": 5,
+          "description": "Defeat Plateau Drone ×5 in Highland Plateau."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_omnicorp_base",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_omnicorp_advance",
+      "title": "The Human Cost of Downtime",
+      "type": "story",
+      "rank": "C",
+      "faction": "OMNICORP",
+      "region": "EXTRACTION_ZONE_DELTA",
+      "description": "Delta calls this an output problem. My maintenance crew calls it a survival problem. Remove the mining drones and their assault escort. I will sign your recovery license when the site is usable again. Efficient work gets people through their shift alive. Defeat Delta Mining Drone ×8 in Extraction Zone Delta. Defeat Delta Assault Drone ×2 in Extraction Zone Delta. Return to Operations Lead Tessa Lin at The Spire to receive Delta Recovery License and choose your Advance class.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_trainer_advance",
+        "name": "Operations Lead Tessa Lin",
+        "location": "The Spire"
+      },
+      "requirements": {
+        "min_level": 20,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Advance",
+          "previous_tier": "Base",
+          "proof_item_id": "class_proof_omnicorp_advance",
+          "trainer_npc_id": "npc_omnicorp_trainer_advance",
+          "trainer_region": "THE_SPIRE"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 5160,
+          "target_code": "DELTA_MINING_DRONE",
+          "count": 8,
+          "description": "Defeat Delta Mining Drone ×8 in Extraction Zone Delta."
+        },
+        {
+          "type": "kill",
+          "target": 5162,
+          "target_code": "DELTA_ASSAULT_DRONE",
+          "count": 2,
+          "description": "Defeat Delta Assault Drone ×2 in Extraction Zone Delta."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_omnicorp_advance",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_omnicorp_expert",
+      "title": "Authority to Halt the Reactor",
+      "type": "story",
+      "rank": "B",
+      "faction": "OMNICORP",
+      "region": "SKYBRIDGE_REACTOR",
+      "description": "You are being evaluated for override authority. The reactor's defense units are obstructing emergency access. Clear them. Do not confuse a green dashboard with a safe facility. An expert must be willing to stop a profitable process when its evidence no longer supports operation. Defeat Titan Assembly Drone ×10 in Skybridge Reactor. Defeat Titan Assembly Sentinel ×4 in Skybridge Reactor. Return to Chief Auditor Ren at The Spire to receive Reactor Override Key and choose your Expert class.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_trainer_expert",
+        "name": "Chief Auditor Ren",
+        "location": "The Spire"
+      },
+      "requirements": {
+        "min_level": 40,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Expert",
+          "previous_tier": "Advance",
+          "proof_item_id": "class_proof_omnicorp_expert",
+          "trainer_npc_id": "npc_omnicorp_trainer_expert",
+          "trainer_region": "THE_SPIRE"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 5207,
+          "target_code": "TITAN_ASSEMBLY_DRONE",
+          "count": 10,
+          "description": "Defeat Titan Assembly Drone ×10 in Skybridge Reactor."
+        },
+        {
+          "type": "kill",
+          "target": 5208,
+          "target_code": "TITAN_ASSEMBLY_SENTINEL",
+          "count": 4,
+          "description": "Defeat Titan Assembly Sentinel ×4 in Skybridge Reactor."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_omnicorp_expert",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_omnicorp_master",
+      "title": "The Liability We Will Not Export",
+      "type": "story",
+      "rank": "A",
+      "faction": "OMNICORP",
+      "region": "SKYBRIDGE_REACTOR",
+      "description": "The board suggests exporting the failing cores. That would export the casualties as well. Contain the sentinel units and proto cores here, on our own ground. Return with the record. This mandate will give you authority, and a liability you may never hide in somebody else's account. Defeat Titan Assembly Sentinel ×16 in Skybridge Reactor. Defeat Titan Proto Core ×6 in Skybridge Reactor. Return to Executive Director Iona Hale at The Spire to receive OmniCorp Executive Mandate and choose your Master class.",
+      "quest_giver": {
+        "npc_id": "npc_omnicorp_trainer_master",
+        "name": "Executive Director Iona Hale",
+        "location": "The Spire"
+      },
+      "requirements": {
+        "min_level": 60,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Master",
+          "previous_tier": "Expert",
+          "proof_item_id": "class_proof_omnicorp_master",
+          "trainer_npc_id": "npc_omnicorp_trainer_master",
+          "trainer_region": "THE_SPIRE"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 5208,
+          "target_code": "TITAN_ASSEMBLY_SENTINEL",
+          "count": 16,
+          "description": "Defeat Titan Assembly Sentinel ×16 in Skybridge Reactor."
+        },
+        {
+          "type": "kill",
+          "target": 5209,
+          "target_code": "TITAN_PROTO_CORE",
+          "count": 6,
+          "description": "Defeat Titan Proto Core ×6 in Skybridge Reactor."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_omnicorp_master",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_shard_base",
+      "title": "Listen Before You Wield",
+      "type": "story",
+      "rank": "D",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "GLOWVINE_FOREST",
+      "description": "Power does not make the forest yours. Listen first. The barklings have turned on the paths used by our seed keepers. Still their violence and return to the Sanctum. I will entrust you with a listening shard. The calling you choose must leave room for voices other than your own. Defeat Forest Barkling ×5 in Glowvine Forest. Return to Oracle Seraphel at Sanctum to receive Listening Shard and choose your Base class.",
+      "quest_giver": {
+        "npc_id": "npc_shard_class_trainer",
+        "name": "Oracle Seraphel",
+        "location": "Sanctum"
+      },
+      "requirements": {
+        "min_level": 5,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Base",
+          "previous_tier": null,
+          "proof_item_id": "class_proof_shard_base",
+          "trainer_npc_id": "npc_shard_class_trainer",
+          "trainer_region": "SANCTUM"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 5018,
+          "target_code": "FOREST_BARKLING",
+          "count": 5,
+          "description": "Defeat Forest Barkling ×5 in Glowvine Forest."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_shard_base",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_shard_advance",
+      "title": "The Root Remembers",
+      "type": "story",
+      "rank": "C",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "SHARDROOT_SWAMP",
+      "description": "The swamp remembers every wound, but memory alone cannot shelter a traveler. Creepers and titans now hold the root paths. Open them for the caretakers. Bring your account back to me; I will help you hear what survival has changed in you. Defeat Shardroot Creeper ×8 in Shardroot Swamp. Defeat Shardroot Titan ×2 in Shardroot Swamp. Return to Root Listener Amara at Sanctum to receive Rootmemory Votive and choose your Advance class.",
+      "quest_giver": {
+        "npc_id": "npc_shard_trainer_advance",
+        "name": "Root Listener Amara",
+        "location": "Sanctum"
+      },
+      "requirements": {
+        "min_level": 20,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Advance",
+          "previous_tier": "Base",
+          "proof_item_id": "class_proof_shard_advance",
+          "trainer_npc_id": "npc_shard_trainer_advance",
+          "trainer_region": "SANCTUM"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 5120,
+          "target_code": "SHARDROOT_CREEPER",
+          "count": 8,
+          "description": "Defeat Shardroot Creeper ×8 in Shardroot Swamp."
+        },
+        {
+          "type": "kill",
+          "target": 5122,
+          "target_code": "SHARDROOT_TITAN",
+          "count": 2,
+          "description": "Defeat Shardroot Titan ×2 in Shardroot Swamp."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_shard_advance",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_shard_expert",
+      "title": "The Wound Beneath the Altar",
+      "type": "story",
+      "rank": "B",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "HEARTWOOD_ALTAR",
+      "description": "The altar's defenders strike at the people trying to mend it. Some call that a holy judgment. I call it another wound. End the hostile guardians' hold over the approach. Return to Sanctum. I need a witness who sees suffering clearly, even when it contradicts a comforting story. Defeat Titan Forge Automaton ×10 in Heartwood Altar. Defeat Aethel Behemoth ×4 in Heartwood Altar. Return to Woundkeeper Oriel at Sanctum to receive Heartwood Witness Stone and choose your Expert class.",
+      "quest_giver": {
+        "npc_id": "npc_shard_trainer_expert",
+        "name": "Woundkeeper Oriel",
+        "location": "Sanctum"
+      },
+      "requirements": {
+        "min_level": 40,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Expert",
+          "previous_tier": "Advance",
+          "proof_item_id": "class_proof_shard_expert",
+          "trainer_npc_id": "npc_shard_trainer_expert",
+          "trainer_region": "SANCTUM"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 5204,
+          "target_code": "TITAN_FORGE_AUTOMATON",
+          "count": 10,
+          "description": "Defeat Titan Forge Automaton ×10 in Heartwood Altar."
+        },
+        {
+          "type": "kill",
+          "target": 5200,
+          "target_code": "AETHEL_BEHEMOTH",
+          "count": 4,
+          "description": "Defeat Aethel Behemoth ×4 in Heartwood Altar."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_shard_expert",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_shard_master",
+      "title": "A Vow for Those Who Follow",
+      "type": "story",
+      "rank": "A",
+      "faction": "CHILDREN_OF_THE_SHARD",
+      "region": "HEARTWOOD_ALTAR",
+      "description": "We will leave this altar to children who did not make its scars. Push back the beasts keeping our keepers outside. Do not offer me a claim of divine favor. Offer them a place they can enter safely. That is the vow this reliquary will hold. Defeat Aethel Behemoth ×16 in Heartwood Altar. Defeat Sunken Aethel Leviathan ×6 in Heartwood Altar. Return to Elder Naeva at Sanctum to receive Sanctum Keeper Reliquary and choose your Master class.",
+      "quest_giver": {
+        "npc_id": "npc_shard_trainer_master",
+        "name": "Elder Naeva",
+        "location": "Sanctum"
+      },
+      "requirements": {
+        "min_level": 60,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Master",
+          "previous_tier": "Expert",
+          "proof_item_id": "class_proof_shard_master",
+          "trainer_npc_id": "npc_shard_trainer_master",
+          "trainer_region": "SANCTUM"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 5200,
+          "target_code": "AETHEL_BEHEMOTH",
+          "count": 16,
+          "description": "Defeat Aethel Behemoth ×16 in Heartwood Altar."
+        },
+        {
+          "type": "kill",
+          "target": 5205,
+          "target_code": "SUNKEN_AETHEL_LEVIATHAN",
+          "count": 6,
+          "description": "Defeat Sunken Aethel Leviathan ×6 in Heartwood Altar."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_shard_master",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_legion_base",
+      "title": "A Place in the Formation",
+      "type": "story",
+      "rank": "D",
+      "faction": "STARFORGED_LEGION",
+      "region": "DUNE_OUTSKIRTS",
+      "description": "Stand here, where I can see your footing. The dune scavengers are threatening our water runners. Clear the outskirts, then return to the fortress. I train people for a place in the formation, not a lonely death in the sand. Earn your knot, and we will choose how you serve beside us. Defeat Dune Scavenger ×5 in Dune Outskirts. Return to Centurion Valka at Fortress Kaelen to receive Valka's Formation Knot and choose your Base class.",
+      "quest_giver": {
+        "npc_id": "npc_legion_class_trainer",
+        "name": "Centurion Valka",
+        "location": "Fortress Kaelen"
+      },
+      "requirements": {
+        "min_level": 5,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Base",
+          "previous_tier": null,
+          "proof_item_id": "class_proof_legion_base",
+          "trainer_npc_id": "npc_legion_class_trainer",
+          "trainer_region": "FORTRESS_KAELEN"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 50019,
+          "target_code": "DUNE_SCAVENGER",
+          "count": 5,
+          "description": "Defeat Dune Scavenger ×5 in Dune Outskirts."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_legion_base",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_legion_advance",
+      "title": "The Standard Does Not Walk Alone",
+      "type": "story",
+      "rank": "C",
+      "faction": "STARFORGED_LEGION",
+      "region": "SCORCHED_BADLANDS",
+      "description": "The standard is useless if nobody makes it through the badlands beneath it. Ash hounds and brutes are harrying our march. Clear them and report to the fortress. I will judge your advance by the ground the next formation can safely cross. Defeat Ash Hound ×8 in Scorched Badlands. Defeat Badland Brute ×2 in Scorched Badlands. Return to Marchwarden Sera at Fortress Kaelen to receive Marchwarden Standard Tab and choose your Advance class.",
+      "quest_giver": {
+        "npc_id": "npc_legion_trainer_advance",
+        "name": "Marchwarden Sera",
+        "location": "Fortress Kaelen"
+      },
+      "requirements": {
+        "min_level": 20,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Advance",
+          "previous_tier": "Base",
+          "proof_item_id": "class_proof_legion_advance",
+          "trainer_npc_id": "npc_legion_trainer_advance",
+          "trainer_region": "FORTRESS_KAELEN"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 5130,
+          "target_code": "ASH_HOUND",
+          "count": 8,
+          "description": "Defeat Ash Hound ×8 in Scorched Badlands."
+        },
+        {
+          "type": "kill",
+          "target": 5131,
+          "target_code": "BADLAND_BRUTE",
+          "count": 2,
+          "description": "Defeat Badland Brute ×2 in Scorched Badlands."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_legion_advance",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_legion_expert",
+      "title": "Names Before Numbers",
+      "type": "story",
+      "rank": "B",
+      "faction": "STARFORGED_LEGION",
+      "region": "FORGE_CANYON_DEPTHS",
+      "description": "Every empty place in formation has a name. The canyon's machines are making more of them. Clear the drone ranks and their sentinels. Bring the record back. An expert sees a missing fighter before they see a convenient gap in the roster. Defeat Titan Assembly Drone ×10 in Forge Canyon Depths. Defeat Titan Assembly Sentinel ×4 in Forge Canyon Depths. Return to Rollkeeper Bren at Fortress Kaelen to receive Rollkeeper Steel Token and choose your Expert class.",
+      "quest_giver": {
+        "npc_id": "npc_legion_trainer_expert",
+        "name": "Rollkeeper Bren",
+        "location": "Fortress Kaelen"
+      },
+      "requirements": {
+        "min_level": 40,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Expert",
+          "previous_tier": "Advance",
+          "proof_item_id": "class_proof_legion_expert",
+          "trainer_npc_id": "npc_legion_trainer_expert",
+          "trainer_region": "FORTRESS_KAELEN"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 5207,
+          "target_code": "TITAN_ASSEMBLY_DRONE",
+          "count": 10,
+          "description": "Defeat Titan Assembly Drone ×10 in Forge Canyon Depths."
+        },
+        {
+          "type": "kill",
+          "target": 5208,
+          "target_code": "TITAN_ASSEMBLY_SENTINEL",
+          "count": 4,
+          "description": "Defeat Titan Assembly Sentinel ×4 in Forge Canyon Depths."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_legion_expert",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
+    },
+    {
+      "id": "class_trial_legion_master",
+      "title": "A Home Beyond the March",
+      "type": "story",
+      "rank": "A",
+      "faction": "STARFORGED_LEGION",
+      "region": "FORGE_CANYON_DEPTHS",
+      "description": "Our elders promised a home beyond the march. It cannot be a fortress that devours its builders. Break the sentinels and proto cores controlling the canyon approach. Return to Kaelen. Carry this hearth standard as a duty to the living, as well as to the names we remember. Defeat Titan Assembly Sentinel ×16 in Forge Canyon Depths. Defeat Titan Proto Core ×6 in Forge Canyon Depths. Return to Legate Ashra at Fortress Kaelen to receive Starforged Hearth Standard and choose your Master class.",
+      "quest_giver": {
+        "npc_id": "npc_legion_trainer_master",
+        "name": "Legate Ashra",
+        "location": "Fortress Kaelen"
+      },
+      "requirements": {
+        "min_level": 60,
+        "reputation_required": 0,
+        "required_quests": [],
+        "required_items": [],
+        "party_required": false,
+        "raid_size": 1,
+        "class_promotion": {
+          "tier": "Master",
+          "previous_tier": "Expert",
+          "proof_item_id": "class_proof_legion_master",
+          "trainer_npc_id": "npc_legion_trainer_master",
+          "trainer_region": "FORTRESS_KAELEN"
+        }
+      },
+      "objectives": [
+        {
+          "type": "kill",
+          "target": 5208,
+          "target_code": "TITAN_ASSEMBLY_SENTINEL",
+          "count": 16,
+          "description": "Defeat Titan Assembly Sentinel ×16 in Forge Canyon Depths."
+        },
+        {
+          "type": "kill",
+          "target": 5209,
+          "target_code": "TITAN_PROTO_CORE",
+          "count": 6,
+          "description": "Defeat Titan Proto Core ×6 in Forge Canyon Depths."
+        }
+      ],
+      "rewards": {
+        "exp": 0,
+        "currency": 0,
+        "crd": 0,
+        "reputation": 0,
+        "items": [
+          {
+            "item_id": "class_proof_legion_master",
+            "quantity": 1
+          }
+        ]
+      },
+      "repeatable": false,
+      "daily": false,
+      "quest_chain_next": null
     }
   ]
 }
