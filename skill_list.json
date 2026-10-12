@@ -3519,8 +3519,8 @@
     "type": "Active",
     "source_type": "Class_Tree",
     "mp_cost": 20,
-    "damage_formula": "per * 0.8",
-    "effect": "Deploys a stationary turret that automatically shoots enemies each turn for 3 turn.",
+    "damage_formula": "0",
+    "effect": "Deploy up to two turrets. Each attacks independently, can be targeted, and loses 5% max HP after attacking. Turrets persist until their HP reaches zero.",
     "stat_modifiers": [],
     "periodic_effects": [],
     "control_effects": [],
@@ -3528,12 +3528,8 @@
       {
         "type": "summon_structure",
         "value": "turret",
-        "duration_turns": 3
-      },
-      {
-        "type": "structure_auto_attack",
-        "value": 1,
-        "duration_turns": 3
+        "duration_turns": 0,
+        "max_summons": 2
       }
     ],
     "usage_requirements": {
@@ -3544,10 +3540,10 @@
       "allowed_weapons": [],
       "allowed_races": []
     },
-    "target_attack": "enemy",
-    "target_effect": "ally",
-    "skill_description": "Deploys a stationary turret that automatically shoots enemies each turn for 3 turn.",
-    "skill_shape": "single_projectile",
+    "target_attack": "self",
+    "target_effect": "self",
+    "skill_description": "Deploy up to two turrets. Each attacks independently, can be targeted, and loses 5% max HP after attacking. Turrets persist until their HP reaches zero.",
+    "skill_shape": "self_cast",
     "range": 3.0,
     "aoe_radius": 0.0,
     "projectile_speed": 8.0,
