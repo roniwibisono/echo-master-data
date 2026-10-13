@@ -11,6 +11,11 @@ class SkillMemoryDataTest(unittest.TestCase):
 
     def test_valid_pack(self):
         builder.validate(self.pack, self.files)
+    def test_dummy_only_costs_one_potion_and_no_currency(self):
+        recipe = next(r for r in self.pack['recipes'] if r['recipe_id'] == 'rcp_mem_dummy_skill')
+        self.assertEqual(recipe['ingredients'], [{'item_id': 'con_small_hp_cell', 'quantity': 1}])
+        self.assertEqual(recipe['crafting_cost'], 0)
+        self.assertEqual(recipe['craftable_by_npcs'], [builder.NPC])
 
     def test_required_weapon_families_are_craftable(self):
         equipment = {i['id']: i for i in self.pack['training_equipment']}
@@ -19,18 +24,19 @@ class SkillMemoryDataTest(unittest.TestCase):
         self.assertEqual(len(self.pack['equipment_recipes']), 5)
         for recipe in self.pack['equipment_recipes']:
             self.assertIn(recipe['result']['item_id'], equipment)
-            self.assertEqual(recipe['craftable_by_npcs'], [builder.NPC])
+            self.assertEqual(recipe['craftable_by_npcs'], ['npc_master_blacksmith'])
 
     def test_all_sequential_training_steps(self):
         quests = self.pack['training_quests']
-        self.assertEqual(len(quests), 180)
+        self.assertEqual(len(quests), 189)
         for profile in self.pack['profiles']:
             steps = [q for q in quests if q['skill_id'] == profile['skill_id']]
             self.assertEqual([q['to_level'] for q in steps], list(range(2, 11)))
             for q in steps:
                 self.assertEqual(q['from_level'], q['to_level'] - 1)
-                self.assertEqual(q['required_uses'], 5 * q['to_level'] * profile['tier'])
-                self.assertEqual(q['required_victories'], q['to_level'] + profile['tier'])
+                dummy = profile['skill_id'] == 'sk_mem_dummy_skill'
+                self.assertEqual(q['required_uses'], 1 if dummy else 5 * q['to_level'] * profile['tier'])
+                self.assertEqual(q['required_victories'], 1 if dummy else q['to_level'] + profile['tier'])
 
     def test_training_cannot_skip_levels(self):
         self.pack['training_quests'][0]['from_level'] = 0

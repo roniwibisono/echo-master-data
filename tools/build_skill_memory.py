@@ -10,6 +10,7 @@ WEAPONS = ['Knuckle', 'Sword', 'Dagger', 'Spear', 'Polearm', 'Staff', 'Orb', 'Gr
 
 # Name, tier, weapon, damage formula, secondary mechanic, thematic material.
 CATALOG = [
+    ('Dummy Skill', 1, 'ALL', 'atk * 0.1', 'cheap', 'con_small_hp_cell'),
     ('Dark Punch', 1, 'Knuckle', 'atk * 1.25', 'weaken', 'void_parasite_egg'),
     ('Iron Jab', 1, 'Knuckle', 'atk * 1.15', 'cheap', 'scrap_metal'),
     ('Crescent Slash', 1, 'Sword', 'atk * 1.2', 'bleed', 'scorpion_stinger'),
@@ -115,6 +116,9 @@ def build():
         slug = name.lower().replace(' ', '_')
         sid, iid, rid = 'sk_mem_' + slug, 'mem_' + slug, 'rcp_mem_' + slug
         minimum = [20, 40, 60][tier - 1]
+        dummy = name == 'Dummy Skill'
+        if dummy:
+            minimum = 1
         target = 'enemy'
         specials, periodic, modifiers = [], [], []
         details = f'Deals {formula} damage.'
@@ -176,6 +180,10 @@ def build():
             'skill_memory_profile_id': sid,
             'skill_memory_tier': tier,
         }
+        if dummy:
+            skill['mp_cost'] = 0
+            skill['skill_memory_test'] = True
+            skill['skill_description'] = 'Testing technique: 10% ATK damage, any weapon. One meaningful use and one PvE win per mastery level.'
         ingredients = [{'item_id': 'memory_fragment_chip', 'quantity': 2 * tier},
                        {'item_id': ['scrap_circuit', 'raw_aethel_fragment', 'void_core'][tier - 1],
                         'quantity': tier + 1},
@@ -186,6 +194,9 @@ def build():
             combined[key] = combined.get(key, 0) + entry['quantity']
         ingredients = [{'item_id': key, 'quantity': value} for key, value in combined.items()]
         fee = [150, 600, 1800][tier - 1]
+        if dummy:
+            ingredients = [{'item_id': 'con_small_hp_cell', 'quantity': 1}]
+            fee = 0
         floor = sum(items[x['item_id']]['sell_price'] * x['quantity'] for x in ingredients) + fee
         memory = {
             'id': iid, 'name': 'Skill Memory : ' + name,
@@ -199,9 +210,13 @@ def build():
             'icon_image': 'materials/memory_fragment_chip.png',
             'tradable': True, 'bind_on_use': True, 'skill_memory_profile_id': sid,
         }
+        if dummy:
+            memory['sell_price'] = 0
+            memory['special_effects'][0].update(learning_victories=1, test_skill=True)
+            memory['description'] = 'Testing memory: any weapon, one PvE win to learn. Train using one effective cast and one PvE victory per level.'
         recipe = {'recipe_id': rid, 'recipe_name': 'Inscribe ' + name, 'category': 'SKILL_MEMORY',
                   'crafting_station': 'MEMORY_PRESS', 'required_level': minimum,
-                  'crafting_time_seconds': [15, 30, 60][tier - 1], 'crafting_cost': fee,
+            'crafting_time_seconds': 1 if dummy else [15, 30, 60][tier - 1], 'crafting_cost': fee,
                   'craftable_by_npcs': [NPC], 'result': {'item_id': iid, 'quantity': 1},
                   'ingredients': ingredients}
         profiles.append({'skill_id': sid, 'item_id': iid, 'recipe_id': rid, 'tier': tier,
@@ -256,7 +271,7 @@ def build():
             'recipe_id': 'rcp_' + iid, 'recipe_name': 'Forge Artisan ' + weapon,
             'category': 'WEAPON', 'crafting_station': 'MEMORY_PRESS', 'required_level': 20,
             'crafting_time_seconds': 15, 'crafting_cost': 200,
-            'craftable_by_npcs': [NPC], 'result': {'item_id': iid, 'quantity': 1},
+            'craftable_by_npcs': ['npc_master_blacksmith'], 'result': {'item_id': iid, 'quantity': 1},
             'ingredients': [{'item_id': 'scrap_metal', 'quantity': 5},
                             {'item_id': 'scrap_circuit', 'quantity': 3}],
         })
@@ -269,8 +284,8 @@ def build():
                 'id': f"q_mem_train_{skill['id'][7:]}_{level}",
                 'skill_id': skill['id'], 'from_level': level - 1, 'to_level': level,
                 'tier': tier, 'weapon_family': profile['weapon_family'],
-                'required_uses': 5 * level * tier,
-                'required_victories': level + tier,
+                'required_uses': 1 if skill.get('skill_memory_test') else 5 * level * tier,
+                'required_victories': 1 if skill.get('skill_memory_test') else level + tier,
                 'quest_giver': NPC, 'region': 'CENTRAL_SPIRE_BAZAAR',
                 'objectives': ['meaningful_skill_uses', 'qualifying_victories', 'artisan_turn_in'],
                 'binding': 'learner_snapshot_only_not_public_quest_catalog',
@@ -330,17 +345,18 @@ def validate(pack, files):
     ]:
         ids = [x[key] for x in entries]
         require(len(ids) == len(set(ids)), 'Duplicate ' + name + ' IDs')
-    require(all(len(pack[key]) == 20 for key in ('skills', 'items', 'recipes', 'profiles')), 'Expected 20 complete memory sets')
+    require(all(len(pack[key]) == 21 for key in ('skills', 'items', 'recipes', 'profiles')), 'Expected 21 complete memory sets')
     expected_training = {(p['skill_id'], level): p for p in pack['profiles'] for level in range(2, 11)}
-    require(len(pack['training_quests']) == 180, 'Expected 180 training quests')
-    require(len({q['id'] for q in pack['training_quests']}) == 180, 'Duplicate training IDs')
+    require(len(pack['training_quests']) == 189, 'Expected 189 training quests')
+    require(len({q['id'] for q in pack['training_quests']}) == 189, 'Duplicate training IDs')
     for quest in pack['training_quests']:
         profile = expected_training.pop((quest['skill_id'], quest['to_level']), None)
         require(profile is not None, 'Invalid training level or skill')
         require(quest['from_level'] == quest['to_level'] - 1, 'Training must be sequential')
+        dummy = quest['skill_id'] == 'sk_mem_dummy_skill'
         require(quest['tier'] == profile['tier'] and
-                quest['required_uses'] == 5 * quest['to_level'] * profile['tier'] and
-                quest['required_victories'] == quest['to_level'] + profile['tier'], 'Training requirements mismatch')
+                quest['required_uses'] == (1 if dummy else 5 * quest['to_level'] * profile['tier']) and
+                quest['required_victories'] == (1 if dummy else quest['to_level'] + profile['tier']), 'Training requirements mismatch')
     items = {x['id']: x for x in files['item_list.json']['items']}
     drops = {d['itemId'] for monster in load('monster_master.json')['monsters']
              for d in monster.get('drop_item', [])}
@@ -348,12 +364,13 @@ def validate(pack, files):
     recipes = {x['recipe_id']: x for x in pack['recipes']}
     for profile in pack['profiles']:
         skill, item, recipe = skills[profile['skill_id']], items[profile['item_id']], recipes[profile['recipe_id']]
-        require(profile['weapon_family'] in WEAPONS, 'Unknown weapon')
+        dummy = skill['id'] == 'sk_mem_dummy_skill'
+        require(profile['weapon_family'] in WEAPONS or (dummy and profile['weapon_family'] == 'ALL'), 'Unknown weapon')
         require(skill['skill_memory_tier'] == profile['tier'], 'Training tier mismatch')
         require(skill['usage_requirements']['allowed_weapons'] == [profile['weapon_family']], 'Weapon mismatch')
         require(item['special_effects'][0]['skill_id'] == skill['id'], 'Memory skill mismatch')
         require(item['special_effects'][0]['weapon_family'] == profile['weapon_family'], 'Learning weapon mismatch')
-        require(item['special_effects'][0]['learning_victories'] == [3, 5, 8][profile['tier'] - 1], 'Learning objective mismatch')
+        require(item['special_effects'][0]['learning_victories'] == (1 if dummy else [3, 5, 8][profile['tier'] - 1]), 'Learning objective mismatch')
         require(recipe['result'] == {'item_id': item['id'], 'quantity': 1}, 'Recipe output mismatch')
         require(recipe['craftable_by_npcs'] == [NPC], 'Wrong artisan')
         require(item['type'] == 'SKILL_MEMORY' and item['tradable'] and item['bind_on_use'], 'Unsafe item contract')
@@ -362,8 +379,8 @@ def validate(pack, files):
         price = recipe['crafting_cost']
         for ingredient in recipe['ingredients']:
             material = items[ingredient['item_id']]
-            require(material['type'] == 'MATERIAL', 'Ingredient is not a material')
-            require(material['id'] in drops, 'Material has no monster drop source')
+            require(material['type'] == 'MATERIAL' or (dummy and material['id'] == 'con_small_hp_cell'), 'Ingredient is not a material')
+            require(material['id'] in drops or dummy, 'Material has no monster drop source')
             require(ingredient['quantity'] > 0, 'Invalid ingredient amount')
             require(material['level_requirement'] <= recipe['required_level'], 'Material above recipe level')
             price += material['sell_price'] * ingredient['quantity']
@@ -396,7 +413,7 @@ def main():
         for name, value in files.items():
             if not (ROOT / name).exists() or load(name) != value:
                 (ROOT / name).write_text(json.dumps(value, indent=2, ensure_ascii=False) + '\n')
-    print('PASS: 20 skills, 20 memories, 20 recipes, 5 training weapons, 180 training templates; compatible client required.')
+    print('PASS: 21 skills/memories/recipes including Dummy Skill, 5 training weapons, 189 training templates; compatible client required.')
 
 
 if __name__ == '__main__':

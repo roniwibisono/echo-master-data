@@ -6982,7 +6982,7 @@
       "crafting_time_seconds": 15,
       "crafting_cost": 200,
       "craftable_by_npcs": [
-        "npc_skill_artisan_ivara"
+        "npc_master_blacksmith"
       ],
       "result": {
         "item_id": "memory_artisan_knuckle",
@@ -7008,7 +7008,7 @@
       "crafting_time_seconds": 15,
       "crafting_cost": 200,
       "craftable_by_npcs": [
-        "npc_skill_artisan_ivara"
+        "npc_master_blacksmith"
       ],
       "result": {
         "item_id": "memory_artisan_orb",
@@ -7034,7 +7034,7 @@
       "crafting_time_seconds": 15,
       "crafting_cost": 200,
       "craftable_by_npcs": [
-        "npc_skill_artisan_ivara"
+        "npc_master_blacksmith"
       ],
       "result": {
         "item_id": "memory_artisan_grimoire",
@@ -7060,7 +7060,7 @@
       "crafting_time_seconds": 15,
       "crafting_cost": 200,
       "craftable_by_npcs": [
-        "npc_skill_artisan_ivara"
+        "npc_master_blacksmith"
       ],
       "result": {
         "item_id": "memory_artisan_polearm",
@@ -7086,7 +7086,7 @@
       "crafting_time_seconds": 15,
       "crafting_cost": 200,
       "craftable_by_npcs": [
-        "npc_skill_artisan_ivara"
+        "npc_master_blacksmith"
       ],
       "result": {
         "item_id": "memory_artisan_shield",
@@ -7100,6 +7100,28 @@
         {
           "item_id": "scrap_circuit",
           "quantity": 3
+        }
+      ]
+    },
+    {
+      "recipe_id": "rcp_mem_dummy_skill",
+      "recipe_name": "Inscribe Dummy Skill",
+      "category": "SKILL_MEMORY",
+      "crafting_station": "MEMORY_PRESS",
+      "required_level": 1,
+      "crafting_time_seconds": 1,
+      "crafting_cost": 0,
+      "craftable_by_npcs": [
+        "npc_skill_artisan_ivara"
+      ],
+      "result": {
+        "item_id": "mem_dummy_skill",
+        "quantity": 1
+      },
+      "ingredients": [
+        {
+          "item_id": "con_small_hp_cell",
+          "quantity": 1
         }
       ]
     }

@@ -32388,5 +32388,37 @@
     "cooldown_seconds": 7.0,
     "skill_memory_profile_id": "sk_mem_astral_rupture",
     "skill_memory_tier": 3
+  },
+  {
+    "id": "sk_mem_dummy_skill",
+    "name": "Dummy Skill",
+    "type": "Active",
+    "source_type": "Skill_Memory",
+    "mp_cost": 0,
+    "damage_formula": "atk * 0.1",
+    "effect": "Deals atk * 0.1 damage.",
+    "stat_modifiers": [],
+    "periodic_effects": [],
+    "control_effects": [],
+    "special_effects": [],
+    "usage_requirements": {
+      "allowed_classes": [],
+      "min_level": 1,
+      "allowed_weapons": [
+        "ALL"
+      ],
+      "allowed_races": []
+    },
+    "target_attack": "enemy",
+    "target_effect": "enemy",
+    "skill_description": "Testing technique: 10% ATK damage, any weapon. One meaningful use and one PvE win per mastery level.",
+    "skill_shape": "single_projectile",
+    "range": 1.5,
+    "aoe_radius": 0.0,
+    "projectile_speed": 0.0,
+    "cooldown_seconds": 3.0,
+    "skill_memory_profile_id": "sk_mem_dummy_skill",
+    "skill_memory_tier": 1,
+    "skill_memory_test": true
   }
 ]

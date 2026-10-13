@@ -1,5 +1,20 @@
 # Skill Memory
 
+## Artisan Scope and Dummy Skill (2026-10-13)
+
+Ivara offers only explicitly assigned `SKILL_MEMORY` recipes. Generic `ALL`
+recipes are excluded and the Upgrade/Shop service selector is hidden. Five
+supporting weapon recipes have moved to `npc_master_blacksmith`.
+
+`Dummy Skill` (`sk_mem_dummy_skill`, `mem_dummy_skill`, `rcp_mem_dummy_skill`)
+is an additional QA technique: craft from one `con_small_hp_cell` (Small HP Cell /
+HP potion), zero CRD, one-second craft. It deals 10% ATK, costs zero MP, and accepts
+any weapon. Learn it with one PvE win; each mastery step requires one effective
+use, one PvE win, and Ivara's turn-in. Low-level PvE qualifies ONLY for this
+explicitly marked test skill. PvP, training-dummy enemies, ineffective casts,
+and replayed events remain excluded. Normal Memory objectives are unchanged.
+There are now 21 Memory skills/items/recipes and 189 upgrade templates.
+
 Status: learning, loadout, training and mastery runtime implemented and tested in
 the client; compatible iOS Simulator build is the requested release target.
 Hosted catalog and co-op migrations are applied. Public store distribution is

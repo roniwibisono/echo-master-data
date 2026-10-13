@@ -25968,6 +25968,40 @@
       "max_stack": 1,
       "icon_image": "materials/memory_fragment_chip.png",
       "description": "A practical shield forged by Ivara for memory techniques."
+    },
+    {
+      "id": "mem_dummy_skill",
+      "name": "Skill Memory : Dummy Skill",
+      "description": "Testing memory: any weapon, one PvE win to learn. Train using one effective cast and one PvE victory per level.",
+      "type": "SKILL_MEMORY",
+      "rarity": "UNCOMMON",
+      "level_requirement": 1,
+      "equipment_slots": [],
+      "stats_bonus": {
+        "atk": 0,
+        "def": 0,
+        "hp": 0,
+        "mp": 0,
+        "agi": 0,
+        "per": 0
+      },
+      "special_effects": [
+        {
+          "type": "start_skill_memory_learning",
+          "value": 1,
+          "skill_id": "sk_mem_dummy_skill",
+          "weapon_family": "ALL",
+          "learning_victories": 1,
+          "test_skill": true
+        }
+      ],
+      "buy_price": 0,
+      "sell_price": 0,
+      "max_stack": 20,
+      "icon_image": "materials/memory_fragment_chip.png",
+      "tradable": true,
+      "bind_on_use": true,
+      "skill_memory_profile_id": "sk_mem_dummy_skill"
     }
   ]
 }

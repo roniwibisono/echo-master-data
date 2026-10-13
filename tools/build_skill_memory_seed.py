@@ -63,7 +63,7 @@ def main():
             raise SystemExit('Seed needs regeneration')
     else:
         TARGET.write_text(content)
-    print('PASS: scoped seed for 20 items, 20 skills, Ivara, dialogue and 180 templates')
+    print('PASS: scoped seed for 21 memories/skills, Ivara, dialogue and 189 templates')
 
 
 if __name__ == '__main__':
