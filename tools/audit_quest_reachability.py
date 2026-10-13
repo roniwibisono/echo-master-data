@@ -13,8 +13,11 @@ def audit():
     nodes = json.loads((ROOT / 'world_map_v4.json').read_text())['nodes']
     monsters = json.loads((ROOT / 'monster_master.json').read_text())['monsters']
     ids = {n['id'] for n in nodes}
+    by_id = {m['monster_id']: m for m in monsters}
     spawned = {s['monster_id'] for n in nodes if not n['is_safe_zone']
-               for s in n['monster_spawns'] if s['spawn_weight'] > 0}
+               for s in n['monster_spawns'] if s['spawn_weight'] > 0
+               and s['monster_id'] in by_id
+               and by_id[s['monster_id']]['level'] <= n['level_range'][1] + 20}
     live = [m for m in monsters if m['monster_id'] in spawned]
     codes = {m['code'] for m in live}
     drops = {d['itemId'] for m in live for d in m.get('drop_item', []) if d.get('chance', 0) > 0}
