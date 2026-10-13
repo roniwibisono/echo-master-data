@@ -183,7 +183,7 @@ def build():
         if dummy:
             skill['mp_cost'] = 0
             skill['skill_memory_test'] = True
-            skill['skill_description'] = 'Testing technique: 10% ATK damage, any weapon. One meaningful use and one PvE win per mastery level.'
+            skill['skill_description'] = 'Testing technique: 10% ATK damage, any weapon. Upgrade with one Small HP Cell per level, up to level 10.'
         ingredients = [{'item_id': 'memory_fragment_chip', 'quantity': 2 * tier},
                        {'item_id': ['scrap_circuit', 'raw_aethel_fragment', 'void_core'][tier - 1],
                         'quantity': tier + 1},
@@ -213,7 +213,7 @@ def build():
         if dummy:
             memory['sell_price'] = 0
             memory['special_effects'][0].update(learning_victories=1, test_skill=True)
-            memory['description'] = 'Testing memory: any weapon, one PvE win to learn. Train using one effective cast and one PvE victory per level.'
+            memory['description'] = 'Testing memory: any weapon, one PvE win and Ivara review to learn. After learning, upgrade using one Small HP Cell per level, up to level 10.'
         recipe = {'recipe_id': rid, 'recipe_name': 'Inscribe ' + name, 'category': 'SKILL_MEMORY',
                   'crafting_station': 'MEMORY_PRESS', 'required_level': minimum,
             'crafting_time_seconds': 1 if dummy else [15, 30, 60][tier - 1], 'crafting_cost': fee,
@@ -293,6 +293,10 @@ def build():
     return {'schema_version': 1, 'status': 'runtime_ready_client_release_required',
             'runtime_ready': True, 'skills': skills,
             'training_quests': training,
+            'dummy_upgrade': {'skill_id': 'sk_mem_dummy_skill', 'mode': 'potion',
+                              'ingredients': [{'item_id': 'con_small_hp_cell', 'quantity': 1}],
+                              'crafting_cost': 0, 'max_level': 10, 'requires_learned': True,
+                              'battle_objectives_required': False},
             'training_equipment': equipment, 'equipment_recipes': equipment_recipes,
             'items': memories, 'recipes': recipes, 'profiles': profiles, 'npc': npc, 'dialogue': dialog}
 

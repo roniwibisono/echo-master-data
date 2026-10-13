@@ -2,6 +2,13 @@
 
 ## Artisan Scope and Dummy Skill (2026-10-13)
 
+Update: learned Dummy Skill upgrades consume one Small HP Cell per level
+directly from Battle Skill Setup, with confirmation and no battle objectives or
+CRD cost. Old test-training templates remain for compatibility; `dummy_upgrade`
+is now the preferred path. Initial learning still requires a single PvE victory
+and Ivara turn-in. Battle Skill Setup configures Memory slots only; class skills
+are unchanged. Potion consumption and mastery increment commit atomically.
+
 Ivara offers only explicitly assigned `SKILL_MEMORY` recipes. Generic `ALL`
 recipes are excluded and the Upgrade/Shop service selector is hidden. Five
 supporting weapon recipes have moved to `npc_master_blacksmith`.

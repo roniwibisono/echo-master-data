@@ -25,7 +25,7 @@
       },
       "target_attack": "enemy",
       "target_effect": "enemy",
-      "skill_description": "Testing technique: 10% ATK damage, any weapon. One meaningful use and one PvE win per mastery level.",
+      "skill_description": "Testing technique: 10% ATK damage, any weapon. Upgrade with one Small HP Cell per level, up to level 10.",
       "skill_shape": "single_projectile",
       "range": 1.5,
       "aoe_radius": 0.0,
@@ -4182,6 +4182,20 @@
       "binding": "learner_snapshot_only_not_public_quest_catalog"
     }
   ],
+  "dummy_upgrade": {
+    "skill_id": "sk_mem_dummy_skill",
+    "mode": "potion",
+    "ingredients": [
+      {
+        "item_id": "con_small_hp_cell",
+        "quantity": 1
+      }
+    ],
+    "crafting_cost": 0,
+    "max_level": 10,
+    "requires_learned": true,
+    "battle_objectives_required": false
+  },
   "training_equipment": [
     {
       "id": "memory_artisan_knuckle",
@@ -4445,7 +4459,7 @@
     {
       "id": "mem_dummy_skill",
       "name": "Skill Memory : Dummy Skill",
-      "description": "Testing memory: any weapon, one PvE win to learn. Train using one effective cast and one PvE victory per level.",
+      "description": "Testing memory: any weapon, one PvE win and Ivara review to learn. After learning, upgrade using one Small HP Cell per level, up to level 10.",
       "type": "SKILL_MEMORY",
       "rarity": "UNCOMMON",
       "level_requirement": 1,
