@@ -1,0 +1,14 @@
+{
+  "quests": 768,
+  "objectives": {
+    "action": 3,
+    "kill": 767,
+    "collect": 20,
+    "interact": 86,
+    "travel": 14
+  },
+  "errors": [],
+  "limitations": [
+    "Interaction fallback and content activation must also be verified in the client; this is not a full gameplay simulation."
+  ]
+}

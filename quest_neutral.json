@@ -41,9 +41,11 @@
         },
         {
           "type": "kill",
-          "target": "ROGUE_ARMS_DEALER",
+          "target": 5105,
           "count": 5,
-          "description": "Neutralize {count} rogue arms dealers near the contested border"
+          "target_code": "FERAL_SCAVENGER",
+          "description": "Defeat {count} Feral Scavenger in Broken Civil Quarter.",
+          "location": "BROKEN_CIVIL_QUARTER"
         },
         {
           "type": "collect",
@@ -105,21 +107,24 @@
       "objectives": [
         {
           "type": "travel",
-          "target": "CONFLICT_ZONE_HUB",
+          "target": "BLACK_DOCK_MARKET",
           "count": 1,
-          "description": "Infiltrate the suspected smuggling hub in the conflict zone"
+          "description": "Travel to Black Dock Market."
         },
         {
-          "type": "stealth",
-          "target": "SHADOW_ORG_INTEL",
+          "type": "collect",
+          "target": "contraband_core",
           "count": 4,
-          "description": "Gather {count} intelligence fragments without alerting guards"
+          "description": "Recover {count} Contraband Core in Black Dock Market.",
+          "location": "BLACK_DOCK_MARKET"
         },
         {
           "type": "kill",
-          "target": "SHADOW_ENFORCER",
+          "target": 5152,
           "count": 8,
-          "description": "Eliminate {count} shadow enforcers who spot you during extraction"
+          "target_code": "BLACK_DOCK_ENFORCER",
+          "description": "Defeat {count} Black Dock Enforcer in Black Dock Market.",
+          "location": "BLACK_DOCK_MARKET"
         },
         {
           "type": "interact",
@@ -179,21 +184,25 @@
       "objectives": [
         {
           "type": "travel",
-          "target": "ROGUE_CUSTODIAN_FORTRESS",
+          "target": "TITAN_ASSEMBLY_YARD",
           "count": 1,
-          "description": "Breach the rogue Custodian's hidden fortress"
-        },
-        {
-          "type": "destroy",
-          "target": "WEAPON_COMPONENT_STORAGE",
-          "count": 6,
-          "description": "Destroy {count} planet-killer weapon component storage pods"
+          "description": "Travel to Titan Assembly Yard."
         },
         {
           "type": "kill",
-          "target": "ROGUE_CUSTODIAN_COMMANDER",
+          "target": 5208,
+          "count": 6,
+          "target_code": "TITAN_ASSEMBLY_SENTINEL",
+          "description": "Defeat {count} Titan Assembly Sentinel in Titan Assembly Yard.",
+          "location": "TITAN_ASSEMBLY_YARD"
+        },
+        {
+          "type": "kill",
+          "target": 5209,
           "count": 1,
-          "description": "Defeat the rogue Custodian Commander — a former Guardian-class Dreadnought captain"
+          "target_code": "TITAN_PROTO_CORE",
+          "description": "Defeat {count} Titan Proto Core in Titan Assembly Yard.",
+          "location": "TITAN_ASSEMBLY_YARD"
         },
         {
           "type": "interact",
@@ -258,9 +267,9 @@
       "objectives": [
         {
           "type": "travel",
-          "target": "MID_ZONE_SKIRMISH_AREA",
+          "target": "BROKEN_CIVIL_QUARTER",
           "count": 1,
-          "description": "Travel to the Mid-Zone Skirmish Area node on the world map"
+          "description": "Travel to Broken Civil Quarter."
         },
         {
           "type": "collect",
@@ -327,15 +336,16 @@
       "objectives": [
         {
           "type": "travel",
-          "target": "SECRET_VAULT_REGION",
+          "target": "SECURE_MINING_GRID",
           "count": 1,
-          "description": "Reach the hidden archive vault in the deep-tier region"
+          "description": "Travel to Secure Mining Grid."
         },
         {
-          "type": "scan",
-          "target": "ARCHIVE_FRAGMENT_READER",
+          "type": "collect",
+          "target": "refined_scrap",
           "count": 3,
-          "description": "Scan {count} archive fragment readers to locate the lost page"
+          "description": "Recover {count} Refined Scrap in Secure Mining Grid.",
+          "location": "SECURE_MINING_GRID"
         },
         {
           "type": "kill",
@@ -477,9 +487,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "BORDER_RAIDER",
+          "target": 5103,
           "count": 15,
-          "description": "Eliminate {count} border raiders threatening the neutral zone"
+          "target_code": "SCRAPFIELD_ENFORCER",
+          "description": "Defeat {count} Scrapfield Enforcer in Scrap Field.",
+          "location": "SCRAP_FIELD"
         },
         {
           "type": "travel",
@@ -573,9 +585,9 @@
       "objectives": [
         {
           "type": "travel",
-          "target": "HIGH_ZONE_DELIVERY_POINT",
+          "target": "EXTRACTION_ZONE_DELTA",
           "count": 1,
-          "description": "Reach the delivery point in the high-danger region"
+          "description": "Travel to Extraction Zone Delta."
         },
         {
           "type": "kill",
@@ -639,27 +651,32 @@
       "objectives": [
         {
           "type": "travel",
-          "target": "COUNTERFEIT_FORGE_LOCATION",
+          "target": "FORGE_CANYON_DEPTHS",
           "count": 1,
-          "description": "Locate the underground counterfeit forge in the conflict zone"
-        },
-        {
-          "type": "destroy",
-          "target": "COUNTERFEIT_PRESS_MACHINE",
-          "count": 3,
-          "description": "Destroy {count} counterfeit CRD press machines"
+          "description": "Travel to Forge Canyon Depths."
         },
         {
           "type": "kill",
-          "target": "FORGE_GUARD_ELITE",
+          "target": 5180,
+          "count": 3,
+          "target_code": "WARPATH_SCOUT",
+          "description": "Defeat {count} Warpath Scout in Forge Canyon Depths.",
+          "location": "FORGE_CANYON_DEPTHS"
+        },
+        {
+          "type": "kill",
+          "target": 5182,
           "count": 10,
-          "description": "Eliminate {count} forge guards protecting the operation"
+          "target_code": "WARPATH_CHAMPION",
+          "description": "Defeat {count} Warpath Champion in Forge Canyon Depths.",
+          "location": "FORGE_CANYON_DEPTHS"
         },
         {
           "type": "collect",
-          "target": "COUNTERFEIT_CRD_SAMPLE",
+          "target": "rare_emblem",
           "count": 5,
-          "description": "Recover 5 counterfeit CRD samples for forensic analysis"
+          "description": "Recover {count} Rare Emblem in Forge Canyon Depths.",
+          "location": "FORGE_CANYON_DEPTHS"
         },
         {
           "type": "interact",
@@ -715,15 +732,17 @@
       "objectives": [
         {
           "type": "travel",
-          "target": "CRISIS_FACTION_CAPITAL",
+          "target": "SKYBRIDGE_REACTOR",
           "count": 1,
-          "description": "Escort the AMA stabilization convoy to the crisis faction capital"
+          "description": "Travel to Skybridge Reactor."
         },
         {
           "type": "kill",
-          "target": "ECONOMIC_SPECULATOR_SQUAD",
+          "target": 5208,
           "count": 20,
-          "description": "Eliminate {count} speculator squads attacking the convoy"
+          "target_code": "TITAN_ASSEMBLY_SENTINEL",
+          "description": "Defeat {count} Titan Assembly Sentinel in Skybridge Reactor.",
+          "location": "SKYBRIDGE_REACTOR"
         },
         {
           "type": "interact",
@@ -784,9 +803,11 @@
       "objectives": [
         {
           "type": "kill",
-          "target": "SUMMIT_DISRUPTOR",
+          "target": 5180,
           "count": 12,
-          "description": "Neutralize {count} summit disruptors before the delegates arrive"
+          "target_code": "WARPATH_SCOUT",
+          "description": "Defeat {count} Warpath Scout in Border Skirmish Ring.",
+          "location": "BORDER_SKIRMISH_RING"
         },
         {
           "type": "interact",
@@ -802,9 +823,11 @@
         },
         {
           "type": "kill",
-          "target": "ASSASSIN_ELITE",
+          "target": 5151,
           "count": 3,
-          "description": "Defeat {count} elite assassins sent to disrupt the summit"
+          "target_code": "BLACK_DOCK_ASSASSIN",
+          "description": "Defeat {count} Black Dock Assassin in Black Dock Market.",
+          "location": "BLACK_DOCK_MARKET"
         }
       ],
       "rewards": {
